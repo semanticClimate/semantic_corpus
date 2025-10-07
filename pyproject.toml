@@ -34,7 +34,6 @@ dependencies = [
     "tqdm>=4.60.0",
     "coloredlogs>=15.0",
     "configargparse>=1.5.0",
-    "click>=8.0.0",
     "pyyaml>=6.0.0",
     "pathlib2>=2.3.0; python_version < '3.4'",
 ]
