@@ -69,15 +69,13 @@ class EuropePMCRepository(RepositoryInterface):
     def get_paper_metadata(self, paper_id: str) -> Dict[str, Any]:
         """Get metadata for a specific paper from Europe PMC."""
         try:
-            # Try PMC ID first
-            if paper_id.startswith("PMC"):
-                params = {"format": "json", "id": paper_id}
-                response = requests.get(f"{self.base_url}/articles", params=params)
-            else:
-                # Try PMID
-                params = {"format": "json", "id": paper_id}
-                response = requests.get(f"{self.base_url}/articles", params=params)
-            
+            # Use search API to find the paper
+            params = {
+                "query": f"EXT_ID:{paper_id}",
+                "format": "json",
+                "resultType": "core"
+            }
+            response = requests.get(f"{self.base_url}/search", params=params)
             response.raise_for_status()
             data = response.json()
             
@@ -114,10 +112,38 @@ class EuropePMCRepository(RepositoryInterface):
             output_dir.mkdir(parents=True, exist_ok=True)
             downloaded_files = []
             
+            # Get PMCID for download - if paper_id is PMID, search for PMCID
+            if not paper_id.startswith("PMC") and not paper_id.startswith("PPR"):
+                # Search for the paper to get PMCID
+                search_params = {
+                    "query": f"EXT_ID:{paper_id}",
+                    "format": "json",
+                    "resultType": "core"
+                }
+                search_response = requests.get(f"{self.base_url}/search", params=search_params)
+                search_response.raise_for_status()
+                search_data = search_response.json()
+                
+                if not search_data.get("resultList", {}).get("result"):
+                    raise RepositoryError(f"Paper {paper_id} not found")
+                
+                pmcid = search_data["resultList"]["result"][0].get("pmcid", "")
+                if not pmcid:
+                    raise RepositoryError(f"No PMCID found for {paper_id}")
+                
+                # Extract number from PMCID (remove PMC prefix)
+                download_id = pmcid.replace("PMC", "")
+            else:
+                # Use paper_id directly for PMC or PPR IDs, but remove PMC prefix if present
+                if paper_id.startswith("PMC"):
+                    download_id = paper_id.replace("PMC", "")
+                else:
+                    download_id = paper_id
+            
             for format_type in formats:
                 if format_type == "xml":
-                    # Download XML
-                    xml_url = f"{self.base_url}/articles/{paper_id}/fullTextXML"
+                    # Download XML using correct endpoint format
+                    xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
                     response = requests.get(xml_url)
                     response.raise_for_status()
                     
@@ -126,8 +152,8 @@ class EuropePMCRepository(RepositoryInterface):
                     downloaded_files.append(str(xml_file))
                 
                 elif format_type == "pdf":
-                    # Download PDF
-                    pdf_url = f"{self.base_url}/articles/{paper_id}/fullTextPDF"
+                    # Download PDF using correct endpoint format
+                    pdf_url = f"{self.base_url}/PMC{download_id}/fullTextPDF"
                     response = requests.get(pdf_url)
                     response.raise_for_status()
                     

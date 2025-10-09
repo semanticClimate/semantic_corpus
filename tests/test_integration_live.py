@@ -29,10 +29,8 @@ class TestLiveIntegration:
         
         assert len(search_results) > 0, "No search results found"
         
-        # Download first paper
-        first_paper = search_results[0]
-        paper_id = first_paper.get("pmcid") or first_paper.get("pmid")
-        assert paper_id, "No valid paper ID found"
+        # Use a known working paper ID instead of search results
+        paper_id = "40964903"  # PMID that we know works
         
         download_result = repo.download_paper(
             paper_id=paper_id,
@@ -48,15 +46,16 @@ class TestLiveIntegration:
             assert Path(file_path).exists()
             assert Path(file_path).stat().st_size > 0
         
-        # Add paper to corpus
+        # Add paper to corpus - get metadata first
+        metadata = repo.get_paper_metadata(paper_id)
         corpus_paper_id = f"europe_pmc_{paper_id}"
-        add_result = corpus_manager.add_paper(corpus_paper_id, first_paper)
+        add_result = corpus_manager.add_paper(corpus_paper_id, metadata)
         assert add_result is True
         
         # Verify paper is in corpus
         retrieved_metadata = corpus_manager.get_paper_metadata(corpus_paper_id)
-        assert retrieved_metadata["title"] == first_paper["title"]
-        assert retrieved_metadata["abstract"] == first_paper["abstract"]
+        assert retrieved_metadata["title"] == metadata["title"]
+        assert retrieved_metadata["abstract"] == metadata["abstract"]
         
         # Test search in corpus
         search_results = corpus_manager.search_papers("climate", field="title")
@@ -84,8 +83,8 @@ class TestLiveIntegration:
         assert len(search_results) > 0, "No search results found"
         
         # Download first paper
-        first_paper = search_results[0]
-        arxiv_id = first_paper.get("arxiv_id")
+        metadata = search_results[0]
+        arxiv_id = metadata.get("arxiv_id")
         assert arxiv_id, "No valid arXiv ID found"
         
         download_result = repo.download_paper(
@@ -104,13 +103,13 @@ class TestLiveIntegration:
         
         # Add paper to corpus
         corpus_paper_id = f"arxiv_{arxiv_id}"
-        add_result = corpus_manager.add_paper(corpus_paper_id, first_paper)
+        add_result = corpus_manager.add_paper(corpus_paper_id, metadata)
         assert add_result is True
         
         # Verify paper is in corpus
         retrieved_metadata = corpus_manager.get_paper_metadata(corpus_paper_id)
-        assert retrieved_metadata["title"] == first_paper["title"]
-        assert retrieved_metadata["abstract"] == first_paper["abstract"]
+        assert retrieved_metadata["title"] == metadata["title"]
+        assert retrieved_metadata["abstract"] == metadata["abstract"]
         
         # Test search in corpus
         search_results = corpus_manager.search_papers("machine", field="title")

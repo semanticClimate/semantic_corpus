@@ -10,6 +10,7 @@ from typing import Optional
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.core.exceptions import CorpusError, RepositoryError
+from semantic_corpus.utils import get_downloads_dir, get_corpus_dir
 
 
 def create_parser() -> argparse.ArgumentParser:
@@ -35,21 +36,21 @@ def create_parser() -> argparse.ArgumentParser:
     # Create corpus command
     create_parser = subparsers.add_parser('create', help='Create a new corpus')
     create_parser.add_argument('--name', '-n', required=True, help='Corpus name')
-    create_parser.add_argument('--path', '-p', type=str, help='Corpus directory path')
+    create_parser.add_argument('--path', '-p', type=str, help='Corpus directory path (default: temp/corpus/{name})')
     
     # Search papers command
     search_parser = subparsers.add_parser('search', help='Search for papers in repositories')
     search_parser.add_argument('--query', '-q', required=True, help='Search query')
     search_parser.add_argument('--repository', '-r', default='europe_pmc', help='Repository to search')
     search_parser.add_argument('--limit', '-l', type=int, default=10, help='Maximum number of results')
-    search_parser.add_argument('--output', '-o', type=str, help='Output directory')
+    search_parser.add_argument('--output', '-o', type=str, help='Output directory (default: temp/downloads)')
     
     # Download papers command
     download_parser = subparsers.add_parser('download', help='Download papers from repositories')
     download_parser.add_argument('--query', '-q', required=True, help='Search query')
     download_parser.add_argument('--repository', '-r', default='europe_pmc', help='Repository to search')
     download_parser.add_argument('--limit', '-l', type=int, default=10, help='Maximum number of results')
-    download_parser.add_argument('--output', '-o', required=True, type=str, help='Output directory')
+    download_parser.add_argument('--output', '-o', type=str, help='Output directory (default: temp/downloads)')
     download_parser.add_argument('--formats', '-f', default='xml,pdf', help='File formats to download')
     
     return parser
@@ -61,7 +62,8 @@ def create_corpus_command(args) -> None:
         if args.path:
             corpus_dir = Path(args.path) / args.name
         else:
-            corpus_dir = Path.cwd() / args.name
+            # Use project temp directory as default
+            corpus_dir = get_corpus_dir() / args.name
         
         corpus_manager = CorpusManager(corpus_dir)
         print(f"Corpus '{args.name}' created successfully at {corpus_dir}")
@@ -83,16 +85,16 @@ def search_papers_command(args) -> None:
             title = paper.get('title', 'No title')
             print(f"{i}. {title}")
         
-        if args.output:
-            output_dir = Path(args.output)
-            output_dir.mkdir(parents=True, exist_ok=True)
-            
-            # Save results to file
-            results_file = output_dir / "search_results.json"
-            with open(results_file, 'w') as f:
-                json.dump(results, f, indent=2)
-            
-            print(f"Results saved to {results_file}")
+        # Use default output directory if not specified
+        output_dir = Path(args.output) if args.output else get_downloads_dir()
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Save results to file
+        results_file = output_dir / "search_results.json"
+        with open(results_file, 'w') as f:
+            json.dump(results, f, indent=2)
+        
+        print(f"Results saved to {results_file}")
         
     except RepositoryError as e:
         print(f"Error searching papers: {e.message}", file=sys.stderr)
@@ -103,7 +105,8 @@ def download_papers_command(args) -> None:
     """Handle download papers command."""
     try:
         repo = RepositoryFactory.get_repository(args.repository)
-        output_dir = Path(args.output)
+        # Use default output directory if not specified
+        output_dir = Path(args.output) if args.output else get_downloads_dir()
         output_dir.mkdir(parents=True, exist_ok=True)
         
         # Search for papers

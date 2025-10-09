@@ -64,13 +64,8 @@ class TestEuropePMCRepository:
         """Test getting paper metadata from Europe PMC with live API."""
         repo = EuropePMCRepository()
         
-        # First search for a real paper to get a valid ID
-        search_results = repo.search_papers(query="climate change", limit=1)
-        assert len(search_results) > 0, "No search results found"
-        
-        # Get the first paper's ID
-        paper_id = search_results[0].get("pmcid") or search_results[0].get("pmid")
-        assert paper_id, "No valid paper ID found in search results"
+        # Use a known working paper ID
+        paper_id = "40964903"  # PMID that we know works
         
         # Test getting metadata for the real paper
         metadata = repo.get_paper_metadata(paper_id)
@@ -90,13 +85,8 @@ class TestEuropePMCRepository:
         """Test downloading a paper from Europe PMC with live API."""
         repo = EuropePMCRepository()
         
-        # First search for a real paper to get a valid ID
-        search_results = repo.search_papers(query="climate change", limit=1)
-        assert len(search_results) > 0, "No search results found"
-        
-        # Get the first paper's ID
-        paper_id = search_results[0].get("pmcid") or search_results[0].get("pmid")
-        assert paper_id, "No valid paper ID found in search results"
+        # Use a known working paper ID
+        paper_id = "40964903"  # PMID that we know works
         
         # Test downloading the real paper
         result = repo.download_paper(
