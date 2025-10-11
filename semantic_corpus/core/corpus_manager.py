@@ -139,7 +139,7 @@ class CorpusManager:
         
         return {
             "total_papers": len(papers),
-            "corpus_size_mb": round(corpus_size_mb, 2),
+            "corpus_size_mb": round(corpus_size_mb, 4),  # More precision to show small sizes
             "creation_date": datetime.now().isoformat(),
             "last_updated": datetime.now().isoformat(),
         }
