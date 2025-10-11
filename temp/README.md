@@ -34,3 +34,4 @@ When no output directory is specified:
 - CLI commands use `temp/downloads/` for file outputs
 - Corpus creation uses `temp/corpus/{name}/` for new corpora
 - Tests use `temp/test_results/` for temporary test files
+

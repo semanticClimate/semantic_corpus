@@ -29,7 +29,7 @@ class TestCLI:
         ], capture_output=True, text=True)
         
         assert result.returncode == 0
-        assert "Corpus created successfully" in result.stdout
+        assert "Corpus 'test_corpus' created successfully" in result.stdout
         assert (temp_dir / "test_corpus").exists()
 
     @pytest.mark.live_api
