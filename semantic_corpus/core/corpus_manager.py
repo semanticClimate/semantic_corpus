@@ -22,6 +22,10 @@ class CorpusManager:
         """
         self.corpus_dir = Path(corpus_dir)
         
+        # Validate parent directory exists for invalid paths
+        if not self.corpus_dir.parent.exists():
+            raise CorpusError(f"Parent directory does not exist: {self.corpus_dir.parent}")
+        
         # Create directory if it doesn't exist
         try:
             self.corpus_dir.mkdir(parents=True, exist_ok=True)

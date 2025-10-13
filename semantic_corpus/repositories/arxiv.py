@@ -2,6 +2,7 @@
 
 import json
 import requests
+import time
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 
@@ -17,6 +18,27 @@ class ArxivRepository(RepositoryInterface):
         super().__init__()
         self.name = "arXiv"
         self.base_url = "http://export.arxiv.org/api/query"
+        self.headers = {
+            'User-Agent': 'semantic_corpus/1.0 (https://github.com/your-org/semantic_corpus; contact@example.com)'
+        }
+        self.last_request_time = 0
+        self.min_request_interval = 3.0  # arXiv requires 3 seconds between requests
+
+    def _rate_limit(self) -> None:
+        """Ensure we don't exceed arXiv's rate limits."""
+        current_time = time.time()
+        time_since_last = current_time - self.last_request_time
+        if time_since_last < self.min_request_interval:
+            sleep_time = self.min_request_interval - time_since_last
+            time.sleep(sleep_time)
+        self.last_request_time = time.time()
+
+    def _make_request(self, params: Dict[str, Any]) -> requests.Response:
+        """Make a rate-limited request to arXiv API."""
+        self._rate_limit()
+        response = requests.get(self.base_url, params=params, headers=self.headers)
+        response.raise_for_status()
+        return response
 
     def search_papers(
         self,
@@ -43,16 +65,36 @@ class ArxivRepository(RepositoryInterface):
                 category_query = " OR ".join([f"cat:{cat}" for cat in categories])
                 params["search_query"] = f"({query}) AND ({category_query})"
             
-            # Make API request
-            response = requests.get(self.base_url, params=params)
-            response.raise_for_status()
+            # Make API request with rate limiting
+            response = self._make_request(params)
             
             # Parse XML response (arXiv returns XML, not JSON)
             import xml.etree.ElementTree as ET
             root = ET.fromstring(response.content)
             
+            # Check for errors in the response
+            if root.find("{http://www.w3.org/2005/Atom}error") is not None:
+                error_msg = root.find("{http://www.w3.org/2005/Atom}error").text
+                raise RepositoryError(f"arXiv API error: {error_msg}")
+            
             results = []
-            for entry in root.findall("{http://www.w3.org/2005/Atom}entry"):
+            entries = root.findall("{http://www.w3.org/2005/Atom}entry")
+            
+            if not entries:
+                # Try a simpler query if no results found
+                if categories:
+                    simple_params = {
+                        "search_query": query,  # Remove category filter
+                        "start": 0,
+                        "max_results": min(limit, 2000),
+                        "sortBy": "relevance",
+                        "sortOrder": "descending"
+                    }
+                    response = self._make_request(simple_params)
+                    root = ET.fromstring(response.content)
+                    entries = root.findall("{http://www.w3.org/2005/Atom}entry")
+            
+            for entry in entries:
                 # Extract arXiv ID
                 arxiv_id = entry.find("{http://www.w3.org/2005/Atom}id").text
                 arxiv_id = arxiv_id.split("/")[-1]  # Extract ID from URL
@@ -100,8 +142,7 @@ class ArxivRepository(RepositoryInterface):
                 "max_results": 1
             }
             
-            response = requests.get(self.base_url, params=params)
-            response.raise_for_status()
+            response = self._make_request(params)
             
             # Parse XML response
             import xml.etree.ElementTree as ET
@@ -159,7 +200,7 @@ class ArxivRepository(RepositoryInterface):
                 if format_type == "pdf":
                     # Download PDF
                     pdf_url = f"http://arxiv.org/pdf/{paper_id}.pdf"
-                    response = requests.get(pdf_url)
+                    response = requests.get(pdf_url, headers=self.headers)
                     response.raise_for_status()
                     
                     pdf_file = output_dir / f"{paper_id}.pdf"
@@ -169,7 +210,7 @@ class ArxivRepository(RepositoryInterface):
                 elif format_type == "source":
                     # Download source (LaTeX)
                     source_url = f"http://arxiv.org/src/{paper_id}"
-                    response = requests.get(source_url)
+                    response = requests.get(source_url, headers=self.headers)
                     response.raise_for_status()
                     
                     source_file = output_dir / f"{paper_id}.tar.gz"

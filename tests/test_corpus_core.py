@@ -11,12 +11,14 @@ class TestCorpusManager:
 
     def test_corpus_manager_initialization(self, temp_dir: Path):
         """Test that CorpusManager can be initialized with a valid directory."""
+        # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
         assert corpus_manager.corpus_dir == temp_dir
         assert corpus_manager.corpus_dir.exists()
 
     def test_corpus_manager_creates_directory(self, temp_dir: Path):
         """Test that CorpusManager creates the corpus directory if it doesn't exist."""
+        # Create new corpus directory in corpora folder
         new_dir = temp_dir / "new_corpus"
         corpus_manager = CorpusManager(new_dir)
         assert new_dir.exists()
@@ -29,6 +31,7 @@ class TestCorpusManager:
 
     def test_add_paper_to_corpus(self, temp_dir: Path, sample_metadata: dict):
         """Test adding a paper to the corpus."""
+        # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
         paper_id = "test_paper_001"
         
@@ -40,6 +43,7 @@ class TestCorpusManager:
 
     def test_get_paper_metadata(self, temp_dir: Path, sample_metadata: dict):
         """Test retrieving paper metadata from corpus."""
+        # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
         paper_id = "test_paper_002"
         
@@ -53,6 +57,7 @@ class TestCorpusManager:
 
     def test_list_papers_in_corpus(self, temp_dir: Path, sample_metadata: dict):
         """Test listing all papers in the corpus."""
+        # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
         
         # Add multiple papers
@@ -69,6 +74,7 @@ class TestCorpusManager:
 
     def test_search_papers_by_title(self, temp_dir: Path):
         """Test searching papers by title."""
+        # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
         
         # Add papers with different titles
@@ -91,6 +97,7 @@ class TestCorpusManager:
 
     def test_corpus_statistics(self, temp_dir: Path, sample_metadata: dict):
         """Test getting corpus statistics."""
+        # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
         
         # Add some papers

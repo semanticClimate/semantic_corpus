@@ -8,12 +8,12 @@ from typing import Generator
 
 @pytest.fixture
 def temp_dir() -> Generator[Path, None, None]:
-    """Create a temporary directory for testing in project temp folder."""
-    # Use project temp directory instead of system temp
-    project_temp = Path(__file__).parent.parent / "temp" / "test_results"
-    project_temp.mkdir(parents=True, exist_ok=True)
+    """Create a temporary directory for testing in project corpora folder."""
+    # Use project corpora directory for all test files and directories
+    project_corpora = Path(__file__).parent.parent / "corpora"
+    project_corpora.mkdir(parents=True, exist_ok=True)
     
-    with tempfile.TemporaryDirectory(dir=project_temp) as tmp_dir:
+    with tempfile.TemporaryDirectory(dir=project_corpora) as tmp_dir:
         yield Path(tmp_dir)
 
 

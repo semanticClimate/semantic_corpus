@@ -74,11 +74,11 @@ class TestCLI:
     def test_cli_with_config_file(self, temp_dir: Path):
         """Test CLI with configuration file using live API."""
         config_file = temp_dir / "config.yaml"
-        config_content = """
+        config_content = f"""
 query: "climate change"
 repository: "europe_pmc"
 limit: 2
-output: "climate_corpus"
+output: "{temp_dir / "test_corpus"}"
 formats: ["xml"]
 """
         config_file.write_text(config_content)
@@ -89,7 +89,7 @@ formats: ["xml"]
         ], capture_output=True, text=True)
         
         assert result.returncode == 0
-        assert "climate_corpus" in result.stdout
+        assert "test_corpus" in result.stdout
         # Verify we got real results
         assert "Downloaded" in result.stdout or "Found" in result.stdout
 
