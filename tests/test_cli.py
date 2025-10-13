@@ -75,12 +75,12 @@ class TestCLI:
         """Test CLI with configuration file using live API."""
         config_file = Path(temp_dir, "config.yaml")
         test_corpus_path = Path(temp_dir, "test_corpus")
-        config_content = f"""
-query: "climate change"
-repository: "europe_pmc"
+        # Use YAML literal block to avoid escape sequence issues
+        config_content = f"""query: climate change
+repository: europe_pmc
 limit: 2
-output: "{str(test_corpus_path)}"
-formats: ["xml"]
+output: {str(test_corpus_path)}
+formats: [xml]
 """
         config_file.write_text(config_content)
         
