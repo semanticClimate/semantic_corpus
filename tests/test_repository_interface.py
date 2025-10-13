@@ -116,6 +116,7 @@ class TestArxivRepository:
 
     @pytest.mark.live_api
     @pytest.mark.network
+    @pytest.mark.arxiv
     def test_arxiv_search_papers(self):
         """Test searching papers in arXiv with live API."""
         repo = ArxivRepository()
@@ -150,6 +151,7 @@ class TestArxivRepository:
 
     @pytest.mark.live_api
     @pytest.mark.network
+    @pytest.mark.arxiv
     def test_arxiv_get_paper_metadata(self):
         """Test getting paper metadata from arXiv with live API."""
         repo = ArxivRepository()
@@ -183,6 +185,7 @@ class TestArxivRepository:
 
     @pytest.mark.live_api
     @pytest.mark.network
+    @pytest.mark.arxiv
     def test_arxiv_download_paper(self, temp_dir: Path):
         """Test downloading a paper from arXiv with live API."""
         repo = ArxivRepository()

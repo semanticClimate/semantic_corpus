@@ -94,7 +94,7 @@ def search_papers_command(args) -> None:
         output_dir.mkdir(parents=True, exist_ok=True)
         
         # Save results to file
-        results_file = output_dir / "search_results.json"
+        results_file = Path(output_dir, "search_results.json")
         with open(results_file, 'w') as f:
             json.dump(results, f, indent=2)
         

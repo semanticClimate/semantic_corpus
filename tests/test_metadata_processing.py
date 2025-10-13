@@ -133,7 +133,7 @@ class TestMetadataExtractor:
         extractor = MetadataExtractor()
         
         # Create a sample JSON file
-        json_path = temp_dir / "sample.json"
+        json_path = Path(temp_dir, "sample.json")
         json_content = """{
             "title": "Sample Article",
             "abstract": "Sample abstract",
@@ -155,7 +155,7 @@ class TestMetadataExtractor:
         extractor = MetadataExtractor()
         
         # Create a file with unsupported extension
-        unsupported_path = temp_dir / "sample.txt"
+        unsupported_path = Path(temp_dir, "sample.txt")
         unsupported_path.write_text("Some text content")
         
         with pytest.raises(MetadataError):

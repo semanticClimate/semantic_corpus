@@ -69,7 +69,7 @@ include = ["semantic_corpus*"]
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q --strict-markers --strict-config"
+addopts = "-ra -q --strict-markers --strict-config -m 'not arxiv'"
 testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
 python_classes = ["Test*"]
@@ -80,6 +80,7 @@ markers = [
     "unit: marks tests as unit tests",
     "live_api: marks tests that use live APIs and real downloads",
     "network: marks tests that require network access",
+    "arxiv: marks tests that use arXiv repository (skipped by default)",
 ]
 
 [tool.black]

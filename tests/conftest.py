@@ -10,7 +10,7 @@ from typing import Generator
 def temp_dir() -> Generator[Path, None, None]:
     """Create a temporary directory for testing in project corpora folder."""
     # Use project corpora directory for all test files and directories
-    project_corpora = Path(__file__).parent.parent / "corpora"
+    project_corpora = Path(Path(__file__).parent.parent, "corpora")
     project_corpora.mkdir(parents=True, exist_ok=True)
     
     with tempfile.TemporaryDirectory(dir=project_corpora) as tmp_dir:
@@ -20,7 +20,7 @@ def temp_dir() -> Generator[Path, None, None]:
 @pytest.fixture
 def sample_pdf_path(temp_dir: Path) -> Path:
     """Create a sample PDF file for testing."""
-    pdf_path = temp_dir / "sample.pdf"
+    pdf_path = Path(temp_dir, "sample.pdf")
     pdf_path.write_bytes(b"%PDF-1.4\n%Sample PDF content")
     return pdf_path
 
@@ -28,7 +28,7 @@ def sample_pdf_path(temp_dir: Path) -> Path:
 @pytest.fixture
 def sample_xml_path(temp_dir: Path) -> Path:
     """Create a sample XML file for testing."""
-    xml_path = temp_dir / "sample.xml"
+    xml_path = Path(temp_dir, "sample.xml")
     xml_content = """<?xml version="1.0" encoding="UTF-8"?>
 <article>
     <title>Sample Article</title>

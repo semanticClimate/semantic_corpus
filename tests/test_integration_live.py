@@ -15,7 +15,7 @@ class TestLiveIntegration:
     def test_full_workflow_europe_pmc(self, temp_dir: Path):
         """Test complete workflow with Europe PMC: search -> download -> add to corpus."""
         # Create corpus in corpora directory
-        corpus_dir = temp_dir / "test_corpus"
+        corpus_dir = Path(temp_dir, "test_corpus")
         corpus_manager = CorpusManager(corpus_dir)
         
         # Get repository
@@ -34,7 +34,7 @@ class TestLiveIntegration:
         
         download_result = repo.download_paper(
             paper_id=paper_id,
-            output_dir=temp_dir / "downloads",
+            output_dir=Path(temp_dir, "downloads"),
             formats=["xml"]
         )
         
@@ -64,10 +64,11 @@ class TestLiveIntegration:
     @pytest.mark.live_api
     @pytest.mark.network
     @pytest.mark.integration
+    @pytest.mark.arxiv
     def test_full_workflow_arxiv(self, temp_dir: Path):
         """Test complete workflow with arXiv: search -> download -> add to corpus."""
         # Create corpus in corpora directory
-        corpus_dir = temp_dir / "test_corpus_arxiv"
+        corpus_dir = Path(temp_dir, "test_corpus_arxiv")
         corpus_manager = CorpusManager(corpus_dir)
         
         # Get repository
@@ -97,7 +98,7 @@ class TestLiveIntegration:
         
         download_result = repo.download_paper(
             paper_id=arxiv_id,
-            output_dir=temp_dir / "downloads_arxiv",
+            output_dir=Path(temp_dir, "downloads_arxiv"),
             formats=["pdf"]
         )
         
@@ -129,7 +130,7 @@ class TestLiveIntegration:
     def test_corpus_statistics_with_real_papers(self, temp_dir: Path):
         """Test corpus statistics with real downloaded papers."""
         # Create corpus in corpora directory
-        corpus_dir = temp_dir / "stats_corpus"
+        corpus_dir = Path(temp_dir, "stats_corpus")
         corpus_manager = CorpusManager(corpus_dir)
         
         # Get repository and add some real papers

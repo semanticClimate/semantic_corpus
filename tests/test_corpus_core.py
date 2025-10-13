@@ -19,7 +19,7 @@ class TestCorpusManager:
     def test_corpus_manager_creates_directory(self, temp_dir: Path):
         """Test that CorpusManager creates the corpus directory if it doesn't exist."""
         # Create new corpus directory in corpora folder
-        new_dir = temp_dir / "new_corpus"
+        new_dir = Path(temp_dir, "new_corpus")
         corpus_manager = CorpusManager(new_dir)
         assert new_dir.exists()
         assert corpus_manager.corpus_dir == new_dir
@@ -27,7 +27,7 @@ class TestCorpusManager:
     def test_corpus_manager_raises_error_for_invalid_path(self):
         """Test that CorpusManager raises error for invalid paths."""
         with pytest.raises(CorpusError):
-            CorpusManager(Path("/invalid/path/that/does/not/exist"))
+            CorpusManager(Path("/dev/null/invalid_corpus"))
 
     def test_add_paper_to_corpus(self, temp_dir: Path, sample_metadata: dict):
         """Test adding a paper to the corpus."""
@@ -38,8 +38,8 @@ class TestCorpusManager:
         result = corpus_manager.add_paper(paper_id, sample_metadata)
         
         assert result is True
-        assert (temp_dir / "papers" / paper_id).exists()
-        assert (temp_dir / "papers" / paper_id / "metadata.json").exists()
+        assert Path(temp_dir, "papers", paper_id).exists()
+        assert Path(temp_dir, "papers", paper_id, "metadata.json").exists()
 
     def test_get_paper_metadata(self, temp_dir: Path, sample_metadata: dict):
         """Test retrieving paper metadata from corpus."""

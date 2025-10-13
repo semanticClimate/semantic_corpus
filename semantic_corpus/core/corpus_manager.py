@@ -47,11 +47,11 @@ class CorpusManager:
         """
         try:
             # Create paper directory
-            paper_dir = self.corpus_dir / "papers" / paper_id
+            paper_dir = Path(self.corpus_dir, "papers", paper_id)
             paper_dir.mkdir(parents=True, exist_ok=True)
             
             # Save metadata
-            metadata_file = paper_dir / "metadata.json"
+            metadata_file = Path(paper_dir, "metadata.json")
             with open(metadata_file, 'w', encoding='utf-8') as f:
                 json.dump(metadata, f, indent=2, ensure_ascii=False)
             
@@ -72,7 +72,7 @@ class CorpusManager:
         Raises:
             CorpusError: If paper not found or metadata cannot be read
         """
-        metadata_file = self.corpus_dir / "papers" / paper_id / "metadata.json"
+        metadata_file = Path(self.corpus_dir, "papers", paper_id, "metadata.json")
         
         if not metadata_file.exists():
             raise CorpusError(f"Paper {paper_id} not found")
@@ -89,7 +89,7 @@ class CorpusManager:
         Returns:
             List of paper IDs
         """
-        papers_dir = self.corpus_dir / "papers"
+        papers_dir = Path(self.corpus_dir, "papers")
         
         if not papers_dir.exists():
             return []
@@ -133,7 +133,7 @@ class CorpusManager:
         # Calculate corpus size
         corpus_size_bytes = 0
         for paper_id in papers:
-            paper_dir = self.corpus_dir / "papers" / paper_id
+            paper_dir = Path(self.corpus_dir, "papers", paper_id)
             if paper_dir.exists():
                 for file_path in paper_dir.rglob("*"):
                     if file_path.is_file():

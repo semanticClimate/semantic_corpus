@@ -8,7 +8,9 @@ from semantic_corpus.repositories.arxiv import ArxivRepository
 
 
 class RepositoryFactory:
-    """Factory class for creating repository instances."""
+    """Factory class for creating repository instances.
+    A repository is a foreign source of papers  such as Europe PMC or arXiv.
+    """
 
     _repositories: Dict[str, Type[RepositoryInterface]] = {
         "europe_pmc": EuropePMCRepository,
