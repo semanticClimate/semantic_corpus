@@ -11,16 +11,18 @@ from semantic_corpus.core.exceptions import CorpusError
 class CorpusManager:
     """Manages scientific paper corpora."""
 
-    def __init__(self, corpus_dir: Path) -> None:
+    def __init__(self, corpus_dir: Path, use_bagit: bool = False) -> None:
         """Initialize corpus manager with a directory.
         
         Args:
             corpus_dir: Path to the corpus directory
+            use_bagit: If True, create a BAGIT-compliant bag structure
             
         Raises:
             CorpusError: If the directory cannot be created or accessed
         """
         self.corpus_dir = Path(corpus_dir)
+        self.use_bagit = use_bagit
         
         # Validate parent directory exists for invalid paths
         if not self.corpus_dir.parent.exists():
@@ -31,6 +33,27 @@ class CorpusManager:
             self.corpus_dir.mkdir(parents=True, exist_ok=True)
         except (OSError, PermissionError) as e:
             raise CorpusError(f"Cannot create corpus directory: {e}")
+        
+        # Initialize BAGIT if requested
+        if self.use_bagit:
+            from semantic_corpus.storage.bagit_manager import BagitManager
+            self.bagit_manager = BagitManager(self.corpus_dir)
+            self.bagit_manager.create_bag()
+        else:
+            self.bagit_manager = None
+
+    def create_structured_directories(self) -> None:
+        """Create structured directories for corpus organization.
+        
+        Only works if use_bagit=True. Creates directories for documents,
+        semantic content, metadata, keyphrases, indices, relations,
+        analysis, and provenance.
+        """
+        if not self.use_bagit:
+            raise CorpusError("Structured directories require BAGIT support (use_bagit=True)")
+        
+        if self.bagit_manager:
+            self.bagit_manager.create_structured_directories()
 
     def add_paper(self, paper_id: str, metadata: Dict[str, Any]) -> bool:
         """Add a paper to the corpus.
@@ -46,14 +69,24 @@ class CorpusManager:
             CorpusError: If paper cannot be added
         """
         try:
-            # Create paper directory
-            paper_dir = Path(self.corpus_dir, "papers", paper_id)
-            paper_dir.mkdir(parents=True, exist_ok=True)
+            if self.use_bagit:
+                # Use BAGIT structure: data/metadata/{paper_id}_metadata.json
+                metadata_dir = Path(self.corpus_dir, "data", "metadata")
+                metadata_dir.mkdir(parents=True, exist_ok=True)
+                metadata_file = metadata_dir / f"{paper_id}_metadata.json"
+            else:
+                # Use old structure: papers/{paper_id}/metadata.json
+                paper_dir = Path(self.corpus_dir, "papers", paper_id)
+                paper_dir.mkdir(parents=True, exist_ok=True)
+                metadata_file = Path(paper_dir, "metadata.json")
             
             # Save metadata
-            metadata_file = Path(paper_dir, "metadata.json")
             with open(metadata_file, 'w', encoding='utf-8') as f:
                 json.dump(metadata, f, indent=2, ensure_ascii=False)
+            
+            # Update BAGIT manifest if using BAGIT
+            if self.use_bagit and self.bagit_manager:
+                self.bagit_manager.update_manifest()
             
             return True
             
@@ -72,10 +105,16 @@ class CorpusManager:
         Raises:
             CorpusError: If paper not found or metadata cannot be read
         """
-        metadata_file = Path(self.corpus_dir, "papers", paper_id, "metadata.json")
-        
-        if not metadata_file.exists():
-            raise CorpusError(f"Paper {paper_id} not found")
+        if self.use_bagit:
+            # Try BAGIT structure first
+            metadata_file = Path(self.corpus_dir, "data", "metadata", f"{paper_id}_metadata.json")
+            if not metadata_file.exists():
+                raise CorpusError(f"Paper {paper_id} not found")
+        else:
+            # Use old structure
+            metadata_file = Path(self.corpus_dir, "papers", paper_id, "metadata.json")
+            if not metadata_file.exists():
+                raise CorpusError(f"Paper {paper_id} not found")
         
         try:
             with open(metadata_file, 'r', encoding='utf-8') as f:
@@ -89,12 +128,25 @@ class CorpusManager:
         Returns:
             List of paper IDs
         """
-        papers_dir = Path(self.corpus_dir, "papers")
-        
-        if not papers_dir.exists():
-            return []
-        
-        return [d.name for d in papers_dir.iterdir() if d.is_dir()]
+        if self.use_bagit:
+            # List from BAGIT structure: data/metadata/{paper_id}_metadata.json
+            metadata_dir = Path(self.corpus_dir, "data", "metadata")
+            if not metadata_dir.exists():
+                return []
+            
+            # Extract paper IDs from metadata filenames
+            paper_ids = []
+            for metadata_file in metadata_dir.glob("*_metadata.json"):
+                # Extract paper_id from filename (remove "_metadata.json" suffix)
+                paper_id = metadata_file.stem.replace("_metadata", "")
+                paper_ids.append(paper_id)
+            return paper_ids
+        else:
+            # Use old structure: papers/{paper_id}/
+            papers_dir = Path(self.corpus_dir, "papers")
+            if not papers_dir.exists():
+                return []
+            return [d.name for d in papers_dir.iterdir() if d.is_dir()]
 
     def search_papers(self, query: str, field: str = "title") -> List[str]:
         """Search papers in the corpus.
