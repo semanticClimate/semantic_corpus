@@ -92,6 +92,10 @@ class MetadataProcessor:
             except ImportError:
                 # PyPDF2 not available, use basic metadata
                 pass
+            except Exception:
+                # PyPDF2 is available but the PDF may be malformed/partial.
+                # Fall back to basic file metadata rather than failing.
+                pass
             
             return metadata
             
