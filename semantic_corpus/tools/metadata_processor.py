@@ -76,24 +76,24 @@ class MetadataProcessor:
                 'file_size': pdf_path.stat().st_size,
             }
             
-            # Try to extract basic metadata using PyPDF2 if available
+            # Try to extract basic metadata using PyMuPDF (fitz) if available
             try:
-                import PyPDF2
-                with open(pdf_path, 'rb') as file:
-                    pdf_reader = PyPDF2.PdfReader(file)
-                    if pdf_reader.metadata:
-                        pdf_metadata = pdf_reader.metadata
-                        if pdf_metadata.title:
-                            metadata['title'] = pdf_metadata.title
-                        if pdf_metadata.author:
-                            metadata['authors'] = [pdf_metadata.author]
-                        if pdf_metadata.creator:
-                            metadata['creator'] = pdf_metadata.creator
+                import fitz  # PyMuPDF
+                doc = fitz.open(str(pdf_path))
+                if doc.metadata:
+                    pdf_metadata = doc.metadata
+                    if pdf_metadata.get('title'):
+                        metadata['title'] = pdf_metadata['title']
+                    if pdf_metadata.get('author'):
+                        metadata['authors'] = [pdf_metadata['author']]
+                    if pdf_metadata.get('creator'):
+                        metadata['creator'] = pdf_metadata['creator']
+                doc.close()
             except ImportError:
-                # PyPDF2 not available, use basic metadata
+                # PyMuPDF not available, use basic metadata
                 pass
             except Exception:
-                # PyPDF2 is available but the PDF may be malformed/partial.
+                # PyMuPDF is available but the PDF may be malformed/partial.
                 # Fall back to basic file metadata rather than failing.
                 pass
             

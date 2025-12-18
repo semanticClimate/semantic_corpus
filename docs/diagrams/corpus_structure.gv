@@ -1,0 +1,31 @@
+digraph corpus_structure {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+    
+    corpus [label="Corpus Root\n{corpus_name}/"];
+    
+    bagit_files [label="BAGIT Files\nbagit.txt\nbag-info.txt\nmanifest-sha256.txt"];
+    data [label="data/\n(BAGIT payload)"];
+    relations [label="relations/\n(similarity data)"];
+    analysis [label="analysis/\n(metrics & reports)"];
+    provenance [label="provenance/\n(processing history)"];
+    
+    corpus -> bagit_files;
+    corpus -> data;
+    corpus -> relations;
+    corpus -> analysis;
+    corpus -> provenance;
+    
+    documents [label="documents/\npdf/\nxml/\nhtml/"];
+    semantic [label="semantic/\n(enriched HTML)"];
+    metadata [label="metadata/\n(JSON files)"];
+    keyphrases [label="keyphrases/\n(extracted)"];
+    indices [label="indices/\n(search)"];
+    
+    data -> documents;
+    data -> semantic;
+    data -> metadata;
+    data -> keyphrases;
+    data -> indices;
+}
+

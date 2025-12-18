@@ -1,0 +1,19 @@
+digraph preservation {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+    
+    create [label="Create Corpus\nwith BAGIT"];
+    add_metadata [label="Add Comprehensive\nMetadata"];
+    validate [label="Validate\nIntegrity"];
+    document [label="Document\nStructure"];
+    backup [label="Create\nBackups"];
+    monitor [label="Monitor &\nMaintain"];
+    
+    create -> add_metadata;
+    add_metadata -> validate;
+    validate -> document;
+    document -> backup;
+    backup -> monitor;
+    monitor -> validate [label="Periodic"];
+}
+

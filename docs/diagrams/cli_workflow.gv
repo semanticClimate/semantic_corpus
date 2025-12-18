@@ -1,0 +1,27 @@
+digraph cli_workflow {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+    
+    user [label="User"];
+    cli [label="CLI\n(semantic_corpus)"];
+    create [label="create\nCommand"];
+    search [label="search\nCommand"];
+    download [label="download\nCommand"];
+    
+    corpus [label="CorpusManager"];
+    repo [label="Repository"];
+    files [label="Filesystem"];
+    
+    user -> cli;
+    cli -> create;
+    cli -> search;
+    cli -> download;
+    
+    create -> corpus;
+    search -> repo;
+    download -> repo;
+    
+    corpus -> files;
+    repo -> files;
+}
+

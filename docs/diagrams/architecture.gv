@@ -1,0 +1,21 @@
+digraph architecture {
+    rankdir=LR;
+    node [shape=box, style=rounded];
+    
+    CLI [label="CLI\n(cli.py)"];
+    CorpusManager [label="CorpusManager\n(core/corpus_manager.py)"];
+    BagitManager [label="BagitManager\n(storage/bagit_manager.py)"];
+    RepositoryFactory [label="RepositoryFactory\n(core/repository_factory.py)"];
+    MetadataProcessor [label="MetadataProcessor\n(tools/metadata_processor.py)"];
+    
+    EuropePMC [label="EuropePMCRepository\n(repositories/europe_pmc.py)"];
+    Arxiv [label="ArxivRepository\n(repositories/arxiv.py)"];
+    
+    CLI -> CorpusManager;
+    CLI -> RepositoryFactory;
+    CorpusManager -> BagitManager;
+    CorpusManager -> MetadataProcessor;
+    RepositoryFactory -> EuropePMC;
+    RepositoryFactory -> Arxiv;
+}
+

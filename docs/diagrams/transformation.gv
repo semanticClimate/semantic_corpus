@@ -1,0 +1,16 @@
+digraph transformation {
+    rankdir=LR;
+    node [shape=box, style=rounded];
+    
+    pdf [label="PDF\nDocument"];
+    xml [label="XML\nDocument"];
+    html1 [label="HTML\n(Basic)"];
+    html2 [label="HTML\n(Structured/JATS)"];
+    html3 [label="HTML\n(Semantically\nEnriched)"];
+    
+    pdf -> html1 [label="PDF→HTML\nConverter"];
+    xml -> html1 [label="XML→HTML\nConverter"];
+    html1 -> html2 [label="JATS\nProcessor"];
+    html2 -> html3 [label="Semantic\nEnricher"];
+}
+

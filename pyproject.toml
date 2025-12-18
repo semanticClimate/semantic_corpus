@@ -37,6 +37,7 @@ dependencies = [
     "pyyaml>=6.0.0",
     "pathlib2>=2.3.0; python_version < '3.4'",
     "bagit>=1.8.0",
+    "pymupdf>=1.23.0",
 ]
 
 [project.optional-dependencies]
@@ -132,5 +133,6 @@ module = [
     "coloredlogs.*",
     "configargparse.*",
     "bagit.*",
+    "fitz.*",
 ]
 ignore_missing_imports = true

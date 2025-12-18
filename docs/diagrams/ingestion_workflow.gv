@@ -1,0 +1,20 @@
+digraph ingestion_workflow {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+    
+    source [label="Source\n(Repository/Collection)"];
+    search [label="Search/Select\nPapers"];
+    download [label="Download\nFiles"];
+    extract [label="Extract\nMetadata"];
+    validate [label="Validate\nMetadata"];
+    add [label="Add to\nCorpus"];
+    update [label="Update\nBAGIT"];
+    
+    source -> search;
+    search -> download;
+    download -> extract;
+    extract -> validate;
+    validate -> add;
+    add -> update;
+}
+

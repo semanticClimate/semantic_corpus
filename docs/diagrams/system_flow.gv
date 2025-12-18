@@ -1,0 +1,22 @@
+digraph system_flow {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+    
+    start [label="User Action\n(CLI or Script)"];
+    create_corpus [label="Create Corpus\n(CorpusManager)"];
+    search_repo [label="Search Repository\n(RepositoryFactory)"];
+    download [label="Download Papers\n(Repository)"];
+    extract_metadata [label="Extract Metadata\n(MetadataProcessor)"];
+    add_to_corpus [label="Add to Corpus\n(CorpusManager.add_paper)"];
+    update_bagit [label="Update BAGIT Manifest\n(BagitManager)"];
+    end [label="Paper in Corpus"];
+    
+    start -> create_corpus;
+    create_corpus -> search_repo;
+    search_repo -> download;
+    download -> extract_metadata;
+    extract_metadata -> add_to_corpus;
+    add_to_corpus -> update_bagit;
+    update_bagit -> end;
+}
+
