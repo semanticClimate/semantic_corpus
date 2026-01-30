@@ -118,22 +118,71 @@ def download_papers_command(args) -> None:
         print(f"Found {len(results)} papers, starting download...")
         
         downloaded_count = 0
+        failed_count = 0
+        skipped_count = 0
         format_list = [f.strip() for f in args.formats.split(',')]
         
+        # For Europe PMC, XML/PDF downloads require PMCIDs
+        requires_pmcid = args.repository == 'europe_pmc' and any(fmt in ['xml', 'pdf'] for fmt in format_list)
+        
         for paper in results:
-            paper_id = paper.get('pmcid') or paper.get('arxiv_id') or paper.get('pmid')
-            if not paper_id:
-                continue
+            # Prefer PMCID for Europe PMC downloads, but fall back to other IDs
+            if requires_pmcid:
+                paper_id = paper.get('pmcid')
+                if not paper_id:
+                    skipped_count += 1
+                    title = paper.get('title', 'Unknown')[:50]
+                    pmid = paper.get('pmid', 'N/A')
+                    if args.verbose:
+                        print(f"Skipped paper (no PMCID, only PMID {pmid}): {title}")
+                    continue
+            else:
+                paper_id = paper.get('pmcid') or paper.get('arxiv_id') or paper.get('pmid')
+                if not paper_id:
+                    skipped_count += 1
+                    if args.verbose:
+                        print(f"Skipped paper (no ID): {paper.get('title', 'Unknown')[:50]}")
+                    continue
             
             try:
                 result = repo.download_paper(paper_id, output_dir, format_list)
                 if result['success']:
                     downloaded_count += 1
-                    print(f"Downloaded {paper_id}")
+                    files_downloaded = result.get('files', [])
+                    if files_downloaded:
+                        print(f"Downloaded {paper_id} -> {len(files_downloaded)} file(s)")
+                    else:
+                        print(f"Downloaded {paper_id} (no files returned)")
+                else:
+                    failed_count += 1
+                    if args.verbose:
+                        print(f"Failed to download {paper_id}: {result.get('error', 'Unknown error')}")
+            except RepositoryError as e:
+                failed_count += 1
+                error_msg = str(e)
+                if hasattr(e, 'message'):
+                    error_msg = e.message
+                print(f"Failed to download {paper_id}: {error_msg}", file=sys.stderr)
             except Exception as e:
-                print(f"Failed to download {paper_id}: {e}")
+                failed_count += 1
+                print(f"Failed to download {paper_id}: {type(e).__name__}: {e}", file=sys.stderr)
         
-        print(f"Downloaded {downloaded_count} papers to {output_dir}")
+        # Summary output
+        print(f"\nDownload summary:")
+        print(f"  Successfully downloaded: {downloaded_count} papers")
+        if failed_count > 0:
+            print(f"  Failed: {failed_count} papers", file=sys.stderr)
+        if skipped_count > 0:
+            print(f"  Skipped (no ID): {skipped_count} papers")
+        print(f"  Output directory: {output_dir}")
+        
+        # Verify files were actually created
+        if downloaded_count > 0:
+            downloaded_files = list(output_dir.glob("*.xml")) + list(output_dir.glob("*.pdf"))
+            if downloaded_files:
+                print(f"  Files created: {len(downloaded_files)}")
+            else:
+                print(f"  Warning: No .xml or .pdf files found in {output_dir}", file=sys.stderr)
         
     except RepositoryError as e:
         print(f"Error downloading papers: {e.message}", file=sys.stderr)
