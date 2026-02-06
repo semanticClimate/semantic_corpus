@@ -18,25 +18,15 @@ def temp_dir() -> Generator[Path, None, None]:
 
 
 @pytest.fixture
-def sample_pdf_path(temp_dir: Path) -> Path:
-    """Create a sample PDF file for testing."""
-    pdf_path = Path(temp_dir, "sample.pdf")
-    pdf_path.write_bytes(b"%PDF-1.4\n%Sample PDF content")
-    return pdf_path
+def sample_pdf_path() -> Path:
+    """Return path to sample PDF file for testing."""
+    return Path(Path(__file__).parent, "resources", "sample.pdf")
 
 
 @pytest.fixture
-def sample_xml_path(temp_dir: Path) -> Path:
-    """Create a sample XML file for testing."""
-    xml_path = Path(temp_dir, "sample.xml")
-    xml_content = """<?xml version="1.0" encoding="UTF-8"?>
-<article>
-    <title>Sample Article</title>
-    <abstract>This is a sample abstract for testing.</abstract>
-    <doi>10.1000/sample</doi>
-</article>"""
-    xml_path.write_text(xml_content)
-    return xml_path
+def sample_xml_path() -> Path:
+    """Return path to sample XML file for testing."""
+    return Path(Path(__file__).parent, "resources", "sample.xml")
 
 
 @pytest.fixture

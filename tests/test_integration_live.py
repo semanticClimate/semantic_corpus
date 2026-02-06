@@ -38,28 +38,28 @@ class TestLiveIntegration:
             formats=["xml"]
         )
         
-        assert download_result["success"] is True
-        assert len(download_result["files"]) > 0
+        assert download_result["success"] is True, "Download should succeed"
+        assert len(download_result["files"]) > 0, "Download should return at least one file"
         
         # Verify files were downloaded
         for file_path in download_result["files"]:
-            assert Path(file_path).exists()
-            assert Path(file_path).stat().st_size > 0
+            assert Path(file_path).exists(), f"Downloaded file {file_path} should exist"
+            assert Path(file_path).stat().st_size > 0, f"Downloaded file {file_path} should not be empty"
         
         # Add paper to corpus - get metadata first
         metadata = repo.get_paper_metadata(paper_id)
         corpus_paper_id = f"europe_pmc_{paper_id}"
         add_result = corpus_manager.add_paper(corpus_paper_id, metadata)
-        assert add_result is True
+        assert add_result is True, "add_paper should return True"
         
         # Verify paper is in corpus
         retrieved_metadata = corpus_manager.get_paper_metadata(corpus_paper_id)
-        assert retrieved_metadata["title"] == metadata["title"]
-        assert retrieved_metadata["abstract"] == metadata["abstract"]
+        assert retrieved_metadata["title"] == metadata["title"], f"Retrieved title should match, got '{retrieved_metadata.get('title')}'"
+        assert retrieved_metadata["abstract"] == metadata["abstract"], f"Retrieved abstract should match, got '{retrieved_metadata.get('abstract')}'"
         
         # Test search in corpus
         search_results = corpus_manager.search_papers("climate", field="title")
-        assert corpus_paper_id in search_results
+        assert corpus_paper_id in search_results, f"Paper {corpus_paper_id} should be found in search results"
 
     @pytest.mark.live_api
     @pytest.mark.network
@@ -102,27 +102,27 @@ class TestLiveIntegration:
             formats=["pdf"]
         )
         
-        assert download_result["success"] is True
-        assert len(download_result["files"]) > 0
+        assert download_result["success"] is True, "Download should succeed"
+        assert len(download_result["files"]) > 0, "Download should return at least one file"
         
         # Verify files were downloaded
         for file_path in download_result["files"]:
-            assert Path(file_path).exists()
-            assert Path(file_path).stat().st_size > 0
+            assert Path(file_path).exists(), f"Downloaded file {file_path} should exist"
+            assert Path(file_path).stat().st_size > 0, f"Downloaded file {file_path} should not be empty"
         
         # Add paper to corpus
         corpus_paper_id = f"arxiv_{arxiv_id}"
         add_result = corpus_manager.add_paper(corpus_paper_id, metadata)
-        assert add_result is True
+        assert add_result is True, "add_paper should return True"
         
         # Verify paper is in corpus
         retrieved_metadata = corpus_manager.get_paper_metadata(corpus_paper_id)
-        assert retrieved_metadata["title"] == metadata["title"]
-        assert retrieved_metadata["abstract"] == metadata["abstract"]
+        assert retrieved_metadata["title"] == metadata["title"], f"Retrieved title should match, got '{retrieved_metadata.get('title')}'"
+        assert retrieved_metadata["abstract"] == metadata["abstract"], f"Retrieved abstract should match, got '{retrieved_metadata.get('abstract')}'"
         
         # Test search in corpus
         search_results = corpus_manager.search_papers("machine", field="title")
-        assert corpus_paper_id in search_results
+        assert corpus_paper_id in search_results, f"Paper {corpus_paper_id} should be found in search results"
 
     @pytest.mark.live_api
     @pytest.mark.network
@@ -153,10 +153,10 @@ class TestLiveIntegration:
         # Get statistics
         stats = corpus_manager.get_statistics()
         
-        assert stats["total_papers"] == 2
-        assert stats["corpus_size_mb"] > 0
-        assert "creation_date" in stats
-        assert "last_updated" in stats
+        assert stats["total_papers"] == 2, f"Expected 2 papers, got {stats.get('total_papers')}"
+        assert stats["corpus_size_mb"] > 0, f"Expected corpus_size_mb > 0, got {stats.get('corpus_size_mb')}"
+        assert "creation_date" in stats, "Statistics should contain 'creation_date'"
+        assert "last_updated" in stats, "Statistics should contain 'last_updated'"
 
     def test_repository_info(self):
         """Test getting repository information."""
@@ -164,21 +164,21 @@ class TestLiveIntegration:
         europe_pmc = RepositoryFactory.get_repository("europe_pmc")
         info = europe_pmc.get_repository_info()
         
-        assert info["name"] == "Europe PMC"
-        assert "base_url" in info
-        assert "description" in info
-        assert "supported_formats" in info
-        assert "xml" in info["supported_formats"]
+        assert info["name"] == "Europe PMC", f"Expected name 'Europe PMC', got '{info.get('name')}'"
+        assert "base_url" in info, "Repository info should contain 'base_url'"
+        assert "description" in info, "Repository info should contain 'description'"
+        assert "supported_formats" in info, "Repository info should contain 'supported_formats'"
+        assert "xml" in info["supported_formats"], "Europe PMC should support 'xml' format"
         
         # Test arXiv info
         arxiv = RepositoryFactory.get_repository("arxiv")
         info = arxiv.get_repository_info()
         
-        assert info["name"] == "arXiv"
-        assert "base_url" in info
-        assert "description" in info
-        assert "supported_formats" in info
-        assert "pdf" in info["supported_formats"]
+        assert info["name"] == "arXiv", f"Expected name 'arXiv', got '{info.get('name')}'"
+        assert "base_url" in info, "Repository info should contain 'base_url'"
+        assert "description" in info, "Repository info should contain 'description'"
+        assert "supported_formats" in info, "Repository info should contain 'supported_formats'"
+        assert "pdf" in info["supported_formats"], "arXiv should support 'pdf' format"
 
     def test_error_handling_with_live_apis(self):
         """Test error handling with live APIs."""

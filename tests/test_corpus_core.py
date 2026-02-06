@@ -13,16 +13,16 @@ class TestCorpusManager:
         """Test that CorpusManager can be initialized with a valid directory."""
         # Create corpus in corpora directory
         corpus_manager = CorpusManager(temp_dir)
-        assert corpus_manager.corpus_dir == temp_dir
-        assert corpus_manager.corpus_dir.exists()
+        assert corpus_manager.corpus_dir == temp_dir, f"Expected corpus_dir to be {temp_dir}, got {corpus_manager.corpus_dir}"
+        assert corpus_manager.corpus_dir.exists(), "Corpus directory should exist"
 
     def test_corpus_manager_creates_directory(self, temp_dir: Path):
         """Test that CorpusManager creates the corpus directory if it doesn't exist."""
         # Create new corpus directory in corpora folder
         new_dir = Path(temp_dir, "new_corpus")
         corpus_manager = CorpusManager(new_dir)
-        assert new_dir.exists()
-        assert corpus_manager.corpus_dir == new_dir
+        assert new_dir.exists(), "New corpus directory should be created"
+        assert corpus_manager.corpus_dir == new_dir, f"Expected corpus_dir to be {new_dir}, got {corpus_manager.corpus_dir}"
 
     def test_corpus_manager_raises_error_for_invalid_path(self):
         """Test that CorpusManager raises error for invalid paths."""
@@ -37,9 +37,9 @@ class TestCorpusManager:
         
         result = corpus_manager.add_paper(paper_id, sample_metadata)
         
-        assert result is True
-        assert Path(temp_dir, "papers", paper_id).exists()
-        assert Path(temp_dir, "papers", paper_id, "metadata.json").exists()
+        assert result is True, "add_paper should return True"
+        assert Path(temp_dir, "papers", paper_id).exists(), f"Paper directory {paper_id} should exist"
+        assert Path(temp_dir, "papers", paper_id, "metadata.json").exists(), f"Metadata file for {paper_id} should exist"
 
     def test_get_paper_metadata(self, temp_dir: Path, sample_metadata: dict):
         """Test retrieving paper metadata from corpus."""
@@ -53,7 +53,7 @@ class TestCorpusManager:
         # Retrieve metadata
         retrieved_metadata = corpus_manager.get_paper_metadata(paper_id)
         
-        assert retrieved_metadata == sample_metadata
+        assert retrieved_metadata == sample_metadata, f"Retrieved metadata should match sample metadata, got {retrieved_metadata}"
 
     def test_list_papers_in_corpus(self, temp_dir: Path, sample_metadata: dict):
         """Test listing all papers in the corpus."""
@@ -68,9 +68,9 @@ class TestCorpusManager:
         # List papers
         papers = corpus_manager.list_papers()
         
-        assert len(papers) == 3
+        assert len(papers) == 3, f"Expected 3 papers, got {len(papers)}"
         for paper_id in paper_ids:
-            assert paper_id in papers
+            assert paper_id in papers, f"Paper {paper_id} should be in papers list"
 
     def test_search_papers_by_title(self, temp_dir: Path):
         """Test searching papers by title."""
@@ -90,10 +90,10 @@ class TestCorpusManager:
         # Search for climate-related papers
         results = corpus_manager.search_papers(query="climate", field="title")
         
-        assert len(results) == 2
-        assert "paper_001" in results
-        assert "paper_003" in results
-        assert "paper_002" not in results
+        assert len(results) == 2, f"Expected 2 climate-related papers, got {len(results)}"
+        assert "paper_001" in results, "paper_001 should be in search results"
+        assert "paper_003" in results, "paper_003 should be in search results"
+        assert "paper_002" not in results, "paper_002 should not be in search results (doesn't contain 'climate')"
 
     def test_corpus_statistics(self, temp_dir: Path, sample_metadata: dict):
         """Test getting corpus statistics."""
@@ -107,7 +107,7 @@ class TestCorpusManager:
         
         stats = corpus_manager.get_statistics()
         
-        assert stats["total_papers"] == 5
-        assert stats["corpus_size_mb"] > 0
-        assert "creation_date" in stats
-        assert "last_updated" in stats
+        assert stats["total_papers"] == 5, f"Expected 5 papers, got {stats.get('total_papers')}"
+        assert stats["corpus_size_mb"] > 0, f"Expected corpus_size_mb > 0, got {stats.get('corpus_size_mb')}"
+        assert "creation_date" in stats, "Statistics should contain 'creation_date'"
+        assert "last_updated" in stats, "Statistics should contain 'last_updated'"
