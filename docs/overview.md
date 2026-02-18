@@ -1,6 +1,6 @@
 # SemanticCorpus: Overview for Newcomers
 
-**Date:** December 18, 2025  
+**Date:** February 18, 2025 (system date)  
 **Version:** 0.1.0a1  
 **Status:** Active Development
 
@@ -37,6 +37,21 @@
 - ✅ Document transformation (PDF/XML → HTML)
 - ✅ Semantic enrichment (planned)
 - ✅ Similarity analysis and knowledge graphs (planned)
+
+### Executable Examples
+
+This project includes **executable example scripts** in the `examples/` directory that demonstrate all major features:
+
+- **Basic operations**: Create corpus, add papers, list papers
+- **BAGIT operations**: Create bags, validate integrity
+- **Repository integration**: Search and download from Europe PMC, arXiv
+- **Metadata processing**: Extract and normalize metadata
+- **Complete workflows**: End-to-end ingestion pipelines
+
+See `examples/README.md` for usage instructions and run examples with:
+```bash
+python examples/01_create_corpus.py
+```
 
 ---
 
@@ -1156,13 +1171,14 @@ Based on the development plan, here are additional topics that will be covered a
 1. **Development Plan**: `docs/development_plan.md` - Complete development roadmap
 2. **Phase 1 Summary**: `docs/phase1_implementation_summary.md` - BAGIT implementation details
 3. **Testing Guide**: `TESTING.md` - Test structure and conventions
-4. **Style Guide**: `../amilib/docs/style_guide_compliance.md` - Coding standards
+4. **Style Guide**: `../amilib/docs/style_guide_compliance.md` - Coding standards (absolute imports, empty `__init__.py`, use system date in docs, no `sys.path`/PYTHONPATH)
 
 ### Getting Help
 
 - **Issues**: https://github.com/semanticClimate/semantic_corpus/issues
 - **Documentation**: `docs/` directory
-- **Code Examples**: `tests/` directory
+- **Code Examples**: `examples/` directory (executable scripts)
+- **Tests**: `tests/` directory
 
 ### Next Steps for Newcomers
 
@@ -1181,13 +1197,20 @@ Based on the development plan, here are additional topics that will be covered a
    semantic_corpus create --name my_first_corpus
    ```
 
-4. **Try the Examples**: Use the examples in this document to get started
+4. **Try the Examples**: 
+   - **Executable scripts**: Run examples from `examples/` directory:
+     ```bash
+     python examples/01_create_corpus.py
+     python examples/03_repository_search_download.py
+     ```
+   - **Documentation examples**: Copy code blocks from this document into files
+   - **See**: `examples/README.md` for complete list and usage instructions
 
 5. **Explore the Code**: Read the source code in `semantic_corpus/` to understand the implementation
 
 ---
 
 **Document Version**: 1.0  
-**Last Updated**: December 18, 2025  
+**Last Updated**: February 18, 2025 (system date)  
 **Maintainer**: Semantic Climate Team
 
