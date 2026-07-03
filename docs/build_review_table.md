@@ -104,3 +104,7 @@ paths = export_review_tables(rows, Path(query_dir, "review"))
 | Already ingested BAGIT corpus | `build_review_rows_from_corpus` |
 
 See also [chatbot_export_contract.md](chatbot_export_contract.md).
+
+## Colab notebook
+
+For a browser-based workflow (no local install), see [colab_corpus_review_notebook.md](colab_corpus_review_notebook.md) and [`notebooks/corpus_query_review_colab.ipynb`](../notebooks/corpus_query_review_colab.ipynb).

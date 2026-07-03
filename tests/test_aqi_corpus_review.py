@@ -177,6 +177,103 @@ class TestQueryRun:
         assert "20 results" in summary
 
 
+class TestRunQueryAndBuildReviewTable:
+    _SAMPLE_RESULTS = [
+        {
+            "pmcid": "PMC12345678",
+            "pmid": "12345678",
+            "title": "Air quality index in Delhi, India",
+            "abstract": "PM2.5 and ambient air pollution in India.",
+            "authors": [{"fullName": "A Patel"}],
+            "publication_date": "2024-01-01",
+            "journal": "Env Health",
+            "doi": "10.1234/test",
+        },
+        {
+            "pmcid": "",
+            "pmid": "87654321",
+            "title": "Air quality in Europe",
+            "abstract": "European cities.",
+            "authors": [],
+            "publication_date": "2023-01-01",
+            "journal": "",
+            "doi": "",
+        },
+    ]
+
+    def test_run_query_and_build_review_table(self, temp_dir: Path) -> None:
+        from unittest.mock import patch
+
+        from semantic_corpus.corpus_review.workflow import (
+            run_query_and_build_review_table,
+        )
+
+        def fake_search(**kwargs):
+            output_dir = Path(kwargs["output_dir"])
+            output_dir.mkdir(parents=True, exist_ok=True)
+            Path(output_dir, "PMC12345678.xml").write_text(
+                "<article/>", encoding="utf-8"
+            )
+            return self._SAMPLE_RESULTS, 1
+
+        with patch(
+            "semantic_corpus.corpus_review.workflow.run_repository_search",
+            side_effect=fake_search,
+        ):
+            result = run_query_and_build_review_table(
+                query_name="test_query",
+                query_string="AQI AND India",
+                output_dir=temp_dir,
+                limit=25,
+            )
+
+        assert result["result_count"] == 2
+        assert result["downloaded_count"] == 1
+        assert result["row_count"] == 2
+        assert result["xml_count"] == 1
+        assert Path(result["search_results_path"]).is_file()
+        assert Path(result["query_run_path"]).is_file()
+        assert Path(result["review_paths"]["csv"]).is_file()
+        assert Path(result["review_paths"]["json"]).is_file()
+        assert Path(result["review_paths"]["markdown"]).is_file()
+
+        with open(result["query_run_path"], "r", encoding="utf-8") as handle:
+            query_run = json.load(handle)
+        assert query_run["query_name"] == "test_query"
+        assert query_run["revision_of"] is None
+
+    def test_review_rows_to_dataframe(self) -> None:
+        from unittest.mock import MagicMock, patch
+
+        from semantic_corpus.corpus_review.workflow import review_rows_to_dataframe
+
+        rows = [{"score": 5, "title": "Test"}]
+        mock_df = MagicMock()
+        with patch.dict("sys.modules", {"pandas": MagicMock(DataFrame=MagicMock(return_value=mock_df))}):
+            df = review_rows_to_dataframe(rows)
+        assert df is mock_df
+
+    def test_revision_of_recorded(self, temp_dir: Path) -> None:
+        from unittest.mock import patch
+
+        from semantic_corpus.corpus_review.workflow import (
+            run_query_and_build_review_table,
+        )
+
+        with patch(
+            "semantic_corpus.corpus_review.workflow.run_repository_search",
+            return_value=(self._SAMPLE_RESULTS, 0),
+        ):
+            result = run_query_and_build_review_table(
+                query_name="test_query_v2",
+                query_string="AQI AND India AND Delhi",
+                output_dir=temp_dir,
+                revision_of="test_query",
+            )
+
+        assert result["query_run"]["revision_of"] == "test_query"
+
+
 class TestChatbotExport:
     def test_citation_label(self, sample_metadata: dict) -> None:
         label = build_citation_label(sample_metadata)

@@ -32,6 +32,10 @@ After search/download to `temp/queries/aqi_india_pilot/`:
 
 See [build_review_table.md](build_review_table.md) for options and next steps.
 
+## Colab notebook
+
+Community users can run the same query → download → review flow in Google Colab: [colab_corpus_review_notebook.md](colab_corpus_review_notebook.md).
+
 ## Python usage
 
 ```python

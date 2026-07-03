@@ -16,6 +16,7 @@ from semantic_corpus.corpus_review.query_run import (
 from semantic_corpus.corpus_review.review_table import (
     build_review_rows_from_corpus,
     build_review_rows_from_pygetpapers,
+    build_review_rows_from_search_results,
     export_review_tables,
     load_query_context,
 )
@@ -50,6 +51,105 @@ def run_repository_search(
         except Exception:
             continue
     return results, downloaded_count
+
+
+def run_query_and_build_review_table(
+    *,
+    query_name: str,
+    query_string: str,
+    output_dir: Path,
+    repository: str = "europe_pmc",
+    limit: int = 25,
+    formats: List[str] = None,
+    notes: str = "",
+    revision_of: str = None,
+) -> Dict[str, Any]:
+    """Search, download, and build review table under an explicit output directory.
+
+    Suitable for Colab or any environment where output should not go under
+    the repo temp/ tree.
+
+    Args:
+        query_name: Short name for this query run.
+        query_string: Europe PMC query string.
+        output_dir: Directory for search_results.json, downloads, and review/.
+        repository: Repository key (default europe_pmc).
+        limit: Maximum papers to retrieve.
+        formats: Download formats (default xml).
+        notes: Optional free-text notes stored in query_run.json.
+        revision_of: Optional prior query_name when refining a query.
+
+    Returns:
+        Summary dict with counts, paths, rows, and query run record.
+    """
+    output_dir = Path(output_dir)
+    if formats is None:
+        formats = ["xml"]
+
+    results, downloaded_count = run_repository_search(
+        query_string=query_string,
+        repository=repository,
+        limit=limit,
+        output_dir=output_dir,
+        formats=formats,
+    )
+
+    results_path = Path(output_dir, "search_results.json")
+    with open(results_path, "w", encoding="utf-8") as handle:
+        json.dump(results, handle, indent=2, ensure_ascii=False)
+
+    record = build_query_run_record(
+        query_name=query_name,
+        query_string=query_string,
+        repository=repository,
+        limit=limit,
+        formats=formats,
+        output_dir=output_dir,
+        result_count=len(results),
+        downloaded_count=downloaded_count,
+        notes=notes,
+        revision_of=revision_of,
+    )
+    query_run_path = save_query_run_record(record, output_dir)
+
+    rows = build_review_rows_from_search_results(
+        results_path,
+        xml_dir=output_dir,
+        query_name=query_name,
+        query_string=query_string,
+    )
+    review_paths = export_review_tables(rows, Path(output_dir, "review"))
+
+    high_score_count = sum(1 for row in rows if int(row["score"]) >= 5)
+    xml_count = sum(1 for row in rows if row["has_xml"])
+
+    return {
+        "query_name": query_name,
+        "query_string": query_string,
+        "result_count": len(results),
+        "downloaded_count": downloaded_count,
+        "row_count": len(rows),
+        "high_score_count": high_score_count,
+        "xml_count": xml_count,
+        "output_dir": str(output_dir),
+        "search_results_path": str(results_path),
+        "query_run_path": str(query_run_path),
+        "review_paths": {k: str(v) for k, v in review_paths.items()},
+        "rows": rows,
+        "query_run": record,
+        "summary": summarize_query_run(record),
+    }
+
+
+def review_rows_to_dataframe(rows: List[Dict[str, Any]]):
+    """Convert review rows to a pandas DataFrame (requires pandas)."""
+    try:
+        import pandas as pd
+    except ImportError as exc:
+        raise CorpusError(
+            "pandas is required for review_rows_to_dataframe; install with: pip install pandas"
+        ) from exc
+    return pd.DataFrame(rows)
 
 
 def run_pilot_from_config(config_path: Path) -> Dict[str, Any]:
