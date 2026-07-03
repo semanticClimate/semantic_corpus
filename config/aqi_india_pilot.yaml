@@ -1,0 +1,15 @@
+# AQI India pilot query configuration
+# Date: 2026-07-03 (system date)
+
+query_name: aqi_india_pilot
+query_string: '("air quality index" OR AQI OR "ambient air pollution" OR PM2.5 OR PM10) AND India'
+repository: europe_pmc
+limit: 25
+formats:
+  - xml
+corpus_name: aqi_india_pilot
+output_subdir: aqi_india_pilot
+
+success_criteria:
+  min_relevant_records: 10
+  min_fulltext_xml: 5

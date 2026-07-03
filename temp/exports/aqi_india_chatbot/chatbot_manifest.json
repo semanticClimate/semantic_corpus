@@ -1,0 +1,17 @@
+{
+  "export_version": "1.0",
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/aqi_india_pilot",
+  "paper_count": 0,
+  "papers": [],
+  "chunking_hint": {
+    "primary_text_source": "xml_path",
+    "fallback_text_source": "abstract",
+    "metadata_fields_for_retrieval": [
+      "title",
+      "abstract",
+      "doi",
+      "pmcid",
+      "citation_label"
+    ]
+  }
+}
