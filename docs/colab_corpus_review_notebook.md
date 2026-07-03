@@ -7,21 +7,22 @@
 The community notebook [`notebooks/corpus_query_review_colab.ipynb`](../notebooks/corpus_query_review_colab.ipynb) runs in Google Colab and lets you:
 
 1. Install `semantic_corpus` from GitHub
-2. Search Europe PMC and download XML fulltext
+2. Search Europe PMC and download XML and PDF fulltext
 3. Build a scored review table
-4. Browse and filter candidates
-5. Download artifacts for offline review
-6. Refine the query and compare runs
+4. Browse and filter candidates, view and preview PDFs
+5. Classify papers (unsupervised clusters and supervised climate-encyclopedia categories)
+6. Download artifacts for offline review
+7. Refine the query and compare runs
 
 No local repository checkout is required.
 
 ## Open in Colab
 
-After the notebook is on the default branch, use:
+Open the notebook from the `colab-review-classification` branch:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semanticClimate/semantic_corpus/blob/main/notebooks/corpus_query_review_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/semanticClimate/semantic_corpus/blob/colab-review-classification/notebooks/corpus_query_review_colab.ipynb)
 
-Or upload `notebooks/corpus_query_review_colab.ipynb` manually to Colab.
+Or upload `notebooks/corpus_query_review_colab.ipynb` manually to Colab. The install cell pulls the same branch so the classification and PDF features are available.
 
 ## Parameters
 
@@ -30,11 +31,14 @@ Edit the parameters cell before each run:
 | Parameter | Default | Purpose |
 |-----------|---------|---------|
 | `QUERY_NAME` | `aqi_india_pilot` | Short name for this run; used in output paths |
-| `QUERY_STRING` | AQI India pilot query | Europe PMC search string |
-| `LIMIT` | `25` | Maximum papers to retrieve |
-| `FORMATS` | `["xml"]` | Download formats |
+| `QUERY_STRING` | AQI India pilot query (incl. "climate change") | Europe PMC search string |
+| `LIMIT` | `50` | Maximum papers to retrieve |
+| `FORMATS` | `["xml", "pdf"]` | Download formats |
 | `REPOSITORY` | `europe_pmc` | Repository key |
 | `REVISION_OF` | `None` | Prior `QUERY_NAME` when refining a query |
+| `CLASSIFY_UNSUPERVISED` | `True` | Cluster papers by content |
+| `N_CLUSTERS` | `5` | Number of unsupervised clusters |
+| `ENCYCLOPEDIA_DIR` | `None` | Path to climate encyclopedias for supervised tagging |
 | `OUTPUT_DIR` | `/content/queries/<QUERY_NAME>` | Where results are written |
 
 ## What gets written
@@ -45,10 +49,20 @@ Under `OUTPUT_DIR`:
 |---------------|----------|
 | `search_results.json` | Metadata for all search hits |
 | `{pmcid}.xml` | Fulltext XML when PMC fulltext is available |
+| `{pmcid}.pdf` | Fulltext PDF when available (linked from the review table) |
 | `query_run.json` | Provenance (query, counts, timestamp, `revision_of`) |
-| `review/review_table.json` | Scored review rows |
+| `review/review_table.json` | Scored review rows (incl. cluster and encyclopedia columns) |
 | `review/review_table.csv` | Same data for spreadsheet editing |
-| `review/review_table.md` | Quick read-only summary |
+| `review/review_table.md` | Quick read-only summary with PDF links |
+
+## Classification
+
+The notebook can classify papers two ways:
+
+- **Unsupervised** (`CLASSIFY_UNSUPERVISED=True`): groups papers into `N_CLUSTERS` clusters with scikit-learn (`TfidfVectorizer` + `KMeans`). Adds `cluster_id` and `cluster_terms` columns.
+- **Supervised** (`ENCYCLOPEDIA_DIR` set): a TF-IDF nearest-centroid classifier tags each paper with the best-matching climate-encyclopedia category using curated wordlists from the [encyclopedia](https://github.com/semanticClimate/encyclopedia) project. Adds `encyclopedia_category`, `encyclopedia_score`, and `encyclopedia_terms` columns.
+
+Both use scikit-learn, installed via the `classification` extra (the install cell uses `semantic_corpus[classification]`). scikit-learn is also pre-installed in Colab.
 
 ## Iterative refinement
 

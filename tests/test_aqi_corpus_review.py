@@ -66,8 +66,9 @@ class TestPilotConfig:
             "Pilot query_string should mention India"
         )
         assert config["repository"] == "europe_pmc"
-        assert config["limit"] == 25
-        assert config["formats"] == ["xml"]
+        assert config["limit"] == 50
+        assert "xml" in config["formats"] and "pdf" in config["formats"]
+        assert "climate change" in config["query_string"]
 
 
 class TestRelevanceScorer:

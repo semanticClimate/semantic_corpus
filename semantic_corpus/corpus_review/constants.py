@@ -63,6 +63,27 @@ HEALTH_TERMS = (
     "public health",
 )
 
+CLIMATE_TERMS = (
+    "climate change",
+    "climate",
+    "global warming",
+    "greenhouse gas",
+    "ghg",
+    "carbon dioxide",
+    "co2",
+    "emissions",
+    "mitigation",
+    "adaptation",
+    "warming",
+    "carbon",
+    "net zero",
+    "decarbonisation",
+    "decarbonization",
+)
+
+# Value used when a classification column has not been populated yet.
+UNCLASSIFIED_LABEL = ""
+
 REVIEW_TABLE_COLUMNS = (
     "review_status",
     "score",
@@ -76,11 +97,17 @@ REVIEW_TABLE_COLUMNS = (
     "authors",
     "has_xml",
     "has_pdf",
+    "pdf_path",
     "query_name",
     "query_string",
     "location_terms",
     "pollutant_terms",
     "health_terms",
+    "cluster_id",
+    "cluster_terms",
+    "encyclopedia_category",
+    "encyclopedia_score",
+    "encyclopedia_terms",
     "abstract_snippet",
     "review_notes",
 )

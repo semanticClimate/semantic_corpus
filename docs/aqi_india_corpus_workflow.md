@@ -6,10 +6,10 @@
 
 See [config/aqi_india_pilot.yaml](../config/aqi_india_pilot.yaml):
 
-- **Query:** `("air quality index" OR AQI OR "ambient air pollution" OR PM2.5 OR PM10) AND India`
+- **Query:** `("air quality index" OR AQI OR "ambient air pollution" OR PM2.5 OR PM10 OR "climate change") AND India`
 - **Repository:** `europe_pmc`
-- **Limit:** 25
-- **Formats:** XML first
+- **Limit:** 50
+- **Formats:** XML and PDF
 - **Corpus name:** `aqi_india_pilot`
 
 ## Workflow stages
@@ -76,5 +76,14 @@ export_reviewed_corpus_for_chatbot(
 ## Scoring
 
 Relevance score ranks rows for review; it does **not** auto-include papers. See `semantic_corpus/corpus_review/relevance_scorer.py`.
+
+## Classification
+
+Papers can be classified to help review large result sets:
+
+- **Unsupervised** — scikit-learn TF-IDF + KMeans clustering groups papers by content (`cluster_id`, `cluster_terms`).
+- **Supervised** — a TF-IDF nearest-centroid classifier uses curated climate encyclopedias in [`../encyclopedia`](../../encyclopedia) as category vocabularies (`encyclopedia_category`, `encyclopedia_score`, `encyclopedia_terms`).
+
+Run via `scripts/classify_review_table.py` or the `classify_unsupervised` / `encyclopedia_dir` arguments of `run_query_and_build_review_table(...)`. Implemented in `semantic_corpus/classification/` (scikit-learn; install with the `classification` extra). See [build_review_table.md](build_review_table.md).
 
 See also [chatbot_export_contract.md](chatbot_export_contract.md).

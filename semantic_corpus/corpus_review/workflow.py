@@ -63,6 +63,9 @@ def run_query_and_build_review_table(
     formats: List[str] = None,
     notes: str = "",
     revision_of: str = None,
+    classify_unsupervised: bool = False,
+    n_clusters: int = 5,
+    encyclopedia_dir: Path = None,
 ) -> Dict[str, Any]:
     """Search, download, and build review table under an explicit output directory.
 
@@ -78,6 +81,10 @@ def run_query_and_build_review_table(
         formats: Download formats (default xml).
         notes: Optional free-text notes stored in query_run.json.
         revision_of: Optional prior query_name when refining a query.
+        classify_unsupervised: Cluster papers by content when True.
+        n_clusters: Number of clusters for unsupervised classification.
+        encyclopedia_dir: Optional path to ../encyclopedia for supervised
+            classification against curated climate wordlists.
 
     Returns:
         Summary dict with counts, paths, rows, and query run record.
@@ -118,10 +125,20 @@ def run_query_and_build_review_table(
         query_name=query_name,
         query_string=query_string,
     )
+
+    classification = apply_classification(
+        rows,
+        search_results_path=results_path,
+        classify_unsupervised=classify_unsupervised,
+        n_clusters=n_clusters,
+        encyclopedia_dir=encyclopedia_dir,
+    )
+
     review_paths = export_review_tables(rows, Path(output_dir, "review"))
 
     high_score_count = sum(1 for row in rows if int(row["score"]) >= 5)
     xml_count = sum(1 for row in rows if row["has_xml"])
+    pdf_count = sum(1 for row in rows if row["has_pdf"])
 
     return {
         "query_name": query_name,
@@ -131,14 +148,76 @@ def run_query_and_build_review_table(
         "row_count": len(rows),
         "high_score_count": high_score_count,
         "xml_count": xml_count,
+        "pdf_count": pdf_count,
         "output_dir": str(output_dir),
         "search_results_path": str(results_path),
         "query_run_path": str(query_run_path),
         "review_paths": {k: str(v) for k, v in review_paths.items()},
         "rows": rows,
+        "classification": classification,
         "query_run": record,
         "summary": summarize_query_run(record),
     }
+
+
+def apply_classification(
+    rows: List[Dict[str, Any]],
+    *,
+    search_results_path: Path = None,
+    classify_unsupervised: bool = False,
+    n_clusters: int = 5,
+    encyclopedia_dir: Path = None,
+) -> Dict[str, Any]:
+    """Annotate review rows in place with clusters and/or encyclopedia categories.
+
+    Args:
+        rows: Review rows to annotate.
+        search_results_path: Optional search_results.json for full-abstract text.
+        classify_unsupervised: Run clustering when True.
+        n_clusters: Number of clusters.
+        encyclopedia_dir: Optional ../encyclopedia path for supervised labels.
+
+    Returns:
+        Summary of classification performed (clusters and categories).
+    """
+    from semantic_corpus.classification.annotate import (
+        annotate_rows_with_clusters,
+        annotate_rows_with_encyclopedia,
+        documents_from_review_rows,
+        documents_from_search_results,
+    )
+    from semantic_corpus.classification.encyclopedia_labels import (
+        load_encyclopedia_categories,
+    )
+
+    if search_results_path and Path(search_results_path).is_file():
+        documents = documents_from_search_results(search_results_path)
+    else:
+        documents = documents_from_review_rows(rows)
+
+    summary: Dict[str, Any] = {
+        "unsupervised": None,
+        "supervised": None,
+    }
+
+    if classify_unsupervised:
+        cluster_terms = annotate_rows_with_clusters(
+            rows, documents=documents, n_clusters=n_clusters
+        )
+        summary["unsupervised"] = {
+            "n_clusters": len(cluster_terms),
+            "cluster_terms": {str(k): v for k, v in cluster_terms.items()},
+        }
+
+    if encyclopedia_dir:
+        categories = load_encyclopedia_categories(Path(encyclopedia_dir))
+        annotate_rows_with_encyclopedia(rows, categories, documents=documents)
+        summary["supervised"] = {
+            "categories": sorted(categories.keys()),
+            "encyclopedia_dir": str(encyclopedia_dir),
+        }
+
+    return summary
 
 
 def review_rows_to_dataframe(rows: List[Dict[str, Any]]):
