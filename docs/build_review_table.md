@@ -25,9 +25,11 @@ Output is written to `temp/queries/aqi_india_pilot/review/`:
 
 | File | Use |
 |------|-----|
-| `review_table.json` | Edit `review_status` programmatically or by hand |
-| `review_table.csv` | Browse and edit in a spreadsheet |
-| `review_table.md` | Quick read-only overview sorted by score |
+| `review_table.json` | Source of truth for tools |
+| `review_table.csv` | Machine export (spreadsheet interchange; not for editing) |
+| `review_table.html` | **Human editing** in any browser; styled via `review_table.css` |
+| `review_table.css` | Edit layout/colours (platform-independent) |
+| `review_table.md` | Quick read-only overview |
 
 ## Script options
 
@@ -65,7 +67,29 @@ Each row includes:
 
 Rows are sorted by descending score, then `paper_id`.
 
-## After building the table
+## Edit in HTML (recommended)
+
+**Team tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)  
+**Feature record:** [records/2026-07-04_html_review_table.md](records/2026-07-04_html_review_table.md)
+
+Papers load only through the local server (http:// URL). Do not open `review_table.html` as a saved file.
+
+```bash
+./venv/bin/python scripts/review_viewer.py serve \
+  --review-table temp/queries/climate_anxiety_2026/review/review_table.json \
+  --query-dir temp/queries/climate_anxiety_2026
+```
+
+Then open **http://127.0.0.1:8765/review_table.html** (the script may open this for you).
+
+- **Green banner** at top = connected; **Read** opens PDF/HTML in a side panel
+- Change **Status** (`review` / `include` / `exclude`) and **Notes** in the table
+- Click **Save review table** — updates `.json`, `.csv`, `.html`, and `.md`
+- Customise appearance by editing `review_table.css` in the same folder (reload the page)
+
+CSV is still exported for pipelines, but you do not need Excel to edit.
+
+## After building the table (JSON / programmatic)
 
 1. Open `review_table.csv` or `review_table.json`.
 2. Set `review_status` to `include` for papers you want in the corpus, or `exclude` to drop them.

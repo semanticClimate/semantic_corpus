@@ -10,6 +10,7 @@ from typing import Optional
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.core.exceptions import CorpusError, RepositoryError
+from semantic_corpus.repositories._ids import get_result_paper_id
 from semantic_corpus.utils import get_downloads_dir, get_corpus_dir
 
 
@@ -121,7 +122,7 @@ def download_papers_command(args) -> None:
         format_list = [f.strip() for f in args.formats.split(',')]
         
         for paper in results:
-            paper_id = paper.get('pmcid') or paper.get('arxiv_id') or paper.get('pmid')
+            paper_id = get_result_paper_id(paper)
             if not paper_id:
                 continue
             

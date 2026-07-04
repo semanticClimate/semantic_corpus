@@ -157,6 +157,11 @@ class TestReviewTable:
         assert paths["markdown"].is_file(), (
             f"Markdown review table missing at {paths['markdown']}"
         )
+        assert paths["html"].is_file(), f"HTML review table missing at {paths['html']}"
+        assert paths["css"].is_file(), f"CSS file missing at {paths['css']}"
+        html = paths["html"].read_text(encoding="utf-8")
+        assert "review-status" in html
+        assert "Save review table" in html
 
 
 class TestQueryRun:

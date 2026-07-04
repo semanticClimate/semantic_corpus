@@ -3,7 +3,7 @@
 Build a corpus review table from a semantic_corpus query output directory.
 
 Reads a flat query output (search_results.json plus sibling {pmcid}.xml files,
-as produced by the download workflow) and writes review_table.{json,csv,md}.
+as produced by the download workflow) and writes review_table.{json,csv,md,html}.
 
 Usage:
     ./venv/bin/python scripts/build_review_table.py \

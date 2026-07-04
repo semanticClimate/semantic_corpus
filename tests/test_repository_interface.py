@@ -104,6 +104,59 @@ class TestEuropePMCRepository:
             assert Path(file_path).exists(), f"Downloaded file {file_path} should exist"
             assert Path(file_path).stat().st_size > 0, f"Downloaded file {file_path} should not be empty"
 
+    def test_europe_pmc_download_pdf_uses_full_text_url(self, tmp_path, monkeypatch):
+        """PDF download should use Europe PMC's advertised render URL."""
+        repo = EuropePMCRepository()
+        pdf_url = "https://europepmc.org/articles/PMC13023394?pdf=render"
+        requested_urls = []
+
+        class FakeResponse:
+            def __init__(self, *, data=None, content=b"", headers=None):
+                self._data = data
+                self.content = content
+                self.headers = headers or {}
+
+            def raise_for_status(self):
+                return None
+
+            def json(self):
+                return self._data
+
+        def fake_get(url, params=None):
+            requested_urls.append(url)
+            if url.endswith("/search"):
+                return FakeResponse(
+                    data={
+                        "resultList": {
+                            "result": [
+                                {
+                                    "pmcid": "PMC13023394",
+                                    "hasPDF": "Y",
+                                    "fullTextUrlList": {
+                                        "fullTextUrl": [
+                                            {
+                                                "availabilityCode": "OA",
+                                                "documentStyle": "pdf",
+                                                "url": pdf_url,
+                                            }
+                                        ]
+                                    },
+                                }
+                            ]
+                        }
+                    }
+                )
+            return FakeResponse(content=b"%PDF-1.5\n", headers={"content-type": "application/pdf"})
+
+        monkeypatch.setattr("semantic_corpus.repositories.europe_pmc.requests.get", fake_get)
+
+        result = repo.download_paper("PMC13023394", tmp_path, formats=["pdf"])
+
+        assert result["success"] is True
+        assert (tmp_path / "PMC13023394.pdf").read_bytes().startswith(b"%PDF")
+        assert pdf_url in requested_urls
+        assert all("fullTextPDF" not in url for url in requested_urls)
+
 
 class TestArxivRepository:
     """Test cases for arXiv repository implementation."""
@@ -253,4 +306,5 @@ class TestRepositoryFactory:
         assert isinstance(repositories, list), "Repositories should be a list"
         assert "europe_pmc" in repositories, "Repositories should include 'europe_pmc'"
         assert "arxiv" in repositories, "Repositories should include 'arxiv'"
-        assert len(repositories) >= 2, f"Expected at least 2 repositories, got {len(repositories)}"
+        assert "openalex" in repositories, "Repositories should include 'openalex'"
+        assert len(repositories) >= 5, f"Expected at least 5 repositories, got {len(repositories)}"

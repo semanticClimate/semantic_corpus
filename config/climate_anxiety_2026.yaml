@@ -1,0 +1,14 @@
+# Climate anxiety example corpus (2026 publications, full text required)
+# Date: 2026-07-03 (system date)
+
+query_name: climate_anxiety_2026
+query_string: '"climate anxiety" AND (HAS_FT:Y)'
+repository: europe_pmc
+limit: 50
+start_date: "2026-01-01"
+end_date: "2026-12-31"
+formats:
+  - xml
+  - pdf
+corpus_name: climate_anxiety_2026
+output_subdir: climate_anxiety_2026

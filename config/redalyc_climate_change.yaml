@@ -1,0 +1,19 @@
+# Redalyc example query: Latin American climate change literature
+# Date: 2026-07-04 (system date)
+#
+# Note: Redalyc legacy search endpoint often returns 404; the adapter falls
+# back to homepage article discovery filtered by query terms in title/abstract.
+
+query_name: redalyc_climate_change
+query_string: cambio climatico
+repository: redalyc
+limit: 5
+formats:
+  - html
+  - pdf
+corpus_name: redalyc_climate_change
+output_subdir: redalyc_climate_change
+
+success_criteria:
+  min_search_results: 0
+  min_downloads: 0
