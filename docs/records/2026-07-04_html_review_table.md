@@ -1,12 +1,15 @@
 # Record: HTML review table and paper reader
 
-**Date:** 2026-07-04  
+**Date:** 2026-07-04 (initial); updated 2026-07-06  
 **Status:** Implemented and verified  
 **Example corpus:** `climate_anxiety_2026` (50 papers)
 
+**Discussion summary:** [../summary/2026-07-06_review_workflow.md](../summary/2026-07-06_review_workflow.md)  
+**New member guide:** [../tutorials/new_member_review_quickstart.md](../tutorials/new_member_review_quickstart.md)
+
 ## Summary
 
-Human reviewers can browse, read full papers, and record include/exclude decisions in a browser — without Excel or copying paper text into HTML files.
+Human reviewers browse, read full papers, and record include/exclude decisions in a browser — without Excel or copying paper text into HTML files.
 
 | Role | File | Notes |
 |------|------|-------|
@@ -17,6 +20,18 @@ Human reviewers can browse, read full papers, and record include/exclude decisio
 | Read-only overview | `review/review_table.md` | Quick scan |
 
 Full papers (PDF/HTML) stay on disk under the query directory and/or BAGIT corpus. The review UI loads them through a local HTTP server — never embedded in the HTML export.
+
+## Read column (current behaviour)
+
+Each row’s **Read** column contains:
+
+| Control | Behaviour |
+|---------|-----------|
+| **PDF** link | `GET /papers/{pmcid}.pdf` — opens in new tab |
+| **HTML** link | `GET /papers/{pmcid}.html` — opens in new tab |
+| **Read** button | Opens side panel; loads PDF (default) or HTML via panel toggle |
+
+Requires `review_viewer.py serve` (http:// URL). A green connection banner confirms the server is reachable.
 
 ## User-facing tools
 
@@ -45,20 +60,29 @@ review/review_table.json  ◄── source of truth
                  ├── GET  /review_table.html      editable table
                  ├── GET  /api/health             connection check
                  ├── GET  /api/paper-preview      abstract + file URLs
-                 ├── GET  /papers/{pmcid}.pdf     full PDF (Range support)
+                 ├── GET  /papers/{pmcid}.pdf     full PDF (HTTP Range 206)
                  ├── GET  /papers/{pmcid}.html    full HTML from corpus
                  └── POST /api/save               writes all exports
 ```
+
+Corpus documents are resolved from:
+
+- `temp/queries/{query}/{pmcid}.pdf` (query download)
+- `corpora/{name}/data/documents/{pdf,html,xml}/`
+- `corpora/{name}/data/data/documents/...` (nested BAGIT layout)
+
+Corpus dir is auto-inferred from query folder name when not passed explicitly.
 
 ### Design decisions
 
 1. **CSV export, HTML edit** — spreadsheets are for interchange; reviewers use the browser table.
 2. **No full-text copy in HTML** — only metadata rows are embedded; papers fetched on demand.
 3. **Side panel reader** — table stays visible; selected row highlighted; PDF/HTML toggle in panel header.
-4. **Serve mode mandatory for papers** — opening `review_table.html` via `file://` cannot load PDFs; page shows a red connection banner.
-5. **PDF via fetch + blob URL; HTML via fetch + iframe srcdoc** — avoids browser iframe/plugin issues with bare URLs.
-6. **HTTP Range (206) for PDFs** — required by Chrome’s embedded PDF viewer.
-7. **Score hidden in UI** — score remains in JSON/CSV; can hide column via CSS (`.col-score { display: none }`).
+4. **Direct PDF/HTML links** — real `<a href>` per row as well as panel button.
+5. **Serve mode mandatory for papers** — `file://` shows red banner; cannot load or save in place.
+6. **PDF via fetch + iframe blob URL; HTML via fetch + iframe srcdoc** — reliable across browsers.
+7. **HTTP Range (206) for PDFs** — required by Chrome’s PDF viewer.
+8. **Score hidden in UI** — score remains in JSON/CSV.
 
 ## Key code paths
 
@@ -80,17 +104,19 @@ temp/queries/climate_anxiety_2026/PMC*.pdf
 temp/queries/climate_anxiety_2026/review/review_table.json
 temp/queries/climate_anxiety_2026/review/review_table.html
 corpora/climate_anxiety_2026/data/documents/html/europe_pmc_*.html
+corpora/climate_anxiety_2026/data/data/documents/html/europe_pmc_*.html
 ```
 
 ## Tests
 
 - `tests/test_review_table_html.py`
 - `tests/test_review_viewer_server.py` (health, Range, document resolve)
-- `tests/test_text_preview_paths.py`
+- `tests/test_text_preview_paths.py` (nested corpus paths)
 - `tests/test_html_review_viewer.py`
 
 ## Related docs
 
-- Tutorial: [../tutorials/html_review_table_tutorial.md](../tutorials/html_review_table_tutorial.md)
+- Quick start: [../tutorials/new_member_review_quickstart.md](../tutorials/new_member_review_quickstart.md)
+- Full tutorial: [../tutorials/html_review_table_tutorial.md](../tutorials/html_review_table_tutorial.md)
 - Build reference: [../build_review_table.md](../build_review_table.md)
 - Terminal review: [../interactive_review.md](../interactive_review.md)

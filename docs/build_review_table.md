@@ -69,7 +69,9 @@ Rows are sorted by descending score, then `paper_id`.
 
 ## Edit in HTML (recommended)
 
-**Team tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)  
+**New team member (5 min):** [tutorials/new_member_review_quickstart.md](tutorials/new_member_review_quickstart.md)  
+**Full tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)  
+**Discussion summary:** [summary/2026-07-06_review_workflow.md](summary/2026-07-06_review_workflow.md)  
 **Feature record:** [records/2026-07-04_html_review_table.md](records/2026-07-04_html_review_table.md)
 
 Papers load only through the local server (http:// URL). Do not open `review_table.html` as a saved file.

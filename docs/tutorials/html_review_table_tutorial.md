@@ -102,7 +102,7 @@ The table has one row per paper. Key columns:
 |--------|------------|
 | **Status** | `review` (undecided), `include`, or `exclude` |
 | **Title / Abstract** | Skim relevance |
-| **Read** | Open the full paper in a side panel |
+| **Read** | **PDF** / **HTML** links open full text in a new tab; **Read** opens the side panel |
 | **Notes** | Free text (why you included/excluded) |
 
 Try sorting mentally by title, or scroll to a paper that looks interesting.
@@ -111,12 +111,16 @@ Try sorting mentally by title, or scroll to a paper that looks interesting.
 
 ## Step 5 — Read a full paper
 
+In the **Read** column each row has:
+
+- **PDF** / **HTML** — click to open full text in a **new browser tab**
+- **Read** — opens the **side panel** (row highlighted in blue)
+
+For the side panel:
+
 1. Click **Read** on any row with a PMCID.
-2. The **side panel** opens on the right; the selected row is highlighted in blue.
-3. Use **PDF** or **HTML** in the panel header (whichever is available).
-   - **PDF** — default; good for print-like reading
-   - **HTML** — structured text from the corpus; better for future section selection
-4. Click **Close**, the backdrop, or press **Esc** to return to the table.
+2. Use **PDF** or **HTML** in the panel header to switch format.
+3. Click **Close**, the backdrop, or press **Esc** to return to the table.
 
 Papers are loaded from disk through the server. They are not copied into the HTML file.
 
@@ -228,6 +232,8 @@ For bugs, note: command run, URL in address bar (http vs file), banner colour, a
 
 ## Further reading
 
+- **New member quick start:** [new_member_review_quickstart.md](new_member_review_quickstart.md)
 - Feature record: [../records/2026-07-04_html_review_table.md](../records/2026-07-04_html_review_table.md)
+- Discussion summary: [../summary/2026-07-06_review_workflow.md](../summary/2026-07-06_review_workflow.md)
 - Build options: [../build_review_table.md](../build_review_table.md)
 - Full AQI workflow example: [../aqi_india_corpus_workflow.md](../aqi_india_corpus_workflow.md)

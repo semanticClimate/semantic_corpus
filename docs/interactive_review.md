@@ -104,9 +104,8 @@ Paste that in chat; no special format required.
 
 ## HTML review (recommended for teams)
 
-Use the **editable HTML table** to review all papers at once, read full PDF/HTML in a side panel, and save decisions:
-
-- **Tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)
+- **New member (5 min):** [tutorials/new_member_review_quickstart.md](tutorials/new_member_review_quickstart.md)
+- **Full tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)
 - **Build table first:** [build_review_table.md](build_review_table.md)
 
 Quick serve command (after building the table):
