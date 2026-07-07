@@ -10,7 +10,11 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 from semantic_corpus.corpus_review.interactive_review import ReviewSession, ReviewSessionConfig
 from semantic_corpus.corpus_review.review_table import export_review_tables
-from semantic_corpus.corpus_review.text_preview import build_paper_preview, resolve_document_paths
+from semantic_corpus.corpus_review.text_preview import (
+    build_paper_preview,
+    resolve_document_paths,
+    render_jats_to_html,
+)
 
 _PAPER_FILENAME = re.compile(r"^[A-Za-z0-9._-]+\.(pdf|html)$")
 
@@ -192,14 +196,21 @@ class ReviewViewerServer:
                     xml_dir=config.xml_dir,
                     corpus_dir=config.corpus_dir,
                 )
+                html_url = None
+                if paths.get("html_path") and pmcid:
+                    html_url = f"/papers/{pmcid}.html"
+                elif paths.get("xml_path") and pmcid:
+                    html_url = f"/papers/{pmcid}.xml"
+
                 payload: Dict[str, Any] = {
                     "abstract": preview.get("abstract") or row.get("abstract_snippet") or "",
                     "intro": preview.get("intro") or "",
                     "pdf_url": f"/papers/{pmcid}.pdf" if paths.get("pdf_path") and pmcid else None,
-                    "html_url": f"/papers/{pmcid}.html" if paths.get("html_path") and pmcid else None,
+                    "html_url": html_url,
                     "formats": {
                         "pdf": bool(paths.get("pdf_path")),
                         "html": bool(paths.get("html_path")),
+                        "xml": bool(paths.get("xml_path")),
                     },
                 }
                 self._send_json(200, payload)
@@ -218,6 +229,37 @@ class ReviewViewerServer:
 
                 if path.startswith("/papers/"):
                     filename = path.split("/papers/", 1)[-1]
+                    # Serve rendered HTML for JATS XML files.
+                    if filename.lower().endswith(".xml"):
+                        stem = Path(filename).stem
+                        config = server.session_config
+                        session = server._get_session()
+                        row: Dict[str, Any] = {"pmcid": stem, "paper_id": f"europe_pmc_{stem}"}
+                        for candidate in session.rows:
+                            if candidate.get("pmcid") == stem or candidate.get("paper_id") == stem:
+                                row = candidate
+                                break
+                            if candidate.get("paper_id") == f"europe_pmc_{stem}":
+                                row = candidate
+                                break
+
+                        paths = resolve_document_paths(
+                            row,
+                            query_dir=config.query_dir if config else None,
+                            xml_dir=config.xml_dir if config else None,
+                            corpus_dir=config.corpus_dir if config else None,
+                        )
+                        xml_path = paths.get("xml_path")
+                        if not xml_path:
+                            self.send_error(404)
+                            return
+                        rendered = render_jats_to_html(Path(xml_path))
+                        if not rendered:
+                            self.send_error(500)
+                            return
+                        self._send_bytes(rendered.encode("utf-8"), "text/html; charset=utf-8")
+                        return
+
                     document = server._resolve_document(filename)
                     if not document:
                         self.send_error(404)

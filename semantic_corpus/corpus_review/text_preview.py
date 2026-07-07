@@ -7,6 +7,7 @@ from typing import Any, Dict, Optional
 
 from bs4 import BeautifulSoup
 from lxml import etree
+from html import escape
 
 
 def strip_markup(text: str) -> str:
@@ -178,3 +179,86 @@ def build_paper_preview(
         "xml_path": str(paths["xml_path"] or ""),
         "pdf_path": str(paths["pdf_path"] or ""),
     }
+
+
+def render_jats_to_html(xml_path: Path) -> str:
+    """Render a JATS/PMC XML file to a simple, readable HTML string.
+
+    The output includes the title, a simple author list, the abstract,
+    and body paragraphs. This is intentionally minimal and focuses on
+    readability rather than faithful conversion.
+    """
+    xml_path = Path(xml_path)
+    if not xml_path.is_file():
+        return ""
+
+    try:
+        root = etree.parse(str(xml_path)).getroot()
+    except etree.XMLSyntaxError:
+        return ""
+
+    def find_text(elem, tag):
+        e = elem.find(f".//{{*}}{tag}")
+        return _element_text(e) if e is not None else ""
+
+    title = find_text(root, "article-title")
+
+    # Authors: collect contrib/name blocks
+    authors = []
+    for contrib in root.findall('.//{*}contrib'):
+        # only author-type contribs
+        ctype = contrib.get("contrib-type")
+        if ctype and ctype.lower() != "author":
+            continue
+        name_el = contrib.find('.//{*}name')
+        if name_el is not None:
+            authors.append(_element_text(name_el))
+        else:
+            # fallback to raw contribut text
+            text = _element_text(contrib)
+            if text:
+                authors.append(text)
+
+    # Abstract: may contain multiple paragraphs
+    abstract_parts: list[str] = []
+    for abstract in root.findall('.//{*}abstract'):
+        for p in abstract.findall('.//{*}p'):
+            t = _element_text(p)
+            if t:
+                abstract_parts.append(t)
+        if not abstract_parts:
+            # direct text fallback
+            t = _element_text(abstract)
+            if t:
+                abstract_parts.append(t)
+        if abstract_parts:
+            break
+
+    # Body paragraphs
+    body_paragraphs: list[str] = []
+    for p in root.findall('.//{*}body//{*}p'):
+        t = _element_text(p)
+        if t:
+            body_paragraphs.append(t)
+        if len(body_paragraphs) >= 200:
+            break
+
+    parts: list[str] = ["<!doctype html>", "<html><head>", '<meta charset="utf-8"/>']
+    if title:
+        parts.append(f"<title>{escape(title)}</title>")
+    parts.append("</head><body>")
+    if title:
+        parts.append(f"<h1>{escape(title)}</h1>")
+    if authors:
+        parts.append(f"<p><strong>Authors:</strong> {escape(', '.join(authors))}</p>")
+    if abstract_parts:
+        parts.append("<h2>Abstract</h2>")
+        for p in abstract_parts:
+            parts.append(f"<p>{escape(p)}</p>")
+    if body_paragraphs:
+        parts.append("<h2>Body</h2>")
+        for p in body_paragraphs:
+            parts.append(f"<p>{escape(p)}</p>")
+
+    parts.append("</body></html>")
+    return "\n".join(parts)

@@ -1,6 +1,6 @@
 [
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 9,
     "paper_id": "europe_pmc_PMC12086192",
     "pmcid": "PMC12086192",
@@ -18,10 +18,10 @@
     "pollutant_terms": "aqi, air quality index, air pollution",
     "health_terms": "cardiovascular, health",
     "abstract_snippet": "India is the tenth most polluted nation in the world, according to the World Health Organization (WHO) 2022 assessment. Approximately 1.67 million deaths are caused by lung, cardiovascular, stroke, an...",
-    "review_notes": ""
+    "review_notes": "India specific, proposes AQI mitigation tech"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 9,
     "paper_id": "europe_pmc_PMC12329590",
     "pmcid": "PMC12329590",
@@ -39,31 +39,10 @@
     "pollutant_terms": "aqi, air quality index",
     "health_terms": "health, public health",
     "abstract_snippet": "Accurate and interpretable prediction of the Air Quality Index (AQI) is critical for public health decision-making and environmental policy enforcement. This study presents a hybrid forecasting framew...",
-    "review_notes": ""
+    "review_notes": "India is tagged, AQI prediction method"
   },
   {
-    "review_status": "review",
-    "score": 8,
-    "paper_id": "europe_pmc_42270759",
-    "pmcid": "",
-    "pmid": "42270759",
-    "doi": "10.1038/s41598-026-54918-x",
-    "title": "Regression based hybrid machine learning model performance evaluation on air quality index prediction in Kolkata.",
-    "publication_date": "2026-06-10",
-    "journal": "",
-    "authors": "G K ML; G MR",
-    "has_xml": false,
-    "has_pdf": false,
-    "query_name": "aqi_india_pilot",
-    "query_string": "(\"air quality index\" OR AQI OR \"ambient air pollution\" OR PM2.5 OR PM10) AND India",
-    "location_terms": "kolkata",
-    "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter, air pollution",
-    "health_terms": "health, public health",
-    "abstract_snippet": "Air pollution, especially elevated particulate matter concentrations, presents a substantial risk to public health and environmental sustainability in urban regions. By employing machine learning and ...",
-    "review_notes": ""
-  },
-  {
-    "review_status": "review",
+    "review_status": "include",
     "score": 8,
     "paper_id": "europe_pmc_PMC12098713",
     "pmcid": "PMC12098713",
@@ -81,10 +60,10 @@
     "pollutant_terms": "aqi, air quality index, particulate matter",
     "health_terms": "health, public health",
     "abstract_snippet": "Particulate Matter (PM) emissions have emerged as a critical global concern due to rapid urbanisation, increased vehicular traffic, and construction activities. These emissions not only harm human hea...",
-    "review_notes": ""
+    "review_notes": "India specific (Bangalore)"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 8,
     "paper_id": "europe_pmc_PMC12815361",
     "pmcid": "PMC12815361",
@@ -102,12 +81,33 @@
     "pollutant_terms": "pm2.5, particulate matter, air pollution",
     "health_terms": "health, public health",
     "abstract_snippet": "Indoor air pollution poses a major public health concern in India, particularly among urban populations exposed to high levels of particulate matter. This study aimed to assess the influence of housin...",
-    "review_notes": ""
+    "review_notes": "India specific (Jodhpur), indoor air pollution"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
+    "score": 8,
+    "paper_id": "paper_42270759",
+    "pmcid": "",
+    "pmid": "42270759",
+    "doi": "10.1038/s41598-026-54918-x",
+    "title": "Regression based hybrid machine learning model performance evaluation on air quality index prediction in Kolkata.",
+    "publication_date": "2026-06-10",
+    "journal": "",
+    "authors": "G K ML; G MR",
+    "has_xml": false,
+    "has_pdf": false,
+    "query_name": "aqi_india_pilot",
+    "query_string": "(\"air quality index\" OR AQI OR \"ambient air pollution\" OR PM2.5 OR PM10) AND India",
+    "location_terms": "kolkata",
+    "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter, air pollution",
+    "health_terms": "health, public health",
+    "abstract_snippet": "Air pollution, especially elevated particulate matter concentrations, presents a substantial risk to public health and environmental sustainability in urban regions. By employing machine learning and ...",
+    "review_notes": "India specific (Kolkata)"
+  },
+  {
+    "review_status": "include",
     "score": 7,
-    "paper_id": "europe_pmc_40889630",
+    "paper_id": "paper_40889630",
     "pmcid": "",
     "pmid": "40889630",
     "doi": "10.1016/j.envpol.2025.127051",
@@ -123,12 +123,12 @@
     "pollutant_terms": "aqi, ambient air pollution, air pollution",
     "health_terms": "exposure, respiratory",
     "abstract_snippet": "Numerous studies have shown a link between short and long-term exposure to air pollution and a wide range of illnesses. Although the etiology of these illnesses has been identified, modifiable risk fa...",
-    "review_notes": ""
+    "review_notes": "India specific (Tamil Nadu)"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 7,
-    "paper_id": "europe_pmc_41863339",
+    "paper_id": "paper_41863339",
     "pmcid": "",
     "pmid": "41863339",
     "doi": "10.1093/inteam/vjag046",
@@ -144,10 +144,10 @@
     "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter",
     "health_terms": "exposure, mortality, cardiovascular, health",
     "abstract_snippet": "This study evaluates spatiotemporal variation of particulate pollution and associated health impacts in Jodhpur, an arid Indian city among the most polluted in the country. Data from nine monitoring s...",
-    "review_notes": ""
+    "review_notes": "India specific (Jodhpur)"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 6,
     "paper_id": "europe_pmc_PMC12572900",
     "pmcid": "PMC12572900",
@@ -165,10 +165,10 @@
     "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter, ambient air pollution, air pollution",
     "health_terms": "exposure, respiratory, cardiovascular, health",
     "abstract_snippet": "<h4>Objective</h4>Air pollution is associated with adverse health effects, particularly on respiratory and cardiovascular systems. Smog, prevalent in Northern India, contains particulate matter (PM10,...",
-    "review_notes": ""
+    "review_notes": "India specific (North India)"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 6,
     "paper_id": "europe_pmc_PMC12995173",
     "pmcid": "PMC12995173",
@@ -186,10 +186,10 @@
     "pollutant_terms": "pm2.5, pm10",
     "health_terms": "exposure, respiratory, health",
     "abstract_snippet": "<h4>Background and objective</h4>Handloom weaving is a major rural occupation in India, often conducted in home-based settings with limited regulation and minimal protective measures. Such environment...",
-    "review_notes": ""
+    "review_notes": "India specific (Tamil Nadu)"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 6,
     "paper_id": "europe_pmc_PMC13199542",
     "pmcid": "PMC13199542",
@@ -207,10 +207,10 @@
     "pollutant_terms": "aqi, air quality index, particulate matter",
     "health_terms": "exposure",
     "abstract_snippet": "Accurately representing urban air quality remains a central challenge in managing global exposure and communicating environmental risk. In rapidly urbanising regions such as India, Air Quality Index (...",
-    "review_notes": ""
+    "review_notes": "India specific, AQI long term data"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 6,
     "paper_id": "europe_pmc_PMC13219415",
     "pmcid": "PMC13219415",
@@ -228,7 +228,7 @@
     "pollutant_terms": "pm2.5, pm10, air pollution",
     "health_terms": "exposure, respiratory, cardiovascular, health",
     "abstract_snippet": "Air pollution is a persisting problem for the environment, mainly in urban areas, given heavy industrialization and vehicular emissions and urbanization. Exposure to harmful air pollutants, including ...",
-    "review_notes": ""
+    "review_notes": "India is tagged, AQI monitoring method"
   },
   {
     "review_status": "review",
