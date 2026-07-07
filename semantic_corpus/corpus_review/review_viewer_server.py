@@ -55,12 +55,31 @@ class ReviewViewerServer:
         self._server: Optional[ThreadingHTTPServer] = None
         self._session: Optional[ReviewSession] = None
 
+    def _session_config(self) -> ReviewSessionConfig:
+        config = self.session_config or ReviewSessionConfig(
+            review_table_path=self.review_table_path
+        )
+        if config.corpus_dir is None and config.query_dir:
+            inferred = infer_corpus_dir(config.query_dir)
+            if inferred:
+                config = ReviewSessionConfig(
+                    review_table_path=config.review_table_path,
+                    query_dir=config.query_dir,
+                    xml_dir=config.xml_dir,
+                    corpus_dir=inferred,
+                    search_results_path=config.search_results_path,
+                    min_score=config.min_score,
+                    max_score=config.max_score,
+                    status_filter=config.status_filter,
+                    topic_filter=config.topic_filter,
+                    redo=config.redo,
+                    intro_max_chars=config.intro_max_chars,
+                )
+        return config
+
     def _get_session(self) -> ReviewSession:
         if self._session is None:
-            config = self.session_config or ReviewSessionConfig(
-                review_table_path=self.review_table_path
-            )
-            self._session = ReviewSession.load(config)
+            self._session = ReviewSession.load(self._session_config())
         return self._session
 
     def _reload_session(self) -> ReviewSession:
@@ -72,7 +91,7 @@ class ReviewViewerServer:
             return None
 
         stem = Path(filename).stem
-        config = self.session_config
+        config = self._session_config()
         session = self._get_session()
 
         row: Dict[str, Any] = {"pmcid": stem, "paper_id": f"europe_pmc_{stem}"}
@@ -86,9 +105,9 @@ class ReviewViewerServer:
 
         paths = resolve_document_paths(
             row,
-            query_dir=config.query_dir if config else None,
-            xml_dir=config.xml_dir if config else None,
-            corpus_dir=config.corpus_dir if config else None,
+            query_dir=config.query_dir,
+            xml_dir=config.xml_dir,
+            corpus_dir=config.corpus_dir,
         )
         ext = Path(filename).suffix.lower().lstrip(".")
         path = paths.get("pdf_path" if ext == "pdf" else "html_path")
@@ -174,9 +193,7 @@ class ReviewViewerServer:
                     return
 
                 row = session.rows[index]
-                config = server.session_config or ReviewSessionConfig(
-                    review_table_path=review_table_path
-                )
+                config = server._session_config()
                 preview = build_paper_preview(
                     row,
                     search_metadata=session._lookup_search_metadata(row),

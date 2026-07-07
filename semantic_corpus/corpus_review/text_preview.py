@@ -69,6 +69,35 @@ def extract_intro_from_xml(xml_path: Path, max_chars: int = 800) -> str:
     return intro
 
 
+def _corpus_document_roots(corpus_dir: Path) -> list[Path]:
+    """Return candidate document roots (handles nested data/data/ BAGIT layouts)."""
+    roots: list[Path] = []
+    for candidate in (corpus_dir / "data", corpus_dir / "data" / "data"):
+        if candidate.is_dir():
+            roots.append(candidate)
+    return roots
+
+
+def _corpus_file(
+    corpus_dir: Path, paper_id: str, pmcid: str, sub: str, ext: str
+) -> Optional[Path]:
+    """Find a document under corpus data/documents/{sub}/."""
+    names: list[str] = []
+    if paper_id:
+        names.append(paper_id)
+    if pmcid:
+        names.append(pmcid)
+        prefixed = f"europe_pmc_{pmcid}"
+        if prefixed not in names:
+            names.append(prefixed)
+    for root in _corpus_document_roots(corpus_dir):
+        for name in names:
+            candidate = root / "documents" / sub / f"{name}.{ext}"
+            if candidate.is_file():
+                return candidate
+    return None
+
+
 def resolve_document_paths(
     row: Dict[str, Any],
     *,
@@ -111,15 +140,15 @@ def resolve_document_paths(
                     else:
                         html_path = candidate
         if corpus_dir:
-            for sub, attr in (("xml", "xml_path"), ("pdf", "pdf_path"), ("html", "html_path")):
-                candidate = Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{sub}")
-                if candidate.is_file():
-                    if attr == "xml_path":
-                        xml_path = candidate
-                    elif attr == "pdf_path":
-                        pdf_path = candidate
-                    else:
-                        html_path = candidate
+            found = _corpus_file(corpus_dir, paper_id, pmcid, "xml", "xml")
+            if found:
+                xml_path = found
+            found = _corpus_file(corpus_dir, paper_id, pmcid, "pdf", "pdf")
+            if found:
+                pdf_path = found
+            found = _corpus_file(corpus_dir, paper_id, pmcid, "html", "html")
+            if found:
+                html_path = found
 
     return {
         "xml_path": xml_path,

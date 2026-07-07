@@ -9,7 +9,7 @@
 | review | 0 | Exposure to climate-related stressors undermines mental health in the Kurdistan  | PMC12832621 | True | True |
 | review | 0 | Emotional Needs in the Face of Climate Change and Barriers for Pro-Environmental | PMC12841537 | True | True |
 | review | 0 | Aware but unprepared: the impact of climate change on healthcare workers and ser | PMC12855563 | True | True |
-| review | 0 | Salutogenesis for health promotion: tensions and future directions for physical  | PMC12857198 | True | True |
+| exclude | 0 | Salutogenesis for health promotion: tensions and future directions for physical  | PMC12857198 | True | True |
 | review | 0 | Mental health without belonging: the crisis of relational safety in digital-nati | PMC12868119 | True | True |
 | review | 0 | A dataset on adolescent mental health in Kenya. | PMC12925469 | True | True |
 | review | 0 | Exploring Reddit Discourse and Information Needs Surrounding Extreme Heat: Topic | PMC12935418 | True | True |

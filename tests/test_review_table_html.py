@@ -42,7 +42,8 @@ class TestHtmlReviewTableExport:
         assert "Climate anxiety paper" in html
         assert "btn-read" in html
         assert "paper-reader" in html
-        assert "paper-embed" in html
+        assert "paper-embed" not in html
+        assert "paper-link" in html
         assert "format-btn" in html
         assert "row-reading" in html
         assert "connection-banner" in html

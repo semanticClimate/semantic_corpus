@@ -328,13 +328,14 @@ def export_review_table_html(
       display: flex;
       flex-direction: column;
     }}
-    #paper-reader .reader-body iframe,
-    #paper-reader .reader-body embed {{
+    #paper-reader .reader-body iframe {{
       flex: 1 1 0;
       min-height: 0;
       width: 100%;
       border: 0;
     }}
+    .read-links {{ display: inline-flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }}
+    .paper-link {{ color: #2563eb; font-size: 0.85rem; }}
   </style>
 </head>
 <body>
@@ -381,8 +382,7 @@ def export_review_table_html(
         <button type="button" id="reader-close">Close</button>
       </div>
       <div class="reader-body">
-        <iframe id="paper-frame" title="Full paper (HTML)" hidden></iframe>
-        <embed id="paper-embed" type="application/pdf" title="Full paper (PDF)" hidden />
+        <iframe id="paper-frame" title="Full paper"></iframe>
         <p id="reader-status" class="reader-status" hidden></p>
       </div>
     </aside>
@@ -457,6 +457,28 @@ def export_review_table_html(
         .replaceAll('"', "&quot;");
     }}
 
+    function paperUrlsForRow(row) {{
+      if (!row || !row.pmcid) return {{ pdf_url: null, html_url: null }};
+      const pmcid = encodeURIComponent(row.pmcid);
+      return {{
+        pdf_url: row.has_pdf ? `/papers/${{pmcid}}.pdf` : null,
+        html_url: row.has_xml ? `/papers/${{pmcid}}.html` : null,
+      }};
+    }}
+
+    function paperLinksHtml(row, index) {{
+      const urls = paperUrlsForRow(row);
+      const parts = [];
+      if (urls.pdf_url) {{
+        parts.push(`<a class="paper-link" href="${{urls.pdf_url}}" target="_blank" rel="noopener">PDF</a>`);
+      }}
+      if (urls.html_url) {{
+        parts.push(`<a class="paper-link" href="${{urls.html_url}}" target="_blank" rel="noopener">HTML</a>`);
+      }}
+      parts.push(`<button type="button" class="btn-read" data-index="${{index}}" aria-label="Read in panel">Read</button>`);
+      return `<span class="read-links">${{parts.join(" ")}}</span>`;
+    }}
+
     function renderTable() {{
       const body = document.getElementById("review-body");
       body.innerHTML = rows.map((row, index) => `
@@ -474,12 +496,7 @@ def export_review_table_html(
           <td>${{escapeHtml(row.publication_date)}}</td>
           <td>${{row.has_xml ? "yes" : "no"}}</td>
           <td>${{row.has_pdf ? "yes" : "no"}}</td>
-          <td>
-            <button type="button" class="btn-read" data-index="${{index}}"
-              ${{row.pmcid ? "" : "disabled"}} aria-label="Read full paper">
-              Read
-            </button>
-          </td>
+          <td class="col-read">${{paperLinksHtml(row, index)}}</td>
           <td class="col-abstract">${{escapeHtml(row.abstract_snippet)}}</td>
           <td class="col-notes"><textarea class="review-notes" rows="3">${{escapeHtml(row.review_notes || "")}}</textarea></td>
         </tr>`).join("");
@@ -543,29 +560,30 @@ def export_review_table_html(
       formatsEl.hidden = !paperFormats.pdf_url && !paperFormats.html_url;
     }}
 
-    function hideReaderStatus() {{
-      const status = document.getElementById("reader-status");
-      status.hidden = true;
-      status.textContent = "";
+    function hidePaperContent() {{
+      const frame = document.getElementById("paper-frame");
+      frame.hidden = true;
+      frame.removeAttribute("srcdoc");
+      frame.src = "about:blank";
+      revokePdfBlob();
     }}
 
     function showReaderStatus(message, isError = false) {{
-      clearPaperViews();
+      hidePaperContent();
       const status = document.getElementById("reader-status");
       status.textContent = message;
       status.className = "reader-status" + (isError ? " reader-status--error" : "");
       status.hidden = false;
     }}
 
+    function hideReaderStatus() {{
+      const status = document.getElementById("reader-status");
+      status.hidden = true;
+      status.textContent = "";
+    }}
+
     function clearPaperViews() {{
-      const frame = document.getElementById("paper-frame");
-      const embed = document.getElementById("paper-embed");
-      frame.hidden = true;
-      embed.hidden = true;
-      frame.removeAttribute("srcdoc");
-      frame.src = "about:blank";
-      embed.removeAttribute("src");
-      revokePdfBlob();
+      hidePaperContent();
       hideReaderStatus();
     }}
 
@@ -577,7 +595,6 @@ def export_review_table_html(
         return;
       }}
       const frame = document.getElementById("paper-frame");
-      const embed = document.getElementById("paper-embed");
       hideReaderStatus();
       revokePdfBlob();
       document.querySelectorAll(".format-btn").forEach((button) => {{
@@ -587,20 +604,16 @@ def export_review_table_html(
       try {{
         const response = await fetch(url);
         if (!response.ok) throw new Error("HTTP " + response.status);
+        frame.hidden = false;
         if (format === "html") {{
-          embed.hidden = true;
-          embed.removeAttribute("src");
-          frame.hidden = false;
+          frame.removeAttribute("src");
           frame.src = "about:blank";
           frame.srcdoc = await response.text();
         }} else {{
-          frame.hidden = true;
           frame.removeAttribute("srcdoc");
-          frame.src = "about:blank";
           const blob = await response.blob();
           pdfBlobUrl = URL.createObjectURL(blob);
-          embed.hidden = false;
-          embed.src = pdfBlobUrl;
+          frame.src = pdfBlobUrl;
         }}
       }} catch (err) {{
         showReaderStatus("Failed to load " + format.toUpperCase() + ": " + err.message, true);
@@ -609,6 +622,14 @@ def export_review_table_html(
 
     function showFrameMessage(message, isError = false) {{
       showReaderStatus(message, isError);
+    }}
+
+    function mergePaperFormats(row, preview) {{
+      const defaults = paperUrlsForRow(row);
+      return {{
+        pdf_url: preview?.pdf_url || defaults.pdf_url,
+        html_url: preview?.html_url || defaults.html_url,
+      }};
     }}
 
     async function openPaper(index) {{
@@ -638,22 +659,18 @@ def export_review_table_html(
 
       try {{
         const response = await fetch(`/api/paper-preview?index=${{index}}`);
-        if (!response.ok) throw new Error("preview unavailable");
-        const preview = await response.json();
-        paperFormats = {{
-          pdf_url: preview.pdf_url || null,
-          html_url: preview.html_url || null,
-        }};
-        updateFormatButtons();
-        if (paperFormats.pdf_url) {{
-          await setPaperFormat("pdf");
-        }} else if (paperFormats.html_url) {{
-          await setPaperFormat("html");
-        }} else {{
-          showFrameMessage("No HTML or PDF available for this paper.", true);
-        }}
+        const preview = response.ok ? await response.json() : null;
+        paperFormats = mergePaperFormats(row, preview);
       }} catch (err) {{
-        showFrameMessage("Could not load paper: " + err.message, true);
+        paperFormats = paperUrlsForRow(row);
+      }}
+      updateFormatButtons();
+      if (paperFormats.pdf_url) {{
+        await setPaperFormat("pdf");
+      }} else if (paperFormats.html_url) {{
+        await setPaperFormat("html");
+      }} else {{
+        showFrameMessage("No HTML or PDF file found for this paper.", true);
       }}
     }}
 

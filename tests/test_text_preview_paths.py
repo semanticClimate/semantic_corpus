@@ -18,3 +18,15 @@ def test_resolve_html_by_paper_id_in_query_dir(tmp_path: Path) -> None:
     paths = resolve_document_paths(row, query_dir=query_dir)
     assert paths["pdf_path"] == query_dir / "PMC1.pdf"
     assert paths["html_path"] == query_dir / "europe_pmc_PMC1.html"
+
+
+def test_resolve_html_in_nested_corpus_data_dir(tmp_path: Path) -> None:
+    corpus_dir = tmp_path / "corpus"
+    nested = corpus_dir / "data" / "data" / "documents" / "html"
+    nested.mkdir(parents=True)
+    html_file = nested / "europe_pmc_PMC99.html"
+    html_file.write_text("<html><body>nested</body></html>", encoding="utf-8")
+
+    row = {"pmcid": "PMC99", "paper_id": "europe_pmc_PMC99"}
+    paths = resolve_document_paths(row, corpus_dir=corpus_dir)
+    assert paths["html_path"] == html_file

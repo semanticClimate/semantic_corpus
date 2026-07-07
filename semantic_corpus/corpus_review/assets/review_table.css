@@ -129,6 +129,27 @@ tbody tr:hover {
   display: none;
 }
 
+.read-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.paper-link {
+  color: #2563eb;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.paper-link:hover {
+  text-decoration: underline;
+}
+
+.col-read {
+  white-space: nowrap;
+}
+
 .btn-read {
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -240,8 +261,7 @@ body.reader-open {
   background: #fff;
 }
 
-.reader-body iframe,
-.reader-body embed {
+.reader-body iframe {
   flex: 1 1 0;
   min-height: 0;
   width: 100%;
