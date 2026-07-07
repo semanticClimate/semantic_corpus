@@ -1,0 +1,51 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,42069525
+source,MED
+pmid,42069525
+pmcid,PMC13285614
+fullTextIdList,{'fullTextId': 'PMC13285614'}
+doi,10.1186/s12870-026-08496-9
+title,Plant functional groups modulate variation and covariation in leaf and seed traits across years.
+authorString,"Fu C, Fan G, Wang H, Wang C, Huang Y, Drake PL."
+authorList,"{'author': [{'fullName': 'Fu C', 'firstName': 'Changxing', 'lastName': 'Fu', 'initials': 'C', 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Changchun, 130012, China.'}, {'affiliation': 'University of Chinese Academy of Sciences, Beijing, 100049, China.'}]}}, {'fullName': 'Fan G', 'firstName': 'Gaohua', 'lastName': 'Fan', 'initials': 'G', 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Changchun, 130012, China.'}, {'affiliation': 'State Laboratory of Vegetation and Environmental Change, Institute of Botany, Chinese Academy of Sciences, Beijing, 100093, China.'}, {'affiliation': 'University of Chinese Academy of Sciences, Beijing, 100049, China.'}]}}, {'fullName': 'Wang H', 'firstName': 'Heqi', 'lastName': 'Wang', 'initials': 'H', 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Changchun, 130012, China.'}, {'affiliation': 'University of Chinese Academy of Sciences, Beijing, 100049, China.'}]}}, {'fullName': 'Wang C', 'firstName': 'Congwen', 'lastName': 'Wang', 'initials': 'C', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Changchun, 130012, China.'}}}, {'fullName': 'Huang Y', 'firstName': 'Yingxin', 'lastName': 'Huang', 'initials': 'Y', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Changchun, 130012, China. huangyx@iga.ac.cn.'}}}, {'fullName': 'Drake PL', 'firstName': 'Paul L', 'lastName': 'Drake', 'initials': 'PL', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'School of Biological Sciences, University of Western Australia, Crawley, Perth, 6009, Australia.'}}}]}"
+journalInfo,"{'issue': '1', 'volume': '26', 'journalIssueId': '4187651', 'dateOfPublication': '2026 May', 'monthOfPublication': '5', 'yearOfPublication': '2026', 'printPublicationDate': '2026-05-01', 'journal': {'title': 'BMC plant biology', 'ISOAbbreviation': 'BMC Plant Biol', 'medlineAbbreviation': 'BMC Plant Biol', 'NLMid': '100967807', 'ISSN': '1471-2229', 'ESSN': '1471-2229'}}"
+pubYear,2026
+pageInfo,1063
+abstractText,"Leaf and seed traits are key determinants of plant growth and reproduction, mediating how plants respond to environmental change. Leaf and seed traits can also covary. For example, species with larger seeds tend to have larger leaves. However, the covariation between leaf and seed traits has not been fully resolved due to the confounding effects of plant functional groups and climate variability. Using a sample of 33 common herbs in Songnen grassland, we explored whether seed traits were associated with leaf traits, and whether the correlations between leaf and seed traits were constrained by life history (or growth form) and climate change. We found significant interspecific trait variation (≥ 95%) and functional group differences in most traits. Annual species and forbs exhibited strong positive correlations between leaf and seed traits (e.g., leaf number vs. seed number), while relationships were decoupled for perennial grasses. Unexpectedly, the relationships between leaf and seed traits differed between sampling years. For species in 2017, seeding intensity increased with leafing intensity; while, in 2016, this positive trend was not significant. The relationships between leaf and seed traits are influenced by functional groups, and affected by interannual climate variability mediated by changes in plant individual size. Our results highlight species-specific traits and their correlations in response to environmental conditions, providing critical insights for predicting grassland community responses to climate change."
+affiliation,"State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Changchun, 130012, China."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic
+pubTypeList,"{'pubType': ['research-article', 'Journal Article']}"
+grantsList,"{'grant': [{'grantId': 'LP14100736', 'agency': 'Australian Research Council', 'orderIn': '0'}, {'grantId': '42471071', 'agency': 'National Natural Science Foundation of China', 'orderIn': '0'}]}"
+meshHeadingList,"{'meshHeading': [{'majorTopic_YN': 'Y', 'descriptorName': 'Seeds', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'AH', 'qualifierName': 'anatomy & histology', 'majorTopic_YN': 'N'}, {'abbreviation': 'PH', 'qualifierName': 'physiology', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'Y', 'descriptorName': 'Plant Leaves', 'meshQualifierList': {'meshQualifier': [{'abbreviation': 'AH', 'qualifierName': 'anatomy & histology', 'majorTopic_YN': 'N'}, {'abbreviation': 'PH', 'qualifierName': 'physiology', 'majorTopic_YN': 'N'}]}}, {'majorTopic_YN': 'N', 'descriptorName': 'Species Specificity'}, {'majorTopic_YN': 'N', 'descriptorName': 'Phenotype'}, {'majorTopic_YN': 'N', 'descriptorName': 'Climate Change'}, {'majorTopic_YN': 'N', 'descriptorName': 'Grassland'}]}"
+keywordList,"{'keyword': ['Climate change', 'Plant Functional Groups', 'Extreme Rainfall Events', 'Seed-leaf Correlations', 'Seeding Intensity']}"
+subsetList,"{'subset': {'code': 'IM', 'name': 'Index Medicus'}}"
+fullTextUrlList,"{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1186/s12870-026-08496-9'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC13285614'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC13285614?pdf=render'}]}"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,Y
+hasPDF,Y
+hasBook,N
+hasSuppl,Y
+citedByCount,0
+hasData,Y
+hasReferences,Y
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,N
+license,cc by-nc-nd
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2026-06-22
+dateOfCreation,2026-05-02
+firstIndexDate,2026-05-13
+fullTextReceivedDate,2026-06-26
+dateOfRevision,2026-06-22
+electronicPublicationDate,2026-05-02
+firstPublicationDate,2026-05-02

@@ -1,0 +1,48 @@
+,Info_By_EuropePMC_Api
+downloaded,True
+htmlmade,False
+id,42325862
+source,MED
+pmid,42325862
+pmcid,PMC13280572
+fullTextIdList,{'fullTextId': 'PMC13280572'}
+doi,10.1016/j.crmicr.2026.100601
+title,"Editorial for special issue ""Microorganisms and food security under climate change scenarios: From taxonomy to host-microbe interactions""."
+authorString,"Román-Ponce B, Rojas-Rojas FU."
+authorList,"{'author': [{'fullName': 'Román-Ponce B', 'firstName': 'Brenda', 'lastName': 'Román-Ponce', 'initials': 'B', 'authorAffiliationDetailsList': {'authorAffiliation': {'affiliation': 'Universidad Politécnica del Estado de Morelos, Boulevard Cuauhnáhuac 556, Lomas del Texcal, Jiutepec, Morelos 62574, Mexico.'}}}, {'fullName': 'Rojas-Rojas FU', 'firstName': 'Fernando Uriel', 'lastName': 'Rojas-Rojas', 'initials': 'FU', 'authorAffiliationDetailsList': {'authorAffiliation': [{'affiliation': 'Laboratorio de Ciencias AgroGenómicas, Escuela Nacional de Estudios Superiores Unidad León, UNAM, Blvd. UNAM 2011, León 37684, Mexico.'}, {'affiliation': 'Laboratorio Nacional PlanTECC, Escuela Nacional de Estudios Superiores Unidad León, UNAM, Blvd. UNAM 2011, León 37684, Mexico.'}]}}]}"
+dataLinksTagsList,{'dataLinkstag': 'altmetrics'}
+journalInfo,"{'volume': '10', 'journalIssueId': '4077903', 'dateOfPublication': '2026', 'monthOfPublication': '0', 'yearOfPublication': '2026', 'printPublicationDate': '2026-01-01', 'journal': {'title': 'Current research in microbial sciences', 'ISOAbbreviation': 'Curr Res Microb Sci', 'medlineAbbreviation': 'Curr Res Microb Sci', 'NLMid': '101773003', 'ISSN': '2666-5174', 'ESSN': '2666-5174'}}"
+pubYear,2026
+pageInfo,100601
+abstractText,"•Climate change and environmental stressors are major drivers affecting global food security and agricultural sustainability.•Microbial communities play a central role in nutrient cycling, plant health, and ecosystem resilience.•Climate variability alters microbial diversity, functions, and plant...microbe interactions.•Beneficial microorganisms enhance crop tolerance to abiotic and biotic stresses.•Microbiome-based strategies offer sustainable alternatives to chemical inputs in agriculture.•Advances in microbial genomics enable the exploration and application of microbial diversity.•Biological control agents represent eco-friendly solutions for plant disease management.•Integrating microbial taxonomy, ecology, and biotechnology is key to climate-resilient food systems."
+affiliation,"Universidad Politécnica del Estado de Morelos, Boulevard Cuauhnáhuac 556, Lomas del Texcal, Jiutepec, Morelos 62574, Mexico."
+publicationStatus,epublish
+language,eng
+pubModel,Electronic-eCollection
+pubTypeList,{'pubType': 'Editorial'}
+fullTextUrlList,"{'fullTextUrl': [{'availability': 'Subscription required', 'availabilityCode': 'S', 'documentStyle': 'doi', 'site': 'DOI', 'url': 'https://doi.org/10.1016/j.crmicr.2026.100601'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'html', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC13280572'}, {'availability': 'Open access', 'availabilityCode': 'OA', 'documentStyle': 'pdf', 'site': 'Europe_PMC', 'url': 'https://europepmc.org/articles/PMC13280572?pdf=render'}]}"
+isOpenAccess,Y
+inEPMC,Y
+inPMC,Y
+hasPDF,Y
+hasBook,N
+hasSuppl,N
+citedByCount,0
+hasData,N
+hasReferences,N
+hasTextMinedTerms,Y
+hasDbCrossReferences,N
+hasLabsLinks,Y
+license,cc by-nc-nd
+hasEvaluations,N
+authMan,N
+epmcAuthMan,N
+nihAuthMan,N
+hasTMAccessionNumbers,N
+dateOfCompletion,2026-06-22
+dateOfCreation,2026-06-22
+firstIndexDate,2026-06-23
+fullTextReceivedDate,2026-06-26
+dateOfRevision,2026-06-22
+electronicPublicationDate,2026-04-29
+firstPublicationDate,2026-04-29
