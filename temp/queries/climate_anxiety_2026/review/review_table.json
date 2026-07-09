@@ -1,6 +1,6 @@
 [
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 2,
     "paper_id": "europe_pmc_PMC12959560",
     "pmcid": "PMC12959560",
@@ -18,10 +18,10 @@
     "pollutant_terms": "aqi",
     "health_terms": "health",
     "abstract_snippet": "<h4>Background</h4>Iraq is classified as the fifth most vulnerable country to the impacts of climate change, with a predominantly young population. While climate change anxiety is globally recognized,...",
-    "review_notes": ""
+    "review_notes": "Climate anxiety in vulnerable, young population"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 2,
     "paper_id": "europe_pmc_PMC13223078",
     "pmcid": "PMC13223078",
@@ -39,10 +39,10 @@
     "pollutant_terms": "air pollution",
     "health_terms": "exposure, cardiovascular, health",
     "abstract_snippet": "Global climate change is an increasing challenge to healthy aging because extreme heat, air pollution, sleep disruption, and ecological instability can weaken physiological homeostasis in older adults...",
-    "review_notes": ""
+    "review_notes": "Broader planetary health framing, anxiety mentioned very briefly"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC12789392",
     "pmcid": "PMC12789392",
@@ -60,10 +60,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure, health",
     "abstract_snippet": "Climate change and mental health research has predominantly focused on adults in non-clinical settings; investigations among youth and in clinical settings are lacking. Our objectives were to understa...",
-    "review_notes": ""
+    "review_notes": "Climate anxiety in pediatric ED setting"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC12802099",
     "pmcid": "PMC12802099",
@@ -81,10 +81,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<i>Background:</i> Climate change-related events such as floods, droughts, and wildfires have been shown to affect global mental health. As climate change worsens, extreme weather events increase, lea...",
-    "review_notes": ""
+    "review_notes": "Linking climate events to mental health outcomes"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC12832621",
     "pmcid": "PMC12832621",
@@ -102,10 +102,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure, health",
     "abstract_snippet": "<h4>Introduction</h4>Climate-related events such as droughts, extreme heat, and flooding intensify pressures on psychological well-being, particularly in vulnerable, low-resource, and conflict-affecte...",
-    "review_notes": ""
+    "review_notes": "Cross-sectional study on climate related psychological distress"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC12841537",
     "pmcid": "PMC12841537",
@@ -123,7 +123,7 @@
     "pollutant_terms": "",
     "health_terms": "health, public health",
     "abstract_snippet": "Rapid climate change and its anticipated impacts trigger significant worry and distress among vulnerable groups, including young adults. Little is known about how Dutch young adults experience and cop...",
-    "review_notes": ""
+    "review_notes": "Qualitative study on climate worry/distress and coping barriers"
   },
   {
     "review_status": "review",
@@ -144,10 +144,10 @@
     "pollutant_terms": "",
     "health_terms": "respiratory, health",
     "abstract_snippet": "<h4>Introduction</h4>Climate change is an urgent global crisis, placing a growing strain on health systems and overwhelming healthcare workers' ability to respond. Africa is especially vulnerable due ...",
-    "review_notes": ""
+    "review_notes": "About workforce strain/service delivery, not personal anxiety - tangential"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC12857198",
     "pmcid": "PMC12857198",
@@ -165,10 +165,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "A binary view of health, categorizing individuals as either healthy or diseased, has directed much of physical activity research toward evidencing its biomedical benefits. Physical activity is positio...",
-    "review_notes": ""
+    "review_notes": "About physical activity research framing, no climate/anxiety content"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC12868119",
     "pmcid": "PMC12868119",
@@ -186,7 +186,7 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "Confirmed via full text: climate anxiety mentioned once in passing list, not the subject"
   },
   {
     "review_status": "review",
@@ -207,7 +207,7 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "Despite the growing recognition of the mental health crisis among adolescents in low-and middle-income countries (LMICs), there remains insufficient reliable data on youth mental health challenges in ...",
-    "review_notes": ""
+    "review_notes": "General youth mental health dataset, climate link not stated"
   },
   {
     "review_status": "review",
@@ -228,10 +228,10 @@
     "pollutant_terms": "",
     "health_terms": "health, public health",
     "abstract_snippet": "<h4>Background</h4>As Canada's climate changes, extreme heat events have become more frequent, a trend that is expected to continue. Extreme heat can lead to several negative health outcomes, which di...",
-    "review_notes": ""
+    "review_notes": "About heat-related public discourse/sentiment, not anxiety specifically"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC12972113",
     "pmcid": "PMC12972113",
@@ -240,7 +240,7 @@
     "title": "Uunderstanding the psychological impact of the climate crisis on individuals with depression: a phenomenological study.",
     "publication_date": "2026-02-11",
     "journal": "",
-    "authors": "Ayhan CH; Sukut Ö; Aktaş S; Aktaş MC; Karakaya Cataldas S; Ozkan U",
+    "authors": "Ayhan CH; Sukut \u00d6; Akta\u015f S; Akta\u015f MC; Karakaya Cataldas S; Ozkan U",
     "has_xml": true,
     "has_pdf": true,
     "query_name": "climate_anxiety_2026",
@@ -249,10 +249,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "Climate change-related weather events have profound effects on human health, including mental well-being. Research indicates that the climate crisis contributes to various psychological disorders, suc...",
-    "review_notes": ""
+    "review_notes": "Phenomenological study directly on climate crisis and mental health disorders"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC13017450",
     "pmcid": "PMC13017450",
@@ -270,10 +270,10 @@
     "pollutant_terms": "",
     "health_terms": "health, public health",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "Confirmed via full text: multi-article newsletter, climate mentioned once in passing"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13033858",
     "pmcid": "PMC13033858",
@@ -291,10 +291,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Background</h4>Climate anxiety is a rational response to climate change that can impact wellbeing, particularly for young people. As the climate crisis unfolds, promoting psychological resilience ...",
-    "review_notes": ""
+    "review_notes": "Explicitly studies climate anxiety and coping strategies"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13064374",
     "pmcid": "PMC13064374",
@@ -303,7 +303,7 @@
     "title": "Determinants of climate anxiety and willingness for climate-friendly behavioral change in German students: a quantitative study.",
     "publication_date": "2026-04-01",
     "journal": "",
-    "authors": "Mc Call T; Düllberg G; Rinderhagen M; Rickermann J; Niediek L; Liebner K; Leidinger M; Westfeld CL; Kössendrup J; Schmid AL",
+    "authors": "Mc Call T; D\u00fcllberg G; Rinderhagen M; Rickermann J; Niediek L; Liebner K; Leidinger M; Westfeld CL; K\u00f6ssendrup J; Schmid AL",
     "has_xml": true,
     "has_pdf": true,
     "query_name": "climate_anxiety_2026",
@@ -312,10 +312,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "BACKGROUND: Young people are increasingly concerned about climate change, which can negatively affect their mental health. Course content about the health consequences of climate change, as taught to ...",
-    "review_notes": ""
+    "review_notes": "Quantitative study directly measuring climate anxiety determinants"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13089125",
     "pmcid": "PMC13089125",
@@ -333,10 +333,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Introduction</h4>Despite calls for service providers to support youth in navigating the mental health impacts of climate change, data from clinical contexts remain limited. Our research explores c...",
-    "review_notes": ""
+    "review_notes": "Clinical context study on climate-related mental health impacts"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13092825",
     "pmcid": "PMC13092825",
@@ -345,7 +345,7 @@
     "title": "Evaluating the Effectiveness of a Creative Arts and Philosophical Inquiry Intervention Rooted in Self-Determination Theory to Promote Adaptive Coping with Eco-Anxiety among Elementary School Children: A Pilot Randomized Cluster Trial.",
     "publication_date": "2026-01-01",
     "journal": "",
-    "authors": "Léger-Goodes T; Herba CM; Smith J; Lefrançois D; Éthier MA; Piché J; Malboeuf-Hurtubise C",
+    "authors": "L\u00e9ger-Goodes T; Herba CM; Smith J; Lefran\u00e7ois D; \u00c9thier MA; Pich\u00e9 J; Malboeuf-Hurtubise C",
     "has_xml": true,
     "has_pdf": true,
     "query_name": "climate_anxiety_2026",
@@ -354,10 +354,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure, health",
     "abstract_snippet": "<h4>Background</h4>Children's exposure to climate change information through educational and media channels can lead to experiencing eco-anxiety. When children use maladaptive coping strategies such a...",
-    "review_notes": ""
+    "review_notes": "Pilot trial specifically targeting eco-anxiety coping in children"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13092878",
     "pmcid": "PMC13092878",
@@ -375,10 +375,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure",
     "abstract_snippet": "<h4>Background</h4>Climate change has been linked to increased psychological distress, aggression, and violence. This study aimed to assess the association between reported climate-related event expos...",
-    "review_notes": ""
+    "review_notes": "Links climate exposure to psychological distress/aggression"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13093722",
     "pmcid": "PMC13093722",
@@ -396,10 +396,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "Climate change threatens mental health through acute and chronic stressors. Vulnerable groups-especially children and people with disabilities-face increased risks due to developmental and structural ...",
-    "review_notes": ""
+    "review_notes": "Commentary directly on climate mental health risks for vulnerable groups"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13112313",
     "pmcid": "PMC13112313",
@@ -417,10 +417,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "The impact of climate change on mental health is becoming increasingly recognized. Previous studies on this subject have mainly assessed the direct and immediate emotional reactions to climate change ...",
-    "review_notes": ""
+    "review_notes": "Multinational study explicitly on climate anxiety mechanisms"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC13116603",
     "pmcid": "PMC13116603",
@@ -429,7 +429,7 @@
     "title": "Polish Adaptation and Psychometric Validation of the METEO-Q in Healthy, Cardiac, and Psychiatric Samples.",
     "publication_date": "2026-04-09",
     "journal": "",
-    "authors": "Konieczny K; Karasiewicz K; Rachubińska K; Wietrzyński K; Mazza M; Mak M",
+    "authors": "Konieczny K; Karasiewicz K; Rachubi\u0144ska K; Wietrzy\u0144ski K; Mazza M; Mak M",
     "has_xml": true,
     "has_pdf": true,
     "query_name": "climate_anxiety_2026",
@@ -438,10 +438,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<b>Background</b>: Although the concepts of meteoropathy and meteosensitivity are not included in official classifications, such as the ICD-11 or DSM-5, they are increasingly being studied as potentia...",
-    "review_notes": ""
+    "review_notes": "About meteorosensitivity/meteoropathy, different construct from climate anxiety"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13122536",
     "pmcid": "PMC13122536",
@@ -459,10 +459,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Background</h4>The awareness of climate change as a global environmental threat through media consumption and/or social interaction can have a psychological impact on people's mental health. Howev...",
-    "review_notes": ""
+    "review_notes": "Scoping review on climate-related psychological distress"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13143408",
     "pmcid": "PMC13143408",
@@ -480,10 +480,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "Anxiety and worry about climate change have been associated with poorer mental health. We examined whether different climate beliefs, the cognitive component of climate anxiety, were associated with s...",
-    "review_notes": ""
+    "review_notes": "Direct empirical study on climate worry and mental health"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13147318",
     "pmcid": "PMC13147318",
@@ -492,7 +492,7 @@
     "title": "A systematic review and meta-analysis on the relationship of eco-emotions on the mental health and wellbeing of young adults.",
     "publication_date": "2026-06-01",
     "journal": "",
-    "authors": "Rana SSJB; Morris PG; Brett CE; Pacheco E; Demetriou K; Tunç H",
+    "authors": "Rana SSJB; Morris PG; Brett CE; Pacheco E; Demetriou K; Tun\u00e7 H",
     "has_xml": true,
     "has_pdf": true,
     "query_name": "climate_anxiety_2026",
@@ -501,10 +501,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "This paper systematically reviews the literature on levels of eco-emotions reported by young adults (aged 18-29) across nations, with meta-analyses of associations between eco-anxiety and mental healt...",
-    "review_notes": ""
+    "review_notes": "Systematic review/meta-analysis directly on eco-anxiety"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC13151464",
     "pmcid": "PMC13151464",
@@ -522,10 +522,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "The healthcare sector has recognised its significant emissions and climate impact, and is beginning to address emission hotspots. However, implementing necessary changes while working with current str...",
-    "review_notes": ""
+    "review_notes": "About emissions reduction strategy, not psychological anxiety"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13185269",
     "pmcid": "PMC13185269",
@@ -543,7 +543,7 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "The effects of climate change are being felt globally, resulting in increased extreme weather events and mental health challenges. Climate change concern and anxiety are widespread, especially among y...",
-    "review_notes": ""
+    "review_notes": "Direct empirical study linking anxiety to climate action"
   },
   {
     "review_status": "review",
@@ -564,10 +564,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Introduction</h4>Occupational therapy and planetary health are closely linked, as human health is influenced by environmental factors such as climate change. Occupational therapists (OTs) can enha...",
-    "review_notes": ""
+    "review_notes": "About counselling practice/planetary health, anxiety not the direct subject"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13192185",
     "pmcid": "PMC13192185",
@@ -584,11 +584,11 @@
     "location_terms": "",
     "pollutant_terms": "",
     "health_terms": "health",
-    "abstract_snippet": "INTRODUCTION: Climate change affects maternal and fetal health negatively. Climate change affects not only women’s efforts to protect their health but also their climate anxiety. Uncertainty about the...",
-    "review_notes": ""
+    "abstract_snippet": "INTRODUCTION: Climate change affects maternal and fetal health negatively. Climate change affects not only women\u2019s efforts to protect their health but also their climate anxiety. Uncertainty about the...",
+    "review_notes": "Direct study on climate anxiety influencing reproductive decisions"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC13200154",
     "pmcid": "PMC13200154",
@@ -606,10 +606,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Background</h4>Recent proposals for revising the Diagnostic and Statistical Manual of Mental Disorders (DSM) aim to improve psychiatric diagnosis. While these efforts reflect substantial ambition,...",
-    "review_notes": ""
+    "review_notes": "General psychiatric diagnosis critique, no climate content"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13205920",
     "pmcid": "PMC13205920",
@@ -627,10 +627,10 @@
     "pollutant_terms": "",
     "health_terms": "respiratory, health, public health",
     "abstract_snippet": "<b>Background</b>: Jordan is increasingly recognized as a climate-vulnerable setting in the region, yet evidence on the psychosocial dimensions of climate change among young adults remains limited. Le...",
-    "review_notes": ""
+    "review_notes": "Cross-sectional study directly measuring climate-related anxiety"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13205934",
     "pmcid": "PMC13205934",
@@ -639,7 +639,7 @@
     "title": "Environmental Health Literacy and Climate Change Anxiety Among Teachers: The Mediating Role of Ecological Footprint Awareness.",
     "publication_date": "2026-05-21",
     "journal": "",
-    "authors": "Açıkgöz Ö; Soylar P",
+    "authors": "A\u00e7\u0131kg\u00f6z \u00d6; Soylar P",
     "has_xml": true,
     "has_pdf": true,
     "query_name": "climate_anxiety_2026",
@@ -648,10 +648,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Background</h4>Environmental health literacy plays an important role in helping individuals recognize environmental risks and adopt sustainable behaviors. Increasing environmental awareness may al...",
-    "review_notes": ""
+    "review_notes": "Direct study on climate anxiety mediated by ecological awareness"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13217755",
     "pmcid": "PMC13217755",
@@ -669,10 +669,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure, health, public health",
     "abstract_snippet": "BACKGROUND: Climate change is a critical 21st-century global challenge affecting the environment, public health, and social well-being. Climate anxiety is increasingly prevalent among nursing students...",
-    "review_notes": ""
+    "review_notes": "Scoping review specifically on climate anxiety in this population"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13241739",
     "pmcid": "PMC13241739",
@@ -690,10 +690,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure, health",
     "abstract_snippet": "<h4>Introduction</h4>This study aimed to identify socio-demographic factors associated with climate change anxiety (CCA) in British Columbia, Canada, and examined the effect of compounding climate-rel...",
-    "review_notes": ""
+    "review_notes": "Direct study on climate anxiety factors in a specific population"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13247379",
     "pmcid": "PMC13247379",
@@ -711,10 +711,10 @@
     "pollutant_terms": "",
     "health_terms": "exposure, health",
     "abstract_snippet": "Ongoing global environmental change has given rise to a growing body of research on emotional and affective responses to ecological degradation. This study investigated eco-anxiety, eco-guilt, and eco...",
-    "review_notes": ""
+    "review_notes": "Direct study on multiple eco-emotions in a climate-vulnerable population"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13254375",
     "pmcid": "PMC13254375",
@@ -732,10 +732,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "<h4>Introduction</h4>Anthropogenic fossil fuel emissions are warming the planet quickly, leading to climatic instability and more extreme weather events that impact patient health.<h4>Case reports</h4...",
-    "review_notes": ""
+    "review_notes": "Case report directly linking climate change to psychiatric crisis"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 0,
     "paper_id": "europe_pmc_PMC13289144",
     "pmcid": "PMC13289144",
@@ -753,10 +753,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "Climate change has an increasing physical and mental health toll on young people globally. In this Perspective, we suggest that the extent of mental health impacts is likely to be underestimated in th...",
-    "review_notes": ""
+    "review_notes": "Perspective piece directly on climate change's mental health impact"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC12872338",
     "pmcid": "PMC12872338",
@@ -774,10 +774,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "Although increasing research examines climate anxiety, little is known about the situational factors related to it. To assess these factors, we developed and evaluated a situated psychometric instrume...",
-    "review_notes": ""
+    "review_notes": "Development of a climate anxiety measurement tool"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": -1,
     "paper_id": "europe_pmc_PMC12892733",
     "pmcid": "PMC12892733",
@@ -795,10 +795,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "<h4>Background</h4>Internship in nursing education strengthens competence, confidence, and professional skills. It is essential to identify the clinical factors affecting anxiety and the ethical clima...",
-    "review_notes": ""
+    "review_notes": "Ethical climate = workplace culture, not environmental climate - false positive"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC12899786",
     "pmcid": "PMC12899786",
@@ -816,10 +816,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "<b>Background:</b> Eco-anxiety is increasingly viewed as a multidimensional response to the climate crisis, but its links with religiosity and sustainable nutrition behaviors in highly religious setti...",
-    "review_notes": ""
+    "review_notes": "Direct study on eco-anxiety and related behavioral factors"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC12993146",
     "pmcid": "PMC12993146",
@@ -837,10 +837,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "<h4>Introduction</h4>Understanding how youth perceive and respond to climate change is essential for designing effective education and engagement strategies. This study assessed the psychosocial and b...",
-    "review_notes": ""
+    "review_notes": "Direct study on youth psychosocial response to climate change"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC13023394",
     "pmcid": "PMC13023394",
@@ -858,7 +858,7 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "Title is a direct, unambiguous match"
   },
   {
     "review_status": "review",
@@ -879,10 +879,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "<h4>Aims</h4>To explore how global challenges such as climate change, artificial intelligence (AI), and migration intersect with generational change among psychiatric trainees and reshape specialist t...",
-    "review_notes": ""
+    "review_notes": "Climate mentioned alongside AI/migration as one of several factors - tangential"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC13133856",
     "pmcid": "PMC13133856",
@@ -900,10 +900,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "The environmental and political problems caused by climate change are well known and widely debated, whereas the psychological fears arising from the eco-crisis have been less openly discussed. Howeve...",
-    "review_notes": ""
+    "review_notes": "Discusses psychological fears specifically tied to the eco-crisis"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC13178203",
     "pmcid": "PMC13178203",
@@ -921,7 +921,7 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "Young people can be agents of change for urgently needed sustainable transitions. We combine survey data from the Urban Rotterdam Project (2021 sample: N = 1152, age range = 12-28 years, M<sub>age</su...",
-    "review_notes": ""
+    "review_notes": "Direct study on youth engagement/motivation re: climate crisis"
   },
   {
     "review_status": "review",
@@ -942,10 +942,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "Choosing a future career represents a complex developmental task, often accompanied by multiple concerns and anxieties. The Social Cognitive Career Theory and Life Design paradigm emphasize the import...",
-    "review_notes": ""
+    "review_notes": "Related construct but framed around career choice, not general anxiety"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC13231233",
     "pmcid": "PMC13231233",
@@ -963,10 +963,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "Direct study on eco-anxiety following a specific climate event"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC13235141",
     "pmcid": "PMC13235141",
@@ -984,10 +984,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "<h4>Background</h4>Nursing students are future nurses. They are more susceptible to the physiological and psychological implications of climate change because of their participation in climate activit...",
-    "review_notes": ""
+    "review_notes": "Eco-anxiety explicitly modeled as a mediating factor"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": -1,
     "paper_id": "europe_pmc_PMC13297762",
     "pmcid": "PMC13297762",
@@ -1005,10 +1005,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "No climate anxiety content, about food choice emotions only"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC13299314",
     "pmcid": "PMC13299314",
@@ -1026,10 +1026,10 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "Direct empirical study on climate worry and wellbeing"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -2,
     "paper_id": "europe_pmc_PMC13176867",
     "pmcid": "PMC13176867",
@@ -1047,6 +1047,6 @@
     "pollutant_terms": "",
     "health_terms": "",
     "abstract_snippet": "",
-    "review_notes": ""
+    "review_notes": "Directly addresses methodological issues in climate anxiety research"
   }
 ]
