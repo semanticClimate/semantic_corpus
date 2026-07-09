@@ -231,7 +231,7 @@
     "review_notes": "India is tagged, AQI monitoring method"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 4,
     "paper_id": "europe_pmc_PMC12507303",
     "pmcid": "PMC12507303",
@@ -249,10 +249,10 @@
     "pollutant_terms": "aqi, air quality index, air pollution",
     "health_terms": "health, public health",
     "abstract_snippet": "Air pollution is a global problem that threatens environmental sustainability and severely affects public health. Monitoring air quality and predicting future pollution levels are critical for creatin...",
-    "review_notes": ""
+    "review_notes": "Not India specific, explicitly studies Iğdır province, Türkiye"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 4,
     "paper_id": "europe_pmc_PMC12976265",
     "pmcid": "PMC12976265",
@@ -270,10 +270,10 @@
     "pollutant_terms": "aqi, air quality index, pm2.5, pm10, air pollution",
     "health_terms": "health",
     "abstract_snippet": "The increasing challenge of air pollution in cities requires smart methods to make proper predictions and manage the problem. Although machine learning and deep learning models have contributed greatl...",
-    "review_notes": ""
+    "review_notes": "Not India specific, entire study uses the Taiwan Air Quality Dataset"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 3,
     "paper_id": "europe_pmc_PMC12526560",
     "pmcid": "PMC12526560",
@@ -291,10 +291,10 @@
     "pollutant_terms": "particulate matter, air pollution, ozone",
     "health_terms": "respiratory, health, public health",
     "abstract_snippet": "Air quality is crucial for public health and the environment, which makes it important to both monitor and forecast the level of pollution. Polluted air, containing harmful substances such as particul...",
-    "review_notes": ""
+    "review_notes": "Generic global methods review, no India/regional case study"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 3,
     "paper_id": "europe_pmc_PMC12586577",
     "pmcid": "PMC12586577",
@@ -312,10 +312,10 @@
     "pollutant_terms": "aqi, air quality index",
     "health_terms": "",
     "abstract_snippet": "Forecasting of the Air Quality Index (AQI) in high-altitude cities is significantly challenged by nonlinear temporal dynamics, particularly due to complex interactions between atmospheric physics and ...",
-    "review_notes": ""
+    "review_notes": "Tibet case study, no India connection"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 3,
     "paper_id": "europe_pmc_PMC13002177",
     "pmcid": "PMC13002177",
@@ -333,7 +333,7 @@
     "pollutant_terms": "particulate matter, ambient air pollution, air pollution",
     "health_terms": "exposure, health",
     "abstract_snippet": "<h4>Background</h4>Evidence suggests that environmental exposures induce epigenetic modifications that can have long-lasting effects on multiple health outcomes, and an in-depth review of the epidemio...",
-    "review_notes": ""
+    "review_notes": "Global systematic review, no India specific exposure data or location"
   },
   {
     "review_status": "review",
@@ -354,10 +354,10 @@
     "pollutant_terms": "particulate matter, ambient air pollution, air pollution",
     "health_terms": "exposure, mortality, cardiovascular, health",
     "abstract_snippet": "Air pollution contributes to over 8.1 million deaths annually, predominantly from cardiovascular causes. The burden of air pollution is significantly higher in low-income countries (LICs) and lower mi...",
-    "review_notes": ""
+    "review_notes": "Limited data on India (1 study), majority were Iran (38) and Vietnam (3)"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 3,
     "paper_id": "europe_pmc_PMC13064970",
     "pmcid": "PMC13064970",
@@ -375,10 +375,10 @@
     "pollutant_terms": "particulate matter, air pollution",
     "health_terms": "exposure, respiratory, cardiovascular, health",
     "abstract_snippet": "Air pollution, particularly fine particulate matter (PM₂.₅), poses a significant global health risk, contributing to respiratory, and cardiovascular diseases. While personal-level interventions such a...",
-    "review_notes": ""
+    "review_notes": "Not India specific, RCTs conducted in China (15), UK (5), and USA (4)"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 3,
     "paper_id": "europe_pmc_PMC13067908",
     "pmcid": "PMC13067908",
@@ -396,10 +396,10 @@
     "pollutant_terms": "pm2.5, pm10, particulate matter, air pollution, ozone",
     "health_terms": "mortality, health, public health",
     "abstract_snippet": "The World Health Organization (WHO) continues to declare air pollution as a public health emergency and the most significant environmental threat to human health, and as a leading cause of premature d...",
-    "review_notes": ""
+    "review_notes": "Global narrative review, no country specific/India data"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": 3,
     "paper_id": "europe_pmc_PMC13132106",
     "pmcid": "PMC13132106",
@@ -417,10 +417,10 @@
     "pollutant_terms": "air pollution",
     "health_terms": "health, public health",
     "abstract_snippet": "The climate crisis combined with air pollution is increasingly disrupting the foundational conditions for healthy cognitive development and learning, particularly among children in vulnerable regions....",
-    "review_notes": ""
+    "review_notes": "India specific, strongest of batch"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 3,
     "paper_id": "europe_pmc_PMC13159321",
     "pmcid": "PMC13159321",
@@ -438,10 +438,10 @@
     "pollutant_terms": "air pollution",
     "health_terms": "exposure, cardiovascular, health",
     "abstract_snippet": "BACKGROUND: The associations between physical activity (PA) and outdoor air pollution with cardiovascular disease (CVD) are well established, but evidence regarding indoor air pollution remains scarce...",
-    "review_notes": ""
+    "review_notes": "Uses CHARLS (Chinese national longitudinal dataset), not India specific"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 1,
     "paper_id": "europe_pmc_PMC13047111",
     "pmcid": "PMC13047111",
@@ -459,10 +459,10 @@
     "pollutant_terms": "particulate matter, air pollution, ozone, carbon monoxide",
     "health_terms": "exposure, health",
     "abstract_snippet": "<h4>Purpose</h4>This systematic review and meta-analysis was conducted to synthesize the existing evidence on the association between climate change-related factors and spontaneous abortion.<h4>Patien...",
-    "review_notes": ""
+    "review_notes": "Not an AQI/forecasting paper - authors and scope appear East African, not India specific"
   },
   {
-    "review_status": "review",
+    "review_status": "exclude",
     "score": 0,
     "paper_id": "europe_pmc_PMC12355607",
     "pmcid": "PMC12355607",
@@ -480,7 +480,7 @@
     "pollutant_terms": "aqi, air quality index, particulate matter, air pollution, ozone",
     "health_terms": "",
     "abstract_snippet": "<h4>Background</h4>This study investigates the evolution patterns and future trends of ambient air quality in oasis cities within arid regions, with Urumqi as a representative case.<h4>Methods</h4>Uti...",
-    "review_notes": ""
+    "review_notes": "Urumqi, Xinjiang, China — off scope, not India specific"
   },
   {
     "review_status": "review",
@@ -501,10 +501,10 @@
     "pollutant_terms": "",
     "health_terms": "health",
     "abstract_snippet": "Poor classroom air quality and high levels of dust have a detrimental impact on student health, comfort, and productivity. To address this issue, we propose an IoT enabled system for monitoring and pr...",
-    "review_notes": ""
+    "review_notes": "Unclear"
   },
   {
-    "review_status": "review",
+    "review_status": "include",
     "score": -1,
     "paper_id": "europe_pmc_PMC12992860",
     "pmcid": "PMC12992860",
@@ -522,6 +522,6 @@
     "pollutant_terms": "",
     "health_terms": "exposure, epidemiology",
     "abstract_snippet": "<h4>Purpose of review</h4>This review aims to summarize the latest evidence on how climate change has altered the environmental exposures and their influence on the epidemiology, pathophysiology, and ...",
-    "review_notes": ""
+    "review_notes": "India specific, on scope for AQI + child health"
   }
 ]
