@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">3686</journal-id><journal-id journal-id-type="pmc-domain">acsomega</journal-id><journal-title-group><journal-title>ACS Omega</journal-title><abbrev-journal-title>ACS Omega</abbrev-journal-title></journal-title-group><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13063195</article-id><article-id pub-id-type="pmcaid">13063195</article-id><article-id pub-id-type="pmcaiid">13063195</article-id><article-id pub-id-type="pmid">41970910</article-id><article-id pub-id-type="doi">10.1021/acsomega.6c00744</article-id><title-group><article-title>Turning the Near-Infrared
+Shielding Performance of
+Erbium/Antimony-Codoped Tin Oxide Nanomaterials Derived via a Sonochemically
+Assisted Method</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Kansaard</surname><given-names initials="T">Thanaphon</given-names></name><xref ref-type="aff" rid="aff1">a</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Noinonmueng</surname><given-names initials="T">Tanisara</given-names></name><xref ref-type="aff" rid="aff1">a</xref></contrib><contrib><name name-style="western"><surname>Jayasankar</surname><given-names initials="CK">Chalicheemalapalli Kulala</given-names></name><xref ref-type="aff" rid="aff2">b</xref><xref ref-type="aff" rid="aff3">c</xref></contrib><contrib><name name-style="western"><surname>Mekprasart</surname><given-names initials="W">Wanichaya</given-names></name><xref ref-type="aff" rid="aff1">a</xref></contrib><contrib><name name-style="western"><surname>Boonyarattanakalin</surname><given-names initials="K">Kanokthip</given-names></name><xref ref-type="aff" rid="aff1">a</xref></contrib><contrib><name name-style="western"><surname>Pecharapa</surname><given-names initials="W">Wisanu</given-names></name><xref ref-type="aff" rid="aff1">a</xref></contrib></contrib-group><aff id="aff1">
+<label>a</label>
+Department of Nanoscience
+and Nanotechnology, School of Integrated Innovative Technology, King Mongkut’s Institute of Technology Ladkrabang, Bangkok
+10520, Thailand
+</aff><aff id="aff2">
+<label>b</label>
+Department of Physics, Sri Venkateswara University, Tirupati
+517 502, India
+</aff><aff id="aff3">
+<label>c</label>
+Department of Physics, Amrita
+School of Engineering, Amrita Vishwa Vidyapeetham, Amaravati, Andhra Pradesh
+522 502, India
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>tkansaard@gmail.com</email>.</p></fn></author-notes><pub-date><day>27</day><month>3</month><year>2026</year></pub-date><volume>11</volume><issue>13</issue><fpage>21255</fpage><page-range>21255–21263</page-range><pub-history><event event-type="pmc-release"><date><day>10</day><month>4</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY-NC-ND 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao6c00744.pdf" content-type="pmc-pdf"><?cloudpmc-path 3a91/13063195/4e2deed3ce47/ao6c00744.pdf?><?cloudpmc-bucket app?><?size 5436137?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Energy consumption is one of the
+most important concerning issues of environmental problems especially
+the global warming phenomenon, with energy usage being the main cause.
+To reduce the energy used for cooling systems, development of material
+for smart buildings for near-infrared (NIR) protection is a challenge
+of material society. Metal oxides including tin oxide (SnO<sub>2</sub>) with an antimony (Sb) dopant are a candidate owing to their NIR
+shielding property. However, the upgrading of NIR absorption performance
+with rare-earth doping due to the specific property of rare-earth
+elements especially erbium (Er) shows strong absorption of the near-infrared
+region. This article synthesized Er/Sb-codoped SnO<sub>2</sub> nanoparticles
+by sonochemical and thermal treatment processes at various Er dopant
+concentrations with a Sb dopant concentration stabilized at 5%. Crystallinity
+and morphology exhibited the tetragonal phase of SnO<sub>2</sub> with
+a sphere-like nanostructure with an approximately average size of
+10 nm. X-ray photoelectron spectroscopy was used to evaluate the chemical
+oxidation state of all elements, which verified the Er<sup>3+</sup> and Sb<sup>5+</sup> oxidation states of dopant ions, and oxygen
+vacancy observation led to the NIR absorption improvement.</p></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="abs1" xlink:href="ao6c00744_0009.jpg"><?cloudpmc-path blobs/3a91/13063195/f8b83abe6e03/ao6c00744_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 562?><?original-width 979?><?scaled-height 374?><?scaled-width 652?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="ao6c00744_0007.jpg"><?cloudpmc-path blobs/3a91/13063195/f8b83abe6e03/ao6c00744_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 562?><?original-width 979?><?scaled-height 374?><?scaled-width 652?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2026 Jan 21; Accepted 2026 Mar 13; Revised 2026 Mar 12; Collection date 2026 Apr 7.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><title>Introduction</title><p>In recent years, the accelerating effects
+of global warming and rising energy demands have become urgent environmental
+challenges worldwide. Among all domestic appliances requiring energy,
+household cooling systems represent a major energy consumer, as they
+are essential for maintaining comfortable indoor environments in increasingly
+warmer climates.<italic>
+,
+</italic> Therefore, development of energy-efficient
+cooling strategies is a critically important issue. One promising
+approach is reduction of the internal heat load of buildings through
+the integration of advanced thermal insulator materials, particularly
+in the design of smart building components such as energy-saving windows,
+coatings, and thin-film technology. Smart
+materials capable of minimizing heat transfer by shielding of near-infrared
+(NIR) radiation while maintaining visible-light transparency are being
+extensively researched for this purpose. NIR radiation, which constitutes
+a significant component of solar energy, can easily penetrate traditional
+glass and translucent materials, leading to unwanted heat accumulation
+inside of the buildings. Thus, developing efficient NIR shielding
+materials is a key target in modern energy-saving and passive cooling
+technologies. A wide range of materials including sulfide-based compounds,
+tungsten bronze derivatives, and various metal oxides have been investigated
+for this application due to their optical tunability and thermal stability.<italic>
+,
+</italic> Among various candidate materials, tin oxide (SnO<sub>2</sub>),
+a wide-band gap semiconductor (∼3.6 eV), stands out due to
+its excellent optical and electronic properties. It has been widely
+used in gas sensors, transparent electrodes, photocatalysts, and optoelectronic
+devices.<italic>
+,
+</italic> However, intrinsic SnO<sub>2</sub> primarily
+absorbs ultraviolet light and lacks significant NIR shielding capabilities.
+To address this limitation, doping SnO<sub>2</sub> with metal ions
+such as antimony (Sb) has been shown to induce localized surface plasmon
+resonance (LSPR), enabling strong NIR absorption. Antimony-doped tin
+oxide (ATO) nanoparticles have thus emerged as effective NIR shielding
+materials with additional conductivity and stability benefits. Various synthesis techniques have been explored
+for ATO nanoparticles, including the coprecipitation method, hydrothermal synthesis, and the sonochemical process. Among
+them, the sonochemical approach offers distinct advantages in producing
+fine, uniform nanoparticles through high-energy acoustic cavitation,
+which enhances the reaction kinetics and particle dispersion. To further enhance NIR shielding performance,
+recent research has turned to codoping strategies, particularly with
+rare-earth elements. Rare-earth dopants possess unique 4f electron
+configurations and discrete energy levels, which allow them to interact
+with incident light in specialized ways, including up-conversion,
+down-shifting, and NIR absorption.<italic>
+−
+
+</italic> Among these rare-earth
+elements, erbium (Er) is a promising candidate due to its well-known
+luminescence and NIR absorption bands arising from intra-4f transitions.
+When introduced into suitable host lattices, erbium can modulate the
+electronic structure and enhance plasmonic and shielding effects.<italic>
+,
+</italic>
+</p><p>In this study, we report the synthesis of erbium and antimony-codoped
+tin oxide (Er/Sb-codoped SnO<sub>2</sub>) nanoparticles via a sonochemically
+assisted method followed by controlled thermal treatment. By systematically
+varying Er dopant concentrations (0.1–5 mol %), we investigate
+the resulting changes in structural, morphological, optical, and NIR
+shielding properties. Advanced characterization techniques, including
+X-ray photoelectron spectroscopy (XPS) and electron paramagnetic resonance
+(EPR), are employed to analyze the chemical bonding states and carrier
+concentrations of the doped systems. Finally, the practical thermal
+shielding performance of the materials is evaluated using a model
+test box setup, where films coated with the synthesized nanoparticles
+are exposed to NIR radiation. This research provides new insight into
+the design of multifunctional, energy-efficient coatings for smart
+building applications.</p></sec><sec id="sec2" disp-level="1"><label>2.</label><title>Experimental Section</title><sec id="sec2.1" disp-level="2"><label>2.1.</label><title>Materials</title><p>All chemical reagents were
+of analytical
+grade and used without further purification. The starting materials
+were obtained from Sigma-Aldrich, including tin­(IV) chloride pentahydrate
+(SnCl<sub>4</sub>·5H<sub>2</sub>O), antimony­(III) chloride (SbCl<sub>3</sub>), and erbium­(III) nitrate pentahydrate (Er­(NO<sub>3</sub>)<sub>3</sub>·5 H<sub>2</sub>O). Absolute ethanol (EtOH) was
+sourced from Merck as the chemical solvent, and ammonia solution (NH<sub>3</sub>) was supplied by RCI Labscan Limited for pH adjustment.</p></sec><sec id="sec2.2" disp-level="2"><label>2.2.</label><title>Synthesis of Er/Sb-Codoped SnO<sub>2</sub> Nanoparticles</title><p>Er/Sb-codoped SnO<sub>2</sub> nanoparticles
+were synthesized via
+a sonochemically assisted sol–gel process followed by thermal
+treatment. Initially, SnCl<sub>4</sub>·5H<sub>2</sub>O was dissolved
+in absolute ethanol under continuous stirring to form a clear solution.
+A fixed amount of SbCl<sub>3</sub> corresponding to 5 mol % Sb and
+varying amounts of Er­(NO<sub>3</sub>)<sub>3</sub>·5 H<sub>2</sub>O (0.1, 0.5, 1, 3, and 5 mol %) were separately dissolved in ethanol.
+These dopant precursor solutions were then added to the Sn precursor
+solution, and the mixture was stirred thoroughly. Acetylacetone was
+introduced as a reducing agent, and the pH of the solution was adjusted
+to 9 by using ammonia. The resulting solution was subjected to ultrasonic
+irradiation (20 kHz, 750 W) for 30 min using a sonochemical probe
+to promote nanoparticle formation. The resulting precipitate was washed
+repeatedly with deionized (DI) water until neutral pH (≈7)
+was reached, and then dried at 100 °C for 24 h. Finally, all
+dried samples were thermally treated at 400 °C for 2 h to obtain
+crystalline Er/Sb-codoped SnO<sub>2</sub> powders. As a reference,
+pristine SnO<sub>2</sub> nanoparticles were synthesized fusing the
+same procedure but without the addition of dopant precursors.</p></sec><sec id="sec2.3" disp-level="2"><label>2.3.</label><title>Preparation of Thin Films</title><p>Thin films
+were fabricated
+by using the doctor blade coating technique. A binder solution was
+prepared by dissolving 10 wt % poly­(vinyl alcohol) (PVA) in DI water.
+A dispersion was made by adding 0.01 g of each synthesized powder
+sample into 10 mL of the PVA solution, followed by stirring for 2
+h to ensure uniform mixing. The homogeneous slurry was coated onto
+precleaned glass substrates (5 × 5 cm<sup>2</sup>) and dried
+in an oven at 100 °C for 10 min to evaporate residual solvent
+and moisture.</p></sec><sec id="sec2.4" disp-level="2"><label>2.4.</label><title>Characterization Techniques</title><sec id="sec2.4.1" disp-level="3"><title>Crystal
+Structure and Morphology</title><p>X-ray diffraction (XRD) patterns
+were recorded by using a Rigaku SmartLab diffractometer to determine
+the crystal structure. High-resolution transmission electron microscopy
+(HRTEM, JEOL JEM-2100 Plus) was employed to observe the surface morphology
+and lattice parameters. Optical properties were observed by measuring
+UV–vis-NIR diffuse reflectance spectra (DRS) using a Hitachi
+UH4150 spectrophotometer to analyze light absorption and reflectance
+characteristics. For surface chemistry, X-ray photoelectron spectroscopy
+(XPS, JEOL JPS-9030) with a magnesium (Mg) X-ray source was used to
+investigate the surface chemical composition and oxidation states
+of the constituent elements. Furthermore, electron paramagnetic resonance
+(EPR, Bruker EMX Micro) spectroscopy was used to detect unpaired electrons
+and assess the presence of oxygen vacancies in the doped and undoped
+samples. For thermal insulation testing, the thermal shielding properties
+of the coated films were evaluated by monitoring the temperature inside
+a model chamber covered with the film-coated glass substrates (5 ×
+5 cm<sup>2</sup>). The system was exposed to IR light (intensity ∼1000
+lx, measured using a lx meter), and the internal temperature changes
+were recorded to assess thermal insulation performance.</p></sec></sec></sec><sec id="sec3" disp-level="1"><label>3.</label><title>Results and Discussion</title><sec id="sec3.1" disp-level="2"><label>3.1.</label><title>Crystalline Structure</title><p>The crystalline
+structure of undoped and doped SnO<sub>2</sub> specimens
+was investigated by the X-ray diffraction technique (XRD), as illustrated
+in <xref rid="fig1" ref-type="fig">Figure 
+</xref>. First,
+the pristine SnO<sub>2</sub> sample revealed the main diffraction
+positions located at 2o̷ = 26.7, 33.9, and 51.9° corresponding
+to the tetragonal structure of cassiterite SnO<sub>2</sub> with planes
+(110), (101), and (211), respectively [JCPDS No. 01-075-9493]. After
+doping with 5 mol % of Sb into the SnO<sub>2</sub> host material,
+the main resulting peak showed a slight shift to a higher-angle position
+due to the smaller ionic ratio size of Sb<sup>5+</sup> dopant ions
+(0.60 Å), affecting the lattice spacing of SnO<sub>2</sub>. It
+means that the smaller dopant ion can cause lattice distortion, e.g.,
+substitutional, interstitial, and vacant.<italic>
+,
+</italic> For codopants, the increase in their Er concentration still showed
+a peak shift to a higher angle position, showing that the ionic ratio
+of Er<sup>3+</sup> is larger (0.89 Å) than that of Sn<sup>4+</sup> ions (0.69 Å). The results suggested that the Er dopant could
+not be more affected by lattice spacing. Meanwhile, the increase in
+Er dopant concentration shows a broadening of the XRD peak since doping
+ions exhibited a disordered formation of SnO<sub>2</sub>, as expressed by the crystalline size calculated
+using Scherrer’s equation, showing a decrease in crystalline
+size when the Er dopant concentration increased (<xref rid="tbl1" ref-type="table">Table 
+</xref>). The results show that the decrease of crystalline size after the
+increase of the Er dopant concentration from 38 to 26 Å led to
+the formation of oxygen vacancies in the SnO<sub>2</sub> matrix, which
+correlated with the grain boundary defects and retardation of the
+grain migration that inhibited the growth of the crystal. Moreover, the increase of the Er ion dopant
+exhibited a slight change of the lattice parameters, as depicted in <xref rid="tbl1" ref-type="table">Table 
+</xref>, since the Er ion
+dopant affected the lattice distortion of the crystal, which correlated
+with the shift of the diffractogram fingerprint of SnO<sub>2</sub>.</p><fig id="fig1" position="float"><?disp-level 3?><label>1</label><caption><p>X-ray diffractogram spectra of pure SnO<sub>2</sub>, 5%Sb-doped SnO<sub>2</sub>, and Er/Sb-codoped SnO<sub>2</sub> with different Er-containing
+samples.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="ao6c00744_0001.jpg"><?cloudpmc-path blobs/3a91/13063195/bc97362caa91/ao6c00744_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 793?><?original-width 1000?><?scaled-height 528?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao6c00744_0001.gif"><?cloudpmc-path blobs/3a91/13063195/3f7cf4bb51d5/ao6c00744_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="tbl1" position="float"><?disp-level 3?><label>1</label><caption><title>Calculation of the
+Lattice Parameters, Crystalline Size, and Cell Volume for Er/Sb-Codoped
+SnO<sub>2</sub> Nanoparticles</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1"> </th><th colspan="2" align="center" rowspan="1">lattice parameters
+(Å)<hr/></th><th align="center" colspan="1" rowspan="1"> </th><th align="center" colspan="1" rowspan="1"> </th></tr><tr><th align="center" colspan="1" rowspan="1">samples</th><th align="center" colspan="1" rowspan="1">
+<italic>a</italic> = <italic>b</italic>
+</th><th align="center" colspan="1" rowspan="1">
+<italic>c</italic>
+</th><th align="center" colspan="1" rowspan="1">crystalline size (Å)</th><th align="center" colspan="1" rowspan="1">cell volume (Å<sup>3</sup>)</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">pure SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.743</td><td align="center" colspan="1" rowspan="1">3.199</td><td align="center" colspan="1" rowspan="1">38.1</td><td align="center" colspan="1" rowspan="1">71.965</td></tr><tr><td align="left" colspan="1" rowspan="1">5% Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.729</td><td align="center" colspan="1" rowspan="1">3.191</td><td align="center" colspan="1" rowspan="1">37.9</td><td align="center" colspan="1" rowspan="1">71.362</td></tr><tr><td align="left" colspan="1" rowspan="1">0.1%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.732</td><td align="center" colspan="1" rowspan="1">3.200</td><td align="center" colspan="1" rowspan="1">36.3</td><td align="center" colspan="1" rowspan="1">71.654</td></tr><tr><td align="left" colspan="1" rowspan="1">0.5%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.740</td><td align="center" colspan="1" rowspan="1">3.180</td><td align="center" colspan="1" rowspan="1">31.0</td><td align="center" colspan="1" rowspan="1">71.447</td></tr><tr><td align="left" colspan="1" rowspan="1">1%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.725</td><td align="center" colspan="1" rowspan="1">3.158</td><td align="center" colspan="1" rowspan="1">28.8</td><td align="center" colspan="1" rowspan="1">70.504</td></tr><tr><td align="left" colspan="1" rowspan="1">3%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.751</td><td align="center" colspan="1" rowspan="1">3.177</td><td align="center" colspan="1" rowspan="1">22.7</td><td align="center" colspan="1" rowspan="1">71.711</td></tr><tr><td align="left" colspan="1" rowspan="1">5%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">4.757</td><td align="center" colspan="1" rowspan="1">3.188</td><td align="center" colspan="1" rowspan="1">25.7</td><td align="center" colspan="1" rowspan="1">72.141</td></tr></tbody></table></table-wrap></sec><sec id="sec3.2" disp-level="2"><label>3.2.</label><title>Optical
+Properties</title><p>The optical properties of Er/Yb-codoped SnO<sub>2</sub> nanoparticles were analyzed using the diffuse reflectance
+spectroscopy (DRS) technique, as illustrated in <xref rid="fig2" ref-type="fig">Figure 
+</xref>. The pristine SnO<sub>2</sub> sample exhibited
+strong absorption in the UV region, which corresponds to the intrinsic
+wide band gap of SnO<sub>2</sub>. In contrast, the reflectance spectrum
+showed high reflectance values up to 80% in the visible region and
+around 50–60% in the near-infrared (NIR) region. In the case
+of single doping with 5 mol % Sb, the optical properties changed significantly.</p><fig id="fig2" position="float"><?disp-level 3?><label>2</label><caption><p>Diffuse
+reflectance spectra of Er/Sb-codoped SnO<sub>2</sub> at varied Er
+dopant concentrations (0.1–5 mol %) and fixed Sb dopant concentration
+(5 mol %).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="ao6c00744_0002.jpg"><?cloudpmc-path blobs/3a91/13063195/a74e4c717ea9/ao6c00744_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 754?><?original-width 1000?><?scaled-height 502?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao6c00744_0002.gif"><?cloudpmc-path blobs/3a91/13063195/1db9ea6b18cb/ao6c00744_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The reflectance dropped drastically,
+especially in the NIR region, where the reflectance approached 0%,
+indicating strong absorption. This suggests that Sb doping enhances
+free carrier absorption in the NIR region due to the introduction
+of donor states and oxygen vacancies. Similarly, Er/Sb-codoped SnO<sub>2</sub> nanoparticles exhibited comparable behavior, with strong
+NIR absorption relative to intrinsic SnO<sub>2</sub>, further confirming
+the synergistic effect of codoping. As the Er dopant concentration
+increased, the reflectance spectra showed a noticeable increase in
+the visible-light reflectance. This implies that Er incorporation
+affects the optical response of SnO<sub>2</sub>, particularly by contributing
+to enhanced NIR absorption through localized surface plasmon resonance
+(LSPR) effects associated with oxygen vacancy-induced free carriers.
+Moreover, at the highest Er doping concentration of 5 mol %, a distinct
+absorption peak appeared at approximately 532 nm. This absorption
+band is attributed to electronic transitions from the Er<sup>3+</sup> ground state <sup>4</sup>I<sub>15/2</sub> to the excited state <sup>2</sup>H<sub>11/2</sub>, confirming the successful incorporation
+of Er ions into the SnO<sub>2</sub> lattice.<italic>
+,
+</italic> These
+results collectively indicate that Er/Sb codoping in SnO<sub>2</sub> nanoparticles significantly modifies their optical properties, especially
+enhancing NIR absorption, which is beneficial for thermal shielding
+and optoelectronic applications.</p></sec><sec id="sec3.3" disp-level="2"><label>3.3.</label><title>Surface Morphology</title><p>The surface morphology
+and crystallographic features of the synthesized
+powder samples were investigated by using high-resolution transmission
+electron microscopy (HRTEM). As shown in <xref rid="fig3" ref-type="fig">Figure 
+</xref>, the HRTEM micrographs reveal clear lattice
+fringes, and the interplanar spacing (<italic>d</italic>-spacing)
+was measured using ImageJ software. The measured <italic>d</italic>-spacing values were approximately 3.2–3.3 Å, which closely
+correspond to the (110) lattice planes of tetragonal SnO<sub>2</sub>. Upon increasing the erbium (Er) dopant concentration, a slight
+reduction in the <italic>d</italic>-spacing was observed. This change
+is attributed to the introduction of structural defects caused by
+the incorporation of Er<sup>3+</sup> ions into the SnO<sub>2</sub> lattice, either by substitution of Sn<sup>4+</sup> ions or by occupying
+interstitial sites. The ionic radius of Er<sup>3+</sup> (0.89 Å)
+is larger than that of Sn<sup>4+</sup> (0.69 Å), which can locally
+distort the lattice structure. However, the overall lattice variation
+depends on the dopant concentration ratio in the codoped system and
+typically follows a weighted average of the individual doping effects.
+According to the X-ray diffraction (XRD) results, a slight shift of
+diffraction peaks toward higher angles is shown, indicating a decrease
+in lattice spacing (lattice contraction), as shown by the change of
+cell volume in <xref rid="tbl1" ref-type="table">Table 
+</xref>. This suggests that when the Sb dopant concentration is higher than
+that of Er, Sb<sup>5+</sup> ions play a dominant role in the lattice
+modification, leading to the contraction of the SnO<sub>2</sub> lattice,
+as shown in the XRD patterns. Moreover, when the Sb dopant concentration
+is significantly higher than the Er<sup>3+</sup> concentration (typically
+exceeding 3–5 mol %), the cumulative contraction effect induced
+by Sb<sup>5+</sup> substitution and the associated oxygen vacancies
+can outweigh the lattice expansion effect caused by Er<sup>3+</sup> incorporation. This implies that superior Er codopant concentrations
+may reduce the formation of oxygen vacancies, which perform as free
+carriers responsible for NIR shielding. This behavior is consistent
+with the EPR results, where variations in signal intensity correspond
+to changes in free carrier concentration.<italic>
+,−
+
+</italic> Therefore, the HRTEM analysis provides direct nanoscale
+evidence of the dopant-induced lattice modification, confirming that
+the codoping of Er and Sb ions effectively alters the crystal structure
+of the SnO<sub>2</sub> host material.</p><fig id="fig3" position="float"><?disp-level 3?><label>3</label><caption><p>HRTEM micrographs
+of (a) SnO<sub>2</sub> (b) 5%Sb-doped SnO<sub>2</sub> and (c–g)
+0.1–5% Er/5%Sb-codoped SnO<sub>2</sub> nanoparticles. (h) TEM
+micrograph of 1%Er/5%Sb-codoped SnO<sub>2</sub> nanoparticles.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="ao6c00744_0003.jpg"><?cloudpmc-path blobs/3a91/13063195/9280ce30c42b/ao6c00744_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 660?><?original-width 1317?><?scaled-height 330?><?scaled-width 658?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao6c00744_0003.gif"><?cloudpmc-path blobs/3a91/13063195/6c82c643a2bf/ao6c00744_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec3.4" disp-level="2"><label>3.4.</label><title>Surface
+Chemical Analysis</title><p>To investigate the effect of Er/Sb dopant
+ions on SnO<sub>2</sub> nanoparticles, the chemical oxidation states
+of the elements were determined by X-ray photoelectron spectroscopy
+(XPS). The XPS spectra of Sn 3d, Sb 3d, O 1s, and Er 4f for Er/Sb-codoped
+SnO<sub>2</sub> samples are illustrated in <xref rid="fig4" ref-type="fig">Figure 
+</xref>. The primary chemical state of Sn in all
+specimens was found to be Sn<sup>4+</sup>, with binding energies at
+486 and 494.4 eV, corresponding to Sn 3d<sub>5/2</sub> and Sn 3d<sub>3/2</sub>, respectively, as shown in <xref rid="fig4" ref-type="fig">Figure 
+</xref>a for the 1%Er/5%Sb-codoped SnO<sub>2</sub> sample. Furthermore, the O 1s spectra of the SnO<sub>2</sub> samples
+with 5% Sb single doping and various Er codopant concentrations are
+shown in <xref rid="fig4" ref-type="fig">Figure 
+</xref>c.
+The deconvoluted spectrum reveals two peaks: one at 531 eV corresponding
+to the O 1s spin orbit of lattice oxygen and another at 529 eV corresponding
+to the Sb<sup>5+</sup> oxidation state. In the case of 5 mol % Sb
+single doping, the O 1s spectrum reveals peaks associated with both
+lattice oxygen and oxygen vacancies, indicating that Sb doping effectively
+induces oxygen vacancy formation. This can be attributed to the substitution
+of Sb<sup>5+</sup> at Sn<sup>4+</sup> sites, which leads to charge
+imbalance and generates unpaired electrons on the nanoparticle surface,
+resulting in oxygen vacancies.<italic>
+,,
+</italic> For rare-earth doping, the codoped sample containing 0.1 mol % Er
+with 5 mol % Sb showed a similar XPS pattern, especially the Sb<sup>5+</sup> peak at 529 eV, corresponding to Sb 3d<sub>3/2</sub>. Additionally,
+the oxygen vacancy-related O 1s peak was still observed at 531 eV,
+confirming the retention of oxygen defects in the SnO<sub>2</sub> host
+lattice. As the Er dopant concentration increased (while maintaining
+at 5 mol % of Sb), the XPS spectra in <xref rid="fig4" ref-type="fig">Figure 
+</xref>c showed a notable increase in oxygen species,
+including surface-adsorbed oxygen and oxygen vacancies. This increase
+is attributed to the enhanced electron density surrounding Sn<sup>4+</sup> ions caused by Er<sup>3+</sup> incorporation. The elevated
+electron density reduces O<sup>2–</sup> ions in the lattice,
+promoting nonstoichiometry and thereby generating more oxygen vacancies.
+These vacancies enhance the adsorption capacity for oxygen species
+and contribute to maintaining charge equilibrium in the lattice.<italic>
+,
+</italic> Additionally, the narrow-scan spectrum of Er ions, as shown in <xref rid="fig4" ref-type="fig">Figure 
+</xref>b, confirms the presence
+of Er<sup>3+</sup> with a 4d<sub>3/2</sub> spin orbital at a binding
+energy of 170.5 eV. It confirmed that
+the introduction of Er/Sb codopant ions significantly promotes oxygen
+vacancy formation in the SnO<sub>2</sub> lattice. This structural
+modification contributes directly to enhanced NIR absorption performance,
+making Er/Sb-codoped SnO<sub>2</sub> a promising material for thermal
+shielding and optoelectronic applications.</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>X-ray photoelectron spectroscopic
+spectra of (a) Sn 3d and (b) Er 4d orbitals of the 1%Er/5%Sb-codoped
+SnO<sub>2</sub> sample and (c) Sb 3d with O 1s spectra of all samples
+with different 0–5 mol % of Er dopant concentrations (c–h).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="ao6c00744_0004.jpg"><?cloudpmc-path blobs/3a91/13063195/75512c8cc6f7/ao6c00744_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2600?><?original-width 1662?><?scaled-height 1039?><?scaled-width 664?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao6c00744_0004.gif"><?cloudpmc-path blobs/3a91/13063195/8efb803e772d/ao6c00744_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec3.5" disp-level="2"><label>3.5.</label><title>Electron Paramagnetic Resonance
+(EPR) Analysis</title><p>To explore the oxygen vacancy generation,
+electron paramagnetic resonance spectroscopic (EPR) measurement was
+used to verify the unpaired electrons in terms of free carriers and
+radicals. <xref rid="fig5" ref-type="fig">Figure 
+</xref> represents
+the Gaussian derivative fitting result of the EPR spectra showing
+the relation of magnetic field (mT) and the EPR dispersion derivative.
+EPR measurements were performed at a microwave frequency of 9.8 GHz
+under an applied external magnetic field. EPR is a powerful technique
+used to investigate the behavior of unpaired electrons through their
+energy level transitions, which follows the relationship Δ<italic>E</italic> = <italic>g</italic>μ<sub>B</sub>
+<italic>B</italic>
+<sub>0</sub>, where <italic>g</italic> is the electron <italic>g</italic>-factor, μ<sub>B</sub> is the Bohr magneton, and <italic>B</italic>
+<sub>0</sub> is the external magnetic field. As shown in <xref rid="fig5" ref-type="fig">Figure 
+</xref>, the EPR spectra
+exhibit resonance signals at 336.5, 336.5, 336.2, 339.5, 336.1, 335.1,
+and 334.6 mT for pure SnO<sub>2</sub>, 5%Sb-SnO<sub>2</sub>, 0.1%Er/5%Sb-SnO<sub>2</sub>, 0.5%Er/5%Sb-SnO<sub>2</sub>, 1%Er/5%Sb-SnO<sub>2</sub>,
+3%Er/5%Sb-SnO<sub>2</sub>, and 5%Er/5%Sb-SnO<sub>2</sub> samples,
+respectively. The observation of variation in peak position and signal
+intensity is attributed to the increasing number of defects particularly
+oxygen vacancies as the Er codopant concentration increases. The optimum Er/Sb codoping concentration was
+observed at 1 mol % Er with 5 mol % Sb, which showed the highest EPR
+signal intensity. This indicates a maximum generation of unpaired
+electrons or defect sites at this composition. Additionally, the narrow
+and sharp EPR spectrum of the 1%Er/5%Sb-SnO<sub>2</sub> sample suggests
+strong exchange interactions and delocalization of unpaired electrons
+within the conjugated chemical bonding network.<italic>
+,
+</italic> Therefore, the EPR analysis confirms the presence of oxygen vacancy
+defects and free electrons in Er/Sb-codoped SnO<sub>2</sub> samples.
+The increased free electron density associated with codoping effectively
+contributes to the enhancement of near-infrared (NIR) absorption performance.</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>EPR spectroscopic
+measurement of bare SnO<sub>2</sub>, singly 5%Sb-doped SnO<sub>2</sub>, and Er/Sb-codoped SnO<sub>2</sub> with different Er loading concentrations.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="ao6c00744_0005.jpg"><?cloudpmc-path blobs/3a91/13063195/91f9f8e0297d/ao6c00744_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 736?><?original-width 1000?><?scaled-height 490?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao6c00744_0005.gif"><?cloudpmc-path blobs/3a91/13063195/1d0e76af0acc/ao6c00744_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec3.6" disp-level="2"><label>3.6.</label><title>Electrical Resistivity</title><p>According
+to the EPR results that contributed to the existing oxygen
+vacancy defect, electrical conductivity observation was used to confirm
+the reason for the Er/Sn-codoped SnO<sub>2</sub> samples by using
+4-point probe measurement. First, as-prepared Er/Sb-codoped SnO<sub>2</sub> powder samples were pressed by using a clod sintering machine
+with a pressure of 1500 psi for 5 min to obtain pellet samples, followed
+by electrical resistivity measurement. The pristine SnO<sub>2</sub> sample showed the highest resistivity at 3.082 MΩ, while the
+sample singly doped with Sb showed a lower resistivity of about 2.249
+MΩ. Furthermore, the Er/Sb codopant demonstrated the slight
+change of electrical resistivities of 2.237, 2.257, 2.242, 2.240,
+and 3.075 for 0.1, 0.5, 1, 3, and 5%Er/5%Sb codopant concentrations,
+respectively. The decrease in electrical
+resistivity after single doping with the 5% Sb concentration is explained
+by the increase in free carrier concentration, as Sb<sup>5+</sup> ions
+incorporated at the Sn<sup>4+</sup> sites behave as donor ions. In
+the codoping system, at lower Er<sup>3+</sup> concentrations (with
+dominant Sb<sup>5+</sup> doping), the system remains donor-dominated
+from Sb<sup>5+</sup> behaving as the donor, leading to high carrier
+density and strong NIR shielding via free carrier absorption. However,
+with the Er<sup>3+</sup> at higher content playing as the acceptor,
+increased acceptor-type defects and ionized impurity scattering may
+reduce carrier mobility and partially compensate for Sb-induced electrons.
+Consequently, excessive Er doping can decrease the effective plasmonic
+absorption in the NIR region. This behavior aligns with EPR observations
+related to oxygen vacancy variations. In addition, the decrease in
+crystalline size with increasing Er<sup>3+</sup> codopant concentration
+results in an expanded grain boundary region, which affects carrier
+migration between crystals. This observation correlates with the X-ray
+diffraction results, which show peak broadening with increasing Er
+codopant concentration. These results
+can support the oxygen vacancy generation of Er/Sb codopant SnO<sub>2</sub> nanoparticles, which exhibited an NIR shielding property.</p></sec><sec id="sec3.7" disp-level="2"><label>3.7.</label><title>Thermal Insulation Property</title><p>Considering
+the thermal shielding property, optical transmission is a crucial
+factor for evaluation. The transmittance of the prepared films was
+analyzed, as illustrated in <xref rid="fig6" ref-type="fig">Figure 
+</xref>b. All samples exhibited a high visible-light transmission
+and significant absorption in the near-infrared (NIR) region. Typically,
+a bare borosilicate glass substrate demonstrated over 90% transmittance
+in the visible region, with a slight decrease in the NIR range due
+to the inherent properties of borosilicate glass. Moreover, all tested films showed similar transmission
+spectra, characterized by high transmittance in the visible range
+and a notable reduction in the NIR region. To better quantify this
+effect, the difference in transmittance (Δ<italic>T</italic>) between the visible and NIR regions was calculated using the following
+equations:</p><disp-formula id="eq1"><label>1</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e909" display="block"><mml:msub><mml:mi>T</mml:mi><mml:mi>vis</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∫</mml:mo><mml:mn>400</mml:mn><mml:mn>780</mml:mn></mml:msubsup><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mn>780</mml:mn><mml:mo>−</mml:mo><mml:mn>400</mml:mn></mml:mrow></mml:mfrac></mml:math></disp-formula><disp-formula id="eq2"><label>2</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e929" display="block"><mml:msub><mml:mi>T</mml:mi><mml:mi>NIR</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∫</mml:mo><mml:mn>780</mml:mn><mml:mn>1500</mml:mn></mml:msubsup><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mn>1500</mml:mn><mml:mi>‐</mml:mi><mml:mn>780</mml:mn></mml:mrow></mml:mfrac></mml:math></disp-formula><disp-formula id="eq3"><label>3</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e949" display="block"><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>T</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mi>vis</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mi>NIR</mml:mi></mml:msub></mml:math></disp-formula><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>(a) Thermal shielding
+performance set up by apparatus. (b) Optical transmission of all films.
+(c) Temperature measurement inside of the testing box covered with
+testing films under 1500 lx of IR lamp exposure (inset temperature
+testing for superior condition with error bar). (d) Repeatability
+testing of the 1%Er/5%Sb-SnO<sub>2</sub> film.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="ao6c00744_0006.jpg"><?cloudpmc-path blobs/3a91/13063195/360f8f41c6bf/ao6c00744_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1439?><?original-width 1835?><?scaled-height 576?><?scaled-width 734?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao6c00744_0006.gif"><?cloudpmc-path blobs/3a91/13063195/a283db46c8a7/ao6c00744_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The calculated Δ<italic>T</italic> values
+for all of the film
+samples are summarized in <xref rid="tbl2" ref-type="table">Table 
+</xref>. The Δ<italic>T</italic> value reflects the
+difference in transmission between the visible and NIR regions, which
+correlates with the thermal shielding capability of the material.
+To verify the thermal shielding property, the thermal insulation performance
+of the films was assessed by measuring the temperature inside a testing
+box, which was set up with apparatus, as illustrated in <xref rid="fig6" ref-type="fig">Figure 
+</xref>a . The box was covered with
+the film-coated glass substrates (5 × 5 cm<sup>2</sup>) and exposed
+to an infrared (IR) lamp (1500 lx). The results, shown in <xref rid="fig6" ref-type="fig">Figure 
+</xref>b, reveal that the
+uncovered box (air) and the bare glass substrate reached the highest
+internal temperature of approximately 39 °C after 80 min of IR
+exposure. A film coated with poly­(vinyl alcohol) (PVA) showed a slightly
+reduced temperature of around 37 °C, attributed to the IR-absorbing
+functional groups in the PVA matrix. In
+comparison, the pure SnO<sub>2</sub> film showed a similar high temperature
+of 39 °C. However, when doped with 5% Sb, the SnO<sub>2</sub> film exhibited a lower internal temperature of approximately 36
+°C. Introducing a small amount of Er codopant (0.1%) led to a
+further decrease in temperature to around 37 °C. This improvement
+is associated with the localized surface plasmon resonance (LSPR)
+effect caused by free electrons, which arise from oxygen vacancy defects
+induced by Sb doping.<italic>
+,
+</italic> As the Er codoping concentration
+increased, a consistent decrease in temperature was observed after
+80 min of IR exposure. The incorporation of Er<sup>3+</sup> ions help
+to maintain charge neutrality within the SnO<sub>2</sub> lattice,
+enhancing the electron density around Sn<sup>4+</sup> sites and inducing
+nonstoichiometry. This, in turn, promotes the formation of oxygen
+vacancies, as supported by XPS analysis. The optimal codoping condition
+was found to be 1%Er/5%Sb, which exhibited the most effective thermal
+shielding, reducing the temperature to approximately 35 °C. Moreover,
+the stability of the sample is an important factor for smart building
+applications. The stability of the optimized 1%Er/5%Sb-codoped SnO<sub>2</sub> film was evaluated through repeated testing cycles. The thermal
+shielding performance of the film was examined under IR lamp exposure
+for 80 min per cycle, and the results are presented in <xref rid="fig6" ref-type="fig">Figure 
+</xref>d. The film maintained a consistent
+internal temperature of approximately 31 °C inside the testing
+box over five consecutive cycles. This result confirms that the 1%Er/5%Sb-codoped
+SnO<sub>2</sub> material synthesized via the sonochemically assisted
+method exhibits good thermal stability and durability. Therefore,
+it can be considered a promising candidate material for smart building
+applications.</p><table-wrap id="tbl2" position="float"><?disp-level 3?><label>2</label><caption><title>Resistivity of Powder Samples and
+Optical Property of Films</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1">samples</th><th align="center" colspan="1" rowspan="1">resistivity
+(MΩ)</th><th align="center" colspan="1" rowspan="1">
+<italic>T</italic>
+<sub>VIS</sub> (%)</th><th align="center" colspan="1" rowspan="1">
+<italic>T</italic>
+<sub>NIR</sub> (%)</th><th align="center" colspan="1" rowspan="1">Δ<italic>T</italic>
+</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">glass</td><td align="center" colspan="1" rowspan="1"> </td><td align="center" colspan="1" rowspan="1">91.745</td><td align="center" colspan="1" rowspan="1">82.045</td><td align="center" colspan="1" rowspan="1">9.700</td></tr><tr><td align="left" colspan="1" rowspan="1">PVA</td><td align="center" colspan="1" rowspan="1"> </td><td align="center" colspan="1" rowspan="1">90.678</td><td align="center" colspan="1" rowspan="1">81.624</td><td align="center" colspan="1" rowspan="1">9.054</td></tr><tr><td align="left" colspan="1" rowspan="1">pure SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">3.082</td><td align="center" colspan="1" rowspan="1">89.535</td><td align="center" colspan="1" rowspan="1">80.68</td><td align="center" colspan="1" rowspan="1">8.855</td></tr><tr><td align="left" colspan="1" rowspan="1">5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">2.249</td><td align="center" colspan="1" rowspan="1">86.552</td><td align="center" colspan="1" rowspan="1">77.758</td><td align="center" colspan="1" rowspan="1">8.794</td></tr><tr><td align="left" colspan="1" rowspan="1">0.1%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">2.237</td><td align="center" colspan="1" rowspan="1">90.306</td><td align="center" colspan="1" rowspan="1">82.610</td><td align="center" colspan="1" rowspan="1">7.696</td></tr><tr><td align="left" colspan="1" rowspan="1">0.5%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">2.257</td><td align="center" colspan="1" rowspan="1">88.404</td><td align="center" colspan="1" rowspan="1">81.276</td><td align="center" colspan="1" rowspan="1">7.128</td></tr><tr><td align="left" colspan="1" rowspan="1">1%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">2.242</td><td align="center" colspan="1" rowspan="1">87.935</td><td align="center" colspan="1" rowspan="1">78.883</td><td align="center" colspan="1" rowspan="1">9.052</td></tr><tr><td align="left" colspan="1" rowspan="1">3%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">2.401</td><td align="center" colspan="1" rowspan="1">87.120</td><td align="center" colspan="1" rowspan="1">78.988</td><td align="center" colspan="1" rowspan="1">8.132</td></tr><tr><td align="left" colspan="1" rowspan="1">5%Er/5%Sb-SnO<sub>2</sub>
+</td><td align="center" colspan="1" rowspan="1">3.075</td><td align="center" colspan="1" rowspan="1">89.064</td><td align="center" colspan="1" rowspan="1">80.375</td><td align="center" colspan="1" rowspan="1">8.689</td></tr></tbody></table></table-wrap></sec></sec><sec id="sec4" disp-level="1"><title>Conclusions</title><p>In
+this study, Er/Sb-codoped SnO<sub>2</sub> nanoparticles successfully
+synthesized sonochemically assisted and thermal treatment techniques.
+The influence of the Er dopant concentration on the structural, optical,
+electrical, and thermal shielding properties was systematically investigated.
+Structural analysis confirmed the retention of the tetragonal SnO<sub>2</sub> phase, with a slight lattice contraction due to Er incorporation,
+as evidenced by XRD and HRTEM results. XPS and EPR analyses revealed
+enhanced oxygen vacancy formation associated with Er and Sb codoping,
+which contributed to increased free carrier concentration. Optical
+studies showed strong UV absorption and significant suppression of
+NIR reflectance, particularly at optimal codoping levels, due to localized
+surface plasmon resonance (LSPR) effects. A notable absorption peak
+at 532 nm confirmed the presence of Er<sup>3+</sup> dopant ions. Thermal
+shielding tests demonstrated a reduction in internal temperature under
+IR exposure, with the best performance achieved at 1 mol % Er and
+5 mol % Sb codoping, corresponding to enhanced NIR absorption capability.
+These findings indicate that Er/Sb-codoped SnO<sub>2</sub> is a promising
+multifunctional material for energy-efficient glazing, smart windows,
+and NIR shielding applications, offering an effective strategy for
+managing solar heat gain in buildings.</p></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>The authors would
+like to thank the Advanced Technology Testing and Analysis Center
+(ATTAC) of School of Integrated Innovative Technology (SiiTec), King
+Mongkut’s Institute of Technology Ladkrabang (KMITL), and Kyoto
+University under the Japan-Asian Science Technology and Innovation
+Platform (JASTIP) program for supporting characterization facilities.</p></sec><sec id="notes1" disp-level="1"><p>Thanaphon
+Kansaard:
+writingoriginal draft, methodology, data curation, and conceptualization.
+Tanisara Noinonmueng: methodology, data curation, and validation.
+C.K. Jayasankar: investigation. Wanichaya Mekprasart: investigation
+and visualization. Kanokthip Boonyarattanakalin: formal analysis,
+investigation, and visualization. Wisanu Pecharapa: writingreview
+and editing, funding acquisition, supervision, and project administration.</p></sec><sec id="notes2" disp-level="1"><p>This
+research has received funding support from the National Science Research
+and Innovation Fund (NSRF) via the Program Management Unit for Human
+Resources &amp; Institutional Development, Research and Innovation
+(Grant No. B13F680084).</p></sec><sec id="notes3" disp-level="1"><p>The
+authors declare no competing financial interest.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Yang G., Hu D., Yang C., Qi Y., Liu B., Chen H., Zhang L., Cui Y., Yao X., Takats V.. Alkali metal
+tungsten bronze-doped energy-saving glasses for near-infrared shielding
+applications. Ceramic International. 2021;47(22):31122–31129. doi: 10.1016/j.ceramint.2021.07.286.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ceramint.2021.07.286"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ceramic International&amp;title=Alkali metal tungsten bronze-doped energy-saving glasses for near-infrared shielding applications&amp;author=G. Yang&amp;author=D. Hu&amp;author=C. Yang&amp;author=Y. Qi&amp;author=B. Liu&amp;volume=47&amp;issue=22&amp;publication_year=2021&amp;pages=31122-31129&amp;doi=10.1016/j.ceramint.2021.07.286&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Ran S., Liu J., Shi F., Fan C., Chen B., Zhang H., Yu L., Liu S.. Greatly improved heat-shielding performance of KxWO3 by trace Pt doping for energy-saving window glass applications. Sol. Energy Mater. Sol. Cells. 2018;174:342–350. doi: 10.1016/j.solmat.2017.08.013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.solmat.2017.08.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sol. Energy Mater. Sol. Cells&amp;title=Greatly improved heat-shielding performance of KxWO3 by trace Pt doping for energy-saving window glass applications&amp;author=S. Ran&amp;author=J. Liu&amp;author=F. Shi&amp;author=C. Fan&amp;author=B. Chen&amp;volume=174&amp;publication_year=2018&amp;pages=342-350&amp;doi=10.1016/j.solmat.2017.08.013&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Kumar A., Gupta G., Bapna K., Shivagan D. D.. Semiconductor-metal-oxide-based nano-composites for
+humidity sensing applications. Mater. Res. Bull. 2023;158:112053.  doi: 10.1016/j.materresbull.2022.112053.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.materresbull.2022.112053"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mater. Res. Bull.&amp;title=Semiconductor-metal-oxide-based nano-composites for humidity sensing applications&amp;author=A. Kumar&amp;author=G. Gupta&amp;author=K. Bapna&amp;author=D. D. Shivagan&amp;volume=158&amp;publication_year=2023&amp;pages=112053&amp;doi=10.1016/j.materresbull.2022.112053&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Vinotha K., Jayasutha B., Ganesh T., Vinoth K., John Abel M.. Comparative
+investigation on physicochemical and photocatalytic properties of
+CuS and Al3+ doped CuS thin films. Materials Science and Engineering: B. 2023;295:116577.  doi: 10.1016/j.mseb.2023.116577.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.mseb.2023.116577"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Materials Science and Engineering: B&amp;title=Comparative investigation on physicochemical and photocatalytic properties of CuS and Al3+ doped CuS thin films&amp;author=K. Vinotha&amp;author=B. Jayasutha&amp;author=T. Ganesh&amp;author=K. Vinoth&amp;author=M. John Abel&amp;volume=295&amp;publication_year=2023&amp;pages=116577&amp;doi=10.1016/j.mseb.2023.116577&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Matsui H., Furuta S., Hasebe T., Tabata H.. Plasmonic-Field Interactions at Nanoparticle interfaces
+for infrared thermal-shielding applications based on transparent oxide
+semiconductors. ACS Appl. Mater. Interfaces. 2016;18:11749–11757. doi: 10.1021/acsami.6b01202.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acsami.6b01202"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27135708"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Appl. Mater. Interfaces&amp;title=Plasmonic-Field Interactions at Nanoparticle interfaces for infrared thermal-shielding applications based on transparent oxide semiconductors&amp;author=H. Matsui&amp;author=S. Furuta&amp;author=T. Hasebe&amp;author=H. Tabata&amp;volume=18&amp;publication_year=2016&amp;pages=11749-11757&amp;pmid=27135708&amp;doi=10.1021/acsami.6b01202&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Jeong S., Ahn J., Choi Y., Lim T., Seo K., Hong T., Choi G., Kim H., Lee B., Park S., Ju S.. Development of a wearable infrared
+shield based on a polyurethane–antimony tin oxide composite
+fiber. NPG Asia Materials. 2020;12(32):12–32. doi: 10.1038/s41427-020-0213-z.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41427-020-0213-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=NPG Asia Materials&amp;title=Development of a wearable infrared shield based on a polyurethane–antimony tin oxide composite fiber&amp;author=S. Jeong&amp;author=J. Ahn&amp;author=Y. Choi&amp;author=T. Lim&amp;author=K. Seo&amp;volume=12&amp;issue=32&amp;publication_year=2020&amp;pages=12-32&amp;doi=10.1038/s41427-020-0213-z&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Yang S., Choo Y., Kim S., Lim S., Lee J., Park H.. Boosting the electrocatalytic activities
+of SnO2 electrodes for remediation of aqueous pollutants
+by doping with various metals. Applied Catalysis
+B: Environmental. 2012;111–112:317–325. doi: 10.1016/j.apcatb.2011.10.014.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.apcatb.2011.10.014"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Applied Catalysis B: Environmental&amp;title=Boosting the electrocatalytic activities of SnO2 electrodes for remediation of aqueous pollutants by doping with various metals&amp;author=S. Yang&amp;author=Y. Choo&amp;author=S. Kim&amp;author=S. Lim&amp;author=J. Lee&amp;volume=111–112&amp;publication_year=2012&amp;pages=317-325&amp;doi=10.1016/j.apcatb.2011.10.014&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Ahmad T., Ansari M. Z.. Enhancement of infrared shielding
+property of SnO2 using Sb as a dopant. Materials Research Express. 2022;9:105902.  doi: 10.1088/2053-1591/ac9778.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/2053-1591/ac9778"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Materials Research Express&amp;title=Enhancement of infrared shielding property of SnO2 using Sb as a dopant&amp;author=T. Ahmad&amp;author=M. Z. Ansari&amp;volume=9&amp;publication_year=2022&amp;pages=105902&amp;doi=10.1088/2053-1591/ac9778&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Liu H., Zhao K., Wang T., Deng J., Zeng H.. Facile preparation
+of cerium (Ce) and antimony (Sb) codoped SnO2 for hydrogen production
+in lactic acid solution. Materials Science in
+Semiconductor Processing. 2015;40:670–675. doi: 10.1016/j.mssp.2015.07.041.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.mssp.2015.07.041"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Materials Science in Semiconductor Processing&amp;title=Facile preparation of cerium (Ce) and antimony (Sb) codoped SnO2 for hydrogen production in lactic acid solution&amp;author=H. Liu&amp;author=K. Zhao&amp;author=T. Wang&amp;author=J. Deng&amp;author=H. Zeng&amp;volume=40&amp;publication_year=2015&amp;pages=670-675&amp;doi=10.1016/j.mssp.2015.07.041&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Xia W., Wang H., Zeng X., Han J., Zhu J., Zhou M., Wu S.. High-efficiency photocatalytic activity
+of type II SnO/Sn3O4 heterostructures via interfacial charge transfer. CrystEngComm. 2014;16:6841–6847. doi: 10.1039/C4CE00884G.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C4CE00884G"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=CrystEngComm&amp;title=High-efficiency photocatalytic activity of type II SnO/Sn3O4 heterostructures via interfacial charge transfer&amp;author=W. Xia&amp;author=H. Wang&amp;author=X. Zeng&amp;author=J. Han&amp;author=J. Zhu&amp;volume=16&amp;publication_year=2014&amp;pages=6841-6847&amp;doi=10.1039/C4CE00884G&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Sundara Raj B. G., Wu J. J., Asiri A. M., Anandan S.. Hybrid SnO2–Co3O4 nanocubes prepared via a CoSn­(OH)­6
+intermediate through a sonochemical route for energy storage applications. RSC Advance. 2016;6:33361–33368. doi: 10.1039/C5RA25299G.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C5RA25299G"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=RSC Advance&amp;title=Hybrid SnO2–Co3O4 nanocubes prepared via a CoSn­(OH)­6 intermediate through a sonochemical route for energy storage applications&amp;author=B. G. Sundara Raj&amp;author=J. J. Wu&amp;author=A. M. Asiri&amp;author=S. Anandan&amp;volume=6&amp;publication_year=2016&amp;pages=33361-33368&amp;doi=10.1039/C5RA25299G&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Noonuruk R., Vittayakorn N., Mekprasart W., Sritharathikhun J., Pecharapa W.. Sb-Doped SnO2
+nanoparticles synthesized by sonochemical-assisted precipitation process. J. Nanosci. Nanotechnol. 2015;15:2564–2569. doi: 10.1166/jnn.2015.10222.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1166/jnn.2015.10222"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26413706"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Nanosci. Nanotechnol.&amp;title=Sb-Doped SnO2 nanoparticles synthesized by sonochemical-assisted precipitation process&amp;author=R. Noonuruk&amp;author=N. Vittayakorn&amp;author=W. Mekprasart&amp;author=J. Sritharathikhun&amp;author=W. Pecharapa&amp;volume=15&amp;publication_year=2015&amp;pages=2564-2569&amp;pmid=26413706&amp;doi=10.1166/jnn.2015.10222&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Tran T., Armellini C., Varas S., Carpentiero A., Chiappini A., Głuchowski P., Iacob E., Ischia G., Scotognella F., Bollani M., Lukowiak A., Righini G. C., Ferrari M., Chiasera A.. Assessment of SnO2-nanocrystal-based luminescent glass-ceramic
+waveguides for integrated photonics. Ceramic
+International. 2021;47:5534–5541. doi: 10.1016/j.ceramint.2020.10.137.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ceramint.2020.10.137"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ceramic International&amp;title=Assessment of SnO2-nanocrystal-based luminescent glass-ceramic waveguides for integrated photonics&amp;author=T. Tran&amp;author=C. Armellini&amp;author=S. Varas&amp;author=A. Carpentiero&amp;author=A. Chiappini&amp;volume=47&amp;publication_year=2021&amp;pages=5534-5541&amp;doi=10.1016/j.ceramint.2020.10.137&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Ju Z., Shi Y., Meng F., Huang J., He W., Lv R.. High-Sensitivity
+Optoelectronic Temperature Sensing Using Rare Earth Luminescent Materials
+for Antenna Radome Temperature Monitoring. ACS
+Appl. Mater. Interfaces. 2025;17(28):40729–40742. doi: 10.1021/acsami.5c08304.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acsami.5c08304"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40479652"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Appl. Mater. Interfaces&amp;title=High-Sensitivity Optoelectronic Temperature Sensing Using Rare Earth Luminescent Materials for Antenna Radome Temperature Monitoring&amp;author=Z. Ju&amp;author=Y. Shi&amp;author=F. Meng&amp;author=J. Huang&amp;author=W. He&amp;volume=17&amp;issue=28&amp;publication_year=2025&amp;pages=40729-40742&amp;pmid=40479652&amp;doi=10.1021/acsami.5c08304&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Wang Y., Ju Z., Zhang J., Li Y., Meng F., He W., Lv R.. Photonic Energy Back
+Transfer for Enhanced Upconversion/NIR-II Luminescence with 3D-Printed
+Manufacturing for Bone Imaging. Advance Healthcare
+Materials. 2025;14(23):e03246.  doi: 10.1002/adhm.202503246.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/adhm.202503246"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40685981"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Advance Healthcare Materials&amp;title=Photonic Energy Back Transfer for Enhanced Upconversion/NIR-II Luminescence with 3D-Printed Manufacturing for Bone Imaging&amp;author=Y. Wang&amp;author=Z. Ju&amp;author=J. Zhang&amp;author=Y. Li&amp;author=F. Meng&amp;volume=14&amp;issue=23&amp;publication_year=2025&amp;pages=e03246&amp;pmid=40685981&amp;doi=10.1002/adhm.202503246&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Yu M., Chang K., Huang S., Zhao Z.. Enhancing up-conversion
+luminescence of Er3+ with copper sulfide nanostructures. J. Lumin. 2021;240:118425.  doi: 10.1016/j.jlumin.2021.118425.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jlumin.2021.118425"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Lumin.&amp;title=Enhancing up-conversion luminescence of Er3+ with copper sulfide nanostructures&amp;author=M. Yu&amp;author=K. Chang&amp;author=S. Huang&amp;author=Z. Zhao&amp;volume=240&amp;publication_year=2021&amp;pages=118425&amp;doi=10.1016/j.jlumin.2021.118425&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Tran T., Szczurek A., Lukowiak A., Chiasera A.. A review on
+rare-earth activated SnO2-based photonic structures: synthesis, fabrication
+and photoluminescence properties. Optical Materials:
+X. 2022;13:100140.  doi: 10.1016/j.omx.2022.100140.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.omx.2022.100140"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Optical Materials: X&amp;title=A review on rare-earth activated SnO2-based photonic structures: synthesis, fabrication and photoluminescence properties&amp;author=T. Tran&amp;author=A. Szczurek&amp;author=A. Lukowiak&amp;author=A. Chiasera&amp;volume=13&amp;publication_year=2022&amp;pages=100140&amp;doi=10.1016/j.omx.2022.100140&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Mao W., Xiong B., Li Q., Zhou Y., Yin C., Liu Y., He C.. Influences
+of defects and Sb valence states on the temperature dependent conductivity
+of Sb doped SnO2 thin films. Phys.
+Lett. A. 2015;379:1946–1950. doi: 10.1016/j.physleta.2015.06.033.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.physleta.2015.06.033"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Phys. Lett. A&amp;title=Influences of defects and Sb valence states on the temperature dependent conductivity of Sb doped SnO2 thin films&amp;author=W. Mao&amp;author=B. Xiong&amp;author=Q. Li&amp;author=Y. Zhou&amp;author=C. Yin&amp;volume=379&amp;publication_year=2015&amp;pages=1946-1950&amp;doi=10.1016/j.physleta.2015.06.033&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">López Morales F., Zayas T., Contreras O. E., Salgado L.. Effect of Sn precursor
+on the synthesis of SnO2 and Sb-doped SnO2 particles via polymeric
+precursor method. Front. Mater. Sci. 2013;7:387–395. doi: 10.1007/s11706-013-0227-3.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11706-013-0227-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Mater. Sci.&amp;title=Effect of Sn precursor on the synthesis of SnO2 and Sb-doped SnO2 particles via polymeric precursor method&amp;author=F. López Morales&amp;author=T. Zayas&amp;author=O. E. Contreras&amp;author=L. Salgado&amp;volume=7&amp;publication_year=2013&amp;pages=387-395&amp;doi=10.1007/s11706-013-0227-3&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Brahma S., Lo C., Chen S., Chu H., Hsu C., Huang J.. Defect induced crystal lattice disorder
+and its effect on the electron-phonon coupling in Fe doped ZnO thin
+films. J. Phys. Chem. Solids. 2024;190:111999.  doi: 10.1016/j.jpcs.2024.111999.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jpcs.2024.111999"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. Solids&amp;title=Defect induced crystal lattice disorder and its effect on the electron-phonon coupling in Fe doped ZnO thin films&amp;author=S. Brahma&amp;author=C. Lo&amp;author=S. Chen&amp;author=H. Chu&amp;author=C. Hsu&amp;volume=190&amp;publication_year=2024&amp;pages=111999&amp;doi=10.1016/j.jpcs.2024.111999&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Yang L., Guo Y.. Effects of rare earth
+doping on structural and electrocatalytic properties of nanostructured
+TiO2 nanotubes/SnO2-Sb electrode for electrochemical
+treatment of industrial wastewater. Separations. 2023;10:560. doi: 10.3390/separations10110560.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/separations10110560"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Separations&amp;title=Effects of rare earth doping on structural and electrocatalytic properties of nanostructured TiO2 nanotubes/SnO2-Sb electrode for electrochemical treatment of industrial wastewater&amp;author=L. Yang&amp;author=Y. Guo&amp;volume=10&amp;publication_year=2023&amp;pages=560&amp;doi=10.3390/separations10110560&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Sun M., Liu J., Dong B.. Effects of
+Sb doping on the structure and properties of SnO2 films. Curr. Appl. Phys. 2020;20:462–469. doi: 10.1016/j.cap.2020.01.009.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cap.2020.01.009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Appl. Phys.&amp;title=Effects of Sb doping on the structure and properties of SnO2 films&amp;author=M. Sun&amp;author=J. Liu&amp;author=B. Dong&amp;volume=20&amp;publication_year=2020&amp;pages=462-469&amp;doi=10.1016/j.cap.2020.01.009&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Kityk I. V., Halyan V. V., Kevshyn A. H., Ivashchenko I. A., Olekseyuk I. D., Lebed O. O., Lakshminarayana G., Piasecki M.. (Ga54.59In44.66Er0.75)2S300 single crystal: novel material for detection
+of γ-radiation by photoinduced nonlinear optical method. Journal of Materials Science: Materials in Electronics. 2017;28:14097–14102. doi: 10.1007/s10854-017-7262-2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10854-017-7262-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Materials Science: Materials in Electronics&amp;title=(Ga54.59In44.66Er0.75)2S300 single crystal: novel material for detection of γ-radiation by photoinduced nonlinear optical method&amp;author=I. V. Kityk&amp;author=V. V. Halyan&amp;author=A. H. Kevshyn&amp;author=I. A. Ivashchenko&amp;author=I. D. Olekseyuk&amp;volume=28&amp;publication_year=2017&amp;pages=14097-14102&amp;doi=10.1007/s10854-017-7262-2&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Feng Z., Gaiardo A., Valt M., Fabbri B., Casotti D., Krik S., Vanzetti L., Ciana M. D., Fioravanti S., Caramori S., Rota A., Guidi V.. Investigation on Sensing Performance of Highly Doped Sb/SnO2
+. Sensors. 2022;22:1233. doi: 10.3390/s22031233.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/s22031233"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8840147"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35161978"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sensors&amp;title=Investigation on Sensing Performance of Highly Doped Sb/SnO2&amp;author=Z. Feng&amp;author=A. Gaiardo&amp;author=M. Valt&amp;author=B. Fabbri&amp;author=D. Casotti&amp;volume=22&amp;publication_year=2022&amp;pages=1233&amp;pmid=35161978&amp;doi=10.3390/s22031233&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Macario L. R., Golabek A., Kleinke H., Leite E. R.. Thermoelectric properties
+of Sb-doped tin oxide by a one-step solid-state reaction. Ceram. Int. 2022;48:3585–3591. doi: 10.1016/j.ceramint.2021.10.137.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ceramint.2021.10.137"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ceram. Int.&amp;title=Thermoelectric properties of Sb-doped tin oxide by a one-step solid-state reaction&amp;author=L. R. Macario&amp;author=A. Golabek&amp;author=H. Kleinke&amp;author=E. R. Leite&amp;volume=48&amp;publication_year=2022&amp;pages=3585-3591&amp;doi=10.1016/j.ceramint.2021.10.137&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Morais E. A., Scalvi L. V., Cavalheiro A. A., Tabata A., Oliveira J. B. B.. Rare earth centers properties and
+electron trapping in SnO2 thin films produced by sol-gel route. J. Non-Cryst. Solids. 2008;354:4840–4845. doi: 10.1016/j.jnoncrysol.2008.04.029.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jnoncrysol.2008.04.029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Non-Cryst. Solids&amp;title=Rare earth centers properties and electron trapping in SnO2 thin films produced by sol-gel route&amp;author=E. A. Morais&amp;author=L. V. Scalvi&amp;author=A. A. Cavalheiro&amp;author=A. Tabata&amp;author=J. B. B. Oliveira&amp;volume=354&amp;publication_year=2008&amp;pages=4840-4845&amp;doi=10.1016/j.jnoncrysol.2008.04.029&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Montilla F., Morallón E., De Battisti A., Benedetti A., Yamashita H., Vázquez J. L.. Preparation and characterization of antimony-doped
+tin dioxide electrodes. Part 2. XRD and EXAFS characterization. J. Phys. Chem. B. 2004;108:5044–5050. doi: 10.1021/jp0374814.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jp0374814"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. B&amp;title=Preparation and characterization of antimony-doped tin dioxide electrodes. Part 2. XRD and EXAFS characterization&amp;author=F. Montilla&amp;author=E. Morallón&amp;author=A. De Battisti&amp;author=A. Benedetti&amp;author=H. Yamashita&amp;volume=108&amp;publication_year=2004&amp;pages=5044-5050&amp;doi=10.1021/jp0374814&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Yang L., Zhang Z., Liu J., Huang L., Jia L., Feng Y.. Influence of Gd doping on the structure and electrocatalytic performance
+of TiO2 nanotube/SnO2–Sb nano-coated electrode. ChemElectroChem. 2018;5:3451–3459. doi: 10.1002/celc.201801079.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/celc.201801079"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ChemElectroChem.&amp;title=Influence of Gd doping on the structure and electrocatalytic performance of TiO2 nanotube/SnO2–Sb nano-coated electrode&amp;author=L. Yang&amp;author=Z. Zhang&amp;author=J. Liu&amp;author=L. Huang&amp;author=L. Jia&amp;volume=5&amp;publication_year=2018&amp;pages=3451-3459&amp;doi=10.1002/celc.201801079&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Chen F. H., Her J. L., Shao Y. H., Matsuda Y. H., Pan T.. Structural
+and electrical characteristics of high-κ Er2O3 and Er2TiO5 gate
+dielectrics for a-IGZO thin-film transistors. Nanoscale Res. Lett. 2013;8:8–18. doi: 10.1186/1556-276X-8-18.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/1556-276X-8-18"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3584805"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23294730"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nanoscale Res. Lett.&amp;title=Structural and electrical characteristics of high-κ Er2O3 and Er2TiO5 gate dielectrics for a-IGZO thin-film transistors&amp;author=F. H. Chen&amp;author=J. L. Her&amp;author=Y. H. Shao&amp;author=Y. H. Matsuda&amp;author=T. Pan&amp;volume=8&amp;publication_year=2013&amp;pages=8-18&amp;pmid=23294730&amp;doi=10.1186/1556-276X-8-18&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Shi S., Gao D., Xu Q., Yang Z., Xue D.. Singly-charged oxygen
+vacancy-induced ferromagnetism in mechanically milled SnO2 powders. RSC Adv. 2014;4:45467. doi: 10.1039/C4RA05475J.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C4RA05475J"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=RSC Adv.&amp;title=Singly-charged oxygen vacancy-induced ferromagnetism in mechanically milled SnO2 powders&amp;author=S. Shi&amp;author=D. Gao&amp;author=Q. Xu&amp;author=Z. Yang&amp;author=D. Xue&amp;volume=4&amp;publication_year=2014&amp;pages=45467&amp;doi=10.1039/C4RA05475J&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Volodin A. M., Cherkashin A. E.. ESR spectra
+of O–2 on SnO2• effect of adsorbed CO on the conditions
+of stabilization of O–2. React. Kinet.
+Catal. Lett. 1981;17:323–327. doi: 10.1007/BF02065841.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/BF02065841"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=React. Kinet. Catal. Lett.&amp;title=ESR spectra of O–2 on SnO2• effect of adsorbed CO on the conditions of stabilization of O–2&amp;author=A. M. Volodin&amp;author=A. E. Cherkashin&amp;volume=17&amp;publication_year=1981&amp;pages=323-327&amp;doi=10.1007/BF02065841&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Kumar M., Bhatt V., Abhyankar A. C., Kim J., Kumar A., Patil S. H., Yun J. H.. New insights towards
+strikingly improved room temperature ethanol sensing properties of
+p-type Ce-doped SnO2 sensors. Sci. Rep. 2018;8:8079. doi: 10.1038/s41598-018-26504-3.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-018-26504-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5967327"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29799018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=New insights towards strikingly improved room temperature ethanol sensing properties of p-type Ce-doped SnO2 sensors&amp;author=M. Kumar&amp;author=V. Bhatt&amp;author=A. C. Abhyankar&amp;author=J. Kim&amp;author=A. Kumar&amp;volume=8&amp;publication_year=2018&amp;pages=8079&amp;pmid=29799018&amp;doi=10.1038/s41598-018-26504-3&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Liu L., Ueda M., Kawaharamura T.. Characterization and study of high
+conductivity antimony-doped tin oxide thin films grown by mist chemical
+vapor deposition. RSC Adv. 2023;13:13456–13462. doi: 10.1039/D3RA00359K.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D3RA00359K"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10152926"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37143909"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=RSC Adv.&amp;title=Characterization and study of high conductivity antimony-doped tin oxide thin films grown by mist chemical vapor deposition&amp;author=L. Liu&amp;author=M. Ueda&amp;author=T. Kawaharamura&amp;volume=13&amp;publication_year=2023&amp;pages=13456-13462&amp;pmid=37143909&amp;doi=10.1039/D3RA00359K&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Yang G., Liu Y., Yang C., Xia F., Hu D., Wu Y., Shpotyuk Y., Takats V., He X.. Near-infrared-shielding energy-saving borosilicate glass-ceramic
+window materials based on doping of defective tantalum tungsten oxide
+(Ta0.3W0.7O2.85) nanocrystals. Ceram. Int. 2023;49:403–412. doi: 10.1016/j.ceramint.2022.09.003.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ceramint.2022.09.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ceram. Int.&amp;title=Near-infrared-shielding energy-saving borosilicate glass-ceramic window materials based on doping of defective tantalum tungsten oxide (Ta0.3W0.7O2.85) nanocrystals&amp;author=G. Yang&amp;author=Y. Liu&amp;author=C. Yang&amp;author=F. Xia&amp;author=D. Hu&amp;volume=49&amp;publication_year=2023&amp;pages=403-412&amp;doi=10.1016/j.ceramint.2022.09.003&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Voronova M. I., Surov O. V., Guseinov S. S., Barannikov V. P., Zakharov A. G.. Thermal stability of polyvinyl alcohol/nanocrystalline
+cellulose composites. Carbohydr. Polym. 2015;130:440–447. doi: 10.1016/j.carbpol.2015.05.032.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.carbpol.2015.05.032"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26076645"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Carbohydr. Polym.&amp;title=Thermal stability of polyvinyl alcohol/nanocrystalline cellulose composites&amp;author=M. I. Voronova&amp;author=O. V. Surov&amp;author=S. S. Guseinov&amp;author=V. P. Barannikov&amp;author=A. G. Zakharov&amp;volume=130&amp;publication_year=2015&amp;pages=440-447&amp;pmid=26076645&amp;doi=10.1016/j.carbpol.2015.05.032&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Wang M., Xu Y., Liu Y., Wu W., Xu S.. Synthesis of Sb-doped SnO2 (ATO) hollow microspheres
+and its application in photo-thermal shielding coating. Prog. Org. Coat. 2019;136:105229.  doi: 10.1016/j.porgcoat.2019.105229.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.porgcoat.2019.105229"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Prog. Org. Coat.&amp;title=Synthesis of Sb-doped SnO2 (ATO) hollow microspheres and its application in photo-thermal shielding coating&amp;author=M. Wang&amp;author=Y. Xu&amp;author=Y. Liu&amp;author=W. Wu&amp;author=S. Xu&amp;volume=136&amp;publication_year=2019&amp;pages=105229&amp;doi=10.1016/j.porgcoat.2019.105229&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Li Y., Liu J., Liang J., Yu X., Li D.. Tunable solar-heat shielding property of transparent
+films based on mesoporous Sb-doped SnO2 microspheres. ACS Appl. Mater. Interfaces. 2015;7:6574–6583. doi: 10.1021/am508711p.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/am508711p"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25774799"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Appl. Mater. Interfaces&amp;title=Tunable solar-heat shielding property of transparent films based on mesoporous Sb-doped SnO2 microspheres&amp;author=Y. Li&amp;author=J. Liu&amp;author=J. Liang&amp;author=X. Yu&amp;author=D. Li&amp;volume=7&amp;publication_year=2015&amp;pages=6574-6583&amp;pmid=25774799&amp;doi=10.1021/am508711p&amp;"/></mixed-citation></ref></ref-list></sec></sec></body></article>
