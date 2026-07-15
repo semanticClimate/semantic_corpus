@@ -1,0 +1,15 @@
+{
+  "query_name": "global_warming_and_temperature_rise",
+  "query_string": "(\"global warming\" OR \"temperature rise\" OR \"climate warming\" OR \"surface temperature\") AND (climate OR warming)",
+  "repository": "europe_pmc",
+  "limit": 50,
+  "formats": [
+    "xml"
+  ],
+  "output_dir": "temp/queries/global_warming_and_temperature_rise",
+  "result_count": 50,
+  "downloaded_count": 48,
+  "run_timestamp": "2026-07-15T10:30:00.000000+00:00",
+  "notes": "Query for papers on global warming and temperature rise",
+  "revision_of": null
+}
