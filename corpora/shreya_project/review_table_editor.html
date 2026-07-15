@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Table Editor - Shreya Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            font-size: 0.95em;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+            border: 2px solid #ddd;
+        }
+
+        .btn-secondary:hover {
+            background: #e8e8e8;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+            transform: translateY(-2px);
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c82333;
+        }
+
+        .btn-warning {
+            background: #ffc107;
+            color: #333;
+        }
+
+        .btn-warning:hover {
+            background: #e0a800;
+        }
+
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .filters {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            padding: 8px 12px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.9em;
+            border-bottom: 3px solid #667eea;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 0.9em;
+        }
+
+        tbody tr:hover {
+            background-color: #f5f7fa;
+        }
+
+        tbody tr.excluded {
+            opacity: 0.5;
+            background-color: #f0f0f0;
+        }
+
+        tbody tr.excluded td {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        /* Toggle Switch */
+        .toggle-switch {
+            display: inline-block;
+            position: relative;
+            width: 50px;
+            height: 24px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: 0.3s;
+            border-radius: 24px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            transition: 0.3s;
+            border-radius: 50%;
+        }
+
+        input:checked + .toggle-slider {
+            background-color: #28a745;
+        }
+
+        input:checked + .toggle-slider:before {
+            transform: translateX(26px);
+        }
+
+        /* Score styling */
+        .score-4 { background-color: #d4edda; color: #155724; }
+        .score-3 { background-color: #cfe2ff; color: #084298; }
+        .score-2 { background-color: #fff3cd; color: #664d03; }
+        .score-1 { background-color: #f8d7da; color: #842029; }
+        .score-0 { background-color: #e2e3e5; color: #383d41; }
+        .score-negative { background-color: #f5c6cb; color: #721c24; }
+
+        .score-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-align: center;
+            display: inline-block;
+            min-width: 35px;
+        }
+
+        .title-cell {
+            max-width: 300px;
+            word-wrap: break-word;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-header {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.9em;
+            font-family: inherit;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        .message {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c2c7;
+            display: block;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 0.8em;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .title-cell {
+                max-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>📊 Review Table Editor</h1>
+                <p style="color: #666; margin-top: 5px;">Shreya Project - Paper Review Management</p>
+            </div>
+            <div class="controls">
+                <button class="btn-primary" onclick="exportCSV()">📥 Export CSV</button>
+                <button class="btn-success" onclick="openCommitModal()">💾 Commit Changes</button>
+            </div>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-value" id="total-count">0</div>
+                <div class="stat-label">Total Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="included-count">0</div>
+                <div class="stat-label">Included</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="excluded-count">0</div>
+                <div class="stat-label">Excluded</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avg-score">0</div>
+                <div class="stat-label">Avg Score</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label>Filter by Status:</label>
+                <select id="statusFilter" onchange="filterTable()">
+                    <option value="">All</option>
+                    <option value="included">Included</option>
+                    <option value="excluded">Excluded</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Filter by Score:</label>
+                <select id="scoreFilter" onchange="filterTable()">
+                    <option value="">All Scores</option>
+                    <option value="4">4 (Excellent)</option>
+                    <option value="3">3 (Good)</option>
+                    <option value="2">2 (Fair)</option>
+                    <option value="1">1 (Poor)</option>
+                    <option value="0">0 (Not Relevant)</option>
+                    <option value="-1">-1 (Exclude)</option>
+                    <option value="-2">-2 (Strongly Exclude)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Search:</label>
+                <input type="text" id="searchInput" placeholder="Search titles, authors..." onkeyup="filterTable()">
+            </div>
+            <button class="btn-secondary" onclick="resetFilters()">Reset Filters</button>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="review-table">
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Include</th>
+                        <th style="width: 70px;">Score</th>
+                        <th style="width: 120px;">Paper ID</th>
+                        <th>Title</th>
+                        <th style="width: 120px;">Publication Date</th>
+                        <th style="width: 100px;">Journal</th>
+                        <th style="width: 100px;">DOI</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>Changes are saved locally. Click "Commit Changes" to finalize and push to GitHub.</p>
+            <p id="last-update"></p>
+        </div>
+    </div>
+
+    <!-- Commit Modal -->
+    <div id="commitModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCommitModal()">&times;</span>
+            <div class="modal-header">Commit Changes</div>
+            <div class="form-group">
+                <label>Commit Message:</label>
+                <textarea id="commitMessage" placeholder="Describe the changes you made...">Update review table: exclude/include papers</textarea>
+            </div>
+            <div class="form-group">
+                <label>Author Name:</label>
+                <input type="text" id="authorName" placeholder="Your name" value="Shreya">
+            </div>
+            <div class="form-group">
+                <label>Author Email:</label>
+                <input type="email" id="authorEmail" placeholder="your.email@example.com" value="shreya@example.com">
+            </div>
+            <div class="form-group" style="background: #f9fafb; padding: 10px; border-radius: 5px; border-left: 4px solid #667eea;">
+                <p><strong>Note:</strong> This is a local preview. To actually commit to GitHub, you'll need to use the GitHub API with proper authentication.</p>
+                <p style="margin-top: 10px; font-size: 0.9em;">You can download the CSV and push it manually, or provide GitHub credentials to auto-commit.</p>
+            </div>
+            <div class="modal-buttons">
+                <button class="btn-secondary" onclick="closeCommitModal()">Cancel</button>
+                <button class="btn-success" onclick="commitChanges()">Download & Prepare</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let tableData = [];
+        let originalData = [];
+
+        // CSV Data embedded in the page
+        const csvContent = `review_status,score,paper_id,pmcid,pmid,doi,title,publication_date,journal,authors,has_xml,has_pdf,query_name,query_string,location_terms,pollutant_terms,health_terms,abstract_snippet,review_notes
+review,4,europe_pmc_PMC11189284,PMC11189284,38911103,10.4103/ijem.ijem_473_23,Global Warming and Endocrinology: The Hyderabad Declaration of the South Asian Federation of Endocrine Societies.,2024-03-[...],,,glo,,,
+review,4,europe_pmc_PMC12890902,PMC12890902,41632847,10.1073/pnas.2502873123,Amplified warming in tropical and subtropical cities under 2 °C climate change.,2026-02-03,,Berk S; Joshi MM; Goodess CM; [...],,,glo,,,
+review,4,europe_pmc_PMC12891482,PMC12891482,41545504,10.1038/s41598-026-36299-3,Emerging heat stress patterns across India under future climate scenarios.,2026-01-16,,Molina MO; Soares PMM; Agarwal A;[...],,,glo,,,
+review,4,europe_pmc_PMC12972134,PMC12972134,41673178,10.1038/s41598-026-38289-x,Intensification and spatial shifts of heatwave hotspot across India under climate and ENSO influences with health risk a[...],,,glo,,,
+review,4,europe_pmc_PMC13286149,PMC13286149,42329980,10.1371/journal.pone.0351740,"Cold stress during winter over North India: Patterns, trends, and mortality risks.",2026-06-22,,Athira KS; Attada R; [...],,,glo,,,
+review,3,europe_pmc_PMC12891732,PMC12891732,41545467,10.1038/s41598-026-35482-w,Near future projections of tropical cyclone tracks over the Bay of Bengal using high resolution CMIP6 models.,2026-01-16[...],,,glo,,,
+review,3,europe_pmc_PMC13013920,PMC13013920,41876496,10.1038/s41467-026-69875-2,CO₂ radiative forcing induces summer cooling over India.,2026-03-24,,Liu J; Qu X; Huang G; Lyu C,[...],,,glo,,,
+review,3,europe_pmc_PMC13031848,PMC13031848,41714313,10.1038/s41467-026-69818-x,Global warming drives an increase in pre-monsoon tropical cyclone activity over the North Indian Ocean.,2026-02-19,,Shan[...],,,glo,,,
+review,3,europe_pmc_PMC13048259,PMC13048259,41931612,10.1126/sciadv.aea0082,Rising flood risks in semiarid South Asia driven by changing intraseasonal oscillations under global warming.,2026-04-03,,Xi[...],,,glo,,,
+review,3,europe_pmc_PMC13183973,PMC13183973,41888120,10.1038/s41467-026-71187-4,Tropical precipitation response to anthropogenic climate change in recent decades.,2026-03-26,,Joseph L; Terray P; Soora[...],,,glo,,,
+review,3,europe_pmc_PMC13245704,PMC13245704,,,Revolutionizing Solid Waste Management in India through Recycled and Repurposed Products: A Highlight of Pioneering Cutting-Edge Solutions for a Sustainab[...],,,glo,,,
+review,3,europe_pmc_PMC13287610,PMC13287610,42331792,10.1038/s41467-026-74157-y,"Patterns, drivers, and trends of urban cooling demand across global cities.",2026-06-22,,Mondal N; Anand P; Khan A; Geo[...],,,glo,,,
+review,2,europe_pmc_42082493,,42082493,10.1038/s41467-026-72636-w,Dense canopies reverse the cooling effect of urban greening in humid cities.,2026-05-04,,Borah A; Datta A; Kumar AS; Dave R; Bhatia U,[...],,,glo,,,
+review,2,europe_pmc_42380440,,42380440,10.1038/s41598-026-58043-7,"Optimising CMIP6 Multi-model ensembles using ETCCDI-TOPSIS-Monte carlo framework for reliable climate projections over Odisha, India.[...],,,glo,,,
+review,2,europe_pmc_42432109,,42432109,10.1038/s41598-026-61019-2,Suppression of pre-monsoon tropical cyclones over the north Indian Ocean.,2026-07-10,,Emmanuel R; Deshpande M; Kanase R; Jana S; Sarka[...],,,glo,,,
+review,1,europe_pmc_PMC12176879,PMC12176879,40538687,10.3389/fpubh.2025.1469486,The contemporary spell of heat stroke in Karachi amid global warming and power crisis: a threatened call for medical eme[...],,,glo,,,
+review,0,europe_pmc_41856137,,41856137,10.1016/s2214-109x(26)00006-9,"Global climate justice and the future of air quality co-benefits in low-income and middle-income countries: an energy, climate, an[...],,,glo,,,
+review,-1,europe_pmc_PMC11873770,PMC11873770,40041730,10.34172/hpp.43089,Climate change's impact on the nervous system: A review study.,2024-12-30,,Sadeghi MR; Ghannadi P; Lotfi A; Ashayeri H,True,Fal[...],,,glo,,,
+review,-1,europe_pmc_PMC12540639,PMC12540639,40815304,10.1007/s00484-025-03008-0,Increasing physical work capacity losses due to heat stress increase.,2025-08-15,,Oh SG; Son SW; Hong DC,True,False,glo[...],,,glo,,,
+review,-1,europe_pmc_PMC12590180,PMC12590180,41194634,10.1098/rsta.2024.0579,"Urban heat above and below ground: towards improved understanding, modelling, mitigation and adaptation.",2025-11-06,,Rott[...],,,glo,,,
+review,-1,europe_pmc_PMC12818776,PMC12818776,41567477,10.4103/tjem.tjem_280_25,A holistic approach to climate change in the emergency department: Direct impact of environmental factors on patients.,20[...],,,glo,,,
+review,-1,europe_pmc_PMC12880655,PMC12880655,41650003,10.1371/journal.pgph.0005888,The impacts of climate change on occupational health and work among outdoor workers: A scoping review.,2026-02-06,,No[...],,,glo,,,
+review,-1,europe_pmc_PMC12992659,PMC12992659,41690963,10.1038/s41598-026-37372-7,Global spatiotemporal analysis of interactions between urban heat islands and extreme heat waves.,2026-02-14,,Guo J; Le[...],,,glo,,,
+review,-1,europe_pmc_PMC13021964,PMC13021964,41888528,10.1038/s41467-026-70485-1,Deadly heat stress conditions are already occurring for submission to Nature Communications.,2026-03-26,,Perkins-Kirkpa[...],,,glo,,,
+review,-1,europe_pmc_PMC13178549,PMC13178549,42139349,10.1126/sciadv.aef3132,Sustained deoxygenation in global flowing waters under climate warming.,2026-05-15,,Guan Q; Shi K; Pi X,True,False,global_w[...],,,glo,,,
+review,-1,europe_pmc_PMC13219208,PMC13219208,42207432,10.1007/s11250-026-05071-0,"Animal production under climate change: a global scientometric analysis of research structure, thematic evolution, and[...],,,glo,,,
+review,-2,europe_pmc_41691782,,41691782,10.1016/j.jtherbio.2026.104375,Heat waves and health crises: The unseen threat of heat stress on multiple organ systems.,2026-02-10,,Jaswal P; Rana D; Chaudhary[...],,,glo,,,
+review,-2,europe_pmc_PMC11111018,PMC11111018,38776342,10.1371/journal.pone.0300070,Are hotspots and frequencies of heat waves changing over time? Exploring causes of heat waves in a tropical country.,[...],,,glo,,,
+review,-2,europe_pmc_PMC11393388,PMC11393388,39282127,,Global warming and adverse pregnancy outcomes - the need for research and intervention.,2024-09-01,,Mahmood FM,True,False,global_warming and temp[...],,,glo,,,
+review,-2,europe_pmc_PMC11880391,PMC11880391,40038271,10.1038/s41467-025-57501-6,Hot season gets hotter due to rainfall delay over tropical land in a warming climate.,2025-03-04,,Song F; Dong H; Wu L;[...],,,glo,,,
+review,-2,europe_pmc_PMC12167960,PMC12167960,40455998,10.1073/pnas.2502077122,Climate warming increases global oceanic dimethyl sulfide emissions.,2025-06-02,,Joge SD; Mansour K; Simó R; Galí M; Ste[...],,,glo,,,
+review,-2,europe_pmc_PMC12181172,PMC12181172,40546753,10.1016/j.oneear.2025.101285,Ten new insights in climate science 2024.,2025-06-01,,Schaeffer R; Schipper ELF; Ospina D; Mirazo P; Alencar A; Anvar[...],,,glo,,,
+review,-2,europe_pmc_PMC12312808,PMC12312808,40756233,10.4103/iju.iju_486_24,Impact of modern urology and greenhouse emissions on the environment and how can we reduce it.,2025-07-01,,Upadhyay R,True,[...],,,glo,,,
+review,-2,europe_pmc_PMC12422948,PMC12422948,40931153,10.1038/s41586-025-09450-9,Systematic attribution of heatwaves to the emissions of carbon majors.,2025-09-10,,Quilcaille Y; Gudmundsson L; Schumac[...],,,glo,,,
+review,-2,europe_pmc_PMC12534177,PMC12534177,41112931,10.1038/s43247-025-02743-x,Mitigation efforts to reduce carbon dioxide emissions and meet the Paris Agreement have been offset by economic growth.[...],,,glo,,,
+review,-2,europe_pmc_PMC12722043,PMC12722043,41446901,10.1017/ext.2025.10006,Uncooling the planet: Rewilding for function in a post-Pleistocene climate.,2025-11-14,,Brook BW; Midgley GF,True,False,glo[...],,,glo,,,
+review,-2,europe_pmc_PMC12775511,PMC12775511,41484228,10.1038/s41598-025-34010-6,Human-induced temperature rise is driving Africa towards drought-prone climatic conditions.,2026-01-03,,Swain B; Vounta[...],,,glo,,,
+review,-2,europe_pmc_PMC12787522,PMC12787522,41512070,10.1126/sciadv.adw4705,Responses of extreme fire weather to CO₂ emission reductions and underlying mechanisms.,2026-01-09,,[...],,,glo,,,
+review,-2,europe_pmc_PMC12796822,PMC12796822,41536295,10.1093/nsr/nwaf545,Climate mitigation outcomes from China-led emission reductions toward global carbon neutrality.,2025-12-09,,Lei Y; Wang Z; Zho[...],,,glo,,,
+review,-2,europe_pmc_PMC12875969,PMC12875969,41659981,10.3389/fneur.2025.1726561,"Climate change, gut microbiome, and epilepsy-New paradigms beyond the gut-brain axis.",2026-01-23,,Santangelo A; Corse[...],,,glo,,,
+review,-2,europe_pmc_PMC12923533,PMC12923533,41565653,10.1038/s41467-026-68586-y,Air quality improvement masks global cooling from CO₂ reductions under China's carbon neutrality[...],,,glo,,,
+review,-2,europe_pmc_PMC12936058,PMC12936058,41741423,10.1038/s41467-026-69393-1,Rising Air-Conditioning Use Intensifies Global Warming.,2026-02-25,,Zhang H; Shan Y; Li R; Xue R; Ma J; Kikstra J; Shi [...],,,glo,,,
+review,-2,europe_pmc_PMC12941366,PMC12941366,,,Global Warming and the Elderly: A Socio-Ecological Framework,2026-01-28,,Russin N; Martin M; McElhinny M,True,False,global_warming and temperature rise,"[...],,,glo,,,
+review,-2,europe_pmc_PMC12979200,PMC12979200,41835918,10.1038/s43247-026-03331-3,Reforestation scenarios shape global and regional temperature outcomes.,2026-03-11,,Fahrenbach NLS; De Hertog SJ; Jäge[...],,,glo,,,
+review,-2,europe_pmc_PMC13039460,PMC13039460,41905988,10.1038/s41598-026-44866-x,Differentiating the thermal effects of land use change and functional intensity dynamics in Beijing.,2026-03-29,,Wei H;[...],,,glo,,,
+review,-2,europe_pmc_PMC13063195,PMC13063195,41970910,10.1021/acsomega.6c00744,Turning the Near-Infrared Shielding Performance of Erbium/Antimony-Codoped Tin Oxide Nanomaterials Derived via a Sonochem[...],,,glo,,,
+review,-2,europe_pmc_PMC13133870,PMC13133870,42077824,10.14324/111.444/ucloe.3042,An interdisciplinary approach to the Loss and Damage fund: exploring potential applications and guiding principles.,20[...],,,glo,,,
+review,-2,europe_pmc_PMC13165759,PMC13165759,42122769,10.3390/polym18091142,NIR Spectroscopy for Non-Destructive Prediction of Greenhouse Gas Emissions and Global Warming Potential by Biomass Combusti[...],,,glo,,,
+review,-2,europe_pmc_PMC13171432,PMC13171432,42129525,10.1038/s41586-026-10487-7,More concentrated precipitation decreases terrestrial water storage.,2026-05-13,,Lesk CS; Mankin JS,True,False,global_w[...],,,glo,,,
+review,-2,europe_pmc_PMC13259944,PMC13259944,42294463,10.1038/s43247-026-03485-0,Impact attribution of the March 2022 Antarctic heatwave reveals amplification by cloud feedbacks and increased future m[...],,,glo,,,`;
+
+        // Parse CSV
+        function parseCSV(csv) {
+            const lines = csv.trim().split('\n');
+            const headers = lines[0].split(',');
+            const rows = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                if (!lines[i].trim()) continue;
+                const obj = {};
+                const values = lines[i].split(',');
+                
+                for (let j = 0; j < headers.length; j++) {
+                    obj[headers[j].trim()] = (values[j] || '').trim();
+                }
+                obj.included = true; // Default to included
+                rows.push(obj);
+            }
+            return rows;
+        }
+
+        // Initialize
+        function init() {
+            tableData = parseCSV(csvContent);
+            originalData = JSON.parse(JSON.stringify(tableData));
+            renderTable();
+            updateStats();
+            document.getElementById('last-update').textContent = 'Last updated: ' + new Date().toLocaleString();
+        }
+
+        // Render table
+        function renderTable() {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = '';
+
+            tableData.forEach((row, index) => {
+                const tr = document.createElement('tr');
+                tr.className = row.included ? '' : 'excluded';
+                tr.id = 'row-' + index;
+
+                const scoreClass = `score-${parseInt(row.score)}`;
+                const scoreBadge = `<div class="score-badge ${scoreClass}">${row.score}</div>`;
+
+                tr.innerHTML = `
+                    <td>
+                        <label class="toggle-switch">
+                            <input type="checkbox" ${row.included ? 'checked' : ''} onchange="toggleRow(${index})">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </td>
+                    <td>${scoreBadge}</td>
+                    <td>${truncate(row.paper_id, 20)}</td>
+                    <td class="title-cell">${truncate(row.title, 100)}</td>
+                    <td>${row.publication_date || '-'}</td>
+                    <td>${row.journal || '-'}</td>
+                    <td>${row.doi ? `<a href="https://doi.org/${row.doi}" target="_blank">${truncate(row.doi, 20)}</a>` : '-'}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function truncate(text, length) {
+            if (!text) return '-';
+            return text.length > length ? text.substring(0, length) + '...' : text;
+        }
+
+        function toggleRow(index) {
+            tableData[index].included = !tableData[index].included;
+            const row = document.getElementById('row-' + index);
+            row.className = tableData[index].included ? '' : 'excluded';
+            updateStats();
+        }
+
+        function updateStats() {
+            const total = tableData.length;
+            const included = tableData.filter(r => r.included).length;
+            const excluded = total - included;
+            
+            const includedScores = tableData
+                .filter(r => r.included)
+                .map(r => parseInt(r.score))
+                .reduce((a, b) => a + b, 0);
+            const avgScore = included > 0 ? (includedScores / included).toFixed(2) : 0;
+
+            document.getElementById('total-count').textContent = total;
+            document.getElementById('included-count').textContent = included;
+            document.getElementById('excluded-count').textContent = excluded;
+            document.getElementById('avg-score').textContent = avgScore;
+        }
+
+        function filterTable() {
+            const statusFilter = document.getElementById('statusFilter').value;
+            const scoreFilter = document.getElementById('scoreFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+
+            const rows = document.querySelectorAll('#table-body tr');
+            rows.forEach((row, index) => {
+                const data = tableData[index];
+                let show = true;
+
+                if (statusFilter === 'included' && !data.included) show = false;
+                if (statusFilter === 'excluded' && data.included) show = false;
+                if (scoreFilter && data.score !== scoreFilter) show = false;
+                if (searchInput && !data.title.toLowerCase().includes(searchInput) && !data.authors.toLowerCase().includes(searchInput)) show = false;
+
+                row.style.display = show ? '' : 'none';
+            });
+        }
+
+        function resetFilters() {
+            document.getElementById('statusFilter').value = '';
+            document.getElementById('scoreFilter').value = '';
+            document.getElementById('searchInput').value = '';
+            filterTable();
+        }
+
+        function exportCSV() {
+            let csv = 'review_status,score,paper_id,pmcid,pmid,doi,title,publication_date,journal,authors,has_xml,has_pdf,query_name,query_string,location_terms,pollutant_terms,health_terms,abstract_snippet,review_notes\n';
+
+            tableData.forEach(row => {
+                if (row.included) {
+                    const values = [
+                        row.review_status,
+                        row.score,
+                        row.paper_id,
+                        row.pmcid,
+                        row.pmid,
+                        row.doi,
+                        `"${row.title.replace(/"/g, '""')}"`,
+                        row.publication_date,
+                        row.journal,
+                        row.authors,
+                        row.has_xml,
+                        row.has_pdf,
+                        row.query_name,
+                        row.query_string,
+                        row.location_terms,
+                        row.pollutant_terms,
+                        row.health_terms,
+                        row.abstract_snippet,
+                        row.review_notes
+                    ];
+                    csv += values.join(',') + '\n';
+                }
+            });
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `review_table_filtered_${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+        }
+
+        function openCommitModal() {
+            document.getElementById('commitModal').style.display = 'block';
+        }
+
+        function closeCommitModal() {
+            document.getElementById('commitModal').style.display = 'none';
+        }
+
+        function commitChanges() {
+            const message = document.getElementById('commitMessage').value;
+            const author = document.getElementById('authorName').value;
+            const email = document.getElementById('authorEmail').value;
+
+            const changes = tableData.filter(r => r.included);
+            const changesCount = tableData.length - changes.length;
+
+            let csv = 'review_status,score,paper_id,pmcid,pmid,doi,title,publication_date,journal,authors,has_xml,has_pdf,query_name,query_string,location_terms,pollutant_terms,health_terms,abstract_snippet,review_notes\n';
+            changes.forEach(row => {
+                const values = [
+                    row.review_status,
+                    row.score,
+                    row.paper_id,
+                    row.pmcid,
+                    row.pmid,
+                    row.doi,
+                    `"${row.title.replace(/"/g, '""')}"`,
+                    row.publication_date,
+                    row.journal,
+                    row.authors,
+                    row.has_xml,
+                    row.has_pdf,
+                    row.query_name,
+                    row.query_string,
+                    row.location_terms,
+                    row.pollutant_terms,
+                    row.health_terms,
+                    row.abstract_snippet,
+                    row.review_notes
+                ];
+                csv += values.join(',') + '\n';
+            });
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'review_table.csv';
+            a.click();
+
+            showMessage(`✅ Prepared commit: "${message}"\n\n📊 Excluded ${changesCount} papers\n\n💡 To push to GitHub: Replace review_table.csv in shreya branch with the downloaded file and commit.`, 'success');
+            closeCommitModal();
+        }
+
+        function showMessage(text, type) {
+            const msg = document.getElementById('message');
+            msg.className = `message ${type}`;
+            msg.textContent = text;
+            setTimeout(() => msg.className = 'message', 5000);
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('commitModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
