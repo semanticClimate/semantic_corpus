@@ -1,0 +1,15 @@
+{
+  "query_name": "climate_change_plant_growth",
+  "query_string": "(\"climate change\" OR \"global warming\" OR \"climatic change\") AND (\"plant growth\" OR \"plant development\" OR \"crop growth\" OR plants OR vegetation OR photosynthesis)",
+  "repository": "europe_pmc",
+  "limit": 25,
+  "formats": [
+    "xml"
+  ],
+  "output_dir": "/content/queries/climate_change_plant_growth",
+  "result_count": 25,
+  "downloaded_count": 20,
+  "run_timestamp": "2026-07-04T06:38:15.601281+00:00",
+  "notes": "Literature search on climate change and plant growth",
+  "revision_of": null
+}
