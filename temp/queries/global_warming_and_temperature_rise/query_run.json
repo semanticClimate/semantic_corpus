@@ -1,0 +1,15 @@
+{
+  "query_name": "global_warming_and_temperature_rise",
+  "query_string": "(\"global warming\" OR \"temperature rise\" OR \"global temperature\" OR \"climate warming\") AND (trend OR increase OR rise)",
+  "repository": "europe_pmc",
+  "limit": 50,
+  "formats": [
+    "xml"
+  ],
+  "output_dir": "/Users/pm286/workspace/semantic_corpus/temp/queries/global_warming_and_temperature_rise",
+  "result_count": 0,
+  "downloaded_count": 0,
+  "run_timestamp": null,
+  "notes": "",
+  "revision_of": null
+}
