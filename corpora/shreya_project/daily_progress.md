@@ -1,5 +1,23 @@
 # shreya-daily-progress
 
+## 2026.07.16
+
+## Tasks completed
+
+* Talked to Simon on the drafting and participation of youth in hackathons
+* Discussed about the meeting and presentations due on tuesday
+* Tried creating a semantic corpus for ocean currents
+* With the above refernce,tried to incorporate the data from ocean current corpus into chatbot
+
+## 2026.07.15
+
+## Tasks completed
+
+* Cross checked the review table in the shreya_project
+* Refered the tutorial files to create a review table html file
+* Discussed the issues in the shreya branch and decided to create an issue.
+* Decided to host a hackathon for young people
+
 ## 2026.07.14
 
 ## Tasks completed
