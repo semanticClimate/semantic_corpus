@@ -1,0 +1,10 @@
+{
+  "query_name": "global_warming_temperature_rise",
+  "query_string": "(global warming OR temperature rise) AND climate",
+  "repository": "europe_pmc",
+  "limit": 50,
+  "result_count": 50,
+  "downloaded_count": 50,
+  "timestamp": "2026-07-16T00:00:00Z",
+  "notes": "Initial query exploring global warming and temperature rise topics"
+}
