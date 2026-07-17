@@ -1,8 +1,10 @@
 # Summary: ocean_heatwaves_2026 demo position review
 
 **Date:** 2026-07-17 (system date of generation)  
-**Topic:** Which phases are complete; what remains before chatbot ingest  
+**Topic:** Phase status — updated after live ClimateInsight ingest  
 **Corpus:** `ocean_heatwaves_2026`
+
+> **Update (same day):** Live ingest complete — see [2026-07-17_ocean_heatwaves_ingest.md](2026-07-17_ocean_heatwaves_ingest.md).
 
 ---
 
@@ -14,7 +16,7 @@
 | **P1** | Harvest, review table, BAGIT ingest, PRISMA, export stub | ✅ Mostly done (gaps below) |
 | **P2** | Encyclopedia from curated corpus | ❌ Not started |
 | **P3** | ClimateInsight manifest adapter (`--manifest`) | ✅ Done (code + 14 tests) |
-| **P4** | Live ingest rehearsal + RAG smoke + Cloudflare tunnel | ❌ Not started |
+| **P4** | Live ingest rehearsal + RAG smoke + Cloudflare tunnel | **In progress** — ingest ✅ (314 chunks); RAG + tunnel pending |
 
 ---
 
@@ -26,9 +28,10 @@
 |----------|--------|
 | Config | `config/ocean_heatwaves_2026.yaml` |
 | Query output | `temp/queries/ocean_heatwaves_2026/` — 50 hits, 49 XML, 10 PDF |
-| Review table | 50 rows; **all `review`** (no `include` / `exclude` yet) |
-| BAGIT corpus | `corpora/ocean_heatwaves_2026/` (nested `data/data/` path quirk) |
-| Chatbot export | `temp/exports/ocean_heatwaves_2026/chatbot_manifest.json` — **0 papers** |
+| Review table | 12 `include`, 2 `exclude`, 36 `review` — `tests/fixtures/.../review/review_table.edited.json` |
+| Fixture bundle | `tests/fixtures/ocean_heatwaves_2026/` — 12 XML, manifests |
+| BAGIT corpus | `corpora/ocean_heatwaves_2026/` (nested `data/data/` path quirk — export workaround uses fixtures) |
+| Chatbot export | `chatbot_manifest.json` — **12 papers** (fixture paths) |
 
 Acquisition used **semantic_corpus Europe PMC**, not pygetpapers.
 
@@ -38,8 +41,9 @@ Acquisition used **semantic_corpus Europe PMC**, not pygetpapers.
 |----------|--------|
 | `backend/ingest/manifest_ingest/` | ✅ Implemented |
 | `python -m ingest.ingest --manifest …` | Ready |
-| Live ingest of ocean heatwaves papers | **Not done** |
-| Cloudflare tunnel demo | **Not done** (P4) |
+| Ingest bundle | `backend/tests/fixtures/ocean_heatwaves_2026/` |
+| Live ingest | ✅ **314 chunks** in ChromaDB (2026-07-17) |
+| RAG smoke + Cloudflare tunnel | **Not done** (P4 remainder) |
 
 ---
 
@@ -53,13 +57,13 @@ The **next operational step** is the first use of that adapter with a **non-empt
 
 ---
 
-## Recommended sequence (before P4 Cloudflare)
+## Recommended sequence (remaining P4)
 
-1. **Manual review** — set `include` / `exclude` in the review table (target ~25–35 includes for demo).
-2. **Export manifest** — `chatbot_manifest.json` with valid `xml_path` for included papers (may need BAGIT path fix or query-dir export).
-3. **Ingest ClimateInsight** — `ingest.ingest --manifest <path>`.
+1. ~~Manual review~~ ✅ (12 includes)
+2. ~~Export manifest~~ ✅ (fixture-based)
+3. ~~Ingest ClimateInsight~~ ✅ (314 chunks)
 4. **Smoke RAG** — backend + frontend; domain questions; check citations.
-5. **P4** — Cloudflare Quick Tunnel (`scripts/inject-tunnel.py`).
+5. **Cloudflare Quick Tunnel** — `scripts/inject-tunnel.py`.
 6. **P2** (parallel or later) — encyclopedia glue.
 
 ---
@@ -68,8 +72,7 @@ The **next operational step** is the first use of that adapter with a **non-empt
 
 | Issue | Impact |
 |-------|--------|
-| No `include` rows | Export stays empty |
-| BAGIT `data/data/` nesting | `xml_path` in manifest may not resolve |
+| BAGIT `data/data/` nesting | Standard export still broken; fixture workaround in use |
 | ClimateInsight on teammate machines | Needs `manifest_ingest` from local filestore / commit |
 | PDF gap (10/50) | Low — adapter uses XML or abstract |
 

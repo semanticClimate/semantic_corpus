@@ -1,0 +1,16 @@
+{
+  "query_name": "ocean_heatwaves_2026",
+  "query_string": "(\"marine heatwave\" OR \"ocean heat wave\" OR \"ocean heatwave\") AND (\"ocean current\" OR \"ocean circulation\" OR \"Gulf Stream\" OR \"AMOC\") AND (HAS_FT:Y)",
+  "repository": "europe_pmc",
+  "limit": 50,
+  "formats": [
+    "xml",
+    "pdf"
+  ],
+  "output_dir": "/Users/pm286/workspace/semantic_corpus/temp/queries/ocean_heatwaves_2026",
+  "result_count": 50,
+  "downloaded_count": 49,
+  "run_timestamp": "2026-07-16T10:28:43.884794+00:00",
+  "notes": "PDF re-download 2026-07-16 (system date). Europe PMC pdf=render returns 404 for most OA papers; publisher OA/Free PDFs saved where available.",
+  "revision_of": null
+}

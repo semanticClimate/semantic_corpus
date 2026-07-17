@@ -1,0 +1,1929 @@
+{
+  "export_version": "1.0",
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026",
+  "paper_count": 12,
+  "papers": [
+    {
+      "source_id": "europe_pmc_PMC10468509",
+      "citation_label": "Kumar (2023). Analysis of marine heatwaves over the Bay of Bengal during 1982-2021.",
+      "title": "Analysis of marine heatwaves over the Bay of Bengal during 1982-2021.",
+      "abstract": "Anomalous increase in sea surface temperature and its impact on natural ecosystems greatly interests the research community. Here we investigate the causes, impacts, and trends of marine heat wave (MHW) events in the Bay of Bengal (BoB) from 1982 to 2021. A total of 107 MHW events have been isolated (> 90th percentile threshold) in this Indian Ocean region, and their variation in intensity, duration, and frequency has been investigated. Our research unveils that an average of three MHW events/year accompanied by a linearly increasing trend of 1.11 MHW events/decade has been observed over the study region. It was also found that the most intense event was observed in 2016, which continued for 69 days, and had a maximum intensity of 5.29 °C and a mean intensity of 2.03 °C (above climatology mean). Moreover, it was observed that the net heat flux, along with anticyclonic eddies, was the primary cause of MHW events. Anticyclonic eddies associated with positive sea surface height anomaly were observed (> 0.20 m) in the vicinity of the most intense MHW event. Additionally, climate change and climate modes like El Niño and Indian Ocean Dipole show a high positive influence on the MHW events. Furthermore, we have examined the MHW event recurrence patterns in various regions of the BoB. From the monthly analysis, it was found that August and November had the most occurrences of MHWs, while April and May had the most extreme MHW events.",
+      "doi": "10.1038/s41598-023-39884-y",
+      "pmcid": "PMC10468509",
+      "pmid": "37648697",
+      "publication_date": "2023-08-30",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Kumar S",
+          "firstName": "Sudhanshu",
+          "lastName": "Kumar",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Ocean, River, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, Kharagpur, 721302, India."
+              },
+              {
+                "affiliation": "Department of Crop, Soil, and Environmental Sciences, Auburn University, Auburn, AL, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Chakraborty A",
+          "firstName": "Arun",
+          "lastName": "Chakraborty",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2988-0577"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Ocean, River, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, Kharagpur, 721302, India. arunc@coral.iitkgp.ac.in."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Chandrakar R",
+          "firstName": "Raghvendra",
+          "lastName": "Chandrakar",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Ocean, River, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, Kharagpur, 721302, India."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kumar A",
+          "firstName": "Abhishek",
+          "lastName": "Kumar",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Ocean, River, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, Kharagpur, 721302, India."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sadhukhan B",
+          "firstName": "Biplab",
+          "lastName": "Sadhukhan",
+          "initials": "B",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0813-8031"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Ocean, River, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, Kharagpur, 721302, India."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Roy Chowdhury R",
+          "firstName": "Riyanka",
+          "lastName": "Roy Chowdhury",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Ocean, River, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, Kharagpur, 721302, India."
+              },
+              {
+                "affiliation": "Ocean Process Analysis Laboratory, University of New Hampshire, Durham, NH, USA."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC10468509.xml",
+      "pdf_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC10468509.pdf",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC11128013",
+      "citation_label": "Ding (2024). Emergence of decadal linkage between Western Australian coast and Western-central tropical Pacific.",
+      "title": "Emergence of decadal linkage between Western Australian coast and Western-central tropical Pacific.",
+      "abstract": "The impact of interbasin linkage on the weather/climate and ecosystems is significantly broader and profounder than that of only appearing in an individual basin. Here, we reveal that a decadal linkage of sea surface temperature (SST) has emerged between western Australian coast and western-central tropical Pacific since 1985, associated with continuous intensification of decadal variabilities (8-16 years). The rapid SST changes in both tropical Indian Ocean and Indo-Pacific warm pool in association to greenhouse gases and volcanoes are emerging factors resulting in enhanced decadal co-variabilities between these two regions since 1985. These SST changes induce enhanced convection variability over the Maritime Continent, leading to stronger easterlies in the western-central tropical Pacific during the warm phase off western Australian coast. The above changes bring about cooling in the western-central tropical Pacific and strengthened Leeuwin Current and anomalous cyclonic wind off western Australian coast, and ultimately resulting in enhanced coupling between these two regions. Our results suggest that enhanced decadal interbasin connections can offer further understanding of decadal changes under future warmer conditions.",
+      "doi": "10.1038/s41467-024-48900-2",
+      "pmcid": "PMC11128013",
+      "pmid": "38796508",
+      "publication_date": "2024-05-25",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Ding Y",
+          "firstName": "Yuewen",
+          "lastName": "Ding",
+          "initials": "Y",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1122-7943"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              },
+              {
+                "affiliation": "College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China."
+              },
+              {
+                "affiliation": "Department of Atmospheric and Oceanic Sciences (ATOC), the University of Colorado (CU), Boulder, 80303, CO, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lin P",
+          "firstName": "Pengfei",
+          "lastName": "Lin",
+          "initials": "P",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2361-0066"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China. linpf@mail.iap.ac.cn."
+              },
+              {
+                "affiliation": "College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China. linpf@mail.iap.ac.cn."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Liu H",
+          "firstName": "Hailong",
+          "lastName": "Liu",
+          "initials": "H",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8780-0398"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              },
+              {
+                "affiliation": "Laoshan Laboratory, Qingdao, 266237, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wu B",
+          "firstName": "Bo",
+          "lastName": "Wu",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Y",
+          "firstName": "Yuanlong",
+          "lastName": "Li",
+          "initials": "Y",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7239-5756"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, 266071, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Chen L",
+          "firstName": "Lin",
+          "lastName": "Chen",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Meteorological Disaster, Ministry of Education (KLME)/Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters (CIC-FEMD), Nanjing University of Information Science and Technology, Nanjing, 210044, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang L",
+          "firstName": "Lei",
+          "lastName": "Zhang",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510301, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hu A",
+          "firstName": "Aixue",
+          "lastName": "Hu",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1337-287X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate and Global Dynamics Laboratory, National Center for Atmospheric Research, Boulder, 80307, CO, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang Y",
+          "firstName": "Yiming",
+          "lastName": "Wang",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              },
+              {
+                "affiliation": "College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Yao Y",
+          "firstName": "Yiyun",
+          "lastName": "Yao",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              },
+              {
+                "affiliation": "College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing, 100049, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhao B",
+          "firstName": "Bowen",
+          "lastName": "Zhao",
+          "initials": "B",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4251-8476"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              },
+              {
+                "affiliation": "Shanghai Typhoon Institute, China Meteorological Administration, Shanghai, 200030, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bai W",
+          "firstName": "Wenrong",
+          "lastName": "Bai",
+          "initials": "W",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics (LASG), Institute of Atmospheric Physics (IAP), Chinese Academy of Sciences, Beijing, 100029, China."
+              },
+              {
+                "affiliation": "Beijing Municipal Climate Center, Beijing Meteorological Bureau, Beijing, 100089, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Han W",
+          "firstName": "Weiqing",
+          "lastName": "Han",
+          "initials": "W",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3633-9105"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Atmospheric and Oceanic Sciences (ATOC), the University of Colorado (CU), Boulder, 80303, CO, USA."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC11128013.xml",
+      "pdf_path": "",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC11580339",
+      "citation_label": "Ho (2024). What is the evidence for the impact of ocean warming on subtropical and temperate corals and coral reefs? A systematic map.",
+      "title": "What is the evidence for the impact of ocean warming on subtropical and temperate corals and coral reefs? A systematic map.",
+      "abstract": "<h4>Background</h4>Subtropical coral reefs are comparatively understudied compared to tropical coral reef ecosystems, yet also host a diverse and abundant array of marine life and provide substantial socio-economic benefits to communities. Research into the impacts of ocean warming on subtropical coral reefs has increased over the past two decades due to increase frequency and intensity of bleaching and degradation of these ecosystems. Understanding the extent of research effort and type of evidence assessing the response of subtropical corals and reefs to ocean warming provides valuable insight into global patterns in research efforts allowing critical knowledge gaps to be identified. A comprehensive understanding the impact of ocean warming on these systems will underpin our ability to predict and respond to future changes on subtropical coral reefs. Here, a systematic-map approach is used to identify recent research effort, from 2010 to 2023, and highlight patterns in the type, scale, and location of research conducted and as well as identify the availability of data and evidence reported.<h4>Methods</h4>Primary literature was identified by searching Scopus and Science Citation Index Expanded through Web of Science Core Collection databases. The methodologies provided in a previously published systematic map protocol were applied, and 90 primary research publications were subsequently identified. Data extraction from the identified literature included bibliometric data, discipline and type of research, type of data reported and how it was recorded, and data availability.<h4>Findings</h4>The identified literature consisted primarily of experimental (49%) and observational (39%) studies. The majority of the primary literature investigated corals in the ecoregions of Southern China (13%), Western Mediterranean (10%) and across a total of seven ecoregions grouped within Oceania (29%). Stressors reported in the literature as drivers of ocean warming reflect the standardisation of methods applied in reporting of events within the literature. Standardised metrics related to degree heating weeks (DHW) and marine heatwaves (MHW) have been reported when assessing the occurrence and severity of drivers, and are increasing in recent years, particularly in Australia. Finally, the need for increased research effort across much of the subtropics is evident, particularly for understudied regions such as the Western Indian Ocean where there are far fewer studies than other similar subtropical coral reef ecosystems.<h4>Conclusions</h4>Climatic change, increasing ocean temperatures, and the impacts to subtropical and temperate coral reefs are of increasing concern to policy makers and researchers alike. This systematic map provides a broad overview of research topics and effort around the globe since 2010 and identifies areas where more research effort is urgently needed. Our study has identified major research clusters in Asia, Australia, the Mediterranean, and North America and gaps of research in regions such as the East Indian Oceans. Of the research conducted to date approximately one third reports on evidence related to marine protected areas and the vast majority of evidence is from close/territorial sea locations, providing important knowledge base for management of these areas. Of the 17 studies reporting on specific extreme events (rather than experimental studies which is the majority of evidence identified here) 13 have been published since 2019, with the majority reporting on events occurring in 2019/20 indicating a trend of increasing evidence in recent years (a total of 7 studies from 2010 to 2013, compared to over 10 studies published annually since 2019 up to mid-2023).",
+      "doi": "10.1186/s13750-024-00349-y",
+      "pmcid": "PMC11580339",
+      "pmid": "39568058",
+      "publication_date": "2024-11-21",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Ho ML",
+          "firstName": "Man Lim",
+          "lastName": "Ho",
+          "initials": "ML",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0009-0009-7980-4434"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Marine Science and Innovation, School of Biological, Earth and Environmental Sciences, University of New South Wales, Sydney, NSW, Australia. Man_lim.ho@unsw.edu.au."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lagisz M",
+          "firstName": "Malgorzata",
+          "lastName": "Lagisz",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Evolution and Ecology Research Centre, School of Biological, Earth, Environmental Sciences, University of New South Wales, Sydney, NSW, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Nakagawa S",
+          "firstName": "Shinichi",
+          "lastName": "Nakagawa",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Evolution and Ecology Research Centre, School of Biological, Earth, Environmental Sciences, University of New South Wales, Sydney, NSW, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Perkins-Kirkpatrick S",
+          "firstName": "Sarah",
+          "lastName": "Perkins-Kirkpatrick",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9443-4915"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Fenner School of Environment and Society, Australian National University, Canberra, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sawyers P",
+          "firstName": "Paige",
+          "lastName": "Sawyers",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Marine Science and Innovation, School of Biological, Earth and Environmental Sciences, University of New South Wales, Sydney, NSW, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Page C",
+          "firstName": "Charlotte",
+          "lastName": "Page",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Environmental and Life Sciences, The University of Newcastle, Ourimbah, NSW, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Leggat B",
+          "firstName": "Bill",
+          "lastName": "Leggat",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Environmental and Life Sciences, The University of Newcastle, Ourimbah, NSW, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gaston T",
+          "firstName": "Troy",
+          "lastName": "Gaston",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Environmental and Life Sciences, The University of Newcastle, Ourimbah, NSW, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hobday AJ",
+          "firstName": "Alistair J",
+          "lastName": "Hobday",
+          "initials": "AJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, TAS, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Richards Z",
+          "firstName": "Zoe",
+          "lastName": "Richards",
+          "initials": "Z",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Molecular and Life Sciences, Curtin University, Perth, WA, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ainsworth T",
+          "firstName": "Tracy",
+          "lastName": "Ainsworth",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Marine Science and Innovation, School of Biological, Earth and Environmental Sciences, University of New South Wales, Sydney, NSW, Australia."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC11580339.xml",
+      "pdf_path": "",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC12980662",
+      "citation_label": "Howard (2026). Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network",
+      "title": "Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network",
+      "abstract": "",
+      "doi": "",
+      "pmcid": "PMC12980662",
+      "pmid": "",
+      "publication_date": "2026-03-14",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Howard L",
+          "firstName": "Lucas",
+          "lastName": "Howard",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Atmospheric and Oceanic Science, University of Colorado Boulder ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Subramanian A",
+          "firstName": "Aneesh C.",
+          "lastName": "Subramanian",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Atmospheric and Oceanic Science, University of Colorado Boulder ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Nadimpalli J",
+          "firstName": "Jithendra Raju",
+          "lastName": "Nadimpalli",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Science and Engineering, King Abdullah University of Science and Technology ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Giglio D",
+          "firstName": "Donata",
+          "lastName": "Giglio",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Atmospheric and Oceanic Science, University of Colorado Boulder ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hoteit I",
+          "firstName": "Ibrahim",
+          "lastName": "Hoteit",
+          "initials": "I",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Science and Engineering, King Abdullah University of Science and Technology ,"
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC12980662.xml",
+      "pdf_path": "",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC9613989",
+      "citation_label": "Han (2022). Sea level extremes and compounding marine heatwaves in coastal Indonesia.",
+      "title": "Sea level extremes and compounding marine heatwaves in coastal Indonesia.",
+      "abstract": "Low-lying island nations like Indonesia are vulnerable to sea level Height EXtremes (HEXs). When compounded by marine heatwaves, HEXs have larger ecological and societal impact. Here we combine observations with model simulations, to investigate the HEXs and Compound Height-Heat Extremes (CHHEXs) along the Indian Ocean coast of Indonesia in recent decades. We find that anthropogenic sea level rise combined with decadal climate variability causes increased occurrence of HEXs during 2010-2017. Both HEXs and CHHEXs are driven by equatorial westerly and longshore northwesterly wind anomalies. For most HEXs, which occur during December-March, downwelling favorable northwest monsoon winds are enhanced but enhanced vertical mixing limits surface warming. For most CHHEXs, wind anomalies associated with a negative Indian Ocean Dipole (IOD) and co-occurring La Niña weaken the southeasterlies and cooling from coastal upwelling during May-June and November-December. Our findings emphasize the important interplay between anthropogenic warming and climate variability in affecting regional extremes.",
+      "doi": "10.1038/s41467-022-34003-3",
+      "pmcid": "PMC9613989",
+      "pmid": "36302781",
+      "publication_date": "2022-10-27",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Han W",
+          "firstName": "Weiqing",
+          "lastName": "Han",
+          "initials": "W",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3633-9105"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Atmospheric and Oceanic Sciences, University of Colorado, UCB 311, Boulder, CO, 80309, USA. whan@colorado.edu."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang L",
+          "firstName": "Lei",
+          "lastName": "Zhang",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2431-869X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Atmospheric and Oceanic Sciences, University of Colorado, UCB 311, Boulder, CO, 80309, USA."
+              },
+              {
+                "affiliation": "State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510301, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Meehl GA",
+          "firstName": "Gerald A",
+          "lastName": "Meehl",
+          "initials": "GA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8760-9534"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate and Global Dynamics Laboratory, the National Center for Atmospheric Research, Boulder, CO, 80301, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kido S",
+          "firstName": "Shoichiro",
+          "lastName": "Kido",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8313-5207"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Application Laboratory, Research Institute for Value-Added-Information Generation, Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tozuka T",
+          "firstName": "Tomoki",
+          "lastName": "Tozuka",
+          "initials": "T",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6738-1299"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Application Laboratory, Research Institute for Value-Added-Information Generation, Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan."
+              },
+              {
+                "affiliation": "Graduate School of Science, University of Tokyo, Tokyo, Japan."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Y",
+          "firstName": "Yuanlong",
+          "lastName": "Li",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Atmospheric and Oceanic Sciences, University of Colorado, UCB 311, Boulder, CO, 80309, USA."
+              },
+              {
+                "affiliation": "CAS Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "McPhaden MJ",
+          "firstName": "Michael J",
+          "lastName": "McPhaden",
+          "initials": "MJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8423-5805"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Pacific Marine Environmental Laboratory, National Oceanic and Atmospheric Administration, Seattle, WA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hu A",
+          "firstName": "Aixue",
+          "lastName": "Hu",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1337-287X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate and Global Dynamics Laboratory, the National Center for Atmospheric Research, Boulder, CO, 80301, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cazenave A",
+          "firstName": "Anny",
+          "lastName": "Cazenave",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Laboratoire d'Etudes en Géophysique et Océanographie Spatiales (LEGOS), 18 Av. E. Belin, 31401, Toulouse cedex 9, France."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rosenbloom N",
+          "firstName": "Nan",
+          "lastName": "Rosenbloom",
+          "initials": "N",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7389-3346"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate and Global Dynamics Laboratory, the National Center for Atmospheric Research, Boulder, CO, 80301, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Strand G",
+          "firstName": "Gary",
+          "lastName": "Strand",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9740-0104"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate and Global Dynamics Laboratory, the National Center for Atmospheric Research, Boulder, CO, 80301, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "West BJ",
+          "firstName": "B Jason",
+          "lastName": "West",
+          "initials": "BJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Precipitation Processing System and KBR, Inc., NASA Goddard Space Flight Center, Greenbelt, MD, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Xing W",
+          "firstName": "Wen",
+          "lastName": "Xing",
+          "initials": "W",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou, 510301, China."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC9613989.xml",
+      "pdf_path": "",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC10011364",
+      "citation_label": "Amaya (2023). Bottom marine heatwaves along the continental shelves of North America.",
+      "title": "Bottom marine heatwaves along the continental shelves of North America.",
+      "abstract": "Recently, there has been substantial effort to understand the fundamental characteristics of warm ocean temperature extremes-known as marine heatwaves (MHWs). However, MHW research has primarily focused on the surface signature of these events. While surface MHWs (SMHW) can have dramatic impacts on marine ecosystems, extreme warming along the seafloor can also have significant biological outcomes. In this study, we use a high-resolution (~8 km) ocean reanalysis to broadly assess bottom marine heatwaves (BMHW) along the continental shelves of North America. We find that BMHW intensity and duration varies strongly with bottom depth, with typical intensities ranging from ~0.5 °C-3 °C. Further, BMHWs can be more intense and persist longer than SMHWs. While BMHWs and SMHWs often co-occur, BMHWs can also exist without a SMHW. Deeper regions in which the mixed layer does not typically reach the seafloor exhibit less synchronicity between BMHWs and SMHWs.",
+      "doi": "10.1038/s41467-023-36567-0",
+      "pmcid": "PMC10011364",
+      "pmid": "36914643",
+      "publication_date": "2023-03-13",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Amaya DJ",
+          "firstName": "Dillon J",
+          "lastName": "Amaya",
+          "initials": "DJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6720-3265"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Sciences Laboratory, Earth System Research Laboratory, National Oceanic and Atmospheric Administration, 325 Broadway, Boulder, CO, 80305, USA. dillon.amaya@noaa.gov."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jacox MG",
+          "firstName": "Michael G",
+          "lastName": "Jacox",
+          "initials": "MG",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3684-0717"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Sciences Laboratory, Earth System Research Laboratory, National Oceanic and Atmospheric Administration, 325 Broadway, Boulder, CO, 80305, USA."
+              },
+              {
+                "affiliation": "Environmental Research Division, Southwest Fisheries Science Center, National Oceanic and Atmospheric Administration, 99 Pacific St #255A, Monterey, CA, 93940, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Alexander MA",
+          "firstName": "Michael A",
+          "lastName": "Alexander",
+          "initials": "MA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9646-6427"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Sciences Laboratory, Earth System Research Laboratory, National Oceanic and Atmospheric Administration, 325 Broadway, Boulder, CO, 80305, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Scott JD",
+          "firstName": "James D",
+          "lastName": "Scott",
+          "initials": "JD",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8709-8594"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Sciences Laboratory, Earth System Research Laboratory, National Oceanic and Atmospheric Administration, 325 Broadway, Boulder, CO, 80305, USA."
+              },
+              {
+                "affiliation": "Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder, 216 UCB, University of Colorado Boulder campus, Boulder, CO, 80309, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Deser C",
+          "firstName": "Clara",
+          "lastName": "Deser",
+          "initials": "C",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5517-9103"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Capotondi A",
+          "firstName": "Antonietta",
+          "lastName": "Capotondi",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3594-5472"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Physical Sciences Laboratory, Earth System Research Laboratory, National Oceanic and Atmospheric Administration, 325 Broadway, Boulder, CO, 80305, USA."
+              },
+              {
+                "affiliation": "Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder, 216 UCB, University of Colorado Boulder campus, Boulder, CO, 80309, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Phillips AS",
+          "firstName": "Adam S",
+          "lastName": "Phillips",
+          "initials": "AS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4859-8585"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305, USA."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC10011364.xml",
+      "pdf_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC10011364.pdf",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC10808424",
+      "citation_label": "Brown (2024). A marine heatwave drives significant shifts in pelagic microbiology.",
+      "title": "A marine heatwave drives significant shifts in pelagic microbiology.",
+      "abstract": "Marine heatwaves (MHWs) cause disruption to marine ecosystems, deleteriously impacting macroflora and fauna. However, effects on microorganisms are relatively unknown despite ocean temperature being a major determinant of assemblage structure. Using data from thousands of Southern Hemisphere samples, we reveal that during an \"unprecedented\" 2015/16 Tasman Sea MHW, temperatures approached or surpassed the upper thermal boundary of many endemic taxa. Temperate microbial assemblages underwent a profound transition to niche states aligned with sites over 1000 km equatorward, adapting to higher temperatures and lower nutrient conditions bought on by the MHW. MHW conditions also modulate seasonal patterns of microbial diversity and support novel assemblage compositions. The most significant affects of MHWs on microbial assemblages occurred during warmer months, when temperatures exceeded the upper climatological bounds. Trends in microbial response across several MHWs in different locations suggest these are emergent properties of temperate ocean warming, which may facilitate monitoring, prediction and adaptation efforts.",
+      "doi": "10.1038/s42003-023-05702-4",
+      "pmcid": "PMC10808424",
+      "pmid": "38267685",
+      "publication_date": "2024-01-24",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Brown MV",
+          "firstName": "Mark V",
+          "lastName": "Brown",
+          "initials": "MV",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6591-2989"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, Australia. oceanmicrobes@gmail.com."
+              },
+              {
+                "affiliation": "Climate Change Cluster, University of Technology Sydney, Ultimo, Australia. oceanmicrobes@gmail.com."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ostrowski M",
+          "firstName": "Martin",
+          "lastName": "Ostrowski",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4357-3023"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Cluster, University of Technology Sydney, Ultimo, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Messer LF",
+          "firstName": "Lauren F",
+          "lastName": "Messer",
+          "initials": "LF",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8335-2807"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Biological and Environmental Sciences, University of Stirling, Stirling, Scotland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bramucci A",
+          "firstName": "Anna",
+          "lastName": "Bramucci",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Cluster, University of Technology Sydney, Ultimo, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "van de Kamp J",
+          "firstName": "Jodie",
+          "lastName": "van de Kamp",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2167-0938"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Smith MC",
+          "firstName": "Matthew C",
+          "lastName": "Smith",
+          "initials": "MC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bissett A",
+          "firstName": "Andrew",
+          "lastName": "Bissett",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7396-1484"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Seymour J",
+          "firstName": "Justin",
+          "lastName": "Seymour",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3745-6541"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Cluster, University of Technology Sydney, Ultimo, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hobday AJ",
+          "firstName": "Alistair J",
+          "lastName": "Hobday",
+          "initials": "AJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3194-8326"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bodrossy L",
+          "firstName": "Levente",
+          "lastName": "Bodrossy",
+          "initials": "L",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6940-452X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Environment, Hobart, Australia."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC10808424.xml",
+      "pdf_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC10808424.pdf",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC11427463",
+      "citation_label": "He (2024). Arctic Amplification of marine heatwaves under global warming.",
+      "title": "Arctic Amplification of marine heatwaves under global warming.",
+      "abstract": "Marine heatwaves (MHWs) and total heat exposures (THEs), extreme warming events occurring across the global oceans, seriously threaten marine ecosystems and coastal communities as the climate warms. However, future changes in MHWs and THEs in the Arctic Ocean, where unique marine ecosystems are present, are still unclear. Here, based on the latest CMIP6 climate simulations, we find that both MHWs and THEs in the Arctic Ocean are anticipated to intensify in a warming climate, mainly due to Arctic sea ice decline and long-term warming trend, respectively. Particularly striking is the projected rise in MHW mean intensity during the 21<sup>st</sup> century in the Arctic Ocean, surpassing the global average by more than sevenfold under the CMIP6 SSP585 scenario. This phenomenon, coined the 'Arctic MHW Amplification', underscores an impending and disproportionately elevated threat to the Arctic marine life, necessitating targeted conservation and adaptive strategies.",
+      "doi": "10.1038/s41467-024-52760-1",
+      "pmcid": "PMC11427463",
+      "pmid": "39327477",
+      "publication_date": "2024-09-26",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "He Y",
+          "firstName": "Yan",
+          "lastName": "He",
+          "initials": "Y",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7094-6809"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Shu Q",
+          "firstName": "Qi",
+          "lastName": "Shu",
+          "initials": "Q",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4781-571X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang Q",
+          "firstName": "Qiang",
+          "lastName": "Wang",
+          "initials": "Q",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2704-5394"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI), Bremerhaven, Germany. Qiang.Wang@awi.de."
+              },
+              {
+                "affiliation": "Key Laboratory of Ocean Observation and Forecasting and Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China. Qiang.Wang@awi.de."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Song Z",
+          "firstName": "Zhenya",
+          "lastName": "Song",
+          "initials": "Z",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8098-5529"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang M",
+          "firstName": "Min",
+          "lastName": "Zhang",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang S",
+          "firstName": "Shizhu",
+          "lastName": "Wang",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang L",
+          "firstName": "Lujun",
+          "lastName": "Zhang",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Atmospheric Sciences, Nanjing University, Nanjing, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bi H",
+          "firstName": "Haibo",
+          "lastName": "Bi",
+          "initials": "H",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Marine Geology and Environment, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Pan R",
+          "firstName": "Rongrong",
+          "lastName": "Pan",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Qiao F",
+          "firstName": "Fangli",
+          "lastName": "Qiao",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5829-4780"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Institute of Oceanography and Key Laboratory of Marine Science and Numerical Modeling, Ministry of Natural Resources, Qingdao, China. qiaofl@fio.org.cn."
+              },
+              {
+                "affiliation": "Laboratory for Regional Oceanography and Numerical Modeling, Qingdao Marine Science and Technology Center, Qingdao, China. qiaofl@fio.org.cn."
+              },
+              {
+                "affiliation": "Shandong Key Laboratory of Marine Science and Numerical Modeling, Qingdao, China. qiaofl@fio.org.cn."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC11427463.xml",
+      "pdf_path": "",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC11733174",
+      "citation_label": "Duan (2025). Emergence of the North Pacific heat storage pattern delayed by decadal wind-driven redistribution.",
+      "title": "Emergence of the North Pacific heat storage pattern delayed by decadal wind-driven redistribution.",
+      "abstract": "Storage of anthropogenic heat in the oceans is spatially inhomogeneous, impacting regional climates and human societies. Climate models project enhanced heat storage in the mid-latitude North Pacific (MNP) and much weaker storage in the tropical Pacific. However, the observed heat storage during the past half-century shows a more complex pattern, with limited warming in the MNP and enhanced warming in the northwest tropical Pacific. Here, based on observational datasets, ocean model experiments, and climate models, we show that the emergence of human-induced heat storage is likely postponed in the North Pacific by natural variability until the late-21<sup>st</sup> century. Specifically, phase shifts of the Pacific Decadal Oscillation have vitally contributed to trends in the North Pacific winds during recent decades. Changes in surface winds drove meridional heat redistribution via Rossby wave dynamics, leading to regional warming and cooling structures and a more complex historical heat storage than models predict. Despite this, enhanced anthropogenic warming has already been emerging in marginal seas along the North Pacific basin rim, for which we shall prepare for the pressing consequences such as increasing marine heatwaves.",
+      "doi": "10.1038/s41467-025-56005-7",
+      "pmcid": "PMC11733174",
+      "pmid": "39809791",
+      "publication_date": "2025-01-14",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Duan J",
+          "firstName": "Jing",
+          "lastName": "Duan",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Ocean Observation and Forecasting and Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China."
+              },
+              {
+                "affiliation": "Laoshan Laboratory, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Y",
+          "firstName": "Yuanlong",
+          "lastName": "Li",
+          "initials": "Y",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7239-5756"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Ocean Observation and Forecasting and Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China. liyuanlong@qdio.ac.cn."
+              },
+              {
+                "affiliation": "Laoshan Laboratory, Qingdao, China. liyuanlong@qdio.ac.cn."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lyu Y",
+          "firstName": "Yilong",
+          "lastName": "Lyu",
+          "initials": "Y",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5943-5760"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Ocean Observation and Forecasting and Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jing Z",
+          "firstName": "Zhao",
+          "lastName": "Jing",
+          "initials": "Z",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8430-9149"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Laoshan Laboratory, Qingdao, China."
+              },
+              {
+                "affiliation": "Frontiers Science Center for Deep Ocean Multispheres and Earth System and Key Laboratory of Physical Oceanography, Ocean University of China, Qingdao, China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang F",
+          "firstName": "Fan",
+          "lastName": "Wang",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5932-7567"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Key Laboratory of Ocean Observation and Forecasting and Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences, Qingdao, China."
+              },
+              {
+                "affiliation": "Laoshan Laboratory, Qingdao, China."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC11733174.xml",
+      "pdf_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC11733174.pdf",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC7653907",
+      "citation_label": "Sen Gupta (2020). Drivers and impacts of the most extreme marine heatwaves events.",
+      "title": "Drivers and impacts of the most extreme marine heatwaves events.",
+      "abstract": "Prolonged high-temperature extreme events in the ocean, marine heatwaves, can have severe and long-lasting impacts on marine ecosystems, fisheries and associated services. This study applies a marine heatwave framework to analyse a global sea surface temperature product and identify the most extreme events, based on their intensity, duration and spatial extent. Many of these events have yet to be described in terms of their physical attributes, generation mechanisms, or ecological impacts. Our synthesis identifies commonalities between marine heatwave characteristics and seasonality, links to the El Niño-Southern Oscillation, triggering processes and impacts on ocean productivity. The most intense events preferentially occur in summer, when climatological oceanic mixed layers are shallow and winds are weak, but at a time preceding climatological maximum sea surface temperatures. Most subtropical extreme marine heatwaves were triggered by persistent atmospheric high-pressure systems and anomalously weak wind speeds, associated with increased insolation, and reduced ocean heat losses. Furthermore, the most extreme events tended to coincide with reduced chlorophyll-a concentration at low and mid-latitudes. Understanding the importance of the oceanic background state, local and remote drivers and the ocean productivity response from past events are critical steps toward improving predictions of future marine heatwaves and their impacts.",
+      "doi": "10.1038/s41598-020-75445-3",
+      "pmcid": "PMC7653907",
+      "pmid": "33168858",
+      "publication_date": "2020-11-09",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Sen Gupta A",
+          "firstName": "Alex",
+          "lastName": "Sen Gupta",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5226-871X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Research Centre, the University of New South Wales, Sydney, 2052, Australia. a.sengupta@unsw.edu.au."
+              },
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, The University of New South Wales, Sydney, 2052, Australia. a.sengupta@unsw.edu.au."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Thomsen M",
+          "firstName": "Mads",
+          "lastName": "Thomsen",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4597-3343"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Biological Sciences, University of Canterbury, Private Bag 4800, Christchurch, New Zealand."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Benthuysen JA",
+          "firstName": "Jessica A",
+          "lastName": "Benthuysen",
+          "initials": "JA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7615-6587"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Australian Institute of Marine Science, Indian Ocean Marine Research Centre, Crawley, WA, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hobday AJ",
+          "firstName": "Alistair J",
+          "lastName": "Hobday",
+          "initials": "AJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Oceans and Atmosphere, Hobart, TAS, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Oliver E",
+          "firstName": "Eric",
+          "lastName": "Oliver",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4006-2826"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Oceanography, Dalhousie University, Halifax, NS, B3H 4R2, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Alexander LV",
+          "firstName": "Lisa V",
+          "lastName": "Alexander",
+          "initials": "LV",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5635-2457"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Research Centre, the University of New South Wales, Sydney, 2052, Australia."
+              },
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, The University of New South Wales, Sydney, 2052, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Burrows MT",
+          "firstName": "Michael T",
+          "lastName": "Burrows",
+          "initials": "MT",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Scottish Association for Marine Science, Scottish Marine Institute, Oban, Argyll, PA37 1QA, Scotland, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Donat MG",
+          "firstName": "Markus G",
+          "lastName": "Donat",
+          "initials": "MG",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-0608-7288"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, The University of New South Wales, Sydney, 2052, Australia."
+              },
+              {
+                "affiliation": "Barcelona Supercomputing Center, Barcelona, Spain."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Feng M",
+          "firstName": "Ming",
+          "lastName": "Feng",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2855-7092"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSIRO Oceans and Atmosphere, Indian Ocean Marine Research Centre, Crawley, WA, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Holbrook NJ",
+          "firstName": "Neil J",
+          "lastName": "Holbrook",
+          "initials": "NJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3523-6254"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, TAS, Australia."
+              },
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, University of Tasmania, Hobart, TAS, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Perkins-Kirkpatrick S",
+          "firstName": "Sarah",
+          "lastName": "Perkins-Kirkpatrick",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9443-4915"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Research Centre, the University of New South Wales, Sydney, 2052, Australia."
+              },
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, The University of New South Wales, Sydney, 2052, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Moore PJ",
+          "firstName": "Pippa J",
+          "lastName": "Moore",
+          "initials": "PJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9889-2216"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Biological, Environmental and Rural Sciences, Aberystwyth University, Aberystwyth, SY23 3DA, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rodrigues RR",
+          "firstName": "Regina R",
+          "lastName": "Rodrigues",
+          "initials": "RR",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8010-4018"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Oceanography, Federal University of Santa Catarina, Florianópolis, Santa Catarina, Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Scannell HA",
+          "firstName": "Hillary A",
+          "lastName": "Scannell",
+          "initials": "HA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Oceanography, University of Washington, Seattle, WA, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Taschetto AS",
+          "firstName": "Andréa S",
+          "lastName": "Taschetto",
+          "initials": "AS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6020-1603"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Climate Change Research Centre, the University of New South Wales, Sydney, 2052, Australia."
+              },
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, The University of New South Wales, Sydney, 2052, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ummenhofer CC",
+          "firstName": "Caroline C",
+          "lastName": "Ummenhofer",
+          "initials": "CC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Australian Research Council Centre of Excellence for Climate Extremes, The University of New South Wales, Sydney, 2052, Australia."
+              },
+              {
+                "affiliation": "Department of Physical Oceanography, Woods Hole Oceanographic Institution, Woods Hole, MA, 02543, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wernberg T",
+          "firstName": "Thomas",
+          "lastName": "Wernberg",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "UWA Oceans Institute and School of Biological Sciences, The University of Western Australia, Crawley, WA, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Smale DA",
+          "firstName": "Dan A",
+          "lastName": "Smale",
+          "initials": "DA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "UWA Oceans Institute and School of Biological Sciences, The University of Western Australia, Crawley, WA, Australia."
+              },
+              {
+                "affiliation": "Marine Biological Association of the United Kingdom, The Laboratory, Citadel Hill, Plymouth, PL1 2PB, UK."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC7653907.xml",
+      "pdf_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC7653907.pdf",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC8294506",
+      "citation_label": "Richards (2021). Northern shrimp Pandalus borealis population collapse linked to climate-driven shifts in predator distribution.",
+      "title": "Northern shrimp Pandalus borealis population collapse linked to climate-driven shifts in predator distribution.",
+      "abstract": "The northern shrimp (Pandalus borealis Krøyer) population in the Gulf of Maine collapsed during an extreme heatwave that occurred across the Northwest Atlantic Ocean in 2012. Northern shrimp is a boreal species, and reaches its southern limit in the Gulf of Maine. Here we investigate proximate causes for the population collapse using data from fishery-independent surveys, environmental monitoring, and the commercial fishery. We first examined spatial data to confirm that the decline in population estimates was not due to a major displacement of the population, and then tested hypotheses related to fishing mortality and shifts in predation pressure. Fishing mortality may have contributed but could not explain the magnitude of the decline or the disappearance of pre-exploitable size individuals. Stomach contents analysis and biomass trends revealed no new fish predators of shrimp. However, longfin squid (Doryteuthis pealeii Lesueur) was unique among all species in showing time-series biomass peaks during spring, summer and fall of 2012, and spatial overlap with northern shrimp was unusually high in 2012. Longfin squid is a voracious and opportunistic predator that consumes crustaceans as well as fish. We hypothesize that the warmer temperatures of 2012 not only led to expansion of longfin squid distribution in Gulf of Maine, but had differential effects on migration phenology that further increased spatial overlap with northern shrimp. The weight of our evidence suggests that longfin squid predation was likely a significant factor in the collapse of northern shrimp in the Gulf of Maine.",
+      "doi": "10.1371/journal.pone.0253914",
+      "pmcid": "PMC8294506",
+      "pmid": "34288940",
+      "publication_date": "2021-07-21",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Richards RA",
+          "firstName": "R Anne",
+          "lastName": "Richards",
+          "initials": "RA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-0589-0845"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Population Dynamics Branch, Northeast Fisheries Science Center, National Oceanic and Atmospheric Administration, United States Department of Commerce, Woods Hole, Massachusetts, United States of America."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hunter M",
+          "firstName": "Margaret",
+          "lastName": "Hunter",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division of Biological Monitoring and Assessment, Bureau of Marine Science, Department of Marine Resources, State of Maine, West Boothbay Harbor, Maine, United States of America."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC8294506.xml",
+      "pdf_path": "",
+      "metadata_path": ""
+    },
+    {
+      "source_id": "europe_pmc_PMC9135278",
+      "citation_label": "Dewar (2022). Recent and historical data show no evidence of Pacific bluefin tuna reproduction in the southern California Current system.",
+      "title": "Recent and historical data show no evidence of Pacific bluefin tuna reproduction in the southern California Current system.",
+      "abstract": "Despite their broad distribution across the North Pacific Ocean, the only known spawning grounds for Pacific Bluefin Tuna (Thunnus orientalis) are around coastal Japan and the East China Sea. However, an increase in the prevalence of large bluefin tuna up to 10 years old in the California Current System during exceptionally warm ocean conditions has led to speculation that they may be spawning in this region. To investigate this possibility, we collected samples from 36 females (estimated 3-8 years old) between 2015 and 2019. Histological analyses revealed no signs of imminent, active, or recent spawning. Further examination of historical ichthyoplankton collections showed no records of larval bluefin tuna, but confirmed the presence of the larvae of other tuna species in waters > 24°C. Fishery-dependent records showed that bluefin tuna are rarely recorded in purse seine catches where surface temperatures exceed 23°C. Our study, therefore, provided no evidence of bluefin tuna reproduction in the CCS. However, more comprehensive sampling, in particular off southern Baja California, may be required to confirm the absence of spawning.",
+      "doi": "10.1371/journal.pone.0269069",
+      "pmcid": "PMC9135278",
+      "pmid": "35617318",
+      "publication_date": "2022-05-26",
+      "journal": "",
+      "authors": [
+        {
+          "fullName": "Dewar H",
+          "firstName": "Heidi",
+          "lastName": "Dewar",
+          "initials": "H",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "NOAA Fisheries, Southwest Fisheries Science Center, La Jolla, CA, United States of America."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Snodgrass OE",
+          "firstName": "Owyn E",
+          "lastName": "Snodgrass",
+          "initials": "OE",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "NOAA Fisheries, Southwest Fisheries Science Center, La Jolla, CA, United States of America."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Muhling BA",
+          "firstName": "Barbara A",
+          "lastName": "Muhling",
+          "initials": "BA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4555-6382"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "NOAA Fisheries, Southwest Fisheries Science Center, La Jolla, CA, United States of America."
+              },
+              {
+                "affiliation": "Institute of Marine Sciences, University of California, Santa Cruz, CA, United States of America."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Schaefer KM",
+          "firstName": "Kurt M",
+          "lastName": "Schaefer",
+          "initials": "KM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Inter-American Tropical Tuna Commission, La Jolla, CA, United States of America."
+              }
+            ]
+          }
+        }
+      ],
+      "xml_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC9135278.xml",
+      "pdf_path": "/Users/pm286/workspace/semantic_corpus/tests/fixtures/ocean_heatwaves_2026/PMC9135278.pdf",
+      "metadata_path": ""
+    }
+  ],
+  "chunking_hint": {
+    "primary_text_source": "xml_path",
+    "fallback_text_source": "abstract",
+    "metadata_fields_for_retrieval": [
+      "title",
+      "abstract",
+      "doi",
+      "pmcid",
+      "citation_label"
+    ]
+  }
+}

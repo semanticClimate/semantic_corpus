@@ -145,13 +145,13 @@ AND (HAS_FT:Y)
 
 ---
 
-## Next (rolling — updated 2026-07-17)
+## Next (rolling — updated 2026-07-17 afternoon)
 
 | Step / phase | Status |
 |--------------|--------|
-| Manual review (`include` / `exclude`) | **Pending — blocks export** |
-| Re-export non-empty `chatbot_manifest.json` | Pending |
-| Live ClimateInsight ingest (`--manifest`) | Pending (start of P4) |
+| Manual review (`include` / `exclude`) | ✅ 12 include / 2 exclude / 36 review |
+| Re-export non-empty `chatbot_manifest.json` | ✅ Fixture-based export (12 papers) |
+| Live ClimateInsight ingest (`--manifest`) | ✅ 314 chunks in ChromaDB |
 | RAG smoke test | Pending |
 | P4 Cloudflare rehearsal | Pending |
 | P2 encyclopedia | Pending |
@@ -216,6 +216,72 @@ AND (HAS_FT:Y)
 4. Smoke RAG; then Cloudflare (P4).
 
 **Summary doc:** [../summary/2026-07-17_ocean_heatwaves_position.md](../summary/2026-07-17_ocean_heatwaves_position.md)
+
+---
+
+## 2026-07-17 — Ingest bundle + live ClimateInsight ingest (P4 started)
+
+**User:** copy ingest bundle; ensure manifests up to date; switch to ClimateInsight project.
+
+### Review curation (completed earlier same day)
+
+Team reviewed papers in HTML review viewer. Edited table saved to fixtures:
+
+| Status | Count |
+|--------|-------|
+| `include` | 12 |
+| `exclude` | 2 |
+| `review` | 36 |
+
+Source: `tests/fixtures/ocean_heatwaves_2026/review/review_table.edited.json`
+
+All 12 includes have XML; 6 also have PDF.
+
+### Bundle + manifest export
+
+Because BAGIT export still returns 0 papers (`data/data/` nesting), manifests were built from **fixtures**:
+
+- Join `review_table.edited.json` (includes only) + `search_results.json`
+- Resolve paths from flat fixture layout (`PMC{id}.xml`)
+
+| Output | Path |
+|--------|------|
+| SC fixture manifest | `tests/fixtures/ocean_heatwaves_2026/chatbot_manifest.json` |
+| SC temp export | `temp/exports/ocean_heatwaves_2026/chatbot_manifest.json` |
+| CI ingest bundle | `ClimateInsight/backend/tests/fixtures/ocean_heatwaves_2026/` |
+
+ClimateInsight bundle: 12 XML, 6 PDF, manifest, review table, README.
+
+### Code fix
+
+- `semantic_corpus/export/chatbot_export.py` — `build_citation_label` handles Europe PMC author dicts via `_first_author_display()`.
+
+### ClimateInsight ingest (user-run, `.venv`)
+
+```bash
+cd backend
+python -m ingest.ingest --manifest tests/fixtures/ocean_heatwaves_2026/chatbot_manifest.json
+```
+
+| Metric | Value |
+|--------|-------|
+| Papers | 12 |
+| Chunks | 314 |
+| ChromaDB | 314 stored, 0 skipped |
+| Embedding | all-MiniLM-L6-v2 |
+
+Chroma telemetry warnings (posthog `capture()` arity) — non-fatal; ingest completed.
+
+### Phase update
+
+| Phase | Status |
+|-------|--------|
+| P4 live ingest | ✅ First run complete |
+| P4 RAG smoke | Pending |
+| P4 Cloudflare tunnel | Pending |
+
+**Record:** [../records/2026-07-17_ocean_heatwaves_ingest.md](../records/2026-07-17_ocean_heatwaves_ingest.md)  
+**Summary:** [../summary/2026-07-17_ocean_heatwaves_ingest.md](../summary/2026-07-17_ocean_heatwaves_ingest.md)
 
 ---
 

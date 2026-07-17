@@ -10,14 +10,26 @@ from semantic_corpus.corpus_review.constants import REVIEW_STATUS_INCLUDE
 from semantic_corpus.corpus_review.review_schema import filter_rows_by_status
 
 
+def _first_author_display(authors: List[Any]) -> str:
+    """Extract a short lead author name from string or Europe PMC author dict."""
+    if not authors:
+        return "Unknown"
+    first = authors[0]
+    if isinstance(first, str):
+        return first.split(",")[0].strip() if "," in first else first.strip()
+    if isinstance(first, dict):
+        last = (first.get("lastName") or "").strip()
+        if last:
+            return last
+        full = (first.get("fullName") or "").strip()
+        if full:
+            return full.split()[0]
+    return "Unknown"
+
+
 def build_citation_label(metadata: Dict[str, Any]) -> str:
     """Human-readable citation label for chatbot source display."""
-    authors = metadata.get("authors") or []
-    first_author = authors[0] if authors else "Unknown"
-    if isinstance(first_author, str) and "," in first_author:
-        lead = first_author.split(",")[0].strip()
-    else:
-        lead = str(first_author)
+    lead = _first_author_display(metadata.get("authors") or [])
     year = (metadata.get("publication_date") or "")[:4] or "n.d."
     title = metadata.get("title") or "Untitled"
     return f"{lead} ({year}). {title}"
