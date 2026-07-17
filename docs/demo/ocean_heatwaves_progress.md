@@ -145,17 +145,20 @@ AND (HAS_FT:Y)
 
 ---
 
-## Next (not done)
+## Next (rolling — updated 2026-07-17)
 
-| Phase | Status |
-|-------|--------|
-| Manual review (`include` / `exclude`) | Pending |
-| Re-export chatbot manifest after includes | Pending |
+| Step / phase | Status |
+|--------------|--------|
+| Manual review (`include` / `exclude`) | **Pending — blocks export** |
+| Re-export non-empty `chatbot_manifest.json` | Pending |
+| Live ClimateInsight ingest (`--manifest`) | Pending (start of P4) |
+| RAG smoke test | Pending |
+| P4 Cloudflare rehearsal | Pending |
 | P2 encyclopedia | Pending |
-| P3 ClimateInsight ingest | ✅ Done 2026-07-16 (adapter + 14 tests) |
-| P4 Cloudflare rehearsal | **Next** |
 | Fix BAGIT `data/data` nesting / `list_papers` | Open |
 | Europe PMC PDF render outage (upstream) | Open / external |
+
+**P3 (adapter code + tests):** ✅ Done 2026-07-16 — see ClimateInsight `manifest_ingest/`.
 
 ## 2026-07-16 — P3 adapter outline + tests for review
 
@@ -182,6 +185,37 @@ AND (HAS_FT:Y)
 - Outline updated: `../ClimateInsight/docs/manifest_adapter_outline.md`
 - **Next phase: P4** — rehearse ingest of a real (non-empty) `chatbot_manifest.json`, run RAG, Cloudflare Quick Tunnel dry run.
 - Still open in parallel: manual review + re-export; **P2** encyclopedia glue.
+
+---
+
+## 2026-07-17 — Position review (discussion committed to docs)
+
+**User:** review completed vs remaining phases; next step is ingesting `ocean_heatwaves_2026` into the chatbot; no code this turn.
+
+### Agreed phase map
+
+| Phase | Status |
+|-------|--------|
+| P0 | ✅ Done |
+| P1 | ✅ Mostly done (49 XML, 10 PDF; review not curated; manifest empty) |
+| P2 | ❌ Not started |
+| P3 | ✅ Done — adapter + 14 tests in ClimateInsight; **not** live corpus ingest |
+| P4 | ❌ Not started — includes live manifest ingest + RAG smoke + Cloudflare |
+
+### Clarification
+
+- **“Ingest papers into chatbot”** is the **next operational work**, using P3 tooling.
+- It is **not** a separate phase: it is step 3 of the path into **P4** (after manual review + manifest export).
+- Repository corpus: **`ocean_heatwaves_2026`** (Europe PMC harvest under `temp/queries/…`).
+
+### Immediate checklist (no scripts run this session)
+
+1. Mark papers `include` in review table.
+2. Export non-empty `chatbot_manifest.json` (fix paths if needed).
+3. `ClimateInsight`: `python -m ingest.ingest --manifest …`
+4. Smoke RAG; then Cloudflare (P4).
+
+**Summary doc:** [../summary/2026-07-17_ocean_heatwaves_position.md](../summary/2026-07-17_ocean_heatwaves_position.md)
 
 ---
 

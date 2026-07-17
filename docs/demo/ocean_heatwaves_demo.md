@@ -265,12 +265,13 @@ Explain that the **same pipeline** applies; only the query topic differs.
 | Phase | Deliverable | Status |
 |-------|-------------|--------|
 | P0 | Config + this runbook + proposal | ✅ 2026-07-16 |
-| P1 | Execute harvest, review, ingest, export | ✅ 2026-07-16 (PDFs partial: 10/50) |
+| P1 | Execute harvest, review, ingest, export | ✅ 2026-07-16 (PDFs partial; review/manifest export pending) |
 | P2 | Encyclopedia glue + sample | Pending |
-| P3 | ClimateInsight manifest ingest | ✅ 2026-07-16 |
-| P4 | Rehearsal + Cloudflare dry run | **Next** |
+| P3 | ClimateInsight manifest adapter | ✅ 2026-07-16 (live ingest not run) |
+| P4 | Review → export → ingest → RAG + Cloudflare | **Next** |
 
-Append session notes to [ocean_heatwaves_progress.md](ocean_heatwaves_progress.md).
+Append session notes to [ocean_heatwaves_progress.md](ocean_heatwaves_progress.md).  
+Position review: [../summary/2026-07-17_ocean_heatwaves_position.md](../summary/2026-07-17_ocean_heatwaves_position.md).
 
 ---
 

@@ -180,8 +180,8 @@ Appendix to workflow docs or standalone runbook (this proposal uses a separate `
 | **P0** | Query config + runbook doc | semantic_corpus | ✅ |
 | **P1** | Harvest + review + ingest + export | semantic_corpus | ✅ 2026-07-16 |
 | **P2** | Encyclopedia glue + sample output | semantic_corpus + encyclopedia | Pending |
-| **P3** | ClimateInsight manifest ingest | ClimateInsight | ✅ 2026-07-16 |
-| **P4** | Rehearsal + Cloudflare dry run | both | **Next** |
+| **P3** | ClimateInsight manifest ingest (adapter) | ClimateInsight | ✅ 2026-07-16 (code + tests; live ingest not run) |
+| **P4** | Review → export → ingest → RAG smoke → Cloudflare | both | **Next** |
 
 ---
 
@@ -202,7 +202,7 @@ Appendix to workflow docs or standalone runbook (this proposal uses a separate `
 - [ocean_heatwaves_demo.md](ocean_heatwaves_demo.md) — runbook
 - [ocean_heatwaves_progress.md](ocean_heatwaves_progress.md) — **incremental progress log**
 - [../records/2026-07-16_ocean_heatwaves_demo.md](../records/2026-07-16_ocean_heatwaves_demo.md) — dated record
-- [../summary/2026-07-16_ocean_heatwaves_demo.md](../summary/2026-07-16_ocean_heatwaves_demo.md) — session summary
+- [../summary/2026-07-17_ocean_heatwaves_position.md](../summary/2026-07-17_ocean_heatwaves_position.md) — position review (2026-07-17)
 - [chatbot_export_contract.md](../chatbot_export_contract.md)
 - [orat_plan.md](../orat_plan.md)
 - [html_review_table_tutorial.md](../tutorials/html_review_table_tutorial.md)
@@ -214,3 +214,4 @@ Appendix to workflow docs or standalone runbook (this proposal uses a separate `
 - First PDF pass failed (0 PDFs); after `europe_pmc.py` fix + re-run: **10 PDFs**.
 - Europe PMC `pdf=render` largely unavailable (404) on 2026-07-16; publisher URLs used where present.
 - BAGIT nesting (`data/data/`) and empty chatbot export until includes + path fix — tracked in progress log.
+- **2026-07-17:** Position review — P3 is adapter only; next work is export + live ingest (P4). See [summary/2026-07-17_ocean_heatwaves_position.md](../summary/2026-07-17_ocean_heatwaves_position.md).
