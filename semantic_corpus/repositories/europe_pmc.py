@@ -53,21 +53,61 @@ class EuropePMCRepository(RepositoryInterface):
 
     def _find_pdf_url(self, paper: Dict[str, Any], pmcid: str) -> Optional[str]:
         """Return the best open-access PDF URL for a Europe PMC record."""
+        urls = self._candidate_pdf_urls(paper, pmcid)
+        return urls[0] if urls else None
+
+    def _candidate_pdf_urls(self, paper: Dict[str, Any], pmcid: str) -> List[str]:
+        """Ordered PDF URL candidates (publisher OA/Free first; Europe PMC render last)."""
         full_text_urls = paper.get("fullTextUrlList", {}).get("fullTextUrl", [])
+        if not full_text_urls:
+            full_text_urls = paper.get("full_text_urls") or []
         if isinstance(full_text_urls, dict):
             full_text_urls = [full_text_urls]
 
+        publisher: List[str] = []
+        europepmc_render: List[str] = []
+        other: List[str] = []
+
         for entry in full_text_urls:
-            if (
-                entry.get("documentStyle") == "pdf"
-                and entry.get("availabilityCode") == "OA"
-                and entry.get("url")
-            ):
-                return entry["url"]
+            if not isinstance(entry, dict):
+                continue
+            if entry.get("documentStyle") != "pdf":
+                continue
+            url = entry.get("url") or ""
+            if not url:
+                continue
+            code = entry.get("availabilityCode") or ""
+            # OA = open access, F = free (full text)
+            if code not in ("OA", "F", ""):
+                continue
+            if "europepmc.org/articles" in url and "pdf=render" in url:
+                europepmc_render.append(url)
+            elif "ncbi.nlm.nih.gov" in url or "pmc.ncbi.nlm.nih.gov" in url:
+                other.append(url)
+            else:
+                publisher.append(url)
 
         if pmcid:
-            return f"https://europepmc.org/articles/{pmcid}?pdf=render"
+            fallback = f"https://europepmc.org/articles/{pmcid}?pdf=render"
+            if fallback not in europepmc_render:
+                europepmc_render.append(fallback)
 
+        return publisher + other + europepmc_render
+
+    def _download_pdf_bytes(self, paper: Dict[str, Any], pmcid: str) -> Optional[bytes]:
+        """Try candidate PDF URLs until one returns PDF bytes."""
+        for pdf_url in self._candidate_pdf_urls(paper, pmcid):
+            try:
+                response = requests.get(pdf_url, timeout=90)
+                response.raise_for_status()
+                content_type = response.headers.get("content-type", "")
+                if (
+                    "pdf" in content_type.lower()
+                    or response.content.startswith(b"%PDF")
+                ):
+                    return response.content
+            except requests.RequestException:
+                continue
         return None
 
     def search_papers(
@@ -150,6 +190,15 @@ class EuropePMCRepository(RepositoryInterface):
                     download_id = paper_id.replace("PMC", "")
                 else:
                     download_id = paper_id
+
+            # PDF URLs live in fullTextUrlList; fetch metadata when missing
+            # (PMC IDs previously skipped this and fell back to a 404 render URL).
+            if "pdf" in formats and paper is None:
+                try:
+                    paper = self._search_one_paper(paper_id)
+                    pmcid = paper.get("pmcid", "") or pmcid
+                except RepositoryError:
+                    paper = {}
             
             for format_type in formats:
                 try:
@@ -163,21 +212,12 @@ class EuropePMCRepository(RepositoryInterface):
                         downloaded_files.append(str(xml_file))
 
                     elif format_type == "pdf":
-                        pdf_url = self._find_pdf_url(paper or {}, pmcid)
-                        if not pdf_url:
-                            continue
-
-                        response = requests.get(pdf_url)
-                        response.raise_for_status()
-                        content_type = response.headers.get("content-type", "")
-                        if (
-                            "pdf" not in content_type.lower()
-                            and not response.content.startswith(b"%PDF")
-                        ):
+                        pdf_bytes = self._download_pdf_bytes(paper or {}, pmcid)
+                        if not pdf_bytes:
                             continue
 
                         pdf_file = output_dir / f"{paper_id}.pdf"
-                        pdf_file.write_bytes(response.content)
+                        pdf_file.write_bytes(pdf_bytes)
                         downloaded_files.append(str(pdf_file))
                 except requests.RequestException:
                     continue

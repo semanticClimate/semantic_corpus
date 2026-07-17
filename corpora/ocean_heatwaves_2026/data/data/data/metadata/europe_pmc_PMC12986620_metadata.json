@@ -1,0 +1,39 @@
+{
+  "pmcid": "PMC12986620",
+  "pmid": "41829526",
+  "title": "A Survey of Modern Data Acquisition and Analysis Systems for Environmental Risk Monitoring in Aquatic Ecosystems.",
+  "abstract": "This survey is an integrated and complete summary of the strategies and technological systems of surveying environmental hazard in marine, freshwater, and brackish environments. Contrary to the previous articles where the separate parts of the monitoring chain are investigated or certain environments/enabling technologies are considered, the given work has a cross-domain approach that unites sensing modalities, data acquisition schemes, communication schemes, operational platforms, data analytics, energy management schemes, and regulatory compliance into one consistent framework. The survey systematically examines the entire sensing-to-cloud pipeline, which includes sensor technologies, data acquisition systems, telecommunication infrastructures, and a variety of monitoring platforms such as buoy-based systems, Unmanned Surface Vehicles (USVs), Autonomous Underwater Vehicles (AUVs), and Unmanned Aerial Vehicles (UAVs). In addition, it touches on the administration and examination of mass environmental data, including cloud-based systems and AI-based methods of automated feature identification, anomaly recognition and predictive modeling. The key points of the autonomy of the system, including power supply solutions and energy-conscious management, are also mentioned, as well as the relevant regulations on the environmental monitoring nationally, at the European level, and globally. This paper presents a systematic six-step design process of aquatic environmental monitoring systems: (1) risk categorization, (2) physical data acquisition systems, (3) monitoring platforms, (4) data management & analytics, (5) energy autonomy strategies, and (6) regulatory compliance. The systematic framework offers researchers and practitioners practical guidelines to follow when designing end-to-end systems, thus completing the gaps in the historically disjointed research strands and going beyond the traditional domain- and technology-based studies.",
+  "authors": [
+    "Perra N",
+    "Giusto D",
+    "Anedda M"
+  ],
+  "publication_date": "2026-03-02",
+  "journal": "",
+  "doi": "10.3390/s26051566",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3390/s26051566"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12986620"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12986620?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

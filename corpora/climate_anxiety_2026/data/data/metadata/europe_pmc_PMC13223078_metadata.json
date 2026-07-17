@@ -11,5 +11,30 @@
   ],
   "publication_date": "2026-05-18",
   "journal": "",
-  "doi": "10.3389/fphys.2026.1825414"
+  "doi": "10.3389/fphys.2026.1825414",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3389/fphys.2026.1825414"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13223078"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13223078?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
 }

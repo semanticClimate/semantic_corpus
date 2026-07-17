@@ -1,0 +1,796 @@
+{
+  "meta": {
+    "query_name": "climate_change_2026",
+    "query_string": "\"climate change\"",
+    "repository": "europe_pmc",
+    "start_date": "",
+    "end_date": "",
+    "limit": 50,
+    "formats": [
+      "xml",
+      "pdf"
+    ],
+    "generated_at": "2026-07-14T11:34:29.933036+00:00",
+    "identified_source": "same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or query_run.total_hits)",
+    "identified_is_hitcount": false,
+    "override_notes": "",
+    "count_provenance": {
+      "n_identified": "same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or query_run.total_hits)",
+      "n_retrieved": "search_results.json length",
+      "n_with_fulltext": "filesystem (xml=13, pdf=0, html=0)",
+      "n_download_attempted": "download_completeness hard check",
+      "n_screened": "review_table.json length",
+      "n_include": "review_status=include",
+      "n_exclude": "review_status=exclude",
+      "n_still_review": "review_status=review",
+      "n_final_table": "n_include + n_still_review"
+    },
+    "disk_fulltext": {
+      "n_xml": 13,
+      "n_pdf": 0,
+      "n_html": 0
+    }
+  },
+  "artefacts": [
+    {
+      "role": "raw_query",
+      "path": "",
+      "exists": true,
+      "note": "\"climate change\""
+    },
+    {
+      "role": "config",
+      "path": "",
+      "exists": false,
+      "note": "pilot YAML"
+    },
+    {
+      "role": "query_run",
+      "path": "temp/queries/climate_change_2026/query_run.json",
+      "exists": true,
+      "note": "repository, limit, result_count, downloaded_count"
+    },
+    {
+      "role": "search_results",
+      "path": "temp/queries/climate_change_2026/search_results.json",
+      "exists": true,
+      "note": "retrieved metadata records"
+    },
+    {
+      "role": "query_dir_fulltext",
+      "path": "temp/queries/climate_change_2026",
+      "exists": true,
+      "note": "local downloads xml=13 pdf=0 html=0"
+    },
+    {
+      "role": "review_table",
+      "path": "temp/queries/climate_change_2026/review/review_table.json",
+      "exists": true,
+      "note": "manual include/exclude/review statuses"
+    },
+    {
+      "role": "overrides",
+      "path": "",
+      "exists": false,
+      "note": "optional n_identified hitCount"
+    },
+    {
+      "role": "corpus_dir",
+      "path": "corpora/climate_change_2026",
+      "exists": true,
+      "note": "BAGIT corpus (diagram output target)"
+    }
+  ],
+  "download_check": {
+    "status": "incomplete",
+    "complete": false,
+    "n_papers": 50,
+    "formats": [
+      "xml",
+      "pdf"
+    ],
+    "n_expected_files": 100,
+    "n_present_files": 13,
+    "n_missing_files": 87,
+    "n_papers_complete": 0,
+    "n_papers_incomplete": 50,
+    "missing": [
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.20944/preprints202606.1525.v1",
+        "title": "Are Some Catchments More Impacted by Climate Change Than Others?",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42314205",
+        "paper_id": "",
+        "doi": "10.1097/aog.0000000000006290",
+        "title": "The Effects of Climate Change on Obstetric and Gynecologic Health.",
+        "stems": [
+          "42314205"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13256475",
+        "pmid": "42278829",
+        "paper_id": "",
+        "doi": "10.3390/healthcare14111576",
+        "title": "Climate Change and Sustainable Healthcare: Knowledge, Attitudes, and Educational Role of Healthcare Workers.",
+        "stems": [
+          "PMC13256475",
+          "42278829"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42323599",
+        "paper_id": "",
+        "doi": "10.1186/s12909-026-09696-5",
+        "title": "The relationship between future anxiety and global climate change awareness among physiotherapy students in Turkey: a cr",
+        "stems": [
+          "42323599"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42384637",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0350826",
+        "title": "Silenced and privileged voices in media discourses: Climate change and social capital.",
+        "stems": [
+          "42384637"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13235141",
+        "pmid": "42237339",
+        "paper_id": "",
+        "doi": "10.1186/s12912-026-04812-8",
+        "title": "Climate change-related stress and premenstrual symptoms among nursing students: the moderating role of climate change aw",
+        "stems": [
+          "PMC13235141",
+          "42237339"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13289144",
+        "pmid": "42331560",
+        "paper_id": "",
+        "doi": "10.1136/bmjment-2025-302344",
+        "title": "Unheard voices: the overlooked mental health toll of climate change in vulnerable communities.",
+        "stems": [
+          "PMC13289144",
+          "42331560"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42337716",
+        "paper_id": "",
+        "doi": "10.1186/s12877-026-07868-y",
+        "title": "The relationship between climate change anxiety, death anxiety, and psychological resilience in older adults with chroni",
+        "stems": [
+          "42337716"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13215543",
+        "pmid": "42201894",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0348574",
+        "title": "Climate change boredom: Exploring its predictors and the psychological factors that influence intention to act.",
+        "stems": [
+          "PMC13215543",
+          "42201894"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42391250",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0352978",
+        "title": "Health impacts of climate change on children and adolescents: A protocol for review of reviews. ",
+        "stems": [
+          "42391250"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42303671",
+        "paper_id": "",
+        "doi": "10.1038/s41598-026-57829-z",
+        "title": "Social connectedness as a pathway towards climate resilience: exploring climate change scepticism with machine learning ",
+        "stems": [
+          "42303671"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.31234/osf.io/czu9f_v1",
+        "title": "Silent and Underestimated Climate Change Concern Without Behavioural Backlash: Findings From a Representative Dutch Surv",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42377590",
+        "paper_id": "",
+        "doi": "10.1007/s00267-026-02507-z",
+        "title": "Integrating Community Perception, Climate Vulnerability Index, and Driver-Pressure-State-Impact-Response Approaches for ",
+        "stems": [
+          "42377590"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13289311",
+        "pmid": "42344036",
+        "paper_id": "",
+        "doi": "10.1136/bmjph-2025-004282",
+        "title": "Transforming climate change and health practice: a follow-up survey of participants in a global online professional educ",
+        "stems": [
+          "PMC13289311",
+          "42344036"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42385891",
+        "paper_id": "",
+        "doi": "10.1016/j.jfp.2026.100849",
+        "title": "Risk Ranking of Emerging Hazards in Fresh Produce and Cereal Grains under Climate Change using Multi-Criteria Decision A",
+        "stems": [
+          "42385891"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.64898/2026.06.22.733620",
+        "title": "Genomic predictions of climate change vulnerability in the emblematic mountain butterfly  <i>Parnassius apollo</i>",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13288697",
+        "pmid": "42344055",
+        "paper_id": "",
+        "doi": "10.1136/bmjph-2024-002374",
+        "title": "How are gender and sexual minority populations included in climate change-associated disaster preparedness plans in Bula",
+        "stems": [
+          "PMC13288697",
+          "42344055"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13242080",
+        "pmid": "42249765",
+        "paper_id": "",
+        "doi": "10.1111/inr.70195",
+        "title": "Hope or Anxiety for the Future? Associations of Climate Change Awareness and Hope With Eco-Anxiety Among Nursing Student",
+        "stems": [
+          "PMC13242080",
+          "42249765"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42216834",
+        "paper_id": "",
+        "doi": "10.1111/aphw.70168",
+        "title": "From hope and action to giving up: Students' stories of coping with climate change.",
+        "stems": [
+          "42216834"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-8913236/v2",
+        "title": "Driven geospatial artificial intelligence modeling for climate change impact assessment: a global perspective",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.64898/2026.06.26.26356650",
+        "title": "Robustness of Wolbachia-mediated incompatible-insect technique to future climate change scenarios",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-9672099/v1",
+        "title": "Climate Change Anxiety Among Citizens of Mazandaran Province, Iran: A Descriptive- Analytical Study",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13252736",
+        "pmid": "42268824",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0349705",
+        "title": "Fresh aboveground net primary productivity of Tibetan grasslands: Responses of different plant functional groups to clim",
+        "stems": [
+          "PMC13252736",
+          "42268824"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42253217",
+        "paper_id": "",
+        "doi": "10.1017/dmp.2026.10386",
+        "title": "Climate Change Awareness and Disaster Preparedness Among University Students: The Mediating Role of Social Media Use Pur",
+        "stems": [
+          "42253217"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42366961",
+        "paper_id": "",
+        "doi": "10.4081/monaldi.2026.3938",
+        "title": "Heart failure at the crossroads of climate change and environmental health: emerging risks, mechanistic insights, and fu",
+        "stems": [
+          "42366961"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42364843",
+        "paper_id": "",
+        "doi": "10.1016/j.jinsphys.2026.105023",
+        "title": "Mean warming enhances insect resilience to high temperatures: species-specific evidence from two wheat aphids.",
+        "stems": [
+          "42364843"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-10062612/v1",
+        "title": "Trust in Health Information Sources and Perceived Climate Change Health Risks: Evidence from the 2022 and 2024 Health In",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13254066",
+        "pmid": "42293657",
+        "paper_id": "",
+        "doi": "10.3389/fpubh.2026.1836657",
+        "title": "Nonlinear effects of climate change on outdoor activities and potential feedback pathways: a systematic review.",
+        "stems": [
+          "PMC13254066",
+          "42293657"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42354482",
+        "paper_id": "",
+        "doi": "10.3390/healthcare14121624",
+        "title": "Climate Change Worry and Flourishing Among Chinese University Students: The Roles of Anxiety-Depressive Symptoms and Phy",
+        "stems": [
+          "42354482"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13251223",
+        "pmid": "42271449",
+        "paper_id": "",
+        "doi": "10.1186/s40249-026-01468-z",
+        "title": "Climate change and infectious diseases: translating evidence into action.",
+        "stems": [
+          "PMC13251223",
+          "42271449"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42379754",
+        "paper_id": "",
+        "doi": "10.21873/invivo.14343",
+        "title": "Impact of Climate Change on Legionnaire's Disease: A Systematic Review.",
+        "stems": [
+          "42379754"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-9792717/v1",
+        "title": "Are climate change concerns related to fertility intentions and for whom? Evidence from five European countries",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42310341",
+        "paper_id": "",
+        "doi": "10.1038/s41598-026-58056-2",
+        "title": "Climate change adaptation strategies as a pathway to gender empowerment in East Shewa Zone, Ethiopia.",
+        "stems": [
+          "42310341"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42365477",
+        "paper_id": "",
+        "doi": "10.1177/15248399261458707",
+        "title": "Invisible in the Storm: Climate Change and the Lived Realities of Transmasculine People in India.",
+        "stems": [
+          "42365477"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-10042165/v1",
+        "title": "Retrieval-Augmented Large Language Models for Climate Change and Renewable Energy Knowledge Synthesis",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-9679967/v1",
+        "title": "Impact of climate change and associated extreme weather events on primary care: A multi- perspective qualitative study i",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42325205",
+        "paper_id": "",
+        "doi": "10.1093/infdis/jiag306",
+        "title": "The projected impact of climate change on the burden of Cryptosporidium in Mali, Kenya, and The Gambia.",
+        "stems": [
+          "42325205"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13240133",
+        "pmid": "42255339",
+        "paper_id": "",
+        "doi": "10.1002/puh2.70291",
+        "title": "A Phenomenological Analysis of Knowledge, Impact and Coping Strategies to Climate Change: Experiences of Persons With Al",
+        "stems": [
+          "PMC13240133",
+          "42255339"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-10066748/v1",
+        "title": "Co-creating adaptation-stories for climate change communication in North Karelian dairy production",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42301360",
+        "paper_id": "",
+        "doi": "10.1007/s11892-026-01634-5",
+        "title": "Climate Change and Diabetes Outcomes: Evidence from Climate-Vulnerable Regions.",
+        "stems": [
+          "42301360"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13274859",
+        "pmid": "42308211",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0349448",
+        "title": "Health system strategies and responses to the effects of Climate Change in Sub-Saharan Africa: A scoping review.",
+        "stems": [
+          "PMC13274859",
+          "42308211"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13299314",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "",
+        "title": "Climate Change Worry and Flourishing Among Chinese University Students: The Roles of Anxiety-Depressive Symptoms and Phy",
+        "stems": [
+          "PMC13299314"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42389376",
+        "paper_id": "",
+        "doi": "10.14324/111.444/ucloe.3219",
+        "title": "A simple climate change model for the concerned public.",
+        "stems": [
+          "42389376"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-9457638/v1",
+        "title": "Differentiating emotional pathways to climate change (in)action: An empirical test",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42385635",
+        "paper_id": "",
+        "doi": "10.1016/j.watres.2026.126355",
+        "title": "Assessing climate change-induced precipitation effects on the long-term reliability of common final landfill cover syste",
+        "stems": [
+          "42385635"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-10061103/v1",
+        "title": "Integrating Geoprocessing and Artificial Intelligence to Support the Sustainable Development Goals under Climate Change",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "42345267",
+        "paper_id": "",
+        "doi": "10.1080/13548506.2026.2691410",
+        "title": "An exploration of climate change-induced anxiety and depression in vulnerable populations in Pakistan.",
+        "stems": [
+          "42345267"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.64898/2026.05.31.26354564",
+        "title": "Climate change and environmental pollutants – an international survey of naturopathic perceptions and clinical behaviour",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.21203/rs.3.rs-9959883/v1",
+        "title": "The Impact of Climate Change on Residential Radon Levels and Lung Cancer Risk: Scenario-Based Risk Assessments",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "10.31234/osf.io/8skmv_v3",
+        "title": "From Silence to Whisper: Climate Change in U.S. News Media, 1984–2025",
+        "stems": [],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      }
+    ],
+    "query_dir": "temp/queries/climate_change_2026",
+    "message": "DOWNLOAD INCOMPLETE: expected 100 files (50 papers × formats ['xml', 'pdf']); found 13 on disk in temp/queries/climate_change_2026; missing 87 (50 papers incomplete). Examples: 10.20944/preprints202606.1525.v1 missing ['xml', 'pdf']; 42314205 missing ['xml', 'pdf']; PMC13256475 missing ['pdf']; 42323599 missing ['xml', 'pdf']; 42384637 missing ['xml', 'pdf']. query_run.downloaded_count=13/50."
+  },
+  "counts": {
+    "n_identified": 50,
+    "n_beyond_limit": 0,
+    "n_retrieved": 50,
+    "n_download_attempted": 13,
+    "n_with_fulltext": 13,
+    "n_xml_on_disk": 13,
+    "n_pdf_on_disk": 0,
+    "n_html_on_disk": 0,
+    "n_download_failed": 87,
+    "n_screened": 50,
+    "n_include": 0,
+    "n_exclude": 0,
+    "n_still_review": 50,
+    "n_included_final": 0,
+    "n_final_table": 50
+  },
+  "exclusions": [
+    {
+      "reason": "download_failed",
+      "n": 87
+    },
+    {
+      "reason": "pending_review",
+      "n": 50
+    }
+  ]
+}

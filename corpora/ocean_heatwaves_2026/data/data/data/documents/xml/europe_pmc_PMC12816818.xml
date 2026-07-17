@@ -1,0 +1,1297 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ecy70288" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecology</journal-id><journal-id journal-id-type="iso-abbrev">Ecology</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">ECY</journal-id><journal-title-group><journal-title>Ecology</journal-title></journal-title-group><issn pub-type="ppub">0012-9658</issn><issn pub-type="epub">1939-9170</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12816818</article-id><article-id pub-id-type="pmcid-ver">PMC12816818.1</article-id><article-id pub-id-type="pmcaid">12816818</article-id><article-id pub-id-type="pmcaiid">12816818</article-id><article-id pub-id-type="pmid">41555599</article-id><article-id pub-id-type="doi">10.1002/ecy.70288</article-id><article-id pub-id-type="publisher-id">ECY70288</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Food limitation erodes the thermal tolerance of larvae in an ecologically influential marine herbivore</article-title><alt-title alt-title-type="right-running-head">Food limitation erodes the thermal tolerance of larvae in an ecologically influential marine herbivore</alt-title><alt-title alt-title-type="left-running-head">Munstermann et al.</alt-title></title-group><contrib-group><contrib id="ecy70288-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Munstermann</surname><given-names initials="MJ">Maya J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8662-6191</contrib-id><xref rid="ecy70288-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ecy70288-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>mmunstermann@berkeley.edu</email></address></contrib><contrib id="ecy70288-cr-0002" contrib-type="author"><name name-style="western"><surname>Karelitz</surname><given-names initials="SE">Sam E.</given-names></name><xref rid="ecy70288-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ecy70288-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ecy70288-cr-0003" contrib-type="author"><name name-style="western"><surname>Ferraro</surname><given-names initials="R">Rachele</given-names></name><xref rid="ecy70288-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ecy70288-cr-0004" contrib-type="author"><name name-style="western"><surname>Rogers‐Bennett</surname><given-names initials="L">Laura</given-names></name><xref rid="ecy70288-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ecy70288-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ecy70288-cr-0005" contrib-type="author"><name name-style="western"><surname>Simons</surname><given-names initials="RD">Rachel D.</given-names></name><xref rid="ecy70288-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ecy70288-cr-0006" contrib-type="author"><name name-style="western"><surname>Okamoto</surname><given-names initials="DK">Daniel K.</given-names></name><xref rid="ecy70288-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ecy70288-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ecy70288-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Integrative Biology</named-content>
+<institution>University of California Berkeley</institution>
+<city>Berkeley</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="ecy70288-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biological Science</named-content>
+<institution>The Florida State University</institution>
+<city>Tallahassee</city>
+<named-content content-type="country-part">Florida</named-content>
+<country country="US">USA</country>
+</aff><aff id="ecy70288-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Coastal Marine Science Institute, UC Davis</named-content>
+<institution>Bodega Marine Laboratory</institution>
+<city>Bodega Bay</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="ecy70288-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">California Department Fish and Wildlife</named-content>
+<institution>Bodega Marine Laboratory</institution>
+<city>Bodega Bay</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="ecy70288-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Earth Research Institute</named-content>
+<institution>University of California Santa Barbara</institution>
+<city>Santa Barbara</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Maya J. Munstermann<break/>
+Email: <email>mmunstermann@berkeley.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>19</day><month>1</month><year>2026</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2026</year></pub-date><volume>107</volume><issue seq="140">1</issue><issue-id pub-id-type="pmc-issue-id">505577</issue-id><issue-id pub-id-type="doi">10.1002/ecy.v107.1</issue-id><elocation-id>e70288</elocation-id><history>
+<date date-type="rev-recd"><day>14</day><month>9</month><year>2025</year></date>
+<date date-type="received"><day>26</day><month>1</month><year>2025</year></date>
+<date date-type="accepted"><day>23</day><month>10</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>20</day><month>01</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>21</day><month>01</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-01-21 10:25:16.020"><day>21</day><month>01</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecology</italic> published by Wiley Periodicals LLC on behalf of The Ecological Society of America.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECY-107-e70288.pdf"><?pdf-name ECY-107-e70288.pdf?><?pdf-size 7957514?><?pdf-md5 5fa203650df1aa8933095e7a565d0d8a?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:09a9/12816818/5fa203650df1/ECY-107-e70288.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECY-107-e70288.pdf"/><abstract><title>Abstract</title><p>Biologists often use organismal thermal tolerance to help explain or forecast responses of populations to climate change. Yet many studies quantify thermal tolerance under isolated laboratory conditions despite extreme events, such as heatwaves, often coinciding with other stressors such as nutrient or food limitation. These oversights may be consequential as recent theory suggests thermal tolerance itself can be fundamentally altered by food limitation. Here, we experimentally test how food limitation (500–10,000 cells mL<sup>−1</sup>) affects long‐term survival, development, and growth across a present‐day range of temperatures (10–20°C) in the most sensitive life stages of an important marine herbivore, purple sea urchins (<italic toggle="no">Strongylocentrotus purpuratus</italic>). We show food limitation substantially erodes thermal tolerance in terms of survival, but when provided ample food, larvae exhibited robust survival across temperatures currently experienced by larvae in nature. Reductions in food however lowered optimal survival temperatures and shifted survival thresholds to those conditions observed during recent marine heatwaves. These results are consistent with the “metabolic meltdown” hypothesis—shifting optima and upper limits to cooler temperatures—and illustrate how present‐day warming coupled with lower productivity may lead to substantial, unexpected declines in larval survival and recruitment. In contrast to survival, developmental rates and time to metamorphic competency, which ranged from 21 to 61 days, were driven largely by temperature with little impact of food concentration. Our findings relate to historical observations of declines in larval supply at the southern edge of the species range. Overall, these results have broad‐reaching implications beyond sea urchin populations as sea urchin herbivory is known to control productivity of kelp forest communities. We provide evidence of how laboratory derived thermal reaction norms can be coupled with ecologically relevant food concentrations to inform unexpected vital rate declines of sensitive life stages in a changing climate.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ecy70288-kwd-0001">climate warming</kwd><kwd id="ecy70288-kwd-0002">food availability</kwd><kwd id="ecy70288-kwd-0003">morphometrics</kwd><kwd id="ecy70288-kwd-0004">planktonic larvae</kwd><kwd id="ecy70288-kwd-0005"><italic toggle="no">Strongylocentrotus purpuratus</italic></kwd><kwd id="ecy70288-kwd-0006">thermal performance</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Directorate for Biological Sciences</institution><institution-id institution-id-type="doi">10.13039/100000076</institution-id></institution-wrap>
+</funding-source><award-id>2023649</award-id><award-id>2023664</award-id><award-id>1831937</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="1"/><page-count count="17"/><word-count count="11500"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.8 mode:remove_FC converted:20.01.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ecy70288-cit-9001">
+<string-name name-style="western">
+<surname>Munstermann</surname>, <given-names>Maya J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sam E.</given-names>
+<surname>Karelitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rachele</given-names>
+<surname>Ferraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Laura</given-names>
+<surname>Rogers‐Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rachel D.</given-names>
+<surname>Simons</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Daniel K.</given-names>
+<surname>Okamoto</surname>
+</string-name>. <year>2026</year>. “<article-title>Food Limitation Erodes the Thermal Tolerance of Larvae In an Ecologically Influential Marine Herbivore</article-title>.” <source>Ecology</source>
+<volume>107</volume>(<issue>1</issue>): <elocation-id>e70288</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.70288</pub-id>
+<pub-id pub-id-type="pmid">41555599</pub-id></mixed-citation>
+</p><fn-group id="ecy70288-ntgp-0001"><fn id="ecy70288-note-0001"><p>
+<bold>Handling Editor:</bold> Matthew E. Bracken</p></fn></fn-group></notes></front><body id="ecy70288-body-0001"><sec id="ecy70288-sec-0001"><title>INTRODUCTION</title><p>Shifts in global temperatures (Oliver, Donat, et al., <xref rid="ecy70288-bib-0060" ref-type="bibr">2018</xref>) have in many cases led to unfavorable thermal conditions and, in combination with other global and local environmental stressors, have led to organismal adaptation, declines in viability, or risk of local extinction (Chevin et al., <xref rid="ecy70288-bib-0017" ref-type="bibr">2010</xref>; Diffenbaugh &amp; Field, <xref rid="ecy70288-bib-0020" ref-type="bibr">2013</xref>; Seebacher et al., <xref rid="ecy70288-bib-0074" ref-type="bibr">2015</xref>). Assessment of how temperature affects key rates such as mortality, fecundity, and early‐stage development can provide insight to understanding historical trends in population dynamics and species' responses to warming (Sinclair et al., <xref rid="ecy70288-bib-0078" ref-type="bibr">2016</xref>; Williams et al., <xref rid="ecy70288-bib-0087" ref-type="bibr">2016</xref>). Yet, for many species, declines in abundance resulting from climate change are based on single‐stressor experiments, such as thermal tolerances (Wernberg et al., <xref rid="ecy70288-bib-0086" ref-type="bibr">2012</xref>). Changes in temperature can shift not only organismal physiological rates such as metabolism and development but can also cause and/or co‐occur with shifts in exogenous ecological conditions such as resource availability (Brett, <xref rid="ecy70288-bib-0010" ref-type="bibr">1971</xref>). Thus, focusing solely on temperature effects is hypothesized to lead to erroneous predictions when neglecting potential interaction with additional stressors (Gunderson et al., <xref rid="ecy70288-bib-0027" ref-type="bibr">2016</xref>; Kroeker et al., <xref rid="ecy70288-bib-0042" ref-type="bibr">2017</xref>). Furthermore, ocean warming and food limitation may lead to differing responses in southern and northern regions (Bennett et al., <xref rid="ecy70288-bib-0008" ref-type="bibr">2004</xref>).</p><p>For ectotherms, metabolic rates increase exponentially with temperature until a critical limit is reached where various physiological functions fail (Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0034" ref-type="bibr">1989</xref>). Yet, as temperatures rise, if organisms cannot increase energy acquisition to meet metabolic demands, declines in performance may occur at cooler thresholds (Brett, <xref rid="ecy70288-bib-0010" ref-type="bibr">1971</xref>; Cheng et al., <xref rid="ecy70288-bib-0016" ref-type="bibr">2018</xref>; Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0035" ref-type="bibr">2019</xref>; Huxley et al., <xref rid="ecy70288-bib-0036" ref-type="bibr">2022</xref>; Koenker et al., <xref rid="ecy70288-bib-0041" ref-type="bibr">2018</xref>; Thomas et al., <xref rid="ecy70288-bib-0084" ref-type="bibr">2017</xref>; Verhille et al., <xref rid="ecy70288-bib-0085" ref-type="bibr">2015</xref>). Although temperature‐induced changes in metabolic demands have been examined, a critical knowledge gap exists in understanding how other environmental factors affect thermal reaction norms and the induced trade‐offs between maintaining equilibrium states needed for survival and devoting energy to growth or reproduction (Brett, <xref rid="ecy70288-bib-0010" ref-type="bibr">1971</xref>; Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0035" ref-type="bibr">2019</xref>; Huxley et al., <xref rid="ecy70288-bib-0036" ref-type="bibr">2022</xref>; McCue, <xref rid="ecy70288-bib-0045" ref-type="bibr">2010</xref>; Nyamukondiwa &amp; Terblanche, <xref rid="ecy70288-bib-0056" ref-type="bibr">2009</xref>; Scharf et al., <xref rid="ecy70288-bib-0072" ref-type="bibr">2016</xref>). Under low food conditions, the physiological stress of high temperatures may be accentuated (Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0035" ref-type="bibr">2019</xref>; Verhille et al., <xref rid="ecy70288-bib-0085" ref-type="bibr">2015</xref>). The phenomenon where thermal optima and upper tolerance limits shift to lower (cooler) values as resources become limited is known as the “metabolic meltdown” hypothesis (Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0035" ref-type="bibr">2019</xref>). In sockeye salmon (<italic toggle="yes">Oncorhynchus nerka</italic>), for example, the upper thermal limits and optimal temperature for growth declined when food was restricted (Brett, <xref rid="ecy70288-bib-0010" ref-type="bibr">1971</xref>). Similarly, in marine bivalves, individuals acclimated to warmer temperatures and high food environments exhibited higher thermal limits compared to warm‐acclimated individuals in low food environments (Cheng et al., <xref rid="ecy70288-bib-0016" ref-type="bibr">2018</xref>). Likewise, in <italic toggle="yes">Aedes</italic> mosquitos, depletions in resources can not only reduce the maximum thermal limits but also shrink the thermal breadth of optimal temperatures (Huxley et al., <xref rid="ecy70288-bib-0036" ref-type="bibr">2022</xref>). Thus, across taxa, temperature and food availability may interact synergistically to dictate shifts in performance.</p><p>In the marine realm, many animals are most vulnerable during the planktonic larval life stages (Strathmann et al., <xref rid="ecy70288-bib-0081" ref-type="bibr">2002</xref>), serving as a bottleneck for populations. Changes in temperature or food availability can affect survival and development in early life stages by influencing metabolism, energy demands, and growth (Burgess et al., <xref rid="ecy70288-bib-0011" ref-type="bibr">2016</xref>; Karelitz et al., <xref rid="ecy70288-bib-0039" ref-type="bibr">2020</xref>; Pineda &amp; Lopez, <xref rid="ecy70288-bib-0065" ref-type="bibr">2002</xref>; Przeslawski et al., <xref rid="ecy70288-bib-0066" ref-type="bibr">2015</xref>). Negative effects of warming at sensitive life stages can outweigh benefits of resilience in more robust life stages. Thus, extrapolating from single life stages or food contexts can lead to underestimation of thermal vulnerabilities in a species (Williams et al., <xref rid="ecy70288-bib-0088" ref-type="bibr">2017</xref>). Previous work in echinoderms, more specifically sea urchins, has shown abiotic and biotic factors such as elevated temperatures and food limitation can alter larval survival, physiology, and development (Basch, <xref rid="ecy70288-bib-0003" ref-type="bibr">1996</xref>). Temperature was found to be positively related to rates of larval development and growth across marine taxa (O'Connor et al., <xref rid="ecy70288-bib-0057" ref-type="bibr">2007</xref>; Strathmann et al., <xref rid="ecy70288-bib-0081" ref-type="bibr">2002</xref>); however, beyond a thermal tipping point, survival and development are negatively affected (Karelitz et al., <xref rid="ecy70288-bib-0040" ref-type="bibr">2016</xref>). Variation in oceanographic processes, such as ocean circulation, pH, alkalinity, salinity, and stratification may affect recruitment patterns (Basch, <xref rid="ecy70288-bib-0003" ref-type="bibr">1996</xref>; Bialonski et al., <xref rid="ecy70288-bib-0009" ref-type="bibr">2016</xref>; Gaylord &amp; Gaines, <xref rid="ecy70288-bib-0026" ref-type="bibr">2000</xref>; Padilla‐Gamiño et al., <xref rid="ecy70288-bib-0062" ref-type="bibr">2013</xref>). Both biotic and abiotic factors, specifically temperature and food, may interact to influence dispersal distance, larval supply, and recruitment dynamics, which can alter planktonic larval duration and survival and ultimately, species persistence, genetics, and population dynamics (Basch, <xref rid="ecy70288-bib-0003" ref-type="bibr">1996</xref>; Caley et al., <xref rid="ecy70288-bib-0013" ref-type="bibr">1996</xref>; Hoegh‐Guldberg &amp; Pearse, <xref rid="ecy70288-bib-0032" ref-type="bibr">1995</xref>; O'Connor et al., <xref rid="ecy70288-bib-0057" ref-type="bibr">2007</xref>; Rassweiler et al., <xref rid="ecy70288-bib-0067" ref-type="bibr">2020</xref>; Woodson et al., <xref rid="ecy70288-bib-0090" ref-type="bibr">2012</xref>). Experimental studies in the red sea urchin (<italic toggle="yes">Mesocentrotus franciscanus</italic>) found larval thermal tolerance was higher in individuals raised in warmer temperatures, whereas pH did not have a significant effect on thermal tolerance (Wong &amp; Hofmann, <xref rid="ecy70288-bib-0089" ref-type="bibr">2020</xref>). Furthermore, developmental rates in echinoids slowed in cooler temperatures, and the amount of food available during the larval period had a strongly positive effect on juvenile development (Hart &amp; Strathmann, <xref rid="ecy70288-bib-0030" ref-type="bibr">1994</xref>; Miller &amp; Emlet, <xref rid="ecy70288-bib-0047" ref-type="bibr">1999</xref>). Yet a key gap exists in how thermal performance synergistically changes with food availability in the most vulnerable life stage of planktonic ectotherms and the potential implications for recruitment dynamics.</p><p>Purple sea urchins (<italic toggle="yes">Strongylocentrotus purpuratus</italic>) are a model organism for understanding how thermal performance shifts depending on food availability. Understanding larval bottlenecks in sea urchins is critical as they drive kelp forest community structure (Rogers‐Bennett &amp; Okamoto, <xref rid="ecy70288-bib-0070" ref-type="bibr">2020</xref>). Purple urchins inhabit a large latitudinal range with variations in abiotic and biotic conditions that covary with booms and busts in larval supply, shaping recruitment (Okamoto et al., <xref rid="ecy70288-bib-0058" ref-type="bibr">2020</xref>) and imposing disproportional influence on the ecosystem structure (Filbee‐Dexter &amp; Scheibling, <xref rid="ecy70288-bib-0025" ref-type="bibr">2014</xref>; Rogers‐Bennett &amp; Okamoto, <xref rid="ecy70288-bib-0070" ref-type="bibr">2020</xref>). Marine heatwaves in northern California have resulted in recent explosions in purple urchin numbers, presumably due to a combination of increased larval supply and loss of urchin predators (Filbee‐Dexter &amp; Scheibling, <xref rid="ecy70288-bib-0025" ref-type="bibr">2014</xref>; Rogers‐Bennett &amp; Catton, <xref rid="ecy70288-bib-0069" ref-type="bibr">2019</xref>). Marine heatwaves in the region are defined by sea surface temperatures in the 90th percentile for five consecutive days (Hobday et al., <xref rid="ecy70288-bib-0031" ref-type="bibr">2016</xref>). The 2014–2016 marine heatwave in the Southern California Bight had temperature anomalies with daily deviations of +5.8°C and monthly deviations of +4.6°C for 432 days (Hobday et al., <xref rid="ecy70288-bib-0031" ref-type="bibr">2016</xref>; Reed et al., <xref rid="ecy70288-bib-0068" ref-type="bibr">2016</xref>). Similarly, the 1997–1998 El Niño event in California recorded anomalously high ocean temperatures and low chlorophyll and primary production (Chavez et al., <xref rid="ecy70288-bib-0015" ref-type="bibr">2002</xref>). In contrast, marine heatwaves in the southern range (i.e., southern California to Baja California), where temperatures are already warm, have coincided with substantial reductions in larval supply (Okamoto et al., <xref rid="ecy70288-bib-0058" ref-type="bibr">2020</xref>) and adult densities (Arafeh‐Dalmau et al., <xref rid="ecy70288-bib-0001" ref-type="bibr">2019</xref>; Beas‐Luna et al., <xref rid="ecy70288-bib-0007" ref-type="bibr">2020</xref>; Reed et al., <xref rid="ecy70288-bib-0068" ref-type="bibr">2016</xref>). Within the warm Southern California Bight region, larvae are subject to seasonal fluctuations in temperature and food with higher temperatures often associated with lower food availability (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1</xref>). Furthermore, recruitment across the purple sea urchin range displays inconsistent patterns with large increases in the northern regions of California but decreases in recruitment in the southern parts of the range (Ebert, <xref rid="ecy70288-bib-0022" ref-type="bibr">2010</xref>; Ebert et al., <xref rid="ecy70288-bib-0023" ref-type="bibr">1994</xref>). Previous El Niño events and heatwave conditions in the Southern California Bight resulted in reduced recruitment for <italic toggle="yes">S. purpuratus</italic> (Tegner &amp; Dayton, <xref rid="ecy70288-bib-0083" ref-type="bibr">1991</xref>). Yet how ocean warming and food availability shapes sea urchin larval supply and subsequent recruitment remains an open question.</p><fig position="float" fig-type="FIGURE" id="ecy70288-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Temperature and chlorophyll across the Southern California Bight for January–June when larvae are in the water column. (a) Temperature and chlorophyll locations of Naples (NAP, red circle), Valley (VAL, blue circle), and Scripps Pier (SCR, black circle) and sea urchin collection site at Mohawk Reef, Santa Barbara (yellow circle). (b) Mean annual temperature (monthly average) from 2001 to 2022 at NAP (red), VAL (blue), and SCR (black) locations. Error bars represent ±1 SD of the monthly temperature over 21 years (2001–2022). Dashed lines represent monthly average temperatures for 2014, the warmest, most recent marine heatwave year. (c) Mean annual chlorophyll (in milligrams per cubic meter) concentrations at NAP (red), VAL (blue), and SCR (black) locations. Error bars represent ±1 SD of monthly chlorophyll values over 21 years (2001–2022). Dashed lines represent monthly average chlorophyll concentrations for 2014, the warmest, most recent marine heatwave year. (d) Negative relationship between temperature and chlorophyll concentrations for NAP (red), VAL (blue), and SCR (black) locations. Solid shapes represent averaged monthly values of years between 2001 and 2022 and open shapes represent values for each month of 2014.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECY-107-e70288-g004.jpg"><?image-name ECY-107-e70288-g004.jpg?><?image-size 104377?><?image-md5 ebf6128a0096c56d02d80278437f8096?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 837?><?image-original-width 1064?><?image-scaled-height 558?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/09a9/12816818/ebf6128a0096/ECY-107-e70288-g004.jpg?><?thumb-name ECY-107-e70288-g004.gif?><?thumb-size 13114?><?thumb-md5 ebb6dfe0b4b820e12f419a53a674a62c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 101?><?thumb-cloudpmc-urn urn:cdn:blobs/09a9/12816818/ebb6dfe0b4b8/ECY-107-e70288-g004.gif?></graphic></fig><p>Here, we test how food limitation shapes the thermal reaction norm with respect to survival and development using larval <italic toggle="yes">S. purpuratus</italic>. We use this model system to understand the influence of food availability on temperature‐dependent characteristics. Planktonic life history, larval development, survival, and time to metamorphic competency were measured for ecologically relevant temperatures (10–20°C) and food conditions (500–10,000 cells mL<sup>−1</sup>) to encompass ambient and near future conditions. Our main hypotheses are as follows: (1) elevated temperatures will decrease rates of survival and increase rates of growth and development, (2) food limitation will decrease survival and decrease rates of growth and development, and (3) food condition will have a synergistic interaction with temperature where the food limitation will negatively affect survival and development with elevated temperature. We examine historical marine heatwaves, annual and interannual temperature trends, and chlorophyll abundance in the Southern California Bight to establish minima and maxima for the experimental temperature and food treatments. Specifically, we include temperatures that are slightly above those experienced in extreme heatwave conditions. Our experimental design includes these treatments to provide a basis for uncovering unexplained variation in recruitment trends across the range (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1</xref>). We measure larval survival, morphology, and time to competency in relation to relevant temperature and larval food concentrations. We examine the effects of increasing ocean temperatures and food concentrations on larval sea urchins and discuss how this may influence community wide impacts on kelp forests in northern and southern regions.</p></sec><sec sec-type="materials-and-methods" id="ecy70288-sec-0002"><title>MATERIALS AND METHODS</title><p>Trends in survival, morphometric patterns, and time to metamorphic competency across temperature and food availability treatments were measured in <italic toggle="yes">S. purpuratus</italic> larvae. Larvae were spawned from adult purple urchins collected in Santa Barbara, CA. Effects of temperature and food availability were tested using a 6 × 4 factorial experimental design with six temperature treatments (10, 12, 14, 16, 18, 20°C) and four concentrations of <italic toggle="yes">Rhodomonas</italic> sp. microalgae (500, 2500, 5000, 10,000 cells mL<sup>−1</sup>) for a total of 24 treatment combinations. Food treatments represented algal concentrations from starvation to ad libitum conditions. Temperature and food treatments were based on historical observations of temperature trends and chlorophyll abundance (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1</xref>, Appendix <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><sec id="ecy70288-sec-0003"><title>Ocean temperature</title><p>Spanning the Southern California Bight from north to south, ocean temperature was obtained from three stations, Naples (NAP), Valley (VAL), and Scripps Pier (SCR) (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1a</xref>). Ocean temperature at the NAP and VAL stations was obtained from the Santa Barbara Coastal Long‐Term Ecological Research site and collected every 20 min at ~15 m depth from 2001 to 2022 (Washburn et al., <xref rid="ecy70288-bib-0091" ref-type="bibr">2025</xref>). Ocean temperature data at the SCR station was obtained from the Scripps Institution of Oceanography Manual Shore Stations program and collected daily from 2001 to 2022 at ~5 m depth (Carter et al., <xref rid="ecy70288-bib-0014" ref-type="bibr">2022</xref>). Annual mean monthly temperature was calculated for each station with confidence bands representing ±1 SD (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1b</xref>).</p></sec><sec id="ecy70288-sec-0004"><title>Ocean chlorophyll</title><p>Ocean chlorophyll at NAP, VAL, and SCR stations was obtained from satellite‐derived 5‐day composites of surface chlorophyll <italic toggle="yes">a</italic> concentrations from 2001 to 2022. Surface chlorophyll concentrations were derived from three ocean color sensors, SeaWiFS, MODIS‐Aqua, MODIS‐Terra, and MERIS, assembled by the Scripps Photobiology Group at U.C. San Diego (Kahru et al., <xref rid="ecy70288-bib-0038" ref-type="bibr">2012</xref>, <xref rid="ecy70288-bib-0037" ref-type="bibr">2015</xref>). Annual mean monthly surface chlorophyll was calculated for each station with confidence bands representing ±1 SD (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1c</xref>). Chl <italic toggle="yes">a</italic> concentrations are often used as a proxy for algal biomass due to challenges associated with measuring microalgae directly at large spatial scales (Bialonski et al., <xref rid="ecy70288-bib-0009" ref-type="bibr">2016</xref>; Spaulding et al., <xref rid="ecy70288-bib-0079" ref-type="bibr">2024</xref>). The highest food treatment in the current study is used to reflect a saturating density for optimal larval performance in <italic toggle="yes">S. purpuratus</italic> and reduced for lower food treatments. Previous studies have linked chl <italic toggle="yes">a</italic> concentrations to algal food availability to produce ecologically relevant larval food levels observed in nearshore temperate reefs (Basch, <xref rid="ecy70288-bib-0003" ref-type="bibr">1996</xref>; Basch &amp; Pearse, <xref rid="ecy70288-bib-0004" ref-type="bibr">1996</xref>; Basch &amp; Pearse, <xref rid="ecy70288-bib-0005" ref-type="bibr">2022</xref>). The highest food treatment in the current study is above the saturation value considered for sea urchin larvae, and serial restrictions in food were chosen given the large variation of microalgae in nature.</p></sec><sec id="ecy70288-sec-0005"><title>Field collections</title><p>Forty <italic toggle="yes">S. purpuratus</italic> were collected from seasonally urchin barren habitats between 2.2 and 8.8 m from Mohawk Reef in the Santa Barbara Channel, California, in June 2022 (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1a</xref>). Kelp is seasonally available to organisms in the area, but there is less food available compared to adjacent reefs. During the month of June 2022, temperature ranged from 12 to 19°C, with an average of 16°C. Before spawning, individuals were held at 13°C for 4 weeks at UC Davis Bodega Marine Laboratory and were fed 20 g of a standardized kelp‐based Urchinomics Inc. pelleted food every other day. While this is somewhat cooler than typical Santa Barbara conditions at the time of collection, these temperatures are still well within the natural range that urchins would experience seasonally in Santa Barbara. Importantly, the adults were given sufficient time to acclimate prior to spawning, which minimizes the risk of stress or temperature shock.</p></sec><sec id="ecy70288-sec-0006"><title>Larval culture</title><p>A homogeneous pool of fertilized embryos was assigned to temperature treatments. Spawning was induced by injecting 1–2 mL of 0.5 M KCl. Female urchins were placed upside down over 250‐mL beakers filled with filtered to 0.1‐μm seawater (FSW) at ambient temperature. Eggs were allowed to collect at the bottom of the beakers. Sperm was collected dry from the aboral surface and placed on ice in 2.0‐mL microcentrifuge tubes until use. Gamete quality was visually inspected, with eggs assessed for shape, color, and uniform size and sperm for motility. Eggs from four females were pooled and rinsed before being fertilized by sperm from four males. Multiple individuals were chosen from each sex to account for maternal effects and genetic variability present in natural populations. Approximately equal proportions of gametes from each individual within each sex were represented. Successful fertilization was determined by 95% of eggs having a fertilization envelope with no polyspermy. Fertilized eggs were rinsed three times with FSW to remove excess sperm to prevent polyspermy. Approximately 2800 embryos (concentration of ~5.5 embryos mL<sup>−1</sup>) were placed in each 500‐mL glass bottle filled with FSW and placed on roller tables to suspend larvae (Karelitz et al., <xref rid="ecy70288-bib-0039" ref-type="bibr">2020</xref>).</p><p>Roller agitation tables were constructed to provide water movement for larval sea urchin cultures. Rollers on free moving axles kept larval culture bottles rotating to prevent larvae from settling to the bottom. Bottles were partially submerged in water baths heated or chilled using Heater/Chillers (TECO US Inc. TK‐500) to maintain target temperatures. Embryos were initially stocked in bottles with ambient temperature (16°C) FSW to minimize temperature shock but were immediately placed into water baths to allow embryos to acclimate to target temperatures. Each of the 24 temperature × food treatments had four replicate bottles for a total of 96 bottles. Larvae were fed daily starting at 4 days postfertilization (when larvae were observed to be competent to feed) and water changes and feeding were conducted every 2 days.</p></sec><sec id="ecy70288-sec-0007"><title>Density counts, sampling, morphometrics, and metamorphic competency</title><p>Larval sampling was conducted every 2 days to estimate changes in larval density, morphometry, and competency, in conjunction with water changes and feedings. Larval densities were quantified by concentrating larval cultures to 100 mL and counting the number of larvae found in five 1‐mL subsamples. Density counts continued until larvae showed signs of metamorphosis, as determined by the presence of a rudiment and exposed tube feet. Larval samples were collected 4, 9, and 15 days postfertilization and fixed in 10% phosphate‐buffered saline (PBS) buffered formalin for morphometric analyses. Samples were collected before feeding to minimize the influence of algae on stomach measurements. Fixed larvae were then photographed using an Olympus BX41 compound microscope with a Nikon 3400 DSLR camera at 4× magnification, and postoral arm length, body length, and stomach length/height were measured in 20 randomly selected larvae from each sample using ImageJ software (Schneider et al., <xref rid="ecy70288-bib-0073" ref-type="bibr">2012</xref>). Metamorphic competency was determined when &gt;50% of larvae exhibited tube feet and adhered to the bottle.</p></sec><sec id="ecy70288-sec-0008"><title>Statistical analysis</title><sec id="ecy70288-sec-0009"><title>Morphometrics and development time</title><p>We used a Bayesian generalized linear mixed‐effects model to estimate how larval morphometrics varied with temperature, food, and time. The model had an interaction between temperature, food, and days postfertilization while adding a hierarchical (random) intercept term by bottle replicate. We used a separate model for each response variable: larval body length, averaged postoral arm length, and stomach area (calculated with area of an oval using stomach height and width). All morphometric models were modeled with a Gamma likelihood and log link. The model including temperature, food, and days postfertilization was selected to maximize predictive accuracy, from which posteriors were analyzed for treatment comparisons. Models were constructed and posteriors were sampled using the <italic toggle="yes">brms</italic> package in R (Bürkner, <xref rid="ecy70288-bib-0012" ref-type="bibr">2017</xref>) as an interface to Stan (Stan Development Team, <xref rid="ecy70288-bib-0092" ref-type="bibr">2023</xref>). We computed the posterior distribution of pairwise differences in parameters within each timepoint using the <italic toggle="yes">emmeans</italic> package (Lenth, <xref rid="ecy70288-bib-0044" ref-type="bibr">2017</xref>). To display the exponential relationship between temperature and time to metamorphic competency, the <italic toggle="yes">nls</italic> function from <italic toggle="yes">stats</italic> in R was used to create a nonlinear weighted least squares estimate for an exponential decay function.</p></sec><sec id="ecy70288-sec-0010"><title>Survival</title><p>The effects of each treatment on larval survival rates during each 2‐day interval were estimated using a custom Bayesian hierarchical state‐space model (see Appendix <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>: Supplemental methods for more information). We use this approach because survival is not directly observable and thus must be inferred from subsampled data as an “inverse problem.” A Bayesian approach allows for estimates of survival by handling both process and observation uncertainty, accommodates unbalanced data spaced in time across replicates, and enables probabilistic statements of mortality rates and survival using full posterior distributions. Specifically, larval subsample counts are measured with error, and thus survival from one timepoint to another timepoint is estimated in the presence of measurement error at both timepoints. As a result, to estimate mortality rates within each treatment/time period and among replicates, we require a model that allows for both error in measurement (counts as subsamples of the true density) and error in process (variation in mortality across times and replicates).</p><p>Our model approach assumes that (1) survival is not directly observed (inferred from count data), (2) variability comes from sampling error and process error, (3) mortality between timepoints follows an exponential decay, and (4) counts conditional on the true densities follow a Poisson distribution. Core model parameters, hyperparameters, priors, and hyperpriors are detailed in Appendix <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>. Models were estimated in Stan via R using <italic toggle="yes">cmdstan</italic>.</p></sec></sec></sec><sec sec-type="results" id="ecy70288-sec-0011"><title>RESULTS</title><p>The effect of temperature on larval survival and morphometry varied with food. When food was in high quantities, larval survival peaked at temperatures consistent with those experienced in the Southern California Bight (12–16°C; Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1b</xref>). As temperatures approached the cooler (10°C) and warmer extremes (18 and 20°C), survival sharply decreased. However, when food quantities were low, larval survival was highest at the coolest temperature (10°C) with survival dropping as temperatures increased. Mortality rate changed throughout the experiment for all treatments, with higher mortality in early phases of the experiment and lower mortality as larvae aged. Larval body length, postoral arm length, and stomach area increased with higher temperatures and food availability, with growth trends varying by larval age, where lower temperatures and food resulted in smaller larvae at 9 and 15 days, while stomach area significantly increased with higher food at 9 and 15 days, especially in warmer conditions. In contrast to temperature, time to metamorphic competency decreased exponentially with increasing temperature but did not differ between the two highest food treatments (where survival to competency was sufficiently high for comparison).</p><sec id="ecy70288-sec-0012"><title>Survival</title><p>Food and temperature interacted to influence larval survival, decreasing exponentially between 0 and 15 days postfertilization across all treatments. Following the initial phase of mortality, cultures experienced either complete mortality (i.e., bottle level extirpation) or plateaued mortality rates. Larvae in 10 and 12°C reached metamorphic competency last and exhibited mortality rates that leveled off and remained low from 20 days postfertilization onward to 61 and 33 days, respectively. Importantly, mortality rates decreased over time, but the qualitative effects of food and temperature remained consistent, which is evident in the survival rates (Figure <xref rid="ecy70288-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="FIGURE" id="ecy70288-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>The effect of food availability (in algae cells per milliliter) on larval survival with 95% CIs across the duration of the experiment, separated by temperature in each panel. Survival curves terminate either due to total mortality of treatment type or larvae reaching metamorphic competency. Larval survival was greatest in the highest food treatment, 10,000 cells mL<sup>−1</sup>. Larval survival steeply dropped off and resulted in total mortality at 15 days post fertilization in the lowest food treatment (500 cells mL<sup>−1</sup>) across temperatures.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECY-107-e70288-g002.jpg"><?image-name ECY-107-e70288-g002.jpg?><?image-size 74573?><?image-md5 51cb28c4a2ada484adc354ce90ef874c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 726?><?image-original-width 1064?><?image-scaled-height 484?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/09a9/12816818/51cb28c4a2ad/ECY-107-e70288-g002.jpg?><?thumb-name ECY-107-e70288-g002.gif?><?thumb-size 3386?><?thumb-md5 081a93f7048e700cd38352ad6a679626?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 117?><?thumb-cloudpmc-urn urn:cdn:blobs/09a9/12816818/081a93f7048e/ECY-107-e70288-g002.gif?></graphic></fig><p>Throughout the experiment, survival decreased, but in low food treatments, survival steeply dropped off as opposed to the highest food treatments slowly decreasing over time (Figure <xref rid="ecy70288-fig-0002" ref-type="fig">2</xref>). The 14°C treatment was excluded from all survival analyses due to equipment malfunction at 10 days post fertilization which resulted in &gt;50% mortality across all replicate bottles. Qualitatively, larval survival in the 14°C treatment tracks similar trends of 12 and 16°C. However, due to equipment failure survival trends in the 14°C were excluded from the analysis. Although the exclusion of data for larvae held at 14°C may have potentially missed the peak precise survival point in the thermal performance curves, the overall trend of how food modulates thermal performance remains consistent despite the 14°C exclusion. Specifically, at the 7‐day timepoint, survival in 12°C was 78%, 14°C was 80%, and 16°C was 76%. The 20°C treatment exhibited the lowest survival rates across all timepoints compared to the other temperature treatments (Figure <xref rid="ecy70288-fig-0002" ref-type="fig">2</xref>). In the lowest food treatment (500 cells mL<sup>−1</sup>) survival was particularly poor with only 21% surviving at 9 days, dropping to just 2% by 11 days and down to 0.03% by 15 days. Survival rates increased slightly in the 2500 cells mL<sup>−1</sup> treatment, with 47% surviving at 9 days, decreasing to 15% at 11 days and 3% at 15 days. As food increased to 5000 cells mL<sup>−1</sup>, survival was 57% at 9 days, 32% at 11 days, and 14% at 15 days. In the highest food treatment of 10,000 cells mL<sup>−1</sup>, survival was 61% at 9 days, 33% at 11 days, and 22% at 15 days. Cumulative survival rates for each timepoint for all temperatures and food treatments are provided in Munstermann et al. (<xref rid="ecy70288-bib-0053" ref-type="bibr">2025b</xref>) in the file named TableS1_surv_mort_perbottle_modeloutput.csv.</p><p>At the 15 day timepoint, the shape of thermal performance curves largely differed by food availability with larvae in high food treatments displaying peak survival at mid‐range ambient temperatures but decreasing with temperature when food was in low quantities (Figure <xref rid="ecy70288-fig-0003" ref-type="fig">3</xref>). The 15 days post fertilization was the last timepoint with sufficient larvae from all food and temperature treatments to allow comparisons across treatments (Figure <xref rid="ecy70288-fig-0003" ref-type="fig">3</xref>). There was a disproportionate reduction in survival as food decreases between temperatures: Within the warmest temperature (20°C) there was a 22% reduction in survival between the highest food treatment and the lowest food treatment, whereas in 10°C, a temperature that larvae would commonly experience in the wild, there was only a 4% reduction between the highest and lowest food treatment. Survival was similar across food treatments at 10 and 12°C; however, as temperature increased the negative effect of lower food became exacerbated (Figure <xref rid="ecy70288-fig-0003" ref-type="fig">3</xref>). Pairwise comparisons reveal no differences in survival across food treatments at 10°C (500 cells mL<sup>−1</sup>: 34% CI [23%–46%], 2500 cells mL<sup>−1</sup>: 34% CI [24%–45%], 5000 cells mL<sup>−1</sup>: 37% CI [26%–49%], and 10,000 cells mL<sup>−1</sup>: 38% CI [27%–49%]). In 12°C, the lowest food treatment of 500 cells mL<sup>−1</sup> had lower survival at 28% CI (19%–38%) compared to the 42% CI (31%–53%) survival at 2500 cells mL<sup>−1</sup>, 51% CI (41%–62%) survival at 5000 cells mL<sup>−1</sup>, and 46% CI (36%–57%) survival at 10,000 cells mL<sup>−1</sup> food treatments (Bayesian probability = 0.02675, 0.0005, 0.00775, respectively). In 16°C, the lowest food treatment had lower survival of 6% CI (3%–12%) compared to the remaining food treatments (24% CI [15%–34%], 33% CI [24%–44%], and 47% CI [35%–56%], respectively). There was also a significant difference in survival between larvae in the highest food treatment and the 2500 cells mL<sup>−1</sup> (Bayesian probability = 0.0028) and 5000 cells mL<sup>−1</sup> food treatments (Bayesian probability = 0.040). In 18°C, the 500 cells mL<sup>−1</sup> food treatment had the lowest survival of 1% CI (0.03%–4%), 2500 cells mL<sup>−1</sup> with 5% CI (1%–10%), 5000 cells mL<sup>−1</sup> with 16% CI (9%–26%), and the 10,000 cells mL<sup>−1</sup> with the highest survival of 36% CI (26%–47%), all displaying meaningfully different survival rates (Bayesian probability = 0.038, &lt;0.001, &lt;0.001, &lt;0.001, respectively). Lastly, in 20°C, no meaningful differences in survival rates were detected between the two highest food treatments (15% CI [8%–24%] and 22% CI [13%–33%], respectively), whereas survival in the two low food treatments (0.15% CI [0.0001%–1.03%] and 3% CI [1.1%–7%], respectively) were significantly lower compared to the rest of the food treatments (Bayesian probability = 0.0001). All pairwise survival comparisons are provided in Munstermann et al. (<xref rid="ecy70288-bib-0053" ref-type="bibr">2025b</xref>) in the file named TableS2_survival_15day_pairwise.csv. In the Southern California Bight system and greater purple urchin range, huge variation exists for temperature and food availability both in time and space. Our data indicate not only that the interaction between temperature and food may affect survival, but also that food restrictions with a slight increase in temperature can lead to significant impairments to survival. In the Southern California Bight, temperatures are rarely above 17°C in the wild when larvae are in the plankton; however, we observe dips in survival even at 16°C when food is limited. Therefore, the effect of food availability on survival across the tested range of temperatures has important ecological implications in explaining the mechanisms in which recruitment and subsequent adult population numbers fluctuate in response to ocean warming or marine heatwave events.</p><fig position="float" fig-type="FIGURE" id="ecy70288-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Shape of thermal performance curve for survival changes depending on amount of food available at 15 days post fertilization. Lines and points represent posterior mean estimates and bands represent 95% posterior uncertainty intervals. Larval survival was not significantly different across food concentrations at 10°C, indicated by the overlapping CIs, whereas in warmer temperatures, survival differed by the amount of available food. See results for specific contrasts.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ECY-107-e70288-g001.jpg"><?image-name ECY-107-e70288-g001.jpg?><?image-size 71987?><?image-md5 8ce271e59a69005a9408bd4b38566eee?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 880?><?image-original-width 1064?><?image-scaled-height 586?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/09a9/12816818/8ce271e59a69/ECY-107-e70288-g001.jpg?><?thumb-name ECY-107-e70288-g001.gif?><?thumb-size 3331?><?thumb-md5 ce6c79542b3a10cb76dd19e65b846f73?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 83?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/09a9/12816818/ce6c79542b3a/ECY-107-e70288-g001.gif?></graphic></fig></sec><sec id="ecy70288-sec-0013"><title>Time to competency</title><p>Larvae in higher temperatures had a shorter planktonic larval duration, measured as the time to metamorphic competency, compared to lower temperatures. Not all food treatments had sufficient survival to estimate time to metamorphic competency. Time to metamorphic competency decreased exponentially with temperature, with larvae at 10°C reaching competency in 61 days, larvae at 12°C in 33 days, larvae at 14°C in 29 days, larvae at 16°C in 25 days, larvae at 18°C in 22 days, and larvae at 20°C in 21 days (Table <xref rid="ecy70288-tbl-0001" ref-type="table">1</xref>, Appendix <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>). At 61 days in 10°C, 5% and 10% (cumulative survival across replicates) of larvae reached metamorphic competency in the 5000 and 10,000 cells mL<sup>−1</sup> food treatments, respectively. At 33 days in 12°C, 9%, 22%, and 16% of larvae reached metamorphic competency in 2500, 5000, and 10,000 cells mL<sup>−1</sup> food treatments, respectively. At 25 days in 16°C, 13% and 18% of larvae reached metamorphic competency in the high food treatments, respectively. At 22 days in 18°C, 16% and 14% of larvae reached metamorphic competency in the high food treatments, respectively. At 21 days in 20°C, 14% and 11% of larvae reached metamorphic competency in the high food treatments, respectively. The lowest food treatment eventually resulted in 100% mortality, regardless of temperature. Within each temperature, time to competency did not differ between the two highest food conditions; however, the 2500 cells mL<sup>−1</sup> food treatment lagged by 2 days in both 12 and 14°C (Table <xref rid="ecy70288-tbl-0001" ref-type="table">1</xref>). In 16°C, larvae in 2500, 5000, and 10,000 cells mL<sup>−1</sup> food treatments all reached competency at 25 days (Table <xref rid="ecy70288-tbl-0001" ref-type="table">1</xref>). Larvae in warmer temperatures and highest food were in the 8‐arm (14–20°C) larval stage, whereas larvae in cooler temperatures and lowest food were in 4‐arm (10–14°C) or 6‐arm (16–20°C) stages (Appendix <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><table-wrap position="float" id="ecy70288-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Time to settlement decreased exponentially with increasing temperature and was determined when the majority (&gt;50%) of individuals reached metamorphic competency.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Temperature (°C)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Algal food concentration (cells mL<sup>−1</sup>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Days to metamorphic competency</th></tr></thead><tbody valign="top"><tr><td rowspan="4" align="left" valign="top" colspan="1">10</td><td align="char" char="." valign="top" rowspan="1" colspan="1">500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 23 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">2500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 25 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">5000</td><td align="left" valign="top" rowspan="1" colspan="1">61</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">10,000</td><td align="left" valign="top" rowspan="1" colspan="1">61</td></tr><tr><td rowspan="4" align="left" valign="top" colspan="1">12</td><td align="char" char="." valign="top" rowspan="1" colspan="1">500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 23 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">2500</td><td align="left" valign="top" rowspan="1" colspan="1">35</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">5000</td><td align="left" valign="top" rowspan="1" colspan="1">33</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">10,000</td><td align="left" valign="top" rowspan="1" colspan="1">33</td></tr><tr><td rowspan="4" align="left" valign="top" colspan="1">14</td><td align="char" char="." valign="top" rowspan="1" colspan="1">500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 15 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">2500</td><td align="left" valign="top" rowspan="1" colspan="1">31</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">5000</td><td align="left" valign="top" rowspan="1" colspan="1">29</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">10,000</td><td align="left" valign="top" rowspan="1" colspan="1">29</td></tr><tr><td rowspan="4" align="left" valign="top" colspan="1">16</td><td align="char" char="." valign="top" rowspan="1" colspan="1">500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 15 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">2500</td><td align="left" valign="top" rowspan="1" colspan="1">25</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">5000</td><td align="left" valign="top" rowspan="1" colspan="1">25</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">10,000</td><td align="left" valign="top" rowspan="1" colspan="1">25</td></tr><tr><td rowspan="4" align="left" valign="top" colspan="1">18</td><td align="char" char="." valign="top" rowspan="1" colspan="1">500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 15 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">2500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 15 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">5000</td><td align="left" valign="top" rowspan="1" colspan="1">22</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">10,000</td><td align="left" valign="top" rowspan="1" colspan="1">22</td></tr><tr><td rowspan="4" align="left" valign="top" colspan="1">20</td><td align="char" char="." valign="top" rowspan="1" colspan="1">500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 13 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">2500</td><td align="left" valign="top" rowspan="1" colspan="1">No metamorphosis—died by 15 dpf</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">5000</td><td align="left" valign="top" rowspan="1" colspan="1">21</td></tr><tr><td align="char" char="." valign="top" rowspan="1" colspan="1">10,000</td><td align="left" valign="top" rowspan="1" colspan="1">21</td></tr></tbody></table><table-wrap-foot id="ecy70288-ntgp-0002"><fn id="ecy70288-note-0002"><p>
+<italic toggle="yes">Note</italic>: Reductions in food concentrations resulted in delays to metamorphic competency. Larval cultures that reached metamorphic competency have the number of days indicated in the right column. Larval cultures that did not survive have the number of days post fertilization (dpf) culture was removed.</p></fn></table-wrap-foot></table-wrap></sec><sec id="ecy70288-sec-0014"><title>Larval morphometrics</title><p>Temperature and food had a synergistic effect on larval body length, postoral arm length, and stomach area, with size trends dependent on age. Within each temperature, body length was similar across food treatments at 4 days post fertilization but at 9 and 15 days. Cooler temperatures (10 and 12°C) and lower food resulted in smaller larvae compared to warmer temperatures (18 and 20°C) with high food. At 4 days, temperature had a stronger effect than food on body length. Body lengths in 10°C (all food treatments) were, on average, 1.4× smaller and significantly different from individuals in 12, 14, 16, 18, and 20°C temperatures, which were approximately the same size (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4a</xref>, <italic toggle="yes">p</italic> &lt; 0.001). At 9 days and within each temperature, body length was smallest in the lowest food treatment and increased with each increasing food treatment. In 10°C, body length increased from 177 μm in the lowest food treatment to 184 μm in the highest food treatment; in 12°C body length increased from 186 to 193 μm; in 14°C body length increased from 191 to 202 μm; in 16°C body length increased from 195 to 222 μm; in 18°C body length increased from 202 to 221 μm; and in 20°C, body length increased from 180 to 207 μm (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4a</xref>). Although larvae were the same age, all individuals in 10°C (μ = 181 μm) were about the same size as the lowest food treatment in 20°C (180 μm), whereas larvae in warmer, high food treatments were, on average, 1.3× larger (228 μm). At 15 days, body length increased with temperature (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4a</xref>), and within each temperature, body length increased with food; however, the magnitude of size differences was 1.4× times greater for high food and warm temperatures compared to the lowest food treatment in 10°C (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4a</xref>). All significance values for larval morphometric pairwise comparisons are in Munstermann et al. (<xref rid="ecy70288-bib-0053" ref-type="bibr">2025b</xref>) in the file named TableS3_morphometric_pairwise.xlsx.</p><fig position="float" fig-type="FIGURE" id="ecy70288-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Morphometry of larvae at 4‐, 9‐, and 15‐days post fertilization across temperatures ranging from 10 to 20°C and four algal food concentrations (500–10,000 cells mL<sup>−1</sup>). Three larval body morphometrics were measured: (a) body length (in micrometers), (b) averaged postoral arm length (in micrometers), and (c) stomach area (in square micrometers). Points represent observed body length values for individuals. Trend lines represent Bayesian generalized linear mixed‐effects model estimates and 95% CIs. All larval images were illustrated by Sam E. Karelitz.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ECY-107-e70288-g003.jpg"><?image-name ECY-107-e70288-g003.jpg?><?image-size 106870?><?image-md5 702ce9a33e3f49efe465b81885da74d8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 946?><?image-original-width 1064?><?image-scaled-height 630?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/09a9/12816818/702ce9a33e3f/ECY-107-e70288-g003.jpg?><?thumb-name ECY-107-e70288-g003.gif?><?thumb-size 12724?><?thumb-md5 cde487e325ab057f550ec2c4d3c60776?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 89?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/09a9/12816818/cde487e325ab/ECY-107-e70288-g003.gif?></graphic></fig><p>A similar trend was observed in the postoral arm length averages at day 4 across temperature and food treatments but at 9 and 15 days, cooler temperatures had larvae with shorter arms and warmer temperatures had larvae with longer arms (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4b</xref>; TableS3_morphometric_pairwise.xlsx in Munstermann et al., <xref rid="ecy70288-bib-0053" ref-type="bibr">2025b</xref>). Stomach area, however, was a consistent size across temperature treatments at day 4 (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4c</xref>; TableS3_morphometric_pairwise.xlsx in Munstermann et al., <xref rid="ecy70288-bib-0053" ref-type="bibr">2025b</xref>), but at 9 days, stomach area increased with food availability (500 cells mL<sup>−1</sup> = 1992 μm<sup>2</sup>, 2500 cells mL<sup>−1</sup> = 2851 μm<sup>2</sup>, 5000 cells mL<sup>−1</sup> = 2899 μm<sup>2</sup>, 10,000 cells mL<sup>−1</sup> = 3451 μm<sup>2</sup>) but did not differ significantly by temperature (Figure <xref rid="ecy70288-fig-0004" ref-type="fig">4c</xref>, <italic toggle="yes">p</italic> &lt; 0.001). At 15 days, stomach area in the lowest food treatments remained small across temperatures (μ = 3635 μm<sup>2</sup>), whereas all high food treatments exponentially increased in size, with a 3.7× increase in 18°C (13,552 μm<sup>2</sup>) and a 4× increase in 20°C (14,573 μm<sup>2</sup>).</p></sec></sec><sec sec-type="discussion" id="ecy70288-sec-0015"><title>DISCUSSION</title><p>We present experimental evidence illustrating how food availability modifies temperature impacts on larval survival and development. Co‐occurring shifts in food availability and temperature synergistically shape mortality of early life history stages. Even small changes in the proportion of larvae surviving can scale up to large differences in recruitment success due to only a fraction of larvae ever reaching suitable settlement habitats. Thus, larval survival interacts with oceanographic drivers of transport. While currents and oceanographic processes associated with events such as El Niño largely determine whether larvae are delivered to the coast, the size of the larval pool available for transport depends not only on production of larvae but also survival during the planktonic larval period. Historical recruitment failures in purple urchins have been attributed to oceanographic processes limiting delivery and production of larvae (Basch &amp; Tenger, <xref rid="ecy70288-bib-0006" ref-type="bibr">2007</xref>; Okamoto et al., <xref rid="ecy70288-bib-0059" ref-type="bibr">2025</xref>; Simons &amp; Okamoto, <xref rid="ecy70288-bib-0077" ref-type="bibr">2025</xref>), but our results suggest that variation in survival, especially under concurrent shifts in food supply and temperature, may further magnify or buffer those outcomes. As such, larval production, transport, and survival dynamics jointly shape recruitment dynamics, highlighting how changes in ocean conditions can alter urchin population trajectories. While we use larvae of a marine invertebrate to test these hypotheses, these results may hold for many ectotherms, including species in terrestrial, freshwater, and other marine systems (Gunderson &amp; Stillman, <xref rid="ecy70288-bib-0028" ref-type="bibr">2015</xref>; Huxley et al., <xref rid="ecy70288-bib-0036" ref-type="bibr">2022</xref>). Resource availability combined with warming strongly influenced survival of early life stages which may impact later life history stages, and ultimately the productivity and viability of populations. Two main findings emerged from this study: (1) effect of temperature on larval survival shifts to cooler optima under food limitation; (2) while thermal tolerance and survival are influenced by resource availability, developmental rates were governed by temperature with warmer temperatures resulting in a shorter larval planktonic period and larger individuals.</p><sec id="ecy70288-sec-0016"><title>Implications of survival</title><p>Our study provides evidence of a shift in the thermal reaction norms associated with reduction of food resources, which directly informs observed historic population dynamics and recruitment patterns. Importantly, this result is consistent with expectations from the “metabolic meltdown” hypothesis (Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0035" ref-type="bibr">2019</xref>). When comparing stressful temperatures to ambient temperatures, there is a disproportionate reduction in survival as food decreases, potentially due to stressful temperatures requiring a greater reliance on food for energy. Larvae were not only smaller in cooler temperatures but also less mature. Because of the lower metabolic costs for smaller, earlier developmental stage larvae, less energy and thus less food may be required to maintain similar functions (Holden et al., <xref rid="ecy70288-bib-0033" ref-type="bibr">2019</xref>; Mogensen &amp; Post, <xref rid="ecy70288-bib-0050" ref-type="bibr">2012</xref>). However, as larvae grow faster and are larger in higher temperatures, they have higher metabolic demands (O'Connor et al., <xref rid="ecy70288-bib-0057" ref-type="bibr">2007</xref>), such that the mortality rate is amplified even with small reductions in food quantity. Variations in larval growth and development are observed between food and temperature treatments; however, we are unable to distinguish if larvae from different treatments had varying body shapes or if individuals were at different developmental stages. Similar results are found for various taxa including fish, gastropods, and sea stars. In larval fish, lower food availability resulted in significantly smaller individuals compared to the full food ration; however, the added stressor of warm temperature had an inverse effect with higher growth rate and survival in late‐stage larvae (Koenker et al., <xref rid="ecy70288-bib-0041" ref-type="bibr">2018</xref>). Similarly in whelk, <italic toggle="yes">Nucella ostrina</italic>, individuals exposed to warmer water temperature had higher survival when food was abundant and lower survival when food was scarce (Dahlhoff et al., <xref rid="ecy70288-bib-0019" ref-type="bibr">2001</xref>). In larval asteroids, food availability had a strong effect on development time with the lowest food treatment (500 cells mL<sup>−1</sup>) resulting in arrested growth at early pre‐competent stages, an observation also made in the current study with arrest in the low food treatment of 500 cells mL<sup>−1</sup> (Basch, <xref rid="ecy70288-bib-0003" ref-type="bibr">1996</xref>). To maintain necessary biological processes, species can also shift energy allocation when exposed to unfavorable conditions to compensate for compounding stressors when food is available (Pan et al., <xref rid="ecy70288-bib-0063" ref-type="bibr">2015</xref>); however, the increased energetic cost of surviving in warmer conditions requires compensation in the form of behavioral changes, energy conservation, or nutrition (Holden et al., <xref rid="ecy70288-bib-0033" ref-type="bibr">2019</xref>; Huey &amp; Kingsolver, <xref rid="ecy70288-bib-0035" ref-type="bibr">2019</xref>; Mogensen &amp; Post, <xref rid="ecy70288-bib-0050" ref-type="bibr">2012</xref>).</p></sec><sec id="ecy70288-sec-0017"><title>Impacts to larval development</title><p>In contrast to survival, time to metamorphic competency was largely shaped by temperature, as synthesized in previous work (O'Connor et al., <xref rid="ecy70288-bib-0057" ref-type="bibr">2007</xref>; Strathmann, <xref rid="ecy70288-bib-0080" ref-type="bibr">1978</xref>). In ambient temperatures, 12 and 14°C, all but the lowest food treatment reached competency, whereas in the coldest temperature 10°C and the warmer temperatures 16, 18, and 20°C, only the two highest food treatments reached competency. Development times do not differ above 5000 cells mL<sup>−1</sup> of food, indicating that temperature determines time to metamorphosis more than food. Temperature extremes may impose stressful conditions that require a certain threshold of food to transition from the larval stage to the juvenile stage, but once that food threshold is achieved there is no difference in developmental response. When temperatures approach stressful levels, low food (2500 cells mL<sup>−1</sup>) may not have provided adequate sustenance for metamorphosis. In the Southern California Bight, high temperatures are associated with low food availability (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1</xref>), indicating that when heatwave conditions are present, time to settlement may be reduced.</p><p>The synergistic effect of temperature and food availability on survival, but not development time, imposes an important trade‐off. Larvae in cooler temperatures have an extended period of development in the plankton. Thus, larvae must endure a longer vulnerable period in planktonic forms but may also have higher cumulative survival (i.e., independent of predation or other exogenous risks). In contrast, larvae in warmer temperatures have a shorter planktonic larval duration but with lower basal cumulative survival rates. Temporal trends in mortality rate (i.e., decline in mortality as larvae age) and predation on larvae complicate these trade‐offs. Furthermore, warmer water associated with lower food concentrations (SCR station) and cooler temperatures with higher food (NAP and VAL stations) indicate that even within the Southern California Bight, larval survival may differ (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1a,d</xref>). Avenues for future studies can focus on quantifying the stage in which food limitation affects larval condition and assess phytoplankton communities and survival in nature (Basch &amp; Pearse, <xref rid="ecy70288-bib-0005" ref-type="bibr">2022</xref>). Previous studies have linked El Niño conditions to reductions in primary productivity in Southern California and therefore linking low food concentrations to larval limitations requires direct wild sampling to assess more realistic scenarios.</p><p>
+<italic toggle="yes">S. purpuratus</italic> span a large latitudinal range over which populations experience highly variable temperature and oceanographic regimes as well as divergent recruitment trends. While our study focused on animals sourced from Santa Barbara, CA, from seasonally barren sites, organisms from kelp‐replete or other regions throughout the range may exhibit different thermal reaction norms from those identified here (Azad et al., <xref rid="ecy70288-bib-0002" ref-type="bibr">2012</xref>; Hammond &amp; Hofmann, <xref rid="ecy70288-bib-0029" ref-type="bibr">2010</xref>; Stumpp et al., <xref rid="ecy70288-bib-0082" ref-type="bibr">2013</xref>). In addition to population variability, larvae spawned from a subset of individuals will never fully encompass the genetic variation present in the population. The isolation of the population scale genetic effects lies beyond the scope of this paper and is an area for future research. As a result, future contributions may expand on these insights by replicating results across parental nutritional states, thermal regimes, and/or genotypes. Despite the potential for population differentiation, our work illustrates that food and temperature can interact synergistically to shape survival and must be accounted for in estimating larval survival and delivery of feeding larvae. This result is likely to have implications for purple urchin recruitment trends across the range due to early life history stages dictating the number of successful recruits and subsequent adult population sizes (Ebert, <xref rid="ecy70288-bib-0022" ref-type="bibr">2010</xref>; Pineda, <xref rid="ecy70288-bib-0064" ref-type="bibr">2000</xref>; Woodson et al., <xref rid="ecy70288-bib-0090" ref-type="bibr">2012</xref>).</p><p>Dispersal distance and larval duration can directly determine the recruitment and structure of adult populations (Morgan et al., <xref rid="ecy70288-bib-0051" ref-type="bibr">2009</xref>). Oceanographic factors such as eddies, jet formation, upwelling, strong winds, and ocean fronts have influence on water movement and recruitment dynamics by the advection of larvae offshore and return of larvae via eddies and shallow waves in the convergence zone (Connolly &amp; Roughgarden, <xref rid="ecy70288-bib-0018" ref-type="bibr">1998</xref>; Ebert &amp; Russell, <xref rid="ecy70288-bib-0024" ref-type="bibr">1988</xref>; Shanks, <xref rid="ecy70288-bib-0075" ref-type="bibr">1983</xref>; Woodson et al., <xref rid="ecy70288-bib-0090" ref-type="bibr">2012</xref>). The eddies specifically in the Southern California Bight can alter the sea surface temperature, retention of larvae, and ultimately nutrient concentrations, larval delivery, and recruitment patterns (DiGiacomo &amp; Holt, <xref rid="ecy70288-bib-0021" ref-type="bibr">2001</xref>; Siegel et al., <xref rid="ecy70288-bib-0076" ref-type="bibr">2008</xref>). Between 1990 and 1993, purple urchin settlement trends differed between northern and southern CA with settlement densities consistently higher in the south, potentially attributed to opposing oceanographic conditions with weak cross shelf water movement, reduced upwelling conditions, and larval retention in the Southern eddy system (Ebert et al., <xref rid="ecy70288-bib-0023" ref-type="bibr">1994</xref>; Ebert &amp; Russell, <xref rid="ecy70288-bib-0024" ref-type="bibr">1988</xref>). Advective currents may alter the ability of larvae to reach shore and successfully settle (Gaylord &amp; Gaines, <xref rid="ecy70288-bib-0026" ref-type="bibr">2000</xref>). Planktonic dispersal of larval crabs and other larval organisms in the south follows an eddy circulation current pattern and may result in settlement closer to the site of spawning; whereas larvae in northern California seem to follow a different transport mechanism by remaining near shore during the upwelling season by descending below the Ekman transport layer during development and returning to shore by ascending to the surface via wind relaxation events or internal waves (Ebert &amp; Russell, <xref rid="ecy70288-bib-0024" ref-type="bibr">1988</xref>; Gaylord &amp; Gaines, <xref rid="ecy70288-bib-0026" ref-type="bibr">2000</xref>; Morgan et al., <xref rid="ecy70288-bib-0051" ref-type="bibr">2009</xref>). The vertical distribution and behavior of sea urchin larvae in nature remains a research frontier and future work can focus on the modeling and measurement of urchin larval dispersal with the interactions between physiological, demographic, and developmental responses to climate. Historical recruitment failures in purple urchins may be explained by the aforementioned oceanographic processes and changes in transport mechanisms associated with El Niño events.</p><p>Prolonged larval duration observed in cooler conditions may increase dispersal potential as well as connectivity and gene flow among populations (Rogers‐Bennett &amp; Rogers, <xref rid="ecy70288-bib-0071" ref-type="bibr">2008</xref>) however may lead to transportation of larvae away from favorable settlement conditions (Strathmann et al., <xref rid="ecy70288-bib-0081" ref-type="bibr">2002</xref>). Although we found cumulative survival to be higher in cooler temperatures, development time was longer, spending a significantly greater amount of time in the vulnerable planktonic life stage, potentially reducing the likelihood of returning to nearshore habitats and overall survival due to oceanographic factors (Burgess et al., <xref rid="ecy70288-bib-0011" ref-type="bibr">2016</xref>; Menge, <xref rid="ecy70288-bib-0046" ref-type="bibr">2000</xref>; Pineda, <xref rid="ecy70288-bib-0064" ref-type="bibr">2000</xref>; Strathmann et al., <xref rid="ecy70288-bib-0081" ref-type="bibr">2002</xref>). Conversely, in warmer temperatures or years with marine heatwaves, shorter planktonic larval duration is expected to lead to quicker settlement of larvae that are larger and potentially more successful in the benthos but with lower larval survival. Population connectivity in the California Current system is a function of planktonic larval duration (Mitarai et al., <xref rid="ecy70288-bib-0049" ref-type="bibr">2008</xref>). Fewer days in the plankton coupled with larger size at settlement in warm water may outweigh lower larval survival rates in some oceanographic conditions, at the expense of lower connectivity between populations (Mitarai et al., <xref rid="ecy70288-bib-0048" ref-type="bibr">2009</xref>; O'Connor et al., <xref rid="ecy70288-bib-0057" ref-type="bibr">2007</xref>; Rassweiler et al., <xref rid="ecy70288-bib-0067" ref-type="bibr">2020</xref>).</p><p>Oceanographic processes, many of which are affected by El Niño, also play an important role in shaping the spatial and temporal patterns of recruitment. During cooler years, purple urchin recruitment is consistently higher in southern California than northern California (Ebert et al., <xref rid="ecy70288-bib-0023" ref-type="bibr">1994</xref>). However, larval transport, recruitment, and local retention trends can drastically change during El Niño oscillations and can be exacerbated by marine heatwaves (Okamoto et al., <xref rid="ecy70288-bib-0058" ref-type="bibr">2020</xref>). El Niño years are often characterized by warmer sea surface temperatures, relaxed winds, and weakening of seasonal upwelling (Navarrete et al., <xref rid="ecy70288-bib-0055" ref-type="bibr">2002</xref>). As a result, purple urchin recruitment has been observed to decrease in southern California and increase in northern California (Chavez et al., <xref rid="ecy70288-bib-0015" ref-type="bibr">2002</xref>; Ebert et al., <xref rid="ecy70288-bib-0023" ref-type="bibr">1994</xref>; Okamoto et al., <xref rid="ecy70288-bib-0058" ref-type="bibr">2020</xref>; Tegner &amp; Dayton, <xref rid="ecy70288-bib-0083" ref-type="bibr">1991</xref>). Although El Niño conditions have been observed along the coastline, there has not been a clear connection between fluctuations in temperature and food availability and why these effects have resulted in recruitment failure. Effects of warming may be underestimated if shifts in resource availability are not considered and may explain regional declines in urchin recruitment under nonlethal temperature conditions. Our study encompasses ambient and heatwave temperatures to test the organismal response when food is limited. The continued widespread urchin barrens along the northern California coastline following the marine heatwaves are an example of the disruptive, ecosystem‐scale consequences of rising temperatures seemingly driving larval recruitment dynamics.</p><p>Increases in ocean temperatures and the frequency and severity of marine heatwaves make it crucial to understand the mechanisms of larval response and subsequent recruitment dynamics in response to changing environmental conditions (Leach et al., <xref rid="ecy70288-bib-0043" ref-type="bibr">2021</xref>; Oliver, Lago, et al., <xref rid="ecy70288-bib-0061" ref-type="bibr">2018</xref>). Modest quantities of purple urchins serve an important herbivore role, but extremely high densities of urchins from massive recruitment events can lead to barren habitats. Temperatures tested in the current study encompass the heatwave temperatures experienced in southern California regions (Figure <xref rid="ecy70288-fig-0001" ref-type="fig">1</xref>, Appendix <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="ecy70288-supitem-0001" ref-type="supplementary-material">S1</xref>), allowing for an understanding of how food modifies survival and development trends during the previous marine heatwave event. Due to the recent ecosystem transition from kelp‐dominated to urchin barren states along the California coastline (Rogers‐Bennett &amp; Catton, <xref rid="ecy70288-bib-0069" ref-type="bibr">2019</xref>), understanding purple urchin recruitment and larval supply trends will help inform how kelp forests will respond to future warming events and how these trends can lead to inverse regional responses between northern and southern parts of the range. Furthermore, results from our study can inform mitigation measures along the California coastline by using the larval survival and development data to predict recruitment trends. Climate change can alter the effectiveness of kelp forest restoration practices. Here, we show multiple stressors can synergistically affect larval survival and thereby recruitment of an important marine herbivore which has a disproportionate effect on the dynamics of kelp, a key foundation species. Given the magnitude of the effect observed in our study, models of recruitment and dispersal that have historically been used to design marine protected areas and marine spatial planning with fixed larval life histories may be aided by accounting for multiple stressor effects. Our study highlights how thermal performance optima can shift depending on availability of resources with applications across ectothermic taxa. As global temperatures continue to rise and ecosystems experience shifts in productivity, we will need to understand how population dynamics, community interactions, and ecosystem functions are linked to temperature in the context of resource dynamics.</p></sec></sec><sec id="ecy70288-sec-0018"><title>AUTHOR CONTRIBUTIONS</title><p>Maya J. Munstermann, Sam E. Karelitz, Laura Rogers‐Bennett, and Daniel K. Okamoto designed the study. Maya J. Munstermann, Sam E. Karelitz, and Rachele Ferraro conducted the experiment. Maya J. Munstermann and Daniel K. Okamoto performed statistical analyses. Rachel D. Simons provided historical datasets and map analyses. Maya J. Munstermann wrote the first draft of the manuscript, and all authors contributed substantially to revisions.</p></sec><sec sec-type="COI-statement" id="ecy70288-sec-0020"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ecy70288-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Appendix S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECY-107-e70288-s001.pdf" position="float" orientation="portrait"><?suppdata-name ECY-107-e70288-s001.pdf?><?suppdata-size 870285?><?suppdata-md5 d25c42a3ff45f7c08cbcbe0b9f89d962?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:09a9/12816818/d25c42a3ff45/ECY-107-e70288-s001.pdf?></media></supplementary-material></sec></body><back><ack id="ecy70288-sec-0019"><title>ACKNOWLEDGMENTS</title><p>We would like to thank the UC Davis Bodega Marine Lab faculty and staff for providing technical assistance and laboratory space to conduct these experiments. We also thank Dr. Caroline Williams and Dr. Adrienne Correa for their feedback on the manuscript. We thank the National Science Foundation for funding that supported this project (NSF OCE grant nos. 2023649, 2023664, and 1831937).</p></ack><sec sec-type="data-availability" id="ecy70288-sec-0022"><title>DATA AVAILABILITY STATEMENT</title><p>Data (Munstermann et al., <xref rid="ecy70288-bib-0052" ref-type="bibr">2025a</xref>, <xref rid="ecy70288-bib-0053" ref-type="bibr">2025b</xref>) are available in Dryad and Zenodo at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5061/dryad.j9kd51cp2" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.j9kd51cp2</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.14533775" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.14533775</ext-link>, respectively. Code (Munstermann et al., <xref rid="ecy70288-bib-0054" ref-type="bibr">2025c</xref>) is available in Zenodo at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.14533773" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.14533773</ext-link>.</p></sec><ref-list id="ecy70288-bibl-0001" content-type="cited-references"><title>REFERENCES</title><ref id="ecy70288-bib-0001"><mixed-citation publication-type="journal" id="ecy70288-cit-0001">
+<string-name name-style="western">
+<surname>Arafeh‐Dalmau</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Montaño‐Moctezuma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Martinez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Beas‐Luna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Schoeman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Torres‐Moye</surname>
+</string-name>. <year>2019</year>. “<article-title>Extreme Marine Heatwaves Alter Kelp Forest Community near its Equatorward Distribution Limit</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>6</volume>: <fpage>1</fpage>–<lpage>18</lpage>.36817748
+</mixed-citation></ref><ref id="ecy70288-bib-0002"><mixed-citation publication-type="journal" id="ecy70288-cit-0002">
+<string-name name-style="western">
+<surname>Azad</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Pearce</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Mckinley</surname>
+</string-name>. <year>2012</year>. “<article-title>Influence of Stocking Density and Temperature on Early Development and Survival of the Purple Sea Urchin, <italic toggle="yes">Strongylocentrotus purpuratus</italic> (Stimpson, 1857)</article-title>.” <source>Aquaculture Research</source>
+<volume>43</volume>: <fpage>1577</fpage>–<lpage>1591</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0003"><mixed-citation publication-type="journal" id="ecy70288-cit-0003">
+<string-name name-style="western">
+<surname>Basch</surname>, <given-names>L. V.</given-names>
+</string-name>
+<year>1996</year>. “<article-title>Effects of Algal and Larval Densities on Development and Survival of Asteroid Larvae</article-title>.” <source>Marine Biology</source>
+<volume>126</volume>: <fpage>693</fpage>–<lpage>701</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0004"><mixed-citation publication-type="journal" id="ecy70288-cit-0004">
+<string-name name-style="western">
+<surname>Basch</surname>, <given-names>L. V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Pearse</surname>
+</string-name>. <year>1996</year>. “<article-title>Consequences of Larval Feeding Environment for Settlement and Metamorphosis of a Temperate Echinoderm</article-title>.” <source>Oceanologica Acta</source>
+<volume>19</volume>: <fpage>273</fpage>–<lpage>285</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0005"><mixed-citation publication-type="journal" id="ecy70288-cit-0005">
+<string-name name-style="western">
+<surname>Basch</surname>, <given-names>L. V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Pearse</surname>
+</string-name>. <year>2022</year>. “<article-title>Does Larval Food Availability Ultimately Select for Seasonal Reproduction in Marine Invertebrates with Feeding Larvae? A Field Test of Crisp's Rule with the Temperate Sea Star <italic toggle="yes">Pisaster ochraceus</italic>
+</article-title>.” <source>Marine Ecology</source>
+<volume>43</volume>: <elocation-id>e12694</elocation-id>.</mixed-citation></ref><ref id="ecy70288-bib-0006"><mixed-citation publication-type="journal" id="ecy70288-cit-0006">
+<string-name name-style="western">
+<surname>Basch</surname>, <given-names>L. V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Tenger</surname>
+</string-name>. <year>2007</year>. “<article-title>Reproductive Responses of Purple Sea Urchin (<italic toggle="yes">Strongylocentrotus purpuratus</italic>) Populations to Environmental Conditions across a Coastal Depth Gradient</article-title>.” <source>Bulletin of Marine Science</source>
+<volume>81</volume>: <fpage>255</fpage>–<lpage>282</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0007"><mixed-citation publication-type="journal" id="ecy70288-cit-0007">
+<string-name name-style="western">
+<surname>Beas‐Luna</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Micheli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. B.</given-names>
+<surname>Woodson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Carr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Malone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Torre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Boch</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Geographic Variation in Responses of Kelp Forest Communities of the California Current to Recent Climatic Changes</article-title>.” <source>Global Change Biology</source>
+<volume>26</volume>: <fpage>6457</fpage>–<lpage>6473</lpage>.<pub-id pub-id-type="pmid">32902090</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.15273</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0008"><mixed-citation publication-type="journal" id="ecy70288-cit-0008">
+<string-name name-style="western">
+<surname>Bennett</surname>, <given-names>W. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Roinestad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rogers‐Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Kaufman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wilson‐Vandenberg</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Heneman</surname>
+</string-name>. <year>2004</year>. “<article-title>Inverse Regional Responses to Climate Change and Fishing Intensity by the Recreational Rockfish (<italic toggle="yes">Sebastes</italic> spp.) Fishery in California</article-title>.” <source>Canadian Journal of Fisheries and Aquatic Sciences</source>
+<volume>61</volume>: <fpage>2499</fpage>–<lpage>2510</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0009"><mixed-citation publication-type="journal" id="ecy70288-cit-0009">
+<string-name name-style="western">
+<surname>Bialonski</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Caron</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Schloen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Feudel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Kantz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Moorthi</surname>
+</string-name>. <year>2016</year>. “<article-title>Phytoplankton Dynamics in the Southern California Bight Indicate a Complex Mixture of Transport and Biology</article-title>.” <source>Journal of Plankton Research</source>
+<volume>38</volume>: <fpage>1077</fpage>–<lpage>1091</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0010"><mixed-citation publication-type="journal" id="ecy70288-cit-0010">
+<string-name name-style="western">
+<surname>Brett</surname>, <given-names>J. R.</given-names>
+</string-name>
+<year>1971</year>. “<article-title>Energetic Responses of Salmon to Temperature. A Study of Some Thermal Relations in the Physiology and Freshwater Ecology of Sockeye Salmon (<italic toggle="yes">Oncorhynchus nerka</italic>)</article-title>.” <source>American Zoologist</source>
+<volume>11</volume>: <fpage>99</fpage>–<lpage>113</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0011"><mixed-citation publication-type="journal" id="ecy70288-cit-0011">
+<string-name name-style="western">
+<surname>Burgess</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Baskett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Grosberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>Morgan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Strathmann</surname>
+</string-name>. <year>2016</year>. “<article-title>When Is Dispersal for Dispersal? Unifying Marine and Terrestrial Perspectives</article-title>.” <source>Biological Reviews</source>
+<volume>91</volume>: <fpage>867</fpage>–<lpage>882</lpage>.<pub-id pub-id-type="pmid">26118564</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/brv.12198</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0012"><mixed-citation publication-type="journal" id="ecy70288-cit-0012">
+<string-name name-style="western">
+<surname>Bürkner</surname>, <given-names>P. C.</given-names>
+</string-name>
+<year>2017</year>. “<article-title>brms: An <italic toggle="yes">R</italic> Package for Bayesian Multilevel Models Using <italic toggle="yes">Stan</italic>
+</article-title>.” <source>Journal of Statistical Software</source>
+<volume>80</volume>: <fpage>1</fpage>–<lpage>28</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0013"><mixed-citation publication-type="journal" id="ecy70288-cit-0013">
+<string-name name-style="western">
+<surname>Caley</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Carr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hixon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Hughes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Jones</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Menge</surname>
+</string-name>. <year>1996</year>. “<article-title>Recruitment and the Local Dynamics of Open Marine Populations</article-title>.” <source>Annual Review of Ecology and Systematics</source>
+<volume>27</volume>: <fpage>477</fpage>–<lpage>500</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0014"><mixed-citation publication-type="book" id="ecy70288-cit-0014">
+<string-name name-style="western">
+<surname>Carter</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Flick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Terrill</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C.</given-names>
+<surname>Beckhaus</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Martin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. L.</given-names>
+<surname>Fey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. W.</given-names>
+<surname>Walker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Largier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>McGowan</surname>
+</string-name>. <year>2022</year>. <source>Shore Stations Program Data Archive: Current and Historical Coastal Ocean Temperature and Salinity Measurements from California Stations</source>. <publisher-loc>San Diego, CA</publisher-loc>: <publisher-name>UC San Diego Library Digital Collections</publisher-name>.</mixed-citation></ref><ref id="ecy70288-bib-0015"><mixed-citation publication-type="journal" id="ecy70288-cit-0015">
+<string-name name-style="western">
+<surname>Chavez</surname>, <given-names>F. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Pennington</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. G.</given-names>
+<surname>Castro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Ryan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Michisaki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Schlining</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Walz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. R.</given-names>
+<surname>Buck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>McFadyen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Collins</surname>
+</string-name>. <year>2002</year>. “<article-title>Biological and Chemical Consequences of the 1997–1998 El Niño in Central California Waters</article-title>.” <source>Progress in Oceanography</source>
+<volume>54</volume>: <fpage>205</fpage>–<lpage>232</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0016"><mixed-citation publication-type="journal" id="ecy70288-cit-0016">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>M. C. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Sarà</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. A.</given-names>
+<surname>Williams</surname>
+</string-name>. <year>2018</year>. “<article-title>Combined Effects of Thermal Conditions and Food Availability on Thermal Tolerance of the Marine Bivalve, Perna Viridis</article-title>.” <source>Journal of Thermal Biology</source>
+<volume>78</volume>: <fpage>270</fpage>–<lpage>276</lpage>.<pub-id pub-id-type="pmid">30509647</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jtherbio.2018.10.014</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0017"><mixed-citation publication-type="journal" id="ecy70288-cit-0017">
+<string-name name-style="western">
+<surname>Chevin</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Lande</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>Mace</surname>
+</string-name>. <year>2010</year>. “<article-title>Adaptation, Plasticity, and Extinction in a Changing Environment: Towards a Predictive Theory</article-title>.” <source>PLoS Biology</source>
+<volume>8</volume>: <elocation-id>e1000357</elocation-id>.<pub-id pub-id-type="pmid">20463950</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pbio.1000357</pub-id><pub-id pub-id-type="pmcid">PMC2864732</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0018"><mixed-citation publication-type="journal" id="ecy70288-cit-0018">
+<string-name name-style="western">
+<surname>Connolly</surname>, <given-names>S. R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Roughgarden</surname>
+</string-name>. <year>1998</year>. “<article-title>A Latitudinal Gradient in Northeast Pacific Intertidal Community Structure: Evidence for an Oceanographically Based Synthesis of Marine Community Theory</article-title>.” <source>The American Naturalist</source>
+<volume>151</volume>: <fpage>311</fpage>–<lpage>326</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1086/286121</pub-id><pub-id pub-id-type="pmid">18811323</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0019"><mixed-citation publication-type="journal" id="ecy70288-cit-0019">
+<string-name name-style="western">
+<surname>Dahlhoff</surname>, <given-names>E. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Buckley</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Menge</surname>
+</string-name>. <year>2001</year>. “<article-title>Physiology of the Rocky Intertidal Predator <italic toggle="yes">Nucella ostrina</italic> along an Environmental Stress Gradient</article-title>.” <source>Ecology</source>
+<volume>82</volume>: <fpage>2816</fpage>–<lpage>2829</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0020"><mixed-citation publication-type="journal" id="ecy70288-cit-0020">
+<string-name name-style="western">
+<surname>Diffenbaugh</surname>, <given-names>N. S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. B.</given-names>
+<surname>Field</surname>
+</string-name>. <year>2013</year>. “<article-title>Changes in Ecologically Critical Terrestrial Climate Conditions</article-title>.” <source>Science</source>
+<volume>341</volume>: <fpage>486</fpage>–<lpage>492</lpage>.<pub-id pub-id-type="pmid">23908225</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1237123</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0021"><mixed-citation publication-type="journal" id="ecy70288-cit-0021">
+<string-name name-style="western">
+<surname>DiGiacomo</surname>, <given-names>P. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Holt</surname>
+</string-name>. <year>2001</year>. “<article-title>Satellite Observations of Small Coastal Ocean Eddies in the Southern California Bight</article-title>.” <source>Journal of Geophysical Research: Oceans</source>
+<volume>106</volume>: <fpage>22521</fpage>–<lpage>22543</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0022"><mixed-citation publication-type="journal" id="ecy70288-cit-0022">
+<string-name name-style="western">
+<surname>Ebert</surname>, <given-names>T.</given-names>
+</string-name>
+<year>2010</year>. “<article-title>Demographic Patterns of the Purple Sea Urchin <italic toggle="yes">Strongylocentrotus purpuratus</italic> along a Latitudinal Gradient, 1985–1987</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>406</volume>: <fpage>105</fpage>–<lpage>120</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0023"><mixed-citation publication-type="journal" id="ecy70288-cit-0023">
+<string-name name-style="western">
+<surname>Ebert</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Schroeter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Dixon</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kalvass</surname>
+</string-name>. <year>1994</year>. “<article-title>Settlement Patterns of Red and Purple Sea Urchins (<italic toggle="yes">Strongylocentrotus franciscanus</italic> and <italic toggle="yes">S. purpuratus</italic>) in California, USA</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>111</volume>: <fpage>41</fpage>–<lpage>52</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0024"><mixed-citation publication-type="journal" id="ecy70288-cit-0024">
+<string-name name-style="western">
+<surname>Ebert</surname>, <given-names>T. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Russell</surname>
+</string-name>. <year>1988</year>. “<article-title>Latitudinal Variation in Size Structure of the West Coast Purple Sea Urchin: A Correlation with Headlands</article-title>.” <source>Limnology and Oceanography</source>
+<volume>33</volume>: <fpage>286</fpage>–<lpage>294</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0025"><mixed-citation publication-type="journal" id="ecy70288-cit-0025">
+<string-name name-style="western">
+<surname>Filbee‐Dexter</surname>, <given-names>K.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. E.</given-names>
+<surname>Scheibling</surname>
+</string-name>. <year>2014</year>. “<article-title>Sea Urchin Barrens as Alternative Stable States of Collapsed Kelp Ecosystems</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>495</volume>: <fpage>1</fpage>–<lpage>25</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0026"><mixed-citation publication-type="journal" id="ecy70288-cit-0026">
+<string-name name-style="western">
+<surname>Gaylord</surname>, <given-names>B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Gaines</surname>
+</string-name>. <year>2000</year>. “<article-title>Temperature or Transport? Range Limits in Marine Species Mediated Solely by Flow</article-title>.” <source>The American Naturalist</source>
+<volume>155</volume>: <fpage>769</fpage>–<lpage>789</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1086/303357</pub-id><pub-id pub-id-type="pmid">10805643</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0027"><mixed-citation publication-type="journal" id="ecy70288-cit-0027">
+<string-name name-style="western">
+<surname>Gunderson</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>Armstrong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Stillman</surname>
+</string-name>. <year>2016</year>. “<article-title>Multiple Stressors in a Changing World: The Need for an Improved Perspective on Physiological Responses to the Dynamic Marine Environment</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>8</volume>: <fpage>357</fpage>–<lpage>378</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-marine-122414-033953</pub-id><pub-id pub-id-type="pmid">26359817</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0028"><mixed-citation publication-type="journal" id="ecy70288-cit-0028">
+<string-name name-style="western">
+<surname>Gunderson</surname>, <given-names>A. R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Stillman</surname>
+</string-name>. <year>2015</year>. “<article-title>Plasticity in Thermal Tolerance Has Limited Potential to Buffer Ectotherms from Global Warming</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>282</volume>: <elocation-id>20150401</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2015.0401</pub-id><pub-id pub-id-type="pmcid">PMC4455808</pub-id><pub-id pub-id-type="pmid">25994676</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0029"><mixed-citation publication-type="journal" id="ecy70288-cit-0029">
+<string-name name-style="western">
+<surname>Hammond</surname>, <given-names>L. T. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Hofmann</surname>
+</string-name>. <year>2010</year>. “<article-title>Thermal Tolerance of <italic toggle="yes">Strongylocentrotus purpuratus</italic> Early Life History Stages: Mortality, Stress‐Induced Gene Expression and Biogeographic Patterns</article-title>.” <source>Marine Biology</source>
+<volume>157</volume>: <fpage>2677</fpage>–<lpage>2687</lpage>.<pub-id pub-id-type="pmid">24391252</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00227-010-1528-z</pub-id><pub-id pub-id-type="pmcid">PMC3873058</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0030"><mixed-citation publication-type="journal" id="ecy70288-cit-0030">
+<string-name name-style="western">
+<surname>Hart</surname>, <given-names>M. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Strathmann</surname>
+</string-name>. <year>1994</year>. “<article-title>Functional Consequences of Phenotypic Plasticity in Echinoid Larvae</article-title>.” <source>The Biological Bulletin</source>
+<volume>186</volume>: <fpage>291</fpage>–<lpage>299</lpage>.<pub-id pub-id-type="pmid">29281349</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2307/1542275</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0031"><mixed-citation publication-type="journal" id="ecy70288-cit-0031">
+<string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. V.</given-names>
+<surname>Alexander</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Perkins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Straub</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C. J.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>A Hierarchical Approach to Defining Marine Heatwaves</article-title>.” <source>Progress in Oceanography</source>
+<volume>141</volume>: <fpage>227</fpage>–<lpage>238</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0032"><mixed-citation publication-type="journal" id="ecy70288-cit-0032">
+<string-name name-style="western">
+<surname>Hoegh‐Guldberg</surname>, <given-names>O.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Pearse</surname>
+</string-name>. <year>1995</year>. “<article-title>Temperature, Food Availability, and the Development of Marine Invertebrate Larvae</article-title>.” <source>American Zoologist</source>
+<volume>35</volume>: <fpage>415</fpage>–<lpage>425</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0033"><mixed-citation publication-type="journal" id="ecy70288-cit-0033">
+<string-name name-style="western">
+<surname>Holden</surname>, <given-names>K. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Reding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. B.</given-names>
+<surname>Ford</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Bronikowski</surname>
+</string-name>. <year>2019</year>. “<article-title>Effects of Early Nutritional Stress on Physiology, Life Histories and their Trade‐Offs in a Model Ectothermic Vertebrate</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>222</volume>: <elocation-id>jeb200220</elocation-id>.<pub-id pub-id-type="pmid">31109972</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/jeb.200220</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0034"><mixed-citation publication-type="journal" id="ecy70288-cit-0034">
+<string-name name-style="western">
+<surname>Huey</surname>, <given-names>R. B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Kingsolver</surname>
+</string-name>. <year>1989</year>. “<article-title>Evolution of Thermal Sensitivity of Ectotherm Performance</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>4</volume>: <fpage>131</fpage>–<lpage>135</lpage>.<pub-id pub-id-type="pmid">21227334</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0169-5347(89)90211-5</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0035"><mixed-citation publication-type="journal" id="ecy70288-cit-0035">
+<string-name name-style="western">
+<surname>Huey</surname>, <given-names>R. B.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. G.</given-names>
+<surname>Kingsolver</surname>
+</string-name>. <year>2019</year>. “<article-title>Climate Warming, Resource Availability, and the Metabolic Meltdown of Ectotherms</article-title>.” <source>American Naturalist</source>
+<volume>194</volume>: <fpage>E140</fpage>–<lpage>E150</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1086/705679</pub-id><pub-id pub-id-type="pmid">31738103</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0036"><mixed-citation publication-type="journal" id="ecy70288-cit-0036">
+<string-name name-style="western">
+<surname>Huxley</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Murray</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pawar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Cator</surname>
+</string-name>. <year>2022</year>. “<article-title>Competition and Resource Depletion Shape the Thermal Response of Population Fitness in Aedes Aegypti</article-title>.” <source>Communications Biology</source>
+<volume>5</volume>: <elocation-id>66</elocation-id>.<pub-id pub-id-type="pmid">35046515</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-022-03030-7</pub-id><pub-id pub-id-type="pmcid">PMC8770499</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0037"><mixed-citation publication-type="journal" id="ecy70288-cit-0037">
+<string-name name-style="western">
+<surname>Kahru</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Kudela</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Anderson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. G.</given-names>
+<surname>Mitchell</surname>
+</string-name>. <year>2015</year>. “<article-title>Optimized Merger of Ocean Chlorophyll Algorithms of MODIS‐Aqua and VIIRS</article-title>.” <source>IEEE Geoscience and Remote Sensing Letters</source>
+<volume>12</volume>: <fpage>2282</fpage>–<lpage>2285</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0038"><mixed-citation publication-type="journal" id="ecy70288-cit-0038">
+<string-name name-style="western">
+<surname>Kahru</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Kudela</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Manzano‐Sarabia</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. G.</given-names>
+<surname>Mitchell</surname>
+</string-name>. <year>2012</year>. “<article-title>Trends in the Surface Chlorophyll of the California Current: Merging Data from Multiple Ocean Color Satellites</article-title>.” <source>Deep Sea Research Part II: Topical Studies in Oceanography</source>
+<volume>77–80</volume>: <fpage>89</fpage>–<lpage>98</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0039"><mixed-citation publication-type="journal" id="ecy70288-cit-0039">
+<string-name name-style="western">
+<surname>Karelitz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lamare</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Patel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Gemmell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Uthicke</surname>
+</string-name>. <year>2020</year>. “<article-title>Parental Acclimation to Future Ocean Conditions Increases Development Rates but Decreases Survival in Sea Urchin Larvae</article-title>.” <source>Marine Biology</source>
+<volume>167</volume>: <fpage>1</fpage>–<lpage>16</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0040"><mixed-citation publication-type="journal" id="ecy70288-cit-0040">
+<string-name name-style="western">
+<surname>Karelitz</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Uthicke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Foo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. F.</given-names>
+<surname>Barker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Byrne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Pecorino</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Lamare</surname>
+</string-name>. <year>2016</year>. “<article-title>Ocean Acidification Has Little Effect on Developmental Thermal Windows of Echinoderms from Antarctica to the Tropics</article-title>.” <source>Global Change Biology</source>
+<volume>23</volume>: <fpage>657</fpage>–<lpage>672</lpage>.<pub-id pub-id-type="pmid">27497050</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.13452</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0041"><mixed-citation publication-type="journal" id="ecy70288-cit-0041">
+<string-name name-style="western">
+<surname>Koenker</surname>, <given-names>B. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Laurel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Copeman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ciannelli</surname>
+</string-name>. <year>2018</year>. “<article-title>Effects of Temperature and Food Availability on the Survival and Growth of Larval Arctic Cod (<italic toggle="yes">Boreogadus saida</italic>) and Walleye Pollock (<italic toggle="yes">Gadus chalcogrammus</italic>)</article-title>.” <source>ICES Journal of Marine Science</source>
+<volume>75</volume>: <fpage>2386</fpage>–<lpage>2402</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0042"><mixed-citation publication-type="journal" id="ecy70288-cit-0042">
+<string-name name-style="western">
+<surname>Kroeker</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Kordas</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. D. G.</given-names>
+<surname>Harley</surname>
+</string-name>. <year>2017</year>. “<article-title>Embracing Interactions in Ocean Acidification Research: Confronting Multiple Stressor Scenarios and Context Dependence</article-title>.” <source>Biology Letters</source>
+<volume>13</volume>: <elocation-id>20160802</elocation-id>.<pub-id pub-id-type="pmid">28356409</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rsbl.2016.0802</pub-id><pub-id pub-id-type="pmcid">PMC5377028</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0043"><mixed-citation publication-type="journal" id="ecy70288-cit-0043">
+<string-name name-style="western">
+<surname>Leach</surname>, <given-names>T. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>BuyanUrt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Hofmann</surname>
+</string-name>. <year>2021</year>. “<article-title>Exploring Impacts of Marine Heatwaves: Paternal Heat Exposure Diminishes Fertilization Success in the Purple Sea Urchin (<italic toggle="yes">Strongylocentrotus purpuratus</italic>)</article-title>.” <source>Marine Biology</source>
+<volume>168</volume>: <elocation-id>103</elocation-id>.</mixed-citation></ref><ref id="ecy70288-bib-0044"><mixed-citation publication-type="miscellaneous" id="ecy70288-cit-0044">
+<string-name name-style="western">
+<surname>Lenth</surname>, <given-names>R. V.</given-names>
+</string-name>
+<year>2017</year>. <article-title>“emmeans: Estimated Marginal Means, aka Least‐Squares Means.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://rvlenth.github.io/emmeans/" ext-link-type="uri">https://rvlenth.github.io/emmeans/</ext-link>.</mixed-citation></ref><ref id="ecy70288-bib-0045"><mixed-citation publication-type="journal" id="ecy70288-cit-0045">
+<string-name name-style="western">
+<surname>McCue</surname>, <given-names>M. D.</given-names>
+</string-name>
+<year>2010</year>. “<article-title>Starvation Physiology: Reviewing the Different Strategies Animals Use to Survive a Common Challenge</article-title>.” <source>Comparative Biochemistry and Physiology. Part A, Molecular &amp; Integrative Physiology</source>
+<volume>156</volume>: <fpage>1</fpage>–<lpage>18</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cbpa.2010.01.002</pub-id><pub-id pub-id-type="pmid">20060056</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0046"><mixed-citation publication-type="journal" id="ecy70288-cit-0046">
+<string-name name-style="western">
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>
+<year>2000</year>. “<article-title>Top‐Down and Bottom‐Up Community Regulation in Marine Rocky Intertidal Habitats</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>250</volume>: <fpage>257</fpage>–<lpage>289</lpage>.<pub-id pub-id-type="pmid">10969172</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0022-0981(00)00200-8</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0047"><mixed-citation publication-type="journal" id="ecy70288-cit-0047">
+<string-name name-style="western">
+<surname>Miller</surname>, <given-names>B. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>R. B.</given-names>
+<surname>Emlet</surname>
+</string-name>. <year>1999</year>. “<article-title>Development of Newly Metamorphosed Juvenile Sea Urchins (<italic toggle="yes">Strongylocentrotus franciscanus</italic> and <italic toggle="yes">S. purpuratus</italic>): Morphology, the Effects of Temperature and Larval Food Ration, and a Method for Determining Age</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>235</volume>: <fpage>67</fpage>–<lpage>90</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0048"><mixed-citation publication-type="journal" id="ecy70288-cit-0048">
+<string-name name-style="western">
+<surname>Mitarai</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Siegel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Watson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Dong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>McWilliams</surname>
+</string-name>. <year>2009</year>. “<article-title>Quantifying Connectivity in the Coastal Ocean with Application to the Southern California Bight</article-title>.” <source>Journal of Geophysical Research: Oceans</source>
+<volume>114</volume>: <fpage>1</fpage>–<lpage>21</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0049"><mixed-citation publication-type="journal" id="ecy70288-cit-0049">
+<string-name name-style="western">
+<surname>Mitarai</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Siegel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Winters</surname>
+</string-name>. <year>2008</year>. “<article-title>A Numerical Study of Stochastic Larval Settlement in the California Current System</article-title>.” <source>Journal of Marine Systems</source>
+<volume>69</volume>: <fpage>295</fpage>–<lpage>309</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0050"><mixed-citation publication-type="journal" id="ecy70288-cit-0050">
+<string-name name-style="western">
+<surname>Mogensen</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Post</surname>
+</string-name>. <year>2012</year>. “<article-title>Energy Allocation Strategy Modifies Growth‐Survival Trade‐Offs in Juvenile Fish across Ecological and Environmental Gradients</article-title>.” <source>Oecologia</source>
+<volume>168</volume>: <fpage>923</fpage>–<lpage>933</lpage>.<pub-id pub-id-type="pmid">22020818</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-011-2164-0</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0051"><mixed-citation publication-type="journal" id="ecy70288-cit-0051">
+<string-name name-style="western">
+<surname>Morgan</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Fisher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. H.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. T.</given-names>
+<surname>McAfee</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Largier</surname>
+</string-name>. <year>2009</year>. “<article-title>Nearshore Larval Retention in a Region of Strong Upwelling and Recruitment Limitation</article-title>.” <source>Ecology</source>
+<volume>90</volume>: <fpage>3489</fpage>–<lpage>3502</lpage>.<pub-id pub-id-type="pmid">20120816</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/08-1550.1</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0052"><mixed-citation publication-type="miscellaneous" id="ecy70288-cit-0052">
+<string-name name-style="western">
+<surname>Munstermann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karelitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ferraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rogers‐Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Simons</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Okamoto</surname>
+</string-name>. <year>2025a</year>. <article-title>“Food limitation Erodes the Thermal Tolerance of Larvae in an Ecologically Influential Marine Herbivore.”</article-title> Dryad. Dataset. <pub-id pub-id-type="doi">10.5061/dryad.j9kd51cp2</pub-id>.<pub-id pub-id-type="pmid">41555599</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0053"><mixed-citation publication-type="miscellaneous" id="ecy70288-cit-0053">
+<string-name name-style="western">
+<surname>Munstermann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karelitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ferraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rogers‐Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Simons</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Okamoto</surname>
+</string-name>. <year>2025b</year>. <article-title>“Food Limitation Erodes the Thermal Tolerance of Larvae in an Ecologically Influential Marine Herbivore.”</article-title> Zenodo. Dataset. <pub-id pub-id-type="doi">10.5281/zenodo.14533775</pub-id>.<pub-id pub-id-type="pmid">41555599</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0054"><mixed-citation publication-type="miscellaneous" id="ecy70288-cit-0054">
+<string-name name-style="western">
+<surname>Munstermann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karelitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ferraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rogers‐Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Simons</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Okamoto</surname>
+</string-name>. <year>2025c</year>. <article-title>“Food Limitation Erodes the Thermal Tolerance of Larvae in an Ecologically Influential Marine Herbivore.”</article-title> Zenodo. Software. <pub-id pub-id-type="doi">10.5281/zenodo.14533773</pub-id>.<pub-id pub-id-type="pmid">41555599</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0055"><mixed-citation publication-type="journal" id="ecy70288-cit-0055">
+<string-name name-style="western">
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Broitman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Wieters</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. R.</given-names>
+<surname>Finke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Venegas</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sotomayor</surname>
+</string-name>. <year>2002</year>. “<article-title>Recruitment of Intertidal Invertebrates in the Southeast Pacific: Interannual Variability and the 1997–1998 El Niño</article-title>.” <source>Limnology and Oceanography</source>
+<volume>47</volume>: <fpage>791</fpage>–<lpage>802</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0056"><mixed-citation publication-type="journal" id="ecy70288-cit-0056">
+<string-name name-style="western">
+<surname>Nyamukondiwa</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Terblanche</surname>
+</string-name>. <year>2009</year>. “<article-title>Thermal Tolerance in Adult Mediterranean and Natal Fruit Flies (<italic toggle="yes">Ceratitis capitata</italic> and <italic toggle="yes">Ceratitis rosa</italic>): Effects of Age, Gender and Feeding Status</article-title>.” <source>Journal of Thermal Biology</source>
+<volume>34</volume>: <fpage>406</fpage>–<lpage>414</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0057"><mixed-citation publication-type="journal" id="ecy70288-cit-0057">
+<string-name name-style="western">
+<surname>O'Connor</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Gaines</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. S.</given-names>
+<surname>Halpern</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Lester</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. P.</given-names>
+<surname>Kinlan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Weiss</surname>
+</string-name>. <year>2007</year>. “<article-title>Temperature Control of Larval Dispersal and the Implications for Marine Ecology, Evolution, and Conservation</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>104</volume>: <fpage>1266</fpage>–<lpage>1271</lpage>.<pub-id pub-id-type="pmid">17213327</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0603422104</pub-id><pub-id pub-id-type="pmcid">PMC1764863</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0058"><mixed-citation publication-type="journal" id="ecy70288-cit-0058">
+<string-name name-style="western">
+<surname>Okamoto</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Schroeter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. C.</given-names>
+<surname>Reed</surname>
+</string-name>. <year>2020</year>. “<article-title>Effects of Ocean Climate on Spatiotemporal Variation in Sea Urchin Settlement and Recruitment</article-title>.” <source>Limnology and Oceanography</source>
+<volume>65</volume>: <fpage>2076</fpage>–<lpage>2091</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0059"><mixed-citation publication-type="journal" id="ecy70288-cit-0059">
+<string-name name-style="western">
+<surname>Okamoto</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. B.</given-names>
+<surname>Spindel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Mustermann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karelitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Collicutt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Gimenez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Rolheiser</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Thermal Suppression of Gametogenesis Can Explain Historical Collapses in Larval Recruitment</article-title>.” <source>Communications Biology</source>
+<volume>8</volume>: <elocation-id>1490</elocation-id>.<pub-id pub-id-type="pmid">41184418</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-025-08829-8</pub-id><pub-id pub-id-type="pmcid">PMC12583514</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0060"><mixed-citation publication-type="journal" id="ecy70288-cit-0060">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Donat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Moore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. V.</given-names>
+<surname>Alexander</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Longer and more Frequent Marine Heatwaves over the Past Century</article-title>.” <source>Nature Communications</source>
+<volume>9</volume>: <fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-03732-9</pub-id><pub-id pub-id-type="pmcid">PMC5893591</pub-id><pub-id pub-id-type="pmid">29636482</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0061"><mixed-citation publication-type="journal" id="ecy70288-cit-0061">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Lago</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Hobday</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Holbrook</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Ling</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. N.</given-names>
+<surname>Mundy</surname>
+</string-name>. <year>2018</year>. “<article-title>Marine Heatwaves off Eastern Tasmania: Trends, Interannual Variability, and Predictability</article-title>.” <source>Progress in Oceanography</source>
+<volume>161</volume>: <fpage>116</fpage>–<lpage>130</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0062"><mixed-citation publication-type="journal" id="ecy70288-cit-0062">
+<string-name name-style="western">
+<surname>Padilla‐Gamiño</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Kelly</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. G.</given-names>
+<surname>Evans</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Hofmann</surname>
+</string-name>. <year>2013</year>. “<article-title>Temperature and CO<sub>2</sub> Additively Regulate Physiology, Morphology and Genomic Responses of Larval Sea Urchins, <italic toggle="yes">Strongylocentrotus purpuratus</italic>
+</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>280</volume>: <elocation-id>20130155</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2013.0155</pub-id><pub-id pub-id-type="pmcid">PMC3619508</pub-id><pub-id pub-id-type="pmid">23536595</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0063"><mixed-citation publication-type="journal" id="ecy70288-cit-0063">
+<string-name name-style="western">
+<surname>Pan</surname>, <given-names>T. C. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Applebaum</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Manahan</surname>
+</string-name>. <year>2015</year>. “<article-title>Experimental Ocean Acidification Alters the Allocation of Metabolic Energy</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>112</volume>: <fpage>4696</fpage>–<lpage>4701</lpage>.<pub-id pub-id-type="pmid">25825763</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1416967112</pub-id><pub-id pub-id-type="pmcid">PMC4403215</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0064"><mixed-citation publication-type="journal" id="ecy70288-cit-0064">
+<string-name name-style="western">
+<surname>Pineda</surname>, <given-names>J.</given-names>
+</string-name>
+<year>2000</year>. “<article-title>Linking Larval Settlement to Larval Transport: Assumptions, Potentials, and Pitfalls</article-title>.” <source>Oceanography of the Eastern Pacific</source>
+<volume>1</volume>: <fpage>84</fpage>–<lpage>105</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0065"><mixed-citation publication-type="journal" id="ecy70288-cit-0065">
+<string-name name-style="western">
+<surname>Pineda</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lopez</surname>
+</string-name>. <year>2002</year>. “<article-title>Temperature, Stratification and Barnacle Larval Settlement in Two Californian Sites</article-title>.” <source>Continental Shelf Research</source>
+<volume>22</volume>: <fpage>1183</fpage>–<lpage>1198</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0066"><mixed-citation publication-type="journal" id="ecy70288-cit-0066">
+<string-name name-style="western">
+<surname>Przeslawski</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Byrne</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Mellin</surname>
+</string-name>. <year>2015</year>. “<article-title>A Review and Meta‐Analysis of the Effects of Multiple Abiotic Stressors on Marine Embryos and Larvae</article-title>.” <source>Global Change Biology</source>
+<volume>21</volume>: <fpage>2122</fpage>–<lpage>2140</lpage>.<pub-id pub-id-type="pmid">25488061</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.12833</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0067"><mixed-citation publication-type="journal" id="ecy70288-cit-0067">
+<string-name name-style="western">
+<surname>Rassweiler</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Ojea</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Costello</surname>
+</string-name>. <year>2020</year>. “<article-title>Strategically Designed Marine Reserve Networks Are Robust to Climate Change Driven Shifts in Population Connectivity</article-title>.” <source>Environmental Research Letters</source>
+<volume>15</volume>: <elocation-id>034030</elocation-id>.</mixed-citation></ref><ref id="ecy70288-bib-0068"><mixed-citation publication-type="journal" id="ecy70288-cit-0068">
+<string-name name-style="western">
+<surname>Reed</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Washburn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rassweiler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Bell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Harrer</surname>
+</string-name>. <year>2016</year>. “<article-title>Extreme Warming Challenges Sentinel Status of Kelp Forests as Indicators of Climate Change</article-title>.” <source>Nature Communications</source>
+<volume>7</volume>: <fpage>1</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms13757</pub-id><pub-id pub-id-type="pmcid">PMC5159872</pub-id><pub-id pub-id-type="pmid">27958273</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0069"><mixed-citation publication-type="journal" id="ecy70288-cit-0069">
+<string-name name-style="western">
+<surname>Rogers‐Bennett</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Catton</surname>
+</string-name>. <year>2019</year>. “<article-title>Marine Heat Wave and Multiple Stressors Tip Bull Kelp Forest to Sea Urchin Barrens</article-title>.” <source>Scientific Reports</source>
+<volume>9</volume>: <fpage>1</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">31636286</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-019-51114-y</pub-id><pub-id pub-id-type="pmcid">PMC6803666</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0070"><mixed-citation publication-type="journal" id="ecy70288-cit-0070">
+<string-name name-style="western">
+<surname>Rogers‐Bennett</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Okamoto</surname>
+</string-name>. <year>2020</year>. “<article-title>
+<italic toggle="yes">Mesocentrotus franciscanus</italic> and <italic toggle="yes">Strongylocentrotus purpuratus</italic>
+</article-title>.” <source>Developments in Aquaculture and Fisheries Science</source>
+<volume>43</volume>: <fpage>593</fpage>–<lpage>608</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0071"><mixed-citation publication-type="journal" id="ecy70288-cit-0071">
+<string-name name-style="western">
+<surname>Rogers‐Bennett</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Rogers</surname>
+</string-name>. <year>2008</year>. “<article-title>Modeling Dispersal of Cloning Echinoderm Larvae with a Gaussian Distribution: Forever Young?</article-title>” <source>CalCOFI Report</source>
+<volume>49</volume>: <fpage>232</fpage>–<lpage>240</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0072"><mixed-citation publication-type="journal" id="ecy70288-cit-0072">
+<string-name name-style="western">
+<surname>Scharf</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wexler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. A.</given-names>
+<surname>Macmillan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Presman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Simson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rosenstein</surname>
+</string-name>. <year>2016</year>. “<article-title>The Negative Effect of Starvation and the Positive Effect of Mild Thermal Stress on Thermal Tolerance of the Red Flour Beetle, <italic toggle="yes">Tribolium castaneum</italic>
+</article-title>.” <source>Science of Nature</source>
+<volume>103</volume>: <fpage>1</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00114-016-1344-5</pub-id><pub-id pub-id-type="pmid">26888763</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0073"><mixed-citation publication-type="journal" id="ecy70288-cit-0073">
+<string-name name-style="western">
+<surname>Schneider</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. S.</given-names>
+<surname>Rasband</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Eliceiri</surname>
+</string-name>. <year>2012</year>. “<article-title>NIH Image to ImageJ: 25 Years of Image Analysis HHS Public Access</article-title>.” <source>Nature Methods</source>
+<volume>9</volume>: <fpage>671</fpage>–<lpage>675</lpage>.<pub-id pub-id-type="pmid">22930834</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.2089</pub-id><pub-id pub-id-type="pmcid">PMC5554542</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0074"><mixed-citation publication-type="journal" id="ecy70288-cit-0074">
+<string-name name-style="western">
+<surname>Seebacher</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>White</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Franklin</surname>
+</string-name>. <year>2015</year>. “<article-title>Physiological Plasticity Increases Resilience of Ectothermic Animals to Climate Change</article-title>.” <source>Nature Climate Change</source>
+<volume>5</volume>: <fpage>61</fpage>–<lpage>66</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0075"><mixed-citation publication-type="journal" id="ecy70288-cit-0075">
+<string-name name-style="western">
+<surname>Shanks</surname>, <given-names>A. L.</given-names>
+</string-name>
+<year>1983</year>. “<article-title>Surface Slicks Associated with Tidally Forced Internal Waves May Transport Pelagic Larvae of Benthic Invertebrates and Fishes Shoreward</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>13</volume>: <fpage>311</fpage>–<lpage>315</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0076"><mixed-citation publication-type="journal" id="ecy70288-cit-0076">
+<string-name name-style="western">
+<surname>Siegel</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mitarai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Costello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Gaines</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. E.</given-names>
+<surname>Kendall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Warner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Winters</surname>
+</string-name>. <year>2008</year>. “<article-title>The Stochastic Nature of Larval Connectivity among Nearshore Marine Populations</article-title>.” <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>105</volume>: <fpage>8974</fpage>–<lpage>8979</lpage>.<pub-id pub-id-type="pmid">18577590</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0802544105</pub-id><pub-id pub-id-type="pmcid">PMC2449349</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0077"><mixed-citation publication-type="miscellaneous" id="ecy70288-cit-0077">
+<string-name name-style="western">
+<surname>Simons</surname>, <given-names>R. D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>D. K.</given-names>
+<surname>Okamoto</surname>
+</string-name>. <year>2025</year>. <article-title>“Impacts of Changing Ocean Circulation, Temperature, and Food Supply on Larval Recruitment of Purple Sea Urchins in Southern California: A Biophysical Modeling Study.”</article-title> bioRxiv. <pub-id pub-id-type="doi">10.1101/2025.07.30.667731</pub-id>.</mixed-citation></ref><ref id="ecy70288-bib-0078"><mixed-citation publication-type="journal" id="ecy70288-cit-0078">
+<string-name name-style="western">
+<surname>Sinclair</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Marshall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Sewell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Levesque</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Willett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Slotsbo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Dong</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Can we Predict Ectotherm Responses to Climate Change Using Thermal Performance Curves and Body Temperatures?</article-title>” <source>Ecology Letters</source>
+<volume>19</volume>: <fpage>1372</fpage>–<lpage>1385</lpage>.<pub-id pub-id-type="pmid">27667778</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/ele.12686</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0079"><mixed-citation publication-type="journal" id="ecy70288-cit-0079">
+<string-name name-style="western">
+<surname>Spaulding</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. R. C.</given-names>
+<surname>Platt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Murphy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Covert</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. W.</given-names>
+<surname>Harvey</surname>
+</string-name>. <year>2024</year>. “<article-title>Chlorophyll a in Lakes and Streams of the United States (2005–2022)</article-title>.” <source>Scientific Data</source>
+<volume>11</volume>: <elocation-id>611</elocation-id>.<pub-id pub-id-type="pmid">38866750</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41597-024-03453-3</pub-id><pub-id pub-id-type="pmcid">PMC11169558</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0092"><mixed-citation publication-type="miscellaneous" id="ecy70288-cit-0092">
+<collab collab-type="authors">Stan Development Team</collab>
+. <year>2023</year>. <article-title>“RStan: The R Interface to Stan.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://mc-stan.org/" ext-link-type="uri">http://mc-stan.org/</ext-link>.</mixed-citation></ref><ref id="ecy70288-bib-0080"><mixed-citation publication-type="journal" id="ecy70288-cit-0080">
+<string-name name-style="western">
+<surname>Strathmann</surname>, <given-names>R.</given-names>
+</string-name>
+<year>1978</year>. “<article-title>Length of Pelagic Period in Echinoderms with Feeding Larvae from the Northwest Pacific</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>34</volume>: <fpage>23</fpage>–<lpage>27</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0081"><mixed-citation publication-type="journal" id="ecy70288-cit-0081">
+<string-name name-style="western">
+<surname>Strathmann</surname>, <given-names>R. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. P.</given-names>
+<surname>Hughes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Kuris</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. C.</given-names>
+<surname>Lindeman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>Morgan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Pandolfi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Warner</surname>
+</string-name>. <year>2002</year>. “<article-title>Evolution of Local Recruitment and its Consequences for Marine Populations</article-title>.” <source>Bulletin of Marine Science</source>
+<volume>70</volume>: <fpage>377</fpage>–<lpage>396</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0082"><mixed-citation publication-type="journal" id="ecy70288-cit-0082">
+<string-name name-style="western">
+<surname>Stumpp</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Casties</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Saborowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bleich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Melzner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dupont</surname>
+</string-name>. <year>2013</year>. “<article-title>Digestion in Sea Urchin Larvae Impaired under Ocean Acidification</article-title>.” <source>Nature Climate Change</source>
+<volume>3</volume>: <fpage>1044</fpage>–<lpage>1049</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0083"><mixed-citation publication-type="journal" id="ecy70288-cit-0083">
+<string-name name-style="western">
+<surname>Tegner</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Dayton</surname>
+</string-name>. <year>1991</year>. “<article-title>Sea Urchins, El Ninos, and the Long Term Stability of Southern California Kelp Forest Communities</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>77</volume>: <fpage>49</fpage>–<lpage>63</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0084"><mixed-citation publication-type="journal" id="ecy70288-cit-0084">
+<string-name name-style="western">
+<surname>Thomas</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Aranguren‐Gassis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. T.</given-names>
+<surname>Kremer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Gould</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Klausmeier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Litchman</surname>
+</string-name>. <year>2017</year>. “<article-title>Temperature–Nutrient Interactions Exacerbate Sensitivity to Warming in Phytoplankton</article-title>.” <source>Global Change Biology</source>
+<volume>23</volume>: <fpage>3269</fpage>–<lpage>3280</lpage>.<pub-id pub-id-type="pmid">28132424</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.13641</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0085"><mixed-citation publication-type="journal" id="ecy70288-cit-0085">
+<string-name name-style="western">
+<surname>Verhille</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Todgham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Cocherell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. S. O.</given-names>
+<surname>Hung</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. A.</given-names>
+<surname>Fangue</surname>
+</string-name>. <year>2015</year>. “<article-title>Effects of Nutritional Deprivation on Juvenile Green Sturgeon Growth and Thermal Tolerance</article-title>.” <source>Environmental Biology of Fishes</source>
+<volume>99</volume>: <fpage>145</fpage>–<lpage>159</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0091"><mixed-citation publication-type="book" id="ecy70288-cit-0091">
+<string-name name-style="western">
+<surname>Washburn</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Gotschalk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Salazar</surname>
+</string-name>. <year>2025</year>. <source>SBC LTER: Ocean: Currents and Biogeochemistry: Moored CTD and ADCP data from Naples Reef Mooring (NAP), ongoing since 2001 ver 34</source>. <publisher-loc>Santa Barbara, CA</publisher-loc>: <publisher-name>Environmental Data Initiative</publisher-name>.</mixed-citation></ref><ref id="ecy70288-bib-0086"><mixed-citation publication-type="journal" id="ecy70288-cit-0086">
+<string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Thomsen</surname>
+</string-name>. <year>2012</year>. “<article-title>A Decade of Climate Change Experiments on Marine Organisms: Procedures, Patterns and Problems</article-title>.” <source>Global Change Biology</source>
+<volume>18</volume>: <fpage>1491</fpage>–<lpage>1498</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0087"><mixed-citation publication-type="journal" id="ecy70288-cit-0087">
+<string-name name-style="western">
+<surname>Williams</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. B.</given-names>
+<surname>Buckley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. S.</given-names>
+<surname>Sheldon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Vickers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. O.</given-names>
+<surname>Pörtner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. W.</given-names>
+<surname>Dowd</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Gunderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Marshall</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Stillman</surname>
+</string-name>. <year>2016</year>. “<article-title>Biological Impacts of Thermal Extremes: Mechanisms and Costs of Functional Responses Matter</article-title>.” <source>Integrative and Comparative Biology</source>
+<volume>56</volume>: <fpage>73</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">27252194</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/icb/icw013</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0088"><mixed-citation publication-type="journal" id="ecy70288-cit-0088">
+<string-name name-style="western">
+<surname>Williams</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Ragland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Betini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. B.</given-names>
+<surname>Buckley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. A.</given-names>
+<surname>Cheviron</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Donohue</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hereford</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Understanding Evolutionary Impacts of Seasonality: An Introduction to the Symposium</article-title>.” <source>Integrative and Comparative Biology</source>
+<volume>57</volume>: <fpage>921</fpage>–<lpage>933</lpage>.<pub-id pub-id-type="pmid">29045649</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/icb/icx122</pub-id><pub-id pub-id-type="pmcid">PMC5886313</pub-id></mixed-citation></ref><ref id="ecy70288-bib-0089"><mixed-citation publication-type="journal" id="ecy70288-cit-0089">
+<string-name name-style="western">
+<surname>Wong</surname>, <given-names>J. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Hofmann</surname>
+</string-name>. <year>2020</year>. “<article-title>The Effects of Temperature and pCO2 on the Size, Thermal Tolerance and Metabolic Rate of the Red Sea Urchin (<italic toggle="yes">Mesocentrotus franciscanus</italic>) during Early Development</article-title>.” <source>Marine Biology</source>
+<volume>167</volume>: <fpage>1</fpage>–<lpage>15</lpage>.</mixed-citation></ref><ref id="ecy70288-bib-0090"><mixed-citation publication-type="journal" id="ecy70288-cit-0090">
+<string-name name-style="western">
+<surname>Woodson</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>McManus</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Tyburczy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Barth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Washburn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Caselle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Carr</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Coastal Fronts Set Recruitment and Connectivity Patterns across Multiple Taxa</article-title>.” <source>Limnology and Oceanography</source>
+<volume>57</volume>: <fpage>582</fpage>–<lpage>596</lpage>.</mixed-citation></ref></ref-list></back></article>

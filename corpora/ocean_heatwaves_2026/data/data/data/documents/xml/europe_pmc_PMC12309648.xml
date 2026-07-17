@@ -1,0 +1,1651 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="cobi14435" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Conserv Biol</journal-id><journal-id journal-id-type="iso-abbrev">Conserv Biol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">COBI</journal-id><journal-title-group><journal-title>Conservation Biology</journal-title></journal-title-group><issn pub-type="ppub">0888-8892</issn><issn pub-type="epub">1523-1739</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12309648</article-id><article-id pub-id-type="pmcid-ver">PMC12309648.1</article-id><article-id pub-id-type="pmcaid">12309648</article-id><article-id pub-id-type="pmcaiid">12309648</article-id><article-id pub-id-type="pmid">39786314</article-id><article-id pub-id-type="doi">10.1111/cobi.14435</article-id><article-id pub-id-type="publisher-id">COBI14435</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Contributed Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Contributed Paper</subject></subj-group></article-categories><title-group><article-title>Conservation benefits of a large marine protected area network that spans multiple ecosystems</article-title><alt-title alt-title-type="left-running-head">SMITH <sc>et al</sc>.</alt-title></title-group><contrib-group><contrib id="cobi14435-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Smith</surname><given-names initials="JG">Joshua G.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4633-4519</contrib-id><xref rid="cobi14435-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cobi14435-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>josgraysmith@gmail.com</email></address></contrib><contrib id="cobi14435-cr-0002" contrib-type="author"><name name-style="western"><surname>Lopazanski</surname><given-names initials="C">Cori</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4086-102X</contrib-id><xref rid="cobi14435-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cobi14435-cr-0003" contrib-type="author"><name name-style="western"><surname>Free</surname><given-names initials="CM">Christopher M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2557-8920</contrib-id><xref rid="cobi14435-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cobi14435-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cobi14435-cr-0004" contrib-type="author"><name name-style="western"><surname>Brun</surname><given-names initials="J">Julien</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7751-6238</contrib-id><xref rid="cobi14435-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="cobi14435-cr-0005" contrib-type="author"><name name-style="western"><surname>Anderson</surname><given-names initials="C">Clarissa</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5970-0253</contrib-id><xref rid="cobi14435-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="cobi14435-cr-0006" contrib-type="author"><name name-style="western"><surname>Carr</surname><given-names initials="MH">Mark H.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9644-7680</contrib-id><xref rid="cobi14435-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="cobi14435-cr-0007" contrib-type="author"><name name-style="western"><surname>Claudet</surname><given-names initials="J">Joachim</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6295-1061</contrib-id><xref rid="cobi14435-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="cobi14435-cr-0008" contrib-type="author"><name name-style="western"><surname>Dugan</surname><given-names initials="JE">Jenifer E.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9653-997X</contrib-id><xref rid="cobi14435-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cobi14435-cr-0009" contrib-type="author"><name name-style="western"><surname>Eurich</surname><given-names initials="JG">Jacob G.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1764-7524</contrib-id><xref rid="cobi14435-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cobi14435-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="cobi14435-cr-0010" contrib-type="author"><name name-style="western"><surname>Francis</surname><given-names initials="TB">Tessa B.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3383-5392</contrib-id><xref rid="cobi14435-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="cobi14435-cr-0011" contrib-type="author"><name name-style="western"><surname>Gill</surname><given-names initials="DA">David A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7550-1761</contrib-id><xref rid="cobi14435-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="cobi14435-cr-0012" contrib-type="author"><name name-style="western"><surname>Hamilton</surname><given-names initials="SL">Scott L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5034-4213</contrib-id><xref rid="cobi14435-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="cobi14435-cr-0013" contrib-type="author"><name name-style="western"><surname>Kaschner</surname><given-names initials="K">Kristin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4061-626X</contrib-id><xref rid="cobi14435-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref></contrib><contrib id="cobi14435-cr-0014" contrib-type="author"><name name-style="western"><surname>Mouillot</surname><given-names initials="D">David</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0402-2605</contrib-id><xref rid="cobi14435-aff-0014" ref-type="aff">
+<sup>14</sup>
+</xref><xref rid="cobi14435-aff-0015" ref-type="aff">
+<sup>15</sup>
+</xref></contrib><contrib id="cobi14435-cr-0015" contrib-type="author"><name name-style="western"><surname>Raimondi</surname><given-names initials="PT">Peter T.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5235-1441</contrib-id><xref rid="cobi14435-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="cobi14435-cr-0016" contrib-type="author"><name name-style="western"><surname>Starr</surname><given-names initials="RM">Richard M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4010-5152</contrib-id><xref rid="cobi14435-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="cobi14435-cr-0017" contrib-type="author"><name name-style="western"><surname>Ziegler</surname><given-names initials="SL">Shelby L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7218-0811</contrib-id><xref rid="cobi14435-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref></contrib><contrib id="cobi14435-cr-0018" contrib-type="author"><name name-style="western"><surname>Malone</surname><given-names initials="D">Daniel</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1758-7026</contrib-id><xref rid="cobi14435-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="cobi14435-cr-0019" contrib-type="author"><name name-style="western"><surname>Marraffini</surname><given-names initials="ML">Michelle L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8014-057X</contrib-id><xref rid="cobi14435-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cobi14435-cr-0020" contrib-type="author"><name name-style="western"><surname>Parsons‐Field</surname><given-names initials="A">Avrey</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6126-4136</contrib-id><xref rid="cobi14435-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cobi14435-cr-0021" contrib-type="author"><name name-style="western"><surname>Spiecker</surname><given-names initials="B">Barbara</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6895-9424</contrib-id><xref rid="cobi14435-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="cobi14435-aff-0016" ref-type="aff">
+<sup>16</sup>
+</xref></contrib><contrib id="cobi14435-cr-0022" contrib-type="author"><name name-style="western"><surname>Yeager</surname><given-names initials="M">Mallarie</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5513-2583</contrib-id><xref rid="cobi14435-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="cobi14435-aff-0017" ref-type="aff">
+<sup>17</sup>
+</xref></contrib><contrib id="cobi14435-cr-0023" contrib-type="author"><name name-style="western"><surname>Nickols</surname><given-names initials="KJ">Kerry J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3476-4247</contrib-id><xref rid="cobi14435-aff-0018" ref-type="aff">
+<sup>18</sup>
+</xref></contrib><contrib id="cobi14435-cr-0024" contrib-type="author"><name name-style="western"><surname>Caselle</surname><given-names initials="JE">Jennifer E.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1364-3123</contrib-id><xref rid="cobi14435-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="cobi14435-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">National Center for Ecological Analysis and Synthesis</named-content>
+<institution>University of California, Santa Barbara</institution>
+<city>Santa Barbara</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Conservation and Science Division</named-content>
+<institution>Monterey Bay Aquarium</institution>
+<city>Monterey</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Bren School of Environmental Science and Management</named-content>
+<institution>University of California, Santa Barbara</institution>
+<city>Santa Barbara</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Marine Science Institute</named-content>
+<institution>University of California, Santa Barbara</institution>
+<city>Santa Barbara</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Research Data Services, Library</named-content>
+<institution>University of California Santa Barbara</institution>
+<city>Santa Barbara</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Scripps Institution of Oceanography/Southern California Coastal Ocean Observing System</named-content>
+<institution>University of California, San Diego</institution>
+<city>La Jolla</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ecology and Evolutionary Biology</named-content>
+<institution>University of California Santa Cruz</institution>
+<city>Santa Cruz</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">National Center for Scientific Research</named-content>
+<institution>PSL Université Paris, CRIOBE, CNRS‐EPHE‐UPVD</institution>
+<institution>Maison de l'Océan</institution>
+<city>Paris</city>
+<country country="FR">France</country>
+</aff><aff id="cobi14435-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<institution>Environmental Defense Fund</institution>
+<city>Santa Barbara</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Puget Sound Institute</named-content>
+<institution>University of Washington</institution>
+<city>Tacoma</city>
+<named-content content-type="country-part">Washington</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Duke Marine Laboratory</named-content>
+<named-content content-type="organisation-division">Nicholas School of the Environment</named-content>
+<institution>Duke University</institution>
+<city>Beaufort</city>
+<named-content content-type="country-part">North Carolina</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">Moss Landing Marine Laboratories</named-content>
+<institution>San Jose State University</institution>
+<city>Moss Landing</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biometry and Environmental Systems Analysis</named-content>
+<institution>Albert‐Ludwigs‐University of Freiburg</institution>
+<city>Freiburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="cobi14435-aff-0014">
+<label>
+<sup>14</sup>
+</label>
+<named-content content-type="organisation-division">MARBEC</named-content>
+<institution>University of Montpellier, CNRS, IFREMER, IRD</institution>
+<city>Montpellier</city>
+<country country="FR">France</country>
+</aff><aff id="cobi14435-aff-0015">
+<label>
+<sup>15</sup>
+</label>
+<institution>Institut Universitaire de France, IUF</institution>
+<city>Paris</city>
+<country country="FR">France</country>
+</aff><aff id="cobi14435-aff-0016">
+<label>
+<sup>16</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biological Sciences</named-content>
+<institution>University of New Hampshire</institution>
+<city>Durham</city>
+<named-content content-type="country-part">New Hampshire</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0017">
+<label>
+<sup>17</sup>
+</label>
+<named-content content-type="organisation-division">Habitat Conservation Division, Alaska Regional Office, National Marine Fisheries Service</named-content>
+<institution>National Oceanic and Atmospheric Administration</institution>
+<city>Juneau</city>
+<named-content content-type="country-part">Alaska</named-content>
+<country country="US">USA</country>
+</aff><aff id="cobi14435-aff-0018">
+<label>
+<sup>18</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>California State University Northridge</institution>
+<city>Northridge</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>Joshua G. Smith, National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara, Santa Barbara, CA, USA. Email: <email>josgraysmith@gmail.com</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>1</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>8</month><year>2025</year></pub-date><volume>39</volume><issue seq="280">4</issue><issue-id pub-id-type="pmc-issue-id">494035</issue-id><issue-id pub-id-type="doi">10.1111/cobi.v39.4</issue-id><elocation-id>e14435</elocation-id><history>
+<date date-type="rev-recd"><day>30</day><month>10</month><year>2024</year></date>
+<date date-type="received"><day>14</day><month>6</month><year>2024</year></date>
+<date date-type="accepted"><day>24</day><month>11</month><year>2024</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>30</day><month>07</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>31</day><month>07</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-07-31 11:25:27.430"><day>31</day><month>07</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Conservation Biology</italic> published by Wiley Periodicals LLC on behalf of Society for <italic toggle="yes">Conservation Biology</italic>.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="COBI-39-e14435.pdf"><?pdf-name COBI-39-e14435.pdf?><?pdf-size 2120477?><?pdf-md5 366fc5ab9affb161fa0cadbc14b0a687?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:62f9/12309648/366fc5ab9aff/COBI-39-e14435.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:COBI-39-e14435.pdf"/><abstract><title>Abstract</title><p>Marine protected areas (MPAs) are widely implemented tools for long‐term ocean conservation and resource management. Assessments of MPA performance have largely focused on specific ecosystems individually and have rarely evaluated performance across multiple ecosystems either in an individual MPA or across an MPA network. We evaluated the conservation performance of 59 MPAs in California's large MPA network, which encompasses 4 primary ecosystems (surf zone, kelp forest, shallow reef, deep reef) and 4 bioregions, and identified MPA attributes that best explain performance. Using a meta‐analytic framework, we evaluated the ability of MPAs to conserve fish biomass, richness, and diversity. At the scale of the network and for 3 of 4 regions, the biomass of species targeted by fishing was positively associated with the level of regulatory protection and was greater inside no‐take MPAs, whereas species not targeted by fishing had similar biomass in MPAs and areas open to fishing. In contrast, species richness and diversity were not as strongly enhanced by MPA protection. The key features of conservation effectiveness included MPA age, preimplementation fisheries pressure, and habitat diversity. Important drivers of MPA effectiveness for single MPAs were consistent across MPAs in the network, spanning regions and ecosystems. With international targets aimed at protecting 30% of the world's oceans by 2030, MPA design and assessment frameworks should consider conservation performance at multiple ecologically relevant scales, from individual MPAs to MPA networks.</p></abstract><trans-abstract xml:lang="es"><p>Beneficios de la conservación para una extensa red de áreas marinas protegidas que abarca varios ecosistemas</p><sec id="cobi14435-sec-0020"><title>Resumen</title><p>Las áreas marinas protegidas (AMP) son herramientas de uso amplio para la conservación a largo plazo de los océanos y la gestión de recursos. Las evaluaciones del rendimiento de las AMP se han centrado casi siempre en ecosistemas específicos de forma individual y rara vez han evaluado el rendimiento a través de varios ecosistemas, ya sea en una AMP individual o a través de una red de AMP. Evaluamos el rendimiento de la conservación de 59 AMP en la gran red de AMP de California, que abarca cuatro ecosistemas primarios (zona de oleaje, bosque de algas, arrecife poco profundo, arrecife profundo) y cuatro biorregiones. También identificamos los atributos de las AMP que mejor explican el rendimiento. Utilizamos un marco meta‐analítico para evaluar la capacidad de las AMP para conservar la biomasa, riqueza y diversidad de peces. A escala de la red y para tres de las cuatro regiones, la biomasa de las especies de interés para la pesca se asoció positivamente con el nivel de protección reglamentaria y fue mayor dentro de las AMP de veda, mientras que las especies que no son de interés para la pesca presentaron una biomasa similar en las AMP y en las zonas abiertas a la pesca. Al contrario, la riqueza y diversidad de especies no mejoraron mucho con la protección de las AMP. Las características clave de la eficacia de la conservación incluyeron la antigüedad de las AMP, la presión pesquera previa a la implementación y la diversidad de hábitats. Los principales factores de la eficacia de las AMP fueron los mismos en todas las AMP de la red, en todas las regiones y en todos los ecosistemas. Con los objetivos internacionales de proteger el 30% de los océanos del mundo para 2030, los marcos de diseño y evaluación de las AMP deben tener en cuenta la eficacia de la conservación a múltiples escalas ecológicamente relevantes, desde las AMP individuales hasta las redes de AMP.</p></sec></trans-abstract><trans-abstract xml:lang="zh"><title>跨越多个生态系统的大型海洋保护区网络的保护效益</title><p>【摘要】 海洋保护区(marine protected area, MPA)是广泛实施的长期海洋保护和资源管理工具。目前, 对MPA保护成效的评估主要集中在单个特定生态系统上, 很少有研究对单个MPA或整个MPA网络中的多个生态系统的保护成效进行评估。本研究评估了加利福尼亚大型MPA网络中59个MPA的保护成效, 其中包括四种主要的生态系统(冲浪区、海藻林、浅礁、深礁)和四个生物区, 研究还确定了最能解释保护成效的MPA特征。我们利用荟萃分析框架, 评估了MPA保护鱼类生物量、丰富度和多样性的能力。在MPA网络尺度及四个生物区中的三个中, 捕捞目标鱼种的生物量都与监管保护水平呈正相关, 且在禁捕MPA中生物量更大, 而非捕捞目标鱼种在MPA和开放捕捞区内的生物量相近。相比之下, 物种丰富度和多样性并没有因为MPA的保护而显著提高。影响保护成效的关键特征包括MPA建立时长、建立前的渔业压力, 以及生境多样性。影响单个MPA有效性的重要因素在跨区域和跨生态系统的网络的所有MPA中都是一致的。随着“到2030年保护全球30%的海洋”的国际目标的提出, MPA设计和评估框架应考虑从单个MPA到MPA网络的多个生态相关尺度的保护成效。<bold>【翻译:胡怡思;审校:聂永刚】</bold>
+</p></trans-abstract><kwd-group kwd-group-type="author-generated"><kwd id="cobi14435-kwd-0001">California</kwd><kwd id="cobi14435-kwd-0002">fisheries</kwd><kwd id="cobi14435-kwd-0003">kelp forests</kwd><kwd id="cobi14435-kwd-0004">marine reserve</kwd><kwd id="cobi14435-kwd-0005">ocean biodiversity</kwd><kwd id="cobi14435-kwd-0006">rocky reefs</kwd><kwd id="cobi14435-kwd-0007">surf zone</kwd><kwd id="cobi14435-kwd-0008">arrecifes rocosos</kwd><kwd id="cobi14435-kwd-0009">biodiversidad oceánica</kwd><kwd id="cobi14435-kwd-0010">bosques de algas</kwd><kwd id="cobi14435-kwd-0011">California</kwd><kwd id="cobi14435-kwd-0012">pesquerías</kwd><kwd id="cobi14435-kwd-0013">reserva marina</kwd><kwd id="cobi14435-kwd-0014">zona de oleaje</kwd><kwd id="cobi14435-kwd-0015">加利福尼亚</kwd><kwd id="cobi14435-kwd-0016">海洋保护区</kwd><kwd id="cobi14435-kwd-0017">海藻林</kwd><kwd id="cobi14435-kwd-0018">岩礁</kwd><kwd id="cobi14435-kwd-0019">冲浪区</kwd><kwd id="cobi14435-kwd-0020">海洋生物多样性</kwd><kwd id="cobi14435-kwd-0021">渔业</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>California Sea Grant, University of California, San Diego</institution><institution-id institution-id-type="doi">10.13039/100005522</institution-id></institution-wrap>
+</funding-source><award-id>R/MPA‐43</award-id><award-id>R/MPA‐44</award-id><award-id>R/MPA‐45</award-id><award-id>R/MPA‐46</award-id><award-id>R/MPA‐48</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>California Ocean Protection Council</institution><institution-id institution-id-type="doi">10.13039/100018775</institution-id></institution-wrap>
+</funding-source><award-id>#C0302700</award-id><award-id>#C0752003</award-id><award-id>#C0752005</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>David and Lucile Packard Foundation</institution><institution-id institution-id-type="doi">10.13039/100000008</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>California Department of Fish and Wildlife</institution><institution-id institution-id-type="doi">10.13039/100006238</institution-id></institution-wrap>
+</funding-source><award-id>P1970018</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="0"/><page-count count="13"/><word-count count="10151"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.9 mode:remove_FC converted:30.07.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="cobi14435-cit-0078">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopazanski</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Free</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brun</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dugan</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eurich</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Francis</surname>, <given-names>T. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gill</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaschner</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raimondi</surname>, <given-names>P. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Malone</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marraffini</surname>, <given-names>M. L.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2025</year>). <article-title>Conservation benefits of a large marine protected area network that spans multiple ecosystems</article-title>. <source>Conservation Biology</source>, <volume>39</volume>, <elocation-id>e14435</elocation-id>. <pub-id pub-id-type="doi">10.1111/cobi.14435</pub-id>
+<pub-id pub-id-type="pmid">39786314</pub-id>
+<pub-id pub-id-type="pmcid">PMC12309648</pub-id></mixed-citation>
+</p><fn-group><fn id="cobi14435-note-0001"><p>
+<bold>Present addresses</bold>:</p><p>Shelby L. Ziegler, Department of Biology, Villanova University, Villanova, Pennsylvania, USA, and Kerry J. Nickols, Ocean Visions, Leesburg, Virginia, USA.</p></fn><fn id="cobi14435-note-0002"><p>
+<bold>Article Impact Statement</bold>: Conservation performance of marine protected areas (MPAs) accrues across ecosystems in individual MPAs and in a large MPA network.</p></fn></fn-group></notes></front><body><sec id="cobi14435-sec-0030"><title>INTRODUCTION</title><p>Marine protected areas (MPAs) are an area‐based management strategy primarily focused on long‐term ocean biodiversity conservation. There is global interest in protecting 30% of the ocean by 2030 (30×30) (CBD, <xref rid="cobi14435-bib-0010" ref-type="bibr">2021</xref>; Dinerstein et al., <xref rid="cobi14435-bib-0019" ref-type="bibr">2019</xref>). However, only 8% of the world's oceans are presently covered by MPAs (Bingham et al., <xref rid="cobi14435-bib-0004" ref-type="bibr">2021</xref>; Cinner et al., <xref rid="cobi14435-bib-0012" ref-type="bibr">2020</xref>). Although MPAs are increasingly implemented to provide climate mitigation and resilience (Jacquemont et al., <xref rid="cobi14435-bib-0037" ref-type="bibr">2022</xref>; Roberts et al., <xref rid="cobi14435-bib-0063" ref-type="bibr">2017</xref>), or to increase fisheries yields or profits (Di Lorenzo et al., <xref rid="cobi14435-bib-0018" ref-type="bibr">2020</xref>; Gaines et al., <xref rid="cobi14435-bib-0027" ref-type="bibr">2010</xref>), many were originally envisioned primarily as tools to stimulate the recovery of overfished populations while protecting biodiversity and ecosystem functions (Salm &amp; Clark, <xref rid="cobi14435-bib-0065" ref-type="bibr">1984</xref>). Whether MPAs promote climate resilience (Freedman et al., <xref rid="cobi14435-bib-0025" ref-type="bibr">2020</xref>; Johnson et al., <xref rid="cobi14435-bib-0039" ref-type="bibr">2022</xref>; Smith et al., <xref rid="cobi14435-bib-0067" ref-type="bibr">2023</xref>) or fisheries benefits (Ovando et al., <xref rid="cobi14435-bib-0058" ref-type="bibr">2021</xref>; Radici et al., <xref rid="cobi14435-bib-0059" ref-type="bibr">2023</xref>) is still a matter of debate (Arneth et al., <xref rid="cobi14435-bib-0002" ref-type="bibr">2023</xref>). By contrast, the conservation performance of MPAs—their ability to maintain higher biomass of harvested species, biodiversity, and ecosystem functioning relative to fished locations (Hernández‐Andreu et al., <xref rid="cobi14435-bib-0035" ref-type="bibr">2024</xref>)—is widely documented (Claudet et al., <xref rid="cobi14435-bib-0014" ref-type="bibr">2008</xref>; Edgar et al., <xref rid="cobi14435-bib-0021" ref-type="bibr">2014</xref>; Gill et al., <xref rid="cobi14435-bib-0028" ref-type="bibr">2017</xref>; Lester &amp; Halpern, <xref rid="cobi14435-bib-0043" ref-type="bibr">2008</xref>; Lester et al., <xref rid="cobi14435-bib-0044" ref-type="bibr">2009</xref>; Zupan et al., <xref rid="cobi14435-bib-0077" ref-type="bibr">2018</xref>) and remains the central objective of most MPA management plans (Lopazanski et al., <xref rid="cobi14435-bib-0047" ref-type="bibr">2023</xref>).</p><p>Globally, many MPAs are implemented as a single spatially discrete unit (Francour et al., <xref rid="cobi14435-bib-0022" ref-type="bibr">2001</xref>; Grorud‐Colvert et al., <xref rid="cobi14435-bib-0033" ref-type="bibr">2014</xref>). However, there is increasing advocacy for coordinated networks of MPAs that effectively protect biodiversity in and across ecosystems at multiple geographic scales (Jefferson et al., <xref rid="cobi14435-bib-0038" ref-type="bibr">2021</xref>; Jones et al., <xref rid="cobi14435-bib-0040" ref-type="bibr">2020</xref>; Sala et al., <xref rid="cobi14435-bib-0064" ref-type="bibr">2021</xref>; Sève et al., <xref rid="cobi14435-bib-0066" ref-type="bibr">2023</xref>; Visalli et al., <xref rid="cobi14435-bib-0070" ref-type="bibr">2020</xref>). Networks typically include multiple MPAs with meta‐populations connected through propagule dispersal or adult movement, and these networks can encompass many types of ecosystems under various forms of regulatory protection (Gleason et al., <xref rid="cobi14435-bib-0029" ref-type="bibr">2013</xref>; Grorud‐Colvert et al., <xref rid="cobi14435-bib-0033" ref-type="bibr">2014</xref>). We define <italic toggle="yes">ecosystem</italic> as encompassing both the biotic and abiotic components of a particular portion of nearshore coastal environments (i.e., sandy surf zones, kelp forests, shallow reefs, deep reefs) (Marine Life Protection Act, <xref rid="cobi14435-bib-0050" ref-type="bibr">1999a</xref>). Many existing MPA networks aim to protect multiple physical habitats (e.g., hard and soft substrata, etc.) across depth strata and ecosystems (e.g., coral reefs, rock reefs, kelp forests, seagrasses, mangroves, etc.), and expansions in global MPA coverage are thought to be “ecologically representative” and to “efficiently and effectively” protect diverse habitats (CBD, <xref rid="cobi14435-bib-0010" ref-type="bibr">2021</xref>).</p><p>Studies of MPA performance have largely focused on specific ecosystems individually (e.g., coral reef, mangrove, rocky reef, kelp forest, and open ocean) and have rarely evaluated performance across multiple ecosystems either in an individual MPA or across an MPA network (see fig. 2c in Gill et al., <xref rid="cobi14435-bib-0028" ref-type="bibr">2017</xref> for a rare exception, though sample size is limited). Single‐ecosystem and site assessments of MPA performance risk mischaracterizing synthetic effects that may span multiple ecosystems and geographic regions. Conservation performance is likely to vary among ecosystems given differences in community composition, history of fisheries and resource exploitation, vulnerability to anthropogenic stressors, level of protection and compliance, and sensitivity to environmental variation and physical disturbance. As such, there is a need to holistically evaluate the performance of regional MPA networks containing diverse ecosystems within a common framework.</p><p>The design and management of MPAs requires understanding the features (e.g., age, size, historic fishing intensity, habitat representation) that promote their efficacy, which could vary in relative importance by ecosystem. Many large‐scale syntheses have revealed features associated with MPA conservation performance, but most have focused on a single type of ecosystem (Edgar et al., <xref rid="cobi14435-bib-0021" ref-type="bibr">2014</xref>; Ziegler et al., <xref rid="cobi14435-bib-0074" ref-type="bibr">2024</xref>) or on pooled data across ecosystems (Claudet et al., <xref rid="cobi14435-bib-0014" ref-type="bibr">2008</xref>; Gill et al., <xref rid="cobi14435-bib-0028" ref-type="bibr">2017</xref>; Lester &amp; Halpern, <xref rid="cobi14435-bib-0043" ref-type="bibr">2008</xref>; Zupan et al., <xref rid="cobi14435-bib-0077" ref-type="bibr">2018</xref>). Further, prior meta‐analyses of MPA performance incorporate data from disparate, single MPAs, often geographically separated, rather than from a large, ecologically connected MPA network. As such, synthetic evaluations are needed to test whether features that confer conservation benefits at the individual ecosystem or MPA scale are also key determinants at the MPA network level (Grorud‐Colvert et al., <xref rid="cobi14435-bib-0033" ref-type="bibr">2014</xref>).</p><p>California's (USA) large MPA network presents a unique opportunity to elucidate the impacts of MPAs across diverse fish assemblages inhabiting a variety of ecosystems across multiple habitats and coastal geographies and to identify the MPA features that determine conservation performance. The network contains 124 MPAs that protect 16% of state waters along 1350 km of coastline, spanning approximately 10 degrees of latitude. It was scientifically designed with size and spacing guidelines to promote ecological connectivity (i.e., the dispersal and delivery of propagules; hereafter settlement magnitude) and network functionality (Botsford et al., <xref rid="cobi14435-bib-0006" ref-type="bibr">2014</xref>). Among other goals, the network was explicitly designed to protect “representative and unique marine life habitats in California waters for their intrinsic values” (Marine Life Protection Act, <xref rid="cobi14435-bib-0051" ref-type="bibr">1999b</xref>). It encompasses hard‐ and soft‐bottom habitats, from sandy beaches and the rocky intertidal to depths of 1000 m. For most locations, coordinated long‐term monitoring was initiated in 2007 (the year in which the network expansion began) for the kelp forests, shallow reefs, and deep reefs on the continental shelf. This provides a long and rich time series, in some cases predating MPA establishment, for evaluating the impact of different levels of regulatory protection (e.g., no take, partial take) and MPA features on fish biomass and biodiversity across multiple habitats and ecosystems.</p><p>We drew on multiple years of long‐term monitoring data inside and outside 59 MPAs distributed throughout California's large MPA network to examine the impact of regulatory protection on fish biomass, species richness, and biodiversity across surf zone, kelp forest, shallow reef, and deep reef ecosystems. Specifically, we tested the following hypotheses: regulatory protection that limits or prohibits fishing confers positive conservation benefits (fish biomass, richness, and diversity) that vary by protection level (no take vs. partial take) across ecosystems; benefits conferred by regulatory protection are strongest in MPAs that were intensively harvested prior to implementation and for species that are targeted by fisheries; a network of MPAs confers conservation benefits that accrue across ecosystems; and relative outcomes of regulatory protection on conservation performance are explained by MPA features, such as age, size, local preimplementation fishing pressure, larval settlement magnitude, habitat richness, and habitat diversity. We evaluated these features as correlates of MPA conservation performance to inform regulations that could be leveraged when implementing, assessing, or adaptively managing MPA networks around the world (CBD, <xref rid="cobi14435-bib-0010" ref-type="bibr">2021</xref>; Gubernatorial Executive Order N‐82‐20, 2020; Presidential Executive Order 14008: Tackling the Climate Crisis at Home and Abroad).</p></sec><sec id="cobi14435-sec-0040"><title>METHODS</title><sec id="cobi14435-sec-0050"><title>Study area and long‐term monitoring</title><p>California's MPA network consists of 124 MPAs that vary in protection level, including 49 no‐take state marine reserves (SMRs), 10 no‐take state marine conservation areas (SMCAs), 60 partial‐take SMCAs that allow take of specific organisms (with different regulations for each SMCA), and 5 partial‐take state marine recreational management areas (SMRMA) that allow the take of waterfowl (Gleason et al., <xref rid="cobi14435-bib-0029" ref-type="bibr">2013</xref>). All protection levels are hereafter referred to as <italic toggle="yes">MPAs</italic>. California's MPAs were implemented across 4 regions (north, north central, central, and south) at different times from 2007 to 2012, although the network contains some older preexisting MPAs (Van Diggelen et al., <xref rid="cobi14435-bib-0069" ref-type="bibr">2022</xref>) (Figure <xref rid="cobi14435-fig-0001" ref-type="fig">1b</xref>). For our analyses, we considered 2 types of regulatory protection: no‐take and partial‐take MPAs. An MPA was designated as a de facto no‐take MPA for a particular ecosystem if any allowed partial take was unlikely to directly or indirectly affect the species that reside in that particular ecosystem (e.g., take of salmon in an MPA is unlikely to affect any of our 4 focal ecosystems) (see Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S7</xref> &amp; Smith et al., <xref rid="cobi14435-bib-0067" ref-type="bibr">2023</xref>). MPAs with formal and de facto no‐take status were viewed and treated as experiencing equivalent levels of protection throughout the analysis.</p><fig position="float" fig-type="FIGURE" id="cobi14435-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>In California's network of marine protected areas (MPAs), (a) general fish sampling methods for the surf zone (seine), kelp forest (scuba), shallow reef (hook and line), and deep reef (remotely operated vehicle) ecosystems and (b) MPAs sampled (<italic toggle="yes">n =</italic> 59) at 4 scales (network [all ecosystems and MPAs in the network], regional [MPAs and ecosystem in a region], ecosystem [1 ecosystem in an MPA], and individual MPA) (MPAs, black circles; circle size, proportional to the number of ecosystems sampled in a given MPA). Fish illustrations provided by A. Caudle at Monterey Bay Aquarium, kelp illustrations provided by J. Kendall‐Bar, and ecosystem images provided by A. Phillips and P. Webster.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="COBI-39-e14435-g001.jpg"><?image-name COBI-39-e14435-g001.jpg?><?image-size 101165?><?image-md5 1171005a34fbbe592909b1f421243667?><?image-image-server-status NEVER_LOAD?><?image-original-height 743?><?image-original-width 400?><?image-scaled-height 743?><?image-scaled-width 400?><?image-cloudpmc-urn urn:cdn:blobs/62f9/12309648/1171005a34fb/COBI-39-e14435-g001.jpg?><?thumb-name COBI-39-e14435-g001.gif?><?thumb-size 11219?><?thumb-md5 9e2be5db6601c9d408700f45407fa66d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 186?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/62f9/12309648/9e2be5db6601/COBI-39-e14435-g001.gif?></graphic></fig><p>Several ecosystem‐specific research groups conduct annual monitoring of California's MPA network. We focused our analyses on 4 ecosystems that have extensive spatial and temporal monitoring coverage (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S15</xref>) of fishes across the MPA network: surf zone (sampled using seine nets), kelp forest (depths &lt;20 m, sampled by scuba divers), shallow reef (depths &lt;40 m, but outside kelp, sampled using hook and line), and deep reef (depths 30−100 m, sampled by remotely operated vehicles) (Figure <xref rid="cobi14435-fig-0001" ref-type="fig">1a</xref>). Each monitoring program uses a paired sampling design where surveys are conducted inside a given MPA and at a neighboring reference area where fishing is allowed. In general, these monitoring programs record the identity (to the lowest taxonomic resolution possible) and length of each fish observed in a systematic survey design. The ecosystem‐specific sampling methods are described in Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S1</xref>. Ultimately, we included monitoring data from 59 MPAs, generally from 2007 to 2020, although coverage varied by MPA and ecosystem (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S15</xref>).</p></sec><sec id="cobi14435-sec-0060"><title>Conservation performance across the MPA network</title><p>We evaluated the conservation performance of the MPA network in terms of targeted and nontargeted fish species (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S4</xref>) biomass, richness, and diversity across 4 ecosystems and 2 levels of protection (no take vs. partial take). Biomass was estimated for the surf zone, kelp forest, shallow reef, and deep reef ecosystems based on ecosystem‐specific estimates of fish abundance and body size. Fish length was converted to weight with a standardized biomass parameter table for each species following an extensive literature search. We identified the parameters for other missing species by taking the median conversion parameters for that species reported in FishBase (Froese &amp; Pauly, <xref rid="cobi14435-bib-0026" ref-type="bibr">2023</xref>). We then calculated biomass across all targeted and nontargeted fish species at the smallest replicable unit (e.g., seine, transect, or fishing cell inside or outside an MPA) (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S1</xref>). Species richness (number of species) and diversity (Shannon diversity index) were calculated at the MPA level for a given year and ecosystem.</p><p>We assessed the conservation performance of the MPA network by evaluating the relative distribution and predictors of fish species biomass, richness, and diversity inside and outside MPAs distributed throughout the network. Among the 124 MPAs in the network, 59 were sampled by at least 1 ecosystem monitoring group over the study period. These MPAs each had a single paired reference area where fishing was allowed. We used a log‐response ratio approach to quantify the relative strength of MPA effects between each pair of protected and fished sites (Hamilton et al., <xref rid="cobi14435-bib-0034" ref-type="bibr">2010</xref>; Ziegler et al., <xref rid="cobi14435-bib-0075" ref-type="bibr">2022</xref>). This yielded a unitless scaled metric of MPA performance that permitted us to compare responses of fish assemblages across multiple monitoring groups in different ecosystems, all sampled using different methods and metrics. The log response ratio for MPA <italic toggle="yes">j</italic> in year <italic toggle="yes">i</italic> (<italic toggle="yes">Y<sub>j,i</sub>
+</italic>) was calculated as:
+<disp-formula id="cobi14435-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mspace width="0.33em"/><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:mi>log</mml:mi><mml:mfrac><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>insid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>outsid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>insid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>outsid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math> are the mean performance metrics (biomass, diversity, or richness) across replicate units inside or outside an MPA <italic toggle="yes">j</italic>, respectively, in a given year <italic toggle="yes">i</italic>. We used the log of the response ratio to reduce the variance and scale the response around zero, such that a value above zero indicated a positive effect of the MPA on a given conservation performance metric, and a negative value indicated lower MPA performance (i.e., fish biomass, diversity, or richness was greater outside the MPA). To account for sites where zeros occasionally occurred outside the MPA (precluding inclusion of those MPAs due to an undefined log response ratio), we added a small constant calculated as 10% of the mean of all values for a given ecosystem, year, MPA type (no take or partial take), and site type (inside or outside an MPA). We calculated a fractional constant to account for interannual variability because adding a random constant (e.g., 0.01) could inadvertently skew the response distribution in favor of either the inside or outside locations.</p></sec><sec id="cobi14435-sec-0070"><title>Syntheses and inference framework</title><p>We used 2 statistical approaches to assess 3 metrics (biomass, richness, and diversity) of MPA conservation performance. First, for biomass, we compared the log response ratio of total biomass for targeted and nontargeted fish species with a meta‐analytic framework. Before our analyses, we classified the target status for each species with a 2‐stage approach. We first used records of commercial and recreational fisheries catch from 2000 to 2022 (Free et al., <xref rid="cobi14435-bib-0024" ref-type="bibr">2022</xref>) to identify species caught in California's fisheries. We then reclassified low‐volume bycatch species as nontargeted and cryptic species that are targeted by fishers but poorly represented in catch records as targeted (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S4</xref>). The null assumption was that nontargeted fish species respond less strongly (either positively or negatively) than targeted species to MPA implementation because they only experience indirect effects of protection on the ecosystem (e.g., increased predation or competition resulting from recovery of targeted species). As a result, they act as a type of control for variation in environmental conditions that may affect all species similarly. We inferred that a stronger positive response of targeted species relative to nontargeted species signifies the predicted effects of MPA protection. Second, for species richness and diversity, we compared the distribution of the log response ratios for each ecosystem and evaluated significance with a 2‐tailed <italic toggle="yes">t</italic> test on the log response ratio. This was the most appropriate form of analysis because richness and diversity were each calculated across replicates in an MPA (i.e., at the level of the MPA rather than haul, transect, or fishing cell) and because sampling was often depth stratified and many species are associated with particular depths. Therefore, it was inappropriate to calculate these 2 performance metrics at a smaller scale (e.g., seine, transect, or fishing cell).</p><p>We used a meta‐analytic framework to evaluate the effect of regulatory protection on fish biomass across the evaluated MPAs and ecosystems. This analysis used biomass as the focal performance metric because it contained both an effect size and associated unit variance for each ecosystem and MPA. However, the shallow reef ecosystem used hook‐and‐line sampling, the same gear used to target nearshore recreational fish species, meaning that nontargeted fish species were not sufficiently sampled for inclusion in the meta‐analysis. The biomass effect size for each ecosystem at a given MPA was modeled as the log ratio (Equation <xref rid="cobi14435-disp-0001" ref-type="disp-formula">1</xref>). When data were collected in an individual MPA over time, we retained only the most recent results to reflect the longest duration of protection for a given ecosystem (Zupan et al., <xref rid="cobi14435-bib-0077" ref-type="bibr">2018</xref>). The within‐study variance of each unique ecosystem‐MPA combination was calculated as:
+<disp-formula id="cobi14435-disp-0002">
+<label>(2)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="block"><mml:mrow><mml:mrow><mml:mspace width="0.33em"/><mml:msub><mml:mi>v</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:mi>insid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mrow><mml:mi>insid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>insid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo linebreak="goodbreak">+</mml:mo><mml:mfrac><mml:msubsup><mml:mi>σ</mml:mi><mml:mrow><mml:mi>outsid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mrow><mml:mi>outsid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub></mml:mrow></mml:msub><mml:mo>∗</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>outsid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="inline"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>insid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="inline"><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>X</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mrow><mml:mi>outsid</mml:mi><mml:msub><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math> are the mean biomass estimates (targeted or nontargeted, separately) for a given ecosystem <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="inline"><mml:mrow><mml:mi>E</mml:mi></mml:mrow></mml:math> (surf zone, kelp forest, shallow reef, deep reef) inside and outside, respectively, of MPA <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-8" display="inline"><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:math> in the most recent year; <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-9" display="inline"><mml:mrow><mml:mi>σ</mml:mi></mml:mrow></mml:math> is the standard deviation associated with each mean at <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-10" display="inline"><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math>; and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-11" display="inline"><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:math> is the number of replicates (seines, transects, or fishing cells) used to estimate the mean for <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-12" display="inline"><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:math>.</p><p>The conservation performance (<italic toggle="yes">R</italic>) of an individual MPA (<italic toggle="yes">n</italic> = 59), region (<italic toggle="yes">n</italic> = 4), or ecosystem (<italic toggle="yes">n</italic> = 4) (Figure <xref rid="cobi14435-fig-0001" ref-type="fig">1b</xref>) was calculated as a weighted average of the effect size as a function of target status (targeted or nontargeted) as:
+<disp-formula id="cobi14435-disp-0003">
+<label>(3)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-13" display="block"><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo>¯</mml:mo></mml:mover><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>Y</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:mrow><mml:msubsup><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:msubsup><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-14" display="inline"><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> is the inverse of the within <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-15" display="inline"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mrow><mml:mi>E</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math> and between <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-16" display="inline"><mml:mrow><mml:msup><mml:mover accent="true"><mml:mi>τ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math> study variance defined as:
+<disp-formula id="cobi14435-disp-0004">
+<label>(4)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-17" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mover accent="true"><mml:mi>τ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>and
+<disp-formula id="cobi14435-disp-0005">
+<label>(5)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-18" display="block"><mml:mrow><mml:mrow><mml:msup><mml:mover accent="true"><mml:mi>τ</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mn>2</mml:mn></mml:msup><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:mi>Q</mml:mi><mml:mo>−</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mi>k</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mfenced></mml:mrow><mml:mi>c</mml:mi></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">k</italic> is the number of ecosystems, <italic toggle="yes">c</italic> is a constant equal to <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-19" display="inline"><mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math>, and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-20" display="inline"><mml:mrow><mml:mi>Q</mml:mi></mml:mrow></mml:math> is the overall heterogeneity given by:
+<disp-formula id="cobi14435-disp-0006">
+<label>(6)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-21" display="block"><mml:mrow><mml:mrow><mml:mi>Q</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:munderover><mml:mo>∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:munderover><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msup><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:mover accent="true"><mml:mi>R</mml:mi><mml:mo>¯</mml:mo></mml:mover></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec><sec id="cobi14435-sec-0080"><title>MPA features and conservation performance</title><p>To evaluate the network‐level predictors of MPA conservation performance across all ecosystems and sampled MPAs, we constructed a meta‐generalized additive model (meta‐GAM) with the mgcv package in R (Wood, <xref rid="cobi14435-bib-0072" ref-type="bibr">2011</xref>). We evaluated the impact of 8 MPA features on conservation performance (log ratio effect size): MPA age (year), MPA size (square kilometers), habitat diversity (number of habitats and their relative area), habitat richness (number of distinct habitats), proportion of MPA with rocky bottom, local pre‐MPA fisheries landings, ecosystem‐specific estimated larval settlement, and total estimated larval settlement to an MPA. The last 2 features were estimated from ROMS (Regional Ocean Modeling System) larval dispersal and models (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S1</xref>). We restricted the analyses to no‐take MPAs and targeted fish species to parse the overall relationship between performance and each predictor variable while holding the most restricted level of protection (no take) constant. To further explore the ecosystem‐level predictors of conservation performance, we used a series of random forest models on individual ecosystems. Details on the random forest models are in Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S1</xref>, and details on how each MPA feature was defined and derived are in Appendices <xref rid="cobi14435-supinfo-0001" ref-type="">S5</xref> and <xref rid="cobi14435-supinfo-0001" ref-type="">S6</xref>.</p><p>To construct the meta‐GAM, MPA features were added as smoothing terms and year was included as a cyclic cubic regression spline to account for periodic trends over time in the data. The model included all sampled no‐take MPAs and ecosystems weighted using <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-22" display="inline"><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math> (Equation <xref rid="cobi14435-disp-0004" ref-type="disp-formula">4</xref>). We used a Gaussian link function and cubic spline to determine the optimal level of smoothing for each predictor. Model selection was conducted using generalized cross‐validation (GCV) with a forward selection procedure (Marra &amp; Wood, <xref rid="cobi14435-bib-0052" ref-type="bibr">2011</xref>).</p><p>The data that support the findings of this study are openly available in DataONE for the surf zone (Dugan &amp; Marraffini, <xref rid="cobi14435-bib-0020" ref-type="bibr">2022</xref>), kelp forest (Carr et al., <xref rid="cobi14435-bib-0008" ref-type="bibr">2021</xref>), shallow reef (Brooks et al., <xref rid="cobi14435-bib-0007" ref-type="bibr">2022</xref>), and deep reef (Cieri et al., <xref rid="cobi14435-bib-0011" ref-type="bibr">2022</xref>) ecosystems. Additional metadata are provided in Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S5</xref>. Source code supporting the analyses presented in this study is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/NCEAS/ca-mpa" ext-link-type="uri">https://github.com/NCEAS/ca‐mpa</ext-link>.</p></sec></sec><sec id="cobi14435-sec-0090"><title>RESULTS</title><sec id="cobi14435-sec-0100"><title>Network‐wide performance</title><p>At the scale of the entire statewide network of MPAs (i.e., results pooled across ecosystems, regions, and MPAs) (Figure <xref rid="cobi14435-fig-0001" ref-type="fig">1</xref>), targeted (i.e., fished) fish biomass was positively associated with regulatory protection and was significantly greater inside no‐take MPAs compared with areas that allowed take (effect size [E.S.] = 0.497, <italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2a</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S9</xref>). Nontargeted fish species biomass was greater inside no‐take MPAs (E.S. = 0.167, <italic toggle="yes">p</italic> = 0.049) but was not significantly higher in partial‐take MPAs relative to reference sites (areas that allow fishing). For partial‐take MPAs, fish biomass was not significantly different between targeted and nontargeted species. However, targeted species biomass was higher inside MPAs than in reference sites (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2a</xref>). Fish species diversity and richness did not respond to any protection level in any ecosystem (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S16</xref>).</p><fig position="float" fig-type="FIGURE" id="cobi14435-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Biomass response ratios in California's network of marine protected areas for targeted (filled green squares and diamonds) and nontargeted (open purple squares and diamonds) fish species by protection level (no take vs. partial take) across: (a) the network and by (b) region and (c) ecosystem (squares or diamonds, mean effect size across MPAs for a given scale [see Figure <xref rid="cobi14435-fig-0001" ref-type="fig">1b</xref>]; horizontal lines, 95% confidence intervals [upper bounds &gt;3 truncated to ease visualization]; asterisks, <italic toggle="yes">p</italic> &lt; 0.05; square size, relative number of MPAs included in the effect size; diamonds, weighted effect sizes [not scaled by size]; vertical dotted lines, no effect; positive values, higher biomass in MPAs; negative values, higher biomass outside MPAs; pooled, meta‐analytic effect size across all regions for a given ecosystem; data gaps, MPAs or species assemblages not sampled [e.g., nontargeted species in the shallow reef due to hook‐and‐line sampling]).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="COBI-39-e14435-g003.jpg"><?image-name COBI-39-e14435-g003.jpg?><?image-size 85909?><?image-md5 bc5e62c1307b5b46bafb8fd809ef8892?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 879?><?image-original-width 560?><?image-scaled-height 879?><?image-scaled-width 560?><?image-cloudpmc-urn urn:cdn:blobs/62f9/12309648/bc5e62c1307b/COBI-39-e14435-g003.jpg?><?thumb-name COBI-39-e14435-g003.gif?><?thumb-size 6653?><?thumb-md5 2820b00236a22e16db7621e3f09b43e8?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 157?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/62f9/12309648/2820b00236a2/COBI-39-e14435-g003.gif?></graphic></fig></sec><sec id="cobi14435-sec-0110"><title>Regional performance</title><p>The MPA‐level conservation performance differed geographically by region. Three out of 4 regions exhibited significantly higher targeted fish biomass inside no‐take MPAs when pooled across ecosystems (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2b</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S10</xref>). These 3 regions (north central coast, central coast, south coast) also had slightly higher nontargeted fish biomass in no‐take MPAs, although this result was not significant (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S10</xref>). The south coast, the region with the largest human population size and fishing pressure, showed the strongest overall positive effect of regulatory protection in no‐take MPAs for targeted species (E.S. = 0.641, <italic toggle="yes">p</italic> &lt; 0.001) (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S10</xref>). The only regionally significant effect size for partial‐take MPAs was for targeted species in the north coast (E.S. = 1.901, <italic toggle="yes">p</italic> = 0.037) (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S10</xref>). The other 3 regions (north central, central, south) had similar effect sizes for targeted and nontargeted species in partial‐take MPAs.</p></sec><sec id="cobi14435-sec-0120"><title>Ecosystem‐specific performance</title><p>In the surf zone, MPA conservation performance was generally positive but varied by region and MPA type with no regional gradient (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref>, Appendices <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref> &amp; <xref rid="cobi14435-supinfo-0001" ref-type="">S12</xref>). Across all MPAs for the surf zone ecosystem, the pooled response ratios were higher inside no‐take and partial‐take MPAs, but this result was nonsignificant (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref>). The north coast exhibited strongly positive and significant response ratios for both targeted (E.S. = 0.613, <italic toggle="yes">p</italic> &lt; 0.001) and nontargeted (E.S. = 0.785, <italic toggle="yes">p</italic> &lt; 0.001) species for the single no‐take MPA surveyed (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S12</xref>). Targeted fish biomass was also significantly higher inside the no‐take MPA in the north central coast region (E.S. = 1.053, <italic toggle="yes">p</italic> = 0.02), whereas nontargeted species biomass was higher outside (E.S. = −0.525, <italic toggle="yes">p</italic> = 0.015). Both targeted and nontargeted fish biomass for the central coast showed slightly negative, though nonsignificant, effects of no‐take MPAs. For south coast no‐take MPAs, response ratios were higher inside MPAs but this result was not significant.</p><p>The kelp forest ecosystem exhibited significantly higher fish biomass inside no‐take MPAs for targeted species when pooled across all regions (E.S. = 0.479, <italic toggle="yes">p</italic> = 0.004) (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref>). A strong regional gradient in MPA performance was also apparent for kelp forest fishes, with the south coast (E.S. = 0.571, <italic toggle="yes">p</italic> = 0.02) and central coast (E.S. = 0.433, <italic toggle="yes">p</italic> = 0.048) regions showing strong and significant positive effects inside no‐take MPAs, the north central coast exhibiting a positive but nonsignificant effect, and the north coast exhibiting a negative, though nonsignificant, effect (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref>). In partial‐take MPAs, targeted fish biomass was significantly higher in the north coast (E.S. = 1.199, <italic toggle="yes">p</italic> &lt; 0.001) (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S12</xref>) but nonsignificant for all other regions and overall.</p><p>Among the 4 ecosystems, positive biomass response ratios were most pronounced in the shallow reef ecosystem (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref>). Targeted fish biomass was significantly higher in no‐take MPAs in all 4 regions (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S12</xref>) and when pooled across regions (E.S. = 0.833, <italic toggle="yes">p</italic> &lt; 0.001) (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref>). Because of the gear type (hook and line) used to sample shallow reef fishes, nontargeted species were rarely caught and thus not included. The shallow reef ecosystem also selectively sampled only no‐take MPAs, and, therefore, partial‐take MPAs were not included in the analysis.</p><p>Finally, in the deep reef ecosystem, the overall effect size was significantly positive for nontargeted fish biomass in no‐take MPAs when pooled across regions (E.S. = 0.276, <italic toggle="yes">p</italic> = 0.018) (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref>). However, this result was likely influenced by the south coast region, which showed a very positive and strong effect size for nontargeted fish biomass in no‐take MPAs (E.S. = 0.506, <italic toggle="yes">p</italic> = 0.005) (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S12</xref>). Targeted fish biomass was slightly higher in no‐take MPAs when pooled across regions, though this relationship was not significant (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S11</xref>) and varied among regions (Figure <xref rid="cobi14435-fig-0002" ref-type="fig">2c</xref>). Among the 4 ecosystems, the deep reef had the strongest positive effect size in partial‐take MPAs for both targeted and nontargeted species (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S12</xref>).</p></sec><sec id="cobi14435-sec-0130"><title>MPA‐level performance</title><p>Across the network of 59 sampled MPAs, the effect of regulatory protection was positive for the majority of MPAs when pooled across ecosystems (Figure <xref rid="cobi14435-fig-0003" ref-type="fig">3</xref>). Targeted fish species biomass was significantly higher in 22 out of 59 MPAs (37% of MPAs), although 46 (78% of MPAs) showed positive effect sizes for targeted fish biomass. Nontargeted fish species biomass was also elevated inside MPAs (Figure <xref rid="cobi14435-fig-0003" ref-type="fig">3</xref> &amp; Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S13</xref>). Twenty‐two out of 56 MPAs (37%) had significantly higher biomass in the MPAs, and 34 had elevated (57%, though nonsignificant) biomass. However, there were proportional differences between targeted and nontargeted species in individual regions. In the north coast, 6 out of 8 (75%) MPAs had higher biomass for targeted species, whereas nontargeted species had greater biomass in 5 out of 7 MPAs (71%). In the north central region, 9 out of 10 MPAs had higher targeted biomass (90%), and 6 out of 8 (75%) MPAs had higher nontargeted biomass. In the central coast region, 11 of 15 MPAs (73%) had higher targeted species biomass, whereas 10 out of 15 (66%) had higher nontargeted biomass. Finally, in the south coast region, 20 out of 26 MPAs (77%) had higher targeted biomass, whereas the number of MPAs with higher or lower nontargeted biomass was equally distributed (13 out of 26, 50%).</p><fig position="float" fig-type="FIGURE" id="cobi14435-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Biomass response ratios in 59 California marine protected areas (MPAs) for targeted and nontargeted fish species for by region (points, weighted [by inverse of variance] mean effect size for a given MPA across all ecosystems; point size, number of ecosystems included in the effect size; MPA order, descending effect size in each region; SMRs, no‐take state marine reserves; SMCAs, partial‐take state marine conservation areas [see Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S7</xref> for SMCAs classified as de facto MPAs for some of their constituent ecosystems]; error bars, 95% confidence intervals; vertical dashed line, null assumption of comparable biomass estimates inside and outside MPAs; positive values, greater biomass inside MPAs; negative values, greater biomass outside MPAs; <italic toggle="yes">n</italic>, MPA sample size).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="COBI-39-e14435-g004.jpg"><?image-name COBI-39-e14435-g004.jpg?><?image-size 141805?><?image-md5 67764e2c18464c022bb1dd56324bc786?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 875?><?image-original-width 680?><?image-scaled-height 875?><?image-scaled-width 680?><?image-cloudpmc-urn urn:cdn:blobs/62f9/12309648/67764e2c1846/COBI-39-e14435-g004.jpg?><?thumb-name COBI-39-e14435-g004.gif?><?thumb-size 7253?><?thumb-md5 f28e027a80ec5871177c31858dac767f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 129?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/62f9/12309648/f28e027a80ec/COBI-39-e14435-g004.gif?></graphic></fig></sec><sec id="cobi14435-sec-0140"><title>Network‐wide predictors of conservation performance</title><p>The meta‐generalized additive model captured a moderate amount of variation in the data (GCV = 0.073, <italic toggle="yes">n</italic> = 292, adjusted <italic toggle="yes">r</italic>
+<sup>2</sup> = 0.153, <italic toggle="yes">p</italic> &lt; 0.001) and revealed highly influential MPA features that explained performance (response ratio effect size) across ecosystems (Figure <xref rid="cobi14435-fig-0004" ref-type="fig">4</xref>). Results of the model indicated that MPA age (<italic toggle="yes">p</italic> = 0.002, EDF = 1.85), local preimplementation landings (<italic toggle="yes">p</italic> = 0.001, EDF = 1.53), habitat diversity (<italic toggle="yes">p</italic> &lt; 0.001, EDF = 1), and proportion of rocky substratum (<italic toggle="yes">p</italic> &lt; 0.05, EDF = 2.32) were the strongest significant correlates of conservation performance (Appendix <xref rid="cobi14435-supinfo-0001" ref-type="">S14</xref>). Conservation performance (i.e., the difference in fish biomass between MPA and reference sites) significantly increased with increasing MPA age and habitat diversity. However, before‐implementation fisheries landings were slightly inversely related to performance (<italic toggle="yes">p</italic> = 0.001, EDF = 1.57). The impacts of proportion rock and MPA size, while statistically significant, were highly nonlinear, but larger MPAs and those with a greater proportion of rock generally had stronger positive responses, especially at the upper value range (Figure <xref rid="cobi14435-fig-0004" ref-type="fig">4</xref>). Larval settlement was not significantly correlated to conservation performance.</p><fig position="float" fig-type="FIGURE" id="cobi14435-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Partial effects of California marine protected area (MPA) features on conservation performance from a meta‐generalized additive model (solid blue lines, shape of the relationship between each MPA feature and performance [response ratio effect size]; dashed lines, 95% confidence intervals; blue points, residuals; EDF, effective degrees of freedom; red, statistically significant relationships). See Appendices <xref rid="cobi14435-supinfo-0001" ref-type="">S5</xref> and <xref rid="cobi14435-supinfo-0001" ref-type="">S6</xref> for details on how each feature was defined and derived.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="COBI-39-e14435-g002.jpg"><?image-name COBI-39-e14435-g002.jpg?><?image-size 160766?><?image-md5 5a90d9f50242acbff591c1d1f95d329d?><?image-image-server-status NEVER_LOAD?><?image-original-height 643?><?image-original-width 680?><?image-scaled-height 643?><?image-scaled-width 680?><?image-cloudpmc-urn urn:cdn:blobs/62f9/12309648/5a90d9f50242/COBI-39-e14435-g002.jpg?><?thumb-name COBI-39-e14435-g002.gif?><?thumb-size 7948?><?thumb-md5 9f08ad6ca397bb667e21b2ffc45c6372?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 95?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/62f9/12309648/9f08ad6ca397/COBI-39-e14435-g002.gif?></graphic></fig></sec></sec><sec id="cobi14435-sec-0150"><title>DISCUSSION</title><p>We explored the performance of MPAs across a scientifically designed network and found that conservation benefits accrue across a mosaic of surf zone, kelp forest, shallow reef, and deep reef ecosystems. Although many studies have evaluated MPA performance in individual protected areas or across single ecosystems, few have explored the conservation outcomes of networks of MPAs across multiple ecosystems (but see Goetze et al., <xref rid="cobi14435-bib-0030" ref-type="bibr">2021</xref>). Our findings highlight opportunities for strategic planning and assessment frameworks that maximize conservation impact.</p><p>Our analyses indicated that among all MPA features, MPA age and habitat diversity were the strongest overall predictors of performance, where older MPAs with greater habitat diversity generally had more fish biomass than their associated reference sites. Size of an MPA, which has previously been shown to drive MPA effectiveness (Claudet et al., <xref rid="cobi14435-bib-0014" ref-type="bibr">2008</xref>), was less important and highly nonlinear in our system, perhaps due to the size and spacing guidelines for network design that resulted in relatively small variation in MPA area across the network. The California network was designed with specific attention to ensuring habitat representation and replication in MPAs and in each region (Gleason et al., <xref rid="cobi14435-bib-0029" ref-type="bibr">2013</xref>) based on increasingly sophisticated spatial mapping tools throughout the design process. Incorporating a diversity of habitats in individual MPAs and across networks not only increases the magnitude of biodiversity protection, but also provides resilience to disturbances including future climate impacts (Wilson et al., <xref rid="cobi14435-bib-0071" ref-type="bibr">2020</xref>). However, despite widespread discussion and theoretical treatment of this MPA trait, to our knowledge, ours is the first quantitative test of the importance of habitat diversity to MPA performance.</p><p>Another critical and widely discussed design principle for MPA networks is connectivity (Goetze et al., <xref rid="cobi14435-bib-0030" ref-type="bibr">2021</xref>; Sève et al., <xref rid="cobi14435-bib-0066" ref-type="bibr">2023</xref>). In an effective network, organisms must be able to travel or disperse through larval connectivity among protected areas. Indeed, the California network design phase incorporated perhaps one of the most detailed sets of MPA size and spacing guidelines to date, taking into account generalized larval dispersal distances and patterns of ocean circulation (Gleason et al., <xref rid="cobi14435-bib-0029" ref-type="bibr">2013</xref>). By using different size and spacing of protected areas, a network can protect species with different life histories and behavioral characteristics and may offer better conservation performance than single large protected areas (McLeod et al., <xref rid="cobi14435-bib-0055" ref-type="bibr">2009</xref>; Moffitt et al., <xref rid="cobi14435-bib-0057" ref-type="bibr">2011</xref>). Yet, here, using realistic, estimated settlement magnitude from larval dispersal modeling as a proxy for connectivity, we did not find a significant effect when synthesized across ecosystems. However, estimated settlement magnitude was important on an individual ecosystem level. These 2 contrasting results likely reflect that organismal‐level estimates of larval durations are needed to accurately assess the relative importance of connectivity for individual ecosystems to entire MPAs.</p><p>Our finding of higher targeted fish species biomass inside no‐take MPAs is likely the result of regulatory protection (i.e., an emergent effect) rather than a placement effect (i.e., placed in an area with high initial biomass or habitat quality) because MPA age was the strongest determinant of biomass response ratios in the majority of ecosystems studied. Emergent effects are expected to increase in magnitude inside the MPA relative to the outside reference location over time as a result of regulatory protection (i.e., continued fishing outside the MPA restricts increases in biomass), until spillover replenishes neighboring unprotected areas (Di Lorenzo et al., <xref rid="cobi14435-bib-0018" ref-type="bibr">2020</xref>; Goñi et al., <xref rid="cobi14435-bib-0031" ref-type="bibr">2008</xref>, <xref rid="cobi14435-bib-0032" ref-type="bibr">2010</xref>). However, placement effects occur when an MPA is implemented in an area with higher preexisting biomass (or more suitable habitat) than the reference area (Claudet &amp; Guidetti, <xref rid="cobi14435-bib-0013" ref-type="bibr">2010</xref>; Gaines et al., <xref rid="cobi14435-bib-0027" ref-type="bibr">2010</xref>; Roberts, <xref rid="cobi14435-bib-0062" ref-type="bibr">2000</xref>). If observed higher biomass inside MPAs was the result of a placement effect, MPA age would not be a strong determinant of performance, as high preexisting biomass would remain stable through time. However, placement effects may provide other positive enabling conditions (such as more suitable habitat) that may be important in the design phase of networks. Furthermore, our finding of a positive (but lower relative to targeted species) increase in the biomass of nontargeted fish species supports an MPA effect because nontargeted species should not have a direct response to protection and, therefore, serve as a type of control measure (Caselle et al., <xref rid="cobi14435-bib-0009" ref-type="bibr">2015</xref>; Claudet et al., <xref rid="cobi14435-bib-0015" ref-type="bibr">2010</xref>; Ovando et al., <xref rid="cobi14435-bib-0058" ref-type="bibr">2021</xref>).</p><p>Regional differences in MPA performance may be the result of a combination of sampling limitations, variation in species life history traits, or environmental perturbations (Marraffini et al., <xref rid="cobi14435-bib-0053" ref-type="bibr">2024</xref>; Ziegler et al., <xref rid="cobi14435-bib-0074" ref-type="bibr">2024</xref>). Disentangling these effects becomes even more challenging when evaluating large MPA networks that span biogeographic regions. For example, ecosystems in the north coast region were comparatively less sampled than the south coast, potentially limiting the power to detect an MPA effect. The MPAs along the north coast are also the youngest in the network, further limiting the effect size for these MPAs given our finding that effect sizes increase with age. However, the north coast is also characteristically dominated by rockfish (<italic toggle="yes">Sebastes</italic> spp.) species that are long‐lived, late to mature, and have more episodic year‐class recruitment success (Love et al., <xref rid="cobi14435-bib-0048" ref-type="bibr">2002</xref>), which could contribute to a slower MPA response in this region. Additionally, in 2014−2016, a large Pacific marine heatwave affected the north, north central, and central coast regions (McPherson et al., <xref rid="cobi14435-bib-0056" ref-type="bibr">2021</xref>). This marine heatwave occurred only 2 years after full implementation of the MPA network (Smith et al., <xref rid="cobi14435-bib-0067" ref-type="bibr">2023</xref>) and was followed by El Niño events in 2018 and 2023 (Leising et al., <xref rid="cobi14435-bib-0042" ref-type="bibr">2024</xref>). Environmental perturbations, such as marine heatwaves and El Niños, and long‐term environmental change, can reduce the ability to detect MPA effects (Hopf &amp; White, <xref rid="cobi14435-bib-0036" ref-type="bibr">2023</xref>), especially in locations where MPAs were not originally designed to provide climate resilience (Arafeh‐Dalmau et al., <xref rid="cobi14435-bib-0001" ref-type="bibr">2023</xref>; Smith et al., <xref rid="cobi14435-bib-0067" ref-type="bibr">2023</xref>). In our study system, the impacts of the marine heatwave event on fish biomass remain unclear, but trends in biomass and biodiversity over time inside and outside MPAs were likely affected by this environmental perturbation (Free et al., <xref rid="cobi14435-bib-0023" ref-type="bibr">2023</xref>; Freedman et al., <xref rid="cobi14435-bib-0025" ref-type="bibr">2020</xref>; Ziegler et al., <xref rid="cobi14435-bib-0076" ref-type="bibr">2023</xref>).</p><p>Across the 4 ecosystems included in our analyses, we hypothesized that MPA responses are strongest in MPAs where preimplementation fishing was greatest. Although historic fishing intensity explained a moderate amount of variation in biomass across the MPA network, observed differences in performance between ecosystems could be the result of sampling gear types or other regulatory protection measures. For example, our analyses showed that conservation performance was strongest for shallow reef fishes. The shallow reef monitoring group used hook and line sampling, which disproportionately selects older, larger individuals and may reflect a higher sampling of size ranges that are typically targeted by fisheries. Conversely, visual sampling conducted in the kelp forest and deep reef ecosystems as well as surf zone sampling with beach seines are nonselective and result in high proportions of smaller individuals, which do not receive the same fishing pressure as larger individuals of the same species (Marraffini et al., <xref rid="cobi14435-bib-0053" ref-type="bibr">2024</xref>). The deep reef ecosystem showed comparatively lower responses in targeted fish biomass relative to the other ecosystems. Many of the locations sampled in the deep reef ecosystem were in rockfish conservation areas, which have, since 2002, restricted fishing across large swaths of the West Coast of the United States to depths &lt;36 to 100 m to reduce the incidental catch of overfished species (Mason et al., <xref rid="cobi14435-bib-0054" ref-type="bibr">2012</xref>). These depth closures likely created additional protection for fishes outside the state's network of MPAs (Keller et al., <xref rid="cobi14435-bib-0041" ref-type="bibr">2022</xref>), which could explain the less pronounced difference in the effect size for the deep reef ecosystem.</p><p>Our finding of no differences in taxonomic diversity and richness inside and outside MPAs is consistent with other studies that explored these metrics of MPA performance (Blowes et al., <xref rid="cobi14435-bib-0005" ref-type="bibr">2020</xref>; Ramírez‐Ortiz et al., <xref rid="cobi14435-bib-0060" ref-type="bibr">2020</xref>). The primary regulation associated with the California MPA network, and many global MPAs, involves a restriction or reduction of fishing activities, which generally affects fish assemblages through the total number of individuals, size structure, and their relative abundance (proportional representation of each species). Therefore, the fishes most affected by fishing preimplementation are likely to see the greatest biomass response (Caselle et al., <xref rid="cobi14435-bib-0009" ref-type="bibr">2015</xref>; Claudet et al., <xref rid="cobi14435-bib-0015" ref-type="bibr">2010</xref>). However, because diversity includes the number of species and their evenness, the taxonomic diversity of fishes may not change as a result of regulatory implementation or there may be more nuanced increases in evenness without changes in the absolute number (richness) of species. Other taxonomic diversity indices, such as functional or trait‐based evaluations, could provide additional pathways to evaluate MPA performance (Dalongeville et al., <xref rid="cobi14435-bib-0016" ref-type="bibr">2022</xref>; Dee et al., <xref rid="cobi14435-bib-0017" ref-type="bibr">2016</xref>; Rincón‐Díaz et al., <xref rid="cobi14435-bib-0061" ref-type="bibr">2018</xref>; Ziegler et al., <xref rid="cobi14435-bib-0076" ref-type="bibr">2023</xref>). This effect should be considered when proposing new MPAs or networks with goals of increasing biodiversity, especially in locations with other ecosystem management tools in place (e.g., water quality, traditional fisheries management, tribal or indigenous management).</p><p>Ultimately, our findings for this MPA network suggest that positive conservation benefits of MPAs can accrue across multiple ecosystems. We found that MPA features, such as age, habitat diversity, and local preimplementation landings, are highly influential on conservation performance. Although the conservation performance of MPAs can vary across individual MPAs, coastal geographies, and ecosystems, a network can provide net positive benefits. With international targets aimed at protecting more of the world's oceans (including 30 by 30) (CBD, <xref rid="cobi14435-bib-0010" ref-type="bibr">2021</xref>; Dinerstein et al., <xref rid="cobi14435-bib-0019" ref-type="bibr">2019</xref>), MPA design and assessment frameworks should consider performance at multiple ecologically relevant scales, spanning individual MPAs to multiple ecosystems and networks.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="cobi14435-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="cobi14435-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Appendices S1−S17</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="COBI-39-e14435-s001.docx" position="float" orientation="portrait"><?suppdata-name COBI-39-e14435-s001.docx?><?suppdata-size 1736900?><?suppdata-md5 cfc1de7cac59d98e87a7cfc00ee57706?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:62f9/12309648/cfc1de7cac59/COBI-39-e14435-s001.docx?></media></supplementary-material></sec></body><back><ack id="cobi14435-sec-0160"><title>ACKNOWLEDGMENTS</title><p>We thank the hundreds of individuals who collected data for the long‐term monitoring programs from which we used data. This research and J.G.S., C.L., C.M.F., and J.G.E. were funded in part by the California Ocean Protection Council (OPC, #C0752005; PI B. Halpern) as part of the Decadal Review of California's Marine Protected Areas. The Ocean Protection Council also provided support for long‐term monitoring (C0302700, C0752003). Other sources of support for monitoring included California Sea Grant (R/MPA‐43, R/MPA‐44, R/MPA‐45, R/MPA‐46, R/MPA‐48), the California Department of Fish and Wildlife (P1970018), and the David and Lucile Packard Foundation. C.M.F. was funded through the Arnhold UC Santa Barbara‐Conservation International Climate Solutions Collaborative. J.C. was funded through BiodivERsA (METRODIVER and MOVE) and Fondation de France (MultiNet) projects. J.E.D. was supported by the Santa Barbara Coastal Long Term Ecological Research project (National Science Foundation OCE‐1831937). J.E.C., M.H.C., P.T.R., D.M., A.P.F., and B.S. were supported in part by the David and Lucile Packard Foundation through the Partnership for Interdisciplinary Studies of Coastal Oceans (PISCO). We thank R. Dodgen, K. Gonzales, C. Mireles, M. Prall, S. Wertz, L. Slatoff, and S. Worden for comments on an earlier version of the manuscript. J.G.S. designed Figure <xref rid="cobi14435-fig-0001" ref-type="fig">1</xref>.</p></ack><ref-list id="cobi14435-bibl-0001"><title>REFERENCES</title><ref id="cobi14435-bib-0001"><mixed-citation publication-type="journal" id="cobi14435-cit-0001">
+<string-name name-style="western">
+<surname>Arafeh‐Dalmau</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munguia‐Vega</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Micheli</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vilalta‐Navas</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Villaseñor‐Derbez</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Précoma‐de La Mora</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schoeman</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medellín‐Ortíz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavanaugh</surname>, <given-names>K. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sosa‐Nishizaki</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burnham</surname>, <given-names>T. L. U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knight</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Woodson</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abas</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abadía‐Cardoso</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aburto‐Oropeza</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Esgro</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Espinosa‐Andrade</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beas‐Luna</surname>, <given-names>R.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Possingham</surname>, <given-names>H. P.</given-names>
+</string-name> (<year>2023</year>). <article-title>Integrating climate adaptation and transboundary management: Guidelines for designing climate‐smart marine protected areas</article-title>. <source>One Earth</source>, <volume>6</volume>(<issue>11</issue>), <fpage>1523</fpage>–<lpage>1541</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0002"><mixed-citation publication-type="journal" id="cobi14435-cit-0002">
+<string-name name-style="western">
+<surname>Arneth</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leadley</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coll</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rondinini</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rounsevell</surname>, <given-names>M. D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shin</surname>, <given-names>Y.‐J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexander</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fuchs</surname>, <given-names>R.</given-names>
+</string-name> (<year>2023</year>). <article-title>Making protected areas effective for biodiversity, climate and food</article-title>. <source>Global Change Biology</source>, <volume>29</volume>(<issue>14</issue>), <fpage>3883</fpage>–<lpage>3894</lpage>.<pub-id pub-id-type="pmid">36872638</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.16664</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0004"><mixed-citation publication-type="book" id="cobi14435-cit-0004">
+<string-name name-style="western">
+<surname>Bingham</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lewis</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belle</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stewart</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klimmek</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wicander</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhola</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bastin</surname>, <given-names>L.</given-names>
+</string-name> (<year>2021</year>). <article-title>
+Report 2020: Tracking progress towards global targets for protected and conserved areas
+</article-title>. <publisher-name>Protected Planet</publisher-name>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://livereport.protectedplanet.net/" ext-link-type="uri">https://livereport.protectedplanet.net/</ext-link>
+</mixed-citation></ref><ref id="cobi14435-bib-0005"><mixed-citation publication-type="journal" id="cobi14435-cit-0005">
+<string-name name-style="western">
+<surname>Blowes</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chase</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Franco</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frid</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guidetti</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knight</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>May</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGlinn</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Micheli</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sala</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Belmaker</surname>, <given-names>J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Mediterranean marine protected areas have higher biodiversity via increased evenness, not abundance</article-title>. <source>Journal of Applied Ecology</source>, <volume>57</volume>(<issue>3</issue>), <fpage>578</fpage>–<lpage>589</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0006"><mixed-citation publication-type="book" id="cobi14435-cit-0006">
+<string-name name-style="western">
+<surname>Botsford</surname>, <given-names>L. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2014</year>). <part-title>Chapter Six—Marine protected area networks in California, USA</part-title>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Johnson</surname>
+</string-name>
+</person-group>, &amp; <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Sandell</surname>
+</string-name>
+</person-group> (Eds.), <source>Advances in marine biology</source> (Vol. <volume>69</volume>, pp. <fpage>205</fpage>–<lpage>251</lpage>). Academic Press.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/B978-0-12-800214-8.00006-2</pub-id><pub-id pub-id-type="pmid">25358301</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0007"><mixed-citation publication-type="miscellaneous" id="cobi14435-cit-0007">
+<string-name name-style="western">
+<surname>Brooks</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wendt</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruttenberg</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellquist</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morgan</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mulligan</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Semmens</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tyburczy</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S.</given-names>
+</string-name> (<year>2022</year>). <article-title>
+Nearshore Fishes Abundance and Distribution Data. California Collaborative Fisheries Research Program (CCFRP)
+</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://search.dataone.org/view/urn%3Auuid%3Af843f110-e691-4d26-bf12-3854a4b641cd" ext-link-type="uri">https://search.dataone.org/view/urn%3Auuid%3Af843f110‐e691‐4d26‐bf12‐3854a4b641cd</ext-link>
+</mixed-citation></ref><ref id="cobi14435-bib-0008"><mixed-citation publication-type="book" id="cobi14435-cit-0008">
+<string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tissot</surname>, <given-names>B. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pondella</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Malone</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koehn</surname>, <given-names>K. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claisse</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Williams</surname>, <given-names>J. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Parsons‐Field</surname>, <given-names>A.</given-names>
+</string-name> (<year>2021</year>). <article-title>
+Monitoring and Evaluation of Kelp Forest Ecosystems in the MLPA Marine Protected Area Network
+</article-title>. <publisher-name>California Ocean Protection Council</publisher-name>.</mixed-citation></ref><ref id="cobi14435-bib-0009"><mixed-citation publication-type="journal" id="cobi14435-cit-0009">
+<string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rassweiler</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Warner</surname>, <given-names>R. R.</given-names>
+</string-name> (<year>2015</year>). <article-title>Recovery trajectories of kelp forest animals are rapid yet spatially variable across a network of temperate marine protected areas</article-title>. <source>Scientific Report</source>, <volume>5</volume>, <elocation-id>14102</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep14102</pub-id><pub-id pub-id-type="pmcid">PMC4642697</pub-id><pub-id pub-id-type="pmid">26373803</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0010"><mixed-citation publication-type="book" id="cobi14435-cit-0010">
+<collab collab-type="authors">CBD</collab>
+. (<year>2021</year>). <article-title>
+First draft of the post‐2020 global biodiversity framework
+</article-title>. <publisher-loc>Montreal</publisher-loc>: <publisher-name>Convention of Biological Diversity</publisher-name>.</mixed-citation></ref><ref id="cobi14435-bib-0011"><mixed-citation publication-type="book" id="cobi14435-cit-0011">
+<string-name name-style="western">
+<surname>Cieri</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kahn</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lauermann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lindholm</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tissot</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bretz</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carlson</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoeke</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jainese</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McDermott</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mohay</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Salinas‐Ruiz</surname>, <given-names>P.</given-names>
+</string-name> (<year>2022</year>). <article-title>
+Monitoring and Evaluation of Mid‐Depth Rock Ecosystems in the California MLPA Marine Protected Area Network: ROV Dataset
+</article-title>. <publisher-name>California Protection Council</publisher-name>.</mixed-citation></ref><ref id="cobi14435-bib-0012"><mixed-citation publication-type="journal" id="cobi14435-cit-0012">
+<string-name name-style="western">
+<surname>Cinner</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zamborain‐Mason</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gurney</surname>, <given-names>G. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Graham</surname>, <given-names>N. A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>MacNeil</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoey</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mora</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Villéger</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maire</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McClanahan</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maina</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kittinger</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hicks</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>D'agata</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huchery</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barnes</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feary</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Williams</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kulbicki</surname>, <given-names>M.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name> (<year>2020</year>). <article-title>Meeting fisheries, ecosystem function, and biodiversity goals in a human‐dominated world</article-title>. <source>Science</source>, <volume>368</volume>(<issue>6488</issue>), <fpage>307</fpage>–<lpage>311</lpage>.<pub-id pub-id-type="pmid">32299952</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aax9412</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0013"><mixed-citation publication-type="journal" id="cobi14435-cit-0013">
+<string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Guidetti</surname>, <given-names>P.</given-names>
+</string-name> (<year>2010</year>). <article-title>Improving assessments of marine protected areas</article-title>. <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source>, <volume>20</volume>(<issue>2</issue>), <fpage>239</fpage>–<lpage>242</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0014"><mixed-citation publication-type="journal" id="cobi14435-cit-0014">
+<string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Osenberg</surname>, <given-names>C. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedetti‐Cecchi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Domenici</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Charton</surname>, <given-names>J.‐A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pérez‐Ruzafa</surname>, <given-names>Á.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Badalamenti</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bayle‐Sempere</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brito</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bulleri</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Culioli</surname>, <given-names>J.‐M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dimech</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Falcón</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guala</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milazzo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sánchez‐Meca</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Somerfield</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stobart</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vandeperre</surname>, <given-names>F.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Planes</surname>, <given-names>S.</given-names>
+</string-name> (<year>2008</year>). <article-title>Marine reserves: Size and age do matter</article-title>. <source>Ecology Letters</source>, <volume>11</volume>(<issue>5</issue>), <fpage>481</fpage>–<lpage>489</lpage>.<pub-id pub-id-type="pmid">18294212</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1461-0248.2008.01166.x</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0015"><mixed-citation publication-type="journal" id="cobi14435-cit-0015">
+<string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Osenberg</surname>, <given-names>C. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Domenici</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Badalamenti</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milazzo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Falcón</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bertocci</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benedetti‐Cecchi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Charton</surname>, <given-names>J.‐A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goñi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borg</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Forcada</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Lucia</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pérez‐Ruzafa</surname>, <given-names>Á.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Afonso</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brito</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guala</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diréach</surname>, <given-names>L. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sanchez‐Jerez</surname>, <given-names>P.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Planes</surname>, <given-names>S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Marine reserves: Fish life history and ecological traits matter</article-title>. <source>Ecological Applications</source>, <volume>20</volume>(<issue>3</issue>), <fpage>830</fpage>–<lpage>839</lpage>.<pub-id pub-id-type="pmid">20437967</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1890/08-2131.1</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0016"><mixed-citation publication-type="journal" id="cobi14435-cit-0016">
+<string-name name-style="western">
+<surname>Dalongeville</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boulanger</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marques</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Charbonnel</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hartmann</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santoni</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deter</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Valentini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lenfant</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boissery</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dejean</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Velez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pichot</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sanchez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnal</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bockel</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Delaruelle</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holon</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milhau</surname>, <given-names>T.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name> (<year>2022</year>). <article-title>Benchmarking eleven biodiversity indicators based on environmental DNA surveys: More diverse functional traits and evolutionary lineages inside marine reserves</article-title>. <source>Journal of Applied Ecology</source>, <volume>59</volume>(<issue>11</issue>), <fpage>2803</fpage>–<lpage>2813</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0017"><mixed-citation publication-type="journal" id="cobi14435-cit-0017">
+<string-name name-style="western">
+<surname>Dee</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peavey</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bradley</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gentry</surname>, <given-names>R. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Startz</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaines</surname>, <given-names>S. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lester</surname>, <given-names>S. E.</given-names>
+</string-name> (<year>2016</year>). <article-title>Functional diversity of catch mitigates negative effects of temperature variability on fisheries yields</article-title>. <source>Proceedings of the Royal Society B: Biological Sciences</source>, <volume>283</volume>(<issue>1836</issue>), <elocation-id>20161435</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2016.1435</pub-id><pub-id pub-id-type="pmcid">PMC5013776</pub-id><pub-id pub-id-type="pmid">27534960</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0018"><mixed-citation publication-type="journal" id="cobi14435-cit-0018">
+<string-name name-style="western">
+<surname>Di Lorenzo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guidetti</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Franco</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Calò</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Assessing spillover from marine protected areas and its drivers: A meta‐analytical approach</article-title>. <source>Fish and Fisheries</source>, <volume>21</volume>(<issue>5</issue>), <fpage>906</fpage>–<lpage>915</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0019"><mixed-citation publication-type="journal" id="cobi14435-cit-0019">
+<string-name name-style="western">
+<surname>Dinerstein</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vynne</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sala</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joshi</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernando</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lovejoy</surname>, <given-names>T. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayorga</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Olson</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Asner</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baillie</surname>, <given-names>J. E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burgess</surname>, <given-names>N. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burkart</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Noss</surname>, <given-names>R. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Y. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baccini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Birch</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hahn</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joppa</surname>, <given-names>L. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wikramanayake</surname>, <given-names>E.</given-names>
+</string-name> (<year>2019</year>). <article-title>A Global Deal For Nature: Guiding principles, milestones, and targets</article-title>. <source>Science Advances</source>, <volume>5</volume>(<issue>4</issue>), <elocation-id>eaaw2869</elocation-id>.<pub-id pub-id-type="pmid">31016243</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.aaw2869</pub-id><pub-id pub-id-type="pmcid">PMC6474764</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0020"><mixed-citation publication-type="book" id="cobi14435-cit-0020">
+<string-name name-style="western">
+<surname>Dugan</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Marraffini</surname>, <given-names>M.</given-names>
+</string-name> (<year>2022</year>). <article-title>
+California coast, ecosystem surveys of sandy beaches and surf zones August 2019–February 2020
+</article-title>. <publisher-name>DataOne</publisher-name>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://search-stage-2.test.dataone.org/view/urn%3Auuid%3A722e9a72-f409-4c13-81b9-558787898a37" ext-link-type="uri">https://search‐stage‐2.test.dataone.org/view/urn%3Auuid%3A722e9a72‐f409‐4c13‐81b9‐558787898a37</ext-link>
+</mixed-citation></ref><ref id="cobi14435-bib-0021"><mixed-citation publication-type="journal" id="cobi14435-cit-0021">
+<string-name name-style="western">
+<surname>Edgar</surname>, <given-names>G. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stuart‐Smith</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Willis</surname>, <given-names>T. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kininmonth</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baker</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Banks</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrett</surname>, <given-names>N. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Becerro</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernard</surname>, <given-names>A. T. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berkhout</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buxton</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campbell</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooper</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davey</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Edgar</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Försterra</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galván</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Irigoyen</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kushner</surname>, <given-names>D. J.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Thomson</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Global conservation outcomes depend on marine protected areas with five key features</article-title>. <source>Nature</source>, <volume>506</volume>(<issue>7487</issue>), <fpage>216</fpage>–<lpage>220</lpage>.<pub-id pub-id-type="pmid">24499817</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13022</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0022"><mixed-citation publication-type="journal" id="cobi14435-cit-0022">
+<string-name name-style="western">
+<surname>Francour</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harmelin</surname>, <given-names>J.‐G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pollard</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sartoretto</surname>, <given-names>S.</given-names>
+</string-name> (<year>2001</year>). <article-title>A review of marine protected areas in the northwestern Mediterranean region: Siting, usage, zonation and management</article-title>. <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source>, <volume>11</volume>(<issue>3</issue>), <fpage>155</fpage>–<lpage>188</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0023"><mixed-citation publication-type="journal" id="cobi14435-cit-0023">
+<string-name name-style="western">
+<surname>Free</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hellmers</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muhling</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Navarro</surname>, <given-names>M. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Richerson</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rogers</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Satterthwaite</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thompson</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burt</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaines</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marshall</surname>, <given-names>K. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>J. W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bellquist</surname>, <given-names>L. F.</given-names>
+</string-name> (<year>2023</year>). <article-title>Impact of the 2014–2016 marine heatwave on US and Canada West Coast fisheries: Surprises and lessons from key case studies</article-title>. <source>Fish and Fisheries</source>, <volume>24</volume>(<issue>4</issue>), <fpage>652</fpage>–<lpage>674</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0024"><mixed-citation publication-type="journal" id="cobi14435-cit-0024">
+<string-name name-style="western">
+<surname>Free</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vargas Poulsen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellquist</surname>, <given-names>L. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wassermann</surname>, <given-names>S. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Oken</surname>, <given-names>K. L.</given-names>
+</string-name> (<year>2022</year>). <article-title>The CALFISH database: A century of California's non‐confidential fisheries landings and participation data</article-title>. <source>Ecological Informatics</source>, <volume>69</volume>, <elocation-id>101599</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0025"><mixed-citation publication-type="journal" id="cobi14435-cit-0025">
+<string-name name-style="western">
+<surname>Freedman</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caldow</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2020</year>). <article-title>Marine protected areas do not prevent marine heatwave‐induced fish community structure changes in a temperate transition zone</article-title>. <source>Scientific Reports</source>, <volume>10</volume>, <elocation-id>21081</elocation-id>.<pub-id pub-id-type="pmid">33273514</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-020-77885-3</pub-id><pub-id pub-id-type="pmcid">PMC7712829</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0026"><mixed-citation publication-type="miscellaneous" id="cobi14435-cit-0026">
+<string-name name-style="western">
+<surname>Froese</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pauly</surname>, <given-names>D.</given-names>
+</string-name> (<year>2023</year>). <article-title>
+FishBase
+</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.fishbase.org" ext-link-type="uri">https://www.fishbase.org</ext-link>
+</mixed-citation></ref><ref id="cobi14435-bib-0027"><mixed-citation publication-type="journal" id="cobi14435-cit-0027">
+<string-name name-style="western">
+<surname>Gaines</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Palumbi</surname>, <given-names>S. R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Designing marine reserve networks for both conservation and fisheries management</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>107</volume>(<issue>43</issue>), <fpage>18286</fpage>–<lpage>18293</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0906473107</pub-id><pub-id pub-id-type="pmcid">PMC2972919</pub-id><pub-id pub-id-type="pmid">20200311</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0028"><mixed-citation publication-type="journal" id="cobi14435-cit-0028">
+<string-name name-style="western">
+<surname>Gill</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mascia</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahmadia</surname>, <given-names>G. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Glew</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lester</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barnes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Craigie</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Darling</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Free</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Geldmann</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holst</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jensen</surname>, <given-names>O. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>A. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Basurto</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coad</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gates</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guannel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mumby</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomas</surname>, <given-names>H.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Fox</surname>, <given-names>H. E.</given-names>
+</string-name> (<year>2017</year>). <article-title>Capacity shortfalls hinder the performance of marine protected areas globally</article-title>. <source>Nature</source>, <volume>543</volume>(<issue>7647</issue>), <fpage>665</fpage>–<lpage>669</lpage>.<pub-id pub-id-type="pmid">28329771</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature21708</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0029"><mixed-citation publication-type="journal" id="cobi14435-cit-0029">
+<string-name name-style="western">
+<surname>Gleason</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fox</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ashcraft</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vasques</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whiteman</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Serpa</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saarman</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caldwell</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frimodig</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller‐Henson</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirlin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ota</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pope</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weber</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wiseman</surname>, <given-names>K.</given-names>
+</string-name> (<year>2013</year>). <article-title>Designing a network of marine protected areas in California: Achievements, costs, lessons learned, and challenges ahead</article-title>. <source>Ocean &amp; Coastal Management</source>, <volume>74</volume>, <fpage>90</fpage>–<lpage>101</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0030"><mixed-citation publication-type="journal" id="cobi14435-cit-0030">
+<string-name name-style="western">
+<surname>Goetze</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Radford</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fisher</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Langlois</surname>, <given-names>T. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Monk</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knott</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Malcolm</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Currey‐Randall</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ierodiaconou</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harasti</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrett</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Babcock</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bosch</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brock</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clough</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fairclough</surname>, <given-names>D. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heupel</surname>, <given-names>M. R.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Harvey</surname>, <given-names>E. S.</given-names>
+</string-name> (<year>2021</year>). <article-title>Increased connectivity and depth improve the effectiveness of marine reserves</article-title>. <source>Global Change Biology</source>, <volume>27</volume>(<issue>15</issue>), <fpage>3432</fpage>–<lpage>3447</lpage>.<pub-id pub-id-type="pmid">34015863</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.15635</pub-id><pub-id pub-id-type="pmcid">PMC8360116</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0031"><mixed-citation publication-type="journal" id="cobi14435-cit-0031">
+<string-name name-style="western">
+<surname>Goñi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adlerstein</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alvarez‐Berastegui</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Forcada</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reñones</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Criquet</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Polti</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cadiou</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Valle</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lenfant</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonhomme</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pérez‐Ruzafa</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sánchez‐Lizaso</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>García‐Charton</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernard</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stelzenmüller</surname>, <given-names>V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Planes</surname>, <given-names>S.</given-names>
+</string-name> (<year>2008</year>). <article-title>Spillover from six western Mediterranean marine protected areas: Evidence from artisanal fisheries</article-title>. <source>Marine Ecology Progress Series</source>, <volume>366</volume>, <fpage>159</fpage>–<lpage>174</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0032"><mixed-citation publication-type="journal" id="cobi14435-cit-0032">
+<string-name name-style="western">
+<surname>Goñi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hilborn</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Díaz</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mallol</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Adlerstein</surname>, <given-names>S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Net contribution of spillover from a marine reserve to fishery catches</article-title>. <source>Marine Ecology Progress Series</source>, <volume>400</volume>, <fpage>233</fpage>–<lpage>243</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0033"><mixed-citation publication-type="journal" id="cobi14435-cit-0033">
+<string-name name-style="western">
+<surname>Grorud‐Colvert</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tissot</surname>, <given-names>B. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Day</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Friedlander</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lester</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Loma</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Malone</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Walsh</surname>, <given-names>W. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Marine protected area networks: Assessing whether the whole is greater than the sum of its parts</article-title>. <source>PLoS ONE</source>, <volume>9</volume>(<issue>8</issue>), <elocation-id>e102298</elocation-id>.<pub-id pub-id-type="pmid">25084458</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0102298</pub-id><pub-id pub-id-type="pmcid">PMC4118840</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0034"><mixed-citation publication-type="journal" id="cobi14435-cit-0034">
+<string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Malone</surname>, <given-names>D. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name> (<year>2010</year>). <article-title>Incorporating biogeography into evaluations of the Channel Islands marine reserve network</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>107</volume>(<issue>43</issue>), <fpage>18272</fpage>–<lpage>18277</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0908091107</pub-id><pub-id pub-id-type="pmcid">PMC2973008</pub-id><pub-id pub-id-type="pmid">20176956</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0035"><mixed-citation publication-type="journal" id="cobi14435-cit-0035">
+<string-name name-style="western">
+<surname>Hernández‐Andreu</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Félix‐Hackradt</surname>, <given-names>F. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schiavetti</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>S Texeira</surname>, <given-names>J. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hackradt</surname>, <given-names>C. W.</given-names>
+</string-name> (<year>2024</year>). <article-title>Marine protected areas are a useful tool to protect coral reef fishes but not representative to conserve their functional role</article-title>. <source>Journal of Environmental Management</source>, <volume>351</volume>, <elocation-id>119656</elocation-id>.<pub-id pub-id-type="pmid">38042082</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jenvman.2023.119656</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0036"><mixed-citation publication-type="journal" id="cobi14435-cit-0036">
+<string-name name-style="western">
+<surname>Hopf</surname>, <given-names>J. K.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>White</surname>, <given-names>J. W.</given-names>
+</string-name> (<year>2023</year>). <article-title>Extreme events delay the detection of marine protected area effects: Implications for monitoring and management</article-title>. <source>Biological Conservation</source>, <volume>285</volume>, <elocation-id>110250</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0037"><mixed-citation publication-type="journal" id="cobi14435-cit-0037">
+<string-name name-style="western">
+<surname>Jacquemont</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blasiak</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Le Cam</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Le Gouellec</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2022</year>). <article-title>Ocean conservation boosts climate change mitigation and adaptation</article-title>. <source>One Earth</source>, <volume>5</volume>(<issue>10</issue>), <fpage>1126</fpage>–<lpage>1138</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0038"><mixed-citation publication-type="journal" id="cobi14435-cit-0038">
+<string-name name-style="western">
+<surname>Jefferson</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Costello</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Q.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lundquist</surname>, <given-names>C. J.</given-names>
+</string-name> (<year>2021</year>). <article-title>Conserving threatened marine species and biodiversity requires 40% ocean protection</article-title>. <source>Biological Conservation</source>, <volume>264</volume>, <elocation-id>109368</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0039"><mixed-citation publication-type="journal" id="cobi14435-cit-0039">
+<string-name name-style="western">
+<surname>Johnson</surname>, <given-names>J. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dick</surname>, <given-names>J. T. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pincheira‐Donoso</surname>, <given-names>D.</given-names>
+</string-name> (<year>2022</year>). <article-title>Marine protected areas do not buffer corals from bleaching under global warming</article-title>. <source>BMC Ecology and Evolution</source>, <volume>22</volume>(<issue>1</issue>), <fpage>58</fpage>.<pub-id pub-id-type="pmid">35508975</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12862-022-02011-y</pub-id><pub-id pub-id-type="pmcid">PMC9066861</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0040"><mixed-citation publication-type="journal" id="cobi14435-cit-0040">
+<string-name name-style="western">
+<surname>Jones</surname>, <given-names>K. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klein</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grantham</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Possingham</surname>, <given-names>H. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Halpern</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burgess</surname>, <given-names>N. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Butchart</surname>, <given-names>S. H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robinson</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kingston</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhola</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Watson</surname>, <given-names>J. E. M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Area requirements to safeguard earth's marine species</article-title>. <source>One Earth</source>, <volume>2</volume>(<issue>2</issue>), <fpage>188</fpage>–<lpage>196</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0041"><mixed-citation publication-type="journal" id="cobi14435-cit-0041">
+<string-name name-style="western">
+<surname>Keller</surname>, <given-names>A. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harms</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benante</surname>, <given-names>J. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Chappell</surname>, <given-names>A.</given-names>
+</string-name> (<year>2022</year>). <article-title>A tale of two species: Vermilion and sunset rockfish in the Southern California Bight</article-title>. <source>Fisheries Research</source>, <volume>250</volume>, <elocation-id>106275</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0042"><mixed-citation publication-type="book" id="cobi14435-cit-0042">
+<string-name name-style="western">
+<surname>Leising</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hunsicker</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tolimieri</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Williams</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Harley</surname>, <given-names>A.</given-names>
+</string-name> (<year>2024</year>). <article-title>
+2023–2024 California Current Ecosystem Report
+</article-title>. <publisher-name>NOAA California Current Integrated Ecosystem Assessment Team, Pacific Fishery Management Council</publisher-name>.</mixed-citation></ref><ref id="cobi14435-bib-0043"><mixed-citation publication-type="journal" id="cobi14435-cit-0043">
+<string-name name-style="western">
+<surname>Lester</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Halpern</surname>, <given-names>B.</given-names>
+</string-name> (<year>2008</year>). <article-title>Biological responses in marine no‐take reserves versus partially protected areas</article-title>. <source>Marine Ecology Progress Series</source>, <volume>367</volume>, <fpage>49</fpage>–<lpage>56</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0044"><mixed-citation publication-type="journal" id="cobi14435-cit-0044">
+<string-name name-style="western">
+<surname>Lester</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Halpern</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grorud‐Colvert</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lubchenco</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruttenberg</surname>, <given-names>B. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaines</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Airamé</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Warner</surname>, <given-names>R. R.</given-names>
+</string-name> (<year>2009</year>). <article-title>Biological effects within no‐take marine reserves: A global synthesis</article-title>. <source>Marine Ecology Progress Series</source>, <volume>384</volume>, <fpage>33</fpage>–<lpage>46</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0047"><mixed-citation publication-type="journal" id="cobi14435-cit-0047">
+<string-name name-style="western">
+<surname>Lopazanski</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foshay</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Couture</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wagner</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hannah</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pidgeon</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bradley</surname>, <given-names>D.</given-names>
+</string-name> (<year>2023</year>). <article-title>Principles for climate resilience are prevalent in marine protected area management plans</article-title>. <source>Conservation Letters</source>, <volume>16</volume>(<issue>5</issue>), <elocation-id>e12972</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0048"><mixed-citation publication-type="book" id="cobi14435-cit-0048">
+<string-name name-style="western">
+<surname>Love</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yoklavich</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Thorsteinson</surname>, <given-names>L. K.</given-names>
+</string-name> (<year>2002</year>). <source>The rockfishes of the northeast Pacific</source>. <publisher-name>University of California Press</publisher-name>.</mixed-citation></ref><ref id="cobi14435-bib-0050"><mixed-citation publication-type="miscellaneous" id="cobi14435-cit-0050">
+<collab collab-type="authors">Marine Life Protection Act</collab>
+. (<year>1999a</year>). <article-title>Fish and Game Code § 1</article-title>.</mixed-citation></ref><ref id="cobi14435-bib-0051"><mixed-citation publication-type="miscellaneous" id="cobi14435-cit-0051">
+<collab collab-type="authors">Marine Life Protection Act</collab>
+. (<year>1999b</year>). <article-title>Chapter 10.5, California State Legislature, Fish and Game Code (FGC)</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=FGC&amp;division=3.&amp;title=&amp;part=&amp;chapter=10.5.&amp;article=" ext-link-type="uri">https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=FGC&amp;division=3.&amp;title=&amp;part=&amp;chapter=10.5.&amp;article=</ext-link>
+</mixed-citation></ref><ref id="cobi14435-bib-0052"><mixed-citation publication-type="journal" id="cobi14435-cit-0052">
+<string-name name-style="western">
+<surname>Marra</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wood</surname>, <given-names>S. N.</given-names>
+</string-name> (<year>2011</year>). <article-title>Practical variable selection for generalized additive models</article-title>. <source>Computational Statistics &amp; Data Analysis</source>, <volume>55</volume>(<issue>7</issue>), <fpage>2372</fpage>–<lpage>2387</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0053"><mixed-citation publication-type="journal" id="cobi14435-cit-0053">
+<string-name name-style="western">
+<surname>Marraffini</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marin Jarrin</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ladd</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koval</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Madden</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mangino</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parker</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Emery</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Terhaar</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hubbard</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>, <given-names>R. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dugan</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2024</year>). <article-title>Evaluating the influence of marine protected areas on surf zone fish</article-title>. <source>Conservation Biology</source>, <volume>38</volume>(<issue>6</issue>), <elocation-id>e14296</elocation-id>.<pub-id pub-id-type="pmid">38770838</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.14296</pub-id><pub-id pub-id-type="pmcid">PMC11588989</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0054"><mixed-citation publication-type="journal" id="cobi14435-cit-0054">
+<string-name name-style="western">
+<surname>Mason</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kosaka</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mamula</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Speir</surname>, <given-names>C.</given-names>
+</string-name> (<year>2012</year>). <article-title>Effort changes around a marine reserve: The case of the California Rockfish Conservation Area</article-title>. <source>Marine Policy</source>, <volume>36</volume>(<issue>5</issue>), <fpage>1054</fpage>–<lpage>1063</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0055"><mixed-citation publication-type="journal" id="cobi14435-cit-0055">
+<string-name name-style="western">
+<surname>McLeod</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salm</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Green</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Almany</surname>, <given-names>J.</given-names>
+</string-name> (<year>2009</year>). <article-title>Designing marine protected area networks to address the impacts of climate change</article-title>. <source>Frontiers in Ecology and the Environment</source>, <volume>7</volume>(<issue>7</issue>), <fpage>362</fpage>–<lpage>337</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0056"><mixed-citation publication-type="journal" id="cobi14435-cit-0056">
+<string-name name-style="western">
+<surname>McPherson</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Finger</surname>, <given-names>D. J. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Houskeeper</surname>, <given-names>H. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bell</surname>, <given-names>T. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rogers‐Bennett</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kudela</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2021</year>). <article-title>Large‐scale shift in the structure of a kelp forest ecosystem co‐occurs with an epizootic and marine heatwave</article-title>. <source>Communications Biology</source>, <volume>4</volume>(<issue>1</issue>), <fpage>298</fpage>.<pub-id pub-id-type="pmid">33674760</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-021-01827-6</pub-id><pub-id pub-id-type="pmcid">PMC7935997</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0057"><mixed-citation publication-type="journal" id="cobi14435-cit-0057">
+<string-name name-style="western">
+<surname>Moffitt</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson White</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Botsford</surname>, <given-names>L. W.</given-names>
+</string-name> (<year>2011</year>). <article-title>The utility and limitations of size and spacing guidelines for designing marine protected area (MPA) networks</article-title>. <source>Biological Conservation</source>, <volume>144</volume>(<issue>1</issue>), <fpage>306</fpage>–<lpage>318</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0058"><mixed-citation publication-type="journal" id="cobi14435-cit-0058">
+<string-name name-style="western">
+<surname>Ovando</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Costello</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deschenes</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaines</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hilborn</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Liu</surname>, <given-names>O.</given-names>
+</string-name> (<year>2021</year>). <article-title>Assessing the population‐level conservation effects of marine protected areas</article-title>. <source>Conservation Biology</source>, <volume>35</volume>(<issue>6</issue>), <fpage>1861</fpage>–<lpage>1870</lpage>.<pub-id pub-id-type="pmid">34190357</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cobi.13782</pub-id><pub-id pub-id-type="pmcid">PMC9290450</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0059"><mixed-citation publication-type="journal" id="cobi14435-cit-0059">
+<string-name name-style="western">
+<surname>Radici</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ligas</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bitetto</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lembo</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spedicato</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sartor</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piccardi</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Melià</surname>, <given-names>P.</given-names>
+</string-name> (<year>2023</year>). <article-title>Assessing fish–fishery dynamics from a spatially explicit metapopulation perspective reveals winners and losers in fisheries management</article-title>. <source>Journal of Applied Ecology</source>, <volume>60</volume>(<issue>11</issue>), <fpage>2482</fpage>–<lpage>2493</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0060"><mixed-citation publication-type="journal" id="cobi14435-cit-0060">
+<string-name name-style="western">
+<surname>Ramírez‐Ortiz</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reyes‐Bonilla</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balart</surname>, <given-names>E. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Olivier</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huato‐Soberanis</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Micheli</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Edgar</surname>, <given-names>G. J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Reduced fish diversity despite increased fish biomass in a Gulf of California Marine Protected Area</article-title>. <source>PeerJ</source>, <volume>8</volume>, <elocation-id>e8885</elocation-id>.<pub-id pub-id-type="pmid">32296607</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7717/peerj.8885</pub-id><pub-id pub-id-type="pmcid">PMC7151750</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0061"><mixed-citation publication-type="journal" id="cobi14435-cit-0061">
+<string-name name-style="western">
+<surname>Rincón‐Díaz</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pittman</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Heppell</surname>, <given-names>S. S.</given-names>
+</string-name> (<year>2018</year>). <article-title>Functional diversity metrics detect spatio‐temporal changes in the fish communities of a Caribbean marine protected area</article-title>. <source>Ecosphere</source>, <volume>9</volume>(<issue>10</issue>), <elocation-id>e02433</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0062"><mixed-citation publication-type="journal" id="cobi14435-cit-0062">
+<string-name name-style="western">
+<surname>Roberts</surname>, <given-names>C. M.</given-names>
+</string-name> (<year>2000</year>). <article-title>Selecting marine reserve locations: Optimality versus opportunism</article-title>. <source>Bulletin of Marine Science</source>, <volume>66</volume>(<issue>3</issue>), <fpage>581</fpage>–<lpage>592</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0063"><mixed-citation publication-type="journal" id="cobi14435-cit-0063">
+<string-name name-style="western">
+<surname>Roberts</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Leary</surname>, <given-names>B. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCauley</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cury</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duarte</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lubchenco</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pauly</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sáenz‐Arroyo</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sumaila</surname>, <given-names>U. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Worm</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2017</year>). <article-title>Marine reserves can mitigate and promote adaptation to climate change</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>114</volume>(<issue>24</issue>), <fpage>6167</fpage>–<lpage>6175</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1701262114</pub-id><pub-id pub-id-type="pmcid">PMC5474809</pub-id><pub-id pub-id-type="pmid">28584096</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0064"><mixed-citation publication-type="journal" id="cobi14435-cit-0064">
+<string-name name-style="western">
+<surname>Sala</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayorga</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bradley</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cabral</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atwood</surname>, <given-names>T. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Auber</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheung</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Costello</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferretti</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Friedlander</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaines</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garilao</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goodell</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Halpern</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hinson</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaschner</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kesner‐Reyes</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leprieur</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGowan</surname>, <given-names>J.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Lubchenco</surname>, <given-names>J.</given-names>
+</string-name> (<year>2021</year>). <article-title>Protecting the global ocean for biodiversity, food and climate</article-title>. <source>Nature</source>, <volume>592</volume>(<issue>7854</issue>), <fpage>397</fpage>–<lpage>402</lpage>.<pub-id pub-id-type="pmid">33731930</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-021-03371-z</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0065"><mixed-citation publication-type="book" id="cobi14435-cit-0065">
+<string-name name-style="western">
+<surname>Salm</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Clark</surname>, <given-names>J.</given-names>
+</string-name> (<year>1984</year>). <source>Marine and coastal protected areas: A guide for planners and managers</source> (Vol. <volume>21</volume>). <publisher-name>International Union for Conservation of Nature</publisher-name>.</mixed-citation></ref><ref id="cobi14435-bib-0066"><mixed-citation publication-type="journal" id="cobi14435-cit-0066">
+<string-name name-style="western">
+<surname>Sève</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belharet</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Melià</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Franco</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Calò</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2023</year>). <article-title>Fisheries outcomes of marine protected area networks: Levels of protection, connectivity, and time matter</article-title>. <source>Conservation Letters</source>, <volume>16</volume>(<issue>6</issue>), <elocation-id>e12983</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0067"><mixed-citation publication-type="journal" id="cobi14435-cit-0067">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Free</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopazanski</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brun</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dugan</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eurich</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Francis</surname>, <given-names>T. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raimondi</surname>, <given-names>P. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nickols</surname>, <given-names>K. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2023</year>). <article-title>A marine protected area network does not confer community structure resilience to a marine heatwave across coastal ecosystems</article-title>. <source>Global Change Biology</source>, <volume>29</volume>(<issue>19</issue>), <fpage>5634</fpage>–<lpage>5651</lpage>.<pub-id pub-id-type="pmid">37439293</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.16862</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0069"><mixed-citation publication-type="journal" id="cobi14435-cit-0069">
+<string-name name-style="western">
+<surname>Van Diggelen</surname>, <given-names>A. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Worden</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frimodig</surname>, <given-names>A. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wertz</surname>, <given-names>S. P.</given-names>
+</string-name> (<year>2022</year>). <article-title>California's lessons learned and recommendations for effective marine protected area network management</article-title>. <source>Marine Policy</source>, <volume>137</volume>, <elocation-id>104928</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0070"><mixed-citation publication-type="journal" id="cobi14435-cit-0070">
+<string-name name-style="western">
+<surname>Visalli</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Best</surname>, <given-names>B. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cabral</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheung</surname>, <given-names>W. W. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clark</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garilao</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaschner</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kesner‐Reyes</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lam</surname>, <given-names>V. W. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maxwell</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayorga</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moeller</surname>, <given-names>H. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morgan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crespo</surname>, <given-names>G. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pinsky</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>T. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>McCauley</surname>, <given-names>D. J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Data‐driven approach for highlighting priority areas for protection in marine areas beyond national jurisdiction</article-title>. <source>Marine Policy</source>, <volume>122</volume>, <elocation-id>103927</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0071"><mixed-citation publication-type="journal" id="cobi14435-cit-0071">
+<string-name name-style="western">
+<surname>Wilson</surname>, <given-names>K. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tittensor</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Worm</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lotze</surname>, <given-names>H. K.</given-names>
+</string-name> (<year>2020</year>). <article-title>Incorporating climate change adaptation into marine protected area planning</article-title>. <source>Global Change Biology</source>, <volume>26</volume>(<issue>6</issue>), <fpage>3251</fpage>–<lpage>3267</lpage>.<pub-id pub-id-type="pmid">32222010</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.15094</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0072"><mixed-citation publication-type="journal" id="cobi14435-cit-0072">
+<string-name name-style="western">
+<surname>Wood</surname>, <given-names>S. N.</given-names>
+</string-name> (<year>2011</year>). <article-title>Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models</article-title>. <source>Journal of the Royal Statistical Society: Series B (Statistical Methodology)</source>, <volume>73</volume>(<issue>1</issue>), <fpage>3</fpage>–<lpage>36</lpage>.</mixed-citation></ref><ref id="cobi14435-bib-0074"><mixed-citation publication-type="journal" id="cobi14435-cit-0074">
+<string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>, <given-names>R. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellquist</surname>, <given-names>L. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caselle</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morgan</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mulligan</surname>, <given-names>T. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruttenberg</surname>, <given-names>B. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Semmens</surname>, <given-names>B. X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tyburczy</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wendt</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buchheister</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jarrin</surname>, <given-names>J. R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pasparakis</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jorgensen</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiu</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Colby</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coscino</surname>, <given-names>C. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davis</surname>, <given-names>L.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name> (<year>2024</year>). <article-title>Collaborative fisheries research reveals reserve size and age determine efficacy across a network of marine protected areas</article-title>. <source>Conservation Letters</source>, <volume>17</volume>(<issue>2</issue>), <elocation-id>e13000</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0075"><mixed-citation publication-type="journal" id="cobi14435-cit-0075">
+<string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>, <given-names>R. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruttenberg</surname>, <given-names>B. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiu</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fields</surname>, <given-names>R. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waltz</surname>, <given-names>G. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wendt</surname>, <given-names>D. E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2022</year>). <article-title>External fishing effort regulates positive effects of no‐take marine protected areas</article-title>. <source>Biological Conservation</source>, <volume>269</volume>, <elocation-id>109546</elocation-id>.</mixed-citation></ref><ref id="cobi14435-bib-0076"><mixed-citation publication-type="journal" id="cobi14435-cit-0076">
+<string-name name-style="western">
+<surname>Ziegler</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brooks</surname>, <given-names>R. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnston</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mohay</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruttenberg</surname>, <given-names>B. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Starr</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waltz</surname>, <given-names>G. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wendt</surname>, <given-names>D. E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name> (<year>2023</year>). <article-title>Marine protected areas, marine heatwaves, and the resilience of nearshore fish communities</article-title>. <source>Scientific Reports</source>, <volume>13</volume>(<issue>1</issue>), <fpage>1405</fpage>.<pub-id pub-id-type="pmid">36697490</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-023-28507-1</pub-id><pub-id pub-id-type="pmcid">PMC9876911</pub-id></mixed-citation></ref><ref id="cobi14435-bib-0077"><mixed-citation publication-type="journal" id="cobi14435-cit-0077">
+<string-name name-style="western">
+<surname>Zupan</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fragkopoulou</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claudet</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Erzini</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horta e Costa</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gonçalves</surname>, <given-names>E. J.</given-names>
+</string-name> (<year>2018</year>). <article-title>Marine partially protected areas: Drivers of ecological effectiveness</article-title>. <source>Frontiers in Ecology and the Environment</source>, <volume>16</volume>(<issue>7</issue>), <fpage>381</fpage>–<lpage>387</lpage>.</mixed-citation></ref></ref-list></back></article>

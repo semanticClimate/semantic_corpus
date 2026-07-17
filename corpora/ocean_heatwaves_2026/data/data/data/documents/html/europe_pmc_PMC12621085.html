@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Coral Bleaching: The Equatorial‐Refugia Hypothesis</title>
+<style>
+body { font-family: Georgia, serif; max-width: 900px; margin: 2rem auto; line-height: 1.5; }
+h1 { font-size: 1.6rem; }
+.pmc-figure, .pmc-table-wrap { margin: 1.5rem 0; border: 1px solid #ddd; padding: 1rem; }
+.pmc-figure img, .pmc-table-wrap img { max-width: 100%; height: auto; }
+.table-label, .figure-label { font-weight: bold; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 0.4rem 0.6rem; text-align: left; }
+.meta { color: #555; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<header>
+<h1>Coral Bleaching: The Equatorial‐Refugia Hypothesis</h1>
+<p class="meta">Figures: 5 | Tables: 0 | Source: europe_pmc_PMC12621085.xml</p>
+</header>
+<section class="abstract"><abstract><title>ABSTRACT</title><p>The rising threat of marine heatwaves has led to numerous predictions that coral reefs, especially those near the Equator, will be severely degraded by the end of the current century. Yet, environmental conditions near the Equator may regionally moderate coral bleaching by reducing thermal stress during marine heatwaves. We deployed a Bayesian spatio‐temporal model over Earth to examine which environmental conditions may characterize marine‐heatwave refugia for coral reefs by testing the relationship between the severity of coral bleaching and a suite of temperature, hydrodynamic, topographic, atmospheric, and biological variables. The model considered the severity of coral bleaching as the proportion of bleached hard corals during 30,266 coral‐reef surveys conducted at 8728 sites, at depths of up to 20 m, and located between 35° north and south of the Equator across 81 countries, from 2002 to 2020. Except for the eastern Pacific Ocean, the severity of coral bleaching during marine heatwaves was lower on equatorial reefs than on higher‐latitude reefs, suggesting that marine‐heatwave refugia for corals have been concentrated in the equatorial Coral Triangle region. Indeed, equatorial reefs in the Coral Triangle were, on average, exposed to the weakest marine heatwaves, potentially because they were shielded from extreme insolation by frequent cloud coverage in the Intertropical Convergence Zone. Coral bleaching may also be moderated during marine heatwaves on reefs that experience high wave energy, high current velocity, high cloud frequency, or turbidity. Coral bleaching was also less severe on reefs that historically endured frequent heatwaves than on reefs that were naïve to thermal stress. Based on modern and historical responses of coral reefs to acute thermal stress, we hypothesize that many equatorial reefs will continue to serve as marine‐heatwave refugia for corals.</p><sec><p><strong>Keywords:</strong> Bayesian inference, climate change, coral bleaching, coral reefs, marine heatwaves, ordered‐beta regression, refugia, spatially‐explicit statistics</p></sec></abstract></section>
+<main><sec><label>1.</label><h2>Introduction</h2><p>Modern climate change has prompted one of the most pressing research questions in coral‐reef ecology: where will coral reefs persist through the Anthropocene? Indeed, modern climate change is increasing the frequency, intensity, and duration of marine heatwaves (Oliver et al. 201820182020202420252021199319971999200720172018201820201878201220132014201620202024201820212019202020202011201920152019201820252019; Frölicher et al. ; Laufkötter et al. ; Henley et al. ; Marcos et al. ), which are periods of anomalously high regional ocean temperatures (Oliver et al. ) that cause mass coral bleaching and mortality (Glynn ; Brown ; Hoegh‐Guldberg ; Hoegh‐Guldberg et al. ; Hughes et al. ). As marine heatwaves are predicted to continue occurring over the next century (Oliver et al. ; Frölicher et al. ; Laufkötter et al. ), numerous coral bleaching forecasts predict that equatorial coral reefs (i.e., those between ~12° north and south of the Equator; Wallace ) are the reefs most threatened by marine heatwaves (Teneva ; van Hooidonk et al. , , ; McManus et al. ; Mellin et al. ). However, such predictions are inconsistent with latitudinal patterns of marine heatwave characteristics (Oliver et al. , ; Holbrook et al. ; Jacox et al. ; Sen Gupta et al. ), thermal tolerance (Sunday et al. , ; Dixon et al. ; Pinsky et al. ), and the historical and modern responses of many marine organisms to acute thermal stress (Penn et al. ; van Woesik ; Sully et al. ). Here, we challenge the hypothesis that equatorial coral reefs are the reefs most threatened by marine heatwaves and identify the environmental conditions that may support equatorial refugia for corals.</p><p>Approximately 252 million years ago, ~7 million years before scleractinian corals evolved (Stanley 1988200120122024201720182025201918422024201820212019202020202011201920152019; Stanley and Fautin ), global warming led to the end‐Permian extinction (Payne and Clapham ; Sun, Farnsworth, et al. ), which was the most severe extinction event since life on Earth began ~3.8–4.3 billion years ago (Dodd et al. ). Although the end‐Permian event drove ~96% of marine life to extinction, geological records showed that ocean warming and extinction of many marine species were lowest near the Equator (Penn et al. ). Following the evolution of scleractinian corals ~245 million years ago, the enhanced survival of equatorial marine life during historical thermal stress repeated following the hyperthermal events of the end‐Triassic extinction, the Toarcian Oceanic Anoxic Event, and the Paleocene‐Eocene Thermal Maximum ~201, ~183, and ~56 million years ago, respectively (van Woesik ). The enhanced survival of equatorial coral reefs during historical thermal stress appears to be repeating in modern times, as the severity of coral bleaching during marine heatwaves from 1998 to 2017 was positively related to absolute latitude (Sully et al. ). Indeed, marine heatwaves in the western Pacific Ocean, where most coral reefs are located (Darwin ; Lyons et al. ), generally have the lowest intensities and shortest durations near the Equator (Oliver et al. , ; Holbrook et al. ; Jacox et al. ; Sen Gupta et al. ). Moreover, the thermal tolerance of many marine, freshwater, and terrestrial species appears to be highest near the Equator (Sunday et al. , ; Dixon et al. ; Pinsky et al. ).</p><p>Refugia are generally considered to be habitats that serve as biodiversity safe havens, where organisms can survive during periods of environmental stress, disturbance, or climatic change, and from which populations may later expand when surrounding conditions improve (Rull 200920102012199220102012201419882000201120252012201620162020202220242024; Stewart et al. ; Keppel et al. ). However, no refugium is necessarily permanent across space and time, and refugia vary in their capacity to buffer environmental change. Indeed, the spatial and temporal scale of a refugium depends on the magnitude of environmental change and the extent to which that change is buffered, ranging from fine to coarse spatial scales and from short‐ to long‐term durations relative to the mobility and generation time of the species it sustains (Levin ; Stewart et al. ; Keppel et al. ; Hannah et al. ). Refugia are, therefore, inherently subject to dynamic changes. Networks of such dynamic refugia have been considered for corals in the context of historical glacial and hyperthermal events (Stanley ; Potts and Jacobs ; Mosblech et al. ; van Woesik ) and in the face of modern marine heatwaves (van Woesik et al. ; Cacciapaglia and van Woesik ; Cinner et al. ; Sully and van Woesik ; Sully et al. ; Lachs, Humanes, et al. ; Sun, Steinberg, et al. ).</p><p>Environmental conditions that may locally moderate coral bleaching by reducing thermal stress during marine heatwaves include high cloud coverage (Mumby et al. 2001202520012005202519932012201620192020202320252025200820012004197919732012199620022009201920012025; Cheung et al. ), high water‐flow rates (Nakamura and van Woesik ; Nakamura et al. ; Cheung et al. ), high wave energy (Glynn ), turbidity (van Woesik et al. ; Cacciapaglia and van Woesik ; Teixeira et al. ; Sully and van Woesik ; Rosedy et al. ; Cheung et al. ), and high reef rugosity (Liesegang et al. ). As high water flow and shear stress toward the tops of reefs may increase mass transfer (Lenihan et al. ), which enhances survival during thermal stress (Nakamura and van Woesik ), areas of reefs that are shallower than the surrounding reef may have less coral bleaching than areas of reefs that are deeper than the surrounding reef. Reduced irradiance may also decrease the amount of thermal stress corals experience (Takahashi et al. ). Irradiance can be reduced by several factors, such as the angle of the reef slope relative to the sea surface (Brakel ), the degree to which the reef slope faces away from the Equator (Goreau and Goreau ), turbidity (van Woesik et al. ), and tidally driven currents that keep sediments in suspension (Kleypas ). Local moderation of coral bleaching may also arise from ecological memory—the capacity for past events to influence a phenotypic response to present stimuli (Peterson ). For example, historical marine heatwaves may moderate bleaching responses of corals to subsequent marine heatwaves (Thompson and van Woesik ; Sully et al. ) by selecting for thermally tolerant species (Loya et al. ) and thermally tolerant individuals (Howells et al. ).</p><p>We used a global database of coral bleaching (van Woesik and Kratochwill 2022200920152023), a comprehensive suite of variables, and Bayesian modeling (Rue et al. ; Lindgren and Rue ; Kubinec ) to reveal the environmental conditions that may characterize marine‐heatwave refugia for coral reefs worldwide. We also evaluated how ecological memory may influence the geographical responses of coral reefs to marine heatwaves. Together, our study challenges the hypothesis that equatorial coral reefs are the reefs most threatened by marine heatwaves and identifies the environmental conditions that may moderate coral bleaching based on a comprehensive global analysis of coral bleaching over the past two decades.</p></sec><sec><label>2.</label><h2>Materials and Methods</h2><sec><label>2.1.</label><h2>Data Collection</h2><p>Coral bleaching was estimated during field surveys as the percentage of hard‐coral colonies that were bleached at study sites (van Woesik and Kratochwill 202212022). As the taxonomic identity of corals and the relative abundance of each coral taxon were not recorded during surveys, the severity of coral bleaching at each site was estimated and assessed at the scale of the overall hard‐coral assemblage. In total, we used coral‐bleaching data from 30,266 surveys conducted at 8728 sites (≤ 20 m depth), and located between 35° north and south of the Equator across 81 countries, from July 7, 2002, to August 15, 2020 (Figure ). Here, a survey is a unique combination of a study site, survey date, and depth. Detailed descriptions of the coral‐bleaching data are available in van Woesik and Kratochwill ().</p><figure class="pmc-figure" id="gcb70594-fig-0001" data-figure-id="gcb70594-fig-0001"><figcaption><span class="figure-label">FIGURE 1</span><caption><p>Locations of the 30,266 coral‐reef surveys conducted at 8728 sites (≤ 20 m depth) across 81 countries from 2002 to 2020. The sites are colored according to the number of surveys. Map lines delineate study areas and do not necessarily depict accepted national boundaries.</p></caption></figcaption><img src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline/PMC12621085/GCB-31-e70594-g005.jpg" alt="FIGURE 1" data-graphic-href="GCB-31-e70594-g005.jpg" /></figure><p>We examined the relationship of local and regional environmental conditions, habitat characteristics, the pre‐disturbance reef state, and sampling bias with coral bleaching, including (i) sea‐surface temperature (°C), (ii) sea‐surface irradiance (E m<sup>−2</sup><sup>−1</sup><sup>−2</sup><sup>−1</sup><sup>−1</sup><em>K</em><sub>d</sub><sup>−1</sup><sup>−1</sup><sup>−2</sup><sup>−1</sup><sup>−1</sup><sup>−1</sup><sup>−1</sup> day), (iii) the interaction between sea‐surface temperature and sea‐surface irradiance (°C E m day), (iv) cumulative marine‐heatwave intensity (°C), (v) the average annual frequency of marine heatwaves (# year), (vi) turbidity (as 
+490; m), (vii) surface‐current velocity (m s), (viii) wave energy (J m), (ix) tidal range (m day), (x) climatological cloud frequency (%), (xi) reef depth (m), (xii) reef rugosity (m), (xiii) reef slope (°), (xiv) polar alignment of reef aspect (unitless), (xv) reef bathymetric‐position index (m), (xvi) absolute latitude of a reef, (xvii) overall hard‐coral cover during surveys (%), and (xviii) sampling effort (# samples ecoregion month year).</p><sec><label>2.1.1.</label><h2>Sea‐Surface Temperature</h2><p>The average sea‐surface temperature (°C) for the 30 days preceding each survey, at 5‐km resolution, was computed from daily sea‐surface temperatures provided by the <em>CoralTemp</em>2020 v3.1 dataset (Skirving et al. ). This process began by computing the grid‐cell indices for all of the 8728 sites, and then isolating 11,412 unique grid‐cell‐survey‐date combinations. For each of these combinations, the file paths to the daily sea‐surface‐temperature files were precomputed for the 30 days leading up to each grid cell&#x27;s survey date(s), resulting in 684,720 matching files whose existence was confirmed—6657 of which were unique. A parallel session was initialized while allocating all cores except one; each unique precomputed file path was opened once, and the sea‐surface temperature values were extracted for all the grid cells that depended on that file at any point in their 30‐day period. The resulting extracted data, with file‐level sorting, were sorted by the grid‐cell‐survey‐date combinations, and the 30‐day average sea‐surface temperature was computed for each combination.</p></sec><sec><label>2.1.2.</label><h2>Detecting Marine Heatwaves</h2><p>A marine heatwave is at least five consecutive days of positive sea‐surface temperature anomalies exceeding the 90<sup>th</sup>2016<em>CoralTemp</em>2020<em>ts2clm</em><em>heatwaveR</em>20182016<sup>th</sup><em>detect_event</em><em>heatwaveR</em> percentile climatological baseline for each day of the year (Hobday et al. ). Therefore, daily sea‐surface temperature data, at 5‐km resolution, were extracted from  v3.1 from January 1, 1985, to December 31, 2020 (Skirving et al. ). The data were extracted for the 4365 unique 5‐km grid cells that contained at least one survey. All the 36‐year time series were passed to the  method of the  package (Schlegel and Smit ), which implements the definition of a marine heatwave developed by Hobday et al. (), to calculate the climatological mean and 90 percentile sea‐surface temperature for each day of the year, at each grid cell, over the 30‐year climatological period January 1, 1985, to December 31, 2014. These results were then passed to the  method of the  package to detect all marine heatwaves that occurred in each grid cell. All surveys were assigned to an active marine heatwave if the field survey occurred during, or at most 14 days after, any detected marine heatwave, at the respective grid cells.</p></sec><sec><label>2.1.3.</label><h2>
+
+<em>heatwaveR</em>
+ Metrics</h2><p>The onset rate (°C day<sup>−1</sup><sup>−1</sup><em>detect_event</em>S1), decline rate (°C day), and duration (days) of the active marine heatwaves and their average, maximum, and cumulative intensity (°C) over their total duration were obtained from the  metrics. Instead of using the total duration of each active heatwave, we only considered the duration of the heatwaves leading up to each survey by subtracting the event&#x27;s start date from the survey date. Similarly, instead of using the total cumulative intensity of each active heatwave, we only considered the cumulative intensity that accumulated leading up to each survey by summing the daily temperature anomalies that occurred before and on the survey day (e.g., Figure ). If the survey occurred after the heatwave&#x27;s end date but within the 14‐day window, then the total duration and total cumulative intensity were used in the analysis.</p><p>The average annual frequency of historical heatwaves was calculated as the number of heatwaves that occurred 0.5–15.5 years before each survey, divided by 15 years. Heatwaves that occurred within half a year leading up to surveys were excluded to ensure that modern heatwaves were not counted with historical heatwaves, and heatwaves that occurred more than 15.5 years before surveys were excluded to ensure that the time window for the earliest surveys in 2002 did not extend earlier than the beginning of the temperature record in 1985. As many of the <em>heatwaveR</em> metrics were collinear, for the analysis, we only retained heatwave frequency and the cumulative intensity of marine heatwaves leading up to surveys. The cumulative intensity of active and recently active heatwaves was used to assess the relationship between active heat stress and coral bleaching, whereas heatwave frequency was used to assess the relationship between historical heat stress and coral bleaching.</p></sec><sec><label>2.1.4.</label><h2>Irradiance and Turbidity</h2><p>Daily photosynthetically available radiation (i.e., irradiance) data at the sea surface, at 4‐km resolution, from July 4, 2002, to August 15, 2020, were extracted from the Aqua Moderate Resolution Imaging Spectrometer (Aqua‐MODIS) (Frouin and Pinker 1995201219812005; Frouin et al. ) for all the unique 4‐km grid cells that contained at least one survey. The data for the 30 days preceding each survey were extracted and averaged. The same approach was used for the turbidity data, using 60 days instead of 30 days, which were also provided by Aqua‐MODIS at the same spatio‐temporal coverage and resolution as irradiance (Austin and Petzold ; Werdell and Bailey ). A larger time‐averaging window was used for turbidity compared with irradiance to account for more days with missing data.</p></sec><sec><label>2.1.5.</label><h2>Surface‐Current Velocity</h2><p>Current velocities were estimated from the Global Ocean Physics Reanalysis (GLORYS; Jean‐Michel et al. 2021uv<sup>−1</sup><em>subset</em><em>copernicusmarine</em>uvsuv), which is provided by the Copernicus Marine Service. GLORYS provides estimates of eastward () and northward () current velocities (m s) daily, at 9.2‐km resolution and at 50 depths ranging from 0.494 to 5728 m, from December 31, 1992, to August 25, 2025. The GLORYS ocean‐current data were downloaded approximately at the sea surface (0.494 m) using the  method of the  Python application programming interface. The  and  surface‐current velocities were isolated for all survey sites for 30 days leading up to each survey. The current‐velocity rates () were then estimated for each of the 30 days as the magnitude of the  and  components, as:</p><label>(1)</label>s=u2+v2.<p>The current‐velocity rates for each of the 30 days preceding the surveys were then averaged.</p></sec><sec><label>2.1.6.</label><h2>Wave Energy</h2><p>The average wave energy at each site, 60 days leading up to, and during, the surveys, was estimated from the significant wave height data provided by Copernicus Marine Service&#x27;s Global Ocean Waves Reanalysis (Law‐Chune et al. 20212021<em>get</em><em>copernicusmarine</em>E<sup>−2</sup>184719521991). Significant wave height is the average height of the top‐third highest waves, measured in meters, estimated every 3 h at 22‐km resolution globally from December 31, 1979, to April 30, 2023 (Law‐Chune et al. ). The significant wave‐height data were downloaded from the Copernicus Marine Science server via the  method of the  Python application programming interface. The raster grid cell for each site coordinate was calculated, and all the unique grid‐cell‐survey‐date combinations were isolated. The data were extracted in parallel for each of these combinations over the 60 days leading up to and during each survey, following similar logic to the extraction of the sea‐surface temperature data. Wave‐energy density (; J m) was then estimated as (Stokes ; Longuet‐Higgins ; Dean and Dalrymple ):</p><label>(2)</label>E=18ρgHs2,<p>where ρ<sup>−3</sup>18191884g<sup>−2</sup>1673Hs is the density of seawater (1025 kg m; Marcet ; Murray and Buchanan ),  is the gravitational acceleration (9.81 m s; Huygens ), and  is the average significant wave height (m) for the 60 days leading up to each survey.</p></sec><sec><label>2.1.7.</label><h2>Tidal Range</h2><p>Tidal‐range data (m day<sup>−1</sup>S12024), which is the difference between high and low tide in meters, were extracted, at 3.7‐km resolution, from the Global Tidal Range dataset (Table ). The Global Tidal Range dataset was derived from the Finite Element Solution 2022 tidal model (Centre National d&#x27;Etudes Spatiales ), which uses altimetry and tidal gauge measurements from 1992 to 2020, and was calculated as twice the climatological tidal amplitude:</p><label>(3)</label>R=2×M2+S2+K1+O1,<p>where RM2S2K1O1192120172021 is tidal range,  is the principal lunar‐semidiurnal constituent,  is the principal solar‐semidiurnal constituent,  is the lunisolar‐diurnal constituent, and  is the lunar‐diurnal constituent (Doodson ; Devlin et al. ). The Finite Element Solution 2022 tidal model follows the Finite Element Solution 2014 tidal model (Lyard et al. ).</p></sec><sec><label>2.1.8.</label><h2>Cloud Frequency</h2><p>The climatological cloud frequency for each month and site, expressed as the percentage of days in each month when clouds were present, was extracted from the dataset developed by Wilson and Jetz (2016), which is based on daily daytime surface‐reflectance data, at 1‐km resolution, from February 2000 to March 2014.</p></sec><sec><label>2.1.9.</label><h2>Topography</h2><p>We calculated a suite of local topographic features from derived bathymetry estimates by Li et al. (202120212021<em>a</em><sup>−3</sup><sup>2</sup><em>a</em>2009<em>a</em>1989S22022). The bathymetry data were estimated at a 10‐m resolution, based on the 2019–2024 median harmonized surface reflectance from the Sentinel‐2 multispectral satellite. The light‐attenuation algorithm developed by Li et al. () can estimate depth down to 20 m; hence, we discarded surveys at sites deeper than 20 m. In their light‐attenuation algorithm, Li et al. () assumed a fixed chlorophyll‐ concentration of 0.5 mg m for all surface seawater. This assumption is reasonable to preserve the accuracy of the relative differences among the derived depths and, accordingly, of the estimated topography metrics within our relatively small kernel dimensions (900 and 2500 m; see the subsequent paragraphs), as the concentration of chlorophyll‐ is relatively spatially homogeneous over hundreds of kilometers (Dasgupta et al. ). However, this assumption is not reasonable for accurately deriving absolute depths for all shallow‐water reefs, as the concentration of chlorophyll  varies considerably throughout the world&#x27;s oceans (Feldman et al. ; Figure ). Therefore, we retained the ground‐truthed depths from the Global Coral‐Bleaching Database (van Woesik and Kratochwill ) to assess the relationship between depth and coral bleaching.</p><p>The light‐attenuation algorithm to estimate bathymetry was translated from JavaScript to R using <em>rgee</em>2020<em>ee_as_rast</em><em>rgee</em>S3<em>MultiscaleDTM</em>2023 (Aybar et al. ). A 70‐by‐70 m image patch of the derived bathymetry, centered on each site, was downloaded from Google Earth Engine using the  method of the  package. The rugosity, slope, aspect, northness, southness, and bathymetric‐position index (e.g., Figure ) of each site were estimated from the derived bathymetry, also at a 10‐m resolution, using kernel‐convolution methods in the  R package (Ilich et al. ).</p><p>Reef slope, reef aspect, and reef northness were calculated using the <em>SlpAsp</em><em>MultiscaleDTM</em> method of  with a 30‐by‐30 m convolutional‐queen kernel. Reef slope is the inclination of a reef relative to the sea surface, where 0° is parallel to the sea surface and 90° is perpendicular to the sea surface. Reef aspect is the cardinal orientation that a reef faces downslope, where 0° is northward, 90° is eastward, 180° is southward, 270° is westward, and 359° is also northward. Northness is the north‐south component of the reef aspect and was calculated as the cosine of the aspect, ranging from −1 (south) to 1 (north). Southness is the inverse of northness and was calculated by multiplying the northness by −1, ranging from −1 (north) to 1 (south). We defined polar alignment as the southness of sites in the southern hemisphere and the northness of sites in the northern hemisphere, so that all positive values represent sites that face away from the Equator and all negative values represent sites that face toward the Equator.</p><p>Rugosity was calculated using the <em>AdjSD</em><em>MultiscaleDTM</em><em>AdjSD</em>2023<em>BPI</em><em>MultiscaleDTM</em><em>MultiscaleDTM</em> method of  with a 3‐by‐3 cell (i.e., 30 by 30 m) convolutional‐square kernel. The  method fits an ordinary least‐squares plane to the nine cells in the focal window, computes the residual depth of each cell from the plane, and calculates the standard deviation of the residuals (Ilich et al. ). Therefore, rugosity is 0 m for flat reefs and increases as the reef become increasingly complex. Each site&#x27;s bathymetric‐position index was calculated using the  method of  with a convolutional‐annulus kernel whose inner and outer radii were 20 m and 50 m, respectively. A positive bathymetric‐position index indicates reef habitats that are shallower than the surrounding reef (e.g., reef crests and patch reefs), a negative bathymetric‐position index indicates reef habitats that are deeper than the surrounding reef (e.g., back‐reef lagoons and reef channels), and a bathymetric‐position index equal to 0 indicates reef habitats that are the same depth as the surrounding reef (e.g., inner‐reef flats).  was designed for terrestrial data where elevation values decrease downslope. Therefore, the bathymetry data were multiplied by −1 to ensure that depth values also decreased downslope, preventing inversion of aspect, derivatives of aspect, and the bathymetric‐position index.</p><p>For computational efficiency, the bathymetry‐raster convolutions were only performed for a small 49‐pixel (i.e., 70 by 70 m) image patch centered on each site coordinate. Before the convolutions, each image patch of the bathymetry and its corresponding site coordinate were projected into the appropriate Universal Transverse Mercator (UTM) zone using a custom UTM‐solver function. For each site, values for each topographical metric were obtained by passing the projected convolved‐image patches and the projected site coordinate to the <em>extract</em><em>terra</em>2025S1https://doi.org/10.6084/m9.figshare.304226742 method of the  R package (Hijmans ). All topographic metrics were assumed to remain fixed over the study period. Depth values were converted back to the positive range after the topography data were extracted. Links to all the datasets we used are available in Table . All the data‐extraction code and extracted datasets are available at . An exploratory data analysis showed that several key variables had general latitudinal patterns (Figure ).</p><figure class="pmc-figure" id="gcb70594-fig-0002" data-figure-id="gcb70594-fig-0002"><figcaption><span class="figure-label">FIGURE 2</span><caption><p>General latitudinal patterns of (a) sea‐surface temperature (°C), (b) sea‐surface irradiance (E m<sup>−2</sup><sup>−1</sup> day), (c) the average intensity of detected marine heatwaves over their full duration (°C), and (d) climatological cloud frequency (%), from 30,266 surveys conducted at 8728 sites (≤ 20 m), across 81 countries from 2002 to 2020. The raw data for each survey are the lightly colored dots. General latitudinal patterns are depicted by the colored curves, which are simple generalized additive models of the data estimated using restricted maximum likelihood and four knots (i.e., specific points along the range of latitude where the smooth function changes form).</p></caption></figcaption><img src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline/PMC12621085/GCB-31-e70594-g003.jpg" alt="FIGURE 2" data-graphic-href="GCB-31-e70594-g003.jpg" /></figure></sec></sec><sec><label>2.2.</label><h2>Data Analysis</h2><p>Data expressed as proportions are often modeled using a beta distribution (Pearson 18942023200620092023) because the beta distribution is defined on the interval from zero to one, excluding zero and one. However, 15,685 of the 30,266 surveys recorded no coral bleaching (i.e., 0), which is undefined by the beta distribution. Therefore, we implemented a generalized linear ordered‐beta regression (Kubinec ), which is an extension of beta regression designed for zero‐and/or‐one‐inflated proportional data that (i) does not require transforming the data to the open interval (0, 1) (e.g., Smithson and Verkuilen ), (ii) does not require discrete (0 and 1) and non‐discrete (between 0 and 1) component models (e.g., hurdle models; Zuur et al. ), and therefore assumes that the discrete and non‐discrete values are generated by the same underlying process (in this case, marine heatwaves), and (iii) accounts for the continuous difference between the discrete and non‐discrete values (e.g., 0 is closer to 0.01 than to 0.5), which all considerably improve statistical inference (Kubinec ).</p><p>We incorporated ordered‐beta regression into <em>R‐INLA</em>201517632009<em>R‐INLA</em>20112018<em>R‐INLA</em>20012005 (Lindgren and Rue ), which is a R package that estimates Bayesian posteriors (Bayes ) using integrated nested Laplace approximation (INLA; Rue et al. ).  can explicitly model geographical space to account for spatial dependence in the response variable arising from spatial autocorrelation, and can reveal latent spatial patterns of the response variable not detected by the observed covariates (Lindgren et al. ; Bakka et al. ). Additionally,  has a suite of random walk models to account for the temporal dependence of the response variable at multiple scales (Fahrmeir and Tutz ; Rue and Held ).</p><p>Here, explicit three‐dimensional modeling of geographical space in <em>R‐INLA</em>2011201120112011 has three notable advantages. First, spatial autocorrelation of coral bleaching among sites can be accounted for by estimating the Matérn covariance of bleaching, which decays with increasing geodesic distance from other sites (Lindgren et al. ). Second, the nominal range can be estimated, which is the geodesic distance above which the Matérn covariance becomes negligible (Lindgren et al. ). In other words, the nominal range is the geodesic distance below which site‐scale coral bleaching is spatially autocorrelated among sites. Third, a spatial‐latent random effect can be estimated over the Earth and then interpolated at each site to account for the spatial autocorrelation of coral bleaching and all the residual geographical variation of coral bleaching that is unexplained by the rest of the model (Lindgren et al. ). These latent effects reveal spatially structured patterns of coral bleaching potentially attributable to unobserved environmental or physiological conditions (Lindgren et al. ). Projecting the spatial‐latent effect onto a map allows one to hypothesize which unobserved environmental or biotic variables may be influencing coral bleaching geographically. A positive spatial‐latent effect indicates where the observed coral bleaching was greater than expected by the model after accounting for the fixed effects, temporal effects, and the independent and identically distributed random effects, whereas a negative spatial‐latent effect indicates where the observed coral bleaching was less than expected by the model after accounting for the fixed effects, temporal effects, and the independent and identically distributed random effects.</p><p>
+<em>R‐INLA</em>20022005201120151934S1<em>R‐INLA</em><em>R‐INLA</em>20111981 probabilistically estimates all these parameters using stochastic partial differential equations over a Gaussian Markov random field (Rue and Tjelmeland ; Rue and Held ; Lindgren et al. ; Lindgren and Rue ), which was discretized as a three‐dimensional Delaunay triangulated mesh of all the site coordinates (Delaunay ) to avoid latitudinal distance distortions characteristic of planar geographic projections (Video ). The resolution of the global mesh depends on the density of the sites. Areas with dense sampling were triangulated down to a 5‐km resolution to capture local‐scale autocorrelation of coral bleaching, whereas areas with sparse or no sampling (e.g., in open oceans) were triangulated up to a 333‐km resolution to reduce computational load.  models the Earth as a unit sphere. Therefore, all of the site&#x27;s two‐dimensional latitude‐longitude coordinates were converted to three‐dimensional Cartesian coordinates, and all the mesh parameters were converted to radians before being passed to the  model (Lindgren et al. ). After the model was fitted, the Gaussian Markov random field and the nominal range were multiplied by Earth&#x27;s volumetric mean radius of 6371 km (Dziewonski and Anderson ) to scale them back to geographic coordinates.</p><p>The zero‐inflated bleaching proportions (ps19841989199320002007<em>R‐INLA</em>) at study sites () were treated as spatio‐temporally dependent realizations of an ordered‐beta distribution. The coral bleaching data were treated as being spatio‐temporally dependent because samples collected close in space and time are inherently autocorrelated, which violates the independence requirement of a sample replicate (Hurlbert ; Legendre and Fortin ; Legendre ; Lennon ; Dormann ). Accordingly, the bleaching proportions were fitted to a Bayesian generalized linear mixed‐effects model with stationary spatial dependence and non‐stationary multi‐scale temporal dependence, defined on Earth&#x27;s spherical domain and implemented in , as follows:</p>pi~oBetaαδγμϕgμ−ς=ηi<label>(4)</label>ηi=β0+∑j=118βjzij+us+νy+νmh+ok+ls+dn+εi,<p>where piiioBetaαςk1δςk1ςk2ςγςk2μϕgςk1k1k1&lt;k2k1k2S4ηiiβ0βjjjzijjusssνyyyνmhmmhhok1982kklssdnnnεii~N0σε2 is observation  of coral‐bleaching severity, expressed as a proportion (where  = 1–30,266);  is the ordered‐beta distribution;  is the probability of observing no bleaching, defined as 1 minus the linear predictor given  = ;  is the probability of observing some bleaching, defined as the linear predictor given  =  minus the linear predictor given  = , which is then multiplied by the probability of the beta distribution given the linear predictor and  = 0;  is the probability of observing complete bleaching, defined as the linear predictor given  = ;  and  are the mean and precision of the beta distribution, respectively;  is the logit‐link function;  is cutpoint 1 (), cutpoint 2 (; where ), or 0 conditional on the observed level of bleaching, where  defines the proportion of bleaching below which observing no bleaching becomes more probable than observing some bleaching, whereas  defines the proportion of bleaching above which observing complete bleaching becomes more probable than observing some bleaching (Figure );  is the linear predictor for observation  of coral bleaching;  is the intercept;  is the distribution of coefficient  for the standardized fixed‐effect covariate or interaction  (; where  = 1–18);  is the stationary, spatially‐correlated latent‐random effect for all observations at site  (where  = 1–8728), considered as a stochastic‐partial‐differential‐equation model to account for pseudoreplication arising from spatial autocorrelation of coral bleaching and for residual geographical variation of coral bleaching unexplained by the rest of the model, modeled three‐dimensionally at a 5 km resolution;  is the temporally‐autocorrelated random effect for all observations in year  (where  = 2002–2020), considered as a first‐order random walk to account for pseudoreplication arising from annual autocorrelation of coral bleaching;  is the temporally‐autocorrelated random effect for all surveys in month  (where  = 1–12) and hemisphere  (where  = 1–2; Northern and Southern Hemisphere), considered as a cyclic first‐order random walk to account for pseudoreplication arising from seasonal autocorrelation of coral bleaching;  is the independent and identically distributed random intercept (Laird and Ware ) for all surveys in ocean  (where  = 1–3) to account for variation in bleaching between oceans;  is the independent and identically distributed random intercept for all surveys at site  to account for variation in bleaching between survey coordinates;  is the independent and identically distributed random intercept for all surveys from data source  (where  = 1–9) to implicitly account for variance in estimated bleaching values from different survey methods and surveyors; and  is the measurement error of observation  of coral bleaching defined by a Gaussian white‐noise process .</p><p>All covariates were screened for collinearity, and those that were not collinear (i.e., had Pearson correlation coefficient magnitudes less than 0.6; Pearson 1895S519912022) were retained (Figure ) and standardized by subtracting their mean and dividing by their standard deviation. The standardized variables were fitted to the model to ensure the fixed‐effect coefficients would be on a comparable scale. The variable for the temperature‐irradiance interaction was constructed by standardizing temperature and irradiance separately and then multiplying them (Aiken et al. ). Coral cover at the time of sampling was obtained from the Global Coral‐Bleaching Database (van Woesik and Kratochwill ). Sampling effort was calculated as the number of samples collected in each ecoregion during each month of each year.</p><p>We used <em>R‐INLA</em>&#x27;s Bayesian framework to estimate a posterior credibility distribution for each covariate&#x27;s fixed effect, while accounting for spatial autocorrelation, temporal autocorrelation, and all the unobserved environmental and physiological conditions that may have influenced coral bleaching geographically. Such a framework allowed us to infer linear relationships between coral bleaching and our environmental covariates. Variables whose 90% credibility intervals were negative, included zero, or were positive had negative, no, or positive relationships with bleaching, respectively. This framework also allowed us to test the interaction between temperature and irradiance (i.e., their combined relationship with bleaching), where if the interaction&#x27;s 90% credibility interval was negative, included zero, or was positive, then the interaction had an antagonistic, additive, or synergistic relationship with bleaching, respectively.</p><p>Oliver et al. (20182021202020201992<em>R‐INLA</em><em>heatwaveR</em>2018, ), Jacox et al. (), and Sen Gupta et al. () found that the intensity of marine heatwaves for all surface seawater between 35° north and south of the Equator is generally lowest near the Equator, except in the eastern Pacific Ocean. As spatial patterns in ecological systems often display characteristic variability according to the scale of investigation (Levin ), another  model was built to test whether the intensity of marine heatwaves that specifically occurred on shallow coral reefs is also generally lowest near the Equator. Of all the 30,266 surveys at 8728 sites, 6803 surveys occurred during, or shortly after (i.e., within 14 days), a marine heatwave at 2965 sites, as detected by the  package. Heatwave intensities are continuous, positive, and theoretically unbounded, though practically constrained by an upper limit that is increasing over time (Oliver et al. ), and were therefore fitted to a gamma distribution as follows:</p>Ii~gammakθθ=μkgμ=ηi<label>(5)</label>ηi=β0+βLziL+us+νy+νmh+ls+εi,<p>where Iiiikθμgηiiβ0βLziLiusssνyyyνmhmmhhlssεii~N0σε2 is the average intensity over the full duration of detected heatwave  (where  = 1–6803); , , and  are the shape, scale, and mean of the gamma distribution, respectively;  is the log‐link function;  is the linear predictor for detected heatwave ;  is the intercept;  is the distribution of the fixed effect for absolute latitude;  is the standardized absolute latitude for observation ;  is the stationary, spatially‐correlated latent‐random effect for site  (where  = 1–2965), considered as a stochastic‐partial‐differential‐equation model to account for pseudoreplication arising from spatial autocorrelation of heatwave intensity and for residual geographical variation of heatwave intensity unexplained by the rest of the model, modeled three‐dimensionally at a 5‐km resolution;  is the temporally‐autocorrelated random effect for all observations in year  (where  = 2002–2020), considered as a first‐order random walk to account for pseudoreplication arising from annual autocorrelation of heatwave intensity;  is the temporally‐autocorrelated random effect for all observations in month  (where  = 1–12) and hemisphere  (where  = 1–2; Northern and Southern Hemisphere), considered as a cyclic first‐order random walk to account for pseudoreplication arising from seasonal autocorrelation of heatwave intensity;  is the independent and identically distributed random intercept for all surveys at site  to account for variation in heatwave intensity between survey coordinates; and  is the measurement error of observation  of a heatwave defined by a Gaussian white‐noise process .</p><p>The global <em>R‐INLA</em>45<em>R‐INLA</em><em>readRDS</em><em>R‐INLA</em>https://doi.org/10.6084/m9.figshare.30422674 models, as presented in Equations () and () for coral bleaching and marine heatwaves, respectively, were processed using an Intel Xeon E5‐2660 v3 central processing unit at 2.60 GHz and with 64 GB of random‐access memory. Both  models are provided as RDS files, which can be read into R using  (see “Data Availability Statement”). Neither model considers geographic barriers in the marine environment (i.e., land). Therefore, the results over land in all the maps shown for the coral‐bleaching model were masked by superimposing the land over the spatial‐latent field. The models were built in R v4.4.2 and  v25.1.23. Our data analysis code is available at .</p></sec></sec><sec><label>3.</label><h2>Results</h2><p>Sea‐surface temperature, the cumulative intensity of marine heatwaves leading up to surveys, absolute latitude, and sampling effort had positive relationships with coral bleaching (Figure 33334). The interaction between temperature and irradiance had a synergistic relationship with coral bleaching (Figure ). Depth, tidal range, coral cover at the time of sampling, and all topographic variables had no relationships with coral bleaching (Figure ). Irradiance, current velocity, heatwave frequency, turbidity, cloud frequency, and wave energy had negative relationships with coral bleaching (Figure ). Absolute latitude had a positive relationship with the average intensity of marine heatwaves that occurred on shallow coral reefs (Figure ).</p><figure class="pmc-figure" id="gcb70594-fig-0003" data-figure-id="gcb70594-fig-0003"><figcaption><span class="figure-label">FIGURE 3</span><caption><p>Posterior marginal distributions of the linear fixed‐effect coefficients from the coral‐bleaching model. Coral‐bleaching and environmental data from 30,266 coral‐reef surveys, at 8728 sites (≤ 20 m) across 81 countries from 2002 to 2020, were fitted to a Bayesian spatio‐temporal model, as in Equation (4<sup>th</sup><sup>−2</sup><sup>−1</sup><sup>−1</sup><sup>−2</sup><sup>−1</sup><sup>−1</sup><em>K</em><sub>d</sub><sup>−1</sup><sup>−2</sup>S6). Variables with red coefficients exhibited positive relationships with coral bleaching. Variables with grey coefficients exhibited no relationships with coral bleaching. Variables with blue coefficients exhibited negative relationships with coral bleaching. The interaction with a red coefficient had a synergistic relationship with coral bleaching. All relationships are at least 90% probable. The vertical lines inside each distribution indicate the 50%, 80%, and 90% credibility intervals. Temperature is the 30‐day average before surveys at 5‐km resolution (°C); cumulative heatwave intensity is the sum of daily temperature anomalies before surveys that exceeded their day&#x27;s 90 percentile climatological baseline during an active marine heatwave lasting for at least five consecutive days at 5‐km resolution (°C); latitude is the reef site&#x27;s absolute latitude (°); sampling effort is the number of samples collected in each ecoregion during each month of each year; the interaction between temperature and irradiance is the 30‐day average before surveys at 5‐ and 4‐km resolution for temperature and irradiance, respectively (°C E m day); depth is the reef site&#x27;s depth (m); tidal range is the difference between high and low tide at 3.7‐km resolution (m day); coral cover is the estimated percentage of the benthos that was covered by hard corals during surveys; polar alignment is the degree to which the reef&#x27;s slope is oriented away from the Equator at 10‐m resolution (unitless); bathymetric position is the reef&#x27;s depth anomaly relative to the surrounding bathymetry at 10‐m resolution (m); rugosity is the standard deviation of nine residual depths, each at 10‐m resolution, from the ordinary least‐squares 30‐m plane centered on the site at 10‐m resolution (m); reef slope is the reef&#x27;s inclination relative to sea level at 10‐m resolution (°); irradiance is the 30‐day average before surveys at 4‐km resolution (E m d); current velocity is the 30‐day average before surveys at 9.2‐km resolution (m s); heatwave frequency is the average number of heatwaves that occurred per year 0.5–15.5 years before surveys at 5‐km resolution; turbidity is the 60‐day average before surveys of the diffuse attenuation coefficient of light at 490 nm (i.e., 
+490) at 4‐km resolution (m); cloud frequency is the climatological percentage of days in each month when clouds were present at 1‐km resolution; and wave energy is the 60‐day average before surveys at 22‐km resolution (J m). The observed and fitted values are plotted against each other in Figure .</p></caption></figcaption><img src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline/PMC12621085/GCB-31-e70594-g004.jpg" alt="FIGURE 3" data-graphic-href="GCB-31-e70594-g004.jpg" /></figure><figure class="pmc-figure" id="gcb70594-fig-0004" data-figure-id="gcb70594-fig-0004"><figcaption><span class="figure-label">FIGURE 4</span><caption><p>(a) Posterior marginal distribution of the linear fixed‐effect coefficient for absolute latitude and (b) the marginal fitted average marine‐heatwave (MHW) intensity based only on the fixed effect of absolute latitude (i.e., <em>β</em><sub>
+<em>L</em></sub><em>β</em><sub>0</sub>5S7S8
+) and the fixed effect of the intercept (i.e., 
+) from the marine‐heatwave model. The average intensity across the full duration of 6803 active marine heatwaves (and those that were recently active within 14 days of surveys) that were detected at 2965 sites (≤ 20 m), across 67 countries from 2002 to 2020, during 30,266 coral‐reef surveys at 8728 sites (≤ 20 m), across 81 countries from 2002 to 2020, was fitted to a Bayesian spatio‐temporal model, as in Equation (). The 99% credibility interval for the fixed effect of absolute latitude is positive, indicating a strong positive relationship with the average intensity over the full duration of marine heatwaves that occurred on shallow coral reefs (a), which is illustrated with 95% credibility intervals (b). The vertical lines inside the posterior distribution indicate the 50%, 80%, and 90% credibility intervals (a). The observed values are mapped in Figure . The observed and fitted values are plotted against each other in Figure .</p></caption></figcaption><img src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline/PMC12621085/GCB-31-e70594-g002.jpg" alt="FIGURE 4" data-graphic-href="GCB-31-e70594-g002.jpg" /></figure><p>Latent geographical patterns of coral bleaching were pervasive throughout all of the world&#x27;s reefs (Figure S95S9–S18S9–S185S9–S18). Notably, a negative spatial‐latent effect indicates where the observed bleaching was less than expected by the model after accounting for the fixed effects, temporal effects, and the independent and identically distributed random effects, whereas a positive spatial‐latent effect indicates where the observed bleaching was greater than expected by the model after accounting for the fixed effects, temporal effects, and the independent and identically distributed random effects. Negative spatial‐latent effects were pervasive in the Coral Triangle, off the coast of northwest Australia, the Pompey region of the Great Barrier Reef, mainland Japan, Taiwan, Vietnam, Myanmar, New Caledonia, Palau, Kosrae, Haiti, Bermuda, in the Seychelles, and in the northern Red Sea (Figure ; Figures ). Positive spatial‐latent effects were pervasive on the Great Barrier Reef and in Hawaiʻi, the Maldives, and Brazil (Figures ). Negative and positive spatial‐latent effects were particularly heterogeneous throughout Fiji, French Polynesia, the Philippines, the Ryukyu Archipelago of Japan, the Florida reef tract, and the Caribbean (Figure ; Figures ).</p><figure class="pmc-figure" id="gcb70594-fig-0005" data-figure-id="gcb70594-fig-0005"><figcaption><span class="figure-label">FIGURE 5</span><caption><p>Spatial‐latent effects capture residual geographical variation of coral bleaching in the Coral Triangle from 2002 to 2020. Dark blue is where hard corals bleached less than expected by the model after accounting for the fixed effects, temporal effects, and the independent and identically distributed random effects, whereas dark red is where hard corals bleached more than expected by the model after accounting for the fixed effects, temporal effects, and the independent and identically distributed random effects. The spatial‐latent effect is expressed on the logit scale and was modeled at a 5‐km resolution over a three‐dimensional Gaussian Markov random field of Earth (i.e., the grey mesh). The scale bar is not included because the image is a perspective, top‐down view of Earth from space, and perspective distortion causes the map scale to vary throughout the image, as indicated by the curved longitude and latitude graticules. The distance between longitude graticules along the Equator is ~1665 km. North follows the longitude graticule upwards. Latent coral bleaching maps and their uncertainty are provided for all coral reef regions in Figures S10–S18. Map lines delineate study areas and do not necessarily depict accepted national boundaries.</p></caption></figcaption><img src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline/PMC12621085/GCB-31-e70594-g001.jpg" alt="FIGURE 5" data-graphic-href="GCB-31-e70594-g001.jpg" /></figure><p>Site‐scale coral bleaching was, on average, spatially autocorrelated up to ~100 km (Figure S19S20S21). The log odds of coral bleaching were highest in 2006, 2010, 2014–2016, and in 2019 (Figure ). The log odds of coral bleaching were also highest in October–December for the Northern Hemisphere and in March–June for the Southern Hemisphere (Figure ).</p></sec><sec><label>4.</label><h2>Discussion</h2><p>Sea‐surface temperature and the cumulative intensity of marine heatwaves had the strongest positive relationships with coral bleaching (Figure 319921996199719992001200420172019202320042007319941997199419992000200219942001200320082010199220042014197819901994200420043201020162012201920202025), supporting decades of well‐established theory, experiments, and global field observations showing that elevated temperatures are the primary cause of coral bleaching (Iglesias‐Prieto et al. ; Glynn ; Brown ; Hoegh‐Guldberg ; Loya et al. ; Berkelmans et al. ; Hughes et al. ; Sully et al. ; Shlesinger and van Woesik ). Irradiance, which has been experimentally shown to have a positive relationship with coral bleaching (Takahashi et al. ; Anthony et al. ), had a negative relationship with coral bleaching in our field study (Figure ). Such an unexpected result may be because peak irradiance in the field typically precedes coral bleaching by several weeks to months because of thermal inertia (Liu et al. ; White et al. ) or because upregulation of photo‐acclimatory mechanisms during high irradiance moderated bleaching responses (Brown et al. , , , ; Iglesias‐Prieto and Trench ; Gorbunov et al. ; Anthony and Hoegh‐Guldberg ; Hennige et al. ; Roth et al. ). Although the interaction between temperature and irradiance has been shown to be additive in bleaching experiments (Iglesias‐Prieto et al. ; Takahashi et al. ; Ban et al. ), the temperature‐irradiance interaction is also often assumed to have a synergistic relationship with coral bleaching (Coles and Jokiel ; Lesser et al. ; Drollet et al. ; Franklin et al. ; Lesser and Farrell ). Here, we show field evidence of such synergism (Figure ). This result indicates that high temperatures combined with high irradiance exacerbate coral bleaching in the field, underscoring the importance of evaluating interactions between environmental conditions and biological processes (Dunne ; Côté et al. ). Our study also showed a negative relationship between coral bleaching and turbidity, which is consistent with the literature (van Woesik et al. ; Teixeira et al. ; Sully and van Woesik ; Cheung et al. ).</p><p>Our observation that marine heatwaves had the lowest average intensity on many equatorial reefs (Figure 420182021202020201993201419932014S22201820192019202020202021202220253201920252019) is consistent with Oliver et al. (, ), Jacox et al. (), and Sen Gupta et al. (), who found that the intensity of marine heatwaves is generally lowest near the Equator, especially in the western Pacific Ocean. However, the warm water that pools near the Equator in the eastern Pacific Ocean during the El Niño phase of the El Niño‐Southern Oscillation is an exception to this global latitudinal pattern of heatwave intensity. The minimal intensity of marine heatwaves on most equatorial reefs, particularly those in the Coral Triangle, may be partially attributable to the Intertropical Convergence Zone that seasonally migrates between ~15° north and south of the Equator (Waliser and Gautier ; Schneider et al. ). While complex, the enhanced convective activity and evaporation in the Intertropical Convergence Zone facilitate the formation of clouds (Waliser and Gautier ; Schneider et al. ; Figure ), which reduce short‐wave radiation and heating during marine heatwaves (Myers et al. ; Schmeisser et al. ; Rodrigues et al. ; Gao et al. ; Amaya et al. ; Zhao et al. ; Vogt et al. ; Dong et al. ), and may partially explain why coral bleaching has a positive relationship with latitude (Figure ; Sully et al. ). Indeed, low‐latitude corals on Australia&#x27;s Great Barrier Reef, with high cloud coverage, had minor (i.e., 0%–30%) bleaching even when exposed to major marine heatwaves in 2016, 2017, and 2020 (Cheung et al. ). However, many other factors may also regulate sea‐surface warming over reefs during marine heatwaves, including short‐term phases of various climate modes that vary geographically (Holbrook et al. ).</p><p>Our equatorial‐refugia hypothesis is, however, in stark contrast with coral bleaching forecasts predicting that marine heatwaves and coral bleaching will be most severe on equatorial reefs (Teneva 2012201320142016202020242003200520192025202520201999200220242016<sup>th</sup>202020242022; van Hooidonk et al. , , ; McManus et al. ; Mellin et al. ). Coral bleaching forecasts use degree‐heating weeks and degree‐heating months to estimate the intensity of future marine heatwaves, which heuristically integrate simulated temperature anomalies over 12 weeks when they are 1°C above the hottest month&#x27;s climatological mean temperature (Liu et al. ; Donner et al. ). Degree‐heating weeks and months, particularly months, are unreliable predictors of observed coral bleaching (McClanahan et al. ; Mason et al. ; Cheung et al. ), especially for large‐scale studies, likely because the extensive spatio‐temporal variability of coral thermal tolerance (McClanahan et al. ; Berkelmans and Willis ; Berkelmans ; García et al. ) is not accounted for by a spatio‐temporally fixed temperature anomaly threshold. By contrast, the heatwave definition developed by Hobday et al. () dynamically integrates temperature anomalies above the 90 percentile for each of the daily climatological thresholds, which, compared with degree‐heating metrics, better captures the spatio‐temporal variability of thermal extremes and the influence of Earth&#x27;s seasonality on temperature anomalies. Accordingly, the degree‐heating‐week metric has been recently considerably refined by regionally optimizing the 1°C temperature anomaly threshold and the 12‐week temperature integration window (DeCarlo ; Whitaker and DeCarlo ). Furthermore, bleaching forecasts are also problematic because they attempt to predict ecological responses to marine heatwaves decades into the future, which is well beyond the predictable lead time for marine heatwaves of up to 1 year (Jacox et al. ). Our results emphasize the importance of using reliable metrics of environmental conditions to infer ecological patterns that align with field observations.</p><p>In addition to predicting that equatorial reefs are the reefs most threatened by marine heatwaves, coral bleaching forecasts also predict that without considerable emission reductions, acclimatization, or adaptation, most of the world&#x27;s coral reefs will be severely degraded sometime during the current century (Donner et al. 200520092013201420212016202220232024202532016202020142017202220242024200120182024; Donner ; Frieler et al. ; Logan et al. , ; Ainsworth et al. ; Dixon et al. ; Lachs et al. ; Lachs, Bozec, et al. ; Bozec et al. ). However, such predictions are inherently the worst‐case scenario as they do not consider the moderating effects of the environment (Figure ). Incorporating such moderating effects into coral bleaching forecasts (Cacciapaglia and van Woesik ; Storlazzi et al. ) may further reveal marine‐heatwave refugia across geographical scales and provide more accurate bleaching projections (Hannah et al. ; Lenoir et al. ; van Woesik et al. ; Klein et al. ; McClanahan ). Incorporating the principles of near‐term ecological forecasting into coral bleaching forecasts will improve our understanding of how the environment may regionally and locally moderate coral bleaching, worldwide, and allow us to accurately project the severity of coral bleaching during marine heatwaves (Clark et al. ; Dietze et al. , ).</p><p>We report several environmental conditions that may locally moderate coral bleaching during marine heatwaves. For example, current velocity, turbidity, and wave energy had negative relationships with the severity of coral bleaching (Figure 32001200520252001201020192020202019932004). The negative relationship between current velocity and coral bleaching is consistent with experiments (Nakamura and van Woesik ; Nakamura et al. ) and field observations (Cheung et al. ). Strong currents increase shear stress and mass transfer that reduce corals&#x27; thermal stress (Nakamura and van Woesik ) while also inducing water mixing that moderates regional temperatures during marine heatwaves (DiMassa et al. ; Green et al. ; Hsu et al. ; Storlazzi et al. ). Similar influences of shear stress and mass transfer are associated with high wave energy. The negative relationship between wave energy and the severity of coral bleaching is also consistent with several early anecdotes that bleaching was most severe during periods of calm seas, largely because of the buildup of the thermocline (Glynn ). High wave energy also disrupts the thermocline and causes cool‐water upwelling (Wunsch and Ferrari ). Moreover, low wind velocity lowers wind‐driven waves, water mixing, and cool‐water upwelling, increasing heating and the likelihood of coral bleaching.</p><p>Coral bleaching was also reduced on reefs that were historically exposed to frequent marine heatwaves (Figure 320012009201220192023202320232025199919921859201020172025), agreeing with many prior studies that have demonstrated increased resistance through successive marine heatwaves (Podestá and Glynn ; Thompson and van Woesik ; Guest et al. ; Sully et al. ; Shlesinger and van Woesik ; Lachs et al. ; González‐Barrios et al. ). Recently, Cheung et al. () found that coral bleaching was reduced on reefs that were historically exposed to intense or recent heatwaves on the Great Barrier Reef. Such accumulation of coral reef resistance to marine heatwaves may arise from acclimatization (Gates and Edmunds ), phase shifts in community composition (Done ), and adaptation by natural selection (Darwin ; Côté and Darling ; Kenkel and Matz ; Howells et al. ), although these processes are not mutually exclusive.</p><p>Our study found no relationship between coral bleaching and any topographical variable. All reef topography metrics were estimated at 10‐m resolution, which is to date the highest available resolution of global bathymetry data. Such resolution of local‐reef geomorphology may still be too coarse to detect any relationships with coral bleaching, which would be optimally measured at the centimeter scale (Liesegang et al. 2025199220011992198020212004201220211992; Levin ). We also found no relationship between coral bleaching and depth, from 0 to 20 m. There was also no relationship between overall hard‐coral cover and the severity of coral bleaching, but such a relationship would likely change if the pre‐disturbance reef states were examined at a higher taxonomic resolution (Loya et al. ; Levin ). Tidal range also had no relationship with coral bleaching, perhaps because tidal range is typically homogeneous over hundreds of kilometers (Schwiderski ; Lyard et al. ), whereas site‐scale coral bleaching geographically varies among reef habitats (Berkelmans et al. ; van Woesik et al. ), all of which can be present over hundreds of kilometers (Kennedy et al. ; Levin ). Sampling effort in each ecoregion had a positive relationship with coral bleaching, likely because the detectability of bleaching increases with more surveys.</p><p>Although we examined many variables that are known to relate to the severity of coral bleaching, we may not have included all relevant variables in our analysis to capture all the geographical variation of coral bleaching. Moreover, as spatial patterns in ecological systems often display characteristic variability according to the scale of investigation, the variables we included may not have been estimated at the optimal spatial scales to capture all the geographical variation of coral bleaching (Levin 1992<em>R‐INLA</em>20152017<em>R‐INLA</em>2021). Yet, one of the most powerful aspects of using  is its ability to estimate spatial‐latent effects over the study domain to unveil residual geographical patterns of coral bleaching that were not accounted for by the observed fixed effects, temporal effects, and the independent and identically distributed random effects. Our results show that the majority of the Great Barrier Reef had positive spatial‐latent effects, where coral bleaching was higher than expected, suggesting that this region is geographically located where thermal stress is more impactful than expected (Cacciapaglia and van Woesik ; Wolanski et al. ). Positive spatial‐latent effects were also apparent in Hawai‘i, the northern Philippines, most of the Caribbean, the Maldives, and in Brazil. Negative spatial‐latent effects, where coral bleaching was lower than expected, were apparent in Taiwan and the southern Ryukyu Islands, mainland Japan, the Pompey region in the Great Barrier Reef, off the coast of northwest Australia, the Coral Triangle, Vietnam, Myanmar, New Caledonia, Palau, Kosrae, Haiti, Bermuda, in the Seychelles, and in the northern Red Sea. Explicitly modeling geographical space using  also revealed that site‐scale coral bleaching on the world&#x27;s shallow reefs was spatially autocorrelated up to ~100 km, which is very similar to correlation distances of ~100, ~140, and ~100 km for site‐scale coral bleaching on the Great Barrier Reef during marine heatwaves in 1998, 2002, and 2016, respectively (Dietzel et al. ).</p><p>The strong negative spatial‐latent effects in Taiwan and the southern Ryukyu Islands in Japan (Figure S132011200720112014S142018S1220242024) may be related to hyper‐exposure to typhoons compared with other reefs in the world (Carrigan and Puotinen ). The reefs of the southern Ryukyu Islands have adjusted to high‐typhoon activity, showing minor colony breakage and no change to reef framework with typhoon overpass (R.v.W., personal observation). These structurally stable reefs may instead benefit from typhoons during marine heatwaves, as typhoons cool shallow water through upwelling (Manzello et al. ; Carrigan and Puotinen , ). The northern Red Sea also had negative spatial‐latent effects, but the southern Red Sea had positive spatial‐latent effects (Figure ). While we are hesitant to attribute this spatial pattern of latent coral bleaching in the Red Sea to differential resistance, our spatial‐latent results are consistent with Osman et al. (), who found that corals in the northern Red Sea are far more tolerant of heat stress than those in the southern Red Sea. We also found a strong negative spatial‐latent effect in the Pompey region of the Great Barrier Reef (Figure ), which corresponds to a purported marine‐heatwave refugia (Sun, Steinberg, et al. ). Although current velocity was an observed variable in our study, the entire reef complex of the Pompey region is ~200 km long by ~90 km wide and persistently experiences upwelling of cool water that is flushed through the reefs by strong tidally driven currents (Sun, Steinberg, et al. ), which was unobserved by the much finer 9‐km resolution current velocity data in our study.</p><p>There may also be biological reasons as to why there were numerous reefs with negative spatial‐latent effects in the equatorial Coral Triangle (Figure 52011201920152019195418781966200820092009201720192005). Indeed, many low‐latitude marine, freshwater, and terrestrial species have higher thermal tolerance compared with higher‐latitude species (Sunday et al. , ; Dixon et al. ; Pinsky et al. ). The persistence of corals on equatorial reefs through historical and modern thermal‐stress events is likely in part because the most stable regional environments are near the Equator (Trewartha ). Stable equatorial environments have low selective pressure, leading to high species richness (Wallace ; Pianka ). Likewise, low‐latitude coral reefs have higher within‐population genetic diversity than reefs at higher latitudes (Miller and Ayre ; Underwood ; Noreen et al. ; Thomas et al. ). High among‐ and within‐species diversity at and near the Equator enhances the probability that some equatorial corals will have allelic variants that bestow thermal resistance. Indeed, marine ectotherms live closest to their thermal maximum near the Equator, where thermal tolerance is highest (Pinsky et al. ). Furthermore, low‐latitude ecosystems were refugia during past climate change (Hampe and Petit ).</p><p>Here, we formalize the coral‐bleaching equatorial‐refugia hypothesis and challenge the hypothesis that equatorial reefs will be the first casualties of marine heatwaves. Indeed, we found that the average intensity of marine heatwaves is lowest on most equatorial reefs, potentially because they are persistently shielded from extreme insolation by frequent cloud coverage in the Intertropical Convergence Zone. Therefore, except for the eastern Pacific Ocean, if marine heatwaves continue to be weakest on equatorial reefs, intense heatwaves at high latitudes may constrict corals toward the equatorial Coral Triangle. However, if the corals&#x27; thermal maxima are first exceeded near the Equator through long‐term warming of ambient sea‐surface temperatures (Pinsky et al. 2019200420082011201620181982199920152018), corals may migrate toward the poles in some regions (Precht and Aronson ; Greenstein and Pandolfi ; Yamano et al. ; Poloczanska et al. ; Kumagai et al. ), up to a light‐limiting latitude (Grigg ; Kleypas et al. ; Muir et al. ). Such poleward range shifts would counter any constrictions of corals toward the equatorial Coral Triangle following intense marine heatwaves. Moreover, the probability of occurrence of marine heatwaves is forecasted by some researchers to increase most rapidly near the Equator (Frölicher et al. ). If such a scenario manifests and equatorial marine heatwaves become intense, some heatwave refugia in the Coral Triangle could collapse. Yet, corals may persist during marine heatwaves in other heatwave refugia that experience high wave energy, high current velocity, high cloud frequency, or turbidity. Corals may also persist during marine heatwaves on reefs that previously endured many heatwaves. We may find that a dynamic, global network of refugia, especially those concentrated in the equatorial Coral Triangle, will help sustain coral metapopulations well beyond their thermodynamically forecasted demise from marine heatwaves by the end of the current century.</p></sec><sec><h2>Author Contributions</h2><p>
+<strong>Zachary Ferris:</strong><strong>Andrew S. Walker:</strong><strong>Håvard Rue:</strong><strong>Robert van Woesik:</strong> conceptualization, data curation, formal analysis, funding acquisition, investigation, methodology, software, visualization, writing – original draft, writing – review and editing.  conceptualization, software, writing – original draft, writing – review and editing.  methodology, software, writing – review and editing.  conceptualization, funding acquisition, project administration, resources, software, supervision, writing – original draft, writing – review and editing.</p></sec><sec><h2>Conflicts of Interest</h2><p>The authors declare no conflicts of interest.</p></sec><sec><h2>Supporting information</h2><caption><p>
+<strong>Data S1:</strong> gcb70594‐sup‐0001‐DataS1.pdf.</p></caption>81e4/12621085/a8e765d1a331/GCB-31-e70594-s002.pdfapp4028590<caption><p>
+<strong>Video S1:</strong> gcb70594‐sup‐0002‐VideoS1.mp4.</p></caption>81e4/12621085/6b7fed2f8179/GCB-31-e70594-s001.mp4app43515016</sec><sec><h2>Acknowledgments</h2><p>We thank Sandra van Woesik and Chelsey Kratochwill for providing helpful editorial comments on the manuscript draft, Pallav Ray for an insightful discussion on cloud dynamics, and three anonymous reviewers for helpful comments and suggestions that improved the manuscript. We also thank Keith Van Graafeiland for deriving the tidal range data from the Finite Element Solution 2022 Tide product, which was (i) funded by the Centre National d&#x27;Etudes Spatiales, (ii) produced by the Laboratoire d&#x27;Etudes en Géophysique et Océanographie Spatiales, NOVELTIS, and Collecte Localisation Satellites, and (iii) made freely available by Archivage, Validation et Interprétation des données des Satellites Océanographiques. The National Science Foundation (NSF) Graduate Research Fellowship Program provided funding to R.v.W. and Z.F. under award NSF DGE‐2240237. NSF also provided funding to R.v.W. under award NSF OCE‐2048319. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation. This is contribution number 260 from the Institute for Global Ecology at the Florida Institute of Technology.</p></sec><sec><p>
+
+
+Ferris, Z.
+, Walker A. S., Rue H., and van Woesik R.. 2025. “Coral Bleaching: The Equatorial‐Refugia Hypothesis.” Global Change Biology
+31, no. 11: e70594. 10.1111/gcb.70594.
+</p><sec><p>
+<strong>Funding:</strong> The National Science Foundation (NSF) Graduate Research Fellowship Program provided funding to R.v.W. and Z.F. under award NSF DGE‐2240237. NSF also provided funding to R.v.W. under award NSF OCE‐2048319.</p></sec></sec><sec><h2>Data Availability Statement</h2><p>All code and derived data are available at https://doi.org/10.6084/m9.figshare.30422674https://github.com/InstituteForGlobalEcology/Ferris‐et‐al‐2025‐GCB and at .</p></sec><sec><h2>References</h2><sec>
+
+Aiken, L. S.
+, West S. G., and Reno R. R.. 1991. “The Effects of Predictor Scaling on Coefficients.” In Multiple Regression: Testing and Interpreting Interactions, 28–48. Sage Publications.
+
+Ainsworth, T. D.
+, Heron S. F., Ortiz J. C., et al. 2016. “Climate Change Disables Coral Bleaching Protection on the Great Barrier Reef.” Science
+352, no. 6283: 338–342. 10.1126/science.aac7125.
+
+
+Amaya, D. J.
+, Miller A. J., Xie S.‐P., and Kosaka Y.. 2020. “Physical Drivers of the Summer 2019 North Pacific Marine Heatwave.” Nature Communications
+11: 1903. 10.1038/s41467-020-15820-w.
+
+Anthony, K. R.
+, and Hoegh‐Guldberg O.. 2003. “Kinetics of Photoacclimation in Corals.” Oecologia
+134: 23–31. 10.1007/s00442-002-1095-1.
+
+
+Anthony, K. R. N.
+, Connolly S. R., and Hoegh‐Guldberg O.. 2007. “Bleaching, Energetics, and Coral Mortality Risk: Effects of Temperature, Light, and Sediment Regime.” Limnology and Oceanography
+52, no. 2: 716–726. 10.4319/lo.2007.52.2.0716.
+
+Austin, R. W.
+, and Petzold T. J.. 1981. “The Determination of the Diffuse Attenuation Coefficient of Sea Water Using the Coastal Zone Color Scanner.” In Oceanography From Space: Marine Science, edited by Gower J. F. R., vol. 13. Springer. 10.1007/978-1-4613-3315-9_29.
+
+Aybar, C.
+, Wu Q., Bautista L., Yali R., and Barja A.. 2020. “rgee: An R Package for Interacting With Google Earth Engine.” Journal of Open Source Software
+5, no. 51: 2272. 10.21105/joss.02272.
+
+Bakka, H.
+, Rue H., Fuglstad G. A., et al. 2018. “Spatial Modeling With R‐INLA: A Review.” Computational Statistics
+10, no. 6: e1443. 10.1002/wics.1443.
+
+Ban, S. S.
+, Graham N. A. J., and Connolly S. R.. 2014. “Evidence for Multiple Stressor Interactions and Effects on Coral Reefs.” Global Change Biology
+20, no. 3: 681–697. 10.1111/gcb.12453.
+
+
+Bayes, T.
+
+1763. “An Essay Towards Solving a Problem in the Doctrine of Chances.” Philosophical Transactions of the Royal Society of London
+53: 370–418. 10.1098/rstl.1763.0053.
+
+Berkelmans, R.
+
+2002. “Time‐Integrated Thermal Bleaching Thresholds of Reefs and Their Variation on the Great Barrier Reef.” Marine Ecology Progress Series
+229: 73–82. 10.3354/meps229073.
+
+Berkelmans, R.
+, and Willis B. L.. 1999. “Seasonal and Local Spatial Patterns in the Upper Thermal Limits of Corals on the Inshore Central Great Barrier Reef.” Coral Reefs
+18, no. 3: 219–228. 10.1007/s003380050186.
+
+Berkelmans, R.
+, De&#x27;ath G., Kininmonth S., and Skirving W. J.. 2004. “A Comparison of the 1998 and 2002 Coral Bleaching Events on the Great Barrier Reef: Spatial Correlation, Patterns, and Predictions.” Coral Reefs
+23: 74–83. 10.1007/s00338-003-0353-y.
+
+Bozec, Y.‐M.
+, Adam A. A. S., Arellano‐Nava B., et al. 2025. “A Rapidly Closing Window for Coral Persistence Under Global Warming.” Nature Communications
+16, no. 1. 10.1038/s41467-025-65015-4.
+
+Brakel, W. H.
+
+1979. “Small‐Scale Spatial Variation in Light Available to Coral Reef Benthos: Quantum Irradiance Measurements From a Jamaican Reef.” Bulletin of Marine Science
+29, no. 3: 406–413.
+
+Brown, B.
+, Dunne R., Goodson M., and Douglas A.. 2002. “Experience Shapes the Susceptibility of a Reef Coral to Bleaching.” Coral Reefs
+21: 119–126. 10.1007/s00338-002-0215-z.
+
+Brown, B. E.
+
+1997. “Coral Bleaching: Causes and Consequences.” Coral Reefs
+16: S129–S138. 10.1007/s003380050249.
+
+Brown, B. E.
+, Dunne R. P., Scoffin T. P., and Le Tissier M. D. A.. 1994. “Solar Damage in Intertidal Corals.” Marine Ecology Progress Series
+105: 219–230. 10.3354/meps105219.
+
+Brown, B. E.
+, Dunne R. P., Warner M. E., et al. 2000. “Damage and Recovery of Photosystem II During a Manipulative Field Experiment on Solar Bleaching in the Coral 
+<em>Goniastrea aspera</em>
+
+.” Marine Ecology Progress Series
+195: 117–124. 10.3354/meps195117.
+
+Brown, B. E.
+, Fitt W. K., Dunne R. P., et al. 1999. “Diurnal Changes in Photochemical Efficiency and Xanthophyll Concentrations in Shallow Water Reef Corals: Evidence for Photoinhibition and Photoprotection.” Coral Reefs
+18: 99–105. 10.1007/s003380050163.
+
+Cacciapaglia, C.
+, and van Woesik R.. 2015. “Reef‐Coral Refugia in a Rapidly Changing Ocean.” Global Change Biology
+21, no. 6: 2272–2282. 10.1111/gcb.12851.
+
+
+Cacciapaglia, C.
+, and van Woesik R.. 2016. “Climate‐Change Refugia: Shading Reef Corals by Turbidity.” Global Change Biology
+22, no. 3: 1145–1154. 10.1111/gcb.13166.
+
+
+Carrigan, A. D.
+, and Puotinen M. L.. 2011. “Assessing the Potential for Tropical Cyclone Induced Sea Surface Cooling to Reduce Thermal Stress on the World&#x27;s Coral Reefs.” Geophysical Research Letters
+38, no. 23: L23604. 10.1029/2011GL049722.
+
+Carrigan, A. D.
+, and Puotinen M. L.. 2014. “Tropical Cyclone Cooling Combats Region‐Wide Coral Bleaching.” Global Change Biology
+20, no. 5: 1604–1613. 10.1111/gcb.12541.
+
+Centre National d&#x27;Etudes Spatiales
+. 2024. “FES2022 (Finite Element Solution) Tidal Model (Version 2024).”
+10.24400/527896/A01-2024.004.
+
+Cheung, M. W. M.
+, Chaloupka M., Hock K., and Mumby P. J.. 2025. “Moving Beyond Temperature Metrics in Coral Bleaching Prediction Using Interpretable Machine Learning.” Global Ecology and Biogeography
+34, no. 8: e70105. 10.1111/geb.70105.
+
+Cinner, J. E.
+, Huchery C., MacNeil M. A., et al. 2016. “Bright Spots Among the World&#x27;s Coral Reefs.” Nature
+535: 416–419. 10.1038/nature18607.
+
+
+Clark, J. S.
+, Carpenter S. R., Barber M., et al. 2001. “Ecological Forecasts: An Emerging Imperative.” Science
+293, no. 5530: 657–660. 10.1126/science.293.5530.657.
+
+
+Coles, S. L.
+, and Jokiel P. L.. 1978. “Synergistic Effects of Temperature, Salinity and Light on the Hermatypic Coral 
+<em>Montipora verrucosa</em>
+
+.” Marine Biology
+49: 187–195. 10.1007/BF00391130.
+
+Côté, I. M.
+, and Darling E. S.. 2010. “Rethinking Ecosystem Resilience in the Face of Climate Change.” PLoS Biology
+8, no. 7: e1000438. 10.1371/journal.pbio.1000438.
+
+
+Côté, I. M.
+, Darling E. S., and Brown C. J.. 2016. “Interactions Among Ecosystem Stressors and Their Importance in Conservation.” Proceedings of the Royal Society B
+283, no. 1824: 20152592. 10.1098/rspb.2015.2592.
+
+
+Darwin, C.
+
+1842. “The Structure and Distribution of Coral Reefs.”
+https://archive.org/details/structuredistrib00unse/page/n8/mode/1up.
+
+Darwin, C.
+
+1859. “Natural Selection.” In On the Origin of Species by Means of Natural Selection. Edmonds &amp; Remnants. https://archive.org/details/darwin‐online_1859_Origin_F373/page/n94/mode/1up.
+
+Dasgupta, S.
+, Singh R. P., and Kafatos M.. 2009. “Comparison of Global Chlorophyll Concentrations Using MODIS Data.” Advances in Space Research
+43, no. 7: 1090–1100. 10.1016/j.asr.2008.11.009.
+
+Dean, R. G.
+, and Dalrymple R. A.. 1991. “Water Wave Mechanics for Engineers and Scientists.” In Advanced Series on Ocean Engineering, vol. 2. World Scientific.
+
+DeCarlo, T. M.
+
+2020. “Treating Coral Bleaching as Weather: A Framework to Validate and Optimize Prediction Skill.” PeerJ
+8: e9449. 10.7717/peerj.9449.
+
+
+Delaunay, B.
+
+1934. “Sur la sphère vide.” Classe des Sciences Mathematiques et Naturelles
+6: 783–800.
+
+Devlin, A. T.
+, Jay D. A., Talke S. A., Zaron E. D., Pan J., and Lin H.. 2017. “Coupling of Sea Level and Tidal Range Changes, With Implications for Future Water Levels.” Scientific Reports
+7: 17021. 10.1038/s41598-017-17056-z.
+
+
+Dietze, M.
+, White E. P., Abeyta A., et al. 2024. “Near‐Term Ecological Forecasting for Climate Change Action.” Nature Climate Change
+14: 1236–1244. 10.1038/s41558-024-02182-0.
+
+Dietze, M. C.
+, Fox A., Beck‐Johnson L. M., et al. 2018. “Iterative Near‐Term Ecological Forecasting: Needs, Opportunities, and Challenges.” Proceedings of the National Academy of Sciences of the United States of America
+115, no. 7: 1424–1432. 10.1073/pnas.1710231115.
+
+
+Dietzel, A.
+, Connolly S. R., Hughes T. P., and Bode M.. 2021. “The Spatial Footprint and Patchiness of Large‐Scale Disturbances on Coral Reefs.” Global Change Biology
+27, no. 19: 4825–4838. 10.1111/gcb.15805.
+
+
+DiMassa, D. D.
+, Heron M. L., Mantovanelli A., Heron S. F., and Steinberg C.. 2010. “Can Vertical Mixing From Turbulent Kinetic Energy Mitigate Coral Bleaching? An Application of High Frequency Ocean Radar.”
+<em>OCEANS&#x27;10 IEEE Sydney</em>, 1–5. 10.1109/OCEANSSYD.2010.5603881.
+
+Dixon, A. M.
+, Forster P. M., Heron S. F., Stoner A. M. K., and Beger M.. 2022. “Future Loss of Local‐Scale Thermal Refugia in Coral Reef Ecosystems.” PLoS Climate
+1, no. 2: e0000004. 10.1371/journal.pclm.0000004.
+
+Dixon, G. B.
+, Davies S. W., Aglyamova G. V., Meyer E., Bay L. K., and Matz M. V.. 2015. “Genomic Determinants of Coral Heat Tolerance Across Latitudes.” Science
+348, no. 6242: 1460–1462. 10.1126/science.1261224.
+
+
+Dodd, M. S.
+, Papineau D., Grenne T., et al. 2017. “Evidence for Early Life in Earth&#x27;s Oldest Hydrothermal Vent Precipitates.” Nature
+543: 60–64. 10.1038/nature21377.
+
+
+Done, T. J.
+
+1992. “Phase Shifts in Coral Reef Communities and Their Ecological Significance.” Hydrobiologia
+247: 121–132. 10.1007/BF00008211.
+
+Dong, T.
+, Zeng Z., Pan M., et al. 2025. “Record‐Breaking 2023 Marine Heatwaves.” Science
+389, no. 6758: 369–374. 10.1126/science.adr0910.
+
+
+Donner, S. D.
+
+2009. “Coping With Commitment: Projected Thermal Stress on Coral Reefs Under Different Future Scenarios.” PLoS One
+4, no. 6: e5712. 10.1371/journal.pone.0005712.
+
+
+Donner, S. D.
+, Skirving W. J., Little C. M., Oppenheimer M., and Hoegh‐Guldberg O.. 2005. “Global Assessment of Coral Bleaching and Required Rates of Adaptation Under Climate Change.” Global Change Biology
+11, no. 12: 2251–2265. 10.1111/j.1365-2486.2005.01073.x.
+
+
+Doodson, A. T.
+
+1921. “The Harmonic Development of the Tide‐Generating Potential.” Proceedings of the Royal Society A
+100: 305–329. 10.1098/rspa.1921.0088.
+
+Dormann, C. F.
+
+2007. “Effects of Incorporating Spatial Autocorrelation Into the Analysis of Species Distribution Data.” Global Ecology and Biogeography
+16, no. 2: 129–138. 10.1111/j.1466-8238.2006.00279.x.
+
+Drollet, J. H.
+, Faucon M., Maritorena S., and Martin P. M. V.. 1994. “A Survey of Environmental Physico‐Chemical Parameters During a Minor Coral Mass Bleaching Event in Tahiti in 1993.” Australian Journal of Marine and Freshwater Research
+45, no. 7: 1149–1156.
+
+Dunne, R. P.
+
+2010. “Synergy or Antagonism—Interactions Between Stressors on Coral Reefs.” Coral Reefs
+29: 145–152. 10.1007/s00338-009-0569-6.
+
+Dziewonski, A. M.
+, and Anderson D. L.. 1981. “Preliminary Reference Earth Model.” Physics of the Earth and Planetary Interiors
+25, no. 4: 297–356. 10.1016/0031-9201(81)90046-7.
+
+Fahrmeir, L.
+, and Tutz G.. 2001. Multivariate Statistical Modeling Based on Generalized Linear Models. Springer Verlag. 10.1007/978-1-4757-3454-6.
+
+Feldman, G.
+, Kuring N., Ng C., et al. 1989. “Ocean Color: Availability of the Global Data Set.” Eos, Transactions American Geophysical Union
+70, no. 23: 634–641. 10.1029/89EO00184.
+
+Franklin, D. J.
+, Hoegh‐Guldberg O., Jones R. J., and Berges J. A.. 2004. “Cell Death and Degeneration in the Symbiotic Dinoflagellates of the Coral 
+<em>Stylophora pistillata</em>
+ During Bleaching.” Marine Ecology Progress Series
+272: 117–130. 10.3354/meps272117.
+
+Frieler, K.
+, Meinshausen M., Golly A., et al. 2013. “Limiting Global Warming to 2°C Is Unlikely to Save Most Coral Reefs.” Nature Climate Change
+3: 165–170. 10.1038/nclimate1674.
+
+Frölicher, T. L.
+, Fischer E. M., and Gruber N.. 2018. “Marine Heatwaves Under Global Warming.” Nature
+560: 360–364. 10.1038/s41586-018-0383-9.
+
+
+Frouin, R.
+, McPherson J., Ueyoshi K., and Franz B. A.. 2012. “A Time Series of Photosynthetically Available Radiation at the Ocean Surface From SeaWiFS and MODIS Data.” Remote Sensing of the Marine Environment II
+8525: 981264. 10.1117/12.981264.
+
+Frouin, R.
+, and Pinker R. T.. 1995. “Estimating Photosynthetically Active Radiation (PAR) at the Earth&#x27;s Surface From Satellite Observations.” Remote Sensing of Environment
+51, no. 1: 98–107. 10.1016/0034-4257(94)00068-X.
+
+Gao, G.
+, Marin M., Feng M., et al. 2020. “Drivers of Marine Heatwaves in the East China Sea and the South Yellow Sea in Three Consecutive Summers During 2016–2018.” Journal of Geophysical Research: Oceans
+125, no. 8: e2020JC016518. 10.1029/2020JC016518.
+
+García, F. C.
+, Osman E. O., Garcias‐Bonet N., et al. 2024. “Seasonal Changes in Coral Thermal Threshold Suggest Species‐Specific Strategies for Coping With Temperature Variations.” Communications Biology
+7, no. 1. 10.1038/s42003-024-07340-w.
+
+Gates, R. D.
+, and Edmunds P. J.. 1999. “The Physiological Mechanisms of Acclimatization in Tropical Reef Corals.” American Zoologist
+39, no. 1: 30–43. 10.1093/icb/39.1.30.
+
+Glynn, P. W.
+
+1993. “Coral Reef Bleaching: Ecological Perspectives.” Coral Reefs
+12: 1–17. 10.1007/BF00303779.
+
+Glynn, P. W.
+
+1996. “Coral Reef Bleaching: Facts, Hypotheses and Implications.” Global Change Biology
+2, no. 6: 495–509. 10.1111/j.1365-2486.1996.tb00063.x.
+
+González‐Barrios, F. J.
+, Estrada‐Saldívar N., Pérez‐Cervantes E., Secaira‐Fajardo F., and Álvarez‐Filip L.. 2023. “Legacy Effects of Anthropogenic Disturbances Modulate Dynamics in the World&#x27;s Coral Reefs.” Global Change Biology
+29, no. 12: 3285–3303. 10.1111/gcb.16686.
+
+
+Gorbunov, M. Y.
+, Kolber Z. S., Lesser M. P., and Falkowski P. G.. 2001. “Photosynthesis and Photoprotection in Symbiotic Corals.” Limnology and Oceanography
+46, no. 1: 75–85. 10.4319/lo.2001.46.1.0075.
+
+Goreau, T. F.
+, and Goreau N. I.. 1973. “Coral Reef Project—Papers in Memory of Dr. Thomas F. Goreau. 17. The Ecology of Jamaican Coral Reefs. II. Geomorphology, Zonation, and Sedimentary Phases.” Bulletin of Marine Science
+23, no. 2: 399–464.
+
+Green, R. H.
+, Lowe R. J., Buckley M. L., Foster T., and Gilmour J. P.. 2019. “Physical Mechanisms Influencing Localized Patterns of Temperature Variability and Coral Bleaching Within a System of Reef Atolls.” Coral Reefs
+38: 759–771. 10.1007/s00338-019-01771-2.
+
+Greenstein, B. J.
+, and Pandolfi J. M.. 2008. “Escaping the Heat: Range Shifts of Reef Coral Taxa in Coastal Western Australia.” Global Change Biology
+14, no. 3: 513–528. 10.1111/j.1365-2486.2007.01506.x.
+
+Grigg, R. W.
+
+1982. “Darwin Point: A Threshold for Atoll Formation.” Coral Reefs
+1: 29–34. 10.1007/BF00286537.
+
+Guest, J. R.
+, Baird A. H., Maynard J. A., et al. 2012. “Contrasting Patterns of Coral Bleaching Susceptibility in 2010 Suggest an Adaptive Response to Thermal Stress.” PLoS One
+7, no. 3: e33353. 10.1371/journal.pone.0033353.
+
+
+Hampe, A.
+, and Petit R. J.. 2005. “Conserving Biodiversity Under Climate Change: The Rear Edge Matters.” Ecology Letters
+8, no. 5: 461–467. 10.1111/j.1461-0248.2005.00739.x.
+
+
+Hannah, L.
+, Flint L., Syphard A. D., Moritz M. A., Buckley L. B., and McCullough I. M.. 2014. “Fine‐Grain Modeling of Species&#x27; Response to Climate Change: Holdouts, Stepping‐Stones, and Microrefugia.” Trends in Ecology &amp; Evolution
+29, no. 7: 390–397. 10.1016/j.tree.2014.04.006.
+
+
+Henley, B. J.
+, McGregor H. V., King A. D., et al. 2024. “Highest Ocean Heat in Four Centuries Places Great Barrier Reef in Danger.” Nature
+632: 320–326. 10.1038/s41586-024-07672-x.
+
+
+Hennige, S. J.
+, Smith D. J., Perkins R., Consalvey M., Paterson D. M., and Suggett D. J.. 2008. “Photoacclimation, Growth and Distribution of Massive Coral Species in Clear and Turbid Waters.” Marine Ecology Progress Series
+369: 77–88. 10.3354/meps07612.
+
+Hijmans, R.
+
+2025. “terra: Spatial Data Analysis.” R Package Version 1.8.10. 10.32614/CRAN.package.terra.
+
+Hobday, A. J.
+, Alexander L. V., Perkins S. E., et al. 2016. “A Hierarchical Approach to Defining Marine Heatwaves.” Progress in Oceanography
+141: 227–238. 10.1016/j.pocean.2015.12.014.
+
+Hoegh‐Guldberg, O.
+
+1999. “Climate Change, Coral Bleaching and the Future of the World&#x27;s Coral Reefs.” Marine and Freshwater Research
+50, no. 8: 839–866. 10.1071/MF99078.
+
+Hoegh‐Guldberg, O.
+, Mumby P. J., Hooten A. J., et al. 2007. “Coral Reefs Under Rapid Climate Change and Ocean Acidification.” Science
+318, no. 5857: 1737–1742. 10.1126/science.1152509.
+
+
+Holbrook, N. J.
+, Scannell H. A., Sen Gupta A., et al. 2019. “A Global Assessment of Marine Heatwaves and Their Drivers.” Nature Communications
+10: 2624. 10.1038/s41467-019-10206-z.
+
+Howells, E. J.
+, Abrego D., Schmidt‐Roach S., et al. 2025. “Marine Heatwaves Select for Thermal Tolerance in a Reef‐Building Coral.” Nature Climate Change
+15: 829–832. 10.1038/s41558-025-02381-3.
+
+Hsu, P.‐C.
+, Lee H. J., Zheng Q., Lai J. W., Su F. C., and Ho C. R.. 2020. “Tide‐Induced Periodic Sea Surface Temperature Drops in the Coral Reef Area of Nanwan Bay, Southern Taiwan.” Journal of Geophysical Research: Oceans
+125, no. 4: e2019JC015226. 10.1029/2019JC015226.
+
+Hughes, T. P.
+, Kerry J. T., Álvarez‐Noriega M., et al. 2017. “Global Warming and Recurrent Mass Bleaching of Corals.” Nature
+543: 373–377. 10.1038/nature21707.
+
+
+Hurlbert, S. H.
+
+1984. “Pseudoreplication and the Design of Ecological Field Experiments.” Ecological Monographs
+54, no. 2: 187–211. 10.2307/1942661.
+
+Huygens, C.
+
+1673. Horologium Oscillatorium. F. Muguet. https://archive.org/details/bub_gb_e_VXcl87u6AC/page/n3/mode/2up.
+
+Iglesias‐Prieto, R.
+, Matta J. L., Robins W. A., and Trench R. K.. 1992. “Photosynthetic Response to Elevated Temperature in the Symbiotic Dinoflagellate 
+<em>Symbiodinium microadriaticum</em>
+ in Culture.” Proceedings of the National Academy of Sciences of the United States of America
+89, no. 21: 10302–10305. 10.1073/pnas.89.21.10302.
+
+
+Iglesias‐Prieto, R.
+, and Trench R. K.. 1994. “Acclimation and Adaptation to Irradiance in Symbiotic Dinoflagellates. I. Responses of the Photosynthetic Unit to Changes in Photon Flux Density.” Marine Ecology Progress Series
+113: 163–175. 10.3354/meps113163.
+
+Ilich, A. R.
+, Misiuk B., Lecours V., and Murawski S. A.. 2023. “MultiscaleDTM: An Open‐Source R Package for Multiscale Geomorphometric Analysis.” Transactions in GIS
+27, no. 4: 1164–1204. 10.1111/tgis.13067.
+
+Jacox, M. G.
+, Alexander M. A., Amaya D., et al. 2022. “Global Seasonal Forecasts of Marine Heatwaves.” Nature
+604: 486–490. 10.1038/s41586-022-04573-9.
+
+
+Jacox, M. G.
+, Alexander M. A., Bograd S. J., and Scott J. D.. 2020. “Thermal Displacement by Marine Heatwaves.” Nature
+584: 82–86. 10.1038/s41586-020-2534-z.
+
+
+Jean‐Michel, L.
+, Eric G., Romain B. B., et al. 2021. “The Copernicus Global 1/12° Oceanic and Sea Ice GLORYS12 Reanalysis.” Frontiers in Earth Science
+9: 698876. 10.3389/feart.2021.698876.
+
+Kenkel, C. D.
+, and Matz M. V.. 2017. “Gene Expression Plasticity as a Mechanism of Coral Adaptation to a Variable Environment.” Nature Ecology &amp; Evolution
+1: 14. 10.1038/s41559-016-0014.
+
+Kennedy, E. V.
+, Roelfsema C. M., Lyons M. B., et al. 2021. “Reef Cover, a Coral Reef Classification for Global Habitat Mapping From Remote Sensing.” Scientific Data
+8: 196. 10.1038/s41597-021-00958-z.
+
+
+Keppel, G.
+, van Niel K. P., Wardell‐Johnson G. W., et al. 2012. “Refugia: Identifying and Understanding Safe Havens for Biodiversity Under Climate Change.” Global Ecology and Biogeography
+21, no. 4: 393–404. 10.1111/j.1466-8238.2011.00686.x.
+
+Klein, S. G.
+, Roch C., and Duarte C. M.. 2024. “Systematic Review of the Uncertainty of Coral Reef Futures Under Climate Change.” Nature Communications
+15: 2224. 10.1038/s41467-024-46255-2.
+
+Kleypas, J. A.
+
+1996. “Coral Reef Development Under Naturally Turbid Conditions: Fringing Reefs Near Broad Sound, Australia.” Coral Reefs
+15: 153–167. 10.1007/BF01145886.
+
+Kleypas, J. A.
+, McManus J. W., and Meñez L. A. B.. 1999. “Environmental Limits to Coral Reef Development: Where Do We Draw the Line?” American Zoologist
+39, no. 1: 146–159. 10.1093/icb/39.1.146.
+
+Kubinec, R.
+
+2023. “Ordered Beta Regression: A Parsimonious, Well‐Fitting Model for Continuous Data With Lower and Upper Bounds.” Political Analysis
+31, no. 4: 519–536. 10.1017/pan.2022.20.
+
+Kumagai, N. H.
+, García Molinos J., Yamano H., Takao S., Fujii M., and Yamanaka Y.. 2018. “Ocean Currents and Herbivory Drive Macroalgae‐To‐Coral Community Shift Under Climate Warming.” Proceedings of the National Academy of Sciences of the United States of America
+115, no. 36: 8990–8995. 10.1073/pnas.1716826115.
+
+
+Lachs, L.
+, Bozec Y. M., Bythell J. C., et al. 2024. “Natural Selection Could Determine Whether <em>Acropora</em> Corals Persist Under Expected Climate Change.” Science
+386, no. 6727: 1289–1294. 10.1126/science.adl6480.
+
+
+Lachs, L.
+, Donner S. D., Mumby P. J., et al. 2023. “Emergent Increase in Coral Thermal Tolerance Reduces Mass Bleaching Under Climate Change.” Nature Communications
+14: 4939. 10.1038/s41467-023-40601-6.
+
+Lachs, L.
+, Humanes A., Mumby P. J., et al. 2024. “High Coral Heat Tolerance at Local‐Scale Thermal Refugia.” PLoS Climate
+3, no. 7: e0000453. 10.1371/journal.pclm.0000453.
+
+Laird, N. M.
+, and Ware J. H.. 1982. “Random‐Effects Models for Longitudinal Data.” Biometrics
+38, no. 4: 963–974. 10.2307/2529876.
+
+
+Laufkötter, C.
+, Zscheischler J., and Frölicher T. L.. 2020. “High‐Impact Marine Heatwaves Attributable to Human‐Induced Global Warming.” Science
+369, no. 6511: 1621–1625. 10.1126/science.aba0690.
+
+
+Law‐Chune, S.
+, Aouf L., Dalphinet A., Levier B., Drillet Y., and Drevillon M.. 2021. “WAVERYS: A CMEMS Global Wave Reanalysis During the Altimetry Period.” Ocean Dynamics
+71: 357–378. 10.1007/s10236-020-01433-w.
+
+Legendre, P.
+
+1993. “Spatial Autocorrelation: Trouble or New Paradigm?” Ecology
+74, no. 6: 1659–1673. 10.2307/1939924.
+
+Legendre, P.
+, and Fortin M.‐J.. 1989. “Spatial Pattern and Ecological Analysis.” Vegetatio
+80: 107–138. 10.1007/BF00048036.
+
+Lenihan, H. S.
+, Adjeroud M., Kotchen M. J., Hench J. L., and Nakamura T.. 2008. “Reef Structure Regulates Small‐Scale Spatial Variation in Coral Bleaching.” Marine Ecology Progress Series
+370: 127–141. 10.3354/meps07622.
+
+Lennon, J. J.
+
+2000. “Red‐Shifts and Red Herrings in Geographical Ecology.” Ecography
+23, no. 1: 101–113. 10.1111/j.1600-0587.2000.tb00265.x.
+
+Lenoir, J.
+, Hattab T., and Pierre G.. 2017. “Climatic Microrefugia Under Anthropogenic Climate Change: Implications for Species Redistribution.” Ecography
+40, no. 2: 253–266. 10.1111/ecog.02788.
+
+Lesser, M. P.
+, and Farrell J. H.. 2004. “Exposure to Solar Radiation Increases Damage to Both Host Tissues and Algal Symbionts of Corals During Thermal Stress.” Coral Reefs
+23: 367–377. 10.1007/s00338-004-0392-z.
+
+Lesser, M. P.
+, Stochaj W. R., Tapley D. W., and Shick J. M.. 1990. “Bleaching in Coral Reef Anthozoans: Effects of Irradiance, Ultraviolet Radiation, and Temperature on the Activities of Protective Enzymes Against Active Oxygen.” Coral Reefs
+8: 225–232. 10.1007/BF00265015.
+
+Levin, S. A.
+
+1992. “The Problem of Pattern and Scale in Ecology: The Robert H. MacArthur Award Lecture.” Ecology
+73, no. 6: 1943–1967. 10.2307/1941447.
+
+Li, J.
+, Knapp D. E., Lyons M., et al. 2021. “Automated Global Shallow Water Bathymetry Mapping Using Google Earth Engine.” Remote Sensing
+13, no. 8: 1469. 10.3390/rs13081469.
+
+Liesegang, M. B.
+, Edwards C. B., Pedersen N. E., Petrovic V., and Sandin S. A.. 2025. “Shading From Topographical Complexity Mitigates Bleaching Severity of <em>Pocillopora</em> spp. During Thermal Stress.” Marine Ecology Progress Series
+752: 83–94. 10.3354/meps14757.
+
+Lindgren, F.
+, and Rue H.. 2015. “Bayesian Spatial Modeling With R‐INLA.” Journal of Statistical Software
+63, no. 19: 1–25. 10.18637/jss.v063.i19.
+
+Lindgren, F.
+, Rue H., and Lindström J.. 2011. “An Explicit Link Between Gaussian Fields and Gaussian Markov Random Fields: The Stochastic Partial Differential Equation Approach.” Journal of the Royal Statistical Society, Series B: Statistical Methodology
+73, no. 4: 423–498. 10.1111/j.1467-9868.2011.00777.x.
+
+Liu, G.
+, Strong A. E., and Skirving W.. 2003. “Remote Sensing of Sea Surface Temperatures During 2002 Barrier Reef Coral Bleaching.” Eos, Transactions American Geophysical Union
+84, no. 15: 137–141. 10.1029/2003EO150001.
+
+Liu, W. T.
+, Zhang A., and Bishop J. K. B.. 1994. “Evaporation and Solar Irradiance as Regulators of Sea Surface Temperature in Annual and Interannual Changes.” Journal of Geophysical Research: Oceans
+99, no. C6: 12623–12637. 10.1029/94JC00604.
+
+Logan, C. A.
+, Dunne J. P., Eakin C. M., and Donner S. D.. 2014. “Incorporating Adaptive Responses Into Future Projections of Coral Bleaching.” Global Change Biology
+20, no. 1: 125–139. 10.1111/gcb.12390.
+
+
+Logan, C. A.
+, Dunne J. P., Ryan J. S., Baskett M. L., and Donner S. D.. 2021. “Quantifying Global Potential for Coral Evolutionary Response to Climate Change.” Nature Climate Change
+11: 537–542. 10.1038/s41558-021-01037-2.
+
+Longuet‐Higgins, M. S.
+
+1952. “On the Statistical Distribution of the Heights of Sea Waves.” Journal of Marine Research
+11: 245–265.
+
+Loya, Y.
+, Sakai K., Yamazato K., Nakano Y., Sambali H., and van Woesik R.. 2001. “Coral Bleaching: The Winners and the Losers.” Ecology Letters
+4, no. 2: 122–131. 10.1046/j.1461-0248.2001.00203.x.
+
+Lyard, F. H.
+, Allain D. J., Cancet M., Carrère L., and Picot N.. 2021. “FES2014 Global Ocean Tide Atlas: Design and Performance.” Ocean Science
+17: 615–649. 10.5194/os-17-615-2021.
+
+Lyons, M. B.
+, Murray N. J., Kennedy E. V., et al. 2024. “New Global Area Estimates for Coral Reefs From High‐Resolution Mapping.” Cell Reports Sustainability
+1, no. 2: 100015. 10.1016/j.crsus.2024.100015.
+
+Manzello, D. P.
+, Brandt M., Smith T. B., Lirman D., Hendee J. C., and Nemeth R. S.. 2007. “Hurricanes Benefit Bleached Corals.” Proceedings of the National Academy of Sciences of the United States of America
+104, no. 29: 12035–12039. 10.1073/pnas.0701194104.
+
+
+Marcet, A.
+
+1819. “On the Specific Gravity, and Temperature of Sea Waters, in Different Parts of the Ocean, and in Particular Seas; With Some Accounts of Their Saline Contents.” Philosophical Transactions of the Royal Society
+109: 161–208. 10.1098/rstl.1819.0014.
+
+Marcos, M.
+, Amores A., Agulles M., Robson J., and Feng X.. 2025. “Global Warming Drives a Threefold Increase in Persistence and 1°C Rise in Intensity of Marine Heatwaves.” Proceedings of the National Academy of Sciences of the United States of America
+122, no. 16: e2413505122. 10.1073/pnas.2413505122.
+
+
+Mason, R. A. B.
+, Bozec Y.‐M., and Mumby P. J.. 2025. “Coral Bleaching and Mortality Overestimated in Projections Based on Degree Heating Months.” Nature Geoscience
+18: 120–123. 10.1038/s41561-024-01635-7.
+
+McClanahan, T. R.
+
+2024. “Reconsidering and Rescaling Climate Change Predictions for Coral Reefs.” Nature Climate Change
+14: 779–781. 10.1038/s41558-024-02079-y.
+
+McClanahan, T. R.
+, Darling E. S., Maina J. M., et al. 2019. “Temperature Patterns and Mechanisms Influencing Coral Bleaching During the 2016 El Niño.” Nature Climate Change
+9: 845–851. 10.1038/s41558-019-0576-8.
+
+McClanahan, T. R.
+, Maina J. M., Darling E. S., et al. 2020. “Large Geographic Variability in the Resistance of Corals to Thermal Stress.” Global Ecology and Biogeography
+29, no. 12: 2229–2247. 10.1111/geb.13191.
+
+McManus, L. C.
+, Vasconcelos V. V., Levin S. A., et al. 2020. “Extreme Temperature Events Will Drive Coral Decline in the Coral Triangle.” Global Change Biology
+26, no. 4: 2120–2133. 10.1111/gcb.14972.
+
+
+Mellin, C.
+, Brown S., Cantin N., et al. 2024. “Cumulative Risk of Future Bleaching for the World&#x27;s Coral Reefs.” Science Advances
+10, no. 26: eadn9660. 10.1126/sciadv.adn9660.
+
+
+Miller, K. J.
+, and Ayre D. J.. 2008. “Protection of Genetic Diversity and Maintenance of Connectivity Among Reef Corals Within Marine Protected Areas.” Conservation Biology
+22, no. 5: 1245–1254. 10.1111/j.1523-1739.2008.00985.x.
+
+
+Mosblech, N. A. S.
+, Bush M. B., and van Woesik R.. 2011. “On Metapopulations and Microrefugia: Palaeoecological Insights.” Journal of Biogeography
+38, no. 3: 419–429. 10.1111/j.1365-2699.2010.02436.x.
+
+Muir, P. R.
+, Wallace C. C., Done T., and David Aguirre J.. 2015. “Limited Scope for Latitudinal Extension of Reef Corals.” Science
+348, no. 6239: 1135–1138. 10.1126/science.1259911.
+
+
+Mumby, P. J.
+, Chisholm J. R. M., Edwards A. L., Andrefouet S., and Jaubert J.. 2001. “Cloudy Weather May Have Saved Society Island Reef Corals During the 1998 ENSO Event.” Marine Ecology Progress Series
+222: 209–216. 10.3354/meps222209.
+
+Murray, J.
+, and Buchanan J. Y.. 1884. Report on the Scientific Results of the Voyage of H.M.S. Challenger During the Years 1873–76: Physics and Chemistry, Vol. I. Longmans &amp; Co. https://www.biodiversitylibrary.org/item/194234#page/7/mode/1up.
+
+Myers, T. A.
+, Mechoso C. R., Cesana G. V., DeFlorio M. J., and Waliser D. E.. 2018. “Cloud Feedback Key to Marine Heatwave Off Baja California.” Geophysical Research Letters
+45, no. 9: 4345–4352. 10.1029/2018GL078242.
+
+Nakamura, T.
+, and van Woesik R.. 2001. “Water‐Flow Rates and Passive Diffusion Partially Explain Differential Survival of Corals During the 1998 Bleaching Event.” Marine Ecology Progress Series
+212: 301–304. 10.3354/meps212301.
+
+Nakamura, T.
+, van Woesik R., and Yamasaki H.. 2005. “Photoinhibition of Photosynthesis Is Reduced by Water Flow in the Reef‐Building Coral 
+<em>Acropora digitifera</em>
+
+.” Marine Ecology Progress Series
+301: 109–118. 10.3354/meps301109.
+
+Noreen, A. M. E.
+, Harrison P. L., and van Oppen M. J. H.. 2009. “Genetic Diversity and Connectivity in a Brooding Reef Coral at the Limit of Its Distribution.” Proceedings of the Royal Society B
+276, no. 1675: 3927–3935. 10.1098/rspb.2009.1050.
+
+
+Oliver, E. C. J.
+, Benthuysen J. A., Darmaraki S., et al. 2021. “Marine Heatwaves.” Annual Review of Marine Science
+13: 20.1–20.30. 10.1146/annurev-marine-032720-095144.
+
+Oliver, E. C. J.
+, Donat M. G., Burrows M. T., et al. 2018. “Longer and More Frequent Marine Heatwaves Over the Past Century.” Nature Communications
+9: 1324. 10.1038/s41467-018-03732-9.
+
+Osman, E. O.
+, Smith D. J., Ziegler M., et al. 2018. “Thermal Refugia Against Coral Bleaching Throughout the Northern Red Sea.” Global Change Biology
+24, no. 2: e474–e484. 10.1111/gcb.13895.
+
+
+Payne, J. L.
+, and Clapham M. E.. 2012. “End‐Permian Mass Extinction in the Oceans: An Ancient Analog for the Twenty‐First Century?” Annual Review of Earth and Planetary Sciences
+40: 89–111. 10.1146/annurev-earth-042711-105329.
+
+Pearson, K.
+
+1894. “Contributions to the Mathematical Theory of Evolution.” Philosophical Transactions of the Royal Society A
+185: 71–110. 10.1098/rsta.1894.0003.
+
+Pearson, K.
+
+1895. “Note on Regression and Inheritance in the Case of Two Parents.” Proceedings of the Royal Society of London
+58, no. 347–352: 240–242. 10.1098/rspl.1895.0041.
+
+Penn, J. L.
+, Deutsch C., Payne J. L., and Sperling E. A.. 2018. “Temperature‐Dependent Hypoxia Explains Biogeography and Severity of End‐Permian Marine Mass Extinction.” Science
+362, no. 6419: eaat1327. 10.1126/science.aat1327.
+
+
+Peterson, G. D.
+
+2002. “Contagious Disturbance, Ecological Memory, and the Emergence of Landscape Pattern.” Ecosystems
+5: 329–338. 10.1007/s10021-001-0077-1.
+
+Pianka, E. R.
+
+1966. “Latitudinal Gradients in Species Diversity: A Review of Concepts.” American Naturalist
+100, no. 910: 33–46.
+
+Pinsky, M. L.
+, Eikeset A. M., McCauley D. J., Payne J. L., and Sunday J. M.. 2019. “Greater Vulnerability to Warming of Marine Versus Terrestrial Ectotherms.” Nature
+569: 108–111. 10.1038/s41586-019-1132-4.
+
+
+Podestá, G. P.
+, and Glynn P. W.. 2001. “The 1997–98 El Niño Event in Panama and Galápagos: An Update of Thermal Stress Indices Relative to Coral Bleaching.” Bulletin of Marine Science
+69, no. 1: 43–59.
+
+Poloczanska, E. S.
+, Burrows M. T., Brown C. J., et al. 2016. “Responses of Marine Organisms to Climate Change Across Oceans.” Frontiers in Marine Science
+3: 62. 10.3389/fmars.2016.00062.
+
+Potts, D. C.
+, and Jacobs J. R.. 2000. “Evolution of Reef‐Building Scleractinian Corals in Turbid Environments: A Paleo‐Ecological Hypothesis.” In <em>Proceedings 9th International Coral Reef Symposium</em>. Bali, Indonesia.
+
+Precht, W. F.
+, and Aronson R. B.. 2004. “Climate Flickers and Range Shifts of Reef Corals.” Frontiers in Ecology and the Environment
+2, no. 6: 307–314. 10.1890/1540-9295(2004)002[0307:CFARSO]2.0.CO;2.
+
+Rodrigues, R. R.
+, Taschetto A. S., Sen Gupta A., and Foltz G. R.. 2019. “Common Cause for Severe Droughts in South America and Marine Heatwaves in the South Atlantic.” Nature Geoscience
+12: 620–626. 10.1038/s41561-019-0393-8.
+
+Rosedy, A.
+, Ives I., Waheed Z., et al. 2023. “Turbid Reefs Experience Lower Coral Bleaching Effects in NE Borneo (Sabah, Malaysia).” Regional Studies in Marine Science
+68: 103268. 10.1016/j.rsma.2023.103268.
+
+Roth, M. S.
+, Latz M. I., Goericke R., and Deheyn D. D.. 2010. “Green Fluorescent Protein Regulation in the Coral 
+<em>Acropora yongei</em>
+ During Photoacclimation.” Journal of Experimental Biology
+213, no. 21: 3644–3655. 10.1242/jeb.040881.
+
+
+Rue, H.
+, and Held L.. 2005. Gaussian Markov Random Fields: Theory and Applications. 1st ed. Chapman and Hall. 10.1201/9780203492024.
+
+Rue, H.
+, Martino S., and Chopin N.. 2009. “Approximate Bayesian Inference for Latent Gaussian Models by Using Integrated Nested Laplace Approximations.” Journal of the Royal Statistical Society, Series B: Statistical Methodology
+71, no. 2: 319–392. 10.1111/j.1467-9868.2008.00700.x.
+
+Rue, H.
+, and Tjelmeland H.. 2002. “Fitting Gaussian Markov Random Fields to Gaussian Fields.” Scandinavian Journal of Statistics
+29, no. 1: 31–49. 10.1111/1467-9469.00058.
+
+Rull, V.
+
+2009. “Microrefugia.” Journal of Biogeography
+36, no. 3: 481–484. 10.1111/j.1365-2699.2008.02023.x.
+
+Schlegel, R. W.
+, and Smit A. J.. 2018. “heatwaveR: A Central Algorithm for the Detection of Heatwaves and Cold‐Spells.” Journal of Open Source Software
+3, no. 27: 1821. 10.21105/joss.00821.
+
+Schmeisser, L.
+, Bond N. A., Siedlecki S. A., and Ackerman T. P.. 2019. “The Role of Clouds and Surface Heat Fluxes in the Maintenance of the 2013–2016 Northeast Pacific Marine Heatwave.” Journal of Geophysical Research: Atmospheres
+124, no. 20: 10772–10783. 10.1029/2019JD030780.
+
+Schneider, T.
+, Bischoff T., and Haug G. H.. 2014. “Migrations and Dynamics of the Intertropical Convergence Zone.” Nature
+513: 45–53. 10.1038/nature13636.
+
+
+Schwiderski, E. W.
+
+1980. “On Charting Global Ocean Tides.” Reviews of Geophysics
+18, no. 1: 243–268. 10.1029/RG018i001p00243.
+
+Sen Gupta, A.
+, Thomsen M., Benthuysen J. A., et al. 2020. “Drivers and Impacts of the Most Extreme Marine Heatwave Events.” Scientific Reports
+10: 19359. 10.1038/s41598-020-75445-3.
+
+
+Shlesinger, T.
+, and van Woesik R.. 2023. “Oceanic Differences in Coral‐Bleaching Responses to Marine Heatwaves.” Science of the Total Environment
+871: 162113. 10.1016/j.scitotenv.2023.162113.
+
+
+Skirving, W.
+, Marsh B., de la Cour J., et al. 2020. “CoralTemp and the Coral Reef Watch Coral Bleaching Heat Stress Product Suite Version 3.1.” Remote Sensing
+12, no. 23: 3856. 10.3390/rs12233856.
+
+Smithson, M.
+, and Verkuilen J.. 2006. “A Better Lemon Squeezer? Maximum‐Likelihood Regression With Beta‐Distributed Dependent Variables.” Psychological Methods
+11, no. 1: 54–71. 10.1037/1082-989X.11.1.54.
+
+
+Stanley, G. D.
+
+1988. “The History of Early Mesozoic Reef Communities: A Three‐Step Process.” PALAIOS
+3, no. 2: 170–183. 10.2307/3514528.
+
+Stanley, G. D.
+, and Fautin D. G.. 2001. “The Origins of Modern Corals.” Science
+291, no. 5510: 1913–1914. 10.1126/science.1056632.
+
+
+Stewart, J. R.
+, Lister A. M., Barnes I., and Dalén L.. 2010. “Refugia Revisited: Individualistic Responses of Species in Space and Time.” Proceedings of the Royal Society B
+277, no. 1682: 661–671. 10.1098/rspb.2009.1272.
+
+
+Stokes, G. G.
+
+1847. “On the Theory of Oscillatory Waves.” Transactions of the Cambridge Philosophical Society
+8: 441–455. 10.1017/CBO9780511702242.013.
+
+Storlazzi, C. D.
+, Cheriton O. M., van Hooidonk R., Zhao Z., and Brainard R.. 2020. “Internal Tides Can Provide Thermal Refugia That Will Buffer Some Coral Reefs From Future Global Warming.” Scientific Reports
+10: 13435. 10.1038/s41598-020-70372-9.
+
+
+Sully, S.
+, Burkepile D. E., Donovan M. K., Hodgson G., and van Woesik R.. 2019. “A Global Analysis of Coral Bleaching Over the Past Two Decades.” Nature Communications
+10: 1264. 10.1038/s41467-019-09238-2.
+
+Sully, S.
+, Hodgson G., and van Woesik R.. 2022. “Present and Future Bright and Dark Spots for Coral Reefs Through Climate Change.” Global Change Biology
+28, no. 15: 4509–4522. 10.1111/gcb.16083.
+
+
+Sully, S.
+, and van Woesik R.. 2020. “Turbid Reefs Moderate Coral Bleaching Under Climate‐Related Temperature Stress.” Global Change Biology
+26, no. 3: 1367–1373. 10.1111/gcb.14948.
+
+
+Sun, C.
+, Steinberg C., Klein Salas E., et al. 2024. “Climate Refugia in the Great Barrier Reef May Endure Into the Future.” Science Advances
+10, no. 48: eado6884. 10.1126/sciadv.ado6884.
+
+
+Sun, Y.
+, Farnsworth A., Joachimski M. M., et al. 2024. “Mega El Niño Instigated the End‐Permian Mass Extinction.” Science
+385, no. 6714: 1189–1195. 10.1126/science.ado2030.
+
+
+Sunday, J.
+, Bennett J. M., Calosi P., et al. 2019. “Thermal Tolerance Patterns Across Latitude and Elevation.” Philosophical Transactions of the Royal Society B
+374, no. 1778: 20190036. 10.1098/rstb.2019.0036.
+
+Sunday, J. M.
+, Bates A. E., and Dulvy N. K.. 2011. “Global Analysis of Thermal Tolerance and Latitude in Ectotherms.” Proceedings of the Royal Society B
+278, no. 1713: 1823–1830. 10.1098/rspb.2010.1295.
+
+
+Takahashi, S.
+, Nakamura T., Sakamizu M., Woesik R., and Yamasaki H.. 2004. “Repair Machinery of Symbiotic Photosynthesis as the Primary Target of Heat Stress for Reef‐Building Corals.” Plant and Cell Physiology
+45, no. 2: 251–255. 10.1093/pcp/pch028.
+
+
+Teixeira, C. D.
+, Leitão R. L. L., Ribeiro F. V., et al. 2019. “Sustained Mass Coral Bleaching (2016–2017) in Brazilian Turbid‐Zone Reefs: Taxonomic, Cross‐Shelf and Habitat‐Related Trends.” Coral Reefs
+38: 801–813. 10.1007/s00338-019-01789-6.
+
+Teneva, L.
+
+2012. “Predicting Coral Bleaching Hotspots: The Role of Regional Variability in Thermal Stress and Potential Adaptation Rates.” Coral Reefs
+31: 1–12. 10.1007/s00338-011-0812-9.
+
+Thomas, L.
+, Kennington W. J., Evans R. D., Kendrick G. A., and Stat M.. 2017. “Restricted Gene Flow and Local Adaptation Highlight the Vulnerability of High‐Latitude Reefs to Rapid Environmental Change.” Global Change Biology
+23, no. 6: 2197–2205. 10.1111/gcb.13639.
+
+
+Thompson, D. M.
+, and van Woesik R.. 2009. “Corals Escape Bleaching in Regions That Recently and Historically Experienced Frequent Thermal Stress.” Proceedings of the Royal Society B
+276, no. 1669: 2893–2901. 10.1098/rspb.2009.0591.
+
+
+Trewartha, G. T.
+
+1954. An Introduction to Climate. McGraw Hill. https://archive.org/details/in.ernet.dli.2015.261708/page/n1/mode/2up.
+
+Underwood, J. N.
+
+2009. “Genetic Diversity and Divergence Among Coastal and Offshore Reefs in a Hard Coral Depend on Geographic Discontinuity and Oceanic Currents.” Evolutionary Applications
+2, no. 2: 222–233. 10.1111/j.1752-4571.2008.00065.x.
+
+
+van Hooidonk, R.
+, Maynard J., Tamelander J., et al. 2016. “Local‐Scale Projections of Coral Reef Futures and Implications of the Paris Agreement.” Scientific Reports
+6: 39666. 10.1038/srep39666.
+
+
+van Hooidonk, R.
+, Maynard J. A., Manzello D., and Planes S.. 2014. “Opposite Latitudinal Gradients in Projected Ocean Acidification and Bleaching Impacts on Coral Reefs.” Global Change Biology
+20, no. 1: 103–112. 10.1111/gcb.12394.
+
+
+van Hooidonk, R.
+, Maynard J. A., and Planes S.. 2013. “Temporary Refugia for Coral Reefs in a Warming World.” Nature Climate Change
+3: 508–511. 10.1038/nclimate1829.
+
+van Woesik, R.
+
+2025. “Paleo Reefs Provide Clues for Contemporary Climate‐Change Refugia.” Cell Reports Sustainability
+2, no. 2: 100289. 10.1016/j.crsus.2024.100289.
+
+van Woesik, R.
+, Houk P., Isechal A. L., Idechong J. W., Victor S., and Golbuu Y.. 2012. “Climate‐Change Refugia in the Sheltered Bays of Palau: Analogs of Future Reefs.” Ecology and Evolution
+2, no. 10: 2474–2484. 10.1002/ece3.363.
+
+
+van Woesik, R.
+, and Kratochwill C.. 2022. “A Global Coral‐Bleaching Database, 1980–2020.” Scientific Data
+9: 20. 10.1038/s41597-022-01121-y.
+
+
+van Woesik, R.
+, Shlesinger T., Grottoli A. G., et al. 2022. “Coral‐Bleaching Responses to Climate Change Across Biological Scales.” Global Change Biology
+28, no. 14: 4229–4250. 10.1111/gcb.16192.
+
+
+Vogt, L.
+, Burger F. A., Griffies S. M., and Frölicher T. L.. 2022. “Local Drivers of Marine Heatwaves: A Global Analysis With an Earth System Model.” Frontiers in Climate
+4: 847995. 10.3389/fclim.2022.847995.
+
+Waliser, D. E.
+, and Gautier C.. 1993. “A Satellite‐Derived Climatology of the ITCZ.” Journal of Climate
+6, no. 11: 2162–2174. 10.1175/1520-0442(1993)006&lt;2162:ASDCOT&gt;2.0.CO;2.
+
+Wallace, A. R.
+
+1878. Tropical Nature, and Other Essays. Macmillan &amp; Co. https://www.biodiversitylibrary.org/item/16104#page/7/mode/1up.
+
+Werdell, P. J.
+, and Bailey S. W.. 2005. “An Improved In‐Situ Bio‐Optical Data Set for Ocean Color Algorithm Development and Satellite Data Product Validation.” Remote Sensing of Environment
+98, no. 1: 122–140. 10.1016/j.rse.2005.07.001.
+
+Whitaker, H.
+, and DeCarlo T.. 2024. “Re(de)fining Degree‐Heating Week: Coral Bleaching Variability Necessitates Regional and Temporal Optimization of Global Forecast Model Stress Metrics.” Coral Reefs
+43: 969–984. 10.1007/s00338-024-02512-w.
+
+White, W. B.
+, Lean J., Cayan D. R., and Dettinger M. D.. 1997. “Response of Global Upper Ocean Temperature to Changing Solar Irradiance.” Journal of Geophysical Research: Oceans
+102, no. C2: 3255–3266. 10.1029/96JC03549.
+
+Wilson, A. M.
+, and Jetz W.. 2016. “Remotely Sensed High‐Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions.” PLoS Biology
+14, no. 3: e1002415. 10.1371/journal.pbio.1002415.
+
+
+Wolanski, E.
+, Andutta F., Deleersnijder E., Li Y., and Thomas C. J.. 2017. “The Gulf of Carpentaria Heated Torres Strait and the Northern Great Barrier Reef During the 2016 Mass Coral Bleaching Event.” Estuarine, Coastal and Shelf Science
+194: 172–181. 10.1016/j.ecss.2017.06.018.
+
+Wunsch, C.
+, and Ferrari R.. 2004. “Vertical Mixing, Energy, and the General Circulation of the Oceans.” Annual Review of Fluid Mechanics
+36: 281–314. 10.1146/annurev.fluid.36.050802.122121.
+
+Yamano, H.
+, Sugihara K., and Nomura K.. 2011. “Rapid Poleward Range Expansion of Tropical Reef Corals in Response to Rising Sea Surface Temperatures.” Geophysical Research Letters
+38, no. 4: L04601. 10.1029/2010GL046474.
+
+Zhao, W.
+, Huang Y., Siems S., and Manton M.. 2021. “The Role of Clouds in Coral Bleaching Events Over the Great Barrier Reef.” Geophysical Research Letters
+48, no. 14: e2021GL093936. 10.1029/2021GL093936.
+
+Zuur, A. F.
+, Ieno E. N., Walker N., Saveliev A. A., and Smith G. M.. 2009. “Zero‐Truncated and Zero‐Inflated Models for Count Data.” In Mixed Effects Models and Extensions in Ecology With R. Springer. 10.1007/978-0-387-87458-6.</sec></sec><sec><h2>Associated Data</h2><sec><h2>Supplementary Materials</h2><caption><p>
+<strong>Data S1:</strong> gcb70594‐sup‐0001‐DataS1.pdf.</p></caption>81e4/12621085/a8e765d1a331/GCB-31-e70594-s002.pdfapp4028590<caption><p>
+<strong>Video S1:</strong> gcb70594‐sup‐0002‐VideoS1.mp4.</p></caption>81e4/12621085/6b7fed2f8179/GCB-31-e70594-s001.mp4app43515016</sec><sec><h2>Data Availability Statement</h2><p>All code and derived data are available at https://doi.org/10.6084/m9.figshare.30422674https://github.com/InstituteForGlobalEcology/Ferris‐et‐al‐2025‐GCB and at .</p></sec></sec></main>
+</body>
+</html>

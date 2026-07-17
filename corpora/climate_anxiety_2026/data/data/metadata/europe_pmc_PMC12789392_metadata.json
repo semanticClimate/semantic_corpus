@@ -12,5 +12,30 @@
   ],
   "publication_date": "2026-01-09",
   "journal": "",
-  "doi": "10.1177/00469580251411470"
+  "doi": "10.1177/00469580251411470",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1177/00469580251411470"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12789392"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12789392?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
 }

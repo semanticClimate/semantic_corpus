@@ -8,5 +8,37 @@
   ],
   "publication_date": "2026-06-01",
   "journal": "",
-  "doi": "10.1002/wps.70069"
+  "doi": "10.1002/wps.70069",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1002/wps.70069"
+    },
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13176867"
+    },
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13176867?pdf=render"
+    },
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1002/wps.70069"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "N"
 }

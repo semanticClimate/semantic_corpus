@@ -1,0 +1,829 @@
+{
+  "meta": {
+    "query_name": "ocean_heatwaves_2026",
+    "query_string": "(\"marine heatwave\" OR \"ocean heat wave\" OR \"ocean heatwave\") AND (\"ocean current\" OR \"ocean circulation\" OR \"Gulf Stream\" OR \"AMOC\") AND (HAS_FT:Y)",
+    "repository": "europe_pmc",
+    "start_date": "",
+    "end_date": "",
+    "limit": 50,
+    "formats": [
+      "xml",
+      "pdf"
+    ],
+    "generated_at": "2026-07-16T10:15:53.727457+00:00",
+    "identified_source": "same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or query_run.total_hits)",
+    "identified_is_hitcount": false,
+    "override_notes": "",
+    "count_provenance": {
+      "n_identified": "same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or query_run.total_hits)",
+      "n_retrieved": "search_results.json length",
+      "n_with_fulltext": "filesystem (xml=49, pdf=0, html=49)",
+      "n_download_attempted": "download_completeness hard check",
+      "n_screened": "review_table.json length",
+      "n_include": "review_status=include",
+      "n_exclude": "review_status=exclude",
+      "n_still_review": "review_status=review",
+      "n_final_table": "n_include + n_still_review"
+    },
+    "disk_fulltext": {
+      "n_xml": 49,
+      "n_pdf": 0,
+      "n_html": 49
+    }
+  },
+  "artefacts": [
+    {
+      "role": "raw_query",
+      "path": "",
+      "exists": true,
+      "note": "(\"marine heatwave\" OR \"ocean heat wave\" OR \"ocean heatwave\") AND (\"ocean current\" OR \"ocean circulation\" OR \"Gulf Stream\" OR \"AMOC\") AND (HAS_FT:Y)"
+    },
+    {
+      "role": "config",
+      "path": "config/ocean_heatwaves_2026.yaml",
+      "exists": true,
+      "note": "pilot YAML"
+    },
+    {
+      "role": "query_run",
+      "path": "temp/queries/ocean_heatwaves_2026/query_run.json",
+      "exists": true,
+      "note": "repository, limit, result_count, downloaded_count"
+    },
+    {
+      "role": "search_results",
+      "path": "temp/queries/ocean_heatwaves_2026/search_results.json",
+      "exists": true,
+      "note": "retrieved metadata records"
+    },
+    {
+      "role": "query_dir_fulltext",
+      "path": "temp/queries/ocean_heatwaves_2026",
+      "exists": true,
+      "note": "local downloads xml=49 pdf=0 html=49"
+    },
+    {
+      "role": "review_table",
+      "path": "temp/queries/ocean_heatwaves_2026/review/review_table.json",
+      "exists": true,
+      "note": "manual include/exclude/review statuses"
+    },
+    {
+      "role": "overrides",
+      "path": "",
+      "exists": false,
+      "note": "optional n_identified hitCount"
+    },
+    {
+      "role": "corpus_dir",
+      "path": "corpora/ocean_heatwaves_2026",
+      "exists": true,
+      "note": "BAGIT corpus (diagram output target)"
+    }
+  ],
+  "download_check": {
+    "status": "incomplete",
+    "complete": false,
+    "n_papers": 50,
+    "formats": [
+      "xml",
+      "pdf"
+    ],
+    "n_expected_files": 100,
+    "n_present_files": 49,
+    "n_missing_files": 51,
+    "n_papers_complete": 0,
+    "n_papers_incomplete": 50,
+    "missing": [
+      {
+        "pmcid": "PMC13031658",
+        "pmid": "41708619",
+        "paper_id": "",
+        "doi": "10.1038/s41467-026-69509-7",
+        "title": "Ocean dynamics shape marine heatwaves and their predictability.",
+        "stems": [
+          "PMC13031658",
+          "41708619"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13121742",
+        "pmid": "41794878",
+        "paper_id": "",
+        "doi": "10.1038/s41597-026-06883-3",
+        "title": "A high-resolution boundary current product from Gridded Observations of eXpendable BathyThermograph (XBT) transects.",
+        "stems": [
+          "PMC13121742",
+          "41794878"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11882673",
+        "pmid": "40059872",
+        "paper_id": "",
+        "doi": "10.1007/s00382-025-07591-1",
+        "title": "Key drivers of large scale changes in North Atlantic atmospheric and oceanic circulations and their predictability.",
+        "stems": [
+          "PMC11882673",
+          "40059872"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12606263",
+        "pmid": "41219203",
+        "paper_id": "",
+        "doi": "10.1038/s41467-025-64873-2",
+        "title": "Importance of ocean dynamics in the onset and persistence of the 2013-15 and 2019-20 northeast Pacific marine heatwaves.",
+        "stems": [
+          "PMC12606263",
+          "41219203"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12176657",
+        "pmid": "40468073",
+        "paper_id": "",
+        "doi": "10.1038/s41586-025-08903-5",
+        "title": "Drivers of the extreme North Atlantic marine heatwave during 2023.",
+        "stems": [
+          "PMC12176657",
+          "40468073"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12980662",
+        "pmid": "",
+        "paper_id": "",
+        "doi": "",
+        "title": "Skillful subseasonal Indian Ocean marine heatwave forecasts using a neural network",
+        "stems": [
+          "PMC12980662"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11825860",
+        "pmid": "39948147",
+        "paper_id": "",
+        "doi": "10.1038/s41598-025-88294-9",
+        "title": "Effects of a marine heatwave associated with the Kuroshio Extension large meander on extreme precipitation in September ",
+        "stems": [
+          "PMC11825860",
+          "39948147"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12621085",
+        "pmid": "41243784",
+        "paper_id": "",
+        "doi": "10.1111/gcb.70594",
+        "title": "Coral Bleaching: The Equatorial-Refugia Hypothesis.",
+        "stems": [
+          "PMC12621085",
+          "41243784"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC10682185",
+        "pmid": "38012176",
+        "paper_id": "",
+        "doi": "10.1038/s41467-023-43686-1",
+        "title": "Ocean fronts as decadal thermostats modulating continental warming hiatus.",
+        "stems": [
+          "PMC10682185",
+          "38012176"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12685743",
+        "pmid": "41378367",
+        "paper_id": "",
+        "doi": "10.1038/s41561-025-01863-5",
+        "title": "Dramatic decline of &lt;i&gt;Sargassum&lt;/i&gt; in the north Sargasso Sea since 2015.",
+        "stems": [
+          "PMC12685743",
+          "41378367"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12816818",
+        "pmid": "41555599",
+        "paper_id": "",
+        "doi": "10.1002/ecy.70288",
+        "title": "Food limitation erodes the thermal tolerance of larvae in an ecologically influential marine herbivore.",
+        "stems": [
+          "PMC12816818",
+          "41555599"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12675643",
+        "pmid": "41339368",
+        "paper_id": "",
+        "doi": "10.1038/s41598-025-26397-z",
+        "title": "Climate-driven shifts in marine habitat explain recent declines of Japanese Chum salmon.",
+        "stems": [
+          "PMC12675643",
+          "41339368"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11271639",
+        "pmid": "39030191",
+        "paper_id": "",
+        "doi": "10.1038/s41598-024-65291-y",
+        "title": "Impact of an unprecedented marine heatwave on extremely hot summer over Northern Japan in 2023.",
+        "stems": [
+          "PMC11271639",
+          "39030191"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13086571",
+        "pmid": "42006159",
+        "paper_id": "",
+        "doi": "10.1038/s44183-026-00192-3",
+        "title": "Balancing the blue economy and multiple stressor management in marine spatial planning at the land-sea interface.",
+        "stems": [
+          "PMC13086571",
+          "42006159"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC7455734",
+        "pmid": "32859903",
+        "paper_id": "",
+        "doi": "10.1038/s41467-020-18241-x",
+        "title": "Insights into projected changes in marine heatwaves from a high-resolution ocean circulation model.",
+        "stems": [
+          "PMC7455734",
+          "32859903"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11427463",
+        "pmid": "39327477",
+        "paper_id": "",
+        "doi": "10.1038/s41467-024-52760-1",
+        "title": "Arctic Amplification of marine heatwaves under global warming.",
+        "stems": [
+          "PMC11427463",
+          "39327477"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC10011364",
+        "pmid": "36914643",
+        "paper_id": "",
+        "doi": "10.1038/s41467-023-36567-0",
+        "title": "Bottom marine heatwaves along the continental shelves of North America.",
+        "stems": [
+          "PMC10011364",
+          "36914643"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13295705",
+        "pmid": "42177458",
+        "paper_id": "",
+        "doi": "10.1186/s12915-026-02621-8",
+        "title": "Microbial fingerprinting of marine water masses in an Antarctic and hydrographically complex area.",
+        "stems": [
+          "PMC13295705",
+          "42177458"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12403128",
+        "pmid": "40825134",
+        "paper_id": "",
+        "doi": "10.1073/pnas.2503806122",
+        "title": "Svalbard's 2024 record summer: An early view of Arctic glacier meltdown?",
+        "stems": [
+          "PMC12403128",
+          "40825134"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11685619",
+        "pmid": "39737949",
+        "paper_id": "",
+        "doi": "10.1038/s41467-024-54946-z",
+        "title": "Intensification of future subsurface marine heatwaves in an eddy-resolving model.",
+        "stems": [
+          "PMC11685619",
+          "39737949"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC13103687",
+        "pmid": "41873649",
+        "paper_id": "",
+        "doi": "10.1111/jpy.70156",
+        "title": "Temporal stability and spatial patterns of genetic diversity in populations of the climate-vulnerable fucoid Scytothalia",
+        "stems": [
+          "PMC13103687",
+          "41873649"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC9810606",
+        "pmid": "36596808",
+        "paper_id": "",
+        "doi": "10.1038/s41467-022-35666-8",
+        "title": "Southern hemisphere eastern boundary upwelling systems emerging as future marine heatwave hotspots under greenhouse warm",
+        "stems": [
+          "PMC9810606",
+          "36596808"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12583514",
+        "pmid": "41184418",
+        "paper_id": "",
+        "doi": "10.1038/s42003-025-08829-8",
+        "title": "Thermal suppression of gametogenesis can explain historical collapses in larval recruitment in Strongylocentrotus purpur",
+        "stems": [
+          "PMC12583514",
+          "41184418"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12523842",
+        "pmid": "41096423",
+        "paper_id": "",
+        "doi": "10.3390/ani15192828",
+        "title": "Habitat Shifts in the Pacific Saury (&lt;i&gt;Cololabis saira&lt;/i&gt;) Population in the High Seas of the North Pacifi",
+        "stems": [
+          "PMC12523842",
+          "41096423"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11580339",
+        "pmid": "39568058",
+        "paper_id": "",
+        "doi": "10.1186/s13750-024-00349-y",
+        "title": "What is the evidence for the impact of ocean warming on subtropical and temperate corals and coral reefs? A systematic m",
+        "stems": [
+          "PMC11580339",
+          "39568058"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11733174",
+        "pmid": "39809791",
+        "paper_id": "",
+        "doi": "10.1038/s41467-025-56005-7",
+        "title": "Emergence of the North Pacific heat storage pattern delayed by decadal wind-driven redistribution.",
+        "stems": [
+          "PMC11733174",
+          "39809791"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC10808424",
+        "pmid": "38267685",
+        "paper_id": "",
+        "doi": "10.1038/s42003-023-05702-4",
+        "title": "A marine heatwave drives significant shifts in pelagic microbiology.",
+        "stems": [
+          "PMC10808424",
+          "38267685"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC8413423",
+        "pmid": "34475486",
+        "paper_id": "",
+        "doi": "10.1038/s41598-021-97012-0",
+        "title": "Understanding physical drivers of the 2015/16 marine heatwaves in the Northwest Atlantic.",
+        "stems": [
+          "PMC8413423",
+          "34475486"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12309648",
+        "pmid": "39786314",
+        "paper_id": "",
+        "doi": "10.1111/cobi.14435",
+        "title": "Conservation benefits of a large marine protected area network that spans multiple ecosystems.",
+        "stems": [
+          "PMC12309648",
+          "39786314"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11681001",
+        "pmid": "39730736",
+        "paper_id": "",
+        "doi": "10.1038/s41598-024-82457-w",
+        "title": "Physical and biogeochemical drivers of multi-year isoscape in the California upwelling system.",
+        "stems": [
+          "PMC11681001",
+          "39730736"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12822599",
+        "pmid": "41564017",
+        "paper_id": "",
+        "doi": "10.1093/heapro/daaf240",
+        "title": "Did Australian policy prepare for a harmful algal bloom with significant human health impacts? Analysis and lessons from",
+        "stems": [
+          "PMC12822599",
+          "41564017"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12808716",
+        "pmid": "41387442",
+        "paper_id": "",
+        "doi": "10.1038/s41597-025-06342-5",
+        "title": "A compendium of temperature and salinity profiles and discrete nutrients from selected NOAA programs in Alaska.",
+        "stems": [
+          "PMC12808716",
+          "41387442"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12986620",
+        "pmid": "41829526",
+        "paper_id": "",
+        "doi": "10.3390/s26051566",
+        "title": "A Survey of Modern Data Acquisition and Analysis Systems for Environmental Risk Monitoring in Aquatic Ecosystems.",
+        "stems": [
+          "PMC12986620",
+          "41829526"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12337613",
+        "pmid": "40881954",
+        "paper_id": "",
+        "doi": "10.1017/cft.2023.27",
+        "title": "Quantifying the ecological consequences of climate change in coastal ecosystems.",
+        "stems": [
+          "PMC12337613",
+          "40881954"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC9613989",
+        "pmid": "36302781",
+        "paper_id": "",
+        "doi": "10.1038/s41467-022-34003-3",
+        "title": "Sea level extremes and compounding marine heatwaves in coastal Indonesia.",
+        "stems": [
+          "PMC9613989",
+          "36302781"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12308348",
+        "pmid": "40628470",
+        "paper_id": "",
+        "doi": "10.1098/rspb.2025.0949",
+        "title": "Sunflower sea star chemical cues locally reduce kelp consumption by eliciting a flee response in red sea urchins.",
+        "stems": [
+          "PMC12308348",
+          "40628470"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC8294506",
+        "pmid": "34288940",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0253914",
+        "title": "Northern shrimp Pandalus borealis population collapse linked to climate-driven shifts in predator distribution.",
+        "stems": [
+          "PMC8294506",
+          "34288940"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12246105",
+        "pmid": "40640265",
+        "paper_id": "",
+        "doi": "10.1038/s41598-025-07858-x",
+        "title": "Climate change risks on key open marine and coastal mediterranean ecosystems.",
+        "stems": [
+          "PMC12246105",
+          "40640265"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC9135278",
+        "pmid": "35617318",
+        "paper_id": "",
+        "doi": "10.1371/journal.pone.0269069",
+        "title": "Recent and historical data show no evidence of Pacific bluefin tuna reproduction in the southern California Current syst",
+        "stems": [
+          "PMC9135278",
+          "35617318"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC12032349",
+        "pmid": "40280934",
+        "paper_id": "",
+        "doi": "10.1038/s41467-025-59382-1",
+        "title": "Climate-driven succession in marine microbiome biodiversity and biogeochemical function.",
+        "stems": [
+          "PMC12032349",
+          "40280934"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC10468509",
+        "pmid": "37648697",
+        "paper_id": "",
+        "doi": "10.1038/s41598-023-39884-y",
+        "title": "Analysis of marine heatwaves over the Bay of Bengal during 1982-2021.",
+        "stems": [
+          "PMC10468509",
+          "37648697"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC9135704",
+        "pmid": "35618755",
+        "paper_id": "",
+        "doi": "10.1038/s41598-022-12783-4",
+        "title": "Influence of the recent winter Arctic sea ice loss in short-term simulations of a regional atmospheric model.",
+        "stems": [
+          "PMC9135704",
+          "35618755"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC8068737",
+        "pmid": "33650066",
+        "paper_id": "",
+        "doi": "10.1007/s13280-021-01512-2",
+        "title": "Global warming triggers coral reef bleaching tipping point : This article belongs to Ambio's 50th Anniversary Collection",
+        "stems": [
+          "PMC8068737",
+          "33650066"
+        ],
+        "missing_formats": [
+          "xml",
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC11128013",
+        "pmid": "38796508",
+        "paper_id": "",
+        "doi": "10.1038/s41467-024-48900-2",
+        "title": "Emergence of decadal linkage between Western Australian coast and Western-central tropical Pacific.",
+        "stems": [
+          "PMC11128013",
+          "38796508"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC8518646",
+        "pmid": "34002377",
+        "paper_id": "",
+        "doi": "10.1111/1365-2656.13504",
+        "title": "Latitudinal variation in long-term stability of North American rocky intertidal communities.",
+        "stems": [
+          "PMC8518646",
+          "34002377"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC9381716",
+        "pmid": "35973999",
+        "paper_id": "",
+        "doi": "10.1038/s41467-022-32120-7",
+        "title": "Compound marine heatwaves and ocean acidity extremes.",
+        "stems": [
+          "PMC9381716",
+          "35973999"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC9787381",
+        "pmid": "36582412",
+        "paper_id": "",
+        "doi": "10.1029/2022ef002803",
+        "title": "The Climatic Impact-Driver Framework for Assessment of Risk-Relevant Climate Information.",
+        "stems": [
+          "PMC9787381",
+          "36582412"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC7653907",
+        "pmid": "33168858",
+        "paper_id": "",
+        "doi": "10.1038/s41598-020-75445-3",
+        "title": "Drivers and impacts of the most extreme marine heatwaves events.",
+        "stems": [
+          "PMC7653907",
+          "33168858"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC8990001",
+        "pmid": "35393475",
+        "paper_id": "",
+        "doi": "10.1038/s41597-022-01224-6",
+        "title": "Multi-decadal ocean temperature time-series and climatologies from Australia's long-term National Reference Stations.",
+        "stems": [
+          "PMC8990001",
+          "35393475"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      },
+      {
+        "pmcid": "PMC7814029",
+        "pmid": "33462332",
+        "paper_id": "",
+        "doi": "10.1038/s41598-021-81369-3",
+        "title": "Complex networks of marine heatwaves reveal abrupt transitions in the global ocean.",
+        "stems": [
+          "PMC7814029",
+          "33462332"
+        ],
+        "missing_formats": [
+          "pdf"
+        ]
+      }
+    ],
+    "query_dir": "temp/queries/ocean_heatwaves_2026",
+    "message": "DOWNLOAD INCOMPLETE: expected 100 files (50 papers × formats ['xml', 'pdf']); found 49 on disk in temp/queries/ocean_heatwaves_2026; missing 51 (50 papers incomplete). Examples: PMC13031658 missing ['pdf']; PMC13121742 missing ['pdf']; PMC11882673 missing ['pdf']; PMC12606263 missing ['pdf']; PMC12176657 missing ['pdf']. query_run.downloaded_count=49/50."
+  },
+  "counts": {
+    "n_identified": 50,
+    "n_beyond_limit": 0,
+    "n_retrieved": 50,
+    "n_download_attempted": 49,
+    "n_with_fulltext": 49,
+    "n_xml_on_disk": 49,
+    "n_pdf_on_disk": 0,
+    "n_html_on_disk": 49,
+    "n_download_failed": 51,
+    "n_screened": 50,
+    "n_include": 0,
+    "n_exclude": 0,
+    "n_still_review": 50,
+    "n_included_final": 0,
+    "n_final_table": 50
+  },
+  "exclusions": [
+    {
+      "reason": "download_failed",
+      "n": 51
+    },
+    {
+      "reason": "pending_review",
+      "n": 50
+    }
+  ]
+}

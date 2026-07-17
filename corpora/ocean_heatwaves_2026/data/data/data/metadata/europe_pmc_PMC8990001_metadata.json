@@ -1,0 +1,49 @@
+{
+  "pmcid": "PMC8990001",
+  "pmid": "35393475",
+  "title": "Multi-decadal ocean temperature time-series and climatologies from Australia's long-term National Reference Stations.",
+  "abstract": "Multi-decadal ocean time-series are fundamental baselines for assessing the impacts of environmental change, however, compiling and quality controlling historic data from multiple sources remains challenging. Here we aggregate, document, and release a number of long time-series temperature products and climatologies compiled from data obtained at 4 monitoring sites around Australia where sub-surface ocean temperature has been recorded nominally weekly to monthly since the 1940s/50s. In recent years, the sampling was augmented with data obtained from moored sensors, vertical profiles and satellite-derived data. The temperature data have been quality controlled, and combined using a rigorously tested methodology. We have packaged the multi-decadal, multi-depth, multi-platform temperature time-series at each site and produced a range of daily temperature climatologies from different data combinations and time periods. The 17 data products are provided as CF-compliant NetCDF files and will be updated periodically. The long-term temperature time-series will be useful for studies of ocean temperature variability, trends, anomalies and change. The data collection is supported by Australia's Integrated Marine Observing System and data are open-access.",
+  "authors": [
+    "Roughan M",
+    "Hemming M",
+    "Schaeffer A",
+    "Austin T",
+    "Beggs H",
+    "Chen M",
+    "Feng M",
+    "Galibert G",
+    "Holden C",
+    "Hughes D",
+    "Ingleton T",
+    "Milburn S",
+    "Ridgway K"
+  ],
+  "publication_date": "2022-04-07",
+  "journal": "",
+  "doi": "10.1038/s41597-022-01224-6",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41597-022-01224-6"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC8990001"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC8990001?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

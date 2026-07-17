@@ -7,6 +7,9 @@ from typing import Any, Dict, List, Tuple
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
 from semantic_corpus.core.repository_factory import RepositoryFactory
+from semantic_corpus.corpus_review.download_completeness import (
+    check_download_completeness,
+)
 from semantic_corpus.corpus_review.query_run import (
     build_query_run_record,
     load_pilot_config,
@@ -58,6 +61,16 @@ def run_repository_search(
                 downloaded_count += 1
         except Exception:
             continue
+
+    download_check = check_download_completeness(
+        query_dir=output_dir,
+        papers=results,
+        formats=formats,
+        downloaded_count=downloaded_count,
+    )
+    if not download_check.get("complete"):
+        print(download_check.get("message") or "DOWNLOAD INCOMPLETE")
+
     return results, downloaded_count
 
 

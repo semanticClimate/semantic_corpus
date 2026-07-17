@@ -1,0 +1,46 @@
+{
+  "pmcid": "PMC12523842",
+  "pmid": "41096423",
+  "title": "Habitat Shifts in the Pacific Saury (&lt;i&gt;Cololabis saira&lt;/i&gt;) Population in the High Seas of the North Pacific Under Medium-to-Long-Term Climate Scenarios Based on Vessel Position Data and Ensemble Species Distribution Models.",
+  "abstract": "Global climate change poses a significant management challenge for vital transboundary resources like the Pacific saury (<i>Cololabis saira</i>). To address this, we developed an innovative framework that uses high-resolution Automatic Identification System (AIS) data and deep learning to define species distribution, which then informs a robust Ensemble Species Distribution Model (ESDM). The model (TSS > 0.89, AUC > 0.97) identifies sea surface temperature (SST) and chlorophyll-a (CHL) as key habitat drivers. Projections under future climate scenarios reveal two critical threats: (1) a continuous northeastward migration of the habitat's centroid, exceeding 400 km by 2100 under a high-emission SSP5-8.5 scenario, and (2) a drastic contraction of highly suitable habitat (suitability > 0.8), shrinking by up to 94% under the high-emission SSP3-7.0 scenario. By directly linking key oceanographic features to these climate-driven risks, this study delivers an essential scientific decision-support tool for management bodies like the North Pacific Fisheries Commission (NPFC) to develop climate-adaptive strategies.",
+  "authors": [
+    "Zhu H",
+    "Sun Y",
+    "Li Y",
+    "Xiang D",
+    "Gao M",
+    "Zhang F",
+    "Wang J",
+    "Huang S",
+    "Zhang H",
+    "Li L"
+  ],
+  "publication_date": "2025-09-28",
+  "journal": "",
+  "doi": "10.3390/ani15192828",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3390/ani15192828"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12523842"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12523842?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

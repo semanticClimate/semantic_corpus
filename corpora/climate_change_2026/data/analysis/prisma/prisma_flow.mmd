@@ -1,0 +1,17 @@
+flowchart TD
+  ID["IDENTIFICATION<br/>repository: europe_pmc<br/>raw query: 'climate change'<br/>limit: 50<br/>records identified: 50<br/>NOT a database hitCount (equals retrieved)"]
+  RET["RETRIEVED / DOWNLOAD CUTOFF<br/>retrieved: 50<br/>full text on disk: 13<br/>xml=13 pdf=0 html=0"]
+  DL["Download check<br/>status: incomplete<br/>files present 13/100 (formats ('xml', 'pdf'))<br/>DOWNLOAD INCOMPLETE: expected 100 files (50 papers × formats ('xml', 'pdf')); found 13 on disk in temp/queries/climate_change_2026; missi..."]
+  SCR["MANUAL FILTERING (eligibility)<br/>screened: 50"]
+  INC["FINAL TABLE<br/>include: 0<br/>still review: 50<br/>exclude: 0<br/>final table rows: 50"]
+  EX["Exclusions<br/>download_failed: 87<br/>pending_review: 50"]
+  ART["Local artefacts<br/>raw_query: 'climate change'<br/>config (missing): pilot YAML<br/>query_run (ok): temp/queries/climate_change_2026/query_run.json<br/>search_results (ok): temp/queries/climate_change_2026/search_results.json<br/>query_dir_fulltext (ok): temp/queries/climate_change_2026<br/>review_table (ok): temp/queries/climate_change_2026/review/review_table.json<br/>overrides (missing): optional n_identified hitCount<br/>corpus_dir (ok): corpora/climate_change_2026"]
+  PROV["Count sources<br/>n_identified <- same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or q...<br/>n_retrieved <- search_results.json length<br/>n_with_fulltext <- filesystem (xml=13, pdf=0, html=0)<br/>n_screened <- review_table.json length"]
+  ID --> RET
+  RET --> DL
+  DL --> SCR
+  SCR --> INC
+  RET -.-> EX
+  SCR -.-> EX
+  ID --- ART
+  INC --- PROV

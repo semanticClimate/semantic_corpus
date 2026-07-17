@@ -1,0 +1,20 @@
+digraph prisma_flow {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10];
+  ID [fillcolor="#e8f4fc", label="IDENTIFICATION\nrepository: europe_pmc\nraw query: (\"marine heatwave\" OR \"ocean heat wave\" OR \"ocean heatwave\") AND (\"ocean current\" OR \"ocean circulation\" OR \"Gulf Stream\" OR \"AMOC\") AND (HAS_FT:Y)\nlimit: 50\nrecords identified: 50\nNOT database hitCount (= retrieved)"];
+  RET [fillcolor="#eef9ee", label="RETRIEVED / DOWNLOAD CUTOFF\nretrieved: 50\nfull text on disk: 49\nxml=49 pdf=0 html=49"];
+  DL [fillcolor="#ffe6e6", label="Download check\nstatus: incomplete\nfiles present 49/100 (formats ['xml', 'pdf'])\nDOWNLOAD INCOMPLETE: expected 100 files (50 papers × formats ['xml', 'pdf']); found 49 on disk in temp/queries/ocean_heatwaves_2026; missing 51 (50 papers incomplete). Examples: PMC13031658 missing ['pdf']; PMC13121742 missing ['pdf']; PMC11882673 missing ['pdf']; PMC12606263 missing ['pdf']; PMC12176657 missing ['pdf']. query_run.downloaded_count=49/50."];
+  SCR [fillcolor="#fff8e6", label="MANUAL FILTERING\nscreened: 50"];
+  INC [fillcolor="#e8f8e8", label="FINAL TABLE\ninclude: 0\nstill review: 50\nexclude: 0\nfinal table rows: 50"];
+  EX [fillcolor="#fdecea", label="Exclusions\ndownload_failed: 51\npending_review: 50"];
+  ART [fillcolor="#f5f5f5", label="Local artefacts\nraw_query: (\"marine heatwave\" OR \"ocean heat wave\" OR \"ocean heatwave\") AND (\"ocean current\" OR \"ocean circulation\" OR \"Gulf Stream\" OR \"AMOC\") AND (HAS_FT:Y)\nconfig [ok]: config/ocean_heatwaves_2026.yaml\nquery_run [ok]: temp/queries/ocean_heatwaves_2026/query_run.json\nsearch_results [ok]: temp/queries/ocean_heatwaves_2026/search_results.json\nquery_dir_fulltext [ok]: temp/queries/ocean_heatwaves_2026\nreview_table [ok]: temp/queries/ocean_heatwaves_2026/review/review_table.json\noverrides [missing]: optional n_identified hitCount\ncorpus_dir [ok]: corpora/ocean_heatwaves_2026"];
+  PROV [fillcolor="#f5f5f5", label="Count sources\nn_identified <- same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or query_run.total_hits)\nn_retrieved <- search_results.json length\nn_with_fulltext <- filesystem (xml=49, pdf=0, html=49)\nn_screened <- review_table.json length"];
+  ID -> RET;
+  RET -> DL;
+  DL -> SCR;
+  SCR -> INC;
+  RET -> EX [style=dashed];
+  SCR -> EX [style=dashed];
+  ID -> ART [style=dotted];
+  INC -> PROV [style=dotted];
+}

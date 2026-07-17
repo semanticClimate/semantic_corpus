@@ -1,0 +1,47 @@
+{
+  "pmcid": "PMC12808716",
+  "pmid": "41387442",
+  "title": "A compendium of temperature and salinity profiles and discrete nutrients from selected NOAA programs in Alaska.",
+  "abstract": "To better understand ecosystem dynamics in the Gulf of Alaska, Bering Sea, and Chukchi Sea, researchers at the U.S. National Oceanic and Atmospheric Administration's (NOAA's) Pacific Marine Environmental Laboratory and Alaska Fisheries Science Center have been conducting hydrographic and biological surveys in Alaska waters for decades. This article describes a new data compendium (\"ACOD\") that assembles data sets from select NOAA programs into a single-point-of-access quality-controlled product. Included are 29717 vertical profiles of temperature and salinity (1974-2021), and 7016 profiles of dissolved inorganic macronutrients (nitrate, nitrite, ammonium, orthosilicic acid, and phosphate) at discrete depths (2001-2021). This value-added product includes systematic quality control of metadata, salinity, and nutrient data - in addition to creating a single point of access for data from 495 cruises across a nearly 50-year time period. ACOD files are archived at the Dryad Research Data Repository and will include annual or biennial updates. File types include netCDF (profiles and nutrients) and csv (nutrients), and a table with metadata from each cruise.",
+  "authors": [
+    "Mordy CW",
+    "Pelland NA",
+    "Bell SW",
+    "Cheng W",
+    "Gann JC",
+    "Hermann AJ",
+    "McFarland CR",
+    "Nielsen JM",
+    "Stabeno PJ",
+    "Sullivan ME",
+    "Wisegarver ES"
+  ],
+  "publication_date": "2025-12-12",
+  "journal": "",
+  "doi": "10.1038/s41597-025-06342-5",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41597-025-06342-5"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12808716"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12808716?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

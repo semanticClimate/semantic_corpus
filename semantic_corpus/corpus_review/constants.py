@@ -84,3 +84,19 @@ REVIEW_TABLE_COLUMNS = (
     "abstract_snippet",
     "review_notes",
 )
+
+# PRISMA-like flow exclusion reasons (side boxes)
+PRISMA_REASON_BEYOND_LIMIT = "beyond_download_limit"
+PRISMA_REASON_FULLTEXT_UNAVAILABLE = "fulltext_unavailable"
+PRISMA_REASON_DOWNLOAD_FAILED = "download_failed"
+PRISMA_REASON_MANUAL_EXCLUDE = "manual_exclude"
+PRISMA_REASON_PENDING_REVIEW = "pending_review"
+
+PRISMA_FLOW_BASENAME = "prisma_flow"
+PRISMA_OVERRIDES_FILENAME = "prisma_overrides.yaml"
+
+DOWNLOAD_STATUS_COMPLETE = "complete"
+DOWNLOAD_STATUS_INCOMPLETE = "incomplete"
+DOWNLOAD_STATUS_UNKNOWN = "unknown"
+
+DOWNLOAD_INCOMPLETE_PREFIX = "DOWNLOAD INCOMPLETE"

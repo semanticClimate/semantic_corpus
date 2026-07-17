@@ -1,0 +1,20 @@
+digraph prisma_flow {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10];
+  ID [fillcolor="#e8f4fc", label="IDENTIFICATION\nrepository: europe_pmc\nraw query: \"climate change\"\nlimit: 50\nrecords identified: 50\nNOT database hitCount (= retrieved)"];
+  RET [fillcolor="#eef9ee", label="RETRIEVED / DOWNLOAD CUTOFF\nretrieved: 50\nfull text on disk: 13\nxml=13 pdf=0 html=0"];
+  DL [fillcolor="#ffe6e6", label="Download check\nstatus: incomplete\nfiles present 13/100 (formats ['xml', 'pdf'])\nDOWNLOAD INCOMPLETE: expected 100 files (50 papers × formats ['xml', 'pdf']); found 13 on disk in temp/queries/climate_change_2026; missing 87 (50 papers incomplete). Examples: 10.20944/preprints202606.1525.v1 missing ['xml', 'pdf']; 42314205 missing ['xml', 'pdf']; PMC13256475 missing ['pdf']; 42323599 missing ['xml', 'pdf']; 42384637 missing ['xml', 'pdf']. query_run.downloaded_count=13/50."];
+  SCR [fillcolor="#fff8e6", label="MANUAL FILTERING\nscreened: 50"];
+  INC [fillcolor="#e8f8e8", label="FINAL TABLE\ninclude: 0\nstill review: 50\nexclude: 0\nfinal table rows: 50"];
+  EX [fillcolor="#fdecea", label="Exclusions\ndownload_failed: 87\npending_review: 50"];
+  ART [fillcolor="#f5f5f5", label="Local artefacts\nraw_query: \"climate change\"\nconfig [missing]: pilot YAML\nquery_run [ok]: temp/queries/climate_change_2026/query_run.json\nsearch_results [ok]: temp/queries/climate_change_2026/search_results.json\nquery_dir_fulltext [ok]: temp/queries/climate_change_2026\nreview_table [ok]: temp/queries/climate_change_2026/review/review_table.json\noverrides [missing]: optional n_identified hitCount\ncorpus_dir [ok]: corpora/climate_change_2026"];
+  PROV [fillcolor="#f5f5f5", label="Count sources\nn_identified <- same as retrieved (total hitCount not recorded; set prisma_overrides.yaml n_identified or query_run.total_hits)\nn_retrieved <- search_results.json length\nn_with_fulltext <- filesystem (xml=13, pdf=0, html=0)\nn_screened <- review_table.json length"];
+  ID -> RET;
+  RET -> DL;
+  DL -> SCR;
+  SCR -> INC;
+  RET -> EX [style=dashed];
+  SCR -> EX [style=dashed];
+  ID -> ART [style=dotted];
+  INC -> PROV [style=dotted];
+}
