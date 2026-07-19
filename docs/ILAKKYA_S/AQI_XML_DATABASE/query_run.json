@@ -1,0 +1,15 @@
+{
+  "query_name": "aqi_india_pilot",
+  "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]",
+  "repository": "europe_pmc",
+  "limit": 50,
+  "formats": [
+    "xml"
+  ],
+  "output_dir": "temp/queries/aqi_india_pilot",
+  "result_count": 50,
+  "downloaded_count": 27,
+  "run_timestamp": "2026-07-19T06:06:28.954022+00:00",
+  "notes": "",
+  "revision_of": null
+}

@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">3772</journal-id><journal-id journal-id-type="pmc-domain">geohealth</journal-id><journal-title-group><journal-title>GeoHealth</journal-title><abbrev-journal-title>Geohealth</abbrev-journal-title></journal-title-group><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13282691</article-id><article-id pub-id-type="pmcaid">13282691</article-id><article-id pub-id-type="pmcaiid">13282691</article-id><article-id pub-id-type="pmid">42327850</article-id><article-id pub-id-type="doi">10.1029/2025GH001763</article-id><title-group><article-title>Characterizing the Compound Extreme Temperature and PM<sub>2.5</sub> Pollution Events: A Multi‐Country Analysis</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Chen</surname><given-names initials="D">Deyang</given-names></name><xref ref-type="aff" rid="gh270167-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Zahid</surname><given-names initials="M">Mustafa</given-names></name><xref ref-type="aff" rid="gh270167-aff-0002">2</xref></contrib><contrib><name name-style="western"><surname>Qiu</surname><given-names initials="M">Minghao</given-names></name><xref ref-type="aff" rid="gh270167-aff-0001">1</xref><xref ref-type="aff" rid="gh270167-aff-0003">3</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib></contrib-group><aff id="gh270167-aff-0001"><label>
+<sup>1</sup>
+</label>School of Marine and Atmospheric Sciences, Stony Brook University, Stony Brook, NY, USA</aff><aff id="gh270167-aff-0002"><label>
+<sup>2</sup>
+</label>Energy and Resource Group, UC Berkeley, Berkeley, CA, USA</aff><aff id="gh270167-aff-0003"><label>
+<sup>3</sup>
+</label>Program in Public Health, Stony Brook University, Stony Brook, NY, USA</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+<bold>Correspondence to:</bold>
+ 
+M. Qiu, 
+<email>minghao.qiu@stonybrook.edu</email>
+
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>20</day><month>6</month><year>2026</year></pub-date><volume>10</volume><issue>6</issue><fpage>e2025GH001763</fpage><page-range>e2025GH001763</page-range><pub-history><event event-type="pmc-release"><date><day>21</day><month>6</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Author(s). GeoHealth published by Wiley Periodicals LLC on behalf of American Geophysical Union.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GH2-10-e2025GH001763.pdf" content-type="pmc-pdf"><?cloudpmc-path 548b/13282691/50ea6b0b35e8/GH2-10-e2025GH001763.pdf?><?cloudpmc-bucket app?><?size 3592899?></self-uri><abstract id="abstract1"><title>Abstract</title><p>The increasing frequency of climate extreme events and persistent air pollution challenges pose compound environmental risks, yet the spatiotemporal patterns and trends of compound extreme temperature‐air pollution events remain poorly understood globally. In this paper, we quantify the temporal trends and spatial distributions of compound extreme temperature‐PM<sub>2.5</sub> pollution events across 10,067 monitor locations in 43 countries spanning 2003–2023. We find that compound extreme heat and PM<sub>2.5</sub> pollution (heat + PM<sub>2.5</sub>) events decreased in most countries in our sample (35/43), while compound extreme cold and PM<sub>2.5</sub> pollution (cold + PM<sub>2.5</sub>) events showed diverse trends across different nations. Despite the increase in global temperature, cold + PM<sub>2.5</sub> events still represent a substantial component of the compound extreme temperature and PM<sub>2.5</sub> pollution events. Sensitivity analyses using alternative thresholds and MERRA‐2 PM<sub>2.5</sub> data sets yield generally consistent results. The spatial heterogeneity in the compound events is linked to the diverse temperature‐PM<sub>2.5</sub> relationships, for example, we find higher PM<sub>2.5</sub> concentrations during cold conditions in China, India, and Europe, while the USA and Australia show higher PM<sub>2.5</sub> concentrations during hot conditions. Concentrated populations in high‐frequency regions further amplify the exposure burden, with India, Pakistan, and China exhibiting disproportionately higher exposure levels relative to the compound events. Given the likely health impacts of these compound events, our findings suggest that future policies should target temperature‐dependent emission activities that will amplify pollution under extreme temperature conditions.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> extreme temperature, PM<sub>2.5</sub>
+, compound events, health effect, climate change, air quality</p></sec></abstract><abstract id="abstract2" abstract-type="plain-language-summary"><title>Plain Language Summary</title><p>Extreme temperatures and air pollution are major environmental and public health threats, yet their co‐occurrence can be more harmful than either hazard alone. Analyzing data from more than 10,000 air quality monitoring stations in 43 countries over the past two decades, we quantified when and where extreme temperatures and high fine particulate matter (PM<sub>2.5</sub>) pollution happen together. We find that both “heat + PM<sub>2.5</sub>” and “cold + PM<sub>2.5</sub>” events occur frequently around the world, but their patterns differ from place to place. In many countries, heat + PM<sub>2.5</sub> events have become less common despite the increasing heat extremes. However, cold + PM<sub>2.5</sub> events show a wider variety of trends across regions. These differences are linked to how PM<sub>2.5</sub> levels respond to temperature as well as the changing trends in PM<sub>2.5</sub> under different temperature conditions. For example, PM<sub>2.5</sub> levels declined across all temperature conditions in the USA over the years, while PM<sub>2.5</sub> levels reduce the most under cold conditions in India. Our results highlight that policies aimed at protecting public health must consider these compound events, and how temperature extremes influence pollution levels.</p></abstract><abstract id="abstract3" abstract-type="short"><title>Key Points</title>
+<list list-type="bullet"><list-item><p>Compound extreme temperature and PM<sub>2.5</sub> pollution events are widespread globally, with strong regional differences in their frequency and trend</p></list-item><list-item><p>Heat + PM<sub>2.5</sub> events generally declined worldwide despite increasing heat extremes. Cold + PM<sub>2.5</sub> events show diverse and region‐specific trends, including increases in populated areas</p></list-item><list-item><p>Regional difference in the compound events is driven by diverse temperature—PM<sub>2.5</sub> dynamics and PM<sub>2.5</sub> trends under different temperatures</p></list-item></list>
+</abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Revised 2026 Apr 3; Received 2025 Dec 17; Accepted 2026 May 9; Collection date 2026 Jun.</p></sec></notes></front><body><sec id="gh270167-sec-0010" disp-level="1"><label>1.</label><title>Introduction</title><p>Extreme temperature and ambient air pollution are two leading environmental risk factors for morbidity and mortality worldwide (Ebi et al., <xref rid="gh270167-bib-0015" ref-type="bibr">2021</xref>; T. Li et al., <xref rid="gh270167-bib-0037" ref-type="bibr">2018</xref>; Matthews et al., <xref rid="gh270167-bib-0040" ref-type="bibr">2025</xref>). Combined ambient and indoor air pollution is estimated to have caused 8.1 million deaths globally in 2021, making it the second leading risk factor for global mortality, while non‐optimal temperatures (including both heat and cold conditions) contribute to 1.9 million deaths (Global Burden of Disease, <xref rid="gh270167-bib-0018" ref-type="bibr">2024</xref>). Most studies examine the trends, distributions, and health impacts of extreme temperature and air pollution in isolation (S. J. Brown et al., <xref rid="gh270167-bib-0003" ref-type="bibr">2008</xref>; Lee et al., <xref rid="gh270167-bib-0032" ref-type="bibr">2014</xref>; S. Li et al., <xref rid="gh270167-bib-0036" ref-type="bibr">2023</xref>; T. Li et al., <xref rid="gh270167-bib-0037" ref-type="bibr">2018</xref>). However, these two issues are closely interconnected (Castro et al., <xref rid="gh270167-bib-0008" ref-type="bibr">2024</xref>; Roberts, <xref rid="gh270167-bib-0046" ref-type="bibr">2004</xref>), with bidirectional interactions that can, at times, contribute to the occurrence of these extreme events (Kalisa et al., <xref rid="gh270167-bib-0029" ref-type="bibr">2018</xref>). Their co‐occurrence can generate synergistic effects that amplify health risks beyond what would be expected from individual exposures alone (Castro et al., <xref rid="gh270167-bib-0008" ref-type="bibr">2024</xref>; Roberts, <xref rid="gh270167-bib-0046" ref-type="bibr">2004</xref>; Zhou et al., <xref rid="gh270167-bib-0069" ref-type="bibr">2023</xref>). Characterizing global patterns of these compound events is essential for assessing their potential health consequences and informing integrated solutions.</p><p>Previous research has investigated the compound events of extreme temperatures and air pollution at various spatiotemporal scales. Among the different air pollutants, existing studies have predominantly focused on ozone pollution and its occurrence with extreme heat events (Schnell &amp; Prather, <xref rid="gh270167-bib-0049" ref-type="bibr">2017</xref>; Su et al., <xref rid="gh270167-bib-0053" ref-type="bibr">2025</xref>; S. Wang et al., <xref rid="gh270167-bib-0056" ref-type="bibr">2025</xref>; Y. Wang et al., <xref rid="gh270167-bib-0058" ref-type="bibr">2025</xref>), given the well‐established temperature dependence of ozone formation (Coates et al., <xref rid="gh270167-bib-0014" ref-type="bibr">2016</xref>; Im et al., <xref rid="gh270167-bib-0027" ref-type="bibr">2011</xref>; Stathopoulou et al., <xref rid="gh270167-bib-0052" ref-type="bibr">2008</xref>). However, PM<sub>2.5</sub> (atmospheric particulate matter with aerodynamic diameter ≤2.5 μm) remains the leading cause of mortality from air pollution (Burnett et al., <xref rid="gh270167-bib-0007" ref-type="bibr">2018</xref>; Chowdhury et al., <xref rid="gh270167-bib-0013" ref-type="bibr">2022</xref>; T. Li et al., <xref rid="gh270167-bib-0037" ref-type="bibr">2018</xref>), responsible for approximately 8 times more deaths globally than ozone (Health Effects Institute, <xref rid="gh270167-bib-0024" ref-type="bibr">2024</xref>). Therefore, quantifying the characteristics of compound extreme temperature‐PM<sub>2.5</sub> pollution events is a key research gap considering their potential health damages. While extreme heat events have generally increased across many regions due to human activities (S. J. Brown et al., <xref rid="gh270167-bib-0003" ref-type="bibr">2008</xref>; Fischer et al., <xref rid="gh270167-bib-0016" ref-type="bibr">2021</xref>), there exists substantial regional heterogeneity in trends of extreme cold conditions (J. Guan et al., <xref rid="gh270167-bib-0020" ref-type="bibr">2022</xref>; Y. Guan et al., <xref rid="gh270167-bib-0021" ref-type="bibr">2021</xref>). In the case of PM<sub>2.5</sub>, some countries have experienced rising concentrations driven by urbanization and industrialization (Sahoo &amp; Sethi, <xref rid="gh270167-bib-0048" ref-type="bibr">2022</xref>; Yun &amp; Zhao, <xref rid="gh270167-bib-0067" ref-type="bibr">2022</xref>), whereas others have seen declines due to environmental regulations (Yu et al., <xref rid="gh270167-bib-0066" ref-type="bibr">2022</xref>; Zou, <xref rid="gh270167-bib-0070" ref-type="bibr">2021</xref>) and energy transitions (Pereira et al., <xref rid="gh270167-bib-0043" ref-type="bibr">2021</xref>). Given these divergent and spatially heterogeneous trends in both extreme temperature and PM<sub>2.5</sub>, the occurrence and distribution of compound extreme temperature‐PM<sub>2.5</sub> pollution events remain largely unquantified at the global scale.</p><p>Compound extreme temperature‐PM<sub>2.5</sub> pollution events can arise from their two‐way interactions associated with multiple mechanisms. First, extreme temperature increases energy consumption and fossil fuel combustion, thereby elevating emissions of PM<sub>2.5</sub> precursors (e.g., Volatile Organic Compounds (VOCs), SO<sub>2</sub>, NO<sub>
+<italic>x</italic>
+</sub>), leading to elevated PM<sub>2.5</sub> concentrations (Auffhammer et al., <xref rid="gh270167-bib-0001" ref-type="bibr">2017</xref>; Wei et al., <xref rid="gh270167-bib-0059" ref-type="bibr">2022</xref>). Second, higher temperatures increase wildfire risks, releasing large amounts of PM<sub>2.5</sub> into the atmosphere (Burke et al., <xref rid="gh270167-bib-0005" ref-type="bibr">2023</xref>; Childs et al., <xref rid="gh270167-bib-0012" ref-type="bibr">2022</xref>). Third, extreme heat often coincides with stagnant meteorological conditions, such as high pressure, weak winds, and a shallow boundary layer, which inhibit the dispersion of pollutants and cause PM<sub>2.5</sub> to accumulate near the surface (Nasong et al., <xref rid="gh270167-bib-0041" ref-type="bibr">2025</xref>). In turn, PM<sub>2.5</sub> can influence temperature through radiative and dynamic feedbacks (S.‐L. Chen et al., <xref rid="gh270167-bib-0010" ref-type="bibr">2021</xref>; J. Li et al., <xref rid="gh270167-bib-0034" ref-type="bibr">2020</xref>; X. Wang et al., <xref rid="gh270167-bib-0057" ref-type="bibr">2024</xref>). Together, these processes highlight the complex and reciprocal nature of temperature–PM<sub>2.5</sub> interactions.</p><p>Several existing studies have examined the trends of compound extreme temperature and PM<sub>2.5</sub> pollution events. For instance, Z.‐Y. Chen et al. (<xref rid="gh270167-bib-0011" ref-type="bibr">2025</xref>) analyzed the trends of such events across 35 European countries from 2003 to 2023. Schnell and Prather (<xref rid="gh270167-bib-0049" ref-type="bibr">2017</xref>) investigated the co‐occurrence characteristics of PM<sub>2.5</sub> and extreme temperatures in USA. Gao et al. (<xref rid="gh270167-bib-0017" ref-type="bibr">2024</xref>) projected future changes in compound extreme heat and PM<sub>2.5</sub> pollution events in China and India. Huang et al. (<xref rid="gh270167-bib-0026" ref-type="bibr">2025</xref>) characterized the global evolution of compound hot‐and‐polluted episodes (HPEs) and quantified their associated PM<sub>2.5</sub>‐related premature mortality. Nduka et al. (<xref rid="gh270167-bib-0042" ref-type="bibr">2022</xref>) analyzed long‐term trends of HPEs in the Pearl River Delta and quantified their associated air pollution–related mortality. While existing research on compound extreme temperature–PM<sub>2.5</sub> events has provided valuable insights, the body of literature remains limited, and several critical research gaps persist. First, most existing research focuses on individual countries or specific regions (Z.‐Y. Chen et al., <xref rid="gh270167-bib-0011" ref-type="bibr">2025</xref>; Gao et al., <xref rid="gh270167-bib-0017" ref-type="bibr">2024</xref>; Schnell &amp; Prather, <xref rid="gh270167-bib-0049" ref-type="bibr">2017</xref>), lacking a comprehensive global analysis. Second, existing research mainly concentrates on heat extremes (Gao et al., <xref rid="gh270167-bib-0017" ref-type="bibr">2024</xref>; Huang et al., <xref rid="gh270167-bib-0026" ref-type="bibr">2025</xref>; Nduka et al., <xref rid="gh270167-bib-0042" ref-type="bibr">2022</xref>; Su et al., <xref rid="gh270167-bib-0053" ref-type="bibr">2025</xref>), while compound events involving extreme cold and air pollution remain largely unexplored. Finally, most studies rely on numerical modeling rather than ground‐based observations. Numerical models are often limited by incomplete process representations, coarse resolution, and uncertainty in simulating extreme conditions. These limitations can lead to significant uncertainties, particularly when observational constraints are scarce. Leveraging high‐quality observational data sets is essential for improving the characterization of compound temperature–PM<sub>2.5</sub> events.</p><p>In this study, we comprehensively assess the frequency and characteristics of compound extreme temperature‐PM<sub>2.5</sub> pollution events globally from 2003 to 2023. PM<sub>2.5</sub> concentration data is derived from a global network of ground‐based monitoring stations across 43 countries. Compound events are defined as days when both extreme temperature and PM<sub>2.5</sub> pollution conditions are met, and they are categorized into compound extreme cold and PM<sub>2.5</sub> pollution (cold + PM<sub>2.5</sub>) events, and compound extreme heat and PM<sub>2.5</sub> pollution (heat + PM<sub>2.5</sub>) events. Our analysis quantifies the spatiotemporal trends of extreme temperatures, PM<sub>2.5</sub> pollution, and their compound events at the global scale. We further conduct sensitivity analyses using PM<sub>2.5</sub> concentrations derived from the Modern‐Era Retrospective Analysis for Research and Applications, Version 2 (MERRA‐2) reanalysis data set. In addition, we further estimate the population exposure to compound temperature–PM<sub>2.5</sub> events, indicating the potential health risk associated with these events. To shed light on the driving factors of the compound events, we examine the PM<sub>2.5</sub> concentration distributions across different temperature conditions and the temperature‐PM<sub>2.5</sub> relationship across different countries. The structure of this paper is as follows. Section <xref rid="gh270167-sec-0020" ref-type="sec">2</xref> describes the data and methods. Section <xref rid="gh270167-sec-0080" ref-type="sec">3</xref> provides the main results. The conclusions and discussion are given in Section <xref rid="gh270167-sec-0130" ref-type="sec">4</xref>.</p></sec><sec id="gh270167-sec-0020" disp-level="1"><label>2.</label><title>Methods and Data Sources</title><sec id="gh270167-sec-0030" disp-level="2"><label>2.1.</label><title>Data Sources</title><p>In this study, we use daily temperature and PM<sub>2.5</sub> concentration data from a global network of 10,067 ground‐based monitoring stations. Figure S1 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref> shows the distribution of the monitoring stations, which are located in 43 countries across the globe. Our monitoring station data set includes 19,990,888 observations in total. Since the EU, India, China, and the USA have the highest station density and thus provide the most statistically representative samples, our analysis focuses primarily on these four regions. To explore broader patterns of compound extreme temperature‐PM<sub>2.5</sub> pollution events, a separate analysis using all monitoring locations is also conducted. We acknowledge that the spatial distribution of surface air quality monitors is highly uneven across the world, thus our results can only reflect the pattern in these sampled regions. Nevertheless, we believe it is important to characterize the compound events using in situ measurements first, before extending our research to reanalysis PM<sub>2.5</sub> data sets with better spatial coverage. As temperature is often used as an input variable in those modeling pipelines, this leads to potential concerns that the temperature‐PM<sub>2.5</sub> relationships are mechanical in these data sets.</p><p>PM<sub>2.5</sub> observations were derived from the United States Environmental Protection Agency (US EPA), European Environment Agency (EEA), China National Environmental Monitoring Center (CNEMC), Open Air Quality (OpenAQ), and other publicly available databases. To ensure data quality, we apply several filtering criteria. Stations are included only if they report PM<sub>2.5</sub> concentrations for at least 300 days in a given year, and at least 3 years of coverage are retained for analysis. Outliers and extreme values beyond 99.9th quantile are identified and removed based on statistical thresholds. In addition, duplicate records, negative concentrations, and values showing unrealistic temporal spikes or flatlines are excluded.</p><p>To assess the robustness of our results to the choice of PM<sub>2.5</sub> data source, we also conduct the key analyses using the MERRA‐2 aerosol reanalysis product. Since MERRA‐2 does not directly provide PM<sub>2.5</sub> mass concentrations, we reconstructed surface PM<sub>2.5</sub> from five aerosol components following the approach of Buchard et al. (<xref rid="gh270167-bib-0004" ref-type="bibr">2016</xref>):
+</p><disp-formula id="gh270167-disp-0001"><label>(1)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mi mathvariant="normal">P</mml:mi><mml:msub><mml:mi mathvariant="normal">M</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mn>2.5</mml:mn><mml:mo>}</mml:mo></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="[" close="]" separators=""><mml:mrow><mml:mtext>DUS</mml:mtext><mml:msub><mml:mi mathvariant="normal">T</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mn>2.5</mml:mn><mml:mo>}</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mfenced open="[" close="]" separators=""><mml:mrow><mml:mi mathvariant="normal">S</mml:mi><mml:msub><mml:mi mathvariant="normal">S</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mn>2.5</mml:mn><mml:mo>}</mml:mo></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>+</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mtext>BC</mml:mtext><mml:mo>]</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>1.4</mml:mn><mml:mo>×</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mtext>OC</mml:mtext><mml:mo>]</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mn>1.375</mml:mn><mml:mo>×</mml:mo><mml:mfenced open="[" close="]" separators=""><mml:mrow><mml:mi mathvariant="normal">S</mml:mi><mml:msub><mml:mi mathvariant="normal">O</mml:mi><mml:mn>4</mml:mn></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math></disp-formula><p>where DUST<sub>2.5</sub>, SS<sub>2.5</sub>, BC, OC, and SO<sub>4</sub> represent the surface mass concentrations of fine dust, fine sea salt, black carbon, organic carbon, and sulfate aerosols, respectively, all available as hourly fields in the MERRA‐2 aerosol diagnostics. We aggregated the hourly concentrations to derive daily mean PM<sub>2.5</sub> values. The native MERRA‐2 resolution (0.5° × 0.625°) was regridded to 0.5° × 0.5° using bilinear interpolation.</p><p>Population data were obtained from the LandScan Global data set developed by the Oak Ridge National Laboratory, which provides annual gridded population estimates at ∼1 km resolution. Data for 2003–2023 were aggregated to a 0.5° resolution by summing grid‐level population counts to match the spatial resolution of the gridded PM<sub>2.5</sub> and temperature data sets. We use the 2m temperature data from the ERA5 hourly reanalysis data set (2003–2023). This data set provides gridded temperature estimates at a spatial resolution of 0.25° × 0.25°. We derive daily temperatures by aggregating the hourly data at each station's geographic location. For the analysis using MERRA‐2 PM<sub>2.5</sub> data, the temperature data were aggregated to a 0.5° spatial resolution for consistency.</p></sec><sec id="gh270167-sec-0040" disp-level="2"><label>2.2.</label><title>Definition of Compound Extreme Temperature and PM<sub>2.5</sub> Pollution Events</title><p>We define extreme temperature using a grid‐based, percentile‐threshold approach (Ridder et al., <xref rid="gh270167-bib-0045" ref-type="bibr">2022</xref>; J. Wang et al., <xref rid="gh270167-bib-0054" ref-type="bibr">2021</xref>). Daily minimum and maximum temperatures during 2003–2023 were extracted at each grid across the study domain. Extreme heat and cold events are defined using the 95th and 5th percentiles of the historical (2003–2023) temperature distribution, with stricter thresholds (99th and 1<sup>st</sup> percentiles) used to ensure the robustness of the results to alternative extreme temperature definitions. These percentile thresholds were computed individually for each grid based on the full 21‐year reference period. To link these gridded temperature thresholds to observed data, we spatially match the coordinates of national air quality monitoring stations (PM<sub>2.5</sub> monitoring stations) to the nearest grid. A given station‐day is classified as an extreme cold (or heat) day if the observed daily minimum (or maximum) temperature falls below (for cold) or exceeds (for heat) the corresponding percentile threshold for that grid.</p><p>To define PM<sub>2.5</sub> pollution events, we use the 24‐hr threshold of 35 μg/m<sup>3</sup> and 15 μg/m<sup>3</sup> to test the sensitivity of our results. The 35 μg/m<sup>3</sup> threshold aligns with key standards such as the U.S. EPA's National Ambient Air Quality Standards (NAAQS), China's Class‐1 ambient air quality standard, and the World Health Organization's Interim Target‐3 (IT‐3). The alternative threshold of 15 μg/m<sup>3</sup> is selected as it corresponds to the latest, more stringent 2021 WHO Global Air Quality Guideline. A compound event day is defined as any day that simultaneously meets the criteria for both an extreme temperature event and a PM<sub>2.5</sub> pollution event.</p></sec><sec id="gh270167-sec-0050" disp-level="2"><label>2.3.</label><title>Time Trend Analysis</title><p>For each monitoring station, the annual frequency of compound events was calculated as the ratio of compound event days to the total number of sampling days in that year. To obtain national‐level estimates, we compute the arithmetic mean of these station‐level ratios across all stations within each country. Finally, to standardize the metric, the resulting proportions were multiplied by 365 days, yielding the estimated average number of compound event days per year. To estimate the long‐term trend in compound event frequency for each station or country, we regress the annual number of events against time using an ordinary least squares (OLS) model.</p></sec><sec id="gh270167-sec-0060" disp-level="2"><label>2.4.</label><title>Population Exposure Analysis</title><p>Population exposure to compound temperature–PM<sub>2.5</sub> events was quantified using two complementary metrics. First, we define exposure intensity as the product of compound event days and population counts at the grid level:
+</p><disp-formula id="gh270167-disp-0002"><label>(2)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo mathvariant="italic">·</mml:mo><mml:mspace width="0.25em"/><mml:mtext>Po</mml:mtext><mml:msub><mml:mi mathvariant="normal">p</mml:mi><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math></disp-formula><p>where <italic>D</italic>
+<sub>
+<italic>g,y</italic>
+</sub> is the number of compound event days in grid <italic>g</italic> and year <italic>y</italic>, and Pop<sub>
+<italic>g,y</italic>
+</sub> is the population number of grid <italic>g</italic> in year <italic>y</italic>. This metric, expressed in person‐days per grid per year, captures the absolute magnitude of potential health burden by integrating both event frequency and population density.</p><p>Second, we calculate population‐weighted mean exposure days for each country to enable standardized cross‐country comparisons:
+</p><disp-formula id="gh270167-disp-0003"><label>(3)</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo>‾</mml:mo></mml:mover><mml:mrow><mml:mi>c</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>g</mml:mi><mml:mo mathvariant="italic">∈</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:munder><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub><mml:mo>×</mml:mo><mml:mtext>Po</mml:mtext><mml:msub><mml:mi mathvariant="normal">p</mml:mi><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:munder><mml:mo>∑</mml:mo><mml:mrow><mml:mi>g</mml:mi><mml:mo mathvariant="italic">∈</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:munder><mml:mtext>Po</mml:mtext><mml:msub><mml:mi mathvariant="normal">p</mml:mi><mml:mrow><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math></disp-formula><p>where the summation is over all grids <italic>g</italic> within country <italic>c</italic>. This metric represents the average number of compound event days experienced per person per year, allowing comparisons across countries independent of population size.</p></sec><sec id="gh270167-sec-0070" disp-level="2"><label>2.5.</label><title>Bin Analysis</title><p>We analyze PM<sub>2.5</sub> concentrations under different temperature conditions using two approaches. First, we compare daily PM<sub>2.5</sub> concentrations across five temperature intervals (&lt;0°C, 0–10°C, 10–20°C, 20–30°C, and &gt;30°C). Besides, we examine the temporal trends of annual mean PM<sub>2.5</sub> concentrations under three temperature conditions: extreme cold days (below the 5th percentile), non‐extreme temperature days (5th–95th percentile), and extreme heat days (above the 95th percentile).</p></sec></sec><sec id="gh270167-sec-0080" disp-level="1"><label>3.</label><title>Results</title><sec id="gh270167-sec-0090" disp-level="2"><label>3.1.</label><title>Patterns of Extreme Temperature and PM<sub>2.5</sub> Events</title><p>Figure <xref rid="gh270167-fig-0001" ref-type="fig">1</xref> presents the temporal trends of extreme temperature events and PM<sub>2.5</sub> pollution events across different countries (Figures <xref rid="gh270167-fig-0001" ref-type="fig">1a–1c</xref>), along with the annual average PM<sub>2.5</sub> concentrations at monitoring stations (Figure <xref rid="gh270167-fig-0001" ref-type="fig">1d</xref>). The temporal trends of extreme temperature events and PM<sub>2.5</sub> pollution show distinct regional patterns over the study period. For extreme cold events, China and India display increasing trends in station‐averaged frequency, with annual growth rates of 0.25%/yr and 0.15%/yr, respectively. In contrast, the USA and EU demonstrate declining trends in extreme cold event occurrence throughout the sample period. However, the trend estimates are not significant during the sample period (<italic>p</italic> &gt; 0.05). The frequency of extreme heat events is increasing in most regions, and the trend is statistically significant in the EU and the USA (<italic>p</italic> &lt; 0.05), but not in China. EU demonstrates the highest growth rate for extreme heat events, with an 0.28% increase each year. As shown in Figures S2 and S3 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>, the frequency of extreme temperature events (defined by grid‐specific historical 5th/95th percentiles) is not mechanically linked to local mean temperature, as each threshold reflects the station's own climatic distribution.</p><fig id="gh270167-fig-0001" position="float"><?disp-level 3?><label>Figure 1</label><caption><p>Spatiotemporal trends in extreme temperature events and PM<sub>2.5</sub> pollution events globally. (a) Temporal trend of extreme cold events. The plot shows the proportion of monitor‐days that are determined as extreme cold with their temperature lower than the 5th percentile of the local temperature. (b) Temporal trend of extreme heat events. The plot shows the proportion of monitor‐days that are determined as extreme heat with their temperature exceeding the 95th percentile of the local temperature. (c) Temporal trend of PM<sub>2.5</sub> pollution events. The plot shows the proportion of monitor‐days with daily PM<sub>2.5</sub> concentration ≥35 μg/m<sup>3</sup> (gray) and 15 μg/m<sup>3</sup> (orange). The slope represents the annual rate of change in the frequency of individual events, and the time period refers to the sampling years for each country. (d) Average annual PM<sub>2.5</sub> concentration of monitoring stations in the sampling period. The shaded areas represent the 95% confidence intervals of the fitted linear trend.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="GH2-10-e2025GH001763-g001.jpg"><?cloudpmc-path blobs/548b/13282691/cfa396de04ae/GH2-10-e2025GH001763-g001.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEED_LOADING?><?original-height 740?><?original-width 1064?><?scaled-height 493?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2025GH001763-g001.gif"><?cloudpmc-path blobs/548b/13282691/84612780cc9d/GH2-10-e2025GH001763-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We observe significant improvements in PM<sub>2.5</sub> pollution across all four regions, though at varying rates. China shows the steepest decline in PM<sub>2.5</sub>‐pollution days among all regions, indicating marked progress in air pollution control. India shows a more gradual decline in PM<sub>2.5</sub> pollution levels, while the USA and EU maintain steady but modest decreasing trends from their relatively low baseline concentrations. The spatial distribution of average PM<sub>2.5</sub> concentrations and extreme temperature events frequency reveals pronounced global heterogeneity. It is important to note that the country‐level results presented above are averages derived from the monitoring stations and do not necessarily represent the nation as a whole. The trends of individual extreme cold events, extreme heat events, and PM<sub>2.5</sub> pollution events in our study are consistent with previous findings (S. J. Brown et al., <xref rid="gh270167-bib-0003" ref-type="bibr">2008</xref>; Hammer et al., <xref rid="gh270167-bib-0023" ref-type="bibr">2020</xref>; La Sorte et al., <xref rid="gh270167-bib-0031" ref-type="bibr">2021</xref>).</p></sec><sec id="gh270167-sec-0100" disp-level="2"><label>3.2.</label><title>Patterns of Compound Extreme Temperature‐PM<sub>2.5</sub> Events</title><p>Figure <xref rid="gh270167-fig-0002" ref-type="fig">2</xref> presents the annual mean frequency of compound events calculated using ground‐based observations and MERRA‐2 PM<sub>2.5</sub> data. India experiences the highest average frequency of cold + PM<sub>2.5</sub> events (3.6% in monitoring station data), while the USA has the lowest (0.1% in monitoring station data). In addition, Central and North China are also hotspots for compound cold + PM<sub>2.5</sub> events. Winter cold outbreaks in this region are typically accompanied by stable atmospheric stratification, suppressed boundary layer heights, and temperature inversions that inhibit pollutant dispersion (Jin et al., <xref rid="gh270167-bib-0028" ref-type="bibr">2022</xref>; Zhong et al., <xref rid="gh270167-bib-0068" ref-type="bibr">2018</xref>). Additionally, the topographic barrier of the Taihang and Yanshan Mountains traps pollutants within the North China Plain (Liao et al., <xref rid="gh270167-bib-0038" ref-type="bibr">2023</xref>; RenHe et al., <xref rid="gh270167-bib-0044" ref-type="bibr">2014</xref>), while intensive winter heating emissions further elevate PM<sub>2.5</sub> concentrations during cold episodes (Song et al., <xref rid="gh270167-bib-0050" ref-type="bibr">2023</xref>). For both cold + PM<sub>2.5</sub> and heat + PM<sub>2.5</sub> compound events, MERRA‐2 and station‐based analyses show broad agreement in identifying the spatial hotspots of high compound event frequency (Figures <xref rid="gh270167-fig-0002" ref-type="fig">2a–2f</xref>). When sampling is conducted over the same spatial domain, the trends derived from monitoring station data and MERRA‐2 estimates are broadly consistent; however, the trends may change when the spatial coverage is expanded (Figure S8 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>). Notably, the gridded MERRA‐2 analysis (Figures <xref rid="gh270167-fig-0002" ref-type="fig">2c</xref> and <xref rid="gh270167-fig-0002" ref-type="fig">2f</xref>) captures elevated compound event frequencies in regions with limited ground‐based monitoring coverage, including southern Australia and the Amazon‐Cerrado transition zone in western and central Brazil, both regions prone to concurrent wildfire‐driven PM<sub>2.5</sub> pollution and extreme heat events (B. Chen et al., <xref rid="gh270167-bib-0009" ref-type="bibr">2024</xref>; Ye et al., <xref rid="gh270167-bib-0064" ref-type="bibr">2022</xref>).</p><fig id="gh270167-fig-0002" position="float"><?disp-level 3?><label>Figure 2</label><caption><p>Global patterns of compound extreme temperature and PM<sub>2.5</sub> pollution events. (a) Annual average proportion of days with cold + PM<sub>2.5</sub> pollution events (5th + 35 μg/m<sup>3</sup> threshold) across stations using observational data. (b) Annual average proportion of days with cold + PM<sub>2.5</sub> events (5th + 35 μg/m<sup>3</sup> threshold) across stations using MERRA‐2 data. (c) Annual average proportion of days with cold + PM<sub>2.5</sub> events (5th + 35 μg/m<sup>3</sup> threshold) across countries using MERRA‐2 data. (d) Annual average proportion of days with heat + PM<sub>2.5</sub> events (95th + 35 μg/m<sup>3</sup> threshold) across stations using observational data. (e) Annual average proportion of days with heat + PM<sub>2.5</sub> events (95th + 35 μg/m<sup>3</sup> threshold) across stations using MERRA‐2 data. (f) Annual average proportion of days with heat + PM<sub>2.5</sub> events (95th + 35 μg/m<sup>3</sup> threshold) across countries using MERRA‐2 data. The plot shows the proportion of monitor‐days that are determined as compound temperature‐PM<sub>2.5</sub> events.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="GH2-10-e2025GH001763-g002.jpg"><?cloudpmc-path blobs/548b/13282691/8c64a91e6e67/GH2-10-e2025GH001763-g002.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEED_LOADING?><?original-height 485?><?original-width 1064?><?scaled-height 323?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2025GH001763-g002.gif"><?cloudpmc-path blobs/548b/13282691/5c93d2a39585/GH2-10-e2025GH001763-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>However, systematic differences exist between the two PM<sub>2.5</sub> data sources (Figure S6 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref> for a comparison of the PM<sub>2.5</sub> data and Figure S7 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref> for a comparison of the compound events). At the station level, MERRA‐2 tends to underestimate compound event frequencies relative to station observations in China and India. The agreement is strongest for India (<italic>r</italic> = 0.796–0.830), where the high baseline frequency provides a robust signal‐to‐noise ratio. In contrast, MERRA‐2 shows low correlation with station‐derived cold + PM<sub>2.5</sub> frequencies in the USA (<italic>r</italic> = 0.148) and EU (<italic>r</italic> = 0.079), largely because compound event frequencies in these regions are extremely low (&lt;1%), making the comparison sensitive to small absolute differences. These regional discrepancies are consistent with the known limitations of MERRA‐2 in capturing fine‐scale PM<sub>2.5</sub> variability in areas with complex emission source distributions and strong meteorological gradients (Buchard et al., <xref rid="gh270167-bib-0004" ref-type="bibr">2016</xref>; Hammer et al., <xref rid="gh270167-bib-0023" ref-type="bibr">2020</xref>).</p><p>Table <xref rid="gh270167-tbl-0001" ref-type="table">1</xref> summarizes the average frequency and trends of compound events in the USA, EU, India, and China under different definitions for the compound events. We find that heat + PM<sub>2.5</sub> events are more frequent than cold + PM<sub>2.5</sub> events when defined with a lower PM<sub>2.5</sub> threshold, whereas they are less frequent than cold + PM<sub>2.5</sub> events under a high PM<sub>2.5</sub> threshold. This pattern is robust and holds consistent for the aggregate of all stations (Figure S9 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>). Using the high PM<sub>2.5</sub> threshold (≥35 μg/m<sup>3</sup>) and the 95th/5th extreme temperature definition (Figure S9a in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>), the cold + PM<sub>2.5</sub> median frequency (0.15%) is 3 times higher than that of heat + PM<sub>2.5</sub> events (0.05%). However, using the low PM<sub>2.5</sub> threshold (≥15 μg/m<sup>3</sup>) and the 95th/5th extreme temperature definition (Figure S9c in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>), the cold + PM<sub>2.5</sub> median frequency (1.62%) is lower than the heat + PM<sub>2.5</sub> median frequency (1.74%). The differing mechanisms of pollution formation potentially explain this threshold‐dependent contrast. Hot and stagnant conditions can favor the accumulation of PM<sub>2.5</sub> and may enhance secondary aerosol formation. In contrast, cold, stable conditions trap pollutants and are coupled with increased primary emissions from heating, allowing PM<sub>2.5</sub> concentrations to accumulate and spike to much higher levels (Green et al., <xref rid="gh270167-bib-0019" ref-type="bibr">2015</xref>; Yan et al., <xref rid="gh270167-bib-0063" ref-type="bibr">2022</xref>).</p><table-wrap id="gh270167-tbl-0001" position="float"><?disp-level 3?><label>Table 1</label><caption><p>Average Frequency and Trend of Compound Events</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">USA (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">EU (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">India (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">China (%)</th></tr></thead><tbody valign="top"><tr><td colspan="6" align="left" valign="top" rowspan="1">Panel A: Average frequency summary</td></tr><tr><td rowspan="4" style="padding-left:10%" align="left" valign="top" colspan="1">Heat + PM<sub>2.5</sub> events</td><td align="center" valign="top" rowspan="1" colspan="1">95th + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">0.11</td><td align="center" valign="top" rowspan="1" colspan="1">0.03</td><td align="center" valign="top" rowspan="1" colspan="1">4.08</td><td align="center" valign="top" rowspan="1" colspan="1">1.47</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">95th + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">1.40</td><td align="center" valign="top" rowspan="1" colspan="1">1.65</td><td align="center" valign="top" rowspan="1" colspan="1">5.57</td><td align="center" valign="top" rowspan="1" colspan="1">4.75</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">99th + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">0.03</td><td align="center" valign="top" rowspan="1" colspan="1">0.01</td><td align="center" valign="top" rowspan="1" colspan="1">1.06</td><td align="center" valign="top" rowspan="1" colspan="1">0.36</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">99th + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">0.38</td><td align="center" valign="top" rowspan="1" colspan="1">0.54</td><td align="center" valign="top" rowspan="1" colspan="1">1.51</td><td align="center" valign="top" rowspan="1" colspan="1">1.19</td></tr><tr><td rowspan="4" style="padding-left:10%" align="left" valign="top" colspan="1">Cold + PM<sub>2.5</sub> events</td><td align="center" valign="top" rowspan="1" colspan="1">5th + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">0.07</td><td align="center" valign="top" rowspan="1" colspan="1">0.59</td><td align="center" valign="top" rowspan="1" colspan="1">3.65</td><td align="center" valign="top" rowspan="1" colspan="1">2.06</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">5th + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">0.78</td><td align="center" valign="top" rowspan="1" colspan="1">1.83</td><td align="center" valign="top" rowspan="1" colspan="1">4.04</td><td align="center" valign="top" rowspan="1" colspan="1">3.40</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">1st + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">0.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.10</td><td align="center" valign="top" rowspan="1" colspan="1">0.86</td><td align="center" valign="top" rowspan="1" colspan="1">0.41</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">1st + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">0.16</td><td align="center" valign="top" rowspan="1" colspan="1">0.30</td><td align="center" valign="top" rowspan="1" colspan="1">0.94</td><td align="center" valign="top" rowspan="1" colspan="1">0.78</td></tr><tr><td colspan="6" align="left" valign="top" rowspan="1">Panel B: Slope summary</td></tr><tr><td rowspan="4" style="padding-left:10%" align="left" valign="top" colspan="1">Heat + PM<sub>2.5</sub> events</td><td align="center" valign="top" rowspan="1" colspan="1">95th + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.01</td><td align="center" valign="top" rowspan="1" colspan="1">−0.00</td><td align="center" valign="top" rowspan="1" colspan="1">−0.16</td><td align="center" valign="top" rowspan="1" colspan="1">−0.29***</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">95th + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.07*</td><td align="center" valign="top" rowspan="1" colspan="1">−0.05</td><td align="center" valign="top" rowspan="1" colspan="1">−0.09</td><td align="center" valign="top" rowspan="1" colspan="1">−0.01</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">99th + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">0.00</td><td align="center" valign="top" rowspan="1" colspan="1">0.00</td><td align="center" valign="top" rowspan="1" colspan="1">−0.04</td><td align="center" valign="top" rowspan="1" colspan="1">−0.06</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">99th + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.01</td><td align="center" valign="top" rowspan="1" colspan="1">−0.00</td><td align="center" valign="top" rowspan="1" colspan="1">−0.04</td><td align="center" valign="top" rowspan="1" colspan="1">0.06</td></tr><tr><td rowspan="4" style="padding-left:10%" align="left" valign="top" colspan="1">Cold + PM<sub>2.5</sub> events</td><td align="center" valign="top" rowspan="1" colspan="1">5th + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.01**</td><td align="center" valign="top" rowspan="1" colspan="1">−0.05</td><td align="center" valign="top" rowspan="1" colspan="1">0.08</td><td align="center" valign="top" rowspan="1" colspan="1">0.02</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">5th + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.05***</td><td align="center" valign="top" rowspan="1" colspan="1">−0.11</td><td align="center" valign="top" rowspan="1" colspan="1">0.15</td><td align="center" valign="top" rowspan="1" colspan="1">0.17</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">1st + PM<sub>2.5</sub> (35)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.00</td><td align="center" valign="top" rowspan="1" colspan="1">−0.00</td><td align="center" valign="top" rowspan="1" colspan="1">0.06</td><td align="center" valign="top" rowspan="1" colspan="1">0.03</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">1st + PM<sub>2.5</sub> (15)</td><td align="center" valign="top" rowspan="1" colspan="1">−0.01**</td><td align="center" valign="top" rowspan="1" colspan="1">−0.01</td><td align="center" valign="top" rowspan="1" colspan="1">0.08</td><td align="center" valign="top" rowspan="1" colspan="1">0.08</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">Years</td><td align="center" valign="top" rowspan="1" colspan="1">21</td><td align="center" valign="top" rowspan="1" colspan="1">12</td><td align="center" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">10</td></tr></tbody></table><table-wrap-foot><fn id="gh270167-note-0001"><p>
+<italic>Note.</italic> Panel A shows the results of average frequency of the country/region. Panel B shows the temporal trend (unit: % per year). The values in the parentheses show the concentration thresholds used to determine the extreme pollution days. The asterisks in Panel B show the significance of the year‐to‐year change in compound event frequency. ***, **, and * represent significance at <italic>p</italic> &lt; 0.001, <italic>p</italic> &lt; 0.01, and <italic>p</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap><p>We find that heat + PM<sub>2.5</sub> events decrease in all four regions despite the increases in heat extremes alone (although the declining trends are not always statistically significant). Conversely, the frequency of cold + PM<sub>2.5</sub> events increases in the USA and EU while it decreases in India and China. These trends are not statistically significant in most cases due to the limited spatial and temporal coverage of the station data and large interannual variability. However, the direction and magnitude of the trends for each country are remarkably consistent across different definitions for the compound events. The consistency of temporal trends is further corroborated by the MERRA‐2 sensitivity analysis (Figures S5 and S8 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>). Across all four regions, the direction of trends in both heat + PM<sub>2.5</sub> and cold + PM<sub>2.5</sub> compound event frequencies remains generally consistent. In China and India, however, MERRA‐2‐based estimates show somewhat slower declining trends in heat + PM<sub>2.5</sub> frequencies, consistent with MERRA‐2's tendency to underestimate PM<sub>2.5</sub> concentrations in these regions, which reduces the number of days exceeding the compound event threshold and compresses trend magnitudes. Overall, these results suggest that the key findings of this study are robust to the choice of PM<sub>2.5</sub> data source and spatial coverage.</p></sec><sec id="gh270167-sec-0110" disp-level="2"><label>3.3.</label><title>Population Exposure to Compound Events</title><p>Figure <xref rid="gh270167-fig-0003" ref-type="fig">3</xref> presents the mean annual population exposure to compound extreme temperature and PM<sub>2.5</sub> events. The spatial maps (Figures <xref rid="gh270167-fig-0003" ref-type="fig">3a</xref> and <xref rid="gh270167-fig-0003" ref-type="fig">3d</xref>) reveal that exposure is heavily concentrated in South Asia and East Asia, where high compound event frequencies coincide with dense populations. The Indo‐Gangetic Plain and eastern China emerge as the dominant hotspots for both event types.</p><fig id="gh270167-fig-0003" position="float"><?disp-level 3?><label>Figure 3</label><caption><p>Population exposure to compound extreme temperature and PM<sub>2.5</sub> events. (a) Spatial distribution of population exposure intensity to cold + PM<sub>2.5</sub> events. (b) Top 10 countries with highest population exposure days to cold + PM<sub>2.5</sub> events. (c) Top 10 countries with highest population exposure intensity to cold + PM<sub>2.5</sub> events. (d) Spatial distribution of population exposure intensity to heat + PM<sub>2.5</sub> events. (e) Top 10 countries with highest population exposure days to heat + PM<sub>2.5</sub> events. (f) Top 10 countries with highest population exposure intensity to heat + PM<sub>2.5</sub> events.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-5" xlink:href="GH2-10-e2025GH001763-g004.jpg"><?cloudpmc-path blobs/548b/13282691/803d2dc7657e/GH2-10-e2025GH001763-g004.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEED_LOADING?><?original-height 493?><?original-width 1064?><?scaled-height 329?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2025GH001763-g004.gif"><?cloudpmc-path blobs/548b/13282691/0517a0dba0a6/GH2-10-e2025GH001763-g004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>At the national level (Figures <xref rid="gh270167-fig-0003" ref-type="fig">3c</xref> and <xref rid="gh270167-fig-0003" ref-type="fig">3f</xref>), India records the highest total exposure intensity for both cold + PM<sub>2.5</sub> (∼12.5 billion person‐days/year) and heat + PM<sub>2.5</sub> events (∼15.8 billion person‐days/year), followed by China with approximately 6.4 and 8.3 billion person‐days/year for cold and heat events, respectively. For both countries, heat + PM<sub>2.5</sub> exposure exceeds cold + PM<sub>2.5</sub> exposure, consistent with the higher event frequencies observed for heat‐based compound events in these regions.</p><p>The population‐weighted exposure days analysis (Figures <xref rid="gh270167-fig-0003" ref-type="fig">3b</xref> and <xref rid="gh270167-fig-0003" ref-type="fig">3e</xref>) provides a standardized per‐capita metric of individual‐level exposure burden. Pakistan exhibits the highest values, with residents experiencing an average of about 11 and 15 days per person per year exposed to cold + PM<sub>2.5</sub> and heat + PM<sub>2.5</sub> events, respectively. Pakistan, India and China consistently rank among the top countries, indicating that these nations bear a disproportionate share of the global compound exposure burden.</p></sec><sec id="gh270167-sec-0120" disp-level="2"><label>3.4.</label><title>PM<sub>2.5</sub> Levels Under Different Temperature Conditions</title><p>We analyze the differences in frequency and trends of heat + PM<sub>2.5</sub> and cold + PM<sub>2.5</sub> events by examining PM<sub>2.5</sub> under different temperature conditions. Figure S11 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref> shows the average PM<sub>2.5</sub> concentrations in winter (December–February in the Northern Hemisphere; June–August in the Southern Hemisphere) and summer (June–August in the Northern Hemisphere; December–February in the Southern Hemisphere), and we find that PM<sub>2.5</sub> concentrations are higher in winter at most global stations. However, this association may reflect a combination of factors such as seasonal emissions, atmospheric stability, and boundary layer dynamics, rather than temperature effects alone. We further explore the PM<sub>2.5</sub> concentration distributions under different temperatures across various countries (Figure <xref rid="gh270167-fig-0004" ref-type="fig">4a</xref>). We find that PM<sub>2.5</sub> concentrations are higher under low‐temperature conditions in China, India, and the EU. The USA exhibits higher PM<sub>2.5</sub> concentrations in high‐temperature days, which may be attributed to more frequent wildfire activities during hot weather (Hu et al., <xref rid="gh270167-bib-0025" ref-type="bibr">2025</xref>). Australia, another wildfire hotspot, similarly shows higher PM<sub>2.5</sub> concentrations under high‐temperature conditions, which validates our mechanistic hypothesis regarding the temperature dependence of PM<sub>2.5</sub> in the USA (Figure S12 in Supporting Information <xref rid="gh270167-sup-0001" ref-type="supplementary-material">S1</xref>). These distributions exhibit consistent trends across the two PM<sub>2.5</sub> data sets. Beyond differences in emission sources, certain atmospheric chemical processes can also explain the concentration differences between low‐ and high‐temperature conditions. At lower temperatures, the gas‐particle partitioning of semi‐volatile species favors the particulate phase, particularly for ammonium nitrate (NH<sub>4</sub>NO<sub>3</sub>), which thermodynamically dissociates into gaseous ammonia (NH<sub>3</sub>) and nitric acid (HNO<sub>3</sub>) at higher temperatures (M. Wang et al., <xref rid="gh270167-bib-0055" ref-type="bibr">2020</xref>). Conversely, elevated temperatures enhance photochemical oxidation of VOCs and nitrogen oxides (NO<sub>
+<italic>x</italic>
+</sub>), promoting secondary organic aerosol formation, which can subsequently increase PM<sub>2.5</sub> levels through oxidation pathways (Hallquist et al., <xref rid="gh270167-bib-0022" ref-type="bibr">2009</xref>; Srivastava et al., <xref rid="gh270167-bib-0051" ref-type="bibr">2022</xref>). However, higher temperatures are also associated with deeper boundary layer heights, which dilute surface‐level pollutant concentrations and may offset the enhanced chemical production (Q. Li et al., <xref rid="gh270167-bib-0035" ref-type="bibr">2021</xref>). Overall, differences in PM<sub>2.5</sub> concentration levels reflect variations in both emission sources and atmospheric chemical processes.</p><fig id="gh270167-fig-0004" position="float"><?disp-level 3?><label>Figure 4</label><caption><p>Temperature‐dependent PM<sub>2.5</sub> patterns across four regions. (a) PM<sub>2.5</sub> concentrations under different temperature conditions using monitoring station and MERRA‐2 data. Box plots show PM<sub>2.5</sub> concentrations across five temperature bins (&lt;0°C, 0–10°C, 10–20°C, 20–30°C, &gt;30°C) for China, India, USA, and EU. Box boundaries represent 25th and 75th percentiles, with median lines and whiskers extending to 10th and 90th percentiles. The percentage of observations in each temperature interval by country is annotated below the <italic>x</italic>‐axis. (b) PM<sub>2.5</sub> concentration trends under different temperature conditions. Temperature intervals include extreme cold (&lt;5th percentile), non‐extreme (5th–95th percentile), and extreme hot (&gt;95th percentile) conditions.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-7" xlink:href="GH2-10-e2025GH001763-g003.jpg"><?cloudpmc-path blobs/548b/13282691/0ea47ea694da/GH2-10-e2025GH001763-g003.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEED_LOADING?><?original-height 433?><?original-width 1064?><?scaled-height 289?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2025GH001763-g003.gif"><?cloudpmc-path blobs/548b/13282691/2f2b65d52259/GH2-10-e2025GH001763-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Figure <xref rid="gh270167-fig-0004" ref-type="fig">4b</xref> shows long‐term trends in annual average PM<sub>2.5</sub> concentrations under extreme cold, extreme heat, and non‐extreme conditions. China achieved consistent and significant declines across all temperature categories (−2.6 to −2.9 μg/m<sup>3</sup>/yr), indicating that emission controls have been broadly effective across multiple sources and weather conditions. Nevertheless, concentrations remain highest during cold extremes due to winter heating emissions and stagnant air (H. Wu et al., <xref rid="gh270167-bib-0061" ref-type="bibr">2015</xref>), and lowest during heat events when vertical mixing disperses pollutants and heating demand is minimal. India shows sharper seasonal contrasts: cold extremes register the highest pollution due to biomass burning, household fuels, and poor dispersion (Lan et al., <xref rid="gh270167-bib-0030" ref-type="bibr">2022</xref>). Although PM<sub>2.5</sub> has seen the largest decline (−8.7 μg/m<sup>3</sup>/yr) during extreme cold conditions, absolute levels remain high. Hot and non‐extreme conditions have lower levels and moderate declines, suggesting partial success in reducing non‐winter emissions. The USA maintains uniformly low concentrations, with slight increases during heat extremes linked to secondary aerosol formation, higher electricity demand for cooling, and wildfire smoke during heatwaves and droughts (Burke et al., <xref rid="gh270167-bib-0006" ref-type="bibr">2021</xref>, <xref rid="gh270167-bib-0005" ref-type="bibr">2023</xref>). The EU displays minimal variation across temperature categories, with heat extremes and non‐extreme days showing nearly identical concentrations, while PM<sub>2.5</sub> on extreme cold days displays greater interannual variability.</p></sec></sec><sec id="gh270167-sec-0130" disp-level="1"><label>4.</label><title>Discussions and Conclusions</title><p>This study reveals five key findings regarding compound extreme temperature‐PM<sub>2.5</sub> events: (a) Cold + PM<sub>2.5</sub> events and Heat + PM<sub>2.5</sub> events are both prevalent globally, with strong spatial heterogeneity in their frequency and trend. Overall, cold + PM<sub>2.5</sub> events have a similar frequency to Heat + PM<sub>2.5</sub> events, despite the global increase in heat extremes. (b) Both cold + PM<sub>2.5</sub> and heat + PM<sub>2.5</sub> are decreasing in most of the stations in our sample, driven by the declines in PM<sub>2.5</sub> concentrations. The frequency of heat + PM<sub>2.5</sub> events decreased across all four regions, while cold + PM<sub>2.5</sub> events showed diverse trends in different nations. This finding remains robust across different definitions for the compound events. (c) We find that higher PM<sub>2.5</sub> concentrations tend to occur under cold conditions in regions like China, India, and Europe, whereas hot conditions are associated with higher PM<sub>2.5</sub> in countries such as the U.S. and Australia—likely reflecting varying local pollution sources and meteorological factors. (d) In countries with marked declines in PM<sub>2.5</sub> concentration, we observe somewhat heterogeneous trends in the PM<sub>2.5</sub> changes across different temperature conditions (e.g., PM<sub>2.5</sub> concentrations declined more during cold extremes in India relative to other temperature conditions), suggesting that changes in PM<sub>2.5</sub> sources may shift the dynamics of the compound events. (e) Pakistan, India, and China have the highest population‐weighted mean exposure days to compound events, and high population density amplifies the absolute exposure burden in countries such as India and China.</p><p>Mechanisms behind the observed compound temperature–PM<sub>2.5</sub> events likely differ between cold and hot conditions. Under cold conditions, elevated PM<sub>2.5</sub> concentrations may be driven by increased emissions from heating (Liu et al., <xref rid="gh270167-bib-0039" ref-type="bibr">2016</xref>; H. Wu et al., <xref rid="gh270167-bib-0061" ref-type="bibr">2015</xref>) and combustion sources (Yin et al., <xref rid="gh270167-bib-0065" ref-type="bibr">2024</xref>), coupled with meteorological factors such as shallow boundary layers (Yan et al., <xref rid="gh270167-bib-0063" ref-type="bibr">2022</xref>), and enhanced atmospheric stability (Green et al., <xref rid="gh270167-bib-0019" ref-type="bibr">2015</xref>), both of which hinder pollutant dispersion and favor accumulation. These factors contribute to the higher frequency and increasing trend of cold + PM<sub>2.5</sub> events. In contrast, under hot conditions, PM<sub>2.5</sub> levels may rise due to stagnant weather and enhanced photochemical activity. High temperatures can increase the emissions and atmospheric reactivity of VOCs (W. Wu et al., <xref rid="gh270167-bib-0062" ref-type="bibr">2024</xref>), leading to the formation of secondary organic aerosols and thereby elevating PM<sub>2.5</sub> concentrations (Wei et al., <xref rid="gh270167-bib-0059" ref-type="bibr">2022</xref>). Additionally, extreme heat can increase wildfire risk (P. T. Brown et al., <xref rid="gh270167-bib-0002" ref-type="bibr">2023</xref>), which serve as a major source of PM<sub>2.5</sub> during hot periods in fire‐prone regions (Burke et al., <xref rid="gh270167-bib-0005" ref-type="bibr">2023</xref>). Further research is needed to disentangle the relative contributions of emissions, meteorology, and atmospheric chemistry in shaping these compound events under different thermal regimes.</p><p>Previous studies defined compound events based on simultaneous exceedance of temperature and pollutant percentile thresholds (Huang et al., <xref rid="gh270167-bib-0026" ref-type="bibr">2025</xref>; Nduka et al., <xref rid="gh270167-bib-0042" ref-type="bibr">2022</xref>; Rosenthal et al., <xref rid="gh270167-bib-0047" ref-type="bibr">2022</xref>), while others adopted absolute thresholds such as specific temperature cutoffs combined with air quality guideline values (Weiss, <xref rid="gh270167-bib-0060" ref-type="bibr">2025</xref>). Among existing studies, Huang et al. (<xref rid="gh270167-bib-0026" ref-type="bibr">2025</xref>) represents the most comprehensive and closely related work to our analysis, providing a global assessment of hot‐and‐polluted episodes from 1990 to 2019 using MERRA‐2 PM<sub>2.5</sub> data and ERA5 temperature fields at 0.5° resolution. Their findings of increasing HPE frequency globally and identification of India and China as the most vulnerable countries provide important foundations for understanding compound event dynamics. Our study complements their work by extending temporal coverage to 2023, employing ground‐based observations and MERRA‐2 data set, and including cold + PM<sub>2.5</sub> events alongside hot + PM<sub>2.5</sub> combinations. The declining trends observed in our study for certain regions likely reflect recent air pollution control policies that postdate much of their study period. Our spatial exposure analysis corroborates their health estimates, with India and China identified as the highest‐burden countries in both studies.</p><p>Our research addresses critical knowledge gaps by providing a multi‐country level assessment of temperature‐PM<sub>2.5</sub> compound events across 43 countries over 2003–2023. Our historical analysis also sheds light on the different mechanisms and drivers for cold + PM<sub>2.5</sub> and heat + PM<sub>2.5</sub> events across different regions, with important implications for projecting future environmental health risks and developing evidence‐based adaptation strategies. Our global assessment of the compound temperature‐PM<sub>2.5</sub> events can also support the development of exposure data sets of these compound events and empirically assess their health impacts.</p><p>Our research has several limitations which point to important areas for future work. The uneven distribution of air quality monitoring stations may introduce representation biases, particularly in regions with sparse observational coverage. To address this limitation, we incorporated reanalysis‐based PM<sub>2.5</sub> data (MERRA‐2), which provides spatially continuous coverage and helps reduce sampling biases associated with uneven monitoring networks. However, reanalysis products are subject to uncertainties arising from model assumptions and data assimilation processes, which may bias PM<sub>2.5</sub> estimates in certain regions. In addition to the co‐occurrence approach used in this study, compound events can also be defined based on statistical dependence between variables or spatially compounding events (Leonard et al., <xref rid="gh270167-bib-0033" ref-type="bibr">2014</xref>). We also acknowledge that the use of ERA5 reanalysis data may introduce uncertainty in measuring extreme temperature, as these temperature fields are derived from model‐based assimilation systems and may not fully capture local‐scale variability.</p><p>Despite the overall decline in PM<sub>2.5</sub>, we find that the compound extreme temperature and PM<sub>2.5</sub> events remain an important issue in many countries around the world. The trends in cold + PM<sub>2.5</sub> and heat + PM<sub>2.5</sub> events highlight critical policy directions for compound risk management. Low temperatures pose greater health risks in cold regions like the EU, while high temperatures are more harmful in hot regions like India (S. Wang et al., <xref rid="gh270167-bib-0056" ref-type="bibr">2025</xref>; Y. Wang et al., <xref rid="gh270167-bib-0058" ref-type="bibr">2025</xref>). For example, improving heating efficiency in the EU can reduce PM<sub>2.5</sub> emissions during cold periods, lowering winter health risks. In India, a combined heat and PM<sub>2.5</sub> warning system can help limit outdoor exposure during summer, protecting vulnerable groups. Given the temperature‐dependent nature of PM<sub>2.5</sub>, countries that experience a higher frequency of compound temperature‐PM<sub>2.5</sub> pollution events, should further strengthen emission regulations to protect public health.</p></sec><sec id="gh270167-sec-0150" disp-level="1"><title>Conflict of Interest</title><p>The authors declare no conflicts of interest relevant to this study.</p></sec><sec id="sec15" disp-level="1"><title>Supporting information</title><supplementary-material id="gh270167-sup-0001" position="float"><caption><p>Supporting Information S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GH2-10-e2025GH001763-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 548b/13282691/a078a890b471/GH2-10-e2025GH001763-s001.docx?><?cloudpmc-bucket app?><?size 6759078?></media></supplementary-material></sec><sec id="gh270167-sec-0140" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>M.Q. acknowledges the support from Minghua Zhang Faculty Career Catalyst Award from Stony Brook University. D.C. acknowledges the support from the Climate Change Seed Grant Program at Stony Brook University.</p></sec><sec id="gh270167-sec-0170" disp-level="1"><title>Availability Statement</title><p>The data and code that can be used to replicate the main figures and results will be provided in a public repository upon publication. The editor and the reviewers can access the replication data and code at the following link: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zenodo.org/records/17966082" ext-link-type="uri">https://zenodo.org/records/17966082</ext-link>. Ground‐level PM<sub>2.5</sub> observations were obtained from national and regional air quality monitoring networks: Chile (SINCA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sinca.mma.gob.cl" ext-link-type="uri">https://sinca.mma.gob.cl</ext-link>), United States (EPA AQS, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.epa.gov/outdoor-air-quality-data/download-daily-data" ext-link-type="uri">https://www.epa.gov/outdoor‐air‐quality‐data/download‐daily‐data</ext-link>), European Union (EEA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://eeadmz1-downloads-webapp.azurewebsites.net" ext-link-type="uri">https://eeadmz1‐downloads‐webapp.azurewebsites.net</ext-link>), China (CNEMC, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cnemc.cn/" ext-link-type="uri">http://www.cnemc.cn/</ext-link>), India (CPCB, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cpcb.nic.in/National-Air-Quality-Index/" ext-link-type="uri">https://cpcb.nic.in/National‐Air‐Quality‐Index/</ext-link>), New Zealand (LAWA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.lawa.org.nz/explore-data/air-quality" ext-link-type="uri">https://www.lawa.org.nz/explore‐data/air‐quality</ext-link>), Brazil (IEMA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://energiaeambiente.org.br/qualidadedoar/en/" ext-link-type="uri">https://energiaeambiente.org.br/qualidadedoar/en/</ext-link>), and Australia (state‐level EPAs for NSW, Victoria, Queensland, South Australia, and Western Australia). Western Australia data were provided upon request from the Department of Water and Environmental Regulation under a data sharing agreement. Gridded PM<sub>2.5</sub> concentrations were derived from NASA's MERRA‐2 reanalysis (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://disc.gsfc.nasa.gov/datasets/M2T1NXAER_5.12.4/summary" ext-link-type="uri">https://disc.gsfc.nasa.gov/datasets/M2T1NXAER_5.12.4/summary</ext-link>). Population data were obtained from the Oak Ridge National Laboratory LandScan Global data set (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://landscan.ornl.gov/" ext-link-type="uri">https://landscan.ornl.gov/</ext-link>). MERRA‐2 aerosol diagnostics data used for sensitivity analyses were obtained through Google Earth Engine (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_2" ext-link-type="uri">https://developers.google.com/earth‐engine/datasets/catalog/NASA_GSFC_MERRA_aer_2</ext-link>). The original MERRA‐2 data set is produced by NASA's Global Modeling and Assimilation Office (GMAO) and is also available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://disc.gsfc.nasa.gov/datasets?project=MERRA-2" ext-link-type="uri">https://disc.gsfc.nasa.gov/datasets?project=MERRA‐2</ext-link>.</p></sec><sec id="gh270167-bibl-0001" sec-type="ref-list" disp-level="1"><title>References</title><sec id="gh270167-bibl-0001_sec2" disp-level="2"><ref-list><ref id="gh270167-bib-0001"><mixed-citation id="gh270167-cit-0001"><named-content content-type="citation-string">
+
+Auffhammer, M.
+, 
+Baylis, P.
+, &amp; 
+Hausman, C. H.
+ (2017). Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States. Proceedings of the National Academy of Sciences, 114(8), 1886–1891. 10.1073/pnas.1613193114
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1613193114"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5338404"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28167756"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=Climate change is projected to have severe impacts on the frequency and intensity of peak electricity demand across the United States&amp;author=M. Auffhammer&amp;author=P. Baylis&amp;author=C. H. Hausman&amp;volume=114&amp;issue=8&amp;publication_year=2017&amp;pages=1886-1891&amp;pmid=28167756&amp;doi=10.1073/pnas.1613193114&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0002"><mixed-citation id="gh270167-cit-0002"><named-content content-type="citation-string">
+
+Brown, P. T.
+, 
+Hanley, H.
+, 
+Mahesh, A.
+, 
+Reed, C.
+, 
+Strenfel, S. J.
+, 
+Davis, S. J.
+, et al. (2023). Climate warming increases extreme daily wildfire growth risk in California. Nature, 621(7980), 760–766. 10.1038/s41586-023-06444-3
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-023-06444-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37648863"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Climate warming increases extreme daily wildfire growth risk in California&amp;author=P. T. Brown&amp;author=H. Hanley&amp;author=A. Mahesh&amp;author=C. Reed&amp;author=S. J. Strenfel&amp;volume=621&amp;issue=7980&amp;publication_year=2023&amp;pages=760-766&amp;pmid=37648863&amp;doi=10.1038/s41586-023-06444-3&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0003"><mixed-citation id="gh270167-cit-0003"><named-content content-type="citation-string">
+
+Brown, S. J.
+, 
+Caesar, J.
+, &amp; 
+Ferro, C. A. T.
+ (2008). Global changes in extreme daily temperature since 1950. Journal of Geophysical Research, 113(D5), D05115. 10.1029/2006JD008091
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2006JD008091"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Geophysical Research&amp;title=Global changes in extreme daily temperature since 1950&amp;author=S. J. Brown&amp;author=J. Caesar&amp;author=C. A. T. Ferro&amp;volume=113&amp;issue=D5&amp;publication_year=2008&amp;pages=D05115&amp;doi=10.1029/2006JD008091&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0004"><mixed-citation id="gh270167-cit-0004"><named-content content-type="citation-string">
+
+Buchard, V.
+, 
+da Silva, A. M.
+, 
+Randles, C. A.
+, 
+Colarco, P.
+, 
+Ferrare, R.
+, 
+Hair, J.
+, et al. (2016). Evaluation of the surface PM<sub>2.5</sub> in Version 1 of the NASA MERRA aerosol reanalysis over the United States. Atmospheric Environment, 125, 100–111. 10.1016/j.atmosenv.2015.11.004
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosenv.2015.11.004"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Environment&amp;title=Evaluation of the surface PM2.5 in Version 1 of the NASA MERRA aerosol reanalysis over the United States&amp;author=V. Buchard&amp;author=A. M. da Silva&amp;author=C. A. Randles&amp;author=P. Colarco&amp;author=R. Ferrare&amp;volume=125&amp;publication_year=2016&amp;pages=100-111&amp;doi=10.1016/j.atmosenv.2015.11.004&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0005"><mixed-citation id="gh270167-cit-0005"><named-content content-type="citation-string">
+
+Burke, M.
+, 
+Childs, M. L.
+, 
+de la Cuesta, B.
+, 
+Qiu, M.
+, 
+Li, J.
+, 
+Gould, C. F.
+, et al. (2023). The contribution of wildfire to PM<sub>2.5</sub> trends in the USA. Nature, 622(7984), 761–766. 10.1038/s41586-023-06522-6
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-023-06522-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37730996"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=The contribution of wildfire to PM2.5 trends in the USA&amp;author=M. Burke&amp;author=M. L. Childs&amp;author=B. de la Cuesta&amp;author=M. Qiu&amp;author=J. Li&amp;volume=622&amp;issue=7984&amp;publication_year=2023&amp;pages=761-766&amp;pmid=37730996&amp;doi=10.1038/s41586-023-06522-6&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0006"><mixed-citation id="gh270167-cit-0006"><named-content content-type="citation-string">
+
+Burke, M.
+, 
+Driscoll, A.
+, 
+Heft‐Neal, S.
+, 
+Xue, J.
+, 
+Burney, J.
+, &amp; 
+Wara, M.
+ (2021). The changing risk and burden of wildfire in the United States. Proceedings of the National Academy of Sciences, 118(2), e2011048118. 10.1073/pnas.2011048118
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.2011048118"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7812759"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33431571"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=The changing risk and burden of wildfire in the United States&amp;author=M. Burke&amp;author=A. Driscoll&amp;author=S. Heft‐Neal&amp;author=J. Xue&amp;author=J. Burney&amp;volume=118&amp;issue=2&amp;publication_year=2021&amp;pages=e2011048118&amp;pmid=33431571&amp;doi=10.1073/pnas.2011048118&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0007"><mixed-citation id="gh270167-cit-0007"><named-content content-type="citation-string">
+
+Burnett, R.
+, 
+Chen, H.
+, 
+Szyszkowicz, M.
+, 
+Fann, N.
+, 
+Hubbell, B.
+, 
+Pope, C. A.
+, et al. (2018). Global estimates of mortality associated with long‐term exposure to outdoor fine particulate matter. Proceedings of the National Academy of Sciences, 115(38), 9592–9597. 10.1073/pnas.1803222115
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1803222115"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6156628"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30181279"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=Global estimates of mortality associated with long‐term exposure to outdoor fine particulate matter&amp;author=R. Burnett&amp;author=H. Chen&amp;author=M. Szyszkowicz&amp;author=N. Fann&amp;author=B. Hubbell&amp;volume=115&amp;issue=38&amp;publication_year=2018&amp;pages=9592-9597&amp;pmid=30181279&amp;doi=10.1073/pnas.1803222115&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0008"><mixed-citation id="gh270167-cit-0008"><named-content content-type="citation-string">
+
+Castro, E.
+, 
+Healy, J.
+, 
+Liu, A.
+, 
+Wei, Y.
+, 
+Kosheleva, A.
+, &amp; 
+Schwartz, J.
+ (2024). Interactive effects between extreme temperatures and PM<sub>2.5</sub> on cause‐specific mortality in thirteen U.S. states. Environmental Research Letters, 20(1), 014011. 10.1088/1748-9326/ad97d1
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/1748-9326/ad97d1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11622441"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39649149"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research Letters&amp;title=Interactive effects between extreme temperatures and PM2.5 on cause‐specific mortality in thirteen U.S. states&amp;author=E. Castro&amp;author=J. Healy&amp;author=A. Liu&amp;author=Y. Wei&amp;author=A. Kosheleva&amp;volume=20&amp;issue=1&amp;publication_year=2024&amp;pages=014011&amp;pmid=39649149&amp;doi=10.1088/1748-9326/ad97d1&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0009"><mixed-citation id="gh270167-cit-0009"><named-content content-type="citation-string">
+
+Chen, B.
+, 
+Wu, S.
+, 
+Jin, Y.
+, 
+Song, Y.
+, 
+Wu, C.
+, 
+Venevsky, S.
+, et al. (2024). Wildfire risk for global wildland–urban interface areas. Nature Sustainability, 7(4), 474–484. 10.1038/s41893-024-01291-0
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41893-024-01291-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Sustainability&amp;title=Wildfire risk for global wildland–urban interface areas&amp;author=B. Chen&amp;author=S. Wu&amp;author=Y. Jin&amp;author=Y. Song&amp;author=C. Wu&amp;volume=7&amp;issue=4&amp;publication_year=2024&amp;pages=474-484&amp;doi=10.1038/s41893-024-01291-0&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0010"><mixed-citation id="gh270167-cit-0010"><named-content content-type="citation-string">
+
+Chen, S.‐L.
+, 
+Chang, S.‐W.
+, 
+Chen, Y.‐J.
+, &amp; 
+Chen, H.‐L.
+ (2021). Possible warming effect of fine particulate matter in the atmosphere. Communications Earth &amp; Environment, 2(1), 208. 10.1038/s43247-021-00278-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s43247-021-00278-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Communications Earth &amp; Environment&amp;title=Possible warming effect of fine particulate matter in the atmosphere&amp;author=S.‐L. Chen&amp;author=S.‐W. Chang&amp;author=Y.‐J. Chen&amp;author=H.‐L. Chen&amp;volume=2&amp;issue=1&amp;publication_year=2021&amp;pages=208&amp;doi=10.1038/s43247-021-00278-5&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0011"><mixed-citation id="gh270167-cit-0011"><named-content content-type="citation-string">
+
+Chen, Z.‐Y.
+, 
+Achebak, H.
+, 
+Petetin, H.
+, 
+Méndez Turrubiates, R. F.
+, 
+Guo, Y.
+, 
+Pérez García‐Pando, C.
+, &amp; 
+Ballester, J.
+ (2025). Trends in population exposure to compound extreme‐risk temperature and air pollution across 35 European countries: A modelling study. The Lancet Planetary Health, 9(5), e384–e396. 10.1016/S2542-5196(25)00048-8
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S2542-5196(25)00048-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12078191"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40220767"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Lancet Planetary Health&amp;title=Trends in population exposure to compound extreme‐risk temperature and air pollution across 35 European countries: A modelling study&amp;author=Z.‐Y. Chen&amp;author=H. Achebak&amp;author=H. Petetin&amp;author=R. F. Méndez Turrubiates&amp;author=Y. Guo&amp;volume=9&amp;issue=5&amp;publication_year=2025&amp;pages=e384-e396&amp;pmid=40220767&amp;doi=10.1016/S2542-5196(25)00048-8&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0012"><mixed-citation id="gh270167-cit-0012"><named-content content-type="citation-string">
+
+Childs, M. L.
+, 
+Li, J.
+, 
+Wen, J.
+, 
+Heft‐Neal, S.
+, 
+Driscoll, A.
+, 
+Wang, S.
+, et al. (2022). Daily local‐level estimates of ambient wildfire smoke PM<sub>2.5</sub> for the contiguous US. Environmental Science &amp; Technology, 56(19), 13607–13621. 10.1021/acs.est.2c02934
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.2c02934"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36134580"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Science &amp; Technology&amp;title=Daily local‐level estimates of ambient wildfire smoke PM2.5 for the contiguous US&amp;author=M. L. Childs&amp;author=J. Li&amp;author=J. Wen&amp;author=S. Heft‐Neal&amp;author=A. Driscoll&amp;volume=56&amp;issue=19&amp;publication_year=2022&amp;pages=13607-13621&amp;pmid=36134580&amp;doi=10.1021/acs.est.2c02934&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0013"><mixed-citation id="gh270167-cit-0013"><named-content content-type="citation-string">
+
+Chowdhury, S.
+, 
+Pozzer, A.
+, 
+Haines, A.
+, 
+Klingmüller, K.
+, 
+Münzel, T.
+, 
+Paasonen, P.
+, et al. (2022). Global health burden of ambient PM<sub>2.5</sub> and the contribution of anthropogenic black carbon and organic aerosols. Environment International, 159, 107020. 10.1016/j.envint.2021.107020
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.envint.2021.107020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34894485"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environment International&amp;title=Global health burden of ambient PM2.5 and the contribution of anthropogenic black carbon and organic aerosols&amp;author=S. Chowdhury&amp;author=A. Pozzer&amp;author=A. Haines&amp;author=K. Klingmüller&amp;author=T. Münzel&amp;volume=159&amp;publication_year=2022&amp;pages=107020&amp;pmid=34894485&amp;doi=10.1016/j.envint.2021.107020&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0014"><mixed-citation id="gh270167-cit-0014"><named-content content-type="citation-string">
+
+Coates, J.
+, 
+Mar, K. A.
+, 
+Ojha, N.
+, &amp; 
+Butler, T. M.
+ (2016). The influence of temperature on ozone production under varying NO<sub>x</sub> conditions – A modelling study. Atmospheric Chemistry and Physics, 16(18), 11601–11615. 10.5194/acp-16-11601-2016
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/acp-16-11601-2016"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Chemistry and Physics&amp;title=The influence of temperature on ozone production under varying NOx conditions – A modelling study&amp;author=J. Coates&amp;author=K. A. Mar&amp;author=N. Ojha&amp;author=T. M. Butler&amp;volume=16&amp;issue=18&amp;publication_year=2016&amp;pages=11601-11615&amp;doi=10.5194/acp-16-11601-2016&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0015"><mixed-citation id="gh270167-cit-0015"><named-content content-type="citation-string">
+
+Ebi, K. L.
+, 
+Capon, A.
+, 
+Berry, P.
+, 
+Broderick, C.
+, 
+de Dear, R.
+, 
+Havenith, G.
+, et al. (2021). Hot weather and heat extremes: Health risks. The Lancet, 398(10301), 698–708. 10.1016/S0140-6736(21)01208-3
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0140-6736(21)01208-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34419205"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Lancet&amp;title=Hot weather and heat extremes: Health risks&amp;author=K. L. Ebi&amp;author=A. Capon&amp;author=P. Berry&amp;author=C. Broderick&amp;author=R. de Dear&amp;volume=398&amp;issue=10301&amp;publication_year=2021&amp;pages=698-708&amp;pmid=34419205&amp;doi=10.1016/S0140-6736(21)01208-3&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0016"><mixed-citation id="gh270167-cit-0016"><named-content content-type="citation-string">
+
+Fischer, E. M.
+, 
+Sippel, S.
+, &amp; 
+Knutti, R.
+ (2021). Increasing probability of record‐shattering climate extremes. Nature Climate Change, 11(8), 689–695. 10.1038/s41558-021-01092-9
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41558-021-01092-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7617090"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39650282"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Climate Change&amp;title=Increasing probability of record‐shattering climate extremes&amp;author=E. M. Fischer&amp;author=S. Sippel&amp;author=R. Knutti&amp;volume=11&amp;issue=8&amp;publication_year=2021&amp;pages=689-695&amp;pmid=39650282&amp;doi=10.1038/s41558-021-01092-9&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0017"><mixed-citation id="gh270167-cit-0017"><named-content content-type="citation-string">
+
+Gao, M.
+, 
+Wang, F.
+, 
+Xu, Y.
+, 
+Chen, J.
+, 
+Lu, X.
+, &amp; 
+Carmichael, G. R.
+ (2024). Future intensification of co‐occurrences of heat, PM<sub>2.5</sub> and O<sub>3</sub> extremes in China and India despite stringent air pollution controls. Environmental Research Letters, 20(1), 014044. 10.1088/1748-9326/ad961d
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/1748-9326/ad961d"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research Letters&amp;title=Future intensification of co‐occurrences of heat, PM2.5 and O3 extremes in China and India despite stringent air pollution controls&amp;author=M. Gao&amp;author=F. Wang&amp;author=Y. Xu&amp;author=J. Chen&amp;author=X. Lu&amp;volume=20&amp;issue=1&amp;publication_year=2024&amp;pages=014044&amp;doi=10.1088/1748-9326/ad961d&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0018"><mixed-citation id="gh270167-cit-0018"><named-content content-type="citation-string">
+Global Burden of Disease Collaborative Network
+. (2024). Global Burden of Disease Study 2021 (GBD 2021).</named-content></mixed-citation></ref><ref id="gh270167-bib-0019"><mixed-citation id="gh270167-cit-0019"><named-content content-type="citation-string">
+
+Green, M. C.
+, 
+Chow, J. C.
+, 
+Watson, J. G.
+, 
+Dick, K.
+, &amp; 
+Inouye, D.
+ (2015). Effects of snow cover and atmospheric stability on winter PM<sub>2.5</sub> concentrations in western U.S. valleys. Journal of Applied Meteorology and Climatology, 54(6), 1191–1201. 10.1175/JAMC-D-14-0191.1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1175/JAMC-D-14-0191.1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Applied Meteorology and Climatology&amp;title=Effects of snow cover and atmospheric stability on winter PM2.5 concentrations in western U.S. valleys&amp;author=M. C. Green&amp;author=J. C. Chow&amp;author=J. G. Watson&amp;author=K. Dick&amp;author=D. Inouye&amp;volume=54&amp;issue=6&amp;publication_year=2015&amp;pages=1191-1201&amp;doi=10.1175/JAMC-D-14-0191.1&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0020"><mixed-citation id="gh270167-cit-0020"><named-content content-type="citation-string">
+
+Guan, J.
+, 
+Yao, J.
+, 
+Li, M.
+, 
+Li, D.
+, &amp; 
+Zheng, J.
+ (2022). Historical changes and projected trends of extreme climate events in Xinjiang, China. Climate Dynamics, 59(5), 1753–1774. 10.1007/s00382-021-06067-2
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00382-021-06067-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Climate Dynamics&amp;title=Historical changes and projected trends of extreme climate events in Xinjiang, China&amp;author=J. Guan&amp;author=J. Yao&amp;author=M. Li&amp;author=D. Li&amp;author=J. Zheng&amp;volume=59&amp;issue=5&amp;publication_year=2022&amp;pages=1753-1774&amp;doi=10.1007/s00382-021-06067-2&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0021"><mixed-citation id="gh270167-cit-0021"><named-content content-type="citation-string">
+
+Guan, Y.
+, 
+Lu, H.
+, 
+Jiang, Y.
+, 
+Tian, P.
+, 
+Qiu, L.
+, 
+Pellikka, P.
+, &amp; 
+Heiskanen, J.
+ (2021). Changes in global climate heterogeneity under the 21st century global warming. Ecological Indicators, 130, 108075. 10.1016/j.ecolind.2021.108075
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ecolind.2021.108075"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecological Indicators&amp;title=Changes in global climate heterogeneity under the 21st century global warming&amp;author=Y. Guan&amp;author=H. Lu&amp;author=Y. Jiang&amp;author=P. Tian&amp;author=L. Qiu&amp;volume=130&amp;publication_year=2021&amp;pages=108075&amp;doi=10.1016/j.ecolind.2021.108075&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0022"><mixed-citation id="gh270167-cit-0022"><named-content content-type="citation-string">
+
+Hallquist, M.
+, 
+Wenger, J. C.
+, 
+Baltensperger, U.
+, 
+Rudich, Y.
+, 
+Simpson, D.
+, 
+Claeys, M.
+, et al. (2009). The formation, properties and impact of secondary organic aerosol: Current and emerging issues. Atmospheric Chemistry and Physics, 9(14), 5155–5236. 10.5194/acp-9-5155-2009
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/acp-9-5155-2009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Chemistry and Physics&amp;title=The formation, properties and impact of secondary organic aerosol: Current and emerging issues&amp;author=M. Hallquist&amp;author=J. C. Wenger&amp;author=U. Baltensperger&amp;author=Y. Rudich&amp;author=D. Simpson&amp;volume=9&amp;issue=14&amp;publication_year=2009&amp;pages=5155-5236&amp;doi=10.5194/acp-9-5155-2009&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0023"><mixed-citation id="gh270167-cit-0023"><named-content content-type="citation-string">
+
+Hammer, M. S.
+, 
+van Donkelaar, A.
+, 
+Li, C.
+, 
+Lyapustin, A.
+, 
+Sayer, A. M.
+, 
+Hsu, N. C.
+, et al. (2020). Global estimates and long‐term trends of fine particulate matter concentrations (1998–2018). Environmental Science &amp; Technology, 54(13), 7879–7890. 10.1021/acs.est.0c01764
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.0c01764"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32491847"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Science &amp; Technology&amp;title=Global estimates and long‐term trends of fine particulate matter concentrations (1998–2018)&amp;author=M. S. Hammer&amp;author=A. van Donkelaar&amp;author=C. Li&amp;author=A. Lyapustin&amp;author=A. M. Sayer&amp;volume=54&amp;issue=13&amp;publication_year=2020&amp;pages=7879-7890&amp;pmid=32491847&amp;doi=10.1021/acs.est.0c01764&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0024"><mixed-citation id="gh270167-cit-0024"><named-content content-type="citation-string">
+Health Effects Institute
+. (2024). State of Global Air 2024. Special Report.</named-content></mixed-citation></ref><ref id="gh270167-bib-0025"><mixed-citation id="gh270167-cit-0025"><named-content content-type="citation-string">
+
+Hu, J. K.
+, 
+Trišović, A.
+, 
+Bakshi, A.
+, 
+Braun, D.
+, 
+Dominici, F.
+, &amp; 
+Casey, J. A.
+ (2025). Coexposure to extreme heat, wildfire burn zones, and wildfire smoke in the Western US from 2006 to 2020. Science Advances, 11(18), eadq6453. 10.1126/sciadv.adq6453
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/sciadv.adq6453"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12042893"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40305597"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science Advances&amp;title=Coexposure to extreme heat, wildfire burn zones, and wildfire smoke in the Western US from 2006 to 2020&amp;author=J. K. Hu&amp;author=A. Trišović&amp;author=A. Bakshi&amp;author=D. Braun&amp;author=F. Dominici&amp;volume=11&amp;issue=18&amp;publication_year=2025&amp;pages=eadq6453&amp;pmid=40305597&amp;doi=10.1126/sciadv.adq6453&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0026"><mixed-citation id="gh270167-cit-0026"><named-content content-type="citation-string">
+
+Huang, T.
+, 
+Li, Y.
+, 
+Li, J.
+, 
+Sung, J. J. Y.
+, &amp; 
+Yim, S. H. L.
+ (2025). PM<sub>2.5</sub>‐associated premature mortality attributable to hot‐and‐polluted episodes and the inequality between the Global North and the Global South. GeoHealth, 9(5), e2024GH001290. 10.1029/2024GH001290
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2024GH001290"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12070252"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40365174"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=GeoHealth&amp;title=PM2.5‐associated premature mortality attributable to hot‐and‐polluted episodes and the inequality between the Global North and the Global South&amp;author=T. Huang&amp;author=Y. Li&amp;author=J. Li&amp;author=J. J. Y. Sung&amp;author=S. H. L. Yim&amp;volume=9&amp;issue=5&amp;publication_year=2025&amp;pages=e2024GH001290&amp;pmid=40365174&amp;doi=10.1029/2024GH001290&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0027"><mixed-citation id="gh270167-cit-0027"><named-content content-type="citation-string">
+
+Im, U.
+, 
+Markakis, K.
+, 
+Poupkou, A.
+, 
+Melas, D.
+, 
+Unal, A.
+, 
+Gerasopoulos, E.
+, et al. (2011). The impact of temperature changes on summer time ozone and its precursors in the Eastern Mediterranean. Atmospheric Chemistry and Physics, 11(8), 3847–3864. 10.5194/acp-11-3847-2011
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/acp-11-3847-2011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Chemistry and Physics&amp;title=The impact of temperature changes on summer time ozone and its precursors in the Eastern Mediterranean&amp;author=U. Im&amp;author=K. Markakis&amp;author=A. Poupkou&amp;author=D. Melas&amp;author=A. Unal&amp;volume=11&amp;issue=8&amp;publication_year=2011&amp;pages=3847-3864&amp;doi=10.5194/acp-11-3847-2011&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0028"><mixed-citation id="gh270167-cit-0028"><named-content content-type="citation-string">
+
+Jin, X.
+, 
+Cai, X.
+, 
+Yu, M.
+, 
+Wang, X.
+, 
+Song, Y.
+, 
+Wang, X.
+, et al. (2022). Regional PM<sub>2.5</sub> pollution confined by atmospheric internal boundaries in the North China Plain: Analysis based on surface observations. Science of the Total Environment, 841, 156728. 10.1016/j.scitotenv.2022.156728
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2022.156728"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35716748"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science of the Total Environment&amp;title=Regional PM2.5 pollution confined by atmospheric internal boundaries in the North China Plain: Analysis based on surface observations&amp;author=X. Jin&amp;author=X. Cai&amp;author=M. Yu&amp;author=X. Wang&amp;author=Y. Song&amp;volume=841&amp;publication_year=2022&amp;pages=156728&amp;pmid=35716748&amp;doi=10.1016/j.scitotenv.2022.156728&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0029"><mixed-citation id="gh270167-cit-0029"><named-content content-type="citation-string">
+
+Kalisa, E.
+, 
+Fadlallah, S.
+, 
+Amani, M.
+, 
+Nahayo, L.
+, &amp; 
+Habiyaremye, G.
+ (2018). Temperature and air pollution relationship during heatwaves in Birmingham, UK. Sustainable Cities and Society, 43, 111–120. 10.1016/j.scs.2018.08.033
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scs.2018.08.033"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sustainable Cities and Society&amp;title=Temperature and air pollution relationship during heatwaves in Birmingham, UK&amp;author=E. Kalisa&amp;author=S. Fadlallah&amp;author=M. Amani&amp;author=L. Nahayo&amp;author=G. Habiyaremye&amp;volume=43&amp;publication_year=2018&amp;pages=111-120&amp;doi=10.1016/j.scs.2018.08.033&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0030"><mixed-citation id="gh270167-cit-0030"><named-content content-type="citation-string">
+
+Lan, R.
+, 
+Eastham, S. D.
+, 
+Liu, T.
+, 
+Norford, L. K.
+, &amp; 
+Barrett, S. R. H.
+ (2022). Air quality impacts of crop residue burning in India and mitigation alternatives. Nature Communications, 13(1), 6537. 10.1038/s41467-022-34093-z
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-022-34093-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9663555"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36376316"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Communications&amp;title=Air quality impacts of crop residue burning in India and mitigation alternatives&amp;author=R. Lan&amp;author=S. D. Eastham&amp;author=T. Liu&amp;author=L. K. Norford&amp;author=S. R. H. Barrett&amp;volume=13&amp;issue=1&amp;publication_year=2022&amp;pages=6537&amp;pmid=36376316&amp;doi=10.1038/s41467-022-34093-z&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0031"><mixed-citation id="gh270167-cit-0031"><named-content content-type="citation-string">
+
+La Sorte, F. A.
+, 
+Johnston, A.
+, &amp; 
+Ault, T. R.
+ (2021). Global trends in the frequency and duration of temperature extremes. Climatic Change, 166(1), 1. 10.1007/s10584-021-03094-0
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10584-021-03094-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Climatic Change&amp;title=Global trends in the frequency and duration of temperature extremes&amp;author=F. A. La Sorte&amp;author=A. Johnston&amp;author=T. R. Ault&amp;volume=166&amp;issue=1&amp;publication_year=2021&amp;pages=1&amp;doi=10.1007/s10584-021-03094-0&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0032"><mixed-citation id="gh270167-cit-0032"><named-content content-type="citation-string">
+
+Lee, J.
+, 
+Li, S.
+, &amp; 
+Lund, R.
+ (2014). Trends in extreme U.S. temperatures. Journal of Climate, 27(11), 4209–4225. 10.1175/JCLI-D-13-00283.1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1175/JCLI-D-13-00283.1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Climate&amp;title=Trends in extreme U.S. temperatures&amp;author=J. Lee&amp;author=S. Li&amp;author=R. Lund&amp;volume=27&amp;issue=11&amp;publication_year=2014&amp;pages=4209-4225&amp;doi=10.1175/JCLI-D-13-00283.1&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0033"><mixed-citation id="gh270167-cit-0033"><named-content content-type="citation-string">
+
+Leonard, M.
+, 
+Westra, S.
+, 
+Phatak, A.
+, 
+Lambert, M.
+, 
+van den Hurk, B.
+, 
+McInnes, K.
+, et al. (2014). A compound event framework for understanding extreme impacts. WIREs Climate Change, 5(1), 113–128. 10.1002/wcc.252
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/wcc.252"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=WIREs Climate Change&amp;title=A compound event framework for understanding extreme impacts&amp;author=M. Leonard&amp;author=S. Westra&amp;author=A. Phatak&amp;author=M. Lambert&amp;author=B. van den Hurk&amp;volume=5&amp;issue=1&amp;publication_year=2014&amp;pages=113-128&amp;doi=10.1002/wcc.252&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0034"><mixed-citation id="gh270167-cit-0034"><named-content content-type="citation-string">
+
+Li, J.
+, 
+Han, Z.
+, 
+Wu, Y.
+, 
+Xiong, Z.
+, 
+Xia, X.
+, 
+Li, J.
+, et al. (2020). Aerosol radiative effects and feedbacks on boundary layer meteorology and PM<sub>2.5</sub> chemical components during winter haze events over the Beijing‐Tianjin‐Hebei region. Atmospheric Chemistry and Physics, 20(14), 8659–8690. 10.5194/acp-20-8659-2020
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/acp-20-8659-2020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Chemistry and Physics&amp;title=Aerosol radiative effects and feedbacks on boundary layer meteorology and PM2.5 chemical components during winter haze events over the Beijing‐Tianjin‐Hebei region&amp;author=J. Li&amp;author=Z. Han&amp;author=Y. Wu&amp;author=Z. Xiong&amp;author=X. Xia&amp;volume=20&amp;issue=14&amp;publication_year=2020&amp;pages=8659-8690&amp;doi=10.5194/acp-20-8659-2020&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0035"><mixed-citation id="gh270167-cit-0035"><named-content content-type="citation-string">
+
+Li, Q.
+, 
+Zhang, H.
+, 
+Cai, X.
+, 
+Song, Y.
+, &amp; 
+Zhu, T.
+ (2021). The impacts of the atmospheric boundary layer on regional haze in North China. npj Climate and Atmospheric Science, 4(1), 9. 10.1038/s41612-021-00165-y
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41612-021-00165-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=npj Climate and Atmospheric Science&amp;title=The impacts of the atmospheric boundary layer on regional haze in North China&amp;author=Q. Li&amp;author=H. Zhang&amp;author=X. Cai&amp;author=Y. Song&amp;author=T. Zhu&amp;volume=4&amp;issue=1&amp;publication_year=2021&amp;pages=9&amp;doi=10.1038/s41612-021-00165-y&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0036"><mixed-citation id="gh270167-cit-0036"><named-content content-type="citation-string">
+
+Li, S.
+, 
+Wang, S.
+, 
+Wu, Q.
+, 
+Zhang, Y.
+, 
+Ouyang, D.
+, 
+Zheng, H.
+, et al. (2023). Emission trends of air pollutants and CO<sub>2</sub> in China from 2005 to 2021. Earth System Science Data, 15(6), 2279–2294. 10.5194/essd-15-2279-2023
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/essd-15-2279-2023"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Earth System Science Data&amp;title=Emission trends of air pollutants and CO2 in China from 2005 to 2021&amp;author=S. Li&amp;author=S. Wang&amp;author=Q. Wu&amp;author=Y. Zhang&amp;author=D. Ouyang&amp;volume=15&amp;issue=6&amp;publication_year=2023&amp;pages=2279-2294&amp;doi=10.5194/essd-15-2279-2023&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0037"><mixed-citation id="gh270167-cit-0037"><named-content content-type="citation-string">
+
+Li, T.
+, 
+Zhang, Y.
+, 
+Wang, J.
+, 
+Xu, D.
+, 
+Yin, Z.
+, 
+Chen, H.
+, et al. (2018). All‐cause mortality risk associated with long‐term exposure to ambient PM<sub>2.5</sub> in China: A cohort study. The Lancet Public Health, 3(10), e470–e477. 10.1016/S2468-2667(18)30144-0
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S2468-2667(18)30144-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30314593"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Lancet Public Health&amp;title=All‐cause mortality risk associated with long‐term exposure to ambient PM2.5 in China: A cohort study&amp;author=T. Li&amp;author=Y. Zhang&amp;author=J. Wang&amp;author=D. Xu&amp;author=Z. Yin&amp;volume=3&amp;issue=10&amp;publication_year=2018&amp;pages=e470-e477&amp;pmid=30314593&amp;doi=10.1016/S2468-2667(18)30144-0&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0038"><mixed-citation id="gh270167-cit-0038"><named-content content-type="citation-string">
+
+Liao, H.
+, 
+Zhang, C.
+, 
+Burke, P. J.
+, 
+Li, R.
+, &amp; 
+Wei, Y.‐M.
+ (2023). Extreme temperatures, mortality, and adaptation: Evidence from the county level in China. Health Economics, 32(4), 953–969. 10.1002/hec.4649
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/hec.4649"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36639879"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Health Economics&amp;title=Extreme temperatures, mortality, and adaptation: Evidence from the county level in China&amp;author=H. Liao&amp;author=C. Zhang&amp;author=P. J. Burke&amp;author=R. Li&amp;author=Y.‐M. Wei&amp;volume=32&amp;issue=4&amp;publication_year=2023&amp;pages=953-969&amp;pmid=36639879&amp;doi=10.1002/hec.4649&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0039"><mixed-citation id="gh270167-cit-0039"><named-content content-type="citation-string">
+
+Liu, B.
+, 
+Song, N.
+, 
+Dai, Q.
+, 
+Mei, R.
+, 
+Sui, B.
+, 
+Bi, X.
+, &amp; 
+Feng, Y.
+ (2016). Chemical composition and source apportionment of ambient PM<sub>2.5</sub> during the non‐heating period in Taian, China. Atmospheric Research, 170, 23–33. 10.1016/j.atmosres.2015.11.002
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosres.2015.11.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Research&amp;title=Chemical composition and source apportionment of ambient PM2.5 during the non‐heating period in Taian, China&amp;author=B. Liu&amp;author=N. Song&amp;author=Q. Dai&amp;author=R. Mei&amp;author=B. Sui&amp;volume=170&amp;publication_year=2016&amp;pages=23-33&amp;doi=10.1016/j.atmosres.2015.11.002&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0040"><mixed-citation id="gh270167-cit-0040"><named-content content-type="citation-string">
+
+Matthews, T.
+, 
+Raymond, C.
+, 
+Foster, J.
+, 
+Baldwin, J. W.
+, 
+Ivanovich, C.
+, 
+Kong, Q.
+, et al. (2025). Mortality impacts of the most extreme heat events. Nature Reviews Earth &amp; Environment, 6(3), 193–210. 10.1038/s43017-024-00635-w
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s43017-024-00635-w"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Reviews Earth &amp; Environment&amp;title=Mortality impacts of the most extreme heat events&amp;author=T. Matthews&amp;author=C. Raymond&amp;author=J. Foster&amp;author=J. W. Baldwin&amp;author=C. Ivanovich&amp;volume=6&amp;issue=3&amp;publication_year=2025&amp;pages=193-210&amp;doi=10.1038/s43017-024-00635-w&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0041"><mixed-citation id="gh270167-cit-0041"><named-content content-type="citation-string">
+
+Nasong, D.
+, 
+Zhou, S.
+, 
+Kornhuber, K.
+, &amp; 
+Yu, B.
+ (2025). Concurrent heat extremes in relation to global warming, high atmospheric pressure and low soil moisture in the Northern Hemisphere. Earth's Future, 13(1), e2024EF005256. 10.1029/2024EF005256
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2024EF005256"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Earth's Future&amp;title=Concurrent heat extremes in relation to global warming, high atmospheric pressure and low soil moisture in the Northern Hemisphere&amp;author=D. Nasong&amp;author=S. Zhou&amp;author=K. Kornhuber&amp;author=B. Yu&amp;volume=13&amp;issue=1&amp;publication_year=2025&amp;pages=e2024EF005256&amp;doi=10.1029/2024EF005256&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0042"><mixed-citation id="gh270167-cit-0042"><named-content content-type="citation-string">
+
+Nduka, I. C.
+, 
+Huang, T.
+, 
+Li, Z.
+, 
+Yang, Y.
+, &amp; 
+Yim, S. H. L.
+ (2022). Long‐term trends of atmospheric hot‐and‐polluted episodes (HPE) and the public health implications in the Pearl River Delta region of China. Environmental Pollution, 311, 119782. 10.1016/j.envpol.2022.119782
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.envpol.2022.119782"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35934153"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Pollution&amp;title=Long‐term trends of atmospheric hot‐and‐polluted episodes (HPE) and the public health implications in the Pearl River Delta region of China&amp;author=I. C. Nduka&amp;author=T. Huang&amp;author=Z. Li&amp;author=Y. Yang&amp;author=S. H. L. Yim&amp;volume=311&amp;publication_year=2022&amp;pages=119782&amp;pmid=35934153&amp;doi=10.1016/j.envpol.2022.119782&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0043"><mixed-citation id="gh270167-cit-0043"><named-content content-type="citation-string">
+
+Pereira, G.
+, 
+Bell, M. L.
+, 
+Honda, Y.
+, 
+Lee, J.‐T.
+, 
+Morawska, L.
+, &amp; 
+Jalaludin, B.
+ (2021). Energy transitions, air quality and health. Environmental Research Letters, 16(2), 020202. 10.1088/1748-9326/abdaea
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/1748-9326/abdaea"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research Letters&amp;title=Energy transitions, air quality and health&amp;author=G. Pereira&amp;author=M. L. Bell&amp;author=Y. Honda&amp;author=J.‐T. Lee&amp;author=L. Morawska&amp;volume=16&amp;issue=2&amp;publication_year=2021&amp;pages=020202&amp;doi=10.1088/1748-9326/abdaea&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0044"><mixed-citation id="gh270167-cit-0044"><named-content content-type="citation-string">
+
+RenHe, Z.
+, 
+Li, Q.
+, &amp; 
+Zhang, R.
+ (2014). Meteorological conditions for the persistent severe fog and haze event over eastern China in January 2013. Science China Earth Sciences, 57(1), 26–35. 10.1007/s11430-013-4774-3
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11430-013-4774-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science China Earth Sciences&amp;title=Meteorological conditions for the persistent severe fog and haze event over eastern China in January 2013&amp;author=Z. RenHe&amp;author=Q. Li&amp;author=R. Zhang&amp;volume=57&amp;issue=1&amp;publication_year=2014&amp;pages=26-35&amp;doi=10.1007/s11430-013-4774-3&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0045"><mixed-citation id="gh270167-cit-0045"><named-content content-type="citation-string">
+
+Ridder, N. N.
+, 
+Ukkola, A. M.
+, 
+Pitman, A. J.
+, &amp; 
+Perkins‐Kirkpatrick, S. E.
+ (2022). Increased occurrence of high impact compound events under climate change. npj Climate and Atmospheric Science, 5(1), 3. 10.1038/s41612-021-00224-4
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41612-021-00224-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=npj Climate and Atmospheric Science&amp;title=Increased occurrence of high impact compound events under climate change&amp;author=N. N. Ridder&amp;author=A. M. Ukkola&amp;author=A. J. Pitman&amp;author=S. E. Perkins‐Kirkpatrick&amp;volume=5&amp;issue=1&amp;publication_year=2022&amp;pages=3&amp;doi=10.1038/s41612-021-00224-4&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0046"><mixed-citation id="gh270167-cit-0046"><named-content content-type="citation-string">
+
+Roberts, S.
+ (2004). Interactions between particulate air pollution and temperature in air pollution mortality time series studies. Environmental Research, 96(3), 328–337. 10.1016/j.envres.2004.01.015
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.envres.2004.01.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15364601"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research&amp;title=Interactions between particulate air pollution and temperature in air pollution mortality time series studies&amp;author=S. Roberts&amp;volume=96&amp;issue=3&amp;publication_year=2004&amp;pages=328-337&amp;pmid=15364601&amp;doi=10.1016/j.envres.2004.01.015&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0047"><mixed-citation id="gh270167-cit-0047"><named-content content-type="citation-string">
+
+Rosenthal, N.
+, 
+Benmarhnia, T.
+, 
+Ahmadov, R.
+, 
+James, E.
+, &amp; 
+Marlier, M. E.
+ (2022). Population co‐exposure to extreme heat and wildfire smoke pollution in California during 2020. Environmental Research: Climate, 1(2), 025004. 10.1088/2752-5295/ac860e
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/2752-5295/ac860e"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research: Climate&amp;title=Population co‐exposure to extreme heat and wildfire smoke pollution in California during 2020&amp;author=N. Rosenthal&amp;author=T. Benmarhnia&amp;author=R. Ahmadov&amp;author=E. James&amp;author=M. E. Marlier&amp;volume=1&amp;issue=2&amp;publication_year=2022&amp;pages=025004&amp;doi=10.1088/2752-5295/ac860e&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0048"><mixed-citation id="gh270167-cit-0048"><named-content content-type="citation-string">
+
+Sahoo, M.
+, &amp; 
+Sethi, N.
+ (2022). The dynamic impact of urbanization, structural transformation, and technological innovation on ecological footprint and PM<sub>2.5</sub>: Evidence from newly industrialized countries. Environment, Development and Sustainability, 24(3), 4244–4277. 10.1007/s10668-021-01614-7
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10668-021-01614-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environment, Development and Sustainability&amp;title=The dynamic impact of urbanization, structural transformation, and technological innovation on ecological footprint and PM2.5: Evidence from newly industrialized countries&amp;author=M. Sahoo&amp;author=N. Sethi&amp;volume=24&amp;issue=3&amp;publication_year=2022&amp;pages=4244-4277&amp;doi=10.1007/s10668-021-01614-7&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0049"><mixed-citation id="gh270167-cit-0049"><named-content content-type="citation-string">
+
+Schnell, J. L.
+, &amp; 
+Prather, M. J.
+ (2017). Co‐occurrence of extremes in surface ozone, particulate matter, and temperature over eastern North America. Proceedings of the National Academy of Sciences, 114(11), 2854–2859. 10.1073/pnas.1614453114
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1614453114"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5358352"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28242682"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=Co‐occurrence of extremes in surface ozone, particulate matter, and temperature over eastern North America&amp;author=J. L. Schnell&amp;author=M. J. Prather&amp;volume=114&amp;issue=11&amp;publication_year=2017&amp;pages=2854-2859&amp;pmid=28242682&amp;doi=10.1073/pnas.1614453114&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0050"><mixed-citation id="gh270167-cit-0050"><named-content content-type="citation-string">
+
+Song, C.
+, 
+Liu, B.
+, 
+Cheng, K.
+, 
+Cole, M. A.
+, 
+Dai, Q.
+, 
+Elliott, R. J. R.
+, &amp; 
+Shi, Z.
+ (2023). Attribution of air quality benefits to clean winter heating policies in China: Combining machine learning with causal inference. Environmental Science &amp; Technology, 57(46), 17707–17717. 10.1021/acs.est.2c06800
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.2c06800"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10666544"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36722723"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Science &amp; Technology&amp;title=Attribution of air quality benefits to clean winter heating policies in China: Combining machine learning with causal inference&amp;author=C. Song&amp;author=B. Liu&amp;author=K. Cheng&amp;author=M. A. Cole&amp;author=Q. Dai&amp;volume=57&amp;issue=46&amp;publication_year=2023&amp;pages=17707-17717&amp;pmid=36722723&amp;doi=10.1021/acs.est.2c06800&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0051"><mixed-citation id="gh270167-cit-0051"><named-content content-type="citation-string">
+
+Srivastava, D.
+, 
+Vu, T. V.
+, 
+Tong, S.
+, 
+Shi, Z.
+, &amp; 
+Harrison, R. M.
+ (2022). Formation of secondary organic aerosols from anthropogenic precursors in laboratory studies. npj Climate and Atmospheric Science, 5(1), 22. 10.1038/s41612-022-00238-6
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41612-022-00238-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=npj Climate and Atmospheric Science&amp;title=Formation of secondary organic aerosols from anthropogenic precursors in laboratory studies&amp;author=D. Srivastava&amp;author=T. V. Vu&amp;author=S. Tong&amp;author=Z. Shi&amp;author=R. M. Harrison&amp;volume=5&amp;issue=1&amp;publication_year=2022&amp;pages=22&amp;doi=10.1038/s41612-022-00238-6&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0052"><mixed-citation id="gh270167-cit-0052"><named-content content-type="citation-string">
+
+Stathopoulou, E.
+, 
+Mihalakakou, G.
+, 
+Santamouris, M.
+, &amp; 
+Bagiorgas, H. S.
+ (2008). On the impact of temperature on tropospheric ozone concentration levels in urban environments. Journal of Earth System Science, 117(3), 227–236. 10.1007/s12040-008-0027-9
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s12040-008-0027-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Earth System Science&amp;title=On the impact of temperature on tropospheric ozone concentration levels in urban environments&amp;author=E. Stathopoulou&amp;author=G. Mihalakakou&amp;author=M. Santamouris&amp;author=H. S. Bagiorgas&amp;volume=117&amp;issue=3&amp;publication_year=2008&amp;pages=227-236&amp;doi=10.1007/s12040-008-0027-9&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0053"><mixed-citation id="gh270167-cit-0053"><named-content content-type="citation-string">
+
+Su, J.
+, 
+Jiao, L.
+, &amp; 
+Xu, G.
+ (2025). Intensified exposure to compound extreme heat and ozone pollution in summer across Chinese cities. npj Climate and Atmospheric Science, 8(1), 78. 10.1038/s41612-025-00966-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41612-025-00966-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=npj Climate and Atmospheric Science&amp;title=Intensified exposure to compound extreme heat and ozone pollution in summer across Chinese cities&amp;author=J. Su&amp;author=L. Jiao&amp;author=G. Xu&amp;volume=8&amp;issue=1&amp;publication_year=2025&amp;pages=78&amp;doi=10.1038/s41612-025-00966-5&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0054"><mixed-citation id="gh270167-cit-0054"><named-content content-type="citation-string">
+
+Wang, J.
+, 
+Chen, Y.
+, 
+Liao, W.
+, 
+He, G.
+, 
+Tett, S. F. B.
+, 
+Yan, Z.
+, et al. (2021). Anthropogenic emissions and urbanization increase risk of compound hot extremes in cities. Nature Climate Change, 11(12), 1084–1089. 10.1038/s41558-021-01196-2
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41558-021-01196-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Climate Change&amp;title=Anthropogenic emissions and urbanization increase risk of compound hot extremes in cities&amp;author=J. Wang&amp;author=Y. Chen&amp;author=W. Liao&amp;author=G. He&amp;author=S. F. B. Tett&amp;volume=11&amp;issue=12&amp;publication_year=2021&amp;pages=1084-1089&amp;doi=10.1038/s41558-021-01196-2&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0055"><mixed-citation id="gh270167-cit-0055"><named-content content-type="citation-string">
+
+Wang, M.
+, 
+Kong, W.
+, 
+Marten, R.
+, 
+He, X.‐C.
+, 
+Chen, D.
+, 
+Pfeifer, J.
+, et al. (2020). Rapid growth of new atmospheric particles by nitric acid and ammonia condensation. Nature, 581(7807), 184–189. 10.1038/s41586-020-2270-4
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-020-2270-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7334196"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32405020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Rapid growth of new atmospheric particles by nitric acid and ammonia condensation&amp;author=M. Wang&amp;author=W. Kong&amp;author=R. Marten&amp;author=X.‐C. He&amp;author=D. Chen&amp;volume=581&amp;issue=7807&amp;publication_year=2020&amp;pages=184-189&amp;pmid=32405020&amp;doi=10.1038/s41586-020-2270-4&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0056"><mixed-citation id="gh270167-cit-0056"><named-content content-type="citation-string">
+
+Wang, S.
+, 
+Zhan, W.
+, 
+Zhou, B.
+, 
+Tong, S.
+, 
+Chakraborty, T.
+, 
+Wang, Z.
+, et al. (2025). Dual impact of global urban overheating on mortality. Nature Climate Change, 15(5), 497–504. 10.1038/s41558-025-02303-3
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41558-025-02303-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Climate Change&amp;title=Dual impact of global urban overheating on mortality&amp;author=S. Wang&amp;author=W. Zhan&amp;author=B. Zhou&amp;author=S. Tong&amp;author=T. Chakraborty&amp;volume=15&amp;issue=5&amp;publication_year=2025&amp;pages=497-504&amp;doi=10.1038/s41558-025-02303-3&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0057"><mixed-citation id="gh270167-cit-0057"><named-content content-type="citation-string">
+
+Wang, X.
+, 
+Zhai, S.
+, &amp; 
+Shen, L.
+ (2024). Cooling from aerosol–radiation interaction of anthropogenic coarse particles in China. npj Climate and Atmospheric Science, 7(1), 220. 10.1038/s41612-024-00773-4
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41612-024-00773-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=npj Climate and Atmospheric Science&amp;title=Cooling from aerosol–radiation interaction of anthropogenic coarse particles in China&amp;author=X. Wang&amp;author=S. Zhai&amp;author=L. Shen&amp;volume=7&amp;issue=1&amp;publication_year=2024&amp;pages=220&amp;doi=10.1038/s41612-024-00773-4&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0058"><mixed-citation id="gh270167-cit-0058"><named-content content-type="citation-string">
+
+Wang, Y.
+, 
+Lin, C.
+, 
+Lau, A. K. H.
+, 
+Fung, J. C. H.
+, 
+Chong, K. C.
+, &amp; 
+Ren, C.
+ (2025). Assessing the impact of compound heatwave‐ozone event with varied definitions on mortality risk in Hong Kong. Environment International, 201, 109595. 10.1016/j.envint.2025.109595
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.envint.2025.109595"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40505266"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environment International&amp;title=Assessing the impact of compound heatwave‐ozone event with varied definitions on mortality risk in Hong Kong&amp;author=Y. Wang&amp;author=C. Lin&amp;author=A. K. H. Lau&amp;author=J. C. H. Fung&amp;author=K. C. Chong&amp;volume=201&amp;publication_year=2025&amp;pages=109595&amp;pmid=40505266&amp;doi=10.1016/j.envint.2025.109595&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0059"><mixed-citation id="gh270167-cit-0059"><named-content content-type="citation-string">
+
+Wei, W.
+, 
+Chen, S.
+, 
+Wang, Y.
+, 
+Cheng, L.
+, 
+Wang, X.
+, &amp; 
+Cheng, S.
+ (2022). The impacts of VOCs on PM<sub>2.5</sub> increasing via their chemical losses estimates: A case study in a typical industrial city of China. Atmospheric Environment, 273, 118978. 10.1016/j.atmosenv.2022.118978
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosenv.2022.118978"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Environment&amp;title=The impacts of VOCs on PM2.5 increasing via their chemical losses estimates: A case study in a typical industrial city of China&amp;author=W. Wei&amp;author=S. Chen&amp;author=Y. Wang&amp;author=L. Cheng&amp;author=X. Wang&amp;volume=273&amp;publication_year=2022&amp;pages=118978&amp;doi=10.1016/j.atmosenv.2022.118978&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0060"><mixed-citation id="gh270167-cit-0060"><named-content content-type="citation-string">
+
+Weiss, J.
+ (2025). Short‐term effects of extreme heat, cold, and air pollution episodes on excess mortality in Luxembourg. International Journal of Environmental Research and Public Health, 22(3), 376. 10.3390/ijerph22030376
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ijerph22030376"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11941813"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40238412"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal of Environmental Research and Public Health&amp;title=Short‐term effects of extreme heat, cold, and air pollution episodes on excess mortality in Luxembourg&amp;author=J. Weiss&amp;volume=22&amp;issue=3&amp;publication_year=2025&amp;pages=376&amp;pmid=40238412&amp;doi=10.3390/ijerph22030376&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0061"><mixed-citation id="gh270167-cit-0061"><named-content content-type="citation-string">
+
+Wu, H.
+, 
+Zhang, Y.
+, 
+Han, S.
+, 
+Wu, J.
+, 
+Bi, X.
+, 
+Shi, G.
+, et al. (2015). Vertical characteristics of PM<sub>2.5</sub> during the heating season in Tianjin, China. Science of the Total Environment, 523, 152–160. 10.1016/j.scitotenv.2015.03.119
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2015.03.119"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25863506"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science of the Total Environment&amp;title=Vertical characteristics of PM2.5 during the heating season in Tianjin, China&amp;author=H. Wu&amp;author=Y. Zhang&amp;author=S. Han&amp;author=J. Wu&amp;author=X. Bi&amp;volume=523&amp;publication_year=2015&amp;pages=152-160&amp;pmid=25863506&amp;doi=10.1016/j.scitotenv.2015.03.119&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0062"><mixed-citation id="gh270167-cit-0062"><named-content content-type="citation-string">
+
+Wu, W.
+, 
+Fu, T.‐M.
+, 
+Arnold, S. R.
+, 
+Spracklen, D. V.
+, 
+Zhang, A.
+, 
+Tao, W.
+, et al. (2024). Temperature‐dependent evaporative anthropogenic VOC emissions significantly exacerbate regional ozone pollution. Environmental Science &amp; Technology, 58(12), 5430–5441. 10.1021/acs.est.3c09122
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.est.3c09122"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10976895"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38471097"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Science &amp; Technology&amp;title=Temperature‐dependent evaporative anthropogenic VOC emissions significantly exacerbate regional ozone pollution&amp;author=W. Wu&amp;author=T.‐M. Fu&amp;author=S. R. Arnold&amp;author=D. V. Spracklen&amp;author=A. Zhang&amp;volume=58&amp;issue=12&amp;publication_year=2024&amp;pages=5430-5441&amp;pmid=38471097&amp;doi=10.1021/acs.est.3c09122&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0063"><mixed-citation id="gh270167-cit-0063"><named-content content-type="citation-string">
+
+Yan, Y.
+, 
+Cai, X.
+, 
+Miao, Y.
+, &amp; 
+Yu, M.
+ (2022). Synoptic condition and boundary layer structure regulate PM<sub>2.5</sub> pollution in the Huaihe River Basin, China. Atmospheric Research, 269, 106041. 10.1016/j.atmosres.2022.106041
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosres.2022.106041"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Research&amp;title=Synoptic condition and boundary layer structure regulate PM2.5 pollution in the Huaihe River Basin, China&amp;author=Y. Yan&amp;author=X. Cai&amp;author=Y. Miao&amp;author=M. Yu&amp;volume=269&amp;publication_year=2022&amp;pages=106041&amp;doi=10.1016/j.atmosres.2022.106041&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0064"><mixed-citation id="gh270167-cit-0064"><named-content content-type="citation-string">
+
+Ye, T.
+, 
+Xu, R.
+, 
+Yue, X.
+, 
+Chen, G.
+, 
+Yu, P.
+, 
+Coêlho, M. S. Z. S.
+, et al. (2022). Short‐term exposure to wildfire‐related PM<sub>2.5</sub> increases mortality risks and burdens in Brazil. Nature Communications, 13(1), 7651. 10.1038/s41467-022-35326-x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-022-35326-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9741581"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36496479"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Communications&amp;title=Short‐term exposure to wildfire‐related PM2.5 increases mortality risks and burdens in Brazil&amp;author=T. Ye&amp;author=R. Xu&amp;author=X. Yue&amp;author=G. Chen&amp;author=P. Yu&amp;volume=13&amp;issue=1&amp;publication_year=2022&amp;pages=7651&amp;pmid=36496479&amp;doi=10.1038/s41467-022-35326-x&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0065"><mixed-citation id="gh270167-cit-0065"><named-content content-type="citation-string">
+
+Yin, H.
+, 
+McDuffie, E. E.
+, 
+Martin, R. V.
+, &amp; 
+Brauer, M.
+ (2024). Global health costs of ambient PM<sub>2.5</sub> from combustion sources: A modelling study supporting air pollution control strategies. The Lancet Planetary Health, 8(7), e476–e488. 10.1016/S2542-5196(24)00098-6
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S2542-5196(24)00098-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38969475"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The Lancet Planetary Health&amp;title=Global health costs of ambient PM2.5 from combustion sources: A modelling study supporting air pollution control strategies&amp;author=H. Yin&amp;author=E. E. McDuffie&amp;author=R. V. Martin&amp;author=M. Brauer&amp;volume=8&amp;issue=7&amp;publication_year=2024&amp;pages=e476-e488&amp;pmid=38969475&amp;doi=10.1016/S2542-5196(24)00098-6&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0066"><mixed-citation id="gh270167-cit-0066"><named-content content-type="citation-string">
+
+Yu, Y.
+, 
+Dai, C.
+, 
+Wei, Y.
+, 
+Ren, H.
+, &amp; 
+Zhou, J.
+ (2022). Air pollution prevention and control action plan substantially reduced PM<sub>2.5</sub> concentration in China. Energy Economics, 113, 106206. 10.1016/j.eneco.2022.106206
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.eneco.2022.106206"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Energy Economics&amp;title=Air pollution prevention and control action plan substantially reduced PM2.5 concentration in China&amp;author=Y. Yu&amp;author=C. Dai&amp;author=Y. Wei&amp;author=H. Ren&amp;author=J. Zhou&amp;volume=113&amp;publication_year=2022&amp;pages=106206&amp;doi=10.1016/j.eneco.2022.106206&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0067"><mixed-citation id="gh270167-cit-0067"><named-content content-type="citation-string">
+
+Yun, G.
+, &amp; 
+Zhao, S.
+ (2022). The imprint of urbanization on PM<sub>2.5</sub> concentrations in China: The urban‐rural gradient study. Sustainable Cities and Society, 86, 104103. 10.1016/j.scs.2022.104103
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scs.2022.104103"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sustainable Cities and Society&amp;title=The imprint of urbanization on PM2.5 concentrations in China: The urban‐rural gradient study&amp;author=G. Yun&amp;author=S. Zhao&amp;volume=86&amp;publication_year=2022&amp;pages=104103&amp;doi=10.1016/j.scs.2022.104103&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0068"><mixed-citation id="gh270167-cit-0068"><named-content content-type="citation-string">
+
+Zhong, J.
+, 
+Zhang, X.
+, 
+Dong, Y.
+, 
+Wang, Y.
+, 
+Liu, C.
+, 
+Wang, J.
+, et al. (2018). Feedback effects of boundary‐layer meteorological factors on cumulative explosive growth of PM<sub>2.5</sub> during winter heavy pollution episodes in Beijing from 2013 to 2016. Atmospheric Chemistry and Physics, 18(1), 247–258. 10.5194/acp-18-247-2018
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/acp-18-247-2018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Chemistry and Physics&amp;title=Feedback effects of boundary‐layer meteorological factors on cumulative explosive growth of PM2.5 during winter heavy pollution episodes in Beijing from 2013 to 2016&amp;author=J. Zhong&amp;author=X. Zhang&amp;author=Y. Dong&amp;author=Y. Wang&amp;author=C. Liu&amp;volume=18&amp;issue=1&amp;publication_year=2018&amp;pages=247-258&amp;doi=10.5194/acp-18-247-2018&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0069"><mixed-citation id="gh270167-cit-0069"><named-content content-type="citation-string">
+
+Zhou, L.
+, 
+Wang, Y.
+, 
+Wang, Q.
+, 
+Ding, Z.
+, 
+Jin, H.
+, 
+Zhang, T.
+, &amp; 
+Zhu, B.
+ (2023). The interactive effects of extreme temperatures and PM<sub>2.5</sub> pollution on mortalities in Jiangsu Province, China. Scientific Reports, 13(1), 9479. 10.1038/s41598-023-36635-x
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-023-36635-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10257702"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37301905"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=The interactive effects of extreme temperatures and PM2.5 pollution on mortalities in Jiangsu Province, China&amp;author=L. Zhou&amp;author=Y. Wang&amp;author=Q. Wang&amp;author=Z. Ding&amp;author=H. Jin&amp;volume=13&amp;issue=1&amp;publication_year=2023&amp;pages=9479&amp;pmid=37301905&amp;doi=10.1038/s41598-023-36635-x&amp;"/></mixed-citation></ref><ref id="gh270167-bib-0070"><mixed-citation id="gh270167-cit-0070"><named-content content-type="citation-string">
+
+Zou, E. Y.
+ (2021). Unwatched pollution: The effect of intermittent monitoring on air quality. American Economic Review, 111(7), 2101–2126. 10.1257/aer.20181346
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1257/aer.20181346"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=American Economic Review&amp;title=Unwatched pollution: The effect of intermittent monitoring on air quality&amp;author=E. Y. Zou&amp;volume=111&amp;issue=7&amp;publication_year=2021&amp;pages=2101-2126&amp;doi=10.1257/aer.20181346&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>Supporting Information S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GH2-10-e2025GH001763-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 548b/13282691/a078a890b471/GH2-10-e2025GH001763-s001.docx?><?cloudpmc-bucket app?><?size 6759078?></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>The data and code that can be used to replicate the main figures and results will be provided in a public repository upon publication. The editor and the reviewers can access the replication data and code at the following link: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zenodo.org/records/17966082" ext-link-type="uri">https://zenodo.org/records/17966082</ext-link>. Ground‐level PM<sub>2.5</sub> observations were obtained from national and regional air quality monitoring networks: Chile (SINCA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sinca.mma.gob.cl" ext-link-type="uri">https://sinca.mma.gob.cl</ext-link>), United States (EPA AQS, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.epa.gov/outdoor-air-quality-data/download-daily-data" ext-link-type="uri">https://www.epa.gov/outdoor‐air‐quality‐data/download‐daily‐data</ext-link>), European Union (EEA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://eeadmz1-downloads-webapp.azurewebsites.net" ext-link-type="uri">https://eeadmz1‐downloads‐webapp.azurewebsites.net</ext-link>), China (CNEMC, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cnemc.cn/" ext-link-type="uri">http://www.cnemc.cn/</ext-link>), India (CPCB, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cpcb.nic.in/National-Air-Quality-Index/" ext-link-type="uri">https://cpcb.nic.in/National‐Air‐Quality‐Index/</ext-link>), New Zealand (LAWA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.lawa.org.nz/explore-data/air-quality" ext-link-type="uri">https://www.lawa.org.nz/explore‐data/air‐quality</ext-link>), Brazil (IEMA, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://energiaeambiente.org.br/qualidadedoar/en/" ext-link-type="uri">https://energiaeambiente.org.br/qualidadedoar/en/</ext-link>), and Australia (state‐level EPAs for NSW, Victoria, Queensland, South Australia, and Western Australia). Western Australia data were provided upon request from the Department of Water and Environmental Regulation under a data sharing agreement. Gridded PM<sub>2.5</sub> concentrations were derived from NASA's MERRA‐2 reanalysis (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://disc.gsfc.nasa.gov/datasets/M2T1NXAER_5.12.4/summary" ext-link-type="uri">https://disc.gsfc.nasa.gov/datasets/M2T1NXAER_5.12.4/summary</ext-link>). Population data were obtained from the Oak Ridge National Laboratory LandScan Global data set (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://landscan.ornl.gov/" ext-link-type="uri">https://landscan.ornl.gov/</ext-link>). MERRA‐2 aerosol diagnostics data used for sensitivity analyses were obtained through Google Earth Engine (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://developers.google.com/earth-engine/datasets/catalog/NASA_GSFC_MERRA_aer_2" ext-link-type="uri">https://developers.google.com/earth‐engine/datasets/catalog/NASA_GSFC_MERRA_aer_2</ext-link>). The original MERRA‐2 data set is produced by NASA's Global Modeling and Assimilation Office (GMAO) and is also available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://disc.gsfc.nasa.gov/datasets?project=MERRA-2" ext-link-type="uri">https://disc.gsfc.nasa.gov/datasets?project=MERRA‐2</ext-link>.</p></sec></sec></body></article>
