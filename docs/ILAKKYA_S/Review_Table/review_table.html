@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Corpus review table</title>
+  <link rel="stylesheet" href="review_table.css" />
+  <style>
+    /* Critical reader layout — kept inline so papers always display */
+    #paper-reader.open {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) min(52rem, 58vw);
+      grid-template-rows: 1fr;
+      height: 100vh;
+      z-index: 1000;
+    }
+    #paper-reader .reader-panel {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      height: 100%;
+    }
+    #paper-reader .reader-body {
+      flex: 1 1 0;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    #paper-reader .reader-body iframe {
+      flex: 1 1 0;
+      min-height: 0;
+      width: 100%;
+      border: 0;
+    }
+    .read-links { display: inline-flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+    .paper-link { color: #2563eb; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Corpus review table</h1>
+    <p class="summary">50 papers · include 0 · review 50 · exclude 0</p>
+    <p id="connection-banner" class="connection-banner connection-banner--warn" hidden></p>
+    <p class="toolbar">
+      Edit <strong>Status</strong> and <strong>Notes</strong> below.
+      Style this page via <code>review_table.css</code>.
+      Full papers load only when this page is opened via <code>review_viewer.py serve</code> (http:// URL, not a saved file).
+    </p>
+  </header>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Status</th>
+          <th>Title</th>
+          <th>PMCID</th>
+          <th>Authors</th>
+          <th>Date</th>
+          <th>XML</th>
+          <th>PDF</th>
+          <th>Read</th>
+          <th>Abstract</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody id="review-body"></tbody>
+    </table>
+  </div>
+  <div id="paper-reader" aria-hidden="true">
+    <div class="reader-main" id="reader-backdrop"></div>
+    <aside class="reader-panel" role="dialog" aria-label="Full paper">
+      <div class="reader-head">
+        <div class="reader-head-main">
+          <h2 id="reader-title">Full paper</h2>
+          <div class="reader-formats" id="reader-formats" hidden>
+            <button type="button" class="format-btn" data-format="html">HTML</button>
+            <button type="button" class="format-btn" data-format="pdf">PDF</button>
+          </div>
+        </div>
+        <button type="button" id="reader-close">Close</button>
+      </div>
+      <div class="reader-body">
+        <iframe id="paper-frame" title="Full paper"></iframe>
+        <p id="reader-status" class="reader-status" hidden></p>
+      </div>
+    </aside>
+  </div>
+  <p class="toolbar">
+    <button id="save-btn" type="button">Save review table</button>
+    <span id="save-message"></span>
+  </p>
+  <script>
+    const rows = [{"review_status": "review", "score": 9, "paper_id": "europe_pmc_PMC12086192", "pmcid": "PMC12086192", "pmid": "40383745", "doi": "10.1038/s41598-025-01361-z", "title": "Sustainable modular biofiltration system with rainshower technology for AQI reform.", "publication_date": "2025-05-18", "journal": "", "authors": "Jaiswal V; Singh S; Mangal A; Singh PP", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "cardiovascular, health", "abstract_snippet": "India is the tenth most polluted nation in the world, according to the World Health Organization (WHO) 2022 assessment. Approximately 1.67 million deaths are caused by lung, cardiovascular, stroke, an...", "review_notes": ""}, {"review_status": "review", "score": 9, "paper_id": "europe_pmc_PMC12448019", "pmcid": "PMC12448019", "pmid": "40980428", "doi": "10.1016/j.mex.2025.103597", "title": "A hybrid physics-informed neural and explainable AI approach for scalable and interpretable AQI predictions.", "publication_date": "2025-08-29", "journal": "", "authors": "Chandrashekar SV; Khan F; Sridhar S; Dhanaraj RK; Balusamy B; Pamucar D; Sathyamoorthy M", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "health, public health", "abstract_snippet": "<i>Air Pollution is a critical environmental issue affecting public health, climate, and ecosystems. However, accurately predicting and classifying Air Quality Index (AQI) levels across different regi...", "review_notes": ""}, {"review_status": "review", "score": 8, "paper_id": "europe_pmc_PMC12098713", "pmcid": "PMC12098713", "pmid": "40404694", "doi": "10.1038/s41598-025-00814-9", "title": "Assessment and forecasting of particulate matter emissions and structural health monitoring of buildings in Bangalore.", "publication_date": "2025-05-22", "journal": "", "authors": "Devi LP; Chandana R; Bandhu D", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "bangalore", "pollutant_terms": "aqi, air quality index, particulate matter", "health_terms": "health, public health", "abstract_snippet": "Particulate Matter (PM) emissions have emerged as a critical global concern due to rapid urbanisation, increased vehicular traffic, and construction activities. These emissions not only harm human hea...", "review_notes": ""}, {"review_status": "review", "score": 8, "paper_id": "europe_pmc_PMC12815361", "pmcid": "PMC12815361", "pmid": "41561726", "doi": "10.4103/ijcm.ijcm_663_24", "title": "Impact of Housing Conditions and Air Quality Awareness with Indoor PM2.5 Levels in Urban Jodhpur.", "publication_date": "2025-11-13", "journal": "", "authors": "Huda RK; Gupta R; Kumar P; Singh J; Sharma AK; Toteja GS; Babu BV", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "pm2.5, particulate matter, air pollution", "health_terms": "health, public health", "abstract_snippet": "Indoor air pollution poses a major public health concern in India, particularly among urban populations exposed to high levels of particulate matter. This study aimed to assess the influence of housin...", "review_notes": ""}, {"review_status": "review", "score": 8, "paper_id": "europe_pmc_PMC13289869", "pmcid": "PMC13289869", "pmid": "42335049", "doi": "10.1371/journal.pgph.0005382", "title": "Real-time impacts of air pollution on the health, well-being, and daily life of children and young people in Delhi and Dhaka.", "publication_date": "2026-06-23", "journal": "", "authors": "Bwire C; Bonnet G; Bonell A; Juel R; Milner J; Yeung S; Hughes R", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, delhi", "pollutant_terms": "pm2.5, particulate matter, air pollution", "health_terms": "respiratory, health", "abstract_snippet": "Air pollution is a major global health threat, with children and young people (CYP) among the most vulnerable. Delhi (India) and Dhaka (Bangladesh) are two of the world's most polluted cities, with pe...", "review_notes": ""}, {"review_status": "review", "score": 8, "paper_id": "paper_41151661", "pmcid": "", "pmid": "41151661", "doi": "10.1016/j.envpol.2025.127324", "title": "Impact of meteorological drivers on air quality index: A case study from Delhi.", "publication_date": "2025-10-26", "journal": "", "authors": "Ali D; Singh M; Khan AA; Vidyarthi AK; Ahmed S", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "delhi", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "health", "abstract_snippet": "Air quality is directly linked to human health and the sustainable development of economic and social systems. This study is based on the Air Quality Index (AQI) and meteorological data of Delhi from ...", "review_notes": ""}, {"review_status": "review", "score": 8, "paper_id": "paper_41196422", "pmcid": "", "pmid": "41196422", "doi": "10.1007/s10661-025-14700-4", "title": "Evaluating machine learning models and imputation strategies for Air Quality Index forecasting in urban India.", "publication_date": "2025-11-06", "journal": "", "authors": "Lawrence S; Bhathmanabhan S", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian, chennai", "pollutant_terms": "aqi, air quality index", "health_terms": "health", "abstract_snippet": "Accurate Air Quality Index (AQI) prediction is essential for timely health risk management in urban environments, yet challenges such as missing data and complex pollutant interactions limit the perfo...", "review_notes": ""}, {"review_status": "review", "score": 8, "paper_id": "paper_42270759", "pmcid": "", "pmid": "42270759", "doi": "10.1038/s41598-026-54918-x", "title": "Regression based hybrid machine learning model performance evaluation on air quality index prediction in Kolkata.", "publication_date": "2026-06-10", "journal": "", "authors": "G K ML; G MR", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "kolkata", "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter, air pollution", "health_terms": "health, public health", "abstract_snippet": "Air pollution, especially elevated particulate matter concentrations, presents a substantial risk to public health and environmental sustainability in urban regions. By employing machine learning and ...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_10.21203_rs.3.rs-10024875_v1", "pmcid": "", "pmid": "", "doi": "10.21203/rs.3.rs-10024875/v1", "title": "Association Between Ambient and Indoor Air Pollution Exposure and Nutritional Status of Under-5 (36–59 Months) Children: An Analytical Cross-Sectional Study in Mysuru, India", "publication_date": "2026-06-23", "journal": "", "authors": "Basanagoudar B; M SD; C MM", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian", "pollutant_terms": "aqi, particulate matter, air pollution", "health_terms": "exposure, health, public health", "abstract_snippet": "<title>Abstract<\/title>  <p>Background  Childhood undernutrition and air pollution are converging crises in low- and middle-income countries. Despite a well-established biological rationale, evidence ...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_10.21203_rs.3.rs-9177028_v1", "pmcid": "", "pmid": "", "doi": "10.21203/rs.3.rs-9177028/v1", "title": "Occupational exposure to air pollution and respiratory health among urban street vendors in South India", "publication_date": "2026-04-07", "journal": "", "authors": "Muruganantham P; S VT; Ubaithullah¹ AB; Jayaraman N; Sethuraman S; Arasu V; Ravichandran H; Janakiraman¹ B", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, chennai", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "exposure, respiratory, health, public health", "abstract_snippet": "<title>Abstract<\/title>  <p>Background  Street vending is a non-formal, vital domestic workforce in most developing nations. The street vendors operate in an unregulated environment and are frequently...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_40889630", "pmcid": "", "pmid": "40889630", "doi": "10.1016/j.envpol.2025.127051", "title": "Association between ambient air pollution and increased risk of respiratory diseases in Vellore and Ranipet, Tamil Nadu, India: A retrospective study.", "publication_date": "2025-08-30", "journal": "", "authors": "Pootheri A; Chinnaiyan P; Ashok N; Saraswathy R", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, tamil nadu", "pollutant_terms": "aqi, ambient air pollution, air pollution", "health_terms": "exposure, respiratory", "abstract_snippet": "Numerous studies have shown a link between short and long-term exposure to air pollution and a wide range of illnesses. Although the etiology of these illnesses has been identified, modifiable risk fa...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_41492204", "pmcid": "", "pmid": "41492204", "doi": "10.1080/10934529.2025.2609042", "title": "Temporal trends in AQI and precursor pollutants: a long-term case study of Noida.", "publication_date": "2025-01-01", "journal": "", "authors": "Raju MP; Bhardwaj LK; Srivastava AK", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, uttar pradesh", "pollutant_terms": "aqi, air quality index, particulate matter, ozone", "health_terms": "", "abstract_snippet": "This study analyses the long-term variations in air quality at Amity University, Noida, Uttar Pradesh, India, from May 2017 to December 2024, focusing on the monthly mean Air Quality Index (AQI) and i...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_41863339", "pmcid": "", "pmid": "41863339", "doi": "10.1093/inteam/vjag046", "title": "Assessing Nexus between Human Health and Air Pollutants through Spatiotemporal Analysis of Particulate Matters.", "publication_date": "2026-03-21", "journal": "", "authors": "Kumar P; Kumar P; Pratap Choudhary M", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian", "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter", "health_terms": "exposure, mortality, cardiovascular, health", "abstract_snippet": "This study evaluates spatiotemporal variation of particulate pollution and associated health impacts in Jodhpur, an arid Indian city among the most polluted in the country. Data from nine monitoring s...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_42336951", "pmcid": "", "pmid": "42336951", "doi": "10.1038/s41598-026-54531-y", "title": "Firecracker-induced air pollution and health burden during Diwali: ground and satellite assessment across 14 cities of The Indo-Gangetic Basin.", "publication_date": "2026-06-23", "journal": "", "authors": "Bartaria V; Kumar R; Kumar K; Jangid A", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "delhi", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "exposure, health, public health", "abstract_snippet": "This study examines the impact of Diwali festivities on air quality and public health across 14 cities in the Indo-Gangetic Basin (IGB), integrating ground-based monitoring, satellite data, and meteor...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_42373085", "pmcid": "", "pmid": "42373085", "doi": "10.1080/09593330.2026.2693198", "title": "Sustainable air pollution management in coal mining through low-cost sensors and smart monitoring platform.", "publication_date": "2026-06-29", "journal": "", "authors": "Suresh V; Agarwal S; Chugh YP; Kumar S; Gautam A", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "aqi, air pollution", "health_terms": "health", "abstract_snippet": "Open-pit coal mining is a significant source of air pollution, especially in developing countries, where dust and gaseous emissions from mining operations often exceed regulated limits due to limited ...", "review_notes": ""}, {"review_status": "review", "score": 7, "paper_id": "paper_42399879", "pmcid": "", "pmid": "42399879", "doi": "10.1186/s12889-026-28270-8", "title": "Occupational exposure to air pollution and respiratory health among urban street vendors in South India.", "publication_date": "2026-07-03", "journal": "", "authors": "Muruganantham P; T S V; Ubaithullah AB; Jayaraman N; Sethuraman S; Arasu V; Ravichandran H; Janakiraman B", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, chennai", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "exposure, respiratory, health, public health", "abstract_snippet": "<h4>Background<\/h4>Street vending is a non-formal, vital domestic workforce in most developing nations. The street vendors operate in an unregulated environment and are frequently exposed to hazardous...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC11492728", "pmcid": "PMC11492728", "pmid": "39434902", "doi": "10.1016/j.lansea.2024.100486", "title": "Assessing the impact of the National Clean Air Programme in Uttar Pradesh's non-attainment cities: a prophet model time series analysis.", "publication_date": "2024-10-07", "journal": "", "authors": "Bera OP; Venkatesh U; Pal GK; Shastri S; Chakraborty S; Grover A; Joshi HS", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, uttar pradesh", "pollutant_terms": "aqi, pm 10", "health_terms": "health", "abstract_snippet": "<h4>Background<\/h4>Uttar Pradesh, India's largest state, faces critical pollution levels, necessitating urgent action. The National Clean Air Programme (NCAP) targets a 40% reduction in particulate po...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC12572900", "pmcid": "PMC12572900", "pmid": "41133810", "doi": "10.4274/thoracrespract.2025.2025-1-3", "title": "Effect of Ambient Air Pollutants on Acute changes in Pulmonary Variables and Inflammatory Markers in Healthy Adults: A Pilot Study.", "publication_date": "2025-10-01", "journal": "", "authors": "Gupta A; Jaiswal KN; Shanmugasundaram K; Mandlecha L; Gagal S; Talwar A; Bade G", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "aqi, air quality index, pm2.5, pm10, particulate matter, ambient air pollution, air pollution", "health_terms": "exposure, respiratory, cardiovascular, health", "abstract_snippet": "<h4>Objective<\/h4>Air pollution is associated with adverse health effects, particularly on respiratory and cardiovascular systems. Smog, prevalent in Northern India, contains particulate matter (PM10,...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC12710085", "pmcid": "PMC12710085", "pmid": "41416034", "doi": "10.1029/2025gh001409", "title": "Assessment of Ambient Multipollutant Exposure and Health Impacts Over India Using the Novel Satellite-Based Multi-Pollutant Index.", "publication_date": "2025-12-17", "journal": "", "authors": "Ardra D; Philip S; Sarkar D; Ghosh S; van Donkelaar A; Martin RV; Dey S", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "exposure, health", "abstract_snippet": "Ambient air pollutants are reported to have adverse health impacts, which could be better assessed by examining human exposure to multiple criteria pollutants or through a multi-pollutant Air Quality ...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC12995173", "pmcid": "PMC12995173", "pmid": "41721668", "doi": "10.4103/lungindia.lungindia_509_25", "title": "A cross-sectional study on the respiratory health status and its determinants among rural handloom workers in Tamil Nadu.", "publication_date": "2026-02-21", "journal": "", "authors": "Vinoth Kumar V; Chitra A; Costantia Dovita S", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, tamil nadu", "pollutant_terms": "pm2.5, pm10", "health_terms": "exposure, respiratory, health", "abstract_snippet": "<h4>Background and objective<\/h4>Handloom weaving is a major rural occupation in India, often conducted in home-based settings with limited regulation and minimal protective measures. Such environment...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC13199542", "pmcid": "PMC13199542", "pmid": "41932943", "doi": "10.1038/s41598-026-40057-w", "title": "Systematic exposure bias in city-level air quality reporting revealed by 38 years of Indian observations.", "publication_date": "2026-04-03", "journal": "", "authors": "Sharma G; Parmar PD; Nema AK; Gargava P; Kota SH", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian", "pollutant_terms": "aqi, air quality index, particulate matter", "health_terms": "exposure", "abstract_snippet": "Accurately representing urban air quality remains a central challenge in managing global exposure and communicating environmental risk. In rapidly urbanising regions such as India, Air Quality Index (...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC13219415", "pmcid": "PMC13219415", "pmid": "41951751", "doi": "10.1038/s41598-026-47424-7", "title": "Cost-effective and scalable urban air quality monitoring using image-based deep learning.", "publication_date": "2026-04-08", "journal": "", "authors": "Arifuzzaman M; Srinivasagan R; Alqurashi R; Alqurashi A", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "pm2.5, pm10, air pollution", "health_terms": "exposure, respiratory, cardiovascular, health", "abstract_snippet": "Air pollution is a persisting problem for the environment, mainly in urban areas, given heavy industrialization and vehicular emissions and urbanization. Exposure to harmful air pollutants, including ...", "review_notes": ""}, {"review_status": "review", "score": 6, "paper_id": "europe_pmc_PMC13282691", "pmcid": "PMC13282691", "pmid": "42327850", "doi": "10.1029/2025gh001763", "title": "Characterizing the Compound Extreme Temperature and PM&lt;sub&gt;2.5&lt;/sub&gt; Pollution Events: A Multi-Country Analysis.", "publication_date": "2026-06-20", "journal": "", "authors": "Chen D; Zahid M; Qiu M", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "air pollution", "health_terms": "exposure, health", "abstract_snippet": "The increasing frequency of climate extreme events and persistent air pollution challenges pose compound environmental risks, yet the spatiotemporal patterns and trends of compound extreme temperature...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_10.21203_rs.3.rs-9242405_v1", "pmcid": "", "pmid": "", "doi": "10.21203/rs.3.rs-9242405/v1", "title": "Gasping for Data: Evaluating the Adequacy of Continuous Ambient Air Quality Monitoring Network of India", "publication_date": "2026-06-15", "journal": "", "authors": "Kapoor A; Bera S", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, delhi", "pollutant_terms": "air pollution", "health_terms": "exposure, health", "abstract_snippet": "<title>Abstract<\/title>  <p>Air pollution in India represents a significant health and economic burden, requiring the development of a national ambient air quality monitoring framework which is repres...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_39496974", "pmcid": "", "pmid": "39496974", "doi": "10.1007/s10661-024-13267-w", "title": "Understanding the relationship between land use/land cover changes and air quality: A GIS-based fuzzy inference system approach.", "publication_date": "2024-11-05", "journal": "", "authors": "Zaid M; Basu D", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "delhi", "pollutant_terms": "aqi, air quality index, particulate matter, air pollution", "health_terms": "health", "abstract_snippet": "Air pollution is a global issue that demands urgent attention due to its detrimental effects on human health and the environment. Land Use and Land Cover (LULC) change is an essential factor that sign...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_39937354", "pmcid": "", "pmid": "39937354", "doi": "10.1007/s10661-025-13754-8", "title": "Assessing air quality extremes: a comparative extreme value analysis of metropolitan cities across India and the world.", "publication_date": "2025-02-12", "journal": "", "authors": "Ghosh D", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian, delhi, mumbai, kolkata, chennai, hyderabad", "pollutant_terms": "aqi, air quality index, particulate matter, air pollution, ozone", "health_terms": "health, public health", "abstract_snippet": "Air pollution is a significant global issue that impacts public health, particularly in urban areas where pollution levels often exceed safe limits. The Air Quality Index (AQI) serves as a key metric ...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_40637895", "pmcid": "", "pmid": "40637895", "doi": "10.1007/s10661-025-14312-y", "title": "Spatio-temporal analysis of air quality in high traffic density zones of Haridwar City, India.", "publication_date": "2025-07-10", "journal": "", "authors": "Singh J; Kumar P; Kale A; Yadav AK; Maurya PK; Kumar D; Ahamad F", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india", "pollutant_terms": "aqi, air quality index, particulate matter, air pollution", "health_terms": "health", "abstract_snippet": "Urban air pollution poses a significant threat to human health and environmental quality, especially in rapidly urbanizing areas. This study aimed to analyze the spatio-temporal variations of air qual...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_42069692", "pmcid": "", "pmid": "42069692", "doi": "10.1038/s41598-026-47509-3", "title": "Deciphering seasonal dynamics and time series forecasting of urban air quality: a case study in Urban Cities of Andhra Pradesh.", "publication_date": "2026-05-02", "journal": "", "authors": "Shreyas D; Nishith B; Neelima N; Smitha TV; Venugopal V; Ozer T", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, hyderabad, patna", "pollutant_terms": "aqi, air quality index", "health_terms": "health, public health", "abstract_snippet": "Proper air quality forecasting is essential in developing countries such as India, where climate variability, industrialization, and increasing urbanization play a major role in degrading air quality ...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_42257747", "pmcid": "", "pmid": "42257747", "doi": "10.1007/s10661-026-15532-6", "title": "Short-term air quality degradation during Diwali in a rural region: elemental composition and source insights.", "publication_date": "2026-06-08", "journal": "", "authors": "Sharma R; Puttaswamy H; Tyagi SK", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian, uttar pradesh", "pollutant_terms": "air pollution", "health_terms": "exposure, health", "abstract_snippet": "Firecracker emissions during Diwali are known to elevate air pollution in Indian cities; however, their short-term impacts in rural regions remain poorly characterized. This study evaluates the influe...", "review_notes": ""}, {"review_status": "review", "score": 5, "paper_id": "paper_42287563", "pmcid": "", "pmid": "42287563", "doi": "10.1007/s10661-026-15553-1", "title": "Multi-scale temporal evolution and spatial heterogeneity of PM&lt;sub&gt;2.5&lt;/sub&gt; and PM&lt;sub&gt;10&lt;/sub&gt; across 33 monitoring stations in Delhi (2017-2024): diurnal, seasonal, and long-term trends.", "publication_date": "2026-06-13", "journal": "", "authors": "Sharma D", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "delhi", "pollutant_terms": "particulate matter", "health_terms": "health", "abstract_snippet": "Delhi experiences some of the highest particulate matter concentrations globally, yet comprehensive assessments integrating long-term temporal trends and spatial heterogeneity using completeness-contr...", "review_notes": ""}, {"review_status": "review", "score": 4, "paper_id": "europe_pmc_PMC12507303", "pmcid": "PMC12507303", "pmid": "41060978", "doi": "10.1371/journal.pone.0334252", "title": "Machine learning-based forecasting of air quality index under long-term environmental patterns: A comparative approach with XGBoost, LightGBM, and SVM.", "publication_date": "2025-10-08", "journal": "", "authors": "Tırınk S", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "health, public health", "abstract_snippet": "Air pollution is a global problem that threatens environmental sustainability and severely affects public health. Monitoring air quality and predicting future pollution levels are critical for creatin...", "review_notes": ""}, {"review_status": "review", "score": 4, "paper_id": "europe_pmc_PMC12976265", "pmcid": "PMC12976265", "pmid": "41680275", "doi": "10.1038/s41598-026-39232-w", "title": "Ensemble learning for air quality index prediction: integrating gradient boosting, XGBoost, and stacking with SHAP-based interpretability.", "publication_date": "2026-02-12", "journal": "", "authors": "Singh S; Kumar M; Sengar V; Kumar A; Abhishek K; Shafeeq BMA", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index, pm2.5, pm10, air pollution", "health_terms": "health", "abstract_snippet": "The increasing challenge of air pollution in cities requires smart methods to make proper predictions and manage the problem. Although machine learning and deep learning models have contributed greatl...", "review_notes": ""}, {"review_status": "review", "score": 4, "paper_id": "paper_40659995", "pmcid": "", "pmid": "40659995", "doi": "10.1007/s11356-025-36749-x", "title": "Assessing carbon emissions at urban intersections: a case study of CO levels and traffic parameters in Hyderabad, India.", "publication_date": "2025-07-14", "journal": "", "authors": "Tallam T; Kurre SS; Viswanath B", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, hyderabad", "pollutant_terms": "aqi, air quality index, air pollution, carbon monoxide", "health_terms": "", "abstract_snippet": "Air pollution remains a pressing global concern, significantly contributing to climate change and environmental degradation. Among the primary contributors, greenhouse gases-especially from carbon emi...", "review_notes": ""}, {"review_status": "review", "score": 4, "paper_id": "paper_42214540", "pmcid": "", "pmid": "42214540", "doi": "10.1016/j.envpol.2026.128448", "title": "Nonlinear meteorological controls on coastal air quality along the Indian East Coast: Insights from a multi-city interpretable machine learning framework.", "publication_date": "2026-05-28", "journal": "", "authors": "Varaprasad V; Madhavan BL; Jain CD; Krishnaveni AS; Ratnam MV", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, indian, chennai, patna", "pollutant_terms": "aqi, air quality index, particulate matter, air pollution", "health_terms": "", "abstract_snippet": "This study investigates the role of meteorological variability in shaping ambient air quality across five coastal cities along the Indian East Coast (Haldia, Balasore, Visakhapatnam, Chennai, and Pudu...", "review_notes": ""}, {"review_status": "review", "score": 4, "paper_id": "paper_42307838", "pmcid": "", "pmid": "42307838", "doi": "10.1007/s10661-026-15593-7", "title": "Spatiotemporal distribution of air pollutants in UP-NCR, India: a 5-year analysis of pollution trends and meteorological influences.", "publication_date": "2026-06-17", "journal": "", "authors": "Sharma R; Kamboj S; Puttaswamy H; Tyagi SK", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "india, uttar pradesh", "pollutant_terms": "particulate matter", "health_terms": "", "abstract_snippet": "This study presents a comprehensive spatiotemporal assessment of key ambient air pollutants (PM<sub>2.5<\/sub>, PM<sub>10<\/sub>, SO<sub>2<\/sub>, NO<sub>2<\/sub>, NH<sub>3,<\/sub> O<sub>3<\/sub>, and CO) a...", "review_notes": ""}, {"review_status": "review", "score": 3, "paper_id": "europe_pmc_PMC12503330", "pmcid": "PMC12503330", "pmid": "41056311", "doi": "10.1371/journal.pone.0333849", "title": "Exploring regional air pollution transition dynamics: A multi-state markov model approach.", "publication_date": "2025-10-07", "journal": "", "authors": "Hossain MI; Sarkar S; Methun MIH; Rahman A", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "health", "abstract_snippet": "<h4>Background<\/h4>Air pollution, commonly measured by the Air Quality Index (AQI), is a significant global health risk, yet its transition dynamics remain poorly understood. This study aims to invest...", "review_notes": ""}, {"review_status": "review", "score": 3, "paper_id": "europe_pmc_PMC13159321", "pmcid": "PMC13159321", "pmid": "41913165", "doi": "10.1186/s12889-026-27175-w", "title": "The association between physical activity and cardiovascular disease under indoor air pollution among middle-aged-to-elderly people: a sex-specific analysis from CHARLS.", "publication_date": "2026-03-30", "journal": "", "authors": "Xie H; Chen B; Xia F; Xia J", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "air pollution", "health_terms": "exposure, cardiovascular, health", "abstract_snippet": "BACKGROUND: The associations between physical activity (PA) and outdoor air pollution with cardiovascular disease (CVD) are well established, but evidence regarding indoor air pollution remains scarce...", "review_notes": ""}, {"review_status": "review", "score": 3, "paper_id": "europe_pmc_PMC13187486", "pmcid": "PMC13187486", "pmid": "41927618", "doi": "10.1038/s41598-026-40726-w", "title": "A hybrid bio-inspired model for predicting urban air pollution using deep learning.", "publication_date": "2026-04-02", "journal": "", "authors": "Chaudhary D; Vats P; Vats S; Yadav SL; Sharma A", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "air quality index, particulate matter, air pollution, ozone, carbon monoxide", "health_terms": "health, public health", "abstract_snippet": "Accurate prediction of urban air quality is vital for protecting public health and the environment. The current challenges in air quality prediction models include noisy data, missing data, interactio...", "review_notes": ""}, {"review_status": "review", "score": 3, "paper_id": "paper_41385043", "pmcid": "", "pmid": "41385043", "doi": "10.1007/s11356-025-37269-4", "title": "Enhanced forecasting of air quality index through an integrated deep learning framework.", "publication_date": "2025-11-01", "journal": "", "authors": "Raja S; Damodaran A; Manohar G", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index", "health_terms": "health, public health", "abstract_snippet": "Accurate air quality forecasting is vital for public health, urban planning, and environmental policy. Traditional models often fail to capture the complex temporal, spatial, and topological dependenc...", "review_notes": ""}, {"review_status": "review", "score": 3, "paper_id": "paper_41772316", "pmcid": "", "pmid": "41772316", "doi": "10.1007/s10661-026-15121-7", "title": "A cluster-aware synthetic resampling and machine learning framework for multi-class Air Quality Index classification.", "publication_date": "2026-03-03", "journal": "", "authors": "Ravindiran G; Karthick K; Sivarethinamohan S; Rajamanickam S; Shyamala G; Datta D; Christo MS", "has_xml": false, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index", "health_terms": "health", "abstract_snippet": "The Air Quality Index (AQI) is a widely used indicator for assessing ambient pollution levels and associated health risks. However, AQI classification using data-driven approaches is often challenged ...", "review_notes": ""}, {"review_status": "review", "score": 1, "paper_id": "europe_pmc_PMC11310496", "pmcid": "PMC11310496", "pmid": "39117706", "doi": "10.1038/s41598-024-68793-x", "title": "Implementing heuristic-based multiscale depth-wise separable adaptive temporal convolutional network for ambient air quality prediction using real time data.", "publication_date": "2024-08-08", "journal": "", "authors": "Sundaramoorthy RA; Ananth AD; Seerangan K; Nandagopal M; Balusamy B; Selvarajan S", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "air pollution", "health_terms": "health", "abstract_snippet": "In many emerging nations, rapid industrialization and urbanization have led to heightened levels of air pollution. This sudden rise in air pollution, which affects global sustainability and human heal...", "review_notes": ""}, {"review_status": "review", "score": 1, "paper_id": "europe_pmc_PMC11791089", "pmcid": "PMC11791089", "pmid": "39900952", "doi": "10.1038/s41598-024-83248-z", "title": "Enhancing urban air quality prediction using time-based-spatial forecasting framework.", "publication_date": "2025-02-03", "journal": "", "authors": "Jayaraman S; T N; S A; G S", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index", "health_terms": "health, public health", "abstract_snippet": "Air quality forecasting plays a pivotal role in environmental management, public health and urban planning. This research presents a comprehensive approach for forecasting the Air Quality Index (AQI)....", "review_notes": ""}, {"review_status": "review", "score": 1, "paper_id": "europe_pmc_PMC12328754", "pmcid": "PMC12328754", "pmid": "40770205", "doi": "10.1038/s41598-025-09508-8", "title": "Air quality prediction-based big data analytics using hebbian concordance and attention-based long short-term memory.", "publication_date": "2025-08-06", "journal": "", "authors": "Sekar S; Wei Z", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "air quality index, pm 2.5, particulate matter, air pollution", "health_terms": "respiratory, cardiovascular, health", "abstract_snippet": "With the instantaneous economic development, air quality keeps on dwindling. Some key factors for the emergence and evolution of air pollution are high-intensity pollution emissions and adverse weathe...", "review_notes": ""}, {"review_status": "review", "score": 1, "paper_id": "europe_pmc_PMC12901979", "pmcid": "PMC12901979", "pmid": "41577974", "doi": "10.1038/s41598-026-36564-5", "title": "Hybrid deep learning model for air quality prediction and its impact on healthcare.", "publication_date": "2026-01-23", "journal": "", "authors": "Madan T; Sagar S; Singh Y; Jain A; Krejcar O; Frischer R; Namazi H; Panwar A", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "health, public health", "abstract_snippet": "Air pollution poses a serious threat to public health, making accurate and timely air quality prediction essential for effective mitigation and planning. This study presents a deep learning–based fram...", "review_notes": ""}, {"review_status": "review", "score": 1, "paper_id": "europe_pmc_PMC13004884", "pmcid": "PMC13004884", "pmid": "41708654", "doi": "10.1038/s41598-025-34665-1", "title": "Application of novel similarity measures in electric vehicle charging station site selection based on q-rung orthopair hesitant fuzzy rough sets under quantitative information.", "publication_date": "2026-02-18", "journal": "", "authors": "Attaullah; Khan A; Boulaaras S; Din N; Khan MS", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index, air pollution", "health_terms": "health", "abstract_snippet": "Similarity measures provide a viable approach for evaluating the degree of similarity between two collections. They serve as effective procedures for addressing decision-making issues influenced by co...", "review_notes": ""}, {"review_status": "review", "score": 0, "paper_id": "europe_pmc_PMC12355607", "pmcid": "PMC12355607", "pmid": "40823218", "doi": "10.3389/fpubh.2025.1632713", "title": "Study on the evolution patterns and predictive modeling of ambient air quality in oasis cities of arid regions: a case study of Urumqi.", "publication_date": "2025-08-01", "journal": "", "authors": "Jing B; Xiaofeng R", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "aqi, air quality index, particulate matter, air pollution, ozone", "health_terms": "", "abstract_snippet": "<h4>Background<\/h4>This study investigates the evolution patterns and future trends of ambient air quality in oasis cities within arid regions, with Urumqi as a representative case.<h4>Methods<\/h4>Uti...", "review_notes": ""}, {"review_status": "review", "score": 0, "paper_id": "europe_pmc_PMC12365325", "pmcid": "PMC12365325", "pmid": "40830158", "doi": "10.1038/s41598-025-14668-8", "title": "Enhanced air quality prediction using adaptive residual Bi-LSTM with pyramid dilation and optimal weighted feature selection.", "publication_date": "2025-08-19", "journal": "", "authors": "Sudha R; Damodaran A; Manohar G", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "air pollution", "health_terms": "", "abstract_snippet": "In most industrial and urban regions, monitoring and safeguarding the air's purity is considered one of the most crucial tasks for government agencies. In numerous industrial and urban locations, pres...", "review_notes": ""}, {"review_status": "review", "score": -1, "paper_id": "europe_pmc_PMC12328577", "pmcid": "PMC12328577", "pmid": "40770019", "doi": "10.1038/s41598-025-14214-6", "title": "Machine learningdriven framework for realtime air quality assessment and predictive environmental health risk mapping.", "publication_date": "2025-08-06", "journal": "", "authors": "Rajesh M; Babu RG; Moorthy U; Easwaramoorthy SV", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "", "health_terms": "health", "abstract_snippet": "This research introduces a practical and innovative approach for real-time air quality assessment and health risk prediction, focusing on urban, industrial, suburban, rural, and traffic-heavy environm...", "review_notes": ""}, {"review_status": "review", "score": -1, "paper_id": "europe_pmc_PMC12518576", "pmcid": "PMC12518576", "pmid": "41083460", "doi": "10.1038/s41598-025-15698-y", "title": "IoT-Driven classroom air quality management with deep hierarchical cluster analysis.", "publication_date": "2025-10-13", "journal": "", "authors": "Pravin Renold A; Arockia Abins A; Katiravan J", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "", "health_terms": "health", "abstract_snippet": "Poor classroom air quality and high levels of dust have a detrimental impact on student health, comfort, and productivity. To address this issue, we propose an IoT enabled system for monitoring and pr...", "review_notes": ""}, {"review_status": "review", "score": -2, "paper_id": "europe_pmc_PMC12675021", "pmcid": "PMC12675021", "pmid": "41357338", "doi": "10.1016/j.eclinm.2025.103679", "title": "Our children deserve cleaner air.", "publication_date": "2025-11-20", "journal": "", "authors": "eClinicalMedicine", "has_xml": true, "has_pdf": false, "query_name": "aqi_india_pilot", "query_string": "((\"air quality index\" OR AQI OR \"air pollution\" OR \"ambient air quality\") AND India) AND FIRST_PDATE:[2020 TO 2026]", "location_terms": "", "pollutant_terms": "", "health_terms": "", "abstract_snippet": "", "review_notes": ""}];
+    let activePaperIndex = null;
+    let paperFormats = { pdf_url: null, html_url: null };
+    let serveReady = false;
+    let pdfBlobUrl = null;
+
+    const SERVE_COMMAND = "./venv/bin/python scripts/review_viewer.py serve --review-table temp/queries/aqi_india_pilot/review/review_table.json --query-dir temp/queries/aqi_india_pilot";
+
+    function setConnectionBanner(message, ok = false) {
+      const banner = document.getElementById("connection-banner");
+      if (!message) {
+        banner.hidden = true;
+        banner.textContent = "";
+        return;
+      }
+      banner.hidden = false;
+      banner.className = "connection-banner " + (ok ? "connection-banner--ok" : "connection-banner--warn");
+      banner.innerHTML = message;
+    }
+
+    async function checkServer() {
+      if (location.protocol === "file:") {
+        serveReady = false;
+        setConnectionBanner(
+          "You opened a saved file — papers cannot load this way. " +
+          "Run <code>" + escapeHtml(SERVE_COMMAND) + "</code> " +
+          "then open <code>http://127.0.0.1:8765/review_table.html</code> in your browser."
+        );
+        return false;
+      }
+      try {
+        const response = await fetch("/api/health");
+        if (!response.ok) throw new Error("health check failed");
+        serveReady = true;
+        setConnectionBanner(
+          "Connected to review server at <code>" + escapeHtml(location.origin) + "</code>. " +
+          "Click <strong>Read</strong> to open papers.",
+          true
+        );
+        return true;
+      } catch (err) {
+        serveReady = false;
+        setConnectionBanner(
+          "Review server not running. Start it with <code>" + escapeHtml(SERVE_COMMAND) + "</code> " +
+          "then open <code>http://127.0.0.1:8765/review_table.html</code> (not a file:// path)."
+        );
+        return false;
+      }
+    }
+
+    function revokePdfBlob() {
+      if (pdfBlobUrl) {
+        URL.revokeObjectURL(pdfBlobUrl);
+        pdfBlobUrl = null;
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function paperUrlsForRow(row) {
+      if (!row || !row.pmcid) return { pdf_url: null, html_url: null };
+      const pmcid = encodeURIComponent(row.pmcid);
+      return {
+        pdf_url: row.has_pdf ? `/papers/${pmcid}.pdf` : null,
+        html_url: row.has_xml ? `/papers/${pmcid}.html` : null,
+      };
+    }
+
+    function paperLinksHtml(row, index) {
+      const urls = paperUrlsForRow(row);
+      const parts = [];
+      if (urls.pdf_url) {
+        parts.push(`<a class="paper-link" href="${urls.pdf_url}" target="_blank" rel="noopener">PDF</a>`);
+      }
+      if (urls.html_url) {
+        parts.push(`<a class="paper-link" href="${urls.html_url}" target="_blank" rel="noopener">HTML</a>`);
+      }
+      parts.push(`<button type="button" class="btn-read" data-index="${index}" aria-label="Read in panel">Read</button>`);
+      return `<span class="read-links">${parts.join(" ")}</span>`;
+    }
+
+    function renderTable() {
+      const body = document.getElementById("review-body");
+      body.innerHTML = rows.map((row, index) => `
+        <tr data-index="${index}">
+          <td>
+            <select class="review-status" aria-label="Review status">
+              <option value="review" ${row.review_status === "review" ? "selected" : ""}>review</option>
+              <option value="include" ${row.review_status === "include" ? "selected" : ""}>include</option>
+              <option value="exclude" ${row.review_status === "exclude" ? "selected" : ""}>exclude</option>
+            </select>
+          </td>
+          <td class="col-title">${escapeHtml(row.title)}</td>
+          <td>${escapeHtml(row.pmcid)}</td>
+          <td>${escapeHtml(row.authors)}</td>
+          <td>${escapeHtml(row.publication_date)}</td>
+          <td>${row.has_xml ? "yes" : "no"}</td>
+          <td>${row.has_pdf ? "yes" : "no"}</td>
+          <td class="col-read">${paperLinksHtml(row, index)}</td>
+          <td class="col-abstract">${escapeHtml(row.abstract_snippet)}</td>
+          <td class="col-notes"><textarea class="review-notes" rows="3">${escapeHtml(row.review_notes || "")}</textarea></td>
+        </tr>`).join("");
+    }
+
+    function collectRows() {
+      return rows.map((row, index) => {
+        const tr = document.querySelector(`tr[data-index="${index}"]`);
+        const status = tr.querySelector(".review-status").value;
+        const notes = tr.querySelector(".review-notes").value.trim();
+        return { ...row, review_status: status, review_notes: notes };
+      });
+    }
+
+    async function saveRows() {
+      const message = document.getElementById("save-message");
+      const payload = { rows: collectRows() };
+      try {
+        const response = await fetch("/api/save", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+        if (!response.ok) throw new Error(await response.text());
+        message.textContent = "Saved review_table.json, .csv, .html, and .md";
+      } catch (err) {
+        const blob = new Blob([JSON.stringify(payload.rows, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "review_table.json";
+        link.click();
+        URL.revokeObjectURL(url);
+        message.textContent = "Downloaded review_table.json (use serve mode to save in place)";
+      }
+    }
+
+    function highlightRow(index) {
+      document.querySelectorAll("tr.row-reading").forEach((row) => {
+        row.classList.remove("row-reading");
+      });
+      const row = document.querySelector(`tr[data-index="${index}"]`);
+      if (!row) return;
+      row.classList.add("row-reading");
+      row.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+
+    function clearRowHighlight() {
+      document.querySelectorAll("tr.row-reading").forEach((row) => {
+        row.classList.remove("row-reading");
+      });
+      activePaperIndex = null;
+    }
+
+    function updateFormatButtons() {
+      const formatsEl = document.getElementById("reader-formats");
+      const pdfBtn = formatsEl.querySelector('[data-format="pdf"]');
+      const htmlBtn = formatsEl.querySelector('[data-format="html"]');
+      pdfBtn.disabled = !paperFormats.pdf_url;
+      htmlBtn.disabled = !paperFormats.html_url;
+      formatsEl.hidden = !paperFormats.pdf_url && !paperFormats.html_url;
+    }
+
+    function hidePaperContent() {
+      const frame = document.getElementById("paper-frame");
+      frame.hidden = true;
+      frame.removeAttribute("srcdoc");
+      frame.src = "about:blank";
+      revokePdfBlob();
+    }
+
+    function showReaderStatus(message, isError = false) {
+      hidePaperContent();
+      const status = document.getElementById("reader-status");
+      status.textContent = message;
+      status.className = "reader-status" + (isError ? " reader-status--error" : "");
+      status.hidden = false;
+    }
+
+    function hideReaderStatus() {
+      const status = document.getElementById("reader-status");
+      status.hidden = true;
+      status.textContent = "";
+    }
+
+    function clearPaperViews() {
+      hidePaperContent();
+      hideReaderStatus();
+    }
+
+    async function setPaperFormat(format) {
+      const url = format === "html" ? paperFormats.html_url : paperFormats.pdf_url;
+      if (!url) return;
+      if (!serveReady) {
+        showReaderStatus("Start the review server first (see the red banner above).", true);
+        return;
+      }
+      const frame = document.getElementById("paper-frame");
+      hideReaderStatus();
+      revokePdfBlob();
+      document.querySelectorAll(".format-btn").forEach((button) => {
+        button.classList.toggle("active", button.dataset.format === format);
+        button.setAttribute("aria-pressed", button.dataset.format === format ? "true" : "false");
+      });
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        frame.hidden = false;
+        if (format === "html") {
+          frame.removeAttribute("src");
+          frame.src = "about:blank";
+          frame.srcdoc = await response.text();
+        } else {
+          frame.removeAttribute("srcdoc");
+          const blob = await response.blob();
+          pdfBlobUrl = URL.createObjectURL(blob);
+          frame.src = pdfBlobUrl;
+        }
+      } catch (err) {
+        showReaderStatus("Failed to load " + format.toUpperCase() + ": " + err.message, true);
+      }
+    }
+
+    function showFrameMessage(message, isError = false) {
+      showReaderStatus(message, isError);
+    }
+
+    function mergePaperFormats(row, preview) {
+      const defaults = paperUrlsForRow(row);
+      return {
+        pdf_url: preview?.pdf_url || defaults.pdf_url,
+        html_url: preview?.html_url || defaults.html_url,
+      };
+    }
+
+    async function openPaper(index) {
+      const row = rows[index];
+      if (!row || !row.pmcid) return;
+
+      highlightRow(index);
+      activePaperIndex = index;
+
+      const reader = document.getElementById("paper-reader");
+      document.getElementById("reader-title").textContent = row.title || row.pmcid;
+      clearPaperViews();
+      reader.classList.add("open");
+      reader.setAttribute("aria-hidden", "false");
+      document.body.classList.add("reader-open");
+
+      paperFormats = { pdf_url: null, html_url: null };
+      updateFormatButtons();
+
+      if (!serveReady) {
+        await checkServer();
+      }
+      if (!serveReady) {
+        showFrameMessage("Papers only load via the local server — see the banner above.", true);
+        return;
+      }
+
+      try {
+        const response = await fetch(`/api/paper-preview?index=${index}`);
+        const preview = response.ok ? await response.json() : null;
+        paperFormats = mergePaperFormats(row, preview);
+      } catch (err) {
+        paperFormats = paperUrlsForRow(row);
+      }
+      updateFormatButtons();
+      if (paperFormats.pdf_url) {
+        await setPaperFormat("pdf");
+      } else if (paperFormats.html_url) {
+        await setPaperFormat("html");
+      } else {
+        showFrameMessage("No HTML or PDF file found for this paper.", true);
+      }
+    }
+
+    function closePaper() {
+      const reader = document.getElementById("paper-reader");
+      reader.classList.remove("open");
+      reader.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("reader-open");
+      clearPaperViews();
+      clearRowHighlight();
+      paperFormats = { pdf_url: null, html_url: null };
+      document.getElementById("reader-formats").hidden = true;
+    }
+
+    document.getElementById("save-btn").addEventListener("click", saveRows);
+    document.getElementById("reader-close").addEventListener("click", closePaper);
+    document.getElementById("reader-backdrop").addEventListener("click", closePaper);
+    document.getElementById("reader-formats").addEventListener("click", async (event) => {
+      const button = event.target.closest(".format-btn");
+      if (!button || button.disabled) return;
+      await setPaperFormat(button.dataset.format);
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closePaper();
+    });
+    document.getElementById("review-body").addEventListener("click", (event) => {
+      const button = event.target.closest(".btn-read");
+      if (!button || button.disabled) return;
+      openPaper(Number(button.dataset.index));
+    });
+    renderTable();
+    checkServer();
+  </script>
+</body>
+</html>
