@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Review Table</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #eef2f7;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #667eea;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr.excluded {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.score-high { background: #d4edda; }
+.score-mid { background: #fff3cd; }
+.score-low { background: #f8d7da; }
+
+button {
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Review Table</h1>
+
+<div class="controls">
+    <input type="text" id="search" placeholder="Search title...">
+    
+    <select id="scoreFilter">
+        <option value="0">All Scores</option>
+        <option value="2">Score ≥ 2</option>
+        <option value="3">Score ≥ 3</option>
+        <option value="4">Score ≥ 4</option>
+    </select>
+
+    <button onclick="exportJSON()">💾 Export JSON</button>
+</div>
+
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Title</th>
+<th>Author</th>
+<th>Year</th>
+<th>Score</th>
+<th>Include</th>
+<th>Edit</th>
+</tr>
+</thead>
+
+<tbody id="tableBody"></tbody>
+</table>
+
+</div>
+
+<script>
+
+let reviewData = [];
+
+// 🔥 LOAD DATA
+fetch('review_table.json')
+.then(res => res.json())
+.then(data => {
+    reviewData = data.map(d => ({...d, include: true}));
+    renderTable();
+});
+
+// 🔥 RENDER
+function renderTable() {
+    const tbody = document.getElementById("tableBody");
+    tbody.innerHTML = "";
+
+    const search = document.getElementById("search").value.toLowerCase();
+    const minScore = parseInt(document.getElementById("scoreFilter").value);
+
+    const filtered = reviewData.filter(row =>
+        (row.title || "").toLowerCase().includes(search) &&
+        (row.score >= minScore)
+    );
+
+    filtered.forEach((row, index) => {
+
+        let scoreClass = "";
+        if (row.score >= 4) scoreClass = "score-high";
+        else if (row.score >= 2) scoreClass = "score-mid";
+        else scoreClass = "score-low";
+
+        const tr = document.createElement("tr");
+        if (!row.include) tr.classList.add("excluded");
+
+        tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td contenteditable="true" onblur="editField(${index}, 'title', this.innerText)">${row.title || ""}</td>
+            <td contenteditable="true" onblur="editField(${index}, 'author', this.innerText)">${row.author || ""}</td>
+            <td contenteditable="true" onblur="editField(${index}, 'year', this.innerText)">${row.year || ""}</td>
+            <td class="${scoreClass}" contenteditable="true" onblur="editField(${index}, 'score', this.innerText)">${row.score || 0}</td>
+            <td><input type="checkbox" ${row.include ? "checked" : ""} onchange="toggleInclude(${index})"></td>
+            <td><button onclick="deleteRow(${index})">❌</button></td>
+        `;
+
+        tbody.appendChild(tr);
+    });
+}
+
+// 🔥 EDIT FIELD
+function editField(index, field, value) {
+    if (field === "score" || field === "year") {
+        value = Number(value);
+    }
+    reviewData[index][field] = value;
+}
+
+// 🔥 TOGGLE INCLUDE
+function toggleInclude(index) {
+    reviewData[index].include = !reviewData[index].include;
+    renderTable();
+}
+
+// 🔥 DELETE
+function deleteRow(index) {
+    reviewData.splice(index, 1);
+    renderTable();
+}
+
+// 🔥 EXPORT JSON
+function exportJSON() {
+    const dataStr = JSON.stringify(reviewData, null, 2);
+    const blob = new Blob([dataStr], {type: "application/json"});
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "updated_review_table.json";
+    a.click();
+}
+
+// 🔥 EVENTS
+document.getElementById("search").addEventListener("input", renderTable);
+document.getElementById("scoreFilter").addEventListener("change", renderTable);
+
+</script>
+
+</body>
+</html>
