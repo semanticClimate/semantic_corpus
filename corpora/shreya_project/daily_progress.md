@@ -1,5 +1,14 @@
 # shreya-daily-progress
 
+## 2026.07.17
+
+## Tasks completed
+
+* Worked on the final report to submit to Indian Academy of Sciences,IAS
+* Created a workflow of the screening of the pygetpapers using Prisma 2020
+* Reviewed my work as an intern on GitHub
+* Revised my corpora
+  
 ## 2026.07.16
 
 ## Tasks completed
