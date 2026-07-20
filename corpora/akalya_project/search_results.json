@@ -1,0 +1,2124 @@
+[
+  {
+    "pmcid": "PMC13208227",
+    "pmid": "42195298",
+    "title": "Editorial Closing: Plant Biotic and Abiotic Stresses Special Issue.",
+    "abstract": "In the current Anthropocene era, the exacerbation of climate volatility has transcended mere academic concern to become an existential threat to global food security [...].",
+    "authors": [
+      {
+        "fullName": "Pizzio GA",
+        "firstName": "Gastón Alfredo",
+        "lastName": "Pizzio",
+        "initials": "GA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4336-6470"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "CIT Río Negro, Universidad Nacional de Río Negro, Viedma CP8500, Río Negro, Argentina."
+            },
+            {
+              "affiliation": "Institute for Integrative Systems Biology (I2SysBio), Universitat de València-CSIC, 46908 Paterna, Spain."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-29",
+    "journal": "",
+    "doi": "10.3390/life16050742"
+  },
+  {
+    "pmcid": "PMC13199339",
+    "pmid": "42199228",
+    "title": "Application of crop growth models in crop yield assessment.",
+    "abstract": "Global food security is facing formidable challenges due to rising temperatures, frequent extreme weather events, growing water scarcity, cropland reduction, fluctuations in international food trade, and rising food demand. Crop production systems are complex, multi-factor dynamic systems influenced collectively by crop cultivars, climatic conditions, soil properties, and management practices, which exhibit strong spatiotemporal variability. Crop growth models have emerged as essential tools in smart agriculture, integrating knowledge from crop physiology, ecology, meteorology, soil science, and agronomy to simulate crop growth processes dynamically. This systematic review focuses on six key aspects of crop growth modeling: (1) introduction of major crop models; (2) assessing climate change impacts on crop yields; (3) predicting yield potential and yield gaps; (4) identifying yield-limiting factors; (5) formulating adaptation strategies; and (6) challenges and future research directions. Future research should focus on the deep integration of crop growth models with remote sensing, the Internet of Things (IoT), big data, cloud computing, and artificial intelligence technologies to establish intelligent \"space-air-ground\" decision-making systems that support precision, unmanned, and climate-resilient agriculture.",
+    "authors": [
+      {
+        "fullName": "Ye Z",
+        "firstName": "Zi",
+        "lastName": "Ye",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liao L",
+        "firstName": "Lanqing",
+        "lastName": "Liao",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Qiu G",
+        "firstName": "Guiqin",
+        "lastName": "Qiu",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xiao Y",
+        "firstName": "Yurong",
+        "lastName": "Xiao",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Huang D",
+        "firstName": "Dajun",
+        "lastName": "Huang",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Duan Z",
+        "firstName": "Zilin",
+        "lastName": "Duan",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pu S",
+        "firstName": "Shihuang",
+        "lastName": "Pu",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wen J",
+        "firstName": "Jiancheng",
+        "lastName": "Wen",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Agronomy and Biotechnology, Rice Research Institute, The Key Laboratory for Crop Production and Smart Agriculture of Yunnan Province, Key Laboratory for Molecular Breeding of Dian-Type Hybrid Japonica Rice, Jingdong County Farmers' Academician Science and Technology Service Station, Yunnan Agricultural University, Kunming, Yunnan, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-11",
+    "journal": "",
+    "doi": "10.3389/fpls.2026.1819890"
+  },
+  {
+    "pmcid": "PMC13210694",
+    "pmid": "42197567",
+    "title": "Global Warming and Dispersal Limitations Drive the Suitable Habitat Distribution of &lt;i&gt;Castanopsis indica&lt;/i&gt;, &lt;i&gt;Castanopsis hystrix&lt;/i&gt;, &lt;i&gt;Schima wallichii&lt;/i&gt; Forest in China.",
+    "abstract": "Global warming has increasingly threatened the suitable habitats of many species. However, ignoring dispersal limitations can substantially increase the uncertainty of species distribution predictions. This study employed optimised MaxEnt and MigClim models to explore the effects of global warming and dispersal limitations on the suitable habitat distribution of <i>Castanopsis indica</i>, <i>Castanopsis hystrix</i>, <i>Schima wallichii</i> (<i>C. indica</i>, <i>C. hystrix</i>, <i>S. wallichii</i>) forest in China. The results reveal that under current climatic conditions, this forest is mainly distributed in southwestern China. The key environmental factors influencing its distribution include isothermality, temperature seasonality, minimum temperature of the coldest month, and precipitation seasonality, among which temperature-related factors play a dominant role. Under future climate scenarios, the suitable habitat distribution of this forest is projected to expand overall and exhibit a northwestward migration trend. Notably, dispersal limitations significantly constrain the actual expansion of this forest, preventing it from keeping pace with climate change. The inclusion of dispersal limitations results in a contraction of the suitable habitat distribution of this forest under future climate scenarios, with the overall centroid migrating towards the southwest. In the future, <i>C. indica</i>, <i>C. hystrix</i>, <i>S. wallichii</i> forest will have some unoccupied suitable areas in China, which are primarily located north of its current suitable habitats. This study provides new insights for reducing uncertainties in species distribution predictions under climate change.",
+    "authors": [
+      {
+        "fullName": "Zhang H",
+        "firstName": "Huayong",
+        "lastName": "Zhang",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8898-8567"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Center for Engineering Ecology and Nonlinear Science, North China Electric Power University, Beijing 102206, China."
+            },
+            {
+              "affiliation": "Theoretical Ecology and Engineering Ecology Research Group, School of Life Sciences, Shandong University, Qingdao 250100, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bian Z",
+        "firstName": "Zhou",
+        "lastName": "Bian",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Center for Engineering Ecology and Nonlinear Science, North China Electric Power University, Beijing 102206, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ji X",
+        "firstName": "Xiande",
+        "lastName": "Ji",
+        "initials": "X",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3544-9057"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Energy Conversion Group, Energy and Sustainability Research Institute, Faculty of Science and Engineering, University of Groningen, Nijenborgh 6, 9747 AG Groningen, The Netherlands."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang Z",
+        "firstName": "Zhongyu",
+        "lastName": "Wang",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1342-3024"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Center for Engineering Ecology and Nonlinear Science, North China Electric Power University, Beijing 102206, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu Z",
+        "firstName": "Zhao",
+        "lastName": "Liu",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Theoretical Ecology and Engineering Ecology Research Group, School of Life Sciences, Shandong University, Qingdao 250100, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-08",
+    "journal": "",
+    "doi": "10.3390/plants15101432"
+  },
+  {
+    "pmcid": "PMC13290584",
+    "pmid": "",
+    "title": "Diurnal asymmetric warming promotes the growth of the perennial species Sophora alopecuroides in a temperate arid region of China",
+    "abstract": "",
+    "authors": [
+      {
+        "fullName": "Liu Y",
+        "firstName": "Ying",
+        "lastName": "Liu",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Chemistry and Environmental Science, Shangrao Normal University , , "
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhao H",
+        "firstName": "Hongmei",
+        "lastName": "Zhao",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Chemistry and Environmental Science, Shangrao Normal University , , "
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bai Y",
+        "firstName": "Yijun",
+        "lastName": "Bai",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Culture and Tourism Industry, Shangrao Normal University , , "
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu M",
+        "firstName": "Mingxia",
+        "lastName": "Liu",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Culture and Tourism Industry, Shangrao Normal University , , "
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhou G",
+        "firstName": "Gan",
+        "lastName": "Zhou",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Culture and Tourism Industry, Shangrao Normal University , , "
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shang T",
+        "firstName": "Tiancui",
+        "lastName": "Shang",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Biological Science and Technology, Yili Normal University , , , "
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhao Y",
+        "firstName": "Yu",
+        "lastName": "Zhao",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Culture and Tourism Industry, Shangrao Normal University , , "
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-26",
+    "journal": "",
+    "doi": ""
+  },
+  {
+    "pmcid": "",
+    "pmid": "",
+    "title": "Chapter Eight - Advances on responses and mechanisms of lily to heat stress",
+    "abstract": "Global warming poses severe challenges to plant growth and agricultural sustainability. Heat stress profoundly inhibits plant development, disrupting photosynthesis, cellular homeostasis, and reproductive processes. Plants have evolved sophisticated mechanisms integrating temperature perception, signal transduction, and regulatory networks to adapt to thermal stress, with heat shock transcription factors (HSFs) acting as central regulatory hubs. Epigenetic modifications, including DNA methylation and histone modifications, play a critical role in mediating plant heat responses and stress memory. As economically and horticulturally important ornamental crops, Lilium spp. exhibit marked sensitivity to temperatures exceeding 30 °C, with such exposure often leading to various physiological dysfunctions. Through evaluations of heat tolerance across different Lilium cultivars, several relatively heat-tolerant varieties have been identified. Lilies enhance thermotolerance through an integrated molecular network: HSFs serve as central regulators of gene expression under heat stress, while additional transcription factors such as LlNAC014, LlMYB305, LlbHLH87, and LlERF012 fine-tune the heat stress response by modulating stress-responsive gene expression. These insights not only deepen our mechanistic understanding of plant adaptation to high-temperature environments but also provide valuable genetic targets for molecular breeding strategies aimed at improving stress resilience in crops like Lilium under climate change.",
+    "authors": [
+      {
+        "fullName": "Zhang T",
+        "firstName": "Tian",
+        "lastName": "Zhang",
+        "initials": "T"
+      },
+      {
+        "fullName": "Wu Z",
+        "firstName": "Ze",
+        "lastName": "Wu",
+        "initials": "Z"
+      },
+      {
+        "fullName": "Teng N",
+        "firstName": "Nianjun",
+        "lastName": "Teng",
+        "initials": "N"
+      }
+    ],
+    "publication_date": "2026-01-01",
+    "journal": "",
+    "doi": ""
+  },
+  {
+    "pmcid": "PMC13211235",
+    "pmid": "42197718",
+    "title": "Climate-Driven Redistribution of Early-Spring Ephemeral Plant Communities in Cold Arid Deserts: Evidence from the Gurbantunggut Desert, China.",
+    "abstract": "Early-spring ephemeral plants act as pioneer species on stabilized dunes in cold arid deserts; they are capable of rapid growth under extreme drought and low-temperature conditions while sustaining dune ecosystem functions. These species are highly sensitive to climate change, yet their spatiotemporal dynamics and the mechanisms by which climatic factors regulate their growth remain poorly understood. In this study, we investigated the Gurbantunggut Desert, China, using long-term NDVI time series to extract phenological traits associated with their life cycle and developed a remote-sensing-based analytical framework to quantify the distribution patterns of early-spring ephemeral plants and their environmental drivers. We combined random forest (RF), structural equation modeling (SEM), and convolutional neural networks (CNN) to assess the relative importance and pathways of key climatic drivers and to predict future distribution changes. Our results indicate that: (1) the life cycle extraction method achieved a classification accuracy exceeding 80%, and from 2001 to 2022, the overall distribution of early-spring ephemeral plants exhibited an increasing trend; (2) snowend, snowday, and precipitation during the driest quarter were the primary drivers of ephemeral plant distribution, collectively explaining over 60% of the observed variation, and structural equation modeling further revealed that snow and precipitation had significant positive effects on their distribution; and (3) under future climate scenarios, Medium-NDVI areas are projected to expand northward and westward, with the potential emergence of new suitable habitats in northern localities by mid-century. Climate warming may facilitate the dispersal and latitudinal migration of early-spring ephemeral plants. Based on these findings, biodiversity conservation efforts should prioritize ecologically sensitive transitional zones and promote species migration and establishment under climate change through the construction of ecological corridors.",
+    "authors": [
+      {
+        "fullName": "Xue Y",
+        "firstName": "Yang",
+        "lastName": "Xue",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ma J",
+        "firstName": "Jiazheng",
+        "lastName": "Ma",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ma S",
+        "firstName": "Songmei",
+        "lastName": "Ma",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chen Y",
+        "firstName": "Yuting",
+        "lastName": "Chen",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sun X",
+        "firstName": "Xu",
+        "lastName": "Sun",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ren M",
+        "firstName": "Mengyuan",
+        "lastName": "Ren",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shen L",
+        "firstName": "Liqiang",
+        "lastName": "Shen",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Shihezi University, Shihezi 832003, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-21",
+    "journal": "",
+    "doi": "10.3390/plants15101586"
+  },
+  {
+    "pmcid": "PMC13118505",
+    "pmid": "42075752",
+    "title": "Climate Change Impacts on Plant-Parasitic Nematodes in Agroecosystems.",
+    "abstract": "Climate change significantly impacts agricultural ecosystems through rising temperatures, changing precipitation patterns, increasing atmospheric CO<sub>2</sub> levels, and more frequent extreme weather events. These environmental changes have a pronounced effect on plant-parasitic nematodes (PPNs; phylum Nematoda), which cause serious crop losses on a global scale. This review aims to provide a comprehensive evaluation of current knowledge on how major climate change drivers influence the biology, population dynamics, host-plant interactions, and geographic distribution of PPNs in agricultural systems. Recent studies show that rising temperatures accelerate nematode development, increasing the number of generations within a production season and facilitating the spread of many economically important species toward higher latitudes and elevations. Changes in precipitation patterns and soil moisture directly affect nematode survival, mobility, and infection success, and these effects often vary depending on regional conditions and nematode species. Elevated atmospheric CO<sub>2</sub> levels modify plant-nematode interactions by increasing root biomass, altering rhizosphere processes, and regulating plant defense pathways (e.g., jasmonic acid and salicylic acid signaling), which may enhance host susceptibility and infection intensity. Furthermore, extreme climate events can disrupt the natural balance in soil ecosystems, weakening natural antagonist-nematode relationships. However, responses of PPNs to climate change are not uniform, and contrasting findings across studies indicate that these responses are strongly shaped by species-specific traits and environmental variability. In addition, future research should focus on long-term and multi-factorial field studies to better capture the combined effects of climate drivers. Overall, climate change is expected to increase PPN prevalence and drive shifts in their geographic distribution, highlighting the need for climate-sensitive and regionally adapted nematode management strategies.",
+    "authors": [
+      {
+        "fullName": "Bozbuğa R",
+        "firstName": "Refik",
+        "lastName": "Bozbuğa",
+        "initials": "R",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9201-5725"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Plant Protection, Faculty of Agriculture, Eskisehir Osmangazi University, Eskisehir 26160, Türkiye."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ulaş F",
+        "firstName": "Furkan",
+        "lastName": "Ulaş",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0002-3052-4457"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Plant Protection, Faculty of Agricultural Sciences and Technologies, Sivas University of Science and Technology, Sivas 58010, Türkiye."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Urtekin Ö",
+        "firstName": "Özlem",
+        "lastName": "Urtekin",
+        "initials": "Ö",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Plant Protection, Faculty of Agriculture, Eskisehir Osmangazi University, Eskisehir 26160, Türkiye."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Aasim M",
+        "firstName": "Muhammad",
+        "lastName": "Aasim",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Precision Agriculture and Agricultural Robotics, Faculty of Agricultural Sciences and Technologies, Sivas University of Science and Technology, Sivas 58010, Türkiye."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "İmren M",
+        "firstName": "Mustafa",
+        "lastName": "İmren",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Plant Protection, Faculty of Agriculture, Bolu Abant Izzet Baysal University, Bolu 14030, Türkiye."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lahlali R",
+        "firstName": "Rachid",
+        "lastName": "Lahlali",
+        "initials": "R",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1299-5733"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Phytopathology Unit, Department of Plant Protection, Ecole Nationale d'Agriculture de Meknès, Km10, Rte Haj Kaddour, BP S/40, Menkes 50001, Morocco."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ali MA",
+        "firstName": "Muhammad Amjad",
+        "lastName": "Ali",
+        "initials": "MA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5381-7039"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Plant Pathology, University of Agriculture, Faisalabad 38040, Pakistan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mokrini F",
+        "firstName": "Fouad",
+        "lastName": "Mokrini",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-9679-8381"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nematology Laboratory, Biotechnology Research Unit, National Institute of Agricultural Research, INRA-Rabat, Avenue Ennasr, BP 415 Rabat Principale, Rabat 10090, Morocco."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dababat A",
+        "firstName": "Abdelfattah",
+        "lastName": "Dababat",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3172-0452"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "International Maize and Wheat Improvement Centre (CIMMYT), Ankara 06170, Türkiye."
+            },
+            {
+              "affiliation": "School of Agriculture, The University of Jordan, Amman 11942, Jordan."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-14",
+    "journal": "",
+    "doi": "10.3390/pathogens15040425"
+  },
+  {
+    "pmcid": "PMC13061935",
+    "pmid": "41946817",
+    "title": "Modeling of fractional order DPG model insight global warming and pollution effect on desertification for control mechanism.",
+    "abstract": "This study presents a novel fractional-order mathematical model that investigates the dynamic interplay between dust pollutants, plant biomass, and global warming, referred to as the DPG system. This research introduces a fractional-order formulation that incorporates ecological memory and long-range interactions, providing a more realistic representation of desertification dynamics than classical integer-order models. It also establishes a comprehensive analytical numerical framework designed to capture system feedback, assess instability patterns, and evaluate the effectiveness of chaos control mechanisms. The model utilizes Caputo derivatives to capture the memory effects inherent in ecological and atmospheric processes. Key parameters such as dust emission, plant decay, and global warming feedback mechanisms are integrated into a nonlinear system of differential equations. Analytical evaluations ensure the existence, uniqueness, and generalized Hyers-Ulam-Rassias stability of the proposed system. Sensitivity analysis identifies the parameters that have the most significant influence on desertification risk. Furthermore, a Newton polynomial-based numerical scheme is constructed to efficiently simulate system behavior under varying fractional orders. Chaos control strategies are implemented to stabilize the system near critical equilibrium points. Numerical simulations reveal that lower fractional orders dampen dust accumulation, slow plant biomass regeneration, and delay global warming trends, highlighting the efficacy of fractional modeling in capturing real-world environmental inertia and feedback. This research provides a robust analytical and computational foundation for understanding ecosystem resilience in the face of both anthropogenic and climatic stressors.",
+    "authors": [
+      {
+        "fullName": "Farman M",
+        "firstName": "Muhammad",
+        "lastName": "Farman",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Mathematics Research Center, Department of Mathematics, Near East University, 99138, Nicosia, Turkey."
+            },
+            {
+              "affiliation": "Jadara University Research Center,, Jadara University, Irbid, Jordan."
+            },
+            {
+              "affiliation": "Research Center of Applied Mathematics, Khazar University, Baku, Azerbaijan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jamil K",
+        "firstName": "Khadija",
+        "lastName": "Jamil",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Mathematics, Khwaja Fareed University of Engineering and Information Technology, Rahim Yar Khan, Pakistan."
+            },
+            {
+              "affiliation": "International Center for Interdisciplinary Research in Sciences, The University of Lahore, , Lahore,, Pakistan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jamil S",
+        "firstName": "Saba",
+        "lastName": "Jamil",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Mathematics Research Center, Department of Mathematics, Near East University, 99138, Nicosia, Turkey."
+            },
+            {
+              "affiliation": "Institute of Mathematics, Khwaja Fareed University of Engineering and Information Technology, Rahim Yar Khan, Pakistan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Padder A",
+        "firstName": "Ausif",
+        "lastName": "Padder",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Symbiosis Institute of Technology, Hyderabad Campus, Symbiosis International (Deemed University), Pune, India. ausif121@gmail.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ahmad H",
+        "firstName": "Hijaz",
+        "lastName": "Ahmad",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-5438-5407"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Operational Research Center in Healthcare, Near East University, 99138 Mersin 10, Nicosia/TRNC, Turkey."
+            },
+            {
+              "affiliation": "Department of Mathematics, College of Science, Korea University, 145 Anam-ro, Seongbuk-gu, 02841, Seoul, South Korea."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dehingia K",
+        "firstName": "Kaushik",
+        "lastName": "Dehingia",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Mathematics, Sonari College, 785690, Sonari, Assam, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bayram M",
+        "firstName": "Mustafa",
+        "lastName": "Bayram",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Mathematics and Computer Engineering, Biruni University, Istanbul, Turkey."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-07",
+    "journal": "",
+    "doi": "10.1038/s41598-026-47606-3"
+  },
+  {
+    "pmcid": "PMC13161122",
+    "pmid": "42131577",
+    "title": "Editorial: Fungal-plant interactions in a changing environment: from mutualism to pathogenesis.",
+    "abstract": "",
+    "authors": [
+      {
+        "fullName": "Das S",
+        "firstName": "Subhadeep",
+        "lastName": "Das",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4479-5557"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biotechnology, School of Life Science & Biotechnology, Adamas University, Kolkata, West Bengal, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Basu A",
+        "firstName": "Adreeja",
+        "lastName": "Basu",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Marxe School of Public and International Affairs, Baruch College, City University of New York, New York, NY, United States."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Angelini P",
+        "firstName": "Paola",
+        "lastName": "Angelini",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Dipartimento di Chimica, Biologia e Biotecnologie, Università degli Studi di Perugia, Perugia, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sarkar S",
+        "firstName": "Soumyadev",
+        "lastName": "Sarkar",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center for Fundamental and Applied Microbiomics, Biodesign Institute, Arizona State University, Tempe, AZ, United States."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-28",
+    "journal": "",
+    "doi": "10.3389/ffunb.2026.1852814"
+  },
+  {
+    "pmcid": "PMC13173881",
+    "pmid": "41957573",
+    "title": "Broccoli plants exposed to the combined threat of climate change and bacterial infection.",
+    "abstract": "BACKGROUND: Climate change is expected to intensify plant diseases by altering both host physiology and pathogen behaviour, posing a growing risk to global food security. Brassica crops such as broccoli (Brassica oleracea var. italica), a key vegetable for human nutrition, are particularly vulnerable to black rot caused by Xanthomonas campestris pv. campestris (Xcc). To assess how future climates may influence this particular pathosystem, broccoli plants were cultivated under three environmental regimes: current climate conditions (CCC) and two late-century projections—an intermediate scenario (RCP 4.5: +3 °C and 650 ppm CO2) and an extreme scenario (RCP 8.5: +6 °C and 1000 ppm CO2). Plants were inoculated with Xcc races 1 and 4. RESULTS: The moderate scenario (RCP 4.5) did not negatively affect plant fitness, whereas severe future conditions (RCP 8.5) markedly reduced vegetative growth and photosystem II efficiency. Black rot severity and bacterial growth kinetics depended on both pathogen race and environmental conditions: race 4 was most aggressive under CCC and RCP 4.5, while race 1 gained virulence under RCP 8.5 at later infection stages. Regardless of race, infection increased leaf temperature and lipid peroxidation and stimulated the accumulation of phenolics and other antioxidant metabolites, indicating a shift toward defence-related secondary metabolism. These metabolic changes mitigated oxidative damage but did not prevent the decline in photosynthetic performance under climate conditions. CONCLUSIONS: These findings demonstrate that future climate scenarios will not only compromise broccoli physiology but also alter the performance of Xcc races selectively.",
+    "authors": [
+      {
+        "fullName": "Pérez-Bueno ML",
+        "firstName": "María Luisa",
+        "lastName": "Pérez-Bueno",
+        "initials": "ML",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Stress, Development and Signalling in Plants, Estación Experimental del Zaidín, Spanish National Research Council, Granada, Spain."
+            },
+            {
+              "affiliation": "Department of Plant Physiology, Facultad de Ciencias, University of Granada, Granada, Spain."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Barón M",
+        "firstName": "Matilde",
+        "lastName": "Barón",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Stress, Development and Signalling in Plants, Estación Experimental del Zaidín, Spanish National Research Council, Granada, Spain."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pineda M",
+        "firstName": "Mónica",
+        "lastName": "Pineda",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7584-8490"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Stress, Development and Signalling in Plants, Estación Experimental del Zaidín, Spanish National Research Council, Granada, Spain. monica.pineda@eez.csic.es."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-09",
+    "journal": "",
+    "doi": "10.1186/s12870-026-08704-6"
+  },
+  {
+    "pmcid": "PMC13255328",
+    "pmid": "41935986",
+    "title": "Research progress on the interaction between forest carbon sequestration and climate change.",
+    "abstract": "Global climate change represents one of the most critical environmental challenges of the twenty-first century. As a key component of the terrestrial carbon cycle, forest ecosystems play a pivotal role in mitigating global warming. This paper provides a systematic review of the dynamic measurement methods for forest carbon sequestration, examines the interaction mechanisms between forest carbon sequestration and climate change, and studies the feedback mechanism of forest carbon sinks on climate change and regional differences. Results reveal that climate change influences forest carbon sequestration through various pathways, including rising temperatures, shifts in precipitation patterns, elevated atmospheric CO2 concentrations, and extreme climatic events. Simultaneously, forest carbon sequestration exerts a significant regulatory impact on the climate system. Future research should endeavour in the following areas: (1) Developing a consistent assessment system for forest carbon sequestration; (2) Quantifying multi-factor interactions; (3) Compound extreme climate events; (4) Make up for the observation shortcomings in key areas. This paper aims to provide references and guidelines for a systematic understanding of forest carbon sequestration and climate change interactions, as well as to promote scientific and technological developments in this field.",
+    "authors": [
+      {
+        "fullName": "Lin J",
+        "firstName": "Jiaxin",
+        "lastName": "Lin",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth and Environmental Sciences, Lanzhou University, Lanzhou, 730000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gao X",
+        "firstName": "Xiang",
+        "lastName": "Gao",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth and Environmental Sciences, Lanzhou University, Lanzhou, 730000, China. xgao@lzu.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Song X",
+        "firstName": "Xiaojiao",
+        "lastName": "Song",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth and Environmental Sciences, Lanzhou University, Lanzhou, 730000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chang S",
+        "firstName": "Shuhang",
+        "lastName": "Chang",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth and Environmental Sciences, Lanzhou University, Lanzhou, 730000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li Q",
+        "firstName": "Qiuran",
+        "lastName": "Li",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth and Environmental Sciences, Lanzhou University, Lanzhou, 730000, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-05",
+    "journal": "",
+    "doi": "10.1186/s13021-026-00437-1"
+  },
+  {
+    "pmcid": "PMC13211264",
+    "pmid": "42197609",
+    "title": "Applications of Gene-Editing Technologies in Enhancing Crop Stress Resistance with Emphasis on Rice.",
+    "abstract": "Gene-editing technology provides innovative strategies for coping with crop stress, enhancing resistance to biotic stresses (fungal, bacterial, viral infections) and abiotic stresses (salinity, drought, heavy metals, temperature extremes). The CRISPR/Cas9 system is widely used to knock out susceptibility genes, activate resistance genes, or modulate stress-response genes, yielding many stress-resistant crop varieties. However, off-target effects, chimeric effects, and the complexity of multi-gene synergistic editing limit its application. By optimizing and integrating with other cutting-edge technologies, gene editing is expected to yield highly stress-resistant and high-yielding crop varieties, contributing significantly to sustainable agricultural development and ensuring global food security. Rice, a key staple and model plant, has been extensively studied in gene-editing-based research on stress resistance. The practical potential of gene editing for agricultural improvement has been demonstrated by the effective modification of many genes linked to drought, salinity, temperature extremes, and disease resistance using CRISPR/Cas9 and related technologies. This review discusses gene-editing applications in crop stress research, examining the effects of various stresses on crops and the use of gene editing to develop stress-tolerant varieties. It offers substantial guidance for improving crop stress tolerance through gene editing, creating highly resilient cultivars with greater adaptation to complex, variable environments.",
+    "authors": [
+      {
+        "fullName": "Sun M",
+        "firstName": "Minghui",
+        "lastName": "Sun",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, South China Agricultural University, Guangzhou 510642, China."
+            },
+            {
+              "affiliation": "Guangdong Provincial Key Laboratory of Plant Molecular Breeding, South China Agricultural University, Guangzhou 510642, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ghouri F",
+        "firstName": "Fozia",
+        "lastName": "Ghouri",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5579-5179"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, South China Agricultural University, Guangzhou 510642, China."
+            },
+            {
+              "affiliation": "Guangdong Provincial Key Laboratory of Plant Molecular Breeding, South China Agricultural University, Guangzhou 510642, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Waqas M",
+        "firstName": "Muhammad",
+        "lastName": "Waqas",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Cotton Bio-Breeding and Integrated Utilization, Institute of Cotton Research, Chinese Academy of Agricultural Sciences, Anyang 455000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ali A",
+        "firstName": "Amjad",
+        "lastName": "Ali",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Plant Protection, Faculty of Agricultural Sciences and Technologies, Sivas University of Science and Technology, Sivas 58140, Türkiye."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nadeem MA",
+        "firstName": "Muhammad Azhar",
+        "lastName": "Nadeem",
+        "initials": "MA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0637-9619"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biotechnology, Faculty of Science, Mersin University, Yenişehir, Mersin 33343, Türkiye."
+            },
+            {
+              "affiliation": "Department of Biotechnology, Samarkand State University Named After Sharof Rashidov, Samarkand 140104, Uzbekistan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wu G",
+        "firstName": "Guanqing",
+        "lastName": "Wu",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, South China Agricultural University, Guangzhou 510642, China."
+            },
+            {
+              "affiliation": "Guangdong Provincial Key Laboratory of Plant Molecular Breeding, South China Agricultural University, Guangzhou 510642, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Baloch FS",
+        "firstName": "Faheem Shehzad",
+        "lastName": "Baloch",
+        "initials": "FS",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7470-0080"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biotechnology, Faculty of Science, Mersin University, Yenişehir, Mersin 33343, Türkiye."
+            },
+            {
+              "affiliation": "Department of Genetics, Institute of Biochemistry, Samarkand State University Named After Sharof Rashidov, Samarkand 140104, Uzbekistan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shahid MQ",
+        "firstName": "Muhammad Qasim",
+        "lastName": "Shahid",
+        "initials": "MQ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6767-4355"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory for Conservation and Utilization of Subtropical Agro-Bioresources, South China Agricultural University, Guangzhou 510642, China."
+            },
+            {
+              "affiliation": "Guangdong Provincial Key Laboratory of Plant Molecular Breeding, South China Agricultural University, Guangzhou 510642, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-12",
+    "journal": "",
+    "doi": "10.3390/plants15101476"
+  },
+  {
+    "pmcid": "PMC13170800",
+    "pmid": "42018483",
+    "title": "A systematic review on soil microbial shifts under drought stress: a climate-smart agriculture perspective.",
+    "abstract": "Major shifts in temperature and rainfall patterns resulting from climate change are projected to continue increasing intensely over the course of the century. Ecosystems' functionality and well-being of above-ground plant community are all significantly impacted by soil microbes' response to these shifting abiotic stresses. With an emphasis on improving their usefulness in climate-smart agriculture (CSA), we reviewed how soil bacteria and fungi tolerate drought stress and improve plant development under water shortage conditions. This systematic analysis used Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) to elaborate how microbe-based solutions could be incorporated in CSA. A total of 31 articles satisfied the inclusion criteria. The review demonstrated that soil microbial diversity and abundance are considerably altered by drought stress, improve resilience of plants, and soil functionality. There was a further observation of high microbial community in the endosphere, and rhizosphere as compared to bulk soil; a clear indication of plants' potential to facilitate soil microbial assemblages. Evidently, plants under drought conditions exude metabolites that stimulate drought-tolerant microbes; that in-turn promote the plants' tolerance to drought. Accordingly, this remarkable synergy between microbes and plants could help forecast how agroecosystems would function in the face of climate change.",
+    "authors": [
+      {
+        "fullName": "Ramatsitsi N",
+        "firstName": "Ndivhuwo",
+        "lastName": "Ramatsitsi",
+        "initials": "N",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-7779-3764"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Agronomy, University of Fort Hare, Private Bag X1314, Alice, 5700, South Africa."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Manyevere A",
+        "firstName": "Alen",
+        "lastName": "Manyevere",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4756-0895"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Agronomy, University of Fort Hare, Private Bag X1314, Alice, 5700, South Africa."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-01",
+    "journal": "",
+    "doi": "10.1093/femsec/fiag044"
+  },
+  {
+    "pmcid": "",
+    "pmid": "41946492",
+    "title": "Warming, stress and survival: terrestrial vegetation dynamics during the Toarcian hyperthermal event.",
+    "abstract": "Rapid global warming imposes profound stress on terrestrial ecosystems, both past and present, making it essential to understand how ecosystems respond to climate change in deep time. The Toarcian hyperthermal event (~183 Ma) provides a natural case study for investigating these dynamics. Using the Schandelah-1 core from the North German Basin, we conducted teratological analyses of terrestrial vegetation, revealing pronounced morphological variation. Despite transport and preservation biases, the persistence and diversity of malformations indicate widespread reproductive disruption alongside adaptive strategies, including physiological plasticity and microclimatic buffering, probably driven by thermal stress. Multivariate analyses further confirm significant shifts in pollen malformation during peak warming, showing that terrestrial vegetation was simultaneously highly sensitive and resilient. These results provide critical insights into how land plants coped with rapid thermal stress during this interval, offering a deep-time framework for understanding ecosystem responses to past environmental change.",
+    "authors": [
+      {
+        "fullName": "Galasso F",
+        "firstName": "Francesca",
+        "lastName": "Galasso",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5391-7902"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth System Sciences, University of Hamburg, Hamburg20146, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Foster W",
+        "firstName": "William",
+        "lastName": "Foster",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth System Sciences, University of Hamburg, Hamburg20146, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "van de Schootbrugge B",
+        "firstName": "Bas",
+        "lastName": "van de Schootbrugge",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2270-6285"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth Sciences, Utrecht University, Utrecht3584CB, The Netherlands."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-01",
+    "journal": "",
+    "doi": "10.1098/rspb.2025.2880"
+  },
+  {
+    "pmcid": "PMC13252736",
+    "pmid": "42268824",
+    "title": "Fresh aboveground net primary productivity of Tibetan grasslands: Responses of different plant functional groups to climate change and human activities and implications for ecosystem management.",
+    "abstract": "Uncertainties remain regarding how climate change and human activities affect the aboveground net primary productivity (ANPP) of grassland ecosystems, particularly the differential responses of distinct plant functional groups. Here, we investigate the alpine grasslands of the Qinghai-Xizang Plateau from 2000 to 2022, focusing on the fresh ANPP of the whole plant community and three key functional groups (sedges, graminoids, and forbs). Our objectives are to identify the spatiotemporal trends of ANPP and to determine the dominant drivers (climate vs. human activities) of these changes. Under the combined effects of climate change and human activities, the spatially averaged relative changes in fresh ANPP were -1.15% for the whole community, + 5.67% for sedges, -1.55% for graminoids, and -2.26% for forbs. Regional patterns varied, with some areas showing increasing or decreasing trends over time, while others exhibited no significant change. Climate change dominated 20.79% of the grassland area, human activities dominated 54.26%, and the two drivers jointly dominated 24.95%. When the ANPP of the three functional groups were considered together, the area where all three groups jointly regulated grassland fresh ANPP accounted for the largest proportion (39.12%), followed by areas dominated by forbs (35.43%), sedges (18.27%), and graminoids (7.18%). These results reveal pronounced geographical heterogeneity in the trends of fresh ANPP, both for the whole community and for individual functional groups. Human activities exert a larger controlling influence than climate change over the observed ANPP changes. Moreover, the contribution of each functional group to community ANPP varies spatially. Our findings provide a scientific basis for understanding grassland ecosystem functioning and for developing targeted conservation and management strategies.",
+    "authors": [
+      {
+        "fullName": "Zhang G",
+        "firstName": "Guangyu",
+        "lastName": "Zhang",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sun W",
+        "firstName": "Wei",
+        "lastName": "Sun",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li S",
+        "firstName": "Shaowei",
+        "lastName": "Li",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhong Z",
+        "firstName": "Zhiming",
+        "lastName": "Zhong",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Tian Y",
+        "firstName": "Yuan",
+        "lastName": "Tian",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhao C",
+        "firstName": "Chenjun",
+        "lastName": "Zhao",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Han F",
+        "firstName": "Fusong",
+        "lastName": "Han",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Urban and Environmental Sciences, Hunan University of Technology, Zhuzhou, Hunan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Huang S",
+        "firstName": "Shaolin",
+        "lastName": "Huang",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Tourism, Henan Normal University, Xinxiang, Henan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yujie D",
+        "firstName": "Dunzhu",
+        "lastName": "Yujie",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "People's Government of Zhongba County, Xigaze, Tibet Autonomous Region, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Fu G",
+        "firstName": "Gang",
+        "lastName": "Fu",
+        "initials": "G",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6055-8730"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lhasa Plateau Ecosystem Research Station, Key Laboratory of Ecosystem Network Observation and Modeling, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-10",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0349705"
+  },
+  {
+    "pmcid": "",
+    "pmid": "42013817",
+    "title": "Plant response to and recovery from drought.",
+    "abstract": "Drought is a pervasive stress limiting plant growth and survival across ecosystems, and its frequency and severity are rising with climate change, threatening global food and ecological security. While major progress has been made in understanding plant responses to water deficits, an integrative framework spanning molecular to ecosystem scales remains incomplete. Moreover, the recovery processes following drought - crucial for long-term performance and ecosystem resilience - are still understudied. Here, we synthesize recent advances in plant responses to drought and rewatering, linking gene regulation, biochemical and physiological responses, plant growth, community dynamics, and ecosystem functions. We highlight the central roles of abscisic acid and other hormonal signals in stomatal regulation, osmotic adjustment, and stress-induced gene expression. At the physiological level, we discuss shifts in photosynthetic capacity and phenology during drought and recovery. We further examine how precipitation variability shapes vegetation productivity via biodiversity, and how soil microbial communities mediate plant-soil feedback that sustains ecosystem functioning. Finally, we assess how warming and elevated CO<sub>2</sub> modify drought impacts and outline key research priorities to integrate multi-scale insights into breeding, management, and conservation strategies for drought-resilient ecosystems.",
+    "authors": [
+      {
+        "fullName": "Wang J",
+        "firstName": "Jianjian",
+        "lastName": "Wang",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Life Sciences, Guizhou University, Guiyang, China; Guizhou Key Laboratory of Molecular Breeding for Characteristic Horticultural Crops, Guizhou University, Guiyang, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xu Z",
+        "firstName": "Zhenzhu",
+        "lastName": "Xu",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5246-8981"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Life Sciences, Guizhou University, Guiyang, China; Key Laboratory of Vegetation and Environmental Change, Institute of Botany, Chinese Academy of Sciences, Beijing, China. Electronic address: xuzz@ibcas.ac.cn."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-01",
+    "journal": "",
+    "doi": "10.1016/j.cub.2026.02.025"
+  },
+  {
+    "pmcid": "PMC12780301",
+    "pmid": "41388618",
+    "title": "Engineering plant stress responses to combat climate change.",
+    "abstract": "",
+    "authors": [
+      {
+        "fullName": "Jones MA",
+        "firstName": "Matthew A",
+        "lastName": "Jones",
+        "initials": "MA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3943-3968"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Plant Science Group, School of Molecular Biosciences, University of Glasgow, University Avenue, Glasgow, G12 8QQ, UK."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-12-12",
+    "journal": "",
+    "doi": "10.1111/nph.70836"
+  },
+  {
+    "pmcid": "PMC13121153",
+    "pmid": "42058857",
+    "title": "Editorial: Integrative biophysical models to uncover fundamental processes in plant growth, development, and physiology.",
+    "abstract": "",
+    "authors": [
+      {
+        "fullName": "Mohanty B",
+        "firstName": "Bijayalaxmi",
+        "lastName": "Mohanty",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-8226-2367"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "NUS Environmental Research Institute, National University of Singapore, Singapore, Singapore."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dreyer I",
+        "firstName": "Ingo",
+        "lastName": "Dreyer",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Electrical Signaling in Plants (ESP) Laboratory - Center of Bioinformatics, Simulation and Modeling (CBSM), Faculty of Engineering, Universidad de Talca, Talca, Chile."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-04-14",
+    "journal": "",
+    "doi": "10.3389/fpls.2026.1837360"
+  },
+  {
+    "pmcid": "PMC13258885",
+    "pmid": "42280795",
+    "title": "Physiological Responses, Molecular Basis, and Integrated Regulation of Heat Tolerance in Soybean.",
+    "abstract": "Global warming has led to frequent occurrences of extreme heat, posing a huge threat to soybean (<i>Glycine max</i> L.) yield. As a major source of plant protein and oil, soybean is particularly sensitive to heat stress during its growth and development, especially in critical stages such as flowering and seed filling. Heat tolerance in crops is a complex trait governed by polygenic networks and environmental interactions; although existing studies have identified several heat-tolerance-related genes, the molecular regulatory networks regulating crop responses to heat stress remain elusive. This review synthesizes recent advances in soybean heat tolerance research, with a particular emphasis on physiological responses and molecular regulatory mechanisms under heat stress. We further evaluate the potential of modern technologies, including gene editing, marker-assisted selection, and pan-genomics, for the precise improvement of heat tolerance in soybean. Additionally, we outline sustainable agronomic practices and field management strategies to mitigate heat stress. The development of heat-tolerant soybean varieties depends not only on the identification of superior alleles but also requires a shift from gene-centric genetic improvement toward a system-wide solution that integrates \"Genotype × Environment × Management\".",
+    "authors": [
+      {
+        "fullName": "Geng H",
+        "firstName": "Haoyang",
+        "lastName": "Geng",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The Key Laboratory for Quality Improvement of Agricultural Products of Zhejiang Province, College of Advanced Agricultural Sciences, Zhejiang A&F University, Hangzhou 311300, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xin Y",
+        "firstName": "Yiting",
+        "lastName": "Xin",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The Key Laboratory for Quality Improvement of Agricultural Products of Zhejiang Province, College of Advanced Agricultural Sciences, Zhejiang A&F University, Hangzhou 311300, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jin H",
+        "firstName": "Hongmiao",
+        "lastName": "Jin",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The Key Laboratory for Quality Improvement of Agricultural Products of Zhejiang Province, College of Advanced Agricultural Sciences, Zhejiang A&F University, Hangzhou 311300, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zheng Z",
+        "firstName": "Zhifu",
+        "lastName": "Zheng",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The Key Laboratory for Quality Improvement of Agricultural Products of Zhejiang Province, College of Advanced Agricultural Sciences, Zhejiang A&F University, Hangzhou 311300, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pan T",
+        "firstName": "Tian",
+        "lastName": "Pan",
+        "initials": "T",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6107-4175"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The Key Laboratory for Quality Improvement of Agricultural Products of Zhejiang Province, College of Advanced Agricultural Sciences, Zhejiang A&F University, Hangzhou 311300, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zeng Z",
+        "firstName": "Zhaoqiong",
+        "lastName": "Zeng",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nanchong Academy of Agricultural Sciences, Nanchong 637000, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-05",
+    "journal": "",
+    "doi": "10.3390/plants15111758"
+  },
+  {
+    "pmcid": "",
+    "pmid": "",
+    "title": "Hysteresis response of photosynthetic parameters in different plants to external CO2 concentration",
+    "abstract": "<title>Abstract</title>  <p>  Global warming caused by increasing CO  <sub>2</sub>  concentration has caused deviations in the original patterns of plant photosynthesis and transpiration in response to CO  <sub>2</sub>  . Additionally, it has exacerbated agricultural water shortages, making the requirement to improve water use efficiency (WUE) more urgent than ever. To solve this problem, this study used a rectangular hyperbolic-modified model with two successive periods in reverse order to analyze the hysteresis responses of the net photosynthetic rate (  <italic>P</italic>  <sub>N</sub>  ), transpiration rate (  <italic>E</italic>  ) and WUE of  <italic>Triticum aestivum</italic>  ,  <italic>Rumex crispus</italic>  , and  <italic>Taraxacum officinale</italic>  to CO  <sub>2</sub>  concentration. The results show that different plant species follow obvious hysteresis laws: If hysteresis occurs between periods of different plants,  <italic>P</italic>  <sub>N</sub>  and  <italic>E</italic>  exhibit hysteresis with a positive main effect, and WUE shows hysteresis with a negative main effect. During the same period of  <italic>P</italic>  <sub>N</sub>  and  <italic>E</italic>  , hysteresis occurring in the forward and negative periods shows a positive effect; However, for WUE, the hysteresis effect is opposite to that of  <italic>P</italic>  <sub>N</sub>  and  <italic>E</italic>  . This result provides deeper insights into the response of plant photosynthesis, transpiration, and WUE values to changes in CO  <sub>2</sub>  concentration. It helps enhance our understanding of the relationship between plant growth and climate change, offering scientific evidence to support maintaining agricultural production and ensuring food security.  </p>",
+    "authors": [
+      {
+        "fullName": "Sun S",
+        "firstName": "Sicong",
+        "lastName": "Sun",
+        "initials": "S"
+      },
+      {
+        "fullName": "Geng X",
+        "firstName": "Xiaoru",
+        "lastName": "Geng",
+        "initials": "X"
+      },
+      {
+        "fullName": "Niu M",
+        "firstName": "Mengfan",
+        "lastName": "Niu",
+        "initials": "M"
+      },
+      {
+        "fullName": "Feng H",
+        "firstName": "Hao",
+        "lastName": "Feng",
+        "initials": "H"
+      },
+      {
+        "fullName": "Wei Y",
+        "firstName": "Yongsheng",
+        "lastName": "Wei",
+        "initials": "Y"
+      }
+    ],
+    "publication_date": "2025-12-16",
+    "journal": "",
+    "doi": "10.21203/rs.3.rs-7741741/v1"
+  },
+  {
+    "pmcid": "PMC13282462",
+    "pmid": "42328469",
+    "title": "Predict Suitable Restoration Areas for Typical Vegetation Restoration Species on the Qinghai-Tibetan Plateau Based on MaxEnt.",
+    "abstract": "Under global warming, the Qinghai-Tibetan Plateau (QTP) ecosystem faces severe threats, and vegetation restoration is critical for ecological rehabilitation. Unlike previous studies focusing on endangered or invasive species, this research innovatively selects six typical vegetation restoration species (<i>Poa pratensis</i>, <i>Poa araratica</i>, <i>Poa pratensis</i> var. <i>anceps</i>, <i>Festuca sinensis</i>, <i>Elymus nutans</i>, <i>Lolium perenne</i>) and integrates species distribution modeling (MaxEnt), centroid migration analysis, and niche theory to systematically evaluate their restoration potential under current and future climate scenarios-advancing beyond conventional single-species distribution predictions. Key findings: (1) Elevation (alt) and annual precipitation (bio12) are the dominant factors determining species distribution, with their combined contribution rates to the six species ranging from 46.6% (<i>L. perenne</i>) to 81.7% (<i>F. sinensis</i>), providing precise indicators for site selection in restoration. (2) Except for <i>L. perenne</i>, high-suitability zones of other species concentrate in the northeastern QTP, with <i>E. nutans</i> having the largest suitable area (80.73 × 10<sup>4</sup> km<sup>2</sup>, 61% of total QTP area). Under climate warming, 80% of species (e.g., <i>P. araratica</i>, <i>E. nutans</i>) show significant habitat expansion (e.g., <i>E. nutans</i> moderate/high suitability zones increase by 90.79%/111.66% under RCP8.5 2070s) and an overall westward migration trend (e.g., <i>F. sinensis</i> migrates 246.51 km southwestward under RCP8.5). (3) <i>E. nutans</i> exhibits the widest niche breadth (B<sub>1</sub> = 0.156, strongest adaptability) but high niche overlap with other species (e.g., <i>P. araratica</i> vs. <i>P. pratensis</i>, <i>D</i> = 0.75), indicating a potential competition risk requiring field validation when mixed-sown in resource-limited areas. This study applies a multidimensional assessment framework that integrates climate response, spatial migration, and niche interaction to QTP vegetation restoration, providing a scientific basis for species selection and configuration with important practical implications for climate-resilient ecological restoration.",
+    "authors": [
+      {
+        "fullName": "Yang Y",
+        "firstName": "Ying",
+        "lastName": "Yang",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0002-0754-5313"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Sichuan Zoige Alpine Wetland Ecosystem National Observation and Research Station Southwest Minzu University Chengdu China."
+            },
+            {
+              "affiliation": "College of Agriculture and Animal Husbandry Qinghai University Xining China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang CD",
+        "firstName": "Chen-Di",
+        "lastName": "Wang",
+        "initials": "CD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Qinghai Traffic Construction Management Co., Ltd. Xining China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yin YG",
+        "firstName": "Yan-Gang",
+        "lastName": "Yin",
+        "initials": "YG",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Qinghai Traffic Construction Management Co., Ltd. Xining China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Han D",
+        "firstName": "Dong",
+        "lastName": "Han",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Qinghai Traffic Construction Management Co., Ltd. Xining China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhong Y",
+        "firstName": "Yue",
+        "lastName": "Zhong",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Qinghai Traffic Construction Management Co., Ltd. Xining China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang B",
+        "firstName": "Bo",
+        "lastName": "Wang",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3713-0856"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Northwest Institute of Plateau Biology, Chinese Academy of Sciences Xining People's Republic of China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhou GY",
+        "firstName": "Guo-Ying",
+        "lastName": "Zhou",
+        "initials": "GY",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2485-6172"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Sichuan Zoige Alpine Wetland Ecosystem National Observation and Research Station Southwest Minzu University Chengdu China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-19",
+    "journal": "",
+    "doi": "10.1002/ece3.73857"
+  },
+  {
+    "pmcid": "PMC12728184",
+    "pmid": "41310349",
+    "title": "Loss of vegetation functions during the Paleocene-Eocene Thermal Maximum.",
+    "abstract": "The Paleocene-Eocene Thermal Maximum (PETM) around 56 million years ago was a 5-6°C global warming event that lasted for approximately 200 kyr. A warming-induced loss and a 70-100 kyr lagged recovery of biospheric carbon stocks was suggested to have contributed to the long duration of the climate perturbation. Here, we use a trait-based, eco-evolutionary vegetation model to test whether the PETM warming exceeded the adaptation capacity of vegetation systems, impacting the efficiency of terrestrial organic carbon sequestration and silicate weathering. Combined model simulations and vegetation reconstructions using PETM palynofloras suggest that warming-induced migration and evolutionary adaptation of vegetation were insufficient to prevent a widespread loss of productivity. We conclude that global warming of the magnitude as during the PETM could exceed the response capacity of vegetation systems and cause a long-lasting decline in the efficiency of vegetation-mediated climate regulation mechanisms.",
+    "authors": [
+      {
+        "fullName": "Rogger J",
+        "firstName": "Julian",
+        "lastName": "Rogger",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-8833-1861"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Planetary Sciences, ETH Zurich, Zurich, Switzerland. jul.rogger@gmail.com."
+            },
+            {
+              "affiliation": "Department of Environmental Systems Science, ETH Zurich, Zurich, Switzerland. jul.rogger@gmail.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Korasidis VA",
+        "firstName": "Vera A",
+        "lastName": "Korasidis",
+        "initials": "VA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2921-5641"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Geography, Earth and Atmospheric Sciences, University of Melbourne, Melbourne, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bowen GJ",
+        "firstName": "Gabriel J",
+        "lastName": "Bowen",
+        "initials": "GJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6928-3104"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geology and Geophysics, University of Utah, Salt Lake City, Utah, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shields CA",
+        "firstName": "Christine A",
+        "lastName": "Shields",
+        "initials": "CA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4481-1377"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "NSF National Center for Atmospheric Research, Boulder, Colorado, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gerya TV",
+        "firstName": "Taras V",
+        "lastName": "Gerya",
+        "initials": "TV",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Planetary Sciences, ETH Zurich, Zurich, Switzerland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pellissier L",
+        "firstName": "Loïc",
+        "lastName": "Pellissier",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2289-8259"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Environmental Systems Science, ETH Zurich, Zurich, Switzerland."
+            },
+            {
+              "affiliation": "Swiss Federal Institute for Forest, Snow and Landscape Research, Birmensdorf, Switzerland."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-11-27",
+    "journal": "",
+    "doi": "10.1038/s41467-025-66390-8"
+  },
+  {
+    "pmcid": "",
+    "pmid": "42231569",
+    "title": "Response of two mangrove species to elevated temperatures: a comparative study on photosynthetic physiological sensitivity and acclimation to simulated climate warming.",
+    "abstract": "As global warming intensifies, understanding the physiological and ecological responses of mangrove species to rising temperatures becomes crucial for predicting their future distribution and resilience. This study investigated the photosynthetic physiology, growth and biomass allocation of seedlings of two mangrove species, Kandelia obovata and Bruguiera gymnorrhiza, under controlled temperature gradients of 22-32 °C, simulating Intergovernmental Panel on Climate Change (IPCC) projected warming scenarios. Key findings include a unimodal response of net photosynthesis to temperature, with species-specific optimal temperatures: K. obovata achieved its maximum net photosynthetic rate (9.25 ± 0.13 μmol m-2 s-1) at 30 °C, while B. gymnorrhiza peaked at 28 °C (7.44 ± 0.17 μmol m-2 s-1) and maintained a plateau at 30 °C. The maximum quantum efficiency of photosystem II increased by 33.87% in K. obovata at 30 °C and by 32.20% in B. gymnorrhiza at 32 °C relative to 22 °C. Warming significantly enhanced biomass accumulation in K. obovata, with total dry biomass increasing by 63.83% at 32 °C compared with 22 °C, while B. gymnorrhiza showed a 25.6% increase at 28 °C. The study highlights species-specific acclimation: K. obovata exhibits higher photosynthetic efficiency and biomass allocation plasticity, whereas B. gymnorrhiza demonstrates greater photoprotection and water-use efficiency. The strategies suggest that K. obovata may thrive under increased water availability, whereas conservative traits could enhance resilience to drought and heat stress for B. gymnorrhiza. These findings reveal a fundamental trade-off between growth and photosynthetic efficiency under warming. This mechanistic insight into mangrove acclimation improves our ability to forecast their responses to climate change and supports the development of targeted conservation strategies.",
+    "authors": [
+      {
+        "fullName": "Wu J",
+        "firstName": "Jiajia",
+        "lastName": "Wu",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of the Ministry of Education for Coastal and Wetland Ecosystems, College of the Environment and Ecology, Xiamen University, Xiamen, Fujian, 361005, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang Z",
+        "firstName": "Zhongtang",
+        "lastName": "Wang",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of the Ministry of Education for Coastal and Wetland Ecosystems, College of the Environment and Ecology, Xiamen University, Xiamen, Fujian, 361005, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chen S",
+        "firstName": "Shunyang",
+        "lastName": "Chen",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Ministry of Natural Resources, Third Institute of Oceanography, Xiamen, Fujian, 361005, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chen J",
+        "firstName": "Jiahui",
+        "lastName": "Chen",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Ministry of Natural Resources, Third Institute of Oceanography, Xiamen, Fujian, 361005, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chen G",
+        "firstName": "Guangcheng",
+        "lastName": "Chen",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Ministry of Natural Resources, Third Institute of Oceanography, Xiamen, Fujian, 361005, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ye Y",
+        "firstName": "Yong",
+        "lastName": "Ye",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6712-396X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of the Ministry of Education for Coastal and Wetland Ecosystems, College of the Environment and Ecology, Xiamen University, Xiamen, Fujian, 361005, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-07-01",
+    "journal": "",
+    "doi": "10.1093/treephys/tpag072"
+  },
+  {
+    "pmcid": "PMC13010128",
+    "pmid": "41883795",
+    "title": "Harnessing endophytic fungi for sustainable agriculture: ecological roles, mechanisms, and future prospects.",
+    "abstract": "Endophytic fungi are asymptomatic microorganisms that inhabit plant tissues and play pivotal roles in regulating crop growth under field conditions. This review first provides an overview of their taxonomy and ecological functions, emphasizing natural diversity and distribution, then systematically summarizes their core mechanisms: enhancing nutrient uptake, regulating phytohormone biosynthesis, promoting root development, and boosting resistance to abiotic stresses (e.g., drought, salinity). We further discuss the agricultural potential and existing challenges, including stability, persistence, and compatibility with current farming practices. Future research directions are outlined to advance sustainable agriculture, focusing on dissecting molecular interactions between endophytic fungi and crops, optimizing application techniques, and evaluating long-term ecological impacts. This work provides a comprehensive reference for agricultural scientists, ecologists, and researchers to facilitate the practical application of endophytic fungi, encouraging further research, and practical applications in this field.",
+    "authors": [
+      {
+        "fullName": "Du C",
+        "firstName": "Changliang",
+        "lastName": "Du",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chen Q",
+        "firstName": "Qian",
+        "lastName": "Chen",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Aridland Crop Science, College of Agronomy, Gansu Agricultural University, Lanzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cui D",
+        "firstName": "Dayong",
+        "lastName": "Cui",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zahid Mumtaz M",
+        "firstName": "Muhammad",
+        "lastName": "Zahid Mumtaz",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Aridland Crop Science, College of Agronomy, Gansu Agricultural University, Lanzhou, China."
+            },
+            {
+              "affiliation": "Institute of Molecular Biology and Biotechnology, The University of Lahore, Lahore, Pakistan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chang Y",
+        "firstName": "Yonglan",
+        "lastName": "Chang",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yang N",
+        "firstName": "Ning",
+        "lastName": "Yang",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang L",
+        "firstName": "Liwen",
+        "lastName": "Wang",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gao J",
+        "firstName": "Jie",
+        "lastName": "Gao",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Feng W",
+        "firstName": "Weiyi",
+        "lastName": "Feng",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhu J",
+        "firstName": "Junke",
+        "lastName": "Zhu",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shandong Engineering Research Center of Rose Breeding Technology and Germplasm Innovation, School of Life Sciences, Qilu Normal University, Jinan, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-03-09",
+    "journal": "",
+    "doi": "10.3389/fmicb.2026.1710071"
+  },
+  {
+    "pmcid": "PMC13076769",
+    "pmid": "41781501",
+    "title": "The Arctic vegetation is more sensitive to heatwave-induced photosynthetic decline than other climate zones in Europe (2009-2017).",
+    "abstract": "This study shows that the photosynthesis of Arctic terrestrial plants is more vulnerable and sensitive to heatwaves’ impacts than plants in other European climate zones. The results of this study indicate distinct effects of heatwaves among different climate zones in Europe (2009–2017). The Arctic climate zone shows a steeper decline in photosynthesis during heatwaves, as revealed by geographically and temporally weighted regression analysis based on biophysical factors such as the Normalized Difference Vegetation Index and Leaf Area Index, compared to arid, temperate, and cold climate zones. As Arctic temperatures continue to rise, it would lead to photosynthetic inhibition from Arctic terrestrial plants, irreversibly turning them into one of the largest CO2 sources. The results of this study are expected to be a valuable reference as they provide European-wide quantitative evidence that global warming has caused comparably stronger negative consequences on the photosynthetic physiology of plants living in the Arctic compared to other climatic zones.",
+    "authors": [
+      {
+        "fullName": "Hwang YS",
+        "firstName": "Young-Seok",
+        "lastName": "Hwang",
+        "initials": "YS",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Multi-INT & Fusion Division, HANCOM InSpace, Daejeon, 34126, Korea."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Schlüter S",
+        "firstName": "Stephan",
+        "lastName": "Schlüter",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Mathematics, Natural and Economic Sciences, Ulm University of Applied Sciences, 89075, Ulm, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Park H",
+        "firstName": "Hyejin",
+        "lastName": "Park",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "A3 Architectural Laboratory, Kyungpook National University, Daegu, 41566, Korea."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Um JS",
+        "firstName": "Jung-Sup",
+        "lastName": "Um",
+        "initials": "JS",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geography, Kyungpook National University, Daegu, 41566, Korea. jsaeom@knu.ac.kr."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-03-04",
+    "journal": "",
+    "doi": "10.1038/s41598-026-41640-x"
+  }
+]
