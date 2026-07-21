@@ -1,6 +1,6 @@
 # shreya-daily-progress
 
-## 2026.07.21
+## 2026.07.21(Tuesday)
 
 ## Tasks completed
 
@@ -10,12 +10,13 @@
 
 ## 2026.07.20
 
-## Tasks completed
+## Tasks completed(Monday)
 
 * Discussed the upcoming agenda of the meeting for 21 July
 * Reviewed the presentations of Aleena and Vrinda
 
-## 2026.07.17
+
+## 2026.07.17(Friday)
 
 ## Tasks completed
 
@@ -24,7 +25,7 @@
 * Reviewed my work as an intern on GitHub
 * Revised my corpora
   
-## 2026.07.16
+## 2026.07.16(Thursday)
 
 ## Tasks completed
 
@@ -33,7 +34,7 @@
 * Tried creating a semantic corpus for ocean currents
 * With the above refernce,tried to incorporate the data from ocean current corpus into chatbot
 
-## 2026.07.15
+## 2026.07.15(Wednesday)
 
 ## Tasks completed
 
@@ -42,7 +43,7 @@
 * Discussed the issues in the shreya branch and decided to create an issue.
 * Decided to host a hackathon for young people
 
-## 2026.07.14
+## 2026.07.14(Tuesday)
 
 ## Tasks completed
 
@@ -52,14 +53,15 @@
 * Downloaded all the 50 papers from EuropePMC
 * Created a demo recording for operation of gitHub
 
-## 2026.07.13
+## 2026.07.13(Monday)
 
 ## Tasks completed
 
 * Discussed the updates regarding semantic_corpus 
 * Checked for the prototype similarity and extracting encyclopedia
 
-## 2026.07.10
+
+## 2026.07.10(Friday)
 
 ## Tasks completed
 
@@ -67,7 +69,7 @@
 * Discussed the work at semantic_corpus
 * Discussed to aid and help Aleena in making videos as a part of review for the internship
 
-## 2026.07.09
+## 2026.07.09(Thursday)
 
 ## Tasks completed
 
@@ -75,7 +77,7 @@
 * Listed the future outcomes of the internship
 * An interactive session on the tenure and experience in the internship
 
-## 2026.07.08
+## 2026.07.08(Wednesday)
 
 ## Tasks completed
 
@@ -83,14 +85,14 @@
 * Pushed all the files to github
 Documented the 4-week report into github
 
-## 2026.07.07
+## 2026.07.07(Tuesday)
 
 ## Tasks completed
 
 * Prepared for the launch of CA chatbot
 * Discussed the introduction to corpus and other tools
 
-## 2026.07.06
+## 2026.07.06(Monday)
 
 ## Tasks completed
 
@@ -98,7 +100,8 @@ Documented the 4-week report into github
 * Registered for the launch of CA chatbot
 * Reviewed the videos and the chatbot for launch
 
-## 2026.07.03
+
+## 2026.07.03(Friday)
 
 ## Tasks completed
 
@@ -108,14 +111,14 @@ Documented the 4-week report into github
 * Run the pipeline for the required query
 * Explored the requirements to create an automated literature review for a query
 
-## 2026.07.02
+## 2026.07.02(Thursday)
 
 * Started a new project called corpus and reviewed it's necessities
 * Learned the use of pygetpapers
 * Collected climate papers from the sites related to global warming
 * Briefly explored the readme.md of pygetpapers
 
-## 2026.07.01
+## 2026.07.01(Wednesday)
 
 ## Tasks completed
 
@@ -124,14 +127,14 @@ Documented the 4-week report into github
 * Tested the new cloudflare of chatbot and asked questions
 * Reviewed the report
 
-## 2026.06.30
+## 2026.06.30(Tuesday)
 
 ## Tasks completed
 
 * Explored the AGROVOC dictionary for terms and meanings
 * Discussed the priorities of chatbot and IPCC
 
-## 2026.06.29
+## 2026.06.29(Monday)
 
 ## Tasks completed
 
@@ -140,30 +143,31 @@ Documented the 4-week report into github
 * Discussed about the launch of chatbot
 * Created a markdown listings of tasks assigned to the interns using ai
 
+
 ## 2026.06.26 (Muharram-holiday)
 
-## 2026.06.25
+## 2026.06.25(Thursday)
 
 ## Tasks completed 
 
 * Decided the future tasks for another month
 * Revised the 4-week internship report
   
-## 2026.06.24
+## 2026.06.24(Wednesday)
 
 ## Tasks completed
 
 * Discussed the roles and work to be completed under ORAT
 * Drafted the report to be submitted to IAS
   
-## 2026.06.23
+## 2026.06.23(Tuesday)
 
 ## Tasks completed
 
 * Discussed and revised the ORAT project.
 * Discussed the future prospects of ORAT
   
-## 2026.06.22
+## 2026.06.22(Monday)
 
 ## Tasks completed
 
@@ -174,7 +178,8 @@ Documented the 4-week report into github
 * Understood the concept of extraction of texts and graphical representation of other group members.
 * Discussed the requirements of the monthly report to be submitted to the IAS in the group discussion.
 
-## 2026.06.19
+
+## 2026.06.19(Friday)
 
 ## Tasks completed
 
@@ -184,14 +189,14 @@ Documented the 4-week report into github
 * Created a file for 11 other annual reports and extracted the images.
 * Learnt about the AGROVOC mapping
   
-## 2026.06.18
+## 2026.06.18(Thursday)
 
 ## Tasks completed
 * Collected images from five more institutes
 * Created metadata for the same
 * Created a csv file for all the extracted images and verified it with Peter.
 
-## 2026.06.17
+## 2026.06.17(Wednesday)
 
 ## Tasks completed
 
@@ -200,7 +205,7 @@ Documented the 4-week report into github
 * Collected and tried extracting images from IARI institute
 * Worked with VS Code
 
-## 2026.06.16
+## 2026.06.16(Tuesday)
 
 ## Tasks completed
 * Discussed the next steps on project ORAT
@@ -209,7 +214,7 @@ Documented the 4-week report into github
 * Learnt the introduction to various tools that can be used in image analysis
 * Created a timeline for my internship for two months 
 
-## 2026.06.15
+## 2026.06.15(Monday)
 
 ## Tasks completed
 
@@ -217,8 +222,9 @@ Documented the 4-week report into github
 * Created a document on the project that is to be undertaken
 * Discussed the presentation during the meet regarding the chatbot
 * Studied the workflow of my project 'Image analysis' of annual reports from agricultural institutions.
-  
-## 2026.06.12
+
+ 
+## 2026.06.12(Friday)
 
 ## Tasks completed
 
@@ -228,7 +234,7 @@ Documented the 4-week report into github
 * Discussed the institutions that are listed under ICAR across India
 * A team discussion on the project on what roles each of the intern can work on.
   
-## 2026.06.11
+## 2026.06.11(Thursday)
 
 ## Tasks completed
 
@@ -236,7 +242,7 @@ Documented the 4-week report into github
 * Learned the method to create pictures from cytoscape
 * Studied the guide to graphml and cytoscape operations on ORAT document 
 
-## 2026.06.10
+## 2026.06.10(Wednesday)
 
 ## Tasks completed
 
@@ -246,7 +252,7 @@ Documented the 4-week report into github
 * Learned the method to merge a personal branch with the main on GitHub.
 * Learned how to the read the timeline graph on insights of GitHub.
 
-## 2026.06.09
+## 2026.06.09(Tuesday)
 
 ## Tasks completed
 
@@ -257,7 +263,7 @@ Documented the 4-week report into github
 * Discussed the various institutions under BRIC and their annual reports for OT-ViRARe.
 * Preparation for the presentation of the chatbot.
 
-## 2026.06.08
+## 2026.06.08(Monday)
 
 ## Tasks completed
 
@@ -266,14 +272,8 @@ Documented the 4-week report into github
 * Introduction of new interns at OT-ViRARe.
 * Learned how data is retrieved through LLM
 
-## Weekly learning outcome 
-
-* Understood the agenda behind SemanticClimate and the purpose of introduction of the ClimateAcademy chatbot.
-* Learned the basics of GitHub and Slack.
-* Understood the tips for an effiecient presentation
-* Familiarised to Markdown languauge.
   
-## 2026.06.05
+## 2026.06.05 (Friday)
 
 ## Tasks completed
 
@@ -282,7 +282,7 @@ Documented the 4-week report into github
 * Understood the basic GitHub processes like repositories,branches and pr.
 * Documented the everyday tasks in markdown format
 
-## 2026.06.04
+## 2026.06.04(Thursday)
 
 ## Tasks completed
 
@@ -292,7 +292,7 @@ Documented the 4-week report into github
 * Preparation and discussion for the bot presentation
 * Rectified the mistakes while presentations
 
-## 2026.06.03
+## 2026.06.03(Wednesday)
 
 ## Tasks completed
 
@@ -302,7 +302,7 @@ Documented the 4-week report into github
 * Explored the chatbot window
 * Discussed the need for changes and the problems in the chatbot.
 
-## 2026.06.02
+## 2026.06.02(Tuesday)
 
 ## Tasks completed
 
@@ -313,7 +313,7 @@ Documented the 4-week report into github
 * Created a markdown list about tasks to be prioritised.
 * Learned the order of problem solving within the bot.
 
-## 2026.06.01
+## 2026.06.01(Monday)
 
 ## Tasks completed
 
