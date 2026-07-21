@@ -1,5 +1,20 @@
 # shreya-daily-progress
 
+## 2026.07.21
+
+## Tasks completed
+
+* Prepared for the presentation to the OKFN.
+* Reviewed the presentations of Aleena and Vrinda
+* Drafted the final report to be submitted to IAS
+
+## 2026.07.20
+
+## Tasks completed
+
+* Discussed the upcoming agenda of the meeting for 21 July
+* Reviewed the presentations of Aleena and Vrinda
+
 ## 2026.07.17
 
 ## Tasks completed
