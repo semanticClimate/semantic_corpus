@@ -1,4 +1,4 @@
-27/07
+**27/07**
 
 
 I outlined my research topic on agrochemicals (e.g. gliphosate) and their impact. I came up with the idea of dividing the topic in three areas: 
@@ -9,3 +9,16 @@ I outlined my research topic on agrochemicals (e.g. gliphosate) and their impact
 I have already downloaded some papers which I should check, still the search goes on! 
 
 Regarding the encyclopedia repo, it is already cloned in my pc but the env and requisites are left to be set. 
+
+**28/07**
+
+
+Since my last post I got familiarised eith the semantic_corpus tool. I set up the venv in my local IDE
+Being able to understand the CLI commands was a major advance. 
+
+Nevertheless some issues appeared when trying to download the papers. If I looked for all (sorts of file) or pdf in the 
+europe_pmc repo, it would print "download" without really adding any content to the tool_research folder.
+
+Narrowing the scope to xml, the problem has been sorted. 
+
+I look forward to joining the FSCI meeting on Thursday
