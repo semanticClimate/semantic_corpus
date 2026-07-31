@@ -22,3 +22,14 @@ europe_pmc repo, it would print "download" without really adding any content to 
 Narrowing the scope to xml, the problem has been sorted. 
 
 I look forward to joining the FSCI meeting on Thursday
+
+**30/07**
+
+
+Attending the FSCI meeting was wonderful!
+Apart from that I added the file agrochemical_clasification.md
+I deem it important to understand the wide variety of chemicals available before fully analizing their effects
+
+I'll keep on with the research of papers and trying new tools. 
+
+No problems today
