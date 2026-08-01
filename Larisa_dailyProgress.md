@@ -27,9 +27,17 @@ I look forward to joining the FSCI meeting on Thursday
 
 
 Attending the FSCI meeting was wonderful!
-Apart from that I added the file agrochemical_clasification.md
+Apart from that, I added the file agrochemical_clasification.md
 I deem it important to understand the wide variety of chemicals available before fully analizing their effects
 
 I'll keep on with the research of papers and trying new tools. 
 
 No problems today
+
+**31/07**
+
+
+New papers were found on the following topics: the impact of agrochemicals on the nitrogen and phosphorus 
+cycle, secondary successions, insects and microorganisms. 
+
+I look forward to trying the **structure** repo as well as get it working in my end device
