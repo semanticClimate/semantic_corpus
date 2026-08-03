@@ -41,3 +41,22 @@ New papers were found on the following topics: the impact of agrochemicals on th
 cycle, secondary successions, insects and microorganisms. 
 
 I look forward to trying the **structure** repo as well as get it working in my end device
+
+**02/08**
+
+I got the structure repo running in my computer. I had to enable the Developer Mode (Windows 11) i order to use the symlinks - I wasn't
+aware of that.
+
+I found some issues with the following paths: 
+
+python -m structure.convert.docling.cli pilot/examples/iari_2024.pdf --document-id iari-2024
+python -m structure.validate.html.cli pilot/examples/html/iari_2024.html
+
+The ones actually working are:
+
+python -m structure.convert.docling.cli pilot/examples/iari-2024/annual_report.pdf --document-id iari-2024
+python -m structure.validate.html.cli pilot/examples/iari-2024/annual_report.raw.html
+
+I tried pushing it on a branch of my own but get a 403 error. 
+
+In order to continue with the research on agrochemical's impact, I thought of including some other aspects. 
