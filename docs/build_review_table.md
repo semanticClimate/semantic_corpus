@@ -69,6 +69,7 @@ Rows are sorted by descending score, then `paper_id`.
 
 ## Edit in HTML (recommended)
 
+**Any-query tutorial:** [../tutorials/generation_of_review_table.md](../tutorials/generation_of_review_table.md)  
 **New team member (5 min):** [tutorials/new_member_review_quickstart.md](tutorials/new_member_review_quickstart.md)  
 **Full tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)  
 **Discussion summary:** [summary/2026-07-06_review_workflow.md](summary/2026-07-06_review_workflow.md)  
