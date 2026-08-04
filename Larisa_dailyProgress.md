@@ -60,3 +60,8 @@ python -m structure.validate.html.cli pilot/examples/iari-2024/annual_report.raw
 I tried pushing it on a branch of my own but get a 403 error. 
 
 In order to continue with the research on agrochemical's impact, I thought of including some other aspects. 
+
+**03/08**
+
+I was able to run the encyclopedia repo. I faced some difficulties downloading its dependencies, yet they're solved. 
+The localhost is currently loading. Loading some html file is left to be done (I had none, all the reserach on agrochemicals is stored in PDFs)
