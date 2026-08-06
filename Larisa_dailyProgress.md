@@ -68,3 +68,12 @@ The localhost is currently loading. Loading some html file is left to be done (I
 
 **05/08**
 Up to now I have 25 files with information. I'm not sure what to do next.
+
+**06/08**
+The **Green Revolution** is the point in History where the massive use of **agrochemicals** in agriculture starts. 
+Even though it looked forward to **reducing famines** in the Global South, sixty years later, hunger does not subside - at least not as fast as it shoudl have.
+We have more food, indeed. Nevertherless, most of it is rotten and generating gas emissions into the environment. 
+At the same time, we also suffer all the disadvantages that stem from new agressive technics. Something went terribly wrong...
+In this commit I'm pushing some papers, books and reports exploring this wide background. 'Cause knowing the past, helps us understand the present ;)
+
+~36 files
