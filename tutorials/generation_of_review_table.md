@@ -1,55 +1,155 @@
 # Generation of review table
 
-This tutorial explains how to generate a literature review table for any query and how to review it in the browser.
+This tutorial explains how to generate a literature review table from scratch and how to review it in the browser.
 
-The goal is to make the process easy to follow and reproducible. The workflow is simple:
+If you are brand new to this project, the easiest way to think about it is:
 
-1. Choose a literature query.
-2. Search for papers.
-3. Limit the results to 50 if you want a batch of exactly 50 papers.
-4. Build the review table from the returned results.
-5. Open the table in the browser and mark papers as `include`, `exclude`, or `review`.
-6. Save your decisions.
+1. Clone the repository.
+2. Open the repository on your computer.
+3. Install the Python dependencies.
+4. Run a small Python script that searches for papers.
+5. Save the results into a dedicated folder.
+6. Build a review table from that folder.
+7. Open the review table in the browser and mark papers as `include`, `exclude`, or `review`.
+8. Save your decisions.
 
 This guide is meant to be readable and practical, especially if you want to show the workflow to teammates.
 
 ---
 
-## 1. Start from scratch: create a query and output folder
+## 1. Start from scratch
 
-If you are beginning from nothing, the workflow is:
+If you are getting started for the first time, follow these steps in order.
 
-1. Create or choose a query.
-2. Choose an output folder such as `temp/queries/your_query_name`.
-3. Run the search/download step so the folder contains the raw results.
-4. Make sure the folder includes the expected files before building the review table.
-5. Build the review table from that folder.
+### 1.1 Clone the repository
 
-A typical starting point looks like this:
+Clone the repository from GitHub:
 
-```python
-query_name = "my_first_query"
-query_string = '("climate anxiety" OR "eco anxiety")'
-output_dir = Path("temp/queries/my_first_query")
+```bash
+git clone https://github.com/semanticClimate/semantic_corpus.git
+cd semantic_corpus
 ```
 
-After the search/download step, the folder should contain files such as:
+This creates a folder called `semantic_corpus` on your computer. This is the main project folder. Everything you do for this workflow should happen inside this folder.
+
+### 1.2 Check Python
+
+Make sure Python is available:
+
+```bash
+python --version
+```
+
+If Python is not installed, install Python 3.10 or newer first.
+
+### 1.3 Create a virtual environment
+
+Inside the repository folder, create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows, use:
+
+```powershell
+.venv\Scripts\activate
+```
+
+A virtual environment keeps the project dependencies isolated from the rest of your computer.
+
+### 1.4 Install the package and dependencies
+
+From the repository root, install the project:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -e .
+```
+
+This installs the package and its dependencies so the scripts in this repository can run.
+
+### 1.5 Create a folder for your first query
+
+Create a dedicated output folder for your work:
+
+```bash
+mkdir -p temp/queries/my_first_query
+```
+
+This is where the search results and review files will live. A good habit is to give each batch its own folder, for example:
+
+```text
+temp/queries/my_first_query/
+```
+
+### 1.6 Put the query code in a Python file
+
+For a first run, create a simple Python file in the repository root, next to files such as `README.md` and `pyproject.toml`.
+
+That means the file should live here:
+
+```text
+semantic_corpus/my_first_query.py
+```
+
+Open that file in a text editor and paste in the following code:
+
+```python
+from pathlib import Path
+from semantic_corpus.corpus_review.workflow import run_query_and_build_review_table
+
+result = run_query_and_build_review_table(
+    query_name="my_first_query",
+    query_string='("climate anxiety" OR "eco anxiety")',
+    output_dir=Path("temp/queries/my_first_query"),
+    repository="europe_pmc",
+    limit=50,
+    formats=["xml"],
+)
+
+print(result["summary"])
+print(result["review_paths"])
+```
+
+Then run it from the terminal while you are inside the repository folder:
+
+```bash
+python my_first_query.py
+```
+
+This tells Python to execute the code in `my_first_query.py` from the repository root. The script will search the repository, save the output files into `temp/queries/my_first_query`, and build the review table from there.
+
+### 1.7 What files should appear?
+
+After the script runs, your output folder should contain files similar to this:
 
 ```text
 temp/queries/my_first_query/
 ├── search_results.json
 ├── query_run.json
 └── review/
+    ├── review_table.json
+    ├── review_table.csv
+    ├── review_table.html
+    ├── review_table.md
+    └── review_table.css
 ```
 
-The review table is then built from that folder with:
+If you want to rebuild the review table later from the same folder, run:
 
 ```bash
 ./venv/bin/python scripts/build_review_table.py \
   --query-dir temp/queries/my_first_query
 ```
 
-This is the simplest way to start: define the query, save the results into a dedicated folder, and then build the review table from that folder.
+This is the simplest way to start: choose a query, save the results into a dedicated folder, and then build the review table from that folder.
 
 ---
 
@@ -241,11 +341,17 @@ This gives one review table with 50 papers.
 
 ---
 
-## 8. How to get a second set of 50 different papers
+## 8. Duplicate the query for a different batch of papers
 
-This is the part that often matters in practice: if you run the same query again, it usually returns the same top papers in the same order, because the repository is still ranking the same results the same way.
+If you want a second set of papers, the clean approach is to duplicate the query workflow rather than overwrite the first batch.
 
-So if you want a different batch of 50 papers, the clean approach is to change the search in a meaningful way.
+That means:
+
+1. keep the first batch in one folder,
+2. create a second folder for the next batch,
+3. change the query slightly or adjust the date range,
+4. run the search again,
+5. then combine the results into one review table if you want both batches to appear together.
 
 ### Best option: change the date range
 
@@ -280,7 +386,7 @@ run_query_and_build_review_table(
 )
 ```
 
-This creates two separate review tables, each with 50 papers, but with different publication windows.
+This gives you a second, different batch of papers.
 
 ### Alternative: change the wording of the query
 
@@ -313,7 +419,48 @@ This is clearer than overwriting the same folder and makes it much easier to com
 
 ---
 
-## 9. Full example: generate one review table
+## 9. Add a second batch to the same review table
+
+If you want the next batch to appear in the same review table, treat the first and second batch as two input sources and merge them into one review table.
+
+In practice, that means:
+
+1. build the first review table in one folder,
+2. build the second review table in another folder,
+3. load both `review_table.json` files,
+4. combine the rows into one list,
+5. export that combined list again as `review_table.json`, `review_table.csv`, and `review_table.html`.
+
+Here is a simple example:
+
+```python
+import json
+from pathlib import Path
+from semantic_corpus.corpus_review.review_table import export_review_tables
+
+base_dir = Path("temp/queries/climate_anxiety_combined")
+first_batch_dir = base_dir / "batch_1" / "review"
+second_batch_dir = base_dir / "batch_2" / "review"
+combined_dir = base_dir / "review"
+combined_dir.mkdir(parents=True, exist_ok=True)
+
+first_rows = json.loads((first_batch_dir / "review_table.json").read_text(encoding="utf-8"))
+second_rows = json.loads((second_batch_dir / "review_table.json").read_text(encoding="utf-8"))
+
+combined_rows = first_rows + second_rows
+combined_rows = sorted(
+    combined_rows,
+    key=lambda row: (-int(row["score"]), row["paper_id"]),
+)
+
+export_review_tables(combined_rows, combined_dir, basename="review_table")
+```
+
+This produces a single review table that contains both batches, so you can review them together in one place.
+
+---
+
+## 10. Full example: generate one review table
 
 Here is a complete example you can copy and adapt.
 
