@@ -65,3 +65,6 @@ In order to continue with the research on agrochemical's impact, I thought of in
 
 I was able to run the encyclopedia repo. I faced some difficulties downloading its dependencies, yet they're solved. 
 The localhost is currently loading. Loading some html file is left to be done (I had none, all the reserach on agrochemicals is stored in PDFs)
+
+**05/08**
+Up to now I have 25 files with information. I'm not sure what to do next.
