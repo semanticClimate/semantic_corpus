@@ -15,7 +15,45 @@ This guide is meant to be readable and practical, especially if you want to show
 
 ---
 
-## 1. What is a review table?
+## 1. Start from scratch: create a query and output folder
+
+If you are beginning from nothing, the workflow is:
+
+1. Create or choose a query.
+2. Choose an output folder such as `temp/queries/your_query_name`.
+3. Run the search/download step so the folder contains the raw results.
+4. Make sure the folder includes the expected files before building the review table.
+5. Build the review table from that folder.
+
+A typical starting point looks like this:
+
+```python
+query_name = "my_first_query"
+query_string = '("climate anxiety" OR "eco anxiety")'
+output_dir = Path("temp/queries/my_first_query")
+```
+
+After the search/download step, the folder should contain files such as:
+
+```text
+temp/queries/my_first_query/
+├── search_results.json
+├── query_run.json
+└── review/
+```
+
+The review table is then built from that folder with:
+
+```bash
+./venv/bin/python scripts/build_review_table.py \
+  --query-dir temp/queries/my_first_query
+```
+
+This is the simplest way to start: define the query, save the results into a dedicated folder, and then build the review table from that folder.
+
+---
+
+## 2. What is a review table?
 
 A review table is a structured list of papers generated from a search result. Each row represents one paper, and each row contains metadata such as:
 
