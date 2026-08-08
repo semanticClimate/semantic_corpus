@@ -1,0 +1,16 @@
+{
+  "query_name": "climate_anxiety_2026",
+  "query_string": "\"climate anxiety\" AND (HAS_FT:Y)",
+  "repository": "europe_pmc",
+  "limit": 50,
+  "formats": [
+    "xml",
+    "pdf"
+  ],
+  "output_dir": "/Users/pm286/workspace/semantic_corpus/temp/queries/climate_anxiety_2026",
+  "result_count": 50,
+  "downloaded_count": 50,
+  "run_timestamp": "2026-07-03T18:55:57.644871+00:00",
+  "notes": "",
+  "revision_of": null
+}

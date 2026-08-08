@@ -5,6 +5,9 @@ from semantic_corpus.core.repository_interface import RepositoryInterface
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.repositories.europe_pmc import EuropePMCRepository
 from semantic_corpus.repositories.arxiv import ArxivRepository
+from semantic_corpus.repositories.openalex import OpenAlexRepository
+from semantic_corpus.repositories.scielo import SciELORepository
+from semantic_corpus.repositories.redalyc import RedalycRepository
 
 
 class RepositoryFactory:
@@ -15,6 +18,9 @@ class RepositoryFactory:
     _repositories: Dict[str, Type[RepositoryInterface]] = {
         "europe_pmc": EuropePMCRepository,
         "arxiv": ArxivRepository,
+        "openalex": OpenAlexRepository,
+        "scielo": SciELORepository,
+        "redalyc": RedalycRepository,
     }
 
     @classmethod

@@ -17,7 +17,7 @@ See [config/aqi_india_pilot.yaml](../config/aqi_india_pilot.yaml):
 1. **Issue query** — run search/download; record in `temp/queries/aqi_india_pilot/query_run.json`.
 2. **Immediate reaction** — inspect `search_results.json` and review table; revise query if needed.
 3. **Ingest** — pygetpapers-style output → BAGIT corpus via `ingest_pygetpapers_directory`.
-4. **Review table** — scored rows in `review/review_table.{json,csv,md}` (flat query dir) or `analysis/review/` (after corpus ingest). See [build_review_table.md](build_review_table.md).
+4. **Review table** — scored rows in `review/review_table.{json,csv,md,html}` (flat query dir) or `analysis/review/` (after corpus ingest). See [build_review_table.md](build_review_table.md) and the team [HTML review tutorial](tutorials/html_review_table_tutorial.md).
 5. **Select** — set `review_status` to `include`, `review`, or `exclude` in JSON/CSV.
 6. **Chatbot export** — `chatbot_manifest.json` for `../chatbot` (included papers only).
 
