@@ -1,0 +1,17 @@
+{
+  "query_name": "agrochemicals_alternatives",
+  "query_string": "(\"agrochemicals\" AND \"alternatives\")",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\agrochemicals_alternatives",
+  "result_count": 10,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T02:56:21.856256+00:00",
+  "notes": "",
+  "revision_of": null
+}

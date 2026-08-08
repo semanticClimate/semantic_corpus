@@ -1,0 +1,17 @@
+{
+  "query_name": "agrochemicals_argentina",
+  "query_string": "(\"agrochemicals\" AND \"argentina\")",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\agrochemicals_argentina",
+  "result_count": 10,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T02:50:06.805755+00:00",
+  "notes": "",
+  "revision_of": null
+}

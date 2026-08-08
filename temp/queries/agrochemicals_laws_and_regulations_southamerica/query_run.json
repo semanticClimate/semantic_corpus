@@ -1,0 +1,17 @@
+{
+  "query_name": "laws_regulations",
+  "query_string": "(\"agrochemicals\" AND \"laws and regulations\" and \"south america)",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\agrochemicals_laws_and_regulations_southamerica",
+  "result_count": 10,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T03:08:12.580762+00:00",
+  "notes": "",
+  "revision_of": null
+}

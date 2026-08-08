@@ -1,0 +1,17 @@
+{
+  "query_name": "glyphosate_climate_change",
+  "query_string": "(\"glyphosate\" AND \"climate change\")",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\glyphosate_climate_change",
+  "result_count": 10,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T03:11:31.956825+00:00",
+  "notes": "",
+  "revision_of": null
+}

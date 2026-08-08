@@ -1,0 +1,17 @@
+{
+  "query_name": "green_revolution",
+  "query_string": "(\"green revolution\" AND \"end of famines\")",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\green_revolution",
+  "result_count": 0,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T03:06:27.496507+00:00",
+  "notes": "",
+  "revision_of": null
+}

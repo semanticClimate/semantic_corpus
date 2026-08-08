@@ -1,0 +1,17 @@
+{
+  "query_name": "glyphosate_health",
+  "query_string": "(\"glyphosate\" AND \"health\")",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\glyphosate_health",
+  "result_count": 10,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T03:04:41.330691+00:00",
+  "notes": "",
+  "revision_of": null
+}

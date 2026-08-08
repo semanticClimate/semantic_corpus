@@ -1,0 +1,1201 @@
+[
+  {
+    "pmcid": "",
+    "pmid": "42134487",
+    "title": "Applicability of the U-SENS™ assay for assessing skin sensitization potential of agrochemical active ingredients and formulations.",
+    "abstract": "Skin sensitization testing is essential for the regulatory classification of agrochemicals, including active ingredients (AIs) and formulations. Although several alternative methods have been developed, their application to agrochemicals remains limited. In particular, the performance of the U-SENS™ assay, which addresses key event three (dendritic cell activation) of the adverse outcome pathway, has not yet been evaluated for these products. This study assessed the U-SENS™ applicability to predict the sensitization potential of agrochemical formulations and their AIs. Twelve formulations and nine AIs with known in vivo data were tested following OECD TG 442E. Moreover, in silico analyses were conducted to identify protein binding alerts (PBAs) and potential (a)biotic products mechanistically support the in vitro results. The assay showed balanced accuracies of 72% for formulations and 65% for AIs, comparable to previous reports for other chemical classes. Most non-sensitizing AIs lacked PBAs and metabolites, consistent with their negative U-SENS™ results, while in vivo sensitizers exhibited PBAs in the parent compound or metabolites. These findings provide preliminary evidence that U-SENS™ may contribute to the assessment of skin sensitization potential in agrochemicals. However, further studies including a wider range of substances and additional key events are required to better define its applicability domain and improve classification reliability.",
+    "authors": [
+      {
+        "fullName": "Lenze M",
+        "firstName": "Mariela",
+        "lastName": "Lenze",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7696-7950"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Instituto de Farmacología, Universidad de Buenos Aires, 2155 Paraguay st, Buenos Aires C1121ABG, Argentina; CONICET - Consejo Nacional de Investigaciones Científicas y Técnicas, 2290 Godoy Cruz st, Buenos Aires C1425FQB, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Benedetti MD",
+        "firstName": "Martina Daniela",
+        "lastName": "Benedetti",
+        "initials": "MD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Instituto de Farmacología, Universidad de Buenos Aires, 2155 Paraguay st, Buenos Aires C1121ABG, Argentina; CONICET - Consejo Nacional de Investigaciones Científicas y Técnicas, 2290 Godoy Cruz st, Buenos Aires C1425FQB, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "García MR",
+        "firstName": "Mora Renée",
+        "lastName": "García",
+        "initials": "MR",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0003-3576-4561"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Instituto de Farmacología, Universidad de Buenos Aires, 2155 Paraguay st, Buenos Aires C1121ABG, Argentina; CONICET - Consejo Nacional de Investigaciones Científicas y Técnicas, 2290 Godoy Cruz st, Buenos Aires C1425FQB, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pina JI",
+        "firstName": "Juan Ignacio",
+        "lastName": "Pina",
+        "initials": "JI",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Atanor / Albaugh, 1804 Colectora Panamericana Av., Provincia de Buenos Aires B1607, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wikinski S",
+        "firstName": "Silvia",
+        "lastName": "Wikinski",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6501-2916"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Instituto de Farmacología, Universidad de Buenos Aires, 2155 Paraguay st, Buenos Aires C1121ABG, Argentina; CONICET - Consejo Nacional de Investigaciones Científicas y Técnicas, 2290 Godoy Cruz st, Buenos Aires C1425FQB, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gutiérrez ML",
+        "firstName": "María Laura",
+        "lastName": "Gutiérrez",
+        "initials": "ML",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4000-7816"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Instituto de Farmacología, Universidad de Buenos Aires, 2155 Paraguay st, Buenos Aires C1121ABG, Argentina; CONICET - Consejo Nacional de Investigaciones Científicas y Técnicas, 2290 Godoy Cruz st, Buenos Aires C1425FQB, Argentina. Electronic address: mL.gutierrez@conicet.gov.ar."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-13",
+    "journal": "",
+    "doi": "10.1016/j.tox.2026.154497"
+  },
+  {
+    "pmcid": "",
+    "pmid": "42114708",
+    "title": "Retrospective evaluation of the OECD adopted in vitro skin irritation/corrosion tests for agrochemical formulations.",
+    "abstract": "The Draize rabbit skin test is the primary method for assessing skin irritation potential of chemical products despite limited human relevance, reproducibility, and ethical concerns. The Organisation for Economic Co-operation and Development has issued two test guidelines (TGs) that describe the use of in vitro reconstructed human epidermis models to predict skin irritation or corrosion potential. However, these tests have not been explicitly validated for agrochemical formulations. To address this knowledge gap, we conducted a retrospective analysis to evaluate how well the in vitro methods predict in vivo classifications of these products. Of the 187 formulations with in vivo data (TG 404), 162 formulations had corresponding in vitro corrosion and/or irritation data (TG 431 and/or 439). We also evaluated the Globally Harmonized System for Classification and Labelling of Chemicals (GHS) concentration threshold (CT) approach for 186 formulations. Our analyses suggest that the in vitro irritation test (TG 439) and GHS CT approach are highly predictive of formulations that are mildly or non-irritating to skin (i.e., GHS Category 3 or Not Classified). Therefore, these approaches provide an opportunity to reduce animal use for determining skin irritation potential of agrochemical formulations.",
+    "authors": [
+      {
+        "fullName": "Daniel AB",
+        "firstName": "Amber B",
+        "lastName": "Daniel",
+        "initials": "AB",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Inotiv, Research Triangle Park, NC, USA. Electronic address: amber.daniel@gdit.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Latorre AO",
+        "firstName": "Andreia Oliveira",
+        "lastName": "Latorre",
+        "initials": "AO",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "BASF SA, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Grivel A",
+        "firstName": "Arthur",
+        "lastName": "Grivel",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Bayer SAS, Sophia Antipolis, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vaccari C",
+        "firstName": "Carolina",
+        "lastName": "Vaccari",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Syngenta Proteção de Cultivos, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Reinke EN",
+        "firstName": "Emily N",
+        "lastName": "Reinke",
+        "initials": "EN",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Inotiv, Research Triangle Park, NC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Baldassari J",
+        "firstName": "James",
+        "lastName": "Baldassari",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "FMC Corporation, Philadelphia, PA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Silva JPE",
+        "firstName": "Jefferson Pereira E",
+        "lastName": "Silva",
+        "initials": "JPE",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Syngenta Proteção de Cultivos, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Henriquez J",
+        "firstName": "Joseph",
+        "lastName": "Henriquez",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Corteva Agriscience, Indianapolis, IN, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pradela JM",
+        "firstName": "Júlia Mazarin",
+        "lastName": "Pradela",
+        "initials": "JM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Ouro Fino Química SA, Ribeirão Preto, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Romeo L",
+        "firstName": "Ligia",
+        "lastName": "Romeo",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Corteva Agriscience, Vicente López, Bs As, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Daniel MO",
+        "firstName": "Marcella Oliveira",
+        "lastName": "Daniel",
+        "initials": "MO",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Sumitomo Chemical Brasil Indústria Química SA, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Alencar da Silva MA",
+        "firstName": "Mariana Aguilera",
+        "lastName": "Alencar da Silva",
+        "initials": "MA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Corteva Agriscience, Alphaville, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ogasawara M",
+        "firstName": "Maryanne",
+        "lastName": "Ogasawara",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "FMC Corporation, Campinas, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Boff M",
+        "firstName": "Marylia",
+        "lastName": "Boff",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Bayer SA, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dias NMM",
+        "firstName": "Natalia Myuki Moralles",
+        "lastName": "Dias",
+        "initials": "NMM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Sumitomo Chemical Brasil Indústria Química SA, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Oyetade OB",
+        "firstName": "Oluwakemi B",
+        "lastName": "Oyetade",
+        "initials": "OB",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Inotiv, Research Triangle Park, NC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "van der Kamp S",
+        "firstName": "Sophie",
+        "lastName": "van der Kamp",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Syngenta Ltd., Bracknell, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Stinchcombe S",
+        "firstName": "Stefan",
+        "lastName": "Stinchcombe",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "BASF SE, Ludwigshafen, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kolle SN",
+        "firstName": "Susanne N",
+        "lastName": "Kolle",
+        "initials": "SN",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "BASF SE, Ludwigshafen, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "LaPratt T",
+        "firstName": "Tripp",
+        "lastName": "LaPratt",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Inotiv, Research Triangle Park, NC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Perjessy G",
+        "firstName": "Gisele",
+        "lastName": "Perjessy",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "CropLife Brasil, São Paulo, SP, Brazil."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-09",
+    "journal": "",
+    "doi": "10.1016/j.yrtph.2026.106122"
+  },
+  {
+    "pmcid": "",
+    "pmid": "41499875",
+    "title": "BeeMSAI: A multi-dimensional evaluation strategy for honeybee toxicity in agrochemicals integrating mode of action, structural analysis, and AI-powered prediction.",
+    "abstract": "Honeybees (Apis mellifera) play a crucial role in crop pollination; however, their population is decreasing owing to pesticide exposure. Understanding the mechanisms underlying pesticide toxicity and accurately predicting toxicity to honeybees are essential for developing sustainable agrochemicals and effective ecological risk management strategies. Herein, we developed a multi-dimensional evaluation strategy combining mode of action (MOA), structural analysis, and artificial intelligence (AI)-powered prediction (BeeMSAI) to analyze the toxicity of pesticides to honeybees. First, an MOA-based classification system was established for pesticides, which were divided into 46 MOAs and 9 physiological systems. Second, toxicity classification rules were established for six high-variability structural groups. Six representative structures with a toxicity probability of > 97.8 % were identified through fragment analysis. Third, a series of ternary classification AI models for predicting pesticide toxicity to honeybees was developed through multi-feature fusion. The support vector machine model showed robust predictive performance with an overall accuracy of 81.82 %, with the accuracy for neonicotinoids and new pesticides being 84.21 % and 80.77 %, respectively. Furthermore, an online user-friendly platform was developed to assess agrochemical risks, achieving a recall level approximately 35 % higher than that of existing online platforms. Overall, this study introduces a multi-dimensional strategy for assessing pesticide toxicity to honeybees, providing insights for developing ecologically safe agrochemicals.",
+    "authors": [
+      {
+        "fullName": "He Q",
+        "firstName": "Qi",
+        "lastName": "He",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jin B",
+        "firstName": "Binyan",
+        "lastName": "Jin",
+        "initials": "B",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yang Z",
+        "firstName": "Zhaokai",
+        "lastName": "Yang",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Guizhou University, Huaxi District, Guiyang 550025, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li H",
+        "firstName": "Hua",
+        "lastName": "Li",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xu H",
+        "firstName": "Huan",
+        "lastName": "Xu",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cui J",
+        "firstName": "Jialin",
+        "lastName": "Cui",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang Z",
+        "firstName": "Zijiao",
+        "lastName": "Wang",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lee PW",
+        "firstName": "Philip W",
+        "lastName": "Lee",
+        "initials": "PW",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chio EH",
+        "firstName": "Eddie H",
+        "lastName": "Chio",
+        "initials": "EH",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shao B",
+        "firstName": "Bing",
+        "lastName": "Shao",
+        "initials": "B",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Key Laboratory of Veterinary Public Health Security, College of Veterinary Medicine, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cao L",
+        "firstName": "Lidong",
+        "lastName": "Cao",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory for Biology of Plant Diseases and Insect Pests, Institute of Plant Protection, Chinese Academy of Agricultural Sciences, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang X",
+        "firstName": "Xiaoming",
+        "lastName": "Zhang",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang L",
+        "firstName": "Li",
+        "lastName": "Zhang",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Innovation Center of Pesticide Research, Department of Applied Chemistry, College of Science, China Agricultural University, Beijing 100193, China; Key Laboratory of National Forestry and Grassland Administration on Pest Chemical Control, China Agricultural University, Beijing 100193, China. Electronic address: zhang_li@cau.edu.cn."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-12-31",
+    "journal": "",
+    "doi": "10.1016/j.jhazmat.2025.141018"
+  },
+  {
+    "pmcid": "",
+    "pmid": "",
+    "title": "Plant Extracellular Vesicles: Emerging Natural Nanocarriers for Sustainable Crop Protection",
+    "abstract": "Plant-derived extracellular vesicles (P-EVs) have recently emerged as promising natural nanocarriers with considerable potential for sustainable crop protection and agricultural biotechnology. Once regarded as cellular byproducts, P-EVs are now recognized as key mediators of intercellular and interkingdom communication, transporting diverse bioactive cargos, including small RNAs (sRNAs), proteins, lipids, and metabolites. Increasing evidence demonstrates that P-EVs play critical roles in plant immunity by facilitating cross-kingdom RNA interference (RNAi), through which host-derived sRNAs are delivered to invading pathogens to suppress virulence-associated genes and enhance disease resistance. In this review, we summarize current advances in the understanding of P-EV biology, including their biogenesis, classification, cargo composition, and mechanisms of cargo sorting. We further discuss the roles of P-EVs in plant responses to pathogens, with particular emphasis on their involvement in plant–microbe interactions and EV-mediated cross-kingdom communication. Recent developments supporting the application of P-EVs as natural delivery platforms for RNA-based crop protection strategies, including host-induced gene silencing (HIGS) and spray-induced gene silencing (SIGS), are also highlighted. Finally, we examine the major challenges associated with P-EV isolation, characterization, large-scale production, and preservation, and outline future research directions required for their translation into practical agricultural applications. Collectively, P-EVs represent a promising and environmentally friendly platform for next-generation crop protection, offering new opportunities to reduce dependence on conventional agrochemicals while enhancing crop resilience and food security.",
+    "authors": [
+      {
+        "fullName": "Nguyen TD",
+        "firstName": "Tien Dung",
+        "lastName": "Nguyen",
+        "initials": "TD"
+      },
+      {
+        "fullName": "Tran TTT",
+        "firstName": "Thi Thu Thao",
+        "lastName": "Tran",
+        "initials": "TTT"
+      },
+      {
+        "fullName": "Tran TM",
+        "firstName": "Thi Mai",
+        "lastName": "Tran",
+        "initials": "TM"
+      },
+      {
+        "fullName": "Nguyen TT",
+        "firstName": "Thi Tinh",
+        "lastName": "Nguyen",
+        "initials": "TT"
+      },
+      {
+        "fullName": "Nguyen TH",
+        "firstName": "Thi Huong",
+        "lastName": "Nguyen",
+        "initials": "TH"
+      },
+      {
+        "fullName": "Duong CN",
+        "firstName": "Cuong Ngoc",
+        "lastName": "Duong",
+        "initials": "CN"
+      }
+    ],
+    "publication_date": "2026-07-31",
+    "journal": "",
+    "doi": "10.20944/preprints202607.2364.v1"
+  },
+  {
+    "pmcid": "",
+    "pmid": "42362773",
+    "title": "Soil pollution and health risk assessment from potentially harmful elements at various land types in the dust center of West Asia (Sistan, Iran).",
+    "abstract": "Soil contamination by potentially harmful elements (PHEs) has become a pressing environmental concern in arid and semi-arid regions, where natural processes and human activities intensify the accumulation of these elements. Understanding the spatial variability, contamination and eco-toxicological implications of PHEs is vital for safeguarding ecosystem integrity, biodiversity and public health. This study highlights the need for a comprehensive analysis of the contamination levels, spatial distribution, potential sources and eco-toxicological status of PHEs in soils across various land-use types in the Sistan Basin, eastern Iran. Soil samples were analyzed for PHEs to assess the contamination factor (C<sub>f</sub>), pollution load index (PLI), and ecological risk, supported by spatial mapping and health risk assessment. Results revealed that aluminum (Al) and iron (Fe) were major elements sourced from geogenic origin, whereas cadmium (Cd), arsenic (As), and lead (Pb) exhibited considerable enrichment in agricultural lands and dusty roads due to the use of agrochemicals, fertilizers, vehicle emissions and combustion activities. C<sub>f</sub> values indicated low contamination in most sites, while PLI generally revealed low soil pollution levels. Based on Håkanson's classification, Cd was identified as the principal contributor to ecological risk. Health risk assessment revealed ingestion as the primary exposure route, with children being more vulnerable than adults, while non-carcinogenic and cancer risks remained within acceptable ranges, although the health risks in agricultural and dusty road zones suggest potential long-term effects. The integration of contamination indices, geospatial mapping, ecological and health risk underscores the importance of sustainable agricultural practices, regular monitoring and strategic management in conserving soil quality and wetland ecosystems in Sistan.",
+    "authors": [
+      {
+        "fullName": "Behrooz RD",
+        "firstName": "Reza Dahmardeh",
+        "lastName": "Behrooz",
+        "initials": "RD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Environmental Science, Faculty of Natural Resources, University of Zabol, P.O. Box 98615-538, Zabol, Iran. dahmardehbehrooz@uoz.ac.ir."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Muhammad S",
+        "firstName": "Said",
+        "lastName": "Muhammad",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre of Excellence in Geology, University of Peshawar, Peshawar, 25130, Pakistan. saidmuhammad1@gmail.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Garas SK",
+        "firstName": "Stylianos K",
+        "lastName": "Garas",
+        "initials": "SK",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Chemical Engineering, University of Western Macedonia, Kozani, 50100, Greece."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kaskaoutis DG",
+        "firstName": "Dimitris G",
+        "lastName": "Kaskaoutis",
+        "initials": "DG",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Climate and Atmosphere Research Centre, The Cyprus Institute, Nicosia, 2121, Cyprus. dkask@noa.gr."
+            },
+            {
+              "affiliation": "Institute for Environmental Research and Sustainable Development, National Observatory of Athens, P. Penteli, Athens, 15236, Greece. dkask@noa.gr."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-26",
+    "journal": "",
+    "doi": "10.1038/s41598-026-59051-3"
+  },
+  {
+    "pmcid": "PMC13273809",
+    "pmid": "42227560",
+    "title": "Classification of Thyroid Peroxidase (TPO) Inhibitors Using Transfer Learning with SMILES Embeddings.",
+    "abstract": "Thyroid hormones (THs) regulate many processes in mammals and, therefore, affect every organ in the body. Thyroid peroxidase (TPO) is an essential enzyme for the successful biosynthesis of THs. Although TPO inhibition is a well-documented molecular initiating event (MIE) in thyroid hormone system disruption adverse outcome pathways (AOPs), experimental methods and computational models to assess TPO activity are lacking. Efficient computational new approach methodologies (NAMs) are a viable solution for identifying TPO inhibitors from a large pool of agrochemicals. The aim of this study was to investigate the suitability of SMILES embeddings generated using a specialized language model (SLM) based on a pretrained deep neural network (DNN) for applying a transfer learning approach in the development of quantitative structure-activity relationships for classifying TPO inhibitors. Traditional theoretical molecular descriptors were used for comparison. Two different molecular descriptor sets resulted in Random Forest (RF) models that performed similarly on the training and test sets, while the sensitivity for the external validation set was substantially different between the two models (0.788 vs 0.490). Comparison of the predictions with the TPO inhibition data of the chemicals assessed by EFSA and EU-NETVAL laboratories showed good agreement. At the same time, analysis of experimental data from other sources showed some conflicting estimates. This suggests that further and more precise studies are needed for some compounds. This study advances in silico methodologies by implementing transfer learning for QSAR modeling from text representations (e.g., SMILES) using the pretrained Bidirectional Encoder Representations from Transformers (BERT) architecture. While traditional QSAR approach relies on molecular descriptors, this evaluation shows that model-generated SMILES embeddings can expand the applicability domain, indicating a more robust representation of structural information compared to traditional molecular descriptors.",
+    "authors": [
+      {
+        "fullName": "Piir G",
+        "firstName": "Geven",
+        "lastName": "Piir",
+        "initials": "G",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7381-2689"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Chemistry, University of Tartu, Ravila 14a, Tartu 50411, Estonia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sild S",
+        "firstName": "Sulev",
+        "lastName": "Sild",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Chemistry, University of Tartu, Ravila 14a, Tartu 50411, Estonia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Spilioti E",
+        "firstName": "Eliana",
+        "lastName": "Spilioti",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Laboratory of Toxicological Control of Pesticides, Scientific Directorate of Pesticides' Control and Phytopharmacy, Benaki Phytopathological Institute (BPI), 8 Stefanou Delta street, Kifissia, Attica GR-14561, Greece."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nikolopoulou D",
+        "firstName": "Dimitra",
+        "lastName": "Nikolopoulou",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Laboratory of Toxicological Control of Pesticides, Scientific Directorate of Pesticides' Control and Phytopharmacy, Benaki Phytopathological Institute (BPI), 8 Stefanou Delta street, Kifissia, Attica GR-14561, Greece."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Katsanou E",
+        "firstName": "Effrosyni",
+        "lastName": "Katsanou",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "European Commission, Joint Research Centre (JRC), via E. Fermi, 2749, TP126, Ispra, Varese I-21027, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Langezaal I",
+        "firstName": "Ingrid",
+        "lastName": "Langezaal",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "European Commission, Joint Research Centre (JRC), via E. Fermi, 2749, TP126, Ispra, Varese I-21027, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Maran U",
+        "firstName": "Uko",
+        "lastName": "Maran",
+        "initials": "U",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2506-0934"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Chemistry, University of Tartu, Ravila 14a, Tartu 50411, Estonia."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-02",
+    "journal": "",
+    "doi": "10.1021/acs.chemrestox.6c00058"
+  },
+  {
+    "pmcid": "PMC12596878",
+    "pmid": "41215806",
+    "title": "Retrospective study on the association between paternal occupational exposure to agrochemicals and childhood leukemia in Michoacán de Ocampo, México.",
+    "abstract": "<h4>Objectives</h4>The constant use of agrochemicals in avocado plantations, because of their susceptibility to pests and diseases, continuously exposes those who work or reside near these orchards to health risks. The purpose of this study was to investigate the association between childhood leukemia cases in Michoacán, paternal occupational exposure to agrochemicals, and environmental exposure due to residential proximity.<h4>Methods</h4>A retrospective observational cohort study was performed. We analyzed 430 cases of leukemia in children under 18 years of age diagnosed between 2010-2023. Logistic regression models were used to estimate odds ratios and 95% confidence intervals, adjusted for sociodemographic factors. Survival was analyzed using Kaplan-Meier curves.<h4>Results</h4>A total of 46.6% of the parents of children with leukemia in this study had jobs related to the use of agrochemicals (<i>e.g.</i>, day laborers, peasants, farmers). Additionally, 65.4% of the leukemia cases occurred in municipalities producing avocado, the most important perennial crop in the state. Regarding the residential area analysis (mapping), many cases were found in contiguous zip codes and in areas densely occupied by avocado orchards. In addition, paternal occupations related to agrochemical use were associated with the avocado-growing zone, with an OR = 1.764 (95% CI [1.034-3.009], <i>p</i> = 0.0379). Interestingly, survival associated with agrochemical-related occupations has a higher mean survival (139.3 months) than all other parental occupations (<i>p</i> = 0.0148).<h4>Conclusions</h4>The epidemiologic evidence found in this study supports the association between paternal occupational exposure to agrochemicals and childhood leukemia. Furthermore, children with leukemia who live in avocado-growing regions have a higher survival rate.",
+    "authors": [
+      {
+        "fullName": "Jiménez-Alcántar P",
+        "firstName": "Paola",
+        "lastName": "Jiménez-Alcántar",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro Multidisciplinario de Estudios en Biotecnología-FMVZ, Universidad Michoacana de San Nicolás de Hidalgo, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gómez-García A",
+        "firstName": "Anel",
+        "lastName": "Gómez-García",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro de Investigación Biomédica de Michoacán, División de Investigación Clínica, Instituto Mexicano del Seguro Social, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "López-Meza JE",
+        "firstName": "Joel E",
+        "lastName": "López-Meza",
+        "initials": "JE",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro Multidisciplinario de Estudios en Biotecnología-FMVZ, Universidad Michoacana de San Nicolás de Hidalgo, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ochoa-Zarzosa A",
+        "firstName": "Alejandra",
+        "lastName": "Ochoa-Zarzosa",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3441-2989"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro Multidisciplinario de Estudios en Biotecnología-FMVZ, Universidad Michoacana de San Nicolás de Hidalgo, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Espino-Barajas LA",
+        "firstName": "Luis Andrés",
+        "lastName": "Espino-Barajas",
+        "initials": "LA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro de Investigaciones en Geografía Ambiental, Universidad Nacional Autónoma de México Campus Morelia, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Morales-Manilla LM",
+        "firstName": "Luis Miguel",
+        "lastName": "Morales-Manilla",
+        "initials": "LM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1439-6723"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro de Investigaciones en Geografía Ambiental, Universidad Nacional Autónoma de México Campus Morelia, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pérez-Rivera E",
+        "firstName": "Eloy",
+        "lastName": "Pérez-Rivera",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Hospital Infantil \"Eva Sámano de López Mateos\", Secretaría de Salud de Michoacán, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zúñiga-Quijano LY",
+        "firstName": "Luz Yadira",
+        "lastName": "Zúñiga-Quijano",
+        "initials": "LY",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Hospital Infantil \"Eva Sámano de López Mateos\", Secretaría de Salud de Michoacán, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gutiérrez-Castellanos S",
+        "firstName": "Sergio",
+        "lastName": "Gutiérrez-Castellanos",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro de Investigación Biomédica de Michoacán, División de Investigación Clínica, Instituto Mexicano del Seguro Social, Morelia, Michoacán, México."
+            },
+            {
+              "affiliation": "Laboratorio de Citopatología Molecular, División de estudios de Posgrado, la Facultad de Medicina \"Dr. Ignacio Chávez\", Universidad Michoacana de San Nicolás de Hidalgo, Morelia, Michoacán, México."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-11-06",
+    "journal": "",
+    "doi": "10.7717/peerj.20219"
+  },
+  {
+    "pmcid": "",
+    "pmid": "41856429",
+    "title": "PM-BioPred: A Web-Server for Prediction of Compound Bioactivity Against Plant and Microbial Proteins.",
+    "abstract": "Understanding protein-ligand interactions in plants and microbes is essential for advancing agricultural biotechnology and developing antimicrobial strategies. In plants, these interactions govern critical physiological processes such as growth, immunity, and stress response, while in microbes, they influence pathogenicity, virulence, and survival. Experimental determination of bioactive compound-protein interactions is labor-intensive and limited in scope, and existing computational methods often suffer from rigid modeling assumptions. In this study, we collected and curated experimentally validated active and inactive compounds against plant and microbial target proteins from publicly available databases. Using this curated dataset, we developed machine learning-based classification models that predict compound bioactivity with an accuracy of 86% for plant proteins and over 90% for microbial proteins. These models form the core of PM-BioPred, a web-accessible prediction server designed to assist researchers in identifying potentially bioactive compounds against plant and microbial targets. PM-BioPred provides a user-friendly interface for submitting compound queries and retrieving bioactivity predictions. PM-BioPred is freely accessible to the academic community at https://pmbiopred.streamlit.app/ and serves as a valuable resource for plant-pathogen interaction research and compound repurposing efforts. The platform aims to facilitate the early-stage screening of agrochemicals and antimicrobial candidates.",
+    "authors": [
+      {
+        "fullName": "Murmu S",
+        "firstName": "Sneha",
+        "lastName": "Murmu",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8780-1377"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ICAR-Indian Agricultural Statistics Research Institute, New Delhi, India. Electronic address: murmu.sneha07@gmail.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chaurasia H",
+        "firstName": "Himanshushekhar",
+        "lastName": "Chaurasia",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0005-8682-627X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ICAR-Central Institute for Research on Cotton Technology, Mumbai, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sharma S",
+        "firstName": "Soumya",
+        "lastName": "Sharma",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ICAR-Indian Agricultural Statistics Research Institute, New Delhi, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Das R",
+        "firstName": "Ritwika",
+        "lastName": "Das",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ICAR-Indian Agricultural Statistics Research Institute, New Delhi, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Farooqi MS",
+        "firstName": "Mohammad Samir",
+        "lastName": "Farooqi",
+        "initials": "MS",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ICAR-Indian Agricultural Statistics Research Institute, New Delhi, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jha GK",
+        "firstName": "Girish Kumar",
+        "lastName": "Jha",
+        "initials": "GK",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ICAR-Indian Agricultural Statistics Research Institute, New Delhi, India. Electronic address: girish.jha@icar.org.in."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-03-17",
+    "journal": "",
+    "doi": "10.1016/j.jmb.2026.169763"
+  },
+  {
+    "pmcid": "PMC13149677",
+    "pmid": "41851115",
+    "title": "Tracing the origins of molecular signals in food through integrative metabolomics and chemical databases.",
+    "abstract": "Foods contain thousands of chemical constituents beyond macronutrients, including bioactive metabolites, processing by-products, and contaminants that remain poorly characterized. The Periodic Table of Food Initiative (PTFI) is establishing a standardized global reference for food composition using untargeted mass spectrometry. We analyzed the first PTFI release ( ~ 24,000 molecular features across 500 foods) by linking annotated and unannotated signals to curated databases of pharmaceuticals, agrochemicals, food contact chemicals, and natural products. Annotated compounds revealed characteristic chemical patterns across food groups, while unannotated features exposed xenobiotic signatures and potential contamination pathways. A taxonomy-aware search identified unexpected natural products, such as biochanin A and tiliroside produced by Canada thistle. Together, these analyses show how agricultural practices, environmental exposures, and processing shape food chemistry and highlight the value of food metabolomics for advancing a One Health understanding of the molecular connections between the environment, food systems, and human health.",
+    "authors": [
+      {
+        "fullName": "Mendoza Cantu A",
+        "firstName": "Alejandro",
+        "lastName": "Mendoza Cantu",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0007-2839-8291"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Computer Science, University of Antwerp, Antwerp, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gauglitz JM",
+        "firstName": "Julia M",
+        "lastName": "Gauglitz",
+        "initials": "JM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Computer Science, University of Antwerp, Antwerp, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bittremieux W",
+        "firstName": "Wout",
+        "lastName": "Bittremieux",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Computer Science, University of Antwerp, Antwerp, Belgium. wout.bittremieux@uantwerpen.be."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-03-18",
+    "journal": "",
+    "doi": "10.1038/s41538-026-00802-x"
+  },
+  {
+    "pmcid": "PMC13085320",
+    "pmid": "42006476",
+    "title": "Bidirectional skeletal remodelling of SF&lt;sub&gt;5&lt;/sub&gt;-nitrobenzenes into azepine, bicyclic, and benzimidazole frameworks.",
+    "abstract": "The development of PFAS-free fluorinated scaffolds that preserve the desirable physicochemical attributes of perfluoroalkyl groups remains a central challenge in contemporary fluorine chemistry. Herein, we report a rapid and bidirectional skeletal-remodelling platform that enables controlled interconversion between aromatic, medium-sized, and bicyclic SF<sub>5</sub>-containing heterocycles from readily accessible SF<sub>5</sub>-nitrobenzenes. Phosphorus-catalyzed iterative deoxygenation of SF<sub>5</sub>-nitrobenzenes generates arylnitrene intermediates that undergo remarkably accelerated dearomative ring expansion, furnishing seven-membered SF<sub>5</sub>-azepines within dramatically shortened reaction times compared to non-SF<sub>5</sub> analogues. These azepines function as versatile skeletal nodes, enabling divergent downstream transformations: photoinduced 4π-electrocyclization provides access to previously unexplored SF<sub>5</sub>-azabicyclo[3.2.0]hepta-2,6-diene frameworks, while selective fluoroacylative activation promotes reverse skeletal reconstruction to restore aromaticity and deliver SF<sub>5</sub>-substituted benzimidazoles. Collectively, this work demonstrates that strategic incorporation of the SF<sub>5</sub> group not only expands accessible heterocyclic architectures but also fundamentally alters skeletal rearrangement kinetics, enabling rapid and controllable skeletal editing from a common, practical precursor. Given the OECD classification of SF<sub>5</sub>-containing molecules as non-PFAS, this unified skeletal-remodelling approach substantially broadens the design space of fluorinated scaffolds for applications in pharmaceuticals, agrochemicals, and functional materials, advancing the principles of sustainable fluorine chemistry.",
+    "authors": [
+      {
+        "fullName": "Bacho MZ",
+        "firstName": "Muhamad Zulfaqar",
+        "lastName": "Bacho",
+        "initials": "MZ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6595-7490"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nanopharmaceutical Sciences, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan nozshiba@nitech.ac.jp."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wu S",
+        "firstName": "Shiwei",
+        "lastName": "Wu",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Engineering, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Muramatsu T",
+        "firstName": "Takuya",
+        "lastName": "Muramatsu",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Engineering, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nagababu C",
+        "firstName": "Chavakula",
+        "lastName": "Nagababu",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nanopharmaceutical Sciences, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan nozshiba@nitech.ac.jp."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Harano D",
+        "firstName": "Daiki",
+        "lastName": "Harano",
+        "initials": "D",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0000-4776-2617"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Engineering, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ochiai S",
+        "firstName": "Seishu",
+        "lastName": "Ochiai",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Engineering, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shibata N",
+        "firstName": "Norio",
+        "lastName": "Shibata",
+        "initials": "N",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3742-4064"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Nanopharmaceutical Sciences, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan nozshiba@nitech.ac.jp."
+            },
+            {
+              "affiliation": "Department of Engineering, Nagoya Institute of Technology Gokiso, Showa-ku Nagoya 466-8555 Japan."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-03-20",
+    "journal": "",
+    "doi": "10.1039/d6sc01441k"
+  }
+]

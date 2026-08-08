@@ -1,0 +1,17 @@
+{
+  "query_name": "pollution_biodiversity",
+  "query_string": "(\"pollution\" AND \"biodiversity\")",
+  "repository": "europe_pmc",
+  "limit": 10,
+  "formats": [
+    "xml",
+    "pdf",
+    "html"
+  ],
+  "output_dir": "temp\\queries\\pollution_biodiversity",
+  "result_count": 10,
+  "downloaded_count": 0,
+  "run_timestamp": "2026-08-08T03:05:41.658175+00:00",
+  "notes": "",
+  "revision_of": null
+}
