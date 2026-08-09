@@ -89,3 +89,7 @@ Some useful information for my 'future-self':
 
 **08/08**
 Only 3 queries left to filter
+
+**09/08**
+All tables reviewd. I either included or excluded each paper. 
+I should ask for guidance in order to fulfill the following steps
