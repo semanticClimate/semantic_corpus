@@ -86,3 +86,6 @@ I've started assessing the review tables of the first two. There are many left t
 Some useful information for my 'future-self':
  - In order to start the server: .\venv\Scripts\python.exe scripts/review_viewer.py serve --review-table temp/queries/agrochemicals_argentina/review/review_table.json --query-dir temp/queries/agrochemicals_argentina 
  - In order to generate the review_table.html: .\venv\Scripts\python.exe scripts/build_review_table.py --query-dir temp/queries/agrochemicals_argentina
+
+**08/08**
+Only 3 queries left to filter
