@@ -16,7 +16,7 @@ from semantic_corpus.repositories._ids import handle_from_conicet_url, sanitize_
 from semantic_corpus.repositories._scraper import RateLimitedSession
 
 
-class CONICETRepository(RepositoryInterface):
+class ConicetRepository(RepositoryInterface):
     """Adapter applies web scraping to RI CONICET Digital"""
 
     def __init__(self) -> None:

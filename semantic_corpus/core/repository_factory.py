@@ -8,6 +8,7 @@ from semantic_corpus.repositories.arxiv import ArxivRepository
 from semantic_corpus.repositories.openalex import OpenAlexRepository
 from semantic_corpus.repositories.scielo import SciELORepository
 from semantic_corpus.repositories.redalyc import RedalycRepository
+from semantic_corpus.repositories.conicet import ConicetRepository
 
 
 class RepositoryFactory:
@@ -21,6 +22,7 @@ class RepositoryFactory:
         "openalex": OpenAlexRepository,
         "scielo": SciELORepository,
         "redalyc": RedalycRepository,
+        "conicet": ConicetRepository,
     }
 
     @classmethod
