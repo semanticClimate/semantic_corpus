@@ -52,3 +52,14 @@ def id_from_redalyc_url(url: str) -> str:
     if match:
         return match.group(1)
     return hashlib.sha1(url.encode("utf-8")).hexdigest()[:12]
+
+
+def handle_from_conicet_url(url_or_id: str) -> str:
+    """Extracts the handle linked to each item Ipermanente identifier in DSpace) and evaluates it. / replaced by _ to
+        avoid problems in Windows/Linux.
+        Eg: 'https://ri.conicet.gov.ar/handle/11336/12345' -> '11336_12345'
+        """
+    match = re.search(r'11336[/_](\d+)', url_or_id)
+    if match:
+        return f"conicet_11336_{match.group(1)}"
+    return sanitize_paper_id(url_or_id)
