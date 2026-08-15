@@ -81,7 +81,8 @@ class ConicetRepository(RepositoryInterface):
     ) -> List[Dict[str, Any]]:
         """Looks for docuemnts in RI CONICET and extracts metadata"""
         del start_date, end_date
-        params = {"query": query, "rpp": min(limit, 20)}
+        clean_query = query.strip('()"\' ')
+        params = {"query": clean_query, "rpp": min(limit, 20)}
         response = self.http.get(self.search_url, params=params)
         if not response:
             raise RepositoryError(f"Error occurred while looking for: {query}")
