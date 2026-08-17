@@ -9,7 +9,7 @@ https://ri.conicet.gov.ar/
 ````
 This is a quick guide, hope it helps you understand the main changes introduced!
 
-The architecture I resorted to, goes as follows:
+The architecture works as follows:
 
 1) **Queries**\
 First and foremost, take into account the unavailability of xml files, so every query should request for PDFs.
@@ -29,7 +29,7 @@ result = run_query_and_build_review_table(
 )
 ````
 
-Matter-of-factly, ```query_name```, ```query_string```, ```limit```  and ```output_dir``` depend on the interests of each user,
+Needless to say, ```query_name```, ```query_string```, ```limit```  and ```output_dir``` depend on the interests of each user,
 this is just an example!
 JSON metadata is generated and the PDF files downloaded so that the HTML table can be built. 
 The query is cleaned in conicet.py
@@ -38,7 +38,7 @@ The query is cleaned in conicet.py
 * The endpoint used in ```conicet.py``` is https://ri.conicet.gov.ar/discover
 
 * Sanitizing the input query (removing inverted commas and parenthesis) is of vital importance
-when trying to void failures in DSpace URL queries.
+when trying to avoid failures in DSpace URL queries.
 
 ```clean_query = query.strip('()"\' ')```
 
@@ -60,10 +60,10 @@ UIDs
 *  Finally, _ids.py turns URLs or handles such as https://ri.conicet.gov.ar/handle/11336/12345
 into the standard format: conicet_11336_12345.
 Avoiding the use of / \ is fundamental if we want to avoid problems with the Filesystem. 
-It is the best way to provide safety since Windows, Linux and macOS understand those signs as nested folders.
+It is the best way to provide safety since Windows, Linux and macOS interpret those characters as directory separators (nested fodlers).
 
 3) **Processing pipeline and revision**\
-Tee function workflow.py:64-150 is in charge of this task. 
+The function workflow.py:64-150 is in charge of this task. 
 Results are saved into search_results.json
 PDF's and metadata are downloaded
 The final step: the review_table is exported with interactive formats (including the HTML view) to 
@@ -73,7 +73,8 @@ Comment: 2) and 3) happen automatically after running the query in 1)
 
 4) Should you want to review the table, discarding or accepting each paper, run the next lines:\
 
-
+ - In order to generate the review_table.html: .\venv\Scripts\python.exe scripts/build_review_table.py --query-dir temp/queries/conicet_query
+ - In order to start the server: .\venv\Scripts\python.exe scripts/review_viewer.py serve --review-table temp/queries/conicet_query/review/review_table.json --query-dir temp/queries/conicet_query 
 
 5) **Tests**
 Last but not least, the file test_conicet.py provides a handful of tests to analyse and control the use 
