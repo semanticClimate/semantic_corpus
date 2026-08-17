@@ -1,0 +1,16 @@
+# SciELO example query: Latin American climate change literature
+# Date: 2026-07-04 (system date)
+
+query_name: scielo_climate_change
+query_string: cambio climatico
+repository: scielo
+limit: 5
+formats:
+  - html
+  - pdf
+corpus_name: scielo_climate_change
+output_subdir: scielo_climate_change
+
+success_criteria:
+  min_search_results: 1
+  min_downloads: 1

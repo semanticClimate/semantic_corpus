@@ -1,0 +1,17 @@
+# OpenAlex example query: climate anxiety (metadata + OA PDF when available)
+# Date: 2026-07-04 (system date)
+
+query_name: openalex_climate_anxiety
+query_string: climate anxiety
+repository: openalex
+limit: 10
+start_date: "2020-01-01"
+end_date: "2026-12-31"
+formats:
+  - pdf
+corpus_name: openalex_climate_anxiety
+output_subdir: openalex_climate_anxiety
+
+success_criteria:
+  min_search_results: 5
+  min_downloads: 1

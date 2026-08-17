@@ -22,6 +22,7 @@ from semantic_corpus.corpus_review.review_table import (
 )
 from semantic_corpus.export.chatbot_export import export_corpus_for_chatbot
 from semantic_corpus.ingestion.pygetpapers_ingester import ingest_pygetpapers_directory
+from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
 from semantic_corpus.utils import get_project_temp_dir
 
 
@@ -32,16 +33,23 @@ def run_repository_search(
     limit: int,
     output_dir: Path,
     formats: List[str],
+    start_date: str = None,
+    end_date: str = None,
 ) -> Tuple[List[Dict[str, Any]], int]:
     """Search and download via semantic_corpus repository; return results and download count."""
     repo = RepositoryFactory.get_repository(repository)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    results = repo.search_papers(query=query_string, limit=limit)
+    results = repo.search_papers(
+        query=query_string,
+        limit=limit,
+        start_date=start_date,
+        end_date=end_date,
+    )
     downloaded_count = 0
     for paper in results:
-        paper_id = paper.get("pmcid") or paper.get("pmid")
+        paper_id = get_result_paper_id(paper)
         if not paper_id:
             continue
         try:
