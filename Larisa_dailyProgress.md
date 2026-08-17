@@ -93,3 +93,9 @@ Only 3 queries left to filter
 **09/08**
 All tables reviewd. I either included or excluded each paper. 
 I should ask for guidance in order to fulfill the following steps
+
+**14/08**
+Scraping also applies to https://ri.conicet.gov.ar/discover now. It gives us a cleared approach to problems faced by the South American population
+
+**17/08**
+Documentation explaining how the CONICET repo was added to the bot is ready!
