@@ -3,7 +3,7 @@ from semantic_corpus.corpus_review.workflow import run_query_and_build_review_ta
 
 result = run_query_and_build_review_table(
     query_name="argentine_reports",
-    query_string='("agrochemicals")', #clean query in conicet.py
+    query_string='("acuífero guaraní")', #clean query in conicet.py
     output_dir=Path("temp/queries/conicet_query"),
     repository="conicet",
     limit=10,
