@@ -63,3 +63,18 @@ def handle_from_conicet_url(url_or_id: str) -> str:
     if match:
         return f"conicet_11336_{match.group(1)}"
     return sanitize_paper_id(url_or_id)
+
+def id_from_uba_url(url_or_id: str) -> str:
+    """Extracts id and collection from a document in UBA SISBI.
+    E.g.: 'https://repositoriouba.sisbi.uba.ar/gsdl/cgi-bin/library.cgi?a=d&c=posgrauba&d=HWEB01'
+    -> 'uba_posgrauba_HWEB01'
+    """
+    if "library.cgi" in url_or_id or "?" in url_or_id:
+        parsed = urlparse(url_or_id)
+        params = parse_qs(parsed.query)
+        doc_id = params.get("d", [""])[0]
+        coll = params.get("c", ["default"])[0]
+        if doc_id:
+            return sanitize_paper_id(f"uba_{coll}_{doc_id}")
+
+    return sanitize_paper_id(url_or_id if url_or_id.startswith("uba_") else f"uba_{url_or_id}")
