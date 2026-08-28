@@ -9,7 +9,7 @@ from semantic_corpus.repositories.openalex import OpenAlexRepository
 from semantic_corpus.repositories.scielo import SciELORepository
 from semantic_corpus.repositories.redalyc import RedalycRepository
 from semantic_corpus.repositories.conicet import ConicetRepository
-
+from semantic_corpus.repositories.uba import UbaRepository
 
 class RepositoryFactory:
     """Factory class for creating repository instances.
@@ -23,6 +23,7 @@ class RepositoryFactory:
         "scielo": SciELORepository,
         "redalyc": RedalycRepository,
         "conicet": ConicetRepository,
+        "uba": UbaRepository,
     }
 
     @classmethod
