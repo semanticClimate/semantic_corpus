@@ -65,16 +65,18 @@ def handle_from_conicet_url(url_or_id: str) -> str:
     return sanitize_paper_id(url_or_id)
 
 def id_from_uba_url(url_or_id: str) -> str:
-    """Extracts id and collection from a document in UBA SISBI.
-    E.g.: 'https://repositoriouba.sisbi.uba.ar/gsdl/cgi-bin/library.cgi?a=d&c=posgrauba&d=HWEB01'
-    -> 'uba_posgrauba_HWEB01'
+    """Extracts id and collection from a document in UBA repositories (Exactas, FAUBA).
+    E.g.:
+    - 'https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n5582_DiFiori' -> 'uba_exactas_tesis_tesis_n5582_DiFiori'
+    - 'https://ri.agro.uba.ar/greenstone3/library/collection/ti/document/cd620' -> 'uba_fauba_ti_cd620'
     """
-    if "library.cgi" in url_or_id or "?" in url_or_id:
-        parsed = urlparse(url_or_id)
-        params = parse_qs(parsed.query)
-        doc_id = params.get("d", [""])[0]
-        coll = params.get("c", ["default"])[0]
-        if doc_id:
-            return sanitize_paper_id(f"uba_{coll}_{doc_id}")
+    if "exactas.uba.ar" in url_or_id:
+        match = re.search(r"/collection/([^/]+)/document/([^/?#;]+)", url_or_id)
+        if match:
+            return sanitize_paper_id(f"uba_exactas_{match.group(1)}_{match.group(2)}")
+    elif "agro.uba.ar" in url_or_id:
+        match = re.search(r"/collection/([^/]+)/document/([^/?#;]+)", url_or_id)
+        if match:
+            return sanitize_paper_id(f"uba_fauba_{match.group(1)}_{match.group(2)}")
 
     return sanitize_paper_id(url_or_id if url_or_id.startswith("uba_") else f"uba_{url_or_id}")
