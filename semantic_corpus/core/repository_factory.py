@@ -22,8 +22,8 @@ class RepositoryFactory:
         "openalex": OpenAlexRepository,
         "scielo": SciELORepository,
         "redalyc": RedalycRepository,
-        "conicet": ConicetRepository,
-        "uba": UbaRepository,
+        "conicet": ConicetRepository, #PDFs
+        "uba": UbaRepository, #PDFs
     }
 
     @classmethod

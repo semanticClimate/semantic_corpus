@@ -99,3 +99,10 @@ Scraping also applies to https://ri.conicet.gov.ar/discover now. It gives us a c
 
 **17/08**
 Documentation explaining how the CONICET repo was added to the bot is ready!
+
+**30/08**
+Glad to announce that semantic_corpus is now working with UBA repositories! At first I tried using www.repositoriouba.sisbi.uba.ar/gsdl/cgi-bin/library.cgi
+BUT ('cause there's always one...) it needed captcha verification. Therefore I am using more specific repos that belong to UBA as well. 
+I chose the one on agronomy and the one on Exact Sciences. The content of others is not that relevant to us. 
+
+Most files were published as PDfs here. The JSON file is automatically generated and the HTML available witht the table.

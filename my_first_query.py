@@ -3,10 +3,10 @@ from semantic_corpus.corpus_review.workflow import run_query_and_build_review_ta
 
 result = run_query_and_build_review_table(
     query_name="argentine_reports",
-    query_string='("economía")', #clean query in conicet.py
+    query_string='("glifosato")', #clean query in conicet.py
     output_dir=Path("temp/queries/uba_query"),
     repository="uba",
-    limit=5,
+    limit=10,
     formats=["pdf"], #no xml available in CONICET. The HTML will be automatically generated
 )
 
