@@ -80,3 +80,28 @@ def id_from_uba_url(url_or_id: str) -> str:
             return sanitize_paper_id(f"uba_fauba_{match.group(1)}_{match.group(2)}")
 
     return sanitize_paper_id(url_or_id if url_or_id.startswith("uba_") else f"uba_{url_or_id}")
+
+
+def id_from_usp_url(url_or_id: str) -> str:
+    """Extracts id from a document in USP repository (BDPI / ReP USP).
+    E.g.:
+    - 'https://repositorio.usp.br/item/002305632' -> 'usp_002305632'
+    - 'https://repositorio.usp.br/direct/002305632' -> 'usp_002305632'
+    - 'http://dedalus.usp.br/F/?func=direct&doc_number=002305632' -> 'usp_002305632'
+    - '002305632' -> 'usp_002305632'
+    - 'usp_002305632' -> 'usp_002305632'
+    """
+    if not url_or_id:
+        return ""
+    # Matches /item/<id> or /direct/<id>
+    match = re.search(r"/(?:item|direct)/([a-zA-Z0-9_\-]+)", url_or_id)
+    if match:
+        return sanitize_paper_id(f"usp_{match.group(1)}")
+    # Matches Dedalus doc_number
+    match_dedalus = re.search(r"doc_number=([a-zA-Z0-9_\-]+)", url_or_id)
+    if match_dedalus:
+        return sanitize_paper_id(f"usp_{match_dedalus.group(1)}")
+    # If already starts with usp_
+    if url_or_id.startswith("usp_"):
+        return sanitize_paper_id(url_or_id)
+    return sanitize_paper_id(f"usp_{url_or_id}")
