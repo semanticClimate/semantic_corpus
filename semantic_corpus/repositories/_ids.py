@@ -104,4 +104,38 @@ def id_from_usp_url(url_or_id: str) -> str:
     # If already starts with usp_
     if url_or_id.startswith("usp_"):
         return sanitize_paper_id(url_or_id)
-    return sanitize_paper_id(f"usp_{url_or_id}")
+    return sanitize_paper_id(f"usp_{url_or_id}")
+
+
+def id_from_uchile_url(url_or_id: str) -> str:
+    """Extracts handle identifier from a document in Universidad de Chile repository.
+    E.g.:
+    - 'https://repositorio.uchile.cl/handle/2250/110429' -> 'uchile_2250_110429'
+    - '2250/110429' -> 'uchile_2250_110429'
+    - '110429' -> 'uchile_2250_110429'
+    - 'uchile_2250_110429' -> 'uchile_2250_110429'
+    """
+    if not url_or_id:
+        return ""
+    # Matches handle with 2250 prefix (or 2250_...)
+    match_2250 = re.search(r"2250[/_](\d+)", url_or_id)
+    if match_2250:
+        return sanitize_paper_id(f"uchile_2250_{match_2250.group(1)}")
+    # Matches generic handle /handle/<prefix>/<id>
+    match_handle = re.search(r"/handle/(\d+(?:\.\d+)?)/(\d+)", url_or_id)
+    if match_handle:
+        prefix = match_handle.group(1).replace(".", "_")
+        return sanitize_paper_id(f"uchile_{prefix}_{match_handle.group(2)}")
+    # If already starts with uchile_
+    if url_or_id.startswith("uchile_"):
+        return sanitize_paper_id(url_or_id)
+    # If numeric only, assume default 2250 prefix
+    if url_or_id.isdigit():
+        return sanitize_paper_id(f"uchile_2250_{url_or_id}")
+    return sanitize_paper_id(f"uchile_{url_or_id}")
+
+
+def handle_from_uchile_url(url_or_id: str) -> str:
+    """Alias for id_from_uchile_url."""
+    return id_from_uchile_url(url_or_id)
+

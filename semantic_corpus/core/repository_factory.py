@@ -11,6 +11,7 @@ from semantic_corpus.repositories.redalyc import RedalycRepository
 from semantic_corpus.repositories.conicet import ConicetRepository
 from semantic_corpus.repositories.uba import UbaRepository
 from semantic_corpus.repositories.usp import UspRepository
+from semantic_corpus.repositories.uchile import UchileRepository
 
 class RepositoryFactory:
     """Factory class for creating repository instances.
@@ -26,6 +27,8 @@ class RepositoryFactory:
         "conicet": ConicetRepository, #PDFs
         "uba": UbaRepository, #PDFs
         "usp": UspRepository, #PDFs
+        "uchile": UchileRepository,
+
     }
 
     @classmethod
