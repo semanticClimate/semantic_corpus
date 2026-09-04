@@ -138,4 +138,39 @@ def id_from_uchile_url(url_or_id: str) -> str:
 def handle_from_uchile_url(url_or_id: str) -> str:
     """Alias for id_from_uchile_url."""
     return id_from_uchile_url(url_or_id)
+
+
+def id_from_kerwa_url(url_or_id: str) -> str:
+    """Extracts handle identifier from a document in Kerwa (Universidad de Costa Rica) repository.
+    E.g.:
+    - 'https://www.kerwa.ucr.ac.cr/handle/10669/12345' -> 'kerwa_10669_12345'
+    - 'https://hdl.handle.net/10669/12345' -> 'kerwa_10669_12345'
+    - '10669/12345' -> 'kerwa_10669_12345'
+    - '12345' -> 'kerwa_10669_12345'
+    - 'kerwa_10669_12345' -> 'kerwa_10669_12345'
+    """
+    if not url_or_id:
+        return ""
+    # Matches handle with 10669 prefix (or 10669_...)
+    match_10669 = re.search(r"10669[/_](\d+)", url_or_id)
+    if match_10669:
+        return sanitize_paper_id(f"kerwa_10669_{match_10669.group(1)}")
+    # Matches generic handle /handle/<prefix>/<id>
+    match_handle = re.search(r"/handle/(\d+(?:\.\d+)?)/(\d+)", url_or_id)
+    if match_handle:
+        prefix = match_handle.group(1).replace(".", "_")
+        return sanitize_paper_id(f"kerwa_{prefix}_{match_handle.group(2)}")
+    # If already starts with kerwa_
+    if url_or_id.startswith("kerwa_"):
+        return sanitize_paper_id(url_or_id)
+    # If numeric only, assume default 10669 prefix
+    if url_or_id.isdigit():
+        return sanitize_paper_id(f"kerwa_10669_{url_or_id}")
+    return sanitize_paper_id(f"kerwa_{url_or_id}")
+
+
+def handle_from_kerwa_url(url_or_id: str) -> str:
+    """Alias for id_from_kerwa_url."""
+    return id_from_kerwa_url(url_or_id)
+
 
