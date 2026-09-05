@@ -173,4 +173,38 @@ def handle_from_kerwa_url(url_or_id: str) -> str:
     """Alias for id_from_kerwa_url."""
     return id_from_kerwa_url(url_or_id)
 
+
+def id_from_unam_url(url_or_id: str) -> str:
+    """Extracts identifier from a document in UNAM repository (repositorio.unam.mx).
+    E.g.:
+    - 'https://repositorio.unam.mx/contenidos/45182' -> 'unam_45182'
+    - 'https://repositorio.unam.mx/contenidos/ficha/clima-escolar-45182' -> 'unam_45182'
+    - '45182' -> 'unam_45182'
+    - 'unam_45182' -> 'unam_45182'
+    """
+    if not url_or_id:
+        return ""
+    # Matches /contenidos/(?:ficha/.*-)?(\d+)
+    match_contenidos = re.search(r"/contenidos/(?:ficha/.*?-)?(\d+)", url_or_id)
+    if match_contenidos:
+        return sanitize_paper_id(f"unam_{match_contenidos.group(1)}")
+    # Matches handle /handle/<prefix>/<id> or handle.net/<prefix>/<id>
+    match_handle = re.search(r"(?:/handle/|handle\.net/)([\d.]+)/(\d+)", url_or_id)
+    if match_handle:
+        prefix = match_handle.group(1).replace(".", "_")
+        return sanitize_paper_id(f"unam_{prefix}_{match_handle.group(2)}")
+    # If already starts with unam_
+    if url_or_id.startswith("unam_"):
+        return sanitize_paper_id(url_or_id)
+    # If numeric only, assume default unam item id
+    if url_or_id.isdigit():
+        return sanitize_paper_id(f"unam_{url_or_id}")
+    return sanitize_paper_id(f"unam_{url_or_id}")
+
+
+def handle_from_unam_url(url_or_id: str) -> str:
+    """Alias for id_from_unam_url."""
+    return id_from_unam_url(url_or_id)
+
+
 
