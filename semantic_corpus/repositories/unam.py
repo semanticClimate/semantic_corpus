@@ -5,14 +5,11 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin
-
 from bs4 import BeautifulSoup
-
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
 from semantic_corpus.repositories._ids import (
     handle_from_unam_url,
-    id_from_unam_url,
     sanitize_paper_id,
 )
 from semantic_corpus.repositories._scraper import RateLimitedSession
@@ -78,87 +75,22 @@ class UnamRepository(RepositoryInterface):
         return links
 
     def _extract_metadata(self, html: str, article_url: str) -> Dict[str, Any]:
-        """Extracts metadata from HTML tags and UNAM MARC fields."""
+        """Extracts metadata from the item's tags"""
         soup = BeautifulSoup(html, "html.parser")
         paper_id = handle_from_unam_url(article_url)
 
         def meta(name: str) -> str:
-            el = (
-                soup.select_one(f'meta[name="{name}"]')
-                or soup.select_one(f'meta[property="{name}"]')
-                or soup.select_one(f'meta[name="DC.{name}"]')
-            )
+            el = soup.select_one(f'meta[name="{name}"]')
             return el.get("content", "").strip() if el else ""
 
-        marc_fields: Dict[str, str] = {}
-        for p in soup.find_all("p"):
-            strong = p.find("strong")
-            if strong:
-                tag_key = strong.get_text(strip=True).rstrip(":")
-                val = p.get_text(strip=True)
-                if val.startswith(tag_key):
-                    val = val[len(tag_key):].lstrip(": ")
-                marc_fields[tag_key] = val
-
-        # Title
-        title = (
-            meta("citation_title")
-            or marc_fields.get("245.1.0.a")
-            or (
-                soup.title.get_text(strip=True)
-                if soup.title and "Repositorio Institucional de la UNAM" != soup.title.get_text(strip=True)
-                else ""
-            )
-        )
-        if not title:
-            title_el = soup.select_one("h1, h2, a.cont-text-title-record-min")
-            if title_el:
-                title = title_el.get_text(strip=True)
-
-        # Authors
+        title = meta("citation_title") or (soup.title.get_text(strip=True) if soup.title else "")
         authors = [
             el.get("content", "").strip()
             for el in soup.select('meta[name="citation_author"]')
             if el.get("content")
         ]
-        if not authors and marc_fields.get("100.1.#.a"):
-            authors = [marc_fields["100.1.#.a"]]
-        if marc_fields.get("700.1.#.a") and marc_fields["700.1.#.a"] not in authors:
-            authors.append(marc_fields["700.1.#.a"])
-
-        # Abstract
-        abstract = (
-            meta("citation_abstract")
-            or marc_fields.get("520.3.#.a")
-            or meta("description")
-        )
-
-        # Publication date
-        pub_date = (
-            meta("citation_publication_date")
-            or marc_fields.get("264.#.1.c")
-            or marc_fields.get("264.#.0.c")
-            or meta("citation_date")
-        )
-
-        # Journal / Publisher
-        journal = (
-            meta("citation_journal_title")
-            or marc_fields.get("773.1.#.t")
-            or marc_fields.get("883.#.#.a")
-            or meta("citation_publisher")
-            or "Universidad Nacional Autónoma de México"
-        )
-
-        # DOI
-        doi = meta("citation_doi") or marc_fields.get("024.7.#.a")
-
-        # PDF URL
+        abstract = meta("citation_abstract") or meta("description")
         pdf_url = meta("citation_pdf_url")
-        if not pdf_url and marc_fields.get("856.4.0.u"):
-            candidate = marc_fields["856.4.0.u"]
-            if "pdf" in candidate.lower() or marc_fields.get("856.#.0.q") == "application/pdf":
-                pdf_url = candidate
         if not pdf_url:
             pdf_anchor = (
                 soup.select_one('a[href$=".pdf"]')
@@ -166,9 +98,7 @@ class UnamRepository(RepositoryInterface):
                 or soup.select_one("a.anchore-complete-record[data-url]")
             )
             if pdf_anchor:
-                candidate_href = pdf_anchor.get("data-url") or pdf_anchor.get("href", "")
-                if "pdf" in candidate_href.lower():
-                    pdf_url = candidate_href
+                pdf_url = pdf_anchor.get("data-url") or pdf_anchor.get("href", "")
 
         if pdf_url and not pdf_url.startswith("http"):
             pdf_url = urljoin(self.base_url, pdf_url)
@@ -179,9 +109,9 @@ class UnamRepository(RepositoryInterface):
             "title": title,
             "abstract": abstract,
             "authors": authors,
-            "journal": journal,
-            "doi": doi,
-            "publication_date": pub_date,
+            "journal": meta("citation_journal_title") or meta("citation_publisher") or "Universidad Nacional Autónoma de México",
+            "doi": meta("citation_doi"),
+            "publication_date": meta("citation_publication_date") or meta("citation_date"),
             "pdf_url": pdf_url,
             "source_repository": "unam",
         }

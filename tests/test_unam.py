@@ -44,9 +44,9 @@ class TestUnamRepository(unittest.TestCase):
         self.assertEqual(id_from_unam_url(""), "")
 
     def test_factory_registration(self) -> None:
-        repo = RepositoryFactory.get_repository("unam")
+        repo = RepositoryFactory.get_repository("unam_mexico")
         self.assertIsInstance(repo, UnamRepository)
-        self.assertIn("unam", RepositoryFactory.list_repositories())
+        self.assertIn("unam_mexico", RepositoryFactory.list_repositories())
 
     def test_extract_article_links(self) -> None:
         repo = UnamRepository()

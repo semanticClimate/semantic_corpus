@@ -207,4 +207,62 @@ def handle_from_unam_url(url_or_id: str) -> str:
     return id_from_unam_url(url_or_id)
 
 
+def id_from_unal_colombia_url(url_or_id: str) -> str:
+    """Extracts identifier from a document in Universidad Nacional de Colombia repository (repositorio.unal.edu.co).
+    E.g.:
+    - 'https://repositorio.unal.edu.co/handle/unal/90677' -> 'unal_colombia_90677'
+    - 'https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039' -> 'unal_colombia_44fc646d_bbad_4be9_b008_0147830d0039'
+    - 'https://hdl.handle.net/unal/90677' -> 'unal_colombia_90677'
+    - 'unal/90677' -> 'unal_colombia_90677'
+    - '90677' -> 'unal_colombia_90677'
+    - 'unal_colombia_90677' -> 'unal_colombia_90677'
+    - 'unal_90677' -> 'unal_colombia_90677'
+    """
+    if not url_or_id:
+        return ""
+    # Matches handle with unal prefix: /handle/unal/(\d+) or unal/(\d+) or unal_(\d+)
+    match_unal = re.search(r"unal(?:_colombia)?[/_](\d+)", url_or_id, re.IGNORECASE)
+    if match_unal:
+        return sanitize_paper_id(f"unal_colombia_{match_unal.group(1)}")
+    # Matches DSpace 7 item UUID: /items/([a-f0-9\-]{36})
+    match_uuid = re.search(r"/items/([a-f0-9\-]{36})", url_or_id, re.IGNORECASE)
+    if match_uuid:
+        return sanitize_paper_id(f"unal_colombia_{match_uuid.group(1)}")
+    # Matches bare UUID
+    if re.match(r"^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$", url_or_id, re.IGNORECASE):
+        return sanitize_paper_id(f"unal_colombia_{url_or_id}")
+    # Matches generic handle /handle/<prefix>/<id> or handle.net/<prefix>/<id>
+    match_handle = re.search(r"(?:/handle/|handle\.net/)([\w.]+)/(\w+)", url_or_id)
+    if match_handle:
+        prefix = match_handle.group(1).replace(".", "_")
+        if prefix.lower() == "unal":
+            return sanitize_paper_id(f"unal_colombia_{match_handle.group(2)}")
+        return sanitize_paper_id(f"unal_colombia_{prefix}_{match_handle.group(2)}")
+    # If already starts with unal_colombia_
+    if url_or_id.startswith("unal_colombia_"):
+        return sanitize_paper_id(url_or_id)
+    if url_or_id.startswith("unal_"):
+        return sanitize_paper_id(f"unal_colombia_{url_or_id[5:]}")
+    # If numeric only, assume default unal item id
+    if url_or_id.isdigit():
+        return sanitize_paper_id(f"unal_colombia_{url_or_id}")
+    return sanitize_paper_id(f"unal_colombia_{url_or_id}")
+
+
+def handle_from_unal_colombia_url(url_or_id: str) -> str:
+    """Alias for id_from_unal_colombia_url."""
+    return id_from_unal_colombia_url(url_or_id)
+
+
+def id_from_unal_url(url_or_id: str) -> str:
+    """Alias for id_from_unal_colombia_url."""
+    return id_from_unal_colombia_url(url_or_id)
+
+
+def handle_from_unal_url(url_or_id: str) -> str:
+    """Alias for id_from_unal_colombia_url."""
+    return id_from_unal_colombia_url(url_or_id)
+
+
+
 

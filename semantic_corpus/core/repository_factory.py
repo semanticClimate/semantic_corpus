@@ -14,6 +14,7 @@ from semantic_corpus.repositories.usp import UspRepository
 from semantic_corpus.repositories.uchile import UchileRepository
 from semantic_corpus.repositories.kerwa import KerwaRepository
 from semantic_corpus.repositories.unam import UnamRepository
+from semantic_corpus.repositories.unal import UnalRepository
 
 class RepositoryFactory:
     """Factory class for creating repository instances.
@@ -31,7 +32,8 @@ class RepositoryFactory:
         "usp": UspRepository, #PDFs
         "uchile": UchileRepository,
         "kerwa": KerwaRepository, #Costa Rica University
-        "unam": UnamRepository,
+        "unam_mexico": UnamRepository,
+        "unal_colombia": UnalRepository,
     }
 
     @classmethod
