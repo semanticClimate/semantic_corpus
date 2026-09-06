@@ -79,9 +79,9 @@ class ReviewViewerServer:
         config = self.session_config
         session = self._get_session()
 
-        row: Dict[str, Any] = {"pmcid": stem, "paper_id": f"europe_pmc_{stem}"}
+        row: Dict[str, Any] = {"paper_id": stem, "pmcid": stem}
         for candidate in session.rows:
-            if candidate.get("pmcid") == stem or candidate.get("paper_id") == stem:
+            if candidate.get("paper_id") == stem or candidate.get("pmcid") == stem:
                 row = candidate
                 break
             if candidate.get("paper_id") == f"europe_pmc_{stem}":
@@ -189,7 +189,6 @@ class ReviewViewerServer:
                     corpus_dir=config.corpus_dir,
                     intro_max_chars=config.intro_max_chars,
                 )
-                pmcid = row.get("pmcid") or ""
                 paths = resolve_document_paths(
                     row,
                     query_dir=config.query_dir,
@@ -197,15 +196,17 @@ class ReviewViewerServer:
                     corpus_dir=config.corpus_dir,
                 )
                 html_url = None
-                if paths.get("html_path") and pmcid:
-                    html_url = f"/papers/{pmcid}.html"
-                elif paths.get("xml_path") and pmcid:
-                    html_url = f"/papers/{pmcid}.xml"
+                if paths.get("html_path"):
+                    html_url = f"/papers/{paths['html_path'].name}"
+                elif paths.get("xml_path"):
+                    html_url = f"/papers/{paths['xml_path'].name}"
+
+                pdf_url = f"/papers/{paths['pdf_path'].name}" if paths.get("pdf_path") else None
 
                 payload: Dict[str, Any] = {
                     "abstract": preview.get("abstract") or row.get("abstract_snippet") or "",
                     "intro": preview.get("intro") or "",
-                    "pdf_url": f"/papers/{pmcid}.pdf" if paths.get("pdf_path") and pmcid else None,
+                    "pdf_url": pdf_url,
                     "html_url": html_url,
                     "formats": {
                         "pdf": bool(paths.get("pdf_path")),
@@ -234,9 +235,9 @@ class ReviewViewerServer:
                         stem = Path(filename).stem
                         config = server.session_config
                         session = server._get_session()
-                        row: Dict[str, Any] = {"pmcid": stem, "paper_id": f"europe_pmc_{stem}"}
+                        row: Dict[str, Any] = {"paper_id": stem, "pmcid": stem}
                         for candidate in session.rows:
-                            if candidate.get("pmcid") == stem or candidate.get("paper_id") == stem:
+                            if candidate.get("paper_id") == stem or candidate.get("pmcid") == stem:
                                 row = candidate
                                 break
                             if candidate.get("paper_id") == f"europe_pmc_{stem}":

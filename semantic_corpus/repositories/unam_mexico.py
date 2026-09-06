@@ -20,7 +20,7 @@ class UnamRepository(RepositoryInterface):
 
     def __init__(self) -> None:
         super().__init__()
-        self.name = "UNAM"
+        self.name = "unam_mexico"
         self.base_url = "https://repositorio.unam.mx"
         self.search_url = "https://repositorio.unam.mx/contenidos"
         self.http = RateLimitedSession(

@@ -471,7 +471,7 @@ _VIEWER_HTML = """<!DOCTYPE html>
           <div class="title">${escapeHtml(paper.title_plain || paper.title || "(no title)")}</div>
           <div class="meta">
             <span class="${statusClass(paper.review_status)}">${paper.review_status}</span>
-            · ${escapeHtml(paper.pmcid || paper.paper_id)}
+            · ${escapeHtml(paper.paper_id || paper.pmcid)}
           </div>`;
         btn.onclick = () => {
           currentIndex = index;
@@ -503,13 +503,14 @@ _VIEWER_HTML = """<!DOCTYPE html>
         paper.review_status,
         paper.has_xml ? "XML" : null,
         paper.has_pdf ? "PDF" : null,
-        paper.pmcid || null,
+        paper.paper_id || paper.pmcid || null,
         paper.doi || null,
       ].filter(Boolean).map(text => `<span class="badge">${escapeHtml(text)}</span>`).join("");
 
       const paperLinks = [];
-      if (paper.pmcid && paper.has_pdf) {
-        paperLinks.push(`<a href="/papers/${encodeURIComponent(paper.pmcid)}.pdf" target="_blank" rel="noopener">Open PDF</a>`);
+      const pdfId = paper.paper_id || paper.pmcid;
+      if (pdfId && paper.has_pdf) {
+        paperLinks.push(`<a href="/papers/${encodeURIComponent(pdfId)}.pdf" target="_blank" rel="noopener">Open PDF</a>`);
       }
 
       document.getElementById("paper-body").innerHTML = `

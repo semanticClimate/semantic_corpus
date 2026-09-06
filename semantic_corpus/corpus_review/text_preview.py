@@ -85,14 +85,13 @@ def resolve_document_paths(
     pmcid = row.get("pmcid") or ""
     paper_id = row.get("paper_id") or ""
     file_stems: list[str] = []
-    if pmcid:
-        file_stems.append(pmcid)
     if paper_id:
-        if paper_id not in file_stems:
-            file_stems.append(paper_id)
+        file_stems.append(paper_id)
         short_id = paper_id.replace("europe_pmc_", "")
         if short_id and short_id not in file_stems:
             file_stems.append(short_id)
+    if pmcid and pmcid not in file_stems:
+        file_stems.append(pmcid)
 
     xml_path = None
     pdf_path = None

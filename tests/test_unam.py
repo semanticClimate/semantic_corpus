@@ -10,7 +10,7 @@ from semantic_corpus.repositories._ids import (
     handle_from_unam_url,
     id_from_unam_url,
 )
-from semantic_corpus.repositories.unam import UnamRepository
+from semantic_corpus.repositories.unam_mexico import UnamRepository
 
 
 class TestUnamRepository(unittest.TestCase):

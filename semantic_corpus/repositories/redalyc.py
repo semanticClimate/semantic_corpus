@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 from bs4 import BeautifulSoup
 
@@ -17,7 +17,9 @@ from semantic_corpus.repositories._scraper import RateLimitedSession
 class RedalycRepository(RepositoryInterface):
     """Redalyc adapter using article pages and homepage discovery."""
 
+    SEARCH_API_URL = "https://www.redalyc.org/service/r2020/getArticles"
     LEGACY_SEARCH_URL = "https://www.redalyc.org/redalyc/search"
+
 
     def __init__(self) -> None:
         super().__init__()
@@ -94,7 +96,29 @@ class RedalycRepository(RepositoryInterface):
         return any(term in haystack for term in terms)
 
     def _discover_article_links(self, query: str, limit: int) -> List[str]:
-        """Try legacy search, then homepage discovery with query filtering."""
+        """Try modern search API, legacy search, then homepage discovery with query filtering."""
+        clean_query = query.strip('()"\' ')
+        if clean_query:
+            page_size = max(1, min(limit, 50))
+            encoded_query = quote(clean_query)
+            api_url = f"{self.SEARCH_API_URL}/{encoded_query}/1/{page_size}/1/default"
+            response = self.http.get(api_url)
+            if response:
+                try:
+                    data = response.json()
+                    resultados = data.get("resultados", [])
+                    links: List[str] = []
+                    for item in resultados:
+                        art_id = item.get("cveArticulo")
+                        if art_id:
+                            full_url = f"{self.base_url}/articulo.oa?id={art_id}"
+                            if full_url not in links:
+                                links.append(full_url)
+                    if links:
+                        return links[:limit]
+                except Exception:
+                    pass
+
         response = self.http.get(
             self.LEGACY_SEARCH_URL,
             params={"q": query, "t": "Art", "limit": str(limit)},
@@ -120,6 +144,7 @@ class RedalycRepository(RepositoryInterface):
             if len(matched) >= limit:
                 break
         return matched
+
 
     def search_papers(
         self,

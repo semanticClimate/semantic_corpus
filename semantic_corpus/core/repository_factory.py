@@ -13,8 +13,8 @@ from semantic_corpus.repositories.uba import UbaRepository
 from semantic_corpus.repositories.usp import UspRepository
 from semantic_corpus.repositories.uchile import UchileRepository
 from semantic_corpus.repositories.kerwa import KerwaRepository
-from semantic_corpus.repositories.unam import UnamRepository
-from semantic_corpus.repositories.unal import UnalRepository
+from semantic_corpus.repositories.unam_mexico import UnamRepository
+from semantic_corpus.repositories.unal_colombia import UnalRepository
 
 class RepositoryFactory:
     """Factory class for creating repository instances.

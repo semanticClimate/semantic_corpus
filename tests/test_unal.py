@@ -12,7 +12,7 @@ from semantic_corpus.repositories._ids import (
     id_from_unal_colombia_url,
     id_from_unal_url,
 )
-from semantic_corpus.repositories.unal import UnalRepository
+from semantic_corpus.repositories.unal_colombia import UnalRepository
 
 
 class TestUnalRepository(unittest.TestCase):

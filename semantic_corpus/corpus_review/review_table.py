@@ -164,15 +164,18 @@ def build_review_rows_from_search_results(
 
     rows: List[Dict[str, Any]] = []
     for paper in results:
+        paper_id = paper.get("paper_id") or ""
         pmcid = paper.get("pmcid") or ""
         pmid = paper.get("pmid") or ""
         file_id = sanitize_paper_id(get_result_paper_id(paper) or "")
-        identifier = pmcid or pmid or file_id
-        paper_id = f"europe_pmc_{identifier}" if pmcid else f"{paper.get('source_repository', 'paper')}_{identifier}"
+        identifier = paper_id or pmcid or pmid or file_id
+        if not paper_id:
+            paper_id = f"europe_pmc_{identifier}" if pmcid else f"{paper.get('source_repository', 'paper')}_{identifier}"
 
-        has_xml = bool(file_id) and Path(xml_dir, f"{file_id}.xml").is_file()
-        has_html = bool(file_id) and Path(xml_dir, f"{file_id}.html").is_file()
-        has_pdf = bool(file_id) and Path(xml_dir, f"{file_id}.pdf").is_file()
+        file_stems = [s for s in (paper_id, file_id, pmcid, pmid, identifier) if s]
+        has_xml = any(Path(xml_dir, f"{stem}.xml").is_file() for stem in file_stems)
+        has_html = any(Path(xml_dir, f"{stem}.html").is_file() for stem in file_stems)
+        has_pdf = any(Path(xml_dir, f"{stem}.pdf").is_file() for stem in file_stems)
         has_fulltext = has_xml or has_html
 
         metadata = dict(paper)
@@ -224,14 +227,14 @@ def export_review_table_markdown(rows: List[Dict[str, Any]], path: Path) -> Path
     lines = [
         "# Corpus review table",
         "",
-        "| review_status | score | title | pmcid | has_xml | has_pdf |",
+        "| review_status | score | title | paper_id | has_xml | has_pdf |",
         "| --- | ---: | --- | --- | --- | --- |",
     ]
     for row in rows:
         title = (row["title"] or "").replace("|", "\\|")[:80]
         lines.append(
             f"| {row['review_status']} | {row['score']} | {title} | "
-            f"{row['pmcid']} | {row['has_xml']} | {row['has_pdf']} |"
+            f"{row.get('paper_id') or row.get('pmcid', '')} | {row['has_xml']} | {row['has_pdf']} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
@@ -469,14 +472,14 @@ def export_review_table_html(
             </select>
           </td>
           <td class="col-title">${{escapeHtml(row.title)}}</td>
-          <td>${{escapeHtml(row.pmcid)}}</td>
+          <td>${{escapeHtml(row.paper_id || row.pmcid)}}</td>
           <td>${{escapeHtml(row.authors)}}</td>
           <td>${{escapeHtml(row.publication_date)}}</td>
           <td>${{row.has_xml ? "yes" : "no"}}</td>
           <td>${{row.has_pdf ? "yes" : "no"}}</td>
           <td>
             <button type="button" class="btn-read" data-index="${{index}}"
-              ${{row.pmcid ? "" : "disabled"}} aria-label="Read full paper">
+              ${{(row.has_pdf || row.has_xml || row.paper_id || row.pmcid) ? "" : "disabled"}} aria-label="Read full paper">
               Read
             </button>
           </td>
@@ -613,13 +616,13 @@ def export_review_table_html(
 
     async function openPaper(index) {{
       const row = rows[index];
-      if (!row || !row.pmcid) return;
+      if (!row || !(row.paper_id || row.pmcid)) return;
 
       highlightRow(index);
       activePaperIndex = index;
 
       const reader = document.getElementById("paper-reader");
-      document.getElementById("reader-title").textContent = row.title || row.pmcid;
+      document.getElementById("reader-title").textContent = row.title || row.paper_id || row.pmcid;
       clearPaperViews();
       reader.classList.add("open");
       reader.setAttribute("aria-hidden", "false");

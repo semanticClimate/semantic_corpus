@@ -72,34 +72,45 @@ def ingest_query_output_directory(
     added: List[str] = []
 
     for paper in results:
+        paper_id = paper.get("paper_id") or ""
         pmcid = paper.get("pmcid") or ""
         pmid = paper.get("pmid") or ""
-        identifier = pmcid or pmid
+        identifier = paper_id or pmcid or pmid
         if not identifier:
             continue
 
-        corpus_id = f"{paper_id_prefix}{identifier}"
+        if paper_id:
+            corpus_id = paper_id
+        elif paper_id_prefix and not identifier.startswith(paper_id_prefix):
+            corpus_id = f"{paper_id_prefix}{identifier}"
+        else:
+            corpus_id = identifier
+
         raw = dict(paper)
         raw["authors"] = _normalize_author_names(paper.get("authors"))
         normalized = processor.normalize_metadata(raw)
         corpus.add_paper(corpus_id, normalized)
 
-        if pmcid:
-            xml_src = Path(query_dir, f"{pmcid}.xml")
+        file_stems = [s for s in (paper_id, identifier, pmcid, pmid) if s]
+        for stem in file_stems:
+            xml_src = Path(query_dir, f"{stem}.xml")
             if xml_src.is_file():
                 xml_dst = Path(
                     corpus.corpus_dir, "data", "documents", "xml", f"{corpus_id}.xml"
                 )
                 xml_dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(xml_src, xml_dst)
+                break
 
-            pdf_src = Path(query_dir, f"{pmcid}.pdf")
+        for stem in file_stems:
+            pdf_src = Path(query_dir, f"{stem}.pdf")
             if pdf_src.is_file():
                 pdf_dst = Path(
                     corpus.corpus_dir, "data", "documents", "pdf", f"{corpus_id}.pdf"
                 )
                 pdf_dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(pdf_src, pdf_dst)
+                break
 
         if corpus.bagit_manager:
             corpus.bagit_manager.update_manifest()
