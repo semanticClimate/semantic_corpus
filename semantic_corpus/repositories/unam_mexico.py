@@ -74,22 +74,103 @@ class UnamRepository(RepositoryInterface):
 
         return links
 
+    def _resolve_external_pdf(self, external_url: str) -> str:
+        """Resolves fulltext PDF URL from external journal or OJS page."""
+        try:
+            resp = self.http.get(external_url, timeout=10)
+            if not resp:
+                return ""
+            sub_soup = BeautifulSoup(resp.text, "html.parser")
+            for a in sub_soup.find_all("a"):
+                href = a.get("href") or ""
+                if "/article/download/" in href or href.lower().endswith(".pdf"):
+                    return urljoin(external_url, href)
+        except Exception:
+            pass
+        return ""
+
     def _extract_metadata(self, html: str, article_url: str) -> Dict[str, Any]:
-        """Extracts metadata from the item's tags"""
+        """Extracts metadata from the item's tags and MARC21 elements."""
         soup = BeautifulSoup(html, "html.parser")
         paper_id = handle_from_unam_url(article_url)
+
+        # 1. Parse MARC21 tags from <p><strong>tag:</strong> value</p>
+        marc: Dict[str, str] = {}
+        for p in soup.find_all("p"):
+            strong = p.find("strong")
+            if strong:
+                strong_txt = strong.get_text().strip().rstrip(":")
+                if re.match(r"^\d{3}\.", strong_txt) or strong_txt in ("dor_id", "handle"):
+                    val = p.get_text().replace(strong.get_text(), "").strip()
+                    marc[strong_txt] = val
 
         def meta(name: str) -> str:
             el = soup.select_one(f'meta[name="{name}"]')
             return el.get("content", "").strip() if el else ""
 
-        title = meta("citation_title") or (soup.title.get_text(strip=True) if soup.title else "")
+        # Title: MARC 245.* or meta citation_title or fallback
+        title = meta("citation_title")
+        if not title:
+            for k, v in marc.items():
+                if k.startswith("245."):
+                    title = v
+                    break
+        if not title:
+            h_title = soup.select_one("h1, h2, .cont-text-title-record-min")
+            if h_title and "No entro" not in h_title.get_text():
+                title = h_title.get_text(strip=True)
+            elif soup.title and "Repositorio Institucional" not in soup.title.get_text():
+                title = soup.title.get_text(strip=True)
+
+        # Authors: MARC 100.* and 700.* or meta citation_author
         authors = [
             el.get("content", "").strip()
             for el in soup.select('meta[name="citation_author"]')
             if el.get("content")
         ]
+        if not authors:
+            for k, v in marc.items():
+                if k.startswith("100.") or k.startswith("700."):
+                    for author in v.split(";"):
+                        author = author.strip()
+                        if author and author not in authors:
+                            authors.append(author)
+
+        # Abstract: MARC 520.* or meta citation_abstract
         abstract = meta("citation_abstract") or meta("description")
+        if not abstract or "El Repositorio Institucional" in abstract:
+            for k, v in marc.items():
+                if k.startswith("520."):
+                    abstract = v
+                    break
+
+        # Publication date: MARC 264.*, 260.*, or meta
+        pub_date = meta("citation_publication_date") or meta("citation_date")
+        if not pub_date:
+            for k, v in marc.items():
+                if k.startswith("264.") or k.startswith("260."):
+                    pub_date = v
+                    break
+
+        # Journal / Publisher: MARC 773.* or meta
+        journal = meta("citation_journal_title") or meta("citation_publisher")
+        if not journal:
+            for k, v in marc.items():
+                if k.startswith("773."):
+                    journal = v
+                    break
+        if not journal:
+            journal = "Universidad Nacional Autónoma de México"
+
+        # DOI
+        doi = meta("citation_doi")
+        if not doi:
+            for k, v in marc.items():
+                if "doi" in k.lower() or "10." in v:
+                    doi = v
+                    break
+
+        # PDF URL
         pdf_url = meta("citation_pdf_url")
         if not pdf_url:
             pdf_anchor = (
@@ -100,19 +181,30 @@ class UnamRepository(RepositoryInterface):
             if pdf_anchor:
                 pdf_url = pdf_anchor.get("data-url") or pdf_anchor.get("href", "")
 
+        # Check MARC 856.* (Electronic location / fulltext link)
+        if not pdf_url:
+            for k, v in marc.items():
+                if k.startswith("856.") and v.startswith("http"):
+                    if ".pdf" in v.lower():
+                        pdf_url = v
+                    else:
+                        pdf_url = self._resolve_external_pdf(v)
+                    if pdf_url:
+                        break
+
         if pdf_url and not pdf_url.startswith("http"):
             pdf_url = urljoin(self.base_url, pdf_url)
 
         return {
             "paper_id": paper_id,
             "url": article_url,
-            "title": title,
-            "abstract": abstract,
+            "title": title or "",
+            "abstract": abstract or "",
             "authors": authors,
-            "journal": meta("citation_journal_title") or meta("citation_publisher") or "Universidad Nacional Autónoma de México",
-            "doi": meta("citation_doi"),
-            "publication_date": meta("citation_publication_date") or meta("citation_date"),
-            "pdf_url": pdf_url,
+            "journal": journal,
+            "doi": doi or "",
+            "publication_date": pub_date or "",
+            "pdf_url": pdf_url or "",
             "source_repository": "unam",
         }
 
@@ -139,7 +231,15 @@ class UnamRepository(RepositoryInterface):
         links = self._extract_article_links(response.text)[:limit]
         results: List[Dict[str, Any]] = []
         for link in links:
-            art_resp = self.http.get(link)
+            match = re.search(r"/contenidos/(\d+)", link)
+            target_url = (
+                f"{self.base_url}/contenidos/ficha/item-{match.group(1)}"
+                if match
+                else link
+            )
+            art_resp = self.http.get(target_url)
+            if not art_resp:
+                art_resp = self.http.get(link)
             if not art_resp:
                 continue
             results.append(self._extract_metadata(art_resp.text, link))
@@ -154,11 +254,14 @@ class UnamRepository(RepositoryInterface):
         elif paper_id.startswith("www."):
             url = f"https://{paper_id}"
         else:
-            # Recovers URL using ID (e.g.: unam_45182 -> /contenidos/45182)
+            # Recovers URL using ID (e.g.: unam_45182 -> /contenidos/ficha/item-45182)
             clean = paper_id.replace("unam_", "")
-            url = f"{self.base_url}/contenidos/{clean}"
+            url = f"{self.base_url}/contenidos/ficha/item-{clean}"
 
         response = self.http.get(url)
+        if not response and "/ficha/item-" in url:
+            clean = paper_id.replace("unam_", "")
+            response = self.http.get(f"{self.base_url}/contenidos/{clean}")
         if not response:
             raise RepositoryError(
                 f"Could not find the document in the UNAM repository, id: {paper_id}"
@@ -198,14 +301,26 @@ class UnamRepository(RepositoryInterface):
                 pdf_path.write_bytes(pdf_resp.content)
                 downloaded_files.append(str(pdf_path))
 
+        # If formats specified (e.g. ["pdf"]), ensure requested format was downloaded
+        if formats and "pdf" in formats:
+            has_pdf = any(f.endswith(".pdf") for f in downloaded_files)
+            if not has_pdf:
+                return {
+                    "success": False,
+                    "paper_id": safe_id,
+                    "files": downloaded_files,
+                    "error": "No PDF downloaded",
+                }
+
         return {"success": True, "paper_id": safe_id, "files": downloaded_files}
 
     def get_repository_info(self) -> Dict[str, Any]:
         return {
-            "name": self.name,
+            "name": "UNAM",
             "base_url": self.base_url,
             "search_url": self.search_url,
             "description": "Repositorio Institucional de la Universidad Nacional Autónoma de México (UNAM)",
             "supported_formats": ["pdf", "metadata"],
             "notes": "Scraping on Repositorio Institucional UNAM (repositorio.unam.mx)",
         }
+

@@ -1,5 +1,4 @@
-"""UCHILE repository implementation (DSpace HTML scraping)."""
-
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -23,6 +22,39 @@ class UchileRepository(RepositoryInterface):
         self.base_url = "https://repositorio.uchile.cl"
         self.search_url = "https://repositorio.uchile.cl/discover"
         self.http = RateLimitedSession(delay_seconds=1.0)
+
+    def _get_with_anubis(self, url: str, **kwargs: Any) -> Optional[Any]:
+        """Performs GET and automatically solves Anubis Proof-of-Work challenge if presented."""
+        resp = self.http.get(url, **kwargs)
+        if not resp:
+            return None
+        if "anubis_challenge" in getattr(resp, "text", ""):
+            try:
+                soup = BeautifulSoup(resp.text, "html.parser")
+                challenge_tag = soup.find("script", id="anubis_challenge")
+                if challenge_tag and challenge_tag.string:
+                    data = json.loads(challenge_tag.string)
+                    chall = data["challenge"]
+                    rand_data = chall["randomData"]
+                    diff = data.get("rules", {}).get("difficulty", 4)
+                    prefix = "0" * diff
+                    nonce = 0
+                    while True:
+                        h = hashlib.sha256((rand_data + str(nonce)).encode("utf-8")).hexdigest()
+                        if h.startswith(prefix):
+                            break
+                        nonce += 1
+                    req_obj = getattr(resp, "request", None)
+                    redir = getattr(req_obj, "path_url", "/discover") if req_obj else "/discover"
+                    pass_url = (
+                        f"{self.base_url}/.within.website/x/cmd/anubis/api/pass-challenge"
+                        f"?id={chall['id']}&response={h}&nonce={nonce}&redir={redir}&elapsedTime=100"
+                    )
+                    resp = self.http.session.get(pass_url, **kwargs)
+            except Exception:
+                pass
+        return resp
+
 
     def _extract_article_links(self, html: str) -> List[str]:
         soup = BeautifulSoup(html, "html.parser")
@@ -83,14 +115,14 @@ class UchileRepository(RepositoryInterface):
         del start_date, end_date
         clean_query = query.strip('()"\' ')
         params = {"query": clean_query, "rpp": min(limit, 20)}
-        response = self.http.get(self.search_url, params=params)
+        response = self._get_with_anubis(self.search_url, params=params)
         if not response:
             raise RepositoryError(f"Error occurred while looking for: {query}")
 
         links = self._extract_article_links(response.text)[:limit]
         results: List[Dict[str, Any]] = []
         for link in links:
-            art_resp = self.http.get(link)
+            art_resp = self._get_with_anubis(link)
             if not art_resp:
                 continue
             results.append(self._extract_metadata(art_resp.text, link))
@@ -111,7 +143,7 @@ class UchileRepository(RepositoryInterface):
                 clean_handle = clean.replace("_", "/")
             url = f"{self.base_url}/handle/{clean_handle}"
 
-        response = self.http.get(url)
+        response = self._get_with_anubis(url)
         if not response:
             raise RepositoryError(
                 f"Could not find the document in the UCHILE repository, id: {paper_id}"
@@ -142,7 +174,7 @@ class UchileRepository(RepositoryInterface):
 
         # 2. Downloads PDF, if available
         if "pdf" in formats and metadata.get("pdf_url"):
-            pdf_resp = self.http.get(metadata["pdf_url"])
+            pdf_resp = self._get_with_anubis(metadata["pdf_url"])
             if pdf_resp and (
                 pdf_resp.content.startswith(b"%PDF")
                 or "pdf" in pdf_resp.headers.get("content-type", "").lower()
@@ -151,7 +183,18 @@ class UchileRepository(RepositoryInterface):
                 pdf_path.write_bytes(pdf_resp.content)
                 downloaded_files.append(str(pdf_path))
 
+        if formats and "pdf" in formats:
+            has_pdf = any(f.endswith(".pdf") for f in downloaded_files)
+            if not has_pdf:
+                return {
+                    "success": False,
+                    "paper_id": safe_id,
+                    "files": downloaded_files,
+                    "error": "No PDF downloaded",
+                }
+
         return {"success": True, "paper_id": safe_id, "files": downloaded_files}
+
 
     def get_repository_info(self) -> Dict[str, Any]:
         return {

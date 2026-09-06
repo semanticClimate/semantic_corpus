@@ -41,13 +41,21 @@ def run_repository_search(
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # When requesting downloadable formats (e.g. PDF), search for extra candidates
+    # so we can collect up to `limit` papers that actually download the requested formats.
+    candidate_limit = (
+        limit * 3 if formats and any(f in ("pdf", "xml", "html") for f in formats) else limit
+    )
+
     results = repo.search_papers(
         query=query_string,
-        limit=limit,
+        limit=candidate_limit,
         start_date=start_date,
         end_date=end_date,
     )
     downloaded_count = 0
+    successful_results: List[Dict[str, Any]] = []
+
     for paper in results:
         paper_id = get_result_paper_id(paper)
         if not paper_id:
@@ -56,9 +64,15 @@ def run_repository_search(
             dl = repo.download_paper(paper_id, output_dir, formats)
             if dl.get("success"):
                 downloaded_count += 1
+                successful_results.append(paper)
+                if downloaded_count >= limit:
+                    break
         except Exception:
             continue
-    return results, downloaded_count
+
+    final_results = successful_results if successful_results else results[:limit]
+    return final_results, downloaded_count
+
 
 
 def run_query_and_build_review_table(

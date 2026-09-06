@@ -209,14 +209,13 @@ class UspRepository(RepositoryInterface):
         if custom_filter:
             params["filter[]"] = custom_filter
 
-        try:
-            response = self.http.get(self.search_url, params=params)
-            if not response:
-                return []
-            links = self._extract_article_links(response.text)
-        except Exception as e:
-            logger.warning(f"Error querying USP repository for '{query}': {e}")
-            return []
+        response = self.http.get(self.search_url, params=params)
+        if not response:
+            raise RepositoryError(
+                f"No se pudo conectar con el repositorio de la USP en {self.search_url} (el servidor no responde o está caído)."
+            )
+        links = self._extract_article_links(response.text)
+
 
         results: List[Dict[str, Any]] = []
         for link in links:
@@ -291,7 +290,18 @@ class UspRepository(RepositoryInterface):
             except Exception as e:
                 logger.warning(f"No se pudo descargar el PDF de {paper_id}: {e}")
 
+        if formats and "pdf" in formats:
+            has_pdf = any(f.endswith(".pdf") for f in downloaded_files)
+            if not has_pdf:
+                return {
+                    "success": False,
+                    "paper_id": safe_id,
+                    "files": downloaded_files,
+                    "error": "No PDF downloaded",
+                }
+
         return {"success": True, "paper_id": safe_id, "files": downloaded_files}
+
 
     def get_repository_info(self) -> Dict[str, Any]:
         """Return basic repository metadata."""

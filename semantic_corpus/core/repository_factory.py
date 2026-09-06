@@ -33,8 +33,11 @@ class RepositoryFactory:
         "uchile": UchileRepository,
         "kerwa": KerwaRepository, #Costa Rica University
         "unam_mexico": UnamRepository,
+        "unam": UnamRepository,
         "unal_colombia": UnalRepository,
+        "unal": UnalRepository,
     }
+
 
     @classmethod
     def get_repository(cls, name: str) -> RepositoryInterface:
