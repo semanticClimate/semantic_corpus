@@ -33,6 +33,11 @@ For development and testing:
 pip install -e ".[dev]"
 ```
 ## Usage
+
+### End-to-end encyclopedia tutorial
+
+For the concrete climate-anxiety example, see [How the Climate Anxiety Encyclopedia Was Created](docs/tutorials/climate_anxiety_encyclopedia_creation.md).
+
 ### Quick Start
 ```bash
 # Create a new corpus

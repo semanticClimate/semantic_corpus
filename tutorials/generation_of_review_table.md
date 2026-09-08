@@ -1,4 +1,4 @@
-# Generation of review table
+# From Literature Search to Encyclopedia: A Beginner's Guide
 
 This tutorial explains how to generate a literature review table from scratch and how to review it in the browser.
 
@@ -504,7 +504,223 @@ This is the simplest reproducible workflow for creating a review table from a qu
 
 ---
 
-## 10. Summary
+## 11. Create an encyclopedia from the included papers
+
+This section starts after you have finished reviewing the table.
+
+The important rule is:
+
+> Only papers marked `include` are used to create the encyclopedia.
+
+Papers marked `exclude` or `review` are left out.
+
+### 11.1 What the three tools do
+
+Think of the tools as three separate helpers:
+
+1. `semantic_corpus` finds and downloads the papers.
+2. `txt2phrases` reads the papers and finds important words and phrases.
+3. `encyclopedia` turns those phrases into encyclopedia entries and an HTML file.
+
+The whole process looks like this:
+
+```text
+review table
+    -> papers marked include
+    -> plain-text files
+    -> keyphrases from txt2phrases
+    -> encyclopedia entries
+    -> HTML encyclopedia
+```
+
+### 11.2 Install the three tools
+
+You already installed `semantic_corpus` in Section 1. Install the other two tools beside it.
+
+From the directory that contains your `semantic_corpus` folder, run:
+
+```bash
+git clone https://github.com/semanticClimate/txt2phrases.git
+git clone https://github.com/semanticClimate/encyclopedia.git
+```
+
+Your folders should look like this:
+
+```text
+parent-folder/
+├── semantic_corpus/
+├── txt2phrases/
+└── encyclopedia/
+```
+
+Activate the same virtual environment you created earlier, then install both tools:
+
+```bash
+cd semantic_corpus
+source .venv/bin/activate
+
+python -m pip install -e ../txt2phrases
+python -m pip install -r ../encyclopedia/requirements.txt
+python -m pip install -e ../encyclopedia
+```
+
+Check that Python can find all three tools:
+
+```bash
+python -c "import semantic_corpus, txt2phrases, encyclopedia; print('All three tools are ready')"
+```
+
+### 11.3 Make a folder containing only included papers
+
+Look at your review table and count the papers marked `include`.
+
+For the climate-anxiety example:
+
+- 50 papers were found.
+- 35 papers were marked `include`.
+- 9 papers were marked `exclude`.
+- 6 papers were left as `review`.
+
+Only the 35 included papers were copied into this folder:
+
+```text
+corpora/climate_anxiety_2026/vrinda_project/included_html/
+```
+
+There should be one file for each included paper. The filenames contain the paper identifier, for example:
+
+```text
+europe_pmc_PMC12789392.html
+europe_pmc_PMC12802099.html
+europe_pmc_PMC12959560.html
+```
+
+If you are using a different query, make your own folder, for example:
+
+```bash
+mkdir -p corpora/my_query/included_html
+```
+
+Copy only the HTML or PDF files belonging to rows marked `include` into that folder.
+
+### 11.4 Convert included papers to text
+
+`txt2phrases` needs text. It does not use the review table directly.
+
+Convert the included papers to plain `.txt` files and put them here:
+
+```text
+corpora/climate_anxiety_2026/vrinda_project/txt_files/
+```
+
+There should be one text file per included paper. For a new project, create the folder first:
+
+```bash
+mkdir -p corpora/my_query/txt_files
+```
+
+Then place the converted text files there. Before continuing, count them:
+
+```bash
+find corpora/my_query/txt_files -maxdepth 1 -name '*.txt' | wc -l
+```
+
+The number should match the number of included papers.
+
+### 11.5 Extract phrases and create the encyclopedia
+
+Run this command from the `semantic_corpus` folder:
+
+```bash
+python encyclopedia/scripts/extract_keyphrases_from_papers.py \
+  --input corpora/my_query/txt_files \
+  --output temp/exports/my_query_encyclopedia.html \
+  --title "My Research Encyclopedia" \
+  --max-papers 35 \
+  --top-n 500 \
+  --max-terms 100 \
+  --work-dir temp/exports/my_query_keyphrases \
+  --verbose
+```
+
+Change `35` to the number of included papers in your own table.
+
+This command:
+
+1. Reads every `.txt` file.
+2. Uses `txt2phrases` to find important phrases.
+3. Writes one keyword CSV file for each paper.
+4. Combines repeated phrases and counts them.
+5. Keeps the 100 most frequent phrases.
+6. Uses `encyclopedia` to create entries for those phrases.
+7. Saves the encyclopedia as `temp/exports/my_query_encyclopedia.html`.
+
+The `--top-n 500` option means “find up to 500 phrases per paper.” The `--max-terms 100` option means “use only the top 100 combined phrases.” Use smaller numbers for a quick test.
+
+### 11.6 Open the encyclopedia
+
+Start a small local web server:
+
+```bash
+python -m http.server 8000 --directory temp/exports
+```
+
+Open this address in your browser:
+
+```text
+http://localhost:8000/my_query_encyclopedia.html
+```
+
+You should now see the encyclopedia created from the phrases found in your included papers.
+
+### 11.7 Climate-anxiety example command
+
+For the actual climate-anxiety files already in this repository, the command was:
+
+```bash
+python encyclopedia/scripts/extract_keyphrases_from_papers.py \
+  --input corpora/climate_anxiety_2026/vrinda_project/txt_files \
+  --output temp/exports/climate_anxiety_encyclopedia.html \
+  --title "Climate Anxiety Encyclopedia" \
+  --max-papers 35 \
+  --top-n 500 \
+  --max-terms 100 \
+  --work-dir corpora/climate_anxiety_2026/vrinda_project/keyphrases \
+  --verbose
+```
+
+The existing demonstration result is:
+
+```text
+corpora/climate_anxiety_2026/vrinda_project/first_100_term_encyclopedia_climate_anxiety.html
+```
+
+### 11.8 If something goes wrong
+
+**No papers were found:**
+
+- Check that the input folder exists.
+- Check that it contains `.txt` files.
+- Check that you are running the command from the `semantic_corpus` folder.
+
+**There are fewer text files than included papers:**
+
+- One or more included papers still need to be converted to text.
+- Do not continue until the files are ready.
+
+**`No module named txt2phrases`:**
+
+```bash
+python -m pip install -e ../txt2phrases
+```
+
+**The encyclopedia takes a long time:**
+
+- Start with `--max-papers 2` and `--max-terms 20`.
+- Use `--no-wikipedia` for a quick test.
+- Increase the numbers after the small test works.
+
+## 12. Summary
 
 The review-table workflow is straightforward:
 
