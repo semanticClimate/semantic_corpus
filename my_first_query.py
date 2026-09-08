@@ -3,11 +3,11 @@ from semantic_corpus.corpus_review.workflow import run_query_and_build_review_ta
 
 result = run_query_and_build_review_table(
     query_name="test_query",
-    query_string='("climate")', #clean query in conicet.py
+    query_string='("clima")', #clean query in conicet.py
     output_dir=Path("temp/queries/test_query"),
-    repository="europe_pmc",
+    repository="conicet",
     limit=10,
-    formats=["pdf"], #no xml available in CONICET. The HTML will be automatically generated
+    formats=["pdf", "xml"], #no xml available in CONICET. The HTML will be automatically generated
 )
 
 print(result["summary"])

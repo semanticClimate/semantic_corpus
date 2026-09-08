@@ -5,6 +5,7 @@ import re
 from typing import Any, Dict, Optional
 from urllib.parse import parse_qs, urlparse
 
+# {repo}_{id}
 
 def sanitize_paper_id(paper_id: str) -> str:
     """Return a filesystem-safe identifier."""
@@ -265,4 +266,4 @@ def handle_from_unal_url(url_or_id: str) -> str:
 
 
 
-
+
