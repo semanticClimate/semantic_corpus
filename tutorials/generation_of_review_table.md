@@ -1,4 +1,4 @@
-# From Literature Search to Encyclopedia: A Beginner's Guide
+# Tutorial: Semantic Corpus and Encyclopedia
 
 This tutorial explains how to generate a literature review table from scratch and how to review it in the browser.
 
