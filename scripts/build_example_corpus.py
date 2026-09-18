@@ -24,7 +24,7 @@ from semantic_corpus.corpus_review.review_table import (
 )
 from semantic_corpus.corpus_review.workflow import run_repository_search
 from semantic_corpus.ingestion.query_output_ingester import ingest_query_output_directory
-from semantic_corpus.transformation.xml_to_html import convert_corpus_xml_to_html
+from semantic_corpus.transformation import ensure_corpus_formats, convert_corpus_xml_to_html
 from semantic_corpus.utils import get_project_temp_dir
 
 
@@ -102,11 +102,12 @@ def main() -> None:
     added = ingest_query_output_directory(output_dir, corpus)
     print(f"Ingested {len(added)} papers into {corpus_dir}")
 
-    html_paths = convert_corpus_xml_to_html(corpus_dir)
-    print(f"Converted {len(html_paths)} XML files to HTML")
-    if html_paths:
-        sample = next(iter(html_paths.values()))
-        print(f"Sample HTML: {sample}")
+    summary = ensure_corpus_formats(corpus_dir)
+    print(
+        f"Format harmonization complete: {len(summary['converted_xml_to_html'])} XML->HTML, "
+        f"{len(summary['converted_pdf_to_html'])} PDF->HTML, "
+        f"{len(summary['converted_pdf_to_xml'])} PDF->XML"
+    )
 
     if corpus.bagit_manager:
         corpus.bagit_manager.update_manifest()

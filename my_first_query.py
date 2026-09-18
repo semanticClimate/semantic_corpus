@@ -12,3 +12,8 @@ result = run_query_and_build_review_table(
 
 print(result["summary"])
 print(result["review_paths"])
+
+#.\venv\Scripts\python.exe scripts/review_viewer.py serve --review-table temp/queries/test_query/review/review_table.json --query-dir temp/queries/test_query
+#.\venv\Scripts\python.exe scripts/build_review_table.py --query-dir temp/queries/test_query
+
+#agy --conversation=c6875ad8-b7d8-4a57-b8f8-334d8ec0974d

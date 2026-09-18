@@ -58,6 +58,17 @@ def create_parser() -> argparse.ArgumentParser:
     download_parser.add_argument('--formats', '-f', default='xml,pdf', help='File formats to download')
     download_parser.add_argument('--verbose', '-v', action='store_true', help='Enable verbose output')
     
+    # Convert documents command
+    convert_parser = subparsers.add_parser('convert', help='Convert PDF or XML documents to HTML/XML')
+    convert_parser.add_argument('--corpus', '-c', type=str, help='Path to corpus directory to convert')
+    convert_parser.add_argument('--pdf', type=str, help='Path to single PDF file to convert')
+    convert_parser.add_argument('--xml', type=str, help='Path to single XML file to convert')
+    convert_parser.add_argument('--output', '-o', type=str, help='Output HTML path (default: same name with .html)')
+    convert_parser.add_argument('--xml-output', type=str, help='Output XML path for PDF conversion')
+    convert_parser.add_argument('--ocr', action='store_true', help='Enable OCR during PDF conversion')
+    convert_parser.add_argument('--overwrite', action='store_true', help='Overwrite existing converted files')
+    convert_parser.add_argument('--verbose', '-v', action='store_true', help='Enable verbose output')
+    
     return parser
 
 
@@ -141,6 +152,58 @@ def download_papers_command(args) -> None:
         sys.exit(1)
 
 
+def convert_command(args) -> None:
+    """Handle convert documents command."""
+    from semantic_corpus.transformation.pdf_to_html import (
+        convert_pdf_to_html,
+        ensure_corpus_formats,
+    )
+    from semantic_corpus.transformation.xml_to_html import convert_xml_to_html
+
+    try:
+        if args.pdf:
+            pdf_path = Path(args.pdf)
+            output_path = Path(args.output) if args.output else pdf_path.with_suffix(".html")
+            xml_output = Path(args.xml_output) if args.xml_output else None
+            html_res = convert_pdf_to_html(
+                pdf_path,
+                output_path,
+                xml_path=xml_output,
+                generate_xml=bool(xml_output),
+                do_ocr=args.ocr,
+            )
+            print(f"Converted PDF to HTML: {html_res}")
+            if xml_output and xml_output.exists():
+                print(f"Generated XML: {xml_output}")
+        elif args.xml:
+            xml_path = Path(args.xml)
+            output_path = Path(args.output) if args.output else xml_path.with_suffix(".html")
+            html_res = convert_xml_to_html(xml_path, output_path)
+            print(f"Converted XML to HTML: {html_res}")
+        elif args.corpus:
+            corpus_path = Path(args.corpus)
+            summary = ensure_corpus_formats(
+                corpus_path,
+                overwrite=args.overwrite,
+                do_ocr=args.ocr,
+            )
+            xml_count = len(summary["converted_xml_to_html"])
+            pdf_html_count = len(summary["converted_pdf_to_html"])
+            pdf_xml_count = len(summary["converted_pdf_to_xml"])
+            total_papers = len(summary["papers"])
+            print(f"Corpus conversion complete for {corpus_path}:")
+            print(f"  - XML to HTML: {xml_count} papers")
+            print(f"  - PDF to HTML (via Docling): {pdf_html_count} papers")
+            print(f"  - PDF to XML (via Docling): {pdf_xml_count} papers")
+            print(f"  - Total papers available: {total_papers}")
+        else:
+            print("Error: Please specify --corpus, --pdf, or --xml", file=sys.stderr)
+            sys.exit(1)
+    except CorpusError as e:
+        print(f"Error converting document(s): {e.message}", file=sys.stderr)
+        sys.exit(1)
+
+
 def main() -> None:
     """Main CLI entry point."""
     parser = create_parser()
@@ -177,7 +240,7 @@ def main() -> None:
         # Find the command position and insert config args after it
         command_found = False
         for i, arg in enumerate(all_args):
-            if arg in ['create', 'search', 'download']:
+            if arg in ['create', 'search', 'download', 'convert']:
                 all_args = all_args[:i+1] + config_args + all_args[i+1:]
                 command_found = True
                 break
@@ -197,6 +260,8 @@ def main() -> None:
         search_papers_command(args)
     elif args.command == 'download':
         download_papers_command(args)
+    elif args.command == 'convert':
+        convert_command(args)
     else:
         parser.print_help()
         sys.exit(1)
