@@ -502,6 +502,7 @@ _VIEWER_HTML = """<!DOCTYPE html>
       const badges = [
         paper.review_status,
         paper.has_xml ? "XML" : null,
+        paper.has_html ? "HTML" : null,
         paper.has_pdf ? "PDF" : null,
         paper.paper_id || paper.pmcid || null,
         paper.doi || null,
@@ -511,6 +512,9 @@ _VIEWER_HTML = """<!DOCTYPE html>
       const pdfId = paper.paper_id || paper.pmcid;
       if (pdfId && paper.has_pdf) {
         paperLinks.push(`<a href="/papers/${encodeURIComponent(pdfId)}.pdf" target="_blank" rel="noopener">Open PDF</a>`);
+      }
+      if (pdfId && paper.has_html) {
+        paperLinks.push(`<a href="/papers/${encodeURIComponent(pdfId)}.html" target="_blank" rel="noopener">Open HTML</a>`);
       }
 
       document.getElementById("paper-body").innerHTML = `

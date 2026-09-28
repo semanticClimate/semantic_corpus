@@ -61,6 +61,7 @@ def create_parser() -> argparse.ArgumentParser:
     # Convert documents command
     convert_parser = subparsers.add_parser('convert', help='Convert PDF or XML documents to HTML/XML')
     convert_parser.add_argument('--corpus', '-c', type=str, help='Path to corpus directory to convert')
+    convert_parser.add_argument('--query-dir', type=str, help='Path to query directory containing PDFs to convert to HTML and XML')
     convert_parser.add_argument('--pdf', type=str, help='Path to single PDF file to convert')
     convert_parser.add_argument('--xml', type=str, help='Path to single XML file to convert')
     convert_parser.add_argument('--output', '-o', type=str, help='Output HTML path (default: same name with .html)')
@@ -196,8 +197,18 @@ def convert_command(args) -> None:
             print(f"  - PDF to HTML (via Docling): {pdf_html_count} papers")
             print(f"  - PDF to XML (via Docling): {pdf_xml_count} papers")
             print(f"  - Total papers available: {total_papers}")
+        elif args.query_dir:
+            from semantic_corpus.transformation import convert_query_directory_pdfs
+            query_path = Path(args.query_dir)
+            converted = convert_query_directory_pdfs(
+                query_path,
+                overwrite=args.overwrite,
+                do_ocr=args.ocr,
+            )
+            print(f"Query directory conversion complete for {query_path}:")
+            print(f"  - Converted {len(converted)} PDF documents to HTML & DocTags XML (via Docling)")
         else:
-            print("Error: Please specify --corpus, --pdf, or --xml", file=sys.stderr)
+            print("Error: Please specify --corpus, --query-dir, --pdf, or --xml", file=sys.stderr)
             sys.exit(1)
     except CorpusError as e:
         print(f"Error converting document(s): {e.message}", file=sys.stderr)

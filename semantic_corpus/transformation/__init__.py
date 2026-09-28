@@ -4,6 +4,7 @@ from semantic_corpus.transformation.pdf_to_html import (
     convert_corpus_pdf_to_html,
     convert_pdf_to_html,
     convert_pdf_to_xml,
+    convert_query_directory_pdfs,
     ensure_corpus_formats,
     get_docling_converter,
 )
@@ -18,6 +19,7 @@ __all__ = [
     "convert_pdf_to_html",
     "convert_pdf_to_xml",
     "convert_corpus_pdf_to_html",
+    "convert_query_directory_pdfs",
     "ensure_corpus_formats",
     "get_docling_converter",
 ]

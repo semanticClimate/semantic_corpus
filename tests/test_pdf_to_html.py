@@ -9,6 +9,7 @@ from semantic_corpus.transformation.pdf_to_html import (
     convert_corpus_pdf_to_html,
     convert_pdf_to_html,
     convert_pdf_to_xml,
+    convert_query_directory_pdfs,
     ensure_corpus_formats,
     get_docling_converter,
 )
@@ -169,3 +170,27 @@ def test_ensure_corpus_formats_both_origins(tmp_path):
     assert (xml_dir / "pdf_paper.xml").exists()
     assert summary["papers"]["xml_paper"]["has_both_html_and_xml"] is True
     assert summary["papers"]["pdf_paper"]["has_both_html_and_xml"] is True
+
+
+def test_convert_query_directory_pdfs(tmp_path: Path):
+    query_dir = tmp_path / "test_query"
+    query_dir.mkdir(parents=True)
+    pdf1 = query_dir / "conicet_1.pdf"
+    pdf1.write_bytes(b"%PDF-test1")
+    pdf2 = query_dir / "conicet_2.pdf"
+    pdf2.write_bytes(b"%PDF-test2")
+
+    mock_conv = _make_mock_converter()
+    with patch(
+        "semantic_corpus.transformation.pdf_to_html.get_docling_converter",
+        return_value=mock_conv,
+    ):
+        converted = convert_query_directory_pdfs(query_dir)
+
+    assert "conicet_1" in converted
+    assert "conicet_2" in converted
+    assert (query_dir / "conicet_1.html").exists()
+    assert (query_dir / "conicet_1.xml").exists()
+    assert (query_dir / "conicet_2.html").exists()
+    assert (query_dir / "conicet_2.xml").exists()
+

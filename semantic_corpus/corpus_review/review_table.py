@@ -22,7 +22,7 @@ from semantic_corpus.tools.metadata_processor import MetadataProcessor
 
 
 def _paper_has_file(corpus_dir: Path, paper_id: str, ext: str) -> bool:
-    sub = "xml" if ext == "xml" else "pdf"
+    sub = ext
     path = Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{ext}")
     return path.is_file() and path.stat().st_size > 0
 
@@ -41,9 +41,10 @@ def build_review_rows_from_corpus(
     for paper_id in sorted(corpus.list_papers()):
         metadata = corpus.get_paper_metadata(paper_id)
         has_xml = _paper_has_file(corpus.corpus_dir, paper_id, "xml")
+        has_html = _paper_has_file(corpus.corpus_dir, paper_id, "html")
         has_pdf = _paper_has_file(corpus.corpus_dir, paper_id, "pdf")
         score, matched = score_paper_relevance(
-            metadata, has_xml=has_xml, has_pdf=has_pdf
+            metadata, has_xml=(has_xml or has_html), has_pdf=has_pdf
         )
         rows.append(
             make_review_row(
@@ -54,6 +55,7 @@ def build_review_rows_from_corpus(
                 pollutant_terms=matched["pollutant_terms"],
                 health_terms=matched["health_terms"],
                 has_xml=has_xml,
+                has_html=has_html,
                 has_pdf=has_pdf,
                 query_name=query_name,
                 query_string=query_string,
@@ -82,9 +84,10 @@ def build_review_rows_from_pygetpapers(
         metadata = processor.normalize_metadata(raw)
         paper_id = f"europe_pmc_{folder.name}"
         has_xml = Path(folder, "fulltext.xml").is_file()
+        has_html = Path(folder, "fulltext.html").is_file()
         has_pdf = Path(folder, "fulltext.pdf").is_file()
         score, matched = score_paper_relevance(
-            metadata, has_xml=has_xml, has_pdf=has_pdf
+            metadata, has_xml=(has_xml or has_html), has_pdf=has_pdf
         )
         rows.append(
             make_review_row(
@@ -95,6 +98,7 @@ def build_review_rows_from_pygetpapers(
                 pollutant_terms=matched["pollutant_terms"],
                 health_terms=matched["health_terms"],
                 has_xml=has_xml,
+                has_html=has_html,
                 has_pdf=has_pdf,
                 query_name=query_name,
                 query_string=query_string,
@@ -192,7 +196,8 @@ def build_review_rows_from_search_results(
                 location_terms=matched["location_terms"],
                 pollutant_terms=matched["pollutant_terms"],
                 health_terms=matched["health_terms"],
-                has_xml=has_fulltext,
+                has_xml=has_xml,
+                has_html=has_html,
                 has_pdf=has_pdf,
                 query_name=query_name,
                 query_string=query_string,
@@ -217,7 +222,7 @@ def export_review_table_csv(rows: List[Dict[str, Any]], path: Path) -> Path:
         writer = csv.DictWriter(handle, fieldnames=list(REVIEW_TABLE_COLUMNS))
         writer.writeheader()
         for row in rows:
-            writer.writerow({k: row[k] for k in REVIEW_TABLE_COLUMNS})
+            writer.writerow({k: row.get(k, False if k.startswith("has_") else "") for k in REVIEW_TABLE_COLUMNS})
     return path
 
 
@@ -227,14 +232,14 @@ def export_review_table_markdown(rows: List[Dict[str, Any]], path: Path) -> Path
     lines = [
         "# Corpus review table",
         "",
-        "| review_status | score | title | paper_id | has_xml | has_pdf |",
-        "| --- | ---: | --- | --- | --- | --- |",
+        "| review_status | score | title | paper_id | has_xml | has_html | has_pdf |",
+        "| --- | ---: | --- | --- | --- | --- | --- |",
     ]
     for row in rows:
         title = (row["title"] or "").replace("|", "\\|")[:80]
         lines.append(
             f"| {row['review_status']} | {row['score']} | {title} | "
-            f"{row.get('paper_id') or row.get('pmcid', '')} | {row['has_xml']} | {row['has_pdf']} |"
+            f"{row.get('paper_id') or row.get('pmcid', '')} | {row.get('has_xml', False)} | {row.get('has_html', False)} | {row.get('has_pdf', False)} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
@@ -361,6 +366,7 @@ def export_review_table_html(
           <th>Authors</th>
           <th>Date</th>
           <th>XML</th>
+          <th>HTML</th>
           <th>PDF</th>
           <th>Read</th>
           <th>Abstract</th>
@@ -476,10 +482,11 @@ def export_review_table_html(
           <td>${{escapeHtml(row.authors)}}</td>
           <td>${{escapeHtml(row.publication_date)}}</td>
           <td>${{row.has_xml ? "yes" : "no"}}</td>
+          <td>${{row.has_html ? "yes" : "no"}}</td>
           <td>${{row.has_pdf ? "yes" : "no"}}</td>
           <td>
             <button type="button" class="btn-read" data-index="${{index}}"
-              ${{(row.has_pdf || row.has_xml || row.paper_id || row.pmcid) ? "" : "disabled"}} aria-label="Read full paper">
+              ${{(row.has_pdf || row.has_xml || row.has_html || row.paper_id || row.pmcid) ? "" : "disabled"}} aria-label="Read full paper">
               Read
             </button>
           </td>

@@ -60,6 +60,16 @@ def parse_args() -> argparse.Namespace:
         default="review_table",
         help="Basename for output files (default: review_table).",
     )
+    parser.add_argument(
+        "--convert-pdfs",
+        action="store_true",
+        help="Convert PDFs in query directory to HTML and XML using Docling before building table.",
+    )
+    parser.add_argument(
+        "--ocr",
+        action="store_true",
+        help="Enable OCR when converting PDFs with Docling.",
+    )
     return parser.parse_args()
 
 
@@ -86,6 +96,13 @@ def resolve_paths(args: argparse.Namespace):
 def main() -> None:
     args = parse_args()
     search_results, xml_dir, query_run, output_dir = resolve_paths(args)
+
+    if args.convert_pdfs:
+        from semantic_corpus.transformation import convert_query_directory_pdfs
+        query_dir = search_results.parent
+        print(f"Converting PDFs in {query_dir} to HTML and XML with Docling...")
+        converted = convert_query_directory_pdfs(query_dir, do_ocr=args.ocr)
+        print(f"Docling conversion complete ({len(converted)} papers processed).")
 
     context = load_query_context(query_run)
     rows = build_review_rows_from_search_results(

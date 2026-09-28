@@ -415,3 +415,76 @@ def ensure_corpus_formats(
         logger.debug("BAGIT manifest update skipped or failed: %s", exc)
 
     return result_summary
+
+
+def convert_query_directory_pdfs(
+    query_dir: Union[Path, str],
+    *,
+    generate_xml: bool = True,
+    generate_html: bool = True,
+    overwrite: bool = False,
+    do_ocr: bool = False,
+    continue_on_error: bool = True,
+    docling_converter: Optional[Any] = None,
+) -> Dict[str, Dict[str, Optional[Path]]]:
+    """Convert all PDF files directly under a query directory to HTML and/or XML using Docling.
+
+    Args:
+        query_dir: Directory containing search_results.json and *.pdf files.
+        generate_xml: If True (default), generate .xml (DocTags format) alongside .html.
+        generate_html: If True (default), generate .html file.
+        overwrite: If True, re-convert existing files.
+        do_ocr: If True, enable OCR for PDFs.
+        continue_on_error: If True, log errors and continue converting other papers.
+        docling_converter: Optional pre-initialized DocumentConverter.
+
+    Returns:
+        Dict mapping paper_id -> dict of generated paths ({"html": Path, "xml": Path}).
+    """
+    query_dir = Path(query_dir)
+    if not query_dir.is_dir():
+        raise CorpusError(f"Query directory not found: {query_dir}")
+
+    pdf_files = sorted(query_dir.glob("*.pdf"))
+    if not pdf_files:
+        return {}
+
+    converter = docling_converter or get_docling_converter(do_ocr=do_ocr)
+    converted: Dict[str, Dict[str, Optional[Path]]] = {}
+
+    for pdf_path in pdf_files:
+        paper_id = pdf_path.stem
+        html_path = query_dir / f"{paper_id}.html"
+        xml_path = query_dir / f"{paper_id}.xml"
+
+        needs_html = generate_html and (overwrite or not html_path.exists())
+        needs_xml = generate_xml and (overwrite or not xml_path.exists())
+
+        if not needs_html and not needs_xml:
+            converted[paper_id] = {
+                "html": html_path if html_path.exists() else None,
+                "xml": xml_path if xml_path.exists() else None,
+            }
+            continue
+
+        try:
+            convert_pdf_to_html(
+                pdf_path,
+                html_path,
+                xml_path=xml_path if generate_xml else None,
+                generate_xml=generate_xml,
+                do_ocr=do_ocr,
+                docling_converter=converter,
+            )
+            converted[paper_id] = {
+                "html": html_path if html_path.exists() else None,
+                "xml": xml_path if xml_path.exists() else None,
+            }
+        except Exception as exc:
+            if continue_on_error:
+                logger.error("Skipping PDF conversion for %s: %s", paper_id, exc)
+            else:
+                raise CorpusError(f"Failed converting {pdf_path}: {exc}") from exc
+
+    return converted
+

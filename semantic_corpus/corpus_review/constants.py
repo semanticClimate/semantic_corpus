@@ -75,6 +75,7 @@ REVIEW_TABLE_COLUMNS = (
     "journal",
     "authors",
     "has_xml",
+    "has_html",
     "has_pdf",
     "query_name",
     "query_string",

@@ -76,7 +76,8 @@ result = run_query_and_build_review_table(
     output_dir=Path("temp/queries/conicet_query"),
     repository="conicet",
     limit=10, #or as many as you wish
-    formats=["pdf"], #no xml available in CONICET. The HTML will be automatically generated
+    formats=["pdf"],
+    convert_pdfs=True, # Automatically converts downloaded PDFs to HTML and XML with Docling
 )
 ```
 
@@ -87,8 +88,10 @@ python my_first_query.py
 ```
 
 7)   
-- In order to generate the review_table.html: .\venv\Scripts\python.exe scripts/build_review_table.py --query-dir temp/queries/conicet_query
-- In order to start the server: .\venv\Scripts\python.exe scripts/review_viewer.py serve --review-table temp/queries/conicet_query/review/review_table.json --query-dir temp/queries/conicet_query 
+- In order to generate/update the review_table with HTML and XML:
+  `.\venv\Scripts\python.exe scripts/build_review_table.py --query-dir temp/queries/conicet_query --convert-pdfs`
+- In order to start the server:
+  `.\venv\Scripts\python.exe scripts/review_viewer.py serve --review-table temp/queries/conicet_query/review/review_table.json --query-dir temp/queries/conicet_query`
 
 Either the website is automatically loaded or you run http://localhost:8765/review_table.html
 

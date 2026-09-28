@@ -83,6 +83,8 @@ def run_query_and_build_review_table(
     repository: str = "europe_pmc",
     limit: int = 25,
     formats: List[str] = None,
+    convert_pdfs: bool = False,
+    do_ocr: bool = False,
     notes: str = "",
     revision_of: str = None,
 ) -> Dict[str, Any]:
@@ -98,6 +100,8 @@ def run_query_and_build_review_table(
         repository: Repository key (default europe_pmc).
         limit: Maximum papers to retrieve.
         formats: Download formats (default xml).
+        convert_pdfs: If True, convert downloaded PDFs to HTML and XML with Docling.
+        do_ocr: If True, enable OCR when converting PDFs.
         notes: Optional free-text notes stored in query_run.json.
         revision_of: Optional prior query_name when refining a query.
 
@@ -115,6 +119,10 @@ def run_query_and_build_review_table(
         output_dir=output_dir,
         formats=formats,
     )
+
+    if convert_pdfs:
+        from semantic_corpus.transformation import convert_query_directory_pdfs
+        convert_query_directory_pdfs(output_dir, do_ocr=do_ocr)
 
     results_path = Path(output_dir, "search_results.json")
     with open(results_path, "w", encoding="utf-8") as handle:
@@ -143,7 +151,8 @@ def run_query_and_build_review_table(
     review_paths = export_review_tables(rows, Path(output_dir, "review"))
 
     high_score_count = sum(1 for row in rows if int(row["score"]) >= 5)
-    xml_count = sum(1 for row in rows if row["has_xml"])
+    xml_count = sum(1 for row in rows if row.get("has_xml"))
+    html_count = sum(1 for row in rows if row.get("has_html"))
 
     return {
         "query_name": query_name,
@@ -153,6 +162,7 @@ def run_query_and_build_review_table(
         "row_count": len(rows),
         "high_score_count": high_score_count,
         "xml_count": xml_count,
+        "html_count": html_count,
         "output_dir": str(output_dir),
         "search_results_path": str(results_path),
         "query_run_path": str(query_run_path),
