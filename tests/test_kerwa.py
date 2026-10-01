@@ -1,10 +1,8 @@
-import json
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.repositories._ids import (
     handle_from_kerwa_url,
@@ -101,13 +99,21 @@ class TestKerwaRepository(unittest.TestCase):
         url = "https://www.kerwa.ucr.ac.cr/handle/10669/12345"
         meta = repo._extract_metadata(html, url)
         self.assertEqual(meta["paper_id"], "kerwa_10669_12345")
-        self.assertEqual(meta["title"], "Uso de plaguicidas en agricultura costarricense")
+        self.assertEqual(
+            meta["title"], "Uso de plaguicidas en agricultura costarricense"
+        )
         self.assertEqual(meta["authors"], ["Mora, Ana", "Vargas, Luis"])
-        self.assertEqual(meta["abstract"], "Analisis del uso y regulacion de agroquimicos en Costa Rica.")
+        self.assertEqual(
+            meta["abstract"],
+            "Analisis del uso y regulacion de agroquimicos en Costa Rica.",
+        )
         self.assertEqual(meta["publication_date"], "2022")
         self.assertEqual(meta["journal"], "Tesis de Maestria - UCR")
         self.assertEqual(meta["doi"], "10.15517/kerwa.2022.01")
-        self.assertEqual(meta["pdf_url"], "https://www.kerwa.ucr.ac.cr/bitstream/handle/10669/12345/tesis.pdf")
+        self.assertEqual(
+            meta["pdf_url"],
+            "https://www.kerwa.ucr.ac.cr/bitstream/handle/10669/12345/tesis.pdf",
+        )
         self.assertEqual(meta["source_repository"], "kerwa")
 
     def test_search_papers(self) -> None:
@@ -128,7 +134,11 @@ class TestKerwaRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, text: str, url: str = "https://www.kerwa.ucr.ac.cr/handle/10669/12345"):
+            def __init__(
+                self,
+                text: str,
+                url: str = "https://www.kerwa.ucr.ac.cr/handle/10669/12345",
+            ):
                 self.text = text
                 self.url = url
 
@@ -155,7 +165,9 @@ class TestKerwaRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None):
+            def __init__(
+                self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None
+            ):
                 self.content = content
                 self.text = text
                 self.url = "https://www.kerwa.ucr.ac.cr/handle/10669/12345"

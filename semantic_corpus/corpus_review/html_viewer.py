@@ -1,14 +1,11 @@
 """HTML review viewer for interactive corpus paper selection."""
 
-import html
 import json
 from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, List
 
 from semantic_corpus.corpus_review.constants import (
-    REVIEW_STATUS_EXCLUDE,
-    REVIEW_STATUS_INCLUDE,
     REVIEW_STATUS_REVIEW,
     REVIEW_TABLE_COLUMNS,
 )
@@ -24,7 +21,9 @@ def build_filter_summary(
 ) -> Dict[str, Any]:
     """Summarise how many papers match filters and score thresholds."""
     total = len(rows)
-    score_distribution = dict(sorted(Counter(int(r.get("score") or 0) for r in rows).items()))
+    score_distribution = dict(
+        sorted(Counter(int(r.get("score") or 0) for r in rows).items())
+    )
     status_counts = Counter(r.get("review_status", REVIEW_STATUS_REVIEW) for r in rows)
 
     messages: List[str] = [f"{total} papers in review table"]

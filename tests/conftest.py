@@ -1,9 +1,10 @@
 """Pytest configuration and fixtures for semantic_corpus tests."""
 
-import pytest
 import tempfile
 from pathlib import Path
 from typing import Generator
+
+import pytest
 
 
 @pytest.fixture
@@ -12,7 +13,7 @@ def temp_dir() -> Generator[Path, None, None]:
     # Use project corpora directory for all test files and directories
     project_corpora = Path(Path(__file__).parent.parent, "corpora")
     project_corpora.mkdir(parents=True, exist_ok=True)
-    
+
     with tempfile.TemporaryDirectory(dir=project_corpora) as tmp_dir:
         yield Path(tmp_dir)
 

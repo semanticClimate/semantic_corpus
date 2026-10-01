@@ -49,6 +49,8 @@ dev = [
     "isort>=5.10.0",
     "flake8>=4.0.0",
     "mypy>=0.950",
+    "ruff>=0.4.0",
+    "pre-commit>=3.0.0",
 ]
 test = [
     "pytest>=7.0.0",
@@ -134,3 +136,44 @@ module = [
     "configargparse.*",
 ]
 ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py38"
+line-length = 88
+exclude = [
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".tox",
+    ".venv",
+    "venv",
+    "build",
+    "dist",
+    "corpora",
+    "temp",
+    "agrochemicals",
+    "notebooks",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+]
+ignore = [
+    "E501",  # line length handled by formatter
+    "B008",  # do not perform function calls in argument defaults
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["semantic_corpus"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

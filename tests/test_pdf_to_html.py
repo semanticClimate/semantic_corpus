@@ -2,6 +2,7 @@
 
 from pathlib import Path
 from unittest.mock import MagicMock, patch
+
 import pytest
 
 from semantic_corpus.core.exceptions import CorpusError
@@ -11,7 +12,6 @@ from semantic_corpus.transformation.pdf_to_html import (
     convert_pdf_to_xml,
     convert_query_directory_pdfs,
     ensure_corpus_formats,
-    get_docling_converter,
 )
 
 
@@ -137,14 +137,14 @@ def test_ensure_corpus_formats_both_origins(tmp_path):
     sample_xml = (
         '<?xml version="1.0" encoding="utf-8"?>\n'
         '<article article-type="research-article">\n'
-        '  <front>\n'
-        '    <article-meta>\n'
-        '      <title-group><article-title>XML Paper</article-title></title-group>\n'
-        '      <abstract><p>Abstract text.</p></abstract>\n'
-        '    </article-meta>\n'
-        '  </front>\n'
-        '  <body><p>Body paragraph.</p></body>\n'
-        '</article>'
+        "  <front>\n"
+        "    <article-meta>\n"
+        "      <title-group><article-title>XML Paper</article-title></title-group>\n"
+        "      <abstract><p>Abstract text.</p></abstract>\n"
+        "    </article-meta>\n"
+        "  </front>\n"
+        "  <body><p>Body paragraph.</p></body>\n"
+        "</article>"
     )
     (xml_dir / "xml_paper.xml").write_text(sample_xml, encoding="utf-8")
 
@@ -193,4 +193,3 @@ def test_convert_query_directory_pdfs(tmp_path: Path):
     assert (query_dir / "conicet_1.xml").exists()
     assert (query_dir / "conicet_2.html").exists()
     assert (query_dir / "conicet_2.xml").exists()
-

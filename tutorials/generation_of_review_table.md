@@ -444,8 +444,12 @@ second_batch_dir = base_dir / "batch_2" / "review"
 combined_dir = base_dir / "review"
 combined_dir.mkdir(parents=True, exist_ok=True)
 
-first_rows = json.loads((first_batch_dir / "review_table.json").read_text(encoding="utf-8"))
-second_rows = json.loads((second_batch_dir / "review_table.json").read_text(encoding="utf-8"))
+first_rows = json.loads(
+    (first_batch_dir / "review_table.json").read_text(encoding="utf-8")
+)
+second_rows = json.loads(
+    (second_batch_dir / "review_table.json").read_text(encoding="utf-8")
+)
 
 combined_rows = first_rows + second_rows
 combined_rows = sorted(

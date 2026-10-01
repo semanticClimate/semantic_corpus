@@ -175,7 +175,9 @@ Filter included papers programmatically:
 import json
 from pathlib import Path
 
-rows = json.loads(Path("temp/queries/climate_anxiety_2026/review/review_table.json").read_text())
+rows = json.loads(
+    Path("temp/queries/climate_anxiety_2026/review/review_table.json").read_text()
+)
 included = [r for r in rows if r["review_status"] == "include"]
 print(len(included), "papers to ingest")
 ```

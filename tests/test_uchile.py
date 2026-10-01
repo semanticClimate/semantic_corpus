@@ -1,10 +1,8 @@
-import json
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.repositories._ids import (
     handle_from_uchile_url,
@@ -30,7 +28,9 @@ class TestUchileRepository(unittest.TestCase):
 
         # Handle with underscore
         raw_handle_underscore = "2250_110429"
-        self.assertEqual(id_from_uchile_url(raw_handle_underscore), "uchile_2250_110429")
+        self.assertEqual(
+            id_from_uchile_url(raw_handle_underscore), "uchile_2250_110429"
+        )
 
         # Prefixed ID
         prefixed_id = "uchile_2250_110429"
@@ -98,11 +98,17 @@ class TestUchileRepository(unittest.TestCase):
         self.assertEqual(meta["paper_id"], "uchile_2250_110429")
         self.assertEqual(meta["title"], "Efecto del glifosato en suelos agricolas")
         self.assertEqual(meta["authors"], ["González, Carlos", "Silva, María"])
-        self.assertEqual(meta["abstract"], "Evaluación de la persistencia de herbicidas en Chile central.")
+        self.assertEqual(
+            meta["abstract"],
+            "Evaluación de la persistencia de herbicidas en Chile central.",
+        )
         self.assertEqual(meta["publication_date"], "2021")
         self.assertEqual(meta["journal"], "Tesis de Magíster - Universidad de Chile")
         self.assertEqual(meta["doi"], "10.5354/uchile.2021.01")
-        self.assertEqual(meta["pdf_url"], "https://repositorio.uchile.cl/bitstream/handle/2250/110429/tesis.pdf")
+        self.assertEqual(
+            meta["pdf_url"],
+            "https://repositorio.uchile.cl/bitstream/handle/2250/110429/tesis.pdf",
+        )
         self.assertEqual(meta["source_repository"], "uchile")
 
     def test_search_papers(self) -> None:
@@ -123,7 +129,11 @@ class TestUchileRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, text: str, url: str = "https://repositorio.uchile.cl/handle/2250/110429"):
+            def __init__(
+                self,
+                text: str,
+                url: str = "https://repositorio.uchile.cl/handle/2250/110429",
+            ):
                 self.text = text
                 self.url = url
 
@@ -150,7 +160,9 @@ class TestUchileRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None):
+            def __init__(
+                self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None
+            ):
                 self.content = content
                 self.text = text
                 self.url = "https://repositorio.uchile.cl/handle/2250/110429"

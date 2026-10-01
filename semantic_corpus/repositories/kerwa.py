@@ -46,9 +46,11 @@ class KerwaRepository(RepositoryInterface):
         links: List[str] = []
         for anchor in soup.select('a[href*="/handle/"]'):
             href = anchor.get("href", "")
-            if not href or any(p in href for p in ["/browse", "/community-list", "/home"]):
+            if not href or any(
+                p in href for p in ["/browse", "/community-list", "/home"]
+            ):
                 continue
-            match = re.search(r'/handle/(\d+(?:\.\d+)?)/(\d+)', href)
+            match = re.search(r"/handle/(\d+(?:\.\d+)?)/(\d+)", href)
             if match:
                 full_url = f"{self.base_url}/handle/{match.group(1)}/{match.group(2)}"
                 if full_url not in links:
@@ -64,7 +66,9 @@ class KerwaRepository(RepositoryInterface):
             el = soup.select_one(f'meta[name="{name}"]')
             return el.get("content", "").strip() if el else ""
 
-        title = meta("citation_title") or (soup.title.get_text(strip=True) if soup.title else "")
+        title = meta("citation_title") or (
+            soup.title.get_text(strip=True) if soup.title else ""
+        )
         authors = [
             el.get("content", "").strip()
             for el in soup.select('meta[name="citation_author"]')
@@ -92,9 +96,12 @@ class KerwaRepository(RepositoryInterface):
             "title": title,
             "abstract": abstract,
             "authors": authors,
-            "journal": meta("citation_journal_title") or meta("citation_publisher") or "Universidad de Costa Rica",
+            "journal": meta("citation_journal_title")
+            or meta("citation_publisher")
+            or "Universidad de Costa Rica",
             "doi": meta("citation_doi"),
-            "publication_date": meta("citation_publication_date") or meta("citation_date"),
+            "publication_date": meta("citation_publication_date")
+            or meta("citation_date"),
             "pdf_url": pdf_url,
             "source_repository": "kerwa",
         }
@@ -109,7 +116,7 @@ class KerwaRepository(RepositoryInterface):
     ) -> List[Dict[str, Any]]:
         """Looks for documents in Repositorio Kérwá and extracts metadata"""
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
         params = {"query": clean_query, "rpp": min(limit, 20)}
         for key, value in kwargs.items():
             if key not in params:

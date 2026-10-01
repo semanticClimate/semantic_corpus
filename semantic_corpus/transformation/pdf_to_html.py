@@ -54,7 +54,9 @@ def get_docling_converter(*, do_ocr: bool = False) -> Any:
         _CONVERTER_CACHE[do_ocr] = converter
         return converter
     except Exception as exc:
-        raise CorpusError(f"Failed to initialize Docling DocumentConverter: {exc}") from exc
+        raise CorpusError(
+            f"Failed to initialize Docling DocumentConverter: {exc}"
+        ) from exc
 
 
 def convert_pdf_to_html(
@@ -277,6 +279,7 @@ def convert_corpus_pdf_to_html(
     # Update BAGIT manifest if BAGIT bag exists
     try:
         from semantic_corpus.storage.bagit_manager import BagitManager
+
         bm = BagitManager(corpus_dir)
         if bm.validate_bag():
             bm.update_manifest()
@@ -358,7 +361,9 @@ def ensure_corpus_formats(
                 xml_path = xml_dir / f"{paper_id}.xml"
 
                 needs_html = overwrite or not html_path.exists()
-                needs_xml = generate_xml_from_pdf and (overwrite or not xml_path.exists())
+                needs_xml = generate_xml_from_pdf and (
+                    overwrite or not xml_path.exists()
+                )
 
                 if not needs_html and not needs_xml:
                     continue
@@ -408,6 +413,7 @@ def ensure_corpus_formats(
     # Step 4: Update BAGIT manifest if BAGIT bag exists
     try:
         from semantic_corpus.storage.bagit_manager import BagitManager
+
         bm = BagitManager(corpus_dir)
         if bm.validate_bag():
             bm.update_manifest()
@@ -487,4 +493,3 @@ def convert_query_directory_pdfs(
                 raise CorpusError(f"Failed converting {pdf_path}: {exc}") from exc
 
     return converted
-

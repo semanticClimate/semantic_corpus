@@ -78,7 +78,9 @@ from semantic_corpus.corpus_review.interactive_review import (
 )
 
 config = ReviewSessionConfig(
-    review_table_path=Path("temp/queries/climate_anxiety_2026/review/review_table.json"),
+    review_table_path=Path(
+        "temp/queries/climate_anxiety_2026/review/review_table.json"
+    ),
     query_dir=Path("temp/queries/climate_anxiety_2026"),
     min_score=1,
     topic_filter="health",

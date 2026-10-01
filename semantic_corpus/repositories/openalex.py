@@ -148,7 +148,9 @@ class OpenAlexRepository(RepositoryInterface):
             work = self._fetch_work(paper_id)
             return self._paper_to_result(work)
         except requests.RequestException as exc:
-            raise RepositoryError(f"Failed to get metadata for {paper_id}: {exc}") from exc
+            raise RepositoryError(
+                f"Failed to get metadata for {paper_id}: {exc}"
+            ) from exc
 
     def download_paper(
         self,

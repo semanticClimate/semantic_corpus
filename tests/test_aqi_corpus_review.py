@@ -1,8 +1,9 @@
 """Tests for AQI India corpus review workflow."""
 
 import json
-import pytest
 from pathlib import Path
+
+import pytest
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
@@ -51,7 +52,9 @@ def pygetpapers_wildlife_dir() -> Path:
 
 @pytest.fixture
 def pilot_config_path() -> Path:
-    path = Path(Path(__file__).resolve().parent.parent, "config", "aqi_india_pilot.yaml")
+    path = Path(
+        Path(__file__).resolve().parent.parent, "config", "aqi_india_pilot.yaml"
+    )
     assert path.is_file(), f"Pilot config missing: {path}"
     return path
 
@@ -81,7 +84,9 @@ class TestRelevanceScorer:
         }
         score, matched = score_paper_relevance(metadata, has_xml=True)
         assert score >= 5, f"Expected high relevance score, got {score}"
-        assert "india" in matched["location_terms"] or "delhi" in matched["location_terms"]
+        assert (
+            "india" in matched["location_terms"] or "delhi" in matched["location_terms"]
+        )
         assert matched["pollutant_terms"], "Expected pollutant term matches"
 
     def test_low_score_without_india(self) -> None:
@@ -254,7 +259,10 @@ class TestRunQueryAndBuildReviewTable:
 
         rows = [{"score": 5, "title": "Test"}]
         mock_df = MagicMock()
-        with patch.dict("sys.modules", {"pandas": MagicMock(DataFrame=MagicMock(return_value=mock_df))}):
+        with patch.dict(
+            "sys.modules",
+            {"pandas": MagicMock(DataFrame=MagicMock(return_value=mock_df))},
+        ):
             df = review_rows_to_dataframe(rows)
         assert df is mock_df
 

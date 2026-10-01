@@ -54,7 +54,9 @@ class TestHtmlReviewTableExport:
     def test_css_not_overwritten_if_user_edited(self, tmp_path: Path) -> None:
         export_review_tables([_sample_row()], tmp_path)
         css_path = tmp_path / "review_table.css"
-        css_path.write_text("/* user theme */ body { background: pink; }", encoding="utf-8")
+        css_path.write_text(
+            "/* user theme */ body { background: pink; }", encoding="utf-8"
+        )
         export_review_tables([_sample_row(review_status="include")], tmp_path)
         assert "pink" in css_path.read_text(encoding="utf-8")
 

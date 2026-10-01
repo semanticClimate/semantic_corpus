@@ -1,7 +1,7 @@
 """RI CONICET repository implementation (DSpace HTML scraping)."""
 
-#RateLimitedSession is in charge of making safe HTTP requests and pauses
-#BeautifulSoup extracts links and tags such as <meta>
+# RateLimitedSession is in charge of making safe HTTP requests and pauses
+# BeautifulSoup extracts links and tags such as <meta>
 
 import json
 from pathlib import Path
@@ -47,7 +47,9 @@ class ConicetRepository(RepositoryInterface):
             el = soup.select_one(f'meta[name="{name}"]')
             return el.get("content", "").strip() if el else ""
 
-        title = meta("citation_title") or (soup.title.get_text(strip=True) if soup.title else "")
+        title = meta("citation_title") or (
+            soup.title.get_text(strip=True) if soup.title else ""
+        )
         authors = [
             el.get("content", "").strip()
             for el in soup.select('meta[name="citation_author"]')
@@ -66,22 +68,23 @@ class ConicetRepository(RepositoryInterface):
             "authors": authors,
             "journal": meta("citation_journal_title") or meta("citation_publisher"),
             "doi": meta("citation_doi"),
-            "publication_date": meta("citation_publication_date") or meta("citation_date"),
+            "publication_date": meta("citation_publication_date")
+            or meta("citation_date"),
             "pdf_url": pdf_url,
             "source_repository": "conicet",
         }
 
     def search_papers(
-            self,
-            query: str,
-            limit: int = 10,
-            start_date: Optional[str] = None,
-            end_date: Optional[str] = None,
-            **kwargs: Any,
+        self,
+        query: str,
+        limit: int = 10,
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None,
+        **kwargs: Any,
     ) -> List[Dict[str, Any]]:
         """Looks for docuemnts in RI CONICET and extracts metadata"""
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
         params = {"query": clean_query, "rpp": min(limit, 20)}
         response = self.http.get(self.search_url, params=params)
         if not response:
@@ -109,14 +112,16 @@ class ConicetRepository(RepositoryInterface):
 
         response = self.http.get(url)
         if not response:
-            raise RepositoryError(f"Could not find the document in the CONICET repository, id: {paper_id}")
+            raise RepositoryError(
+                f"Could not find the document in the CONICET repository, id: {paper_id}"
+            )
         return self._extract_metadata(response.text, response.url)
 
     def download_paper(
-            self,
-            paper_id: str,
-            output_dir: Path,
-            formats: List[str] = None,
+        self,
+        paper_id: str,
+        output_dir: Path,
+        formats: List[str] = None,
     ) -> Dict[str, Any]:
         """Downloads PDF and stores metadata as JSON"""
         if formats is None:
@@ -129,14 +134,18 @@ class ConicetRepository(RepositoryInterface):
 
         # 1. Stores metadata.json
         meta_path = output_dir / f"{safe_id}_metadata.json"
-        meta_path.write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
+        meta_path.write_text(
+            json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
         downloaded_files.append(str(meta_path))
 
         # 2. Downloads PDF, if available
         if "pdf" in formats and metadata.get("pdf_url"):
             pdf_resp = self.http.get(metadata["pdf_url"])
             if pdf_resp and (
-                    pdf_resp.content.startswith(b"%PDF") or "pdf" in pdf_resp.headers.get("content-type", "").lower()):
+                pdf_resp.content.startswith(b"%PDF")
+                or "pdf" in pdf_resp.headers.get("content-type", "").lower()
+            ):
                 pdf_path = output_dir / f"{safe_id}.pdf"
                 pdf_path.write_bytes(pdf_resp.content)
                 downloaded_files.append(str(pdf_path))

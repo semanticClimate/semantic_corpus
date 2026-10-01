@@ -90,13 +90,27 @@ class TestUspRepository(unittest.TestCase):
         url = "https://repositorio.usp.br/item/002305632"
         meta = repo._extract_metadata(html, url)
         self.assertEqual(meta["paper_id"], "usp_002305632")
-        self.assertEqual(meta["title"], "Comportamento dos herbicidas ametrina e glifosato")
-        self.assertEqual(meta["authors"], ["Alves, Paulo Alexandre de Toledo", "Tornisielo, Valdemar Luiz"])
-        self.assertEqual(meta["abstract"], "Avaliou-se a degradacao dos herbicidas em solo canavieiro.")
+        self.assertEqual(
+            meta["title"], "Comportamento dos herbicidas ametrina e glifosato"
+        )
+        self.assertEqual(
+            meta["authors"],
+            ["Alves, Paulo Alexandre de Toledo", "Tornisielo, Valdemar Luiz"],
+        )
+        self.assertEqual(
+            meta["abstract"],
+            "Avaliou-se a degradacao dos herbicidas em solo canavieiro.",
+        )
         self.assertEqual(meta["publication_date"], "2012")
-        self.assertEqual(meta["journal"], "Tese (Doutorado) - Centro de Energia Nuclear na Agricultura")
+        self.assertEqual(
+            meta["journal"],
+            "Tese (Doutorado) - Centro de Energia Nuclear na Agricultura",
+        )
         self.assertEqual(meta["doi"], "10.11606/D.64.2012.tde-25092012-171444")
-        self.assertEqual(meta["pdf_url"], "http://www.teses.usp.br/teses/disponiveis/64/64135/publico/tese.pdf")
+        self.assertEqual(
+            meta["pdf_url"],
+            "http://www.teses.usp.br/teses/disponiveis/64/64135/publico/tese.pdf",
+        )
         self.assertEqual(meta["source_repository"], "usp")
         self.assertEqual(meta["faculty"], "CENA")
 
@@ -125,9 +139,13 @@ class TestUspRepository(unittest.TestCase):
         self.assertEqual(meta["paper_id"], "usp_001999999")
         self.assertEqual(meta["title"], "Estudo de impacto ambiental")
         self.assertEqual(meta["authors"], ["Silva, Maria"])
-        self.assertEqual(meta["abstract"], "Resumo sobre impacto no ecossistema paulista.")
+        self.assertEqual(
+            meta["abstract"], "Resumo sobre impacto no ecossistema paulista."
+        )
         self.assertEqual(meta["doi"], "10.11606/artigo.2020.100")
-        self.assertEqual(meta["pdf_url"], "https://repositorio.usp.br/download/artigo.pdf")
+        self.assertEqual(
+            meta["pdf_url"], "https://repositorio.usp.br/download/artigo.pdf"
+        )
 
     def test_search_papers(self) -> None:
         repo = UspRepository()

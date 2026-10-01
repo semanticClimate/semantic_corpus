@@ -15,7 +15,6 @@ logger = logging.getLogger(__name__)
 
 
 class UbaRepository(RepositoryInterface):
-
     SOURCES = {
         "exactas": {
             "name": "Exactas (FCEN)",
@@ -40,7 +39,15 @@ class UbaRepository(RepositoryInterface):
     def _extract_article_links(self, html: str, source_key: str) -> List[str]:
         soup = BeautifulSoup(html, "html.parser")
         links: List[str] = []
-        excluded_patterns = ["/browse", "toc", "c=revistas", "a=p", "a=g", "pref.action", "search"]
+        excluded_patterns = [
+            "/browse",
+            "toc",
+            "c=revistas",
+            "a=p",
+            "a=g",
+            "pref.action",
+            "search",
+        ]
         source_info = self.SOURCES.get(source_key, self.SOURCES["exactas"])
         link_base = source_info["link_base"]
 
@@ -67,12 +74,16 @@ class UbaRepository(RepositoryInterface):
                 return False
 
         title = metadata.get("title", "").lower()
-        if (title.startswith("revista ") or "número completo" in title) and not metadata.get("authors"):
+        if (
+            title.startswith("revista ") or "número completo" in title
+        ) and not metadata.get("authors"):
             return False
 
         return bool(metadata.get("title"))
 
-    def _extract_metadata(self, html: str, article_url: str, source_key: Optional[str] = None) -> Dict[str, Any]:
+    def _extract_metadata(
+        self, html: str, article_url: str, source_key: Optional[str] = None
+    ) -> Dict[str, Any]:
         soup = BeautifulSoup(html, "html.parser")
         paper_id = id_from_uba_url(article_url)
 
@@ -112,11 +123,7 @@ class UbaRepository(RepositoryInterface):
         authors = list(dict.fromkeys(raw_authors))
 
         # Abstract
-        abstract = (
-            meta("citation_abstract")
-            or meta("abstract")
-            or meta("description")
-        )
+        abstract = meta("citation_abstract") or meta("abstract") or meta("description")
 
         pdf_url = meta("citation_pdf_url")
         if not pdf_url:
@@ -124,13 +131,20 @@ class UbaRepository(RepositoryInterface):
             if dc_id and ".pdf" in dc_id.lower():
                 pdf_url = dc_id
         if not pdf_url:
-            pdf_anchor = soup.select_one('a[href*=".pdf"]') or soup.select_one('a[href*="/download/"]')
+            pdf_anchor = soup.select_one('a[href*=".pdf"]') or soup.select_one(
+                'a[href*="/download/"]'
+            )
             if pdf_anchor:
                 pdf_url = urljoin(base_url, pdf_anchor.get("href", ""))
         elif not pdf_url.startswith("http"):
             pdf_url = urljoin(base_url, pdf_url)
 
-        if not pdf_url and source_key == "exactas" and "/collection/" in article_url and "/document/" in article_url:
+        if (
+            not pdf_url
+            and source_key == "exactas"
+            and "/collection/" in article_url
+            and "/document/" in article_url
+        ):
             parts = article_url.split("/collection/")[-1].split("/document/")
             if len(parts) == 2:
                 coll, doc = parts[0], parts[1]
@@ -169,7 +183,9 @@ class UbaRepository(RepositoryInterface):
             "faculty": source_info["name"],
         }
 
-    def _search_source(self, source_key: str, clean_query: str, limit: int) -> List[Dict[str, Any]]:
+    def _search_source(
+        self, source_key: str, clean_query: str, limit: int
+    ) -> List[Dict[str, Any]]:
         source_info = self.SOURCES[source_key]
         params = {
             "qs": "1",
@@ -216,7 +232,7 @@ class UbaRepository(RepositoryInterface):
         **kwargs: Any,
     ) -> List[Dict[str, Any]]:
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
 
         faculty_filter = kwargs.get("faculty") or kwargs.get("source")
         if faculty_filter:
@@ -235,18 +251,23 @@ class UbaRepository(RepositoryInterface):
         if len(exactas_results) < exactas_limit and len(fauba_results) == fauba_limit:
             extra = limit - len(exactas_results) - len(fauba_results)
             if extra > 0:
-                more_fauba = self._search_source("fauba", clean_query, fauba_limit + extra)
+                more_fauba = self._search_source(
+                    "fauba", clean_query, fauba_limit + extra
+                )
                 fauba_results = more_fauba
         elif len(fauba_results) < fauba_limit and len(exactas_results) == exactas_limit:
             extra = limit - len(exactas_results) - len(fauba_results)
             if extra > 0:
-                more_exactas = self._search_source("exactas", clean_query, exactas_limit + extra)
+                more_exactas = self._search_source(
+                    "exactas", clean_query, exactas_limit + extra
+                )
                 exactas_results = more_exactas
-
 
         combined: List[Dict[str, Any]] = []
         i, j = 0, 0
-        while len(combined) < limit and (i < len(exactas_results) or j < len(fauba_results)):
+        while len(combined) < limit and (
+            i < len(exactas_results) or j < len(fauba_results)
+        ):
             if i < len(exactas_results):
                 combined.append(exactas_results[i])
                 i += 1
@@ -284,7 +305,9 @@ class UbaRepository(RepositoryInterface):
 
         response = self.http.get(url)
         if not response:
-            raise RepositoryError(f"No se pudo encontrar el documento en el repositorio UBA, id: {paper_id}")
+            raise RepositoryError(
+                f"No se pudo encontrar el documento en el repositorio UBA, id: {paper_id}"
+            )
         return self._extract_metadata(response.text, response.url, source_key)
 
     def download_paper(
@@ -304,7 +327,9 @@ class UbaRepository(RepositoryInterface):
 
         # save metadata.json
         meta_path = output_dir / f"{safe_id}_metadata.json"
-        meta_path.write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8")
+        meta_path.write_text(
+            json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
         downloaded_files.append(str(meta_path))
 
         # PDF download - if available
@@ -319,7 +344,9 @@ class UbaRepository(RepositoryInterface):
                     pdf_path.write_bytes(pdf_resp.content)
                     downloaded_files.append(str(pdf_path))
                 else:
-                    logger.info(f"PDF no accesible públicamente para {paper_id} ({metadata.get('pdf_url')})")
+                    logger.info(
+                        f"PDF no accesible públicamente para {paper_id} ({metadata.get('pdf_url')})"
+                    )
             except Exception as e:
                 logger.warning(f"No se pudo descargar el PDF de {paper_id}: {e}")
 

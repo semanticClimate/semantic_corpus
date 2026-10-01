@@ -3,7 +3,7 @@
 import json
 import shutil
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, List
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
@@ -59,7 +59,11 @@ def ingest_query_output_directory(
     if not corpus.use_bagit:
         raise CorpusError("Query ingestion requires BAGIT corpus (use_bagit=True)")
 
-    results_path = Path(search_results_path) if search_results_path else Path(query_dir, "search_results.json")
+    results_path = (
+        Path(search_results_path)
+        if search_results_path
+        else Path(query_dir, "search_results.json")
+    )
     if not results_path.is_file():
         raise CorpusError(f"search_results.json not found: {results_path}")
 

@@ -1,10 +1,8 @@
-import json
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.repositories._ids import (
     handle_from_unam_url,
@@ -101,7 +99,10 @@ class TestUnamRepository(unittest.TestCase):
         self.assertEqual(meta["paper_id"], "unam_45182")
         self.assertEqual(meta["title"], "CLIMA ESCOLAR Y CLIMA FAMILIAR")
         self.assertEqual(meta["authors"], ["López Pérez, Mistli Guillermina"])
-        self.assertEqual(meta["abstract"], "Este estudio tuvo como objetivos conocer el efecto de genero...")
+        self.assertEqual(
+            meta["abstract"],
+            "Este estudio tuvo como objetivos conocer el efecto de genero...",
+        )
         self.assertEqual(meta["publication_date"], "2016-12-07")
         self.assertEqual(meta["journal"], "Revista Electrónica de Psicología Iztacala")
         self.assertEqual(meta["doi"], "10.1234/unam.2016.01")
@@ -126,7 +127,11 @@ class TestUnamRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, text: str, url: str = "https://repositorio.unam.mx/contenidos/45182"):
+            def __init__(
+                self,
+                text: str,
+                url: str = "https://repositorio.unam.mx/contenidos/45182",
+            ):
                 self.text = text
                 self.url = url
 
@@ -153,7 +158,9 @@ class TestUnamRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None):
+            def __init__(
+                self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None
+            ):
                 self.content = content
                 self.text = text
                 self.url = "https://repositorio.unam.mx/contenidos/45182"

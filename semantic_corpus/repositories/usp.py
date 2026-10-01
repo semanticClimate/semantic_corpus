@@ -45,7 +45,9 @@ class UspRepository(RepositoryInterface):
         links: List[str] = []
 
         # Find anchors pointing to item/<id>
-        for anchor in soup.select('article a[href*="item/"], a.uk-link-reset[href*="item/"], a[href*="/item/"]'):
+        for anchor in soup.select(
+            'article a[href*="item/"], a.uk-link-reset[href*="item/"], a[href*="/item/"]'
+        ):
             href = anchor.get("href", "").strip()
             if not href:
                 continue
@@ -78,11 +80,7 @@ class UspRepository(RepositoryInterface):
             return el.get("content", "").strip() if el else ""
 
         # Title
-        title = (
-            meta("citation_title")
-            or meta("title")
-            or meta("DC.title")
-        )
+        title = meta("citation_title") or meta("title") or meta("DC.title")
         if not title:
             title_el = soup.select_one("p.uk-text-lead, .title-link a, h1, h2")
             if title_el:
@@ -103,20 +101,20 @@ class UspRepository(RepositoryInterface):
             if el.get("content") and el.get("content").strip()
         ]
         if not raw_authors:
-            for a in soup.select('p.uk-article-meta a.link, a[href*="author.person.name"]'):
+            for a in soup.select(
+                'p.uk-article-meta a.link, a[href*="author.person.name"]'
+            ):
                 name = a.get_text(strip=True)
                 if name and name not in raw_authors:
                     raw_authors.append(name)
         authors = list(dict.fromkeys(raw_authors))
 
         # Abstract
-        abstract = (
-            meta("citation_abstract")
-            or meta("abstract")
-            or meta("description")
-        )
+        abstract = meta("citation_abstract") or meta("abstract") or meta("description")
         if not abstract:
-            for el in soup.select(".resumo, .abstract, div[class*='abstract'], div[class*='resumo']"):
+            for el in soup.select(
+                ".resumo, .abstract, div[class*='abstract'], div[class*='resumo']"
+            ):
                 txt = el.get_text(strip=True)
                 if txt:
                     abstract = txt
@@ -189,12 +187,14 @@ class UspRepository(RepositoryInterface):
     ) -> List[Dict[str, Any]]:
         """Search papers in the USP repository and extract metadata."""
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
 
         params: Dict[str, Any] = {"search[]": clean_query}
 
         # Handle optional filters (unit/faculty, source/base)
-        faculty_filter = kwargs.get("faculty") or kwargs.get("unidade") or kwargs.get("unit")
+        faculty_filter = (
+            kwargs.get("faculty") or kwargs.get("unidade") or kwargs.get("unit")
+        )
         if faculty_filter:
             params["filter[]"] = f'unidadeUSP:"{faculty_filter}"'
 
@@ -215,7 +215,6 @@ class UspRepository(RepositoryInterface):
                 f"No se pudo conectar con el repositorio de la USP en {self.search_url} (el servidor no responde o está caído)."
             )
         links = self._extract_article_links(response.text)
-
 
         results: List[Dict[str, Any]] = []
         for link in links:
@@ -301,7 +300,6 @@ class UspRepository(RepositoryInterface):
                 }
 
         return {"success": True, "paper_id": safe_id, "files": downloaded_files}
-
 
     def get_repository_info(self) -> Dict[str, Any]:
         """Return basic repository metadata."""

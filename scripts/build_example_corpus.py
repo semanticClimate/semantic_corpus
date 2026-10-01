@@ -23,13 +23,19 @@ from semantic_corpus.corpus_review.review_table import (
     export_review_tables,
 )
 from semantic_corpus.corpus_review.workflow import run_repository_search
-from semantic_corpus.ingestion.query_output_ingester import ingest_query_output_directory
-from semantic_corpus.transformation import ensure_corpus_formats, convert_corpus_xml_to_html
+from semantic_corpus.ingestion.query_output_ingester import (
+    ingest_query_output_directory,
+)
+from semantic_corpus.transformation import (
+    ensure_corpus_formats,
+)
 from semantic_corpus.utils import get_project_temp_dir
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Build example corpus from query config.")
+    parser = argparse.ArgumentParser(
+        description="Build example corpus from query config."
+    )
     parser.add_argument(
         "--config",
         type=str,
@@ -54,7 +60,11 @@ def main() -> None:
         "queries",
         config.get("output_subdir") or query_name,
     )
-    corpus_dir = Path(args.corpus_dir) if args.corpus_dir else Path("corpora", config["corpus_name"])
+    corpus_dir = (
+        Path(args.corpus_dir)
+        if args.corpus_dir
+        else Path("corpora", config["corpus_name"])
+    )
     formats = config.get("formats") or ["xml", "pdf"]
 
     print(f"Query: {config['query_string']}")

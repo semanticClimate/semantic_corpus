@@ -32,6 +32,7 @@ Requires-Dist: coloredlogs>=15.0
 Requires-Dist: configargparse>=1.5.0
 Requires-Dist: pyyaml>=6.0.0
 Requires-Dist: pathlib2>=2.3.0; python_version < "3.4"
+Requires-Dist: docling>=2.0.0
 Provides-Extra: dev
 Requires-Dist: pytest>=7.0.0; extra == "dev"
 Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
@@ -40,6 +41,8 @@ Requires-Dist: black>=22.0.0; extra == "dev"
 Requires-Dist: isort>=5.10.0; extra == "dev"
 Requires-Dist: flake8>=4.0.0; extra == "dev"
 Requires-Dist: mypy>=0.950; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
+Requires-Dist: pre-commit>=3.0.0; extra == "dev"
 Provides-Extra: test
 Requires-Dist: pytest>=7.0.0; extra == "test"
 Requires-Dist: pytest-cov>=4.0.0; extra == "test"

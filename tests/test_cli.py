@@ -1,10 +1,12 @@
 """Tests for CLI functionality."""
 
-import pytest
 import subprocess
 import sys
 from pathlib import Path
-from semantic_corpus.cli import main, create_parser
+
+import pytest
+
+from semantic_corpus.cli import create_parser
 
 
 class TestCLI:
@@ -14,8 +16,10 @@ class TestCLI:
         """Test that CLI shows help message."""
         parser = create_parser()
         help_text = parser.format_help()
-        
-        assert "semantic_corpus" in help_text, "Help text should contain 'semantic_corpus'"
+
+        assert "semantic_corpus" in help_text, (
+            "Help text should contain 'semantic_corpus'"
+        )
         assert "create" in help_text, "Help text should contain 'create' command"
         assert "search" in help_text, "Help text should contain 'search' command"
         assert "download" in help_text, "Help text should contain 'download' command"
@@ -23,49 +27,100 @@ class TestCLI:
     def test_create_corpus_command(self, temp_dir: Path):
         """Test create corpus command."""
         # Test using subprocess to call the CLI
-        result = subprocess.run([
-            sys.executable, "-m", "semantic_corpus.cli",
-            "create", "--name", "test_corpus", "--path", str(temp_dir)
-        ], capture_output=True, text=True)
-        
-        assert result.returncode == 0, f"Command should succeed, got return code {result.returncode}"
-        assert "Corpus 'test_corpus' created successfully" in result.stdout, f"Expected success message in stdout, got: {result.stdout}"
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "semantic_corpus.cli",
+                "create",
+                "--name",
+                "test_corpus",
+                "--path",
+                str(temp_dir),
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        assert result.returncode == 0, (
+            f"Command should succeed, got return code {result.returncode}"
+        )
+        assert "Corpus 'test_corpus' created successfully" in result.stdout, (
+            f"Expected success message in stdout, got: {result.stdout}"
+        )
         assert Path(temp_dir, "test_corpus").exists(), "Corpus directory should exist"
 
     @pytest.mark.live_api
     @pytest.mark.network
     def test_search_papers_command(self, temp_dir: Path):
         """Test search papers command with live API."""
-        result = subprocess.run([
-            sys.executable, "-m", "semantic_corpus.cli",
-            "search", "--query", "climate change",
-            "--repository", "europe_pmc",
-            "--limit", "3",  # Reduced for faster testing
-            "--output", str(temp_dir)
-        ], capture_output=True, text=True)
-        
-        assert result.returncode == 0, f"Command should succeed, got return code {result.returncode}"
-        assert "Found" in result.stdout, f"Expected 'Found' in stdout, got: {result.stdout}"
-        assert "papers" in result.stdout, f"Expected 'papers' in stdout, got: {result.stdout}"
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "semantic_corpus.cli",
+                "search",
+                "--query",
+                "climate change",
+                "--repository",
+                "europe_pmc",
+                "--limit",
+                "3",  # Reduced for faster testing
+                "--output",
+                str(temp_dir),
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        assert result.returncode == 0, (
+            f"Command should succeed, got return code {result.returncode}"
+        )
+        assert "Found" in result.stdout, (
+            f"Expected 'Found' in stdout, got: {result.stdout}"
+        )
+        assert "papers" in result.stdout, (
+            f"Expected 'papers' in stdout, got: {result.stdout}"
+        )
         # Verify we got real results
-        assert "climate" in result.stdout.lower() or "change" in result.stdout.lower(), f"Expected 'climate' or 'change' in output, got: {result.stdout}"
+        assert (
+            "climate" in result.stdout.lower() or "change" in result.stdout.lower()
+        ), f"Expected 'climate' or 'change' in output, got: {result.stdout}"
 
     @pytest.mark.live_api
     @pytest.mark.network
     def test_download_papers_command(self, temp_dir: Path):
         """Test download papers command with live API."""
-        result = subprocess.run([
-            sys.executable, "-m", "semantic_corpus.cli",
-            "download", "--query", "climate change",
-            "--repository", "europe_pmc",
-            "--limit", "2",  # Reduced for faster testing
-            "--output", str(temp_dir),
-            "--formats", "xml"  # Start with XML only for faster testing
-        ], capture_output=True, text=True)
-        
-        assert result.returncode == 0, f"Command should succeed, got return code {result.returncode}"
-        assert "Downloaded" in result.stdout, f"Expected 'Downloaded' in stdout, got: {result.stdout}"
-        assert "papers" in result.stdout, f"Expected 'papers' in stdout, got: {result.stdout}"
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "semantic_corpus.cli",
+                "download",
+                "--query",
+                "climate change",
+                "--repository",
+                "europe_pmc",
+                "--limit",
+                "2",  # Reduced for faster testing
+                "--output",
+                str(temp_dir),
+                "--formats",
+                "xml",  # Start with XML only for faster testing
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        assert result.returncode == 0, (
+            f"Command should succeed, got return code {result.returncode}"
+        )
+        assert "Downloaded" in result.stdout, (
+            f"Expected 'Downloaded' in stdout, got: {result.stdout}"
+        )
+        assert "papers" in result.stdout, (
+            f"Expected 'papers' in stdout, got: {result.stdout}"
+        )
         # When the CLI reported at least one download, verify files exist (recursive for any layout)
         if "Downloaded 0 papers" not in result.stdout:
             xml_or_pdf = list(temp_dir.rglob("*.xml")) + list(temp_dir.rglob("*.pdf"))
@@ -87,12 +142,20 @@ output: {str(test_corpus_path)}
 formats: [xml]
 """
         config_file.write_text(config_content)
-        
-        result = subprocess.run([
-            sys.executable, "-m", "semantic_corpus.cli",
-            "--config", str(config_file), "download"
-        ], capture_output=True, text=True)
-        
+
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "semantic_corpus.cli",
+                "--config",
+                str(config_file),
+                "download",
+            ],
+            capture_output=True,
+            text=True,
+        )
+
         # If the command fails due to API issues, skip the test
         if result.returncode != 0:
             if "No search results found" in result.stderr or "API" in result.stderr:
@@ -102,37 +165,74 @@ formats: [xml]
                 print(f"STDOUT: {result.stdout}")
                 print(f"STDERR: {result.stderr}")
                 assert False, f"CLI failed unexpectedly: {result.stderr}"
-        
-        assert result.returncode == 0, f"Command should succeed, got return code {result.returncode}"
-        assert "test_corpus" in result.stdout, f"Expected 'test_corpus' in stdout, got: {result.stdout}"
+
+        assert result.returncode == 0, (
+            f"Command should succeed, got return code {result.returncode}"
+        )
+        assert "test_corpus" in result.stdout, (
+            f"Expected 'test_corpus' in stdout, got: {result.stdout}"
+        )
         # Verify we got real results
-        assert "Downloaded" in result.stdout or "Found" in result.stdout, f"Expected 'Downloaded' or 'Found' in stdout, got: {result.stdout}"
+        assert "Downloaded" in result.stdout or "Found" in result.stdout, (
+            f"Expected 'Downloaded' or 'Found' in stdout, got: {result.stdout}"
+        )
 
     def test_cli_error_handling(self):
         """Test CLI error handling."""
         # Test with invalid repository
-        result = subprocess.run([
-            sys.executable, "-m", "semantic_corpus.cli",
-            "search", "--query", "test", "--repository", "invalid_repo"
-        ], capture_output=True, text=True)
-        
-        assert result.returncode != 0, f"Command with invalid repository should fail, got return code {result.returncode}"
-        assert "error" in result.stderr.lower(), f"Expected 'error' in stderr, got: {result.stderr}"
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "semantic_corpus.cli",
+                "search",
+                "--query",
+                "test",
+                "--repository",
+                "invalid_repo",
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        assert result.returncode != 0, (
+            f"Command with invalid repository should fail, got return code {result.returncode}"
+        )
+        assert "error" in result.stderr.lower(), (
+            f"Expected 'error' in stderr, got: {result.stderr}"
+        )
 
     @pytest.mark.live_api
     @pytest.mark.network
     def test_cli_verbose_output(self, temp_dir: Path):
         """Test CLI verbose output with live API."""
-        result = subprocess.run([
-            sys.executable, "-m", "semantic_corpus.cli",
-            "search", "--query", "climate change",
-            "--repository", "europe_pmc",
-            "--limit", "2",
-            "--output", str(temp_dir),
-            "--verbose"
-        ], capture_output=True, text=True)
-        
-        assert result.returncode == 0, f"Command should succeed, got return code {result.returncode}"
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "semantic_corpus.cli",
+                "search",
+                "--query",
+                "climate change",
+                "--repository",
+                "europe_pmc",
+                "--limit",
+                "2",
+                "--output",
+                str(temp_dir),
+                "--verbose",
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        assert result.returncode == 0, (
+            f"Command should succeed, got return code {result.returncode}"
+        )
         # With live API, we should see actual search results
-        assert "Found" in result.stdout, f"Expected 'Found' in stdout, got: {result.stdout}"
-        assert "papers" in result.stdout, f"Expected 'papers' in stdout, got: {result.stdout}"
+        assert "Found" in result.stdout, (
+            f"Expected 'Found' in stdout, got: {result.stdout}"
+        )
+        assert "papers" in result.stdout, (
+            f"Expected 'papers' in stdout, got: {result.stdout}"
+        )

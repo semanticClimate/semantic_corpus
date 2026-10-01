@@ -8,12 +8,15 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import parse_qs, unquote, urlparse
 
-from semantic_corpus.corpus_review.interactive_review import ReviewSession, ReviewSessionConfig
+from semantic_corpus.corpus_review.interactive_review import (
+    ReviewSession,
+    ReviewSessionConfig,
+)
 from semantic_corpus.corpus_review.review_table import export_review_tables
 from semantic_corpus.corpus_review.text_preview import (
     build_paper_preview,
-    resolve_document_paths,
     render_jats_to_html,
+    resolve_document_paths,
 )
 
 _PAPER_FILENAME = re.compile(r"^[A-Za-z0-9._-]+\.(pdf|html)$")
@@ -117,7 +120,14 @@ class ReviewViewerServer:
                 self.end_headers()
                 self.wfile.write(body)
 
-            def _send_bytes(self, content: bytes, content_type: str, *, status: int = 200, extra_headers: Optional[Dict[str, str]] = None) -> None:
+            def _send_bytes(
+                self,
+                content: bytes,
+                content_type: str,
+                *,
+                status: int = 200,
+                extra_headers: Optional[Dict[str, str]] = None,
+            ) -> None:
                 self.send_response(status)
                 self.send_header("Content-Type", content_type)
                 self.send_header("Content-Length", str(len(content)))
@@ -128,7 +138,10 @@ class ReviewViewerServer:
                 self.wfile.write(content)
 
             def _send_file(self, file_path: Path) -> None:
-                content_type = mimetypes.guess_type(str(file_path))[0] or "application/octet-stream"
+                content_type = (
+                    mimetypes.guess_type(str(file_path))[0]
+                    or "application/octet-stream"
+                )
                 data = file_path.read_bytes()
                 size = len(data)
                 range_header = self.headers.get("Range")
@@ -201,10 +214,16 @@ class ReviewViewerServer:
                 elif paths.get("xml_path"):
                     html_url = f"/papers/{paths['xml_path'].name}"
 
-                pdf_url = f"/papers/{paths['pdf_path'].name}" if paths.get("pdf_path") else None
+                pdf_url = (
+                    f"/papers/{paths['pdf_path'].name}"
+                    if paths.get("pdf_path")
+                    else None
+                )
 
                 payload: Dict[str, Any] = {
-                    "abstract": preview.get("abstract") or row.get("abstract_snippet") or "",
+                    "abstract": preview.get("abstract")
+                    or row.get("abstract_snippet")
+                    or "",
                     "intro": preview.get("intro") or "",
                     "pdf_url": pdf_url,
                     "html_url": html_url,
@@ -237,7 +256,10 @@ class ReviewViewerServer:
                         session = server._get_session()
                         row: Dict[str, Any] = {"paper_id": stem, "pmcid": stem}
                         for candidate in session.rows:
-                            if candidate.get("paper_id") == stem or candidate.get("pmcid") == stem:
+                            if (
+                                candidate.get("paper_id") == stem
+                                or candidate.get("pmcid") == stem
+                            ):
                                 row = candidate
                                 break
                             if candidate.get("paper_id") == f"europe_pmc_{stem}":
@@ -258,7 +280,9 @@ class ReviewViewerServer:
                         if not rendered:
                             self.send_error(500)
                             return
-                        self._send_bytes(rendered.encode("utf-8"), "text/html; charset=utf-8")
+                        self._send_bytes(
+                            rendered.encode("utf-8"), "text/html; charset=utf-8"
+                        )
                         return
 
                     document = server._resolve_document(filename)

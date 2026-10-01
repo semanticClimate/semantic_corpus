@@ -15,14 +15,13 @@ from semantic_corpus.corpus_review.query_run import (
 )
 from semantic_corpus.corpus_review.review_table import (
     build_review_rows_from_corpus,
-    build_review_rows_from_pygetpapers,
     build_review_rows_from_search_results,
     export_review_tables,
     load_query_context,
 )
 from semantic_corpus.export.chatbot_export import export_corpus_for_chatbot
 from semantic_corpus.ingestion.pygetpapers_ingester import ingest_pygetpapers_directory
-from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
+from semantic_corpus.repositories._ids import get_result_paper_id
 from semantic_corpus.utils import get_project_temp_dir
 
 
@@ -44,7 +43,9 @@ def run_repository_search(
     # When requesting downloadable formats (e.g. PDF), search for extra candidates
     # so we can collect up to `limit` papers that actually download the requested formats.
     candidate_limit = (
-        limit * 3 if formats and any(f in ("pdf", "xml", "html") for f in formats) else limit
+        limit * 3
+        if formats and any(f in ("pdf", "xml", "html") for f in formats)
+        else limit
     )
 
     results = repo.search_papers(
@@ -72,7 +73,6 @@ def run_repository_search(
 
     final_results = successful_results if successful_results else results[:limit]
     return final_results, downloaded_count
-
 
 
 def run_query_and_build_review_table(
@@ -122,6 +122,7 @@ def run_query_and_build_review_table(
 
     if convert_pdfs:
         from semantic_corpus.transformation import convert_query_directory_pdfs
+
         convert_query_directory_pdfs(output_dir, do_ocr=do_ocr)
 
     results_path = Path(output_dir, "search_results.json")

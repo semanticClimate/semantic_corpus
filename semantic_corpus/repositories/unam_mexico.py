@@ -5,7 +5,9 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin
+
 from bs4 import BeautifulSoup
+
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
 from semantic_corpus.repositories._ids import (
@@ -57,7 +59,14 @@ class UnamRepository(RepositoryInterface):
             href = el.get("href") or el.get("data-testlink") or ""
             if not href or any(
                 p in href
-                for p in ["/wp-content", "/normatividad", "?f=", "?c=", "/directorio", "/contacto"]
+                for p in [
+                    "/wp-content",
+                    "/normatividad",
+                    "?f=",
+                    "?c=",
+                    "/directorio",
+                    "/contacto",
+                ]
             ):
                 continue
 
@@ -66,7 +75,9 @@ class UnamRepository(RepositoryInterface):
                 canonical_url = f"{self.base_url}/contenidos/{match.group(1)}"
                 if canonical_url not in links:
                     links.append(canonical_url)
-            elif "/contenidos/" in href and not href.rstrip("/").endswith("/contenidos"):
+            elif "/contenidos/" in href and not href.rstrip("/").endswith(
+                "/contenidos"
+            ):
                 clean_href = href.split("?")[0].split("#")[0]
                 full_url = urljoin(self.base_url, clean_href)
                 if full_url not in links:
@@ -100,7 +111,10 @@ class UnamRepository(RepositoryInterface):
             strong = p.find("strong")
             if strong:
                 strong_txt = strong.get_text().strip().rstrip(":")
-                if re.match(r"^\d{3}\.", strong_txt) or strong_txt in ("dor_id", "handle"):
+                if re.match(r"^\d{3}\.", strong_txt) or strong_txt in (
+                    "dor_id",
+                    "handle",
+                ):
                     val = p.get_text().replace(strong.get_text(), "").strip()
                     marc[strong_txt] = val
 
@@ -119,7 +133,9 @@ class UnamRepository(RepositoryInterface):
             h_title = soup.select_one("h1, h2, .cont-text-title-record-min")
             if h_title and "No entro" not in h_title.get_text():
                 title = h_title.get_text(strip=True)
-            elif soup.title and "Repositorio Institucional" not in soup.title.get_text():
+            elif (
+                soup.title and "Repositorio Institucional" not in soup.title.get_text()
+            ):
                 title = soup.title.get_text(strip=True)
 
         # Authors: MARC 100.* and 700.* or meta citation_author
@@ -218,7 +234,7 @@ class UnamRepository(RepositoryInterface):
     ) -> List[Dict[str, Any]]:
         """Looks for documents in Repositorio Institucional UNAM and extracts metadata"""
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
         params = {"q": clean_query}
         for key, value in kwargs.items():
             if key not in params:
@@ -323,4 +339,3 @@ class UnamRepository(RepositoryInterface):
             "supported_formats": ["pdf", "metadata"],
             "notes": "Scraping on Repositorio Institucional UNAM (repositorio.unam.mx)",
         }
-

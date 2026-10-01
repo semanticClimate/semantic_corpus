@@ -1,10 +1,8 @@
-import json
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
 
-from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.repositories._ids import (
     handle_from_unal_colombia_url,
@@ -25,8 +23,13 @@ class TestUnalRepository(unittest.TestCase):
         self.assertEqual(handle_from_unal_url(url), "unal_colombia_90677")
 
         # DSpace 7 item UUID URL
-        url_uuid = "https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039"
-        self.assertEqual(id_from_unal_colombia_url(url_uuid), "unal_colombia_44fc646d-bbad-4be9-b008-0147830d0039")
+        url_uuid = (
+            "https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039"
+        )
+        self.assertEqual(
+            id_from_unal_colombia_url(url_uuid),
+            "unal_colombia_44fc646d-bbad-4be9-b008-0147830d0039",
+        )
 
         # HDL handle URL
         url_hdl = "https://hdl.handle.net/unal/90677"
@@ -42,7 +45,9 @@ class TestUnalRepository(unittest.TestCase):
 
         # Handle with underscore
         raw_handle_underscore = "unal_90677"
-        self.assertEqual(id_from_unal_colombia_url(raw_handle_underscore), "unal_colombia_90677")
+        self.assertEqual(
+            id_from_unal_colombia_url(raw_handle_underscore), "unal_colombia_90677"
+        )
 
         # Already unal_colombia prefixed ID
         prefixed_id = "unal_colombia_90677"
@@ -86,7 +91,10 @@ class TestUnalRepository(unittest.TestCase):
         links = repo._extract_article_links(html)
         self.assertEqual(len(links), 2)
         self.assertIn("https://repositorio.unal.edu.co/handle/unal/90677", links)
-        self.assertIn("https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039", links)
+        self.assertIn(
+            "https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039",
+            links,
+        )
 
     def test_extract_metadata(self) -> None:
         repo = UnalRepository()
@@ -105,15 +113,23 @@ class TestUnalRepository(unittest.TestCase):
         <body></body>
         </html>
         """
-        url = "https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039"
+        url = (
+            "https://repositorio.unal.edu.co/items/44fc646d-bbad-4be9-b008-0147830d0039"
+        )
         meta = repo._extract_metadata(html, url)
         self.assertEqual(meta["paper_id"], "unal_colombia_90677")
         self.assertEqual(meta["title"], "Reflejos en el agua")
         self.assertEqual(meta["authors"], ["Murcia Betancourt, Luis Miguel"])
-        self.assertEqual(meta["abstract"], "Este estudio tuvo como objetivo caracterizar la composicion ecologica...")
+        self.assertEqual(
+            meta["abstract"],
+            "Este estudio tuvo como objetivo caracterizar la composicion ecologica...",
+        )
         self.assertEqual(meta["publication_date"], "2026-06-17")
         self.assertEqual(meta["journal"], "Universidad Nacional de Colombia")
-        self.assertEqual(meta["pdf_url"], "https://repositorio.unal.edu.co/bitstreams/3219ecf6-2903-47a3-bd3a-486db8763a02/download")
+        self.assertEqual(
+            meta["pdf_url"],
+            "https://repositorio.unal.edu.co/bitstreams/3219ecf6-2903-47a3-bd3a-486db8763a02/download",
+        )
         self.assertEqual(meta["source_repository"], "unal_colombia")
 
     def test_search_papers_html(self) -> None:
@@ -134,7 +150,12 @@ class TestUnalRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, text: str, url: str = "https://repositorio.unal.edu.co/handle/unal/90677", headers=None):
+            def __init__(
+                self,
+                text: str,
+                url: str = "https://repositorio.unal.edu.co/handle/unal/90677",
+                headers=None,
+            ):
                 self.text = text
                 self.url = url
                 self.headers = headers or {"content-type": "text/html"}
@@ -165,7 +186,9 @@ class TestUnalRepository(unittest.TestCase):
         """
 
         class FakeResponse:
-            def __init__(self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None):
+            def __init__(
+                self, content: bytes = b"%PDF-1.4 dummy", text: str = "", headers=None
+            ):
                 self.content = content
                 self.text = text
                 self.url = "https://repositorio.unal.edu.co/handle/unal/90677"

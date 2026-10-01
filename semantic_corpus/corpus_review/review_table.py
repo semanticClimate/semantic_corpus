@@ -3,7 +3,6 @@
 import csv
 import html
 import json
-import shutil
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -13,11 +12,11 @@ from semantic_corpus.corpus_review.constants import REVIEW_TABLE_COLUMNS
 from semantic_corpus.corpus_review.query_run import load_query_run_record
 from semantic_corpus.corpus_review.relevance_scorer import score_paper_relevance
 from semantic_corpus.corpus_review.review_schema import make_review_row
-from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
 from semantic_corpus.ingestion.pygetpapers_ingester import (
     _discover_paper_folders,
     _eupmc_json_to_raw_metadata,
 )
+from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
 from semantic_corpus.tools.metadata_processor import MetadataProcessor
 
 
@@ -174,7 +173,11 @@ def build_review_rows_from_search_results(
         file_id = sanitize_paper_id(get_result_paper_id(paper) or "")
         identifier = paper_id or pmcid or pmid or file_id
         if not paper_id:
-            paper_id = f"europe_pmc_{identifier}" if pmcid else f"{paper.get('source_repository', 'paper')}_{identifier}"
+            paper_id = (
+                f"europe_pmc_{identifier}"
+                if pmcid
+                else f"{paper.get('source_repository', 'paper')}_{identifier}"
+            )
 
         file_stems = [s for s in (paper_id, file_id, pmcid, pmid, identifier) if s]
         has_xml = any(Path(xml_dir, f"{stem}.xml").is_file() for stem in file_stems)
@@ -222,7 +225,12 @@ def export_review_table_csv(rows: List[Dict[str, Any]], path: Path) -> Path:
         writer = csv.DictWriter(handle, fieldnames=list(REVIEW_TABLE_COLUMNS))
         writer.writeheader()
         for row in rows:
-            writer.writerow({k: row.get(k, False if k.startswith("has_") else "") for k in REVIEW_TABLE_COLUMNS})
+            writer.writerow(
+                {
+                    k: row.get(k, False if k.startswith("has_") else "")
+                    for k in REVIEW_TABLE_COLUMNS
+                }
+            )
     return path
 
 
@@ -266,13 +274,14 @@ def ensure_review_table_css(output_dir: Path, basename: str = "review_table") ->
         return css_path
 
     text = css_path.read_text(encoding="utf-8")
-    if "/* reader panel *//* reader panel */" in text or text.count("/* reader panel */") > 1:
+    if (
+        "/* reader panel *//* reader panel */" in text
+        or text.count("/* reader panel */") > 1
+    ):
         css_path.write_text(default_css, encoding="utf-8")
         return css_path
 
-    sections = (
-        (".reader-body", "/* reader body */"),
-    )
+    sections = ((".reader-body", "/* reader body */"),)
     appended = False
     for needle, marker in sections:
         if needle not in text and marker in default_css:
@@ -711,9 +720,7 @@ def export_review_tables(
     output_dir = Path(output_dir)
     html_path = Path(output_dir, f"{basename}.html")
     return {
-        "json": export_review_table_json(
-            rows, Path(output_dir, f"{basename}.json")
-        ),
+        "json": export_review_table_json(rows, Path(output_dir, f"{basename}.json")),
         "csv": export_review_table_csv(rows, Path(output_dir, f"{basename}.csv")),
         "markdown": export_review_table_markdown(
             rows, Path(output_dir, f"{basename}.md")

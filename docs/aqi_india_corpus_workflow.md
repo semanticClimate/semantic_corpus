@@ -61,7 +61,9 @@ paths = ingest_and_review_pygetpapers(
 export_reviewed_corpus_for_chatbot(
     Path("corpora", "aqi_india_pilot"),
     Path("temp", "exports", "aqi_india_chatbot"),
-    review_table_path=Path("corpora", "aqi_india_pilot", "analysis", "review", "review_table.json"),
+    review_table_path=Path(
+        "corpora", "aqi_india_pilot", "analysis", "review", "review_table.json"
+    ),
 )
 ```
 

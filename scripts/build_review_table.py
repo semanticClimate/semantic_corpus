@@ -85,9 +85,7 @@ def resolve_paths(args: argparse.Namespace):
 
     xml_dir = Path(args.xml_dir) if args.xml_dir else search_results.parent
     query_run = (
-        Path(args.query_run)
-        if args.query_run
-        else Path(query_dir, "query_run.json")
+        Path(args.query_run) if args.query_run else Path(query_dir, "query_run.json")
     )
     output_dir = Path(args.output_dir) if args.output_dir else Path(query_dir, "review")
     return search_results, xml_dir, query_run, output_dir
@@ -99,6 +97,7 @@ def main() -> None:
 
     if args.convert_pdfs:
         from semantic_corpus.transformation import convert_query_directory_pdfs
+
         query_dir = search_results.parent
         print(f"Converting PDFs in {query_dir} to HTML and XML with Docling...")
         converted = convert_query_directory_pdfs(query_dir, do_ocr=args.ocr)

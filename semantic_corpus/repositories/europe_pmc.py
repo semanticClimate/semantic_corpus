@@ -1,12 +1,12 @@
 """Europe PMC repository implementation."""
 
-import json
-import requests
 from pathlib import Path
-from typing import Dict, List, Any, Optional
+from typing import Any, Dict, List, Optional
 
-from semantic_corpus.core.repository_interface import RepositoryInterface
+import requests
+
 from semantic_corpus.core.exceptions import RepositoryError
+from semantic_corpus.core.repository_interface import RepositoryInterface
 
 
 class EuropePMCRepository(RepositoryInterface):
@@ -36,12 +36,10 @@ class EuropePMCRepository(RepositoryInterface):
 
     def _search_one_paper(self, paper_id: str) -> Dict[str, Any]:
         """Fetch one Europe PMC record by external ID."""
-        query = f"PMCID:{paper_id}" if paper_id.startswith("PMC") else f"EXT_ID:{paper_id}"
-        params = {
-            "query": query,
-            "format": "json",
-            "resultType": "core"
-        }
+        query = (
+            f"PMCID:{paper_id}" if paper_id.startswith("PMC") else f"EXT_ID:{paper_id}"
+        )
+        params = {"query": query, "format": "json", "resultType": "core"}
         response = requests.get(f"{self.base_url}/search", params=params)
         response.raise_for_status()
         data = response.json()
@@ -76,7 +74,7 @@ class EuropePMCRepository(RepositoryInterface):
         limit: int = 100,
         start_date: Optional[str] = None,
         end_date: Optional[str] = None,
-        **kwargs: Any
+        **kwargs: Any,
     ) -> List[Dict[str, Any]]:
         """Search for papers in Europe PMC."""
         try:
@@ -85,27 +83,29 @@ class EuropePMCRepository(RepositoryInterface):
                 "query": query,
                 "format": "json",
                 "pageSize": min(limit, 1000),  # Europe PMC max is 1000
-                "resultType": "core"
+                "resultType": "core",
             }
-            
+
             # Add date filters if provided
             if start_date and end_date:
-                params["query"] = f"({query}) AND (FIRST_PDATE:[{start_date} TO {end_date}])"
+                params["query"] = (
+                    f"({query}) AND (FIRST_PDATE:[{start_date} TO {end_date}])"
+                )
             elif end_date:
                 params["query"] = f"({query}) AND (FIRST_PDATE:[TO {end_date}])"
-            
+
             # Make API request
             response = requests.get(f"{self.base_url}/search", params=params)
             response.raise_for_status()
-            
+
             data = response.json()
             results = []
-            
+
             for paper in data.get("resultList", {}).get("result", []):
                 results.append(self._paper_to_result(paper))
-            
+
             return results[:limit]
-            
+
         except requests.RequestException as e:
             raise RepositoryError(f"Europe PMC search failed: {e}")
 
@@ -114,24 +114,21 @@ class EuropePMCRepository(RepositoryInterface):
         try:
             paper = self._search_one_paper(paper_id)
             return self._paper_to_result(paper)
-            
+
         except requests.RequestException as e:
             raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}")
 
     def download_paper(
-        self,
-        paper_id: str,
-        output_dir: Path,
-        formats: List[str] = None
+        self, paper_id: str, output_dir: Path, formats: List[str] = None
     ) -> Dict[str, Any]:
         """Download a paper from Europe PMC."""
         if formats is None:
             formats = ["xml"]
-        
+
         try:
             output_dir.mkdir(parents=True, exist_ok=True)
             downloaded_files = []
-            
+
             paper = None
             pmcid = paper_id if paper_id.startswith("PMC") else ""
 
@@ -150,7 +147,7 @@ class EuropePMCRepository(RepositoryInterface):
                     download_id = paper_id.replace("PMC", "")
                 else:
                     download_id = paper_id
-            
+
             for format_type in formats:
                 try:
                     if format_type == "xml":
@@ -185,11 +182,7 @@ class EuropePMCRepository(RepositoryInterface):
             if not downloaded_files:
                 raise RepositoryError(f"No files downloaded for {paper_id}")
 
-            return {
-                "success": True,
-                "paper_id": paper_id,
-                "files": downloaded_files
-            }
+            return {"success": True, "paper_id": paper_id, "files": downloaded_files}
 
         except RepositoryError:
             raise
@@ -204,5 +197,5 @@ class EuropePMCRepository(RepositoryInterface):
             "description": "Europe PMC is an open science platform that enables access to a world of biomedical literature",
             "supported_formats": ["xml", "pdf"],
             "max_results_per_query": 1000,
-            "api_documentation": "https://europepmc.org/Help"
+            "api_documentation": "https://europepmc.org/Help",
         }

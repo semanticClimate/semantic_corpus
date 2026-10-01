@@ -161,7 +161,7 @@ metadata = {
     "title": "Climate Change Adaptation",
     "authors": ["Smith, J.", "Doe, A."],
     "doi": "10.1234/example",
-    "publication_date": "2024-01-15"
+    "publication_date": "2024-01-15",
 }
 corpus.add_paper("paper_001", metadata)
 
@@ -197,7 +197,7 @@ bagit_mgr = BagitManager(bag_dir)
 metadata = {
     "Source-Organization": "My Research Lab",
     "Contact-Name": "Jane Doe",
-    "Contact-Email": "jane@example.com"
+    "Contact-Email": "jane@example.com",
 }
 bagit_mgr.create_bag(metadata=metadata)
 
@@ -224,16 +224,11 @@ from semantic_corpus.core.repository_factory import RepositoryFactory
 repo = RepositoryFactory.get_repository("europe_pmc")
 
 # Search papers
-results = repo.search_papers(
-    query="climate change adaptation",
-    limit=10
-)
+results = repo.search_papers(query="climate change adaptation", limit=10)
 
 # Download paper
 download_result = repo.download_paper(
-    paper_id="40964903",
-    output_dir=Path("temp/downloads"),
-    formats=["xml", "pdf"]
+    paper_id="40964903", output_dir=Path("temp/downloads"), formats=["xml", "pdf"]
 )
 ```
 
@@ -322,28 +317,26 @@ for paper in search_results:
     paper_id = paper.get("pmcid") or paper.get("pmid")
     if not paper_id:
         continue
-    
+
     # Download if not already downloaded
     download_dir = Path("temp/downloads")
-    download_result = repo.download_paper(
-        paper_id, download_dir, formats=["xml"]
-    )
-    
+    download_result = repo.download_paper(paper_id, download_dir, formats=["xml"])
+
     # Extract metadata
     xml_file = download_dir / f"{paper_id}.xml"
     if xml_file.exists():
         metadata = processor.process_xml_metadata(xml_file)
         normalized = processor.normalize_metadata(metadata)
-        
+
         # Add to corpus
         corpus_id = f"europe_pmc_{paper_id}"
         corpus.add_paper(corpus_id, normalized)
-        
+
         # Copy file to corpus
         corpus_xml = Path(corpus_dir, "data", "documents", "xml", f"{corpus_id}.xml")
         corpus_xml.parent.mkdir(parents=True, exist_ok=True)
         corpus_xml.write_bytes(xml_file.read_bytes())
-        
+
         print(f"Added {corpus_id} to corpus")
 ```
 
@@ -771,75 +764,77 @@ from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.tools.metadata_processor import MetadataProcessor
 import json
 
+
 def main():
     # Configuration
     corpus_name = "climate_adaptation"
     query = "climate change adaptation"
     limit = 20
-    
+
     # Create corpus
     corpus_dir = Path("corpora", corpus_name)
     corpus = CorpusManager(corpus_dir, use_bagit=True)
     corpus.create_structured_directories()
     print(f"Created corpus: {corpus_dir}")
-    
+
     # Get repository
     repo = RepositoryFactory.get_repository("europe_pmc")
     processor = MetadataProcessor()
-    
+
     # Search and download
     print(f"Searching for: {query}")
     results = repo.search_papers(query=query, limit=limit)
     print(f"Found {len(results)} papers")
-    
+
     # Process each paper
     download_dir = Path("temp", "downloads")
     download_dir.mkdir(parents=True, exist_ok=True)
-    
+
     for i, paper in enumerate(results, 1):
         paper_id = paper.get("pmcid") or paper.get("pmid")
         if not paper_id:
             continue
-        
+
         print(f"[{i}/{len(results)}] Processing {paper_id}...")
-        
+
         try:
             # Download
             download_result = repo.download_paper(
                 paper_id, download_dir, formats=["xml"]
             )
-            
+
             if not download_result["success"]:
                 print(f"  Failed to download {paper_id}")
                 continue
-            
+
             # Extract metadata
             xml_file = download_dir / f"{paper_id}.xml"
             if xml_file.exists():
                 metadata = processor.process_xml_metadata(xml_file)
                 normalized = processor.normalize_metadata(metadata)
-                
+
                 # Add to corpus
                 corpus_id = f"europe_pmc_{paper_id}"
                 corpus.add_paper(corpus_id, normalized)
-                
+
                 # Copy file to corpus
                 corpus_xml = Path(
                     corpus_dir, "data", "documents", "xml", f"{corpus_id}.xml"
                 )
                 corpus_xml.parent.mkdir(parents=True, exist_ok=True)
                 corpus_xml.write_bytes(xml_file.read_bytes())
-                
+
                 print(f"  Added {corpus_id}")
-        
+
         except Exception as e:
             print(f"  Error processing {paper_id}: {e}")
-    
+
     # Print statistics
     stats = corpus.get_statistics()
     print(f"\nCorpus statistics:")
     print(f"  Total papers: {stats['total_papers']}")
     print(f"  Size: {stats['corpus_size_mb']:.2f} MB")
+
 
 if __name__ == "__main__":
     main()
@@ -913,7 +908,7 @@ metadata = {
     "Contact-Email": "jane@example.com",
     "Bagging-Date": "2025-12-18",
     "External-Description": "Climate adaptation research corpus",
-    "External-Identifier": "corpus-2025-001"
+    "External-Identifier": "corpus-2025-001",
 }
 bagit_mgr.create_bag(metadata=metadata)
 ```
@@ -968,27 +963,29 @@ from semantic_corpus.storage.bagit_manager import BagitManager
 import json
 from datetime import datetime
 
+
 def validate_corpus(corpus_dir: Path):
     """Validate corpus integrity and generate report."""
     bagit_mgr = BagitManager(corpus_dir)
-    
+
     is_valid = bagit_mgr.validate_bag()
     bag_info = bagit_mgr.get_bag_info()
-    
+
     report = {
         "validation_date": datetime.now().isoformat(),
         "corpus_path": str(corpus_dir),
         "is_valid": is_valid,
-        "bag_info": bag_info
+        "bag_info": bag_info,
     }
-    
+
     report_path = Path(corpus_dir, "analysis", "validation_report.json")
     report_path.parent.mkdir(parents=True, exist_ok=True)
-    
-    with open(report_path, 'w') as f:
+
+    with open(report_path, "w") as f:
         json.dump(report, f, indent=2)
-    
+
     return is_valid
+
 
 # Run validation
 corpus_dir = Path("corpora/my_research")
@@ -1065,7 +1062,7 @@ metadata = {
     "Contact-Email": "your@email.com",
     "Bagging-Date": datetime.now().strftime("%Y-%m-%d"),
     "External-Description": "Description of corpus contents",
-    "External-Identifier": "Unique identifier for this corpus"
+    "External-Identifier": "Unique identifier for this corpus",
 }
 bagit_mgr.create_bag(metadata=metadata)
 ```

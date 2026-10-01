@@ -6,6 +6,7 @@ This example demonstrates how to create a new corpus with BAGIT-compliant struct
 """
 
 from pathlib import Path
+
 from semantic_corpus.core.corpus_manager import CorpusManager
 
 # Create corpus with BAGIT support
@@ -18,7 +19,7 @@ metadata = {
     "title": "Climate Change Adaptation",
     "authors": ["Smith, J.", "Doe, A."],
     "doi": "10.1234/example",
-    "publication_date": "2024-01-15"
+    "publication_date": "2024-01-15",
 }
 corpus.add_paper("paper_001", metadata)
 

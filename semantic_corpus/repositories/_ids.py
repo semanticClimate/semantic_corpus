@@ -7,6 +7,7 @@ from urllib.parse import parse_qs, urlparse
 
 # {repo}_{id}
 
+
 def sanitize_paper_id(paper_id: str) -> str:
     """Return a filesystem-safe identifier."""
     safe = paper_id.strip()
@@ -57,13 +58,14 @@ def id_from_redalyc_url(url: str) -> str:
 
 def handle_from_conicet_url(url_or_id: str) -> str:
     """Extracts the handle linked to each item Ipermanente identifier in DSpace) and evaluates it. / replaced by _ to
-        avoid problems in Windows/Linux.
-        Eg: 'https://ri.conicet.gov.ar/handle/11336/12345' -> '11336_12345'
-        """
-    match = re.search(r'11336[/_](\d+)', url_or_id)
+    avoid problems in Windows/Linux.
+    Eg: 'https://ri.conicet.gov.ar/handle/11336/12345' -> '11336_12345'
+    """
+    match = re.search(r"11336[/_](\d+)", url_or_id)
     if match:
         return f"conicet_11336_{match.group(1)}"
     return sanitize_paper_id(url_or_id)
+
 
 def id_from_uba_url(url_or_id: str) -> str:
     """Extracts id and collection from a document in UBA repositories (Exactas, FAUBA).
@@ -80,7 +82,9 @@ def id_from_uba_url(url_or_id: str) -> str:
         if match:
             return sanitize_paper_id(f"uba_fauba_{match.group(1)}_{match.group(2)}")
 
-    return sanitize_paper_id(url_or_id if url_or_id.startswith("uba_") else f"uba_{url_or_id}")
+    return sanitize_paper_id(
+        url_or_id if url_or_id.startswith("uba_") else f"uba_{url_or_id}"
+    )
 
 
 def id_from_usp_url(url_or_id: str) -> str:
@@ -230,7 +234,11 @@ def id_from_unal_colombia_url(url_or_id: str) -> str:
     if match_uuid:
         return sanitize_paper_id(f"unal_colombia_{match_uuid.group(1)}")
     # Matches bare UUID
-    if re.match(r"^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$", url_or_id, re.IGNORECASE):
+    if re.match(
+        r"^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$",
+        url_or_id,
+        re.IGNORECASE,
+    ):
         return sanitize_paper_id(f"unal_colombia_{url_or_id}")
     # Matches generic handle /handle/<prefix>/<id> or handle.net/<prefix>/<id>
     match_handle = re.search(r"(?:/handle/|handle\.net/)([\w.]+)/(\w+)", url_or_id)
@@ -263,7 +271,3 @@ def id_from_unal_url(url_or_id: str) -> str:
 def handle_from_unal_url(url_or_id: str) -> str:
     """Alias for id_from_unal_colombia_url."""
     return id_from_unal_colombia_url(url_or_id)
-
-
-
-

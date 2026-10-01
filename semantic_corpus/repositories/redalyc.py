@@ -20,7 +20,6 @@ class RedalycRepository(RepositoryInterface):
     SEARCH_API_URL = "https://www.redalyc.org/service/r2020/getArticles"
     LEGACY_SEARCH_URL = "https://www.redalyc.org/redalyc/search"
 
-
     def __init__(self) -> None:
         super().__init__()
         self.name = "Redalyc"
@@ -97,7 +96,7 @@ class RedalycRepository(RepositoryInterface):
 
     def _discover_article_links(self, query: str, limit: int) -> List[str]:
         """Try modern search API, legacy search, then homepage discovery with query filtering."""
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
         if clean_query:
             page_size = max(1, min(limit, 50))
             encoded_query = quote(clean_query)
@@ -144,7 +143,6 @@ class RedalycRepository(RepositoryInterface):
             if len(matched) >= limit:
                 break
         return matched
-
 
     def search_papers(
         self,

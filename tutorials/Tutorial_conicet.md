@@ -72,12 +72,12 @@ from semantic_corpus.corpus_review.workflow import run_query_and_build_review_ta
 
 result = run_query_and_build_review_table(
     query_name="argentine_reports",
-    query_string='("agrochemicals")', 
+    query_string='("agrochemicals")',
     output_dir=Path("temp/queries/conicet_query"),
     repository="conicet",
-    limit=10, #or as many as you wish
+    limit=10,  # or as many as you wish
     formats=["pdf"],
-    convert_pdfs=True, # Automatically converts downloaded PDFs to HTML and XML with Docling
+    convert_pdfs=True,  # Automatically converts downloaded PDFs to HTML and XML with Docling
 )
 ```
 

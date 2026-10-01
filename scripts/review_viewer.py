@@ -19,11 +19,16 @@ from pathlib import Path
 from semantic_corpus.core.exceptions import CorpusError
 from semantic_corpus.corpus_review.html_viewer import write_review_viewer
 from semantic_corpus.corpus_review.interactive_review import ReviewSessionConfig
-from semantic_corpus.corpus_review.review_viewer_server import ReviewViewerServer, infer_corpus_dir
+from semantic_corpus.corpus_review.review_viewer_server import (
+    ReviewViewerServer,
+    infer_corpus_dir,
+)
 
 
 def add_shared_args(parser: argparse.ArgumentParser) -> None:
-    parser.add_argument("--review-table", required=True, help="Path to review_table.json")
+    parser.add_argument(
+        "--review-table", required=True, help="Path to review_table.json"
+    )
     parser.add_argument("--query-dir", help="Query output directory")
     parser.add_argument("--xml-dir", help="Directory with downloaded XML files")
     parser.add_argument("--corpus-dir", help="Optional BAGIT corpus directory")
@@ -37,14 +42,18 @@ def add_shared_args(parser: argparse.ArgumentParser) -> None:
         help="Initial status filter",
     )
     parser.add_argument("--topic", help="Initial topic filter")
-    parser.add_argument("--redo", action="store_true", help="Include decided rows in queue")
+    parser.add_argument(
+        "--redo", action="store_true", help="Include decided rows in queue"
+    )
     parser.add_argument("--intro-chars", type=int, default=800)
 
 
 def build_config(args: argparse.Namespace) -> ReviewSessionConfig:
     review_table = Path(args.review_table)
     query_dir = Path(args.query_dir) if args.query_dir else review_table.parent.parent
-    corpus_dir = Path(args.corpus_dir) if args.corpus_dir else infer_corpus_dir(query_dir)
+    corpus_dir = (
+        Path(args.corpus_dir) if args.corpus_dir else infer_corpus_dir(query_dir)
+    )
     return ReviewSessionConfig(
         review_table_path=review_table,
         query_dir=query_dir if query_dir.exists() else None,
@@ -71,7 +80,9 @@ def parse_args() -> argparse.Namespace:
         help="Output HTML path (default: alongside review_table.json)",
     )
 
-    serve_parser = subparsers.add_parser("serve", help="Build viewer and start local server")
+    serve_parser = subparsers.add_parser(
+        "serve", help="Build viewer and start local server"
+    )
     add_shared_args(serve_parser)
     serve_parser.add_argument("--host", default="127.0.0.1")
     serve_parser.add_argument("--port", type=int, default=8765)
@@ -105,9 +116,9 @@ def main() -> None:
     index_path = review_dir / "index.html"
     if not index_path.is_file():
         index_path.write_text(
-            '<!DOCTYPE html><html><head>'
+            "<!DOCTYPE html><html><head>"
             '<meta http-equiv="refresh" content="0; url=review_table.html">'
-            "</head><body><p><a href=\"review_table.html\">Open review table</a></p></body></html>",
+            '</head><body><p><a href="review_table.html">Open review table</a></p></body></html>',
             encoding="utf-8",
         )
 

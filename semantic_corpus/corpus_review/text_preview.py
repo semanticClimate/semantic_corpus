@@ -2,12 +2,12 @@
 
 import html
 import re
+from html import escape
 from pathlib import Path
 from typing import Any, Dict, Optional
 
 from bs4 import BeautifulSoup
 from lxml import etree
-from html import escape
 
 
 def strip_markup(text: str) -> str:
@@ -111,8 +111,14 @@ def resolve_document_paths(
                     else:
                         html_path = candidate
         if corpus_dir:
-            for sub, attr in (("xml", "xml_path"), ("pdf", "pdf_path"), ("html", "html_path")):
-                candidate = Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{sub}")
+            for sub, attr in (
+                ("xml", "xml_path"),
+                ("pdf", "pdf_path"),
+                ("html", "html_path"),
+            ):
+                candidate = Path(
+                    corpus_dir, "data", "documents", sub, f"{paper_id}.{sub}"
+                )
                 if candidate.is_file():
                     if attr == "xml_path":
                         xml_path = candidate
@@ -204,12 +210,12 @@ def render_jats_to_html(xml_path: Path) -> str:
 
     # Authors: collect contrib/name blocks
     authors = []
-    for contrib in root.findall('.//{*}contrib'):
+    for contrib in root.findall(".//{*}contrib"):
         # only author-type contribs
         ctype = contrib.get("contrib-type")
         if ctype and ctype.lower() != "author":
             continue
-        name_el = contrib.find('.//{*}name')
+        name_el = contrib.find(".//{*}name")
         if name_el is not None:
             authors.append(_element_text(name_el))
         else:
@@ -220,8 +226,8 @@ def render_jats_to_html(xml_path: Path) -> str:
 
     # Abstract: may contain multiple paragraphs
     abstract_parts: list[str] = []
-    for abstract in root.findall('.//{*}abstract'):
-        for p in abstract.findall('.//{*}p'):
+    for abstract in root.findall(".//{*}abstract"):
+        for p in abstract.findall(".//{*}p"):
             t = _element_text(p)
             if t:
                 abstract_parts.append(t)
@@ -235,7 +241,7 @@ def render_jats_to_html(xml_path: Path) -> str:
 
     # Body paragraphs
     body_paragraphs: list[str] = []
-    for p in root.findall('.//{*}body//{*}p'):
+    for p in root.findall(".//{*}body//{*}p"):
         t = _element_text(p)
         if t:
             body_paragraphs.append(t)

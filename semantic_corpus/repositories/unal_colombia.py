@@ -5,7 +5,9 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin
+
 from bs4 import BeautifulSoup
+
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
 from semantic_corpus.repositories._ids import (
@@ -24,7 +26,9 @@ class UnalRepository(RepositoryInterface):
         self.base_url = "https://repositorio.unal.edu.co"
         self.home_url = "https://repositorio.unal.edu.co/home"
         self.search_url = "https://repositorio.unal.edu.co/search"
-        self.rest_search_url = "https://repositorio.unal.edu.co/server/api/discover/search/objects"
+        self.rest_search_url = (
+            "https://repositorio.unal.edu.co/server/api/discover/search/objects"
+        )
         self.http = RateLimitedSession(
             delay_seconds=1.0,
             user_agent=(
@@ -48,9 +52,11 @@ class UnalRepository(RepositoryInterface):
         # 1. Search for handle anchors
         for anchor in soup.select('a[href*="/handle/"]'):
             href = anchor.get("href", "")
-            if not href or any(p in href for p in ["/browse", "/community-list", "/home"]):
+            if not href or any(
+                p in href for p in ["/browse", "/community-list", "/home"]
+            ):
                 continue
-            match = re.search(r'/handle/([\w.]+)/(\w+)', href)
+            match = re.search(r"/handle/([\w.]+)/(\w+)", href)
             if match:
                 full_url = f"{self.base_url}/handle/{match.group(1)}/{match.group(2)}"
                 if full_url not in links:
@@ -59,9 +65,11 @@ class UnalRepository(RepositoryInterface):
         # 2. Search for DSpace 7 items anchors (/items/<uuid>)
         for anchor in soup.select('a[href*="/items/"]'):
             href = anchor.get("href", "")
-            if not href or any(p in href for p in ["/browse", "/community-list", "/home"]):
+            if not href or any(
+                p in href for p in ["/browse", "/community-list", "/home"]
+            ):
                 continue
-            match = re.search(r'/items/([a-f0-9\-]{36})', href, re.IGNORECASE)
+            match = re.search(r"/items/([a-f0-9\-]{36})", href, re.IGNORECASE)
             if match:
                 full_url = f"{self.base_url}/items/{match.group(1)}"
                 if full_url not in links:
@@ -81,7 +89,9 @@ class UnalRepository(RepositoryInterface):
         if meta("citation_abstract_html_url"):
             paper_id = handle_from_unal_colombia_url(meta("citation_abstract_html_url"))
 
-        title = meta("citation_title") or (soup.title.get_text(strip=True) if soup.title else "")
+        title = meta("citation_title") or (
+            soup.title.get_text(strip=True) if soup.title else ""
+        )
         authors = [
             el.get("content", "").strip()
             for el in soup.select('meta[name="citation_author"]')
@@ -107,9 +117,12 @@ class UnalRepository(RepositoryInterface):
             "title": title,
             "abstract": abstract,
             "authors": authors,
-            "journal": meta("citation_journal_title") or meta("citation_publisher") or "Universidad Nacional de Colombia",
+            "journal": meta("citation_journal_title")
+            or meta("citation_publisher")
+            or "Universidad Nacional de Colombia",
             "doi": meta("citation_doi"),
-            "publication_date": meta("citation_publication_date") or meta("citation_date"),
+            "publication_date": meta("citation_publication_date")
+            or meta("citation_date"),
             "pdf_url": pdf_url,
             "source_repository": "unal_colombia",
         }
@@ -124,7 +137,7 @@ class UnalRepository(RepositoryInterface):
     ) -> List[Dict[str, Any]]:
         """Looks for documents in Repositorio UNAL and extracts metadata"""
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
         results: List[Dict[str, Any]] = []
 
         # 1. Try DSpace 7 REST discovery API
@@ -134,7 +147,10 @@ class UnalRepository(RepositoryInterface):
                 rest_params[k] = v
 
         rest_resp = self.http.get(self.rest_search_url, params=rest_params)
-        if rest_resp and ("application/json" in rest_resp.headers.get("content-type", "") or rest_resp.text.strip().startswith("{")):
+        if rest_resp and (
+            "application/json" in rest_resp.headers.get("content-type", "")
+            or rest_resp.text.strip().startswith("{")
+        ):
             try:
                 data = json.loads(rest_resp.text)
                 objects = (
@@ -167,29 +183,35 @@ class UnalRepository(RepositoryInterface):
                             if a.get("value")
                         ]
                         abstract_vals = meta_dict.get("dc.description.abstract", [])
-                        abstract = abstract_vals[0].get("value") if abstract_vals else ""
+                        abstract = (
+                            abstract_vals[0].get("value") if abstract_vals else ""
+                        )
                         date_vals = meta_dict.get("dc.date.issued", [])
                         pub_date = date_vals[0].get("value") if date_vals else ""
                         doi_vals = meta_dict.get("dc.identifier.doi", [])
                         doi = doi_vals[0].get("value") if doi_vals else ""
 
-                        results.append({
-                            "paper_id": handle_from_unal_colombia_url(item_url),
-                            "url": item_url,
-                            "title": title,
-                            "abstract": abstract,
-                            "authors": authors,
-                            "journal": "Universidad Nacional de Colombia",
-                            "doi": doi,
-                            "publication_date": pub_date,
-                            "pdf_url": None,
-                            "source_repository": "unal_colombia",
-                        })
+                        results.append(
+                            {
+                                "paper_id": handle_from_unal_colombia_url(item_url),
+                                "url": item_url,
+                                "title": title,
+                                "abstract": abstract,
+                                "authors": authors,
+                                "journal": "Universidad Nacional de Colombia",
+                                "doi": doi,
+                                "publication_date": pub_date,
+                                "pdf_url": None,
+                                "source_repository": "unal_colombia",
+                            }
+                        )
                     else:
                         # Fetch HTML for this item
                         art_resp = self.http.get(item_url)
                         if art_resp:
-                            results.append(self._extract_metadata(art_resp.text, item_url))
+                            results.append(
+                                self._extract_metadata(art_resp.text, item_url)
+                            )
 
                     if len(results) >= limit:
                         return results
@@ -234,7 +256,11 @@ class UnalRepository(RepositoryInterface):
         else:
             clean = paper_id.replace("unal_colombia_", "").replace("unal_", "")
             # Check for UUID (e.g. 44fc646d-bbad-4be9-b008-0147830d0039 or with _)
-            if re.match(r"^[a-f0-9]{8}[-_][a-f0-9]{4}[-_][a-f0-9]{4}[-_][a-f0-9]{4}[-_][a-f0-9]{12}$", clean, re.I):
+            if re.match(
+                r"^[a-f0-9]{8}[-_][a-f0-9]{4}[-_][a-f0-9]{4}[-_][a-f0-9]{4}[-_][a-f0-9]{12}$",
+                clean,
+                re.I,
+            ):
                 uuid_str = clean.replace("_", "-")
                 url = f"{self.base_url}/items/{uuid_str}"
             elif clean.isdigit():

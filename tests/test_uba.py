@@ -1,4 +1,3 @@
-import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -19,7 +18,9 @@ class TestUbaRepository(unittest.TestCase):
         )
 
         # FAUBA URL
-        url_fauba = "https://ri.agro.uba.ar/greenstone3/library/collection/ti/document/cd620"
+        url_fauba = (
+            "https://ri.agro.uba.ar/greenstone3/library/collection/ti/document/cd620"
+        )
         self.assertEqual(
             id_from_uba_url(url_fauba),
             "uba_fauba_ti_cd620",
@@ -52,8 +53,14 @@ class TestUbaRepository(unittest.TestCase):
         """
         links = repo._extract_article_links(html, "exactas")
         self.assertEqual(len(links), 2)
-        self.assertIn("https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n1234", links)
-        self.assertIn("https://bibliotecadigital.exactas.uba.ar/collection/paper/document/paper_5678", links)
+        self.assertIn(
+            "https://bibliotecadigital.exactas.uba.ar/collection/tesis/document/tesis_n1234",
+            links,
+        )
+        self.assertIn(
+            "https://bibliotecadigital.exactas.uba.ar/collection/paper/document/paper_5678",
+            links,
+        )
 
     def test_extract_metadata_exactas(self) -> None:
         repo = UbaRepository()
@@ -75,14 +82,24 @@ class TestUbaRepository(unittest.TestCase):
         """
         url = "https://bibliotecadigital.exactas.uba.ar/collection/ecologiaaustral/document/ecologiaaustral_v022_n01_p033"
         meta = repo._extract_metadata(html, url, "exactas")
-        self.assertEqual(meta["paper_id"], "uba_exactas_ecologiaaustral_ecologiaaustral_v022_n01_p033")
+        self.assertEqual(
+            meta["paper_id"],
+            "uba_exactas_ecologiaaustral_ecologiaaustral_v022_n01_p033",
+        )
         self.assertEqual(meta["title"], "Efectos del herbicida glifosato")
-        self.assertEqual(meta["authors"], ["Bartoli, Paula V.", "Verdenelli, Romina A."])
-        self.assertEqual(meta["abstract"], "Los herbicidas pueden alterar la estructura del suelo.")
+        self.assertEqual(
+            meta["authors"], ["Bartoli, Paula V.", "Verdenelli, Romina A."]
+        )
+        self.assertEqual(
+            meta["abstract"], "Los herbicidas pueden alterar la estructura del suelo."
+        )
         self.assertEqual(meta["publication_date"], "2012-04")
         self.assertEqual(meta["journal"], "Ecologia Austral")
         self.assertEqual(meta["doi"], "10.1234/exactas.2012.01")
-        self.assertEqual(meta["pdf_url"], "https://bibliotecadigital.exactas.uba.ar/download/ecologiaaustral/paper.pdf")
+        self.assertEqual(
+            meta["pdf_url"],
+            "https://bibliotecadigital.exactas.uba.ar/download/ecologiaaustral/paper.pdf",
+        )
         self.assertEqual(meta["source_repository"], "uba")
         self.assertEqual(meta["faculty"], "Exactas (FCEN)")
 
@@ -165,9 +182,13 @@ class TestUbaRepository(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp_dir:
             out_path = Path(tmp_dir)
-            res = repo.download_paper("uba_exactas_tesis_doc1", out_path, formats=["pdf"])
+            res = repo.download_paper(
+                "uba_exactas_tesis_doc1", out_path, formats=["pdf"]
+            )
             self.assertTrue(res["success"])
-            self.assertTrue((out_path / "uba_exactas_tesis_doc1_metadata.json").exists())
+            self.assertTrue(
+                (out_path / "uba_exactas_tesis_doc1_metadata.json").exists()
+            )
             self.assertTrue((out_path / "uba_exactas_tesis_doc1.pdf").exists())
 
 

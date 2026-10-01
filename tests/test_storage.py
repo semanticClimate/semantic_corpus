@@ -1,9 +1,8 @@
 """Tests for storage management functionality."""
 
-import pytest
 from pathlib import Path
+
 from semantic_corpus.storage.bagit_manager import BagitManager
-from semantic_corpus.core.exceptions import CorpusError
 
 
 class TestBagitManager:
@@ -12,13 +11,15 @@ class TestBagitManager:
     def test_bagit_manager_initialization(self, temp_dir: Path):
         """Test that BagitManager can be initialized with a directory."""
         bagit_manager = BagitManager(temp_dir)
-        assert bagit_manager.bag_dir == temp_dir, f"Expected bag_dir to be {temp_dir}, got {bagit_manager.bag_dir}"
+        assert bagit_manager.bag_dir == temp_dir, (
+            f"Expected bag_dir to be {temp_dir}, got {bagit_manager.bag_dir}"
+        )
 
     def test_create_bag_structure(self, temp_dir: Path):
         """Test creating a BAGIT-compliant bag structure."""
         bagit_manager = BagitManager(temp_dir)
         bagit_manager.create_bag()
-        
+
         # Check BAGIT required files
         assert Path(temp_dir, "bagit.txt").exists(), "bagit.txt should exist"
         assert Path(temp_dir, "bag-info.txt").exists(), "bag-info.txt should exist"
@@ -43,18 +44,20 @@ class TestBagitManager:
         }
         bagit_manager = BagitManager(temp_dir)
         bagit_manager.create_bag(metadata=metadata)
-        
+
         # Check bag-info.txt contains metadata
         bag_info = Path(temp_dir, "bag-info.txt")
         assert bag_info.exists(), "bag-info.txt should exist"
         content = bag_info.read_text()
-        assert "Source-Organization: Test Organization" in content, "bag-info.txt should contain 'Source-Organization: Test Organization'"
+        assert "Source-Organization: Test Organization" in content, (
+            "bag-info.txt should contain 'Source-Organization: Test Organization'"
+        )
 
     def test_validate_bag(self, temp_dir: Path):
         """Test validating an existing bag."""
         bagit_manager = BagitManager(temp_dir)
         bagit_manager.create_bag()
-        
+
         # Validation should pass for a valid bag
         is_valid = bagit_manager.validate_bag()
         assert is_valid is True, "Valid bag should return True"
@@ -63,14 +66,14 @@ class TestBagitManager:
         """Test adding a file to the bag data directory."""
         bagit_manager = BagitManager(temp_dir)
         bagit_manager.create_bag()
-        
+
         # Create a test file
         test_file = Path(temp_dir, "data", "test.txt")
         test_file.write_text("test content")
-        
+
         # Update manifest
         bagit_manager.update_manifest()
-        
+
         # Check manifest includes the file (check any manifest file that exists)
         manifest_files = [
             Path(temp_dir, "manifest-md5.txt"),
@@ -90,11 +93,15 @@ class TestBagitManager:
         }
         bagit_manager = BagitManager(temp_dir)
         bagit_manager.create_bag(metadata=metadata)
-        
+
         bag_info = bagit_manager.get_bag_info()
-        
-        assert "Source-Organization" in bag_info, "bag_info should contain 'Source-Organization'"
-        assert bag_info["Source-Organization"] == "Test Org", f"Expected 'Source-Organization' to be 'Test Org', got '{bag_info.get('Source-Organization')}'"
+
+        assert "Source-Organization" in bag_info, (
+            "bag_info should contain 'Source-Organization'"
+        )
+        assert bag_info["Source-Organization"] == "Test Org", (
+            f"Expected 'Source-Organization' to be 'Test Org', got '{bag_info.get('Source-Organization')}'"
+        )
         assert "Bag-Size" in bag_info, "bag_info should contain 'Bag-Size'"
 
     def test_create_structured_directories(self, temp_dir: Path):
@@ -102,28 +109,47 @@ class TestBagitManager:
         bagit_manager = BagitManager(temp_dir)
         bagit_manager.create_bag()
         bagit_manager.create_structured_directories()
-        
+
         # Check all required directories exist
-        assert Path(temp_dir, "data", "documents").exists(), "data/documents directory should exist"
-        assert Path(temp_dir, "data", "documents", "pdf").exists(), "data/documents/pdf directory should exist"
-        assert Path(temp_dir, "data", "documents", "xml").exists(), "data/documents/xml directory should exist"
-        assert Path(temp_dir, "data", "documents", "html").exists(), "data/documents/html directory should exist"
-        assert Path(temp_dir, "data", "semantic").exists(), "data/semantic directory should exist"
-        assert Path(temp_dir, "data", "metadata").exists(), "data/metadata directory should exist"
-        assert Path(temp_dir, "data", "keyphrases").exists(), "data/keyphrases directory should exist"
-        assert Path(temp_dir, "data", "indices").exists(), "data/indices directory should exist"
+        assert Path(temp_dir, "data", "documents").exists(), (
+            "data/documents directory should exist"
+        )
+        assert Path(temp_dir, "data", "documents", "pdf").exists(), (
+            "data/documents/pdf directory should exist"
+        )
+        assert Path(temp_dir, "data", "documents", "xml").exists(), (
+            "data/documents/xml directory should exist"
+        )
+        assert Path(temp_dir, "data", "documents", "html").exists(), (
+            "data/documents/html directory should exist"
+        )
+        assert Path(temp_dir, "data", "semantic").exists(), (
+            "data/semantic directory should exist"
+        )
+        assert Path(temp_dir, "data", "metadata").exists(), (
+            "data/metadata directory should exist"
+        )
+        assert Path(temp_dir, "data", "keyphrases").exists(), (
+            "data/keyphrases directory should exist"
+        )
+        assert Path(temp_dir, "data", "indices").exists(), (
+            "data/indices directory should exist"
+        )
         assert Path(temp_dir, "relations").exists(), "relations directory should exist"
         assert Path(temp_dir, "analysis").exists(), "analysis directory should exist"
-        assert Path(temp_dir, "provenance").exists(), "provenance directory should exist"
+        assert Path(temp_dir, "provenance").exists(), (
+            "provenance directory should exist"
+        )
 
     def test_validate_invalid_bag(self, temp_dir: Path):
         """Test validating an invalid bag (missing required files)."""
         # Create directory but not a valid bag
         Path(temp_dir, "data").mkdir()
-        
+
         bagit_manager = BagitManager(temp_dir)
-        
+
         # Validation should fail
         is_valid = bagit_manager.validate_bag()
-        assert is_valid is False, "Invalid bag (missing required files) should return False"
-
+        assert is_valid is False, (
+            "Invalid bag (missing required files) should return False"
+        )

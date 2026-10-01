@@ -9,7 +9,9 @@ from lxml import etree
 from semantic_corpus.core.exceptions import CorpusError
 
 _XLINK_HREF = "{http://www.w3.org/1999/xlink}href"
-_PMC_IMAGE_BASE = "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline"
+_PMC_IMAGE_BASE = (
+    "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop/inline"
+)
 
 
 def _local_name(tag: str) -> str:
@@ -32,7 +34,11 @@ def _inline_html(element: etree._Element) -> str:
         for child in element:
             if child.tail:
                 inner += html.escape(child.tail)
-        parent_name = _local_name(element.getparent().tag) if element.getparent() is not None else ""
+        parent_name = (
+            _local_name(element.getparent().tag)
+            if element.getparent() is not None
+            else ""
+        )
         tag = "h2" if name == "title" and parent_name == "sec" else name
         if name == "title" and parent_name == "title-group":
             tag = "h1"
@@ -234,7 +240,7 @@ th, td {{ border: 1px solid #ccc; padding: 0.4rem 0.6rem; text-align: left; }}
 <p class="meta">Figures: {figure_count} | Tables: {table_count} | Source: {html.escape(xml_path.name)}</p>
 </header>
 <section class="abstract">{abstract_html}</section>
-<main>{''.join(body_parts)}</main>
+<main>{"".join(body_parts)}</main>
 </body>
 </html>
 """

@@ -1,7 +1,6 @@
 """Utility functions for semantic_corpus."""
 
 from pathlib import Path
-from typing import Optional
 
 
 def get_project_temp_dir() -> Path:
@@ -35,5 +34,3 @@ def get_test_results_dir() -> Path:
     test_dir = Path(get_project_temp_dir(), "test_results")
     test_dir.mkdir(parents=True, exist_ok=True)
     return test_dir
-
-

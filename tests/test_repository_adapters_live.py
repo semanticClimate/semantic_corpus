@@ -9,7 +9,6 @@ from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.corpus_review.query_run import load_pilot_config
 from semantic_corpus.repositories._ids import get_result_paper_id
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_DIR = REPO_ROOT / "config"
 
@@ -112,7 +111,9 @@ class TestRedalycLiveSmoke:
         assert metadata.get("title"), "Redalyc metadata should include title"
         assert metadata.get("pdf_url"), "Known Redalyc article should expose PDF URL"
 
-        download = repo.download_paper(self.KNOWN_ARTICLE_ID, temp_dir, formats=["html", "pdf"])
+        download = repo.download_paper(
+            self.KNOWN_ARTICLE_ID, temp_dir, formats=["html", "pdf"]
+        )
         assert download["success"] is True
         assert any(path.endswith(".pdf") for path in download["files"])
 

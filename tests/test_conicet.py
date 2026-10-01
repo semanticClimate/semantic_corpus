@@ -3,6 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import MagicMock
+
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.repositories._ids import handle_from_conicet_url
 from semantic_corpus.repositories.conicet import ConicetRepository
@@ -73,7 +74,10 @@ class TestConicetRepository(unittest.TestCase):
         self.assertEqual(meta["publication_date"], "2023-05-12")
         self.assertEqual(meta["journal"], "Revista Argentina de Clima")
         self.assertEqual(meta["doi"], "10.1234/conicet.2023.01")
-        self.assertEqual(meta["pdf_url"], "https://ri.conicet.gov.ar/bitstream/handle/11336/183921/paper.pdf")
+        self.assertEqual(
+            meta["pdf_url"],
+            "https://ri.conicet.gov.ar/bitstream/handle/11336/183921/paper.pdf",
+        )
         self.assertEqual(meta["source_repository"], "conicet")
 
     def test_search_papers(self) -> None:
@@ -142,7 +146,11 @@ class TestConicetRepository(unittest.TestCase):
             self.assertTrue((tmp_path / "conicet_11336_183921_metadata.json").exists())
             self.assertTrue((tmp_path / "conicet_11336_183921.pdf").exists())
 
-            saved_json = json.loads((tmp_path / "conicet_11336_183921_metadata.json").read_text(encoding="utf-8"))
+            saved_json = json.loads(
+                (tmp_path / "conicet_11336_183921_metadata.json").read_text(
+                    encoding="utf-8"
+                )
+            )
             self.assertEqual(saved_json["title"], "Articulo Descarga")
 
     def test_get_repository_info(self) -> None:

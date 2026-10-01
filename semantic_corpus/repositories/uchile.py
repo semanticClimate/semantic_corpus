@@ -40,12 +40,18 @@ class UchileRepository(RepositoryInterface):
                     prefix = "0" * diff
                     nonce = 0
                     while True:
-                        h = hashlib.sha256((rand_data + str(nonce)).encode("utf-8")).hexdigest()
+                        h = hashlib.sha256(
+                            (rand_data + str(nonce)).encode("utf-8")
+                        ).hexdigest()
                         if h.startswith(prefix):
                             break
                         nonce += 1
                     req_obj = getattr(resp, "request", None)
-                    redir = getattr(req_obj, "path_url", "/discover") if req_obj else "/discover"
+                    redir = (
+                        getattr(req_obj, "path_url", "/discover")
+                        if req_obj
+                        else "/discover"
+                    )
                     pass_url = (
                         f"{self.base_url}/.within.website/x/cmd/anubis/api/pass-challenge"
                         f"?id={chall['id']}&response={h}&nonce={nonce}&redir={redir}&elapsedTime=100"
@@ -55,7 +61,6 @@ class UchileRepository(RepositoryInterface):
                 pass
         return resp
 
-
     def _extract_article_links(self, html: str) -> List[str]:
         soup = BeautifulSoup(html, "html.parser")
         links: List[str] = []
@@ -63,7 +68,7 @@ class UchileRepository(RepositoryInterface):
             href = anchor.get("href", "")
             if not href or any(p in href for p in ["/browse", "/community-list"]):
                 continue
-            match = re.search(r'/handle/(\d+(?:\.\d+)?)/(\d+)', href)
+            match = re.search(r"/handle/(\d+(?:\.\d+)?)/(\d+)", href)
             if match:
                 full_url = f"{self.base_url}/handle/{match.group(1)}/{match.group(2)}"
                 if full_url not in links:
@@ -79,7 +84,9 @@ class UchileRepository(RepositoryInterface):
             el = soup.select_one(f'meta[name="{name}"]')
             return el.get("content", "").strip() if el else ""
 
-        title = meta("citation_title") or (soup.title.get_text(strip=True) if soup.title else "")
+        title = meta("citation_title") or (
+            soup.title.get_text(strip=True) if soup.title else ""
+        )
         authors = [
             el.get("content", "").strip()
             for el in soup.select('meta[name="citation_author"]')
@@ -96,9 +103,12 @@ class UchileRepository(RepositoryInterface):
             "title": title,
             "abstract": abstract,
             "authors": authors,
-            "journal": meta("citation_journal_title") or meta("citation_publisher") or "Universidad de Chile",
+            "journal": meta("citation_journal_title")
+            or meta("citation_publisher")
+            or "Universidad de Chile",
             "doi": meta("citation_doi"),
-            "publication_date": meta("citation_publication_date") or meta("citation_date"),
+            "publication_date": meta("citation_publication_date")
+            or meta("citation_date"),
             "pdf_url": pdf_url,
             "source_repository": "uchile",
         }
@@ -113,7 +123,7 @@ class UchileRepository(RepositoryInterface):
     ) -> List[Dict[str, Any]]:
         """Looks for documents in Repositorio Académico Uchile and extracts metadata"""
         del start_date, end_date
-        clean_query = query.strip('()"\' ')
+        clean_query = query.strip("()\"' ")
         params = {"query": clean_query, "rpp": min(limit, 20)}
         response = self._get_with_anubis(self.search_url, params=params)
         if not response:
@@ -194,7 +204,6 @@ class UchileRepository(RepositoryInterface):
                 }
 
         return {"success": True, "paper_id": safe_id, "files": downloaded_files}
-
 
     def get_repository_info(self) -> Dict[str, Any]:
         return {

@@ -1,20 +1,22 @@
 """Factory for creating repository instances."""
 
 from typing import Dict, List, Type
-from semantic_corpus.core.repository_interface import RepositoryInterface
+
 from semantic_corpus.core.exceptions import RepositoryError
-from semantic_corpus.repositories.europe_pmc import EuropePMCRepository
+from semantic_corpus.core.repository_interface import RepositoryInterface
 from semantic_corpus.repositories.arxiv import ArxivRepository
-from semantic_corpus.repositories.openalex import OpenAlexRepository
-from semantic_corpus.repositories.scielo import SciELORepository
-from semantic_corpus.repositories.redalyc import RedalycRepository
 from semantic_corpus.repositories.conicet import ConicetRepository
-from semantic_corpus.repositories.uba import UbaRepository
-from semantic_corpus.repositories.usp import UspRepository
-from semantic_corpus.repositories.uchile import UchileRepository
+from semantic_corpus.repositories.europe_pmc import EuropePMCRepository
 from semantic_corpus.repositories.kerwa import KerwaRepository
-from semantic_corpus.repositories.unam_mexico import UnamRepository
+from semantic_corpus.repositories.openalex import OpenAlexRepository
+from semantic_corpus.repositories.redalyc import RedalycRepository
+from semantic_corpus.repositories.scielo import SciELORepository
+from semantic_corpus.repositories.uba import UbaRepository
+from semantic_corpus.repositories.uchile import UchileRepository
 from semantic_corpus.repositories.unal_colombia import UnalRepository
+from semantic_corpus.repositories.unam_mexico import UnamRepository
+from semantic_corpus.repositories.usp import UspRepository
+
 
 class RepositoryFactory:
     """Factory class for creating repository instances.
@@ -27,28 +29,27 @@ class RepositoryFactory:
         "openalex": OpenAlexRepository,
         "scielo": SciELORepository,
         "redalyc": RedalycRepository,
-        "conicet": ConicetRepository, #PDFs
-        "uba": UbaRepository, #PDFs
-        "usp": UspRepository, #PDFs
+        "conicet": ConicetRepository,  # PDFs
+        "uba": UbaRepository,  # PDFs
+        "usp": UspRepository,  # PDFs
         "uchile": UchileRepository,
-        "kerwa": KerwaRepository, #Costa Rica University
+        "kerwa": KerwaRepository,  # Costa Rica University
         "unam_mexico": UnamRepository,
         "unam": UnamRepository,
         "unal_colombia": UnalRepository,
         "unal": UnalRepository,
     }
 
-
     @classmethod
     def get_repository(cls, name: str) -> RepositoryInterface:
         """Get a repository instance by name.
-        
+
         Args:
             name: Repository name
-            
+
         Returns:
             Repository instance
-            
+
         Raises:
             RepositoryError: If repository not found
         """
@@ -57,22 +58,24 @@ class RepositoryFactory:
             raise RepositoryError(
                 f"Repository '{name}' not found. Available repositories: {available}"
             )
-        
+
         return cls._repositories[name]()
 
     @classmethod
     def list_repositories(cls) -> List[str]:
         """List all available repository names.
-        
+
         Returns:
             List of repository names
         """
         return list(cls._repositories.keys())
 
     @classmethod
-    def register_repository(cls, name: str, repository_class: Type[RepositoryInterface]) -> None:
+    def register_repository(
+        cls, name: str, repository_class: Type[RepositoryInterface]
+    ) -> None:
         """Register a new repository class.
-        
+
         Args:
             name: Repository name
             repository_class: Repository class to register
