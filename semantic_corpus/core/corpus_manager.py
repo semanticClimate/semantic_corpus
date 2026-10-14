@@ -34,7 +34,7 @@ class CorpusManager:
         try:
             self.corpus_dir.mkdir(parents=True, exist_ok=True)
         except (OSError, PermissionError) as e:
-            raise CorpusError(f"Cannot create corpus directory: {e}")
+            raise CorpusError(f"Cannot create corpus directory: {e}") from e
 
         # Initialize BAGIT if requested
         if self.use_bagit:
@@ -96,7 +96,7 @@ class CorpusManager:
             return True
 
         except (OSError, json.JSONEncodeError) as e:
-            raise CorpusError(f"Cannot add paper {paper_id}: {e}")
+            raise CorpusError(f"Cannot add paper {paper_id}: {e}") from e
 
     def get_paper_metadata(self, paper_id: str) -> Dict[str, Any]:
         """Get metadata for a paper.
@@ -127,7 +127,7 @@ class CorpusManager:
             with open(metadata_file, "r", encoding="utf-8") as f:
                 return json.load(f)
         except (OSError, json.JSONDecodeError) as e:
-            raise CorpusError(f"Cannot read metadata for paper {paper_id}: {e}")
+            raise CorpusError(f"Cannot read metadata for paper {paper_id}: {e}") from e
 
     def list_papers(self) -> List[str]:
         """List all papers in the corpus.

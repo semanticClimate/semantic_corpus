@@ -136,7 +136,7 @@ class ArxivRepository(RepositoryInterface):
             return results[:limit]
 
         except (requests.RequestException, ET.ParseError) as e:
-            raise RepositoryError(f"arXiv search failed: {e}")
+            raise RepositoryError(f"arXiv search failed: {e}") from e
 
     def get_paper_metadata(self, paper_id: str) -> Dict[str, Any]:
         """Get metadata for a specific paper from arXiv."""
@@ -185,7 +185,7 @@ class ArxivRepository(RepositoryInterface):
             }
 
         except (requests.RequestException, ET.ParseError) as e:
-            raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}")
+            raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}") from e
 
     def download_paper(
         self, paper_id: str, output_dir: Path, formats: List[str] = None
@@ -222,7 +222,7 @@ class ArxivRepository(RepositoryInterface):
             return {"success": True, "paper_id": paper_id, "files": downloaded_files}
 
         except requests.RequestException as e:
-            raise RepositoryError(f"Failed to download {paper_id}: {e}")
+            raise RepositoryError(f"Failed to download {paper_id}: {e}") from e
 
     def get_repository_info(self) -> Dict[str, Any]:
         """Get information about arXiv repository."""

@@ -57,9 +57,6 @@ class TestOpenAlexLiveSmoke:
     def test_run_pilot_from_openalex_config(self, temp_dir: Path, monkeypatch) -> None:
         from semantic_corpus.corpus_review import workflow
 
-        config = load_pilot_config(ADAPTER_CONFIGS["openalex"])
-        output_dir = Path(temp_dir, "queries", config["output_subdir"])
-
         def fake_temp_dir():
             return str(temp_dir)
 

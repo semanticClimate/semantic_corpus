@@ -10,7 +10,7 @@ class TestCorpusManagerBagit:
 
     def test_corpus_manager_with_bagit(self, temp_dir: Path):
         """Test creating a corpus with BAGIT support."""
-        corpus_manager = CorpusManager(temp_dir, use_bagit=True)
+        CorpusManager(temp_dir, use_bagit=True)
 
         # Check BAGIT files exist
         assert Path(temp_dir, "bagit.txt").exists(), (

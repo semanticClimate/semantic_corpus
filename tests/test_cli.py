@@ -164,7 +164,7 @@ formats: [xml]
                 print(f"CLI failed with return code {result.returncode}")
                 print(f"STDOUT: {result.stdout}")
                 print(f"STDERR: {result.stderr}")
-                assert False, f"CLI failed unexpectedly: {result.stderr}"
+                pytest.fail(f"CLI failed unexpectedly: {result.stderr}")
 
         assert result.returncode == 0, (
             f"Command should succeed, got return code {result.returncode}"

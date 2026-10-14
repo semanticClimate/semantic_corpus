@@ -57,7 +57,7 @@ class MetadataExtractor:
             return metadata
 
         except Exception as e:
-            raise MetadataError(f"Failed to extract metadata from XML: {e}")
+            raise MetadataError(f"Failed to extract metadata from XML: {e}") from e
 
     def extract_from_pdf(self, pdf_path: Path) -> Dict[str, Any]:
         """Extract metadata from PDF file.
@@ -100,7 +100,7 @@ class MetadataExtractor:
             return metadata
 
         except Exception as e:
-            raise MetadataError(f"Failed to extract metadata from PDF: {e}")
+            raise MetadataError(f"Failed to extract metadata from PDF: {e}") from e
 
     def extract_from_json(self, json_path: Path) -> Dict[str, Any]:
         """Extract metadata from JSON file.
@@ -117,7 +117,7 @@ class MetadataExtractor:
             return metadata
 
         except Exception as e:
-            raise MetadataError(f"Failed to extract metadata from JSON: {e}")
+            raise MetadataError(f"Failed to extract metadata from JSON: {e}") from e
 
     def extract_from_file(self, file_path: Path) -> Dict[str, Any]:
         """Extract metadata from file based on extension.

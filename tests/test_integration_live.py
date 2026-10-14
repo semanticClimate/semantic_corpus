@@ -5,6 +5,7 @@ from pathlib import Path
 import pytest
 
 from semantic_corpus.core.corpus_manager import CorpusManager
+from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_factory import RepositoryFactory
 
 
@@ -207,15 +208,15 @@ class TestLiveIntegration:
     def test_error_handling_with_live_apis(self):
         """Test error handling with live APIs."""
         # Test invalid repository
-        with pytest.raises(Exception):  # Should raise RepositoryError
+        with pytest.raises(RepositoryError):
             RepositoryFactory.get_repository("invalid_repository")
 
         # Test invalid paper ID
         repo = RepositoryFactory.get_repository("europe_pmc")
-        with pytest.raises(Exception):  # Should raise RepositoryError
+        with pytest.raises(RepositoryError):
             repo.get_paper_metadata("INVALID_ID_12345")
 
         # Test invalid arXiv ID
         arxiv_repo = RepositoryFactory.get_repository("arxiv")
-        with pytest.raises(Exception):  # Should raise RepositoryError
+        with pytest.raises(RepositoryError):
             arxiv_repo.get_paper_metadata("9999.9999")

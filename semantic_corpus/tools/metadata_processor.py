@@ -57,7 +57,7 @@ class MetadataProcessor:
             return metadata
 
         except Exception as e:
-            raise MetadataError(f"Failed to process XML metadata: {e}")
+            raise MetadataError(f"Failed to process XML metadata: {e}") from e
 
     def process_pdf_metadata(self, pdf_path: Path) -> Dict[str, Any]:
         """Process metadata from PDF file.
@@ -101,7 +101,7 @@ class MetadataProcessor:
             return metadata
 
         except Exception as e:
-            raise MetadataError(f"Failed to process PDF metadata: {e}")
+            raise MetadataError(f"Failed to process PDF metadata: {e}") from e
 
     def normalize_metadata(self, raw_metadata: Dict[str, Any]) -> Dict[str, Any]:
         """Normalize metadata from different sources.
