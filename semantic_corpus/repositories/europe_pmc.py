@@ -171,7 +171,7 @@ class EuropePMCRepository(RepositoryInterface):
             return results[:limit]
 
         except requests.RequestException as e:
-            raise RepositoryError(f"Europe PMC search failed: {e}")
+            raise RepositoryError(f"Europe PMC search failed: {e}") from e
 
     def get_paper_metadata(self, paper_id: str) -> Dict[str, Any]:
         """Get metadata for a specific paper from Europe PMC."""
@@ -180,7 +180,7 @@ class EuropePMCRepository(RepositoryInterface):
             return self._paper_to_result(paper)
 
         except requests.RequestException as e:
-            raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}")
+            raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}") from e
 
     def download_paper(
         self, paper_id: str, output_dir: Path, formats: List[str] = None
@@ -242,7 +242,7 @@ class EuropePMCRepository(RepositoryInterface):
         except RepositoryError:
             raise
         except requests.RequestException as e:
-            raise RepositoryError(f"Failed to download {paper_id}: {e}")
+            raise RepositoryError(f"Failed to download {paper_id}: {e}") from e
 
     def get_repository_info(self) -> Dict[str, Any]:
         """Get information about Europe PMC repository."""

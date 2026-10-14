@@ -132,8 +132,7 @@ class TestEuropePMCRepository:
         """PDF download should first try the zipped PDF on the EBI OA FTP mirror."""
         repo = EuropePMCRepository()
         ftp_url = (
-            "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA/"
-            "PMCxxxx1292/PMC12911782.zip"
+            "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA/PMCxxxx1292/PMC12911782.zip"
         )
         archive = io.BytesIO()
         with zipfile.ZipFile(archive, "w") as zf:
