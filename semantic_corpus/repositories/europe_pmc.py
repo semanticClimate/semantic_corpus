@@ -1,6 +1,7 @@
 """Europe PMC repository implementation."""
 
 import io
+import re
 import zipfile
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -10,7 +11,11 @@ import requests
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
 
-# Bulk open-access PDF mirror (what europepmc.org/ftp/pdf/ points to)
+# PMC Article Datasets on AWS Open Data: updated daily, one folder per
+# article version, e.g. PMC13380480.1/PMC13380480.1.pdf
+PMC_OA_S3 = "https://pmc-oa-opendata.s3.amazonaws.com"
+# Bulk open-access PDF mirror (what europepmc.org/ftp/pdf/ points to); lags
+# behind the newest articles and has gaps
 EUROPE_PMC_OA_PDF_FTP = "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA"
 PDF_TIMEOUT_SECONDS = 60
 
@@ -54,6 +59,31 @@ class EuropePMCRepository(RepositoryInterface):
             raise RepositoryError(f"Paper {paper_id} not found")
 
         return data["resultList"]["result"][0]
+
+    @staticmethod
+    def _s3_pdf_url(pmcid: str) -> Optional[str]:
+        """Return the PMC Open Data (AWS S3) URL of the latest PDF version, if any."""
+        try:
+            response = requests.get(
+                PMC_OA_S3,
+                params={"list-type": "2", "prefix": f"{pmcid}."},
+                timeout=PDF_TIMEOUT_SECONDS,
+            )
+            response.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        # Keys look like PMC123.2/PMC123.2.pdf; pick the highest version
+        versions = [
+            int(match)
+            for match in re.findall(
+                rf"<Key>{pmcid}\.(\d+)/{pmcid}\.\1\.pdf</Key>", response.text
+            )
+        ]
+        if not versions:
+            return None
+        version = max(versions)
+        return f"{PMC_OA_S3}/{pmcid}.{version}/{pmcid}.{version}.pdf"
 
     @staticmethod
     def _ftp_pdf_url(pmcid: str) -> str:
@@ -110,9 +140,10 @@ class EuropePMCRepository(RepositoryInterface):
     ) -> Optional[bytes]:
         """Try each known PDF source for a paper, most reliable first."""
         if pmcid:
-            pdf = self._fetch_pdf(self._ftp_pdf_url(pmcid))
-            if pdf:
-                return pdf
+            for url in (self._s3_pdf_url(pmcid), self._ftp_pdf_url(pmcid)):
+                pdf = self._fetch_pdf(url) if url else None
+                if pdf:
+                    return pdf
 
         if paper is None:
             try:

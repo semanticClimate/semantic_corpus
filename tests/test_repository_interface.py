@@ -128,8 +128,43 @@ class TestEuropePMCRepository:
                 f"Downloaded file {file_path} should not be empty"
             )
 
+    def test_europe_pmc_download_pdf_from_s3_latest_version(
+        self, tmp_path, monkeypatch
+    ):
+        """PDF download should first use the newest version on PMC Open Data (S3)."""
+        repo = EuropePMCRepository()
+        s3 = "https://pmc-oa-opendata.s3.amazonaws.com"
+        listing = (
+            "<ListBucketResult>"
+            "<Key>PMC123.1/PMC123.1.pdf</Key><Key>PMC123.1/PMC123.1.xml</Key>"
+            "<Key>PMC123.2/PMC123.2.pdf</Key><Key>PMC123.2/fig1.jpg</Key>"
+            "</ListBucketResult>"
+        )
+        requested_urls = []
+
+        class FakeResponse:
+            text = listing
+            content = b"%PDF-1.7\n"
+
+            def raise_for_status(self):
+                return None
+
+        def fake_get(url, **kwargs):
+            requested_urls.append(url)
+            return FakeResponse()
+
+        monkeypatch.setattr(
+            "semantic_corpus.repositories.europe_pmc.requests.get", fake_get
+        )
+
+        result = repo.download_paper("PMC123", tmp_path, formats=["pdf"])
+
+        assert result["success"] is True
+        assert (tmp_path / "PMC123.pdf").read_bytes() == b"%PDF-1.7\n"
+        assert requested_urls == [s3, f"{s3}/PMC123.2/PMC123.2.pdf"]
+
     def test_europe_pmc_download_pdf_from_ftp_zip(self, tmp_path, monkeypatch):
-        """PDF download should first try the zipped PDF on the EBI OA FTP mirror."""
+        """PDF download should use the EBI OA FTP zip when S3 has no PDF."""
         repo = EuropePMCRepository()
         ftp_url = (
             "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA/PMCxxxx1292/PMC12911782.zip"
@@ -140,6 +175,7 @@ class TestEuropePMCRepository:
         requested_urls = []
 
         class FakeResponse:
+            text = "<ListBucketResult></ListBucketResult>"
             content = archive.getvalue()
 
             def raise_for_status(self):
@@ -157,7 +193,7 @@ class TestEuropePMCRepository:
 
         assert result["success"] is True
         assert (tmp_path / "PMC12911782.pdf").read_bytes() == b"%PDF-1.7\n"
-        assert requested_urls == [ftp_url]
+        assert requested_urls[-1] == ftp_url
 
     def test_europe_pmc_download_pdf_uses_full_text_url(self, tmp_path, monkeypatch):
         """PDF download should fall back to the advertised free-full-text URL."""
@@ -180,7 +216,7 @@ class TestEuropePMCRepository:
 
         def fake_get(url, params=None, **kwargs):
             requested_urls.append(url)
-            if "ftp.ebi.ac.uk" in url:
+            if "ftp.ebi.ac.uk" in url or "pmc-oa-opendata" in url:
                 return FakeResponse(status=404)
             if url.endswith("/search"):
                 return FakeResponse(
