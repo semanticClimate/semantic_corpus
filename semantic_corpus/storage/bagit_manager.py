@@ -26,6 +26,10 @@ class BagitManager:
         # Ensure bag directory exists
         self.bag_dir.mkdir(parents=True, exist_ok=True)
 
+        # Already a bag: bagit.make_bag would move everything into data/ again
+        if Path(self.bag_dir, "bagit.txt").exists():
+            return
+
         # Create data directory (required by BAGIT)
         data_dir = Path(self.bag_dir, "data")
         data_dir.mkdir(parents=True, exist_ok=True)
@@ -69,7 +73,7 @@ class BagitManager:
             bag = bagit.Bag(str(self.bag_dir))
             bag.save(manifests=True)
         except bagit.BagError as e:
-            raise ValueError(f"Failed to update manifest: {e}")
+            raise ValueError(f"Failed to update manifest: {e}") from e
 
     def get_bag_info(self) -> Dict[str, str]:
         """Get bag information from bag-info.txt.

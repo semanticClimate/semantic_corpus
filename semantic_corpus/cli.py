@@ -118,6 +118,38 @@ def create_parser() -> argparse.ArgumentParser:
         "--verbose", "-v", action="store_true", help="Enable verbose output"
     )
 
+    # Import local PDFs command
+    import_parser = subparsers.add_parser(
+        "import", help="Import a local directory of PDFs into a corpus"
+    )
+    import_parser.add_argument(
+        "--pdf-dir", "-d", required=True, help="Directory containing PDF files"
+    )
+    import_parser.add_argument("--name", "-n", required=True, help="Corpus name")
+    import_parser.add_argument(
+        "--path",
+        "-p",
+        type=str,
+        help="Corpus parent directory (default: temp/corpus)",
+    )
+    import_parser.add_argument(
+        "--recursive", "-r", action="store_true", help="Also import PDFs in subfolders"
+    )
+    import_parser.add_argument(
+        "--prefix", default="local_", help="Prefix for corpus paper IDs"
+    )
+    import_parser.add_argument(
+        "--convert",
+        action="store_true",
+        help="Also convert imported PDFs to HTML/XML (via Docling)",
+    )
+    import_parser.add_argument(
+        "--ocr", action="store_true", help="Enable OCR during PDF conversion"
+    )
+    import_parser.add_argument(
+        "--verbose", "-v", action="store_true", help="Enable verbose output"
+    )
+
     return parser
 
 
@@ -130,7 +162,7 @@ def create_corpus_command(args) -> None:
             # Use project temp directory as default
             corpus_dir = get_corpus_dir() / args.name
 
-        corpus_manager = CorpusManager(corpus_dir)
+        CorpusManager(corpus_dir)
         print(f"Corpus '{args.name}' created successfully at {corpus_dir}")
 
     except CorpusError as e:
@@ -273,6 +305,55 @@ def convert_command(args) -> None:
         sys.exit(1)
 
 
+def import_pdfs_command(args) -> None:
+    """Handle import local PDFs command."""
+    from semantic_corpus.ingestion.local_pdf_ingester import (
+        ingest_local_pdf_directory,
+    )
+
+    try:
+        if args.path:
+            corpus_dir = Path(args.path) / args.name
+        else:
+            corpus_dir = get_corpus_dir() / args.name
+
+        corpus = CorpusManager(corpus_dir, use_bagit=True)
+        corpus.create_structured_directories()
+
+        summary = ingest_local_pdf_directory(
+            Path(args.pdf_dir),
+            corpus,
+            paper_id_prefix=args.prefix,
+            recursive=args.recursive,
+        )
+
+        print(f"Imported {len(summary['added'])} PDFs into {corpus_dir}")
+        if summary["duplicates"]:
+            print(f"  - {len(summary['duplicates'])} already in corpus (skipped)")
+        if summary["skipped"]:
+            print(f"  - {len(summary['skipped'])} could not be imported:")
+            for item in summary["skipped"]:
+                print(f"      {item['path']}: {item['reason']}")
+        if args.verbose:
+            for paper_id in summary["added"]:
+                print(f"  + {paper_id}")
+
+        if args.convert and summary["added"]:
+            from semantic_corpus.transformation.pdf_to_html import (
+                ensure_corpus_formats,
+            )
+
+            conversion = ensure_corpus_formats(corpus_dir, do_ocr=args.ocr)
+            print(
+                "Converted PDF to HTML (via Docling): "
+                f"{len(conversion['converted_pdf_to_html'])} papers"
+            )
+
+    except CorpusError as e:
+        print(f"Error importing PDFs: {e.message}", file=sys.stderr)
+        sys.exit(1)
+
+
 def main() -> None:
     """Main CLI entry point."""
     parser = create_parser()
@@ -313,7 +394,7 @@ def main() -> None:
         # Find the command position and insert config args after it
         command_found = False
         for i, arg in enumerate(all_args):
-            if arg in ["create", "search", "download", "convert"]:
+            if arg in ["create", "search", "download", "convert", "import"]:
                 all_args = all_args[: i + 1] + config_args + all_args[i + 1 :]
                 command_found = True
                 break
@@ -335,6 +416,8 @@ def main() -> None:
         download_papers_command(args)
     elif args.command == "convert":
         convert_command(args)
+    elif args.command == "import":
+        import_pdfs_command(args)
     else:
         parser.print_help()
         sys.exit(1)
