@@ -1,5 +1,7 @@
 """Europe PMC repository implementation."""
 
+import io
+import zipfile
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -7,6 +9,10 @@ import requests
 
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
+
+# Bulk open-access PDF mirror (what europepmc.org/ftp/pdf/ points to)
+EUROPE_PMC_OA_PDF_FTP = "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA"
+PDF_TIMEOUT_SECONDS = 60
 
 
 class EuropePMCRepository(RepositoryInterface):
@@ -49,22 +55,80 @@ class EuropePMCRepository(RepositoryInterface):
 
         return data["resultList"]["result"][0]
 
-    def _find_pdf_url(self, paper: Dict[str, Any], pmcid: str) -> Optional[str]:
-        """Return the best open-access PDF URL for a Europe PMC record."""
+    @staticmethod
+    def _ftp_pdf_url(pmcid: str) -> str:
+        """Return the EBI FTP URL of the zipped open-access PDF for a PMCID.
+
+        Files are bucketed in groups of 10,000, e.g. PMC12911782 lives in
+        PMCxxxx1292/PMC12911782.zip. This mirror is not behind Cloudflare,
+        unlike the europepmc.org web endpoints.
+        """
+        number = int(pmcid[3:])
+        bucket = -(-number // 10000)  # ceiling division
+        return f"{EUROPE_PMC_OA_PDF_FTP}/PMCxxxx{bucket:03d}/{pmcid}.zip"
+
+    @staticmethod
+    def _full_text_pdf_urls(paper: Dict[str, Any]) -> List[str]:
+        """Return free/open-access PDF links advertised in a Europe PMC record."""
         full_text_urls = paper.get("fullTextUrlList", {}).get("fullTextUrl", [])
         if isinstance(full_text_urls, dict):
             full_text_urls = [full_text_urls]
 
-        for entry in full_text_urls:
-            if (
-                entry.get("documentStyle") == "pdf"
-                and entry.get("availabilityCode") == "OA"
-                and entry.get("url")
-            ):
-                return entry["url"]
+        return [
+            entry["url"]
+            for entry in full_text_urls
+            if entry.get("documentStyle") == "pdf"
+            and entry.get("availabilityCode") in ("OA", "F")
+            and entry.get("url")
+        ]
 
+    @staticmethod
+    def _fetch_pdf(url: str) -> Optional[bytes]:
+        """Fetch a PDF (or a zip containing one); None if the response is not a PDF."""
+        try:
+            response = requests.get(url, timeout=PDF_TIMEOUT_SECONDS)
+            response.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        content = response.content
+        if url.endswith(".zip"):
+            try:
+                with zipfile.ZipFile(io.BytesIO(content)) as archive:
+                    names = [
+                        n for n in archive.namelist() if n.lower().endswith(".pdf")
+                    ]
+                    content = archive.read(names[0]) if names else b""
+            except zipfile.BadZipFile:
+                return None
+
+        # Cloudflare challenges and reCAPTCHA pages come back as HTML
+        return content if content.startswith(b"%PDF") else None
+
+    def _download_pdf(
+        self, paper_id: str, paper: Optional[Dict[str, Any]], pmcid: str
+    ) -> Optional[bytes]:
+        """Try each known PDF source for a paper, most reliable first."""
         if pmcid:
-            return f"https://europepmc.org/articles/{pmcid}?pdf=render"
+            pdf = self._fetch_pdf(self._ftp_pdf_url(pmcid))
+            if pdf:
+                return pdf
+
+        if paper is None:
+            try:
+                paper = self._search_one_paper(paper_id)
+            except (RepositoryError, requests.RequestException):
+                paper = {}
+
+        candidates = self._full_text_pdf_urls(paper)
+        if pmcid:
+            # Web endpoint; often blocked for scripts by Cloudflare (HTTP 403)
+            candidates.append(f"https://europepmc.org/articles/{pmcid}?pdf=render")
+
+        for url in dict.fromkeys(candidates):
+            pdf = self._fetch_pdf(url)
+            if pdf:
+                return pdf
 
         return None
 
@@ -160,21 +224,12 @@ class EuropePMCRepository(RepositoryInterface):
                         downloaded_files.append(str(xml_file))
 
                     elif format_type == "pdf":
-                        pdf_url = self._find_pdf_url(paper or {}, pmcid)
-                        if not pdf_url:
-                            continue
-
-                        response = requests.get(pdf_url)
-                        response.raise_for_status()
-                        content_type = response.headers.get("content-type", "")
-                        if (
-                            "pdf" not in content_type.lower()
-                            and not response.content.startswith(b"%PDF")
-                        ):
+                        pdf = self._download_pdf(paper_id, paper, pmcid)
+                        if not pdf:
                             continue
 
                         pdf_file = output_dir / f"{paper_id}.pdf"
-                        pdf_file.write_bytes(response.content)
+                        pdf_file.write_bytes(pdf)
                         downloaded_files.append(str(pdf_file))
                 except requests.RequestException:
                     continue

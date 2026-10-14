@@ -1,8 +1,11 @@
 """Tests for repository interface functionality."""
 
+import io
+import zipfile
 from pathlib import Path
 
 import pytest
+import requests
 
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
@@ -125,26 +128,61 @@ class TestEuropePMCRepository:
                 f"Downloaded file {file_path} should not be empty"
             )
 
-    def test_europe_pmc_download_pdf_uses_full_text_url(self, tmp_path, monkeypatch):
-        """PDF download should use Europe PMC's advertised render URL."""
+    def test_europe_pmc_download_pdf_from_ftp_zip(self, tmp_path, monkeypatch):
+        """PDF download should first try the zipped PDF on the EBI OA FTP mirror."""
         repo = EuropePMCRepository()
-        pdf_url = "https://europepmc.org/articles/PMC13023394?pdf=render"
+        ftp_url = (
+            "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA/"
+            "PMCxxxx1292/PMC12911782.zip"
+        )
+        archive = io.BytesIO()
+        with zipfile.ZipFile(archive, "w") as zf:
+            zf.writestr("PMC12911782.pdf", b"%PDF-1.7\n")
         requested_urls = []
 
         class FakeResponse:
-            def __init__(self, *, data=None, content=b"", headers=None):
-                self._data = data
-                self.content = content
-                self.headers = headers or {}
+            content = archive.getvalue()
 
             def raise_for_status(self):
                 return None
 
+        def fake_get(url, **kwargs):
+            requested_urls.append(url)
+            return FakeResponse()
+
+        monkeypatch.setattr(
+            "semantic_corpus.repositories.europe_pmc.requests.get", fake_get
+        )
+
+        result = repo.download_paper("PMC12911782", tmp_path, formats=["pdf"])
+
+        assert result["success"] is True
+        assert (tmp_path / "PMC12911782.pdf").read_bytes() == b"%PDF-1.7\n"
+        assert requested_urls == [ftp_url]
+
+    def test_europe_pmc_download_pdf_uses_full_text_url(self, tmp_path, monkeypatch):
+        """PDF download should fall back to the advertised free-full-text URL."""
+        repo = EuropePMCRepository()
+        pdf_url = "https://publisher.example.org/article.pdf"
+        requested_urls = []
+
+        class FakeResponse:
+            def __init__(self, *, data=None, content=b"", status=200):
+                self._data = data
+                self.content = content
+                self.status = status
+
+            def raise_for_status(self):
+                if self.status >= 400:
+                    raise requests.HTTPError(str(self.status))
+
             def json(self):
                 return self._data
 
-        def fake_get(url, params=None):
+        def fake_get(url, params=None, **kwargs):
             requested_urls.append(url)
+            if "ftp.ebi.ac.uk" in url:
+                return FakeResponse(status=404)
             if url.endswith("/search"):
                 return FakeResponse(
                     data={
@@ -156,7 +194,7 @@ class TestEuropePMCRepository:
                                     "fullTextUrlList": {
                                         "fullTextUrl": [
                                             {
-                                                "availabilityCode": "OA",
+                                                "availabilityCode": "F",
                                                 "documentStyle": "pdf",
                                                 "url": pdf_url,
                                             }
@@ -167,9 +205,7 @@ class TestEuropePMCRepository:
                         }
                     }
                 )
-            return FakeResponse(
-                content=b"%PDF-1.5\n", headers={"content-type": "application/pdf"}
-            )
+            return FakeResponse(content=b"%PDF-1.5\n")
 
         monkeypatch.setattr(
             "semantic_corpus.repositories.europe_pmc.requests.get", fake_get
