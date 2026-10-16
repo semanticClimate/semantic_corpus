@@ -1,4 +1,7 @@
 .DS_*
 .venv/
 venv/
+temp/
 .idea/
+*.pyc
+__pycache__/

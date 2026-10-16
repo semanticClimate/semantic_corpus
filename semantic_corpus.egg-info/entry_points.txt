@@ -1,0 +1,2 @@
+[console_scripts]
+semantic_corpus = semantic_corpus.cli:main

@@ -5,9 +5,10 @@ Example 8: Get corpus statistics.
 This example demonstrates how to retrieve and display corpus statistics.
 """
 
-from pathlib import Path
-from semantic_corpus.core.corpus_manager import CorpusManager
 import json
+from pathlib import Path
+
+from semantic_corpus.core.corpus_manager import CorpusManager
 
 corpus_dir = Path("corpora", "my_research")
 corpus = CorpusManager(corpus_dir, use_bagit=True)

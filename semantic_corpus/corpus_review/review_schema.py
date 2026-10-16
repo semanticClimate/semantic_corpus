@@ -20,6 +20,7 @@ def make_review_row(
     health_terms: List[str],
     has_xml: bool,
     has_pdf: bool,
+    has_html: bool = False,
     query_name: str = "",
     query_string: str = "",
     review_status: str = DEFAULT_REVIEW_STATUS,
@@ -46,8 +47,9 @@ def make_review_row(
         "publication_date": metadata.get("publication_date") or "",
         "journal": metadata.get("journal") or "",
         "authors": authors_str,
-        "has_xml": has_xml,
-        "has_pdf": has_pdf,
+        "has_xml": bool(has_xml),
+        "has_html": bool(has_html),
+        "has_pdf": bool(has_pdf),
         "query_name": query_name,
         "query_string": query_string,
         "location_terms": ", ".join(location_terms),
@@ -62,6 +64,7 @@ def make_review_row(
 
 def validate_review_row(row: Dict[str, Any]) -> None:
     """Validate a review row has required keys and valid review_status."""
+    row.setdefault("has_html", False)
     for col in REVIEW_TABLE_COLUMNS:
         if col not in row:
             raise CorpusError(f"Review row missing column: {col}")

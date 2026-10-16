@@ -3,7 +3,7 @@
 Build a corpus review table from a semantic_corpus query output directory.
 
 Reads a flat query output (search_results.json plus sibling {pmcid}.xml files,
-as produced by the download workflow) and writes review_table.{json,csv,md}.
+as produced by the download workflow) and writes review_table.{json,csv,md,html}.
 
 Usage:
     ./venv/bin/python scripts/build_review_table.py \
@@ -13,12 +13,17 @@ Usage:
     ./venv/bin/python scripts/build_review_table.py \
         --search-results temp/queries/aqi_india_pilot/search_results.json \
         --output-dir temp/queries/aqi_india_pilot/review
+
+    # or from a BAGIT corpus (e.g. built with `semantic_corpus import`)
+    ./venv/bin/python scripts/build_review_table.py --corpus temp/corpus/my_corpus
 """
 
 import argparse
 from pathlib import Path
 
+from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.corpus_review.review_table import (
+    build_review_rows_from_corpus,
     build_review_rows_from_search_results,
     export_review_tables,
     load_query_context,
@@ -33,6 +38,12 @@ def parse_args() -> argparse.Namespace:
         "--query-dir",
         type=str,
         help="Query output dir containing search_results.json and query_run.json.",
+    )
+    parser.add_argument(
+        "--corpus",
+        type=str,
+        help="BAGIT corpus dir (e.g. from `semantic_corpus import`); "
+        "writes to <corpus>/review by default.",
     )
     parser.add_argument(
         "--search-results",
@@ -60,6 +71,16 @@ def parse_args() -> argparse.Namespace:
         default="review_table",
         help="Basename for output files (default: review_table).",
     )
+    parser.add_argument(
+        "--convert-pdfs",
+        action="store_true",
+        help="Convert PDFs in query directory to HTML and XML using Docling before building table.",
+    )
+    parser.add_argument(
+        "--ocr",
+        action="store_true",
+        help="Enable OCR when converting PDFs with Docling.",
+    )
     return parser.parse_args()
 
 
@@ -75,17 +96,42 @@ def resolve_paths(args: argparse.Namespace):
 
     xml_dir = Path(args.xml_dir) if args.xml_dir else search_results.parent
     query_run = (
-        Path(args.query_run)
-        if args.query_run
-        else Path(query_dir, "query_run.json")
+        Path(args.query_run) if args.query_run else Path(query_dir, "query_run.json")
     )
     output_dir = Path(args.output_dir) if args.output_dir else Path(query_dir, "review")
     return search_results, xml_dir, query_run, output_dir
 
 
+def build_from_corpus(args: argparse.Namespace) -> None:
+    corpus_dir = Path(args.corpus)
+    if not Path(corpus_dir, "bagit.txt").is_file():
+        raise SystemExit(f"Not a BAGIT corpus: {corpus_dir}")
+
+    corpus = CorpusManager(corpus_dir, use_bagit=True)
+    rows = build_review_rows_from_corpus(corpus, query_name=corpus_dir.name)
+    output_dir = Path(args.output_dir) if args.output_dir else corpus_dir / "review"
+    paths = export_review_tables(rows, output_dir, basename=args.basename)
+
+    print(f"Rows: {len(rows)}")
+    for fmt, path in paths.items():
+        print(f"  {fmt}: {path}")
+
+
 def main() -> None:
     args = parse_args()
+    if args.corpus:
+        build_from_corpus(args)
+        return
+
     search_results, xml_dir, query_run, output_dir = resolve_paths(args)
+
+    if args.convert_pdfs:
+        from semantic_corpus.transformation import convert_query_directory_pdfs
+
+        query_dir = search_results.parent
+        print(f"Converting PDFs in {query_dir} to HTML and XML with Docling...")
+        converted = convert_query_directory_pdfs(query_dir, do_ocr=args.ocr)
+        print(f"Docling conversion complete ({len(converted)} papers processed).")
 
     context = load_query_context(query_run)
     rows = build_review_rows_from_search_results(

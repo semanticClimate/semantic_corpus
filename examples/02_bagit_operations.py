@@ -6,6 +6,7 @@ This example demonstrates how to create a BAGIT-compliant bag and validate it.
 """
 
 from pathlib import Path
+
 from semantic_corpus.storage.bagit_manager import BagitManager
 
 bag_dir = Path("corpora", "my_research")
@@ -15,7 +16,7 @@ bagit_mgr = BagitManager(bag_dir)
 metadata = {
     "Source-Organization": "My Research Lab",
     "Contact-Name": "Jane Doe",
-    "Contact-Email": "jane@example.com"
+    "Contact-Email": "jane@example.com",
 }
 bagit_mgr.create_bag(metadata=metadata)
 

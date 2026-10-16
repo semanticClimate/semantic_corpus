@@ -6,6 +6,7 @@ This example demonstrates how to list all papers in an existing corpus.
 """
 
 from pathlib import Path
+
 from semantic_corpus.core.corpus_manager import CorpusManager
 
 corpus_dir = Path("corpora", "my_research")

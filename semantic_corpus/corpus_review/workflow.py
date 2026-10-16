@@ -15,13 +15,13 @@ from semantic_corpus.corpus_review.query_run import (
 )
 from semantic_corpus.corpus_review.review_table import (
     build_review_rows_from_corpus,
-    build_review_rows_from_pygetpapers,
     build_review_rows_from_search_results,
     export_review_tables,
     load_query_context,
 )
 from semantic_corpus.export.chatbot_export import export_corpus_for_chatbot
 from semantic_corpus.ingestion.pygetpapers_ingester import ingest_pygetpapers_directory
+from semantic_corpus.repositories._ids import get_result_paper_id
 from semantic_corpus.utils import get_project_temp_dir
 
 
@@ -32,25 +32,47 @@ def run_repository_search(
     limit: int,
     output_dir: Path,
     formats: List[str],
+    start_date: str = None,
+    end_date: str = None,
 ) -> Tuple[List[Dict[str, Any]], int]:
     """Search and download via semantic_corpus repository; return results and download count."""
     repo = RepositoryFactory.get_repository(repository)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    results = repo.search_papers(query=query_string, limit=limit)
+    # When requesting downloadable formats (e.g. PDF), search for extra candidates
+    # so we can collect up to `limit` papers that actually download the requested formats.
+    candidate_limit = (
+        limit * 3
+        if formats and any(f in ("pdf", "xml", "html") for f in formats)
+        else limit
+    )
+
+    results = repo.search_papers(
+        query=query_string,
+        limit=candidate_limit,
+        start_date=start_date,
+        end_date=end_date,
+    )
     downloaded_count = 0
+    successful_results: List[Dict[str, Any]] = []
+
     for paper in results:
-        paper_id = paper.get("pmcid") or paper.get("pmid")
+        paper_id = get_result_paper_id(paper)
         if not paper_id:
             continue
         try:
             dl = repo.download_paper(paper_id, output_dir, formats)
             if dl.get("success"):
                 downloaded_count += 1
+                successful_results.append(paper)
+                if downloaded_count >= limit:
+                    break
         except Exception:
             continue
-    return results, downloaded_count
+
+    final_results = successful_results if successful_results else results[:limit]
+    return final_results, downloaded_count
 
 
 def run_query_and_build_review_table(
@@ -61,6 +83,8 @@ def run_query_and_build_review_table(
     repository: str = "europe_pmc",
     limit: int = 25,
     formats: List[str] = None,
+    convert_pdfs: bool = False,
+    do_ocr: bool = False,
     notes: str = "",
     revision_of: str = None,
 ) -> Dict[str, Any]:
@@ -76,6 +100,8 @@ def run_query_and_build_review_table(
         repository: Repository key (default europe_pmc).
         limit: Maximum papers to retrieve.
         formats: Download formats (default xml).
+        convert_pdfs: If True, convert downloaded PDFs to HTML and XML with Docling.
+        do_ocr: If True, enable OCR when converting PDFs.
         notes: Optional free-text notes stored in query_run.json.
         revision_of: Optional prior query_name when refining a query.
 
@@ -93,6 +119,11 @@ def run_query_and_build_review_table(
         output_dir=output_dir,
         formats=formats,
     )
+
+    if convert_pdfs:
+        from semantic_corpus.transformation import convert_query_directory_pdfs
+
+        convert_query_directory_pdfs(output_dir, do_ocr=do_ocr)
 
     results_path = Path(output_dir, "search_results.json")
     with open(results_path, "w", encoding="utf-8") as handle:
@@ -121,7 +152,8 @@ def run_query_and_build_review_table(
     review_paths = export_review_tables(rows, Path(output_dir, "review"))
 
     high_score_count = sum(1 for row in rows if int(row["score"]) >= 5)
-    xml_count = sum(1 for row in rows if row["has_xml"])
+    xml_count = sum(1 for row in rows if row.get("has_xml"))
+    html_count = sum(1 for row in rows if row.get("has_html"))
 
     return {
         "query_name": query_name,
@@ -131,6 +163,7 @@ def run_query_and_build_review_table(
         "row_count": len(rows),
         "high_score_count": high_score_count,
         "xml_count": xml_count,
+        "html_count": html_count,
         "output_dir": str(output_dir),
         "search_results_path": str(results_path),
         "query_run_path": str(query_run_path),

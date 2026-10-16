@@ -87,9 +87,7 @@ def export_corpus_for_chatbot(
     papers: List[Dict[str, Any]] = []
     for paper_id in paper_ids:
         metadata = corpus.get_paper_metadata(paper_id)
-        papers.append(
-            build_paper_export_record(paper_id, metadata, corpus.corpus_dir)
-        )
+        papers.append(build_paper_export_record(paper_id, metadata, corpus.corpus_dir))
 
     manifest: Dict[str, Any] = {
         "export_version": "1.0",

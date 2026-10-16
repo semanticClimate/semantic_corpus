@@ -1,12 +1,23 @@
 """Europe PMC repository implementation."""
 
-import json
-import requests
+import io
+import re
+import zipfile
 from pathlib import Path
-from typing import Dict, List, Any, Optional
+from typing import Any, Dict, List, Optional
 
-from semantic_corpus.core.repository_interface import RepositoryInterface
+import requests
+
 from semantic_corpus.core.exceptions import RepositoryError
+from semantic_corpus.core.repository_interface import RepositoryInterface
+
+# PMC Article Datasets on AWS Open Data: updated daily, one folder per
+# article version, e.g. PMC13380480.1/PMC13380480.1.pdf
+PMC_OA_S3 = "https://pmc-oa-opendata.s3.amazonaws.com"
+# Bulk open-access PDF mirror (what europepmc.org/ftp/pdf/ points to); lags
+# behind the newest articles and has gaps
+EUROPE_PMC_OA_PDF_FTP = "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA"
+PDF_TIMEOUT_SECONDS = 60
 
 
 class EuropePMCRepository(RepositoryInterface):
@@ -18,13 +29,147 @@ class EuropePMCRepository(RepositoryInterface):
         self.name = "Europe PMC"
         self.base_url = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 
+    def _paper_to_result(self, paper: Dict[str, Any]) -> Dict[str, Any]:
+        """Normalize a Europe PMC API paper record."""
+        return {
+            "pmcid": paper.get("pmcid", ""),
+            "pmid": paper.get("pmid", ""),
+            "title": paper.get("title", ""),
+            "abstract": paper.get("abstractText", ""),
+            "authors": paper.get("authorList", {}).get("author", []),
+            "publication_date": paper.get("firstPublicationDate", ""),
+            "journal": paper.get("journalTitle", ""),
+            "doi": paper.get("doi", ""),
+            "full_text_urls": paper.get("fullTextUrlList", {}).get("fullTextUrl", []),
+            "has_pdf": paper.get("hasPDF", ""),
+            "is_open_access": paper.get("isOpenAccess", ""),
+        }
+
+    def _search_one_paper(self, paper_id: str) -> Dict[str, Any]:
+        """Fetch one Europe PMC record by external ID."""
+        query = (
+            f"PMCID:{paper_id}" if paper_id.startswith("PMC") else f"EXT_ID:{paper_id}"
+        )
+        params = {"query": query, "format": "json", "resultType": "core"}
+        response = requests.get(f"{self.base_url}/search", params=params)
+        response.raise_for_status()
+        data = response.json()
+
+        if not data.get("resultList", {}).get("result"):
+            raise RepositoryError(f"Paper {paper_id} not found")
+
+        return data["resultList"]["result"][0]
+
+    @staticmethod
+    def _s3_pdf_url(pmcid: str) -> Optional[str]:
+        """Return the PMC Open Data (AWS S3) URL of the latest PDF version, if any."""
+        try:
+            response = requests.get(
+                PMC_OA_S3,
+                params={"list-type": "2", "prefix": f"{pmcid}."},
+                timeout=PDF_TIMEOUT_SECONDS,
+            )
+            response.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        # Keys look like PMC123.2/PMC123.2.pdf; pick the highest version
+        versions = [
+            int(match)
+            for match in re.findall(
+                rf"<Key>{pmcid}\.(\d+)/{pmcid}\.\1\.pdf</Key>", response.text
+            )
+        ]
+        if not versions:
+            return None
+        version = max(versions)
+        return f"{PMC_OA_S3}/{pmcid}.{version}/{pmcid}.{version}.pdf"
+
+    @staticmethod
+    def _ftp_pdf_url(pmcid: str) -> str:
+        """Return the EBI FTP URL of the zipped open-access PDF for a PMCID.
+
+        Files are bucketed in groups of 10,000, e.g. PMC12911782 lives in
+        PMCxxxx1292/PMC12911782.zip. This mirror is not behind Cloudflare,
+        unlike the europepmc.org web endpoints.
+        """
+        number = int(pmcid[3:])
+        bucket = -(-number // 10000)  # ceiling division
+        return f"{EUROPE_PMC_OA_PDF_FTP}/PMCxxxx{bucket:03d}/{pmcid}.zip"
+
+    @staticmethod
+    def _full_text_pdf_urls(paper: Dict[str, Any]) -> List[str]:
+        """Return free/open-access PDF links advertised in a Europe PMC record."""
+        full_text_urls = paper.get("fullTextUrlList", {}).get("fullTextUrl", [])
+        if isinstance(full_text_urls, dict):
+            full_text_urls = [full_text_urls]
+
+        return [
+            entry["url"]
+            for entry in full_text_urls
+            if entry.get("documentStyle") == "pdf"
+            and entry.get("availabilityCode") in ("OA", "F")
+            and entry.get("url")
+        ]
+
+    @staticmethod
+    def _fetch_pdf(url: str) -> Optional[bytes]:
+        """Fetch a PDF (or a zip containing one); None if the response is not a PDF."""
+        try:
+            response = requests.get(url, timeout=PDF_TIMEOUT_SECONDS)
+            response.raise_for_status()
+        except requests.RequestException:
+            return None
+
+        content = response.content
+        if url.endswith(".zip"):
+            try:
+                with zipfile.ZipFile(io.BytesIO(content)) as archive:
+                    names = [
+                        n for n in archive.namelist() if n.lower().endswith(".pdf")
+                    ]
+                    content = archive.read(names[0]) if names else b""
+            except zipfile.BadZipFile:
+                return None
+
+        # Cloudflare challenges and reCAPTCHA pages come back as HTML
+        return content if content.startswith(b"%PDF") else None
+
+    def _download_pdf(
+        self, paper_id: str, paper: Optional[Dict[str, Any]], pmcid: str
+    ) -> Optional[bytes]:
+        """Try each known PDF source for a paper, most reliable first."""
+        if pmcid:
+            for url in (self._s3_pdf_url(pmcid), self._ftp_pdf_url(pmcid)):
+                pdf = self._fetch_pdf(url) if url else None
+                if pdf:
+                    return pdf
+
+        if paper is None:
+            try:
+                paper = self._search_one_paper(paper_id)
+            except (RepositoryError, requests.RequestException):
+                paper = {}
+
+        candidates = self._full_text_pdf_urls(paper)
+        if pmcid:
+            # Web endpoint; often blocked for scripts by Cloudflare (HTTP 403)
+            candidates.append(f"https://europepmc.org/articles/{pmcid}?pdf=render")
+
+        for url in dict.fromkeys(candidates):
+            pdf = self._fetch_pdf(url)
+            if pdf:
+                return pdf
+
+        return None
+
     def search_papers(
         self,
         query: str,
         limit: int = 100,
         start_date: Optional[str] = None,
         end_date: Optional[str] = None,
-        **kwargs: Any
+        **kwargs: Any,
     ) -> List[Dict[str, Any]]:
         """Search for papers in Europe PMC."""
         try:
@@ -33,104 +178,62 @@ class EuropePMCRepository(RepositoryInterface):
                 "query": query,
                 "format": "json",
                 "pageSize": min(limit, 1000),  # Europe PMC max is 1000
-                "resultType": "core"
+                "resultType": "core",
             }
-            
+
             # Add date filters if provided
             if start_date and end_date:
-                params["query"] = f"({query}) AND (FIRST_PDATE:[{start_date} TO {end_date}])"
+                params["query"] = (
+                    f"({query}) AND (FIRST_PDATE:[{start_date} TO {end_date}])"
+                )
             elif end_date:
                 params["query"] = f"({query}) AND (FIRST_PDATE:[TO {end_date}])"
-            
+
             # Make API request
             response = requests.get(f"{self.base_url}/search", params=params)
             response.raise_for_status()
-            
+
             data = response.json()
             results = []
-            
+
             for paper in data.get("resultList", {}).get("result", []):
-                results.append({
-                    "pmcid": paper.get("pmcid", ""),
-                    "pmid": paper.get("pmid", ""),
-                    "title": paper.get("title", ""),
-                    "abstract": paper.get("abstractText", ""),
-                    "authors": paper.get("authorList", {}).get("author", []),
-                    "publication_date": paper.get("firstPublicationDate", ""),
-                    "journal": paper.get("journalTitle", ""),
-                    "doi": paper.get("doi", ""),
-                })
-            
+                results.append(self._paper_to_result(paper))
+
             return results[:limit]
-            
+
         except requests.RequestException as e:
-            raise RepositoryError(f"Europe PMC search failed: {e}")
+            raise RepositoryError(f"Europe PMC search failed: {e}") from e
 
     def get_paper_metadata(self, paper_id: str) -> Dict[str, Any]:
         """Get metadata for a specific paper from Europe PMC."""
         try:
-            # Use search API to find the paper
-            params = {
-                "query": f"EXT_ID:{paper_id}",
-                "format": "json",
-                "resultType": "core"
-            }
-            response = requests.get(f"{self.base_url}/search", params=params)
-            response.raise_for_status()
-            data = response.json()
-            
-            if not data.get("resultList", {}).get("result"):
-                raise RepositoryError(f"Paper {paper_id} not found")
-            
-            paper = data["resultList"]["result"][0]
-            
-            return {
-                "pmcid": paper.get("pmcid", ""),
-                "pmid": paper.get("pmid", ""),
-                "title": paper.get("title", ""),
-                "abstract": paper.get("abstractText", ""),
-                "authors": paper.get("authorList", {}).get("author", []),
-                "publication_date": paper.get("firstPublicationDate", ""),
-                "journal": paper.get("journalTitle", ""),
-                "doi": paper.get("doi", ""),
-            }
-            
+            paper = self._search_one_paper(paper_id)
+            return self._paper_to_result(paper)
+
         except requests.RequestException as e:
-            raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}")
+            raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}") from e
 
     def download_paper(
-        self,
-        paper_id: str,
-        output_dir: Path,
-        formats: List[str] = None
+        self, paper_id: str, output_dir: Path, formats: List[str] = None
     ) -> Dict[str, Any]:
         """Download a paper from Europe PMC."""
         if formats is None:
             formats = ["xml"]
-        
+
         try:
             output_dir.mkdir(parents=True, exist_ok=True)
             downloaded_files = []
-            
+
+            paper = None
+            pmcid = paper_id if paper_id.startswith("PMC") else ""
+
             # Get PMCID for download - if paper_id is PMID, search for PMCID
             if not paper_id.startswith("PMC") and not paper_id.startswith("PPR"):
-                # Search for the paper to get PMCID
-                search_params = {
-                    "query": f"EXT_ID:{paper_id}",
-                    "format": "json",
-                    "resultType": "core"
-                }
-                search_response = requests.get(f"{self.base_url}/search", params=search_params)
-                search_response.raise_for_status()
-                search_data = search_response.json()
-                
-                if not search_data.get("resultList", {}).get("result"):
-                    raise RepositoryError(f"Paper {paper_id} not found")
-                
-                pmcid = search_data["resultList"]["result"][0].get("pmcid", "")
+                paper = self._search_one_paper(paper_id)
+                pmcid = paper.get("pmcid", "")
                 if not pmcid:
                     raise RepositoryError(f"No PMCID found for {paper_id}")
-                
+
                 # Extract number from PMCID (remove PMC prefix)
                 download_id = pmcid.replace("PMC", "")
             else:
@@ -139,36 +242,38 @@ class EuropePMCRepository(RepositoryInterface):
                     download_id = paper_id.replace("PMC", "")
                 else:
                     download_id = paper_id
-            
+
             for format_type in formats:
-                if format_type == "xml":
-                    # Download XML using correct endpoint format
-                    xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
-                    response = requests.get(xml_url)
-                    response.raise_for_status()
-                    
-                    xml_file = output_dir / f"{paper_id}.xml"
-                    xml_file.write_bytes(response.content)
-                    downloaded_files.append(str(xml_file))
-                
-                elif format_type == "pdf":
-                    # Download PDF using correct endpoint format
-                    pdf_url = f"{self.base_url}/PMC{download_id}/fullTextPDF"
-                    response = requests.get(pdf_url)
-                    response.raise_for_status()
-                    
-                    pdf_file = output_dir / f"{paper_id}.pdf"
-                    pdf_file.write_bytes(response.content)
-                    downloaded_files.append(str(pdf_file))
-            
-            return {
-                "success": True,
-                "paper_id": paper_id,
-                "files": downloaded_files
-            }
-            
+                try:
+                    if format_type == "xml":
+                        xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
+                        response = requests.get(xml_url)
+                        response.raise_for_status()
+
+                        xml_file = output_dir / f"{paper_id}.xml"
+                        xml_file.write_bytes(response.content)
+                        downloaded_files.append(str(xml_file))
+
+                    elif format_type == "pdf":
+                        pdf = self._download_pdf(paper_id, paper, pmcid)
+                        if not pdf:
+                            continue
+
+                        pdf_file = output_dir / f"{paper_id}.pdf"
+                        pdf_file.write_bytes(pdf)
+                        downloaded_files.append(str(pdf_file))
+                except requests.RequestException:
+                    continue
+
+            if not downloaded_files:
+                raise RepositoryError(f"No files downloaded for {paper_id}")
+
+            return {"success": True, "paper_id": paper_id, "files": downloaded_files}
+
+        except RepositoryError:
+            raise
         except requests.RequestException as e:
-            raise RepositoryError(f"Failed to download {paper_id}: {e}")
+            raise RepositoryError(f"Failed to download {paper_id}: {e}") from e
 
     def get_repository_info(self) -> Dict[str, Any]:
         """Get information about Europe PMC repository."""
@@ -178,5 +283,5 @@ class EuropePMCRepository(RepositoryInterface):
             "description": "Europe PMC is an open science platform that enables access to a world of biomedical literature",
             "supported_formats": ["xml", "pdf"],
             "max_results_per_query": 1000,
-            "api_documentation": "https://europepmc.org/Help"
+            "api_documentation": "https://europepmc.org/Help",
         }

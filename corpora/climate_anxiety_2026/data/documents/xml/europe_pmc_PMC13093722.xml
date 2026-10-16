@@ -1,0 +1,531 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="gh270114" xml:lang="en" article-type="article-commentary" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Geohealth</journal-id><journal-id journal-id-type="iso-abbrev">Geohealth</journal-id><journal-id journal-id-type="pmc-domain-id">3772</journal-id><journal-id journal-id-type="pmc-domain">geohealth</journal-id><journal-id journal-id-type="publisher-id">GH2</journal-id><journal-title-group><journal-title>GeoHealth</journal-title></journal-title-group><issn pub-type="epub">2471-1403</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13093722</article-id><article-id pub-id-type="pmcid-ver">PMC13093722.1</article-id><article-id pub-id-type="pmcaid">13093722</article-id><article-id pub-id-type="pmcaiid">13093722</article-id><article-id pub-id-type="pmid">42016477</article-id><article-id pub-id-type="doi">10.1029/2025GH001597</article-id><article-id pub-id-type="publisher-id">GH270114</article-id><article-id pub-id-type="other">2025GH001597</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Climate and Mental and Behavioral Health: Risks, Mechanisms, and Solutions</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Climate and Mental and Behavioral Health: Risks, Mechanisms, and Solutions</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Geohealth</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Impacts of Climate Change: Human Health,</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Public Health</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Exploration Geophysics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Gravity Methods</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Geodesy and Gravity</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Transient Deformation</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Tectonic Deformation</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Time Variable Gravity</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Gravity anomalies and Earth structure</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Satellite Geodesy: Results</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Seismic Cycle Related Deformations</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Hydrology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Estimation and Forecasting</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Informatics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Forecasting</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Ionosphere</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Magnetospheric Physics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Forecasting</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Mathematical Geophysics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Prediction</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Probabilistic Forecasting</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Oceanography: General</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Ocean Predictability and Prediction</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Natural Hazards</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Vulnerability</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Disaster Resilience</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Natural Hazards</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Monitoring, Forecasting, Prediction</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Policy Sciences</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Radio Science</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Interferometry</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Ionospheric Physics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Seismology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Continental Crust</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Earthquake Dynamics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Earthquake Source Observations</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Earthquake Interaction, Forecasting, and Prediction</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Seismicity and Tectonics</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Subduction Zones</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Space Weather</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Policy</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Space Weather</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Forecasting</subject></subj-group><subj-group subj-group-type="overline"><subject>Commentary</subject></subj-group><subj-group subj-group-type="heading"><subject>Commentary</subject></subj-group></article-categories><title-group><article-title>Addressing Climate‐Related Mental Health Challenges Among Children, Youth, and People Living With Disabilities: A Population Mental Health Commentary</article-title><alt-title alt-title-type="left-running-head">Abadi et al.</alt-title></title-group><contrib-group><contrib id="gh270114-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Abadi</surname><given-names initials="AM">Azar M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4638-7234</contrib-id><xref rid="gh270114-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>aabadi@uab.edu</email></address></contrib><contrib id="gh270114-cr-0002" contrib-type="author"><name name-style="western"><surname>Dodgen</surname><given-names initials="D">Daniel</given-names></name><xref rid="gh270114-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="gh270114-cr-0003" contrib-type="author"><name name-style="western"><surname>Clayton</surname><given-names initials="S">Susan</given-names></name><xref rid="gh270114-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="gh270114-cr-0004" contrib-type="author"><name name-style="western"><surname>Moore</surname><given-names initials="R">Rhonda</given-names></name><xref rid="gh270114-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="gh270114-cr-0005" contrib-type="author"><name name-style="western"><surname>Boller</surname><given-names initials="K">Kimberly</given-names></name><xref rid="gh270114-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="gh270114-cr-0006" contrib-type="author"><name name-style="western"><surname>Stolle</surname><given-names initials="DP">Dennis P.</given-names></name><xref rid="gh270114-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib></contrib-group><aff id="gh270114-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Environmental Health Sciences Department</named-content>
+<institution>School of Public Health, University of Alabama at Birmingham</institution>
+<city>Birmingham</city>
+<named-content content-type="country-part">AL</named-content>
+<country country="US">USA</country>
+</aff><aff id="gh270114-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<city>Washington</city>
+<named-content content-type="country-part">DC</named-content>
+<country country="US">USA</country>
+</aff><aff id="gh270114-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Psychology Department</named-content>
+<institution>The College of Wooster</institution>
+<city>Wooster</city>
+<named-content content-type="country-part">OH</named-content>
+<country country="US">USA</country>
+</aff><aff id="gh270114-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<city>Bethesda</city>
+<named-content content-type="country-part">MD</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="gh270114-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>American Psychological Association</institution>
+<city>Washington</city>
+<named-content content-type="country-part">DC</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence to:</bold>
+<break/>
+A. M. Abadi,<break/>
+<email>aabadi@uab.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>3</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2026</year></pub-date><volume>10</volume><issue seq="20">3</issue><issue-id pub-id-type="pmc-issue-id">508972</issue-id><issue-id pub-id-type="doi">10.1029/gh2.v10.3</issue-id><elocation-id>e2025GH001597</elocation-id><history>
+<date date-type="rev-recd"><day>15</day><month>1</month><year>2026</year></date>
+<date date-type="received"><day>15</day><month>7</month><year>2025</year></date>
+<date date-type="accepted"><day>28</day><month>1</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>11</day><month>03</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>21</day><month>04</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-04-22 13:25:16.957"><day>22</day><month>04</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). GeoHealth published by Wiley Periodicals LLC on behalf of American Geophysical Union.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="GH2-10-e2025GH001597.pdf"><?pdf-name GH2-10-e2025GH001597.pdf?><?pdf-size 796693?><?pdf-md5 c695bd08072c53a9b2d486b50b457441?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:4995/13093722/c695bd08072c/GH2-10-e2025GH001597.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:GH2-10-e2025GH001597.pdf"/><abstract><title>Abstract</title><p>Climate change threatens mental health through acute and chronic stressors. Vulnerable groups—especially children and people with disabilities—face increased risks due to developmental and structural inequities. Most mental health systems, built for individual care, lack capacity to address climate‐related distress. This commentary outlines key mental health pathways and calls for a population‐based approach. We highlight climate anxiety among youth and gaps in including neurodiverse populations in research and planning. Culturally grounded strategies—such as school‐based support, community engagement, and integrating lived experience into policy—build resilience. We call for collaboration and evaluation of interventions aimed at addressing climate distress through community‐driven systems.</p></abstract><abstract abstract-type="plain-language-summary"><title>Plain Language Summary</title><p>Climate change is harming people's mental health; children and those with disabilities are particularly vulnerable. Extreme weather and worry about the future can lead to anxiety, stress, and other issues. Current mental health systems are not built to support large number of people facing group‐level threats such as the climate crises. This paper calls for a new approach that focuses on whole communities, not just individuals. We suggest ideas such as school‐based programs, peer support, and better planning for people with disabilities, including those who are neurodiverse as well as the research needed to guide this work. We also highlight the importance of local involvement, early support, and using technology to improve access. Everyone should be included in the response to climate change.</p></abstract><abstract abstract-type="short"><title>Key Points</title><p>
+<list list-type="bullet"><list-item><p>Climate‐related psychological distress is a growing population mental health risk for children and people with disabilities</p></list-item><list-item><p>Near‐term action is feasible by integrating population mental health into existing climate adaptation, education, and emergency systems</p></list-item><list-item><p>Long‐term resilience requires sustained cross‐sector investment in inclusive, climate‐informed mental health systems</p></list-item></list>
+</p></abstract><kwd-group><kwd id="gh270114-kwd-0001">population mental health</kwd><kwd id="gh270114-kwd-0002">disabilities</kwd><kwd id="gh270114-kwd-0003">climate change</kwd><kwd id="gh270114-kwd-0004">psychological resilience</kwd><kwd id="gh270114-kwd-0005">vulnerable population</kwd><kwd id="gh270114-kwd-0006">resilience strategies</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>New Frontiers in Research Fund</institution></institution-wrap>
+</funding-source><award-id>NFRFI‐2023‐00240</award-id></award-group></funding-group><counts><fig-count count="2"/><table-count count="0"/><page-count count="10"/><word-count count="6015"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.3 mode:remove_FC converted:20.04.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="gh270114-body-0001"><sec id="gh270114-sec-0010"><label>1</label><title>Introduction</title><p>More than half the U.S. population considers climate change a significant source of stress (American Psychological Association, <xref rid="gh270114-bib-0002" ref-type="bibr">2024</xref>). In a cross‐national survey, 59% of children and young people around the world said they were very or extremely worried about climate change, and 84% were at least moderately worried (Hickman et al., <xref rid="gh270114-bib-0022" ref-type="bibr">2021</xref>). In a U.S. survey, 85% of young people in the U.S. were at least moderately worried and 43% said their worries affected their mental health (Lewandowski et al., <xref rid="gh270114-bib-0028" ref-type="bibr">2024</xref>). Over 45% worldwide, and 38% in the U.S., report that their feelings about climate change negatively affect their daily life and functioning (Hickman et al., <xref rid="gh270114-bib-0022" ref-type="bibr">2021</xref>; Lewandowski et al., <xref rid="gh270114-bib-0028" ref-type="bibr">2024</xref>). Many groups, including persons living with disabilities and children, are at heightened risk of psychological distress from climate change (Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>).</p><p>The number of people experiencing climate‐related psychological distress is likely to grow as the planet warms and severe weather events become more common. Current mental health systems, which primarily focus on individual‐level care, may not have the capacity to cope. New and creative systems for addressing climate‐related psychological distress at a population level will become increasingly important. This approach will require scaling up evidence‐based interventions, while considering lessons from implementation science to maintain their effectiveness (Dodge et al., <xref rid="gh270114-bib-0011" ref-type="bibr">2024</xref>).</p><p>To conceptualize such an approach, population health provides a useful framework for understanding how systems can influence mental well‐being at scale. Population health refers to “the health outcomes of a group of individuals, including the distribution of such outcomes within the group” (Kindig &amp; Stoddart, <xref rid="gh270114-bib-0025" ref-type="bibr">2003</xref>). It emphasizes that health is not solely the result of individual actions or clinical care, but is created through cultural, economic, environmental, and social conditions. The systems and pathways associated with population health and resilience are cross‐sector and complex, implicating a range of outcomes at the community level, including population mental health (National Academies of Sciences, Engineering and Medicine, <xref rid="gh270114-bib-0033" ref-type="bibr">2024</xref>). Health equity is a central population health outcome, and it is also critical to include in climate‐related metrics. Multiple population‐level systems are associated with key population outcomes through cross‐sector pathways (Figure <xref rid="gh270114-fig-0001" ref-type="fig">1</xref>). Systems include policy and regulatory, health care, social service, education, and labor and employment. Population‐level research and data contribute to management and evaluation of health system functions and health equity.</p><fig position="float" fig-type="Figure" id="gh270114-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Pathways from population‐level systems and climate disruptions to address health equity and community mental health. The figure illustrates the multiple systems associated with mental health resilience and documented population‐level metrics aligned with climate‐related disruptions. These associations can be mitigated by system‐level interventions and collaboration. Examples include provision of stability through cross‐sector coordination, policy and associated flexibility in funding and regulatory requirements, integration of mental health supports into primary and community‐based care, and adaptation policies.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="GH2-10-e2025GH001597-g002.jpg"><?image-name GH2-10-e2025GH001597-g002.jpg?><?image-size 79324?><?image-md5 1a736f750da74d9a36ea4dce40590911?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 676?><?image-original-width 1064?><?image-scaled-height 450?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/4995/13093722/1a736f750da7/GH2-10-e2025GH001597-g002.jpg?><?thumb-name GH2-10-e2025GH001597-g002.gif?><?thumb-size 4300?><?thumb-md5 78fc9f4677bd909a800004f811722134?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 125?><?thumb-cloudpmc-urn urn:cdn:blobs/4995/13093722/78fc9f4677bd/GH2-10-e2025GH001597-g002.gif?></graphic></fig><p>Drawing from existing population health and prevention frameworks that address physical health, a population mental health approach moves beyond individual conditions and treatments to a focus on the distribution of mental health across entire populations (defined variously by geography, culture/ethnicity, gender, and ability; Dodge et al., <xref rid="gh270114-bib-0011" ref-type="bibr">2024</xref>). A population mental health approach includes an emphasis on prevention and health promotion (National Academies of Sciences, Engineering, and Medicine, <xref rid="gh270114-bib-0034" ref-type="bibr">2025</xref>) that addresses upstream social and structural determinants of health and systems with a history of perpetuating health disparities (e.g., Solar &amp; Irwin, <xref rid="gh270114-bib-0043" ref-type="bibr">2010</xref>).</p><p>Applying a population mental health framework to climate‐related disruptions requires mapping the pathways among those disruptions, features and functioning of systems and sectors, and population‐level measures. At the same time, a population mental health framework does not exclude treatment for severe mental health conditions that may arise from climate‐related disruptions or the compounding of climate anxiety with other factors that affect mental health. As depicted in Figure <xref rid="gh270114-fig-0001" ref-type="fig">1</xref>, climate‐related disruptions are associated with mental health outcomes that are identifiable using population‐wide metrics of community mental health. Despite progress in expanding the population mental health measurement toolbox to include measures of the prevalence of climate anxiety and related outcomes at different population levels, more needs to be done to develop and include strengths‐based metrics in addition to those that reflect deficits and decreases in population mental health.</p><p>Addressing climate‐related psychological distress globally will require culturally informed, cost‐effective, and widely accessible interventions. This requires assessing and adapting the population‐level systems, supports, and respective outcomes and metrics to track innovations focused on provision of community‐wide interventions. For example, if the business sector collaborates with the government and communities to address challenges in digital access to community needs assessments before a climate event occurs, deployment and use of community‐wide interventions and strategies to address needs of under‐resourced areas could reduce negative impacts of climate on population mental health. Another example focuses on creative solutions for supporting the psychological well‐being of youth around climate change issues. These may include technology (online support, text‐based support, gamification), peer support programs, school‐based support, and alternative service providers) (Dodge et al., <xref rid="gh270114-bib-0011" ref-type="bibr">2024</xref>).</p><p>Throughout this paper, we use the term mental health to refer specifically to emotional, psychological, and social well‐being, including conditions such as depression, anxiety, and trauma‐related disorders. We acknowledge that behavioral health is a broader term often used in public health and clinical settings to encompass both mental health and substance use disorders, as well as health‐related behaviors (American Medical Association, <xref rid="gh270114-bib-0001" ref-type="bibr">2024</xref>). However, to increase clarity and focus we address mental health outcomes in the context of climate change and do not include substance use or other behavioral health domains.</p><p>In the following pages, we present a narrative, conceptual commentary on the mental health impacts of climate change, with particular attention to children and people living with disabilities who experience disproportionate vulnerability. Drawing on the authors' interdisciplinary expertise and selected examples from recent research and policy‐relevant reports, this article aims to: (a) highlight current evidence on how climate change affects mental health and psychological well‐being in these populations; (b) apply a population mental health framework to interpret these impacts within broader social, environmental, and systems‐level contexts; and (c) outline implications for policy, practice, and future research that support population‐level mental health responses. The intent is not to provide a comprehensive or systematic review, but to present salient evidence and perspectives and to clarify climate‐related psychological distress as a population‐level threat—rather than solely an individual clinical concern—in order to inform scalable, preventive, and systems‐oriented approaches to mental health adaptation in a changing climate. The commentary elaborates on how this approach is particularly suited for addressing the needs of children and people with disabilities.</p></sec><sec id="gh270114-sec-0020"><label>2</label><title>Mental Health Impacts of Climate Change</title><p>Climate change threatens mental health through multiple channels. Extreme weather events associated with climate change are clearly associated with increased levels of Post‐Traumatic Stress Disorder (PTSD), anxiety, depression, substance abuse, sleep problems, and domestic and interpersonal violence (Clayton &amp; Crandon, <xref rid="gh270114-bib-0009" ref-type="bibr">2025</xref>). These effects may linger for months or years after the event (Goldmann &amp; Galea, <xref rid="gh270114-bib-0020" ref-type="bibr">2014</xref>).</p><p>Slower, chronic changes in climate such as higher temperatures, changing patterns of precipitation, and decreased air quality also threaten mental health. Recent large‐scale and longitudinal studies show that sustained exposure to extreme heat and degraded air quality contributes to elevated risks of anxiety, depression, suicide, and psychiatric hospitalizations (Baecker et al., <xref rid="gh270114-bib-0004" ref-type="bibr">2025</xref>; Jung et al., <xref rid="gh270114-bib-0024" ref-type="bibr">2025</xref>; Mitchell et al., <xref rid="gh270114-bib-0031" ref-type="bibr">2024</xref>). For example, in a cross‐sectional study of 86,609 emergency‐department visits during the 2020 California wildfires, each 10 μg/m<sup>3</sup> increase in wildfire‐specific PM<sub>2.5</sub> was associated with an 8% increase in visits for mental‐health conditions (Jung et al., <xref rid="gh270114-bib-0024" ref-type="bibr">2025</xref>), while a global systematic review found a 2.2% rise in mental‐health‐related mortality per 1°C increase in ambient temperature (Baecker et al., <xref rid="gh270114-bib-0004" ref-type="bibr">2025</xref>). Longitudinal cohort evidence from Australia from longitudinal research further indicates that repeated exposure to climate disasters is associated with cumulative declines in population‐level mental‐health scores (Mitchell et al., <xref rid="gh270114-bib-0031" ref-type="bibr">2024</xref>). Taking a broad perspective on mental health, there is also evidence that cognitive and social functioning are threatened (Miles‐Novelo &amp; Anderson, <xref rid="gh270114-bib-0030" ref-type="bibr">2022</xref>; R. J. Park et al., <xref rid="gh270114-bib-0039" ref-type="bibr">2020</xref>).</p><p>Some of the most widespread impacts of climate change are indirect. Climate change can have economic impacts, for example, if property is damaged or loses value due to rising sea levels or wildfires, or if occupations and economic activity are threatened. Involuntary displacement is a consequence for many people who live in geographically vulnerable areas. Food insecurity is on the rise due to climate change (Gaskin et al., <xref rid="gh270114-bib-0018" ref-type="bibr">2017</xref>; Lindsay et al., <xref rid="gh270114-bib-0029" ref-type="bibr">2023</xref>; Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>; UNDRR, <xref rid="gh270114-bib-0047" ref-type="bibr">2023</xref>). Each of these processes is associated with worse mental health, and often with disruption of the social ties that can help people to be resilient (Clayton &amp; Crandon, <xref rid="gh270114-bib-0009" ref-type="bibr">2025</xref>).</p><p>National and international surveys, as mentioned above, show high levels of concern and worry about climate change and its potential to have negative impacts (e.g., Leiserowitz et al., <xref rid="gh270114-bib-0027" ref-type="bibr">2024</xref>). Although such concerns are grounded in lived experience and may promote effective action to mitigate and adapt to climate change, a high level of concern can threaten mental health (Clayton, <xref rid="gh270114-bib-0007" ref-type="bibr">2020</xref>). Climate anxiety has been found to be associated with clinical levels of anxiety, depression, and other mental health problems in countries around the world (Gago et al., <xref rid="gh270114-bib-0016" ref-type="bibr">2024</xref>; Ogunbode et al., <xref rid="gh270114-bib-0037" ref-type="bibr">2022</xref>).</p><p>Other impacts include threats to place identity and stresses on social relationships (Clayton, <xref rid="gh270114-bib-0008" ref-type="bibr">2024</xref>). The profound inequities in the distribution of climate change impacts constitute their own threat to mental health. Factors like economic inequalities, social inequalities, physical limitations, and geographic vulnerability all affect the extent to which people experience the impacts of climate change as well as their ability to be resilient.</p><p>Two vulnerable groups, children and people with disabilities, experiences of climate‐related disruptions are different but often lead to similar mental health symptoms, including anxiety, depression, PTSD, and sleeplessness (Figure <xref rid="gh270114-fig-0002" ref-type="fig">2</xref>). Next, we highlight specific findings about each group separately followed by how a population health perspective broadens the types of approaches communities can take to adaptation (such as disaster preparedness) and foster resilience.</p><fig position="float" fig-type="Figure" id="gh270114-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Differing pathways linking climate‐related disruptions to mental health symptoms among children and people with disabilities.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="GH2-10-e2025GH001597-g001.jpg"><?image-name GH2-10-e2025GH001597-g001.jpg?><?image-size 70923?><?image-md5 cd3ed1d2b0759d68e31a70bdbf88b49f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 758?><?image-original-width 1064?><?image-scaled-height 505?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/4995/13093722/cd3ed1d2b075/GH2-10-e2025GH001597-g001.jpg?><?thumb-name GH2-10-e2025GH001597-g001.gif?><?thumb-size 3416?><?thumb-md5 034d207ac6c5eda1d21201022fd1713d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 112?><?thumb-cloudpmc-urn urn:cdn:blobs/4995/13093722/034d207ac6c5/GH2-10-e2025GH001597-g001.gif?></graphic></fig></sec><sec id="gh270114-sec-0030"><label>3</label><title>Children as a Disproportionately Affected Population</title><sec id="gh270114-sec-0040"><label>3.1</label><title>Developmental Sensitivity and Risk Amplification</title><p>As Clayton and her colleagues (Clayton et al., <xref rid="gh270114-bib-0010" ref-type="bibr">2023</xref>) summarized: “The impacts of climate change intersect with and compound other factors that threaten youth mental health, including child development, parental health, increasing rates of depression and suicide, racism, poverty, housing security, adequate nutrition, and access to medical care, as well as major societal issues like COVID‐19, gun violence, social media, and much more.”</p><p>Age and developmental stage are particularly important because they influence how children process, interpret, and react to information. For example, if young children see repeated replays of a wildfire on the news, they may not understand that it is a single event rather than multiple events. Furthermore, they may not know to turn off the television or disengage from social media when it makes them anxious. Children and adolescents may have not yet developed a full range of coping skills, thus increasing their risk for anxiety, depression, bipolar disorder, cognitive function impairment, interpersonal aggression, and other mental health impacts (Clayton et al., <xref rid="gh270114-bib-0010" ref-type="bibr">2023</xref>; Figure <xref rid="gh270114-fig-0001" ref-type="fig">1</xref>).</p></sec><sec id="gh270114-sec-0050"><label>3.2</label><title>Climate‐Anxiety, Information Exposure, and Cumulative Stressors</title><p>Adolescents have unique risks due to “climate‐anxiety” and other factors. This climate anxiety is related to exposure through social media as well as actual exposure to weather‐related disasters. Auchincloss et al. (<xref rid="gh270114-bib-0003" ref-type="bibr">2024</xref>) in a U.S.‐based cross‐sectional study, found that adolescents exposed to 45‐plus days of weather‐related disasters in a school year were at a 15% greater risk of developing mental health problems than those exposed to fewer days (Auchincloss et al., <xref rid="gh270114-bib-0003" ref-type="bibr">2024</xref>). As described above, a global study of about 10,000 young people aged 16–25 across 10 countries found that nearly 40% reported that their concerns about climate change made them hesitant or unwilling to have children (Hickman et al., <xref rid="gh270114-bib-0022" ref-type="bibr">2021</xref>). A review by Lawrance et al. (<xref rid="gh270114-bib-0026" ref-type="bibr">2022</xref>) summarized global evidence demonstrating that a large proportion of survey respondents report strong emotional distress related to the climate crisis. Consistently, studies showed that more than 60% of respondents reported feeling afraid, sad and/or anxious, while at least 50% reported feeling angry, powerless, helpless and/or guilty about the climate (Lawrance et al., <xref rid="gh270114-bib-0026" ref-type="bibr">2022</xref>).</p></sec><sec id="gh270114-sec-0060"><label>3.3</label><title>Structural Inequities and Intergenerational Burden</title><p>This impact is different for different groups. The National Climate Assessment found that systemic racism and discrimination exacerbate climate impacts on human health (USGCRP, <xref rid="gh270114-bib-0048" ref-type="bibr">2023</xref>). This cuts across Black, Indigenous, and People of Color (BIPOC) communities, particularly Indigenous Peoples, as well as sexual and gender minorities. Consequently, children who are also members of historically marginalized groups may experience a greater cumulative burden than they would otherwise experience (Clayton et al., <xref rid="gh270114-bib-0010" ref-type="bibr">2023</xref>). Climate change also creates intergenerational inequities since younger generations are experiencing more extreme weather events than older ones.</p></sec></sec><sec id="gh270114-sec-0070"><label>4</label><title>People Living With Disabilities as a Disproportionately Affected Populations</title><sec id="gh270114-sec-0080"><label>4.1</label><title>Differential Exposure and Service Disruption</title><p>Persons with disabilities (PWDs) constitute about 16% of the world's population, with 80% of PWDs living in the Global South. They are also the most frequently affected by natural hazards, climate‐induced disasters, and global health emergencies (Gaskin et al., <xref rid="gh270114-bib-0018" ref-type="bibr">2017</xref>; Lindsay et al., <xref rid="gh270114-bib-0029" ref-type="bibr">2023</xref>; Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>; UNDRR, <xref rid="gh270114-bib-0047" ref-type="bibr">2023</xref>). However, while most of the literature on this topic has tended to emphasize physical disabilities, considerably less is known about invisible disabilities including neurodivergent conditions such as autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD), and how they interact with the climate crisis (Watfern &amp; Carnemolla, <xref rid="gh270114-bib-0049" ref-type="bibr">2024</xref>).</p></sec><sec id="gh270114-sec-0090"><label>4.2</label><title>Research Gaps in Understanding Neurodivergent and Invisible Disabilities</title><p>There are significant gaps in this literature with much of what we know coming from the field of natural disasters, which also seldom discusses the differential impacts of climate change on intersectional neurodivergent conditions and experiences. Stein et al. (<xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>) have argued that climate change creates additional comorbidities that are unique to PWDs and exacerbates existing harms, both within countries and across regions, unequally affecting low‐income settings (Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>). Additional research is needed that explores how climate change creates additional intersectional disabilities and exacerbates existing harms across diverse cultural climate change contexts. Other research should use a disability human rights approach that actively incorporates the lived perspectives and experiences of people with disabilities to develop climate change solutions. Research is also crucially needed on developing the climate resilience of front‐line disability communities (Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>).</p></sec><sec id="gh270114-sec-0100"><label>4.3</label><title>Health and Functional Challenges During Climate Extremes</title><p>This gap in the literature is becoming increasingly important, as diagnoses for neurodivergent conditions such as ASD and ADHD have been on the rise, particularly in countries with improved surveillance methods and diagnostic criteria (Nori‐Sarma &amp; Galea, <xref rid="gh270114-bib-0036" ref-type="bibr">2024</xref>; Park et al., <xref rid="gh270114-bib-0038" ref-type="bibr">2024</xref>). Research shows that people with intellectual disability and other mental health disorders are also at greater risk and should be included in groups considered at high risk for heat exposure (Park et al., <xref rid="gh270114-bib-0038" ref-type="bibr">2024</xref>). This has implications for psychiatric medicine intake since common drugs for anxiety, depression and other mental health disorders can cause problems with thermoregulation and may impair cognitive functioning in extreme heat (Dodgen et al., <xref rid="gh270114-bib-0012" ref-type="bibr">2016</xref>). One of the more glaring gaps in the disaster preparedness and response research is the failure to account for the sensory and executive functioning challenges of neurodiverse populations in the context of disasters (Hamstead, <xref rid="gh270114-bib-0021" ref-type="bibr">2024</xref>).</p></sec><sec id="gh270114-sec-0110"><label>4.4</label><title>Lived Experience, Inclusion, and Data Needs</title><p>Regrettably, the lived experiences of neurodivergent individuals have also not been historically captured as part of inclusive planning, accessible information, early warning systems, and transportation in and across disaster settings (Stein &amp; Stein, <xref rid="gh270114-bib-0044" ref-type="bibr">2022</xref>; Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>). Understanding and including the lived experiences of neurodiverse populations is essential for informing collaboration and inclusive climate policies and practices. Lived experience research is also becoming the norm across mental health research and should be reflected in climate and mental health research, policy and practice (Gilbert et al., <xref rid="gh270114-bib-0019" ref-type="bibr">2025</xref>; Muchamore et al., <xref rid="gh270114-bib-0032" ref-type="bibr">2024</xref>).</p></sec></sec><sec id="gh270114-sec-0120"><label>5</label><title>Building Resilience in Disproportionately Affected Populations</title><p>Approaches to supporting mental health and well‐being amid climate‐related challenges must consider the disproportionate impact on vulnerable populations, including children, youth, and people with disabilities (Gamble et al., <xref rid="gh270114-bib-0017" ref-type="bibr">2016</xref>). The bioecological framework for human development offers a foundation for identifying and testing evidence‐based and promising strategies across individual, family, school, workplace, and community levels (Bronfenbrenner &amp; Morris, <xref rid="gh270114-bib-0006" ref-type="bibr">2006</xref>). Solutions should aim to build resilience and promote thriving within these interconnected systems, shaped by policy and programmatic decisions. Strong relationships, social engagement, and the involvement of health and allied professionals have emerged as key supports for resilience, particularly in the face of extreme weather events and ongoing climate stressors.</p><sec id="gh270114-sec-0130"><label>5.1</label><title>Children and Youth</title><p>Recent efforts by developmental scientists and policymakers emphasize strengthening early care and education systems to support children, youth, and caregivers before, during, and after extreme weather events (Ponguta et al., <xref rid="gh270114-bib-0040" ref-type="bibr">2023</xref>). These systems, already grounded in evidence‐based practices, offer a foundation for climate resilience without requiring entirely new infrastructure. Aligning early childhood systems (ages 0–8) with the United Nations Sustainable Development Goals (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://sdgs.un.org/goals" ext-link-type="uri">sdgs.un.org/goals</ext-link>) enables integrated responses to climate‐related disruptions and leverages work already in progress across the globe.</p><p>Local policies that maintain education and nurturing adult‐child interactions during disasters must also address the mental health of parents and educators. Adapted resources—originally developed for emergencies like displacement caused by armed conflict—can support families facing climate‐related instability. For example, age‐appropriate emergency kits have been used globally to promote resilience and social‐emotional learning through games and educational materials.</p><p>However, support remains inconsistent. Analyses show that children and youth are often overlooked in climate policies (Balel O., <xref rid="gh270114-bib-0005" ref-type="bibr">2025</xref>; Turay B., <xref rid="gh270114-bib-0046" ref-type="bibr">2025</xref>). A broader call to action urges health professionals to advocate for equity‐focused climate responses (Epel et al., <xref rid="gh270114-bib-0014" ref-type="bibr">2025</xref>). Initiatives like the American Public Health Association's “Climate and Health Youth Education Toolkit” equip professionals to educate youth and promote policy advocacy. While promising, these efforts require further research to assess their effectiveness and scalability.</p></sec><sec id="gh270114-sec-0140"><label>5.2</label><title>People Living With Disabilities</title><p>Although frameworks exist to guide support for people with disabilities, evidence on building psychological resilience remains limited. Gamble et al. (<xref rid="gh270114-bib-0017" ref-type="bibr">2016</xref>) identify three critical factors—exposure, sensitivity, and adaptive capacity—that shape health vulnerabilities. These are especially relevant for people with disabilities, who often depend on others for communication and emergency response. Social networks, including family, faith communities, and workplaces, have been shown to enhance resilience (Fox et al., <xref rid="gh270114-bib-0015" ref-type="bibr">2010</xref>).</p><p>Yet, global climate policy remains largely exclusionary. Fewer than 40% of countries mention people with disabilities in their climate adaptation plans, and most references lack meaningful inclusion (Jodoin et al., <xref rid="gh270114-bib-0023" ref-type="bibr">2025</xref>). Calls for disability justice emphasize recognizing the diversity within disability communities and addressing intersecting social determinants like poverty and racial discrimination (Engelman et al., <xref rid="gh270114-bib-0013" ref-type="bibr">2022</xref>). Despite well‐documented barriers—such as inadequate communication and evacuation planning—few solutions have been rigorously tested or scaled. Further research and advocacy evaluation are needed to inform effective, inclusive climate responses (Stein et al., <xref rid="gh270114-bib-0045" ref-type="bibr">2024</xref>).</p></sec></sec><sec id="gh270114-sec-0150"><label>6</label><title>Policy and Practice Implications for Collective Well‐Being</title><p>The policy and practice implications of a population mental health approach can be organized by time horizon and along a continuum of levels of action. This approach needs to address both community‐wide needs and the needs of specific groups such as children and people with disabilities. In the near term, opportunities exist to integrate mental health considerations into existing climate adaptation, education, disability, and emergency response systems. Over the longer term, structural investments are needed to build accessible, responsive mental health infrastructure that is resilient to climate disruption. Along this continuum, opportunities range from actions at the level of individuals and families to potential national or international policy change. Across all levels, however, effective responses depend on cross‐sector collaboration among environmental, health, education, and social service systems.</p><p>Overall, to effectively cope with the mental health burdens stemming from climate change, there is a need for policies that focus on both collective psychological well‐being and individual‐level care. Specifically, we need to develop systems of care that reach the full population at regular intervals across the lifespan to identify mental health risks and needs so that such risks and needs can be addressed early, before they reach the stage of a diagnosable mental illness (Dodge et al., <xref rid="gh270114-bib-0011" ref-type="bibr">2024</xref>). Building and maintaining systems of care will necessitate cooperation and support among schools, communities, and neighborhoods.</p><p>While these strategies are a critical first step, it is unlikely that a one‐size‐fits‐all solution will support collective psychological well‐being in the face of climate change, particularly for children and people with disabilities. Local community involvement in the development and implementation of programs is critical to ensure that cultural norms and values are respected in program administration and that the needs of real people in that community are addressed. For example, communities with high percentages of seniors will also have higher rates of disability, even though seniors may not self‐identify as having disabilities. Community‐based approaches cannot be solely deficit based. Understanding existing strengths and resources within communities, leveraging them, and building upon them is critical. In all these efforts, we must emphasize access to services and utilize innovations such as telehealth to promote greater access.</p><p>Many communities have already invested in programs to address related concerns. School‐based mental health programs, which have positive outcomes (Richter et al., <xref rid="gh270114-bib-0041" ref-type="bibr">2022</xref>), exist in many schools. Emergency management programs have promoted community resilience, inclusive planning, and improved data‐sharing protocols (National Institute of Environmental Health Sciences, <xref rid="gh270114-bib-0035" ref-type="bibr">2025</xref>; Slemp et al., <xref rid="gh270114-bib-0042" ref-type="bibr">2020</xref>). These existing programs can be leveraged to create a “system of systems” to promote psychological well‐being in the face of climate change. However, there is a long way to go in linking interventions to meaningful population mental health outcomes and determining their cost‐effectiveness. To do so requires the use of appropriate community‐wide data and collection of the true costs of such interventions.</p><p>Further, such a system of care should not be implemented without rigorous program evaluation and ongoing quality improvement. These evaluations should include objective measures of psychological well‐being at both the individual and population levels, as well as assessments of the subjective, lived experiences of all participants in the system. This includes both those receiving care and those involved in delivering, managing, or overseeing the services.</p><p>Continuing research is necessary to inform the development of policies and programs. Gaps in the research base must be identified and addressed, including, for example, a lack of data on neurodiverse populations. While such research is challenging, it is essential to ensure that entire populations are served, with no one left behind.</p><p>Despite rapid growth in climate–mental health research, several research gaps limit translation of existing evidence into scalable and equitable population approaches. These include: (a) limited data on neurodivergent populations and other “invisible” disabilities across diverse contexts; (b) insufficient evaluation of community‐wide interventions using population mental health metrics, including strengths‐based indicators; (c) limited evidence on cost‐effectiveness and implementation at scale across real‐world systems (e.g., schools, social services, emergency management); and (d) underrepresentation of lived experience and participatory approaches in the design of climate‐resilient mental health supports. Addressing these gaps is essential for building a “system of systems” that can be evaluated, improved, and sustained over time.</p></sec><sec id="gh270114-sec-0160"><label>7</label><title>Conclusions and Implications</title><p>This commentary highlights evidence and perspectives to advance a population mental health framing of climate‐related psychological distress, rather than to comprehensively review or systematically evaluate the literature. As reflected throughout the manuscript, available evidence remains uneven across populations and contexts, with particularly important gaps for people living with disabilities—including neurodivergent populations—and for low‐resource and underrepresented regions. In addition, while the recommendations proposed here are grounded in established public health concepts such as prevention, resilience, and cross‐sector systems of care, many have not yet been evaluated as climate‐specific population mental health interventions. These limitations highlight the need for more inclusive data, participatory research that centers lived experience, and rigorous evaluation of population‐level strategies designed to support mental health in a changing climate.</p><p>Despite these limitations, the implications are clear. Climate change poses growing mental health risks, especially for children and people with disabilities. Systems focused on individual care are insufficient to meet the scale of need. A population mental health approach—grounded in health equity, early intervention, and community resilience—is urgently needed. This includes school‐based programs, inclusive planning for neurodiverse individuals, and broader access through technology. Research gaps, especially regarding vulnerable populations, must be addressed. We call for interdisciplinary collaboration to design, evaluate, and scale solutions. Building climate‐resilient mental health systems is essential to protect well‐being in an increasingly unstable climate.</p></sec><sec sec-type="COI-statement" id="gh270114-sec-0180"><title>Conflict of Interest</title><p>The authors declare no conflicts of interest relevant to this study.</p></sec></body><back><ack id="gh270114-sec-0170"><title>Acknowledgments</title><p>Susan Clayton received funding from the New Frontiers in Research Fund (Canada) for a Climate Mental Health Research Initiative, NFRFI‐2023‐00240. The viewpoints expressed in this article are the authors’ own and do not represent an endorsement from or the policy or viewpoints of the American Psychological Association for whom they work.</p></ack><sec sec-type="data-availability" id="gh270114-sec-0200"><title>Data Availability Statement</title><p>Data were not used, nor created for this research.</p></sec><ref-list content-type="cited-references" id="gh270114-bibl-0001"><title>References</title><ref id="gh270114-bib-0001"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0001">
+<collab collab-type="authors">American Medical Association</collab>
+. (<year>2024</year>). <article-title>Behavioral health integration compendium</article-title>.</mixed-citation></ref><ref id="gh270114-bib-0002"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0002">
+<collab collab-type="authors">American Psychological Association</collab>
+. (<year>2024</year>). <article-title>Stress in America 2024: A nation in political turmoil</article-title>.</mixed-citation></ref><ref id="gh270114-bib-0003"><mixed-citation publication-type="journal" id="gh270114-cit-0003">
+<string-name name-style="western">
+<surname>Auchincloss</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ruggiero</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donnelly</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chernak</surname>, <given-names>E. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kephart</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2024</year>). <article-title>Adolescent mental distress in the wake of climate disasters</article-title>. <source>Preventive Medicine Reports</source>, <volume>39</volume>, <elocation-id>102651</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.pmedr.2024.102651</pub-id>
+<pub-id pub-id-type="pmid">38405174</pub-id>
+<pub-id pub-id-type="pmcid">PMC10884511</pub-id></mixed-citation></ref><ref id="gh270114-bib-0004"><mixed-citation publication-type="journal" id="gh270114-cit-0004">
+<string-name name-style="western">
+<surname>Baecker</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iyengar</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Del Piccolo</surname>, <given-names>M. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Mechelli</surname>, <given-names>A.</given-names>
+</string-name> (<year>2025</year>). <article-title>Impacts of extreme heat on mental health: Systematic review and qualitative investigation of the underpinning mechanisms</article-title>. <source>The Journal of Climate Change and Health</source>, <volume>22</volume>, <elocation-id>100446</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.joclim.2025.100446</pub-id>
+<pub-id pub-id-type="pmid">41646246</pub-id>
+<pub-id pub-id-type="pmcid">PMC12851232</pub-id></mixed-citation></ref><ref id="gh270114-bib-0005"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0005">
+<string-name name-style="western">
+<surname>Balel</surname>, <given-names>O.</given-names>
+</string-name> (<year>2025</year>). <article-title>Including young children in climate actions in India: A review of seven states' climate plans with recommendations</article-title>.</mixed-citation></ref><ref id="gh270114-bib-0006"><mixed-citation publication-type="book" id="gh270114-cit-0006">
+<string-name name-style="western">
+<surname>Bronfenbrenner</surname>, <given-names>U.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Morris</surname>, <given-names>P. A.</given-names>
+</string-name> (<year>2006</year>). <part-title>The bioecological model of human development</part-title>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Lerner</surname>
+</string-name>
+</person-group> &amp; <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Damon</surname>
+</string-name>
+</person-group> (Eds.), <source>Handbook of child psychology: Theoretical models of human development</source> (<edition>6th ed.</edition>, Vol. <volume>1</volume>, pp. <fpage>793</fpage>–<lpage>828</lpage>). <publisher-name>John Wiley &amp; Sons Inc</publisher-name>.</mixed-citation></ref><ref id="gh270114-bib-0007"><mixed-citation publication-type="journal" id="gh270114-cit-0007">
+<string-name name-style="western">
+<surname>Clayton</surname>, <given-names>S.</given-names>
+</string-name> (<year>2020</year>). <article-title>Climate anxiety: Psychological responses to climate change</article-title>. <source>Journal of Anxiety Disorders</source>, <volume>74</volume>, <elocation-id>102263</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.janxdis.2020.102263</pub-id>
+<pub-id pub-id-type="pmid">32623280</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0008"><mixed-citation publication-type="journal" id="gh270114-cit-0008">
+<string-name name-style="western">
+<surname>Clayton</surname>, <given-names>S.</given-names>
+</string-name> (<year>2024</year>). <article-title>A social psychology of climate change: Progress and promise</article-title>. <source>British Journal of Social Psychology</source>, <volume>63</volume>(<issue>4</issue>), <fpage>1535</fpage>–<lpage>1546</lpage>. <pub-id pub-id-type="doi">10.1111/bjso.12749</pub-id>
+<pub-id pub-id-type="pmid">38676432</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0009"><mixed-citation publication-type="journal" id="gh270114-cit-0009">
+<string-name name-style="western">
+<surname>Clayton</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Crandon</surname>, <given-names>T.</given-names>
+</string-name> (<year>2025</year>). <article-title>Climate change and mental health</article-title>. <source>Annual Review of Clinical Psychology</source>, <volume>21</volume>(<issue>1</issue>), <fpage>61</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-clinpsy-081423-025932</pub-id>
+<pub-id pub-id-type="pmid">39661524</pub-id></mixed-citation></ref><ref id="gh270114-bib-0010"><mixed-citation publication-type="book" id="gh270114-cit-0010">
+<string-name name-style="western">
+<surname>Clayton</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manning</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hill</surname>, <given-names>A. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Speiser</surname>, <given-names>M.</given-names>
+</string-name> (<year>2023</year>). <source>Mental health and our changing climate: Children and youth report 2023</source>. <publisher-name>American Psychological Association and ecoAmerica</publisher-name>.</mixed-citation></ref><ref id="gh270114-bib-0011"><mixed-citation publication-type="journal" id="gh270114-cit-0011">
+<string-name name-style="western">
+<surname>Dodge</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prinstein</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evans</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahuvia</surname>, <given-names>I. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alvarez</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beidas</surname>, <given-names>R. S.</given-names>
+</string-name>, et al. (<year>2024</year>). <article-title>Population mental health science: Guiding principles and initial agenda</article-title>. <source>American Psychologist</source>, <volume>79</volume>(<issue>6</issue>), <fpage>805</fpage>–<lpage>823</lpage>. <pub-id pub-id-type="doi">10.1037/amp0001334</pub-id>
+<pub-id pub-id-type="pmid">38829360</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0012"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0012">
+<string-name name-style="western">
+<surname>Dodgen</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donato</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>La Greca</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morganstein</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reser</surname>, <given-names>J.</given-names>
+</string-name>, et al. (<year>2016</year>). <article-title>Ch. 8: Mental health and well‐being. The impacts of climate change on human health in the United States: A scientific assessment</article-title>. <pub-id pub-id-type="doi">10.7930/J0TX3C9H</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0013"><mixed-citation publication-type="journal" id="gh270114-cit-0013">
+<string-name name-style="western">
+<surname>Engelman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Craig</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Iles</surname>, <given-names>A.</given-names>
+</string-name> (<year>2022</year>). <article-title>Global disability justice in climate disasters: Mobilizing people with disabilities as change agents</article-title>. <source>Health Affairs</source>, <volume>41</volume>(<issue>10</issue>), <fpage>1496</fpage>–<lpage>1504</lpage>. <pub-id pub-id-type="doi">10.1377/hlthaff.2022.00474</pub-id>
+<pub-id pub-id-type="pmid">36190897</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0014"><mixed-citation publication-type="journal" id="gh270114-cit-0014">
+<string-name name-style="western">
+<surname>Epel</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brownell</surname>, <given-names>K. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rodin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hollis</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diefenbach</surname>, <given-names>M. A.</given-names>
+</string-name>, et al. (<year>2025</year>). <article-title>Transforming health psychology and behavioral medicine to address the climate crisis: A call for strategic research and advocacy</article-title>. <source>Health Psychology: Official Journal of the Division of Health Psychology, American Psychological Association</source>, <volume>44</volume>(<issue>6</issue>), <fpage>563</fpage>–<lpage>577</lpage>. <pub-id pub-id-type="doi">10.1037/hea0001431</pub-id>
+<pub-id pub-id-type="pmid">40257907</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0015"><mixed-citation publication-type="journal" id="gh270114-cit-0015">
+<string-name name-style="western">
+<surname>Fox</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>, <given-names>G. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rooney</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cahill</surname>, <given-names>A.</given-names>
+</string-name> (<year>2010</year>). <article-title>The psychosocial impact of Hurricane Katrina on persons with disabilities and independent living center staff living on the American Gulf Coast</article-title>. <source>Rehabilitation Psychology</source>, <volume>55</volume>(<issue>3</issue>), <fpage>231</fpage>–<lpage>240</lpage>. <pub-id pub-id-type="doi">10.1037/a0020321</pub-id>
+<pub-id pub-id-type="pmid">20804266</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0016"><mixed-citation publication-type="journal" id="gh270114-cit-0016">
+<string-name name-style="western">
+<surname>Gago</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sargisson</surname>, <given-names>R. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Milfont</surname>, <given-names>T. L.</given-names>
+</string-name> (<year>2024</year>). <article-title>A meta‐analysis on the relationship between climate anxiety and wellbeing</article-title>. <source>Journal of Environmental Psychology</source>, <volume>94</volume>, <elocation-id>102230</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jenvp.2024.102230</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0017"><mixed-citation publication-type="book" id="gh270114-cit-0017">
+<string-name name-style="western">
+<surname>Gamble</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balbus</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bouye</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Campbell</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chief</surname>, <given-names>K.</given-names>
+</string-name>, et al. (<year>2016</year>). <part-title>Chapter 9: Populations of concern</part-title>. In <source>The impacts of climate change on human health in the United States: A scientific assessment</source>. <pub-id pub-id-type="doi">10.7930/J0Q81B0T</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0018"><mixed-citation publication-type="journal" id="gh270114-cit-0018">
+<string-name name-style="western">
+<surname>Gaskin</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taylor</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kinnear</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mann</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hillman</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Moran</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Factors associated with the climate change vulnerability and the adaptive capacity of people with disability: A systematic review</article-title>. <source>Weather, Climate, and Society</source>, <volume>9</volume>(<issue>4</issue>), <fpage>801</fpage>–<lpage>814</lpage>. <pub-id pub-id-type="doi">10.1175/WCAS-D-16-0126.1</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0019"><mixed-citation publication-type="journal" id="gh270114-cit-0019">
+<string-name name-style="western">
+<surname>Gilbert</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muchamore</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Katterl</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Purdon</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ozols</surname>, <given-names>I.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gooding</surname>, <given-names>P.</given-names>
+</string-name> (<year>2025</year>). <article-title>Digital futures in mind: Why lived experience collaboration must guide digital mental health technologies</article-title>. <source>Australian Journal of Social Issues</source>, <volume>60</volume>(<issue>1</issue>), <fpage>196</fpage>–<lpage>215</lpage>. <pub-id pub-id-type="doi">10.1002/ajs4.355</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0020"><mixed-citation publication-type="journal" id="gh270114-cit-0020">
+<string-name name-style="western">
+<surname>Goldmann</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Galea</surname>, <given-names>S.</given-names>
+</string-name> (<year>2014</year>). <article-title>Mental health consequences of disasters</article-title>. <source>Annual Review of Public Health</source>, <volume>35</volume>(<issue>1</issue>), <fpage>169</fpage>–<lpage>183</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-publhealth-032013-182435</pub-id>
+<pub-id pub-id-type="pmid">24159920</pub-id></mixed-citation></ref><ref id="gh270114-bib-0021"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0021">
+<string-name name-style="western">
+<surname>Hamstead</surname>, <given-names>B.</given-names>
+</string-name> (<year>2024</year>). <article-title>The urgent need to include neurodivergence in disaster preparedness, response, and recovery</article-title>. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.Linkedin.Com/Pulse/Urgent-Need-Include-Neurodivergence-Disaster-Response-Bridgette-Cawec/" ext-link-type="uri">https://www.Linkedin.Com/Pulse/Urgent‐Need‐Include‐Neurodivergence‐Disaster‐Response‐Bridgette‐Cawec/</ext-link>
+</mixed-citation></ref><ref id="gh270114-bib-0022"><mixed-citation publication-type="journal" id="gh270114-cit-0022">
+<string-name name-style="western">
+<surname>Hickman</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marks</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pihkala</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clayton</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lewandowski</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayall</surname>, <given-names>E. E.</given-names>
+</string-name>, et al. (<year>2021</year>). <article-title>Climate anxiety in children and young people and their beliefs about government responses to climate change: A global survey</article-title>. <source>The Lancet Planetary Health</source>, <volume>5</volume>(<issue>12</issue>), <fpage>e863</fpage>–<lpage>e873</lpage>. <pub-id pub-id-type="doi">10.1016/S2542-5196(21)00278-3</pub-id>
+<pub-id pub-id-type="pmid">34895496</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0023"><mixed-citation publication-type="journal" id="gh270114-cit-0023">
+<string-name name-style="western">
+<surname>Jodoin</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowie‐Edwards</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lofts</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mangat</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adjei</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lesnikowski</surname>, <given-names>A.</given-names>
+</string-name> (<year>2025</year>). <article-title>A systematic analysis of disability inclusion in domestic climate policies</article-title>. <source>Npj Climate Action</source>, <volume>4</volume>(<issue>1</issue>), <elocation-id>24</elocation-id>. <pub-id pub-id-type="doi">10.1038/s44168-025-00228-3</pub-id>
+<pub-id pub-id-type="pmid">40046455</pub-id>
+<pub-id pub-id-type="pmcid">PMC11876069</pub-id></mixed-citation></ref><ref id="gh270114-bib-0024"><mixed-citation publication-type="journal" id="gh270114-cit-0024">
+<string-name name-style="western">
+<surname>Jung</surname>, <given-names>Y. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burke</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heft‐Neal</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bondy</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chinthrajah</surname>, <given-names>R. S.</given-names>
+</string-name>, et al. (<year>2025</year>). <article-title>Fine particulate matter from 2020 California wildfires and mental health–related emergency department visits</article-title>. <source>JAMA Network Open</source>, <volume>8</volume>(<issue>4</issue>), <elocation-id>e253326</elocation-id>. <pub-id pub-id-type="doi">10.1001/jamanetworkopen.2025.3326</pub-id>
+<pub-id pub-id-type="pmid">40184065</pub-id>
+<pub-id pub-id-type="pmcid">PMC11971671</pub-id></mixed-citation></ref><ref id="gh270114-bib-0025"><mixed-citation publication-type="journal" id="gh270114-cit-0025">
+<string-name name-style="western">
+<surname>Kindig</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Stoddart</surname>, <given-names>G.</given-names>
+</string-name> (<year>2003</year>). <article-title>What is population health?</article-title>
+<source>American Journal of Public Health</source>, <volume>93</volume>(<issue>3</issue>), <fpage>380</fpage>–<lpage>383</lpage>. <pub-id pub-id-type="doi">10.2105/ajph.93.3.380</pub-id>
+<pub-id pub-id-type="pmid">12604476</pub-id>
+<pub-id pub-id-type="pmcid">PMC1447747</pub-id></mixed-citation></ref><ref id="gh270114-bib-0026"><mixed-citation publication-type="journal" id="gh270114-cit-0026">
+<string-name name-style="western">
+<surname>Lawrance</surname>, <given-names>E. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thompson</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newberry Le Vay</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Page</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jennings</surname>, <given-names>N.</given-names>
+</string-name> (<year>2022</year>). <article-title>The impact of climate change on mental health and emotional wellbeing: A narrative review of current evidence, and its implications</article-title>. <source>International Review of Psychiatry</source>, <volume>34</volume>(<issue>5</issue>), <fpage>443</fpage>–<lpage>498</lpage>. <pub-id pub-id-type="doi">10.1080/09540261.2022.2128725</pub-id>
+<pub-id pub-id-type="pmid">36165756</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0027"><mixed-citation publication-type="book" id="gh270114-cit-0027">
+<string-name name-style="western">
+<surname>Leiserowitz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maibach</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rosenthal</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kotcher</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goddard</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carman</surname>, <given-names>J.</given-names>
+</string-name>, et al. (<year>2024</year>). <source>Climate change in the American mind: Beliefs &amp; Attitudes, Fall 2024</source>. <publisher-name>Yale University and George Mason University. Yale Program on Climate Change Communication</publisher-name>.</mixed-citation></ref><ref id="gh270114-bib-0028"><mixed-citation publication-type="journal" id="gh270114-cit-0028">
+<string-name name-style="western">
+<surname>Lewandowski</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clayton</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Olbrich</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sakshaug</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wray</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schwartz</surname>, <given-names>S. E. O.</given-names>
+</string-name>, et al. (<year>2024</year>). <article-title>Climate emotions, thoughts, and plans among US adolescents and young adults: A cross‐sectional descriptive survey and analysis by political party identification and self‐reported exposure to severe weather events</article-title>. <source>The Lancet Planetary Health</source>, <volume>8</volume>(<issue>11</issue>), <fpage>e879</fpage>–<lpage>e893</lpage>. <pub-id pub-id-type="doi">10.1016/S2542-5196(24)00229-8</pub-id>
+<pub-id pub-id-type="pmid">39427673</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0029"><mixed-citation publication-type="journal" id="gh270114-cit-0029">
+<string-name name-style="western">
+<surname>Lindsay</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hsu</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ragunathan</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lindsay</surname>, <given-names>J.</given-names>
+</string-name> (<year>2023</year>). <article-title>The impact of climate change related extreme weather events on people with pre‐existing disabilities and chronic conditions: A scoping review</article-title>. <source>Disability &amp; Rehabilitation</source>, <volume>45</volume>(<issue>25</issue>), <fpage>4338</fpage>–<lpage>4358</lpage>. <pub-id pub-id-type="doi">10.1080/09638288.2022.2150328</pub-id>
+<pub-id pub-id-type="pmid">36426560</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0030"><mixed-citation publication-type="book" id="gh270114-cit-0030">
+<string-name name-style="western">
+<surname>Miles‐Novelo</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2022</year>). <source>Climate change and human behavior</source>. <publisher-name>Cambridge University Press</publisher-name>. <pub-id pub-id-type="doi">10.1017/9781108953078</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0031"><mixed-citation publication-type="journal" id="gh270114-cit-0031">
+<string-name name-style="western">
+<surname>Mitchell</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maheen</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bowen</surname>, <given-names>K.</given-names>
+</string-name> (<year>2024</year>). <article-title>Mental health impacts from repeated climate disasters: An Australian longitudinal analysis</article-title>. <source>Lancet Regional Health. Western Pacific</source>, <volume>47</volume>, <elocation-id>101087</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lanwpc.2024.101087</pub-id>
+<pub-id pub-id-type="pmid">38831889</pub-id>
+<pub-id pub-id-type="pmcid">PMC11145535</pub-id></mixed-citation></ref><ref id="gh270114-bib-0032"><mixed-citation publication-type="journal" id="gh270114-cit-0032">
+<string-name name-style="western">
+<surname>Muchamore</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karanikolas</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gooding</surname>, <given-names>P.</given-names>
+</string-name> (<year>2024</year>). <article-title>How lived experience expertise shapes research and development in digital mental health</article-title>. <source>SSRN Electronic Journal</source>. <pub-id pub-id-type="doi">10.2139/ssrn.4932039</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0033"><mixed-citation publication-type="book" id="gh270114-cit-0033">
+<collab collab-type="authors">National Academies of Sciences, Engineering and Medicine</collab>
+. (<year>2024</year>). In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Baciu</surname>
+</string-name>
+</person-group> (Ed.), <source>Exploring the ecosystem of health equity measures</source>. <publisher-name>National Academies Press</publisher-name>. <pub-id pub-id-type="doi">10.17226/27914</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0034"><mixed-citation publication-type="book" id="gh270114-cit-0034">
+<collab collab-type="authors">National Academies of Sciences, Engineering, and Medicine</collab>
+. (<year>2025</year>). <source>Blueprint for a national prevention infrastructure for mental, emotional, and behavioral disorders</source>. <publisher-name>National Academies Press</publisher-name>. <pub-id pub-id-type="doi">10.17226/28577</pub-id>
+<pub-id pub-id-type="pmid">40601796</pub-id></mixed-citation></ref><ref id="gh270114-bib-0035"><mixed-citation publication-type="book" id="gh270114-cit-0035">
+<collab collab-type="authors">National Institute of Environmental Health Sciences</collab>
+. (<year>2025</year>). <source>Disaster Research Response (DR2) Program</source>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Baciu</surname>
+</string-name>
+</person-group> (Ed.). <publisher-name>National Academies Press</publisher-name>. <pub-id pub-id-type="doi">10.17226/27914</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0036"><mixed-citation publication-type="journal" id="gh270114-cit-0036">
+<string-name name-style="western">
+<surname>Nori‐Sarma</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Galea</surname>, <given-names>S.</given-names>
+</string-name> (<year>2024</year>). <article-title>Climate change and mental health: A call for a global research agenda</article-title>. <source>The Lancet Psychiatry</source>, <volume>11</volume>(<issue>5</issue>), <fpage>316</fpage>–<lpage>317</lpage>. <pub-id pub-id-type="doi">10.1016/S2215-0366(24)00098-1</pub-id>
+<pub-id pub-id-type="pmid">38631783</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0037"><mixed-citation publication-type="journal" id="gh270114-cit-0037">
+<string-name name-style="western">
+<surname>Ogunbode</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doran</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hanss</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ojala</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salmela‐Aro</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van den Broek</surname>, <given-names>K. L.</given-names>
+</string-name>, et al. (<year>2022</year>). <article-title>Climate anxiety, wellbeing and pro‐environmental action: Correlates of negative emotional responses to climate change in 32 countries</article-title>. <source>Journal of Environmental Psychology</source>, <volume>84</volume>, <elocation-id>101887</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jenvp.2022.101887</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0038"><mixed-citation publication-type="journal" id="gh270114-cit-0038">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bell</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lee</surname>, <given-names>W.</given-names>
+</string-name> (<year>2024</year>). <article-title>Heat and hospital admission via the emergency department for people with intellectual disability, autism, and mental disorders in South Korea: A nationwide, time‐stratified, case‐crossover study</article-title>. <source>The Lancet Psychiatry</source>, <volume>11</volume>(<issue>5</issue>), <fpage>359</fpage>–<lpage>367</lpage>. <pub-id pub-id-type="doi">10.1016/S2215-0366(24)00067-1</pub-id>
+<pub-id pub-id-type="pmid">38631786</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0039"><mixed-citation publication-type="journal" id="gh270114-cit-0039">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Behrer</surname>, <given-names>A. P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Goodman</surname>, <given-names>J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Learning is inhibited by heat exposure, both internationally and within the United States</article-title>. <source>Nature Human Behaviour</source>, <volume>5</volume>(<issue>1</issue>), <fpage>19</fpage>–<lpage>27</lpage>. <pub-id pub-id-type="doi">10.1038/s41562-020-00959-9</pub-id>
+<pub-id pub-id-type="pmid">33020588</pub-id></mixed-citation></ref><ref id="gh270114-bib-0040"><mixed-citation publication-type="book" id="gh270114-cit-0040">
+<string-name name-style="western">
+<surname>Ponguta</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scott</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cerezo</surname>, <given-names>A.</given-names>
+</string-name> (<year>2023</year>). <source>Protecting our future now: A policy framework for climate change and the early years</source>. <publisher-name>Yale Child Study Center, Yale University</publisher-name>.</mixed-citation></ref><ref id="gh270114-bib-0041"><mixed-citation publication-type="journal" id="gh270114-cit-0041">
+<string-name name-style="western">
+<surname>Richter</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sjunnestrand</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Romare Strandh</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hasson</surname>, <given-names>H.</given-names>
+</string-name> (<year>2022</year>). <article-title>Implementing school‐based mental health services: A scoping review of the literature summarizing the factors that affect implementation</article-title>. <source>International Journal of Environmental Research and Public Health</source>, <volume>19</volume>(<issue>6</issue>), <elocation-id>3489</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijerph19063489</pub-id>
+<pub-id pub-id-type="pmid">35329175</pub-id>
+<pub-id pub-id-type="pmcid">PMC8948726</pub-id></mixed-citation></ref><ref id="gh270114-bib-0042"><mixed-citation publication-type="journal" id="gh270114-cit-0042">
+<string-name name-style="western">
+<surname>Slemp</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sisco</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jean</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahmed</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kanarek</surname>, <given-names>N. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Erös‐Sarnyai</surname>, <given-names>M.</given-names>
+</string-name>, et al. (<year>2020</year>). <article-title>Applying an innovative model of disaster resilience at the neighborhood level: The COPEWELL New York City experience</article-title>. <source>Public Health Reports</source>, <volume>135</volume>(<issue>5</issue>), <fpage>565</fpage>–<lpage>570</lpage>. <pub-id pub-id-type="doi">10.1177/0033354920938012</pub-id>
+<pub-id pub-id-type="pmid">32735159</pub-id>
+<pub-id pub-id-type="pmcid">PMC7485050</pub-id></mixed-citation></ref><ref id="gh270114-bib-0043"><mixed-citation publication-type="book" id="gh270114-cit-0043">
+<string-name name-style="western">
+<surname>Solar</surname>, <given-names>O.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Irwin</surname>, <given-names>A.</given-names>
+</string-name> (<year>2010</year>). <part-title>A conceptual framework for action on the social determinants of health</part-title>. In <source>Social determinants of health discussion paper 2 (Policy and practice)</source>. <publisher-name>WHO</publisher-name>.</mixed-citation></ref><ref id="gh270114-bib-0044"><mixed-citation publication-type="journal" id="gh270114-cit-0044">
+<string-name name-style="western">
+<surname>Stein</surname>, <given-names>P. J. S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Stein</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2022</year>). <article-title>Climate change and the right to health of people with disabilities</article-title>. <source>Lancet Global Health</source>, <volume>10</volume>(<issue>1</issue>), <fpage>e24</fpage>–<lpage>e25</lpage>. <pub-id pub-id-type="doi">10.1016/S2214-109X(21)00542-8</pub-id>
+<pub-id pub-id-type="pmid">34863369</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0045"><mixed-citation publication-type="journal" id="gh270114-cit-0045">
+<string-name name-style="western">
+<surname>Stein</surname>, <given-names>P. J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stein</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Groce</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kett</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akyeampong</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alford</surname>, <given-names>W. P.</given-names>
+</string-name>, et al. (<year>2024</year>). <article-title>Advancing disability‐inclusive climate research and action, climate justice, and climate‐resilient development</article-title>. <source>The Lancet Planetary Health</source>, <volume>8</volume>(<issue>4</issue>), <fpage>e242</fpage>–<lpage>e255</lpage>. <pub-id pub-id-type="doi">10.1016/S2542-5196(24)00024-X</pub-id>
+<pub-id pub-id-type="pmid">38580426</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0046"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0046">
+<string-name name-style="western">
+<surname>Turay</surname>, <given-names>B.</given-names>
+</string-name> (<year>2025</year>). <article-title>Young children in cities' climate action plans: An examination of plans from 12 cities projected to be Most populated by 2100</article-title>.</mixed-citation></ref><ref id="gh270114-bib-0047"><mixed-citation publication-type="book" id="gh270114-cit-0047">
+<collab collab-type="authors">UNDRR</collab>
+. (<year>2023</year>). <source>UN office for disaster risk reduction (UNDRR) 2023 Global Survey of persons with disabilities and disasters</source>. <publisher-name>Global Survey Report on Persons with Disabilities and Disasters|UNDRR</publisher-name>.</mixed-citation></ref><ref id="gh270114-bib-0048"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0048">
+<collab collab-type="authors">USGCRP</collab>
+. (<year>2023</year>). <article-title>Fifth national climate assessment</article-title>. <pub-id pub-id-type="doi">10.7930/NCA5.2023</pub-id>
+</mixed-citation></ref><ref id="gh270114-bib-0049"><mixed-citation publication-type="miscellaneous" id="gh270114-cit-0049">
+<string-name name-style="western">
+<surname>Watfern</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Carnemolla</surname>, <given-names>P.</given-names>
+</string-name> (<year>2024</year>). <article-title>Inclusive climate action: A scoping review on the representation and inclusion of people with intellectual disability in climate change research</article-title>. <pub-id pub-id-type="doi">10.21203/rs.3.rs-4015326/v1</pub-id>
+</mixed-citation></ref></ref-list></back></article>
