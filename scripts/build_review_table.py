@@ -13,12 +13,17 @@ Usage:
     ./venv/bin/python scripts/build_review_table.py \
         --search-results temp/queries/aqi_india_pilot/search_results.json \
         --output-dir temp/queries/aqi_india_pilot/review
+
+    # or from a BAGIT corpus (e.g. built with `semantic_corpus import`)
+    ./venv/bin/python scripts/build_review_table.py --corpus temp/corpus/my_corpus
 """
 
 import argparse
 from pathlib import Path
 
+from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.corpus_review.review_table import (
+    build_review_rows_from_corpus,
     build_review_rows_from_search_results,
     export_review_tables,
     load_query_context,
@@ -33,6 +38,12 @@ def parse_args() -> argparse.Namespace:
         "--query-dir",
         type=str,
         help="Query output dir containing search_results.json and query_run.json.",
+    )
+    parser.add_argument(
+        "--corpus",
+        type=str,
+        help="BAGIT corpus dir (e.g. from `semantic_corpus import`); "
+        "writes to <corpus>/review by default.",
     )
     parser.add_argument(
         "--search-results",
@@ -91,8 +102,27 @@ def resolve_paths(args: argparse.Namespace):
     return search_results, xml_dir, query_run, output_dir
 
 
+def build_from_corpus(args: argparse.Namespace) -> None:
+    corpus_dir = Path(args.corpus)
+    if not Path(corpus_dir, "bagit.txt").is_file():
+        raise SystemExit(f"Not a BAGIT corpus: {corpus_dir}")
+
+    corpus = CorpusManager(corpus_dir, use_bagit=True)
+    rows = build_review_rows_from_corpus(corpus, query_name=corpus_dir.name)
+    output_dir = Path(args.output_dir) if args.output_dir else corpus_dir / "review"
+    paths = export_review_tables(rows, output_dir, basename=args.basename)
+
+    print(f"Rows: {len(rows)}")
+    for fmt, path in paths.items():
+        print(f"  {fmt}: {path}")
+
+
 def main() -> None:
     args = parse_args()
+    if args.corpus:
+        build_from_corpus(args)
+        return
+
     search_results, xml_dir, query_run, output_dir = resolve_paths(args)
 
     if args.convert_pdfs:
