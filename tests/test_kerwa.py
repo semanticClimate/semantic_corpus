@@ -14,7 +14,7 @@ from semantic_corpus.repositories.kerwa import KerwaRepository
 class TestKerwaRepository(unittest.TestCase):
     def test_id_from_kerwa_url(self) -> None:
         # Full URL
-        url = "https://www.kerwa.ucr.ac.cr/handle/10669/12345"
+        url = "https://kerwa.ucr.ac.cr/handle/10669/12345"
         self.assertEqual(id_from_kerwa_url(url), "kerwa_10669_12345")
         self.assertEqual(handle_from_kerwa_url(url), "kerwa_10669_12345")
 
@@ -23,7 +23,7 @@ class TestKerwaRepository(unittest.TestCase):
         self.assertEqual(id_from_kerwa_url(url_hdl), "kerwa_10669_12345")
 
         # URL with query param
-        url_query = "https://www.kerwa.ucr.ac.cr/handle/10669/12345?show=full"
+        url_query = "https://kerwa.ucr.ac.cr/handle/10669/12345?show=full"
         self.assertEqual(id_from_kerwa_url(url_query), "kerwa_10669_12345")
 
         # Raw handle
@@ -75,8 +75,8 @@ class TestKerwaRepository(unittest.TestCase):
         """
         links = repo._extract_article_links(html)
         self.assertEqual(len(links), 2)
-        self.assertIn("https://www.kerwa.ucr.ac.cr/handle/10669/12345", links)
-        self.assertIn("https://www.kerwa.ucr.ac.cr/handle/10669/12346", links)
+        self.assertIn("https://kerwa.ucr.ac.cr/handle/10669/12345", links)
+        self.assertIn("https://kerwa.ucr.ac.cr/handle/10669/12346", links)
 
     def test_extract_metadata(self) -> None:
         repo = KerwaRepository()
@@ -91,12 +91,12 @@ class TestKerwaRepository(unittest.TestCase):
             <meta name="citation_publication_date" content="2022" />
             <meta name="citation_journal_title" content="Tesis de Maestria - UCR" />
             <meta name="citation_doi" content="10.15517/kerwa.2022.01" />
-            <meta name="citation_pdf_url" content="https://www.kerwa.ucr.ac.cr/bitstream/handle/10669/12345/tesis.pdf" />
+            <meta name="citation_pdf_url" content="https://kerwa.ucr.ac.cr/bitstream/handle/10669/12345/tesis.pdf" />
         </head>
         <body></body>
         </html>
         """
-        url = "https://www.kerwa.ucr.ac.cr/handle/10669/12345"
+        url = "https://kerwa.ucr.ac.cr/handle/10669/12345"
         meta = repo._extract_metadata(html, url)
         self.assertEqual(meta["paper_id"], "kerwa_10669_12345")
         self.assertEqual(
@@ -112,7 +112,7 @@ class TestKerwaRepository(unittest.TestCase):
         self.assertEqual(meta["doi"], "10.15517/kerwa.2022.01")
         self.assertEqual(
             meta["pdf_url"],
-            "https://www.kerwa.ucr.ac.cr/bitstream/handle/10669/12345/tesis.pdf",
+            "https://kerwa.ucr.ac.cr/bitstream/handle/10669/12345/tesis.pdf",
         )
         self.assertEqual(meta["source_repository"], "kerwa")
 
@@ -129,7 +129,7 @@ class TestKerwaRepository(unittest.TestCase):
         <html><head>
             <meta name="citation_title" content="Articulo Kerwa" />
             <meta name="citation_author" content="Autor UCR" />
-            <meta name="citation_pdf_url" content="https://www.kerwa.ucr.ac.cr/paper.pdf" />
+            <meta name="citation_pdf_url" content="https://kerwa.ucr.ac.cr/paper.pdf" />
         </head><body></body></html>
         """
 
@@ -137,7 +137,7 @@ class TestKerwaRepository(unittest.TestCase):
             def __init__(
                 self,
                 text: str,
-                url: str = "https://www.kerwa.ucr.ac.cr/handle/10669/12345",
+                url: str = "https://kerwa.ucr.ac.cr/handle/10669/12345",
             ):
                 self.text = text
                 self.url = url
@@ -160,7 +160,7 @@ class TestKerwaRepository(unittest.TestCase):
         item_html = """
         <html><head>
             <meta name="citation_title" content="Tesis Kerwa" />
-            <meta name="citation_pdf_url" content="https://www.kerwa.ucr.ac.cr/document.pdf" />
+            <meta name="citation_pdf_url" content="https://kerwa.ucr.ac.cr/document.pdf" />
         </head><body></body></html>
         """
 
@@ -170,7 +170,7 @@ class TestKerwaRepository(unittest.TestCase):
             ):
                 self.content = content
                 self.text = text
-                self.url = "https://www.kerwa.ucr.ac.cr/handle/10669/12345"
+                self.url = "https://kerwa.ucr.ac.cr/handle/10669/12345"
                 self.headers = headers or {"content-type": "application/pdf"}
 
         def fake_get(url, params=None, timeout=30):
@@ -193,7 +193,7 @@ class TestKerwaRepository(unittest.TestCase):
         repo = KerwaRepository()
         info = repo.get_repository_info()
         self.assertEqual(info["name"], "Kerwa")
-        self.assertEqual(info["base_url"], "https://www.kerwa.ucr.ac.cr")
+        self.assertEqual(info["base_url"], "https://kerwa.ucr.ac.cr")
         self.assertIn("pdf", info["supported_formats"])
 
 

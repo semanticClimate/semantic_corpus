@@ -148,7 +148,7 @@ def handle_from_uchile_url(url_or_id: str) -> str:
 def id_from_kerwa_url(url_or_id: str) -> str:
     """Extracts handle identifier from a document in Kerwa (Universidad de Costa Rica) repository.
     E.g.:
-    - 'https://www.kerwa.ucr.ac.cr/handle/10669/12345' -> 'kerwa_10669_12345'
+    - 'https://kerwa.ucr.ac.cr/handle/10669/12345' -> 'kerwa_10669_12345'
     - 'https://hdl.handle.net/10669/12345' -> 'kerwa_10669_12345'
     - '10669/12345' -> 'kerwa_10669_12345'
     - '12345' -> 'kerwa_10669_12345'

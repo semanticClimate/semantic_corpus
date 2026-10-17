@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Repository Monitor</title>
+<style>
+/* Mirrors corpus_review/assets/review_table.css so both tools look alike. */
+
+:root {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #cbd5e1;
+  --include: #047857;
+  --exclude: #b91c1c;
+  --review: #b45309;
+  --empty: #e2e8f0;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header { margin-bottom: 1rem; }
+
+h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.5rem;
+}
+
+.summary {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.toolbar {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.connection-banner {
+  margin: 0 0 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.connection-banner--warn {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.connection-banner--ok {
+  background: #ecfdf5;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+}
+
+.connection-banner code { font-size: 0.88rem; }
+
+.table-wrap {
+  overflow-x: auto;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #eef2ff;
+  text-align: left;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+tbody td {
+  vertical-align: top;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+tbody tr:hover { background: #f1f5f9; }
+
+.status-up { color: var(--include); font-weight: 600; }
+.status-down { color: var(--exclude); font-weight: 600; }
+.status-slow, .status-warn, .status-degraded { color: var(--review); font-weight: 600; }
+.status-pending { color: var(--muted); font-weight: 600; }
+
+.col-name { font-weight: 600; white-space: nowrap; }
+.col-url { max-width: 18rem; font-size: 0.88rem; }
+.col-url a {
+  color: #2563eb;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.col-num { white-space: nowrap; text-align: right; }
+.col-error {
+  min-width: 14rem;
+  max-width: 28rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  word-break: break-word;
+}
+
+.strip {
+  display: flex;
+  gap: 2px;
+  width: 15rem;
+  height: 1.1rem;
+}
+.strip i { flex: 1; border-radius: 2px; background: var(--empty); }
+.strip i.s-up { background: var(--include); }
+.strip i.s-down { background: var(--exclude); }
+.strip i.s-slow, .strip i.s-warn, .strip i.s-degraded { background: var(--review); }
+
+.legend { display: inline-flex; gap: 1rem; flex-wrap: wrap; }
+.legend span::before {
+  content: "";
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 0.35rem;
+  border-radius: 2px;
+  vertical-align: -0.05rem;
+  background: var(--c);
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Repository Monitor</h1>
+  <div class="summary" id="summary">Loading…</div>
+</header>
+
+<div id="banner" class="connection-banner connection-banner--ok" hidden></div>
+
+<div class="toolbar">
+  <span id="meta"></span>
+  &nbsp;·&nbsp;
+  <span class="legend">
+    <span style="--c: var(--include)">Up</span>
+    <span style="--c: var(--review)">Slow / rejected / search failing</span>
+    <span style="--c: var(--exclude)">Down</span>
+  </span>
+</div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Status</th>
+        <th>Repository</th>
+        <th>URL</th>
+        <th class="col-num">Latency</th>
+        <th class="col-num">HTTP</th>
+        <th>Search</th>
+        <th class="col-num">Uptime</th>
+        <th>Last 60 checks</th>
+        <th>Error</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</div>
+
+<script>
+  const LABELS = {
+    up: "Up", slow: "Slow", warn: "Rejected", degraded: "Search failing", down: "Down",
+  };
+  const ORDER = { down: 0, degraded: 1, warn: 2, slow: 3, up: 4 };
+  const POLL_MS = 15000; // cheap: the server returns cached results, it does not re-check
+  const STRIP = 60;
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+  const time = (iso) => (iso ? new Date(iso).toLocaleTimeString() : "–");
+
+  function row(repo) {
+    const l = repo.latest;
+    const s = l ? l.status : "pending";
+    const cells = repo.history.slice(-STRIP);
+    const pad = "<i></i>".repeat(Math.max(0, STRIP - cells.length));
+    const strip = pad + cells.map((h) => {
+      const ms = h.ms != null ? ` · ${h.ms} ms` : "";
+      return `<i class="s-${esc(h.s)}" title="${esc(time(h.t))} · ${esc(LABELS[h.s] || h.s)}${ms}"></i>`;
+    }).join("");
+    const search = l && l.search_ok != null ? (l.search_ok ? "OK" : "Failing") : "–";
+    return `<tr>
+      <td class="status-${s}">${l ? esc(LABELS[s] || s) : "Pending"}</td>
+      <td class="col-name">${esc(repo.name)}</td>
+      <td class="col-url"><a href="${esc(repo.url)}" target="_blank" rel="noopener" title="${esc(repo.url)}">${esc(repo.url)}</a></td>
+      <td class="col-num">${l && l.latency_ms != null ? l.latency_ms + " ms" : "–"}</td>
+      <td class="col-num">${l && l.http_code != null ? l.http_code : "–"}</td>
+      <td>${search}</td>
+      <td class="col-num">${repo.uptime_pct != null ? repo.uptime_pct + "%" : "–"}</td>
+      <td><div class="strip" aria-label="Last checks">${strip}</div></td>
+      <td class="col-error">${l && l.error ? esc(l.error) : ""}</td>
+    </tr>`;
+  }
+
+  function setBanner(kind, html) {
+    const banner = document.getElementById("banner");
+    banner.className = `connection-banner connection-banner--${kind}`;
+    banner.innerHTML = html;
+    banner.hidden = false;
+  }
+
+  async function refresh() {
+    let data;
+    try {
+      const res = await fetch("/api/status", { cache: "no-store" });
+      data = await res.json();
+    } catch (e) {
+      setBanner("warn", "Cannot reach the monitoring server. Start it with "
+        + "<code>python -m semantic_corpus.monitoring serve</code> and open this page "
+        + "over <code>http://127.0.0.1:8766/</code>, not a <code>file://</code> path.");
+      return;
+    }
+    setBanner("ok", `Connected to monitoring server at <code>${esc(location.origin)}</code>.`);
+
+    const repos = data.repositories.slice().sort((a, b) =>
+      (ORDER[a.latest?.status] ?? 5) - (ORDER[b.latest?.status] ?? 5)
+      || a.name.localeCompare(b.name));
+    document.getElementById("rows").innerHTML = repos.map(row).join("");
+
+    const checked = repos.filter((r) => r.latest);
+    const healthy = checked.filter((r) => ["up", "slow"].includes(r.latest.status)).length;
+    const down = checked.filter((r) => r.latest.status === "down").length;
+    document.getElementById("summary").textContent = checked.length
+      ? `${healthy} of ${repos.length} repositories responding · ${down} down`
+      : "Running first check…";
+
+    const deep = data.deep_interval_s
+      ? ` · search every ${Math.round(data.deep_interval_s / 60)} min` : "";
+    document.getElementById("meta").textContent =
+      `Ping every ${Math.round(data.interval_s / 60)} min${deep} · updated ${time(data.generated_at)}`;
+  }
+
+  refresh();
+  setInterval(refresh, POLL_MS);
+</script>
+</body>
+</html>

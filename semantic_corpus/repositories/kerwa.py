@@ -23,9 +23,9 @@ class KerwaRepository(RepositoryInterface):
     def __init__(self) -> None:
         super().__init__()
         self.name = "Kerwa"
-        self.base_url = "https://www.kerwa.ucr.ac.cr"
-        self.home_url = "https://www.kerwa.ucr.ac.cr/home"
-        self.search_url = "https://www.kerwa.ucr.ac.cr/discover"
+        self.base_url = "https://kerwa.ucr.ac.cr"
+        self.home_url = "https://kerwa.ucr.ac.cr/home"
+        self.search_url = "https://kerwa.ucr.ac.cr/discover"
         self.http = RateLimitedSession(
             delay_seconds=1.0,
             user_agent=(
@@ -35,7 +35,7 @@ class KerwaRepository(RepositoryInterface):
         )
         self.http.session.headers.update(
             {
-                "Referer": "https://www.kerwa.ucr.ac.cr/home",
+                "Referer": "https://kerwa.ucr.ac.cr/home",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                 "Accept-Language": "es-CR,es;q=0.9,en;q=0.8",
             }
