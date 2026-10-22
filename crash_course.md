@@ -57,3 +57,7 @@ Check only, as CI does:
 ```
 
 If Ruff is missing: `.\.venv\Scripts\python.exe -m pip install ruff`
+
+To control the repo's status
+
+```.\.venv\Scripts\python.exe -m semantic_corpus.monitoring serve```
