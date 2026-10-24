@@ -205,6 +205,10 @@ class TestLiveIntegration:
         )
         assert "pdf" in info["supported_formats"], "arXiv should support 'pdf' format"
 
+    @pytest.mark.live_api
+    @pytest.mark.network
+    @pytest.mark.integration
+    @pytest.mark.arxiv
     def test_error_handling_with_live_apis(self):
         """Test error handling with live APIs."""
         # Test invalid repository
