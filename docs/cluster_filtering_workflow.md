@@ -35,7 +35,12 @@ Former docs used “community”; **cluster** is the preferred term everywhere i
 One Streamlit app (plus thin library helpers) covering:
 
 ```text
-Query  →  Corpus  →  YAKE phrases  →  Bipartite graph  →  Clusters
+Step 0: Query → download → (optional) BAGIT create
+   or
+Step 1: Load existing BAGIT
+                    │
+                    ▼
+         YAKE phrases  →  Bipartite graph  →  Clusters
                                                               │
                     ┌─────────────────────────────────────────┘
                     ▼
@@ -48,7 +53,7 @@ Query  →  Corpus  →  YAKE phrases  →  Bipartite graph  →  Clusters
          (Later, out of scope for v1 filter) encyclopedia / KBIR on Keep set
 ```
 
-**Explicit non-delivery in this document:** no Streamlit script, no YAKE runner, no graph code yet — plan and time estimates only.
+**Explicit non-delivery in this document:** no Streamlit script, no YAKE runner, no graph code yet — plan and stepped UI outline only.
 
 ---
 
@@ -69,12 +74,10 @@ Workshop mode should default to the **pre-built 50-paper bundle** so elapsed tim
 
 ## 5. Pipeline stages (design)
 
-### 5.1 Query → corpus
+### 5.1 Query → corpus (UI Step 0) or load BAGIT (UI Step 1)
 
-- Config YAML: repository, query string, limit 50, formats xml (± pdf).  
-- Search + download via `semantic_corpus` Europe PMC (and adapters as available).  
-- Produce flat query dir + review table (all `review` initially).  
-- **Demo shortcut:** load existing 50-paper corpus; skip live download.
+- **Step 0:** Form/YAML: one or more repositories, query, limit 50, dates, formats xml (± pdf). Search + download via adapters; raw query dir + review table; **option to create BAGIT** under `corpora/`.  
+- **Step 1:** Load an existing BAGIT (demo ~50-paper `ocean_heatwaves_2026` or user path). Workshops may start here and skip Step 0.
 
 ### 5.2 Phrases (YAKE)
 
@@ -184,33 +187,151 @@ If YAKE is run on full text for all 50: budget **~10–20 min** machine time onc
 
 ---
 
-## 8. Implementation plan (when coding starts)
+## 8. UI build plan — one app, stepped delivery
 
-Ordered deliverables — **not started**:
+**Principle:** Ship **one** Streamlit application from day one (`apps/cluster_review/app.py` or `scripts/cluster_review_app.py`). Each step unlocks the next stage in the **same** sidebar/navigation shell. Do not build separate throwaway UIs.
 
-1. YAKE batch helper → `phrases/*.json` beside corpus.  
-2. Graph + cluster module → `clusters.json` (+ orphans).  
-3. Streamlit app: load demo 50, run/cached YAKE, show clusters, iterative remove, orphans, save review table.  
-4. Wire optional live query (limit 50) behind an advanced toggle.  
-5. Docs + short tutorial using `ocean_heatwaves_2026`.
+### 8.1 Persistent shell (all steps)
 
-Suggested layout later: `apps/cluster_review/` or `scripts/cluster_review_app.py` + `semantic_corpus/clustering/`.
+Present from Step 0 onward:
 
-Dependencies (planned): `yake`, `streamlit`, `networkx` (and/or `igraph` + Leiden).
+| UI chrome | Role |
+|-----------|------|
+| Title | Cluster review — semantic_corpus |
+| Sidebar: stage list | **Query / BAGIT** → **Load corpus** → Phrases → Clusters → Orphans → Summary |
+| Sidebar: entry mode | **Create from query** (Step 0) **or** **Load existing BAGIT** (Step 1) |
+| Sidebar: status counts | Papers / phrases ready? / clusters / orphans / include·exclude |
+| Main panel | Content for the **active** stage only |
+| Footer | Elapsed timers + corpus path / review table path |
+
+Disabled stages show as locked until prerequisites are met (e.g. Phrases locked until a corpus is active; Clusters locked until phrases exist).
+
+**Entry rule:** the user picks **either** Step 0 **or** Step 1 to obtain an active BAGIT corpus; Steps 2+ are identical either way.
+
+### 8.2 Steps
+
+| Step | Name | What the user does |
+|------|------|--------------------|
+| **0** | **Query → raw / BAGIT corpus** | Search one or more repositories with a query; download; optionally create a **BAGIT** corpus |
+| **1** | **Load existing BAGIT** | Open an existing BAGIT corpus (e.g. demo `ocean_heatwaves_2026`) and browse papers |
+| **2** | **Phrases (YAKE)** | Extract / cache YAKE phrases for the active corpus |
+| **3** | **Clusters (view)** | Build bipartite clusters; inspect themes (read-only) |
+| **4** | **Remove clusters** | Iteratively Keep / Remove / Inspect / Unsure; Save review table |
+| **5** | **Orphans** | Keep / Remove orphan papers |
+| **6** | **Summary + export** | Counts, removal log, download curated review table |
+
+#### Step 0 — Search repositories and create corpus (query path)
+
+- App shell runs; **Query / create** stage active.  
+- Choose repository(ies) (e.g. Europe PMC; later multi-select as adapters allow).  
+- Enter query, limit (default 50), date bounds, formats (xml ± pdf).  
+- **Search** → show hit preview; **Download** into a working query dir (raw corpus).  
+- Option: **Create BAGIT corpus** from the download (name + output under `corpora/`).  
+- Initialize / refresh review table (statuses `review`).  
+- **Done when:** curator has a new BAGIT (or at least a raw query dir ready to bag) from a live query, usable as the active corpus for Steps 2+.
+
+#### Step 1 — Load an existing BAGIT corpus
+
+- **Load corpus** stage: pick path or demo preset (~50-paper `ocean_heatwaves_2026`).  
+- Validate BAGIT layout; load paper list + review table.  
+- Show **Corpus** table (paper id, title, status).  
+- **Done when:** curator can browse the loaded BAGIT with no YAKE/graph yet.  
+- Workshops may **skip Step 0** and start here.
+
+#### Step 2 — Phrases (YAKE) inside the same app
+
+- **Phrases** stage: **Extract YAKE** (title+abstract); cache to disk beside the corpus.  
+- Progress bar + per-paper timing; **Use cached phrases** if present.  
+- Main panel: phrases for a selected paper; corpus-level phrase count.  
+- **Done when:** active corpus has cached YAKE phrases without leaving the app.
+
+#### Step 3 — Build clusters (read-only view)
+
+- **Clusters** stage: **Build / refresh clusters** from cached phrases (bipartite graph + Leiden/Louvain).  
+- Cluster cards (theme, size, top terms, sample titles) — **view only**.  
+- Orphans listed but not actionable yet.  
+- **Done when:** curator sees a stable partition and can spot likely FP themes.
+
+#### Step 4 — Iterative cluster removal
+
+- On each card: **Keep** / **Remove cluster** / **Unsure** / **Inspect**.  
+- Inspect: member list with per-paper override.  
+- Provisional labels in session; **Save** writes review table.  
+- Optional **Recompute clusters** on remaining Keep set.  
+- **Done when:** FP clusters can be removed and include/exclude persisted.
+
+#### Step 5 — Orphan queue (same app)
+
+- **Orphans** stage: Keep / Remove individuals or multi-select.  
+- Orphans remain visible after cluster removals (no silent drop).  
+- **Done when:** orphans can be cleared or parked without a second tool.
+
+#### Step 6 — Summary + export
+
+- Counts, log of removed cluster themes, download JSON/CSV.  
+- Note: encyclopedia / KBIR later — not in this app.  
+- **Done when:** session ends with an exported curated review table.
+
+### 8.3 Backend modules behind the UI (build alongside steps)
+
+| Step | Library work (no second UI) |
+|------|-----------------------------|
+| 0 | Multi-repo search + download; BAGIT create from query output; review table init |
+| 1 | BAGIT / review-table loader (demo + arbitrary path) |
+| 2 | `yake` batch + phrase cache I/O |
+| 3 | Bipartite graph + cluster + orphan detection |
+| 4–5 | Label model + merge into `review_status` |
+| 6 | Export helpers |
+
+### 8.4 What not to do
+
+- Do not create a new Streamlit app per step.  
+- Do not add KBIR to any step of this UI.  
+- Do not force every user through Step 0 — **Load BAGIT (Step 1)** must work alone for demos.  
+- Do not treat raw query-dir-only as the long-term store when the user asked for BAGIT — offer explicit **Create BAGIT**.
+
+### 8.5 Suggested coding order vs workshop value
+
+| After completing | Demo you can give |
+|------------------|-------------------|
+| Step 0 | “Search EPMC (or more repos), download, create BAGIT” |
+| Step 1 | “Open the existing 50-paper ocean heatwaves BAGIT” |
+| Step 2 | “YAKE phrases in ~2–5 minutes” |
+| Step 3 | “Candidate FP themes as clusters” |
+| Step 4–5 | Full curation loop (clusters + orphans) |
+| Step 6 | Take-home review table |
 
 ---
 
-## 9. Success criteria (pilot)
+## 9. Implementation sketch (supporting code)
 
-1. User can open the app on the **50-paper** example without running a live query.  
-2. YAKE + first cluster view ready in a few minutes (cached thereafter).  
+Ordered library deliverables aligned with §8 — application UI is the Streamlit shell above:
+
+1. Query → download → **BAGIT create** (Step 0) using existing repository + corpus managers.  
+2. BAGIT loader for demo + path pickers (Step 1).  
+3. YAKE batch helper → `phrases/*.json` beside corpus (Step 2).  
+4. Graph + cluster module → `clusters.json` (+ orphans) (Step 3).  
+5. Wire Steps 4–6 in the same Streamlit app (remove, orphans, export).  
+6. Short tutorial: create-or-load, then filter `ocean_heatwaves_2026`.
+
+Layout: `apps/cluster_review/` or `scripts/cluster_review_app.py` + `semantic_corpus/clustering/`.
+
+Dependencies: `yake`, `streamlit`, `networkx` (and/or `igraph` + Leiden).
+
+---
+
+## 10. Success criteria (pilot)
+
+1. User can **create** a BAGIT corpus from a query (Step 0) **or** **load** an existing BAGIT (Step 1), including the ~50-paper demo.  
+2. YAKE + first cluster view ready in a few minutes once a corpus is active (cached thereafter).  
 3. User can **remove clusters** and **clear orphans** iteratively; review table updates on Save.  
 4. No silent drops; Unsure/orphans remain visible.  
-5. No KBIR (or other multi-minute-per-paper KE) in the filter loop.
+5. No KBIR (or other multi-minute-per-paper KE) in the filter loop.  
+6. One Streamlit app covers Steps 0–6; Step 0 and Step 1 are alternative entry points.
 
 ---
 
-## 10. Out of scope for v1 filter UI
+## 11. Out of scope for v1 filter UI
 
 - KBIR / `txt2phrases` transformer extraction inside the loop  
 - Multi-user auth  
