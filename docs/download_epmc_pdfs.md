@@ -29,6 +29,7 @@ YAML / CLI / Python
         │
         ▼
 RepositoryFactory.get_repository("europe_pmc")
+
         │
         ▼
 ① search_papers(query, limit, …)
