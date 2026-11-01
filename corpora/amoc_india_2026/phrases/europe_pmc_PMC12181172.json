@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12181172",
+  "phrases": [
+    {
+      "phrase": "paris agreement",
+      "display": "Paris Agreement",
+      "score": 1.6
+    },
+    {
+      "phrase": "new insights",
+      "display": "New Insights",
+      "score": 1.4
+    },
+    {
+      "phrase": "web of science core collection",
+      "display": "Web of Science Core Collection",
+      "score": 1.2
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.2
+    },
+    {
+      "phrase": "west africa",
+      "display": "West Africa",
+      "score": 1.2
+    },
+    {
+      "phrase": "south asia",
+      "display": "South Asia",
+      "score": 1.2
+    },
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 1.2
+    },
+    {
+      "phrase": "ipcc",
+      "display": "IPCC",
+      "score": 1.26
+    },
+    {
+      "phrase": "mrh",
+      "display": "MRH",
+      "score": 1.16
+    },
+    {
+      "phrase": "ghg",
+      "display": "GHG",
+      "score": 1.14
+    },
+    {
+      "phrase": "aerosol",
+      "score": 0.0345,
+      "display": "Aerosol"
+    },
+    {
+      "phrase": "emissions",
+      "score": 0.0341,
+      "display": "Emissions"
+    },
+    {
+      "phrase": "methane",
+      "score": 0.0329,
+      "display": "Methane"
+    },
+    {
+      "phrase": "habitability",
+      "score": 0.0323,
+      "display": "Habitability"
+    },
+    {
+      "phrase": "climate",
+      "score": 0.0322,
+      "display": "Climate"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

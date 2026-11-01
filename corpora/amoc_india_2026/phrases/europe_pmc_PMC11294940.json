@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC11294940",
+  "phrases": [
+    {
+      "phrase": "chipasa and medrzycka",
+      "display": "Chipasa and Medrzycka",
+      "score": 1.3
+    },
+    {
+      "phrase": "nitrosomonas and nitrosospira",
+      "display": "Nitrosomonas and Nitrosospira",
+      "score": 1.1
+    },
+    {
+      "phrase": "candidatus methanoperedens",
+      "display": "Candidatus Methanoperedens",
+      "score": 1.1
+    },
+    {
+      "phrase": "library preparation kit",
+      "display": "Library Preparation Kit",
+      "score": 1.1
+    },
+    {
+      "phrase": "ottowia and arenimonas",
+      "display": "Ottowia and Arenimonas",
+      "score": 1.1
+    },
+    {
+      "phrase": "sayana and sirajudheen",
+      "display": "Sayana and Sirajudheen",
+      "score": 1.1
+    },
+    {
+      "phrase": "shanmugam and barbara",
+      "display": "Shanmugam and Barbara",
+      "score": 1.1
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.28
+    },
+    {
+      "phrase": "thauera",
+      "display": "Thauera",
+      "score": 1.19
+    },
+    {
+      "phrase": "kegg",
+      "display": "KEGG",
+      "score": 1.18
+    },
+    {
+      "phrase": "activated sludge",
+      "score": 0.0535,
+      "display": "Activated sludge"
+    },
+    {
+      "phrase": "sludge",
+      "score": 0.0517,
+      "display": "sludge"
+    },
+    {
+      "phrase": "activated",
+      "score": 0.051,
+      "display": "Activated"
+    },
+    {
+      "phrase": "wastewater",
+      "score": 0.0425,
+      "display": "wastewater"
+    },
+    {
+      "phrase": "fatty",
+      "score": 0.0403,
+      "display": "fatty"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

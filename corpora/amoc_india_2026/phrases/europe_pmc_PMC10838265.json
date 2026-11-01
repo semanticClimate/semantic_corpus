@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10838265",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 3.4
+    },
+    {
+      "phrase": "east antarctica",
+      "display": "East Antarctica",
+      "score": 2.0
+    },
+    {
+      "phrase": "ross sea",
+      "display": "Ross Sea",
+      "score": 1.9
+    },
+    {
+      "phrase": "weddell sea",
+      "display": "Weddell Sea",
+      "score": 1.8
+    },
+    {
+      "phrase": "wilkes subglacial basin",
+      "display": "Wilkes Subglacial Basin",
+      "score": 1.5
+    },
+    {
+      "phrase": "east antarctic",
+      "display": "East Antarctic",
+      "score": 1.5
+    },
+    {
+      "phrase": "supplementary information peer review file description of additional supplementary files supplementary dataset",
+      "display": "Supplementary Information Peer Review File Description of Additional Supplementary Files Supplementary Dataset",
+      "score": 1.2
+    },
+    {
+      "phrase": "lig",
+      "display": "LIG",
+      "score": 1.96
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.62
+    },
+    {
+      "phrase": "antarctic",
+      "display": "Antarctic",
+      "score": 1.56
+    },
+    {
+      "phrase": "sle",
+      "score": 0.0392,
+      "display": "SLE"
+    },
+    {
+      "phrase": "ice",
+      "score": 0.0388,
+      "display": "Ice"
+    },
+    {
+      "phrase": "comb4",
+      "score": 0.0383,
+      "display": "COMB4"
+    },
+    {
+      "phrase": "comb7",
+      "score": 0.0383,
+      "display": "COMB7"
+    },
+    {
+      "phrase": "sl4 sl7",
+      "score": 0.0377,
+      "display": "sl4 sl7"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

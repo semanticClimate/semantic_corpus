@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC11347556",
+  "phrases": [
+    {
+      "phrase": "fram strait",
+      "display": "Fram Strait",
+      "score": 2.6
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 2.1
+    },
+    {
+      "phrase": "atlantic and arctic",
+      "display": "Atlantic and Arctic",
+      "score": 1.9
+    },
+    {
+      "phrase": "norwegian atlantic slope current",
+      "display": "Norwegian Atlantic Slope Current",
+      "score": 1.5
+    },
+    {
+      "phrase": "subpolar north atlantic ocean",
+      "display": "Subpolar North Atlantic Ocean",
+      "score": 1.5
+    },
+    {
+      "phrase": "east greenland current",
+      "display": "East Greenland Current",
+      "score": 1.5
+    },
+    {
+      "phrase": "denmark strait",
+      "display": "Denmark Strait",
+      "score": 1.5
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.82
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.81
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 1.59
+    },
+    {
+      "phrase": "arctic waters",
+      "score": 0.0435,
+      "display": "Arctic waters"
+    },
+    {
+      "phrase": "eastern spna",
+      "score": 0.0427,
+      "display": "eastern SPNA"
+    },
+    {
+      "phrase": "spna",
+      "score": 0.0426,
+      "display": "SPNA"
+    },
+    {
+      "phrase": "atlantic waters",
+      "score": 0.0421,
+      "display": "Atlantic waters"
+    },
+    {
+      "phrase": "lower limb",
+      "score": 0.0415,
+      "display": "lower limb"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

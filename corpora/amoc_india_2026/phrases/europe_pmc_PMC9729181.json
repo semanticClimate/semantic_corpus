@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC9729181",
+  "phrases": [
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 4.0
+    },
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 4.0
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.5
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3
+    },
+    {
+      "phrase": "central american seaway",
+      "display": "Central American Seaway",
+      "score": 1.2
+    },
+    {
+      "phrase": "north indian deep water",
+      "display": "North Indian Deep Water",
+      "score": 1.2
+    },
+    {
+      "phrase": "ncw",
+      "display": "NCW",
+      "score": 1.7
+    },
+    {
+      "phrase": "aabw",
+      "display": "AABW",
+      "score": 1.62
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.53
+    },
+    {
+      "phrase": "radiogenic",
+      "score": 0.0465,
+      "display": "radiogenic"
+    },
+    {
+      "phrase": "nd",
+      "score": 0.0433,
+      "display": "Nd"
+    },
+    {
+      "phrase": "deep water",
+      "score": 0.0426,
+      "display": "Deep Water"
+    },
+    {
+      "phrase": "radiogenic values",
+      "score": 0.0414,
+      "display": "radiogenic values"
+    },
+    {
+      "phrase": "miocene",
+      "score": 0.041,
+      "display": "Miocene"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

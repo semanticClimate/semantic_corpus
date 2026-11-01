@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13440228",
+  "phrases": [
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.7
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.6
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3
+    },
+    {
+      "phrase": "south africa",
+      "display": "South Africa",
+      "score": 1.3
+    },
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "score": 1.3
+    },
+    {
+      "phrase": "north greenland ice core project",
+      "display": "North Greenland Ice Core Project",
+      "score": 1.2
+    },
+    {
+      "phrase": "bay of guinea",
+      "display": "Bay of Guinea",
+      "score": 1.2
+    },
+    {
+      "phrase": "gop",
+      "display": "GOP",
+      "score": 2.84
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.58
+    },
+    {
+      "phrase": "neem",
+      "display": "NEEM",
+      "score": 1.44
+    },
+    {
+      "phrase": "biosphere",
+      "score": 0.0355,
+      "display": "biosphere"
+    },
+    {
+      "phrase": "pmol",
+      "score": 0.0354,
+      "display": "pmol"
+    },
+    {
+      "phrase": "productivity",
+      "score": 0.0344,
+      "display": "productivity"
+    },
+    {
+      "phrase": "pmol o2",
+      "score": 0.0343,
+      "display": "pmol o2"
+    },
+    {
+      "phrase": "pmol o2 year",
+      "score": 0.0343,
+      "display": "pmol o2 year"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

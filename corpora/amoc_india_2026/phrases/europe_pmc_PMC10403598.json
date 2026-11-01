@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10403598",
+  "phrases": [
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.6
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5
+    },
+    {
+      "phrase": "indian ocean summer monsoon",
+      "display": "Indian Ocean Summer Monsoon",
+      "score": 1.3
+    },
+    {
+      "phrase": "equatorial arabian sea",
+      "display": "Equatorial Arabian Sea",
+      "score": 1.3
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.3
+    },
+    {
+      "phrase": "south china sea",
+      "display": "South China Sea",
+      "score": 1.3
+    },
+    {
+      "phrase": "east indian",
+      "display": "East Indian",
+      "score": 1.3
+    },
+    {
+      "phrase": "core",
+      "display": "Core",
+      "score": 1.41
+    },
+    {
+      "phrase": "iaa",
+      "display": "IAA",
+      "score": 1.28
+    },
+    {
+      "phrase": "sss",
+      "display": "SSS",
+      "score": 1.28
+    },
+    {
+      "phrase": "early hs1",
+      "score": 0.0469,
+      "display": "Early HS1"
+    },
+    {
+      "phrase": "core i106",
+      "score": 0.0463,
+      "display": "Core I106"
+    },
+    {
+      "phrase": "records core",
+      "score": 0.0441,
+      "display": "records core"
+    },
+    {
+      "phrase": "iaa monsoon",
+      "score": 0.0433,
+      "display": "IAA Monsoon"
+    },
+    {
+      "phrase": "iaa monsoon region",
+      "score": 0.0415,
+      "display": "IAA monsoon region"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

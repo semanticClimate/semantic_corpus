@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12572319",
+  "phrases": [
+    {
+      "phrase": "gangetic plain",
+      "display": "Gangetic Plain",
+      "score": 2.5
+    },
+    {
+      "phrase": "arctic amplification",
+      "display": "Arctic Amplification",
+      "score": 1.8
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.6
+    },
+    {
+      "phrase": "indian summer monsoon rainfall",
+      "display": "Indian Summer Monsoon Rainfall",
+      "score": 1.4
+    },
+    {
+      "phrase": "laptev sea",
+      "display": "Laptev Sea",
+      "score": 1.4
+    },
+    {
+      "phrase": "south asia",
+      "display": "South Asia",
+      "score": 1.4
+    },
+    {
+      "phrase": "convective available potential energy",
+      "display": "Convective Available Potential Energy",
+      "score": 1.3
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 1.87
+    },
+    {
+      "phrase": "ismr",
+      "display": "ISMR",
+      "score": 1.86
+    },
+    {
+      "phrase": "sic",
+      "display": "SIC",
+      "score": 1.24
+    },
+    {
+      "phrase": "ice years",
+      "score": 0.0495,
+      "display": "ice years"
+    },
+    {
+      "phrase": "sea ice years",
+      "score": 0.0462,
+      "display": "sea ice years"
+    },
+    {
+      "phrase": "high sea",
+      "score": 0.0414,
+      "display": "high sea"
+    },
+    {
+      "phrase": "high sea ice",
+      "score": 0.0414,
+      "display": "high sea ice"
+    },
+    {
+      "phrase": "sea ice",
+      "score": 0.0405,
+      "display": "Sea ice"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

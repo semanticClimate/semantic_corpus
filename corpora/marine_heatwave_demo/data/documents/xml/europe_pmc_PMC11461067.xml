@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">137</journal-id><journal-id journal-id-type="pmc-domain">procb</journal-id><journal-title-group><journal-title>Proceedings of the Royal Society B: Biological Sciences</journal-title><abbrev-journal-title>Proc Biol Sci</abbrev-journal-title></journal-title-group><publisher><publisher-name>The Royal Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11461067</article-id><article-id pub-id-type="pmcaid">11461067</article-id><article-id pub-id-type="pmcaiid">11461067</article-id><article-id pub-id-type="pmid">39378994</article-id><article-id pub-id-type="doi">10.1098/rspb.2024.1538</article-id><title-group><article-title>Coral responses to a catastrophic marine heatwave are decoupled from changes in total coral cover at a continental scale</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Mellin</surname><given-names initials="C">Camille</given-names></name><role>Conceptualization, Formal analysis, Investigation, Methodology, Validation, Visualization, Writing – original draft</role><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib><contrib><name name-style="western"><surname>Stuart-Smith</surname><given-names initials="RD">Rick D</given-names></name><role>Conceptualization, Data curation, Funding acquisition, Project administration, Resources, Supervision, Writing – review and editing</role><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib><name name-style="western"><surname>Heather</surname><given-names initials="F">Freddie</given-names></name><role>Data curation, Investigation, Writing – review and editing</role><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib><name name-style="western"><surname>Oh</surname><given-names initials="E">Elizabeth</given-names></name><role>Data curation, Resources, Writing – review and editing</role><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib><name name-style="western"><surname>Turak</surname><given-names initials="E">Emre</given-names></name><role>Data curation, Investigation, Resources, Writing – review and editing</role><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib><name name-style="western"><surname>Edgar</surname><given-names initials="GJ">Graham J</given-names></name><role>Conceptualization, Data curation, Funding acquisition, Project administration, Resources, Supervision, Writing – review and editing</role><xref ref-type="aff" rid="aff2">2</xref></contrib></contrib-group><aff id="aff1"><label><sup>1</sup></label>The Environment Institute and School of Biological Sciences, University of Adelaide, Adelaide, South Australia
+5005, Australia</aff><aff id="aff2"><label><sup>2</sup></label>Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, Tasmania, Australia</aff><author-notes><fn id="fn1"><p>Electronic supplementary material is available online at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.c.7449507" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.c.7449507</ext-link>.</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>9</day><month>10</month><year>2024</year></pub-date><volume>291</volume><issue>2032</issue><fpage>20241538</fpage><page-range>20241538</page-range><pub-history><event event-type="pmc-release"><date><day>5</day><month>2</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© 2024 The Author(s).</copyright-statement><license><license-p>Published by the Royal Society under the terms of the Creative Commons Attribution License <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link>, which permits unrestricted use, provided the original author and source are credited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="rspb.2024.1538.pdf" content-type="pmc-pdf"><?cloudpmc-path 0f2c/11461067/5f4bd8cb67be/rspb.2024.1538.pdf?><?cloudpmc-bucket app?><?size 1410548?></self-uri><abstract id="abstract1"><title>Abstract</title><p>The services provided by the world’s coral reefs are threatened by increasingly frequent and severe marine heatwaves. Heatwave-induced degradation of reefs has often been inferred from the extent of the decline in total coral cover, which overlooks extreme variation among coral taxa in their susceptibility and responses to thermal stress. Here, we provide a continental-scale assessment of coral cover changes at 262 shallow tropical reef sites around Australia, using ecological survey data on 404 coral taxa before and after the 2016 mass bleaching event. A strong spatial structure in coral community composition along large-scale environmental gradients largely dictated how coral communities responded to heat stress. While heat stress variables were the best predictors of change in total coral cover, the pre-heatwave community composition best predicted the temporal beta-diversity index (an indicator of change in community composition over time). Indicator taxa in each coral community differed before and after the heatwave, highlighting potential winners and losers of climate-driven coral bleaching. Our results demonstrate how assessment of change in total cover alone may conceal very different responses in community structure, some of which showed strong regional consistency, and may provide a telling outlook of how coral reefs may reorganize in a warmer future.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> beta diversity, community ecology, coral bleaching, marine heatwave, ocean warming, species turnover</p></sec></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2023 Oct 4; Revised 2024 Aug 20; Accepted 2024 Aug 27; Collection date 2024 Oct.</p></sec></notes></front><body><sec id="s1" disp-level="1"><label>1. </label><title>Introduction</title><p>Climate-driven coral bleaching is now regarded as the number one threat to the world’s coral reefs, being the most prominent agent of the decline in coral cover [<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B2" ref-type="bibr">2</xref>] and associated coral reef biodiversity [<xref rid="B3" ref-type="bibr">3</xref>–<xref rid="B5" ref-type="bibr">5</xref>]. Marine heatwaves that cause elevated ocean temperatures of only 1–2°C above long-term maxima can induce the paling of scleractinian corals, which results from the breakdown of their symbiosis with dinoflagellate microalgae, and can lead to coral mortality if thermal stress is prolonged [<xref rid="B6" ref-type="bibr">6</xref>]. The global rise in marine heatwave frequency and severity has led to an eightfold increase in the area of coral reefs likely exposed to mass bleaching events since the 1998 El Niño event, compared to the 1985–1997 period [<xref rid="B7" ref-type="bibr">7</xref>]. Since coral reefs host thousands of fish and invertebrate species and provide critical ecosystem services (e.g. fisheries, tourism and physical protection against tropical storms and cyclones [<xref rid="B8" ref-type="bibr">8</xref>]), substantial concerns have been raised by the scientific community regarding the viability of coral reef ecosystems in a warming ocean [<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B9" ref-type="bibr">9</xref>,<xref rid="B10" ref-type="bibr">10</xref>].</p><p>While regional declines in total hard coral cover have been widely documented as a conspicuous response to climate-driven coral bleaching, they fail to reveal among-species variation in coral susceptibility to heat stress (e.g. [<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B12" ref-type="bibr">12</xref>]). Hard coral cover loss is strongly linked to the accumulated thermal stress experienced during a marine heatwave, which is commonly quantified through degree heating weeks (DHW) [<xref rid="B13" ref-type="bibr">13</xref>]. Greater DHW generally results in a greater proportion of bleached (and potentially dead) coral colonies; however, this relationship exhibits considerable taxonomic, spatial and temporal variation [<xref rid="B14" ref-type="bibr">14</xref>,<xref rid="B15" ref-type="bibr">15</xref>]. One potential cause for this variation is the footprint of past disturbances (‘ecological memory’ [<xref rid="B16" ref-type="bibr">16</xref>]), whereby less sensitive taxa that persist after previous disturbances exhibit a lower response to heat stress. In turn, the cumulative impacts of all previous disturbances (acute and chronic) that affected the coral community prior to the heatwave contribute to determining the proportion of its taxa with greater heat tolerance [<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B12" ref-type="bibr">12</xref>,<xref rid="B17" ref-type="bibr">17</xref>,<xref rid="B18" ref-type="bibr">18</xref>]. Determinants of heat tolerance in reef-building corals are indeed complex and include life history traits (e.g. [<xref rid="B19" ref-type="bibr">19</xref>,<xref rid="B20" ref-type="bibr">20</xref>]), short-term acclimation, long-term genetic adaptation and/or variation in symbiont community structure [<xref rid="B21" ref-type="bibr">21</xref>]. Therefore, pending sufficient time following a disturbance, across-species variation in heat tolerance could lead to important shifts in coral community composition even in the absence of changes in total hard coral cover; however, such shifts have been rarely documented (see, e.g. [<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B22" ref-type="bibr">22</xref>]).</p><p>Previous investigations of the variability in coral responses to heat stress have most often been conducted at the growth form level (e.g. tabular, branching and massive) [<xref rid="B22" ref-type="bibr">22</xref>–<xref rid="B24" ref-type="bibr">24</xref>]. However, coarse-resolution groupings can be misleading due to the within-group variation in coral susceptibility to heat stress and vulnerability status [<xref rid="B19" ref-type="bibr">19</xref>,<xref rid="B25" ref-type="bibr">25</xref>]. Furthermore, the three-dimensional complexity of corals varies greatly even at the genus level, implying variation in their potential habitat value for reef-associated organisms such as fishes [<xref rid="B26" ref-type="bibr">26</xref>,<xref rid="B27" ref-type="bibr">27</xref>]. A better understanding of how different coral taxa respond to heat stress is needed, because this taxon-specific variation in susceptibility will likely shape the structure of future coral reef communities as environmental filtering increasingly selects for stress-tolerant and/or resilient taxa. Barriers that hinder our understanding include (i) a paucity of standardized coral community data at large spatial scales, (ii) potentially confounding effects of environmental gradients on the structure of coral communities, (iii) spatial variation in both coral community structure and the magnitude of heat stress, and (iv) challenges identifying coral taxa.</p><p>Here, we quantified the relative abundance and composition of 119 reef-building coral categories (i.e. genus and growth-form combinations) at a continental scale across Australia’s tropical reefs, before and after the 2016 marine heatwave that impacted reefs on the east and west coasts [<xref rid="B2" ref-type="bibr">2</xref>,<xref rid="B28" ref-type="bibr">28</xref>,<xref rid="B29" ref-type="bibr">29</xref>]. We analysed changes in community structure in response to disturbance, in addition to the more commonly considered trends in total live coral cover. Based on broad-scale environmental gradients, we identified distinct coral communities that showed very different responses to heat stress, which we show were largely driven by pre-heatwave community composition.</p></sec><sec id="s2" disp-level="1"><label>2. </label><title>Material and methods</title><sec id="s2-1" disp-level="2"><label>(a).</label><title>Survey design</title><p>Coral communities were surveyed before and after the 2016 marine heatwave at a total of 262 sites across Northern Australia, encompassing four main regions that include Ningaloo Reef, the Northwest Shelf, the Great Barrier Reef and the Coral Sea. Pre-heatwave data were obtained between October 2010 and December 2015, and post-heatwave data were obtained between June 2016 and August 2019. Sites where other disturbances occurred between the pre- and post-heatwave surveys (e.g. Tropical Cyclone Debbie in 2017 and Tropical Cyclone Owen in 2018) were excluded from the analysis.</p><p>The impacts of other disturbances between the pre- and post-heatwave surveys at these sites are likely to be negligible for the following reasons:</p><list list-type="label" id="list1"><list-item><label>—</label><p><bold>2017 marine heatwave:</bold> Most 2017 surveys in the Coral Sea and Great Barrier Reef regions were conducted in January–February 2017, i.e. before the 2017 heatwave that peaked in mid-March [<xref rid="B30" ref-type="bibr">30</xref>]. The only sites surveyed after mid-March 2017 were in the Coral Sea (CS1−4 and CS6−8) and escaped heat stress (DHW &lt; 2.3°C-week according to NOAA Coral Reef Watch).</p></list-item><list-item><label>—</label><p><bold>Tropical cyclones:</bold> Based on the cyclone history for the entire survey area in the Great Barrier Reef/Coral Sea regions over the study period, there were no large cyclones (&gt;Cat 3) that would have affected our sites. Surveys were completed before Cyclone Debbie (2017), and the only surveys done before Yasi (2011) were in areas outside of the destructive path of this cyclone (Lizard Is, Port Douglas, Whitsundays and Keppel). Cyclone history is available from the Bureau of Meteorology website (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.bom.gov.au/cyclone/history/index.shtml" ext-link-type="uri">http://www.bom.gov.au/cyclone/history/index.shtml</ext-link>). On the Northwest Shelf, the only sites with &gt;25 h of damaging waves (&gt;4 m) for the entire study period based on Puotinen <italic>et al</italic>. [<xref rid="B31" ref-type="bibr">31</xref>] were those surveyed in September and October 2013, i.e. &gt;8 months after Tropical Cyclone Narelle (January 2013) and before the 2016 heatwave. Therefore, those damaging waves occurred prior to the pre-heatwave surveys, with no other noticeable cyclone damage between those and the post-heatwave surveys. A few sites (<italic>n</italic> = 3–5) in Coral Bay Ningaloo Marine Park were affected by Tropical Cyclone Olwyn in 2015, but given their low number, they are unlikely to drive any directional changes in our analysis.</p></list-item><list-item><label>—</label><p><bold>Crown-of-thorns starfish (CoTS) outbreaks:</bold> CoTS were found in extremely low abundance among the data used for the study (mean 1.4 individuals per 50 m<sup>2</sup> when present, only at 15 sites [<xref rid="B3" ref-type="bibr">3</xref>]). While it is possible that CoTS could have come through and reduced live coral cover at one or two sites between our surveys (without large numbers being detected before or after), this would be extremely unlikely to have any detectable impact on our findings if only affecting a small number of transects.</p></list-item></list></sec><sec id="s2-2" disp-level="2"><label>(b).</label><title>Data acquisition</title><p>All surveys were conducted using the standardized underwater visual census methods applied globally by Reef Life Survey, as previously described [<xref rid="B32" ref-type="bibr">32</xref>]. Two 50 m transects were surveyed at most sites (with a mean of 1.9 transects across all sites), predominantly on coral reef habitat, and generally parallel at different depths. Depth contours were restricted by depth variations in individual reefs, but where possible were selected to encompass a wide depth range (1–25 m). Constraints associated with diving bottom time and air consumption generally limited depths to less than 25 m. Photo-quadrats of the substrate were taken along each transect to quantify coral cover. These were taken vertically downward from a height sufficient to encompass an area of approximately 0.3 × 0.3 m, distributed every 2.5 m along each transect and later scored using a grid overlay of 5 points per image, totalling 100 points per transect.</p><p>Corals were identified to the lowest taxonomic resolution possible (generally species), leading to a total of 404 coral taxa. Given the high number of coral taxa (greater than recommended in most community ecology analyses) and their variable taxonomic resolution, these taxa were further grouped into a total of 119 coral categories by a single expert (E.T.) based on their genus/growth form combination. Note that if a genus only contains one species, the genus defines the coral category. Occasionally (&lt;1% records), the genus could not be identified and was labelled as ‘coral’. The complete list of coral taxa is presented in electronic supplementary material, table S1. From the photo-quadrats, hard coral cover (%) was calculated for each coral category on each transect, as well as the sum of all coral categories (i.e. total live hard coral cover; %) after excluding non-coral categories (i.e. with percentage cover of all coral and non-coral categories summing up to 100% at each transect).</p><p>The severity of the 2016 marine heatwave at each site was estimated through two metrics of thermal stress: annual maximum DHW (°C-week) and annual maximum sea surface temperature anomaly (SSTA) observed in 2016. DHW represents the accumulation of positive temperature anomalies above the maximum monthly mean (MMM) SST + 1°C over a 12 week rolling window and is the most common predictor of coral bleaching risk [<xref rid="B13" ref-type="bibr">13</xref>]. Values of DHW &gt;4°C-week typically correspond to a level 1 bleaching alert, and DHW &gt;8°C-week correspond to a level 2 alert. By definition, however, DHW does not distinguish mild but prolonged heat stress from short but acute stresses, which can induce very different responses of corals in terms of bleaching and subsequent mortality (e.g. [<xref rid="B33" ref-type="bibr">33</xref>]). Therefore, we also included SSTA to capture this distinction. We extracted the maximum annual DHW and SSTA at each survey site for the 2016 marine heatwave from the National Oceanographic and Atmospheric Administration Coral Reef Watch v3.1 daily global 5 km satellite composite product [<xref rid="B34" ref-type="bibr">34</xref>] (electronic supplementary material, figure S1). DHW and SSTA were positively correlated across all survey sites (Pearson’s <italic>r</italic> = 0.15, <italic>p</italic> = 0.018). In addition to DHW and SSTA that reflected thermal stress experienced in 2016, we extracted the long-term mean annual sea surface temperature and its intra-annual (i.e. seasonal) s.d., as well as the MMM (i.e. with DHW accumulating above MMM + 1°C) from the NOAA Coral Reef Watch climatology (1985–2012).</p><p>Additional environmental covariates were obtained from the Marine Socio-Environmental Covariates dataset for the global oceans, which consists of environmental and anthropogenic variables summarized in ecologically relevant ways [<xref rid="B35" ref-type="bibr">35</xref>]. This dataset included four sets of environmental variables related to biophysical conditions (long-term mean and seasonal variation of net primary productivity corrected for shallow-water reflectance, wave energy including sheltered-coastline corrections) and landscape context (coral reef and land cover within a 20 km radius). All environmental covariates are described in <xref rid="T1" ref-type="table">table 1</xref>. Data used in this study are available online at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://doi.org/10.25909/23584173" ext-link-type="uri">http://doi.org/10.25909/23584173</ext-link> [<xref rid="B36" ref-type="bibr">36</xref>].</p><table-wrap id="T1" position="float"><?disp-level 3?><label>Table 1. </label><caption><p>Environmental covariates used in multivariate regression trees (MRT) and boosted regression trees (BRT).</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="left" valign="top" rowspan="1" colspan="1">
+<p>variable</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>description</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>unit</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>source</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>covariate in</p>
+</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SST_mean</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>sea surface temperature, climatological overall mean (1985–2012)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>°C</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NOAA Coral Reef Watch climatology</p>
+</td><td align="left" valign="top" rowspan="10" colspan="1">
+<p>MRT</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SST_sd</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>sea surface temperature, climatological intra-annual (seasonal) s.d. (1985–2012)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>°C</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NOAA Coral Reef Watch climatology</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NPP_mean</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>net primary productivity of carbon, overall mean (2003–2013)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mg C m<sup>−2</sup> d<sup>−1</sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Yeager <italic>et al</italic>. [<xref rid="B35" ref-type="bibr">35</xref>]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NPP_sd</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>net primary productivity of carbon, intra-annual (seasonal) s.d. (2003–2013)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mg C m<sup>−2</sup> d<sup>−1</sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Yeager <italic>et al</italic>. [<xref rid="B35" ref-type="bibr">35</xref>]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>wave_mean</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>wave energy flux, overall mean</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>kW m<sup>−1</sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Yeager <italic>et al</italic>. [<xref rid="B35" ref-type="bibr">35</xref>]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>wave_sd</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>wave energy flux, intra-annual s.d.</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>kW m<sup>−1</sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Yeager <italic>et al</italic>. [<xref rid="B35" ref-type="bibr">35</xref>]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>reef_area</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>coral reef area within a 20 km radius</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>km<sup>2</sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Yeager <italic>et al</italic>. [<xref rid="B35" ref-type="bibr">35</xref>]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>land_area</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>land area within a 20 km radius</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>km<sup>2</sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Yeager <italic>et al</italic>. [<xref rid="B35" ref-type="bibr">35</xref>]</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>depth</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>average transect depth at each site</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>m</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>this study</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>region</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>categorical: GBR and Coral Sea/Ningaloo Reef/Northwest Shelf</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>—</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>this study</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>DHW</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>degree heating weeks: maximum annual (2016)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>°C-week</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NOAA Coral Reef Watch</p>
+</td><td align="left" valign="top" rowspan="2" colspan="1">
+<p>BRT</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SSTA</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>sea surface temperature anomaly: maximum annual (2016)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>°C</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NOAA Coral Reef Watch</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SST_mmm</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>maximum monthly mean sea surface temperature (1985–2012)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>°C</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>NOAA Coral Reef Watch</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>MRT + BRT</p>
+</td></tr></tbody></table></table-wrap></sec><sec id="s2-3" disp-level="2"><label>(c).</label><title>Statistical analyses</title><p>We first characterized pre-heatwave coral communities using multivariate regression trees (MRTs) [<xref rid="B37" ref-type="bibr">37</xref>], which model the relationship between ecological community composition and environmental covariates. MRT forms clusters of sites by repeated splitting of the data, with each split determined by environmental characteristics and corresponding to a distinct assemblage. We calibrated MRT using the pre-heatwave matrix of site-by-coral cover (square-root transformed) as the response variable and covariates describing long-term environmental conditions as predictors (<xref rid="T1" ref-type="table">table 1</xref>). We determined the best tree size (i.e. number of leaves or clusters formed by the tree) as that which minimized the cross‐validated relative error (CVRE), which varies from zero for a perfect predictor to nearly one for a poor predictor. We subsequently characterized each pre-heatwave coral community (i.e. cluster) by its indicator taxa based on the Dufrêne–Legendre index, which integrates the relative abundance and frequency of each coral category within a given cluster [<xref rid="B38" ref-type="bibr">38</xref>]. The index varies between 0, no occurrences of a coral category within a cluster, to 100, if a category occurs at all sites within the cluster and in no other cluster. The index is associated with the probability of output resulting from a random pattern, based on 250 reallocations of sites among clusters. MRT were fit in the R 4.0.2 [<xref rid="B39" ref-type="bibr">39</xref>] package ‘mvpart’, and the Dufrêne–Legendre index was calculated using the ‘labdsv’ R package.</p><p>Second, we quantified the change in coral community composition following the 2016 heatwave using distance-based redundancy analysis (db-RDA) [<xref rid="B40" ref-type="bibr">40</xref>], which is analogous to canonical analysis of principal coordinates (CAP) [<xref rid="B41" ref-type="bibr">41</xref>] in non-metric (distance-based) space. We used the Bray–Curtis dissimilarity matrix calculated from square root-transformed coral cover to reduce the influence of high values. For visualization purposes, the db-RDA ordination plots included total live coral cover, maxDHW and maxSSTA as illustrative covariates (i.e. these variables did not contribute to the ordination, but their position on the plot indicated how they correlated with changes in coral communities over time). We included a ‘pre/post heatwave’ factor associated with repeated surveys at each site to maximize the separation of sites in the biplot, as well as two constraints to control for the variable resampling interval between survey sites, and the time between the heatwave and the post-heatwave surveys, respectively. We tested whether the community composition of each cluster significantly changed between the pre- and post-heatwave surveys using a permutational multivariate analysis of variance (PERMANOVA) and the same constraints as in the db-RDA (here included as offsets). The PERMANOVA was conducted using the ‘adonis2’ function, the db-RDA was performed using the ‘capscale’ function, and illustrative covariates were added using the ‘envfit’ function, all in the R package ‘vegan’.</p><p>Using the same pre- versus post-heatwave coral categories-by-site matrices, we also calculated the temporal beta-diversity index (TBI) [<xref rid="B42" ref-type="bibr">42</xref>] using Bray–Curtis dissimilarity for each survey site as a proxy for the magnitude of change in assemblage composition between pre- and post-heatwave surveys. For each cluster, we tested the significance of change in coral cover (which underpins the calculation of TBI) using a permutational <italic>t</italic>‐test (<italic>n</italic> = 999 permutations). We verified the assumption that, for each survey site, TBI was correlated with the distance between ‘pre’ and ‘post’ heatwave site coordinates on the db-RDA ordination plot; the assumption of a strong correlation based on the fact that both variables are estimates of beta diversity [<xref rid="B43" ref-type="bibr">43</xref>]. We identified coral categories that significantly changed in percentage cover over time using a paired <italic>t</italic>‐test for each coral category corrected for multiple testing [<xref rid="B42" ref-type="bibr">42</xref>]. Being based on permutations (<italic>n</italic> = 999), this paired <italic>t</italic>‐test does not assume normality [<xref rid="B42" ref-type="bibr">42</xref>]. We re-ran the indicator taxa analysis (Dufrêne–Legendre index) on the post-heatwave community matrix to test for any changes in indicator taxa within each cluster following the heatwave. We also plotted the mean change in coral cover (%) for each coral category against the change in a number of sites at which that coral category occurred.</p><p>Lastly, we identified the main drivers of coral community response to disturbance among biotic (i.e. pre-disturbance community composition) and abiotic (i.e. thermal stress) variables using boosted regression trees (BRT). BRT are machine learning algorithms that use many simple decision trees to iteratively boost the predictive performance of the final models [<xref rid="B44" ref-type="bibr">44</xref>]. Model settings include the learning rate (lr) that controls the contribution of each tree to the final model and tree complexity (tc) that determines the extent to which interactions were fitted. The number of trees (nt) that achieved minimal predictive deviance (i.e. the loss in predictive performance because of a suboptimal model) was determined using cross-validation (function gbm.step with tc = 2, lr = 0.001 and bag fraction = 0.5) [<xref rid="B44" ref-type="bibr">44</xref>]. We ran two BRT models, using the absolute change in total hard coral cover (%) and the TBI, respectively, to test whether these response variables were explained by different predictors. BRT were fit in R using package ‘gbm’ and functions provided by Elith <italic>et al</italic>. [<xref rid="B44" ref-type="bibr">44</xref>].</p></sec></sec><sec id="s3" disp-level="1"><label>3. </label><title>Results</title><sec id="s3-1" disp-level="2"><label>(a).</label><title>Structure of pre-heatwave communities</title><p>Pre-heatwave coral communities were strongly structured along latitudinal and longitudinal gradients at a regional scale, reflecting the major influence of environmental drivers including primary productivity and its seasonal variation, long-term MMM sea surface temperature and depth (<xref rid="F1" ref-type="fig">figure 1</xref>).</p><fig id="F1" position="float"><?disp-level 3?><label>Figure 1. </label><caption><p>Spatial structure and environmental predictors of pre-heatwave coral communities identified by MRT. Clusters (1–7) are indicated for survey sites of the (<italic>a</italic>) northwest and (<italic>b</italic>) northeast Australian coasts. Major environmental predictors and values associated with each split of the trees are indicated in (<italic>c</italic>), with NPP_mean: net primary productivity; NPP_sd: intra-annual (i.e. seasonal) s.d. in net primary productivity; SST_mmm: maximum monthly mean sea surface temperature. See <xref rid="T1" ref-type="table">table 1</xref> for details.</p></caption><alt-text>Spatial structure and environmental predictors of pre-heatwave coral communities identified by MRT.</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="rspb.2024.1538.f001.jpg"><?cloudpmc-path blobs/0f2c/11461067/410f0fd57fed/rspb.2024.1538.f001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 522?><?original-width 1665?><?scaled-height 209?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="rspb.2024.1538.f001.gif"><?cloudpmc-path blobs/0f2c/11461067/cfba83f20ba6/rspb.2024.1538.f001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>A total of seven coral communities (‘clusters’) were identified using MRT across all survey sites, primarily split between low (clusters 1–2) and high (clusters 3–7) levels of net primary productivity. Central Coral Sea communities exposed to low, and seasonably stable, primary productivity (cluster 1) were not characterized by any indicator taxa prior to the heatwave (<xref rid="T2" ref-type="table">table 2</xref>). Indicator taxa of communities exposed to low, but seasonally variable primary productivity (cluster 2; mostly southern Coral Sea) included <italic>Isopora</italic> and <italic>Porites</italic> encrusting (i.e. <italic>Porites lichen</italic>; <xref rid="T2" ref-type="table">table 2</xref>). Among more productive environments, cooler and southernmost sites including Ningaloo Reef and the Capricorn Bunkers (cluster 3) were associated with greater representation of <italic>Acropora</italic> tabular and <italic>Acropora</italic> digitate (predominantly <italic>Acropora digitifera</italic>; <xref rid="T2" ref-type="table">table 2</xref>). Shallower sites of intermediate long-term sea surface temperature (cluster 4) represented mixed coral communities and were not characterized by any indicator taxa. The shallow, warmest sites were split between highly productive (cluster 5; Ashmore and Cartier) and less productive environments (cluster 6; Rowley Shoals and Scott Reef). Cluster 5 was characterized by the lowest hard coral cover with indicator taxa that included <italic>Porites</italic> branching (predominantly <italic>Porites cylindrica</italic>) and <italic>Seriatopora</italic>. Cluster 6 yielded the highest coral cover and included indicator taxa such as <italic>Isopora</italic> Branching (predominantly <italic>Isopora brueggemanni</italic>), <italic>Porites</italic> massive, <italic>Acropora</italic> staghorn and <italic>Pavona</italic> submassive (mostly <italic>Pavona varians</italic>). Finally, indicator taxa of deeper reefs (cluster 7) included <italic>Montipora</italic> encrusting, <italic>Porites</italic> submassive and <italic>Pocillopora</italic> branching (<xref rid="T2" ref-type="table">table 2</xref>). MRT explained a total of 13.9% variation in coral communities (CVRE).</p><table-wrap id="T2" position="float"><?disp-level 3?><label>Table 2. </label><caption><p>Indicator coral taxa associated with each coral community (cluster) and identified based on the Dufrêne–Legendre index (<italic>p</italic> &lt; 0.05). Coral taxa that were an indicator pre- or post-heatwave are indicated as ‘Y’ in the ‘pre’ and ‘post’ columns, respectively. The term ‘predominantly’ is used when the taxon name covers a single species with a few exceptional records and ‘mostly’ when several other species are also important, as listed in order of occurrence. When neither ‘predominantly’ nor ‘mostly’ are specified, the listed species is the only indicator in that category.</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="left" valign="top" rowspan="1" colspan="1">
+<p>clusters</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>indicator taxa</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>pre</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>post</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>main species</p>
+</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Coscinaraea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>C. columna</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>2</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Isopora</italic> columnar or digitate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Isopora palifera</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> encrusting</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Porites lichen</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Isopora</italic> encrusting</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>I. palifera</italic> and <italic>I. cuneata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Isopora</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>I. palifera</italic> and <italic>I. cuneata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Acropora</italic> arborescent table</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>A. abrotanoides</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Galaxea</italic> branching<sup><xref rid="T2_FN1" ref-type="table-fn">a</xref></sup></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Galaxea horrescens</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Millepora</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Millepora exaesa</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Leptoria</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Leptoria phrygia</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>3</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Acropora</italic> digitate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>A. digitifera</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Acropora</italic> tabular</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>A. spicifera</italic> in the west, other tables in the east</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Echinopora</italic> branching</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Echinopora horrida</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Montipora</italic> foliose plate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>M. aequituberculata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Favites</italic> hemispherical<xref rid="T2_FN1" ref-type="table-fn"><sup>a</sup></xref></p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Platygyra</italic> hemispherical</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>P. daedalea</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Galaxea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>G. astreata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Merulina</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>M. ampliata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Acropora</italic> corymbose</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>A. tenuis</italic>, <italic>A. nasuta</italic>, <italic>A valida</italic> and <italic>A. seriata</italic> in the West</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Cyphastrea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>C. serailia</italic>, <italic>C. microphthalma</italic> and <italic>C. chalcidicum</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Lobophyllia</italic> hemispherical</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Lobophyllia hemprichii</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>4</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>(none)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Ctenactis</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mainly <italic>C. crassa</italic> or <italic>C. echinata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Goniopora</italic> hemispherical</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>G. columna</italic>, <italic>G. tenuidens</italic>, <italic>G. minor</italic>, <italic>G. lobata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> branching</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>P. cylindrica</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Seriatopora</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>S. hystrix</italic> and <italic>S. caliendrum</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Oxypora</italic> encrusting plate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>O. lacera</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Herpolitha</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>H. limax</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Echinopora</italic> plating</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>E. lamellosa</italic> in the west and <italic>E. pacificus</italic> in the east</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Goniopora</italic> columnar or digitate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>generally unidentifiable to species</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Platygyra</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>P. pini</italic>, <italic>P. lamellina</italic>, <italic>P. verweyi</italic> and others</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Mycedium</italic> foliose plate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>M. elephantotus</italic> and <italic>M. mancaoi</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>6</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Isopora</italic> branching</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>I. brueggemanni</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Pavona</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>P. varians</italic> and some <italic>P. duerdeni</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Acropora</italic> staghorn</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>A. muricata</italic>, <italic>A. abrolhosensis</italic> and <italic>A. intermedia</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Goniastrea</italic> hemispherical</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>G. edwardsi</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Fungia</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>generally unidentifiable to species</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> massive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>one or more of the six massive forms<sup><xref rid="T2_FN2" ref-type="table-fn">b</xref></sup></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Phymastrea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>predominantly <italic>P. magnistellata</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Goniastrea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Goniastrea pectinata</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>7</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>P. rus, P. vaughani</italic> and <italic>P. annae</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Pocillopora</italic> branching</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>mostly <italic>P. damicornis</italic> and <italic>P. verrucosa</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Montipora</italic> encrusting</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>generally unidentifiable to species</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Heliopora</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Heliopora coerulea</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Physogyra</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Physogyra lichstensteini</italic>
+</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> massive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>most likely the group of six—mostly <italic>P. lutea</italic>, <italic>P. lobata</italic>, <italic>P. solida</italic>, etc.</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Leptastrea</italic> encrusting</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>most likely <italic>L. purpurea</italic>, <italic>L. transversa</italic> and <italic>L. pruinosa</italic></p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Diploastrea</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Y</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Diploastrea heliopora</italic>
+</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="T2_FN1"><label>
+<sup>a</sup>
+</label><p> Rare coral taxa that only occurred on a few transects in the corresponding cluster and nowhere else.</p></fn><fn id="T2_FN2"><label>
+<sup>b</sup>
+</label><p> One or more of the six <italic>Porites</italic> species of massive growth form<italic>—P. lobata, P. lutea, P. solida, P. australiensis, P. mayeri</italic> and <italic>P. myrmidonensis</italic> [<xref rid="B45" ref-type="bibr">45</xref>].</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3-2" disp-level="2"><label>(b).</label><title>Pre-heatwave versus post-heatwave changes in coral communities</title><p>The 2016 marine heatwave had a highly variable footprint among different coral communities. Cluster 2 was the most distinct coral community, both pre- and post-heatwave, and experienced relatively little change in community composition (<xref rid="F2" ref-type="fig">figure 2<italic>a</italic></xref>) with a marginal increase in mean coral cover (<italic>p</italic> &gt; 0.05; <xref rid="F2" ref-type="fig">figure 2<italic>b</italic></xref>). Clusters 1 and 3 also showed relatively little change in community composition (<xref rid="F2" ref-type="fig">figure 2<italic>a</italic></xref>) and were, like cluster 2, exposed to the lowest thermal stress (electronic supplementary material, figure S2). Some coral categories became indicators of clusters 2 and 3 only after the heatwave, including <italic>Millepora</italic> submassive (<italic>Millepora exaesa</italic>) and <italic>Cyphastrea</italic> submassive, respectively (<xref rid="T2" ref-type="table">table 2</xref>), despite both coral categories significantly decreasing over time across all sites (<xref rid="T3" ref-type="table">table 3</xref>).</p><fig id="F2" position="float"><?disp-level 3?><label>Figure 2. </label><caption><p>Change in coral communities before and after the 2016 marine heatwave. (<italic>a</italic>) db-RDA showing site ordination for both pre- and post-heatwave surveys (i.e. each site corresponds to two grey dots) and temporal change in coral community composition for each coral cluster (ellipses and arrows; see <xref rid="F1" ref-type="fig">figure 1</xref> for cluster description). Ellipses indicate the standard error across all survey sites within each cluster, and arrows link ellipses centroids for pre- and post-coral surveys. (<italic>b</italic>) Changes in percentage total live coral cover for sites within each cluster. Each site corresponds to one ‘pre’ and one ‘post’ observation linked by a dotted line. Boxplots show the median (horizontal line), interquartile range (hinges), 90% confidence interval (whiskers) and outliers (dots).</p></caption><alt-text>Change in coral communities before and after the 2016 marine heatwave.</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="rspb.2024.1538.f002.jpg"><?cloudpmc-path blobs/0f2c/11461067/bf5579ae47d8/rspb.2024.1538.f002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 799?><?original-width 1672?><?scaled-height 319?><?scaled-width 668?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="rspb.2024.1538.f002.gif"><?cloudpmc-path blobs/0f2c/11461067/91a21f136626/rspb.2024.1538.f002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="T3" position="float"><?disp-level 3?><label>Table 3. </label><caption><p>Coral taxa showing a significant change in percentage cover after the heatwave (<italic>p</italic> &lt; 0.05; paired <italic>t</italic>‐test corrected for multiple testing). ‘Mean change’ indicates the mean percentage cover change across all sites, whereas ‘min change’ and ‘max change’ indicate the minimum and maximum percentage cover change at any one site, respectively. Changes in percentage cover for all coral categories are indicated in electronic supplementary material, table S2.</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="left" valign="top" rowspan="1" colspan="1">
+<p>coral category</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>mean change</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>min change</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p>max change</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>t</italic>.stat</p>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>p</italic>.perm</p>
+</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Montipora</italic> encrusting</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.45</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−10.6</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>7.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−3.33</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Isopora</italic> branching</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.24</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−21.2</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>6.8</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.20</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.02</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Cyphastrea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.19</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−4.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−4.21</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Isopora</italic> columnar or digitate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.18</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−23.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>17.3</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.16</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Millepora</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.16</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−13.7</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>5.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−1.93</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Stylophora</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.14</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−4.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>3.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.45</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> encrusting</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.13</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−11.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>5.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.21</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Favites</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.06</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−3.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>3.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−1.83</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.02</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Leptastrea</italic> submassive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.05</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−1.54</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.03</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Coeloseris</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.04</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−3.41</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Echinopora</italic> tubular</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.04</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.02</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.03</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Astrea</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.03</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−1.1</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−2.07</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.01</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p>
+<italic>Tubipora</italic>
+</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.02</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.6</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.92</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.03</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Goniopora</italic> columnar or digitate</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.03</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−0.5</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>3.4</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>2.29</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.02</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<p><italic>Porites</italic> massive</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.27</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>−19.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>21.0</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>1.72</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>0.02</p>
+</td></tr></tbody></table></table-wrap><p>By contrast, clusters 5–7 showed relatively higher coral community change (based on TBI and/or the pre/post distance on the redundancy analysis) after being exposed to greater levels of heat stress (<xref rid="F2" ref-type="fig">figure 2<italic>a</italic></xref>; electronic supplementary material, figure S2). However, such community composition change over time was only significant for cluster 7 based on both the PERMANOVA (<italic>p</italic> = 0.001) and the permutational <italic>t</italic>‐test (<italic>p</italic> = 0.01). Coral cover marginally declined within all three clusters, albeit only significantly for cluster 6 (<italic>p</italic> &lt; 0.05; <xref rid="F2" ref-type="fig">figure 2<italic>b</italic></xref>). Interestingly, <italic>Porites</italic> massive was an indicator for cluster 6 prior to the heatwave, but for cluster 7 after the heatwave (<xref rid="T2" ref-type="table">table 2</xref>).</p><p>We found strong relationships between the two metrics of beta diversity, showing consistent responses to the heatwave. Specifically, the TBI was strongly related to the distance between pre- and post-heatwave site coordinates on the db-RDA ordination plan (Pearson’s <italic>r</italic> = 0.38, <italic>p</italic> &lt; 0.001; electronic supplementary material, figure S3<italic>a</italic>). TBI was also correlated with the absolute change in total hard coral cover, albeit to a lesser extent (<italic>r</italic> = 0.17; <italic>p</italic> = 0.006; electronic supplementary material, figure S3<italic>b</italic>), suggesting that changes in coral community composition were partly decoupled from the magnitude of coral cover change (whether corresponding to an increase or decline) observed at the survey sites.</p></sec><sec id="s3-3" disp-level="2"><label>(c).</label><title>Drivers of coral community responses to the heatwave</title><p>BRT identified very different drivers of the change in live hard coral cover and the TBI (<xref rid="F3" ref-type="fig">figure 3</xref>). Thermal stress variables were the primary drivers of total coral cover change, with DHW and SSTA totalling a relative importance of 58.6%, and step declines in coral cover at DHW &gt; 8 and 16°C weeks (noting the latter was only due to 10 sites), and SSTA &gt; 2.2°C. A total of 44.2% deviance in total coral cover change was explained by BRT. In contrast, proxies for the pre-heatwave community composition were the best predictors of the TBI (combined relative importance = 64.4%), with a total of 39.1% deviance explained by all predictors collectively. TBI was the highest at CAP1 scores ranging from 0 to 2 (mostly corresponding to clusters 6 and 7, with 29 and 19% of all sites within this range, respectively) and higher scores on CAP2 (mostly clusters 1 and 7, with 63 and 18% of all sites with CAP2 &gt; 1, respectively). DHW was the third most important predictor of coral community composition, with a positive effect on TBI (i.e. greater change in community composition at higher levels of heat stress), followed by the cluster (i.e. greater change in community composition for cluster 4) and SSTA (<xref rid="F3" ref-type="fig">figure 3</xref>).</p><fig id="F3" position="float"><?disp-level 3?><label>Figure 3. </label><caption><p>Influence of thermal stress and pre-heatwave community composition on coral responses to the 2016 marine heatwave based on (<italic>a</italic>) the change in live hard coral cover and (<italic>b</italic>) the TBI. The bar plot (top panel) shows the relative importance of different predictors (%), and the bottom panels show marginal responses to each predictor, as determined by BRT. Thermal stress metrics include maximum DHW and SSTA. Proxies for pre-heatwave community composition included the coral cluster (<xref rid="F1" ref-type="fig">figure 1</xref>) as well as the pre-heatwave site coordinates on the db-RDA site plot (CAP1 and CAP2; <xref rid="F2" ref-type="fig">figure 2</xref>).</p></caption><alt-text>Influence of thermal stress and pre-heatwave community composition on coral responses to the 2016 marine heatwave based on (a) the change in live hard coral cover and (b) the TBI.</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="rspb.2024.1538.f003.jpg"><?cloudpmc-path blobs/0f2c/11461067/6e725d5c46f7/rspb.2024.1538.f003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1921?><?original-width 1681?><?scaled-height 768?><?scaled-width 672?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="rspb.2024.1538.f003.gif"><?cloudpmc-path blobs/0f2c/11461067/27ba314067a6/rspb.2024.1538.f003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="s3-4" disp-level="2"><label>(d).</label><title>Winners and losers</title><p>Most coral categories that decreased in percentage cover also decreased in number of sites at which they were recorded, and vice versa (<xref rid="F4" ref-type="fig">figure 4</xref>). Coral categories with the most pronounced changes (either increasing or decreasing) were also those with significant changes in percentage cover after the heatwave, including three coral taxa ‘winners’ (<italic>Porites</italic> massive, <italic>Tubipora</italic>, <italic>Goniopora</italic> columnar or digitate) and 12 coral taxa ‘losers’ (<xref rid="T3" ref-type="table">table 3</xref>). <italic>Acropora</italic> staghorn and <italic>Acropora</italic> tabular showed the largest decline and largest increase at any one site (−36 and +34%, respectively, both on the Great Barrier Reef; electronic supplementary material, table S2) but showed no significant changes once averaged across all sites. Pre- and post-heatwave mean coral cover in each cluster, as well as their mean difference, are presented for all taxa in electronic supplementary material, table S2. It should be noted that low values of mean coral cover change in <xref rid="T3" ref-type="table">table 3</xref> and electronic supplementary material, table S2 are due to (i) these mean changes being calculated across all sites, including some where the coral category does not occur, and (ii) the relatively high number of detailed coral categories considered here (<italic>n</italic> = 119) that, once considered alongside non-coral benthic categories to calculate percentage covers, result in low numbers overall.</p><fig id="F4" position="float"><?disp-level 3?><label>Figure 4. </label><caption><p>Winners (red) and losers (blue) of the 2016 marine heatwave. Dots indicate coral categories ordinated based on the change in number of sites occupied (<italic>x</italic>-axis) and the mean change in percentage cover across all sites (<italic>y</italic>-axis). Coral categories are colour-coded only where changes in percentage cover over time are significant and unlabelled in the central region of the plot for clarity. Dot size is proportional to initial number of sites occupied.</p></caption><alt-text>Winners (red) and losers (blue) of the 2016 marine heatwave.</alt-text><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="rspb.2024.1538.f004.jpg"><?cloudpmc-path blobs/0f2c/11461067/b9ac95022b2a/rspb.2024.1538.f004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1229?><?original-width 1673?><?scaled-height 491?><?scaled-width 669?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="rspb.2024.1538.f004.gif"><?cloudpmc-path blobs/0f2c/11461067/ab60e29c6fdf/rspb.2024.1538.f004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="s4" disp-level="1"><label>4. </label><title>Discussion</title><p>Understanding how coral responses to marine heatwaves vary among taxa is essential if we are to anticipate future community composition and potential ecological consequences as ocean warming intensifies (e.g. [<xref rid="B1" ref-type="bibr">1</xref>,<xref rid="B46" ref-type="bibr">46</xref>]). Using a continental-scale, high taxonomic resolution dataset of coral covers before and after the major 2016 marine heatwave on tropical Australian reefs, we show that the pre-heatwave community composition, which was strongly structured along environmental gradients, was a better predictor than the magnitude of heat stress in explaining how coral communities were impacted by disturbance. Furthermore, we identified different indicator coral taxa before and after the heatwave in each community, therefore detecting potential winners and losers of heat stress and an indication of how communities are likely to reorganize as marine heatwaves intensify in frequency and severity.</p><p>Our results showed that the pre-heatwave community composition largely dictated how communities subsequently changed following the heatwave, whereas the magnitude of thermal stress was the primary driver of total coral cover change. Pre-heatwave community composition reflects a combination of spatial gradients in environmental conditions and historical exposure to disturbance [<xref rid="B11" ref-type="bibr">11</xref>,<xref rid="B47" ref-type="bibr">47</xref>,<xref rid="B48" ref-type="bibr">48</xref>]. Such exposure to disturbance can affect community composition through environmental filtering [<xref rid="B16" ref-type="bibr">16</xref>,<xref rid="B49" ref-type="bibr">49</xref>], whereby previous disturbances have reduced the abundance of the most sensitive taxa, leaving more robust ones that are less likely to be impacted by subsequent disturbances [<xref rid="B50" ref-type="bibr">50</xref>]. Indeed, coral life history strategies (e.g. competitive, weedy and stress-tolerant [<xref rid="B19" ref-type="bibr">19</xref>]) can help understand and predict how different coral taxa respond to heat stress, although these strategies remain to be quantified for most coral taxa of the world (but see e.g. [<xref rid="B20" ref-type="bibr">20</xref>]). Heat tolerance in reef-building corals is also notoriously complex as it not only varies among but also within species (e.g. due to long-term genetic adaptation, variation in symbiont community structure and/or colony size and life stage) and between regions depending on their exposure to thermal stress [<xref rid="B12" ref-type="bibr">12</xref>,<xref rid="B15" ref-type="bibr">15</xref>,<xref rid="B21" ref-type="bibr">21</xref>,<xref rid="B51" ref-type="bibr">51</xref>,<xref rid="B52" ref-type="bibr">52</xref>]. In our study, DHW proved to be an effective predictor of such exposure to thermal stress, with BRT showing a sharp decline in coral cover after 8 and 16°C-weeks, and an almost linear pattern of change in community composition. These results support the ecological relevance of DHW across large geographical scales [<xref rid="B53" ref-type="bibr">53</xref>].</p><p>We also found that coral community composition was largely structured along environmental gradients. This was primarily associated with the long-term mean primary productivity and its seasonal variability, as well as the climatological MMM sea surface temperature, which defines the community-specific bleaching threshold [<xref rid="B13" ref-type="bibr">13</xref>]. These environmental gradients can result in sharp latitudinal and cross-shelf distinctions between coral communities (e.g. [<xref rid="B54" ref-type="bibr">54</xref>,<xref rid="B55" ref-type="bibr">55</xref>]). Similar distinctions have been inferred on the Great Barrier Reef based on other environmental predictors not directly accounted for here (e.g. water quality [<xref rid="B24" ref-type="bibr">24</xref>,<xref rid="B56" ref-type="bibr">56</xref>]). Interestingly, the importance of seasonal variation in net primary productivity observed in offshore reefs of the Southern Coral Sea (cluster 2) was consistent with the occurrence of seasonal upwellings [<xref rid="B57" ref-type="bibr">57</xref>]. These reefs were also exposed to relatively low heat stress during the 2016 heatwave and showed a marginal increase in hard coral cover associated with a low temporal turnover in community composition after 2016. Surprisingly, a depth of &gt;7 m (cluster 7) did not seem to confer a protective buffer against heat stress since temporal turnover was significant in this cluster only. While reduced light in deeper environments can moderate coral mortality during heat stress, which has been documented both in physiological [<xref rid="B58" ref-type="bibr">58</xref>] and molecular studies [<xref rid="B59" ref-type="bibr">59</xref>], recent severe bleaching events were found to impact deeper corals as well [<xref rid="B60" ref-type="bibr">60</xref>]. These results point to the importance of understanding marine microclimates, where the degree of natural variation in environmental conditions can either pre-adapt ecological communities to thermal stress (i.e. upwellings) or protect them from it (i.e. deeper environments) [<xref rid="B61" ref-type="bibr">61</xref>]. Such marine microclimates can provide spatial refuges or safe havens even under extreme events (e.g. El Niño), although their persistence under future climate change scenarios remains to be tested beyond regional scales [<xref rid="B62" ref-type="bibr">62</xref>,<xref rid="B63" ref-type="bibr">63</xref>].</p><p>Our analysis of indicator taxa in each coral community showed differing responses to the 2016 heatwave; 11 coral taxa were indicator before the heatwave but not after, 17 taxa became indicators only after the heatwave and 18 did not change status. Taxa that decreased in cover or were no longer indicators included those with complex morphologies such as <italic>Acropora</italic> tabular and <italic>Acropora</italic> arborescent table, or <italic>Isopora</italic> branching. Similarly, coral bleaching impacts in the Coral Sea tended to be lower at sites dominated by <italic>Porites</italic> and higher at those dominated by <italic>Stylophora</italic>, <italic>Pocillopora</italic> and <italic>Acropora</italic> [<xref rid="B64" ref-type="bibr">64</xref>], which was also observed in the Western Indian Ocean [<xref rid="B65" ref-type="bibr">65</xref>]. Overall, these results corroborate the idea that the 2016 marine heatwave might have induced a shift away from communities dominated by fast-growing, branching and tabular coral taxa that provide important habitat for reef-associated organisms, to assemblages of taxa with massive growth forms and slower growth rates [<xref rid="B22" ref-type="bibr">22</xref>]. This general community response was nevertheless not ubiquitous, as some <italic>Acropora</italic> taxa remained indicators after the heatwave (<xref rid="T2" ref-type="table">table 2</xref>), and not all <italic>Acropora</italic> categories declined consistently (electronic supplementary material, table S2). In addition to concurrent, yet patchy declines in coral cover, these shifts in coral communities and associated growth forms might have long-lasting impacts on associated reef organisms, including fish communities that have already shown signs of ecological generalization in response to the 2016 heatwave and associated mass coral bleaching event [<xref rid="B4" ref-type="bibr">4</xref>,<xref rid="B66" ref-type="bibr">66</xref>].</p><p>Several potential caveats should be considered when interpreting our results. First, although unlikely, other undetected disturbances between the pre- and post-heatwave surveys could have clouded our interpretation of the impact of the 2016 heatwave. It is also possible that a few reefs on the Northwest Shelf, impacted by Tropical Cyclone Narelle a few months prior to the 2013 pre-heatwave surveys, were only just starting to recover from cyclone impacts; however, the low number of these reefs should not have had a drastic influence on our results. Given that the 2016 heatwave was subsequently followed by a series of other heatwaves [<xref rid="B16" ref-type="bibr">16</xref>,<xref rid="B22" ref-type="bibr">22</xref>,<xref rid="B60" ref-type="bibr">60</xref>], it will be important to study their respective impacts in a cumulative disturbance framework. Second, stochastic demographic processes (such as natural coral mortality or resulting from, e.g. disease) could have affected the change in coral cover over this period, although it can be assumed that this effect would be evenly distributed across the dataset (i.e. with no bias in any particular direction). A similar assumption can be made about possible measurement error, whereby a slight variation in the location of transects and photo-quadrats between surveys could explain occasionally large (approx. 20%) increases in the cover of a given category at a single site. Finally, while our approach of categorizing coral assemblages by clusters was useful in attempting to simplify a complex picture of variation in both assemblage composition and exposure to heat stress, we recognize that the transferability of our results and conclusions might be limited by the idiosyncrasies of our study region, timing of the surveys and corresponding coral assemblages. Indeed, the composition of pre-disturbance communities was likely influenced by the successional state of coral communities following past disturbances, for which data were not consistently available throughout the entire study area. For example, previous studies showed that, prior to 2008, reefs in the mid and offshore central-north GBR were dominated by tabular <italic>Acropora</italic> when coral cover exceeded 30% [<xref rid="B67" ref-type="bibr">67</xref>]. The different patterns we observed here are likely influenced by ecological successions within coral communities following disturbances that have occurred since 2008.</p><p>Our assessment of taxon-specific responses to a major heatwave suggests several promising new pathways for future research. Firstly, assessment of such responses could feed into the development of a species-level indicator of coral vulnerability to thermal stress, pending the sufficient availability of similar datasets at the species level. Novel Bayesian joint species distribution modelling frameworks can now account for species interactions while quantifying species responses to environmental gradients [<xref rid="B68" ref-type="bibr">68</xref>] and allow the incorporation of relevant species traits such as bathymetric or thermal range of occurrence [<xref rid="B20" ref-type="bibr">20</xref>]. However, the development of robust estimates of species-level vulnerability to thermal stress will rely upon a longer time series of ecological data that span multiple disturbance events, including tropical cyclones [<xref rid="B31" ref-type="bibr">31</xref>], or outbreaks of the CoTS <italic>Acanthaster</italic> spp. [<xref rid="B69" ref-type="bibr">69</xref>,<xref rid="B70" ref-type="bibr">70</xref>] or coral disease [<xref rid="B71" ref-type="bibr">71</xref>], which were beyond the scope of this study. Longer ecological time series will also be essential to understand how communities reorganize over the years following a disturbance [<xref rid="B72" ref-type="bibr">72</xref>]. The successful development of species-level (or genus-level) indicators of coral vulnerability to thermal stress could open important avenues for future coral conservation, for example, to prioritize small-scale coral restoration efforts or genetic manipulation [<xref rid="B73" ref-type="bibr">73</xref>–<xref rid="B75" ref-type="bibr">75</xref>], as well as providing a better understanding of the mechanisms that underpin higher resistance to heat stress (e.g. short-term acclimation, long-term genetic adaptation and/or variation in symbiont community structure) [<xref rid="B76" ref-type="bibr">76</xref>,<xref rid="B77" ref-type="bibr">77</xref>].</p><p>In conclusion, coral community reshuffling in response to the 2016 heatwave was largely decoupled from changes in total coral cover and likely driven by a complex interplay between species life history, local reef environment, disturbance history and the stage of coral recovery. As marine heatwaves intensify in frequency and severity, an important research priority will be to derive transferrable indices of taxon-specific coral vulnerability, coupled with future forecasts of thermal stress and climate refugia, to guide future coral reef conservation and management.</p></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgements</title><p>We acknowledge the many contributions of volunteer divers and boat crew who collected Reef Life Survey (RLS) data, including Derek and Joe Shields, Ian Donaldson, Sam Griffiths, Antonia Cooper, Meryl Larkin, Ben Jones and Ian Shaw, as well as Just Berkhout and Ella Clausius at the University of Tasmania for logistics and data management.</p></sec><sec id="_ci93_" xml:lang="en" sec-type="contrib-info" disp-level="1"><title>Contributor Information</title><p>Camille Mellin, Email: camille.mellin@adelaide.edu.au.</p><p>Rick D. Stuart-Smith, Email: Rick.StuartSmith@utas.edu.au.</p><p>Freddie Heather, Email: freddie.heather@utas.edu.au.</p><p>Elizabeth Oh, Email: elizabeth.oh@utas.edu.au.</p><p>Emre Turak, Email: emreturak@wanadoo.fr.</p><p>Graham J. Edgar, Email: g.edgar@utas.edu.au.</p></sec><sec id="s5" disp-level="1"><title>Ethics</title><p>Permits were provided by Parks Australia, the Great Barrier Reef Marine Park Authority and the Department of Biodiversity, Conservation and Attractions, WA.</p></sec><sec id="s6" disp-level="1"><title>Data accessibility</title><p>The data that support the findings of this study can be accessed through Figshare at [<xref rid="B36" ref-type="bibr">36</xref>].</p><p>The code used for the analysis is available at [<xref rid="B78" ref-type="bibr">78</xref>].</p><p>Supplementary material is available online [<xref rid="B79" ref-type="bibr">79</xref>].</p></sec><sec id="s7" disp-level="1"><title>Declaration of AI use</title><p>We have not used AI-assisted technologies in creating this article.</p></sec><sec id="s8" disp-level="1"><title>Authors’ contributions</title><p>C.M.: conceptualization, formal analysis, investigation, methodology, validation, visualization, writing—original draft; R.D.S.-S.: conceptualization, data curation, funding acquisition, project administration, resources, supervision, writing—review and editing; F.H.: data curation, investigation, writing—review and editing; E.O.: data curation, resources, writing—review and editing; E.T.: data curation, investigation, resources, writing—review and editing; G.J.E.: conceptualization, data curation, funding acquisition, project administration, resources, supervision, writing—review and editing.</p><p>All authors gave final approval for publication and agreed to be held accountable for the work performed therein.</p></sec><sec id="s9" disp-level="1"><title>Conflict of interests</title><p>We declare we have no competing interests.</p></sec><sec id="s10" disp-level="1"><title>Funding</title><p>Funding and support for RLS field surveys were provided by the Ian Potter Foundation and Parks Australia. RLS data management is supported by Australia’s Integrated Marine Observing System (IMOS). IMOS is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS). It is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as the lead agent. The analyses were supported by the Marine Biodiversity Hub through funding from the Australian Government’s National Environmental Science Program and by the Australian Research Council (R.D.S.-S. by ARC FT190100599 and C.M. by FT200100870).</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="B1"><label>1.</label><mixed-citation><named-content content-type="citation-string">
+Hughes TP, et al. 2017. 
+Coral reefs in the Anthropocene. Nature
+546, 82–90. ( 10.1038/nature22901)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nature22901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28569801"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Coral reefs in the Anthropocene&amp;volume=546&amp;publication_year=2017&amp;pages=82-90&amp;pmid=28569801&amp;doi=10.1038/nature22901&amp;"/></mixed-citation></ref><ref id="B2"><label>2.</label><mixed-citation><named-content content-type="citation-string">
+Pratchett MS, Heron SF, Mellin C, Cumming GS. 2021. 
+Recurrent mass-bleaching and the potential for ecosystem collapse on Australia’s great barrier reef. In Ecosystem collapse and climate change (eds Canadell JG, Jackson RB), pp. 265–289. Cham, Switzerland: Springer International Publishing. ( 10.1007/978-3-030-71330-0_10)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-3-030-71330-0_10"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Ecosystem collapse and climate change&amp;publication_year=2021&amp;"/></mixed-citation></ref><ref id="B3"><label>3.</label><mixed-citation><named-content content-type="citation-string">
+Stuart-Smith RD, Brown CJ, Ceccarelli DM, Edgar GJ. 2018. 
+Ecosystem restructuring along the Great Barrier Reef following mass coral bleaching. Nature
+560, 92–96. ( 10.1038/s41586-018-0359-9)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-018-0359-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30046108"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Ecosystem restructuring along the Great Barrier Reef following mass coral bleaching&amp;volume=560&amp;publication_year=2018&amp;pages=92-96&amp;pmid=30046108&amp;doi=10.1038/s41586-018-0359-9&amp;"/></mixed-citation></ref><ref id="B4"><label>4.</label><mixed-citation><named-content content-type="citation-string">
+Stuart-Smith RD, et al. 2022. 
+Tracking widespread climate-driven change on temperate and tropical reefs. Curr. Biol.
+32, 4128–4138. ( 10.1016/j.cub.2022.07.067)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cub.2022.07.067"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36150387"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Biol.&amp;title=Tracking widespread climate-driven change on temperate and tropical reefs&amp;volume=32&amp;publication_year=2022&amp;pages=4128-4138&amp;pmid=36150387&amp;doi=10.1016/j.cub.2022.07.067&amp;"/></mixed-citation></ref><ref id="B5"><label>5.</label><mixed-citation><named-content content-type="citation-string">
+Pratchett MS, Hoey AS, Wilson SK, Messmer V, Graham NAJ. 2011. 
+Changes in biodiversity and functioning of reef fish assemblages following coral bleaching and coral loss. Diversity
+3, 424–452. ( 10.3390/d3030424)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/d3030424"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Diversity&amp;title=Changes in biodiversity and functioning of reef fish assemblages following coral bleaching and coral loss&amp;volume=3&amp;publication_year=2011&amp;pages=424-452&amp;doi=10.3390/d3030424&amp;"/></mixed-citation></ref><ref id="B6"><label>6.</label><mixed-citation><named-content content-type="citation-string">
+Brown BE. 1997. 
+Coral bleaching: causes and consequences. Coral Reefs
+16, S129–S138. ( 10.1007/s003380050249)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s003380050249"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Coral bleaching: causes and consequences&amp;volume=16&amp;publication_year=1997&amp;pages=S129-S138&amp;doi=10.1007/s003380050249&amp;"/></mixed-citation></ref><ref id="B7"><label>7.</label><mixed-citation><named-content content-type="citation-string">
+Donner SD, Rickbeil GJM, Heron SF. 2017. 
+A new, high-resolution global mass coral bleaching database. PLoS One
+12, e0175490. ( 10.1371/journal.pone.0175490)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0175490"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5405922"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28445534"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=A new, high-resolution global mass coral bleaching database&amp;volume=12&amp;publication_year=2017&amp;pages=e0175490&amp;pmid=28445534&amp;doi=10.1371/journal.pone.0175490&amp;"/></mixed-citation></ref><ref id="B8"><label>8.</label><mixed-citation><named-content content-type="citation-string">
+Cinner JE, et al. 2020. 
+Meeting fisheries, ecosystem function, and biodiversity goals in a human-dominated world. Science
+368, 307–311. ( 10.1126/science.aax9412)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aax9412"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32299952"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Meeting fisheries, ecosystem function, and biodiversity goals in a human-dominated world&amp;volume=368&amp;publication_year=2020&amp;pages=307-311&amp;pmid=32299952&amp;doi=10.1126/science.aax9412&amp;"/></mixed-citation></ref><ref id="B9"><label>9.</label><mixed-citation><named-content content-type="citation-string">
+Hoegh-Guldberg O, Kennedy EV, Beyer HL, McClennen C, Possingham HP. 2018. 
+Securing a long-term future for coral reefs. Trends Ecol. Evol.
+33, 936–944. ( 10.1016/j.tree.2018.09.006)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tree.2018.09.006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30385077"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Ecol. Evol.&amp;title=Securing a long-term future for coral reefs&amp;volume=33&amp;publication_year=2018&amp;pages=936-944&amp;pmid=30385077&amp;doi=10.1016/j.tree.2018.09.006&amp;"/></mixed-citation></ref><ref id="B10"><label>10.</label><mixed-citation><named-content content-type="citation-string">
+Hoegh-Guldberg O, et al. 2007. 
+Coral reefs under rapid climate change and ocean acidification. Science
+318, 1737–1742. ( 10.1126/science.1152509)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.1152509"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18079392"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Coral reefs under rapid climate change and ocean acidification&amp;volume=318&amp;publication_year=2007&amp;pages=1737-1742&amp;pmid=18079392&amp;doi=10.1126/science.1152509&amp;"/></mixed-citation></ref><ref id="B11"><label>11.</label><mixed-citation><named-content content-type="citation-string">
+McClanahan TR, et al. 2020. 
+Highly variable taxa-specific coral bleaching responses to thermal stresses. Mar. Ecol. Prog. Ser.
+648, 135–151. ( 10.3354/meps13402)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps13402"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Ecol. Prog. Ser.&amp;title=Highly variable taxa-specific coral bleaching responses to thermal stresses&amp;volume=648&amp;publication_year=2020&amp;pages=135-151&amp;doi=10.3354/meps13402&amp;"/></mixed-citation></ref><ref id="B12"><label>12.</label><mixed-citation><named-content content-type="citation-string">
+Loya Y, Sakai K, Yamazato K, Nakano Y, Sambali H, van Woesik R. 2001. 
+Coral bleaching: the winners and the losers. Ecol. Lett.
+4, 122–131. ( 10.1046/j.1461-0248.2001.00203.x)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1046/j.1461-0248.2001.00203.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecol. Lett.&amp;title=Coral bleaching: the winners and the losers&amp;volume=4&amp;publication_year=2001&amp;pages=122-131&amp;doi=10.1046/j.1461-0248.2001.00203.x&amp;"/></mixed-citation></ref><ref id="B13"><label>13.</label><mixed-citation><named-content content-type="citation-string">
+Eakin CM, et al. 2010. 
+Caribbean corals in crisis: record thermal stress, bleaching, and mortality in 2005. PLoS One
+5, e13969. ( 10.1371/journal.pone.0013969)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0013969"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2981599"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21125021"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Caribbean corals in crisis: record thermal stress, bleaching, and mortality in 2005&amp;volume=5&amp;publication_year=2010&amp;pages=e13969&amp;pmid=21125021&amp;doi=10.1371/journal.pone.0013969&amp;"/></mixed-citation></ref><ref id="B14"><label>14.</label><mixed-citation><named-content content-type="citation-string">
+Hughes TP, Kerry JT, Connolly SR, Álvarez-Romero JG, Eakin CM, Heron SF, Gonzalez MA, Moneghetti J. 2021. 
+Emergent properties in the responses of tropical corals to recurrent climate extremes. Curr. Biol.
+31, 5393–5399.( 10.1016/j.cub.2021.10.046)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cub.2021.10.046"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34739821"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Biol.&amp;title=Emergent properties in the responses of tropical corals to recurrent climate extremes&amp;volume=31&amp;publication_year=2021&amp;pages=5393-5399&amp;pmid=34739821&amp;doi=10.1016/j.cub.2021.10.046&amp;"/></mixed-citation></ref><ref id="B15"><label>15.</label><mixed-citation><named-content content-type="citation-string">
+McClanahan TR, et al. 2020. 
+Large geographic variability in the resistance of corals to thermal stress. Glob. Ecol. Biogeogr.
+29, 2229–2247. ( 10.1111/geb.13191)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/geb.13191"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Ecol. Biogeogr.&amp;title=Large geographic variability in the resistance of corals to thermal stress&amp;volume=29&amp;publication_year=2020&amp;pages=2229-2247&amp;doi=10.1111/geb.13191&amp;"/></mixed-citation></ref><ref id="B16"><label>16.</label><mixed-citation><named-content content-type="citation-string">
+Hughes TP, et al. 2019. 
+Ecological memory modifies the cumulative impact of recurrent climate extremes. Nat. Clim. Chang.
+9, 40–43. ( 10.1038/s41558-018-0351-2)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41558-018-0351-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Clim. Chang.&amp;title=Ecological memory modifies the cumulative impact of recurrent climate extremes&amp;volume=9&amp;publication_year=2019&amp;pages=40-43&amp;doi=10.1038/s41558-018-0351-2&amp;"/></mixed-citation></ref><ref id="B17"><label>17.</label><mixed-citation><named-content content-type="citation-string">
+Darling ES, et al. 2019. 
+Social–environmental drivers inform strategic management of coral reefs in the anthropocene. Nat. Ecol. Evol.
+3, 1341–1350. ( 10.1038/s41559-019-0953-8)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41559-019-0953-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31406279"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Ecol. Evol.&amp;title=Social–environmental drivers inform strategic management of coral reefs in the anthropocene&amp;volume=3&amp;publication_year=2019&amp;pages=1341-1350&amp;pmid=31406279&amp;doi=10.1038/s41559-019-0953-8&amp;"/></mixed-citation></ref><ref id="B18"><label>18.</label><mixed-citation><named-content content-type="citation-string">
+Baird AH, Marshall PA. 2002. 
+Mortality, growth and reproduction in scleractinian corals following bleaching on the great barrier reef. Mar. Ecol. Prog. Ser.
+237, 133–141. ( 10.3354/meps237133)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps237133"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Ecol. Prog. Ser.&amp;title=Mortality, growth and reproduction in scleractinian corals following bleaching on the great barrier reef&amp;volume=237&amp;publication_year=2002&amp;pages=133-141&amp;doi=10.3354/meps237133&amp;"/></mixed-citation></ref><ref id="B19"><label>19.</label><mixed-citation><named-content content-type="citation-string">
+Darling ES, McClanahan TR, Côté IM. 2013. 
+Life histories predict coral community disassembly under multiple stressors. Glob. Chang. Biol.
+19, 1930–1940. ( 10.1111/gcb.12191)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.12191"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23504982"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=Life histories predict coral community disassembly under multiple stressors&amp;volume=19&amp;publication_year=2013&amp;pages=1930-1940&amp;pmid=23504982&amp;doi=10.1111/gcb.12191&amp;"/></mixed-citation></ref><ref id="B20"><label>20.</label><mixed-citation><named-content content-type="citation-string">
+Foden WB, et al. 2013. 
+Identifying the world’s most climate change vulnerable species: a systematic trait-based assessment of all birds, amphibians and corals. PLoS One
+8, e65427. ( 10.1371/journal.pone.0065427)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0065427"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3680427"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23950785"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Identifying the world’s most climate change vulnerable species: a systematic trait-based assessment of all birds, amphibians and corals&amp;volume=8&amp;publication_year=2013&amp;pages=e65427&amp;pmid=23950785&amp;doi=10.1371/journal.pone.0065427&amp;"/></mixed-citation></ref><ref id="B21"><label>21.</label><mixed-citation><named-content content-type="citation-string">
+Marzonie MR, Bay LK, Bourne DG, Hoey AS, Matthews S, Nielsen JJV, Harrison HB. 2023. 
+The effects of marine heatwaves on acute heat tolerance in corals. Glob. Chang. Biol.
+29, 404–416. ( 10.1111/gcb.16473)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.16473"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10092175"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36285622"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=The effects of marine heatwaves on acute heat tolerance in corals&amp;volume=29&amp;publication_year=2023&amp;pages=404-416&amp;pmid=36285622&amp;doi=10.1111/gcb.16473&amp;"/></mixed-citation></ref><ref id="B22"><label>22.</label><mixed-citation><named-content content-type="citation-string">
+Hughes TP, et al. 2018. 
+Global warming transforms coral reef assemblages. Nature
+556, 492–496. ( 10.1038/s41586-018-0041-2)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-018-0041-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29670282"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Global warming transforms coral reef assemblages&amp;volume=556&amp;publication_year=2018&amp;pages=492-496&amp;pmid=29670282&amp;doi=10.1038/s41586-018-0041-2&amp;"/></mixed-citation></ref><ref id="B23"><label>23.</label><mixed-citation><named-content content-type="citation-string">
+Tebbett SB, Connolly SR, Bellwood DR. 2023. 
+Benthic composition changes on coral reefs at global scales. Nat. Ecol. Evol.
+7, 71–81. ( 10.1038/s41559-022-01937-2)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41559-022-01937-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36631667"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Ecol. Evol.&amp;title=Benthic composition changes on coral reefs at global scales&amp;volume=7&amp;publication_year=2023&amp;pages=71-81&amp;pmid=36631667&amp;doi=10.1038/s41559-022-01937-2&amp;"/></mixed-citation></ref><ref id="B24"><label>24.</label><mixed-citation><named-content content-type="citation-string">
+Mellin C, Thompson A, Jonker MJ, Emslie MJ. 2019. 
+Cross-shelf variation in coral community response to disturbance on the great barrier reef. Diversity
+11, 38. ( 10.3390/d11030038)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/d11030038"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Diversity&amp;title=Cross-shelf variation in coral community response to disturbance on the great barrier reef&amp;volume=11&amp;publication_year=2019&amp;pages=38&amp;doi=10.3390/d11030038&amp;"/></mixed-citation></ref><ref id="B25"><label>25.</label><mixed-citation><named-content content-type="citation-string">
+Carpenter KE, et al. 2008. 
+One-third of reef-building corals face elevated extinction risk from climate change and local impacts. Science
+321, 560–563. ( 10.1126/science.1159196)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.1159196"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18653892"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=One-third of reef-building corals face elevated extinction risk from climate change and local impacts&amp;volume=321&amp;publication_year=2008&amp;pages=560-563&amp;pmid=18653892&amp;doi=10.1126/science.1159196&amp;"/></mixed-citation></ref><ref id="B26"><label>26.</label><mixed-citation><named-content content-type="citation-string">
+Richardson LE, Graham NAJ, Pratchett MS, Hoey AS. 2017. 
+Structural complexity mediates functional structure of reef fish assemblages among coral habitats. Environ. Biol. Fishes
+100, 193–207. ( 10.1007/s10641-016-0571-0)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10641-016-0571-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Biol. Fishes&amp;title=Structural complexity mediates functional structure of reef fish assemblages among coral habitats&amp;volume=100&amp;publication_year=2017&amp;pages=193-207&amp;doi=10.1007/s10641-016-0571-0&amp;"/></mixed-citation></ref><ref id="B27"><label>27.</label><mixed-citation><named-content content-type="citation-string">
+MacDonald C, Pinheiro HT, Shepherd B, Phelps TAY, Rocha LA. 2021. 
+Disturbance and distribution gradients influence resource availability and feeding behaviours in corallivore fishes following a warm-water anomaly. Sci. Rep.
+11, 23656. ( 10.1038/s41598-021-03061-w)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-021-03061-w"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8654952"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34880357"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=Disturbance and distribution gradients influence resource availability and feeding behaviours in corallivore fishes following a warm-water anomaly&amp;volume=11&amp;publication_year=2021&amp;pages=23656&amp;pmid=34880357&amp;doi=10.1038/s41598-021-03061-w&amp;"/></mixed-citation></ref><ref id="B28"><label>28.</label><mixed-citation><named-content content-type="citation-string">
+Matthews SA, Mellin C, MacNeil A, Heron SF, Skirving W, Puotinen M, Devlin MJ, Pratchett M. 2019. 
+High‐resolution characterization of the abiotic environment and disturbance regimes on the Great Barrier Reef, 1985–2017. Ecology
+100, e02574. ( 10.1002/ecy.2574)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ecy.2574"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30645776"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology&amp;title=High‐resolution characterization of the abiotic environment and disturbance regimes on the Great Barrier Reef, 1985–2017&amp;volume=100&amp;publication_year=2019&amp;pages=e02574&amp;pmid=30645776&amp;doi=10.1002/ecy.2574&amp;"/></mixed-citation></ref><ref id="B29"><label>29.</label><mixed-citation><named-content content-type="citation-string">
+Mellin C, et al. 2019. 
+Spatial resilience of the Great Barrier Reef under cumulative disturbance impacts. Glob. Chang. Biol.
+25, 2431–2445. ( 10.1111/gcb.14625)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.14625"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30900790"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=Spatial resilience of the Great Barrier Reef under cumulative disturbance impacts&amp;volume=25&amp;publication_year=2019&amp;pages=2431-2445&amp;pmid=30900790&amp;doi=10.1111/gcb.14625&amp;"/></mixed-citation></ref><ref id="B30"><label>30.</label><mixed-citation><named-content content-type="citation-string">
+Cantin NE, Klein-Salas E, Frade PR. 2021. 
+Spatial variability in coral bleaching severity and mortality during the 2016 and 2017 Great Barrier Reef coral bleaching events: report to the National Environmental Science Program. Cairns, Australia: Reef and Rainforest Research Centre.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Spatial variability in coral bleaching severity and mortality during the 2016 and 2017 Great Barrier Reef coral bleaching events: report to the National Environmental Science Program&amp;publication_year=2021&amp;"/></mixed-citation></ref><ref id="B31"><label>31.</label><mixed-citation><named-content content-type="citation-string">
+Puotinen M, Drost E, Lowe R, Depczynski M, Radford B, Heyward A, Gilmour J. 2020. 
+Towards modelling the future risk of cyclone wave damage to the world’s coral reefs. Glob. Chang. Biol.
+26, 4302–4315. ( 10.1111/gcb.15136)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.15136"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32459881"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=Towards modelling the future risk of cyclone wave damage to the world’s coral reefs&amp;volume=26&amp;publication_year=2020&amp;pages=4302-4315&amp;pmid=32459881&amp;doi=10.1111/gcb.15136&amp;"/></mixed-citation></ref><ref id="B32"><label>32.</label><mixed-citation><named-content content-type="citation-string">
+Edgar GJ, et al. 2020. 
+Establishing the ecological basis for conservation of shallow marine life using reef life survey. Biol. Conserv.
+252, 108855. ( 10.1016/j.biocon.2020.108855)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.biocon.2020.108855"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biol. Conserv.&amp;title=Establishing the ecological basis for conservation of shallow marine life using reef life survey&amp;volume=252&amp;publication_year=2020&amp;pages=108855&amp;doi=10.1016/j.biocon.2020.108855&amp;"/></mixed-citation></ref><ref id="B33"><label>33.</label><mixed-citation><named-content content-type="citation-string">
+McClanahan TR, et al. 2019. 
+Temperature patterns and mechanisms influencing coral bleaching during the 2016 El Niño. Nat. Clim. Chang.
+9, 845–851. ( 10.1038/s41558-019-0576-8)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41558-019-0576-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Clim. Chang.&amp;title=Temperature patterns and mechanisms influencing coral bleaching during the 2016 El Niño&amp;volume=9&amp;publication_year=2019&amp;pages=845-851&amp;doi=10.1038/s41558-019-0576-8&amp;"/></mixed-citation></ref><ref id="B34"><label>34.</label><mixed-citation><named-content content-type="citation-string">
+Liu G, et al. 2014. 
+Reef-scale thermal stress monitoring of coral ecosystems: new 5-km global products from NOAA coral reef watch. Remote Sens. 6, 11579–11606. ( 10.3390/rs61111579)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/rs61111579"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens.&amp;title=Reef-scale thermal stress monitoring of coral ecosystems: new 5-km global products from NOAA coral reef watch&amp;volume=6&amp;publication_year=2014&amp;pages=11579-11606&amp;doi=10.3390/rs61111579&amp;"/></mixed-citation></ref><ref id="B35"><label>35.</label><mixed-citation><named-content content-type="citation-string">
+Yeager LA, Marchand P, Gill DA, Baum JK, McPherson JM. 2017. 
+Marine socio-environmental covariates: queryable global layers of environmental and anthropogenic variables for marine ecosystem studies. Ecology
+98, 1976. ( 10.1002/ecy.1884)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ecy.1884"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28466482"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology&amp;title=Marine socio-environmental covariates: queryable global layers of environmental and anthropogenic variables for marine ecosystem studies&amp;volume=98&amp;publication_year=2017&amp;pages=1976&amp;pmid=28466482&amp;doi=10.1002/ecy.1884&amp;"/></mixed-citation></ref><ref id="B36"><label>36.</label><mixed-citation><named-content content-type="citation-string">
+Mellin C. 2023. 
+Datasets: coral responses to 2016 marine heatwave. Figshare. ( 10.25909/25981378)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.25909/25981378"/></mixed-citation></ref><ref id="B37"><label>37.</label><mixed-citation><named-content content-type="citation-string">
+De’ath G. 2002. 
+Multivariate regression trees: a new technique for modeling species-environment relationships. Ecology
+83, 1105. ( 10.2307/3071917)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2307/3071917"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology&amp;title=Multivariate regression trees: a new technique for modeling species-environment relationships&amp;volume=83&amp;publication_year=2002&amp;pages=1105&amp;doi=10.2307/3071917&amp;"/></mixed-citation></ref><ref id="B38"><label>38.</label><mixed-citation><named-content content-type="citation-string">
+Dufrene M, Legendre P. 1997. 
+Species assemblages and indicator species: the need for a flexible asymmetrical approach. Ecol. Monogr.
+67, 345. ( 10.2307/2963459)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2307/2963459"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecol. Monogr.&amp;title=Species assemblages and indicator species: the need for a flexible asymmetrical approach&amp;volume=67&amp;publication_year=1997&amp;pages=345&amp;doi=10.2307/2963459&amp;"/></mixed-citation></ref><ref id="B39"><label>39.</label><mixed-citation><named-content content-type="citation-string">
+R Development Core Team . 2020. 
+R: a language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing. See
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.R-project.org" ext-link-type="uri">http://www.R-project.org</ext-link>.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=R: a language and environment for statistical computing&amp;publication_year=2020&amp;"/></mixed-citation></ref><ref id="B40"><label>40.</label><mixed-citation><named-content content-type="citation-string">
+Legendre P, Anderson MJ. 1999. 
+Distance-based redundancy analysis: testing multispecies responses in multifactorial ecological experiments. Ecol. Monogr.
+69, 1–24. ( 10.1890/0012-9615(1999)069[0001:DBRATM]2.0.CO;2)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1890/0012-9615(1999)069[0001:DBRATM]2.0.CO;2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecol. Monogr.&amp;title=Distance-based redundancy analysis: testing multispecies responses in multifactorial ecological experiments&amp;volume=69&amp;publication_year=1999&amp;pages=1-24&amp;doi=10.1890/0012-9615(1999)069[0001:DBRATM]2.0.CO;2&amp;"/></mixed-citation></ref><ref id="B41"><label>41.</label><mixed-citation><named-content content-type="citation-string">
+Anderson MJ, Willis TJ. 2003. 
+Canonical analysis of principal coordinates: a useful method of constrained ordination for ecology. Ecology
+84, 511–525. ( 10.1890/0012-9658(2003)084[0511:CAOPCA]2.0.CO;2)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1890/0012-9658(2003)084[0511:CAOPCA]2.0.CO;2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology&amp;title=Canonical analysis of principal coordinates: a useful method of constrained ordination for ecology&amp;volume=84&amp;publication_year=2003&amp;pages=511-525&amp;doi=10.1890/0012-9658(2003)084[0511:CAOPCA]2.0.CO;2&amp;"/></mixed-citation></ref><ref id="B42"><label>42.</label><mixed-citation><named-content content-type="citation-string">
+Legendre P. 2019. 
+A temporal beta-diversity index to identify sites that have changed in exceptional ways in space-time surveys. Ecol. Evol.
+9, 3500–3514. ( 10.1002/ece3.4984)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ece3.4984"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6434560"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30962908"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecol. Evol.&amp;title=A temporal beta-diversity index to identify sites that have changed in exceptional ways in space-time surveys&amp;volume=9&amp;publication_year=2019&amp;pages=3500-3514&amp;pmid=30962908&amp;doi=10.1002/ece3.4984&amp;"/></mixed-citation></ref><ref id="B43"><label>43.</label><mixed-citation><named-content content-type="citation-string">
+Barwell LJ, Isaac NJB, Kunin WE. 2015. 
+Measuring β-diversity with species abundance data. J. Anim. Ecol.
+84, 1112–1122. ( 10.1111/1365-2656.12362)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1365-2656.12362"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4979660"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25732937"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Anim. Ecol.&amp;title=Measuring β-diversity with species abundance data&amp;volume=84&amp;publication_year=2015&amp;pages=1112-1122&amp;pmid=25732937&amp;doi=10.1111/1365-2656.12362&amp;"/></mixed-citation></ref><ref id="B44"><label>44.</label><mixed-citation><named-content content-type="citation-string">
+Elith J, Leathwick JR, Hastie T. 2008. 
+A working guide to boosted regression trees. J. Anim. Ecol.
+77, 802–813. ( 10.1111/j.1365-2656.2008.01390.x)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1365-2656.2008.01390.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18397250"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Anim. Ecol.&amp;title=A working guide to boosted regression trees&amp;volume=77&amp;publication_year=2008&amp;pages=802-813&amp;pmid=18397250&amp;doi=10.1111/j.1365-2656.2008.01390.x&amp;"/></mixed-citation></ref><ref id="B45"><label>45.</label><mixed-citation><named-content content-type="citation-string">
+DeVantier L, Turak E. 2017. 
+Species richness and relative abundance of reef-building corals in the Indo-west Pacific. Diversity
+9, 25. ( 10.3390/d9030025)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/d9030025"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Diversity&amp;title=Species richness and relative abundance of reef-building corals in the Indo-west Pacific&amp;volume=9&amp;publication_year=2017&amp;pages=25&amp;doi=10.3390/d9030025&amp;"/></mixed-citation></ref><ref id="B46"><label>46.</label><mixed-citation><named-content content-type="citation-string">
+Gilmour JP, Cook KL, Ryan NM, Puotinen ML, Green RH, Heyward AJ. 2022. 
+A tale of two reef systems: local conditions, disturbances, coral life histories, and the climate catastrophe. Ecol. Appl.
+32, e2509. ( 10.1002/eap.2509)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/eap.2509"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34870357"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecol. Appl.&amp;title=A tale of two reef systems: local conditions, disturbances, coral life histories, and the climate catastrophe&amp;volume=32&amp;publication_year=2022&amp;pages=e2509&amp;pmid=34870357&amp;doi=10.1002/eap.2509&amp;"/></mixed-citation></ref><ref id="B47"><label>47.</label><mixed-citation><named-content content-type="citation-string">
+Zinke J, et al. 2018. 
+Gradients of disturbance and environmental conditions shape coral community structure for South‐Eastern Indian ocean reefs. Divers. Distrib.
+24, 605–620. ( 10.1111/ddi.12714)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/ddi.12714"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Divers. Distrib.&amp;title=Gradients of disturbance and environmental conditions shape coral community structure for South‐Eastern Indian ocean reefs&amp;volume=24&amp;publication_year=2018&amp;pages=605-620&amp;doi=10.1111/ddi.12714&amp;"/></mixed-citation></ref><ref id="B48"><label>48.</label><mixed-citation><named-content content-type="citation-string">
+Selmoni O, Lecellier G, Berteaux-Lecellier V, Joost S. 2022. 
+Worldwide analysis of reef surveys sorts coral taxa by associations with recent and past heat stress. Front. Mar. Sci.
+9. ( 10.3389/fmars.2022.948336)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2022.948336"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Mar. Sci.&amp;title=Worldwide analysis of reef surveys sorts coral taxa by associations with recent and past heat stress&amp;volume=9&amp;publication_year=2022&amp;doi=10.3389/fmars.2022.948336&amp;"/></mixed-citation></ref><ref id="B49"><label>49.</label><mixed-citation><named-content content-type="citation-string">
+Baum JK, Claar DC, Tietjen KL, Magel JMT, Maucieri DG, Cobb KM, McDevitt-Irwin JM. 2023. 
+Transformation of coral communities subjected to an unprecedented heatwave is modulated by local disturbance. Sci. Adv.
+9, eabq5615. ( 10.1126/sciadv.abq5615)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/sciadv.abq5615"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11318656"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37018404"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Adv.&amp;title=Transformation of coral communities subjected to an unprecedented heatwave is modulated by local disturbance&amp;volume=9&amp;publication_year=2023&amp;pages=eabq5615&amp;pmid=37018404&amp;doi=10.1126/sciadv.abq5615&amp;"/></mixed-citation></ref><ref id="B50"><label>50.</label><mixed-citation><named-content content-type="citation-string">
+van Woesik R, Sakai K, Ganase A, Loya Y. 2011. 
+Revisiting the winners and the losers a decade after coral bleaching. Mar. Ecol. Prog. Ser.
+434, 67–76. ( 10.3354/meps09203)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps09203"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Ecol. Prog. Ser.&amp;title=Revisiting the winners and the losers a decade after coral bleaching&amp;volume=434&amp;publication_year=2011&amp;pages=67-76&amp;doi=10.3354/meps09203&amp;"/></mixed-citation></ref><ref id="B51"><label>51.</label><mixed-citation><named-content content-type="citation-string">
+Burn D, Hoey AS, Matthews S, Harrison HB, Pratchett MS. 2023. 
+Differential bleaching susceptibility among coral taxa and colony sizes, relative to bleaching severity across Australia’s Great Barrier Reef and coral sea marine parks. Mar. Pollut. Bull.
+191, 114907. ( 10.1016/j.marpolbul.2023.114907)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.marpolbul.2023.114907"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37080018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Pollut. Bull.&amp;title=Differential bleaching susceptibility among coral taxa and colony sizes, relative to bleaching severity across Australia’s Great Barrier Reef and coral sea marine parks&amp;volume=191&amp;publication_year=2023&amp;pages=114907&amp;pmid=37080018&amp;doi=10.1016/j.marpolbul.2023.114907&amp;"/></mixed-citation></ref><ref id="B52"><label>52.</label><mixed-citation><named-content content-type="citation-string">
+McClanahan TR. 2004. 
+The relationship between bleaching and mortality of common corals. Mar. Biol.
+144, 1239–1245. ( 10.1007/s00227-003-1271-9)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00227-003-1271-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Biol.&amp;title=The relationship between bleaching and mortality of common corals&amp;volume=144&amp;publication_year=2004&amp;pages=1239-1245&amp;doi=10.1007/s00227-003-1271-9&amp;"/></mixed-citation></ref><ref id="B53"><label>53.</label><mixed-citation><named-content content-type="citation-string">
+Mellin C, Brown S, Cantin N, Klein-Salas E, Mouillot D, Heron SF, Fordham DA. 2024. 
+Cumulative risk of future bleaching for the world’s coral reefs. Sci. Adv.
+10, eadn9660. ( 10.1126/sciadv.adn9660)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/sciadv.adn9660"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11204209"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38924396"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Adv.&amp;title=Cumulative risk of future bleaching for the world’s coral reefs&amp;volume=10&amp;publication_year=2024&amp;pages=eadn9660&amp;pmid=38924396&amp;doi=10.1126/sciadv.adn9660&amp;"/></mixed-citation></ref><ref id="B54"><label>54.</label><mixed-citation><named-content content-type="citation-string">
+DeVantier LM, De’ath G, Turak E, Done TJ, Fabricius KE. 2006. 
+Species richness and community structure of reef-building corals on the nearshore Great Barrier Reef. Coral Reefs
+25, 329–340. ( 10.1007/s00338-006-0115-8)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00338-006-0115-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Species richness and community structure of reef-building corals on the nearshore Great Barrier Reef&amp;volume=25&amp;publication_year=2006&amp;pages=329-340&amp;doi=10.1007/s00338-006-0115-8&amp;"/></mixed-citation></ref><ref id="B55"><label>55.</label><mixed-citation><named-content content-type="citation-string">
+Done TJ. 1982. 
+Patterns in the distribution of coral communities across the central Great Barrier Reef. Coral Reefs
+1, 95–107. ( 10.1007/BF00301691)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/BF00301691"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Patterns in the distribution of coral communities across the central Great Barrier Reef&amp;volume=1&amp;publication_year=1982&amp;pages=95-107&amp;doi=10.1007/BF00301691&amp;"/></mixed-citation></ref><ref id="B56"><label>56.</label><mixed-citation><named-content content-type="citation-string">
+MacNeil MA, Mellin C, Matthews S, Wolff NH, McClanahan TR, Devlin M, Drovandi C, Mengersen K, Graham NAJ. 2019. 
+Water quality mediates resilience on the great barrier reef. Nat. Ecol. Evol.
+3, 620–627. ( 10.1038/s41559-019-0832-3)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41559-019-0832-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30858590"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Ecol. Evol.&amp;title=Water quality mediates resilience on the great barrier reef&amp;volume=3&amp;publication_year=2019&amp;pages=620-627&amp;pmid=30858590&amp;doi=10.1038/s41559-019-0832-3&amp;"/></mixed-citation></ref><ref id="B57"><label>57.</label><mixed-citation><named-content content-type="citation-string">
+Steinberg C, Benthuysen JA, Klein-Salas E, Cantin NE, Tonin H, Spagnol Set al. 2021. 
+Oceanographic drivers of bleaching in the GBR: from observations to prediction, volume 1: summary of oceanographic conditions during the 2015–17 bleaching years. report to the national environmental science program. Cairns, Australia: Reef and Rainforest Research Centre Limited.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Oceanographic drivers of bleaching in the GBR: from observations to prediction, volume 1: summary of oceanographic conditions during the 2015–17 bleaching years. report to the national environmental science program&amp;publication_year=2021&amp;"/></mixed-citation></ref><ref id="B58"><label>58.</label><mixed-citation><named-content content-type="citation-string">
+Takahashi S, Nakamura T, Sakamizu M, Woesik R van, Yamasaki H. 2004. 
+Repair machinery of symbiotic photosynthesis as the primary target of heat stress for reef-building corals. Plant Cell Physiol.
+45, 251–255. ( 10.1093/pcp/pch028)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/pcp/pch028"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14988497"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Plant Cell Physiol.&amp;title=Repair machinery of symbiotic photosynthesis as the primary target of heat stress for reef-building corals&amp;volume=45&amp;publication_year=2004&amp;pages=251-255&amp;pmid=14988497&amp;doi=10.1093/pcp/pch028&amp;"/></mixed-citation></ref><ref id="B59"><label>59.</label><mixed-citation><named-content content-type="citation-string">
+Warner ME, Fitt WK, Schmidt GW. 1999. 
+Damage to photosystem II in symbiotic dinoflagellates: a determinant of coral bleaching. Proc. Natl Acad. Sci. USA
+96, 8007–8012. ( 10.1073/pnas.96.14.8007)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.96.14.8007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC22178"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="10393938"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proc. Natl Acad. Sci. USA&amp;title=Damage to photosystem II in symbiotic dinoflagellates: a determinant of coral bleaching&amp;volume=96&amp;publication_year=1999&amp;pages=8007-8012&amp;pmid=10393938&amp;doi=10.1073/pnas.96.14.8007&amp;"/></mixed-citation></ref><ref id="B60"><label>60.</label><mixed-citation><named-content content-type="citation-string">
+Frade PR, Bongaerts P, Englebert N, Rogers A, Gonzalez-Rivero M, Hoegh-Guldberg O. 2018. 
+Deep reefs of the great barrier reef offer limited thermal refuge during mass coral bleaching. Nat. Commun.
+9, 3447. ( 10.1038/s41467-018-05741-0)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-018-05741-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6123414"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30181537"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=Deep reefs of the great barrier reef offer limited thermal refuge during mass coral bleaching&amp;volume=9&amp;publication_year=2018&amp;pages=3447&amp;pmid=30181537&amp;doi=10.1038/s41467-018-05741-0&amp;"/></mixed-citation></ref><ref id="B61"><label>61.</label><mixed-citation><named-content content-type="citation-string">
+Woodson CB, et al. 2019. 
+Harnessing marine microclimates for climate change adaptation and marine conservation. Conserv. Lett.
+12, e12609. ( 10.1111/conl.12609)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/conl.12609"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Conserv. Lett.&amp;title=Harnessing marine microclimates for climate change adaptation and marine conservation&amp;volume=12&amp;publication_year=2019&amp;pages=e12609&amp;doi=10.1111/conl.12609&amp;"/></mixed-citation></ref><ref id="B62"><label>62.</label><mixed-citation><named-content content-type="citation-string">
+McWhorter JK, Halloran PR, Roff G, Skirving WJ, Perry CT, Mumby PJ. 2022. 
+The importance of 1.5°C warming for the great barrier reef. Glob. Chang. Biol.
+28, 1332–1341. ( 10.1111/gcb.15994)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.15994"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34783126"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=The importance of 1.5°C warming for the great barrier reef&amp;volume=28&amp;publication_year=2022&amp;pages=1332-1341&amp;pmid=34783126&amp;doi=10.1111/gcb.15994&amp;"/></mixed-citation></ref><ref id="B63"><label>63.</label><mixed-citation><named-content content-type="citation-string">
+Ainsworth TD, Heron SF, Ortiz JC, Mumby PJ, Grech A, Ogawa D, Eakin CM, Leggat W. 2016. 
+Climate change disables coral bleaching protection on the great barrier reef. Science
+352, 338–342. ( 10.1126/science.aac7125)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aac7125"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27081069"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Climate change disables coral bleaching protection on the great barrier reef&amp;volume=352&amp;publication_year=2016&amp;pages=338-342&amp;pmid=27081069&amp;doi=10.1126/science.aac7125&amp;"/></mixed-citation></ref><ref id="B64"><label>64.</label><mixed-citation><named-content content-type="citation-string">
+Harrison HB, Álvarez-Noriega M, Baird AH, Heron SF, MacDonald C, Hughes TP. 2019. 
+Back-to-back coral bleaching events on isolated atolls in the coral sea. Coral Reefs
+38, 713–719. ( 10.1007/s00338-018-01749-6)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00338-018-01749-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Back-to-back coral bleaching events on isolated atolls in the coral sea&amp;volume=38&amp;publication_year=2019&amp;pages=713-719&amp;doi=10.1007/s00338-018-01749-6&amp;"/></mixed-citation></ref><ref id="B65"><label>65.</label><mixed-citation><named-content content-type="citation-string">
+McClanahan TR, Baird AH, Marshall PA, Toscano MA. 2004. 
+Comparing bleaching and mortality responses of hard corals between southern Kenya and the Great Barrier Reef, Australia. Mar. Pollut. Bull.
+48, 327–335. ( 10.1016/j.marpolbul.2003.08.024)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.marpolbul.2003.08.024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14972585"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Pollut. Bull.&amp;title=Comparing bleaching and mortality responses of hard corals between southern Kenya and the Great Barrier Reef, Australia&amp;volume=48&amp;publication_year=2004&amp;pages=327-335&amp;pmid=14972585&amp;doi=10.1016/j.marpolbul.2003.08.024&amp;"/></mixed-citation></ref><ref id="B66"><label>66.</label><mixed-citation><named-content content-type="citation-string">
+Stuart-Smith RD, Mellin C, Bates AE, Edgar GJ. 2021. 
+Habitat loss and range shifts contribute to ecological generalization among reef fishes. Nat. Ecol. Evol.
+5, 656–662. ( 10.1038/s41559-020-01342-7)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41559-020-01342-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33686182"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Ecol. Evol.&amp;title=Habitat loss and range shifts contribute to ecological generalization among reef fishes&amp;volume=5&amp;publication_year=2021&amp;pages=656-662&amp;pmid=33686182&amp;doi=10.1038/s41559-020-01342-7&amp;"/></mixed-citation></ref><ref id="B67"><label>67.</label><mixed-citation><named-content content-type="citation-string">
+Emslie M, Cheal A, Sweatman H, Delean S. 2008. 
+Recovery from disturbance of coral and reef fish communities on the Great Barrier Reef, Australia. Mar. Ecol. Prog. Ser.
+371, 177–190. ( 10.3354/meps07657)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps07657"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Ecol. Prog. Ser.&amp;title=Recovery from disturbance of coral and reef fish communities on the Great Barrier Reef, Australia&amp;volume=371&amp;publication_year=2008&amp;pages=177-190&amp;doi=10.3354/meps07657&amp;"/></mixed-citation></ref><ref id="B68"><label>68.</label><mixed-citation><named-content content-type="citation-string">
+Ovaskainen O, Tikhonov G, Norberg A, Guillaume Blanchet F, Duan L, Dunson D, Roslin T, Abrego N. 2017. 
+How to make more out of community data? A conceptual framework and its implementation as models and software. Ecol. Lett.
+20, 561–576. ( 10.1111/ele.12757)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/ele.12757"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28317296"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecol. Lett.&amp;title=How to make more out of community data? A conceptual framework and its implementation as models and software&amp;volume=20&amp;publication_year=2017&amp;pages=561-576&amp;pmid=28317296&amp;doi=10.1111/ele.12757&amp;"/></mixed-citation></ref><ref id="B69"><label>69.</label><mixed-citation><named-content content-type="citation-string">
+Pratchett MS, et al. 2021. 
+Knowledge gaps in the biology, ecology, and management of the pacific crown-of-thorns sea star Acanthaster sp. on Australia’s Great Barrier Reef. Biol. Bull.
+241, 330–346. ( 10.1086/717026)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1086/717026"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35015620"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biol. Bull.&amp;title=Knowledge gaps in the biology, ecology, and management of the pacific crown-of-thorns sea star Acanthaster sp. on Australia’s Great Barrier Reef&amp;volume=241&amp;publication_year=2021&amp;pages=330-346&amp;pmid=35015620&amp;doi=10.1086/717026&amp;"/></mixed-citation></ref><ref id="B70"><label>70.</label><mixed-citation><named-content content-type="citation-string">
+Pratchett M, et al. 2017. 
+Thirty years of research on crown-of-thorns starfish (1986–2016): scientific advances and emerging opportunities. Diversity.
+9, 41. ( 10.3390/d9040041)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/d9040041"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Diversity.&amp;title=Thirty years of research on crown-of-thorns starfish (1986–2016): scientific advances and emerging opportunities&amp;volume=9&amp;publication_year=2017&amp;pages=41&amp;doi=10.3390/d9040041&amp;"/></mixed-citation></ref><ref id="B71"><label>71.</label><mixed-citation><named-content content-type="citation-string">
+Brodnicke OB, Bourne DG, Heron SF, Pears RJ, Stella JS, Smith HA, Willis BL. 2019. 
+Unravelling the links between heat stress, bleaching and disease: fate of tabular corals following a combined disease and bleaching event. Coral Reefs
+38, 591–603. ( 10.1007/s00338-019-01813-9)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00338-019-01813-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Unravelling the links between heat stress, bleaching and disease: fate of tabular corals following a combined disease and bleaching event&amp;volume=38&amp;publication_year=2019&amp;pages=591-603&amp;doi=10.1007/s00338-019-01813-9&amp;"/></mixed-citation></ref><ref id="B72"><label>72.</label><mixed-citation><named-content content-type="citation-string">
+Done T, Turak E, Wakeford M, DeVantier L, McDonald A, Fisk D. 2007. 
+Decadal changes in turbid-water coral communities at pandora reef: loss of resilience or too soon to tell?
+Coral Reefs
+26, 789–805. ( 10.1007/s00338-007-0265-3)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00338-007-0265-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Decadal changes in turbid-water coral communities at pandora reef: loss of resilience or too soon to tell?&amp;volume=26&amp;publication_year=2007&amp;pages=789-805&amp;doi=10.1007/s00338-007-0265-3&amp;"/></mixed-citation></ref><ref id="B73"><label>73.</label><mixed-citation><named-content content-type="citation-string">
+van Oppen MJH, et al. 2017. 
+Shifting paradigms in restoration of the world’s coral reefs. Glob. Chang. Biol.
+23, 3437–3448. ( 10.1111/gcb.13647)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.13647"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28247459"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=Shifting paradigms in restoration of the world’s coral reefs&amp;volume=23&amp;publication_year=2017&amp;pages=3437-3448&amp;pmid=28247459&amp;doi=10.1111/gcb.13647&amp;"/></mixed-citation></ref><ref id="B74"><label>74.</label><mixed-citation><named-content content-type="citation-string">
+Darling ES, Côté IM. 2018. 
+Seeking resilience in marine ecosystems. Science
+359, 986–987. ( 10.1126/science.aas9852)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aas9852"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29496864"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Seeking resilience in marine ecosystems&amp;volume=359&amp;publication_year=2018&amp;pages=986-987&amp;pmid=29496864&amp;doi=10.1126/science.aas9852&amp;"/></mixed-citation></ref><ref id="B75"><label>75.</label><mixed-citation><named-content content-type="citation-string">
+Ainsworth TD, Hurd CL, Gates RD, Boyd PW. 2020. 
+How do we overcome abrupt degradation of marine ecosystems and meet the challenge of heat waves and climate extremes?
+Glob. Chang. Biol.
+26, 343–354. ( 10.1111/gcb.14901)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.14901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31873988"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Chang. Biol.&amp;title=How do we overcome abrupt degradation of marine ecosystems and meet the challenge of heat waves and climate extremes?&amp;volume=26&amp;publication_year=2020&amp;pages=343-354&amp;pmid=31873988&amp;doi=10.1111/gcb.14901&amp;"/></mixed-citation></ref><ref id="B76"><label>76.</label><mixed-citation><named-content content-type="citation-string">
+Drury C. 2020. 
+Resilience in reef-building corals: the ecological and evolutionary importance of the host response to thermal stress. Mol. Ecol.
+29, 448–465. ( 10.1111/mec.15337)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/mec.15337"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31845413"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mol. Ecol.&amp;title=Resilience in reef-building corals: the ecological and evolutionary importance of the host response to thermal stress&amp;volume=29&amp;publication_year=2020&amp;pages=448-465&amp;pmid=31845413&amp;doi=10.1111/mec.15337&amp;"/></mixed-citation></ref><ref id="B77"><label>77.</label><mixed-citation><named-content content-type="citation-string">
+Fuller ZL, et al. 2020. 
+Population genetics of the coral Acropora millepora: Toward genomic prediction of bleaching. Science
+369, eaba4674. ( 10.1126/science.aba4674)
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aba4674"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32675347"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Population genetics of the coral Acropora millepora: Toward genomic prediction of bleaching&amp;volume=369&amp;publication_year=2020&amp;pages=eaba4674&amp;pmid=32675347&amp;doi=10.1126/science.aba4674&amp;"/></mixed-citation></ref><ref id="B78"><label>78.</label><mixed-citation><named-content content-type="citation-string">
+Camillemellin . 2024. 
+NESP-coral-analysis-revised. GitHub.
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/camillemellin/NESP-coral-analysis-revised" ext-link-type="uri">https://github.com/camillemellin/NESP-coral-analysis-revised</ext-link></named-content></mixed-citation></ref><ref id="B79"><label>79.</label><mixed-citation><named-content content-type="citation-string">
+Li W. 2018. 
+Data from: Coral responses to a catastrophic marine heatwave are decoupled from changes in total coral cover at a continental scale. Figshare. ( 10.6084/m9.figshare.c.7449507)</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.6084/m9.figshare.c.7449507"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11461067"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39378994"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>The data that support the findings of this study can be accessed through Figshare at [<xref rid="B36" ref-type="bibr">36</xref>].</p><p>The code used for the analysis is available at [<xref rid="B78" ref-type="bibr">78</xref>].</p><p>Supplementary material is available online [<xref rid="B79" ref-type="bibr">79</xref>].</p></sec></sec></body></article>

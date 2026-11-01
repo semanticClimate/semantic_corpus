@@ -1,0 +1,608 @@
+phrase,display,n_papers,best_score,paper_ids
+north atlantic,North Atlantic,19,5.0,europe_pmc_PMC10403598;europe_pmc_PMC10590663;europe_pmc_PMC10762259;europe_pmc_PMC10899366;europe_pmc_PMC10964958;europe_pmc_PMC11578178;europe_pmc_PMC11697416;europe_pmc_PMC11971521;europe_pmc_PMC12064707;europe_pmc_PMC12379145;europe_pmc_PMC12612197;europe_pmc_PMC13440228;europe_pmc_PMC7519346;europe_pmc_PMC8087833;europe_pmc_PMC8549982;europe_pmc_PMC8906512;europe_pmc_PMC9482659;europe_pmc_PMC9532392;europe_pmc_PMC9729181
+indian ocean,Indian Ocean,10,4.4,europe_pmc_PMC10403598;europe_pmc_PMC10899366;europe_pmc_PMC10964958;europe_pmc_PMC11578178;europe_pmc_PMC12412649;europe_pmc_PMC13148317;europe_pmc_PMC6822785;europe_pmc_PMC8906512;europe_pmc_PMC9529976;europe_pmc_PMC9729181
+amoc,AMOC,9,3.8,europe_pmc_PMC10590663;europe_pmc_PMC10762259;europe_pmc_PMC11197784;europe_pmc_PMC11347556;europe_pmc_PMC11578178;europe_pmc_PMC11697416;europe_pmc_PMC13440228;europe_pmc_PMC8906512;europe_pmc_PMC9532392
+northern hemisphere,Northern Hemisphere,7,2.5,europe_pmc_PMC10403598;europe_pmc_PMC11697416;europe_pmc_PMC11971521;europe_pmc_PMC12787522;europe_pmc_PMC13148317;europe_pmc_PMC13594180;europe_pmc_PMC9532392
+tibetan plateau,Tibetan Plateau,6,4.5,europe_pmc_PMC11697416;europe_pmc_PMC12379145;europe_pmc_PMC12412649;europe_pmc_PMC13187425;europe_pmc_PMC13594180;europe_pmc_PMC8906512
+north america,North America,5,4.6,europe_pmc_PMC10762259;europe_pmc_PMC12412649;europe_pmc_PMC12787522;europe_pmc_PMC12868344;europe_pmc_PMC9532392
+east asian,East Asian,5,2.4,europe_pmc_PMC11197784;europe_pmc_PMC12379145;europe_pmc_PMC12412649;europe_pmc_PMC13594180;europe_pmc_PMC8087833
+south asia,South Asia,4,3.0,europe_pmc_PMC10964958;europe_pmc_PMC12181172;europe_pmc_PMC12572319;europe_pmc_PMC8906512
+sst,SST,4,2.7,europe_pmc_PMC10838265;europe_pmc_PMC10899366;europe_pmc_PMC13148317;europe_pmc_PMC13594180
+south america,South America,4,2.5,europe_pmc_PMC12181172;europe_pmc_PMC12412649;europe_pmc_PMC12474537;europe_pmc_PMC12787522
+north pacific,North Pacific,4,1.9,europe_pmc_PMC12412649;europe_pmc_PMC6822785;europe_pmc_PMC8906512;europe_pmc_PMC9532392
+atlantic meridional overturning circulation,Atlantic Meridional Overturning Circulation,4,1.5,europe_pmc_PMC10762259;europe_pmc_PMC11197784;europe_pmc_PMC12612197;europe_pmc_PMC9482659
+dna,DNA,4,1.42,europe_pmc_PMC11294940;europe_pmc_PMC12713726;europe_pmc_PMC13390420;europe_pmc_PMC13590715
+tp,TP,3,4.34,europe_pmc_PMC11697416;europe_pmc_PMC13052267;europe_pmc_PMC8906512
+arabian sea,Arabian Sea,3,4.0,europe_pmc_PMC10964958;europe_pmc_PMC9529976;europe_pmc_PMC9729181
+southern ocean,Southern Ocean,3,3.4,europe_pmc_PMC10838265;europe_pmc_PMC13440228;europe_pmc_PMC9729181
+east asia,East Asia,3,2.6,europe_pmc_PMC10762259;europe_pmc_PMC10964958;europe_pmc_PMC12181172
+easm,EASM,3,2.2,europe_pmc_PMC12379145;europe_pmc_PMC12412649;europe_pmc_PMC13148317
+arctic,Arctic,3,1.87,europe_pmc_PMC11347556;europe_pmc_PMC12572319;europe_pmc_PMC12868344
+atlantic,Atlantic,3,1.81,europe_pmc_PMC11347556;europe_pmc_PMC11578178;europe_pmc_PMC9532392
+southern hemisphere,Southern Hemisphere,3,1.8,europe_pmc_PMC12787522;europe_pmc_PMC9532392;europe_pmc_PMC9532435
+china,China,3,1.43,europe_pmc_PMC10964958;europe_pmc_PMC11197784;europe_pmc_PMC13148317
+united states,United States,3,1.4,europe_pmc_PMC12474537;europe_pmc_PMC12787522;europe_pmc_PMC9893456
+kyoto encyclopedia of genes and genomes,Kyoto Encyclopedia of Genes and Genomes,3,1.2,europe_pmc_PMC13377881;europe_pmc_PMC13390420;europe_pmc_PMC6821142
+soil,Soil,3,0.0398,europe_pmc_PMC10159062;europe_pmc_PMC13052267;europe_pmc_PMC6821142
+labrador sea,Labrador Sea,2,3.3,europe_pmc_PMC10762259;europe_pmc_PMC11578178
+aob,AOB,2,3.24,europe_pmc_PMC12475048;europe_pmc_PMC12866615
+yd,YD,2,3.14,europe_pmc_PMC7519346;europe_pmc_PMC8087833
+mis,MIS,2,3.08,europe_pmc_PMC11697416;europe_pmc_PMC8549982
+west africa,West Africa,2,2.4,europe_pmc_PMC10899366;europe_pmc_PMC12181172
+am,AM,2,2.2,europe_pmc_PMC10964958;europe_pmc_PMC7519346
+nordic seas,Nordic Seas,2,2.1,europe_pmc_PMC11347556;europe_pmc_PMC11578178
+mht,MHT,2,2.0,europe_pmc_PMC10590663;europe_pmc_PMC11578178
+monte carlo,Monte Carlo,2,1.9,europe_pmc_PMC13440228;europe_pmc_PMC8403967
+south american,South American,2,1.9,europe_pmc_PMC7532523;europe_pmc_PMC9532435
+asm,ASM,2,1.8,europe_pmc_PMC8087833;europe_pmc_PMC8906512
+si,SI,2,1.76,europe_pmc_PMC7519346;europe_pmc_PMC8403967
+ism,ISM,2,1.72,europe_pmc_PMC12379145;europe_pmc_PMC12412649
+irminger sea,Irminger Sea,2,1.7,europe_pmc_PMC11578178;europe_pmc_PMC12612197
+north atlantic ocean,North Atlantic Ocean,2,1.7,europe_pmc_PMC11197784;europe_pmc_PMC13440228
+bp,BP,2,1.64,europe_pmc_PMC13187425;europe_pmc_PMC8087833
+paris agreement,Paris Agreement,2,1.6,europe_pmc_PMC11197784;europe_pmc_PMC12181172
+south asian,South Asian,2,1.6,europe_pmc_PMC13594180;europe_pmc_PMC8906512
+asian,Asian,2,1.58,europe_pmc_PMC12412649;europe_pmc_PMC13594180
+north,North,2,1.57,europe_pmc_PMC12412649;europe_pmc_PMC9532392
+antarctic,Antarctic,2,1.56,europe_pmc_PMC10838265;europe_pmc_PMC12868344
+ocean,Ocean,2,1.53,europe_pmc_PMC10964958;europe_pmc_PMC9729181
+north atlantic oscillation,North Atlantic Oscillation,2,1.5,europe_pmc_PMC10762259;europe_pmc_PMC13212582
+reykjanes ridge,Reykjanes Ridge,2,1.5,europe_pmc_PMC12064707;europe_pmc_PMC12612197
+earth,Earth,2,1.43,europe_pmc_PMC11197784;europe_pmc_PMC7532523
+pacific ocean,Pacific Ocean,2,1.4,europe_pmc_PMC10964958;europe_pmc_PMC11578178
+rna,RNA,2,1.38,europe_pmc_PMC12713726;europe_pmc_PMC6821142
+tn,TN,2,1.34,europe_pmc_PMC13052267;europe_pmc_PMC13590715
+indian ocean and pacific ocean,Indian Ocean and Pacific Ocean,2,1.3,europe_pmc_PMC10964958;europe_pmc_PMC8087833
+coupled model intercomparison project phase,Coupled Model Intercomparison Project Phase,2,1.2,europe_pmc_PMC13212582;europe_pmc_PMC8403967
+thermo fisher scientific,Thermo Fisher Scientific,2,1.2,europe_pmc_PMC13377881;europe_pmc_PMC6821142
+intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,2,1.1,europe_pmc_PMC7532523;europe_pmc_PMC8403967
+phylogenetic investigation of communities,Phylogenetic Investigation of Communities,2,1.1,europe_pmc_PMC10159062;europe_pmc_PMC13052267
+carbon,Carbon,2,0.0515,europe_pmc_PMC11197784;europe_pmc_PMC12866615
+methane,Methane,2,0.0505,europe_pmc_PMC11971521;europe_pmc_PMC12181172
+viral,Viral,2,0.0503,europe_pmc_PMC12713726;europe_pmc_PMC13390420
+species,Species,2,0.048,europe_pmc_PMC12612197;europe_pmc_PMC9482659
+viruses,Viruses,2,0.0455,europe_pmc_PMC12713726;europe_pmc_PMC13390420
+si appendix,SI Appendix,2,0.0438,europe_pmc_PMC7519346;europe_pmc_PMC8403967
+forest,Forest,2,0.0414,europe_pmc_PMC13052267;europe_pmc_PMC9532392
+northern china,northern China,2,0.0403,europe_pmc_PMC10964958;europe_pmc_PMC13148317
+microbial,Microbial,2,0.0398,europe_pmc_PMC12866615;europe_pmc_PMC13055281
+et,et,2,0.0373,europe_pmc_PMC12866615;europe_pmc_PMC8549982
+al,AL,2,0.037,europe_pmc_PMC12866615;europe_pmc_PMC8549982
+climate,Climate,2,0.0364,europe_pmc_PMC12181172;europe_pmc_PMC12474537
+cave,Cave,2,0.0362,europe_pmc_PMC12379145;europe_pmc_PMC9532435
+florida current,Florida Current,1,5.4,europe_pmc_PMC10590663
+wamr,WAMR,1,3.54,europe_pmc_PMC10899366
+santa maria,Santa Maria,1,3.4,europe_pmc_PMC13212582
+do,DO,1,3.2,europe_pmc_PMC12379145
+gulf stream,Gulf Stream,1,2.9,europe_pmc_PMC10590663
+gop,GOP,1,2.84,europe_pmc_PMC13440228
+elbe estuary,Elbe Estuary,1,2.7,europe_pmc_PMC13390420
+middle pleistocene,Middle Pleistocene,1,2.7,europe_pmc_PMC8549982
+fram strait,Fram Strait,1,2.6,europe_pmc_PMC11347556
+gulf of oman,Gulf of Oman,1,2.6,europe_pmc_PMC9529976
+fwi,FWI,1,2.56,europe_pmc_PMC12787522
+gangetic plain,Gangetic Plain,1,2.5,europe_pmc_PMC12572319
+mediterranean sea,Mediterranean Sea,1,2.5,europe_pmc_PMC10899366
+bgp,BGP,1,2.42,europe_pmc_PMC12979200
+bno,BNO,1,2.3,europe_pmc_PMC13055281
+southeast china,Southeast China,1,2.3,europe_pmc_PMC12379145
+young dryas,Young Dryas,1,2.3,europe_pmc_PMC11971521
+cherrapunji cave,Cherrapunji Cave,1,2.2,europe_pmc_PMC9532435
+scc,SCC,1,2.18,europe_pmc_PMC8403967
+nld,NLD,1,2.12,europe_pmc_PMC12474537
+persian gulf,Persian Gulf,1,2.1,europe_pmc_PMC9529976
+taiping rebellion,Taiping Rebellion,1,2.1,europe_pmc_PMC13148317
+east antarctica,East Antarctica,1,2.0,europe_pmc_PMC10838265
+head and gibbard,Head and Gibbard,1,2.0,europe_pmc_PMC8549982
+north american,North American,1,2.0,europe_pmc_PMC12412649
+working group,Working Group,1,2.0,europe_pmc_PMC8549982
+zhang and church,Zhang and Church,1,2.0,europe_pmc_PMC6822785
+lig,LIG,1,1.96,europe_pmc_PMC10838265
+atlantic and arctic,Atlantic and Arctic,1,1.9,europe_pmc_PMC11347556
+cave curd,Cave Curd,1,1.9,europe_pmc_PMC13055281
+greenland stadial,Greenland Stadial,1,1.9,europe_pmc_PMC9532435
+iranian plateau,Iranian Plateau,1,1.9,europe_pmc_PMC8906512
+ross sea,Ross Sea,1,1.9,europe_pmc_PMC10838265
+ipsl,IPSL,1,1.86,europe_pmc_PMC10899366
+ismr,ISMR,1,1.86,europe_pmc_PMC12572319
+sh,SH,1,1.84,europe_pmc_PMC8906512
+arctic amplification,Arctic Amplification,1,1.8,europe_pmc_PMC12572319
+central america,Central America,1,1.8,europe_pmc_PMC12787522
+marine isotope stage,Marine Isotope Stage,1,1.8,europe_pmc_PMC8549982
+marota cave,Marota Cave,1,1.8,europe_pmc_PMC9532435
+weddell sea,Weddell Sea,1,1.8,europe_pmc_PMC10838265
+west african,West African,1,1.8,europe_pmc_PMC10899366
+pacific,Pacific,1,1.74,europe_pmc_PMC6822785
+candidatus nitrososphaera,Candidatus Nitrososphaera,1,1.7,europe_pmc_PMC6821142
+kidd creek,Kidd Creek,1,1.7,europe_pmc_PMC13055281
+ncw,NCW,1,1.7,europe_pmc_PMC9729181
+south american monsoon,South American Monsoon,1,1.7,europe_pmc_PMC7519346
+world health organization,World Health Organization,1,1.7,europe_pmc_PMC12868344
+yltc,YLTC,1,1.68,europe_pmc_PMC13187425
+bgc,BGC,1,1.66,europe_pmc_PMC12979200
+icv,ICV,1,1.66,europe_pmc_PMC12474537
+pw,PW,1,1.64,europe_pmc_PMC10590663
+aabw,AABW,1,1.62,europe_pmc_PMC9729181
+aas,AAs,1,1.6,europe_pmc_PMC10762259
+aoa,AOA,1,1.6,europe_pmc_PMC12475048
+arctic ocean,Arctic Ocean,1,1.6,europe_pmc_PMC12572319
+bebber and richards,Bebber and Richards,1,1.6,europe_pmc_PMC10159062
+furong cave,Furong Cave,1,1.6,europe_pmc_PMC8087833
+greenland,Greenland,1,1.6,europe_pmc_PMC9532435
+hope and schaefer,Hope and Schaefer,1,1.6,europe_pmc_PMC8403967
+indian monsoon,Indian Monsoon,1,1.6,europe_pmc_PMC7519346
+jiaotong university,Jiaotong University,1,1.6,europe_pmc_PMC7519346
+lake tengchong,Lake Tengchong,1,1.6,europe_pmc_PMC13187425
+lisiecki and raymo,Lisiecki and Raymo,1,1.6,europe_pmc_PMC8549982
+middle east,Middle East,1,1.6,europe_pmc_PMC13212582
+northern westerlies,Northern Westerlies,1,1.6,europe_pmc_PMC12379145
+saharan africa,Saharan Africa,1,1.6,europe_pmc_PMC12787522
+san francisco,San Francisco,1,1.6,europe_pmc_PMC6822785
+sasm,SASM,1,1.6,europe_pmc_PMC9532435
+shackleton and opdyke,Shackleton and Opdyke,1,1.6,europe_pmc_PMC8549982
+south and east asia,South and East Asia,1,1.6,europe_pmc_PMC10762259
+south atlantic,South Atlantic,1,1.6,europe_pmc_PMC10590663
+south pacific,South Pacific,1,1.6,europe_pmc_PMC6822785
+southern hemispheric,Southern Hemispheric,1,1.6,europe_pmc_PMC9532392
+strub and james,Strub and James,1,1.6,europe_pmc_PMC6822785
+cherrapunji,Cherrapunji,1,1.59,europe_pmc_PMC9532435
+iran,Iran,1,1.57,europe_pmc_PMC13212582
+psh,PSH,1,1.56,europe_pmc_PMC9482659
+rcp,RCP,1,1.56,europe_pmc_PMC9482659
+slas,SLAs,1,1.56,europe_pmc_PMC6822785
+isow,ISOW,1,1.52,europe_pmc_PMC12064707
+atlantic ocean,Atlantic Ocean,1,1.5,europe_pmc_PMC9729181
+bastin and moustakis,Bastin and Moustakis,1,1.5,europe_pmc_PMC12979200
+chelton and davis,Chelton and Davis,1,1.5,europe_pmc_PMC6822785
+denmark strait,Denmark Strait,1,1.5,europe_pmc_PMC11347556
+east antarctic,East Antarctic,1,1.5,europe_pmc_PMC10838265
+east greenland current,East Greenland Current,1,1.5,europe_pmc_PMC11347556
+eirik drift,Eirik Drift,1,1.5,europe_pmc_PMC12064707
+fast fourier transform,Fast Fourier Transform,1,1.5,europe_pmc_PMC10899366
+greenland interstadial,Greenland Interstadial,1,1.5,europe_pmc_PMC9532435
+greenland interstadials,Greenland Interstadials,1,1.5,europe_pmc_PMC12379145
+krakatau and santa maria,Krakatau and Santa Maria,1,1.5,europe_pmc_PMC13212582
+lst,LST,1,1.5,europe_pmc_PMC13594180
+moustakis and hurtt,Moustakis and Hurtt,1,1.5,europe_pmc_PMC12979200
+northern hemispheric,Northern Hemispheric,1,1.5,europe_pmc_PMC9532392
+norwegian atlantic slope current,Norwegian Atlantic Slope Current,1,1.5,europe_pmc_PMC11347556
+random forest,Random Forest,1,1.5,europe_pmc_PMC13212582
+seso cave,Seso Cave,1,1.5,europe_pmc_PMC7519346
+south american heinrich period,South American Heinrich Period,1,1.5,europe_pmc_PMC9532435
+subpolar north atlantic ocean,Subpolar North Atlantic Ocean,1,1.5,europe_pmc_PMC11347556
+wilkes subglacial basin,Wilkes Subglacial Basin,1,1.5,europe_pmc_PMC10838265
+wmt,WMT,1,1.5,europe_pmc_PMC10762259
+yangtze river basin,Yangtze River Basin,1,1.5,europe_pmc_PMC13148317
+nao,NAO,1,1.48,europe_pmc_PMC13212582
+pleistocene,Pleistocene,1,1.48,europe_pmc_PMC8549982
+les,LEs,1,1.46,europe_pmc_PMC12474537
+gssp,GSSP,1,1.44,europe_pmc_PMC8549982
+neem,NEEM,1,1.44,europe_pmc_PMC13440228
+pdo,PDO,1,1.44,europe_pmc_PMC6822785
+zeroe,ZeroE,1,1.44,europe_pmc_PMC12787522
+core,Core,1,1.41,europe_pmc_PMC10403598
+oman,Oman,1,1.41,europe_pmc_PMC9529976
+appendix table,Appendix Table,1,1.4,europe_pmc_PMC8087833
+bastin,Bastin,1,1.4,europe_pmc_PMC12979200
+bay of bengal,Bay of Bengal,1,1.4,europe_pmc_PMC13594180
+enso,ENSO,1,1.4,europe_pmc_PMC13212582
+foraminiferal mg,Foraminiferal Mg,1,1.4,europe_pmc_PMC13594180
+indian summer monsoon rainfall,Indian Summer Monsoon Rainfall,1,1.4,europe_pmc_PMC12572319
+irminger basin,Irminger Basin,1,1.4,europe_pmc_PMC11578178
+laptev sea,Laptev Sea,1,1.4,europe_pmc_PMC12572319
+new insights,New Insights,1,1.4,europe_pmc_PMC12181172
+rige cave,Rige Cave,1,1.4,europe_pmc_PMC7519346
+siberian caves,Siberian Caves,1,1.4,europe_pmc_PMC11697416
+som,SOM,1,1.4,europe_pmc_PMC13377881
+source data,Source Data,1,1.4,europe_pmc_PMC11697416
+southwest china,Southwest China,1,1.4,europe_pmc_PMC13187425
+strong la,Strong La,1,1.4,europe_pmc_PMC10899366
+surface temperature,Surface Temperature,1,1.4,europe_pmc_PMC13594180
+xu and wang,Xu and Wang,1,1.4,europe_pmc_PMC12866615
+younger dryas,Younger Dryas,1,1.4,europe_pmc_PMC8087833
+nitrosospira,Nitrosospira,1,1.39,europe_pmc_PMC12475048
+gulf,Gulf,1,1.38,europe_pmc_PMC9529976
+mags,MAGs,1,1.36,europe_pmc_PMC13055281
+nege,NegE,1,1.36,europe_pmc_PMC12787522
+slr,SLR,1,1.36,europe_pmc_PMC8403967
+ap,AP,1,1.34,europe_pmc_PMC13052267
+sr,SR,1,1.34,europe_pmc_PMC9482659
+lake,Lake,1,1.33,europe_pmc_PMC13187425
+ec,EC,1,1.32,europe_pmc_PMC6821142
+may,May,1,1.32,europe_pmc_PMC13377881
+allison and martiny,Allison and Martiny,1,1.3,europe_pmc_PMC12866615
+arabian peninsula,Arabian Peninsula,1,1.3,europe_pmc_PMC9529976
+basidiomycota and mortierellomycota,Basidiomycota and Mortierellomycota,1,1.3,europe_pmc_PMC13052267
+ca and ba,Ca and Ba,1,1.3,europe_pmc_PMC9529976
+candidatus entotheonella,Candidatus Entotheonella,1,1.3,europe_pmc_PMC6821142
+chipasa and medrzycka,Chipasa and Medrzycka,1,1.3,europe_pmc_PMC11294940
+convective available potential energy,Convective Available Potential Energy,1,1.3,europe_pmc_PMC12572319
+daoguan cave,Daoguan Cave,1,1.3,europe_pmc_PMC13148317
+deep western boundary current,Deep Western Boundary Current,1,1.3,europe_pmc_PMC10590663
+denmark strait overflow water,Denmark Strait Overflow Water,1,1.3,europe_pmc_PMC12064707
+earth system model,Earth System Model,1,1.3,europe_pmc_PMC12979200
+east indian,East Indian,1,1.3,europe_pmc_PMC10403598
+equatorial arabian sea,Equatorial Arabian Sea,1,1.3,europe_pmc_PMC10403598
+ess,ESS,1,1.3,europe_pmc_PMC7532523
+hamburg harbor,Hamburg Harbor,1,1.3,europe_pmc_PMC13390420
+hubei province,Hubei Province,1,1.3,europe_pmc_PMC13052267
+indian ocean summer monsoon,Indian Ocean Summer Monsoon,1,1.3,europe_pmc_PMC10403598
+north sea,North Sea,1,1.3,europe_pmc_PMC13390420
+ocean drilling program,Ocean Drilling Program,1,1.3,europe_pmc_PMC12064707
+older dryas,Older Dryas,1,1.3,europe_pmc_PMC8087833
+red sea,Red Sea,1,1.3,europe_pmc_PMC9529976
+scotland overflow water,Scotland Overflow Water,1,1.3,europe_pmc_PMC12064707
+scotland ridge,Scotland Ridge,1,1.3,europe_pmc_PMC12064707
+siberian and canadian,Siberian and Canadian,1,1.3,europe_pmc_PMC11697416
+south africa,South Africa,1,1.3,europe_pmc_PMC13440228
+south china sea,South China Sea,1,1.3,europe_pmc_PMC10403598
+south indian ocean,South Indian Ocean,1,1.3,europe_pmc_PMC7519346
+southern oscillation,Southern Oscillation,1,1.3,europe_pmc_PMC12474537
+ssp,SSP,1,1.3,europe_pmc_PMC12612197
+stein and klotz,Stein and Klotz,1,1.3,europe_pmc_PMC12866615
+straits of florida,Straits of Florida,1,1.3,europe_pmc_PMC10590663
+tianmen cave,Tianmen Cave,1,1.3,europe_pmc_PMC11697416
+western north pacific,Western North Pacific,1,1.3,europe_pmc_PMC12379145
+tridacna,Tridacna,1,1.29,europe_pmc_PMC9529976
+iaa,IAA,1,1.28,europe_pmc_PMC10403598
+sss,SSS,1,1.28,europe_pmc_PMC10403598
+ipcc,IPCC,1,1.26,europe_pmc_PMC12181172
+peg,PEG,1,1.26,europe_pmc_PMC9893456
+sep,Sep,1,1.25,europe_pmc_PMC13377881
+sic,SIC,1,1.24,europe_pmc_PMC12572319
+amgs,AMGs,1,1.22,europe_pmc_PMC12713726
+mag,MAG,1,1.22,europe_pmc_PMC13055281
+nadw,NADW,1,1.22,europe_pmc_PMC12064707
+odp,ODP,1,1.22,europe_pmc_PMC12064707
+elbe,Elbe,1,1.21,europe_pmc_PMC13390420
+estuary,Estuary,1,1.21,europe_pmc_PMC13390420
+amazon basin,Amazon Basin,1,1.2,europe_pmc_PMC12474537
+arctic and antarctic,Arctic and Antarctic,1,1.2,europe_pmc_PMC12868344
+arctic basecamp foundation,Arctic Basecamp Foundation,1,1.2,europe_pmc_PMC12868344
+arctic council,Arctic Council,1,1.2,europe_pmc_PMC12868344
+arctic indigenous,Arctic Indigenous,1,1.2,europe_pmc_PMC12868344
+area under the curve,Area Under the Curve,1,1.2,europe_pmc_PMC12612197
+arg and asp,Arg and Asp,1,1.2,europe_pmc_PMC9893456
+atacama desert,Atacama Desert,1,1.2,europe_pmc_PMC12713726
+baksan neutrino observatory,Baksan Neutrino Observatory,1,1.2,europe_pmc_PMC13055281
+bay of guinea,Bay of Guinea,1,1.2,europe_pmc_PMC13440228
+brazil and australia,Brazil and Australia,1,1.2,europe_pmc_PMC9482659
+candidatus nitrospira,Candidatus Nitrospira,1,1.2,europe_pmc_PMC6821142
+caribbean sea and gulf of mexico,Caribbean Sea and Gulf of Mexico,1,1.2,europe_pmc_PMC10590663
+central american seaway,Central American Seaway,1,1.2,europe_pmc_PMC9729181
+central north america,Central North America,1,1.2,europe_pmc_PMC12979200
+colombia and china,Colombia and China,1,1.2,europe_pmc_PMC9482659
+community land model,Community Land Model,1,1.2,europe_pmc_PMC12979200
+davidson and janssens,Davidson and Janssens,1,1.2,europe_pmc_PMC12866615
+earth system science,Earth System Science,1,1.2,europe_pmc_PMC7532523
+enebe and babalola,Enebe and Babalola,1,1.2,europe_pmc_PMC10159062
+europe and north america,Europe and North America,1,1.2,europe_pmc_PMC11971521
+european centre for medium,European Centre for Medium,1,1.2,europe_pmc_PMC13187425
+experimental farm,Experimental Farm,1,1.2,europe_pmc_PMC10159062
+ff,FF,1,1.2,europe_pmc_PMC9893456
+fierer and jackson,Fierer and Jackson,1,1.2,europe_pmc_PMC12866615
+future earth,Future Earth,1,1.2,europe_pmc_PMC7532523
+gene ontology,Gene Ontology,1,1.2,europe_pmc_PMC6821142
+global biodiversity information facility,Global Biodiversity Information Facility,1,1.2,europe_pmc_PMC9482659
+global observatory for accurate livestock sciences,Global Observatory for Accurate Livestock Sciences,1,1.2,europe_pmc_PMC11971521
+great salt lake,Great Salt Lake,1,1.2,europe_pmc_PMC12713726
+honestly significant difference,Honestly Significant Difference,1,1.2,europe_pmc_PMC12475048
+hunan province,Hunan Province,1,1.2,europe_pmc_PMC13052267
+id,ID,1,1.2,europe_pmc_PMC6821142
+integrated assessment model,Integrated Assessment Model,1,1.2,europe_pmc_PMC12979200
+integration and application network,Integration and Application Network,1,1.2,europe_pmc_PMC13187425
+kanaya tea research station,Kanaya Tea Research Station,1,1.2,europe_pmc_PMC12475048
+kidd creek and outokumpu,Kidd Creek and Outokumpu,1,1.2,europe_pmc_PMC13055281
+larsson and flach,Larsson and Flach,1,1.2,europe_pmc_PMC12866615
+list of differentially expressed,List of Differentially Expressed,1,1.2,europe_pmc_PMC6821142
+megaviricetes and maverivicetes,Megaviricetes and Maverivicetes,1,1.2,europe_pmc_PMC13390420
+moving window regression,Moving Window Regression,1,1.2,europe_pmc_PMC12979200
+national snow and ice data centre,National Snow and Ice Data Centre,1,1.2,europe_pmc_PMC12868344
+nitrospirota and planctomycetota,Nitrospirota and Planctomycetota,1,1.2,europe_pmc_PMC13055281
+north greenland ice core project,North Greenland Ice Core Project,1,1.2,europe_pmc_PMC13440228
+north indian deep water,North Indian Deep Water,1,1.2,europe_pmc_PMC9729181
+outokumpu and kidd creek,Outokumpu and Kidd Creek,1,1.2,europe_pmc_PMC13055281
+pacific and atlantic,Pacific and Atlantic,1,1.2,europe_pmc_PMC13148317
+peer ederer,Peer Ederer,1,1.2,europe_pmc_PMC11971521
+royal observatory of belgium,Royal Observatory of Belgium,1,1.2,europe_pmc_PMC13148317
+schleper and nicol,Schleper and Nicol,1,1.2,europe_pmc_PMC12866615
+see methodology and supplementary information,See Methodology and Supplementary Information,1,1.2,europe_pmc_PMC12474537
+sichuan province,Sichuan Province,1,1.2,europe_pmc_PMC13590715
+southwest atlantic,Southwest Atlantic,1,1.2,europe_pmc_PMC7532523
+southwest china and india,Southwest China and India,1,1.2,europe_pmc_PMC13187425
+supplementary information peer review file description of additional supplementary files supplementary dataset,Supplementary Information Peer Review File Description of Additional Supplementary Files Supplementary Dataset,1,1.2,europe_pmc_PMC10838265
+taras iliushyk,Taras Iliushyk,1,1.2,europe_pmc_PMC11971521
+tropical north atlantic,Tropical North Atlantic,1,1.2,europe_pmc_PMC13212582
+university of maryland center for environmental,University of Maryland Center for Environmental,1,1.2,europe_pmc_PMC13187425
+web of science core collection,Web of Science Core Collection,1,1.2,europe_pmc_PMC12181172
+thauera,Thauera,1,1.19,europe_pmc_PMC11294940
+fmoc,Fmoc,1,1.18,europe_pmc_PMC9893456
+health,Health,1,1.18,europe_pmc_PMC12868344
+kegg,KEGG,1,1.18,europe_pmc_PMC11294940
+cca,CCA,1,1.16,europe_pmc_PMC10159062
+cn,CN,1,1.16,europe_pmc_PMC7532523
+mrh,MRH,1,1.16,europe_pmc_PMC12181172
+nmds,NMDS,1,1.16,europe_pmc_PMC10159062
+asvs,ASVs,1,1.15,europe_pmc_PMC10159062
+dryas,Dryas,1,1.14,europe_pmc_PMC11971521
+ghg,GHG,1,1.14,europe_pmc_PMC12181172
+nls,NLS,1,1.14,europe_pmc_PMC11971521
+sdms,SDMs,1,1.14,europe_pmc_PMC12612197
+young,Young,1,1.14,europe_pmc_PMC11971521
+gif,GIF,1,1.12,europe_pmc_PMC12612197
+wang,Wang,1,1.11,europe_pmc_PMC12866615
+american chemical society,American Chemical Society,1,1.1,europe_pmc_PMC9893456
+anova,ANOVA,1,1.1,europe_pmc_PMC13590715
+atrix laboratories,Atrix Laboratories,1,1.1,europe_pmc_PMC9893456
+basic local alignment search tool,Basic Local Alignment Search Tool,1,1.1,europe_pmc_PMC12475048
+big fantastic virus database,Big Fantastic Virus Database,1,1.1,europe_pmc_PMC12713726
+candidatus methanoperedens,Candidatus Methanoperedens,1,1.1,europe_pmc_PMC11294940
+carbon dioxide removal model comparison program,Carbon Dioxide Removal Model Comparison Program,1,1.1,europe_pmc_PMC11197784
+changlinggang forest farm in jianshi county,Changlinggang Forest Farm in Jianshi County,1,1.1,europe_pmc_PMC13052267
+database of virus orthologous groups,Database of Virus Orthologous Groups,1,1.1,europe_pmc_PMC13390420
+department of agriculture crop production and rural environment,Department of Agriculture Crop Production and Rural Environment,1,1.1,europe_pmc_PMC10159062
+entotheonellaeota gemmatimonadetes and verrucomicrobia,Entotheonellaeota Gemmatimonadetes and Verrucomicrobia,1,1.1,europe_pmc_PMC10159062
+faculty of chemistry of moscow state university,Faculty of Chemistry of Moscow State University,1,1.1,europe_pmc_PMC13055281
+finite amplitude impulse response,Finite Amplitude Impulse Response,1,1.1,europe_pmc_PMC8403967
+fluorescence in situ hybridization,Fluorescence In Situ Hybridization,1,1.1,europe_pmc_PMC12475048
+generalized additive model,Generalized Additive Model,1,1.1,europe_pmc_PMC13377881
+institute of fruit tree and tea science,Institute of Fruit Tree and Tea Science,1,1.1,europe_pmc_PMC12475048
+institute of parasitology and biomedicine,Institute of Parasitology and Biomedicine,1,1.1,europe_pmc_PMC10159062
+integrated microbial genomes and microbiomes,Integrated Microbial Genomes and Microbiomes,1,1.1,europe_pmc_PMC12713726
+intended nationally determined contributions,Intended Nationally Determined Contributions,1,1.1,europe_pmc_PMC11197784
+international union of conservation of nature,International Union of Conservation of Nature,1,1.1,europe_pmc_PMC9482659
+library prep kit for illumina,Library Prep Kit for Illumina,1,1.1,europe_pmc_PMC13377881
+library preparation kit,Library Preparation Kit,1,1.1,europe_pmc_PMC11294940
+model for evaluating regional and global effects,Model for Evaluating Regional and Global Effects,1,1.1,europe_pmc_PMC8403967
+molecular ecological network analysis pipeline,Molecular Ecological Network Analysis Pipeline,1,1.1,europe_pmc_PMC13052267
+nanjing qinfeng zhongcheng biomass new materials co,Nanjing Qinfeng Zhongcheng Biomass New Materials Co,1,1.1,europe_pmc_PMC13590715
+national aeronautics and space administration,National Aeronautics and Space Administration,1,1.1,europe_pmc_PMC7532523
+national center for biotechnology information,National Center for Biotechnology Information,1,1.1,europe_pmc_PMC12475048
+network analysis and synchronization phenomena,Network Analysis and Synchronization Phenomena,1,1.1,europe_pmc_PMC12474537
+nguyen and west,Nguyen and West,1,1.1,europe_pmc_PMC9893456
+nitrosomonas and nitrosospira,Nitrosomonas and Nitrosospira,1,1.1,europe_pmc_PMC11294940
+nitrososphaerales and rhizobiales,Nitrososphaerales and Rhizobiales,1,1.1,europe_pmc_PMC13390420
+ocean biogeographic information system,Ocean Biogeographic Information System,1,1.1,europe_pmc_PMC12612197
+ottowia and arenimonas,Ottowia and Arenimonas,1,1.1,europe_pmc_PMC11294940
+peer review file supplementary information description of additional supplementary files supplementary data,Peer Review File Supplementary Information Description of Additional Supplementary Files Supplementary Data,1,1.1,europe_pmc_PMC9482659
+peter and clark momentary conditional independence,Peter and Clark Momentary Conditional Independence,1,1.1,europe_pmc_PMC12474537
+prokaryotic virus remote homologous groups,Prokaryotic Virus Remote Homologous Groups,1,1.1,europe_pmc_PMC12713726
+quantitative insights,Quantitative Insights,1,1.1,europe_pmc_PMC13590715
+representative concentration pathway,Representative Concentration Pathway,1,1.1,europe_pmc_PMC8403967
+ruixiang polymer materials trade office,Ruixiang Polymer Materials Trade Office,1,1.1,europe_pmc_PMC13590715
+sayana and sirajudheen,Sayana and Sirajudheen,1,1.1,europe_pmc_PMC11294940
+schimel and bennett,Schimel and Bennett,1,1.1,europe_pmc_PMC13590715
+sequence read archive,Sequence Read Archive,1,1.1,europe_pmc_PMC13377881
+shanghai personal biotechnology co,Shanghai Personal Biotechnology Co,1,1.1,europe_pmc_PMC13590715
+shanmugam and barbara,Shanmugam and Barbara,1,1.1,europe_pmc_PMC11294940
+southern research institute in birmingham,Southern Research Institute in Birmingham,1,1.1,europe_pmc_PMC9893456
+sphingomonas and lysobacter,Sphingomonas and Lysobacter,1,1.1,europe_pmc_PMC13590715
+total organic carbon analyzer,Total Organic Carbon Analyzer,1,1.1,europe_pmc_PMC13377881
+tropic of cancer in china,Tropic of Cancer in China,1,1.1,europe_pmc_PMC13377881
+vipont research laboratories,Vipont Research Laboratories,1,1.1,europe_pmc_PMC9893456
+viral dark matter across diverse ecosystems,Viral Dark Matter Across Diverse Ecosystems,1,1.1,europe_pmc_PMC12713726
+virus orthologous groups database,Virus Orthologous Groups Database,1,1.1,europe_pmc_PMC12713726
+wanbaoshan forest farm in longshan county,Wanbaoshan Forest Farm in Longshan County,1,1.1,europe_pmc_PMC13052267
+world climate research programme,World Climate Research Programme,1,1.1,europe_pmc_PMC11197784
+world commission on environment and development,World Commission on Environment and Development,1,1.1,europe_pmc_PMC7532523
+world reference base for soil resources,World Reference Base for Soil Resources,1,1.1,europe_pmc_PMC12475048
+no,NO,1,1.08,europe_pmc_PMC12866615
+biochar,Biochar,1,0.0616,europe_pmc_PMC13590715
+carbon neutrality,Carbon neutrality,1,0.0591,europe_pmc_PMC11197784
+neutrality,neutrality,1,0.0573,europe_pmc_PMC11197784
+microplastics,Microplastics,1,0.0565,europe_pmc_PMC13590715
+activated sludge,Activated sludge,1,0.0535,europe_pmc_PMC11294940
+reforestation,Reforestation,1,0.0532,europe_pmc_PMC12979200
+microplastic,microplastic,1,0.0526,europe_pmc_PMC13590715
+tipping points,Tipping points,1,0.0518,europe_pmc_PMC8403967
+sludge,sludge,1,0.0517,europe_pmc_PMC11294940
+tibet,Tibet,1,0.0517,europe_pmc_PMC12412649
+hydrogels,HydroGels,1,0.0514,europe_pmc_PMC9893456
+microplastics biochar,microplastics biochar,1,0.0514,europe_pmc_PMC13590715
+activated,Activated,1,0.051,europe_pmc_PMC11294940
+mega-floods,mega-floods,1,0.051,europe_pmc_PMC13187425
+climate carbon,climate carbon,1,0.0502,europe_pmc_PMC11197784
+hydrogel,hydrogel,1,0.0501,europe_pmc_PMC9893456
+carbon-neutral,Carbon-neutral,1,0.0495,europe_pmc_PMC11197784
+ice years,ice years,1,0.0495,europe_pmc_PMC12572319
+tipping,Tipping,1,0.0495,europe_pmc_PMC8403967
+amphipod,amphipod,1,0.0483,europe_pmc_PMC12612197
+biochar microplastics,biochar microplastics,1,0.048,europe_pmc_PMC13590715
+suitable habitat,Suitable habitat,1,0.0477,europe_pmc_PMC12612197
+aquaculture,Aquaculture,1,0.0476,europe_pmc_PMC13377881
+cladoceran,Cladoceran,1,0.0476,europe_pmc_PMC13187425
+ka bp,ka BP,1,0.0476,europe_pmc_PMC8087833
+habitat,habitat,1,0.0474,europe_pmc_PMC12612197
+high expression,High expression,1,0.0471,europe_pmc_PMC6821142
+mega-flood,mega-flood,1,0.047,europe_pmc_PMC13187425
+early hs1,Early HS1,1,0.0469,europe_pmc_PMC10403598
+permafrost,Permafrost,1,0.0468,europe_pmc_PMC11697416
+radiogenic,radiogenic,1,0.0465,europe_pmc_PMC9729181
+core i106,Core I106,1,0.0463,europe_pmc_PMC10403598
+methane concentrations,Methane concentrations,1,0.0462,europe_pmc_PMC11971521
+sea ice years,sea ice years,1,0.0462,europe_pmc_PMC12572319
+habitat area,habitat area,1,0.046,europe_pmc_PMC12612197
+mangrove,mangrove,1,0.046,europe_pmc_PMC13377881
+expected scc,expected SCC,1,0.0454,europe_pmc_PMC8403967
+tea,Tea,1,0.0452,europe_pmc_PMC12475048
+danger,danger,1,0.0451,europe_pmc_PMC12787522
+permafrost thawing,permafrost thawing,1,0.0449,europe_pmc_PMC11697416
+stalagmite,Stalagmite,1,0.0449,europe_pmc_PMC8087833
+catchment,catchment,1,0.0444,europe_pmc_PMC13187425
+lake yltc,Lake YLTC,1,0.0444,europe_pmc_PMC13187425
+florida,Florida,1,0.0443,europe_pmc_PMC10590663
+reforestation potential,reforestation potential,1,0.0442,europe_pmc_PMC12979200
+zeroe scenario,ZeroE scenario,1,0.0442,europe_pmc_PMC12787522
+forestation,forestation,1,0.0441,europe_pmc_PMC9532392
+records core,records core,1,0.0441,europe_pmc_PMC10403598
+fertilization treatments,Fertilization treatments,1,0.0439,europe_pmc_PMC10159062
+damages,damages,1,0.0438,europe_pmc_PMC8403967
+non-local,Non-local,1,0.0438,europe_pmc_PMC12979200
+fertilization,Fertilization,1,0.0437,europe_pmc_PMC10159062
+thawing,thawing,1,0.0436,europe_pmc_PMC11697416
+arctic waters,Arctic waters,1,0.0435,europe_pmc_PMC11347556
+grass,grass,1,0.0435,europe_pmc_PMC9532392
+percolation,Percolation,1,0.0435,europe_pmc_PMC7532523
+furong,Furong,1,0.0434,europe_pmc_PMC8087833
+iaa monsoon,IAA Monsoon,1,0.0433,europe_pmc_PMC10403598
+nd,Nd,1,0.0433,europe_pmc_PMC9729181
+eam,EAM,1,0.0431,europe_pmc_PMC10964958
+ka,ka,1,0.0428,europe_pmc_PMC8087833
+moustakis,Moustakis,1,0.0428,europe_pmc_PMC12979200
+eastern spna,eastern SPNA,1,0.0427,europe_pmc_PMC11347556
+deep water,Deep Water,1,0.0426,europe_pmc_PMC9729181
+interannual-to-decadal,Interannual-to-decadal,1,0.0426,europe_pmc_PMC10899366
+spna,SPNA,1,0.0426,europe_pmc_PMC11347556
+circumarctic,circumarctic,1,0.0425,europe_pmc_PMC11697416
+injectable,Injectable,1,0.0425,europe_pmc_PMC9893456
+n2o emissions,N2O emissions,1,0.0425,europe_pmc_PMC13377881
+wastewater,wastewater,1,0.0425,europe_pmc_PMC11294940
+peptide,Peptide,1,0.0423,europe_pmc_PMC9893456
+ism precipitation,ISM precipitation,1,0.0422,europe_pmc_PMC12412649
+taiping,Taiping,1,0.0422,europe_pmc_PMC13148317
+asian aas,Asian AAs,1,0.0421,europe_pmc_PMC10762259
+atlantic waters,Atlantic waters,1,0.0421,europe_pmc_PMC11347556
+interannual-to-decadal variability,Interannual-to-decadal variability,1,0.042,europe_pmc_PMC10899366
+treatments,treatments,1,0.0419,europe_pmc_PMC10159062
+mm day,mm day,1,0.0418,europe_pmc_PMC12412649
+m1 soil,M1 soil,1,0.0417,europe_pmc_PMC6821142
+wamr sst,wamr sst,1,0.0416,europe_pmc_PMC10899366
+america,America,1,0.0415,europe_pmc_PMC12412649
+iaa monsoon region,IAA monsoon region,1,0.0415,europe_pmc_PMC10403598
+lower limb,lower limb,1,0.0415,europe_pmc_PMC11347556
+reforestation potentials,reforestation potentials,1,0.0415,europe_pmc_PMC12979200
+high sea,high sea,1,0.0414,europe_pmc_PMC12572319
+high sea ice,high sea ice,1,0.0414,europe_pmc_PMC12572319
+radiogenic values,radiogenic values,1,0.0414,europe_pmc_PMC9729181
+tide,Tide,1,0.0414,europe_pmc_PMC6822785
+am-aw,AM-AW,1,0.0413,europe_pmc_PMC7519346
+drug,Drug,1,0.0413,europe_pmc_PMC9893456
+edges,Edges,1,0.0413,europe_pmc_PMC7532523
+gauge,gauge,1,0.0413,europe_pmc_PMC6822785
+rebellion,Rebellion,1,0.0413,europe_pmc_PMC13148317
+sp,sp,1,0.0413,europe_pmc_PMC6821142
+tide gauge,Tide gauge,1,0.0411,europe_pmc_PMC6822785
+miocene,Miocene,1,0.041,europe_pmc_PMC9729181
+network,Network,1,0.041,europe_pmc_PMC7532523
+jan,Jan,1,0.0409,europe_pmc_PMC13377881
+si appendix fig,si appendix fig,1,0.0409,europe_pmc_PMC7519346
+nitrogen,Nitrogen,1,0.0408,europe_pmc_PMC12866615
+dangers,dangers,1,0.0406,europe_pmc_PMC12787522
+eof,EOF,1,0.0406,europe_pmc_PMC10899366
+today,today,1,0.0406,europe_pmc_PMC11971521
+bno spring,BNO spring,1,0.0405,europe_pmc_PMC13055281
+fr5 record,FR5 record,1,0.0405,europe_pmc_PMC8087833
+overshoot,Overshoot,1,0.0405,europe_pmc_PMC12379145
+sea ice,Sea ice,1,0.0405,europe_pmc_PMC12572319
+t-fins,T-Fins,1,0.0405,europe_pmc_PMC9529976
+t-tiwi1,T-Tiwi1,1,0.0405,europe_pmc_PMC9529976
+dg7 record,DG7 record,1,0.0404,europe_pmc_PMC13148317
+ma,Ma,1,0.0404,europe_pmc_PMC12064707
+fatty,fatty,1,0.0403,europe_pmc_PMC11294940
+health risks,Health Risks,1,0.0402,europe_pmc_PMC12868344
+sedimentation,Sedimentation,1,0.0402,europe_pmc_PMC12064707
+nege scenario,NegE scenario,1,0.0401,europe_pmc_PMC12787522
+phosphorus,Phosphorus,1,0.0401,europe_pmc_PMC13052267
+sam,SAM,1,0.0401,europe_pmc_PMC10964958
+do-15,DO-15,1,0.0398,europe_pmc_PMC12379145
+emission rates,emission rates,1,0.0397,europe_pmc_PMC13377881
+termination,termination,1,0.0396,europe_pmc_PMC7519346
+drift,Drift,1,0.0395,europe_pmc_PMC12064707
+krakatau,Krakatau,1,0.0395,europe_pmc_PMC13212582
+transcripts,Transcripts,1,0.0395,europe_pmc_PMC6821142
+water-hosing,water-hosing,1,0.0395,europe_pmc_PMC11578178
+indices,Indices,1,0.0394,europe_pmc_PMC13212582
+shell,Shell,1,0.0394,europe_pmc_PMC9529976
+sst indices,SST indices,1,0.0394,europe_pmc_PMC10899366
+genes,Genes,1,0.0393,europe_pmc_PMC13055281
+proteins,proteins,1,0.0393,europe_pmc_PMC12713726
+tea field,Tea field,1,0.0393,europe_pmc_PMC12475048
+increased asian,increased Asian,1,0.0392,europe_pmc_PMC10762259
+near-mature,Near-mature,1,0.0392,europe_pmc_PMC13052267
+purslane,Purslane,1,0.0392,europe_pmc_PMC10159062
+sle,SLE,1,0.0392,europe_pmc_PMC10838265
+depletion,depletion,1,0.0391,europe_pmc_PMC10964958
+atmospheric methane,atmospheric methane,1,0.039,europe_pmc_PMC11971521
+circumarctic permafrost,circumarctic permafrost,1,0.0389,europe_pmc_PMC11697416
+melting,Melting,1,0.0389,europe_pmc_PMC9482659
+amoa,AmoA,1,0.0388,europe_pmc_PMC12475048
+ice,Ice,1,0.0388,europe_pmc_PMC10838265
+gulf oman,gulf oman,1,0.0387,europe_pmc_PMC9529976
+rainfall,rainfall,1,0.0387,europe_pmc_PMC10964958
+santa,Santa,1,0.0386,europe_pmc_PMC13212582
+viral dark,Viral Dark,1,0.0386,europe_pmc_PMC12713726
+viral dark matter,Viral Dark Matter,1,0.0386,europe_pmc_PMC12713726
+ice-core,Ice-core,1,0.0385,europe_pmc_PMC9532435
+seso,Seso,1,0.0385,europe_pmc_PMC7519346
+post-eruption,post-eruption,1,0.0384,europe_pmc_PMC13212582
+temperature anomalies,Temperature anomalies,1,0.0384,europe_pmc_PMC13212582
+comb4,COMB4,1,0.0383,europe_pmc_PMC10838265
+comb7,COMB7,1,0.0383,europe_pmc_PMC10838265
+kyr,Kyr,1,0.0383,europe_pmc_PMC13594180
+deforestation,Deforestation,1,0.0382,europe_pmc_PMC9532392
+salinity,Salinity,1,0.0382,europe_pmc_PMC13390420
+shells,Shells,1,0.0382,europe_pmc_PMC9529976
+stand,stand,1,0.0381,europe_pmc_PMC13052267
+increased asian aas,increased Asian AAs,1,0.038,europe_pmc_PMC10762259
+paleolithic,paleolithic,1,0.038,europe_pmc_PMC11971521
+countries,countries,1,0.0379,europe_pmc_PMC9482659
+nodes,Nodes,1,0.0379,europe_pmc_PMC7532523
+species richness,Species richness,1,0.0379,europe_pmc_PMC9482659
+water-hosing experiments,water-hosing experiments,1,0.0379,europe_pmc_PMC11578178
+cluster,cluster,1,0.0378,europe_pmc_PMC7532523
+megadiverse,megadiverse,1,0.0378,europe_pmc_PMC9482659
+ph,pH,1,0.0378,europe_pmc_PMC12475048
+minimal,minimal,1,0.0377,europe_pmc_PMC10762259
+sl4 sl7,sl4 sl7,1,0.0377,europe_pmc_PMC10838265
+mid-ocean,Mid-ocean,1,0.0376,europe_pmc_PMC10590663
+sea level,Sea Level,1,0.0376,europe_pmc_PMC6822785
+gyre,gyre,1,0.0375,europe_pmc_PMC10590663
+heating,heating,1,0.0375,europe_pmc_PMC8906512
+interstadials,Interstadials,1,0.0375,europe_pmc_PMC12379145
+relative humidity,Relative humidity,1,0.0375,europe_pmc_PMC12787522
+isolates,isolates,1,0.0374,europe_pmc_PMC12475048
+ky bp,ky BP,1,0.0374,europe_pmc_PMC9532435
+monsoon,Monsoon,1,0.0372,europe_pmc_PMC13594180
+dsow,DSOW,1,0.0371,europe_pmc_PMC12064707
+zr,Zr,1,0.0371,europe_pmc_PMC12064707
+speleothem,Speleothem,1,0.037,europe_pmc_PMC9532435
+mjjas,MJJAS,1,0.0369,europe_pmc_PMC13594180
+predictability,Predictability,1,0.0369,europe_pmc_PMC12474537
+attractor,Attractor,1,0.0368,europe_pmc_PMC12474537
+solar,Solar,1,0.0368,europe_pmc_PMC13148317
+iron,Iron,1,0.0366,europe_pmc_PMC13055281
+sahp2,SAHP2,1,0.0366,europe_pmc_PMC9532435
+diseases,diseases,1,0.0365,europe_pmc_PMC12868344
+coastal sea level,coastal sea level,1,0.0364,europe_pmc_PMC6822785
+ekman,Ekman,1,0.0362,europe_pmc_PMC10590663
+microbial community,microbial community,1,0.036,europe_pmc_PMC13055281
+mental health,mental health,1,0.0358,europe_pmc_PMC12868344
+foraminiferal,foraminiferal,1,0.0357,europe_pmc_PMC8549982
+mental,mental,1,0.0356,europe_pmc_PMC12868344
+biosphere,biosphere,1,0.0355,europe_pmc_PMC13440228
+viral communities,viral communities,1,0.0355,europe_pmc_PMC13390420
+pmol,pmol,1,0.0354,europe_pmc_PMC13440228
+labrador,Labrador,1,0.0353,europe_pmc_PMC10762259
+hosts,Hosts,1,0.035,europe_pmc_PMC13390420
+overshoot phases,Overshoot phases,1,0.035,europe_pmc_PMC12379145
+risks,Risks,1,0.035,europe_pmc_PMC12868344
+monsoon precipitation,monsoon Precipitation,1,0.0347,europe_pmc_PMC13594180
+aerosol,Aerosol,1,0.0345,europe_pmc_PMC12181172
+productivity,productivity,1,0.0344,europe_pmc_PMC13440228
+irreducible,irreducible,1,0.0343,europe_pmc_PMC12474537
+pacing,pacing,1,0.0343,europe_pmc_PMC13594180
+pmol o2,pmol o2,1,0.0343,europe_pmc_PMC13440228
+pmol o2 year,pmol o2 year,1,0.0343,europe_pmc_PMC13440228
+emissions,Emissions,1,0.0341,europe_pmc_PMC12181172
+nonlinear,Nonlinear,1,0.034,europe_pmc_PMC12474537
+transport,transport,1,0.034,europe_pmc_PMC10590663
+strongest decline,strongest decline,1,0.0338,europe_pmc_PMC11578178
+forestation deforestation,forestation deforestation,1,0.0337,europe_pmc_PMC9532392
+head,Head,1,0.0332,europe_pmc_PMC8549982
+subseries,Subseries,1,0.0332,europe_pmc_PMC8549982
+heterogeneous,Heterogeneous,1,0.0331,europe_pmc_PMC11578178
+irminger,Irminger,1,0.0331,europe_pmc_PMC11578178
+ahs,AHS,1,0.033,europe_pmc_PMC8906512
+tp heating,TP heating,1,0.033,europe_pmc_PMC8906512
+habitability,Habitability,1,0.0323,europe_pmc_PMC12181172
+unit,unit,1,0.0316,europe_pmc_PMC8906512

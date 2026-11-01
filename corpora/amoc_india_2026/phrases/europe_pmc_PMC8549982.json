@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC8549982",
+  "phrases": [
+    {
+      "phrase": "middle pleistocene",
+      "display": "Middle Pleistocene",
+      "score": 2.7
+    },
+    {
+      "phrase": "head and gibbard",
+      "display": "Head and Gibbard",
+      "score": 2.0
+    },
+    {
+      "phrase": "working group",
+      "display": "Working Group",
+      "score": 2.0
+    },
+    {
+      "phrase": "marine isotope stage",
+      "display": "Marine Isotope Stage",
+      "score": 1.8
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8
+    },
+    {
+      "phrase": "shackleton and opdyke",
+      "display": "Shackleton and Opdyke",
+      "score": 1.6
+    },
+    {
+      "phrase": "lisiecki and raymo",
+      "display": "Lisiecki and Raymo",
+      "score": 1.6
+    },
+    {
+      "phrase": "mis",
+      "display": "MIS",
+      "score": 3.08
+    },
+    {
+      "phrase": "pleistocene",
+      "display": "Pleistocene",
+      "score": 1.48
+    },
+    {
+      "phrase": "gssp",
+      "display": "GSSP",
+      "score": 1.44
+    },
+    {
+      "phrase": "foraminiferal",
+      "score": 0.0357,
+      "display": "foraminiferal"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0355,
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0354,
+      "display": "AL"
+    },
+    {
+      "phrase": "head",
+      "score": 0.0332,
+      "display": "Head"
+    },
+    {
+      "phrase": "subseries",
+      "score": 0.0332,
+      "display": "Subseries"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

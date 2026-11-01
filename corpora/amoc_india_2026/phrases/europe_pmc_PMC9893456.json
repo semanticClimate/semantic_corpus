@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC9893456",
+  "phrases": [
+    {
+      "phrase": "arg and asp",
+      "display": "Arg and Asp",
+      "score": 1.2
+    },
+    {
+      "phrase": "southern research institute in birmingham",
+      "display": "Southern Research Institute in Birmingham",
+      "score": 1.1
+    },
+    {
+      "phrase": "vipont research laboratories",
+      "display": "Vipont Research Laboratories",
+      "score": 1.1
+    },
+    {
+      "phrase": "american chemical society",
+      "display": "American Chemical Society",
+      "score": 1.1
+    },
+    {
+      "phrase": "atrix laboratories",
+      "display": "Atrix Laboratories",
+      "score": 1.1
+    },
+    {
+      "phrase": "nguyen and west",
+      "display": "Nguyen and West",
+      "score": 1.1
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.1
+    },
+    {
+      "phrase": "peg",
+      "display": "PEG",
+      "score": 1.26
+    },
+    {
+      "phrase": "ff",
+      "display": "FF",
+      "score": 1.2
+    },
+    {
+      "phrase": "fmoc",
+      "display": "Fmoc",
+      "score": 1.18
+    },
+    {
+      "phrase": "hydrogels",
+      "score": 0.0514,
+      "display": "HydroGels"
+    },
+    {
+      "phrase": "hydrogel",
+      "score": 0.0501,
+      "display": "hydrogel"
+    },
+    {
+      "phrase": "injectable",
+      "score": 0.0425,
+      "display": "Injectable"
+    },
+    {
+      "phrase": "peptide",
+      "score": 0.0423,
+      "display": "Peptide"
+    },
+    {
+      "phrase": "drug",
+      "score": 0.0413,
+      "display": "Drug"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

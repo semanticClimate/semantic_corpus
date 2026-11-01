@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13055281",
+  "phrases": [
+    {
+      "phrase": "cave curd",
+      "display": "Cave Curd",
+      "score": 1.9
+    },
+    {
+      "phrase": "kidd creek",
+      "display": "Kidd Creek",
+      "score": 1.7
+    },
+    {
+      "phrase": "nitrospirota and planctomycetota",
+      "display": "Nitrospirota and Planctomycetota",
+      "score": 1.2
+    },
+    {
+      "phrase": "baksan neutrino observatory",
+      "display": "Baksan Neutrino Observatory",
+      "score": 1.2
+    },
+    {
+      "phrase": "kidd creek and outokumpu",
+      "display": "Kidd Creek and Outokumpu",
+      "score": 1.2
+    },
+    {
+      "phrase": "outokumpu and kidd creek",
+      "display": "Outokumpu and Kidd Creek",
+      "score": 1.2
+    },
+    {
+      "phrase": "faculty of chemistry of moscow state university",
+      "display": "Faculty of Chemistry of Moscow State University",
+      "score": 1.1
+    },
+    {
+      "phrase": "bno",
+      "display": "BNO",
+      "score": 2.3
+    },
+    {
+      "phrase": "mags",
+      "display": "MAGs",
+      "score": 1.36
+    },
+    {
+      "phrase": "mag",
+      "display": "MAG",
+      "score": 1.22
+    },
+    {
+      "phrase": "bno spring",
+      "score": 0.0405,
+      "display": "BNO spring"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.0393,
+      "display": "Genes"
+    },
+    {
+      "phrase": "microbial",
+      "score": 0.0382,
+      "display": "microbial"
+    },
+    {
+      "phrase": "iron",
+      "score": 0.0366,
+      "display": "Iron"
+    },
+    {
+      "phrase": "microbial community",
+      "score": 0.036,
+      "display": "microbial community"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

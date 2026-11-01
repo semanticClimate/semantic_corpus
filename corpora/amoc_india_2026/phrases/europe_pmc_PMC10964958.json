@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10964958",
+  "phrases": [
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 4.4
+    },
+    {
+      "phrase": "south asia",
+      "display": "South Asia",
+      "score": 3.0
+    },
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 2.6
+    },
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 1.4
+    },
+    {
+      "phrase": "indian ocean and pacific ocean",
+      "display": "Indian Ocean and Pacific Ocean",
+      "score": 1.3
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.2
+    },
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 1.2
+    },
+    {
+      "phrase": "am",
+      "display": "AM",
+      "score": 2.2
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.44
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.43
+    },
+    {
+      "phrase": "eam",
+      "score": 0.0431,
+      "display": "EAM"
+    },
+    {
+      "phrase": "sam",
+      "score": 0.0401,
+      "display": "SAM"
+    },
+    {
+      "phrase": "northern china",
+      "score": 0.0398,
+      "display": "northern China"
+    },
+    {
+      "phrase": "depletion",
+      "score": 0.0391,
+      "display": "depletion"
+    },
+    {
+      "phrase": "rainfall",
+      "score": 0.0387,
+      "display": "rainfall"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

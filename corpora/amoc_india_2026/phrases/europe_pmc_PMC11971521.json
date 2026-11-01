@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC11971521",
+  "phrases": [
+    {
+      "phrase": "young dryas",
+      "display": "Young Dryas",
+      "score": 2.3
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5
+    },
+    {
+      "phrase": "global observatory for accurate livestock sciences",
+      "display": "Global Observatory for Accurate Livestock Sciences",
+      "score": 1.2
+    },
+    {
+      "phrase": "europe and north america",
+      "display": "Europe and North America",
+      "score": 1.2
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.2
+    },
+    {
+      "phrase": "taras iliushyk",
+      "display": "Taras Iliushyk",
+      "score": 1.2
+    },
+    {
+      "phrase": "peer ederer",
+      "display": "Peer Ederer",
+      "score": 1.2
+    },
+    {
+      "phrase": "dryas",
+      "display": "Dryas",
+      "score": 1.14
+    },
+    {
+      "phrase": "nls",
+      "display": "NLS",
+      "score": 1.14
+    },
+    {
+      "phrase": "young",
+      "display": "Young",
+      "score": 1.14
+    },
+    {
+      "phrase": "methane",
+      "score": 0.0505,
+      "display": "Methane"
+    },
+    {
+      "phrase": "methane concentrations",
+      "score": 0.0462,
+      "display": "Methane concentrations"
+    },
+    {
+      "phrase": "today",
+      "score": 0.0406,
+      "display": "today"
+    },
+    {
+      "phrase": "atmospheric methane",
+      "score": 0.039,
+      "display": "atmospheric methane"
+    },
+    {
+      "phrase": "paleolithic",
+      "score": 0.038,
+      "display": "paleolithic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

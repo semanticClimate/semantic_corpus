@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10899366",
+  "phrases": [
+    {
+      "phrase": "mediterranean sea",
+      "display": "Mediterranean Sea",
+      "score": 2.5
+    },
+    {
+      "phrase": "west africa",
+      "display": "West Africa",
+      "score": 2.4
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.8
+    },
+    {
+      "phrase": "west african",
+      "display": "West African",
+      "score": 1.8
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6
+    },
+    {
+      "phrase": "fast fourier transform",
+      "display": "Fast Fourier Transform",
+      "score": 1.5
+    },
+    {
+      "phrase": "strong la",
+      "display": "Strong La",
+      "score": 1.4
+    },
+    {
+      "phrase": "wamr",
+      "display": "WAMR",
+      "score": 3.54
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.7
+    },
+    {
+      "phrase": "ipsl",
+      "display": "IPSL",
+      "score": 1.86
+    },
+    {
+      "phrase": "interannual-to-decadal",
+      "score": 0.0426,
+      "display": "Interannual-to-decadal"
+    },
+    {
+      "phrase": "interannual-to-decadal variability",
+      "score": 0.042,
+      "display": "Interannual-to-decadal variability"
+    },
+    {
+      "phrase": "wamr sst",
+      "score": 0.0416,
+      "display": "wamr sst"
+    },
+    {
+      "phrase": "eof",
+      "score": 0.0406,
+      "display": "EOF"
+    },
+    {
+      "phrase": "sst indices",
+      "score": 0.0394,
+      "display": "SST indices"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

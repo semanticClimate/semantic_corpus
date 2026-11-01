@@ -18,6 +18,143 @@ PMC_OA_S3 = "https://pmc-oa-opendata.s3.amazonaws.com"
 # behind the newest articles and has gaps
 EUROPE_PMC_OA_PDF_FTP = "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA"
 PDF_TIMEOUT_SECONDS = 60
+SEARCH_TIMEOUT_SECONDS = 60
+
+# Human-oriented hints for known Europe PMC errCode / HTTP statuses
+_EPMC_ERROR_HINTS = {
+    429: "Rate limited — wait and retry.",
+    500: "Europe PMC internal error — retry later.",
+    502: "Bad gateway — Europe PMC or a proxy is failing; retry later.",
+    503: "Europe PMC search is temporarily unavailable — retry later.",
+    504: "Gateway timeout — retry later.",
+}
+
+
+def interpret_epmc_error(
+    *,
+    status_code: Optional[int] = None,
+    err_code: Any = None,
+    err_msg: Optional[str] = None,
+    body_preview: str = "",
+) -> str:
+    """Build a clear RepositoryError message for Europe PMC failures."""
+    parts: List[str] = ["Europe PMC search failed"]
+    code = err_code if err_code is not None else status_code
+    if code is not None:
+        parts.append(f"(code {code})")
+    if err_msg:
+        parts.append(f"— {err_msg}")
+    elif status_code and not err_msg:
+        parts.append(f"— HTTP {status_code}")
+    hint_key = None
+    try:
+        hint_key = int(code) if code is not None else None
+    except (TypeError, ValueError):
+        hint_key = status_code
+    hint = _EPMC_ERROR_HINTS.get(hint_key) if hint_key is not None else None
+    if hint:
+        parts.append(f"Hint: {hint}")
+    if body_preview and not err_msg:
+        parts.append(f"Body: {body_preview[:200]}")
+    return " ".join(parts)
+
+
+def normalize_epmc_search_payload(data: Any) -> Dict[str, Any]:
+    """Validate and unwrap an Europe PMC search JSON body.
+
+    Accepts both GET shape ``{hitCount, resultList, …}`` and POST/pygetpapers
+    shape ``{responseWrapper: {hitCount, resultList, …}}``. Rejects null /
+    error payloads (``errCode`` / ``errMsg``) with :class:`RepositoryError`.
+    """
+    if data is None:
+        raise RepositoryError(
+            interpret_epmc_error(err_msg="empty JSON body (null response)")
+        )
+    if not isinstance(data, dict):
+        raise RepositoryError(
+            interpret_epmc_error(
+                err_msg=f"non-object JSON response ({type(data).__name__})"
+            )
+        )
+
+    if "errCode" in data or "errMsg" in data:
+        raise RepositoryError(
+            interpret_epmc_error(
+                err_code=data.get("errCode"),
+                err_msg=data.get("errMsg") or "error payload without errMsg",
+            )
+        )
+
+    # Unwrap POST / legacy responseWrapper if present
+    if "responseWrapper" in data:
+        wrapper = data.get("responseWrapper")
+        if wrapper is None:
+            raise RepositoryError(
+                interpret_epmc_error(
+                    err_msg="responseWrapper is null (pygetpapers-style KeyError cause)"
+                )
+            )
+        if not isinstance(wrapper, dict):
+            raise RepositoryError(
+                interpret_epmc_error(
+                    err_msg=f"responseWrapper is not an object ({type(wrapper).__name__})"
+                )
+            )
+        if "errCode" in wrapper or "errMsg" in wrapper:
+            raise RepositoryError(
+                interpret_epmc_error(
+                    err_code=wrapper.get("errCode"),
+                    err_msg=wrapper.get("errMsg") or "error inside responseWrapper",
+                )
+            )
+        data = wrapper
+
+    if "hitCount" not in data and "resultList" not in data:
+        raise RepositoryError(
+            interpret_epmc_error(
+                err_msg=(
+                    "unexpected search payload "
+                    f"(missing hitCount/resultList; keys={sorted(data.keys())})"
+                )
+            )
+        )
+
+    if data.get("hitCount") is None and data.get("resultList") is None:
+        raise RepositoryError(
+            interpret_epmc_error(err_msg="hitCount and resultList are both null")
+        )
+
+    return data
+
+
+def _parse_epmc_response(response: requests.Response) -> Dict[str, Any]:
+    """Parse HTTP response from Europe PMC search; raise on HTTP/API errors."""
+    status = response.status_code
+    text_preview = (response.text or "")[:300]
+
+    # Try JSON even on error statuses — EPMC often returns {errCode, errMsg}
+    data: Any = None
+    try:
+        data = response.json()
+    except ValueError:
+        data = None
+
+    if status >= 400:
+        err_code = None
+        err_msg = None
+        if isinstance(data, dict):
+            err_code = data.get("errCode", status)
+            err_msg = data.get("errMsg")
+        raise RepositoryError(
+            interpret_epmc_error(
+                status_code=status,
+                err_code=err_code,
+                err_msg=err_msg,
+                body_preview=text_preview if err_msg is None else "",
+            )
+        )
+
+    return normalize_epmc_search_payload(data)
 
 
 class EuropePMCRepository(RepositoryInterface):
@@ -51,14 +188,21 @@ class EuropePMCRepository(RepositoryInterface):
             f"PMCID:{paper_id}" if paper_id.startswith("PMC") else f"EXT_ID:{paper_id}"
         )
         params = {"query": query, "format": "json", "resultType": "core"}
-        response = requests.get(f"{self.base_url}/search", params=params)
-        response.raise_for_status()
-        data = response.json()
+        try:
+            response = requests.get(
+                f"{self.base_url}/search",
+                params=params,
+                timeout=SEARCH_TIMEOUT_SECONDS,
+            )
+        except requests.RequestException as e:
+            raise RepositoryError(f"Europe PMC request failed: {e}") from e
 
-        if not data.get("resultList", {}).get("result"):
+        data = _parse_epmc_response(response)
+        results = data.get("resultList", {}).get("result") or []
+        if not results:
             raise RepositoryError(f"Paper {paper_id} not found")
 
-        return data["resultList"]["result"][0]
+        return results[0]
 
     @staticmethod
     def _s3_pdf_url(pmcid: str) -> Optional[str]:
@@ -172,44 +316,48 @@ class EuropePMCRepository(RepositoryInterface):
         **kwargs: Any,
     ) -> List[Dict[str, Any]]:
         """Search for papers in Europe PMC."""
+        if not query or not str(query).strip():
+            raise RepositoryError("Europe PMC search requires a non-empty query")
+
+        params = {
+            "query": query,
+            "format": "json",
+            "pageSize": min(limit, 1000),  # Europe PMC max is 1000
+            "resultType": "core",
+        }
+
+        # Add date filters if provided
+        if start_date and end_date:
+            params["query"] = (
+                f"({query}) AND (FIRST_PDATE:[{start_date} TO {end_date}])"
+            )
+        elif end_date:
+            params["query"] = f"({query}) AND (FIRST_PDATE:[TO {end_date}])"
+
         try:
-            # Build search parameters
-            params = {
-                "query": query,
-                "format": "json",
-                "pageSize": min(limit, 1000),  # Europe PMC max is 1000
-                "resultType": "core",
-            }
-
-            # Add date filters if provided
-            if start_date and end_date:
-                params["query"] = (
-                    f"({query}) AND (FIRST_PDATE:[{start_date} TO {end_date}])"
-                )
-            elif end_date:
-                params["query"] = f"({query}) AND (FIRST_PDATE:[TO {end_date}])"
-
-            # Make API request
-            response = requests.get(f"{self.base_url}/search", params=params)
-            response.raise_for_status()
-
-            data = response.json()
-            results = []
-
-            for paper in data.get("resultList", {}).get("result", []):
-                results.append(self._paper_to_result(paper))
-
-            return results[:limit]
-
+            response = requests.get(
+                f"{self.base_url}/search",
+                params=params,
+                timeout=SEARCH_TIMEOUT_SECONDS,
+            )
         except requests.RequestException as e:
             raise RepositoryError(f"Europe PMC search failed: {e}") from e
+
+        data = _parse_epmc_response(response)
+        raw_results = data.get("resultList", {}).get("result") or []
+        if isinstance(raw_results, dict):
+            raw_results = [raw_results]
+
+        results = [self._paper_to_result(paper) for paper in raw_results]
+        return results[:limit]
 
     def get_paper_metadata(self, paper_id: str) -> Dict[str, Any]:
         """Get metadata for a specific paper from Europe PMC."""
         try:
             paper = self._search_one_paper(paper_id)
             return self._paper_to_result(paper)
-
+        except RepositoryError:
+            raise
         except requests.RequestException as e:
             raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}") from e
 
@@ -217,12 +365,29 @@ class EuropePMCRepository(RepositoryInterface):
         self, paper_id: str, output_dir: Path, formats: List[str] = None
     ) -> Dict[str, Any]:
         """Download a paper from Europe PMC."""
+        from semantic_corpus.repositories._ids import existing_document_paths
+
         if formats is None:
             formats = ["xml"]
 
         try:
+            output_dir = Path(output_dir)
             output_dir.mkdir(parents=True, exist_ok=True)
+            Path(output_dir, "documents").mkdir(parents=True, exist_ok=True)
             downloaded_files = []
+
+            # Skip network fetch for formats already on disk
+            already = existing_document_paths(output_dir, paper_id, formats)
+            for fmt, path in already.items():
+                downloaded_files.append(str(path))
+            formats_needed = [f for f in formats if f not in already]
+            if not formats_needed:
+                return {
+                    "success": True,
+                    "paper_id": paper_id,
+                    "files": downloaded_files,
+                    "skipped": True,
+                }
 
             paper = None
             pmcid = paper_id if paper_id.startswith("PMC") else ""
@@ -243,15 +408,20 @@ class EuropePMCRepository(RepositoryInterface):
                 else:
                     download_id = paper_id
 
-            for format_type in formats:
+            for format_type in formats_needed:
                 try:
                     if format_type == "xml":
                         xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
                         response = requests.get(xml_url)
                         response.raise_for_status()
 
-                        xml_file = output_dir / f"{paper_id}.xml"
+                        xml_file = Path(output_dir, "documents", f"{paper_id}.xml")
+                        xml_file.parent.mkdir(parents=True, exist_ok=True)
                         xml_file.write_bytes(response.content)
+                        # Keep flat copy for older ingest paths that expect query_dir/*.xml
+                        flat = Path(output_dir, f"{paper_id}.xml")
+                        if not flat.exists():
+                            flat.write_bytes(response.content)
                         downloaded_files.append(str(xml_file))
 
                     elif format_type == "pdf":
@@ -259,8 +429,12 @@ class EuropePMCRepository(RepositoryInterface):
                         if not pdf:
                             continue
 
-                        pdf_file = output_dir / f"{paper_id}.pdf"
+                        pdf_file = Path(output_dir, "documents", f"{paper_id}.pdf")
+                        pdf_file.parent.mkdir(parents=True, exist_ok=True)
                         pdf_file.write_bytes(pdf)
+                        flat = Path(output_dir, f"{paper_id}.pdf")
+                        if not flat.exists():
+                            flat.write_bytes(pdf)
                         downloaded_files.append(str(pdf_file))
                 except requests.RequestException:
                     continue

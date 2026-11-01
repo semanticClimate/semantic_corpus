@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12866615",
+  "phrases": [
+    {
+      "phrase": "xu and wang",
+      "display": "Xu and Wang",
+      "score": 1.4
+    },
+    {
+      "phrase": "allison and martiny",
+      "display": "Allison and Martiny",
+      "score": 1.3
+    },
+    {
+      "phrase": "stein and klotz",
+      "display": "Stein and Klotz",
+      "score": 1.3
+    },
+    {
+      "phrase": "davidson and janssens",
+      "display": "Davidson and Janssens",
+      "score": 1.2
+    },
+    {
+      "phrase": "fierer and jackson",
+      "display": "Fierer and Jackson",
+      "score": 1.2
+    },
+    {
+      "phrase": "schleper and nicol",
+      "display": "Schleper and Nicol",
+      "score": 1.2
+    },
+    {
+      "phrase": "larsson and flach",
+      "display": "Larsson and Flach",
+      "score": 1.2
+    },
+    {
+      "phrase": "wang",
+      "display": "Wang",
+      "score": 1.11
+    },
+    {
+      "phrase": "aob",
+      "display": "AOB",
+      "score": 1.08
+    },
+    {
+      "phrase": "no",
+      "display": "NO",
+      "score": 1.08
+    },
+    {
+      "phrase": "nitrogen",
+      "score": 0.0408,
+      "display": "Nitrogen"
+    },
+    {
+      "phrase": "microbial",
+      "score": 0.0398,
+      "display": "Microbial"
+    },
+    {
+      "phrase": "carbon",
+      "score": 0.0377,
+      "display": "Carbon"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0373,
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.037,
+      "display": "al"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

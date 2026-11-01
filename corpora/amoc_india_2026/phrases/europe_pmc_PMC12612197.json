@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12612197",
+  "phrases": [
+    {
+      "phrase": "reykjanes ridge",
+      "display": "Reykjanes Ridge",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5
+    },
+    {
+      "phrase": "area under the curve",
+      "display": "Area Under the Curve",
+      "score": 1.2
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.2
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.2
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1
+    },
+    {
+      "phrase": "ocean biogeographic information system",
+      "display": "Ocean Biogeographic Information System",
+      "score": 1.1
+    },
+    {
+      "phrase": "ssp",
+      "display": "SSP",
+      "score": 1.3
+    },
+    {
+      "phrase": "sdms",
+      "display": "SDMs",
+      "score": 1.14
+    },
+    {
+      "phrase": "gif",
+      "display": "GIF",
+      "score": 1.12
+    },
+    {
+      "phrase": "amphipod",
+      "score": 0.0483,
+      "display": "amphipod"
+    },
+    {
+      "phrase": "species",
+      "score": 0.048,
+      "display": "Species"
+    },
+    {
+      "phrase": "suitable habitat",
+      "score": 0.0477,
+      "display": "Suitable habitat"
+    },
+    {
+      "phrase": "habitat",
+      "score": 0.0474,
+      "display": "habitat"
+    },
+    {
+      "phrase": "habitat area",
+      "score": 0.046,
+      "display": "habitat area"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

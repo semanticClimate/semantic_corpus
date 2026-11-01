@@ -1,0 +1,74 @@
+{
+  "paper_id": "europe_pmc_PMC13534446",
+  "phrases": [
+    {
+      "phrase": "coupled air-sea interactions",
+      "score": 0.005029460830930505
+    },
+    {
+      "phrase": "air-sea interactions drove",
+      "score": 0.005530284660624872
+    },
+    {
+      "phrase": "pacific marine heatwave",
+      "score": 0.009409928157279838
+    },
+    {
+      "phrase": "2013-2016 marine heatwave",
+      "score": 0.00958343814839704
+    },
+    {
+      "phrase": "north pacific marine",
+      "score": 0.01278647630741903
+    },
+    {
+      "phrase": "2013-2016 north pacific",
+      "score": 0.012786476307419031
+    },
+    {
+      "phrase": "north pacific current",
+      "score": 0.017851559507135982
+    },
+    {
+      "phrase": "marine heatwave",
+      "score": 0.02056260396219027
+    },
+    {
+      "phrase": "northeastern pacific ranks",
+      "score": 0.021150191582950416
+    },
+    {
+      "phrase": "north pacific",
+      "score": 0.02719141515775871
+    },
+    {
+      "phrase": "coupled air-sea",
+      "score": 0.027805277962299677
+    },
+    {
+      "phrase": "air-sea interactions",
+      "score": 0.0305143929721419
+    },
+    {
+      "phrase": "interactions drove",
+      "score": 0.0305143929721419
+    },
+    {
+      "phrase": "mhw",
+      "score": 0.03748566998256568
+    },
+    {
+      "phrase": "northeastern pacific",
+      "score": 0.04328376937683704
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "title+abstract",
+  "params": {
+    "lan": "en",
+    "n": 3,
+    "top": 15,
+    "text_fields": "title+abstract"
+  },
+  "elapsed_s": 0.0058
+}

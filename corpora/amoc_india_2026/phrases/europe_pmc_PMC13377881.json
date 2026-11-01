@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13377881",
+  "phrases": [
+    {
+      "phrase": "kyoto encyclopedia of genes and genomes",
+      "display": "Kyoto Encyclopedia of Genes and Genomes",
+      "score": 1.1
+    },
+    {
+      "phrase": "library prep kit for illumina",
+      "display": "Library Prep Kit for Illumina",
+      "score": 1.1
+    },
+    {
+      "phrase": "total organic carbon analyzer",
+      "display": "Total Organic Carbon Analyzer",
+      "score": 1.1
+    },
+    {
+      "phrase": "generalized additive model",
+      "display": "Generalized Additive Model",
+      "score": 1.1
+    },
+    {
+      "phrase": "tropic of cancer in china",
+      "display": "Tropic of Cancer in China",
+      "score": 1.1
+    },
+    {
+      "phrase": "thermo fisher scientific",
+      "display": "Thermo Fisher Scientific",
+      "score": 1.1
+    },
+    {
+      "phrase": "sequence read archive",
+      "display": "Sequence Read Archive",
+      "score": 1.1
+    },
+    {
+      "phrase": "som",
+      "display": "SOM",
+      "score": 1.4
+    },
+    {
+      "phrase": "may",
+      "display": "May",
+      "score": 1.32
+    },
+    {
+      "phrase": "sep",
+      "display": "Sep",
+      "score": 1.25
+    },
+    {
+      "phrase": "aquaculture",
+      "score": 0.0476,
+      "display": "Aquaculture"
+    },
+    {
+      "phrase": "mangrove",
+      "score": 0.046,
+      "display": "mangrove"
+    },
+    {
+      "phrase": "n2o emissions",
+      "score": 0.0425,
+      "display": "N2O emissions"
+    },
+    {
+      "phrase": "jan",
+      "score": 0.0409,
+      "display": "Jan"
+    },
+    {
+      "phrase": "emission rates",
+      "score": 0.0397,
+      "display": "emission rates"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

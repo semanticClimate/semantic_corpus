@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13187425",
+  "phrases": [
+    {
+      "phrase": "lake tengchong",
+      "display": "Lake Tengchong",
+      "score": 1.6
+    },
+    {
+      "phrase": "southwest china",
+      "display": "Southwest China",
+      "score": 1.4
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.4
+    },
+    {
+      "phrase": "university of maryland center for environmental",
+      "display": "University of Maryland Center for Environmental",
+      "score": 1.2
+    },
+    {
+      "phrase": "integration and application network",
+      "display": "Integration and Application Network",
+      "score": 1.2
+    },
+    {
+      "phrase": "european centre for medium",
+      "display": "European Centre for Medium",
+      "score": 1.2
+    },
+    {
+      "phrase": "southwest china and india",
+      "display": "Southwest China and India",
+      "score": 1.2
+    },
+    {
+      "phrase": "yltc",
+      "display": "YLTC",
+      "score": 1.68
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.54
+    },
+    {
+      "phrase": "lake",
+      "display": "Lake",
+      "score": 1.33
+    },
+    {
+      "phrase": "mega-floods",
+      "score": 0.051,
+      "display": "mega-floods"
+    },
+    {
+      "phrase": "cladoceran",
+      "score": 0.0476,
+      "display": "Cladoceran"
+    },
+    {
+      "phrase": "mega-flood",
+      "score": 0.047,
+      "display": "mega-flood"
+    },
+    {
+      "phrase": "catchment",
+      "score": 0.0444,
+      "display": "catchment"
+    },
+    {
+      "phrase": "lake yltc",
+      "score": 0.0444,
+      "display": "Lake YLTC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

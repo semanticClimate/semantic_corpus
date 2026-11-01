@@ -1,0 +1,74 @@
+{
+  "paper_id": "europe_pmc_PMC12980662",
+  "phrases": [
+    {
+      "phrase": "subseasonal indian ocean",
+      "score": 0.00688415006041516
+    },
+    {
+      "phrase": "indian ocean marine",
+      "score": 0.006884150060415161
+    },
+    {
+      "phrase": "skillful subseasonal indian",
+      "score": 0.007568253837993472
+    },
+    {
+      "phrase": "ocean marine heatwave",
+      "score": 0.015042304599106411
+    },
+    {
+      "phrase": "indian ocean",
+      "score": 0.02140921543860024
+    },
+    {
+      "phrase": "marine heatwave forecasts",
+      "score": 0.03339840940482845
+    },
+    {
+      "phrase": "subseasonal indian",
+      "score": 0.04498862876540802
+    },
+    {
+      "phrase": "ocean marine",
+      "score": 0.04498862876540802
+    },
+    {
+      "phrase": "skillful subseasonal",
+      "score": 0.04940384002065631
+    },
+    {
+      "phrase": "neural network",
+      "score": 0.04940384002065631
+    },
+    {
+      "phrase": "marine heatwave",
+      "score": 0.09700399286574239
+    },
+    {
+      "phrase": "heatwave forecasts",
+      "score": 0.09700399286574239
+    },
+    {
+      "phrase": "indian",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "ocean",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "skillful",
+      "score": 0.15831692877998726
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "title+abstract",
+  "params": {
+    "lan": "en",
+    "n": 3,
+    "top": 15,
+    "text_fields": "title+abstract"
+  },
+  "elapsed_s": 0.1498
+}

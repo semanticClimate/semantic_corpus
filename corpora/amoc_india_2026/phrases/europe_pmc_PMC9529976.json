@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC9529976",
+  "phrases": [
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 2.8
+    },
+    {
+      "phrase": "gulf of oman",
+      "display": "Gulf of Oman",
+      "score": 2.6
+    },
+    {
+      "phrase": "persian gulf",
+      "display": "Persian Gulf",
+      "score": 2.1
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.4
+    },
+    {
+      "phrase": "arabian peninsula",
+      "display": "Arabian Peninsula",
+      "score": 1.3
+    },
+    {
+      "phrase": "ca and ba",
+      "display": "Ca and Ba",
+      "score": 1.3
+    },
+    {
+      "phrase": "red sea",
+      "display": "Red Sea",
+      "score": 1.3
+    },
+    {
+      "phrase": "oman",
+      "display": "Oman",
+      "score": 1.41
+    },
+    {
+      "phrase": "gulf",
+      "display": "Gulf",
+      "score": 1.38
+    },
+    {
+      "phrase": "tridacna",
+      "display": "Tridacna",
+      "score": 1.29
+    },
+    {
+      "phrase": "t-fins",
+      "score": 0.0405,
+      "display": "T-Fins"
+    },
+    {
+      "phrase": "t-tiwi1",
+      "score": 0.0405,
+      "display": "T-Tiwi1"
+    },
+    {
+      "phrase": "shell",
+      "score": 0.0394,
+      "display": "Shell"
+    },
+    {
+      "phrase": "gulf oman",
+      "score": 0.0387,
+      "display": "gulf oman"
+    },
+    {
+      "phrase": "shells",
+      "score": 0.0382,
+      "display": "Shells"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

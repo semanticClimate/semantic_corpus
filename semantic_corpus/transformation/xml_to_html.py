@@ -24,16 +24,27 @@ def _text_content(element: etree._Element) -> str:
     return "".join(element.itertext()).strip()
 
 
+def _children_html(element: etree._Element) -> str:
+    """Serialize element text + children with tails interleaved in document order.
+
+    Previous code appended all child tails after all children, which concatenated
+    adjacent ``<sup>``/``<sub>`` runs (e.g. δ<sup>17</sup>Δ became wrong).
+    """
+    parts: List[str] = []
+    if element.text:
+        parts.append(html.escape(element.text))
+    for child in element:
+        parts.append(_inline_html(child))
+        if child.tail:
+            parts.append(html.escape(child.tail))
+    return "".join(parts)
+
+
 def _inline_html(element: etree._Element) -> str:
     """Render inline and block JATS elements to simple HTML."""
     name = _local_name(element.tag)
     if name in ("p", "sec", "abstract", "caption", "title", "label"):
-        inner = "".join(_inline_html(child) for child in element)
-        if element.text:
-            inner = html.escape(element.text) + inner
-        for child in element:
-            if child.tail:
-                inner += html.escape(child.tail)
+        inner = _children_html(element)
         parent_name = (
             _local_name(element.getparent().tag)
             if element.getparent() is not None
@@ -42,30 +53,33 @@ def _inline_html(element: etree._Element) -> str:
         tag = "h2" if name == "title" and parent_name == "sec" else name
         if name == "title" and parent_name == "title-group":
             tag = "h1"
+        if name == "abstract":
+            tag = "div"
+            return f'<{tag} class="abstract-block">{inner}</{tag}>'
         return f"<{tag}>{inner}</{tag}>"
     if name in ("bold", "italic", "underline", "sc"):
         tag_map = {"bold": "strong", "italic": "em", "underline": "u", "sc": "span"}
         tag = tag_map[name]
-        inner = "".join(_inline_html(child) for child in element)
-        if element.text:
-            inner = html.escape(element.text) + inner
-        for child in element:
-            if child.tail:
-                inner += html.escape(child.tail)
         cls = ' class="small-caps"' if name == "sc" else ""
-        return f"<{tag}{cls}>{inner}</{tag}>"
+        return f"<{tag}{cls}>{_children_html(element)}</{tag}>"
     if name == "sup":
-        inner = "".join(_inline_html(child) for child in element)
-        if element.text:
-            inner = html.escape(element.text) + inner
-        return f"<sup>{inner}</sup>"
+        return f"<sup>{_children_html(element)}</sup>"
     if name == "sub":
-        inner = "".join(_inline_html(child) for child in element)
-        if element.text:
-            inner = html.escape(element.text) + inner
-        return f"<sub>{inner}</sub>"
+        return f"<sub>{_children_html(element)}</sub>"
     if name == "xref":
         return html.escape(_text_content(element))
+    if name == "email":
+        addr = _text_content(element)
+        return f'<a href="mailto:{html.escape(addr)}">{html.escape(addr)}</a>'
+    if name == "ext-link":
+        href = element.get(_XLINK_HREF) or element.get("href") or ""
+        label = _text_content(element) or href
+        if href:
+            return (
+                f'<a href="{html.escape(href)}" rel="noopener noreferrer">'
+                f"{html.escape(label)}</a>"
+            )
+        return html.escape(label)
     if name == "list":
         items = element.findall(".//{*}list-item")
         lis = "".join(f"<li>{_inline_html(item)}</li>" for item in items)
@@ -80,13 +94,8 @@ def _inline_html(element: etree._Element) -> str:
         return _render_table(element)
     if name == "graphic":
         return ""
-    inner = "".join(_inline_html(child) for child in element)
-    if element.text:
-        inner = html.escape(element.text) + inner
-    for child in element:
-        if child.tail:
-            inner += html.escape(child.tail)
-    return inner
+    # Default: unwrap unknown tags but keep text order
+    return _children_html(element)
 
 
 def _find_pmcid(element: etree._Element) -> str:
@@ -181,6 +190,117 @@ def _render_table_row(row: etree._Element) -> str:
     return f"<tr>{''.join(cells)}</tr>"
 
 
+def _format_author_name(contrib: etree._Element) -> str:
+    name_el = contrib.find("./{*}name")
+    if name_el is None:
+        collab = contrib.find("./{*}collab")
+        return _text_content(collab) if collab is not None else ""
+    given = name_el.findtext("./{*}given-names") or ""
+    surname = name_el.findtext("./{*}surname") or ""
+    full = f"{given} {surname}".strip()
+    return full or _text_content(name_el)
+
+
+def _author_aff_markers(contrib: etree._Element) -> str:
+    marks: List[str] = []
+    for xref in contrib.findall("./{*}xref"):
+        ref_type = xref.get("ref-type") or ""
+        if ref_type in ("aff", "corresp", "author-notes"):
+            marks.append(_text_content(xref) or xref.get("rid") or "")
+    marks = [m for m in marks if m]
+    if not marks:
+        return ""
+    return "<sup>" + ",".join(html.escape(m) for m in marks) + "</sup>"
+
+
+def _render_front_matter(root: etree._Element) -> str:
+    """Authors, affiliations, journal, ids, dates from ``<front>``."""
+    front = root.find(".//{*}front")
+    if front is None:
+        return ""
+
+    parts: List[str] = []
+
+    journal = front.findtext(".//{*}journal-title") or ""
+    if journal:
+        parts.append(
+            f'<p class="journal"><em>{html.escape(journal.strip())}</em></p>'
+        )
+
+    meta_bits: List[str] = []
+    for pub_id_type, label in (
+        ("doi", "DOI"),
+        ("pmid", "PMID"),
+        ("pmcid", "PMCID"),
+    ):
+        for aid in front.findall(".//{*}article-id"):
+            if aid.get("pub-id-type") == pub_id_type and (aid.text or "").strip():
+                meta_bits.append(
+                    f"{label}: {html.escape(aid.text.strip())}"
+                )
+                break
+    pub_date = front.find(".//{*}pub-date")
+    if pub_date is not None:
+        y = pub_date.findtext("./{*}year") or ""
+        m = pub_date.findtext("./{*}month") or ""
+        d = pub_date.findtext("./{*}day") or ""
+        date_s = "-".join(p for p in (y, m.zfill(2) if m else "", d.zfill(2) if d else "") if p)
+        if date_s:
+            meta_bits.append(f"Published: {html.escape(date_s)}")
+    if meta_bits:
+        parts.append(f'<p class="meta ids">{" | ".join(meta_bits)}</p>')
+
+    authors: List[str] = []
+    for group in front.findall(".//{*}contrib-group"):
+        for contrib in group.findall("./{*}contrib"):
+            # Skip non-author contribs when typed
+            ctype = (contrib.get("contrib-type") or "author").lower()
+            if ctype not in ("author", ""):
+                continue
+            name = _format_author_name(contrib)
+            if not name:
+                continue
+            authors.append(
+                f'<span class="author">{html.escape(name)}'
+                f"{_author_aff_markers(contrib)}</span>"
+            )
+    if authors:
+        parts.append(
+            '<p class="authors">' + ", ".join(authors) + "</p>"
+        )
+
+    affs: List[str] = []
+    for aff in front.findall(".//{*}aff"):
+        aff_id = aff.get("id") or ""
+        label_el = aff.find("./{*}label")
+        label = _inline_html(label_el) if label_el is not None else ""
+        # Clone-ish: text without re-emitting label twice
+        body = _text_content(aff)
+        if label_el is not None:
+            label_plain = _text_content(label_el)
+            if body.startswith(label_plain):
+                body = body[len(label_plain) :].lstrip()
+        affs.append(
+            f'<li id="{html.escape(aff_id)}">{label} {html.escape(body)}</li>'
+        )
+    if affs:
+        parts.append('<ol class="affiliations">' + "".join(affs) + "</ol>")
+
+    notes = front.find(".//{*}author-notes")
+    if notes is not None:
+        note_bits: List[str] = []
+        for fn in notes.findall("./{*}fn"):
+            note_bits.append(f"<li>{_inline_html(fn)}</li>")
+        if note_bits:
+            parts.append(
+                '<ul class="author-notes">' + "".join(note_bits) + "</ul>"
+            )
+
+    if not parts:
+        return ""
+    return '<section class="front-matter">' + "".join(parts) + "</section>"
+
+
 def convert_xml_to_html(
     xml_path: Path,
     html_path: Path,
@@ -204,8 +324,20 @@ def convert_xml_to_html(
         _text_content(title_elem) if title_elem is not None else xml_path.stem
     )
 
-    abstract_elem = root.find(".//{*}abstract")
-    abstract_html = _inline_html(abstract_elem) if abstract_elem is not None else ""
+    # Prefer the main abstract (skip teaser / graphical when typed)
+    abstract_html = ""
+    for abstract_elem in root.findall(".//{*}abstract"):
+        atype = (abstract_elem.get("abstract-type") or "").lower()
+        if atype in ("teaser", "graphical", "summary"):
+            continue
+        abstract_html = _inline_html(abstract_elem)
+        break
+    if not abstract_html:
+        abstract_elem = root.find(".//{*}abstract")
+        if abstract_elem is not None:
+            abstract_html = _inline_html(abstract_elem)
+
+    front_html = _render_front_matter(root)
 
     body_parts: List[str] = []
     body = root.find(".//{*}body")
@@ -226,12 +358,17 @@ def convert_xml_to_html(
 <style>
 body {{ font-family: Georgia, serif; max-width: 900px; margin: 2rem auto; line-height: 1.5; }}
 h1 {{ font-size: 1.6rem; }}
+.front-matter {{ margin: 1rem 0 1.5rem; }}
+.authors {{ margin: 0.5rem 0; }}
+.affiliations {{ font-size: 0.9rem; color: #444; }}
+.author-notes {{ font-size: 0.85rem; color: #555; }}
 .pmc-figure, .pmc-table-wrap {{ margin: 1.5rem 0; border: 1px solid #ddd; padding: 1rem; }}
 .pmc-figure img, .pmc-table-wrap img {{ max-width: 100%; height: auto; }}
 .table-label, .figure-label {{ font-weight: bold; }}
 table {{ border-collapse: collapse; width: 100%; }}
 th, td {{ border: 1px solid #ccc; padding: 0.4rem 0.6rem; text-align: left; }}
 .meta {{ color: #555; font-size: 0.9rem; }}
+.abstract-block {{ margin: 1rem 0; }}
 </style>
 </head>
 <body>
@@ -239,6 +376,7 @@ th, td {{ border: 1px solid #ccc; padding: 0.4rem 0.6rem; text-align: left; }}
 <h1>{html.escape(title)}</h1>
 <p class="meta">Figures: {figure_count} | Tables: {table_count} | Source: {html.escape(xml_path.name)}</p>
 </header>
+{front_html}
 <section class="abstract">{abstract_html}</section>
 <main>{"".join(body_parts)}</main>
 </body>

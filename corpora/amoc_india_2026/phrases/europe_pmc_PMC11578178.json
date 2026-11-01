@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC11578178",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.1
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 2.3
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.9
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.7
+    },
+    {
+      "phrase": "irminger basin",
+      "display": "Irminger Basin",
+      "score": 1.4
+    },
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 1.4
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 1.4
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.8
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.45
+    },
+    {
+      "phrase": "mht",
+      "display": "MHT",
+      "score": 1.42
+    },
+    {
+      "phrase": "water-hosing",
+      "score": 0.0395,
+      "display": "water-hosing"
+    },
+    {
+      "phrase": "water-hosing experiments",
+      "score": 0.0379,
+      "display": "water-hosing experiments"
+    },
+    {
+      "phrase": "strongest decline",
+      "score": 0.0338,
+      "display": "strongest decline"
+    },
+    {
+      "phrase": "irminger",
+      "score": 0.0331,
+      "display": "Irminger"
+    },
+    {
+      "phrase": "heterogeneous",
+      "score": 0.0331,
+      "display": "Heterogeneous"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

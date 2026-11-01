@@ -1,6 +1,7 @@
 """End-to-end AQI corpus review workflow helpers."""
 
 import json
+import sys
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
@@ -34,11 +35,23 @@ def run_repository_search(
     formats: List[str],
     start_date: str = None,
     end_date: str = None,
+    report_ids: bool = True,
 ) -> Tuple[List[Dict[str, Any]], int]:
-    """Search and download via semantic_corpus repository; return results and download count."""
+    """Search and download via semantic_corpus repository; return results and download count.
+
+    When ``report_ids`` is True (default), prints a line-wrapped space-separated
+    list of short ids (e.g. PMCIDs) instead of per-paper INFO lines.
+    """
+    from semantic_corpus.repositories._ids import (
+        paper_documents_present,
+        short_display_id,
+    )
+    from semantic_corpus.utils import print_id_list
+
     repo = RepositoryFactory.get_repository(repository)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    Path(output_dir, "documents").mkdir(parents=True, exist_ok=True)
 
     # When requesting downloadable formats (e.g. PDF), search for extra candidates
     # so we can collect up to `limit` papers that actually download the requested formats.
@@ -56,20 +69,40 @@ def run_repository_search(
     )
     downloaded_count = 0
     successful_results: List[Dict[str, Any]] = []
+    downloaded_labels: List[str] = []
+    skipped_labels: List[str] = []
 
     for paper in results:
         paper_id = get_result_paper_id(paper)
         if not paper_id:
             continue
+        label = short_display_id(paper) or short_display_id(paper_id)
         try:
+            if paper_documents_present(output_dir, paper_id, formats):
+                # Already on disk (./documents, flat query dir, or BAGIT data/documents)
+                downloaded_count += 1
+                successful_results.append(paper)
+                skipped_labels.append(label)
+                if downloaded_count >= limit:
+                    break
+                continue
+
             dl = repo.download_paper(paper_id, output_dir, formats)
             if dl.get("success"):
                 downloaded_count += 1
                 successful_results.append(paper)
+                downloaded_labels.append(label)
                 if downloaded_count >= limit:
                     break
         except Exception:
             continue
+
+    if report_ids and skipped_labels:
+        print("skip (present):", file=sys.stderr)
+        print_id_list(skipped_labels)
+    if report_ids and downloaded_labels:
+        print("downloaded:", file=sys.stderr)
+        print_id_list(downloaded_labels)
 
     final_results = successful_results if successful_results else results[:limit]
     return final_results, downloaded_count

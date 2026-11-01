@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC12541040",
+  "pmid": "41120588",
+  "title": "Effect of stratospheric aerosol injection on marine heatwave events off the coast of South Africa.",
+  "abstract": "How to mitigate the negative effects of global warming is one of the most challenging issues of our time. Stratospheric Aerosol Intervention (SAI) may help reduce these effects, but its impact on extreme sea surface temperature events like marine heatwaves (MHWs) remains uncertain, particularly in productive areas such as the Agulhas Bank (AB) in the southern coast of South Africa. This study investigates to what extent the SAI can mitigate the impacts of global warming on MHW metrics (frequency, duration, intensity, and cumulative intensity) in the AB. We used ARISE-SAI-1.5 simulations, aimed to limit the future global mean surface temperature to 1.5 °C above pre-industrial levels, to calculate the MHW metrics and compare them to those of the SSP2-4.5 simulations under global warming. Our results show that, under global warming, MHW frequency, duration and intensity are projected to increase with the maximum increase up to 150%, 200%, and 15%, respectively. Under the SAI, the changes in these metrics are mitigated; specifically, in the AB region. To understand these decreases, particularly in the AB region, we applied a machine learning approach, the self-organizing map, to the sea surface temperature (SST) anomaly patterns associated with MHW events in the AB region, where anomalies exceed 0.5 °C and cover at least 95% of the area in both the ARISE-SAI-1.5 and SSP2-4.5 simulations. The results reveal nine dominant patterns of SST anomalies, with SAI offsetting climate change impacts in certain patterns, particularly those showing cooling that extends from the south and west toward the AB region, potentially benefiting the productivity of the South African coast.",
+  "authors": [
+    "Dimoune DM",
+    "Abiodun BJ",
+    "Ostrowski M",
+    "Awo FM",
+    "Tomety FS",
+    "Samuelsen A",
+    "Halo I",
+    "Ansorge I"
+  ],
+  "publication_date": "2025-10-21",
+  "journal": "",
+  "doi": "10.1038/s41598-025-20672-9",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41598-025-20672-9"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12541040"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12541040?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

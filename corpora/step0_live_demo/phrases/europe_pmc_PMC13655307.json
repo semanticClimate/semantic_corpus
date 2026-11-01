@@ -1,0 +1,62 @@
+{
+  "paper_id": "europe_pmc_PMC13655307",
+  "phrases": [
+    {
+      "phrase": "marine heatwave",
+      "score": 0.012602360123953448
+    },
+    {
+      "phrase": "syndiniales prevalence",
+      "score": 0.02140921543860024
+    },
+    {
+      "phrase": "prevalence in protist",
+      "score": 0.02140921543860024
+    },
+    {
+      "phrase": "protist communities",
+      "score": 0.02140921543860024
+    },
+    {
+      "phrase": "shift towards syndiniales",
+      "score": 0.023458380875189744
+    },
+    {
+      "phrase": "heatwave",
+      "score": 0.08596317751626563
+    },
+    {
+      "phrase": "syndiniales",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "prevalence",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "protist",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "communities",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "marine",
+      "score": 0.1447773057422032
+    },
+    {
+      "phrase": "shift",
+      "score": 0.15831692877998726
+    }
+  ],
+  "phrase_count": 12,
+  "text_source": "title+abstract",
+  "params": {
+    "lan": "en",
+    "n": 3,
+    "top": 15,
+    "text_fields": "title+abstract"
+  },
+  "elapsed_s": 0.0005
+}

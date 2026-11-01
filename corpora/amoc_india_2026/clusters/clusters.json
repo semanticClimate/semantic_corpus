@@ -1,0 +1,2852 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "Northern Hemisphere; South America; United States; FWI; Young Dryas",
+      "paper_count": 4,
+      "term_count": 53,
+      "paper_ids": [
+        "europe_pmc_PMC11971521",
+        "europe_pmc_PMC12474537",
+        "europe_pmc_PMC12787522",
+        "europe_pmc_PMC9893456"
+      ],
+      "terms": [
+        {
+          "phrase": "northern hemisphere",
+          "display": "Northern Hemisphere",
+          "weight": 3.7
+        },
+        {
+          "phrase": "south america",
+          "display": "South America",
+          "weight": 3.7
+        },
+        {
+          "phrase": "united states",
+          "display": "United States",
+          "weight": 3.7
+        },
+        {
+          "phrase": "fwi",
+          "display": "FWI",
+          "weight": 2.56
+        },
+        {
+          "phrase": "young dryas",
+          "display": "Young Dryas",
+          "weight": 2.3
+        },
+        {
+          "phrase": "nld",
+          "display": "NLD",
+          "weight": 2.12
+        },
+        {
+          "phrase": "central america",
+          "display": "Central America",
+          "weight": 1.8
+        },
+        {
+          "phrase": "icv",
+          "display": "ICV",
+          "weight": 1.66
+        },
+        {
+          "phrase": "saharan africa",
+          "display": "Saharan Africa",
+          "weight": 1.6
+        },
+        {
+          "phrase": "les",
+          "display": "LEs",
+          "weight": 1.46
+        },
+        {
+          "phrase": "zeroe",
+          "display": "ZeroE",
+          "weight": 1.44
+        },
+        {
+          "phrase": "nege",
+          "display": "NegE",
+          "weight": 1.36
+        },
+        {
+          "phrase": "southern oscillation",
+          "display": "Southern Oscillation",
+          "weight": 1.3
+        },
+        {
+          "phrase": "peg",
+          "display": "PEG",
+          "weight": 1.26
+        },
+        {
+          "phrase": "amazon basin",
+          "display": "Amazon Basin",
+          "weight": 1.2
+        },
+        {
+          "phrase": "arg and asp",
+          "display": "Arg and Asp",
+          "weight": 1.2
+        },
+        {
+          "phrase": "europe and north america",
+          "display": "Europe and North America",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ff",
+          "display": "FF",
+          "weight": 1.2
+        },
+        {
+          "phrase": "global observatory for accurate livestock sciences",
+          "display": "Global Observatory for Accurate Livestock Sciences",
+          "weight": 1.2
+        },
+        {
+          "phrase": "peer ederer",
+          "display": "Peer Ederer",
+          "weight": 1.2
+        },
+        {
+          "phrase": "see methodology and supplementary information",
+          "display": "See Methodology and Supplementary Information",
+          "weight": 1.2
+        },
+        {
+          "phrase": "taras iliushyk",
+          "display": "Taras Iliushyk",
+          "weight": 1.2
+        },
+        {
+          "phrase": "fmoc",
+          "display": "Fmoc",
+          "weight": 1.18
+        },
+        {
+          "phrase": "dryas",
+          "display": "Dryas",
+          "weight": 1.14
+        },
+        {
+          "phrase": "nls",
+          "display": "NLS",
+          "weight": 1.14
+        },
+        {
+          "phrase": "young",
+          "display": "Young",
+          "weight": 1.14
+        },
+        {
+          "phrase": "american chemical society",
+          "display": "American Chemical Society",
+          "weight": 1.1
+        },
+        {
+          "phrase": "atrix laboratories",
+          "display": "Atrix Laboratories",
+          "weight": 1.1
+        },
+        {
+          "phrase": "network analysis and synchronization phenomena",
+          "display": "Network Analysis and Synchronization Phenomena",
+          "weight": 1.1
+        },
+        {
+          "phrase": "nguyen and west",
+          "display": "Nguyen and West",
+          "weight": 1.1
+        },
+        {
+          "phrase": "peter and clark momentary conditional independence",
+          "display": "Peter and Clark Momentary Conditional Independence",
+          "weight": 1.1
+        },
+        {
+          "phrase": "southern research institute in birmingham",
+          "display": "Southern Research Institute in Birmingham",
+          "weight": 1.1
+        },
+        {
+          "phrase": "vipont research laboratories",
+          "display": "Vipont Research Laboratories",
+          "weight": 1.1
+        },
+        {
+          "phrase": "hydrogels",
+          "display": "HydroGels",
+          "weight": 0.0514
+        },
+        {
+          "phrase": "methane",
+          "display": "Methane",
+          "weight": 0.0505
+        },
+        {
+          "phrase": "hydrogel",
+          "display": "hydrogel",
+          "weight": 0.0501
+        },
+        {
+          "phrase": "methane concentrations",
+          "display": "Methane concentrations",
+          "weight": 0.0462
+        },
+        {
+          "phrase": "danger",
+          "display": "danger",
+          "weight": 0.0451
+        },
+        {
+          "phrase": "zeroe scenario",
+          "display": "ZeroE scenario",
+          "weight": 0.0442
+        },
+        {
+          "phrase": "injectable",
+          "display": "Injectable",
+          "weight": 0.0425
+        },
+        {
+          "phrase": "peptide",
+          "display": "Peptide",
+          "weight": 0.0423
+        },
+        {
+          "phrase": "drug",
+          "display": "Drug",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "dangers",
+          "display": "dangers",
+          "weight": 0.0406
+        },
+        {
+          "phrase": "today",
+          "display": "today",
+          "weight": 0.0406
+        },
+        {
+          "phrase": "nege scenario",
+          "display": "NegE scenario",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "atmospheric methane",
+          "display": "atmospheric methane",
+          "weight": 0.039
+        },
+        {
+          "phrase": "paleolithic",
+          "display": "paleolithic",
+          "weight": 0.038
+        },
+        {
+          "phrase": "relative humidity",
+          "display": "Relative humidity",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "predictability",
+          "display": "Predictability",
+          "weight": 0.0369
+        },
+        {
+          "phrase": "attractor",
+          "display": "Attractor",
+          "weight": 0.0368
+        },
+        {
+          "phrase": "climate",
+          "display": "Climate",
+          "weight": 0.0364
+        },
+        {
+          "phrase": "irreducible",
+          "display": "irreducible",
+          "weight": 0.0343
+        },
+        {
+          "phrase": "nonlinear",
+          "display": "Nonlinear",
+          "weight": 0.034
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "North Atlantic; YD; Reykjanes Ridge; ASM; SI",
+      "paper_count": 4,
+      "term_count": 48,
+      "paper_ids": [
+        "europe_pmc_PMC12064707",
+        "europe_pmc_PMC12612197",
+        "europe_pmc_PMC7519346",
+        "europe_pmc_PMC8087833"
+      ],
+      "terms": [
+        {
+          "phrase": "north atlantic",
+          "display": "North Atlantic",
+          "weight": 11.9
+        },
+        {
+          "phrase": "yd",
+          "display": "YD",
+          "weight": 4.5
+        },
+        {
+          "phrase": "reykjanes ridge",
+          "display": "Reykjanes Ridge",
+          "weight": 2.9
+        },
+        {
+          "phrase": "asm",
+          "display": "ASM",
+          "weight": 1.8
+        },
+        {
+          "phrase": "si",
+          "display": "SI",
+          "weight": 1.76
+        },
+        {
+          "phrase": "south american monsoon",
+          "display": "South American Monsoon",
+          "weight": 1.7
+        },
+        {
+          "phrase": "bp",
+          "display": "BP",
+          "weight": 1.64
+        },
+        {
+          "phrase": "furong cave",
+          "display": "Furong Cave",
+          "weight": 1.6
+        },
+        {
+          "phrase": "indian monsoon",
+          "display": "Indian Monsoon",
+          "weight": 1.6
+        },
+        {
+          "phrase": "jiaotong university",
+          "display": "Jiaotong University",
+          "weight": 1.6
+        },
+        {
+          "phrase": "isow",
+          "display": "ISOW",
+          "weight": 1.52
+        },
+        {
+          "phrase": "eirik drift",
+          "display": "Eirik Drift",
+          "weight": 1.5
+        },
+        {
+          "phrase": "seso cave",
+          "display": "Seso Cave",
+          "weight": 1.5
+        },
+        {
+          "phrase": "appendix table",
+          "display": "Appendix Table",
+          "weight": 1.4
+        },
+        {
+          "phrase": "rige cave",
+          "display": "Rige Cave",
+          "weight": 1.4
+        },
+        {
+          "phrase": "younger dryas",
+          "display": "Younger Dryas",
+          "weight": 1.4
+        },
+        {
+          "phrase": "denmark strait overflow water",
+          "display": "Denmark Strait Overflow Water",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ocean drilling program",
+          "display": "Ocean Drilling Program",
+          "weight": 1.3
+        },
+        {
+          "phrase": "older dryas",
+          "display": "Older Dryas",
+          "weight": 1.3
+        },
+        {
+          "phrase": "scotland overflow water",
+          "display": "Scotland Overflow Water",
+          "weight": 1.3
+        },
+        {
+          "phrase": "scotland ridge",
+          "display": "Scotland Ridge",
+          "weight": 1.3
+        },
+        {
+          "phrase": "south indian ocean",
+          "display": "South Indian Ocean",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ssp",
+          "display": "SSP",
+          "weight": 1.3
+        },
+        {
+          "phrase": "nadw",
+          "display": "NADW",
+          "weight": 1.22
+        },
+        {
+          "phrase": "odp",
+          "display": "ODP",
+          "weight": 1.22
+        },
+        {
+          "phrase": "area under the curve",
+          "display": "Area Under the Curve",
+          "weight": 1.2
+        },
+        {
+          "phrase": "sdms",
+          "display": "SDMs",
+          "weight": 1.14
+        },
+        {
+          "phrase": "gif",
+          "display": "GIF",
+          "weight": 1.12
+        },
+        {
+          "phrase": "ocean biogeographic information system",
+          "display": "Ocean Biogeographic Information System",
+          "weight": 1.1
+        },
+        {
+          "phrase": "amphipod",
+          "display": "amphipod",
+          "weight": 0.0483
+        },
+        {
+          "phrase": "species",
+          "display": "Species",
+          "weight": 0.048
+        },
+        {
+          "phrase": "suitable habitat",
+          "display": "Suitable habitat",
+          "weight": 0.0477
+        },
+        {
+          "phrase": "ka bp",
+          "display": "ka BP",
+          "weight": 0.0476
+        },
+        {
+          "phrase": "habitat",
+          "display": "habitat",
+          "weight": 0.0474
+        },
+        {
+          "phrase": "habitat area",
+          "display": "habitat area",
+          "weight": 0.046
+        },
+        {
+          "phrase": "stalagmite",
+          "display": "Stalagmite",
+          "weight": 0.0449
+        },
+        {
+          "phrase": "furong",
+          "display": "Furong",
+          "weight": 0.0434
+        },
+        {
+          "phrase": "ka",
+          "display": "ka",
+          "weight": 0.0428
+        },
+        {
+          "phrase": "am-aw",
+          "display": "AM-AW",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "si appendix fig",
+          "display": "si appendix fig",
+          "weight": 0.0409
+        },
+        {
+          "phrase": "fr5 record",
+          "display": "FR5 record",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "ma",
+          "display": "Ma",
+          "weight": 0.0404
+        },
+        {
+          "phrase": "sedimentation",
+          "display": "Sedimentation",
+          "weight": 0.0402
+        },
+        {
+          "phrase": "termination",
+          "display": "termination",
+          "weight": 0.0396
+        },
+        {
+          "phrase": "drift",
+          "display": "Drift",
+          "weight": 0.0395
+        },
+        {
+          "phrase": "seso",
+          "display": "Seso",
+          "weight": 0.0385
+        },
+        {
+          "phrase": "dsow",
+          "display": "DSOW",
+          "weight": 0.0371
+        },
+        {
+          "phrase": "zr",
+          "display": "Zr",
+          "weight": 0.0371
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "AMOC; Labrador Sea; Florida Current; Nordic Seas; MHT",
+      "paper_count": 4,
+      "term_count": 46,
+      "paper_ids": [
+        "europe_pmc_PMC10590663",
+        "europe_pmc_PMC10762259",
+        "europe_pmc_PMC11347556",
+        "europe_pmc_PMC11578178"
+      ],
+      "terms": [
+        {
+          "phrase": "amoc",
+          "display": "AMOC",
+          "weight": 11.08
+        },
+        {
+          "phrase": "labrador sea",
+          "display": "Labrador Sea",
+          "weight": 5.6
+        },
+        {
+          "phrase": "florida current",
+          "display": "Florida Current",
+          "weight": 5.4
+        },
+        {
+          "phrase": "nordic seas",
+          "display": "Nordic Seas",
+          "weight": 3.5
+        },
+        {
+          "phrase": "mht",
+          "display": "MHT",
+          "weight": 3.42
+        },
+        {
+          "phrase": "atlantic",
+          "display": "Atlantic",
+          "weight": 3.26
+        },
+        {
+          "phrase": "gulf stream",
+          "display": "Gulf Stream",
+          "weight": 2.9
+        },
+        {
+          "phrase": "fram strait",
+          "display": "Fram Strait",
+          "weight": 2.6
+        },
+        {
+          "phrase": "atlantic and arctic",
+          "display": "Atlantic and Arctic",
+          "weight": 1.9
+        },
+        {
+          "phrase": "irminger sea",
+          "display": "Irminger Sea",
+          "weight": 1.7
+        },
+        {
+          "phrase": "pw",
+          "display": "PW",
+          "weight": 1.64
+        },
+        {
+          "phrase": "aas",
+          "display": "AAs",
+          "weight": 1.6
+        },
+        {
+          "phrase": "south and east asia",
+          "display": "South and East Asia",
+          "weight": 1.6
+        },
+        {
+          "phrase": "south atlantic",
+          "display": "South Atlantic",
+          "weight": 1.6
+        },
+        {
+          "phrase": "atlantic meridional overturning circulation",
+          "display": "Atlantic Meridional Overturning Circulation",
+          "weight": 1.5
+        },
+        {
+          "phrase": "denmark strait",
+          "display": "Denmark Strait",
+          "weight": 1.5
+        },
+        {
+          "phrase": "east greenland current",
+          "display": "East Greenland Current",
+          "weight": 1.5
+        },
+        {
+          "phrase": "north atlantic oscillation",
+          "display": "North Atlantic Oscillation",
+          "weight": 1.5
+        },
+        {
+          "phrase": "norwegian atlantic slope current",
+          "display": "Norwegian Atlantic Slope Current",
+          "weight": 1.5
+        },
+        {
+          "phrase": "subpolar north atlantic ocean",
+          "display": "Subpolar North Atlantic Ocean",
+          "weight": 1.5
+        },
+        {
+          "phrase": "wmt",
+          "display": "WMT",
+          "weight": 1.5
+        },
+        {
+          "phrase": "irminger basin",
+          "display": "Irminger Basin",
+          "weight": 1.4
+        },
+        {
+          "phrase": "pacific ocean",
+          "display": "Pacific Ocean",
+          "weight": 1.4
+        },
+        {
+          "phrase": "deep western boundary current",
+          "display": "Deep Western Boundary Current",
+          "weight": 1.3
+        },
+        {
+          "phrase": "straits of florida",
+          "display": "Straits of Florida",
+          "weight": 1.3
+        },
+        {
+          "phrase": "caribbean sea and gulf of mexico",
+          "display": "Caribbean Sea and Gulf of Mexico",
+          "weight": 1.2
+        },
+        {
+          "phrase": "florida",
+          "display": "Florida",
+          "weight": 0.0443
+        },
+        {
+          "phrase": "arctic waters",
+          "display": "Arctic waters",
+          "weight": 0.0435
+        },
+        {
+          "phrase": "eastern spna",
+          "display": "eastern SPNA",
+          "weight": 0.0427
+        },
+        {
+          "phrase": "spna",
+          "display": "SPNA",
+          "weight": 0.0426
+        },
+        {
+          "phrase": "asian aas",
+          "display": "Asian AAs",
+          "weight": 0.0421
+        },
+        {
+          "phrase": "atlantic waters",
+          "display": "Atlantic waters",
+          "weight": 0.0421
+        },
+        {
+          "phrase": "lower limb",
+          "display": "lower limb",
+          "weight": 0.0415
+        },
+        {
+          "phrase": "water-hosing",
+          "display": "water-hosing",
+          "weight": 0.0395
+        },
+        {
+          "phrase": "increased asian",
+          "display": "increased Asian",
+          "weight": 0.0392
+        },
+        {
+          "phrase": "increased asian aas",
+          "display": "increased Asian AAs",
+          "weight": 0.038
+        },
+        {
+          "phrase": "water-hosing experiments",
+          "display": "water-hosing experiments",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "minimal",
+          "display": "minimal",
+          "weight": 0.0377
+        },
+        {
+          "phrase": "mid-ocean",
+          "display": "Mid-ocean",
+          "weight": 0.0376
+        },
+        {
+          "phrase": "gyre",
+          "display": "gyre",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "ekman",
+          "display": "Ekman",
+          "weight": 0.0362
+        },
+        {
+          "phrase": "labrador",
+          "display": "Labrador",
+          "weight": 0.0353
+        },
+        {
+          "phrase": "transport",
+          "display": "transport",
+          "weight": 0.034
+        },
+        {
+          "phrase": "strongest decline",
+          "display": "strongest decline",
+          "weight": 0.0338
+        },
+        {
+          "phrase": "heterogeneous",
+          "display": "Heterogeneous",
+          "weight": 0.0331
+        },
+        {
+          "phrase": "irminger",
+          "display": "Irminger",
+          "weight": 0.0331
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "SST; West Africa; WAMR; Paris Agreement; China",
+      "paper_count": 4,
+      "term_count": 42,
+      "paper_ids": [
+        "europe_pmc_PMC10899366",
+        "europe_pmc_PMC11197784",
+        "europe_pmc_PMC12181172",
+        "europe_pmc_PMC13148317"
+      ],
+      "terms": [
+        {
+          "phrase": "sst",
+          "display": "SST",
+          "weight": 3.88
+        },
+        {
+          "phrase": "west africa",
+          "display": "West Africa",
+          "weight": 3.6
+        },
+        {
+          "phrase": "wamr",
+          "display": "WAMR",
+          "weight": 3.54
+        },
+        {
+          "phrase": "paris agreement",
+          "display": "Paris Agreement",
+          "weight": 2.9
+        },
+        {
+          "phrase": "china",
+          "display": "China",
+          "weight": 2.63
+        },
+        {
+          "phrase": "mediterranean sea",
+          "display": "Mediterranean Sea",
+          "weight": 2.5
+        },
+        {
+          "phrase": "easm",
+          "display": "EASM",
+          "weight": 2.2
+        },
+        {
+          "phrase": "taiping rebellion",
+          "display": "Taiping Rebellion",
+          "weight": 2.1
+        },
+        {
+          "phrase": "ipsl",
+          "display": "IPSL",
+          "weight": 1.86
+        },
+        {
+          "phrase": "west african",
+          "display": "West African",
+          "weight": 1.8
+        },
+        {
+          "phrase": "fast fourier transform",
+          "display": "Fast Fourier Transform",
+          "weight": 1.5
+        },
+        {
+          "phrase": "yangtze river basin",
+          "display": "Yangtze River Basin",
+          "weight": 1.5
+        },
+        {
+          "phrase": "new insights",
+          "display": "New Insights",
+          "weight": 1.4
+        },
+        {
+          "phrase": "strong la",
+          "display": "Strong La",
+          "weight": 1.4
+        },
+        {
+          "phrase": "daoguan cave",
+          "display": "Daoguan Cave",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ipcc",
+          "display": "IPCC",
+          "weight": 1.26
+        },
+        {
+          "phrase": "pacific and atlantic",
+          "display": "Pacific and Atlantic",
+          "weight": 1.2
+        },
+        {
+          "phrase": "royal observatory of belgium",
+          "display": "Royal Observatory of Belgium",
+          "weight": 1.2
+        },
+        {
+          "phrase": "web of science core collection",
+          "display": "Web of Science Core Collection",
+          "weight": 1.2
+        },
+        {
+          "phrase": "mrh",
+          "display": "MRH",
+          "weight": 1.16
+        },
+        {
+          "phrase": "ghg",
+          "display": "GHG",
+          "weight": 1.14
+        },
+        {
+          "phrase": "carbon dioxide removal model comparison program",
+          "display": "Carbon Dioxide Removal Model Comparison Program",
+          "weight": 1.1
+        },
+        {
+          "phrase": "intended nationally determined contributions",
+          "display": "Intended Nationally Determined Contributions",
+          "weight": 1.1
+        },
+        {
+          "phrase": "world climate research programme",
+          "display": "World Climate Research Programme",
+          "weight": 1.1
+        },
+        {
+          "phrase": "carbon neutrality",
+          "display": "Carbon neutrality",
+          "weight": 0.0591
+        },
+        {
+          "phrase": "neutrality",
+          "display": "neutrality",
+          "weight": 0.0573
+        },
+        {
+          "phrase": "carbon",
+          "display": "Carbon",
+          "weight": 0.0515
+        },
+        {
+          "phrase": "climate carbon",
+          "display": "climate carbon",
+          "weight": 0.0502
+        },
+        {
+          "phrase": "carbon-neutral",
+          "display": "Carbon-neutral",
+          "weight": 0.0495
+        },
+        {
+          "phrase": "interannual-to-decadal",
+          "display": "Interannual-to-decadal",
+          "weight": 0.0426
+        },
+        {
+          "phrase": "taiping",
+          "display": "Taiping",
+          "weight": 0.0422
+        },
+        {
+          "phrase": "interannual-to-decadal variability",
+          "display": "Interannual-to-decadal variability",
+          "weight": 0.042
+        },
+        {
+          "phrase": "wamr sst",
+          "display": "wamr sst",
+          "weight": 0.0416
+        },
+        {
+          "phrase": "rebellion",
+          "display": "Rebellion",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "eof",
+          "display": "EOF",
+          "weight": 0.0406
+        },
+        {
+          "phrase": "dg7 record",
+          "display": "DG7 record",
+          "weight": 0.0404
+        },
+        {
+          "phrase": "northern china",
+          "display": "northern China",
+          "weight": 0.0403
+        },
+        {
+          "phrase": "sst indices",
+          "display": "SST indices",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "solar",
+          "display": "Solar",
+          "weight": 0.0368
+        },
+        {
+          "phrase": "aerosol",
+          "display": "Aerosol",
+          "weight": 0.0345
+        },
+        {
+          "phrase": "emissions",
+          "display": "Emissions",
+          "weight": 0.0341
+        },
+        {
+          "phrase": "habitability",
+          "display": "Habitability",
+          "weight": 0.0323
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "theme": "Tibetan Plateau; TP; East Asian; DO; South Asian",
+      "paper_count": 4,
+      "term_count": 40,
+      "paper_ids": [
+        "europe_pmc_PMC11697416",
+        "europe_pmc_PMC12379145",
+        "europe_pmc_PMC13594180",
+        "europe_pmc_PMC8906512"
+      ],
+      "terms": [
+        {
+          "phrase": "tibetan plateau",
+          "display": "Tibetan Plateau",
+          "weight": 8.8
+        },
+        {
+          "phrase": "tp",
+          "display": "TP",
+          "weight": 6.3
+        },
+        {
+          "phrase": "east asian",
+          "display": "East Asian",
+          "weight": 4.4
+        },
+        {
+          "phrase": "do",
+          "display": "DO",
+          "weight": 3.2
+        },
+        {
+          "phrase": "south asian",
+          "display": "South Asian",
+          "weight": 2.9
+        },
+        {
+          "phrase": "southeast china",
+          "display": "Southeast China",
+          "weight": 2.3
+        },
+        {
+          "phrase": "iranian plateau",
+          "display": "Iranian Plateau",
+          "weight": 1.9
+        },
+        {
+          "phrase": "sh",
+          "display": "SH",
+          "weight": 1.84
+        },
+        {
+          "phrase": "ism",
+          "display": "ISM",
+          "weight": 1.72
+        },
+        {
+          "phrase": "northern westerlies",
+          "display": "Northern Westerlies",
+          "weight": 1.6
+        },
+        {
+          "phrase": "asian",
+          "display": "Asian",
+          "weight": 1.58
+        },
+        {
+          "phrase": "greenland interstadials",
+          "display": "Greenland Interstadials",
+          "weight": 1.5
+        },
+        {
+          "phrase": "lst",
+          "display": "LST",
+          "weight": 1.5
+        },
+        {
+          "phrase": "bay of bengal",
+          "display": "Bay of Bengal",
+          "weight": 1.4
+        },
+        {
+          "phrase": "foraminiferal mg",
+          "display": "Foraminiferal Mg",
+          "weight": 1.4
+        },
+        {
+          "phrase": "siberian caves",
+          "display": "Siberian Caves",
+          "weight": 1.4
+        },
+        {
+          "phrase": "source data",
+          "display": "Source Data",
+          "weight": 1.4
+        },
+        {
+          "phrase": "surface temperature",
+          "display": "Surface Temperature",
+          "weight": 1.4
+        },
+        {
+          "phrase": "siberian and canadian",
+          "display": "Siberian and Canadian",
+          "weight": 1.3
+        },
+        {
+          "phrase": "tianmen cave",
+          "display": "Tianmen Cave",
+          "weight": 1.3
+        },
+        {
+          "phrase": "western north pacific",
+          "display": "Western North Pacific",
+          "weight": 1.3
+        },
+        {
+          "phrase": "permafrost",
+          "display": "Permafrost",
+          "weight": 0.0468
+        },
+        {
+          "phrase": "permafrost thawing",
+          "display": "permafrost thawing",
+          "weight": 0.0449
+        },
+        {
+          "phrase": "thawing",
+          "display": "thawing",
+          "weight": 0.0436
+        },
+        {
+          "phrase": "circumarctic",
+          "display": "circumarctic",
+          "weight": 0.0425
+        },
+        {
+          "phrase": "overshoot",
+          "display": "Overshoot",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "do-15",
+          "display": "DO-15",
+          "weight": 0.0398
+        },
+        {
+          "phrase": "circumarctic permafrost",
+          "display": "circumarctic permafrost",
+          "weight": 0.0389
+        },
+        {
+          "phrase": "kyr",
+          "display": "Kyr",
+          "weight": 0.0383
+        },
+        {
+          "phrase": "heating",
+          "display": "heating",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "interstadials",
+          "display": "Interstadials",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "monsoon",
+          "display": "Monsoon",
+          "weight": 0.0372
+        },
+        {
+          "phrase": "mjjas",
+          "display": "MJJAS",
+          "weight": 0.0369
+        },
+        {
+          "phrase": "cave",
+          "display": "Cave",
+          "weight": 0.0362
+        },
+        {
+          "phrase": "overshoot phases",
+          "display": "Overshoot phases",
+          "weight": 0.035
+        },
+        {
+          "phrase": "monsoon precipitation",
+          "display": "monsoon Precipitation",
+          "weight": 0.0347
+        },
+        {
+          "phrase": "pacing",
+          "display": "pacing",
+          "weight": 0.0343
+        },
+        {
+          "phrase": "ahs",
+          "display": "AHS",
+          "weight": 0.033
+        },
+        {
+          "phrase": "tp heating",
+          "display": "TP heating",
+          "weight": 0.033
+        },
+        {
+          "phrase": "unit",
+          "display": "unit",
+          "weight": 0.0316
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "theme": "DNA; Elbe Estuary; RNA; Chipasa and Medrzycka; Hamburg Harbor",
+      "paper_count": 3,
+      "term_count": 40,
+      "paper_ids": [
+        "europe_pmc_PMC11294940",
+        "europe_pmc_PMC12713726",
+        "europe_pmc_PMC13390420"
+      ],
+      "terms": [
+        {
+          "phrase": "dna",
+          "display": "DNA",
+          "weight": 3.96
+        },
+        {
+          "phrase": "elbe estuary",
+          "display": "Elbe Estuary",
+          "weight": 2.7
+        },
+        {
+          "phrase": "rna",
+          "display": "RNA",
+          "weight": 1.38
+        },
+        {
+          "phrase": "chipasa and medrzycka",
+          "display": "Chipasa and Medrzycka",
+          "weight": 1.3
+        },
+        {
+          "phrase": "hamburg harbor",
+          "display": "Hamburg Harbor",
+          "weight": 1.3
+        },
+        {
+          "phrase": "north sea",
+          "display": "North Sea",
+          "weight": 1.3
+        },
+        {
+          "phrase": "amgs",
+          "display": "AMGs",
+          "weight": 1.22
+        },
+        {
+          "phrase": "elbe",
+          "display": "Elbe",
+          "weight": 1.21
+        },
+        {
+          "phrase": "estuary",
+          "display": "Estuary",
+          "weight": 1.21
+        },
+        {
+          "phrase": "atacama desert",
+          "display": "Atacama Desert",
+          "weight": 1.2
+        },
+        {
+          "phrase": "great salt lake",
+          "display": "Great Salt Lake",
+          "weight": 1.2
+        },
+        {
+          "phrase": "megaviricetes and maverivicetes",
+          "display": "Megaviricetes and Maverivicetes",
+          "weight": 1.2
+        },
+        {
+          "phrase": "thauera",
+          "display": "Thauera",
+          "weight": 1.19
+        },
+        {
+          "phrase": "kegg",
+          "display": "KEGG",
+          "weight": 1.18
+        },
+        {
+          "phrase": "big fantastic virus database",
+          "display": "Big Fantastic Virus Database",
+          "weight": 1.1
+        },
+        {
+          "phrase": "candidatus methanoperedens",
+          "display": "Candidatus Methanoperedens",
+          "weight": 1.1
+        },
+        {
+          "phrase": "database of virus orthologous groups",
+          "display": "Database of Virus Orthologous Groups",
+          "weight": 1.1
+        },
+        {
+          "phrase": "integrated microbial genomes and microbiomes",
+          "display": "Integrated Microbial Genomes and Microbiomes",
+          "weight": 1.1
+        },
+        {
+          "phrase": "library preparation kit",
+          "display": "Library Preparation Kit",
+          "weight": 1.1
+        },
+        {
+          "phrase": "nitrosomonas and nitrosospira",
+          "display": "Nitrosomonas and Nitrosospira",
+          "weight": 1.1
+        },
+        {
+          "phrase": "nitrososphaerales and rhizobiales",
+          "display": "Nitrososphaerales and Rhizobiales",
+          "weight": 1.1
+        },
+        {
+          "phrase": "ottowia and arenimonas",
+          "display": "Ottowia and Arenimonas",
+          "weight": 1.1
+        },
+        {
+          "phrase": "prokaryotic virus remote homologous groups",
+          "display": "Prokaryotic Virus Remote Homologous Groups",
+          "weight": 1.1
+        },
+        {
+          "phrase": "sayana and sirajudheen",
+          "display": "Sayana and Sirajudheen",
+          "weight": 1.1
+        },
+        {
+          "phrase": "shanmugam and barbara",
+          "display": "Shanmugam and Barbara",
+          "weight": 1.1
+        },
+        {
+          "phrase": "viral dark matter across diverse ecosystems",
+          "display": "Viral Dark Matter Across Diverse Ecosystems",
+          "weight": 1.1
+        },
+        {
+          "phrase": "virus orthologous groups database",
+          "display": "Virus Orthologous Groups Database",
+          "weight": 1.1
+        },
+        {
+          "phrase": "viral",
+          "display": "Viral",
+          "weight": 0.1003
+        },
+        {
+          "phrase": "viruses",
+          "display": "Viruses",
+          "weight": 0.0892
+        },
+        {
+          "phrase": "activated sludge",
+          "display": "Activated sludge",
+          "weight": 0.0535
+        },
+        {
+          "phrase": "sludge",
+          "display": "sludge",
+          "weight": 0.0517
+        },
+        {
+          "phrase": "activated",
+          "display": "Activated",
+          "weight": 0.051
+        },
+        {
+          "phrase": "wastewater",
+          "display": "wastewater",
+          "weight": 0.0425
+        },
+        {
+          "phrase": "fatty",
+          "display": "fatty",
+          "weight": 0.0403
+        },
+        {
+          "phrase": "proteins",
+          "display": "proteins",
+          "weight": 0.0393
+        },
+        {
+          "phrase": "viral dark",
+          "display": "Viral Dark",
+          "weight": 0.0386
+        },
+        {
+          "phrase": "viral dark matter",
+          "display": "Viral Dark Matter",
+          "weight": 0.0386
+        },
+        {
+          "phrase": "salinity",
+          "display": "Salinity",
+          "weight": 0.0382
+        },
+        {
+          "phrase": "viral communities",
+          "display": "viral communities",
+          "weight": 0.0355
+        },
+        {
+          "phrase": "hosts",
+          "display": "Hosts",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "theme": "TN; Phylogenetic Investigation of Communities; Bebber and Richards; AP; Basidiomycota and Mortierellomycota",
+      "paper_count": 3,
+      "term_count": 39,
+      "paper_ids": [
+        "europe_pmc_PMC10159062",
+        "europe_pmc_PMC13052267",
+        "europe_pmc_PMC13590715"
+      ],
+      "terms": [
+        {
+          "phrase": "tn",
+          "display": "TN",
+          "weight": 2.48
+        },
+        {
+          "phrase": "phylogenetic investigation of communities",
+          "display": "Phylogenetic Investigation of Communities",
+          "weight": 2.2
+        },
+        {
+          "phrase": "bebber and richards",
+          "display": "Bebber and Richards",
+          "weight": 1.6
+        },
+        {
+          "phrase": "ap",
+          "display": "AP",
+          "weight": 1.34
+        },
+        {
+          "phrase": "basidiomycota and mortierellomycota",
+          "display": "Basidiomycota and Mortierellomycota",
+          "weight": 1.3
+        },
+        {
+          "phrase": "hubei province",
+          "display": "Hubei Province",
+          "weight": 1.3
+        },
+        {
+          "phrase": "enebe and babalola",
+          "display": "Enebe and Babalola",
+          "weight": 1.2
+        },
+        {
+          "phrase": "experimental farm",
+          "display": "Experimental Farm",
+          "weight": 1.2
+        },
+        {
+          "phrase": "hunan province",
+          "display": "Hunan Province",
+          "weight": 1.2
+        },
+        {
+          "phrase": "sichuan province",
+          "display": "Sichuan Province",
+          "weight": 1.2
+        },
+        {
+          "phrase": "cca",
+          "display": "CCA",
+          "weight": 1.16
+        },
+        {
+          "phrase": "nmds",
+          "display": "NMDS",
+          "weight": 1.16
+        },
+        {
+          "phrase": "asvs",
+          "display": "ASVs",
+          "weight": 1.15
+        },
+        {
+          "phrase": "anova",
+          "display": "ANOVA",
+          "weight": 1.1
+        },
+        {
+          "phrase": "changlinggang forest farm in jianshi county",
+          "display": "Changlinggang Forest Farm in Jianshi County",
+          "weight": 1.1
+        },
+        {
+          "phrase": "department of agriculture crop production and rural environment",
+          "display": "Department of Agriculture Crop Production and Rural Environment",
+          "weight": 1.1
+        },
+        {
+          "phrase": "entotheonellaeota gemmatimonadetes and verrucomicrobia",
+          "display": "Entotheonellaeota Gemmatimonadetes and Verrucomicrobia",
+          "weight": 1.1
+        },
+        {
+          "phrase": "institute of parasitology and biomedicine",
+          "display": "Institute of Parasitology and Biomedicine",
+          "weight": 1.1
+        },
+        {
+          "phrase": "molecular ecological network analysis pipeline",
+          "display": "Molecular Ecological Network Analysis Pipeline",
+          "weight": 1.1
+        },
+        {
+          "phrase": "nanjing qinfeng zhongcheng biomass new materials co",
+          "display": "Nanjing Qinfeng Zhongcheng Biomass New Materials Co",
+          "weight": 1.1
+        },
+        {
+          "phrase": "quantitative insights",
+          "display": "Quantitative Insights",
+          "weight": 1.1
+        },
+        {
+          "phrase": "ruixiang polymer materials trade office",
+          "display": "Ruixiang Polymer Materials Trade Office",
+          "weight": 1.1
+        },
+        {
+          "phrase": "schimel and bennett",
+          "display": "Schimel and Bennett",
+          "weight": 1.1
+        },
+        {
+          "phrase": "shanghai personal biotechnology co",
+          "display": "Shanghai Personal Biotechnology Co",
+          "weight": 1.1
+        },
+        {
+          "phrase": "sphingomonas and lysobacter",
+          "display": "Sphingomonas and Lysobacter",
+          "weight": 1.1
+        },
+        {
+          "phrase": "wanbaoshan forest farm in longshan county",
+          "display": "Wanbaoshan Forest Farm in Longshan County",
+          "weight": 1.1
+        },
+        {
+          "phrase": "biochar",
+          "display": "Biochar",
+          "weight": 0.0616
+        },
+        {
+          "phrase": "microplastics",
+          "display": "Microplastics",
+          "weight": 0.0565
+        },
+        {
+          "phrase": "microplastic",
+          "display": "microplastic",
+          "weight": 0.0526
+        },
+        {
+          "phrase": "microplastics biochar",
+          "display": "microplastics biochar",
+          "weight": 0.0514
+        },
+        {
+          "phrase": "biochar microplastics",
+          "display": "biochar microplastics",
+          "weight": 0.048
+        },
+        {
+          "phrase": "fertilization treatments",
+          "display": "Fertilization treatments",
+          "weight": 0.0439
+        },
+        {
+          "phrase": "fertilization",
+          "display": "Fertilization",
+          "weight": 0.0437
+        },
+        {
+          "phrase": "treatments",
+          "display": "treatments",
+          "weight": 0.0419
+        },
+        {
+          "phrase": "forest",
+          "display": "Forest",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "phosphorus",
+          "display": "Phosphorus",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "near-mature",
+          "display": "Near-mature",
+          "weight": 0.0392
+        },
+        {
+          "phrase": "purslane",
+          "display": "Purslane",
+          "weight": 0.0392
+        },
+        {
+          "phrase": "stand",
+          "display": "stand",
+          "weight": 0.0381
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "theme": "Indian Ocean; Arabian Sea; South Asia; Ocean; East Asia",
+      "paper_count": 3,
+      "term_count": 34,
+      "paper_ids": [
+        "europe_pmc_PMC10964958",
+        "europe_pmc_PMC9529976",
+        "europe_pmc_PMC9729181"
+      ],
+      "terms": [
+        {
+          "phrase": "indian ocean",
+          "display": "Indian Ocean",
+          "weight": 9.8
+        },
+        {
+          "phrase": "arabian sea",
+          "display": "Arabian Sea",
+          "weight": 8.2
+        },
+        {
+          "phrase": "south asia",
+          "display": "South Asia",
+          "weight": 3.0
+        },
+        {
+          "phrase": "ocean",
+          "display": "Ocean",
+          "weight": 2.97
+        },
+        {
+          "phrase": "east asia",
+          "display": "East Asia",
+          "weight": 2.6
+        },
+        {
+          "phrase": "gulf of oman",
+          "display": "Gulf of Oman",
+          "weight": 2.6
+        },
+        {
+          "phrase": "am",
+          "display": "AM",
+          "weight": 2.2
+        },
+        {
+          "phrase": "persian gulf",
+          "display": "Persian Gulf",
+          "weight": 2.1
+        },
+        {
+          "phrase": "ncw",
+          "display": "NCW",
+          "weight": 1.7
+        },
+        {
+          "phrase": "aabw",
+          "display": "AABW",
+          "weight": 1.62
+        },
+        {
+          "phrase": "atlantic ocean",
+          "display": "Atlantic Ocean",
+          "weight": 1.5
+        },
+        {
+          "phrase": "oman",
+          "display": "Oman",
+          "weight": 1.41
+        },
+        {
+          "phrase": "gulf",
+          "display": "Gulf",
+          "weight": 1.38
+        },
+        {
+          "phrase": "arabian peninsula",
+          "display": "Arabian Peninsula",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ca and ba",
+          "display": "Ca and Ba",
+          "weight": 1.3
+        },
+        {
+          "phrase": "indian ocean and pacific ocean",
+          "display": "Indian Ocean and Pacific Ocean",
+          "weight": 1.3
+        },
+        {
+          "phrase": "red sea",
+          "display": "Red Sea",
+          "weight": 1.3
+        },
+        {
+          "phrase": "tridacna",
+          "display": "Tridacna",
+          "weight": 1.29
+        },
+        {
+          "phrase": "central american seaway",
+          "display": "Central American Seaway",
+          "weight": 1.2
+        },
+        {
+          "phrase": "north indian deep water",
+          "display": "North Indian Deep Water",
+          "weight": 1.2
+        },
+        {
+          "phrase": "radiogenic",
+          "display": "radiogenic",
+          "weight": 0.0465
+        },
+        {
+          "phrase": "nd",
+          "display": "Nd",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "eam",
+          "display": "EAM",
+          "weight": 0.0431
+        },
+        {
+          "phrase": "deep water",
+          "display": "Deep Water",
+          "weight": 0.0426
+        },
+        {
+          "phrase": "radiogenic values",
+          "display": "radiogenic values",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "miocene",
+          "display": "Miocene",
+          "weight": 0.041
+        },
+        {
+          "phrase": "t-fins",
+          "display": "T-Fins",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "t-tiwi1",
+          "display": "T-Tiwi1",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "sam",
+          "display": "SAM",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "shell",
+          "display": "Shell",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "depletion",
+          "display": "depletion",
+          "weight": 0.0391
+        },
+        {
+          "phrase": "gulf oman",
+          "display": "gulf oman",
+          "weight": 0.0387
+        },
+        {
+          "phrase": "rainfall",
+          "display": "rainfall",
+          "weight": 0.0387
+        },
+        {
+          "phrase": "shells",
+          "display": "Shells",
+          "weight": 0.0382
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "theme": "North America; North Pacific; North; North American; Zhang and Church",
+      "paper_count": 3,
+      "term_count": 27,
+      "paper_ids": [
+        "europe_pmc_PMC12412649",
+        "europe_pmc_PMC6822785",
+        "europe_pmc_PMC9532392"
+      ],
+      "terms": [
+        {
+          "phrase": "north america",
+          "display": "North America",
+          "weight": 5.9
+        },
+        {
+          "phrase": "north pacific",
+          "display": "North Pacific",
+          "weight": 4.7
+        },
+        {
+          "phrase": "north",
+          "display": "North",
+          "weight": 2.86
+        },
+        {
+          "phrase": "north american",
+          "display": "North American",
+          "weight": 2.0
+        },
+        {
+          "phrase": "zhang and church",
+          "display": "Zhang and Church",
+          "weight": 2.0
+        },
+        {
+          "phrase": "pacific",
+          "display": "Pacific",
+          "weight": 1.74
+        },
+        {
+          "phrase": "san francisco",
+          "display": "San Francisco",
+          "weight": 1.6
+        },
+        {
+          "phrase": "south pacific",
+          "display": "South Pacific",
+          "weight": 1.6
+        },
+        {
+          "phrase": "southern hemispheric",
+          "display": "Southern Hemispheric",
+          "weight": 1.6
+        },
+        {
+          "phrase": "strub and james",
+          "display": "Strub and James",
+          "weight": 1.6
+        },
+        {
+          "phrase": "slas",
+          "display": "SLAs",
+          "weight": 1.56
+        },
+        {
+          "phrase": "chelton and davis",
+          "display": "Chelton and Davis",
+          "weight": 1.5
+        },
+        {
+          "phrase": "northern hemispheric",
+          "display": "Northern Hemispheric",
+          "weight": 1.5
+        },
+        {
+          "phrase": "pdo",
+          "display": "PDO",
+          "weight": 1.44
+        },
+        {
+          "phrase": "tibet",
+          "display": "Tibet",
+          "weight": 0.0517
+        },
+        {
+          "phrase": "forestation",
+          "display": "forestation",
+          "weight": 0.0441
+        },
+        {
+          "phrase": "grass",
+          "display": "grass",
+          "weight": 0.0435
+        },
+        {
+          "phrase": "ism precipitation",
+          "display": "ISM precipitation",
+          "weight": 0.0422
+        },
+        {
+          "phrase": "mm day",
+          "display": "mm day",
+          "weight": 0.0418
+        },
+        {
+          "phrase": "america",
+          "display": "America",
+          "weight": 0.0415
+        },
+        {
+          "phrase": "tide",
+          "display": "Tide",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "gauge",
+          "display": "gauge",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "tide gauge",
+          "display": "Tide gauge",
+          "weight": 0.0411
+        },
+        {
+          "phrase": "deforestation",
+          "display": "Deforestation",
+          "weight": 0.0382
+        },
+        {
+          "phrase": "sea level",
+          "display": "Sea Level",
+          "weight": 0.0376
+        },
+        {
+          "phrase": "coastal sea level",
+          "display": "coastal sea level",
+          "weight": 0.0364
+        },
+        {
+          "phrase": "forestation deforestation",
+          "display": "forestation deforestation",
+          "weight": 0.0337
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "theme": "South American; Cherrapunji Cave; Greenland Stadial; Marota Cave; Southern Hemisphere",
+      "paper_count": 2,
+      "term_count": 28,
+      "paper_ids": [
+        "europe_pmc_PMC7532523",
+        "europe_pmc_PMC9532435"
+      ],
+      "terms": [
+        {
+          "phrase": "south american",
+          "display": "South American",
+          "weight": 3.1
+        },
+        {
+          "phrase": "cherrapunji cave",
+          "display": "Cherrapunji Cave",
+          "weight": 2.2
+        },
+        {
+          "phrase": "greenland stadial",
+          "display": "Greenland Stadial",
+          "weight": 1.9
+        },
+        {
+          "phrase": "marota cave",
+          "display": "Marota Cave",
+          "weight": 1.8
+        },
+        {
+          "phrase": "southern hemisphere",
+          "display": "Southern Hemisphere",
+          "weight": 1.8
+        },
+        {
+          "phrase": "greenland",
+          "display": "Greenland",
+          "weight": 1.6
+        },
+        {
+          "phrase": "sasm",
+          "display": "SASM",
+          "weight": 1.6
+        },
+        {
+          "phrase": "cherrapunji",
+          "display": "Cherrapunji",
+          "weight": 1.59
+        },
+        {
+          "phrase": "greenland interstadial",
+          "display": "Greenland Interstadial",
+          "weight": 1.5
+        },
+        {
+          "phrase": "south american heinrich period",
+          "display": "South American Heinrich Period",
+          "weight": 1.5
+        },
+        {
+          "phrase": "earth",
+          "display": "Earth",
+          "weight": 1.43
+        },
+        {
+          "phrase": "ess",
+          "display": "ESS",
+          "weight": 1.3
+        },
+        {
+          "phrase": "earth system science",
+          "display": "Earth System Science",
+          "weight": 1.2
+        },
+        {
+          "phrase": "future earth",
+          "display": "Future Earth",
+          "weight": 1.2
+        },
+        {
+          "phrase": "southwest atlantic",
+          "display": "Southwest Atlantic",
+          "weight": 1.2
+        },
+        {
+          "phrase": "cn",
+          "display": "CN",
+          "weight": 1.16
+        },
+        {
+          "phrase": "intergovernmental panel on climate change",
+          "display": "Intergovernmental Panel on Climate Change",
+          "weight": 1.1
+        },
+        {
+          "phrase": "national aeronautics and space administration",
+          "display": "National Aeronautics and Space Administration",
+          "weight": 1.1
+        },
+        {
+          "phrase": "world commission on environment and development",
+          "display": "World Commission on Environment and Development",
+          "weight": 1.1
+        },
+        {
+          "phrase": "percolation",
+          "display": "Percolation",
+          "weight": 0.0435
+        },
+        {
+          "phrase": "edges",
+          "display": "Edges",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "network",
+          "display": "Network",
+          "weight": 0.041
+        },
+        {
+          "phrase": "ice-core",
+          "display": "Ice-core",
+          "weight": 0.0385
+        },
+        {
+          "phrase": "nodes",
+          "display": "Nodes",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "cluster",
+          "display": "cluster",
+          "weight": 0.0378
+        },
+        {
+          "phrase": "ky bp",
+          "display": "ky BP",
+          "weight": 0.0374
+        },
+        {
+          "phrase": "speleothem",
+          "display": "Speleothem",
+          "weight": 0.037
+        },
+        {
+          "phrase": "sahp2",
+          "display": "SAHP2",
+          "weight": 0.0366
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "theme": "AOB; AOA; Xu and Wang; Nitrosospira; Allison and Martiny",
+      "paper_count": 2,
+      "term_count": 28,
+      "paper_ids": [
+        "europe_pmc_PMC12475048",
+        "europe_pmc_PMC12866615"
+      ],
+      "terms": [
+        {
+          "phrase": "aob",
+          "display": "AOB",
+          "weight": 4.32
+        },
+        {
+          "phrase": "aoa",
+          "display": "AOA",
+          "weight": 1.6
+        },
+        {
+          "phrase": "xu and wang",
+          "display": "Xu and Wang",
+          "weight": 1.4
+        },
+        {
+          "phrase": "nitrosospira",
+          "display": "Nitrosospira",
+          "weight": 1.39
+        },
+        {
+          "phrase": "allison and martiny",
+          "display": "Allison and Martiny",
+          "weight": 1.3
+        },
+        {
+          "phrase": "stein and klotz",
+          "display": "Stein and Klotz",
+          "weight": 1.3
+        },
+        {
+          "phrase": "davidson and janssens",
+          "display": "Davidson and Janssens",
+          "weight": 1.2
+        },
+        {
+          "phrase": "fierer and jackson",
+          "display": "Fierer and Jackson",
+          "weight": 1.2
+        },
+        {
+          "phrase": "honestly significant difference",
+          "display": "Honestly Significant Difference",
+          "weight": 1.2
+        },
+        {
+          "phrase": "kanaya tea research station",
+          "display": "Kanaya Tea Research Station",
+          "weight": 1.2
+        },
+        {
+          "phrase": "larsson and flach",
+          "display": "Larsson and Flach",
+          "weight": 1.2
+        },
+        {
+          "phrase": "schleper and nicol",
+          "display": "Schleper and Nicol",
+          "weight": 1.2
+        },
+        {
+          "phrase": "wang",
+          "display": "Wang",
+          "weight": 1.11
+        },
+        {
+          "phrase": "basic local alignment search tool",
+          "display": "Basic Local Alignment Search Tool",
+          "weight": 1.1
+        },
+        {
+          "phrase": "fluorescence in situ hybridization",
+          "display": "Fluorescence In Situ Hybridization",
+          "weight": 1.1
+        },
+        {
+          "phrase": "institute of fruit tree and tea science",
+          "display": "Institute of Fruit Tree and Tea Science",
+          "weight": 1.1
+        },
+        {
+          "phrase": "national center for biotechnology information",
+          "display": "National Center for Biotechnology Information",
+          "weight": 1.1
+        },
+        {
+          "phrase": "world reference base for soil resources",
+          "display": "World Reference Base for Soil Resources",
+          "weight": 1.1
+        },
+        {
+          "phrase": "no",
+          "display": "NO",
+          "weight": 1.08
+        },
+        {
+          "phrase": "tea",
+          "display": "Tea",
+          "weight": 0.0452
+        },
+        {
+          "phrase": "nitrogen",
+          "display": "Nitrogen",
+          "weight": 0.0408
+        },
+        {
+          "phrase": "microbial",
+          "display": "Microbial",
+          "weight": 0.0398
+        },
+        {
+          "phrase": "tea field",
+          "display": "Tea field",
+          "weight": 0.0393
+        },
+        {
+          "phrase": "amoa",
+          "display": "AmoA",
+          "weight": 0.0388
+        },
+        {
+          "phrase": "ph",
+          "display": "pH",
+          "weight": 0.0378
+        },
+        {
+          "phrase": "isolates",
+          "display": "isolates",
+          "weight": 0.0374
+        },
+        {
+          "phrase": "et",
+          "display": "et",
+          "weight": 0.0373
+        },
+        {
+          "phrase": "al",
+          "display": "AL",
+          "weight": 0.037
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "theme": "Kyoto Encyclopedia of Genes and Genomes; Thermo Fisher Scientific; Candidatus Nitrososphaera; SOM; EC",
+      "paper_count": 2,
+      "term_count": 27,
+      "paper_ids": [
+        "europe_pmc_PMC13377881",
+        "europe_pmc_PMC6821142"
+      ],
+      "terms": [
+        {
+          "phrase": "kyoto encyclopedia of genes and genomes",
+          "display": "Kyoto Encyclopedia of Genes and Genomes",
+          "weight": 2.3
+        },
+        {
+          "phrase": "thermo fisher scientific",
+          "display": "Thermo Fisher Scientific",
+          "weight": 2.3
+        },
+        {
+          "phrase": "candidatus nitrososphaera",
+          "display": "Candidatus Nitrososphaera",
+          "weight": 1.7
+        },
+        {
+          "phrase": "som",
+          "display": "SOM",
+          "weight": 1.4
+        },
+        {
+          "phrase": "ec",
+          "display": "EC",
+          "weight": 1.32
+        },
+        {
+          "phrase": "may",
+          "display": "May",
+          "weight": 1.32
+        },
+        {
+          "phrase": "candidatus entotheonella",
+          "display": "Candidatus Entotheonella",
+          "weight": 1.3
+        },
+        {
+          "phrase": "sep",
+          "display": "Sep",
+          "weight": 1.25
+        },
+        {
+          "phrase": "candidatus nitrospira",
+          "display": "Candidatus Nitrospira",
+          "weight": 1.2
+        },
+        {
+          "phrase": "gene ontology",
+          "display": "Gene Ontology",
+          "weight": 1.2
+        },
+        {
+          "phrase": "id",
+          "display": "ID",
+          "weight": 1.2
+        },
+        {
+          "phrase": "list of differentially expressed",
+          "display": "List of Differentially Expressed",
+          "weight": 1.2
+        },
+        {
+          "phrase": "generalized additive model",
+          "display": "Generalized Additive Model",
+          "weight": 1.1
+        },
+        {
+          "phrase": "library prep kit for illumina",
+          "display": "Library Prep Kit for Illumina",
+          "weight": 1.1
+        },
+        {
+          "phrase": "sequence read archive",
+          "display": "Sequence Read Archive",
+          "weight": 1.1
+        },
+        {
+          "phrase": "total organic carbon analyzer",
+          "display": "Total Organic Carbon Analyzer",
+          "weight": 1.1
+        },
+        {
+          "phrase": "tropic of cancer in china",
+          "display": "Tropic of Cancer in China",
+          "weight": 1.1
+        },
+        {
+          "phrase": "aquaculture",
+          "display": "Aquaculture",
+          "weight": 0.0476
+        },
+        {
+          "phrase": "high expression",
+          "display": "High expression",
+          "weight": 0.0471
+        },
+        {
+          "phrase": "mangrove",
+          "display": "mangrove",
+          "weight": 0.046
+        },
+        {
+          "phrase": "n2o emissions",
+          "display": "N2O emissions",
+          "weight": 0.0425
+        },
+        {
+          "phrase": "m1 soil",
+          "display": "M1 soil",
+          "weight": 0.0417
+        },
+        {
+          "phrase": "sp",
+          "display": "sp",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "jan",
+          "display": "Jan",
+          "weight": 0.0409
+        },
+        {
+          "phrase": "soil",
+          "display": "Soil",
+          "weight": 0.0398
+        },
+        {
+          "phrase": "emission rates",
+          "display": "emission rates",
+          "weight": 0.0397
+        },
+        {
+          "phrase": "transcripts",
+          "display": "Transcripts",
+          "weight": 0.0395
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "theme": "Arctic; Gangetic Plain; ISMR; Arctic Amplification; World Health Organization",
+      "paper_count": 2,
+      "term_count": 26,
+      "paper_ids": [
+        "europe_pmc_PMC12572319",
+        "europe_pmc_PMC12868344"
+      ],
+      "terms": [
+        {
+          "phrase": "arctic",
+          "display": "Arctic",
+          "weight": 3.25
+        },
+        {
+          "phrase": "gangetic plain",
+          "display": "Gangetic Plain",
+          "weight": 2.5
+        },
+        {
+          "phrase": "ismr",
+          "display": "ISMR",
+          "weight": 1.86
+        },
+        {
+          "phrase": "arctic amplification",
+          "display": "Arctic Amplification",
+          "weight": 1.8
+        },
+        {
+          "phrase": "world health organization",
+          "display": "World Health Organization",
+          "weight": 1.7
+        },
+        {
+          "phrase": "arctic ocean",
+          "display": "Arctic Ocean",
+          "weight": 1.6
+        },
+        {
+          "phrase": "indian summer monsoon rainfall",
+          "display": "Indian Summer Monsoon Rainfall",
+          "weight": 1.4
+        },
+        {
+          "phrase": "laptev sea",
+          "display": "Laptev Sea",
+          "weight": 1.4
+        },
+        {
+          "phrase": "convective available potential energy",
+          "display": "Convective Available Potential Energy",
+          "weight": 1.3
+        },
+        {
+          "phrase": "sic",
+          "display": "SIC",
+          "weight": 1.24
+        },
+        {
+          "phrase": "arctic and antarctic",
+          "display": "Arctic and Antarctic",
+          "weight": 1.2
+        },
+        {
+          "phrase": "arctic basecamp foundation",
+          "display": "Arctic Basecamp Foundation",
+          "weight": 1.2
+        },
+        {
+          "phrase": "arctic council",
+          "display": "Arctic Council",
+          "weight": 1.2
+        },
+        {
+          "phrase": "arctic indigenous",
+          "display": "Arctic Indigenous",
+          "weight": 1.2
+        },
+        {
+          "phrase": "national snow and ice data centre",
+          "display": "National Snow and Ice Data Centre",
+          "weight": 1.2
+        },
+        {
+          "phrase": "health",
+          "display": "Health",
+          "weight": 1.18
+        },
+        {
+          "phrase": "ice years",
+          "display": "ice years",
+          "weight": 0.0495
+        },
+        {
+          "phrase": "sea ice years",
+          "display": "sea ice years",
+          "weight": 0.0462
+        },
+        {
+          "phrase": "high sea",
+          "display": "high sea",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "high sea ice",
+          "display": "high sea ice",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "sea ice",
+          "display": "Sea ice",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "health risks",
+          "display": "Health Risks",
+          "weight": 0.0402
+        },
+        {
+          "phrase": "diseases",
+          "display": "diseases",
+          "weight": 0.0365
+        },
+        {
+          "phrase": "mental health",
+          "display": "mental health",
+          "weight": 0.0358
+        },
+        {
+          "phrase": "mental",
+          "display": "mental",
+          "weight": 0.0356
+        },
+        {
+          "phrase": "risks",
+          "display": "Risks",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "theme": "Santa Maria; Coupled Model Intercomparison Project Phase; SCC; Monte Carlo; Hope and Schaefer",
+      "paper_count": 2,
+      "term_count": 26,
+      "paper_ids": [
+        "europe_pmc_PMC13212582",
+        "europe_pmc_PMC8403967"
+      ],
+      "terms": [
+        {
+          "phrase": "santa maria",
+          "display": "Santa Maria",
+          "weight": 3.4
+        },
+        {
+          "phrase": "coupled model intercomparison project phase",
+          "display": "Coupled Model Intercomparison Project Phase",
+          "weight": 2.3
+        },
+        {
+          "phrase": "scc",
+          "display": "SCC",
+          "weight": 2.18
+        },
+        {
+          "phrase": "monte carlo",
+          "display": "Monte Carlo",
+          "weight": 1.9
+        },
+        {
+          "phrase": "hope and schaefer",
+          "display": "Hope and Schaefer",
+          "weight": 1.6
+        },
+        {
+          "phrase": "middle east",
+          "display": "Middle East",
+          "weight": 1.6
+        },
+        {
+          "phrase": "iran",
+          "display": "Iran",
+          "weight": 1.57
+        },
+        {
+          "phrase": "krakatau and santa maria",
+          "display": "Krakatau and Santa Maria",
+          "weight": 1.5
+        },
+        {
+          "phrase": "random forest",
+          "display": "Random Forest",
+          "weight": 1.5
+        },
+        {
+          "phrase": "nao",
+          "display": "NAO",
+          "weight": 1.48
+        },
+        {
+          "phrase": "enso",
+          "display": "ENSO",
+          "weight": 1.4
+        },
+        {
+          "phrase": "slr",
+          "display": "SLR",
+          "weight": 1.36
+        },
+        {
+          "phrase": "tropical north atlantic",
+          "display": "Tropical North Atlantic",
+          "weight": 1.2
+        },
+        {
+          "phrase": "finite amplitude impulse response",
+          "display": "Finite Amplitude Impulse Response",
+          "weight": 1.1
+        },
+        {
+          "phrase": "model for evaluating regional and global effects",
+          "display": "Model for Evaluating Regional and Global Effects",
+          "weight": 1.1
+        },
+        {
+          "phrase": "representative concentration pathway",
+          "display": "Representative Concentration Pathway",
+          "weight": 1.1
+        },
+        {
+          "phrase": "tipping points",
+          "display": "Tipping points",
+          "weight": 0.0518
+        },
+        {
+          "phrase": "tipping",
+          "display": "Tipping",
+          "weight": 0.0495
+        },
+        {
+          "phrase": "expected scc",
+          "display": "expected SCC",
+          "weight": 0.0454
+        },
+        {
+          "phrase": "damages",
+          "display": "damages",
+          "weight": 0.0438
+        },
+        {
+          "phrase": "si appendix",
+          "display": "SI Appendix",
+          "weight": 0.042
+        },
+        {
+          "phrase": "krakatau",
+          "display": "Krakatau",
+          "weight": 0.0395
+        },
+        {
+          "phrase": "indices",
+          "display": "Indices",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "santa",
+          "display": "Santa",
+          "weight": 0.0386
+        },
+        {
+          "phrase": "post-eruption",
+          "display": "post-eruption",
+          "weight": 0.0384
+        },
+        {
+          "phrase": "temperature anomalies",
+          "display": "Temperature anomalies",
+          "weight": 0.0384
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "theme": "Southern Ocean; GOP; East Antarctica; LIG; Ross Sea",
+      "paper_count": 2,
+      "term_count": 25,
+      "paper_ids": [
+        "europe_pmc_PMC10838265",
+        "europe_pmc_PMC13440228"
+      ],
+      "terms": [
+        {
+          "phrase": "southern ocean",
+          "display": "Southern Ocean",
+          "weight": 5.0
+        },
+        {
+          "phrase": "gop",
+          "display": "GOP",
+          "weight": 2.84
+        },
+        {
+          "phrase": "east antarctica",
+          "display": "East Antarctica",
+          "weight": 2.0
+        },
+        {
+          "phrase": "lig",
+          "display": "LIG",
+          "weight": 1.96
+        },
+        {
+          "phrase": "ross sea",
+          "display": "Ross Sea",
+          "weight": 1.9
+        },
+        {
+          "phrase": "weddell sea",
+          "display": "Weddell Sea",
+          "weight": 1.8
+        },
+        {
+          "phrase": "north atlantic ocean",
+          "display": "North Atlantic Ocean",
+          "weight": 1.7
+        },
+        {
+          "phrase": "antarctic",
+          "display": "Antarctic",
+          "weight": 1.56
+        },
+        {
+          "phrase": "east antarctic",
+          "display": "East Antarctic",
+          "weight": 1.5
+        },
+        {
+          "phrase": "wilkes subglacial basin",
+          "display": "Wilkes Subglacial Basin",
+          "weight": 1.5
+        },
+        {
+          "phrase": "neem",
+          "display": "NEEM",
+          "weight": 1.44
+        },
+        {
+          "phrase": "south africa",
+          "display": "South Africa",
+          "weight": 1.3
+        },
+        {
+          "phrase": "bay of guinea",
+          "display": "Bay of Guinea",
+          "weight": 1.2
+        },
+        {
+          "phrase": "north greenland ice core project",
+          "display": "North Greenland Ice Core Project",
+          "weight": 1.2
+        },
+        {
+          "phrase": "supplementary information peer review file description of additional supplementary files supplementary dataset",
+          "display": "Supplementary Information Peer Review File Description of Additional Supplementary Files Supplementary Dataset",
+          "weight": 1.2
+        },
+        {
+          "phrase": "sle",
+          "display": "SLE",
+          "weight": 0.0392
+        },
+        {
+          "phrase": "ice",
+          "display": "Ice",
+          "weight": 0.0388
+        },
+        {
+          "phrase": "comb4",
+          "display": "COMB4",
+          "weight": 0.0383
+        },
+        {
+          "phrase": "comb7",
+          "display": "COMB7",
+          "weight": 0.0383
+        },
+        {
+          "phrase": "sl4 sl7",
+          "display": "sl4 sl7",
+          "weight": 0.0377
+        },
+        {
+          "phrase": "biosphere",
+          "display": "biosphere",
+          "weight": 0.0355
+        },
+        {
+          "phrase": "pmol",
+          "display": "pmol",
+          "weight": 0.0354
+        },
+        {
+          "phrase": "productivity",
+          "display": "productivity",
+          "weight": 0.0344
+        },
+        {
+          "phrase": "pmol o2",
+          "display": "pmol o2",
+          "weight": 0.0343
+        },
+        {
+          "phrase": "pmol o2 year",
+          "display": "pmol o2 year",
+          "weight": 0.0343
+        }
+      ]
+    }
+  ]
+}

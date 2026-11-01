@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10762259",
+  "phrases": [
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 3.3
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.6
+    },
+    {
+      "phrase": "south and east asia",
+      "display": "South and East Asia",
+      "score": 1.6
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic oscillation",
+      "display": "North Atlantic Oscillation",
+      "score": 1.5
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.4
+    },
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 1.4
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.56
+    },
+    {
+      "phrase": "aas",
+      "display": "AAs",
+      "score": 1.6
+    },
+    {
+      "phrase": "wmt",
+      "display": "WMT",
+      "score": 1.5
+    },
+    {
+      "phrase": "asian aas",
+      "score": 0.0421,
+      "display": "Asian AAs"
+    },
+    {
+      "phrase": "increased asian",
+      "score": 0.0392,
+      "display": "increased Asian"
+    },
+    {
+      "phrase": "increased asian aas",
+      "score": 0.038,
+      "display": "increased Asian AAs"
+    },
+    {
+      "phrase": "minimal",
+      "score": 0.0377,
+      "display": "minimal"
+    },
+    {
+      "phrase": "labrador",
+      "score": 0.0353,
+      "display": "Labrador"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

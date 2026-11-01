@@ -1,0 +1,41 @@
+{
+  "pmcid": "PMC12739134",
+  "pmid": "41372242",
+  "title": "Marine Heatwave Event Maps in the Baltic Sea (1982-2023): A Gridded Dataset from Satellite-Derived L4 SST.",
+  "abstract": "Marine heatwaves (MHWs) are critical to monitor as they can cause widespread impacts on marine ecosystems, fisheries, and coastal communities. This manuscript presents a high-resolution dataset documenting MHW events in the Baltic Sea over a 42-year period (1982-2023), based on daily satellite reprocessed observations at 0.02° × 0.02° spatial resolution, including the three-dimensional (longitude × latitude × time) array of daily MHW intensity values, which captures the spatial and temporal evolution of each event across the Baltic Sea. Given the Baltic Sea's heightened sensitivity to rapid warming and climate change, this resource provides valuable insights into regional oceanographic extremes. The dataset supports detailed analyses of MHW frequency, intensity, and duration, aiding research in climate science, marine ecology, and coastal management. By offering long-term, event-based records, it enables investigations into thermal stress impacts on ecosystems and the evaluation of regional climate model performance. This open-access dataset is designed to foster interdisciplinary studies addressing the environmental and societal challenges associated with ongoing warming in the Baltic Sea.",
+  "authors": [
+    "Bashiri B",
+    "Barzandeh A",
+    "Männik A",
+    "Uiboupin R",
+    "Raudsepp U"
+  ],
+  "publication_date": "2025-12-10",
+  "journal": "",
+  "doi": "10.1038/s41597-025-06251-7",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41597-025-06251-7"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12739134"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12739134?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

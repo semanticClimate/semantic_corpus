@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13390420",
+  "phrases": [
+    {
+      "phrase": "elbe estuary",
+      "display": "Elbe Estuary",
+      "score": 2.7
+    },
+    {
+      "phrase": "hamburg harbor",
+      "display": "Hamburg Harbor",
+      "score": 1.3
+    },
+    {
+      "phrase": "north sea",
+      "display": "North Sea",
+      "score": 1.3
+    },
+    {
+      "phrase": "megaviricetes and maverivicetes",
+      "display": "Megaviricetes and Maverivicetes",
+      "score": 1.2
+    },
+    {
+      "phrase": "kyoto encyclopedia of genes and genomes",
+      "display": "Kyoto Encyclopedia of Genes and Genomes",
+      "score": 1.1
+    },
+    {
+      "phrase": "database of virus orthologous groups",
+      "display": "Database of Virus Orthologous Groups",
+      "score": 1.1
+    },
+    {
+      "phrase": "nitrososphaerales and rhizobiales",
+      "display": "Nitrososphaerales and Rhizobiales",
+      "score": 1.1
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.26
+    },
+    {
+      "phrase": "elbe",
+      "display": "Elbe",
+      "score": 1.21
+    },
+    {
+      "phrase": "estuary",
+      "display": "Estuary",
+      "score": 1.21
+    },
+    {
+      "phrase": "viral",
+      "score": 0.0503,
+      "display": "Viral"
+    },
+    {
+      "phrase": "viruses",
+      "score": 0.0455,
+      "display": "Viruses"
+    },
+    {
+      "phrase": "salinity",
+      "score": 0.0382,
+      "display": "Salinity"
+    },
+    {
+      "phrase": "viral communities",
+      "score": 0.0355,
+      "display": "viral communities"
+    },
+    {
+      "phrase": "hosts",
+      "score": 0.035,
+      "display": "Hosts"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

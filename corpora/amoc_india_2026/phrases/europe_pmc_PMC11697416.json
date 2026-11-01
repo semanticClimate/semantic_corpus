@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC11697416",
+  "phrases": [
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 4.5
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.9
+    },
+    {
+      "phrase": "siberian caves",
+      "display": "Siberian Caves",
+      "score": 1.4
+    },
+    {
+      "phrase": "source data",
+      "display": "Source Data",
+      "score": 1.4
+    },
+    {
+      "phrase": "siberian and canadian",
+      "display": "Siberian and Canadian",
+      "score": 1.3
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.3
+    },
+    {
+      "phrase": "tianmen cave",
+      "display": "Tianmen Cave",
+      "score": 1.3
+    },
+    {
+      "phrase": "tp",
+      "display": "TP",
+      "score": 1.96
+    },
+    {
+      "phrase": "mis",
+      "display": "MIS",
+      "score": 1.92
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.84
+    },
+    {
+      "phrase": "permafrost",
+      "score": 0.0468,
+      "display": "Permafrost"
+    },
+    {
+      "phrase": "permafrost thawing",
+      "score": 0.0449,
+      "display": "permafrost thawing"
+    },
+    {
+      "phrase": "thawing",
+      "score": 0.0436,
+      "display": "thawing"
+    },
+    {
+      "phrase": "circumarctic",
+      "score": 0.0425,
+      "display": "circumarctic"
+    },
+    {
+      "phrase": "circumarctic permafrost",
+      "score": 0.0389,
+      "display": "circumarctic permafrost"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

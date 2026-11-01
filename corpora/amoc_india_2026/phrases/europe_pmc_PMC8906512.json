@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC8906512",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.3
+    },
+    {
+      "phrase": "iranian plateau",
+      "display": "Iranian Plateau",
+      "score": 1.9
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.6
+    },
+    {
+      "phrase": "south asian",
+      "display": "South Asian",
+      "score": 1.6
+    },
+    {
+      "phrase": "south asia",
+      "display": "South Asia",
+      "score": 1.6
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.5
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.4
+    },
+    {
+      "phrase": "tp",
+      "display": "TP",
+      "score": 4.34
+    },
+    {
+      "phrase": "sh",
+      "display": "SH",
+      "score": 1.84
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.7
+    },
+    {
+      "phrase": "heating",
+      "score": 0.0375,
+      "display": "heating"
+    },
+    {
+      "phrase": "ahs",
+      "score": 0.033,
+      "display": "AHS"
+    },
+    {
+      "phrase": "tp heating",
+      "score": 0.033,
+      "display": "TP heating"
+    },
+    {
+      "phrase": "unit",
+      "score": 0.0316,
+      "display": "unit"
+    },
+    {
+      "phrase": "asm",
+      "score": 0.0314,
+      "display": "ASM"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

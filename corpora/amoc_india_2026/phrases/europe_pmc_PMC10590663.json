@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10590663",
+  "phrases": [
+    {
+      "phrase": "florida current",
+      "display": "Florida Current",
+      "score": 5.4
+    },
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 2.9
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.6
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.6
+    },
+    {
+      "phrase": "deep western boundary current",
+      "display": "Deep Western Boundary Current",
+      "score": 1.3
+    },
+    {
+      "phrase": "straits of florida",
+      "display": "Straits of Florida",
+      "score": 1.3
+    },
+    {
+      "phrase": "caribbean sea and gulf of mexico",
+      "display": "Caribbean Sea and Gulf of Mexico",
+      "score": 1.2
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.9
+    },
+    {
+      "phrase": "mht",
+      "display": "MHT",
+      "score": 2.0
+    },
+    {
+      "phrase": "pw",
+      "display": "PW",
+      "score": 1.64
+    },
+    {
+      "phrase": "florida",
+      "score": 0.0443,
+      "display": "Florida"
+    },
+    {
+      "phrase": "mid-ocean",
+      "score": 0.0376,
+      "display": "Mid-ocean"
+    },
+    {
+      "phrase": "gyre",
+      "score": 0.0375,
+      "display": "gyre"
+    },
+    {
+      "phrase": "ekman",
+      "score": 0.0362,
+      "display": "Ekman"
+    },
+    {
+      "phrase": "transport",
+      "score": 0.034,
+      "display": "transport"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

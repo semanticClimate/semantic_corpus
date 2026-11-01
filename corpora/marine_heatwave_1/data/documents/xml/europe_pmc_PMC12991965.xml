@@ -1,0 +1,1407 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="eap70215" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Appl</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Appl</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">9889808</journal-id><journal-id journal-id-type="publisher-id">EAP</journal-id><journal-title-group><journal-title>Ecological Applications</journal-title></journal-title-group><issn pub-type="ppub">1051-0761</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12991965</article-id><article-id pub-id-type="pmcid-ver">PMC12991965.1</article-id><article-id pub-id-type="pmcaid">12991965</article-id><article-id pub-id-type="pmcaiid">12991965</article-id><article-id pub-id-type="pmid">41839702</article-id><article-id pub-id-type="doi">10.1002/eap.70215</article-id><article-id pub-id-type="publisher-id">EAP70215</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Marine heatwave and keystone predator loss drive broad‐scale decline and hinder recovery of a rocky intertidal kelp</article-title><alt-title alt-title-type="right-running-head">Marine heatwave and keystone predator loss drive broad‐scale decline and hinder recovery of a rocky intertidal kelp</alt-title><alt-title alt-title-type="left-running-head">Gerraty et al.</alt-title></title-group><contrib-group><contrib id="eap70215-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Gerraty</surname><given-names initials="FD">Francis D.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9989-4953</contrib-id><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>fgerraty@ucsc.edu</email></address></contrib><contrib id="eap70215-cr-0002" contrib-type="author"><name name-style="western"><surname>Cox‐Ammann</surname><given-names initials="KN">Karah N.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6200-1944</contrib-id><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70215-cr-0003" contrib-type="author"><name name-style="western"><surname>Douglas</surname><given-names initials="MA">Melissa A.</given-names></name><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70215-cr-0004" contrib-type="author"><name name-style="western"><surname>George</surname><given-names initials="M">Maya</given-names></name><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70215-cr-0005" contrib-type="author"><name name-style="western"><surname>Lohse</surname><given-names initials="DP">David P.</given-names></name><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70215-cr-0006" contrib-type="author"><name name-style="western"><surname>Miner</surname><given-names initials="CM">C. Melissa</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4032-3846</contrib-id><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="eap70215-cr-0007" contrib-type="author"><name name-style="western"><surname>Raimondi</surname><given-names initials="PT">Peter T.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5235-1441</contrib-id><xref rid="eap70215-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="eap70215-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Ecology and Evolutionary Biology</named-content>
+<institution>University of California—Santa Cruz</institution>
+<city>Santa Cruz</city>
+<named-content content-type="country-part">California</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Francis D. Gerraty<break/>
+Email: <email>fgerraty@ucsc.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>3</month><year>2026</year></pub-date><pub-date pub-type="ppub"><month>3</month><year>2026</year></pub-date><volume>36</volume><issue seq="220">2</issue><issue-id pub-id-type="pmc-issue-id">509608</issue-id><issue-id pub-id-type="doi">10.1002/eap.v36.2</issue-id><elocation-id>e70215</elocation-id><history>
+<date date-type="rev-recd"><day>18</day><month>11</month><year>2025</year></date>
+<date date-type="received"><day>01</day><month>9</month><year>2025</year></date>
+<date date-type="accepted"><day>09</day><month>1</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>17</day><month>03</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>18</day><month>03</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-18 00:25:13.310"><day>18</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Ecological Applications</italic> published by Wiley Periodicals LLC on behalf of The Ecological Society of America.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EAP-36-e70215.pdf"><?pdf-name EAP-36-e70215.pdf?><?pdf-size 31986806?><?pdf-md5 760a3bda96f893de9d017b240135159f?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:c34c/12991965/760a3bda96f8/EAP-36-e70215.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EAP-36-e70215.pdf"/><abstract><title>Abstract</title><p>Human activities are increasingly driving the co‐occurrence of multiple ecological stressors, resulting in interactive and cumulative impacts that can reshape ecosystem dynamics and accelerate population declines of climate‐sensitive species. Here, we use over two decades of rocky intertidal monitoring data from 17 sites spanning over 1200 km of coastline to assess how two unprecedented stressors—a multiyear marine heatwave and the disease‐driven loss of a keystone predator (<italic toggle="no">Pisaster ochraceus</italic>)—impacted populations of the canopy‐forming intertidal kelp <italic toggle="no">Postelsia palmaeformis.</italic> We show that <italic toggle="no">Postelsia</italic> experienced rapid and severe declines during the 2014–2016 northeast Pacific marine heatwave, with an average population decline of 50%, multiple site‐level extirpations, and particularly striking losses in the southern portion of the species' geographic range. Concurrently, <italic toggle="no">Pisaster</italic> declines triggered mussel bed expansion into habitats previously occupied by <italic toggle="no">Postelsia</italic>, further inhibiting kelp recoveries. Our findings reveal how converging stressors can drive persistent, broad‐scale ecological shifts through both direct and indirect pathways. These results also highlight the critical role of long‐term, spatially extensive monitoring in detecting and understanding global change impacts and provide a foundation for guiding <italic toggle="no">Postelsia</italic> conservation and restoration efforts.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="eap70215-kwd-0001">climate change</kwd><kwd id="eap70215-kwd-0002">mussel</kwd><kwd id="eap70215-kwd-0003"><italic toggle="no">Mytilus californianus</italic></kwd><kwd id="eap70215-kwd-0004"><italic toggle="no">Pisaster ochraceus</italic></kwd><kwd id="eap70215-kwd-0005"><italic toggle="no">Postelsia palmaeformis</italic></kwd><kwd id="eap70215-kwd-0006">sea palm</kwd><kwd id="eap70215-kwd-0007">sea star wasting</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Achievement Rewards for College Scientists Foundation</institution><institution-id institution-id-type="doi">10.13039/100008227</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>National Science Foundation Graduate Research Fellowship Program</institution><institution-id institution-id-type="doi">10.13039/100023581</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Partnership for Interdisciplinary Studies of Coastal Oceans</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>California Ocean Protection Council</institution><institution-id institution-id-type="doi">10.13039/100018775</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>National Park Service</institution><institution-id institution-id-type="doi">10.13039/100007516</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>Bureau of Ocean Energy Management</institution><institution-id institution-id-type="doi">10.13039/100012475</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="16"/><word-count count="11200"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:16.03.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="eap70215-cit-9001">
+<string-name name-style="western">
+<surname>Gerraty</surname>, <given-names>Francis D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Karah N.</given-names>
+<surname>Cox‐Ammann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Melissa A.</given-names>
+<surname>Douglas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maya</given-names>
+<surname>George</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David P.</given-names>
+<surname>Lohse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. Melissa</given-names>
+<surname>Miner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Peter T.</given-names>
+<surname>Raimondi</surname>
+</string-name>. <year>2026</year>. “<article-title>Marine Heatwave and Keystone Predator Loss Drive Broad‐Scale Decline and Hinder Recovery of a Rocky Intertidal Kelp</article-title>.” <source>Ecological Applications</source>
+<volume>36</volume>(<issue>2</issue>): <elocation-id>e70215</elocation-id>. <pub-id pub-id-type="doi">10.1002/eap.70215</pub-id>
+<pub-id pub-id-type="pmid">41839702</pub-id>
+<pub-id pub-id-type="pmcid">PMC12991965</pub-id></mixed-citation>
+</p><fn-group id="eap70215-ntgp-0001"><fn id="eap70215-note-0001"><p>
+<bold>Handling editor</bold>: P. Edward Parnell</p></fn></fn-group></notes></front><body id="eap70215-body-0001"><sec id="eap70215-sec-0001"><title>INTRODUCTION</title><p>Climate change is increasing the frequency and magnitude of extreme climatic events, such as heatwaves, wildfires, droughts, and floods, leading to profound consequences for ecological systems and human wellbeing (Newman &amp; Noy, <xref rid="eap70215-bib-0055" ref-type="bibr">2023</xref>; Smith, <xref rid="eap70215-bib-0077" ref-type="bibr">2011</xref>). These acute, punctuated events often interact synergistically with long‐term climatic changes or other stressors to drive extirpations, range shifts, and critical transitions from one ecosystem state to another. In the ocean, one of the most disruptive climate‐driven phenomena is the increasing prevalence of marine heatwaves (MHWs)—prolonged periods of anomalously high ocean temperatures (Marcos et al., <xref rid="eap70215-bib-0043" ref-type="bibr">2025</xref>; Oliver et al., <xref rid="eap70215-bib-0057" ref-type="bibr">2018</xref>; Wernberg et al., <xref rid="eap70215-bib-0085" ref-type="bibr">2013</xref>). MHWs trigger direct physiological stress in marine organisms and can generate cascading indirect effects through altered species interactions (Smith et al., <xref rid="eap70215-bib-0075" ref-type="bibr">2023</xref>). They have been linked to local and regional declines or extinctions of critical foundation species (Miner et al., <xref rid="eap70215-bib-0051" ref-type="bibr">2021</xref>; Starko et al., <xref rid="eap70215-bib-0079" ref-type="bibr">2022</xref>; Wernberg et al., <xref rid="eap70215-bib-0086" ref-type="bibr">2024</xref>), ecosystem regime shifts (Rogers‐Bennett &amp; Catton, <xref rid="eap70215-bib-0068" ref-type="bibr">2019</xref>; Smith et al., <xref rid="eap70215-bib-0073" ref-type="bibr">2024</xref>), and devastating social and economic consequences (Free et al., <xref rid="eap70215-bib-0023" ref-type="bibr">2023</xref>; Smith et al., <xref rid="eap70215-bib-0076" ref-type="bibr">2021</xref>). With MHWs becoming more frequent, prolonged, and intense, they are likely to continue compounding the effects of other unprecedented stressors to reshape ecological and evolutionary dynamics across global oceans (Oliver et al., <xref rid="eap70215-bib-0057" ref-type="bibr">2018</xref>).</p><p>Infectious disease outbreaks are also a growing threat for wildlife and can produce dramatic disruptions to community dynamics and ecosystem function. While the emergence and spread of wildlife diseases is often facilitated by human activities such as habitat modification, global trade, and pollution, climate change is also altering host–pathogen dynamics in complex ways (Altizer et al., <xref rid="eap70215-bib-0003" ref-type="bibr">2013</xref>; Burge et al., <xref rid="eap70215-bib-0010" ref-type="bibr">2014</xref>; Mahon et al., <xref rid="eap70215-bib-0044" ref-type="bibr">2024</xref>). In some cases, warming temperatures may reduce disease risk (Cohen et al., <xref rid="eap70215-bib-0014" ref-type="bibr">2020</xref>), but more often shifting environmental conditions exacerbate pathogen impacts on wildlife (Harvell et al., <xref rid="eap70215-bib-0031" ref-type="bibr">2002</xref>; Mahon et al., <xref rid="eap70215-bib-0044" ref-type="bibr">2024</xref>). This is particularly concerning for foundation species and keystone predators, where disease outbreaks can initiate trophic cascades that ripple through food webs and restructure ecosystems (Buck &amp; Ripple, <xref rid="eap70215-bib-0009" ref-type="bibr">2017</xref>; Holdo et al., <xref rid="eap70215-bib-0036" ref-type="bibr">2009</xref>, Moritsch, <xref rid="eap70215-bib-0052" ref-type="bibr">2021</xref>). The intersection of warming temperatures and wildlife disease has already led to widespread mortality events in tropical and temperate oceans, with consequences for ecosystem services as well as human health and wellbeing (Burge et al., <xref rid="eap70215-bib-0010" ref-type="bibr">2014</xref>).</p><p>Beginning in 2013, an invertebrate epizootic known as sea star wasting disease (SSWD) devastated intertidal and nearshore sea star populations along the northeast Pacific coast from Mexico to Alaska (Harvell et al., <xref rid="eap70215-bib-0032" ref-type="bibr">2019</xref>; Miner et al., <xref rid="eap70215-bib-0050" ref-type="bibr">2018</xref>). The disease spread rapidly in 2013–2015, affecting at least 20 asteroid species and causing severe declines in several critical predators including the sunflower sea star (<italic toggle="yes">Pycnopodia helianthoides</italic>) and the ochre star (<italic toggle="yes">Pisaster ochraceus</italic>, hereafter <italic toggle="yes">Pisaster</italic>) (Hamilton et al., <xref rid="eap70215-bib-0029" ref-type="bibr">2021</xref>; Hewson et al., <xref rid="eap70215-bib-0033" ref-type="bibr">2025</xref>; Konar et al., <xref rid="eap70215-bib-0039" ref-type="bibr">2019</xref>; Menge et al., <xref rid="eap70215-bib-0047" ref-type="bibr">2016</xref>; Miner et al., <xref rid="eap70215-bib-0050" ref-type="bibr">2018</xref>). Immediately following the SSWD outbreak, an unprecedented multiyear MHW—known as the 2014–2016 northeast Pacific MHW—spanned from Baja California to the Gulf of Alaska and persisted from November 2013 to August 2016 in California, extending later at higher latitudes (Di Lorenzo &amp; Mantua, <xref rid="eap70215-bib-0021" ref-type="bibr">2016</xref>). This event, the longest recorded MHW to date, drove broad‐reaching ecological and social consequences including range shifts, mass mortality events, and fisheries closures (Cavole et al., <xref rid="eap70215-bib-0013" ref-type="bibr">2016</xref>; Starko et al., <xref rid="eap70215-bib-0078" ref-type="bibr">2025</xref>).</p><p>In northeast Pacific rocky subtidal and intertidal ecosystems, the confluence of the SSWD outbreak and the 2014–2016 MHW—two simultaneous and unprecedented stressors—has been associated with the collapse of subtidal kelp forests and expansion of urchin barrens (Burt et al., <xref rid="eap70215-bib-0012" ref-type="bibr">2018</xref>; McPherson et al., <xref rid="eap70215-bib-0045" ref-type="bibr">2021</xref>; Rogers‐Bennett &amp; Catton, <xref rid="eap70215-bib-0068" ref-type="bibr">2019</xref>; Schultz et al., <xref rid="eap70215-bib-0070" ref-type="bibr">2016</xref>) as well as shifts from macrophyte‐ to invertebrate‐dominated intertidal communities (Meunier et al., <xref rid="eap70215-bib-0049" ref-type="bibr">2024</xref>; Traiger et al., <xref rid="eap70215-bib-0081" ref-type="bibr">2022</xref>; Whalen et al., <xref rid="eap70215-bib-0087" ref-type="bibr">2023</xref>). The loss of <italic toggle="yes">Pisaster</italic>, a keystone predator that regulates rocky intertidal communities by preying on the California mussel (<italic toggle="yes">Mytilus californianus</italic>; Paine, <xref rid="eap70215-bib-0058" ref-type="bibr">1966</xref>, Paine, <xref rid="eap70215-bib-0059" ref-type="bibr">1974</xref>), likely played an impactful role in these intertidal regime shifts via trophic cascades (Meunier et al., <xref rid="eap70215-bib-0049" ref-type="bibr">2024</xref>).</p><p>Despite the widespread ecological impacts of these simultaneous disturbance events, their effects on intertidal canopy‐forming kelps remain poorly understood. This is especially true for <italic toggle="yes">Postelsia palmaeformis</italic> (hereafter <italic toggle="yes">Postelsia</italic>), a culturally and economically important but critically understudied kelp that occupies wave‐exposed rocky intertidal shores (Ainis et al., <xref rid="eap70215-bib-0002" ref-type="bibr">2019</xref>; Thompson et al., <xref rid="eap70215-bib-0080" ref-type="bibr">2010</xref>; Turner, <xref rid="eap70215-bib-0082" ref-type="bibr">2001</xref>). <italic toggle="yes">Postelsia</italic> has a patchy distribution (Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>), extremely limited dispersal capacity (Coyer et al., <xref rid="eap70215-bib-0016" ref-type="bibr">1997</xref>; Kusumo et al., <xref rid="eap70215-bib-0040" ref-type="bibr">2006</xref>; Paine et al., <xref rid="eap70215-bib-0063" ref-type="bibr">2017</xref>), and is sensitive to elevated water temperatures (Lüning &amp; Freshwater, <xref rid="eap70215-bib-0042" ref-type="bibr">1988</xref>; Muth et al., <xref rid="eap70215-bib-0054" ref-type="bibr">2019</xref>; Young, <xref rid="eap70215-bib-0091" ref-type="bibr">1971</xref>)—all traits that may heighten its vulnerability to climate change (Csordas et al., <xref rid="eap70215-bib-0018" ref-type="bibr">2024</xref>). In addition, <italic toggle="yes">Postelsia</italic> commonly occurs among beds of competitively dominant <italic toggle="yes">M</italic>. <italic toggle="yes">californianus</italic> mussels (Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>; Paine, <xref rid="eap70215-bib-0061" ref-type="bibr">1979</xref>), potentially making the species vulnerable to mussel bed expansion triggered by <italic toggle="yes">Pisaster</italic> losses.</p><p>Here, we examine the direct and indirect effects of the 2014–2016 MHW and the synergistic SSWD outbreak on the abundance, persistence, and recovery of <italic toggle="yes">Postelsia</italic>. To do so, we leverage long‐term rocky intertidal community monitoring data collected for over two decades at 17 sites spanning most of the southern portion of the kelp's geographic range. We hypothesized that <italic toggle="yes">Postelsia</italic> declined due to heat stress during the 2014–2016 MHW, and that <italic toggle="yes">Pisaster</italic> loss led to mussel bed expansion, indirectly hindering <italic toggle="yes">Postelsia</italic> recovery (Meunier et al., <xref rid="eap70215-bib-0049" ref-type="bibr">2024</xref>). Consequently, we predicted that these synergistic disturbances acted as a “one‐two punch” to drive persistent, broad‐scale <italic toggle="yes">Postelsia</italic> declines.</p></sec><sec sec-type="materials-and-methods" id="eap70215-sec-0002"><title>MATERIALS AND METHODS</title><sec id="eap70215-sec-0003"><title>Study system</title><p>We studied rocky intertidal communities at 17 sites that were established as part of the Multi‐Agency Rocky Intertidal Network (MARINe, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.pacificrockyintertidal.org" ext-link-type="uri">www.pacificrockyintertidal.org</ext-link>), a collaborative long‐term monitoring program designed to capture natural dynamics and patterns of change in rocky intertidal communities along the Pacific Coast of North America. Our study region, spanning over 1200 km of coastline from Central Oregon to Central California, USA (Figure <xref rid="eap70215-fig-0001" ref-type="fig">1</xref>), encompasses over half of the latitudinal distribution of <italic toggle="yes">Postelsia</italic> and includes the vast majority of the species' equatorial “trailing edge” of its geographic range. This annual brown alga, colloquially known as “sea palm,” occurs along wave‐exposed rocky intertidal shores from Central California, USA, to Cranston Point, British Columbia, Canada (Abbott &amp; Hollenberg, <xref rid="eap70215-bib-0001" ref-type="bibr">1976</xref>; Z. Monteith, personal communication).</p><fig position="float" fig-type="FIGURE" id="eap70215-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(A) Patterns of change in <italic toggle="yes">Postelsia</italic> density associated with the 2014–2016 northeast Pacific marine heatwave (MHW). Bars display the change in mean densities at each site between <italic toggle="yes">Postelsia</italic> surveys before (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2014) versus during and after (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2015) the MHW. Gray, italicized numbers indicate the number of <italic toggle="yes">Postelsia</italic> surveys before/during and after the MHW. (B) Locations of <italic toggle="yes">Postelsia</italic> long‐term monitoring sites in California and Oregon. Orange bars (A) and circles (B) indicate post‐MHW declines in <italic toggle="yes">Postelsia</italic> density and blue bars/circles indicate post‐MHW density increases. *No <italic toggle="yes">Postelsia</italic> surveys were conducted post‐MHW at one site and density changes could therefore not be determined.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EAP-36-e70215-g002.jpg"><?image-name EAP-36-e70215-g002.jpg?><?image-size 86071?><?image-md5 2008af9c6cbe185314f3eb59906e5f69?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 854?><?image-original-width 1064?><?image-scaled-height 569?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c34c/12991965/2008af9c6cbe/EAP-36-e70215-g002.jpg?><?thumb-name EAP-36-e70215-g002.gif?><?thumb-size 11938?><?thumb-md5 435b04c7936dee82a060874ff3016d8d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c34c/12991965/435b04c7936d/EAP-36-e70215-g002.gif?></graphic></fig><p>
+<italic toggle="yes">Postelsia</italic> exhibits a patchy distribution at both broad and local spatial scales, with presence tightly linked to areas of extreme wave shock (Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>). This canopy‐forming species typically co‐occurs in the mid‐tidal zone with the mussel <italic toggle="yes">Mytilus californianus</italic>, but in areas of high wave exposure its tidal distribution can extend into the high zone (Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>; Paine, <xref rid="eap70215-bib-0061" ref-type="bibr">1979</xref>). Due to its life cycle, the sporophytic stage of <italic toggle="yes">Postelsia—</italic>the stage capable of defending space on the rock against mussel encroachment—is not present for several months each year (Paine, <xref rid="eap70215-bib-0061" ref-type="bibr">1979</xref>). Thus, successful recruitment of successive generations of sporophytes often depends on wave‐induced disturbances (Blanchette, <xref rid="eap70215-bib-0007" ref-type="bibr">1996</xref>; Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>; Paine, <xref rid="eap70215-bib-0061" ref-type="bibr">1979</xref>; Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>) and predation by <italic toggle="yes">Pisaster</italic> sea stars to open up space for colonization within mussel beds (Dayton, <xref rid="eap70215-bib-0019" ref-type="bibr">1971</xref>; Paine, <xref rid="eap70215-bib-0058" ref-type="bibr">1966</xref>; Paine, <xref rid="eap70215-bib-0059" ref-type="bibr">1974</xref>). However, while mussels will ultimately outcompete and exclude <italic toggle="yes">Postelsia</italic> in the absence of disturbance, mussel beds may also provide a protective microhabitat that enhances the survival of microscopic stages of <italic toggle="yes">Postelsia</italic> during the fall and winter months (Blanchette, <xref rid="eap70215-bib-0007" ref-type="bibr">1996</xref>).</p><p>Spores generally settle within 2 m from their parent plant, and patches &gt;25 m apart typically show distinct genetic structure (Coyer et al., <xref rid="eap70215-bib-0016" ref-type="bibr">1997</xref>; Kusumo et al., <xref rid="eap70215-bib-0040" ref-type="bibr">2006</xref>; Paine et al., <xref rid="eap70215-bib-0063" ref-type="bibr">2017</xref>). Long‐distance dispersal events are thought to be exceedingly rare, limited to occasional floating individuals that have been ripped from the substratum (Paine et al., <xref rid="eap70215-bib-0063" ref-type="bibr">2017</xref>). Thus, if <italic toggle="yes">Postelsia</italic> is locally extirpated from an area, as was observed for a population at the southern edge of the alga's range during the 1982–1983 El Niño‐Southern Oscillation (ENSO) event (Young, <xref rid="eap70215-bib-0091" ref-type="bibr">1971</xref>; J. Steinbeck, personal communication), natural recovery might never occur.</p><p>High habitat specificity, poor dispersal ability, and sensitivity to warm water temperatures, combined with its inferior competitive status with mussels, might make <italic toggle="yes">Postelsia</italic> particularly vulnerable to the combined effects of MHWs and keystone predator losses. However, apart from a recent investigation near the species' leading (cold‐water) range edge (Vancouver Island, BC) that found long‐term stability of <italic toggle="yes">Postelsia</italic> from 2006 to 2022 (Csordas et al., <xref rid="eap70215-bib-0018" ref-type="bibr">2024</xref>), the impacts of these paired disturbances on <italic toggle="yes">Postelsia</italic> populations remains unknown. Assessing potential impacts in the southern portion of the species' range is critical because disturbance is likely to be greater in this region, where warmer water temperatures might lead to greater acute physiological stress on <italic toggle="yes">Postelsia</italic>. In addition, reduced wave exposure in the south might lower the tidal height distribution of <italic toggle="yes">Postelsia</italic>, thereby increasing spatial overlap with mussels and <italic toggle="yes">Pisaster</italic> and making the kelp more vulnerable to the indirect effects of <italic toggle="yes">Pisaster</italic> declines.</p></sec><sec id="eap70215-sec-0004"><title>
+<italic toggle="no">Postelsia</italic> surveys</title><p>To monitor long‐term changes in <italic toggle="yes">Postelsia</italic> abundance across a broad geographic scale, we established 1–3 permanent transects at each of 17 MARINe sites along the California and Oregon coastline (Figure <xref rid="eap70215-fig-0001" ref-type="fig">1</xref>). Starting in 1999, fixed plots were established in areas where <italic toggle="yes">Postelsia</italic> was initially abundant and could be accessed safely. These plots typically consisted of 2‐m‐wide band transects delimited by bolts anchored to the substratum and varying in length from 5 to 20 m. We counted the total number of <italic toggle="yes">Postelsia</italic> within each band transect during each survey. To avoid issues with seasonality due to the annual life history of <italic toggle="yes">Postelsia</italic>, sites were generally sampled in the same period (i.e., a “canonical season”) each year (March–April in Central California, May–June in Northern California, and July in Oregon). Some sites were surveyed in noncanonical seasons or multiple seasons in some years; in these cases, we only included surveys conducted in the site's canonical season for analyses.</p><p>To determine temporal dynamics, we first identified the year with the highest recorded <italic toggle="yes">Postelsia</italic> density at each site and expressed all other survey estimates at the site as a percentage of this maximum density. We then visualized mean annual trends in <italic toggle="yes">Postelsia</italic> density with a generalized additive mixed‐effects model fit to these percent of maximum density values, with year as a smoothing term and site as a random effect (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2D</xref>). The model was fit using restricted maximum likelihood (REML) using the gam function in the mgcv package in R (version 4.5.0; Wood, <xref rid="eap70215-bib-0090" ref-type="bibr">2011</xref>, R Core Team, <xref rid="eap70215-bib-0066" ref-type="bibr">2025</xref>). We then directly compared mean <italic toggle="yes">Postelsia</italic> densities between periods before the MHW (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2014) versus during and after the MHW (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2015) to determine site‐level and regional metrics of MHW population impact (Figure <xref rid="eap70215-fig-0001" ref-type="fig">1A</xref>). To assess population recoveries, we also compared mean <italic toggle="yes">Postelsia</italic> densities among three periods, before the MHW (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2014), during the MHW (2015–2016), and after the MHW (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2017), with a generalized linear mixed‐effects model with a tweedie distribution, log link function, and site as a random effect. The model was fit using the glmmTMB function in the glmmTMB package, and assumptions were checked using the DHARMa package (Brooks et al., <xref rid="eap70215-bib-0011" ref-type="bibr">2017</xref>, Hartig, <xref rid="eap70215-bib-0030" ref-type="bibr">2022</xref>).</p><fig position="float" fig-type="FIGURE" id="eap70215-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Progression of events affecting <italic toggle="yes">Postelsia</italic> abundance and temporal changes in the abundance of <italic toggle="yes">Pisaster</italic>, mussels (<italic toggle="yes">M</italic>. <italic toggle="yes">californianus</italic>), and <italic toggle="yes">Postelsia</italic>. (A) Total number of marine heatwave (MHW) days per year at each site with intertidal water temperature loggers (including all heatwave categories), (B) <italic toggle="yes">Pisaster</italic> biomass in sea star monitoring plots, (C) mussel percent cover from panoramic photos at <italic toggle="yes">Postelsia</italic> transects, which were only digitized from 2012 to 2021, and (D) <italic toggle="yes">Postelsia</italic> abundance—all modeled with generalized additive mixed‐effects model with year as a smoothing term and site (or transect for mussels) as a random effect. Shaded pink region in panels (B–D) represents the 2014–2016 MHW and the red, vertical dashed line in panel (B) represents the onset of the SSWD outbreak. (E) Key events and ecological factors influencing <italic toggle="yes">Postelsia</italic> abundance. Illustration credit: Francis D Gerraty.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EAP-36-e70215-g004.jpg"><?image-name EAP-36-e70215-g004.jpg?><?image-size 153638?><?image-md5 47b83bbfc6078b50ee4c3f6abd8effd0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 542?><?image-original-width 1064?><?image-scaled-height 361?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c34c/12991965/47b83bbfc607/EAP-36-e70215-g004.jpg?><?thumb-name EAP-36-e70215-g004.gif?><?thumb-size 18386?><?thumb-md5 3b239b8499dad2e4dd31504455efa2cf?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 157?><?thumb-cloudpmc-urn urn:cdn:blobs/c34c/12991965/3b239b8499da/EAP-36-e70215-g004.gif?></graphic></fig></sec><sec id="eap70215-sec-0005"><title>Water temperature</title><p>As part of the MARINe program, we measured intertidal water temperatures at 10 of the <italic toggle="yes">Postelsia</italic> monitoring sites (sites 1–3, 5, 8, 12–14, 16, and 17) using HOBO Pendant and TidbiT (v1 and v2) temperature loggers (Onset Computer Corporation, Bourne, Massachusetts, United States) housed in stainless steel mesh cages anchored to the substratum at the interface between middle and low intertidal zones, beginning in 2000 at the earliest sites. After downloading logger data, we extracted water temperatures on the basis of daily tidal cycles and removed any outlier temperatures. We calculated daily mean water temperature for each site by averaging all water temperature measurements, then determined the baseline temperature climatology and detected MHW events at each site using the HeatwaveR package (Schlegel &amp; Smit, <xref rid="eap70215-bib-0069" ref-type="bibr">2018</xref>). Following Hobday et al., <xref rid="eap70215-bib-0034" ref-type="bibr">2016</xref>, MHWs were defined as warm water periods lasting 5 days or more above the 90th percentile relative to long‐term, period‐specific local climatology and were categorized from moderate (Category I) to extreme (Category IV) based on heatwave intensity (Figure <xref rid="eap70215-fig-0003" ref-type="fig">3</xref>). Categories were based on multiples of the value represented by the difference between the local climatological mean and the climatological 90th percentile, with categories defined as “moderate” (Category I; 1–2 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math> the local difference), “strong” (Category II; 2–3 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-8" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>), “severe” (Category III; 3–4 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-9" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>), and “extreme” (Category IV; &gt;4 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-10" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>) (Hobday et al., <xref rid="eap70215-bib-0035" ref-type="bibr">2018</xref>).</p><fig position="float" fig-type="FIGURE" id="eap70215-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Intertidal water temperatures measured in rocky intertidal zones during the 2014–2016 marine heatwave (MHW). (A) Water temperature at one site (site 5) throughout the MHW. When water temperatures (black line) exceeded the 90th percentile (green solid line) relative to the local long‐term climatology (blue line) for five or more days, then MHW events were detected (colored fills). MHW events were categorized based on how much the temperature exceeded this threshold (moderate = 1–2 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-11" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>, strong = 2–3 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-12" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>, severe = 3–4 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-13" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>, extreme = &gt;4 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-14" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math>). Panel (B) shows these categorical thresholds and provides detail of the most extreme portion of the MHW at site 5. (C) Mean number of days per year across all sites that fell within each MHW category.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EAP-36-e70215-g001.jpg"><?image-name EAP-36-e70215-g001.jpg?><?image-size 91202?><?image-md5 a0a150f1a384a948bd029df6e1d9f74a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 523?><?image-original-width 1064?><?image-scaled-height 349?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c34c/12991965/a0a150f1a384/EAP-36-e70215-g001.jpg?><?thumb-name EAP-36-e70215-g001.gif?><?thumb-size 13212?><?thumb-md5 6863dd9bcd32811dd488a96817112b25?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 162?><?thumb-cloudpmc-urn urn:cdn:blobs/c34c/12991965/6863dd9bcd32/EAP-36-e70215-g001.gif?></graphic></fig><p>We calculated the number of days per year within each heatwave category at all sites (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>), and the mean number of days per year in each heatwave category across all sites (Figure <xref rid="eap70215-fig-0003" ref-type="fig">3C</xref>). Finally, we determined the total number of MHW days per year at each site (including all heatwave categories) and fitted a generalized additive mixed‐effects model to these values with year as a smoothing term and site as a random effect using REML to visualize temporal trends (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2A</xref>). There were temporal gaps in water temperature data at several sites due to temperature logger failure, malfunction, and loss (e.g., Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figures <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S2</xref>), so we removed all sites with over 25 missing days of temperature monitoring in any given year prior to multisite data summarization.</p></sec><sec id="eap70215-sec-0006"><title>Repeated photos</title><p>At five sites (sites 3, 8, 12, 13, and 16), the abundance of <italic toggle="yes">Postelsia</italic> and mussels were quantified using panoramic photos taken from fixed locations adjacent to <italic toggle="yes">Postelsia</italic> transects (two repeat panoramic photos at two sites, one panoramic photo at three sites). Using Adobe Photoshop, a standardized box was drawn around the same location in each image, and <italic toggle="yes">Postelsia</italic> and mussel patches were manually outlined using heads‐up digitization (i.e., digitally tracing features on the image) to determine percent cover within the box. We digitized 6–10 panoramic photos from each site (55 photos total) taken between 2012 and 2021. To visualize temporal shifts in <italic toggle="yes">Postelsia</italic> and mussel percent cover within these photos, we calculated the percentage of maximum abundance (maximum percent cover within box) for each photo, then fitted a generalized additive mixed‐effects model for each species with year as a smoothing term and transect as a random effect using REML (Figure <xref rid="eap70215-fig-0004" ref-type="fig">4</xref>).</p><fig position="float" fig-type="FIGURE" id="eap70215-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>(A) Temporal changes in the abundance (maximum percent cover within standardized box) of <italic toggle="yes">Postelsia</italic> and mussels (<italic toggle="yes">M</italic>. <italic toggle="yes">californianus</italic>) in repeated panoramic photos. <italic toggle="yes">Postelsia</italic> and mussel cover in each photo was modeled with a generalized additive mixed‐effects model (for each species) with year as a smoothing term and transect as a random effect. Photographic examples of panoramic photos at site 3 before (B) and after (C) the 2014–2016 marine heatwaves. Photos in (B) and (C) courtesy of the Multi‐Agency Rocky Intertidal Network.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="EAP-36-e70215-g003.jpg"><?image-name EAP-36-e70215-g003.jpg?><?image-size 115366?><?image-md5 3340e7a80529a91d7420d0305eb31d06?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 575?><?image-original-width 1064?><?image-scaled-height 383?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/c34c/12991965/3340e7a80529/EAP-36-e70215-g003.jpg?><?thumb-name EAP-36-e70215-g003.gif?><?thumb-size 17145?><?thumb-md5 bbb87c73d7dd20ef6f67df6fe28aecad?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 148?><?thumb-cloudpmc-urn urn:cdn:blobs/c34c/12991965/bbb87c73d7dd/EAP-36-e70215-g003.gif?></graphic></fig></sec><sec id="eap70215-sec-0007"><title>Sea star and mussel surveys</title><p>Beginning in 2000, ochre stars (<italic toggle="yes">Pisaster</italic>) were counted and measured at 15 sites (sites 1–13, 16, and 17) within three irregularly shaped plots (20–160 m<sup>2</sup>) permanently established in areas of initially high <italic toggle="yes">Pisaster</italic> density (Miner et al., <xref rid="eap70215-bib-0050" ref-type="bibr">2018</xref>). The “radius” of each <italic toggle="yes">Pisaster</italic> was measured as the distance from the center of the star to the tip of its longest ray, estimated to the nearest 10 mm for individuals &gt;7 mm. Stars 3–7 mm were grouped into a 5‐mm radius bin, and those &lt;3 mm were not counted due to inconsistent detection.</p><p>To standardize sea star abundance estimates across years, we calculated <italic toggle="yes">Pisaster</italic> biomass at each site using the length‐biomass conversion equation from Moritsch and Raimondi (<xref rid="eap70215-bib-0053" ref-type="bibr">2018</xref>). We converted counts and size structure to biomass because predator biomass is a more ecologically relevant proxy for predation pressure. We then identified the year with the highest recorded biomass at each site and expressed all other survey estimates as a percentage of this maximum. While this approach does not allow for direct comparisons of <italic toggle="yes">Pisaster</italic> density or biomass between sites due to plot irregularities, it enables comparisons of relative biomass trends within each site over time. To visualize <italic toggle="yes">Pisaster</italic> declines associated with SSWD, we fit a generalized additive mixed‐effects model to the relative biomass estimates, using year as a smoothing term and site as a random effect using REML (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2B</xref>). We then compared these relative biomass estimates among periods before the SSWD outbreak (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-15" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2013), during the SSWD outbreak (2013–2016), and after the SSWD outbreak (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-16" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2017) using a linear mixed‐effects model with site as a random effect. The model was fit using the lmer function in the lme4 package, and assumptions were checked using the DHARMa package (Bates et al., <xref rid="eap70215-bib-0005" ref-type="bibr">2015</xref>; Hartig, <xref rid="eap70215-bib-0030" ref-type="bibr">2022</xref>).</p><p>To document shifts in mussel abundance associated with <italic toggle="yes">Pisaster</italic> loss at a larger scale than the repeated photos dataset described above, we used data from MARINe Coastal Biodiversity Surveys (CBS), conducted from 2001 to 2023, to compare mussel percent cover and tidal height distribution among surveys before and after the SSWD outbreak. Of the 17 sites, only 13 had CBS surveys both before (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-17" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2013) and after (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-18" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2014) the SSWD outbreak; analyses were therefore limited to these sites (1, 3, 4, 6, 7–10, 12–14, 16, and 17). CBS are designed to capture the abundance and distribution of all common taxa, including mussels, across the intertidal zone at fixed locations within each site, allowing for assessment of change through time. A fixed, uniformly distributed grid was established at each site, consisting of 11 vertical parallel transect lines spaced 3 m apart, with approximately 100 points per transect distributed across the full tidal range, which resulted in approximately 1100 points per site. Organisms under each point were identified to the lowest possible taxonomic level, including layering and epibionts when appropriate (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.pacificrockyintertidal.org" ext-link-type="uri">https://www.pacificrockyintertidal.org</ext-link> for full description of methods).</p><p>The upper elevational limit of mussels is restricted by temperature and desiccation, whereas the lower limit is regulated by <italic toggle="yes">Pisaster</italic> predation (Dayton, <xref rid="eap70215-bib-0019" ref-type="bibr">1971</xref>; Paine, <xref rid="eap70215-bib-0059" ref-type="bibr">1974</xref>). Because of this, we hypothesized that SSWD‐driven <italic toggle="yes">Pisaster</italic> declines would cause mussels to (1) increase in percent cover across the intertidal and (2) expand to lower tidal heights at the lower edge of its vertical distribution. To assess changes in mussel percent cover between the periods before and after SSWD (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-19" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2013 vs. 2014–2023; hypothesis 1), we determined the percent cover of <italic toggle="yes">M. californianus</italic> in each CBS survey (number of <italic toggle="yes">M. californianus</italic> points/all survey points × 100) and then fit a linear mixed‐effects model with time period (pre/post SSWD) as a fixed effect and site as a random effect to these percent cover values. This model was fit using the lmer function in the lme4 package, and assumptions were checked using the DHARMa package (Bates et al., <xref rid="eap70215-bib-0005" ref-type="bibr">2015</xref>, Hartig, <xref rid="eap70215-bib-0030" ref-type="bibr">2022</xref>). To assess shifts in the tidal height of the lower distributional limit of <italic toggle="yes">M. californianus</italic> before and after the SSWD outbreak, we first determined the tidal height of each mussel detection relative to mean lower low water (MLLW). This was done by integrating biological survey data with transect‐level topographic profiles obtained using a rotating laser level. We then fit linear quantile mixed‐effects models based on the asymmetric Laplace distribution, with time period (pre/post SSWD) as a fixed effect and transect as a random effect, to three quantiles of mussel tidal height distributions (τ = 0.1, 0.5, and 0.9; i.e., 10th, 50th, and 90th percentiles) using the lqmm function in the lqmm package (Geraci, <xref rid="eap70215-bib-0026" ref-type="bibr">2014</xref>; Geraci &amp; Bottai, <xref rid="eap70215-bib-0027" ref-type="bibr">2014</xref>). We used quantile regression because it allowed us to assess changes across the full distribution of mussel tidal heights—not just the mean—thereby capturing shifts in both the core and boundaries of the species' vertical range.</p><p>Importantly, permanent sea star monitoring plots and CBS grid locations do not always directly overlap with <italic toggle="yes">Postelsia</italic> permanent transects, but they are typically within 50 m and always within 200 m of one another. To assess tidal height overlap among <italic toggle="yes">Pisaster</italic>, <italic toggle="yes">M. californianus</italic>, and <italic toggle="yes">Postelsia</italic>—thereby providing additional evidence that mussel predation by <italic toggle="yes">Pisaster</italic> may facilitate <italic toggle="yes">Postelsia</italic> habitat formation—we extracted CBS grid data from all MARINe surveys in which the three species co‐occurred. This yielded tidal height distributions for each species from 44 CBS surveys conducted between 2001 and 2023 across 13 MARINe sites, which we visualized at the site level using kernel density estimation (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S3</xref>).</p></sec><sec id="eap70215-sec-0008"><title>Statistical analysis and visualization software</title><p>All analyses were conducted in R version 4.5.0 (R Core Team, <xref rid="eap70215-bib-0066" ref-type="bibr">2025</xref>) using the following packages: tidyverse (v2.0.0, Wickham et al., <xref rid="eap70215-bib-0088" ref-type="bibr">2019</xref>), heatwaveR (v0.5.4, Schlegel &amp; Smit, <xref rid="eap70215-bib-0069" ref-type="bibr">2018</xref>), mgcv (v1.9.1, Wood, <xref rid="eap70215-bib-0090" ref-type="bibr">2011</xref>), glmmTMB (v1.1.11, Brooks et al., <xref rid="eap70215-bib-0011" ref-type="bibr">2017</xref>), DHARMa (v0.4.7, Hartig, <xref rid="eap70215-bib-0030" ref-type="bibr">2022</xref>), lme4 (v1.1‐37, Bates et al., <xref rid="eap70215-bib-0005" ref-type="bibr">2015</xref>), and lmqq (v1.5.8, Geraci, <xref rid="eap70215-bib-0026" ref-type="bibr">2014</xref>, Geraci &amp; Bottai, <xref rid="eap70215-bib-0027" ref-type="bibr">2014</xref>). Figures and tables were generated using ggplot2 (v3.5.2, Wickham, <xref rid="eap70215-bib-0089" ref-type="bibr">2016</xref>), ggthemes (v5.1.0, Arnold, <xref rid="eap70215-bib-0004" ref-type="bibr">2021</xref>), sf (v1.0.20, Pebesma, <xref rid="eap70215-bib-0064" ref-type="bibr">2018</xref>), maps (v3.4.2.1, Becker et al., <xref rid="eap70215-bib-0006" ref-type="bibr">2024</xref>), gratia (v0.10.0, Simpson, <xref rid="eap70215-bib-0071" ref-type="bibr">2024</xref>), gt (v1.0.0, Iannone et al., <xref rid="eap70215-bib-0038" ref-type="bibr">2025</xref>), and biscale (v1.0.0, Prener et al., <xref rid="eap70215-bib-0065" ref-type="bibr">2022</xref>). Data and code to reproduce all analyses and figures are publicly available (Gerraty et al., <xref rid="eap70215-bib-0028" ref-type="bibr">2026</xref>).</p></sec></sec><sec sec-type="results" id="eap70215-sec-0009"><title>RESULTS</title><p>We found evidence that the 2014–2016 MHW initiated severe, broad‐scale <italic toggle="yes">Postelsia</italic> declines and that the synergistic SSWD outbreak indirectly hindered <italic toggle="yes">Postelsia</italic> recoveries (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2</xref>). <italic toggle="yes">Postelsia</italic> abundance declined rapidly in 2014–2015 during the onset of the MHW, leading to local extirpations at the two southernmost sites (sites 16 and 17) and substantially reduced abundance in most other sites (Figure <xref rid="eap70215-fig-0001" ref-type="fig">1</xref>, Figure <xref rid="eap70215-fig-0002" ref-type="fig">2</xref>). Beginning in 2013, the SSWD outbreak led to sharp declines of <italic toggle="yes">Pisaster</italic>—a keystone predator—which were associated with an increase in mussel (<italic toggle="yes">M. californianus</italic>) abundance, mussel expansion to lower tidal heights, and mussel colonization of habitats formerly occupied by <italic toggle="yes">Postelsia</italic> (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2</xref>, Figure <xref rid="eap70215-fig-0004" ref-type="fig">4</xref>, Figure <xref rid="eap70215-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="eap70215-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Changes in mussel (<italic toggle="yes">M. californianus</italic>) tidal height distribution (A) and frequency of percent cover at the site‐wide scale (B) before (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-20" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2013) and after (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-21" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2014) the sea star wasting disease (SSWD) outbreak. MLLW, mean lower low water.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="EAP-36-e70215-g005.jpg"><?image-name EAP-36-e70215-g005.jpg?><?image-size 96213?><?image-md5 8d97d2ec3823b1361c76f1eeaadcf94a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1436?><?image-original-width 1008?><?image-scaled-height 957?><?image-scaled-width 672?><?image-cloudpmc-urn urn:cdn:blobs/c34c/12991965/8d97d2ec3823/EAP-36-e70215-g005.jpg?><?thumb-name EAP-36-e70215-g005.gif?><?thumb-size 11821?><?thumb-md5 d152df4a6ae81180082c672386d43a1f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 142?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/c34c/12991965/d152df4a6ae8/EAP-36-e70215-g005.gif?></graphic></fig><sec id="eap70215-sec-0010"><title>Direct effects of MHW</title><p>The northeast Pacific MHW began during summer 2014 and persisted through autumn 2016 in our study region. Although subregional variation was evident, the most intense period—based on temperature anomalies and the number of MHW days—occurred from September 2014 to April 2015 (Figure <xref rid="eap70215-fig-0003" ref-type="fig">3</xref>; Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figures <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S2</xref>; Gentemann et al., <xref rid="eap70215-bib-0025" ref-type="bibr">2017</xref>). After April 2015, water temperatures cooled in the northern portion of the study area, while the southern portion experienced another severe temperature spike from August to October 2015. Across sites with continuous temperature monitoring (&lt;25 days of temperature data missing per year), the mean number of MHW days was 110.6 ± 10.5 (SD) in 2014 and 100.8 ± 25.9 (SD) in 2015 (Figure <xref rid="eap70215-fig-0003" ref-type="fig">3C</xref>). Nine of 10 sites with water temperature loggers (excluding site 1) recorded maximum water temperatures exceeding 17°C (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>). Of these, five sites (sites 12–14, 16, 17) had maximum temperatures that exceeded 18°C, and one site (site 14) reached 20°C (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>). Most MHW events were classified as “moderate,” but “strong” and “severe” events occurred at multiple sites in both 2014 and 2015 (Figure <xref rid="eap70215-fig-0003" ref-type="fig">3</xref>). One site (site 5) experienced an “extreme” MHW event in 2014, exceeding 4 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-22" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>×</mml:mo></mml:mrow></mml:mrow></mml:math> the MHW threshold (Figure <xref rid="eap70215-fig-0003" ref-type="fig">3</xref>; Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><p>
+<italic toggle="yes">Postelsia</italic> densities declined after the onset of the MHW at 13 out of 16 sites (81%) where pre‐MHW (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-23" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2014) and post‐MHW (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-24" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math> 2015) surveys were conducted (Figure <xref rid="eap70215-fig-0001" ref-type="fig">1</xref>, Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S2</xref>). Across all sites, <italic toggle="yes">Postelsia</italic> densities declined by a mean of 49.6% between these periods. These declines often occurred rapidly (i.e., within 1–2 years) after MHW onset, suggesting that anomalously warm water temperatures likely triggered direct physiological stress (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S4</xref>; Young, <xref rid="eap70215-bib-0091" ref-type="bibr">1971</xref>; Lüning &amp; Freshwater, <xref rid="eap70215-bib-0042" ref-type="bibr">1988</xref>).</p><p>Declines in <italic toggle="yes">Postelsia</italic> were particularly pronounced in the southern portion of our study region; all sites south of Salmon Creek, Sonoma County (sites 11–17), exhibited &gt;70% declines in density and local extirpations occurred at the two southernmost sites in 2015 (sites 16 and 17; Figure <xref rid="eap70215-fig-0001" ref-type="fig">1</xref>). Another site (site 13) experienced a local extirpation in 2016, but the population began to recover in 2018–2024, albeit to drastically lower densities than those documented prior to the MHW (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S4</xref>). Changes in <italic toggle="yes">Postelsia</italic> density were more variable north of Salmon Creek (sites 1–10), ranging from two sites with &gt;90% declines to one site with a 75.5% increase in density (Figure <xref rid="eap70215-fig-0001" ref-type="fig">1</xref>; Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S2</xref>). However, the three sites with post‐MHW density increases had limited sampling—only 1–2 surveys before the MHW, and just one survey after the MHW at two of three sites. Low sampling effort at these sites may have influenced our density change estimates due to stochastic variation (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S5</xref>).</p><p>Our generalized linear mixed‐effects model comparing <italic toggle="yes">Postelsia</italic> density before (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-25" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2014), during (2015–2016), and after (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-26" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≥</mml:mo></mml:mrow></mml:mrow></mml:math>2017) the MHW provided strong evidence that density differed significantly among all time periods. <italic toggle="yes">Postelsia</italic> density was highest prior to the MHW (estimated marginal mean: 56.47 ± 7.09 SE individuals/m<sup>2</sup>), declined sharply during the MHW (3.58 ± 1.02 SE), and partially rebounded post‐MHW (12.09 ± 1.78 SE).</p></sec><sec id="eap70215-sec-0011"><title>Indirect effects of sea star wasting</title><p>Sea star wasting was first documented in our study region in 2013, leading to rapid, significant declines in <italic toggle="yes">Pisaster</italic> biomass at all sites with high monitoring frequency except for site 8 (Miner et al., <xref rid="eap70215-bib-0050" ref-type="bibr">2018</xref>; Figure <xref rid="eap70215-fig-0002" ref-type="fig">2B</xref>; Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S6</xref>). Prior to the SSWD outbreak, <italic toggle="yes">Pisaster</italic> mean biomass was 60.4% <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-27" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 3.91 SE (estimated marginal mean) of the maximum biomass recorded in the sea star monitoring plots. In 2013–2016, after the onset of SSWD, <italic toggle="yes">Pisaster</italic> mean biomass collapsed to only 26.4% ± 5.34 SE of the maximum documented biomass. <italic toggle="yes">Pisaster</italic> populations began to rebound at most sites after 2016, although <italic toggle="yes">Pisaster</italic> biomass at a few—including the two southernmost sites—remain well below pre‐SSWD levels (i.e., see sites 3, 16, and 17 in Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S6</xref>). After 2016 (i.e., 2017–2024), <italic toggle="yes">Pisaster</italic> rebounded to 45.2% ± 3.85 SE of the maximum documented biomass. Importantly, biomass recovery does not necessarily mean the recovery of keystone predation pressure, particularly because a periodic absence of predation may allow mussels to grow beyond the size at which <italic toggle="yes">Pisaster</italic> can consume them (Paine, <xref rid="eap70215-bib-0060" ref-type="bibr">1976</xref>).</p><p>We found that <italic toggle="yes">Pisaster</italic> declines were temporally associated with increases in mussel abundance and mussel bed expansion to lower tidal heights. We conducted 51 CBS surveys at 13 sites between 2001 and 2023 to detect shifts in mussel abundance and distribution. Of these, 26 surveys occurred before the SSWD outbreak onset (<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-28" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>≤</mml:mo></mml:mrow></mml:mrow></mml:math>2013), and 25 occurred after. The frequency and timing of CBS surveys varied among sites; for example, site 9 had only one survey before and one after the SSWD outbreak, whereas site 12 had five surveys before and three after. Across all CBS surveys, mussels (<italic toggle="yes">M. californianus</italic>) were detected at 12,499 survey points. Mussel percent cover increased significantly after the SSWD outbreak (estimate = 7.51% <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-29" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 1.05 SE, <italic toggle="yes">p</italic> &lt; 0.001). Quantile regression revealed a significant lowering in the tidal height of the 10th and 50th (i.e., lower elevation and median) percentiles of mussel distribution after the SSWD outbreak, with no significant change at the 90th percentile. At the 10th percentile (τ = 0.1), mussels occurred significantly lower in the intertidal zone (estimate = −0.13 m <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-30" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 0.04 SE, <italic toggle="yes">p</italic> &lt; 0.001), indicating a downward shift in the lower bounds of their vertical distribution. A similar but slightly smaller downward shift was observed at the median (estimate = −0.11 m <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-31" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 0.04 SE, <italic toggle="yes">p</italic> = 0.012). As expected, no significant change was detected at the 90th percentile (estimate = −0.03 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-32" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 0.03 m SE, <italic toggle="yes">p</italic> = 0.304), suggesting that the upper tidal limit of mussels remained relatively stable following <italic toggle="yes">Pisaster</italic> declines. CBS grid data from surveys in which <italic toggle="yes">Pisaster</italic>, <italic toggle="yes">M. californianus</italic>, and <italic toggle="yes">Postelsia</italic> co‐occurred revealed substantial overlap in their tidal height distributions at nearly all sites, but did not show any latitudinal differences in <italic toggle="yes">Postelsia</italic> tidal height distribution (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S3</xref>).</p><p>Although sea star monitoring and CBS surveys provided compelling evidence that <italic toggle="yes">Pisaster</italic> declines were linked to increases in mussel abundance and mussel bed expansion to lower tidal heights, mechanistic detail on how these ecological shifts impacted <italic toggle="yes">Postelsia</italic> recoveries is limited due to the lack of direct overlap among sea star monitoring plots, CBS survey grids, and <italic toggle="yes">Postelsia</italic> transects. However, our repeated panoramic photos provided complementary insights into how <italic toggle="yes">Postelsia</italic>‐mussel interactions shifted during and after the MHW and SSWD outbreak. In 2012–2013, immediately prior to the MHW and SSWD outbreak, <italic toggle="yes">Postelsia</italic> mean cover was 81.4% <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-33" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 6.9 SE of the maximum percent cover in the repeated photos. By contrast, mean mussel cover was 28% <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-34" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 7.7 SE of its maximum percent cover. However, a dramatic shift occurred from 2014 to 2016, after which <italic toggle="yes">Postelsia</italic> mean cover dropped to 9.4% <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-35" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 3.1 SE of its maximum abundance and mussel mean cover expanded to 88% <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-36" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mo>±</mml:mo></mml:mrow></mml:mrow></mml:math> 2.5 SE of its maximum abundance (Figure <xref rid="eap70215-fig-0004" ref-type="fig">4</xref>; Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S8</xref>). These data reveal that mussel beds expanded into areas previously occupied by <italic toggle="yes">Postelsia</italic> after the MHW and SSWD outbreak, a trend that coincided with sharp declines in <italic toggle="yes">Postelsia</italic> cover (Figure <xref rid="eap70215-fig-0004" ref-type="fig">4</xref>).</p></sec></sec><sec sec-type="discussion" id="eap70215-sec-0012"><title>DISCUSSION</title><p>Our study highlights how multiple, concurrent disturbance events can reshape population and community dynamics in strong and complex ways. We show that the 2014–2016 MHW was correlated with rapid and widespread <italic toggle="yes">Postelsia</italic> declines and that disease‐driven <italic toggle="yes">Pisaster</italic> losses likely hindered kelp persistence and recovery by releasing competitively dominant mussels from keystone predation pressure (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2</xref>). These results underscore the importance of considering both direct and indirect pathways when evaluating global change impacts on climate‐sensitive species. Our findings also emphasize the critical role of long‐term monitoring for detecting and understanding climate impacts and provide a foundation for guiding <italic toggle="yes">Postelsia</italic> conservation and management efforts.</p><sec id="eap70215-sec-0013"><title>Converging stressors</title><p>Ecological impacts of disturbance events tend to be studied in isolation, largely because acute perturbations have historically been rare, but global climate change and other anthropogenic stressors are increasing both the frequency and temporal overlap of extreme disturbances (Buma, <xref rid="eap70215-bib-0008" ref-type="bibr">2015</xref>; Newman &amp; Noy, <xref rid="eap70215-bib-0055" ref-type="bibr">2023</xref>; Smith, <xref rid="eap70215-bib-0077" ref-type="bibr">2011</xref>). Our findings suggest that two simultaneous and unprecedented disturbance events—a MHW and a keystone predator disease outbreak—negatively impacted <italic toggle="yes">Postelsia</italic> through different mechanisms: the MHW caused direct physiological stress, while <italic toggle="yes">Pisaster</italic> declines indirectly limited kelp persistence and recovery by enabling the expansion of competitively dominant mussels into <italic toggle="yes">Postelsia</italic> habitats (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2</xref>). While attribution of change is challenging during simultaneous disturbance events, it is likely that the population‐level impacts on <italic toggle="yes">Postelsia</italic> were more severe than would be expected if each disturbance had occurred independently. Forecasting long‐term population dynamics for climate‐sensitive species must therefore account for interactive and compounding effects of simultaneous disturbance events, such as those documented here (Buma, <xref rid="eap70215-bib-0008" ref-type="bibr">2015</xref>).</p><p>Warm water temperatures have long been considered an important determinant of the southern distributional edge of <italic toggle="yes">Postelsia</italic>, despite an absence of field studies in the region documenting such associations (Lüning &amp; Freshwater, <xref rid="eap70215-bib-0042" ref-type="bibr">1988</xref>; Young, <xref rid="eap70215-bib-0091" ref-type="bibr">1971</xref>). Laboratory studies have documented that <italic toggle="yes">Postelsia</italic> sporophytes are unable to withstand prolonged water temperatures &gt;15°C, a value that roughly corresponds with the average maximum summer temperature at the southern range edge in San Luis Obispo county (Lüning &amp; Freshwater, <xref rid="eap70215-bib-0042" ref-type="bibr">1988</xref>). In addition, Muth et al. (<xref rid="eap70215-bib-0054" ref-type="bibr">2019</xref>) found that <italic toggle="yes">Postelsia</italic> exhibited recruitment failure in a laboratory setting at 18°C. Every site with temperature loggers had more than 70 days where mean water temperatures exceeded 15°C, and the southernmost five of these sites had multiple days where water temperatures exceeded 18°C (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Table <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>). While lab‐based thermal tolerance studies must be interpreted with caution because <italic toggle="yes">Postelsia</italic> likely exhibits local thermal adaptation due to its extremely limited dispersal, our findings are consistent with and build upon these results to suggest that climate‐driven range retraction at the southern range edge of <italic toggle="yes">Postelsia</italic> is likely underway. This pattern is also consistent with widespread reports of kelp range contractions at warm range limits globally (Smale, <xref rid="eap70215-bib-0072" ref-type="bibr">2020</xref>).</p><p>Identifying the interactive and cumulative impacts of both acute MHWs and chronic ocean warming on the distribution of <italic toggle="yes">Postelsia</italic> remains a critical research gap. A glimpse of historical insight is provided by Young (<xref rid="eap70215-bib-0091" ref-type="bibr">1971</xref>), which documented substantial <italic toggle="yes">Postelsia</italic> patches in one location at or near the kelp's southern range limit. However, all nearby patches were extirpated during the 1982–1983 ENSO event and have not recovered (J. Steinbeck, personal communication). Documenting fine‐scale distributional shifts and critical persistence thresholds, and also identifying the ecological and social consequences of <italic toggle="yes">Postelsia</italic> losses, are important research directions that can inform conservation and management strategies.</p><p>Our research adds to and is reinforced by a broad scientific understanding surrounding the negative impacts of MHWs on kelps in both subtidal and intertidal systems (Eger et al., <xref rid="eap70215-bib-0022" ref-type="bibr">2024</xref>, Roethler et al., <xref rid="eap70215-bib-0067" ref-type="bibr">2025</xref>, Wernberg et al., <xref rid="eap70215-bib-0086" ref-type="bibr">2024</xref>, Weitzman et al., <xref rid="eap70215-bib-0084" ref-type="bibr">2021</xref>, Whalen et al., <xref rid="eap70215-bib-0087" ref-type="bibr">2023</xref>). However, the cascading ecological consequences of disease outbreaks in predators have been less comprehensively documented, especially in marine ecosystems (Buck &amp; Ripple, <xref rid="eap70215-bib-0009" ref-type="bibr">2017</xref>; Burge et al., <xref rid="eap70215-bib-0010" ref-type="bibr">2014</xref>; Schultz et al., <xref rid="eap70215-bib-0070" ref-type="bibr">2016</xref>). Our findings highlight how keystone predator losses can cascade through food webs to reshape population trajectories of climate‐sensitive species. <italic toggle="yes">Pisaster</italic> losses were followed by increasing mussel abundance and mussel expansion to lower tidal heights, a result consistent with other studies documenting shifts from macroalgal to invertebrate‐dominated intertidal communities during the SSWD outbreak and 2014–2016 MHW (Meunier et al., <xref rid="eap70215-bib-0049" ref-type="bibr">2024</xref>; Traiger et al., <xref rid="eap70215-bib-0081" ref-type="bibr">2022</xref>; Weitzman et al., <xref rid="eap70215-bib-0084" ref-type="bibr">2021</xref>; Whalen et al., <xref rid="eap70215-bib-0087" ref-type="bibr">2023</xref>). Mussels are a dominant competitor for space and can strongly influence rocky intertidal biodiversity and community composition (Miner et al., <xref rid="eap70215-bib-0051" ref-type="bibr">2021</xref>; Paine, <xref rid="eap70215-bib-0059" ref-type="bibr">1974</xref>), so the negative ramifications of mussel bed expansion for <italic toggle="yes">Poselsia</italic> persistence and recovery are likely just one of numerous ecological consequences arising in the aftermath of the SSWD outbreak. We encourage future research efforts to trace the diverse ecological legacies of SSWD‐triggered <italic toggle="yes">Pisaster</italic> losses and explore how they continue to reshape coastal ecosystem dynamics into the present (Meunier et al., <xref rid="eap70215-bib-0049" ref-type="bibr">2024</xref>; Smith et al., <xref rid="eap70215-bib-0074" ref-type="bibr">2025</xref>).</p><p>While our results are broadly consistent with <italic toggle="yes">Pisaster</italic> functioning as a keystone predator in maintaining habitat heterogeneity and influencing <italic toggle="yes">Postelsia</italic> population trajectories, the magnitude and nature of these predator effects are not uniform across space and time (Menge et al., <xref rid="eap70215-bib-0046" ref-type="bibr">1994</xref>; Menge et al., <xref rid="eap70215-bib-0048" ref-type="bibr">2021</xref>). The indirect effects of <italic toggle="yes">Pisaster</italic> losses on <italic toggle="yes">Postelsia</italic> recoveries are contingent on the overlapping tidal height distributions of <italic toggle="yes">Pisaster</italic>, mussels, and <italic toggle="yes">Postelsia</italic>—which we documented across our study region (Appendix <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S1</xref>: Figure <xref rid="eap70215-supitem-0001" ref-type="supplementary-material">S3</xref>)—and are likely strongest at sites with high mussel abundance. However, because these keystone interactions depend on local conditions such as wave exposure and mussel recruitment variability, the indirect effects of <italic toggle="yes">Pisaster</italic> abundance on <italic toggle="yes">Postelsia</italic> population dynamics likely vary among regions and ecological contexts. For example, greater wave exposure at northern latitudes might extend the vertical distribution of <italic toggle="yes">Postelsia</italic> into the high intertidal zone (as described by Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref> and Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>), thus reducing spatial overlap among <italic toggle="yes">Pisaster</italic>, mussels, and <italic toggle="yes">Postelsia</italic>, and thereby weakening the influence of <italic toggle="yes">Pisaster</italic> on <italic toggle="yes">Postelsia</italic> habitat formation. In addition, the importance of <italic toggle="yes">Pisaster</italic> for creating <italic toggle="yes">Postelsia</italic> settlement habitat might be greatly reduced at northern latitudes, where wave disturbance—often in the form of log‐bashing—is a widely documented source of mussel removal (Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>; Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>). Indeed, Csordas et al. (<xref rid="eap70215-bib-0018" ref-type="bibr">2024</xref>) reported stable <italic toggle="yes">Postelsia</italic> populations in British Columbia over the same period as our study.</p></sec><sec id="eap70215-sec-0014"><title>Implications for conservation and management</title><p>Our findings of widespread and persistent <italic toggle="yes">Postelsia</italic> declines have direct implications for the management of this ecologically, economically, and culturally significant kelp. <italic toggle="yes">Postelsia</italic> is currently harvested for both commercial and recreational purposes, with regulations varying across its range depending on state or provincial jurisdiction. The most common harvesting practice is to trim blades above the meristem, which allows individuals to survive and blades to regrow, but this method can still reduce spore production and hinder recruitment (Thompson et al., <xref rid="eap70215-bib-0080" ref-type="bibr">2010</xref>). Blade harvest after the onset of sporogenesis has been shown to sharply reduce spore production, suggesting that harvest timing is critical for sustainability of the <italic toggle="yes">Postelsia</italic> fishery (Thompson et al., <xref rid="eap70215-bib-0080" ref-type="bibr">2010</xref>). To mitigate detrimental harvest impacts, potential management actions include mandating blade‐trimming harvest methods, restricting harvest to a defined season that ends prior to the onset of sporogenesis, and establishing temporary or permanent closures for both recreational and commercial take in areas experiencing decline or where remnant populations are failing to recover (Thompson et al., <xref rid="eap70215-bib-0080" ref-type="bibr">2010</xref>).</p><p>Because <italic toggle="yes">Postelsia</italic> disperses primarily over short distances, short‐term recoveries in areas where local populations have been extirpated is unlikely without restoration interventions. Potential restoration efforts would therefore need to be targeted and conducted at local scales. <italic toggle="yes">Postelsia</italic> has been successfully transplanted via several methods (Nielsen et al., <xref rid="eap70215-bib-0056" ref-type="bibr">2006</xref>; Paine, <xref rid="eap70215-bib-0061" ref-type="bibr">1979</xref>; Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>; Paine et al., <xref rid="eap70215-bib-0063" ref-type="bibr">2017</xref>), and transplanted <italic toggle="yes">Postelsia</italic> individuals have established local patches that persist for 5+ generations (Paine et al., <xref rid="eap70215-bib-0063" ref-type="bibr">2017</xref>). Given the kelp's narrow habitat requirements (Nielsen et al., <xref rid="eap70215-bib-0056" ref-type="bibr">2006</xref>; Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>), careful site selection for restoration activities is essential for restoration success. Active clearing of mussels and other competitors from sites with transplanted or remnant populations may also improve restoration outcomes (Paine, <xref rid="eap70215-bib-0061" ref-type="bibr">1979</xref>; Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>).</p><p>Critically, Indigenous peoples have harvested <italic toggle="yes">Postelsia</italic> for millennia, so any regulatory changes or conservation and restoration efforts should be developed in conversation and partnership with tribal communities and First Nations to support co‐management and protect culturally significant practices (Ainis et al., <xref rid="eap70215-bib-0002" ref-type="bibr">2019</xref>; Turner, <xref rid="eap70215-bib-0082" ref-type="bibr">2001</xref>; Van Pelt et al., <xref rid="eap70215-bib-0083" ref-type="bibr">2017</xref>).</p></sec><sec id="eap70215-sec-0015"><title>Importance of long‐term, broad‐scale ecosystem monitoring</title><p>Long‐term, broad‐scale ecological experiments and monitoring studies provide critical information about how global change influences biological communities and ecosystems (Hughes et al., <xref rid="eap70215-bib-0037" ref-type="bibr">2017</xref>). These studies are increasingly important as anthropogenic stressors increase in diversity and intensity, often leading to interactive and cumulative emergent effects (Crain et al., <xref rid="eap70215-bib-0017" ref-type="bibr">2008</xref>). In this study, we leverage data from 480 field surveys conducted from 1999 to 2024 at 17 field sites spanning over 1200 km of coastline to show how converging stressors were associated with a ~ 50% decline in <italic toggle="yes">Postelsia</italic> populations across more than half of the species' geographic range. Studies spanning such broad spatial and temporal scales are rare and therefore provide uniquely valuable insights into ecological and global change processes (Hughes et al., <xref rid="eap70215-bib-0037" ref-type="bibr">2017</xref>).</p><p>Parsing long‐term changes from stochastic ecological dynamics is less feasible for short‐term studies or studies assessing population shifts at temporal snapshots separated by long periods (e.g., Csordas et al., <xref rid="eap70215-bib-0018" ref-type="bibr">2024</xref>). In addition, many long‐term monitoring studies solely examine population dynamics of single species instead of monitoring change across multiple taxa at varying trophic levels, thereby limiting inferences into the drivers of population changes (Coletti et al., <xref rid="eap70215-bib-0015" ref-type="bibr">2016</xref>). Our ability to assemble multispecies monitoring datasets provided deeper understanding of the ecological processes underpinning <italic toggle="yes">Postelsia</italic> declines (Figure <xref rid="eap70215-fig-0002" ref-type="fig">2</xref>), which should hold significant weight in environmental policy and conservation and restoration decision‐making. We therefore urge strong and consistent investment in large‐scale, long‐term, multispecies monitoring programs because of the crucial ecological and management insights they provide, particularly as global change impacts intensify into the future (Hughes et al., <xref rid="eap70215-bib-0037" ref-type="bibr">2017</xref>; Lindenmayer et al., <xref rid="eap70215-bib-0041" ref-type="bibr">2022</xref>).</p></sec><sec id="eap70215-sec-0016"><title>Limitations and future directions</title><p>Our results provide compelling evidence suggesting that direct physiological stress contributed to rapid <italic toggle="yes">Postelsia</italic> declines during the MHW and that SSWD indirectly limited <italic toggle="yes">Postelsia</italic> recoveries at sites in the southern portion of the kelp's distribution. However, our analyses remain correlative and we cannot fully disentangle causality due to the lack of experimental controls. In addition, while the <italic toggle="yes">Postelsia</italic> survey dataset we present here constitutes a majority of the species' long‐term population monitoring data—particularly in our study region (but see Csordas et al., <xref rid="eap70215-bib-0018" ref-type="bibr">2024</xref> for long‐term monitoring from Vancouver Island, BC)—the transects are small in spatial extent and may not fully capture broader scale patterns of distributional change and recolonization dynamics (i.e., at scales from a rocky intertidal bench to an entire coastline). Moreover, because transect locations were selected in part based on their safe accessibility, the dataset may underrepresent more wave‐exposed habitats where <italic toggle="yes">Postelsia</italic> population dynamics could differ. Increased wave exposure likely shifts <italic toggle="yes">Postelsia</italic> tidal height distributions upward, thereby reducing spatial overlap with <italic toggle="yes">Pisaster</italic> and potentially causing the indirect effects of SSWD on <italic toggle="yes">Postelsia</italic> to vary across wave exposure gradients.</p><p>To address these gaps, future studies should pair long‐term in situ monitoring with tools for surveying <italic toggle="yes">Postelsia</italic> abundance at broader spatial scales, such as with drones and aerial imaging (Csordas et al., <xref rid="eap70215-bib-0018" ref-type="bibr">2024</xref>; Garza, <xref rid="eap70215-bib-0024" ref-type="bibr">2019</xref>). Experimental and modeling efforts are also needed to define critical thermal limits for <italic toggle="yes">Postelsia</italic> under realistic field conditions, to forecast <italic toggle="yes">Postelsia</italic> range contraction or distributional shifts, and to identify potential sites for targeted conservation and restoration efforts. Future work could also explore alternative <italic toggle="yes">Postelsia</italic> dispersal mechanisms, such as the transport of fertile frond fragments by waves and wind, which may facilitate long‐distance colonization more effectively than whole‐kelp rafting and revise our understanding of <italic toggle="yes">Postelsia</italic> population connectivity (Dayton, <xref rid="eap70215-bib-0020" ref-type="bibr">1973</xref>; Paine, <xref rid="eap70215-bib-0062" ref-type="bibr">1988</xref>; Paine et al., <xref rid="eap70215-bib-0063" ref-type="bibr">2017</xref>; P. Dayton, personal communication). Finally, deeper exploration of the social and ecological roles played by <italic toggle="yes">Postelsia</italic> can provide important insights into how kelp declines and potential recoveries influence social‐ecological system dynamics.</p></sec><sec sec-type="conclusions" id="eap70215-sec-0017"><title>Conclusions</title><p>Our study provides the most comprehensive assessment to date of <italic toggle="yes">Postelsia</italic> population dynamics across a large portion of the species' range, revealing severe and widespread declines linked to the combined impacts of the 2014–2016 MHW and SSWD‐triggered <italic toggle="yes">Pisaster</italic> losses. By leveraging long‐term, broad‐scale, multispecies ecological monitoring, we demonstrate how concurrent disturbance events can interact to reshape the population dynamics of climate‐sensitive species through both direct and indirect pathways. These findings underscore the need for conservation and management strategies that account for the complex, compounding, and interactive effects of global change.</p></sec></sec><sec id="eap70215-sec-0019"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Francis D. Gerraty</bold> contributed to conceptualization, data curation, formal analysis, investigation, software, visualization, writing – original draft, writing – review and editing. <bold>Karah N. Cox‐Ammann</bold> contributed to conceptualization, investigation, writing – review and editing. <bold>Melissa A. Douglas</bold> contributed to investigation, writing – review and editing. <bold>Maya George</bold> contributed to investigation, writing – review and editing. <bold>David P. Lohse</bold> contributed to conceptualization, data curation, formal analysis, investigation, writing – review and editing. <bold>C. Melissa Miner</bold> contributed to data curation, investigation, writing – original draft, writing – review and editing. <bold>Peter T. Raimondi</bold> contributed to conceptualization, formal analysis, funding acquisition, investigation, supervision, writing – review and editing.</p></sec><sec sec-type="COI-statement" id="eap70215-sec-0018"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no competing interests.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="eap70215-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Appendix S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="EAP-36-e70215-s001.pdf" position="float" orientation="portrait"><?suppdata-name EAP-36-e70215-s001.pdf?><?suppdata-size 4980781?><?suppdata-md5 bcab4a4f19fff07af0dbe48771212318?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:c34c/12991965/bcab4a4f19ff/EAP-36-e70215-s001.pdf?></media></supplementary-material></sec></body><back><ack id="eap70215-sec-0020"><title>ACKNOWLEDGMENTS</title><p>This study utilized data collected by the Multi‐Agency Rocky Intertidal Network (MARINe): a long‐term ecological consortium funded and supported by many groups. Please visit <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pacificrockyintertidal.org" ext-link-type="uri">pacificrockyintertidal.org</ext-link> for a complete list of the MARINe partners responsible for monitoring and funding these data. Special recognition should go to the agencies who have provided the majority of continuous funding for the project over several decades: Bureau of Ocean Energy Management, The National Park Service, The California Ocean Protection Council, and Partnership for Interdisciplinary Studies of Coastal Oceans. We are grateful to Rani Gaddam for data curation and interpretation, Hallie Brown and Mike Grone for suggesting references, and Paul Dayton for constructive comments. FDG was also supported by a NSF Graduate Research Fellowship and Achievement Rewards for College Scientists Fellowship.</p></ack><sec sec-type="data-availability" id="eap70215-sec-0022"><title>DATA AVAILABILITY STATEMENT</title><p>Data and code (Gerraty et al., <xref rid="eap70215-bib-0028" ref-type="bibr">2026</xref>) are available in Zenodo at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.18274746" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5281/zenodo.18274746</ext-link>. Study site names and site coordinates are not included in the publicly available data because <italic toggle="yes">Postelsia palmaeformis</italic> is a protected species and threatened by illegal human harvest; qualified researchers may obtain georeferenced <italic toggle="yes">P. palmaeformis</italic> monitoring data by submitting a data request from the Multi‐Agency Rocky Intertidal Network at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.pacificrockyintertidal.org/" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.pacificrockyintertidal.org</ext-link>.</p></sec><ref-list id="eap70215-bibl-0001" content-type="cited-references"><title>REFERENCES</title><ref id="eap70215-bib-0001"><mixed-citation publication-type="book" id="eap70215-cit-0001">
+<string-name name-style="western">
+<surname>Abbott</surname>, <given-names>L. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>L. G.</given-names>
+<surname>Hollenberg</surname>
+</string-name>. <year>1976</year>. <source>Marine Algae of California Stanford</source>. <publisher-loc>Stanford</publisher-loc>: <publisher-name>University Press</publisher-name>.</mixed-citation></ref><ref id="eap70215-bib-0002"><mixed-citation publication-type="book" id="eap70215-cit-0002">
+<string-name name-style="western">
+<surname>Ainis</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Erlandson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Gill</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Graham</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Vellanoweth</surname>
+</string-name>. <year>2019</year>. “<part-title>The Potential Use of Seaweeds and Marine Plants by Native Peoples of Alta and Baja California: Implications for “Marginal” Island Ecosystems</part-title>.” In <source>An Archaeology of Abundance</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A. F.</given-names>
+<surname>Ainis</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Erlandson</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Gill</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Graham</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Vellanoweth</surname>
+</string-name>
+</person-group>, <fpage>135</fpage>–<lpage>170</lpage>. <publisher-loc>Gainseville, FL</publisher-loc>: <publisher-name>University Press of Florida</publisher-name>. <pub-id pub-id-type="doi">10.5744/florida/9780813056166.003.0005</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0003"><mixed-citation publication-type="journal" id="eap70215-cit-0003">
+<string-name name-style="western">
+<surname>Altizer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Ostfeld</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. T. J.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kutz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Harvell</surname>
+</string-name>. <year>2013</year>. “<article-title>Climate Change and Infectious Diseases: From Evidence to a Predictive Framework</article-title>.” <source>Science</source>
+<volume>341</volume>(<issue>6145</issue>): <fpage>514</fpage>–<lpage>519</lpage>. <pub-id pub-id-type="doi">10.1126/science.1239401</pub-id>.<pub-id pub-id-type="pmid">23908230</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0004"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0004">
+<string-name name-style="western">
+<surname>Arnold</surname>, <given-names>J.</given-names>
+</string-name>
+<year>2021</year>. <article-title>“ggthemes: Extra Themes, Scales and Geoms for 'ggplot2'. R package version 4.2.4.”</article-title>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=ggthemes" ext-link-type="uri">https://CRAN.R-project.org/package=ggthemes</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0005"><mixed-citation publication-type="journal" id="eap70215-cit-0005">
+<string-name name-style="western">
+<surname>Bates</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Maechler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Bolker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Walker</surname>
+</string-name>. <year>2015</year>. “<article-title>Fitting Linear Mixed‐Effects Models Using lme4</article-title>.” <source>Journal of Statistical Software</source>
+<volume>67</volume>(<issue>1</issue>): <fpage>1</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.18637/jss.v067.i01</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0006"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0006">
+<string-name name-style="western">
+<surname>Becker</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Wilks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Brownrigg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. P.</given-names>
+<surname>Minka</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Deckmyn</surname>
+</string-name>. <year>2024</year>. <article-title>“maps: Draw Geographical Maps.”</article-title>
+<pub-id pub-id-type="doi">10.32614/CRAN.package.maps</pub-id>, R package version 3.4.2.1, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=maps" ext-link-type="uri">https://CRAN.R-project.org/package=maps</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0007"><mixed-citation publication-type="journal" id="eap70215-cit-0007">
+<string-name name-style="western">
+<surname>Blanchette</surname>, <given-names>C. A.</given-names>
+</string-name>
+<year>1996</year>. “<article-title>Seasonal Patterns of Disturbance Influence Recruitment of the Sea Palm, <italic toggle="yes">Postelsia palmaeformis</italic>
+</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>197</volume>(<issue>1</issue>): <fpage>1</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1016/0022-0981(95)00141-7</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0008"><mixed-citation publication-type="journal" id="eap70215-cit-0008">
+<string-name name-style="western">
+<surname>Buma</surname>, <given-names>B.</given-names>
+</string-name>
+<year>2015</year>. “<article-title>Disturbance Interactions: Characterization, Prediction, and the Potential for Cascading Effects</article-title>.” <source>Ecosphere</source>
+<volume>6</volume>(<issue>4</issue>): <fpage>1</fpage>–<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1890/ES15-00058.1</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0009"><mixed-citation publication-type="journal" id="eap70215-cit-0009">
+<string-name name-style="western">
+<surname>Buck</surname>, <given-names>J. C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>W. J.</given-names>
+<surname>Ripple</surname>
+</string-name>. <year>2017</year>. “<article-title>Infectious Agents Trigger Trophic Cascades</article-title>.” <source>Trends in Ecology &amp; Evolution</source>
+<volume>32</volume>(<issue>9</issue>): <fpage>681</fpage>–<lpage>694</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2017.06.009</pub-id>.<pub-id pub-id-type="pmid">28736043</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0010"><mixed-citation publication-type="journal" id="eap70215-cit-0010">
+<string-name name-style="western">
+<surname>Burge</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Mark Eakin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Friedman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Froelich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. K.</given-names>
+<surname>Hershberger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. E.</given-names>
+<surname>Hofmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Petes</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Climate Change Influences on Marine Infectious Diseases: Implications for Management and Society</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>6</volume>(<issue>1</issue>): <fpage>249</fpage>–<lpage>277</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-marine-010213-135029</pub-id>.<pub-id pub-id-type="pmid">23808894</pub-id></mixed-citation></ref><ref id="eap70215-bib-0011"><mixed-citation publication-type="journal" id="eap70215-cit-0011">
+<string-name name-style="western">
+<surname>Brooks</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kristensen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>van Benthem</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Magnusson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. W.</given-names>
+<surname>Berg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Skaug</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Maechler</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Bolker</surname>
+</string-name>. <year>2017</year>. “<article-title>glmmTMB Balances Speed and Flexibility among Packages for Zero‐Inflated Generalized Linear Mixed Modeling</article-title>.” <source>The R Journal</source>
+<volume>9</volume>(<issue>2</issue>): <fpage>378</fpage>–<lpage>400</lpage>. <pub-id pub-id-type="doi">10.32614/RJ-2017-066</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0012"><mixed-citation publication-type="journal" id="eap70215-cit-0012">
+<string-name name-style="western">
+<surname>Burt</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Tinker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. K.</given-names>
+<surname>Okamoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Demes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Holmes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Salomon</surname>
+</string-name>. <year>2018</year>. “<article-title>Sudden Collapse of a Mesopredator Reveals its Complementary Role in Mediating Rocky Reef Regime Shifts</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>285</volume>(<issue>1883</issue>): <elocation-id>20180553</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2018.0553</pub-id>.<pub-id pub-id-type="pmcid">PMC6083256</pub-id><pub-id pub-id-type="pmid">30051864</pub-id></mixed-citation></ref><ref id="eap70215-bib-0013"><mixed-citation publication-type="journal" id="eap70215-cit-0013">
+<string-name name-style="western">
+<surname>Cavole</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Demko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Diner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giddings</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Koester</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pagniello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐L.</given-names>
+<surname>Paulsen</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Biological Impacts of the 2013–2015 Warm‐Water Anomaly in the Northeast Pacific: Winners, Losers, and the Future</article-title>.” <source>Oceanography</source>
+<volume>29</volume>(<issue>2</issue>): <fpage>273</fpage>–<lpage>285</lpage>. <pub-id pub-id-type="doi">10.5670/oceanog.2016.32</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0014"><mixed-citation publication-type="journal" id="eap70215-cit-0014">
+<string-name name-style="western">
+<surname>Cohen</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Sauer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Santiago</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Spencer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Rohr</surname>
+</string-name>. <year>2020</year>. “<article-title>Divergent Impacts of Warming Weather on Wildlife Disease Risk across Climates</article-title>.” <source>Science</source>
+<volume>370</volume>(<issue>6519</issue>): <elocation-id>eabb1702</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.abb1702</pub-id>.<pub-id pub-id-type="pmid">33214248</pub-id>
+<pub-id pub-id-type="pmcid">PMC8588056</pub-id></mixed-citation></ref><ref id="eap70215-bib-0015"><mixed-citation publication-type="journal" id="eap70215-cit-0015">
+<string-name name-style="western">
+<surname>Coletti</surname>, <given-names>H. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Bodkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Monson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. E.</given-names>
+<surname>Ballachey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Dean</surname>
+</string-name>. <year>2016</year>. “<article-title>Detecting and Inferring Cause of Change in an Alaska Nearshore Marine Ecosystem</article-title>.” <source>Ecosphere</source>
+<volume>7</volume>(<issue>10</issue>): <elocation-id>e01489</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecs2.1489</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0016"><mixed-citation publication-type="journal" id="eap70215-cit-0016">
+<string-name name-style="western">
+<surname>Coyer</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Ohen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. T.</given-names>
+<surname>Stam</surname>
+</string-name>. <year>1997</year>. “<article-title>Genetic Variability and Spatial Separation in the sea Palm Kelp <italic toggle="yes">Postelsia palmaeformis</italic> (Phaeophyce ae) AS Assessed with M13 Fingerprints and RAPDS</article-title>.” <source>Journal of Phycology</source>
+<volume>33</volume>(<issue>4</issue>): <fpage>561</fpage>–<lpage>568</lpage>. <pub-id pub-id-type="doi">10.1111/j.0022-3646.1997.00561.x</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0017"><mixed-citation publication-type="journal" id="eap70215-cit-0017">
+<string-name name-style="western">
+<surname>Crain</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kroeker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. S.</given-names>
+<surname>Halpern</surname>
+</string-name>. <year>2008</year>. “<article-title>Interactive and Cumulative Effects of Multiple Human Stressors in Marine Systems</article-title>.” <source>Ecology Letters</source>
+<volume>11</volume>(<issue>12</issue>): <fpage>1304</fpage>–<lpage>1315</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2008.01253.x</pub-id>.<pub-id pub-id-type="pmid">19046359</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0018"><mixed-citation publication-type="journal" id="eap70215-cit-0018">
+<string-name name-style="western">
+<surname>Csordas</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Starko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Neufeld</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Thompson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Baum</surname>
+</string-name>. <year>2024</year>. “<article-title>Multiscale Stability of an Intertidal Kelp (<italic toggle="yes">Postelsia palmaeformis</italic>) near its Northern Range Edge through a Period of Prolonged Heatwaves</article-title>.” <source>Annals of Botany</source>
+<volume>133</volume>(<issue>1</issue>): <fpage>61</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcad148</pub-id>.<pub-id pub-id-type="pmid">37878014</pub-id>
+<pub-id pub-id-type="pmcid">PMC10921842</pub-id></mixed-citation></ref><ref id="eap70215-bib-0019"><mixed-citation publication-type="journal" id="eap70215-cit-0019">
+<string-name name-style="western">
+<surname>Dayton</surname>, <given-names>P. K.</given-names>
+</string-name>
+<year>1971</year>. “<article-title>Competition, Disturbance, and Community Organization: The Provision and Subsequent Utilization of Space in a Rocky Intertidal Community</article-title>.” <source>Ecological Monographs</source>
+<volume>41</volume>(<issue>4</issue>): <fpage>351</fpage>–<lpage>389</lpage>. <pub-id pub-id-type="doi">10.2307/1948498</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0020"><mixed-citation publication-type="journal" id="eap70215-cit-0020">
+<string-name name-style="western">
+<surname>Dayton</surname>, <given-names>P. K.</given-names>
+</string-name>
+<year>1973</year>. “<article-title>Dispersion, Dispersal, and Persistence of the Annual Intertidal Alga, <italic toggle="yes">Postelsia palmaeformis</italic> Ruprecht</article-title>.” <source>Ecology</source>
+<volume>54</volume>(<issue>2</issue>): <fpage>433</fpage>–<lpage>438</lpage>. <pub-id pub-id-type="doi">10.2307/1934353</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0021"><mixed-citation publication-type="journal" id="eap70215-cit-0021">
+<string-name name-style="western">
+<surname>Di Lorenzo</surname>, <given-names>E.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mantua</surname>
+</string-name>. <year>2016</year>. “<article-title>Multi‐Year Persistence of the 2014/15 North Pacific Marine Heatwave</article-title>.” <source>Nature Climate Change</source>
+<volume>6</volume>(<issue>11</issue>): <fpage>1042</fpage>–<lpage>1047</lpage>. <pub-id pub-id-type="doi">10.1038/nclimate3082</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0022"><mixed-citation publication-type="journal" id="eap70215-cit-0022">
+<string-name name-style="western">
+<surname>Eger</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Eddy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>McHugh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Arafeh‐Dalmau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wernberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Krumhansl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Verbeek</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>State of the world's Kelp Forests</article-title>.” <source>One Earth</source>
+<volume>7</volume>(<issue>11</issue>): <fpage>1927</fpage>–<lpage>1931</lpage>. <pub-id pub-id-type="doi">10.1016/j.oneear.2024.10.008</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0023"><mixed-citation publication-type="journal" id="eap70215-cit-0023">
+<string-name name-style="western">
+<surname>Free</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Hellmers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Muhling</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. O.</given-names>
+<surname>Navarro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Richerson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Rogers</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Impact of the 2014–2016 Marine Heatwave on US and Canada West Coast Fisheries: Surprises and Lessons from Key Case Studies</article-title>.” <source>Fish and Fisheries</source>
+<volume>24</volume>(<issue>4</issue>): <fpage>652</fpage>–<lpage>674</lpage>. <pub-id pub-id-type="doi">10.1111/faf.12753</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0024"><mixed-citation publication-type="journal" id="eap70215-cit-0024">
+<string-name name-style="western">
+<surname>Garza</surname>, <given-names>C.</given-names>
+</string-name>
+<year>2019</year>. “<article-title>Landscape Ecology in the Rocky Intertidal: Opportunities for Advancing Discovery and Innovation in Intertidal Research</article-title>.” <source>Current Landscape Ecology Reports</source>
+<volume>4</volume>(<issue>3</issue>): <fpage>83</fpage>–<lpage>90</lpage>. <pub-id pub-id-type="doi">10.1007/s40823-019-00042-8</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0025"><mixed-citation publication-type="journal" id="eap70215-cit-0025">
+<string-name name-style="western">
+<surname>Gentemann</surname>, <given-names>C. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Fewings</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>García‐Reyes</surname>
+</string-name>. <year>2017</year>. “<article-title>Satellite Sea Surface Temperatures along the West Coast of the United States during the 2014–2016 Northeast Pacific Marine Heat Wave</article-title>.” <source>Geophysical Research Letters</source>
+<volume>44</volume>(<issue>1</issue>): <fpage>312</fpage>–<lpage>319</lpage>. <pub-id pub-id-type="doi">10.1002/2016GL071039</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0026"><mixed-citation publication-type="journal" id="eap70215-cit-0026">
+<string-name name-style="western">
+<surname>Geraci</surname>, <given-names>M.</given-names>
+</string-name>
+<year>2014</year>. “<article-title>Linear Quantile Mixed Models: The Lqmm Package for Laplace Quantile Regression</article-title>.” <source>Journal of Statistical Software</source>
+<volume>57</volume>(<issue>13</issue>): <fpage>1</fpage>–<lpage>29</lpage>.25400517
+</mixed-citation></ref><ref id="eap70215-bib-0027"><mixed-citation publication-type="journal" id="eap70215-cit-0027">
+<string-name name-style="western">
+<surname>Geraci</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bottai</surname>
+</string-name>. <year>2014</year>. “<article-title>Linear Quantile Mixed Models</article-title>.” <source>Statistics and Computing</source>
+<volume>24</volume>(<issue>3</issue>): <fpage>461</fpage>–<lpage>479</lpage>.</mixed-citation></ref><ref id="eap70215-bib-0028"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0028">
+<string-name name-style="western">
+<surname>Gerraty</surname>, <given-names>F. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. N.</given-names>
+<surname>Cox‐Ammann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Douglas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>George</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Lohse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Miner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Raimondi</surname>
+</string-name>. <year>2026</year>. <article-title>“Fgerraty/Postelsia_Collapse: Marine Heatwave and Keystone Predator Loss Drive Broad‐Scale Decline and Hinder Recovery of a Rocky Intertidal Kelp (v1.0.0).”</article-title> Zenodo. <pub-id pub-id-type="doi">10.5281/zenodo.18274746</pub-id>
+<pub-id pub-id-type="pmcid">PMC12991965</pub-id><pub-id pub-id-type="pmid">41839702</pub-id></mixed-citation></ref><ref id="eap70215-bib-0029"><mixed-citation publication-type="journal" id="eap70215-cit-0029">
+<string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V. R.</given-names>
+<surname>Saccomanno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. N.</given-names>
+<surname>Heady</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Gehman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. I.</given-names>
+<surname>Lonhart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Beas‐Luna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. T.</given-names>
+<surname>Francis</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Disease‐Driven Mass Mortality Event Leads to Widespread Extirpation and Variable Recovery Potential of a Marine Predator across the Eastern Pacific</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>288</volume>(<issue>1957</issue>): <elocation-id>20211195</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2021.1195</pub-id>.<pub-id pub-id-type="pmcid">PMC8385337</pub-id><pub-id pub-id-type="pmid">34428964</pub-id></mixed-citation></ref><ref id="eap70215-bib-0030"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0030">
+<string-name name-style="western">
+<surname>Hartig</surname>, <given-names>F.</given-names>
+</string-name>
+<year>2022</year>. <article-title>“DHARMa: Residual Diagnostics for Hierarchical (Multi‐Level/Mixed) Regression Models.”</article-title> R Package Version 0.4.6, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=DHARMa" ext-link-type="uri">https://CRAN.R-project.org/package=DHARMa</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0031"><mixed-citation publication-type="journal" id="eap70215-cit-0031">
+<string-name name-style="western">
+<surname>Harvell</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Mitchell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Ward</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Altizer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Dobson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Ostfeld</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Samuel</surname>
+</string-name>. <year>2002</year>. “<article-title>Climate Warming and Disease Risks for Terrestrial and Marine Biota</article-title>.” <source>Science</source>
+<volume>296</volume>(<issue>5576</issue>): <fpage>2158</fpage>–<lpage>2162</lpage>. <pub-id pub-id-type="doi">10.1126/science.1063699</pub-id>.<pub-id pub-id-type="pmid">12077394</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0032"><mixed-citation publication-type="journal" id="eap70215-cit-0032">
+<string-name name-style="western">
+<surname>Harvell</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Montecino‐Latorre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Caldwell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Burt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Bosley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Keller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. F.</given-names>
+<surname>Heron</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Disease Epidemic and a Marine Heat Wave Are Associated with the Continental‐Scale Collapse of a Pivotal Predator (<italic toggle="yes">Pycnopodia helianthoides</italic> )</article-title>.” <source>Science Advances</source>
+<volume>5</volume>(<issue>1</issue>): <elocation-id>eaau7042</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.aau7042</pub-id>.<pub-id pub-id-type="pmid">30729157</pub-id>
+<pub-id pub-id-type="pmcid">PMC6353623</pub-id></mixed-citation></ref><ref id="eap70215-bib-0033"><mixed-citation publication-type="journal" id="eap70215-cit-0033">
+<string-name name-style="western">
+<surname>Hewson</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. R.</given-names>
+<surname>Johnson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Reyes‐Chavez</surname>
+</string-name>. <year>2025</year>. “<article-title>Lessons Learned from the Sea Star Wasting Disease Investigation</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>17</volume>(<issue>1</issue>): <fpage>257</fpage>–<lpage>279</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-marine-040623-082617</pub-id>.<pub-id pub-id-type="pmid">38885431</pub-id></mixed-citation></ref><ref id="eap70215-bib-0034"><mixed-citation publication-type="journal" id="eap70215-cit-0034">
+<string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. V.</given-names>
+<surname>Alexander</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. E.</given-names>
+<surname>Perkins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Straub</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. C. J.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>A Hierarchical Approach to Defining Marine Heatwaves</article-title>.” <source>Progress in Oceanography</source>
+<volume>141</volume>: <fpage>227</fpage>–<lpage>238</lpage>. <pub-id pub-id-type="doi">10.1016/j.pocean.2015.12.014</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0035"><mixed-citation publication-type="journal" id="eap70215-cit-0035">
+<string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sen Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Burrows</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Donat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Holbrook</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Categorizing and Naming Marine Heatwaves</article-title>.” <source>Oceanography</source>
+<volume>31</volume>(<issue>2</issue>): <fpage>162</fpage>–<lpage>173</lpage>. <pub-id pub-id-type="doi">10.5670/oceanog.2018.205</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0036"><mixed-citation publication-type="journal" id="eap70215-cit-0036">
+<string-name name-style="western">
+<surname>Holdo</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. R. E.</given-names>
+<surname>Sinclair</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Dobson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Metzger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Bolker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Ritchie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Holt</surname>
+</string-name>. <year>2009</year>. “<article-title>A Disease‐Mediated Trophic Cascade in the Serengeti and its Implications for Ecosystem C</article-title>.” <source>PLoS Biology</source>
+<volume>7</volume>(<issue>9</issue>): <elocation-id>e1000210</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pbio.1000210</pub-id>.<pub-id pub-id-type="pmid">19787022</pub-id>
+<pub-id pub-id-type="pmcid">PMC2740867</pub-id></mixed-citation></ref><ref id="eap70215-bib-0037"><mixed-citation publication-type="journal" id="eap70215-cit-0037">
+<string-name name-style="western">
+<surname>Hughes</surname>, <given-names>B. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Beas‐Luna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Barner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Brewitt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Brumbaugh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. B.</given-names>
+<surname>Cerny‐Chipman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Close</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Long‐Term Studies Contribute Disproportionately to Ecology and Policy</article-title>.” <source>Bioscience</source>
+<volume>67</volume>(<issue>3</issue>): <fpage>271</fpage>–<lpage>281</lpage>. <pub-id pub-id-type="doi">10.1093/biosci/biw185</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0038"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0038">
+<string-name name-style="western">
+<surname>Iannone</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Schloerke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Hughes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lauer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Seo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Brevoort</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Roy</surname>
+</string-name>. <year>2025</year>. <article-title>“gt: Easily Create Presentation‐Ready Display Tables.”</article-title>
+<pub-id pub-id-type="doi">10.32614/CRAN.package.gt</pub-id> R package version 1.0.0, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cran.r-project.org/package=gt" ext-link-type="uri">https://CRAN.R-project.org/package=gt</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0039"><mixed-citation publication-type="journal" id="eap70215-cit-0039">
+<string-name name-style="western">
+<surname>Konar</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Mitchell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Iken</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Coletti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Dean</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Esler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lindeberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pister</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Weitzman</surname>
+</string-name>. <year>2019</year>. “<article-title>Wasting Disease and Static Environmental Variables Drive Sea Star Assemblages in the Northern Gulf of Alaska</article-title>.” <source>Journal of Experimental Marine Biology and Ecology</source>
+<volume>520</volume>: <elocation-id>151209</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jembe.2019.151209</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0040"><mixed-citation publication-type="journal" id="eap70215-cit-0040">
+<string-name name-style="western">
+<surname>Kusumo</surname>, <given-names>H. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Pfister</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Wootton</surname>
+</string-name>. <year>2006</year>. “<article-title>Small‐Scale Genetic Structure in the Sea Palm <italic toggle="yes">Postelsia palmaeformis</italic> Ruprecht (Phaeophyceae)</article-title>.” <source>Marine Biology</source>
+<volume>149</volume>(<issue>4</issue>): <fpage>731</fpage>–<lpage>742</lpage>. <pub-id pub-id-type="doi">10.1007/s00227-006-0254-z</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0041"><mixed-citation publication-type="journal" id="eap70215-cit-0041">
+<string-name name-style="western">
+<surname>Lindenmayer</surname>, <given-names>D. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Lavery</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Scheele</surname>
+</string-name>. <year>2022</year>. “<article-title>Why we Need to Invest in Large‐Scale, Long‐Term Monitoring Programs in Landscape Ecology and Conservation Biology</article-title>.” <source>Current Landscape Ecology Reports</source>
+<volume>7</volume>(<issue>4</issue>): <fpage>137</fpage>–<lpage>146</lpage>. <pub-id pub-id-type="doi">10.1007/s40823-022-00079-2</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0042"><mixed-citation publication-type="journal" id="eap70215-cit-0042">
+<string-name name-style="western">
+<surname>Lüning</surname>, <given-names>K.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Freshwater</surname>
+</string-name>. <year>1988</year>. “<article-title>Temperature Tolerance of Northeast Pacific Marine Algae</article-title>.” <source>Journal of Phycology</source>
+<volume>24</volume>(<issue>3</issue>): <fpage>310</fpage>–<lpage>315</lpage>. <pub-id pub-id-type="doi">10.1111/j.1529-8817.1988.tb04471.x</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0043"><mixed-citation publication-type="journal" id="eap70215-cit-0043">
+<string-name name-style="western">
+<surname>Marcos</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Amores</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Agulles</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Robson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Feng</surname>
+</string-name>. <year>2025</year>. “<article-title>Global Warming Drives a Threefold Increase in Persistence and 1°C Rise in Intensity of Marine Heatwaves</article-title>.” <source>National Academy of Sciences of the United States of America</source>
+<volume>122</volume>(<issue>16</issue>): <elocation-id>e2413505122</elocation-id>. <pub-id pub-id-type="doi">10.1073/pnas.2413505122</pub-id>.<pub-id pub-id-type="pmcid">PMC12037066</pub-id><pub-id pub-id-type="pmid">40228120</pub-id></mixed-citation></ref><ref id="eap70215-bib-0044"><mixed-citation publication-type="journal" id="eap70215-cit-0044">
+<string-name name-style="western">
+<surname>Mahon</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O. A.</given-names>
+<surname>Aleuy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Barbera</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Buelow</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Civitello</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>A Meta‐Analysis on Global Change Drivers and the Risk of Infectious Disease</article-title>.” <source>Nature</source>
+<volume>629</volume>(<issue>8013</issue>): <fpage>830</fpage>–<lpage>836</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-024-07380-6</pub-id>.<pub-id pub-id-type="pmid">38720068</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0045"><mixed-citation publication-type="journal" id="eap70215-cit-0045">
+<string-name name-style="western">
+<surname>McPherson</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. J. I.</given-names>
+<surname>Finger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. F.</given-names>
+<surname>Houskeeper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. W.</given-names>
+<surname>Bell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Carr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Rogers‐Bennett</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Kudela</surname>
+</string-name>. <year>2021</year>. “<article-title>Large‐Scale Shift in the Structure of a Kelp Forest Ecosystem co‐Occurs with an Epizootic and Marine Heatwave</article-title>.” <source>Communications Biology</source>
+<volume>4</volume>(<issue>1</issue>): <fpage>298</fpage>. <pub-id pub-id-type="doi">10.1038/s42003-021-01827-6</pub-id>.<pub-id pub-id-type="pmid">33674760</pub-id>
+<pub-id pub-id-type="pmcid">PMC7935997</pub-id></mixed-citation></ref><ref id="eap70215-bib-0046"><mixed-citation publication-type="journal" id="eap70215-cit-0046">
+<string-name name-style="western">
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Berlow</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Blanchette</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Navarrete</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. B.</given-names>
+<surname>Yamada</surname>
+</string-name>. <year>1994</year>. “<article-title>The Keystone Species Concept: Variation in Interaction Strength in a Rocky Intertidal Habitat</article-title>.” <source>Ecological Monographs</source>
+<volume>64</volume>(<issue>3</issue>): <fpage>249</fpage>–<lpage>286</lpage>. <pub-id pub-id-type="doi">10.2307/2937163</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0047"><mixed-citation publication-type="journal" id="eap70215-cit-0047">
+<string-name name-style="western">
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. B.</given-names>
+<surname>Cerny‐Chipman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Sullivan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gravem</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Chan</surname>
+</string-name>. <year>2016</year>. “<article-title>Sea Star Wasting Disease in the Keystone Predator Pisaster Ochraceus in Oregon: Insights into Differential Population Impacts, Recovery, Predation Rate, and Temperature Effects from Long‐Term Research</article-title>.” <source>PLoS One</source>
+<volume>11</volume>(<issue>5</issue>): <elocation-id>e0153994</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0153994</pub-id>.<pub-id pub-id-type="pmid">27144391</pub-id>
+<pub-id pub-id-type="pmcid">PMC4856327</pub-id></mixed-citation></ref><ref id="eap70215-bib-0048"><mixed-citation publication-type="journal" id="eap70215-cit-0048">
+<string-name name-style="western">
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. M.</given-names>
+<surname>Foley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Robart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Richmond</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Noble</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Chan</surname>
+</string-name>. <year>2021</year>. “<article-title>Keystone Predation: Trait‐Based or Driven by Extrinsic Processes? Assessment Using a Comparative‐Experimental Approach</article-title>.” <source>Ecological Monographs</source>
+<volume>91</volume>(<issue>1</issue>): <elocation-id>e01436</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecm.1436</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0049"><mixed-citation publication-type="journal" id="eap70215-cit-0049">
+<string-name name-style="western">
+<surname>Meunier</surname>, <given-names>Z. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Hacker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Menge</surname>
+</string-name>. <year>2024</year>. “<article-title>Regime Shifts in Rocky Intertidal Communities Associated with a Marine Heatwave and Disease Outbreak</article-title>.” <source>Nature Ecology &amp; Evolution</source>
+<volume>8</volume>(<issue>7</issue>): <fpage>1285</fpage>–<lpage>1297</lpage>. <pub-id pub-id-type="doi">10.1038/s41559-024-02425-5</pub-id>.<pub-id pub-id-type="pmid">38831017</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0050"><mixed-citation publication-type="journal" id="eap70215-cit-0050">
+<string-name name-style="western">
+<surname>Miner</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Burnaford</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. F.</given-names>
+<surname>Ambrose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Antrim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bohlmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Blanchette</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Engle</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Large‐Scale Impacts of Sea Star Wasting Disease (SSWD) on Intertidal Sea Stars and Implications for Recovery</article-title>.” <source>PLoS One</source>
+<volume>13</volume>(<issue>3</issue>): <elocation-id>e0192870</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0192870</pub-id>.<pub-id pub-id-type="pmid">29558484</pub-id>
+<pub-id pub-id-type="pmcid">PMC5860697</pub-id></mixed-citation></ref><ref id="eap70215-bib-0051"><mixed-citation publication-type="journal" id="eap70215-cit-0051">
+<string-name name-style="western">
+<surname>Miner</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Burnaford</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ammann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. H.</given-names>
+<surname>Becker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Fradkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ostermann‐Kelm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. G.</given-names>
+<surname>Whitaker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Raimondi</surname>
+</string-name>. <year>2021</year>. “<article-title>Latitudinal Variation in Long‐Term Stability of North American Rocky Intertidal Communities</article-title>.” <source>Journal of Animal Ecology</source>
+<volume>90</volume>(<issue>9</issue>): <fpage>2077</fpage>–<lpage>2093</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.13504</pub-id>.<pub-id pub-id-type="pmid">34002377</pub-id>
+<pub-id pub-id-type="pmcid">PMC8518646</pub-id></mixed-citation></ref><ref id="eap70215-bib-0052"><mixed-citation publication-type="journal" id="eap70215-cit-0052">
+<string-name name-style="western">
+<surname>Moritsch</surname>, <given-names>M. M.</given-names>
+</string-name>
+<year>2021</year>. “<article-title>Expansion of Intertidal Mussel Beds Following Disease‐Driven Reduction of a Keystone Predator</article-title>.” <source>Marine Environmental Research</source>
+<volume>169</volume>: <elocation-id>105363</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.marenvres.2021.105363</pub-id>.<pub-id pub-id-type="pmid">34030089</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0053"><mixed-citation publication-type="journal" id="eap70215-cit-0053">
+<string-name name-style="western">
+<surname>Moritsch</surname>, <given-names>M. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Raimondi</surname>
+</string-name>. <year>2018</year>. “<article-title>Reduction and Recovery of Keystone Predation Pressure after Disease‐Related Mass Mortality</article-title>.” <source>Ecology and Evolution</source>
+<volume>8</volume>(<issue>8</issue>): <fpage>3952</fpage>–<lpage>3964</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.3953</pub-id>.<pub-id pub-id-type="pmid">29721271</pub-id>
+<pub-id pub-id-type="pmcid">PMC5916292</pub-id></mixed-citation></ref><ref id="eap70215-bib-0054"><mixed-citation publication-type="journal" id="eap70215-cit-0054">
+<string-name name-style="western">
+<surname>Muth</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Graham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Lane</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. D. G.</given-names>
+<surname>Harley</surname>
+</string-name>. <year>2019</year>. “<article-title>Recruitment Tolerance to Increased Temperature Present across Multiple Kelp Clades</article-title>.” <source>Ecology</source>
+<volume>100</volume>(<issue>3</issue>): <elocation-id>e02594</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.2594</pub-id>.<pub-id pub-id-type="pmid">30615200</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0055"><mixed-citation publication-type="journal" id="eap70215-cit-0055">
+<string-name name-style="western">
+<surname>Newman</surname>, <given-names>R.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Noy</surname>
+</string-name>. <year>2023</year>. “<article-title>The Global Costs of Extreme Weather that Are Attributable to Climate Change</article-title>.” <source>Nature Communications</source>
+<volume>14</volume>(<issue>1</issue>): <fpage>6103</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-023-41888-1</pub-id>.<pub-id pub-id-type="pmcid">PMC10541421</pub-id><pub-id pub-id-type="pmid">37775690</pub-id></mixed-citation></ref><ref id="eap70215-bib-0056"><mixed-citation publication-type="journal" id="eap70215-cit-0056">
+<string-name name-style="western">
+<surname>Nielsen</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Blanchette</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. A.</given-names>
+<surname>Menge</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lubchenco</surname>
+</string-name>. <year>2006</year>. “<article-title>Physiological Snapshots Reflect Ecological Performance of the sea Palm, <italic toggle="yes">Postelsia palmaeformis</italic> (Phaeophycaea) across Intertidal Elevation and Exposure Gradients</article-title>.” <source>Journal of Phycology</source>
+<volume>42</volume>(<issue>3</issue>): <fpage>548</fpage>–<lpage>559</lpage>. <pub-id pub-id-type="doi">10.1111/j.1529-8817.2006.00223.x</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0057"><mixed-citation publication-type="journal" id="eap70215-cit-0057">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Donat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Moore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. V.</given-names>
+<surname>Alexander</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Longer and more Frequent Marine Heatwaves over the Past Century</article-title>.” <source>Nature Communications</source>
+<volume>9</volume>(<issue>1</issue>): <fpage>1324</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-018-03732-9</pub-id>.<pub-id pub-id-type="pmcid">PMC5893591</pub-id><pub-id pub-id-type="pmid">29636482</pub-id></mixed-citation></ref><ref id="eap70215-bib-0058"><mixed-citation publication-type="journal" id="eap70215-cit-0058">
+<string-name name-style="western">
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>
+<year>1966</year>. “<article-title>Food Web Complexity and Species Diversity</article-title>.” <source>The American Naturalist</source>
+<volume>100</volume>(<issue>910</issue>): <fpage>65</fpage>–<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1086/282400</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0059"><mixed-citation publication-type="journal" id="eap70215-cit-0059">
+<string-name name-style="western">
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>
+<year>1974</year>. “<article-title>Intertidal Community Structure: Experimental Studies on the Relationship between a Dominant Competitor and its Principal Predator</article-title>.” <source>Oecologia</source>
+<volume>15</volume>(<issue>2</issue>): <fpage>93</fpage>–<lpage>120</lpage>. <pub-id pub-id-type="doi">10.1007/BF00345739</pub-id>.<pub-id pub-id-type="pmid">28308255</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0060"><mixed-citation publication-type="journal" id="eap70215-cit-0060">
+<string-name name-style="western">
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>
+<year>1976</year>. “<article-title>Size‐Limited Predation: An Observational and Experimental Approach with the Mytilus‐Pisaster Interaction</article-title>.” <source>Ecology</source>
+<volume>57</volume>(<issue>5</issue>): <fpage>858</fpage>–<lpage>873</lpage>. <pub-id pub-id-type="doi">10.2307/1941053</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0061"><mixed-citation publication-type="journal" id="eap70215-cit-0061">
+<string-name name-style="western">
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>
+<year>1979</year>. “<article-title>Disaster, Catastrophe, and Local Persistence of the Sea Palm <italic toggle="yes">Postelsia palmaeformis</italic>
+</article-title>.” <source>Science</source>
+<volume>205</volume>(<issue>4407</issue>): <fpage>685</fpage>–<lpage>687</lpage>. <pub-id pub-id-type="doi">10.1126/science.205.4407.685</pub-id>.<pub-id pub-id-type="pmid">17781258</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0062"><mixed-citation publication-type="journal" id="eap70215-cit-0062">
+<string-name name-style="western">
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>
+<year>1988</year>. “<article-title>Habitat Suitability and Local Population Persistence of the Sea Palm <italic toggle="yes">Postelsia palmaeformis</italic>
+</article-title>.” <source>Ecology</source>
+<volume>69</volume>(<issue>6</issue>): <fpage>1787</fpage>–<lpage>1794</lpage>. <pub-id pub-id-type="doi">10.2307/1941157</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0063"><mixed-citation publication-type="journal" id="eap70215-cit-0063">
+<string-name name-style="western">
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. R.</given-names>
+<surname>Buhle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Levin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kareiva</surname>
+</string-name>. <year>2017</year>. “<article-title>Short‐Range Dispersal Maintains a Volatile Marine Metapopulation: The Brown Alga <italic toggle="yes">Postelsia palmaeformis</italic>
+</article-title>.” <source>Ecology</source>
+<volume>98</volume>(<issue>6</issue>): <fpage>1560</fpage>–<lpage>1573</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.1798</pub-id>.<pub-id pub-id-type="pmid">28328145</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0064"><mixed-citation publication-type="journal" id="eap70215-cit-0064">
+<string-name name-style="western">
+<surname>Pebesma</surname>, <given-names>E.</given-names>
+</string-name>
+<year>2018</year>. “<article-title>Simple Features for R: Standardized Support for Spatial Vector Data</article-title>.” <source>The R Journal</source>
+<volume>10</volume>(<issue>1</issue>): <fpage>439</fpage>–<lpage>446</lpage>. <pub-id pub-id-type="doi">10.32614/RJ-2018-009</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0065"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0065">
+<string-name name-style="western">
+<surname>Prener</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Grossenbacher</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zehr</surname>
+</string-name>. <year>2022</year>. <article-title>“biscale: Tools and Palettes for Bivariate Thematic Mapping.”</article-title> R package version 1.0.0. <pub-id pub-id-type="doi">10.32614/CRAN.package.biscale</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0066"><mixed-citation publication-type="book" id="eap70215-cit-0066">
+<collab collab-type="authors">R Core Team</collab>
+. <year>2025</year>. <source>R: A Language and Environment for Statistical Computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.r-project.org/" ext-link-type="uri">https://www.R-project.org/</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0067"><mixed-citation publication-type="journal" id="eap70215-cit-0067">
+<string-name name-style="western">
+<surname>Roethler</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Fales</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Donoghue</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Padilla‐Gamiño</surname>
+</string-name>. <year>2025</year>. “<article-title>Global Meta‐Analysis Reveals the Impacts of Ocean Warming and Acidification on Kelps</article-title>.” <source>Ecological Monographs</source>
+<volume>95</volume>(<issue>3</issue>): <elocation-id>e70034</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecm.70034</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0068"><mixed-citation publication-type="journal" id="eap70215-cit-0068">
+<string-name name-style="western">
+<surname>Rogers‐Bennett</surname>, <given-names>L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Catton</surname>
+</string-name>. <year>2019</year>. “<article-title>Marine Heat Wave and Multiple Stressors Tip Bull Kelp Forest to Sea Urchin Barrens</article-title>.” <source>Scientific Reports</source>
+<volume>9</volume>(<issue>1</issue>): <fpage>15050</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-51114-y</pub-id>.<pub-id pub-id-type="pmid">31636286</pub-id>
+<pub-id pub-id-type="pmcid">PMC6803666</pub-id></mixed-citation></ref><ref id="eap70215-bib-0069"><mixed-citation publication-type="journal" id="eap70215-cit-0069">
+<string-name name-style="western">
+<surname>Schlegel</surname>, <given-names>R. W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Smit</surname>
+</string-name>. <year>2018</year>. “<article-title>heatwaveR: A Central Algorithm for the Detection of Heatwaves and Cold‐Spells</article-title>.” <source>Journal of Open Source Software</source>
+<volume>3</volume>(<issue>27</issue>): <fpage>821</fpage>. DOI: <pub-id pub-id-type="doi">10.21105/joss.00821</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0070"><mixed-citation publication-type="journal" id="eap70215-cit-0070">
+<string-name name-style="western">
+<surname>Schultz</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. N.</given-names>
+<surname>Cloutier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I. M.</given-names>
+<surname>Côté</surname>
+</string-name>. <year>2016</year>. “<article-title>Evidence for a Trophic Cascade on Rocky Reefs Following Sea Star Mass Mortality in British Columbia</article-title>.” <source>PeerJ</source>
+<volume>4</volume>: <elocation-id>e1980</elocation-id>. <pub-id pub-id-type="doi">10.7717/peerj.1980</pub-id>.<pub-id pub-id-type="pmid">27168988</pub-id>
+<pub-id pub-id-type="pmcid">PMC4860306</pub-id></mixed-citation></ref><ref id="eap70215-bib-0071"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0071">
+<string-name name-style="western">
+<surname>Simpson</surname>, <given-names>G.</given-names>
+</string-name>
+<year>2024</year>. <article-title>“gratia: Graceful ggplot‐Based Graphics and Other Functions for GAMs Fitted Using mgcv.”</article-title> R package version 0.10.0, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://gavinsimpson.github.io/gratia/" ext-link-type="uri">https://gavinsimpson.github.io/gratia/</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0072"><mixed-citation publication-type="journal" id="eap70215-cit-0072">
+<string-name name-style="western">
+<surname>Smale</surname>, <given-names>D. A.</given-names>
+</string-name>
+<year>2020</year>. “<article-title>Impacts of Ocean Warming on Kelp Forest Ecosystems</article-title>.” <source>New Phytologist</source>
+<volume>225</volume>(<issue>4</issue>): <fpage>1447</fpage>–<lpage>1454</lpage>. <pub-id pub-id-type="doi">10.1111/nph.16107</pub-id>.<pub-id pub-id-type="pmid">31400287</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0073"><mixed-citation publication-type="journal" id="eap70215-cit-0073">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Malone</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Carr</surname>
+</string-name>. <year>2024</year>. “<article-title>Consequences of Kelp Forest Ecosystem Shifts and Predictors of Persistence through Multiple Stressors</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>291</volume>(<issue>2016</issue>): <elocation-id>20232749</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2023.2749</pub-id>.<pub-id pub-id-type="pmcid">PMC10846955</pub-id><pub-id pub-id-type="pmid">38320605</pub-id></mixed-citation></ref><ref id="eap70215-bib-0074"><mixed-citation publication-type="journal" id="eap70215-cit-0074">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Fujii</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Gaddam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Konrad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lyon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. E.</given-names>
+<surname>Nicholson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Raimondi</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Keystone Interdependence: Sea Otter Responses to a Prey Surplus Following the Collapse of a Rocky Intertidal Predator</article-title>.” <source>Science Advances</source>
+<volume>11</volume>(<issue>18</issue>): <elocation-id>eadu1028</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.adu1028</pub-id>.<pub-id pub-id-type="pmid">40305605</pub-id>
+<pub-id pub-id-type="pmcid">PMC12042895</pub-id></mixed-citation></ref><ref id="eap70215-bib-0075"><mixed-citation publication-type="journal" id="eap70215-cit-0075">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Hobday</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. G.</given-names>
+<surname>King</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Moore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sen Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wernberg</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>. <year>2023</year>. “<article-title>Biological Impacts of Marine Heatwaves</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>15</volume>(<issue>1</issue>): <fpage>119</fpage>–<lpage>145</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-marine-032122-121437</pub-id>.<pub-id pub-id-type="pmid">35977411</pub-id></mixed-citation></ref><ref id="eap70215-bib-0076"><mixed-citation publication-type="journal" id="eap70215-cit-0076">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Hobday</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sen Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Moore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wernberg</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>. <year>2021</year>. “<article-title>Socioeconomic Impacts of Marine Heatwaves: Global Issues and Opportunities</article-title>.” <source>Science</source>
+<volume>374</volume>(<issue>6566</issue>): <elocation-id>eabj3593</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.abj3593</pub-id>.<pub-id pub-id-type="pmid">34672757</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0077"><mixed-citation publication-type="journal" id="eap70215-cit-0077">
+<string-name name-style="western">
+<surname>Smith</surname>, <given-names>M. D.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>The Ecological Role of Climate Extremes: Current Understanding and Future Prospects</article-title>.” <source>Journal of Ecology</source>
+<volume>99</volume>(<issue>3</issue>): <fpage>651</fpage>–<lpage>655</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2745.2011.01833.x</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0078"><mixed-citation publication-type="journal" id="eap70215-cit-0078">
+<string-name name-style="western">
+<surname>Starko</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Epstein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Chalifour</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Bruce</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Buzzoni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Csordas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dimoff</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Ecological Responses to Extreme Climatic Events: A Systematic Review of the 2014–2016 Northeast Pacific Marine Heatwave</article-title>.” <source>Oceanography and Marine Biology: An Annual Review</source>
+<volume>63</volume>: <fpage>42</fpage>–<lpage>96</lpage>.</mixed-citation></ref><ref id="eap70215-bib-0079"><mixed-citation publication-type="journal" id="eap70215-cit-0079">
+<string-name name-style="western">
+<surname>Starko</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Neufeld</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Gendall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Timmer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Campbell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yakimishyn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Druehl</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Baum</surname>
+</string-name>. <year>2022</year>. “<article-title>Microclimate Predicts Kelp Forest Extinction in the Face of Direct and Indirect Marine Heatwave Effects</article-title>.” <source>Ecological Applications</source>
+<volume>32</volume>(<issue>7</issue>): <elocation-id>e2673</elocation-id>. <pub-id pub-id-type="doi">10.1002/eap.2673</pub-id>.<pub-id pub-id-type="pmid">35584048</pub-id>
+<pub-id pub-id-type="pmcid">PMC13425692</pub-id></mixed-citation></ref><ref id="eap70215-bib-0080"><mixed-citation publication-type="journal" id="eap70215-cit-0080">
+<string-name name-style="western">
+<surname>Thompson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Knoll</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Blanchette</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Nielsen</surname>
+</string-name>. <year>2010</year>. “<article-title>Population Consequences of Biomass Loss Due to Commercial Collection of the Wild Seaweed <italic toggle="yes">Postelsia palmaeformis</italic>
+</article-title>.” <source>Marine Ecology Progress Series</source>
+<volume>413</volume>: <fpage>17</fpage>–<lpage>32</lpage>. <pub-id pub-id-type="doi">10.3354/meps08705</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0081"><mixed-citation publication-type="journal" id="eap70215-cit-0081">
+<string-name name-style="western">
+<surname>Traiger</surname>, <given-names>S. B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Bodkin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. A.</given-names>
+<surname>Coletti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ballachey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Dean</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Esler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Iken</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Evidence of Increased Mussel Abundance Related to the Pacific Marine Heatwave and Sea Star Wasting</article-title>.” <source>Marine Ecology</source>
+<volume>43</volume>: <elocation-id>e12715</elocation-id>. <pub-id pub-id-type="doi">10.1111/maec.12715</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0082"><mixed-citation publication-type="book" id="eap70215-cit-0082">
+<string-name name-style="western">
+<surname>Turner</surname>, <given-names>N. J.</given-names>
+</string-name>
+<year>2001</year>. “<part-title>Coastal Peoples and Marine Plants on the Northwest Coast</part-title>.” In <source>Proceedings of the International Association of Aquatic and Marine Science Libraries and Information Centers</source>. <publisher-loc>Victoria, British Columbia</publisher-loc>: <publisher-name>IAMSLIC (International Association of Aquatic and Marine Science Libraries and Information Centers)</publisher-name>.</mixed-citation></ref><ref id="eap70215-bib-0083"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0083">
+<string-name name-style="western">
+<surname>Van Pelt</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Steinruck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Laucci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Rosales</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Rohde</surname>
+</string-name>, <collab collab-type="authors">Sinkyone Council Member Tribes</collab>
+, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sundberg</surname>
+</string-name>, et al. <year>2017</year>. <article-title>“Informing the North Coast MPA Baseline: Traditional Ecological Knowledge of Keystone Marine Species and Ecosystems, A Collaborative Project Among: Tolowa Dee‐ni’ Nation, InterTribal Sinkyone Wilderness Council, Cher‐Ae Heights Indian Community of the Trinidad Rancheria, and Wiyot Tribe, May 2017.”</article-title> California Sea Grant, U.C. San Diego. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://caseagrant.ucsd.edu/sites/default/files/39-Rocha-Final.pdf" ext-link-type="uri">https://caseagrant.ucsd.edu/sites/default/files/39-Rocha-Final.pdf</ext-link>.</mixed-citation></ref><ref id="eap70215-bib-0084"><mixed-citation publication-type="journal" id="eap70215-cit-0084">
+<string-name name-style="western">
+<surname>Weitzman</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Konar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Iken</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Coletti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Monson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Suryan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Dean</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Hondolero</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lindeberg</surname>
+</string-name>. <year>2021</year>. “<article-title>Changes in Rocky Intertidal Community Structure during a Marine Heatwave in the Northern Gulf of Alaska</article-title>.” <source>Frontiers in Marine Science</source>
+<volume>8</volume>: <elocation-id>556820</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmars.2021.556820</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0085"><mixed-citation publication-type="journal" id="eap70215-cit-0085">
+<string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Tuya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Langlois</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>De Bettignies</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bennett</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Rousseaux</surname>
+</string-name>. <year>2013</year>. “<article-title>An Extreme Climatic Event Alters Marine Ecosystem Structure in a Global Biodiversity Hotspot</article-title>.” <source>Nature Climate Change</source>
+<volume>3</volume>(<issue>1</issue>): <fpage>78</fpage>–<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1038/nclimate1627</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0086"><mixed-citation publication-type="journal" id="eap70215-cit-0086">
+<string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Baum</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Bishop</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Coleman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Filbee‐Dexter</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Impacts of Climate Change on Marine Foundation Species</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>16</volume>(<issue>1</issue>): <fpage>247</fpage>–<lpage>282</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-marine-042023-093037</pub-id>.<pub-id pub-id-type="pmid">37683273</pub-id></mixed-citation></ref><ref id="eap70215-bib-0087"><mixed-citation publication-type="journal" id="eap70215-cit-0087">
+<string-name name-style="western">
+<surname>Whalen</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Starko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Lindstrom</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. T.</given-names>
+<surname>Martone</surname>
+</string-name>. <year>2023</year>. “<article-title>Heatwave Restructures Marine Intertidal Communities across a Stress Gradient</article-title>.” <source>Ecology</source>
+<volume>104</volume>(<issue>5</issue>): <elocation-id>e4027</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.4027</pub-id>.<pub-id pub-id-type="pmid">36897574</pub-id>
+</mixed-citation></ref><ref id="eap70215-bib-0088"><mixed-citation publication-type="journal" id="eap70215-cit-0088">
+<string-name name-style="western">
+<surname>Wickham</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Averick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bryan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. D.</given-names>
+<surname>McGowan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>François</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Grolemund</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Welcome to the tidyverse</article-title>.” <source>Journal of Open Source Software</source>
+<volume>4</volume>(<issue>43</issue>): <elocation-id>1686</elocation-id>. <pub-id pub-id-type="doi">10.21105/joss.01686</pub-id>.</mixed-citation></ref><ref id="eap70215-bib-0089"><mixed-citation publication-type="book" id="eap70215-cit-0089">
+<string-name name-style="western">
+<surname>Wickham</surname>, <given-names>H.</given-names>
+</string-name>
+<year>2016</year>. <source>ggplot2: Elegant Graphics for Data Analysis</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer‐Verlag</publisher-name>.</mixed-citation></ref><ref id="eap70215-bib-0090"><mixed-citation publication-type="journal" id="eap70215-cit-0090">
+<string-name name-style="western">
+<surname>Wood</surname>, <given-names>S. N.</given-names>
+</string-name>
+<year>2011</year>. “<article-title>Fast Stable Restricted Maximum Likelihood and Marginal Likelihood Estimation of Semiparametric Generalized Linear Models</article-title>.” <source>Journal of the Royal Statistical Society (B)</source>
+<volume>73</volume>(<issue>1</issue>): <fpage>3</fpage>–<lpage>36</lpage>.</mixed-citation></ref><ref id="eap70215-bib-0091"><mixed-citation publication-type="miscellaneous" id="eap70215-cit-0091">
+<string-name name-style="western">
+<surname>Young</surname>, <given-names>D. N.</given-names>
+</string-name>
+<year>1971</year>. <article-title>“<italic toggle="yes">Autoecology of Postelsia palmaeformis in san luis obispo county, california</italic> (Order No. 29336503). Available from ProQuest Dissertations &amp; Theses A&amp;I. (2691798480).”</article-title> Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.proquest.com/dissertations-theses/autoecology-em-postelsia-palmaeformis-san-luis/docview/2691798480/se-2" ext-link-type="uri">https://www.proquest.com/dissertations-theses/autoecology-em-postelsia-palmaeformis-san-luis/docview/2691798480/se-2</ext-link>
+</mixed-citation></ref></ref-list></back></article>

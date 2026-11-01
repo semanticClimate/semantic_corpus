@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC6822785",
+  "phrases": [
+    {
+      "phrase": "zhang and church",
+      "display": "Zhang and Church",
+      "score": 2.0
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 2.0
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.9
+    },
+    {
+      "phrase": "strub and james",
+      "display": "Strub and James",
+      "score": 1.6
+    },
+    {
+      "phrase": "san francisco",
+      "display": "San Francisco",
+      "score": 1.6
+    },
+    {
+      "phrase": "south pacific",
+      "display": "South Pacific",
+      "score": 1.6
+    },
+    {
+      "phrase": "chelton and davis",
+      "display": "Chelton and Davis",
+      "score": 1.5
+    },
+    {
+      "phrase": "pacific",
+      "display": "Pacific",
+      "score": 1.74
+    },
+    {
+      "phrase": "slas",
+      "display": "SLAs",
+      "score": 1.56
+    },
+    {
+      "phrase": "pdo",
+      "display": "PDO",
+      "score": 1.44
+    },
+    {
+      "phrase": "tide",
+      "score": 0.0414,
+      "display": "Tide"
+    },
+    {
+      "phrase": "gauge",
+      "score": 0.0413,
+      "display": "gauge"
+    },
+    {
+      "phrase": "tide gauge",
+      "score": 0.0411,
+      "display": "Tide gauge"
+    },
+    {
+      "phrase": "sea level",
+      "score": 0.0376,
+      "display": "Sea Level"
+    },
+    {
+      "phrase": "coastal sea level",
+      "score": 0.0364,
+      "display": "coastal sea level"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

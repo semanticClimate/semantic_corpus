@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC6821142",
+  "phrases": [
+    {
+      "phrase": "candidatus nitrososphaera",
+      "display": "Candidatus Nitrososphaera",
+      "score": 1.7
+    },
+    {
+      "phrase": "candidatus entotheonella",
+      "display": "Candidatus Entotheonella",
+      "score": 1.3
+    },
+    {
+      "phrase": "kyoto encyclopedia of genes and genomes",
+      "display": "Kyoto Encyclopedia of Genes and Genomes",
+      "score": 1.2
+    },
+    {
+      "phrase": "list of differentially expressed",
+      "display": "List of Differentially Expressed",
+      "score": 1.2
+    },
+    {
+      "phrase": "thermo fisher scientific",
+      "display": "Thermo Fisher Scientific",
+      "score": 1.2
+    },
+    {
+      "phrase": "candidatus nitrospira",
+      "display": "Candidatus Nitrospira",
+      "score": 1.2
+    },
+    {
+      "phrase": "gene ontology",
+      "display": "Gene Ontology",
+      "score": 1.2
+    },
+    {
+      "phrase": "ec",
+      "display": "EC",
+      "score": 1.32
+    },
+    {
+      "phrase": "rna",
+      "display": "RNA",
+      "score": 1.3
+    },
+    {
+      "phrase": "id",
+      "display": "ID",
+      "score": 1.2
+    },
+    {
+      "phrase": "high expression",
+      "score": 0.0471,
+      "display": "High expression"
+    },
+    {
+      "phrase": "m1 soil",
+      "score": 0.0417,
+      "display": "M1 soil"
+    },
+    {
+      "phrase": "sp",
+      "score": 0.0413,
+      "display": "sp"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0398,
+      "display": "Soil"
+    },
+    {
+      "phrase": "transcripts",
+      "score": 0.0395,
+      "display": "Transcripts"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

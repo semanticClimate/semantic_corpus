@@ -1,0 +1,377 @@
+{
+  "step": 2,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026",
+  "bag_root": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "paper_count": 50,
+  "papers_from_cache": 0,
+  "papers_extracted": 50,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 750,
+  "unique_phrases": 607,
+  "elapsed_s": 4.2738,
+  "paper_ids": [
+    "europe_pmc_PMC10159062",
+    "europe_pmc_PMC10403598",
+    "europe_pmc_PMC10590663",
+    "europe_pmc_PMC10762259",
+    "europe_pmc_PMC10838265",
+    "europe_pmc_PMC10899366",
+    "europe_pmc_PMC10964958",
+    "europe_pmc_PMC11197784",
+    "europe_pmc_PMC11294940",
+    "europe_pmc_PMC11347556",
+    "europe_pmc_PMC11578178",
+    "europe_pmc_PMC11697416",
+    "europe_pmc_PMC11971521",
+    "europe_pmc_PMC12064707",
+    "europe_pmc_PMC12181172",
+    "europe_pmc_PMC12379145",
+    "europe_pmc_PMC12412649",
+    "europe_pmc_PMC12474537",
+    "europe_pmc_PMC12475048",
+    "europe_pmc_PMC12572319",
+    "europe_pmc_PMC12612197",
+    "europe_pmc_PMC12713726",
+    "europe_pmc_PMC12787522",
+    "europe_pmc_PMC12866615",
+    "europe_pmc_PMC12868344",
+    "europe_pmc_PMC12979200",
+    "europe_pmc_PMC13052267",
+    "europe_pmc_PMC13055281",
+    "europe_pmc_PMC13148317",
+    "europe_pmc_PMC13187425",
+    "europe_pmc_PMC13212582",
+    "europe_pmc_PMC13377881",
+    "europe_pmc_PMC13390420",
+    "europe_pmc_PMC13440228",
+    "europe_pmc_PMC13590715",
+    "europe_pmc_PMC13594180",
+    "europe_pmc_PMC6821142",
+    "europe_pmc_PMC6822785",
+    "europe_pmc_PMC7519346",
+    "europe_pmc_PMC7532523",
+    "europe_pmc_PMC8087833",
+    "europe_pmc_PMC8403967",
+    "europe_pmc_PMC8549982",
+    "europe_pmc_PMC8906512",
+    "europe_pmc_PMC9482659",
+    "europe_pmc_PMC9529976",
+    "europe_pmc_PMC9532392",
+    "europe_pmc_PMC9532435",
+    "europe_pmc_PMC9729181",
+    "europe_pmc_PMC9893456"
+  ],
+  "papers": [
+    {
+      "paper_id": "europe_pmc_PMC10159062",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10159062.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC10403598",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10403598.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC10590663",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10590663.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC10762259",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10762259.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC10838265",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10838265.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC10899366",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10899366.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC10964958",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC10964958.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11197784",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC11197784.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11294940",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC11294940.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11347556",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC11347556.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11578178",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC11578178.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11697416",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC11697416.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11971521",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC11971521.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12064707",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12064707.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12181172",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12181172.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12379145",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12379145.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12412649",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12412649.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12474537",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12474537.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12475048",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12475048.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12572319",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12572319.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12612197",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12612197.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12713726",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12713726.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12787522",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12787522.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12866615",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12866615.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12868344",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12868344.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12979200",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC12979200.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13052267",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13052267.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13055281",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13055281.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13148317",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13148317.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13187425",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13187425.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13212582",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13212582.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13377881",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13377881.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13390420",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13390420.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13440228",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13440228.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13590715",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13590715.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13594180",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC13594180.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC6821142",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC6821142.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC6822785",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC6822785.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC7519346",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC7519346.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC7532523",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC7532523.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC8087833",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC8087833.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC8403967",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC8403967.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC8549982",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC8549982.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC8906512",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC8906512.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC9482659",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC9482659.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC9529976",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC9529976.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC9532392",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC9532392.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC9532435",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC9532435.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC9729181",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC9729181.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC9893456",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases/europe_pmc_PMC9893456.json"
+    }
+  ]
+}

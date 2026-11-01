@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC8403967",
+  "phrases": [
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "score": 1.9
+    },
+    {
+      "phrase": "hope and schaefer",
+      "display": "Hope and Schaefer",
+      "score": 1.6
+    },
+    {
+      "phrase": "model for evaluating regional and global effects",
+      "display": "Model for Evaluating Regional and Global Effects",
+      "score": 1.1
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.1
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.1
+    },
+    {
+      "phrase": "representative concentration pathway",
+      "display": "Representative Concentration Pathway",
+      "score": 1.1
+    },
+    {
+      "phrase": "finite amplitude impulse response",
+      "display": "Finite Amplitude Impulse Response",
+      "score": 1.1
+    },
+    {
+      "phrase": "scc",
+      "display": "SCC",
+      "score": 2.18
+    },
+    {
+      "phrase": "si",
+      "display": "SI",
+      "score": 1.42
+    },
+    {
+      "phrase": "slr",
+      "display": "SLR",
+      "score": 1.36
+    },
+    {
+      "phrase": "tipping points",
+      "score": 0.0518,
+      "display": "Tipping points"
+    },
+    {
+      "phrase": "tipping",
+      "score": 0.0495,
+      "display": "Tipping"
+    },
+    {
+      "phrase": "expected scc",
+      "score": 0.0454,
+      "display": "expected SCC"
+    },
+    {
+      "phrase": "damages",
+      "score": 0.0438,
+      "display": "damages"
+    },
+    {
+      "phrase": "si appendix",
+      "score": 0.042,
+      "display": "SI Appendix"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

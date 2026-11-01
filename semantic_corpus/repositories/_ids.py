@@ -2,7 +2,8 @@
 
 import hashlib
 import re
-from typing import Any, Dict, Optional
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Sequence
 from urllib.parse import parse_qs, urlparse
 
 # {repo}_{id}
@@ -26,6 +27,91 @@ def get_result_paper_id(paper: Dict[str, Any]) -> Optional[str]:
         if value:
             return str(value)
     return None
+
+
+def short_display_id(paper_or_id: Any) -> str:
+    """Compact label for download progress (prefer PMCID over repo-prefixed ids)."""
+    if isinstance(paper_or_id, dict):
+        for key in ("pmcid", "pmid", "arxiv_id", "doi", "paper_id"):
+            value = paper_or_id.get(key)
+            if value:
+                return short_display_id(str(value))
+        raw = get_result_paper_id(paper_or_id) or ""
+        return short_display_id(raw) if raw else ""
+
+    text = str(paper_or_id).strip()
+    if not text:
+        return ""
+    # europe_pmc_PMC123456 → PMC123456
+    match = re.search(r"(PMC\d+)", text, flags=re.IGNORECASE)
+    if match:
+        digits = match.group(1)[3:]
+        return f"PMC{digits}"
+    if "_PMC" in text:
+        return "PMC" + text.split("_PMC", 1)[1]
+    return text
+
+
+def paper_id_stems(paper_id: str) -> List[str]:
+    """Filename stems that may already exist for a paper on disk."""
+    text = str(paper_id or "").strip()
+    if not text:
+        return []
+    stems = {text, sanitize_paper_id(text)}
+    short = short_display_id(text)
+    if short:
+        stems.add(short)
+        stems.add(f"europe_pmc_{short}")
+    return [s for s in stems if s]
+
+
+def existing_document_paths(
+    output_dir: Path,
+    paper_id: str,
+    formats: Sequence[str],
+) -> Dict[str, Path]:
+    """Find non-empty document files already on disk for ``paper_id``.
+
+    Checks (per format)::
+
+        {output_dir}/{stem}.{fmt}
+        {output_dir}/documents/{stem}.{fmt}
+        {output_dir}/documents/{fmt}/{stem}.{fmt}
+        {output_dir}/data/documents/{fmt}/{stem}.{fmt}
+    """
+    output_dir = Path(output_dir)
+    formats = [f.strip().lower() for f in formats if f and str(f).strip()]
+    stems = paper_id_stems(paper_id)
+    found: Dict[str, Path] = {}
+    for fmt in formats:
+        candidates: List[Path] = []
+        for stem in stems:
+            candidates.extend(
+                [
+                    Path(output_dir, f"{stem}.{fmt}"),
+                    Path(output_dir, "documents", f"{stem}.{fmt}"),
+                    Path(output_dir, "documents", fmt, f"{stem}.{fmt}"),
+                    Path(output_dir, "data", "documents", fmt, f"{stem}.{fmt}"),
+                ]
+            )
+        for path in candidates:
+            if path.is_file() and path.stat().st_size > 0:
+                found[fmt] = path
+                break
+    return found
+
+
+def paper_documents_present(
+    output_dir: Path,
+    paper_id: str,
+    formats: Sequence[str],
+) -> bool:
+    """True if every requested format already exists (flat, documents/, or BAGIT)."""
+    formats = [f.strip().lower() for f in formats if f and str(f).strip()]
+    if not formats:
+        return False
+    found = existing_document_paths(output_dir, paper_id, formats)
+    return all(fmt in found for fmt in formats)
 
 
 def openalex_short_id(openalex_id: str) -> str:

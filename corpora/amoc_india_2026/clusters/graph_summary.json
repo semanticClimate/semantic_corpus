@@ -1,0 +1,24 @@
+{
+  "step": 3,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/phrases",
+  "clusters_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/clusters",
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "paper_count": 50,
+  "term_count": 607,
+  "edge_count": 749,
+  "community_count": 21,
+  "cluster_count": 15,
+  "orphan_paper_count": 6,
+  "orphan_term_count": 78,
+  "elapsed_s": 0.1208,
+  "clusters_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/clusters/clusters.json",
+  "orphans_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_india_2026/clusters/orphans.json"
+}

@@ -1,0 +1,1187 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="gch270123" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Glob Chall</journal-id><journal-id journal-id-type="iso-abbrev">Glob Chall</journal-id><journal-id journal-id-type="pmc-domain-id">3626</journal-id><journal-id journal-id-type="pmc-domain">globchall</journal-id><journal-id journal-id-type="nlm-id">101705641</journal-id><journal-id journal-id-type="publisher-id">GCH2</journal-id><journal-title-group><journal-title>Global Challenges</journal-title></journal-title-group><issn pub-type="epub">2056-6646</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13266081</article-id><article-id pub-id-type="pmcid-ver">PMC13266081.1</article-id><article-id pub-id-type="pmcaid">13266081</article-id><article-id pub-id-type="pmcaiid">13266081</article-id><article-id pub-id-type="pmid">42305271</article-id><article-id pub-id-type="doi">10.1002/gch2.70123</article-id><article-id pub-id-type="publisher-id">GCH270123</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Low‐Dose H<sub>2</sub>O<sub>2</sub> Priming Improves Performance Under Simulated Marine Heatwave Conditions in a Coastal Bivalve</article-title></title-group><contrib-group><contrib id="gch270123-cr-0001" contrib-type="author"><name name-style="western"><surname>Mascitelli</surname><given-names initials="C">Chiara</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0004-0006-1046</contrib-id><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gch270123-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="gch270123-cr-0002" contrib-type="author"><name name-style="western"><surname>Monticelli</surname><given-names initials="G">Giovanna</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270123-cr-0003" contrib-type="author"><name name-style="western"><surname>Nardi</surname><given-names initials="A">Alessandro</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9978-1411</contrib-id><xref rid="gch270123-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="gch270123-cr-0004" contrib-type="author"><name name-style="western"><surname>Rovere</surname><given-names initials="GD">Giulia Dalla</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270123-cr-0005" contrib-type="author"><name name-style="western"><surname>Rilievo</surname><given-names initials="G">Graziano</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270123-cr-0006" contrib-type="author"><name name-style="western"><surname>Bernardini</surname><given-names initials="I">Ilaria</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270123-cr-0007" contrib-type="author"><name name-style="western"><surname>Macrì</surname><given-names initials="N">Nicole</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270123-cr-0008" contrib-type="author"><name name-style="western"><surname>Cesaroni</surname><given-names initials="D">Deborah</given-names></name><xref rid="gch270123-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="gch270123-cr-0009" contrib-type="author"><name name-style="western"><surname>Tavolazzi</surname><given-names initials="V">Valentina</given-names></name><xref rid="gch270123-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="gch270123-cr-0010" contrib-type="author"><name name-style="western"><surname>Andreatta</surname><given-names initials="G">Gabriele</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="gch270123-cr-0011" contrib-type="author"><name name-style="western"><surname>Patarnello</surname><given-names initials="T">Tomaso</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gch270123-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="gch270123-cr-0012" contrib-type="author"><name name-style="western"><surname>Bargelloni</surname><given-names initials="L">Luca</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4351-2826</contrib-id><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gch270123-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="gch270123-cr-0013" contrib-type="author" corresp="yes"><name name-style="western"><surname>Peruzza</surname><given-names initials="L">Luca</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>luca.peruzza@unipd.it</email></address></contrib><contrib id="gch270123-cr-0014" contrib-type="author"><name name-style="western"><surname>Benedetti</surname><given-names initials="M">Maura</given-names></name><xref rid="gch270123-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="gch270123-cr-0015" contrib-type="author" corresp="yes"><name name-style="western"><surname>Milan</surname><given-names initials="M">Massimo</given-names></name><xref rid="gch270123-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="gch270123-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>massimo.milan@unipd.it</email></address></contrib></contrib-group><aff id="gch270123-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Comparative Biomedicine and Food Science</named-content>
+<institution>University of Padova</institution>
+<city>Legnaro</city>
+<named-content content-type="country-part">Padova</named-content>
+<country country="IT">Italy</country>
+</aff><aff id="gch270123-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Galilean School of Higher Education</named-content>
+<institution>University of Padova</institution>
+<city>Padova</city>
+<country country="IT">Italy</country>
+</aff><aff id="gch270123-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Life and Environmental Sciences</named-content>
+<institution>Marche Polytechnic University</institution>
+<city>Ancona</city>
+<country country="IT">Italy</country>
+</aff><aff id="gch270123-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>National Biodiversity Future Center</institution>
+<city>Palermo</city>
+<country country="IT">Italy</country>
+</aff><pub-date pub-type="epub"><day>14</day><month>6</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2026</year></pub-date><volume>10</volume><issue seq="70">6</issue><issue-id pub-id-type="pmc-issue-id">515094</issue-id><issue-id pub-id-type="doi">10.1002/gch2.v10.6</issue-id><elocation-id>e70123</elocation-id><history>
+<date date-type="rev-recd"><day>12</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>09</day><month>2</month><year>2026</year></date>
+<date date-type="accepted"><day>20</day><month>5</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>14</day><month>06</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>16</day><month>06</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-06-21 00:25:19.760"><day>21</day><month>06</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Global Challenges</italic> published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="GCH2-10-e70123.pdf"><?pdf-name GCH2-10-e70123.pdf?><?pdf-size 3000944?><?pdf-md5 a65ae0ffd5fb3950ff253a7da8b6326e?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:2d5b/13266081/a65ae0ffd5fb/GCH2-10-e70123.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:GCH2-10-e70123.pdf"/><abstract><title>ABSTRACT</title><p>Marine heatwaves are intensifying under climate change, imposing thermal extremes on marine ecosystems. Priming, a process in which prior sublethal exposure shapes responses, is increasingly recognized as a key mechanism underlying tolerance to environmental variability. While widely studied in plants, chemical priming remains unexplored in animals. Here, we tested whether hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>), acting as a redox signal, can induce a primed physiological state modulating response to simulated marine heatwaves in the Manila clam (<italic toggle="yes">Ruditapes philippinarum</italic>), an ecologically and economically important bivalve species. Clams were exposed to chemical, thermal, or combined priming treatments and subsequently challenged with a controlled heatwave. H<sub>2</sub>O<sub>2</sub> priming emerged as an effective and well‐tolerated treatment, with primed clams exhibiting faster burrowing during heatwave exposure and minimal transcriptomic perturbation. Microbiota analyses revealed transient shifts and reduced relative abundance of opportunistic taxa (including <italic toggle="yes">Vibrio</italic> and <italic toggle="yes">Tenacibaculum</italic>) during and after heatwave exposure. A long‐term field trial under natural summer conditions did not reveal detectable adverse effects on the measured traits over several months following priming. Overall, these findings identify low‐dose H<sub>2</sub>O<sub>2</sub> priming as a potential mechanism shaping stress responses in marine bivalves under simulated heatwave conditions.</p></abstract><abstract id="gch270123-abs-0001" abstract-type="graphical"><p>Low‐dose hydrogen peroxide priming shapes Manila clam responses to simulated marine heatwaves, which showed faster burrowing behavior, limited transcriptional disruption, and reduced opportunistic microbiota. A long‐term field trial confirms no detectable adverse effects, supporting redox‐based chemical priming as a feasible resilience strategy in bivalve aquaculture.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="GCH2-10-e70123-g001.jpg"><?image-name GCH2-10-e70123-g001.jpg?><?image-size 7905?><?image-md5 dcb1156f895575ab98d49c0381c8846b?><?image-image-server-status NEVER_LOAD?><?image-original-height 83?><?image-original-width 180?><?image-scaled-height 83?><?image-scaled-width 180?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/dcb1156f8955/GCH2-10-e70123-g001.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="gch270123-kwd-0001">chemical priming</kwd><kwd id="gch270123-kwd-0002">climate change adaptation</kwd><kwd id="gch270123-kwd-0003">environmental stress</kwd><kwd id="gch270123-kwd-0004">hydrogen peroxide</kwd><kwd id="gch270123-kwd-0005">marine heatwaves</kwd><kwd id="gch270123-kwd-0006">stress memory</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Italian Ministry of University and Research (MUR) under the National Recovery and Resilience Plan (NRRP), Mission 4, Component 2, Investment 1.1 – “Fund for the National Research Program and for Projects of National Interest (PRIN)”, PRIN 2022 Project 20225N4Z92, MANILA – Priming and Microbiota mAnipulation to mitigate shellfish vulNerability: toward a sustaInable aquacuLture mAnagement in a changIng ocean.</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Università Politecnica delle MARCHE</institution></institution-wrap>
+</funding-source><award-id>I53D23003170006</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Università degli Studi di PADOVA</institution></institution-wrap>
+</funding-source><award-id>C53D23003280006</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="14"/><word-count count="10195"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.0 mode:remove_FC converted:15.06.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="gch270123-sec-0010"><label>1</label><title>Introduction</title><p>Climate change is reshaping marine environments by increasing both mean temperatures and the frequency of extreme thermal events. Among these, marine heatwaves (MHWs), defined as prolonged periods of anomalously high seawater temperature, have intensified markedly over the past century and are emerging as recurrent features of coastal ecosystems [<xref rid="gch270123-bib-0001" ref-type="bibr">1</xref>]. These extreme thermal events profoundly impact marine ecosystems, triggering biological responses from individuals to entire communities [<xref rid="gch270123-bib-0002" ref-type="bibr">2</xref>], imposing strong selective pressures on marine ectotherms, particularly sessile invertebrates [<xref rid="gch270123-bib-0003" ref-type="bibr">3</xref>]. Recurrent thermal extremes impair organismal performance across multiple levels of biological organization, from metabolism and behavior to cellular homeostasis, and are frequently associated with mass mortality events in coastal systems [<xref rid="gch270123-bib-0004" ref-type="bibr">4</xref>, <xref rid="gch270123-bib-0005" ref-type="bibr">5</xref>]. Importantly, thermal stress also alters host‐associated microbial communities, highlighting that responses to marine heatwaves involve the holobiont rather than the host alone [<xref rid="gch270123-bib-0006" ref-type="bibr">6</xref>, <xref rid="gch270123-bib-0007" ref-type="bibr">7</xref>]. As a consequence, tolerance to marine heatwaves depends on the ability of organisms to express adaptive plasticity and retain stress memory, allowing them to modulate physiological and ecological responses to repeated thermal challenges [<xref rid="gch270123-bib-0008" ref-type="bibr">8</xref>, <xref rid="gch270123-bib-0009" ref-type="bibr">9</xref>].</p><p>A species that is particularly sensitive to such changes is the Manila clam (<italic toggle="yes">Ruditapes philippinarum</italic>), a bivalve mollusk of great economic and ecological importance. Globally, more than 4,000 million tons of Manila clams are harvested each year in coastal lagoons and deltas, sustaining a major aquaculture sector [<xref rid="gch270123-bib-0010" ref-type="bibr">10</xref>]. This species is native to the Indo‐Pacific region, but it has been introduced worldwide for aquaculture purposes. It is now one of the most farmed shellfish species, playing a key role in the economic income of coastal communities. Beyond its economic value, the Manila clam contributes to ecosystem functioning through bioturbation, water filtration, and carbon sequestration, thereby influencing nutrient cycling and sediment structure [<xref rid="gch270123-bib-0011" ref-type="bibr">11</xref>, <xref rid="gch270123-bib-0012" ref-type="bibr">12</xref>]. In terms of carbon emissions, bivalves like Manila clam are among the most sustainable food sources, with extremely low greenhouse gas footprints compared to terrestrial protein sources [<xref rid="gch270123-bib-0013" ref-type="bibr">13</xref>, <xref rid="gch270123-bib-0014" ref-type="bibr">14</xref>]. However, this benthic species is severely threatened by climate change‐related extreme events, in particular MHWs, which tend to be particularly intense in shallow coastal habitats where most clam farming occurs. Notably, even when not directly lethal, MHWs can compromise animal physiology and stress tolerance [<xref rid="gch270123-bib-0015" ref-type="bibr">15</xref>]. Therefore, it is paramount to develop strategies to mitigate the effects of climate change.</p><p>In crops, a powerful approach to enhance stress resilience is priming, which involves controlled exposure to sublethal stress that “prepares” an organism to mount a more robust defense against subsequent lethal challenges, through a process of stress memory [<xref rid="gch270123-bib-0016" ref-type="bibr">16</xref>]. More broadly, priming can be viewed as a general biological mechanism of adaptive plasticity, whereby prior exposure to a sublethal stimulus alters organismal physiological states and modulates responses to recurrent environmental extremes. This process is well established in plants and encompasses multiple modalities, including thermal priming, which enhances thermotolerance and fortifies antioxidant defenses, and chemical priming, in which defined agents pre‐activate protective signaling pathways involved in reactive oxygen species (ROS) detoxification, osmoprotection, and protein homeostasis [<xref rid="gch270123-bib-0017" ref-type="bibr">17</xref>, <xref rid="gch270123-bib-0018" ref-type="bibr">18</xref>, <xref rid="gch270123-bib-0019" ref-type="bibr">19</xref>].</p><p>For sessile animals like bivalves, which can only to a limited extent rely on avoidance behavior to survive in fluctuating environments, priming is a promising and increasingly investigated avenue. Encouraging results have recently been reported for thermal priming in molluscs [<xref rid="gch270123-bib-0020" ref-type="bibr">20</xref>, <xref rid="gch270123-bib-0021" ref-type="bibr">21</xref>, <xref rid="gch270123-bib-0022" ref-type="bibr">22</xref>, <xref rid="gch270123-bib-0023" ref-type="bibr">23</xref>], demonstrating its capacity to modulate physiological performance and stress responses under heat exposure, although the literature on this topic remains relatively limited. In contrast, despite widespread use in plants to enhance resistance to different abiotic stresses [<xref rid="gch270123-bib-0019" ref-type="bibr">19</xref>, <xref rid="gch270123-bib-0024" ref-type="bibr">24</xref>], chemical priming has not yet been experimentally tested in animal systems, to the best of our knowledge. Among the molecular processes underlying priming responses, redox signaling plays a central role in mediating stress perception and stress memory across taxa [<xref rid="gch270123-bib-0025" ref-type="bibr">25</xref>, <xref rid="gch270123-bib-0026" ref-type="bibr">26</xref>]. Reactive oxygen species (ROS), once considered merely harmful by‐products of metabolism, are now recognized as key signaling molecules involved in the regulation of cellular homeostasis, metabolic reprogramming, and stress‐responsive pathways [<xref rid="gch270123-bib-0027" ref-type="bibr">27</xref>, <xref rid="gch270123-bib-0028" ref-type="bibr">28</xref>]. Transient and tightly controlled changes in cellular redox state can therefore act as informational cues, enabling organisms to adjust physiological responses to environmental stressors. Within this framework, hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) represents a particularly relevant redox signal due to its relative stability and conserved role in stress‐related signaling pathways. Reactive oxygen species, including H<sub>2</sub>O<sub>2</sub>, are naturally present in marine environments and are generated through both metabolic and environmental processes. In this context, H<sub>2</sub>O<sub>2</sub> can be used as a controlled experimental stimulus to induce redox‐mediated priming, rather than to replicate direct environmental exposure. At low concentrations, H<sub>2</sub>O<sub>2</sub> functions as a signaling molecule capable of modulating transcriptional, metabolic, and antioxidant responses, and has been widely employed to experimentally induce primed physiological states in plants exposed to abiotic stress [<xref rid="gch270123-bib-0024" ref-type="bibr">24</xref>, <xref rid="gch270123-bib-0029" ref-type="bibr">29</xref>, <xref rid="gch270123-bib-0030" ref-type="bibr">30</xref>, <xref rid="gch270123-bib-0031" ref-type="bibr">31</xref>, <xref rid="gch270123-bib-0032" ref-type="bibr">32</xref>]. However, whether redox‐active molecules such as H<sub>2</sub>O<sub>2</sub> can induce a primed physiological state in animal species remains unknown.</p><p>Here, we hypothesized that redox‐mediated priming could represent a physiological mechanism through which marine bivalves modulate responses to thermal extremes. Specifically, we exposed juvenile Manila clams to chemical, thermal, or combined priming treatments and subsequently challenged them with a simulated marine heatwave to test whether low‐dose H<sub>2</sub>O<sub>2</sub> priming improves responses under thermal stress conditions. Responses were evaluated across complementary levels of biological organization, including biometric traits, behavior, transcriptomic profiles, and host‐associated microbiota dynamics. In parallel, a field experiment under natural summer conditions was conducted to assess the persistence and ecological relevance of priming effects. Overall, this study provides the first experimental evidence that chemical priming can modulate organismal and holobiont responses to marine heatwaves, offering mechanistic insight into how marine ectotherms may cope with increasingly frequent thermal extremes under climate change.</p></sec><sec id="gch270123-sec-0020"><label>2</label><title>Methods</title><sec id="gch270123-sec-0030"><label>2.1</label><title>Animals and Experimental Procedures</title><p>Juvenile Manila clams (<italic toggle="yes">Ruditapes philippinarum</italic>; mean shell length 20.13 ± 1.48 mm) were obtained from a commercial hatchery (SATMAR, France). Full tank configuration and husbandry details are provided in Section <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>. Briefly, after a short depuration period, clams were maintained in 60‐L bi‐chamber aerated tanks under controlled salinity (28.5–30.5 PSU) and with recirculating artificial seawater. Animals were fed daily with a commercial microalgal mixture, which, while necessary to maintain physiological condition, may represent a potential source of variability due to indirect effects on feeding dynamics. Temperature was monitored continuously and regulated using programmable thermoregulators for thermal priming and to generate heatwave profiles as described in ref. [<xref rid="gch270123-bib-0022" ref-type="bibr">22</xref>]. Figure <xref rid="gch270123-fig-0001" ref-type="fig">1</xref> illustrates the experimental setup. Four experimental conditions were set up in triplicate tanks (12 tanks in total): heat‐primed (H), chemical‐primed (K), mixed‐primed (M), and control (C). After seven days of acclimation at 25°C, clams underwent a 7‐day priming phase: H, constant 30°C; K, 50 µ<sc>m</sc> H<sub>2</sub>O<sub>2</sub> (daily replenished); M, constant 30°C + 50 µ<sc>m</sc> H<sub>2</sub>O<sub>2</sub>; C, constant 25°C.</p><fig position="float" fig-type="FIGURE" id="gch270123-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Diagram showing the experimental design depicting the various priming treatments, in terms of duration and water temperature, and the subsequent simulated heatwave. (AP: after priming; DHW: during heat wave; EHW: end heat wave).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="GCH2-10-e70123-g003.jpg"><?image-name GCH2-10-e70123-g003.jpg?><?image-size 22450?><?image-md5 9d4a0fa6262050f9656d8dbd7437c05b?><?image-image-server-status NEVER_LOAD?><?image-original-height 165?><?image-original-width 380?><?image-scaled-height 165?><?image-scaled-width 380?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/9d4a0fa62620/GCH2-10-e70123-g003.jpg?><?thumb-name GCH2-10-e70123-g003.gif?><?thumb-size 6776?><?thumb-md5 d87c7badee68dc0972642a74b566c689?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 184?><?thumb-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/d87c7badee68/GCH2-10-e70123-g003.gif?></graphic></fig><p>H<sub>2</sub>O<sub>2</sub> concentration was chosen based on the results of a pilot test (data not shown) comparing 10 and 50 µ<sc>m</sc>, with the latter showing a stronger effect in inducing a physiological response while remaining non‐lethal. The selected concentration is intended to act as a controlled redox stimulus to induce priming, rather than to reproduce environmentally occurring H<sub>2</sub>O<sub>2</sub> levels. H<sub>2</sub>O<sub>2</sub> concentrations in tank water were monitored using a spectrophotometric assay to assess its persistence under experimental conditions (see details in Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>).</p><p>Following priming and a seven‐day resting period under control conditions, the four treatment groups were exposed to a 14‐day challenge, consisting of a simulated MHW orchestrated by thermoregulators. The MHW water temperature followed a 24‐h stepped profile with linear ramps between plateaus: 0–10 h: 31°C; 11–13 h: intermediate step at 32°C; 13–18 h: ramp up toward 34°C; 18–21 h: ramp down toward 32°C; 21–22 h: intermediate step at 32°C; 22–24 h: 31°C. This temperature profile, mirroring the intensity and duration of recent natural heatwaves in the Venice Lagoon [<xref rid="gch270123-bib-0015" ref-type="bibr">15</xref>], was designed to impose a strong but overall non‐lethal thermal challenge, ensuring full animal availability for all downstream analyses.</p><p>To assess their safety under natural conditions, priming treatments were also applied to a second batch of clams, which was seeded immediately after priming in the Venice Lagoon within a farming site that experienced serious HW‐related mortality events in the past [<xref rid="gch270123-bib-0033" ref-type="bibr">33</xref>]. Clams were individually tagged, placed in underwater cages, and monitored over the summer for temperature exposure, survival, and condition index.</p></sec><sec id="gch270123-sec-0040"><label>2.2</label><title>Condition Index</title><p>Condition indices (CI) were calculated as the ratio of dry tissue mass to dry shell mass (CI = dry tissue weight/dry shell weight) in agreement with [<xref rid="gch270123-bib-0034" ref-type="bibr">34</xref>]. For each replicate tank, three clams were randomly sampled (9 clams per condition per time point). Sampling occurred at two stages of the experiment: after seven days (DHW) and at the end of the heatwave (EHW). Outcomes were analyzed using a two‐way ANOVA to evaluate the effects of Group, Stage, and their interaction (Group x Stage), after checking for normal distribution and heteroscedasticity.</p><p>CIs were also calculated for the second batch of clams after recovering them from the field. A total of 15 clams per group (five from each of the three cages) were randomly sampled per group. Differences in CI among groups were tested using a linear mixed‐effects model with Group as a fixed factor and Cage as a random blocking factor, to account for the non‐independence of individuals within the same cage. Model assumptions were checked by inspecting residual plots.</p></sec><sec id="gch270123-sec-0050"><label>2.3</label><title>Burrowing Test</title><p>Burrowing behavior was assessed at three time points (AP, DHW, EHW) using 15 clams per treatment. Full methodological details are provided in the <xref rid="gch270123-supinfo-0001" ref-type="">Supporting Information</xref>. Briefly, clams were placed on sediment in a plastic container, and the time to complete burial was recorded over 30 min. Burrowing dynamics were analyzed using Kaplan‐Meier curves and log‐rank tests, complemented by Cox models to compare burial rates among treatments. The proportion of burrowed clams at specific time points was additionally tested using binomial Generalized Linear Models (GLMs).</p></sec><sec id="gch270123-sec-0060"><label>2.4</label><title>Transcriptomic Analysis</title><p>Digestive glands were sampled at AP, DHW, and EHW and processed for RNA‐seq. Full methodological details and QC metrics are provided in the <xref rid="gch270123-supinfo-0001" ref-type="">Supporting Information</xref>. Briefly, total RNA was extracted and quality‐checked before library preparation and sequencing (Illumina NovaSeq X, PE150). Reads were processed with the nf‐core/rnaseq pipeline and quantified with RSEM [<xref rid="gch270123-bib-0035" ref-type="bibr">35</xref>]. Gene‐level counts were subjected to low‐expression filtering using the filterByExpr function from edgeR (min. count = 5, min. total. count = 15, min. prop = 0.7), followed by variance‐stabilizing transformation (VST) using DESeq2. Principal component analysis (PCA) and permutation‐based multivariate analysis of variance (PERMANOVA) were performed separately for each time point using the vegan package (adonis function, vegan v2.7‐1) to assess the effect of treatment on overall transcriptomic composition. In addition, to assess the effect of the experimental phases on the baseline transcriptomic profile, PCA and PERMANOVA were performed on the control group, and to identify which time points differed significantly from each other, pairwise PERMANOVA was subsequently performed using the pairwise.adonis2 function. Differential expression analysis was performed in edgeR [<xref rid="gch270123-bib-0036" ref-type="bibr">36</xref>] with RUVSeq normalization, applying FDR ≤ 0.1 and |log<sub>2</sub>FC| ≥ 1.5. All differential expression analyses compared each priming treatment (H, K, M) against the non‐primed control group (C). Functional enrichment and Gene Set Enrichment Analysis (GSEA) were conducted using clusterProfiler [<xref rid="gch270123-bib-0037" ref-type="bibr">37</xref>]. For GSEA, significance was assessed using an FDR cutoff of 0.2, consistent with commonly adopted thresholds for exploratory pathway‐level analyses, where relatively relaxed FDR thresholds (up to ∼0.25) are often considered acceptable in exploratory analyses (Subramanian et al., 2005) [<xref rid="gch270123-bib-0038" ref-type="bibr">38</xref>]. Sequences are available in NCBI (BioProject ID: PRJNA1391265).</p></sec><sec id="gch270123-sec-0070"><label>2.5</label><title>Microbiota Analysis</title><p>Bacterial communities were profiled by sequencing the V3‐V4 region of the 16S rRNA gene from cDNA generated from the same RNA used for transcriptomics. Briefly, reads were processed with the nf‐core/ampliseq pipeline and analyzed in phyloseq [<xref rid="gch270123-bib-0039" ref-type="bibr">39</xref>] after filtering low‐abundance taxa. In detail, taxa with fewer than 10 total reads or present in fewer than 3 samples were removed to reduce the impact of low‐abundance and potentially spurious taxa, thereby improving the robustness of downstream community analyses. Alpha diversity (Shannon, Observed Richness) was compared among treatments via Kruskal‐Wallis tests, while beta diversity (Bray‐Curtis, weighted UniFrac) was assessed through Principal Coordinates Analysis (PCoA) and Permutational Multivariate Analysis of Variance (PERMANOVA) with dispersion checks. All analyses tested each priming treatment (H, K, M) against the non‐primed control (C). Differentially abundant taxa were identified using DESeq2 [<xref rid="gch270123-bib-0040" ref-type="bibr">40</xref>]. Sequences are available at the NCBI (BioProject ID: PRJNA1391265). Details regarding each methods section, including H<sub>2</sub>O<sub>2</sub> kinetics, are reported in Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>.</p></sec></sec><sec id="gch270123-sec-0080"><label>3</label><title>Results and Discussion</title><sec id="gch270123-sec-0090"><label>3.1</label><title>H<sub>2</sub>O<sub>2</sub> Stability and Decay Dynamics</title><p>H<sub>2</sub>O<sub>2</sub> decay followed first‐order kinetics and was strongly influenced by both the presence of clams and temperature (Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref> and Figures <xref rid="gch270123-supinfo-0001" ref-type="">S5–S9</xref>). In seawater without clams, the degradation rate constant was k = 0.19 ± 0.03 h<sup>−1</sup>, with H<sub>2</sub>O<sub>2</sub> becoming undetectable after ∼20 h. In the presence of clams, decay was markedly faster (k = 0.41 ± 0.08 h<sup>−1</sup>), with H<sub>2</sub>O<sub>2</sub> no longer detectable after 5–6 h. At 30°C, degradation rates further increased (k = 0.80 ± 0.05 h<sup>−1</sup>), approximately doubling compared to room temperature conditions, indicating a strong temperature dependence of H<sub>2</sub>O<sub>2</sub> stability. Together, these results indicate that H<sub>2</sub>O<sub>2</sub> persistence is strongly reduced under elevated temperature conditions. In the mixed treatment, this may have limited the contribution of H<sub>2</sub>O<sub>2</sub> to redox‐mediated priming, potentially resulting in a response more similar to thermal priming alone.</p></sec><sec id="gch270123-sec-0100"><label>3.2</label><title>Priming Treatments Do Not Impact on Condition Index and Viability</title><p>The condition index (CI) is a widely used physiological biomarker of bivalve health, as it reflects both nutritional status and exposure to physiological stress [<xref rid="gch270123-bib-0041" ref-type="bibr">41</xref>, <xref rid="gch270123-bib-0042" ref-type="bibr">42</xref>, <xref rid="gch270123-bib-0043" ref-type="bibr">43</xref>]. As the overarching goal is to develop effective strategies to mitigate the effects of thermal stress in coastal bivalves, we first assessed whether priming impacted physiological condition and survival. In line with our expectations, CI did not differ significantly among treatments at either sampling point (DHW: <italic toggle="yes">p</italic> = 0.478; EHW: <italic toggle="yes">p</italic> = 0.193), indicating that neither thermal, nor chemical, nor combined priming strategies produced detectable positive or negative effects on overall clam condition during the controlled heatwave experiment. Consistently, survival remained high and comparable among groups (<italic toggle="yes">p</italic> = 0.45), with no evidence that any priming treatment compromised survival during the experiment (Figure <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>). Further, to assess the absence of detectable adverse effects of priming in natural and aquaculture contexts, a second batch of H‐, K‐, and M‐primed clams was seeded in the Venice Lagoon during summer. Temperature records showed that these field‐exposed clams experienced two temperature peaks (&gt;32°C) for short periods, while no heat waves were recorded (Figure <xref rid="gch270123-supinfo-0001" ref-type="">S2</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>). Since all groups experienced limited thermal stress, it is not surprising that no significant differences in CI (<italic toggle="yes">p</italic> = 0.311) and mortality emerged among treatments by the end of the summer (Table <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>). Importantly, the absence of treatment‐specific losses in the natural environment demonstrates that chemical priming does not impair survival or performance when clams are returned to their habitat. Overall, results from both laboratory and field assessments support the physiological safety of priming treatments under the conditions tested. However, potential trade‐offs in traits not assessed here or over longer time scales cannot be excluded. Notably, although condition index did not change, other endpoints such as burrowing behavior and transcriptomic profiles indicate that the controlled heatwave induced a measurable, sub‐lethal stress response (see Results below).</p></sec><sec id="gch270123-sec-0110"><label>3.3</label><title>Chemical Priming Improved Burrowing Capability During Heatwave Exposure</title><p>We then used burrowing behavior as an additional proxy to monitor priming effects at physiological and phenotypic levels. Indeed, this represents a well‐established metric for assessing clam physiological status, as it is known to be affected by environmental stressors [<xref rid="gch270123-bib-0044" ref-type="bibr">44</xref>, <xref rid="gch270123-bib-0045" ref-type="bibr">45</xref>]. Beyond its physiological relevance, burrowing behavior may buffer clams against thermal extremes [<xref rid="gch270123-bib-0046" ref-type="bibr">46</xref>, <xref rid="gch270123-bib-0047" ref-type="bibr">47</xref>], potentially reducing mortality risk. Furthermore, rapid burrowing also has an important ecological function: indeed, by allowing clams to quickly retreat below the sediment surface, it reduces their exposure to predators and can therefore lower mortality risk.</p><p>Burrowing curves and burrowing kinetics are illustrated in Figures <xref rid="gch270123-fig-0002" ref-type="fig">2</xref> and <xref rid="gch270123-fig-0003" ref-type="fig">3</xref>, respectively. Burrowing curves differed significantly after priming (log‐rank <italic toggle="yes">p</italic> = 0.037) and during the heatwave (log‐rank <italic toggle="yes">p</italic> = 0.001). After priming, both groups previously exposed to thermal priming (i.e., H and M) showed a markedly reduced burrowing performance compared with the control and chemically primed clams (Figures <xref rid="gch270123-fig-0002" ref-type="fig">2</xref> and <xref rid="gch270123-fig-0003" ref-type="fig">3A</xref>). Such evidence is consistent with what was reported in ref. [<xref rid="gch270123-bib-0022" ref-type="bibr">22</xref>], where Manila clam burrowing time was significantly lower in thermally primed individuals compared with unprimed clams immediately following priming. In our experiment, this pattern was further supported by the Cox model, which indicated a slower burrowing tendency in H‐ and M‐primed clams (HR = 0.447 and 0.461; <italic toggle="yes">p</italic> = 0.079 and 0.081, respectively). The difference was particularly evident at 10 min (p‐value&lt; 0.05), with a similar proportion of burrowed clams in the K and C groups (40% and 47%, respectively), whereas H‐ and M‐primed clams exhibited markedly lower burrowing proportions (20% and 7%, respectively). However, by 15 min the four groups converged toward similar burrowing proportions, reflecting differences in burrowing rates rather than in final burrowing capacity: thermal priming increased burrowing time without preventing successful burial, whereas chemical priming did not impose detectable constraints on burrowing performance.</p><fig position="float" fig-type="FIGURE" id="gch270123-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Burrowing kinetics following priming and MHW. Kaplan‐Meier survival curves show the probability of animals not having burrowed over time. The event is complete burrowing. Animals were tested at four time points: after priming (AP), after 7 days of MHW (DHW), and at the end of the heatwave (EHW). Log‐rank test p‐values are reported.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="GCH2-10-e70123-g005.jpg"><?image-name GCH2-10-e70123-g005.jpg?><?image-size 25689?><?image-md5 513d94b853991378422c7896942e43d2?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 238?><?image-original-width 820?><?image-scaled-height 158?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/513d94b85399/GCH2-10-e70123-g005.jpg?><?thumb-name GCH2-10-e70123-g005.gif?><?thumb-size 6051?><?thumb-md5 b456550911fbbc030506dce592254e6c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 58?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/b456550911fb/GCH2-10-e70123-g005.gif?></graphic></fig><fig position="float" fig-type="FIGURE" id="gch270123-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Burrowing Kinetics after priming (AP; A), during heat wave (DHW; B) and at the end of heat wave (EHW; C) detected after 5, 10, 15, 20, 25, and 30 min. Pie‐Charts show the proportion of burrowed clams corresponding to each treatment at each sampling time. Histograms show the percentage of burrowing events relative to each group.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="GCH2-10-e70123-g004.jpg"><?image-name GCH2-10-e70123-g004.jpg?><?image-size 175877?><?image-md5 547eb46d69602dcb7995733baadfd681?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 980?><?image-original-width 607?><?image-scaled-height 980?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/547eb46d6960/GCH2-10-e70123-g004.jpg?><?thumb-name GCH2-10-e70123-g004.gif?><?thumb-size 9737?><?thumb-md5 ed165a19f49e8c1b510861e65764a7eb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 160?><?thumb-scaled-width 99?><?thumb-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/ed165a19f49e/GCH2-10-e70123-g004.gif?></graphic></fig><p>During heatwave exposure, chemically primed clams (K) showed a significantly higher burrowing rate than controls (HR = 2.556; Cox p = 0.015), and overall, the best performance when compared to the other priming strategies (Figures <xref rid="gch270123-fig-0002" ref-type="fig">2</xref> and <xref rid="gch270123-fig-0003" ref-type="fig">3B</xref>). At this stage, clear differences emerged among treatments. After 5 min, 71% of all burrowed clams belonged to group K, which had 33% of its individuals already buried, compared with only 0%–7% in the other groups, highlighting a markedly faster response (Figure <xref rid="gch270123-fig-0003" ref-type="fig">3B</xref>). At 10 min, group K continued to dominate the burrowing pool (50% of all burrowed clams), with 80% of its individuals already buried. In contrast, H, M, and C each contributed with 17% to the total number of burrowed clams and showed substantially lower burrowing proportions (27%). Despite such differences becoming less pronounced after 20 min, the K group remained statistically significant compared to controls. Notably, at 30 min, K was the only group in which all individuals were fully burrowed (Figure <xref rid="gch270123-fig-0003" ref-type="fig">3B</xref>).</p><p>At the end of the heatwave (EHW), neither burrowing curves nor burrowing dynamics differed significantly among treatments, although there seems to be a general trend indicating a better performance of K‐ and H‐primed clams, which tended to bury faster between 10 and 20 min. At 10 min, the K group showed the highest proportion of burrowed clams (42%), followed by H and M groups (25%), and the controls (6%) (Figure <xref rid="gch270123-fig-0003" ref-type="fig">3C</xref>). At 15 min, H and K groups displayed a higher percentage of buried clams (30%) than M and C groups (21%). By 20 min, burial reached 80% within K‐primed clams and 87% within H‐primed ones, while for controls (C) and mixed‐primed clams (M), the percentages were 60% and 53%, respectively. At later time points (25–30 min), differences among treatments persisted, with H‐ and K‐primed clams maintaining higher burial proportions compared to controls and mixed‐primed individuals. Although not statistically significant, these patterns suggest that priming effects may extend beyond burrowing rate to influence final burial outcomes (Figure <xref rid="gch270123-fig-0003" ref-type="fig">3C</xref>).</p><p>Taken together, these results indicate that priming treatments have distinct and time‐dependent effects on burrowing performance. Thermal priming, alone or in combination with chemical treatment, was associated with reduced burrowing performance immediately after priming, suggesting an initial physiological cost. In contrast, chemical priming did not impair burrowing and was associated with improved performance during heatwave exposure. Notably, the mixed treatment showed limited recovery across time points, with persistently lower burrowing performance, suggesting a cumulative physiological cost. Although not statistically significant, both H and K treatments tended to show improved performance at the end of the heatwave compared to controls, indicating a potential advantage under prolonged exposure.</p></sec><sec id="gch270123-sec-0120"><label>3.4</label><title>Chemical Priming Induces Restricted and Distinct Transcriptomic Response Among Treatments</title><p>The analysis of transcriptomes is a well‐established method to understand an animal's physiology and health status, as transcript signatures can effectively assess complex gene expression responses to environmental conditions [<xref rid="gch270123-bib-0048" ref-type="bibr">48</xref>, <xref rid="gch270123-bib-0049" ref-type="bibr">49</xref>, <xref rid="gch270123-bib-0050" ref-type="bibr">50</xref>]. In this study, transcriptomic analyses were performed on digestive gland tissue, a key organ involved in metabolism, detoxification, and physiological regulation in bivalves. While this tissue is particularly informative for assessing stress‐related responses, it may not fully capture organism‐wide responses to priming and heat stress.</p><p>Principal component analysis revealed distinct clustering patterns across phases (Figure <xref rid="gch270123-fig-0004" ref-type="fig">4A</xref>). After priming (AP), H and M separated clearly from the control group (C), whereas K clustered closer to the control group (C), a pattern that was also observed during heatwave exposure (DHW and EHW). To formally assess the effect of treatment on global gene expression profiles, PERMANOVA analyses were performed separately at each time point. Treatment had a significant effect at AP (R<sup>2</sup> = 0.150, <italic toggle="yes">p</italic> = 0.005) and EHW (R<sup>2</sup> = 0.143, <italic toggle="yes">p</italic> = 0.029), while no significant effect was detected during heatwave exposure (DHW; R<sup>2</sup> = 0.136, <italic toggle="yes">p</italic> = 0.078). To assess the extent of transcriptional changes induced by the heatwave, we also examined temporal variation in control samples. PCA revealed a clear trajectory across time points (AP, DHW, EHW), indicating that gene expression profiles changed over the course of the experiment in response to thermal exposure. This suggests that the imposed heatwave elicited a measurable transcriptional response (Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref> and Figure <xref rid="gch270123-supinfo-0001" ref-type="">S10</xref>). These observations were further supported by PERMANOVA analysis, which confirmed a significant effect of time on gene expression profiles in control samples (R<sup>2</sup> = 0.20, <italic toggle="yes">p</italic> = 0.001). Additionally, pairwise comparisons showed that all three time points differed significantly from each other: AP vs. DHW (R<sup>2</sup> = 0.15, <italic toggle="yes">p</italic> = 0.002), DHW vs. EHW (R<sup>2</sup> = 0.12, <italic toggle="yes">p</italic> = 0.014), and AP vs. EHW (R<sup>2</sup> = 0.20, <italic toggle="yes">p</italic> = 0.003).</p><fig position="float" fig-type="FIGURE" id="gch270123-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>(A) PCA performed after priming (AP), during heat wave (DHW), and at the end of heat wave (EHW); (B) The table provides the number of differentially expressed genes (DEGs) for each treatment when compared to control group at corresponding sampling time (AP = after priming; DHW = during heat wave; EHW = end heat wave); (C) Venn diagrams report common DEGs revealed among treatments at each sampling time.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="GCH2-10-e70123-g007.jpg"><?image-name GCH2-10-e70123-g007.jpg?><?image-size 65440?><?image-md5 6a867cc4d85debba6ab3792f1b1c5283?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 891?><?image-original-width 820?><?image-scaled-height 593?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/6a867cc4d85d/GCH2-10-e70123-g007.jpg?><?thumb-name GCH2-10-e70123-g007.gif?><?thumb-size 6298?><?thumb-md5 918b1e93e9481207e54ba07058e2d715?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 109?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/918b1e93e948/GCH2-10-e70123-g007.gif?></graphic></fig><p>The number of differentially expressed genes varied markedly across treatments and time points (Figure <xref rid="gch270123-fig-0004" ref-type="fig">4B</xref>). For the full list of significant DEGs and Gene Sets, see Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S2</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S3</xref>, respectively. The effects of priming and priming modes on the clam transcriptome mirror what was observed at the organismal level with the burrowing test. The strongest effect is shown by groups H and M, with the latter showing the highest number of DEGs compared to controls. In contrast, chemical priming (group K) is associated with limited changes in the clam transcriptome profile, with only 24 up‐regulated and 12 down‐regulated DEGs.</p><p>Venn diagrams revealed limited overlap in DEGs at all time points (Figure <xref rid="gch270123-fig-0004" ref-type="fig">4C</xref>), indicating that priming differentially shapes the clam transcriptome. However, genome‐wide overlap analysis revealed that M and H priming shared a significantly higher number of DEGs than expected (Fisher's exact test, <italic toggle="yes">p</italic> &lt; 10<sup>−40</sup>), with a markedly stronger overlap than comparisons involving chemical priming (K). These results indicate that mixed priming elicits a transcriptional response more closely resembling thermal priming than chemical priming alone (Figure <xref rid="gch270123-fig-0004" ref-type="fig">4B,C</xref>). During and at the end of heatwave exposure, the overlap of DEGs among treatments remained limited and did not differ significantly across pairwise comparisons.</p><p>Functional analysis (GSEA) of differential expression, as a direct effect of thermal priming, revealed a clear positive enrichment of pathways associated with the response to thermal stress, including proteostasis and the unfolded protein response (e.g., protein folding, chaperone‐mediated protein folding, protein folding in the endoplasmic reticulum, and positive regulation of the ER unfolded protein response), together with transcriptional modulation of chaperones and heat shock proteins (HSPs). Consistently, pathways related to proteasome activity and ER‐associated degradation (<italic toggle="yes">ubiquitin‐dependent ERAD pathway)</italic> and to the response to ER stress (<italic toggle="yes">intrinsic apoptotic signaling pathway in response to ER stress, response to endoplasmic reticulum stress</italic>) were also significantly up‐regulated, involving ubiquitin‐conjugating enzymes and E3 ligases, indicative of enhanced removal of misfolded or thermally damaged proteins (Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S2</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S3</xref>). Additionally, enriched categories encompassed stress‐responsive signaling, including <italic toggle="yes">response to oxidative stress, regulation of the stress‐activated MAPK cascade</italic>, and <italic toggle="yes">regulation of the JNK cascade</italic>, pathways that mediate cell survival and proliferation, inflammatory‐like responses, and autophagy. Up‐regulation of MAPK/JNK signaling may also contribute to the modulation of cell cycle regulation (<italic toggle="yes">regulation of cell cycle process; mitotic cell cycle process</italic>), apoptosis (<italic toggle="yes">execution phase of apoptosis</italic>), and immune‐related responses (e.g., <italic toggle="yes">regulation of immune response</italic>), as suggested by other studies [<xref rid="gch270123-bib-0051" ref-type="bibr">51</xref>, <xref rid="gch270123-bib-0052" ref-type="bibr">52</xref>]. Gene sets associated with lipid and sterol metabolism and membrane remodeling (e.g., <italic toggle="yes">glycolipid metabolic process; sphingolipid metabolism</italic>) were also enriched, reflecting the need to stabilize membranes perturbed by thermal stress [<xref rid="gch270123-bib-0053" ref-type="bibr">53</xref>, <xref rid="gch270123-bib-0054" ref-type="bibr">54</xref>, <xref rid="gch270123-bib-0055" ref-type="bibr">55</xref>]. Furthermore, consistent with the documented involvement of neurotransmitter signaling in bivalve stress physiology (Kotsyuba and Dyachuk, 2023) [<xref rid="gch270123-bib-0056" ref-type="bibr">56</xref>], we observed enrichment of gene sets related to behavioral processes (e.g., behavior, learning, memory). However, this result should be interpreted cautiously, as functional annotations of behavior‐associated genes are largely derived from vertebrate evidence and may not fully translate to distant taxonomic groups, unlike highly conserved cellular stress‐response pathways. Overall, the observed transcriptional signatures indicate a negative impact at the cellular level of thermal priming. This scenario is consistent with the significant reduction in burrowing performance observed in heat‐primed clams.</p><p>Chemical priming elicited a limited immediate response, with just 36 DEGs. GSEA identified only three significantly enriched pathways, including <italic toggle="yes">ribosome</italic> and <italic toggle="yes">cytoplasmic translation</italic>, both down‐regulated. These signatures point toward a generalized suppression of protein synthesis, which could be interpreted as a shift toward energy conservation and reduced metabolic expenditure without activation of classical stress pathways. In fact, chemical priming did not induce unfolded protein response, ER‐stress markers, MAPK/JNK signaling, or apoptosis‐ and immune‐related pathways, in sharp contrast with the broad stress program activated by thermal priming. Beyond translational suppression, chemical priming appears to induce a more selective, redox‐centered transcriptional program, characterized by the repression of secretory and barrier‐related genes, such as <italic toggle="yes">mucin‐2‐like</italic> and <italic toggle="yes">WAP‐type four‐disulfide core proteins</italic>, and the activation of genes involved in peroxisomal β‐oxidation, including <italic toggle="yes">acyl‐CoA oxidase 1 (ACOX1), acetyl‐CoA acetyltransferase (ACAT</italic>), and <italic toggle="yes">3‐ketoacyl‐CoA thiolase B (ACAA1B</italic>). Peroxisomal β‐oxidation, besides generating reactive oxygen species (ROS) as metabolic by‐products, determines an increase in lipid turnover, which plays a crucial adaptive role in bivalves, supporting membrane integrity under changing environmental conditions [<xref rid="gch270123-bib-0057" ref-type="bibr">57</xref>, <xref rid="gch270123-bib-0058" ref-type="bibr">58</xref>]. Additional differentially expressed genes, including the up‐regulation of <italic toggle="yes">SAMHD1‐like</italic>, involved in nucleotide and redox homeostasis [<xref rid="gch270123-bib-0059" ref-type="bibr">59</xref>], and <italic toggle="yes">protocadherin Fat1‐like</italic>, together with the down‐regulation of extracellular matrix‐ and guidance‐related genes such as <italic toggle="yes">neurocan‐like</italic> and <italic toggle="yes">semaphorin‐5A‐like</italic>, suggest a subtle modulation of cell adhesion and extracellular matrix organization rather than a strong stress‐induced remodeling. Overall, chemical priming generated a low‐cost, non‐stressful transcriptional shift characterized by reduced protein synthesis, activation of peroxisomal lipid metabolism, and modest structural and regulatory adjustments. While these metabolic and translational changes have also been reported after thermal priming treatments [<xref rid="gch270123-bib-0022" ref-type="bibr">22</xref>], thermal priming elicits a much broader and energetically demanding stress response. This profile is fully consistent with the absence of behavioral impairment after priming and with the superior burrowing performance observed during heatwave exposure, indicating that chemical priming preserves physiological functionality while preconditioning cellular metabolism in a manner that may enhance thermal resilience.</p><p>Mixed priming (M) elicited the largest transcriptional effects, with a profile that significantly overlapped with the thermal priming response (Figure <xref rid="gch270123-fig-0004" ref-type="fig">4</xref>). This pattern may be consistent with the reduced persistence of H<sub>2</sub>O<sub>2</sub> under elevated temperature conditions (see above), potentially resulting in a transcriptional response more similar to thermal priming alone. Consistently, several canonical heat‐stress components were up‐regulated, including <italic toggle="yes">Heat shock protein 70 B2, protein disulfide‐isomerase A5‐like isoform X1 (PDIA5), Serine/threonine‐protein kinase/endoribonuclease ire‐1 (IRE1)</italic>, and multiple ubiquitin‐ and proteasome‐associated genes, supporting the activation of proteostasis, ER stress, and unfolded‐protein‐response pathways highlighted also by GSEA (e.g. <italic toggle="yes">Protein processing in ER, ERAD pathway, response to endoplasmic reticulum stress</italic>). GSEA pointed out the up‐regulation of several immune‐related categories (e.g. <italic toggle="yes">immune response, response to cytokine</italic>), cytoskeletal and morphogenetic processes (<italic toggle="yes">actin cytoskeleton organization, cell–cell adhesion</italic>), and extensive signaling activity, including <italic toggle="yes">MAPK cascade, NF‐κB signaling</italic>, and synaptic signaling (e.g. <italic toggle="yes">neuron projection development, synaptic signaling</italic>). Moreover, several detoxification components were up‐regulated, including several ABC transporters (<italic toggle="yes">ABCA5‐like</italic>), <italic toggle="yes">glutathione S‐transferase Mu 1‐like</italic> (<italic toggle="yes">GST‐Mu‐1‐like</italic>), and <italic toggle="yes">cytochrome P450</italic>, pointing to an upregulated xenobiotic‐metabolizing system. Mixed priming also shared a subset of transcriptional changes with chemical priming, including <italic toggle="yes">Ecdysone‐inducible protein E75</italic>. E75 is a heme‐binding nuclear receptor whose activity in protostomes is tightly regulated by the intracellular redox environment [<xref rid="gch270123-bib-0060" ref-type="bibr">60</xref>, <xref rid="gch270123-bib-0061" ref-type="bibr">61</xref>]. The shared up‐regulation of E75 in both K and M groups suggests oxidative signaling triggered by H<sub>2</sub>O<sub>2</sub>. Likewise, down‐regulation of the same gene sets identified in H<sub>2</sub>O<sub>2</sub>‐primed clams (<italic toggle="yes">ribosome</italic>, <italic toggle="yes">cytoplasmic translation</italic>, and <italic toggle="yes">proteasome</italic>) was observed in combined priming, suggesting partial suppression of protein synthesis. Overall, mixed priming triggered the widest and putatively most energetically demanding transcriptional program, characterized by simultaneous activation of ER‐stress, immune, cytoskeletal, detoxification, and oxidative stress signaling pathways. All such evidence points toward a major impact at the cellular level, likely due to the cumulative effect of chemical and thermal stress. This hypothesis is consistent with the burrowing test results at the AP time point, where the M group showed the poorest performance. Such a cumulative effect appears to have long‐term consequences, as burrowing behavior remained negatively affected after one and two weeks of HW challenge.</p><p>Upon thermal challenge, subtle deviations from the heat stress response of control clams were observed in all three primed groups. Because differential expression was assessed relative to heatwave‐exposed controls, transcriptional changes detected during and after the heatwave reflect priming‐dependent modulation of the baseline stress response. Within this framework, H, K, and M treatments displayed distinct yet partially overlapping transcriptional signatures, indicating that priming history shapes heat‐stress regulation in a treatment‐specific manner.</p><p>After one week, only a small number of DEGs were detected, and no significant GSEA enrichment was observed. Heat‐primed clams exhibited down‐regulation of several transcriptional regulators, including <italic toggle="yes">LIM homeobox 1‐beta</italic>, an RNA polymerase subunit, and <italic toggle="yes">Signal transducer and activator of transcription</italic> (<italic toggle="yes">STAT</italic>). In contrast, <italic toggle="yes">tubulin β‐4B</italic> and <italic toggle="yes">fibrillin‐2</italic>, both associated with structural roles in tissue integrity (Tuszynski et al. [<xref rid="gch270123-bib-0062" ref-type="bibr">62</xref>], 2006; Ramirez and Sakai, 2010) [<xref rid="gch270123-bib-0063" ref-type="bibr">63</xref>], were up‐regulated, together with the thermosensitive <italic toggle="yes">transient receptor potential cation channel subfamily A member 1</italic> (<italic toggle="yes">TrpA1</italic>), a key component of heat‐response pathways in marine invertebrates (Peng et al., 2021; [<xref rid="gch270123-bib-0064" ref-type="bibr">64</xref>] Zhang et al., 2025, [<xref rid="gch270123-bib-0065" ref-type="bibr">65</xref>]. Notably, <italic toggle="yes">heat shock 70 kDa protein 12B‐like</italic> (<italic toggle="yes">HSPA12B</italic>) was up‐regulated in K‐primed clams during heatwave exposure, whereas H‐ and M‐primed clams showed down‐regulation of <italic toggle="yes">HSPA12A‐like</italic> and <italic toggle="yes">HSPA12B</italic>. This priming‐specific pattern suggests that chemical priming modulates the heat stress response through distinct molecular components, preserving the inducibility of canonical heat‐shock proteins rather than pre‐activating them during the priming phase, as observed in H‐ and M‐primed clams.</p><p>The chemical‐primed group (K) showed down‐regulation of <italic toggle="yes">hexokinase‐1</italic>, a glycolysis‐related gene known to decrease under heat stress [<xref rid="gch270123-bib-0066" ref-type="bibr">66</xref>], while displaying up‐regulation of <italic toggle="yes">fibrillin‐2</italic> (commonly to H) and <italic toggle="yes">big defensin</italic>, which plays crucial roles in clams’ immune function thanks to its antimicrobial activity [<xref rid="gch270123-bib-0067" ref-type="bibr">67</xref>, <xref rid="gch270123-bib-0068" ref-type="bibr">68</xref>]. Among the genes exclusively shared between K and M, we identified the <italic toggle="yes">E75‐like nuclear hormone receptor</italic> up‐regulated in both treatments also after priming. The continuous up‐regulation of <italic toggle="yes">E75</italic> in K‐ and M clams reflects a clear transcriptional sensitivity to H<sub>2</sub>O<sub>2</sub>. Given the potential role of <italic toggle="yes">E75</italic> orthologs in oxidative‐stress signaling and cellular remodeling in protostomes [<xref rid="gch270123-bib-0069" ref-type="bibr">69</xref>, <xref rid="gch270123-bib-0070" ref-type="bibr">70</xref>], its activation during the heatwave suggests that oxidative‐priming‐responsive pathways remained active under thermal stress.</p><p>At the end of the heatwave, H‐primed clams displayed differential expression of genes associated with extracellular matrix and cell‐surface organization (e.g., <italic toggle="yes">mucin‐like proteins, cadherin/protocadherin family members, papilin‐like</italic>), immune and detoxification processes (<italic toggle="yes">complement factor B‐like, galectin‐related protein, cytochrome P450 10‐like, heavy metal‐binding proteins</italic>) and cell‐cycle and proteostasis regulation (<italic toggle="yes">cyclin‐B3, DNA polymerase subunit 4, DNA replication complex GINS protein SLD5</italic>, several E3 ubiquitin‐protein ligases). In contrast, K‐ and M‐primed clams exhibited fewer differentially expressed genes relative to naïve controls (C), without consistent pathway‐level enrichment. Notably, a shared transcriptional feature across all primed groups (H, K, and M) was the up‐regulation of the <italic toggle="yes">Death‐associated inhibitor of apoptosis 2</italic> (<italic toggle="yes">DIAP2</italic>). <italic toggle="yes">DIAP2</italic> is a conserved inhibitor of apoptosis protein that limits caspase‐mediated cell death, promoting cell survival under stress conditions [<xref rid="gch270123-bib-0071" ref-type="bibr">71</xref>, <xref rid="gch270123-bib-0072" ref-type="bibr">72</xref>]. Its consistent up‐regulation across all primed groups at the end of the heatwave suggests that priming, irrespective of its mode, promotes the engagement of anti‐apoptotic mechanisms during prolonged thermal stress.</p><p>Taken together, these results indicate that, compared to thermal priming, chemical priming was associated with limited transcriptional perturbation while preserving physiological performance as suggested by burrowing capability, suggesting a distinct mechanism for modulating thermal resilience under simulated heatwave conditions.</p></sec><sec id="gch270123-sec-0130"><label>3.5</label><title>Microbiota Characterization Reveals Limited Community Shifts and Reduced Representation of Potentially Opportunistic Taxa in Primed Clams During Heatwave Exposure</title><p>Microbiota is a key determinant of host health, contributing to physiological homeostasis, stress resilience, and detoxification processes [<xref rid="gch270123-bib-0073" ref-type="bibr">73</xref>, <xref rid="gch270123-bib-0074" ref-type="bibr">74</xref>]. Environmental stress and marine heatwaves can disrupt microbial communities, impairing their capacity to support the holobiont [<xref rid="gch270123-bib-0004" ref-type="bibr">4</xref>, <xref rid="gch270123-bib-0075" ref-type="bibr">75</xref>, <xref rid="gch270123-bib-0076" ref-type="bibr">76</xref>]. Hydrogen peroxide is known to exert antimicrobial effects at sufficiently high concentrations, while at lower doses it primarily acts as a redox‐active signaling molecule. Although potential bactericidal effects at the concentrations applied here cannot be assumed, chemical priming could nonetheless influence host‐microbiota interactions and thereby reshape microbiota composition or dynamics. Moreover, previous work in <italic toggle="yes">Ruditapes philippinarum</italic> has shown that thermal priming can alter microbial community structure and suggests that priming history may influence microbiota dynamics following heatwave exposure [<xref rid="gch270123-bib-0022" ref-type="bibr">22</xref>]. For these reasons, the bacterial communities associated with the clams were profiled to determine whether priming induced specific microbiota shifts or imbalances relative to non‐primed controls.</p><p>Alpha diversity did not differ significantly among groups within each sampling phase (Figure <xref rid="gch270123-supinfo-0001" ref-type="">S3</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>). However, temporal trends revealed treatment‐specific trajectories (Figure <xref rid="gch270123-fig-0005" ref-type="fig">5</xref>). Both H and M displayed an initial increase in diversity immediately after priming compared to the non‐primed C group, followed by a decline at DHW and stabilization toward EHW. In contrast, K exhibited the opposite temporal profile, with diversity increasing progressively from AP to DHW and EHW. This trend was supported by a significant global temporal effect in the Observed Richness index (Kruskal‐Wallis <italic toggle="yes">p</italic> = 0.0393), driven by a significant rise between DHW and EHW (Wilcoxon adjusted <italic toggle="yes">p</italic> = 0.0391). The control group (C) remained comparatively stable across phases. Overall, despite high inter‐individual variability (Figure <xref rid="gch270123-fig-0005" ref-type="fig">5</xref>), alpha‐diversity analyses indicate that priming did not induce persistent alterations in within‐sample diversity but was associated with transient, treatment‐specific temporal patterns.</p><fig position="float" fig-type="FIGURE" id="gch270123-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Shannon diversity (left) and Observed Richness (right) indices across phases (AP = after priming, DHW = during the heatwave, EHW = at the end of the heatwave) among different treatment groups of clams (H = heat priming, K = chemical priming, M = mixed priming, C = control). Asterisks indicate the significant temporal contrast (Wilcoxon rank‐sum test).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="GCH2-10-e70123-g006.jpg"><?image-name GCH2-10-e70123-g006.jpg?><?image-size 34615?><?image-md5 f730503afc474fcbacee652b9de53d39?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 295?><?image-original-width 820?><?image-scaled-height 196?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/f730503afc47/GCH2-10-e70123-g006.jpg?><?thumb-name GCH2-10-e70123-g006.gif?><?thumb-size 7071?><?thumb-md5 6b73878f26a45d5d21bd0934ed2d2a39?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 72?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/6b73878f26a4/GCH2-10-e70123-g006.gif?></graphic></fig><p>Beta‐diversity analyses showed homogeneous dispersion across groups in all experimental phases, supporting the validity of PERMANOVA analysis. Across all time points, PCoA showed no clear clustering of samples by treatment, indicating that priming did not induce strong, visually detectable restructuring of the microbiota (Figure <xref rid="gch270123-supinfo-0001" ref-type="">S4</xref> and Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>). Statistical tests (PERMANOVA) performed on the same distance matrices revealed only modest and phase‐specific effects (Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S1</xref>). Together, these results indicate that neither thermal nor chemical priming produced major community‐wide shifts in microbiota composition, and that any statistically detectable differences were limited in magnitude and context‐dependent.</p><p>Across phases, the number of differentially abundant ASVs in each treatment compared to the C group varied markedly (Figure <xref rid="gch270123-fig-0006" ref-type="fig">6</xref>). Differential abundance analyses (FDR‐corrected) identified phase‐specific changes in the relative abundance of bacterial taxa across priming treatments (Appendix <xref rid="gch270123-supinfo-0001" ref-type="">S4</xref>). During priming (AP), M showed the highest number of differentially abundant taxa (DAT), while at the end of the heatwave (EHW), the number of DAT increased compared to DHW in all treatments, especially in K, consistent with the increased index of alpha diversity.</p><fig position="float" fig-type="FIGURE" id="gch270123-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>(A) Table with differential abundant taxa both at ASV and genus level in the clam digestive glands, obtained comparing group H (heat priming), K (chemical priming), and M (mixed priming) with group C (control), at each experimental phase: after priming (AP), during the heatwave (DHW), and at the end of the heatwave (EHW). (B) Venn diagrams showing the number and proportion of differentially abundant ASVs uniquely or jointly detected among primed groups at each experimental phase (made using Venny 2.1.0).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="GCH2-10-e70123-g002.jpg"><?image-name GCH2-10-e70123-g002.jpg?><?image-size 53331?><?image-md5 ba7a0ce7263ceebc8fe8667420eeb0cb?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 628?><?image-original-width 820?><?image-scaled-height 418?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/ba7a0ce7263c/GCH2-10-e70123-g002.jpg?><?thumb-name GCH2-10-e70123-g002.gif?><?thumb-size 5712?><?thumb-md5 793a4778ee03ee05f85acf224d76e018?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 104?><?thumb-cloudpmc-urn urn:cdn:blobs/2d5b/13266081/793a4778ee03/GCH2-10-e70123-g002.gif?></graphic></fig><p>After priming (AP), all primed groups showed significant enrichment of <italic toggle="yes">Vibrio</italic>, including <italic toggle="yes">V. mediterranei</italic> and <italic toggle="yes">Shewanella algae</italic>, two species often linked to dysbiosis, stress responses, or pathogenicity in bivalves [<xref rid="gch270123-bib-0077" ref-type="bibr">77</xref>, <xref rid="gch270123-bib-0078" ref-type="bibr">78</xref>]. However, the magnitude of this shift differed across treatments. Specifically, relative to control clams, H‐ and M‐primed clams showed enrichment of multiple <italic toggle="yes">Vibrio</italic> amplicon sequence variants (ASVs) (four and five ASVs, respectively), indicating a broader expansion within the <italic toggle="yes">Vibrio</italic> lineage, whereas K‐primed clams displayed enrichment of only a single <italic toggle="yes">Vibrio</italic> ASV. In addition, the M‐primed group uniquely exhibited higher abundance of <italic toggle="yes">Photobacterium</italic>, a genus that includes known bivalve pathogens [<xref rid="gch270123-bib-0079" ref-type="bibr">79</xref>]. Among these opportunistic pathogens, <italic toggle="yes">Vibrio</italic> remained consistently enriched across all groups during the heatwave. Notably, by the end of the heatwave (EHW), several ASVs belonging to <italic toggle="yes">Vibrio</italic> and <italic toggle="yes">Tenacibaculum</italic> were significantly under‐represented in all primed groups relative to controls. <italic toggle="yes">Tenacibaculum</italic> species have been implicated in shellfish diseases, including lesions and mortality in clams and oysters [<xref rid="gch270123-bib-0080" ref-type="bibr">80</xref>, <xref rid="gch270123-bib-0081" ref-type="bibr">81</xref>]. <italic toggle="yes">Mycoplasma</italic>, a dominant and potentially beneficial genus in <italic toggle="yes">R. philippinarum</italic> [<xref rid="gch270123-bib-0082" ref-type="bibr">82</xref>], exhibited clear temporal shifts. By the end of the heatwave, it was strongly over‐represented in K and M and moderately increased in H‐primed clams, while remaining comparatively lower in the control group (C). Although <italic toggle="yes">Mycoplasma</italic> is often associated with stable clam microbiota [<xref rid="gch270123-bib-0082" ref-type="bibr">82</xref>, <xref rid="gch270123-bib-0083" ref-type="bibr">83</xref>], the functional implications of its increased relative abundance under thermal stress remain incompletely understood and should therefore be interpreted cautiously.</p><p>Overall, these results indicate that priming elicited transient and treatment‐specific changes in microbiota composition, particularly in M‐ and H‐primed clams after priming, which largely diminished during heatwave exposure. Notably, taxa commonly associated with dysbiosis (e.g., <italic toggle="yes">Vibrio, Photobacterium, Tenacibaculum</italic>) were over‐represented in primed groups prior to the heatwave but showed reduced relative abundance during or after thermal exposure in primed clams compared to non‐primed controls. Together with modest shifts in beta‐diversity and stabilized alpha‐diversity patterns, these results indicate that priming does not cause persistent microbiota disruption. Instead, primed individuals exhibit microbiota dynamics characterized by reduced persistence of potentially opportunistic taxa following thermal stress compared to non‐primed controls.</p></sec><sec id="gch270123-sec-0140"><label>3.6</label><title>Mechanistic Insights and Broader Implications</title><p>Our study provides the first evidence that low‐dose hydrogen peroxide chemical priming modulates organismal responses to thermal stress. The experimental heatwave induced measurable responses in control clams, particularly at the behavioral and transcriptomic levels, indicating a moderate, sub‐lethal stress condition. This reveals a mechanism by which mild oxidative cues pre‐condition organismal and holobiont responses to simulated heatwave conditions. Unlike thermal priming, which was associated with broader transcriptional activation and transient behavioral impairment, chemical priming was associated with limited transcriptomic perturbation, preserving physiological performance while still modulating stress‐responsive molecular components during heat exposure. Chemically primed clams showed faster burrowing rates during heatwave exposure and displayed distinct transcriptional profiles, while microbiota communities exhibited transient and treatment‐specific shifts, including reduced persistence of opportunistic taxa such as <italic toggle="yes">Vibrio</italic> and <italic toggle="yes">Tenacibaculum</italic> during and after heat stress compared to non‐primed clams. Finally, a field trial conducted under commercial farming conditions confirmed the safety of chemical priming. From an applied perspective, the simplicity and feasibility of H<sub>2</sub>O<sub>2</sub> priming may support the development of low‐impact approaches to improve bivalve performance under warming conditions. Although tested here in Manila clams, this redox‐mediated priming mechanism may provide a broader framework for modulating stress memory across sessile marine invertebrates under moderate thermal stress scenarios. Future studies should explore its applicability under more intense or prolonged marine heatwave scenarios, and across taxa with differing life histories and thermal tolerances.</p></sec></sec><sec id="gch270123-sec-0150"><title>Author Contributions</title><p>Massimo Milan and Maura Benedetti secured funding for this study. Massimo Milan, Luca Peruzza, Chiara Mascitelli, and Giovanna Monticelli coordinated the overall experimental design and execution. Chiara Mascitelli, Giovanna Monticelli, Ilaria Bernardini, and Giulia Dalla Rovere performed clam priming, simulated heatwave exposures, burrowing assays, and measurements of survival and condition index, and conducted the field experiment. Chiara Mascitelli carried out the molecular analyses, including wet‐lab procedures and bioinformatic analyses. Graziano Rilievo quantified H<sub>2</sub>O<sub>2</sub> decay in experimental seawater. Luca Peruzza and Giulia Dalla Rovere contributed to bioinformatic analyses. Alessandro Nardi, Deborah Cesaroni, and Valentina Tavolazzi contributed to clam sampling and supported experimental exposures. Chiara Mascitelli and Massimo Milan drafted the manuscript. Tomaso Patarnello, Gabriele Andreatta, Luca Peruzza, Giovanna Monticelli, and Luca Bargelloni contributed to experimental planning and manuscript revision. All authors contributed to the final version of the manuscript and approved its submission.</p></sec><sec sec-type="COI-statement" id="gch270123-sec-0170"><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="gch270123-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="gch270123-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File 1</bold>: gch270123‐sup‐0001‐SuppMat.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCH2-10-e70123-s001.docx" position="float" orientation="portrait"><?suppdata-name GCH2-10-e70123-s001.docx?><?suppdata-size 1861207?><?suppdata-md5 bfe6aa3581884033a68df95cea9ea99b?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:2d5b/13266081/bfe6aa358188/GCH2-10-e70123-s001.docx?></media></supplementary-material><supplementary-material id="gch270123-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File 2</bold>: gch270123‐sup‐0002‐AppendixS1.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCH2-10-e70123-s004.docx" position="float" orientation="portrait"><?suppdata-name GCH2-10-e70123-s004.docx?><?suppdata-size 2405420?><?suppdata-md5 ea0b556a8b87cee0097f2abc62538eac?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:2d5b/13266081/ea0b556a8b87/GCH2-10-e70123-s004.docx?></media></supplementary-material><supplementary-material id="gch270123-supitem-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File 3</bold>: gch270123‐sup‐0003‐AppendixS2.xlsx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCH2-10-e70123-s003.xlsx" position="float" orientation="portrait"><?suppdata-name GCH2-10-e70123-s003.xlsx?><?suppdata-size 449461?><?suppdata-md5 0ca8d3c88b907eaed77c25a6adf75e85?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:2d5b/13266081/0ca8d3c88b90/GCH2-10-e70123-s003.xlsx?></media></supplementary-material><supplementary-material id="gch270123-supitem-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File 4</bold>: gch270123‐sup‐0004‐AppendixS3.xlsx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCH2-10-e70123-s002.xlsx" position="float" orientation="portrait"><?suppdata-name GCH2-10-e70123-s002.xlsx?><?suppdata-size 312499?><?suppdata-md5 74288da36caff816989735dc2708c0ab?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:2d5b/13266081/74288da36caf/GCH2-10-e70123-s002.xlsx?></media></supplementary-material><supplementary-material id="gch270123-supitem-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File 5</bold>: gch270123‐sup‐0005‐AppendixS4.xlsx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GCH2-10-e70123-s005.xlsx" position="float" orientation="portrait"><?suppdata-name GCH2-10-e70123-s005.xlsx?><?suppdata-size 100409?><?suppdata-md5 081fa5941b1fb8f35c4eb3787ebf39ef?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:2d5b/13266081/081fa5941b1f/GCH2-10-e70123-s005.xlsx?></media></supplementary-material></sec></body><back><ack id="gch270123-sec-0160"><title>Acknowledgements</title><p>This research was funded by “PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) Missione 4 “Istruzione e Ricerca”—Componente C2 Investimento 1.1, “Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante Interesse Nazionale (PRIN)”‐ Priming and Microbiota mAnipulation to mitigate shellfish vulNerability: toward a sustaInable aquacuLture mAnagement in a changIng ocean (MANILA)”. Università Politecnica delle MARCHE: Cup Master I53D23003170006; Università degli Studi di PADOVA: Cup C53D23003280006. This research was also supported by a Ph.D. fellowship funded by the Italian Ministry of University and Research (MUR) through the Department of Excellence program (2023–2027), within the project “Animals and Environment: Toward a Sustainable Life (SENTINEL)”.</p><p>Open access publishing facilitated by Universita degli Studi di Padova, as part of the Wiley ‐ CRUI‐CARE agreement.</p></ack><sec sec-type="data-availability" id="gch270123-sec-0190"><title>Data Availability Statement</title><p>The data that support the findings of this study are openly available in NCBI at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.ncbi.nlm.nih.gov/</ext-link>, reference number PRJNA1391265.</p></sec><ref-list id="gch270123-bibl-0001"><title>References</title><ref id="gch270123-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="gch270123-cit-0001">
+<string-name name-style="western">
+<given-names>E. C. J.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Donat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, et al., “<article-title>Longer and More Frequent Marine Heatwaves over the Past Century</article-title>,” <source>Nature Communications</source>
+<volume>9</volume>, no. <issue>1</issue> (<year>2018</year>): <fpage>1324</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-018-03732-9</pub-id>.<pub-id pub-id-type="pmcid">PMC5893591</pub-id><pub-id pub-id-type="pmid">29636482</pub-id></mixed-citation></ref><ref id="gch270123-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="gch270123-cit-0002">
+<string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Burrows</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Hobday</surname>
+</string-name>, et al., “<article-title>Biological Impacts of Marine Heatwaves</article-title>,” <source>Annual Review of Marine Science</source>
+<volume>15</volume>, no. <issue>1</issue> (<year>2023</year>): <fpage>119</fpage>–<lpage>145</lpage>, <pub-id pub-id-type="doi">10.1146/annurev-marine-032122-121437</pub-id>.<pub-id pub-id-type="pmid">35977411</pub-id></mixed-citation></ref><ref id="gch270123-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="gch270123-cit-0003">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Garrabou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Coma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Bensoussan</surname>
+</string-name>, et al., “<article-title>Mass Mortality in Northwestern Mediterranean Rocky Benthic Communities: Effects of the 2003 Heat Wave</article-title>,” <source>Global Change Biology</source>
+<volume>15</volume>, no. <issue>5</issue> (<year>2009</year>): <fpage>1090</fpage>–<lpage>1103</lpage>, <pub-id pub-id-type="doi">10.1111/j.1365-2486.2008.01823.x</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="gch270123-cit-0004">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Masanja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Mkuye</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhao</surname>
+</string-name>, “<article-title>Environmental and Social Framework to Protect Marine Bivalves under Extreme Weather Events</article-title>,” <source>Science of The Total Environment</source>
+<volume>946</volume> (<year>2024</year>): <elocation-id>174471</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2024.174471</pub-id>.<pub-id pub-id-type="pmid">38964384</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0005"><label>5</label><mixed-citation publication-type="book" id="gch270123-cit-0005">
+<string-name name-style="western">
+<given-names>T. K.</given-names>
+<surname>Soon</surname>
+</string-name> and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zheng</surname>
+</string-name>, “<part-title>Climate Change and Bivalve Mass Mortality in Temperate Regions</part-title>,” <source>Reviews of Environmental Contamination and Toxicology</source>, ed. <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>De Voogt</surname>
+</string-name>
+</person-group> (<publisher-name>Springer</publisher-name>, <year>2019</year>), pp. <fpage>109</fpage>–<lpage>129</lpage>, <pub-id pub-id-type="doi">10.1007/398_2019_31</pub-id>.<pub-id pub-id-type="pmid">31289937</pub-id></mixed-citation></ref><ref id="gch270123-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="gch270123-cit-0006">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>De Castro‐Fernández</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Ballesté</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Angulo‐Preckler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Biggs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Avila</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>García‐Aljaro</surname>
+</string-name>, “<article-title>How Does Heat Stress Affect Sponge Microbiomes? Structure and Resilience of Microbial Communities of Marine Sponges from Different Habitats</article-title>,” <source>Frontiers in Marine Science</source>
+<volume>9</volume> (<year>2023</year>): <elocation-id>1072696</elocation-id>, <pub-id pub-id-type="doi">10.3389/fmars.2022.1072696</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="gch270123-cit-0007">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Simister</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. S.</given-names>
+<surname>Webster</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Thomas</surname>
+</string-name>, “<article-title>Marine Microbial Symbiosis Heats up: the Phylogenetic and Functional Response of a Sponge Holobiont to Thermal Stress</article-title>,” <source>The ISME Journal</source>
+<volume>7</volume>, no. <issue>5</issue> (<year>2013</year>): <fpage>991</fpage>–<lpage>1002</lpage>, <pub-id pub-id-type="doi">10.1038/ismej.2012.165</pub-id>.<pub-id pub-id-type="pmid">23283017</pub-id>
+<pub-id pub-id-type="pmcid">PMC3635241</pub-id></mixed-citation></ref><ref id="gch270123-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="gch270123-cit-0008">
+<string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Ralph</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Marín‐Guirao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pernice</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Procaccini</surname>
+</string-name>, “<article-title>Stress Memory in Seagrasses: First Insight into the Effects of Thermal Priming and the Role of Epigenetic Modifications</article-title>,” <source>Frontiers in Plant Science</source>
+<volume>11</volume> (<year>2020</year>): <elocation-id>494</elocation-id>, <pub-id pub-id-type="doi">10.3389/fpls.2020.00494</pub-id>.<pub-id pub-id-type="pmid">32411166</pub-id>
+<pub-id pub-id-type="pmcid">PMC7199800</pub-id></mixed-citation></ref><ref id="gch270123-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="gch270123-cit-0009">
+<string-name name-style="western">
+<given-names>H. C.</given-names>
+<surname>Spence‐Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Scheibl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Pein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ionita</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. N. S.</given-names>
+<surname>Shama</surname>
+</string-name>, “<article-title>Do You Remember? Within‐generation and Transgenerational Heat Stress Memory of Recurring Marine Heatwaves in Threespine Stickleback</article-title>,” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>292</volume>, no. <issue>2040</issue> (<year>2025</year>): <elocation-id>20242913</elocation-id>, <pub-id pub-id-type="doi">10.1098/rspb.2024.2913</pub-id>.<pub-id pub-id-type="pmcid">PMC11793969</pub-id><pub-id pub-id-type="pmid">39904388</pub-id></mixed-citation></ref><ref id="gch270123-bib-0010"><label>10</label><mixed-citation publication-type="book" id="gch270123-cit-0010">
+<collab collab-type="authors">Food and Agriculture Organization of the United Nations</collab>
+, <source>The State of World Fisheries and Aquaculture</source>, (<publisher-name>Food and Agriculture Organization of the United Nations</publisher-name>, <year>2022</year>), <pub-id pub-id-type="doi">10.4060/cc0461en</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="gch270123-cit-0011">
+<string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Naylor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. W.</given-names>
+<surname>Hardy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. H.</given-names>
+<surname>Buschmann</surname>
+</string-name>, et al., “<article-title>A 20‐Year Retrospective Review of Global Aquaculture</article-title>,” <source>Nature</source>
+<volume>591</volume>, no. <issue>7851</issue> (<year>2021</year>): <fpage>551</fpage>–<lpage>563</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-021-03308-6</pub-id>.<pub-id pub-id-type="pmid">33762770</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="gch270123-cit-0012">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Tamburini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Turolla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lanzoni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Moore</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Castaldelli</surname>
+</string-name>, “<article-title>Manila Clam and Mediterranean Mussel Aquaculture Is Sustainable and a Net Carbon Sink</article-title>,” <source>Science of The Total Environment</source>
+<volume>848</volume> (<year>2022</year>): <elocation-id>157508</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.157508</pub-id>.<pub-id pub-id-type="pmid">35870589</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="gch270123-cit-0013">
+<string-name name-style="western">
+<given-names>J. Z.</given-names>
+<surname>Koehn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. H.</given-names>
+<surname>Allison</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Golden</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hilborn</surname>
+</string-name>, “<article-title>The Role of Seafood in Sustainable Diets</article-title>,” <source>Environmental Research Letters</source>
+<volume>17</volume>, no. <issue>3</issue> (<year>2022</year>): <elocation-id>035003</elocation-id>, <pub-id pub-id-type="doi">10.1088/1748-9326/ac3954</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="gch270123-cit-0014">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Yang</surname>
+</string-name>, “<article-title>Oyster Farming Helps Reducing China's Greenhouse Gas Emissions for Food Production</article-title>,” <source>Cleaner Engineering and Technology</source>
+<volume>26</volume> (<year>2025</year>): <elocation-id>100963</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.clet.2025.100963</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="gch270123-cit-0015">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Peruzza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. F.</given-names>
+<surname>Tucci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Frizzo</surname>
+</string-name>, et al., “<article-title>Impaired Reproduction, Energy Reserves and Dysbiosis: the Overlooked Consequences of Heatwaves in a Bivalve Mollusc</article-title>,” <source>Marine Pollution Bulletin</source>
+<volume>193</volume> (<year>2023</year>): <elocation-id>115192</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.marpolbul.2023.115192</pub-id>.<pub-id pub-id-type="pmid">37364338</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="gch270123-cit-0016">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Able</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Able</surname>
+</string-name>, “<article-title>Priming Crops for the Future: Rewiring Stress Memory</article-title>,” <source>Trends in Plant Science</source>
+<volume>27</volume>, no. <issue>7</issue> (<year>2022</year>): <fpage>699</fpage>–<lpage>716</lpage>, <pub-id pub-id-type="doi">10.1016/j.tplants.2021.11.015</pub-id>.<pub-id pub-id-type="pmid">34906381</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="gch270123-cit-0017">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Antoniou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Savvides</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Christou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Fotopoulos</surname>
+</string-name>, “<article-title>Unravelling Chemical Priming Machinery in Plants: The Role of Reactive Oxygen–Nitrogen–Sulfur Species in Abiotic Stress Tolerance Enhancement</article-title>,” <source>Current Opinion in Plant Biology</source>
+<volume>33</volume> (<year>2016</year>): <fpage>101</fpage>–<lpage>107</lpage>, <pub-id pub-id-type="doi">10.1016/j.pbi.2016.06.020</pub-id>.<pub-id pub-id-type="pmid">27419886</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="gch270123-cit-0018">
+<string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Conrath</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J. M.</given-names>
+<surname>Beckers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Flors</surname>
+</string-name>, et al., “<article-title>Priming: Getting Ready for Battle</article-title>,” <source>Molecular Plant‐Microbe Interactions</source>
+<volume>19</volume>, no. <issue>10</issue> (<year>2006</year>): <fpage>1062</fpage>–<lpage>1071</lpage>, <pub-id pub-id-type="doi">10.1094/MPMI-19-1062</pub-id>.<pub-id pub-id-type="pmid">17022170</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="gch270123-cit-0019">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Savvides</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ali</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Tester</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Fotopoulos</surname>
+</string-name>, “<article-title>Chemical Priming of Plants Against Multiple Abiotic Stresses: Mission Possible?</article-title>,” <source>Trends in Plant Science</source>
+<volume>21</volume>, no. <issue>4</issue> (<year>2016</year>): <fpage>329</fpage>–<lpage>340</lpage>, <pub-id pub-id-type="doi">10.1016/j.tplants.2015.11.003</pub-id>.<pub-id pub-id-type="pmid">26704665</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="gch270123-cit-0020">
+<string-name name-style="western">
+<given-names>N. E.</given-names>
+<surname>Moyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. L.</given-names>
+<surname>Crane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. N.</given-names>
+<surname>Somero</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. W.</given-names>
+<surname>Denny</surname>
+</string-name>, “<article-title>A Single Heat‐stress Bout Induces Rapid and Prolonged Heat Acclimation in the California Mussel, <italic toggle="yes">Mytilus Californianus</italic>
+</article-title>,” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>287</volume>, no. <issue>1940</issue> (<year>2020</year>): <elocation-id>20202561</elocation-id>, <pub-id pub-id-type="doi">10.1098/rspb.2020.2561</pub-id>.<pub-id pub-id-type="pmcid">PMC7739924</pub-id><pub-id pub-id-type="pmid">33290677</pub-id></mixed-citation></ref><ref id="gch270123-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="gch270123-cit-0021">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Lu</surname>
+</string-name>, et al., “<article-title>Acquired Thermotolerance in Crassostrea Angulata: Effects of Priming Temperature, Recovery Temperature and Duration on the Survival and Expression of HSP Genes</article-title>,” <source>Aquaculture</source>
+<volume>592</volume> (<year>2024</year>): <elocation-id>741169</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.aquaculture.2024.741169</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="gch270123-cit-0022">
+<string-name name-style="western">
+<given-names>C. F.</given-names>
+<surname>Tucci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Milan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Dalla Rovere</surname>
+</string-name>, et al., “<article-title>Thermal Priming Mitigates the Effects of Lethal Marine Heatwaves on the Manila Clam Ruditapes Philippinarum</article-title>,” <source>iScience</source>
+<volume>28</volume>, no. <issue>8</issue> (<year>2025</year>): <elocation-id>113108</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.isci.2025.113108</pub-id>.<pub-id pub-id-type="pmid">40755456</pub-id>
+<pub-id pub-id-type="pmcid">PMC12314336</pub-id></mixed-citation></ref><ref id="gch270123-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="gch270123-cit-0023">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Nie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Huo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yan</surname>
+</string-name>, “<article-title>Heat Hardening Enhances the Energy Metabolism Activity and Oxidative Defense Ability of Manila Clam Ruditapes Philippinarum under Different Thermal Stress</article-title>,” <source>Aquaculture</source>
+<volume>595</volume> (<year>2025</year>): <elocation-id>741511</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.aquaculture.2024.741511</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="gch270123-cit-0024">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Jamshidi Goharrizi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Karami</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ghanaei</surname>
+</string-name>, “<article-title>Hydrogen Peroxide Priming Promotes Salinity Tolerance in Plants—A Comprehensive Review</article-title>,” <source>Agronomy Journal</source>
+<volume>116</volume>, no. <issue>2</issue> (<year>2024</year>): <fpage>612</fpage>–<lpage>629</lpage>, <pub-id pub-id-type="doi">10.1002/agj2.21534</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="gch270123-cit-0025">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>González‐Bosch</surname>
+</string-name>, “<article-title>Priming Plant Resistance by Activation of Redox‐sensitive Genes</article-title>,” <source>Free Radical Biology and Medicine</source>
+<volume>122</volume> (<year>2018</year>): <fpage>171</fpage>–<lpage>180</lpage>, <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2017.12.028</pub-id>.<pub-id pub-id-type="pmid">29277443</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="gch270123-cit-0026">
+<string-name name-style="western">
+<given-names>D. K.</given-names>
+<surname>Tripathi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Bhat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Antoniou</surname>
+</string-name>, et al., “<article-title>Redox Regulation by Priming Agents toward a Sustainable Agriculture</article-title>,” <source>Plant and Cell Physiology</source>
+<volume>65</volume>, no. <issue>7</issue> (<year>2024</year>): <fpage>1087</fpage>–<lpage>1102</lpage>, <pub-id pub-id-type="doi">10.1093/pcp/pcae031</pub-id>.<pub-id pub-id-type="pmid">38591871</pub-id>
+<pub-id pub-id-type="pmcid">PMC11287215</pub-id></mixed-citation></ref><ref id="gch270123-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="gch270123-cit-0027">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Milkovic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cipak Gasparovic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Cindric</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐A.</given-names>
+<surname>Mouthuy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Zarkovic</surname>
+</string-name>, “<article-title>Short Overview of ROS as Cell Function Regulators and Their Implications in Therapy Concepts</article-title>,” <source>Cells</source>
+<volume>8</volume>, no. <issue>8</issue> (<year>2019</year>): <elocation-id>793</elocation-id>, <pub-id pub-id-type="doi">10.3390/cells8080793</pub-id>.<pub-id pub-id-type="pmid">31366062</pub-id>
+<pub-id pub-id-type="pmcid">PMC6721558</pub-id></mixed-citation></ref><ref id="gch270123-bib-0028"><label>28</label><mixed-citation publication-type="book" id="gch270123-cit-0028">
+<string-name name-style="western">
+<given-names>E. G.</given-names>
+<surname>Russell</surname>
+</string-name>, “<part-title>New Insight into the Role of Reactive Oxygen Species (ROS) in Cellular Signal‐Transduction Processes</part-title>,” <source>International Review of Cell and Molecular Biology</source> (<publisher-name>Elsevier</publisher-name>, <year>2015</year>), pp. <fpage>221</fpage>–<lpage>254</lpage>, <pub-id pub-id-type="doi">10.1016/bs.ircmb.2015.07.004</pub-id>.<pub-id pub-id-type="pmid">26404470</pub-id></mixed-citation></ref><ref id="gch270123-bib-0029"><label>29</label><mixed-citation publication-type="book" id="gch270123-cit-0029">
+<string-name name-style="western">
+<given-names>F. E. L.</given-names>
+<surname>Carvalho</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J. A. G.</given-names>
+<surname>Silveira</surname>
+</string-name>, “<part-title>H<sub>2</sub>O<sub>2</sub>‐Retrograde Signaling as a Pivotal Mechanism to Understand Priming and Cross Stress Tolerance in Plants</part-title>,” <source>Priming‐Mediated Stress and Cross‐Stress Tolerance in Crop Plants</source> (<publisher-name>Elsevier</publisher-name>, <year>2020</year>), pp. <fpage>57</fpage>–<lpage>78</lpage>, <pub-id pub-id-type="doi">10.1016/B978-0-12-817892-8.00004-0</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0030"><label>30</label><mixed-citation publication-type="book" id="gch270123-cit-0030">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dikilitas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Simsek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Roychoudhury</surname>
+</string-name>, “<part-title>Modulation of Abiotic Stress Tolerance through Hydrogen Peroxide</part-title>,” <source>Protective Chemical Agents in the Amelioration of Plant Abiotic Stress: Biochemical and Molecular Perspectives</source>, <edition>1st ed.</edition>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Roychoudhury</surname>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>D. K.</given-names>
+<surname>Tripathi</surname>
+</string-name>
+</person-group>, eds. (<publisher-name>Wiley</publisher-name>, <year>2020</year>), pp. <fpage>147</fpage>–<lpage>173</lpage>, <pub-id pub-id-type="doi">10.1002/9781119552154.ch7</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="gch270123-cit-0031">
+<string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Hossain</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bhattacharjee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐M.</given-names>
+<surname>Armin</surname>
+</string-name>, et al., “<article-title>Hydrogen Peroxide Priming Modulates Abiotic Oxidative Stress Tolerance: Insights from ROS Detoxification and Scavenging</article-title>,” <source>Frontiers in Plant Science</source>
+<volume>6</volume> (<year>2015</year>), <pub-id pub-id-type="doi">10.3389/fpls.2015.00420</pub-id>.<pub-id pub-id-type="pmcid">PMC4468828</pub-id><pub-id pub-id-type="pmid">26136756</pub-id></mixed-citation></ref><ref id="gch270123-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="gch270123-cit-0032">
+<string-name name-style="western">
+<given-names>M. K.</given-names>
+<surname>Qureshi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Gawronski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Munir</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Jindal</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Kerchev</surname>
+</string-name>, “<article-title>Hydrogen Peroxide‐induced Stress Acclimation in Plants</article-title>,” <source>Cellular and Molecular Life Sciences</source>
+<volume>79</volume>, no. <issue>2</issue> (<year>2022</year>): <fpage>129</fpage>, <pub-id pub-id-type="doi">10.1007/s00018-022-04156-x</pub-id>.<pub-id pub-id-type="pmid">35141765</pub-id>
+<pub-id pub-id-type="pmcid">PMC11073338</pub-id></mixed-citation></ref><ref id="gch270123-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="gch270123-cit-0033">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Milan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bernardini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bertolini</surname>
+</string-name>, et al., “<article-title>Multidisciplinary Long‐term Survey of Manila Clam Grown in Farming Sites Subjected to Different Environmental Conditions</article-title>,” <source>Science of The Total Environment</source>
+<volume>863</volume> (<year>2023</year>): <elocation-id>160796</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.160796</pub-id>.<pub-id pub-id-type="pmid">36528093</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="gch270123-cit-0034">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gvozdenović</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mandić</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Peraš</surname>
+</string-name>, “<article-title>Morphometry and Condition Index in Mediterranean Mussel (Mytilus galloprovincialis Lamarck, 1819) from Boka Kotorska Bay (Montenegro, Southeast Adriatic Sea)</article-title>,” <source>Studia Marina</source>
+<volume>33</volume> (<year>2020</year>): <fpage>15</fpage>–<lpage>26</lpage>, <pub-id pub-id-type="doi">10.5281/ZENODO.4314146</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="gch270123-cit-0035">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name> and <string-name name-style="western">
+<given-names>C. N.</given-names>
+<surname>Dewey</surname>
+</string-name>, “<article-title>RSEM: Accurate Transcript Quantification from RNA‐Seq Data with or without a Reference Genome</article-title>,” <source>BMC Bioinformatics</source>
+<volume>12</volume>, no. <issue>1</issue> (<year>2011</year>): <elocation-id>323</elocation-id>, <pub-id pub-id-type="doi">10.1186/1471-2105-12-323</pub-id>.<pub-id pub-id-type="pmid">21816040</pub-id>
+<pub-id pub-id-type="pmcid">PMC3163565</pub-id></mixed-citation></ref><ref id="gch270123-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="gch270123-cit-0036">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. T. L.</given-names>
+<surname>Lun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Baldoni</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G. K.</given-names>
+<surname>Smyth</surname>
+</string-name>, “<article-title>edgeR v4: Powerful Differential Analysis of Sequencing Data with Expanded Functionality and Improved Support for Small Counts and Larger Datasets</article-title>,” <source>Nucleic Acids Research</source>
+<volume>53</volume>, no. <issue>2</issue> (<year>2025</year>): <elocation-id>gkaf018</elocation-id>, <pub-id pub-id-type="doi">10.1093/nar/gkaf018</pub-id>.<pub-id pub-id-type="pmid">39844453</pub-id>
+<pub-id pub-id-type="pmcid">PMC11754124</pub-id></mixed-citation></ref><ref id="gch270123-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="gch270123-cit-0037">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Xu</surname>
+</string-name>, et al., “<article-title>clusterProfiler 4.0: A Universal Enrichment Tool for Interpreting Omics Data</article-title>,” <source>The Innovation</source>
+<volume>2</volume>, no. <issue>3</issue> (<year>2021</year>): <elocation-id>100141</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.xinn.2021.100141</pub-id>.<pub-id pub-id-type="pmid">34557778</pub-id>
+<pub-id pub-id-type="pmcid">PMC8454663</pub-id></mixed-citation></ref><ref id="gch270123-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="gch270123-cit-0038">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Subramanian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Tamayo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. K.</given-names>
+<surname>Mootha</surname>
+</string-name>, et al., “<article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>,” <article-title>Proceedings of the National Academy of Sciences of the United States of America</article-title>, <volume>102</volume>, no. <issue>43</issue> (<year>2005</year>): <elocation-id>1554515550</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0506580102</pub-id><pub-id pub-id-type="pmcid">PMC1239896</pub-id><pub-id pub-id-type="pmid">16199517</pub-id></mixed-citation></ref><ref id="gch270123-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="gch270123-cit-0039">
+<string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>McMurdie</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Holmes</surname>
+</string-name>, “<article-title>phyloseq: an R Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data</article-title>,” <source>PLoS ONE</source>
+<volume>8</volume>, no. <issue>4</issue> (<year>2013</year>): <elocation-id>61217</elocation-id>, <pub-id pub-id-type="doi">10.1371/journal.pone.0061217</pub-id>.<pub-id pub-id-type="pmcid">PMC3632530</pub-id><pub-id pub-id-type="pmid">23630581</pub-id></mixed-citation></ref><ref id="gch270123-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="gch270123-cit-0040">
+<string-name name-style="western">
+<given-names>M. I.</given-names>
+<surname>Love</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Huber</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Anders</surname>
+</string-name>, “<article-title>Moderated Estimation of Fold Change and Dispersion for RNA‐seq Data with DESeq2</article-title>,” <source>Genome Biology</source>
+<volume>15</volume>, no. <issue>12</issue> (<year>2014</year>): <fpage>550</fpage>, <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>.<pub-id pub-id-type="pmid">25516281</pub-id>
+<pub-id pub-id-type="pmcid">PMC4302049</pub-id></mixed-citation></ref><ref id="gch270123-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="gch270123-cit-0041">
+<string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Baek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐J.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐S.</given-names>
+<surname>Choi</surname>
+</string-name>, et al., “<article-title>Physiological Disturbance of the Manila Clam, Ruditapes Philippinarum, by Altered Environmental Conditions in a Tidal Flat on the West Coast of Korea</article-title>,” <source>Marine Pollution Bulletin</source>
+<volume>78</volume>, no. <issue>1–2</issue> (<year>2014</year>): <fpage>137</fpage>–<lpage>145</lpage>, <pub-id pub-id-type="doi">10.1016/j.marpolbul.2013.10.050</pub-id>.<pub-id pub-id-type="pmid">24295594</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="gch270123-cit-0042">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Blaise</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Gagné</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Burgeot</surname>
+</string-name>, “<article-title>Three Simple Biomarkers Useful in Conducting Water Quality Assessments with Bivalve Mollusks</article-title>,” <source>Environmental Science and Pollution Research</source>
+<volume>24</volume>, no. <issue>36</issue> (<year>2017</year>): <fpage>27662</fpage>–<lpage>27669</lpage>, <pub-id pub-id-type="doi">10.1007/s11356-016-6908-6</pub-id>.<pub-id pub-id-type="pmid">27230145</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="gch270123-cit-0043">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Hasegawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sawaguchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Unuma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Onitsuka</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hamaguchi</surname>
+</string-name>, “<article-title>Variation in Manila Clam (<italic toggle="yes">Ruditapes philippinarum</italic>) Fecundity in Eastern Hokkaido, Japan</article-title>,” <source>Journal of Shellfish Research</source>
+<volume>33</volume>, no. <issue>3</issue> (<year>2014</year>): <fpage>739</fpage>–<lpage>746</lpage>, <pub-id pub-id-type="doi">10.2983/035.033.0308</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="gch270123-cit-0044">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Wu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, “<article-title>The Impact of Marine Heatwaves and Hypoxia on Behavior and Physiology of Manila Clam Ruditapes Philippinarum</article-title>,” <source>Marine Pollution Bulletin</source>
+<volume>219</volume> (<year>2025</year>): <elocation-id>118327</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.marpolbul.2025.118327</pub-id>.<pub-id pub-id-type="pmid">40561619</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="gch270123-cit-0045">
+<string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Masanja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhao</surname>
+</string-name>, “<article-title>Behavioral Responses of Clams to Recurrent Marine Heatwaves</article-title>,” <source>Marine Pollution Bulletin</source>
+<volume>210</volume> (<year>2025</year>): <elocation-id>117362</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.marpolbul.2024.117362</pub-id>.<pub-id pub-id-type="pmid">39616904</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="gch270123-cit-0046">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhou</surname>
+</string-name>, et al., “<article-title>Clam Age Constrains Thermal Tolerance: Insights from Burrowing Behavior and Transcriptomics</article-title>,” <source>Comparative Biochemistry and Physiology Part D: Genomics and Proteomics</source>
+<volume>55</volume> (<year>2025</year>): <elocation-id>101479</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.cbd.2025.101479</pub-id>.<pub-id pub-id-type="pmid">40088543</pub-id></mixed-citation></ref><ref id="gch270123-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="gch270123-cit-0047">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Storey</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Dong</surname>
+</string-name>, “<article-title>Adaptations to the Mudflat: Insights from Physiological and Transcriptional Responses to Thermal Stress in a Burrowing Bivalve Sinonovacula Constricta</article-title>,” <source>Science of The Total Environment</source>
+<volume>710</volume> (<year>2020</year>): <elocation-id>136280</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2019.136280</pub-id>.<pub-id pub-id-type="pmid">31911257</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="gch270123-cit-0048">
+<string-name name-style="western">
+<given-names>R. W.</given-names>
+<surname>Chapman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mancia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Beal</surname>
+</string-name>, et al., “<article-title>The Transcriptomic Responses of the Eastern Oyster, <italic toggle="yes">Crassostrea Virginica</italic>, to Environmental Conditions</article-title>,” <source>Molecular Ecology</source>
+<volume>20</volume>, no. <issue>7</issue> (<year>2011</year>): <fpage>1431</fpage>–<lpage>1449</lpage>, <pub-id pub-id-type="doi">10.1111/j.1365-294X.2011.05018.x</pub-id>.<pub-id pub-id-type="pmid">21426432</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="gch270123-cit-0049">
+<string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Jeffries</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Teffer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Michaleski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Bernier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Heath</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Miller</surname>
+</string-name>, “<article-title>The Use of Non‐lethal Sampling for Transcriptomics to Assess the Physiological Status of Wild Fishes</article-title>,” <source>Comparative Biochemistry and Physiology Part B: Biochemistry and Molecular Biology</source>
+<volume>256</volume> (<year>2021</year>): <elocation-id>110629</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.cbpb.2021.110629</pub-id>.<pub-id pub-id-type="pmid">34058376</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="gch270123-cit-0050">
+<string-name name-style="western">
+<given-names>B. L.</given-names>
+<surname>Lockwood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Connor</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. Y.</given-names>
+<surname>Gracey</surname>
+</string-name>, “<article-title>The Environmentally Tuned Transcriptomes of <italic toggle="yes">Mytilus</italic> Mussels</article-title>,” <source>Journal of Experimental Biology</source>
+<volume>218</volume>, no. <issue>12</issue> (<year>2015</year>): <fpage>1822</fpage>–<lpage>1833</lpage>, <pub-id pub-id-type="doi">10.1242/jeb.118190</pub-id>.<pub-id pub-id-type="pmid">26085660</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="gch270123-cit-0051">
+<string-name name-style="western">
+<given-names>J. S. C.</given-names>
+<surname>Arthur</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Ley</surname>
+</string-name>, “<article-title>Mitogen‐activated Protein Kinases in Innate Immunity</article-title>,” <source>Nature Reviews Immunology</source>
+<volume>13</volume>, no. <issue>9</issue> (<year>2013</year>): <fpage>679</fpage>–<lpage>692</lpage>, <pub-id pub-id-type="doi">10.1038/nri3495</pub-id>.<pub-id pub-id-type="pmid">23954936</pub-id></mixed-citation></ref><ref id="gch270123-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="gch270123-cit-0052">
+<string-name name-style="western">
+<given-names>Y. T.</given-names>
+<surname>Ip</surname>
+</string-name> and <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Davis</surname>
+</string-name>, “<article-title>Signal Transduction by the c‐Jun N‐terminal Kinase (JNK) — From Inflammation to Development</article-title>,” <source>Current Opinion in Cell Biology</source>
+<volume>10</volume>, no. <issue>2</issue> (<year>1998</year>): <fpage>205</fpage>–<lpage>219</lpage>, <pub-id pub-id-type="doi">10.1016/S0955-0674(98)80143-9</pub-id>.<pub-id pub-id-type="pmid">9561845</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="gch270123-cit-0053">
+<string-name name-style="western">
+<given-names>J. H. T. M.</given-names>
+<surname>Fabri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. P.</given-names>
+<surname>de Sá</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Malavazi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Del Poeta</surname>
+</string-name>, “<article-title>The Dynamics and Role of Sphingolipids in Eukaryotic Organisms Upon Thermal Adaptation</article-title>,” <source>Progress in Lipid Research</source>
+<volume>80</volume> (<year>2020</year>): <elocation-id>101063</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.plipres.2020.101063</pub-id>.<pub-id pub-id-type="pmid">32888959</pub-id>
+<pub-id pub-id-type="pmcid">PMC7674228</pub-id></mixed-citation></ref><ref id="gch270123-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="gch270123-cit-0054">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Horváth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Glatz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Nakamoto</surname>
+</string-name>, et al., “<article-title>Heat Shock Response in Photosynthetic Organisms: Membrane and Lipid Connections</article-title>,” <source>Progress in Lipid Research</source>
+<volume>51</volume>, no. <issue>3</issue> (<year>2012</year>): <fpage>208</fpage>–<lpage>220</lpage>, <pub-id pub-id-type="doi">10.1016/j.plipres.2012.02.002</pub-id>.<pub-id pub-id-type="pmid">22484828</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="gch270123-cit-0055">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Huby</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Napier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Baillieul</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. V.</given-names>
+<surname>Michaelson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dhondt‐Cordelier</surname>
+</string-name>, “<article-title>Sphingolipids: towards an Integrated View of Metabolism during the Plant Stress Response</article-title>,” <source>New Phytologist</source>
+<volume>225</volume>, no. <issue>2</issue> (<year>2020</year>): <fpage>659</fpage>–<lpage>670</lpage>, <pub-id pub-id-type="doi">10.1111/nph.15997</pub-id>.<pub-id pub-id-type="pmid">31211869</pub-id>
+<pub-id pub-id-type="pmcid">PMC6973233</pub-id></mixed-citation></ref><ref id="gch270123-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="gch270123-cit-0056">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Kotsyuba</surname>
+</string-name> and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Dyachuk</surname>
+</string-name>, “<article-title>Role of the Neuroendocrine System of Marine Bivalves in Their Response to Hypoxia</article-title>,” <source>International Journal of Molecular Sciences</source>, <volume>24</volume>, no. <issue>2</issue> (<year>2023</year>): <fpage>1202</fpage>, <pub-id pub-id-type="doi">10.3390/ijms24021202</pub-id>.<pub-id pub-id-type="pmid">36674710</pub-id>
+<pub-id pub-id-type="pmcid">PMC9865615</pub-id></mixed-citation></ref><ref id="gch270123-bib-0057"><label>57</label><mixed-citation publication-type="book" id="gch270123-cit-0057">
+<string-name name-style="western">
+<given-names>N. N.</given-names>
+<surname>Fokina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. R.</given-names>
+<surname>Ruokolainen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. N.</given-names>
+<surname>Nemova</surname>
+</string-name>, “<part-title>Lipid Composition Modifications in the Blue Mussels (Mytilus edulis L.) from the White Sea</part-title>,” <source>Organismal and Molecular Malacology</source>, ed. <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ray</surname>
+</string-name>
+</person-group>, (<publisher-name>InTech</publisher-name>, <year>2017</year>), <pub-id pub-id-type="doi">10.5772/67811</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="gch270123-cit-0058">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Pernet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Tremblay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Comeau</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Guderley</surname>
+</string-name>, “<article-title>Temperature Adaptation in Two Bivalve Species from Different Thermal Habitats: Energetics and Remodelling of Membrane Lipids</article-title>,” <source>Journal of Experimental Biology</source>
+<volume>210</volume>, no. <issue>17</issue> (<year>2007</year>): <fpage>2999</fpage>–<lpage>3014</lpage>, <pub-id pub-id-type="doi">10.1242/jeb.006007</pub-id>.<pub-id pub-id-type="pmid">17704075</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="gch270123-cit-0059">
+<string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Sharifi</surname>
+</string-name>, et al., “<article-title>Sulforaphane Reduces SAMHD1 Phosphorylation To Protect Macrophages from HIV‐1 Infection</article-title>,” <source>Journal of Virology</source>
+<volume>96</volume>, no. <issue>23</issue> (<year>2022</year>): <elocation-id>e01187</elocation-id>, <pub-id pub-id-type="doi">10.1128/jvi.01187-22</pub-id>.<pub-id pub-id-type="pmid">36377871</pub-id>
+<pub-id pub-id-type="pmcid">PMC9749475</pub-id></mixed-citation></ref><ref id="gch270123-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="gch270123-cit-0060">
+<string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Marvin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Reinking</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Pardee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Krause</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. N.</given-names>
+<surname>Burstyn</surname>
+</string-name>, “<article-title>Nuclear Receptors <italic toggle="yes">Homo Sapiens</italic> Rev‐erbβ and <italic toggle="yes">Drosophila Melanogaster</italic> E75 Are Thiolate‐Ligated Heme Proteins Which Undergo Redox‐Mediated Ligand Switching and Bind CO and NO</article-title>,” <source>Biochemistry</source>
+<volume>48</volume>, no. <issue>29</issue> (<year>2009</year>): <fpage>7056</fpage>–<lpage>7071</lpage>, <pub-id pub-id-type="doi">10.1021/bi900697c</pub-id>.<pub-id pub-id-type="pmid">19405475</pub-id>
+<pub-id pub-id-type="pmcid">PMC2849663</pub-id></mixed-citation></ref><ref id="gch270123-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="gch270123-cit-0061">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Reinking</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. M. S.</given-names>
+<surname>Lam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Pardee</surname>
+</string-name>, et al., “<article-title>The Drosophila Nuclear Receptor E75 Contains Heme and Is Gas Responsive</article-title>,” <source>Cell</source>
+<volume>122</volume>, no. <issue>2</issue> (<year>2005</year>): <fpage>195</fpage>–<lpage>207</lpage>, <pub-id pub-id-type="doi">10.1016/j.cell.2005.07.005</pub-id>.<pub-id pub-id-type="pmid">16051145</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="gch270123-cit-0062">
+<string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Tuszynski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>Carpenter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Huzil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Malinski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Luchko</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>R. F.</given-names>
+<surname>Luduena</surname>
+</string-name>, “<article-title>The evolution of the structure of tubulin and its potential consequences for the role and function of microtubules in cells and embryos</article-title>,” <source>International Journal of Developmental Biology</source>, <volume>50</volume>, no. <issue>23</issue>) (<year>2006</year>): <elocation-id>341358</elocation-id>, <pub-id pub-id-type="doi">10.1387/ijdb.052063jt</pub-id>.<pub-id pub-id-type="pmid">16479502</pub-id></mixed-citation></ref><ref id="gch270123-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="gch270123-cit-0063">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Ramirez</surname>
+</string-name> and <string-name name-style="western">
+<given-names>L. Y.</given-names>
+<surname>Sakai</surname>
+</string-name>, “<article-title>Biogenesis and function of fibrillin assemblies</article-title>,” <source>Cell and Tissue Research</source>, <volume>339</volume>, no. <issue>1</issue> (<year>2010</year>): <fpage>7182</fpage>, <pub-id pub-id-type="doi">10.1007/s00441-009-0822-x</pub-id>.<pub-id pub-id-type="pmcid">PMC2819175</pub-id><pub-id pub-id-type="pmid">19513754</pub-id></mixed-citation></ref><ref id="gch270123-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="gch270123-cit-0064">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Liu</surname>
+</string-name>, et al., “<article-title>A Systematical Survey on the TRP Channels Provides New Insight into Its Functional Diversity in Zhikong Scallop (Chlamys farreri)</article-title>,” <source>International Journal of Molecular Sciences</source>, <volume>22</volume>, no. <issue>20</issue>) (<year>2021</year>): <elocation-id>11075</elocation-id>, <pub-id pub-id-type="doi">10.3390/ijms222011075</pub-id>.<pub-id pub-id-type="pmid">34681735</pub-id>
+<pub-id pub-id-type="pmcid">PMC8539334</pub-id></mixed-citation></ref><ref id="gch270123-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="gch270123-cit-0065">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Nie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Huo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yan&gt;</surname>
+</string-name>, “<article-title>Heat hardeningenhances the energy metabolism activity and oxidative defense ability of Manilaclam Ruditapes philippinarum under different thermal stress</article-title>,” <source>Aquaculture</source>
+<volume>595</volume> (<year>2025</year>): <elocation-id>741511</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.aquaculture.2024.741511</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="gch270123-cit-0066">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Gao</surname>
+</string-name>, et al., “<article-title>Transcriptomics and Metabolomics Reveal the Molecular and Metabolic Adaptation to Heat Stress in Manila Clam Ruditapes Philippinarum</article-title>,” <source>Frontiers in Marine Science</source>
+<volume>10</volume> (<year>2023</year>): <elocation-id>1204598</elocation-id>, <pub-id pub-id-type="doi">10.3389/fmars.2023.1204598</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="gch270123-cit-0067">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lv</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Mu</surname>
+</string-name>, “<article-title>Antibacterial Activities and Mechanisms of Action of a Defensin from manila clam Ruditapes philippinarum</article-title>,” <source>Fish &amp; Shellfish Immunology</source>
+<volume>103</volume> (<year>2020</year>): <fpage>266</fpage>–<lpage>276</lpage>, <pub-id pub-id-type="doi">10.1016/j.fsi.2020.05.025</pub-id>.<pub-id pub-id-type="pmid">32439511</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="gch270123-cit-0068">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Wang</surname>
+</string-name>, et al., “<article-title>A Defensin‐Like Antimicrobial Peptide from the Manila Clam Ruditapes philippinarum: Investigation of the Antibacterial Activities and Mode of Action</article-title>,” <source>Fish &amp; Shellfish Immunology</source>
+<volume>80</volume> (<year>2018</year>): <fpage>274</fpage>–<lpage>280</lpage>, <pub-id pub-id-type="doi">10.1016/j.fsi.2018.06.019</pub-id>.<pub-id pub-id-type="pmid">29902560</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="gch270123-cit-0069">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Cáceres</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Necakov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schwartz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kimber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. J. H.</given-names>
+<surname>Roberts</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Krause</surname>
+</string-name>, “<article-title>Nitric Oxide Coordinates Metabolism, Growth, and Development via the Nuclear Receptor E75</article-title>,” <source>Genes &amp; Development</source>
+<volume>25</volume>, no. <issue>14</issue> (<year>2011</year>): <fpage>1476</fpage>–<lpage>1485</lpage>, <pub-id pub-id-type="doi">10.1101/gad.2064111</pub-id>.<pub-id pub-id-type="pmid">21715559</pub-id>
+<pub-id pub-id-type="pmcid">PMC3143938</pub-id></mixed-citation></ref><ref id="gch270123-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="gch270123-cit-0070">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Pickering</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Staab</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tower</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. S.</given-names>
+<surname>Sieburth</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. J. A.</given-names>
+<surname>Davies</surname>
+</string-name>, “<article-title>A Conserved Role for the 20S Proteasome and <italic toggle="yes">Nrf2</italic> Transcription Factor in Oxidative‐stress Adaptation in Mammals, <italic toggle="yes">C. elegans</italic> and <italic toggle="yes">D. melanogaster</italic>
+</article-title>,” <source>Journal of Experimental Biology</source>
+<volume>216</volume> (<year>2012</year>): <elocation-id>jeb074757</elocation-id>, <pub-id pub-id-type="doi">10.1242/jeb.074757</pub-id>.<pub-id pub-id-type="pmcid">PMC3561776</pub-id><pub-id pub-id-type="pmid">23038734</pub-id></mixed-citation></ref><ref id="gch270123-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="gch270123-cit-0071">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Dubrez‐Daloz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Dupoux</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cartier</surname>
+</string-name>, “<article-title>IAPS: More than Just Inhibitors of Apoptosis Proteins</article-title>,” <source>Cell Cycle</source>
+<volume>7</volume>, no. <issue>8</issue> (<year>2008</year>): <fpage>1036</fpage>–<lpage>1046</lpage>, <pub-id pub-id-type="doi">10.4161/cc.7.8.5783</pub-id>.<pub-id pub-id-type="pmid">18414036</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="gch270123-cit-0072">
+<string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Huh</surname>
+</string-name>, et al., “<article-title>The Drosophila Inhibitor of Apoptosis (IAP) DIAP2 Is Dispensable for Cell Survival, Required for the Innate Immune Response to Gram‐negative Bacterial Infection, and Can Be Negatively Regulated by the Reaper/Hid/Grim Family of IAP‐binding Apoptosis Inducers</article-title>,” <source>Journal of Biological Chemistry</source>
+<volume>282</volume>, no. <issue>3</issue> (<year>2007</year>): <fpage>2056</fpage>–<lpage>2068</lpage>, <pub-id pub-id-type="doi">10.1074/jbc.M608051200</pub-id>.<pub-id pub-id-type="pmid">17068333</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="gch270123-cit-0073">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Milan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Carraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Fariselli</surname>
+</string-name>, et al., “<article-title>Microbiota and Environmental Stress: How Pollution Affects Microbial Communities in Manila Clams</article-title>,” <source>Aquatic Toxicology</source>
+<volume>194</volume> (<year>2018</year>): <fpage>195</fpage>–<lpage>207</lpage>, <pub-id pub-id-type="doi">10.1016/j.aquatox.2017.11.019</pub-id>.<pub-id pub-id-type="pmid">29202271</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="gch270123-cit-0074">
+<string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Pierce</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Ward</surname>
+</string-name>, “<article-title>Microbial Ecology of the Bivalvia, with an Emphasis on the Family Ostreidae</article-title>,” <source>Journal of Shellfish Research</source>
+<volume>37</volume>, no. <issue>4</issue> (<year>2018</year>): <fpage>793</fpage>–<lpage>806</lpage>, <pub-id pub-id-type="doi">10.2983/035.037.0410</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="gch270123-cit-0075">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Duan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Xiong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Dong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, “<article-title>Toxic Effects of Ammonia and Thermal Stress on the Intestinal Microbiota and Transcriptomic and Metabolomic Responses of Litopenaeus vannamei</article-title>,” <source>Science of The Total Environment</source>
+<volume>754</volume> (<year>2021</year>): <elocation-id>141867</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.scitotenv.2020.141867</pub-id>.<pub-id pub-id-type="pmid">32898779</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="gch270123-cit-0076">
+<string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Suzzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Stat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. F.</given-names>
+<surname>Gaston</surname>
+</string-name>, et al., “<article-title>Elevated Estuary Water Temperature Drives Fish Gut Dysbiosis and Increased Loads of Pathogenic Vibrionaceae</article-title>,” <source>Environmental Research</source>
+<volume>219</volume> (<year>2023</year>): <elocation-id>115144</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.envres.2022.115144</pub-id>.<pub-id pub-id-type="pmid">36584839</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="gch270123-cit-0077">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Beaz‐Hidalgo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Balboa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Romalde</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Figueras</surname>
+</string-name>, “<article-title>Diversity and Pathogenecity of <italic toggle="yes">Vibrio</italic> Species in Cultured Bivalve Molluscs</article-title>,” <source>Environmental Microbiology Reports</source>
+<volume>2</volume>, no. <issue>1</issue> (<year>2010</year>): <fpage>34</fpage>–<lpage>43</lpage>, <pub-id pub-id-type="doi">10.1111/j.1758-2229.2010.00135.x</pub-id>.<pub-id pub-id-type="pmid">23765996</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0078"><label>78</label><mixed-citation publication-type="journal" id="gch270123-cit-0078">
+<string-name name-style="western">
+<given-names>S.‐Y.</given-names>
+<surname>Tseng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐H.</given-names>
+<surname>Lee</surname>
+</string-name>, et al., “<article-title>The Pathogenicity of <italic toggle="yes">Shewanella Algae</italic> and Ability to Tolerate a Wide Range of Temperatures and Salinities</article-title>,” <source>Canadian Journal of Infectious Diseases and Medical Microbiology</source>
+<volume>2018</volume> (<year>2018</year>): <fpage>1</fpage>–<lpage>9</lpage>, <pub-id pub-id-type="doi">10.1155/2018/6976897</pub-id>.<pub-id pub-id-type="pmcid">PMC6180972</pub-id><pub-id pub-id-type="pmid">30363620</pub-id></mixed-citation></ref><ref id="gch270123-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="gch270123-cit-0079">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Azizan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Venter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, et al., “<article-title>Interactive Effects of Elevated Temperature and Photobacterium Swingsii Infection on the Survival and Immune Response of Marine Mussels (Perna canaliculus): a Summer Mortality Scenario</article-title>,” <source>Marine Environmental Research</source>
+<volume>196</volume> (<year>2024</year>): <elocation-id>106392</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.marenvres.2024.106392</pub-id>.<pub-id pub-id-type="pmid">38364448</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="gch270123-cit-0080">
+<string-name name-style="western">
+<given-names>E. A. V.</given-names>
+<surname>Burioli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Varello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Trancart</surname>
+</string-name>, et al., “<article-title>First Description of a Mortality Event in Adult Pacific Oysters in Italy Associated with Infection by a <italic toggle="yes">Tenacibaculum Soleae</italic> Strain</article-title>,” <source>Journal of Fish Diseases</source>
+<volume>41</volume>, no. <issue>2</issue> (<year>2018</year>): <fpage>215</fpage>–<lpage>221</lpage>, <pub-id pub-id-type="doi">10.1111/jfd.12698</pub-id>.<pub-id pub-id-type="pmid">28836671</pub-id>
+</mixed-citation></ref><ref id="gch270123-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="gch270123-cit-0081">
+<string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Nowlan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Lumsden</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Russell</surname>
+</string-name>, “<article-title>Advancements in Characterizing Tenacibaculum Infections in Canada</article-title>,” <source>Pathogens</source>
+<volume>9</volume>, no. <issue>12</issue> (<year>2020</year>): <elocation-id>1029</elocation-id>, <pub-id pub-id-type="doi">10.3390/pathogens9121029</pub-id>.<pub-id pub-id-type="pmid">33302445</pub-id>
+<pub-id pub-id-type="pmcid">PMC7763822</pub-id></mixed-citation></ref><ref id="gch270123-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="gch270123-cit-0082">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Gerpe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lasa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lema</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Balboa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Romalde</surname>
+</string-name>, “<article-title>Study of the Microbiota Associated to Ruditapes Decussatus and Ruditapes Philippinarum Clams by 16S rRNA Metabarcoding, Dilution to Extinction, and Culture‐based Techniques</article-title>,” <source>Hydrobiologia</source>
+<volume>850</volume>, no. <issue>17</issue> (<year>2023</year>): <fpage>3763</fpage>–<lpage>3775</lpage>, <pub-id pub-id-type="doi">10.1007/s10750-022-04920-x</pub-id>.</mixed-citation></ref><ref id="gch270123-bib-0083"><label>83</label><mixed-citation publication-type="journal" id="gch270123-cit-0083">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Akter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Wos‐Oxley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Catalano</surname>
+</string-name>, et al., “<article-title>Host Species and Environment Shape the Gut Microbiota of Cohabiting Marine Bivalves</article-title>,” <source>Microbial Ecology</source>
+<volume>86</volume>, no. <issue>3</issue> (<year>2023</year>): <fpage>1755</fpage>–<lpage>1772</lpage>, <pub-id pub-id-type="doi">10.1007/s00248-023-02192-z</pub-id>.<pub-id pub-id-type="pmid">36811710</pub-id>
+<pub-id pub-id-type="pmcid">PMC10497454</pub-id></mixed-citation></ref></ref-list></back></article>

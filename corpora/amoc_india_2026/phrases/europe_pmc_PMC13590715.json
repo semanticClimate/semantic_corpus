@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13590715",
+  "phrases": [
+    {
+      "phrase": "sichuan province",
+      "display": "Sichuan Province",
+      "score": 1.2
+    },
+    {
+      "phrase": "nanjing qinfeng zhongcheng biomass new materials co",
+      "display": "Nanjing Qinfeng Zhongcheng Biomass New Materials Co",
+      "score": 1.1
+    },
+    {
+      "phrase": "ruixiang polymer materials trade office",
+      "display": "Ruixiang Polymer Materials Trade Office",
+      "score": 1.1
+    },
+    {
+      "phrase": "shanghai personal biotechnology co",
+      "display": "Shanghai Personal Biotechnology Co",
+      "score": 1.1
+    },
+    {
+      "phrase": "sphingomonas and lysobacter",
+      "display": "Sphingomonas and Lysobacter",
+      "score": 1.1
+    },
+    {
+      "phrase": "quantitative insights",
+      "display": "Quantitative Insights",
+      "score": 1.1
+    },
+    {
+      "phrase": "schimel and bennett",
+      "display": "Schimel and Bennett",
+      "score": 1.1
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.16
+    },
+    {
+      "phrase": "tn",
+      "display": "TN",
+      "score": 1.14
+    },
+    {
+      "phrase": "anova",
+      "display": "ANOVA",
+      "score": 1.1
+    },
+    {
+      "phrase": "biochar",
+      "score": 0.0616,
+      "display": "Biochar"
+    },
+    {
+      "phrase": "microplastics",
+      "score": 0.0565,
+      "display": "Microplastics"
+    },
+    {
+      "phrase": "microplastic",
+      "score": 0.0526,
+      "display": "microplastic"
+    },
+    {
+      "phrase": "microplastics biochar",
+      "score": 0.0514,
+      "display": "microplastics biochar"
+    },
+    {
+      "phrase": "biochar microplastics",
+      "score": 0.048,
+      "display": "biochar microplastics"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

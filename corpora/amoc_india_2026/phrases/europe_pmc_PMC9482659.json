@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC9482659",
+  "phrases": [
+    {
+      "phrase": "global biodiversity information facility",
+      "display": "Global Biodiversity Information Facility",
+      "score": 1.2
+    },
+    {
+      "phrase": "brazil and australia",
+      "display": "Brazil and Australia",
+      "score": 1.2
+    },
+    {
+      "phrase": "colombia and china",
+      "display": "Colombia and China",
+      "score": 1.2
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.2
+    },
+    {
+      "phrase": "peer review file supplementary information description of additional supplementary files supplementary data",
+      "display": "Peer Review File Supplementary Information Description of Additional Supplementary Files Supplementary Data",
+      "score": 1.1
+    },
+    {
+      "phrase": "international union of conservation of nature",
+      "display": "International Union of Conservation of Nature",
+      "score": 1.1
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1
+    },
+    {
+      "phrase": "psh",
+      "display": "PSH",
+      "score": 1.56
+    },
+    {
+      "phrase": "rcp",
+      "display": "RCP",
+      "score": 1.56
+    },
+    {
+      "phrase": "sr",
+      "display": "SR",
+      "score": 1.34
+    },
+    {
+      "phrase": "species",
+      "score": 0.0451,
+      "display": "Species"
+    },
+    {
+      "phrase": "melting",
+      "score": 0.0389,
+      "display": "Melting"
+    },
+    {
+      "phrase": "species richness",
+      "score": 0.0379,
+      "display": "Species richness"
+    },
+    {
+      "phrase": "countries",
+      "score": 0.0379,
+      "display": "countries"
+    },
+    {
+      "phrase": "megadiverse",
+      "score": 0.0378,
+      "display": "megadiverse"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

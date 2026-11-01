@@ -20,11 +20,26 @@ def create_parser() -> argparse.ArgumentParser:
         prog="semantic_corpus",
         description="Semantic Corpus - Creation and management of personal scientific corpora",
         formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "pygetpapers migration:\n"
+            "  semantic_corpus --pygetpapers -q 'AMOC AND India' -k 50 "
+            "-o temp/queries/amoc_india_2026 -x\n"
+            "  (translates pygetpapers flags to search/download; see --pygetpapers -h)"
+        ),
     )
 
     parser.add_argument("--config", "-c", type=str, help="Configuration file path")
     parser.add_argument(
         "--verbose", "-v", action="store_true", help="Enable verbose output"
+    )
+    parser.add_argument(
+        "--pygetpapers",
+        nargs=argparse.REMAINDER,
+        metavar="ARGS",
+        help=(
+            "Translate a pygetpapers-style argument list and run search/download. "
+            "Example: semantic_corpus --pygetpapers -q 'AMOC AND India' -k 50 -o out -x"
+        ),
     )
 
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
@@ -200,6 +215,9 @@ def search_papers_command(args) -> None:
 
 def download_papers_command(args) -> None:
     """Handle download papers command."""
+    from semantic_corpus.repositories._ids import short_display_id
+    from semantic_corpus.utils import print_id_list
+
     try:
         repo = RepositoryFactory.get_repository(args.repository)
         # Use default output directory if not specified
@@ -208,25 +226,46 @@ def download_papers_command(args) -> None:
 
         # Search for papers
         results = repo.search_papers(query=args.query, limit=args.limit)
-        print(f"Found {len(results)} papers, starting download...")
+        print(f"Found {len(results)} papers, starting download...", file=sys.stderr)
 
-        downloaded_count = 0
+        from semantic_corpus.repositories._ids import paper_documents_present
+
+        Path(output_dir, "documents").mkdir(parents=True, exist_ok=True)
+        downloaded_ids = []
+        skipped_ids = []
+        failed = []
         format_list = [f.strip() for f in args.formats.split(",")]
 
         for paper in results:
             paper_id = get_result_paper_id(paper)
             if not paper_id:
                 continue
+            label = short_display_id(paper) or short_display_id(paper_id)
 
             try:
+                if paper_documents_present(output_dir, paper_id, format_list):
+                    skipped_ids.append(label)
+                    continue
                 result = repo.download_paper(paper_id, output_dir, format_list)
                 if result["success"]:
-                    downloaded_count += 1
-                    print(f"Downloaded {paper_id}")
+                    downloaded_ids.append(label)
             except Exception as e:
-                print(f"Failed to download {paper_id}: {e}")
+                failed.append(f"{label or paper_id}: {e}")
 
-        print(f"Downloaded {downloaded_count} papers to {output_dir}")
+        if skipped_ids:
+            print("skip (present):", file=sys.stderr)
+            print_id_list(skipped_ids, file=sys.stderr)
+        if downloaded_ids:
+            print("downloaded:", file=sys.stderr)
+            print_id_list(downloaded_ids, file=sys.stderr)
+        print(
+            f"Got {len(downloaded_ids) + len(skipped_ids)} papers "
+            f"({len(downloaded_ids)} downloaded, {len(skipped_ids)} skipped) "
+            f"→ {output_dir}",
+            file=sys.stderr,
+        )
+        for item in failed:
+            print(f"Failed {item}", file=sys.stderr)
 
     except RepositoryError as e:
         print(f"Error downloading papers: {e.message}", file=sys.stderr)
@@ -356,6 +395,14 @@ def import_pdfs_command(args) -> None:
 
 def main() -> None:
     """Main CLI entry point."""
+    # Early path: pygetpapers translator (handles its own quoting / remainder args)
+    if "--pygetpapers" in sys.argv:
+        from semantic_corpus.cli_pygetpapers import run_pygetpapers_translation
+
+        idx = sys.argv.index("--pygetpapers")
+        remainder = sys.argv[idx + 1 :]
+        raise SystemExit(run_pygetpapers_translation(remainder))
+
     parser = create_parser()
 
     # Parse config file first if provided

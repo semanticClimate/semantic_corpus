@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12713726",
+  "phrases": [
+    {
+      "phrase": "great salt lake",
+      "display": "Great Salt Lake",
+      "score": 1.2
+    },
+    {
+      "phrase": "atacama desert",
+      "display": "Atacama Desert",
+      "score": 1.2
+    },
+    {
+      "phrase": "integrated microbial genomes and microbiomes",
+      "display": "Integrated Microbial Genomes and Microbiomes",
+      "score": 1.1
+    },
+    {
+      "phrase": "viral dark matter across diverse ecosystems",
+      "display": "Viral Dark Matter Across Diverse Ecosystems",
+      "score": 1.1
+    },
+    {
+      "phrase": "prokaryotic virus remote homologous groups",
+      "display": "Prokaryotic Virus Remote Homologous Groups",
+      "score": 1.1
+    },
+    {
+      "phrase": "virus orthologous groups database",
+      "display": "Virus Orthologous Groups Database",
+      "score": 1.1
+    },
+    {
+      "phrase": "big fantastic virus database",
+      "display": "Big Fantastic Virus Database",
+      "score": 1.1
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.42
+    },
+    {
+      "phrase": "rna",
+      "display": "RNA",
+      "score": 1.38
+    },
+    {
+      "phrase": "amgs",
+      "display": "AMGs",
+      "score": 1.22
+    },
+    {
+      "phrase": "viral",
+      "score": 0.05,
+      "display": "Viral"
+    },
+    {
+      "phrase": "viruses",
+      "score": 0.0437,
+      "display": "Viruses"
+    },
+    {
+      "phrase": "proteins",
+      "score": 0.0393,
+      "display": "proteins"
+    },
+    {
+      "phrase": "viral dark",
+      "score": 0.0386,
+      "display": "Viral Dark"
+    },
+    {
+      "phrase": "viral dark matter",
+      "score": 0.0386,
+      "display": "Viral Dark Matter"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

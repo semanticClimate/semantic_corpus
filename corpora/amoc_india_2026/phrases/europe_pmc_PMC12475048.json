@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12475048",
+  "phrases": [
+    {
+      "phrase": "honestly significant difference",
+      "display": "Honestly Significant Difference",
+      "score": 1.2
+    },
+    {
+      "phrase": "kanaya tea research station",
+      "display": "Kanaya Tea Research Station",
+      "score": 1.2
+    },
+    {
+      "phrase": "national center for biotechnology information",
+      "display": "National Center for Biotechnology Information",
+      "score": 1.1
+    },
+    {
+      "phrase": "institute of fruit tree and tea science",
+      "display": "Institute of Fruit Tree and Tea Science",
+      "score": 1.1
+    },
+    {
+      "phrase": "world reference base for soil resources",
+      "display": "World Reference Base for Soil Resources",
+      "score": 1.1
+    },
+    {
+      "phrase": "fluorescence in situ hybridization",
+      "display": "Fluorescence In Situ Hybridization",
+      "score": 1.1
+    },
+    {
+      "phrase": "basic local alignment search tool",
+      "display": "Basic Local Alignment Search Tool",
+      "score": 1.1
+    },
+    {
+      "phrase": "aob",
+      "display": "AOB",
+      "score": 3.24
+    },
+    {
+      "phrase": "aoa",
+      "display": "AOA",
+      "score": 1.6
+    },
+    {
+      "phrase": "nitrosospira",
+      "display": "Nitrosospira",
+      "score": 1.39
+    },
+    {
+      "phrase": "tea",
+      "score": 0.0452,
+      "display": "Tea"
+    },
+    {
+      "phrase": "tea field",
+      "score": 0.0393,
+      "display": "Tea field"
+    },
+    {
+      "phrase": "amoa",
+      "score": 0.0388,
+      "display": "AmoA"
+    },
+    {
+      "phrase": "ph",
+      "score": 0.0378,
+      "display": "pH"
+    },
+    {
+      "phrase": "isolates",
+      "score": 0.0374,
+      "display": "isolates"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

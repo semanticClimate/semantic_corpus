@@ -1,0 +1,50 @@
+{
+  "pmcid": "PMC12312086",
+  "pmid": "40686369",
+  "title": "Impacts of the 2023 Marine Heatwave in the Florida Keys: Detection and Analysis of a Mass Coral Bleaching Event Using Spaceborne Remote Sensing Imagery.",
+  "abstract": "Coral reefs are facing several stressors, such as increases in sea surface temperature, eutrophication, and hurricanes, resulting in reef-decline worldwide. In the Florida Keys, these stressors, especially elevated temperatures, have triggered widespread coral bleaching as well as a cascade of simultaneous negative impacts, such as increased disease, accelerated reef erosion, and severe ecosystem degradation. In the summer of 2023, the Florida Keys and the Caribbean experienced a mass bleaching event due to a record-breaking marine heatwave with ocean temperatures exceeding 38 °C. This study investigates whether remote sensing using Planet's SuperDove sensor could detect this mass coral bleaching event at Horseshoe Reef and Cheeca Rocks in the Florida Keys. We validated these data using several sources: NOAA photomosaic data, NASA airborne fluid lensing from two campaigns (before and during bleaching), and underwater orthomosaic data from July 2023. We were able to detect a signal change using the SuperDove sensor between healthy and bleached coral. Bleached corals have a higher reflectance in SuperDove's band 2 (492 nm) compared to healthy coral. The results of this study supports the use of Planet's SuperDove satellite imagery for long-term monitoring of coral bleaching, though confirmation with high-resolution refraction-free data are still needed.",
+  "authors": [
+    "Ayad M",
+    "Lee CM",
+    "Porter JW",
+    "Chirayath V",
+    "Nivison CL",
+    "Vaughn KM",
+    "Kudela R"
+  ],
+  "publication_date": "2025-07-21",
+  "journal": "",
+  "doi": "10.1021/acs.est.5c03122",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1021/acs.est.5c03122"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1021/acs.est.5c03122"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12312086"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12312086?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

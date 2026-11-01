@@ -1,0 +1,22 @@
+# LaTeX / math markup tokens (lowercase). Dropped from TF-IDF candidates.
+usepackage
+documentclass
+document
+amsmath
+amssymb
+amsfonts
+amsbsy
+mathrsfs
+wasysym
+upgreek
+begin
+end
+hline
+textwidth
+linewidth
+includegraphics
+label
+ref
+cite
+newpage
+clearpage

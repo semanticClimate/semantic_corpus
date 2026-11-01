@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC7532523",
+  "phrases": [
+    {
+      "phrase": "earth system science",
+      "display": "Earth System Science",
+      "score": 1.2
+    },
+    {
+      "phrase": "southwest atlantic",
+      "display": "Southwest Atlantic",
+      "score": 1.2
+    },
+    {
+      "phrase": "south american",
+      "display": "South American",
+      "score": 1.2
+    },
+    {
+      "phrase": "future earth",
+      "display": "Future Earth",
+      "score": 1.2
+    },
+    {
+      "phrase": "world commission on environment and development",
+      "display": "World Commission on Environment and Development",
+      "score": 1.1
+    },
+    {
+      "phrase": "national aeronautics and space administration",
+      "display": "National Aeronautics and Space Administration",
+      "score": 1.1
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.1
+    },
+    {
+      "phrase": "earth",
+      "display": "Earth",
+      "score": 1.43
+    },
+    {
+      "phrase": "ess",
+      "display": "ESS",
+      "score": 1.3
+    },
+    {
+      "phrase": "cn",
+      "display": "CN",
+      "score": 1.16
+    },
+    {
+      "phrase": "percolation",
+      "score": 0.0435,
+      "display": "Percolation"
+    },
+    {
+      "phrase": "edges",
+      "score": 0.0413,
+      "display": "Edges"
+    },
+    {
+      "phrase": "network",
+      "score": 0.041,
+      "display": "Network"
+    },
+    {
+      "phrase": "nodes",
+      "score": 0.0379,
+      "display": "Nodes"
+    },
+    {
+      "phrase": "cluster",
+      "score": 0.0378,
+      "display": "cluster"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

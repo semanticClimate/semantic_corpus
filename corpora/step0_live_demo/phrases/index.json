@@ -1,0 +1,44 @@
+{
+  "step": 2,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/step0_live_demo",
+  "bag_root": "/Users/pm286/workspace/semantic_corpus/corpora/step0_live_demo",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/step0_live_demo/phrases",
+  "params": {
+    "lan": "en",
+    "n": 3,
+    "top": 15,
+    "text_fields": "title+abstract"
+  },
+  "paper_count": 3,
+  "papers_from_cache": 0,
+  "papers_extracted": 3,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 42,
+  "unique_phrases": 40,
+  "elapsed_s": 0.157,
+  "paper_ids": [
+    "europe_pmc_PMC12980662",
+    "europe_pmc_PMC13534446",
+    "europe_pmc_PMC13655307"
+  ],
+  "papers": [
+    {
+      "paper_id": "europe_pmc_PMC12980662",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/step0_live_demo/phrases/europe_pmc_PMC12980662.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13534446",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/step0_live_demo/phrases/europe_pmc_PMC13534446.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13655307",
+      "phrase_count": 12,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/step0_live_demo/phrases/europe_pmc_PMC13655307.json"
+    }
+  ]
+}

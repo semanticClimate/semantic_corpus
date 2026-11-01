@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12979200",
+  "phrases": [
+    {
+      "phrase": "bastin and moustakis",
+      "display": "Bastin and Moustakis",
+      "score": 1.5
+    },
+    {
+      "phrase": "moustakis and hurtt",
+      "display": "Moustakis and Hurtt",
+      "score": 1.5
+    },
+    {
+      "phrase": "earth system model",
+      "display": "Earth System Model",
+      "score": 1.3
+    },
+    {
+      "phrase": "integrated assessment model",
+      "display": "Integrated Assessment Model",
+      "score": 1.2
+    },
+    {
+      "phrase": "moving window regression",
+      "display": "Moving Window Regression",
+      "score": 1.2
+    },
+    {
+      "phrase": "central north america",
+      "display": "Central North America",
+      "score": 1.2
+    },
+    {
+      "phrase": "community land model",
+      "display": "Community Land Model",
+      "score": 1.2
+    },
+    {
+      "phrase": "bgp",
+      "display": "BGP",
+      "score": 2.42
+    },
+    {
+      "phrase": "bgc",
+      "display": "BGC",
+      "score": 1.66
+    },
+    {
+      "phrase": "bastin",
+      "display": "Bastin",
+      "score": 1.4
+    },
+    {
+      "phrase": "reforestation",
+      "score": 0.0532,
+      "display": "Reforestation"
+    },
+    {
+      "phrase": "reforestation potential",
+      "score": 0.0442,
+      "display": "reforestation potential"
+    },
+    {
+      "phrase": "non-local",
+      "score": 0.0438,
+      "display": "Non-local"
+    },
+    {
+      "phrase": "moustakis",
+      "score": 0.0428,
+      "display": "Moustakis"
+    },
+    {
+      "phrase": "reforestation potentials",
+      "score": 0.0415,
+      "display": "reforestation potentials"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

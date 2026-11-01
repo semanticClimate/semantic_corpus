@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC10159062",
+  "phrases": [
+    {
+      "phrase": "bebber and richards",
+      "display": "Bebber and Richards",
+      "score": 1.6
+    },
+    {
+      "phrase": "enebe and babalola",
+      "display": "Enebe and Babalola",
+      "score": 1.2
+    },
+    {
+      "phrase": "experimental farm",
+      "display": "Experimental Farm",
+      "score": 1.2
+    },
+    {
+      "phrase": "department of agriculture crop production and rural environment",
+      "display": "Department of Agriculture Crop Production and Rural Environment",
+      "score": 1.1
+    },
+    {
+      "phrase": "entotheonellaeota gemmatimonadetes and verrucomicrobia",
+      "display": "Entotheonellaeota Gemmatimonadetes and Verrucomicrobia",
+      "score": 1.1
+    },
+    {
+      "phrase": "institute of parasitology and biomedicine",
+      "display": "Institute of Parasitology and Biomedicine",
+      "score": 1.1
+    },
+    {
+      "phrase": "phylogenetic investigation of communities",
+      "display": "Phylogenetic Investigation of Communities",
+      "score": 1.1
+    },
+    {
+      "phrase": "cca",
+      "display": "CCA",
+      "score": 1.16
+    },
+    {
+      "phrase": "nmds",
+      "display": "NMDS",
+      "score": 1.16
+    },
+    {
+      "phrase": "asvs",
+      "display": "ASVs",
+      "score": 1.15
+    },
+    {
+      "phrase": "fertilization treatments",
+      "score": 0.0439,
+      "display": "Fertilization treatments"
+    },
+    {
+      "phrase": "fertilization",
+      "score": 0.0437,
+      "display": "Fertilization"
+    },
+    {
+      "phrase": "treatments",
+      "score": 0.0419,
+      "display": "treatments"
+    },
+    {
+      "phrase": "purslane",
+      "score": 0.0392,
+      "display": "Purslane"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0389,
+      "display": "Soil"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

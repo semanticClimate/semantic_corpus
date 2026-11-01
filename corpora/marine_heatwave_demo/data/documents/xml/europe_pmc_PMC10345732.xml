@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title><abbrev-journal-title>Ecol Evol</abbrev-journal-title></journal-title-group><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10345732</article-id><article-id pub-id-type="pmcaid">10345732</article-id><article-id pub-id-type="pmcaiid">10345732</article-id><article-id pub-id-type="pmid">37456075</article-id><article-id pub-id-type="doi">10.1002/ece3.10304</article-id><title-group><article-title>Two tropical seagrass species show differing indicators of resistance to a marine heatwave</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Bass</surname><given-names initials="AV">Alissa V</given-names></name><xref ref-type="aff" rid="ece310304-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Falkenberg</surname><given-names initials="LJ">Laura J</given-names></name><xref ref-type="aff" rid="ece310304-aff-0001">1</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib></contrib-group><aff id="ece310304-aff-0001"><label>
+<sup>1</sup>
+</label>Simon F.S. Li Marine Science Laboratory, The Chinese University of Hong Kong, Sha Tin, New Territories, Hong Kong SAR</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+<bold>Correspondence</bold>
+, 
+Laura J. Falkenberg, Simon F.S. Li Marine Science Laboratory, The Chinese University of Hong Kong, Sha Tin, New Territories, Hong Kong SAR. 
+Email: <email>laurafalkenberg@cuhk.edu.hk</email>
+
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>14</day><month>7</month><year>2023</year></pub-date><volume>13</volume><issue>7</issue><fpage>e10304</fpage><page-range>e10304</page-range><pub-history><event event-type="pmc-release"><date><day>15</day><month>7</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>© 2023 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-13-e10304.pdf" content-type="pmc-pdf"><?cloudpmc-path 67a7/10345732/4c6a847f1188/ECE3-13-e10304.pdf?><?cloudpmc-bucket app?><?size 1691626?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Marine heatwaves (MHWs) are a growing threat to marine species globally, including economically and ecologically important foundation species, such as seagrasses. Seagrasses in tropical regions may already be near their thermal maxima, and, therefore, particularly susceptible to increases in temperature, such as from MHWs. Here, we conducted a 10‐day MHW experiment (control +4°C) to determine the effects of such events on the two tropical seagrasses <italic>Halophila beccarii</italic> and <italic>Halophila ovalis</italic>. We found that both species were largely resistant to the MHW, however, there were differences between the species' responses. For <italic>H. beccarii</italic>, the surface area of existing leaves was smaller under MHW conditions, yet a substantial increase in the number of new leaves under the MHW indicated its tolerance to—or even increased performance under—the MHW. While there was no direct effect of the MHW on <italic>H. ovalis</italic>, this species saw less epiphyte biomass and percentage cover on its leaves under the MHW. While a lower epiphyte cover can potentially increase the health and ecophysiological performance of the seagrass, the change of epiphytes can lead to bottom‐up trophic implications via the influence on mesograzer feeding. Together, the results of this study demonstrate the species‐specific responses of seagrasses of the same genus to a warming event. With the current global decline of seagrasses, our results are encouraging for these important habitat formers as we show that anomalous warming events may not necessarily lead to ecosystem collapse.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> climate change, ecophysiology, growth, <italic>Halophila beccarii</italic>, <italic>Halophila ovalis</italic></p></sec></abstract><abstract id="abstract2" abstract-type="graphical"><p>Here, we conducted a 10‐day marine heatwave (MHW) experiment (control +4°C) to determine the effects of such events on the two tropical seagrasses <italic>Halophila beccarii</italic> and <italic>Halophila ovalis</italic>. We found that both species were resistant to the MHW, however, there were differences between the species' responses. With the current global decline of seagrasses, our results are encouraging for these important habitat formers as we show that anomalous warming events may not necessarily lead to ecosystem collapse.</p><boxed-text id="ece310304-blkfxd-0001" position="anchor"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="ECE3-13-e10304-g005.jpg"><?cloudpmc-path blobs/67a7/10345732/53d192feff1f/ECE3-13-e10304-g005.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 163?><?original-width 332?><?scaled-height 163?><?scaled-width 332?></graphic></boxed-text></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Revised 2023 May 31; Received 2023 Apr 12; Accepted 2023 Jun 28; Collection date 2023 Jul.</p></sec></notes></front><body><sec id="ece310304-sec-0001" disp-level="1"><label>1.</label><title>INTRODUCTION</title><p>Seagrasses are important marine foundation species, occurring in most shallow, sheltered, soft sediment coastlines and estuaries of the world (Den Hartog, <xref rid="ece310304-bib-0015" ref-type="bibr">1970</xref>; McKenzie et al., <xref rid="ece310304-bib-0050" ref-type="bibr">2020</xref>; Short et al., <xref rid="ece310304-bib-0073" ref-type="bibr">2007</xref>). Due to the many ecosystem functions and services seagrasses provide, they are one of the most valuable ecosystems globally (Costanza et al., <xref rid="ece310304-bib-0013" ref-type="bibr">2014</xref>). For example, seagrasses are responsible for approximately 15% of carbon storage in the ocean (Duarte &amp; Cebrián, <xref rid="ece310304-bib-0017" ref-type="bibr">1996</xref>; Duarte &amp; Chiscano, <xref rid="ece310304-bib-0018" ref-type="bibr">1999</xref>), despite only covering approximately 0.2% of the Earth's surface. Furthermore, seagrasses provide important trophic links with other ecosystems (Green &amp; Short, <xref rid="ece310304-bib-0028" ref-type="bibr">2003</xref>; Heck et al., <xref rid="ece310304-bib-0030" ref-type="bibr">2008</xref>), exporting on average almost 25% of their net production to adjacent ecosystems (Duarte &amp; Cebrián, <xref rid="ece310304-bib-0017" ref-type="bibr">1996</xref>). Other services delivered by seagrass beds include provision of food, oxygen, sediment stabilisation, improvement of water transparency, wave attenuation and shoreline protection (Barbier et al., <xref rid="ece310304-bib-0003" ref-type="bibr">2011</xref>; Duarte &amp; Cebrián, <xref rid="ece310304-bib-0017" ref-type="bibr">1996</xref>; Nordlund et al., <xref rid="ece310304-bib-0055" ref-type="bibr">2016</xref>).</p><p>Climate change and other anthropogenic impacts can drive large‐scale effects on seagrasses, with these meadows disappearing at a rapid rate (Orth et al., <xref rid="ece310304-bib-0060" ref-type="bibr">2006</xref>; Short &amp; Neckles, <xref rid="ece310304-bib-0076" ref-type="bibr">1999</xref>; Waycott et al., <xref rid="ece310304-bib-0086" ref-type="bibr">2009</xref>). Over recent decades loss of seagrass has been reported to be occurring globally at a rate of approximately 110 km<sup>2</sup> year<sup>−1</sup>, making them one of the most threatened ecosystems in the world (Waycott et al., <xref rid="ece310304-bib-0086" ref-type="bibr">2009</xref>). Specifically, seagrass loss has been recorded in the Americas (Short et al., <xref rid="ece310304-bib-0075" ref-type="bibr">2006</xref>), the Mediterranean (Marbà et al., <xref rid="ece310304-bib-0046" ref-type="bibr">2014</xref>), Asia (Unsworth et al., <xref rid="ece310304-bib-0083" ref-type="bibr">2018</xref>) and Australia (Kendrick et al., <xref rid="ece310304-bib-0038" ref-type="bibr">2019</xref>). Additionally, further loss, distribution shifts and altered ecophysiological performance are expected in the future as anthropogenic impacts increase (Chefaoui et al., <xref rid="ece310304-bib-0012" ref-type="bibr">2018</xref>; Nguyen et al., <xref rid="ece310304-bib-0053" ref-type="bibr">2000</xref>; Repolho et al., <xref rid="ece310304-bib-0068" ref-type="bibr">2017</xref>).</p><p>One climate change factor that can have, and is already having, a prominent effect on seagrasses is marine heatwaves (Smale et al., <xref rid="ece310304-bib-0077" ref-type="bibr">2019</xref>; Smith et al., <xref rid="ece310304-bib-0078" ref-type="bibr">2023</xref>). Marine heatwaves (MHWs) are defined as five or more days of anomalous sea surface temperature above the regional 90th percentile (Hobday et al., <xref rid="ece310304-bib-0031" ref-type="bibr">2016</xref>). These MHW events are increasing in intensity, frequency and duration and are predicted to continue doing so in the future (Oliver et al., <xref rid="ece310304-bib-0058" ref-type="bibr">2018</xref>, <xref rid="ece310304-bib-0057" ref-type="bibr">2019</xref>). MHWs can have important ecological effects and have been shown to degrade seagrass in temperate regions (Arias‐Ortiz et al., <xref rid="ece310304-bib-0001" ref-type="bibr">2018</xref>; Marbà &amp; Duarte, <xref rid="ece310304-bib-0048" ref-type="bibr">2010</xref>; Serrano et al., <xref rid="ece310304-bib-0072" ref-type="bibr">2021</xref>; Strydom et al., <xref rid="ece310304-bib-0079" ref-type="bibr">2020</xref>; Thomson et al., <xref rid="ece310304-bib-0081" ref-type="bibr">2015</xref>). Tropical seagrass species have important interactions with mangroves and corals (Green &amp; Short, <xref rid="ece310304-bib-0028" ref-type="bibr">2003</xref>) and while seagrass studies in the tropics were previously lacking (Unsworth et al., <xref rid="ece310304-bib-0083" ref-type="bibr">2018</xref>), there has been an increase in research considering their responses to anomalous warming events (Rasmusson et al., <xref rid="ece310304-bib-0067" ref-type="bibr">2021</xref>; Strydom et al., <xref rid="ece310304-bib-0079" ref-type="bibr">2020</xref>; Szitenberg et al., <xref rid="ece310304-bib-0080" ref-type="bibr">2022</xref>; Thomson et al., <xref rid="ece310304-bib-0081" ref-type="bibr">2015</xref>). It is important to study seagrasses in these regions given that the bulk of extant seagrass meadows is found on the coastline of developing tropical countries (Duarte, <xref rid="ece310304-bib-0016" ref-type="bibr">2002</xref>), which are experiencing the greatest rate of environmental degradation and are projected to continue to do so in the future.</p><p>The loss of seagrass meadows can have repercussions for many trophic levels and on the whole ecosystem functioning. That is, seagrasses are an important food source for macro herbivores (Bjorndal, <xref rid="ece310304-bib-0008" ref-type="bibr">1980</xref>; Marsh et al., <xref rid="ece310304-bib-0049" ref-type="bibr">1982</xref>) and mesograzers (Ebrahim et al., <xref rid="ece310304-bib-0020" ref-type="bibr">2014</xref>; Klumpp et al., <xref rid="ece310304-bib-0039" ref-type="bibr">1992</xref>), as well as a blue carbon sink (Gullström et al., <xref rid="ece310304-bib-0029" ref-type="bibr">2018</xref>). In tropical systems extreme climatic events can have severe effects on traits (e.g. survival, abundance) of habitat‐forming species including seagrasses, with prolonged impacts for slow‐growing species than their faster‐growing counterparts (Babcock et al., <xref rid="ece310304-bib-0002" ref-type="bibr">2019</xref>).</p><p>The tropical seagrasses <italic>Halophila beccarii</italic> Aschers., and <italic>Halophila ovalis</italic> (R. Br.) Hook. <italic>f</italic>. belong to the family Hydrocharitaceae, Order Alismatales. <italic>Halophila</italic> seagrasses have a tropical and warm temperate distribution, and many are endemic with limited distributions (Short et al., <xref rid="ece310304-bib-0073" ref-type="bibr">2007</xref>). For the two species used in this study, <italic>H. ovalis</italic> has a wide subtropical and tropical distribution, ranging from the west coast of Africa to South Asia, South‐East Asia and Australia. <italic>H. beccarii</italic> also has a wide, yet patchy, distribution in the tropical Indo‐Pacific (Green &amp; Short, <xref rid="ece310304-bib-0028" ref-type="bibr">2003</xref>). In Hong Kong, these species are found on the low intertidal and shallow subtidal on mudflats, and are associated with mangroves and also with seaweed in spring (Morton &amp; Morton, <xref rid="ece310304-bib-0052" ref-type="bibr">1983</xref>, personal observation). Compared to slow‐growing and larger seagrasses in these regions and globally, both <italic>H. ovalis</italic> and <italic>H. beccarii</italic> are small, quickly colonising and opportunistic. Consequently, they can potentially recover quickly after habitat disturbance relative to other seagrasses. Here, we performed a 10‐day marine heatwave experiment and considered the responses of <italic>H. beccarii</italic> and <italic>H. ovalis</italic> to MHW events which we hypothesised they would be largely resistant to, with specific responses dependent on the growth and morphological traits considered. The aims of this experiment were, therefore, to: (i) investigate the vulnerability or resistance of two tropical seagrasses to a spring marine heatwave, (ii) identify the parameters of seagrass growth and morphology that are the most affected by a marine heatwave and (iii) consider if there is a difference in responses between seagrass species.</p></sec><sec id="ece310304-sec-0002" disp-level="1"><label>2.</label><title>MATERIALS AND METHODS</title><sec id="ece310304-sec-0003" disp-level="2"><label>2.1.</label><title>Marine heatwave historical data</title><p>Daily Optimum Interpolation Sea Surface Temperature (OISST v2.1 from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://coastwatch.pfeg.noaa.gov/erddap/" ext-link-type="uri">https://coastwatch.pfeg.noaa.gov/erddap/</ext-link>) data from the United States National Oceanic and Atmospheric Administration (NOAA) was used to support the heatwave temperature treatments for this experiment. SST temperature data was downloaded for pixels covering the longitudinal and latitudinal boundaries for Hong Kong SAR (113°48′ N, 22°10′ E–114°30′ N, 22°36′ E). Daily 0.25° OISST data within these boundaries were averaged before detecting MHWs using the ‘heatwaveR’ package (version 0.4.6; Schlegel &amp; Smit, <xref rid="ece310304-bib-0071" ref-type="bibr">2018</xref>). The almost 40‐year period from 1 January 1982 to 31 March 2022 was used to quantify: (a) the number of MHW events (as defined by Hobday et al., <xref rid="ece310304-bib-0031" ref-type="bibr">2016</xref>), (b) the mean intensity and duration of each MHW and (c) the maximum intensity and duration MHW. From 1982 to 2022 (until 31st March) there were 92 MHWs in Hong Kong, with a mean intensity of 1.82°C and an average duration of 10.4 days. In May 2021 there was the highest intensity and longest‐lasting MHW on record for Hong Kong, which had an intensity of 5.83°C and duration of 42 days. As MHWs are projected to increase in intensity in the future (Oliver et al., <xref rid="ece310304-bib-0057" ref-type="bibr">2019</xref>), the temperature treatments in the experiment were a control (the average spring SST for Hong Kong which is the season when this experiment was done—23°C) and a ‘severe’ category MHW treatment (Hobday et al., <xref rid="ece310304-bib-0032" ref-type="bibr">2018</xref>) of +4°C above control temperature (to represent a likely intensity of near‐future MHWs—27°C).</p></sec><sec id="ece310304-sec-0004" disp-level="2"><label>2.2.</label><title>Seagrass collection</title><p>
+<italic>Halophila beccarii</italic> and <italic>H. ovalis</italic> were collected in March 2022 from Pak Nai, Deep Bay N22°25.8580′, E113°56.6609′ and Tung Chung Bay N22°17.0934′, E113°55.5946′, respectively (Figure <xref rid="ece310304-fig-0001" ref-type="fig">1</xref>). <italic>Halophila beccarii</italic> and its collection site are currently not under any kind of protection in Hong Kong, despite its vulnerable global status. Deep Bay, the site from which it was collected, is a proposed Marine Protected Area (MPA) in Hong Kong and is the habitat of the endangered horseshoe crabs <italic>Tachypleus tridentatus</italic> and <italic>Carcinoscorpius rotundicauda</italic> (Kwan et al., <xref rid="ece310304-bib-0040" ref-type="bibr">2016</xref>). In contrast, Tung Chung Bay, the collection site for <italic>H. ovalis</italic>, is a Site of Special Scientific Interest (SSSI) and <italic>H. ovalis</italic> is listed in <italic>Rare and Previous Plants of Hong Kong</italic> (<xref rid="ece310304-bib-0033" ref-type="bibr">Hong Kong Herbarium</xref>), which protects the species from being collected without permission. Both seagrasses are found at the low intertidal and can be collected from the mudflat on extreme low tides. Using a handheld GPS (Garmin GPSMAP 66i), the area of the seagrass was recorded and five quadrats of 25 cm<sup>2</sup> were haphazardly placed on the seagrass meadow and used to calculate shoot density. At Pak Nai, <italic>H. beccarii</italic> covered an area of approximately 11,709 m<sup>2</sup> and shoot density varied between 240 and 640 shoots per 25 cm<sup>2</sup>. <italic>Halophila ovalis</italic> in Tung Chung Bay covered an area of approximately 15,928 m<sup>2</sup> and the density was 300–400 shoots per 25 cm<sup>2</sup>. The seagrass was predominantly distributed in a large meadow, particularly toward the west of the site, however, there were also small patches of <italic>H. ovalis</italic> distributed irregularly throughout the mudflat. Seagrass and sediment adjacent to the meadows were collected using a trowel and placed into cool boxes. Spot measurements of temperature, pH and salinity were also taken during collection. For Tung Chung, the water temperature was 22.4°C, pH was 7.96 and salinity was 27 ppt, whereas at Pak Nai, water temperature, pH and salinity were 23.7°C, 8.24 and 24 ppt, respectively. Seagrass and sediment were transported to the Marine Science Laboratory at The Chinese University of Hong Kong, and the seagrass was placed in outdoor tanks and allowed to acclimate to ambient tank conditions for 2 days (as in Bass et al., <xref rid="ece310304-bib-0004" ref-type="bibr">2023</xref>; Noisette &amp; Hurd, <xref rid="ece310304-bib-0054" ref-type="bibr">2018</xref>), with natural 12:12 h day/night light conditions. The weather was mostly overcast during the experiment and daytime irradiance levels outside varied between 250 and 1850 μmol m<sup>−2</sup> s<sup>−1</sup> depending on the weather conditions (MQ‐510 Full Spectrum Underwater Spectrum Meter; Apogee Instruments, Inc.). Following the acclimation period, individual ramets (seagrass shoots, attached to the rhizome and roots) were sorted, had initial measurements taken, were then planted into experimental tanks with the collected sediment (which was filtered using a metal sieve mesh size 4 mm—to remove biological material) with ambient air pumped into each tank and exposed to treatment temperatures.</p><fig id="ece310304-fig-0001" position="float"><?disp-level 3?><label>FIGURE 1</label><caption><p>Locations of seagrass collection for <italic>Halophila beccarii</italic> and <italic>Halophila ovalis</italic>, and the extent of the seagrass in the two locations in March 2022 (maps from Google Earth Pro).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="ECE3-13-e10304-g001.jpg"><?cloudpmc-path blobs/67a7/10345732/708ba531412a/ECE3-13-e10304-g001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 520?><?original-width 1064?><?scaled-height 347?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ECE3-13-e10304-g001.gif"><?cloudpmc-path blobs/67a7/10345732/a127bc89cdcc/ECE3-13-e10304-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="ece310304-sec-0005" disp-level="2"><label>2.3.</label><title>Experimental design and response variable measurement</title><p>The experimental design consisted of subjecting collected seagrasses of each species (<italic>H. beccarii</italic> and <italic>H. ovalis</italic>) to either a control temperature (23°C) or a MHW temperature (+4°C, or 27°C). Five tanks were used per species and treatment combination (20 tanks in total). Within each 5 L tank, six ramets of the same species of a standardised size (detailed in the next paragraph) were planted into the filtered sediment which was 6 cm deep. The experiment ran for 10 days, with four additional days prior for ramping the water temperature up to experimental temperatures at a rate of 1°C per day (Bass et al., <xref rid="ece310304-bib-0004" ref-type="bibr">2023</xref>; Minuti et al., <xref rid="ece310304-bib-0051" ref-type="bibr">2021</xref>; Saha et al., <xref rid="ece310304-bib-0069" ref-type="bibr">2020</xref>). To establish and maintain temperature treatments, seawater from the adjacent Tolo Channel was pumped into header tanks (one for each temperature treatment), which was connected to a chiller (HC‐1000B Chiller, Hailea®, China) for the control temperature treatment, or had water heaters inside (D‐839‐1000, Up‐aqua™, Taiwan) for the MHW treatment. This water was then pumped into each experimental tank, after which the water was able to flow out of the experimental tanks in a continuous flow‐through system (see Figure <xref rid="ece310304-supitem-0001" ref-type="supplementary-material">S1</xref> for experimental setup schematic). Experimental temperatures were measured using temperature data loggers (iButton™, United Kingdom) placed into the experimental tanks (4–5 loggers per treatment) which were set to record every 10 min. These measurements revealed that the average experimental temperature for the treatments after the initial temperature ramping was 23.53°C (±0.02 SE) for the control and 27.48°C (±0.02 SE) for the MHW treatment.</p><p>Initial measurements were taken before planting the seagrass into the experimental tanks. This was done by first removing seagrass from its original sediment and rinsing with seawater to clear all remaining sediment and visible epiphytes and other epibiota. The seagrasses were standardised by cutting ramets to contain three shoots for <italic>H. beccarii</italic> or three shoot pairs for <italic>H. ovalis</italic>, as well as roots, and one apical meristem. Ramets were tagged using coloured cotton tied around the rhizome (adapted from Short &amp; Duarte, <xref rid="ece310304-bib-0074" ref-type="bibr">2001</xref>) in order to identify ramet and correct orientation for measurements at the end of the experiment. Ramets were then photographed before planting the ramets into the filtered sediment. Initial measurements were later recorded from these photographs, including rhizome length (horizontal and vertical rhizomes included), root length and leaf surface area using Fiji extension of Image J (Schindelin et al., <xref rid="ece310304-bib-0070" ref-type="bibr">2012</xref>). Analysis of these initial measurements revealed that seagrasses of the same species had the same starting measurements across treatments, and, therefore, there was no initial bias.</p><p>After the 10‐day exposure to control or MHW water temperature, the seagrass was taken from their experimental tanks and rinsed gently with seawater to remove sediment. Ramets were identified and those which had completely disintegrated or were unidentifiable were categorised as ‘dead’. As mortality was low for both species, this response variable was excluded from formal statistical analysis. For those ramets that had survived, photographs were again taken and rhizome length, root length and the presence (and surface area) or loss of the original leaves were measured and analysed in ImageJ. Epiphyte percentage area was also recorded for the original leaves. For the new growth, that is, rhizome, roots, shoots and leaves that were not present at the start of the experiment, length measurements were taken of new rhizome growth, new root growth, the number of new leaves grown and also surface area measurements of the largest new leaf.</p><p>After taking the photographs for the above measurements, seagrass ramets were divided into sections for dry‐weight biomass quantification. These sections included epiphyte biomass (from three of the old leaves present at the initial measurement), leaf biomass (of the three old leaves and then of all leaves together), rhizome biomass and total root biomass. The sections of each ramet were placed in foil (pre‐weighed) before drying at 60°C for 2 days. Once measured, ramet total dry weight biomass was calculated by totalling the amounts of each individual section (with the exception of epiphyte biomass).</p></sec><sec id="ece310304-sec-0006" disp-level="2"><label>2.4.</label><title>Statistical analyses</title><p>Measurements were then analysed in the statistical software <italic>R</italic> (version 4.2.0). The two species were analysed separately due to their inherent differences in morphology and growth strategies. For each response variable and each species, a mixed effects model was run with fixed factor ‘treatment’ and random effect of ‘tank number’ (i.e. each tank was treated as a replicate). A Levene's test was carried out for each species and response variable for test for homogeneity of data (Brown &amp; Forsythe, <xref rid="ece310304-bib-0010" ref-type="bibr">1974</xref>). Data were then transformed if needed (log or square root) to conform to normalisation and then the mixed effects model was performed using the package ‘lme4’ (Bates et al., <xref rid="ece310304-bib-0005" ref-type="bibr">2015</xref>). Analysis of deviance using the Anova function was performed using the package ‘car’ (Fox &amp; Weisberg, <xref rid="ece310304-bib-0025" ref-type="bibr">2011</xref>) and <italic>p</italic>‐values of &lt;.05 were used for significance. For zero‐inflated data, that is, epiphyte biomass for <italic>H. beccarii</italic>, a zero‐inflated model was fitted using the package ‘glmmTMB’ with a ‘beta’ transformation and a <italic>p</italic>‐value extracted using ANOVA, type III.</p></sec></sec><sec id="ece310304-sec-0007" disp-level="1"><label>3.</label><title>RESULTS</title><p>For both <italic>H. beccarii</italic> and <italic>H. ovalis</italic> there was no significant impact of MHW on mortality (of 30 ramets used for each species × treatment mortality observed for 5 vs. 7 ramets for <italic>H. beccarii</italic>, and 4 vs. 5 ramets for <italic>H. ovalis</italic> under control vs. MHW treatments, respectively), or on dry weight biomass of any of the ramet sections (rhizome, root, leaves; Figure <xref rid="ece310304-fig-0002" ref-type="fig">2a,c,e</xref>, respectively; Tables <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref> and <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>). Similarly, for <italic>H. ovalis</italic>, there was no significant effect of MHW on length or area for any of the seagrass segments (Figure <xref rid="ece310304-fig-0002" ref-type="fig">2b,d,f</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>). For <italic>H. beccarii</italic>, while rhizome biomass was similar across treatments, there was a trend toward greater rhizome length under MHW (10.10 cm vs. 8.35 cm, respectively; Figure <xref rid="ece310304-fig-0002" ref-type="fig">2b</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref>). Root length of <italic>H. beccarii</italic>, however, was shorter under the MHW treatment, with an average of 2.17 cm compared to 2.81 cm at control (Figure <xref rid="ece310304-fig-0002" ref-type="fig">2d</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref>; <italic>F</italic> = 6.4, <italic>p</italic> &lt; .05). <italic>H. beccarii</italic> leaves present from the beginning of the experiment had a significantly lower surface area under the MHW treatment, compared to the control (averages of 0.117 cm<sup>2</sup> vs. 0.317 cm<sup>2</sup>, respectively; Figure <xref rid="ece310304-fig-0002" ref-type="fig">2f</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref>; <italic>F</italic> = 13.441, <italic>p</italic> &lt; .01).</p><fig id="ece310304-fig-0002" position="float"><?disp-level 2?><label>FIGURE 2</label><caption><p>The dry weight biomass (DWB, g) and size (length or surface area, cm or cm<sup>2</sup>) of <italic>Halophila beccarii</italic> and <italic>Halophila ovalis</italic> exposed to marine heatwaves (control vs. heatwave) in terms of: (a) rhizome DWB, (b) rhizome length, (c) DWB of all roots on each ramet, (d) the length of the longest root, (e) total leaf DWB for each ramet and (f) average leaf surface area. Asterisks represent level of significance (*<italic>p</italic> &lt; .05, **<italic>p</italic> &lt; .01).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-5" xlink:href="ECE3-13-e10304-g004.jpg"><?cloudpmc-path blobs/67a7/10345732/b98e6de467da/ECE3-13-e10304-g004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1650?><?original-width 1064?><?scaled-height 1099?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ECE3-13-e10304-g004.gif"><?cloudpmc-path blobs/67a7/10345732/bc6414b12fae/ECE3-13-e10304-g004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>In terms of changes in the properties of leaves present, there was no difference in the size of new leaves grown on each ramet for either species in the control or MHW treatment (Figure <xref rid="ece310304-fig-0003" ref-type="fig">3a</xref>; Tables <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref> and <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>). The number of leaves at the end of the experiment compared to the start was, however, substantially boosted under MHW conditions for <italic>H. beccarii</italic> (averages of 14.20 leaves in MHW conditions compared to 6.13 under control conditions; Figure <xref rid="ece310304-fig-0003" ref-type="fig">3b</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref>; <italic>F</italic> = 7.89, <italic>p</italic> &lt; .05), which was associated with a greater production of new leaves (averages of 21.7 under MHW vs. 14.0 new leaves at control treatment; Figure <xref rid="ece310304-fig-0003" ref-type="fig">3c</xref>, Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref>, <italic>F</italic> = 6.14, <italic>p</italic> &lt; .005). For <italic>H. ovalis</italic>, there was no difference in either change in leaf number or number of new leaves between the control and MHW treatment (Figure <xref rid="ece310304-fig-0003" ref-type="fig">3b,c</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>). There was also no difference in the number of leaves lost during the experiment between treatments for either species (Figure <xref rid="ece310304-fig-0003" ref-type="fig">3d</xref>; Tables <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref> and <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>).</p><fig id="ece310304-fig-0003" position="float"><?disp-level 2?><label>FIGURE 3</label><caption><p>Leaf properties of <italic>Halophila beccarii</italic> and <italic>Halophila ovalis</italic> exposed to marine heatwaves (control vs. heatwave) in terms of: (a) largest new leaf surface area (cm<sup>2</sup>) on each ramet, (b) change in leaf number, (c) number of new leaves and (d) loss of old leaves present at the beginning of the experiment. Asterisks represent level of significance (*<italic>p</italic> &lt; .05, **<italic>p</italic> &lt; .01).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-7" xlink:href="ECE3-13-e10304-g003.jpg"><?cloudpmc-path blobs/67a7/10345732/7fd9d0131c32/ECE3-13-e10304-g003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1069?><?original-width 1064?><?scaled-height 712?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ECE3-13-e10304-g003.gif"><?cloudpmc-path blobs/67a7/10345732/d7f7df75baa5/ECE3-13-e10304-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Leaf epiphyte biomass and cover were also not significantly affected by the treatments for <italic>H. beccarii</italic> (Figure <xref rid="ece310304-fig-0004" ref-type="fig">4a,b</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S1</xref>). However, dry weight biomass for the epiphytes attached to <italic>H. ovalis</italic> was significantly lower under the MHW treatment (an average of 0.0008 g compared to 0.0020 g, respectively; Figure <xref rid="ece310304-fig-0004" ref-type="fig">4a</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>; <italic>F</italic> = 7.85, <italic>p</italic> &lt; .05) along with epiphyte percentage cover on the leaves (averages of 64.0% compared to 89.5%; Figure <xref rid="ece310304-fig-0004" ref-type="fig">4b</xref>; Table <xref rid="ece310304-supitem-0002" ref-type="supplementary-material">S2</xref>; <italic>F</italic> = 20.25, <italic>p</italic> &lt; .01).</p><fig id="ece310304-fig-0004" position="float"><?disp-level 2?><label>FIGURE 4</label><caption><p>Epiphyte properties of <italic>Halophila beccarii</italic> and <italic>Halophila ovalis</italic> leaves exposed to marine heatwaves (control vs. heatwave) in terms of: (a) epiphyte biomass and (b) per cent cover of epiphytes. Asterisks represent level of significance (*<italic>p</italic> &lt; .05, **<italic>p</italic> &lt; .01).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-9" xlink:href="ECE3-13-e10304-g002.jpg"><?cloudpmc-path blobs/67a7/10345732/7d40546878a4/ECE3-13-e10304-g002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 730?><?original-width 1064?><?scaled-height 486?><?scaled-width 709?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ECE3-13-e10304-g002.gif"><?cloudpmc-path blobs/67a7/10345732/04007219fbc2/ECE3-13-e10304-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="ece310304-sec-0008" disp-level="1"><label>4.</label><title>DISCUSSION</title><p>With climate change, there is an increase in the number, intensity and duration of MHW events (Frölicher et al., <xref rid="ece310304-bib-0027" ref-type="bibr">2018</xref>). As a result, there is recorded global loss of seagrass, particularly loss of density, as well as subsequent changes to community structure (Smale et al., <xref rid="ece310304-bib-0077" ref-type="bibr">2019</xref>). In areas of East and South‐East Asia, seagrass loss has been recorded in Vietnam (Luong et al., <xref rid="ece310304-bib-0045" ref-type="bibr">2012</xref>), however, there are relatively few recordings of MHW effects on seagrasses in these tropical regions compared to records made in temperate regions (Bennett et al., <xref rid="ece310304-bib-0007" ref-type="bibr">2022</xref>; Deguette et al., <xref rid="ece310304-bib-0014" ref-type="bibr">2022</xref>; Fraser et al., <xref rid="ece310304-bib-0026" ref-type="bibr">2014</xref>). The present study shows significant resistance of two seagrass species, <italic>H. beccarii</italic> and <italic>H. ovalis</italic> found in tropical and subtropical regions, to a simulated 10‐day spring MHW event. Notably, these species did have differing ecophysiological responses. While <italic>H. ovalis</italic> was unaffected by the MHW (although epiphyte biomass and cover declined), <italic>H. beccarii</italic> thrived under MHW conditions. That is, although the surface area of <italic>H. beccarii</italic> leaves present at the beginning of the heatwave decreased to a greater extent in the MHW treatment, possibly due to increased decomposition rates with higher temperatures (Kelaher et al., <xref rid="ece310304-bib-0037" ref-type="bibr">2018</xref>; Trevathan‐Tackett et al., <xref rid="ece310304-bib-0082" ref-type="bibr">2020</xref>), the greater production of new leaves in this treatment meant that ramets overall were resistant to the event. Therefore, this study revealed that spring MHWs may not be detrimental to seagrass survival and growth in Hong Kong.</p><p>Seagrasses, including <italic>Halophila</italic> spp., typically have high growth rates and fecundity which allow them to respond rapidly to environmental perturbations (Marbà &amp; Duarte, <xref rid="ece310304-bib-0047" ref-type="bibr">1998</xref>; O'Brien et al., <xref rid="ece310304-bib-0056" ref-type="bibr">2018</xref>; Rasheed et al., <xref rid="ece310304-bib-0065" ref-type="bibr">2008</xref>). <italic>Halophila ovalis</italic> has an approximate plastochron interval of 4.4 days for each pair of leaves (Erftemeijer &amp; Stapel, <xref rid="ece310304-bib-0022" ref-type="bibr">1999</xref>; Vermaat et al., <xref rid="ece310304-bib-0085" ref-type="bibr">1995</xref>), while for <italic>H. baccarii</italic> plastochron interval has not been defined but new shoots can be formed within 2–3 days (Le Xuan et al., <xref rid="ece310304-bib-0042" ref-type="bibr">2022</xref>). In this study, the production of new leaves for <italic>H. ovalis</italic> was similar under the different temperature treatments and corresponded to the rates of the known plastochron interval for this species. In contrast, <italic>H. beccarii</italic> increased its leaf turnover rate by boosting the number of new leaves grown under the MHW condition compared to ramets grown under the control condition. Similar enhancement is also seen in other seagrass species under simulated warming, such as increased metabolism and leaf production rate (Egea et al., <xref rid="ece310304-bib-0021" ref-type="bibr">2019</xref>; Liu et al., <xref rid="ece310304-bib-0044" ref-type="bibr">2022</xref>). The MHW condition in this study was 27°C, which likely falls within the thermal tolerance range of these species: while <italic>H. beccarii</italic>'s thermal optimal range has not been formally recorded, that of <italic>H. ovalis</italic> is recorded to be between 25 and 30°C (Ralph, <xref rid="ece310304-bib-0063" ref-type="bibr">1998</xref>), and subtropical and tropical seagrasses typically have a thermal optimal range up to 35°C (Campbell et al., <xref rid="ece310304-bib-0011" ref-type="bibr">2006</xref>; Ralph, <xref rid="ece310304-bib-0063" ref-type="bibr">1998</xref>). For the genus <italic>Halophila</italic> and other small, fast‐growing species, there is a characteristic tendency for higher above‐ground biomass production in comparison to below‐ground (Duarte &amp; Chiscano, <xref rid="ece310304-bib-0018" ref-type="bibr">1999</xref>). As the above‐ground seagrass sections can contribute to photosynthesis and higher productivity, increasing below‐ground biomass may become a respiratory burden under increased temperature (Lee et al., <xref rid="ece310304-bib-0043" ref-type="bibr">2007</xref>). Therefore, by allocating more resources to leaf production under MHW conditions, <italic>H. beccarii</italic> can exploit the increased temperature which is within its tolerance range by boosting photosynthetic potential.</p><p>Rapid responses of seagrasses to environmental perturbations can include accelerated rhizome elongation, which can allow for fast recolonisation (<italic>H. beccarii</italic>; Fong, <xref rid="ece310304-bib-0024" ref-type="bibr">2000</xref>). While not significantly affected by the MHW treatment in this study, <italic>H. beccarii</italic> and <italic>H. ovalis</italic> increased their rhizome length over the duration of the experiment, with a trend for this to occur more quickly under MHW conditions in both species. This result suggests fast recovery potential of the species to MHWs and other extreme events. Such quick recovery has already been observed in Hong Kong. For example, in summer 2017, a typhoon event removed <italic>H. ovalis</italic> seagrasses from Tung Chung Bay (the collection site for this study), however, the beginning of recovery was observed in spring 2018, by the presence and increased quantity of seedlings (Wong, <xref rid="ece310304-bib-0087" ref-type="bibr">2018</xref>). Moreover, our survey of the site during collection in March 2022 indicates that the area cover of the seagrass in spring of this year was approximately the same as before the extreme event (14,000–16,000 m<sup>2</sup>). Similar increases in other small, colonising seagrass species, such as <italic>H. ovalis</italic>, have also been seen elsewhere (e.g. in Australia after a MHW event; Kendrick et al., <xref rid="ece310304-bib-0038" ref-type="bibr">2019</xref>). Such recovery capacity—even under MHW events—will be important given the ecological functions of seagrasses, such helping to support coastal biodiversity and habitat complexity (Ranjitham et al., <xref rid="ece310304-bib-0064" ref-type="bibr">2008</xref>).</p><p>The results from this study also indicate that increased temperature from a MHW can affect the root length of <italic>H. beccarii</italic>, which was lower under the MHW treatment. Reduced root length can be a self‐thinning mechanism of the seagrass in response to high seagrass density (Jiang et al., <xref rid="ece310304-bib-0035" ref-type="bibr">2020</xref>). Although the seagrass in the experimental tanks was not overcrowded, there was higher above‐ground biomass of <italic>H. beccarii</italic> under the MHW treatment by the end of the experiment, which may have generated this response in root length. There are various negative consequences of restricted root length, such as decreased resistance to hydrodynamic exposure and reduced capacity to absorb nutrients (Jiang et al., <xref rid="ece310304-bib-0035" ref-type="bibr">2020</xref>). However, lowered root length can also shorten the path length for oxygen supply (Hovey et al., <xref rid="ece310304-bib-0034" ref-type="bibr">2012</xref>; Jiang et al., <xref rid="ece310304-bib-0036" ref-type="bibr">2019</xref>). This change can be beneficial to the seagrass, particularly as the oxygen requirement for respiration is higher under elevated temperatures (Rasmusson et al., <xref rid="ece310304-bib-0066" ref-type="bibr">2020</xref>). Therefore, in response to MHWs, shorter root length may be advantageous and facilitate increased respiration rates.</p><p>Changes in epiphyte cover can have important implications for both the seagrass it occurs on and the species which consume it. Here, we identified that <italic>H. ovalis</italic> had lower biomass and percentage cover of epiphytes on its leaves under the MHW treatment. Lower epiphyte biomass can be beneficial to the seagrass as it improves access to light, consequently leading to better health of the seagrass (Brodersen et al., <xref rid="ece310304-bib-0009" ref-type="bibr">2015</xref>) and increasing seagrass productivity (Orth &amp; Van Montfrans, <xref rid="ece310304-bib-0061" ref-type="bibr">1984</xref>). In contrast, the epiphytes that grow on the seagrass leaves are also a considerable food source for mesograzers. For example, several gastropod species have been recorded grazing on the epiphytes of <italic>H. ovalis</italic> (Fong et al., <xref rid="ece310304-bib-0023" ref-type="bibr">2018</xref>). Seagrass‐epiphyte‐grazer relationships have been studied rigorously in the past 40 years (Duffy et al., <xref rid="ece310304-bib-0019" ref-type="bibr">2001</xref>; Orth &amp; Van Montfrans, <xref rid="ece310304-bib-0061" ref-type="bibr">1984</xref>; van Montfrans et al., <xref rid="ece310304-bib-0084" ref-type="bibr">1984</xref>), and show that loss of epiphytes on seagrass leaves can affect the grazing species and translate to changes on many trophic levels (Bendell, <xref rid="ece310304-bib-0006" ref-type="bibr">2009</xref>). Our results indicate a lower epiphytic abundance on <italic>H. ovalis</italic> leaves which may negatively impact herbivorous invertebrates in Hong Kong seagrass meadows.</p><p>While the results of this study demonstrate the encouraging positive and neutral responses of the two species to short MHWs, longer MHWs events can increase the severity of deleterious physiological responses from seagrasses (Olsen et al., <xref rid="ece310304-bib-0059" ref-type="bibr">2012</xref>; Pruckner et al., <xref rid="ece310304-bib-0062" ref-type="bibr">2022</xref>), particularly for events when the ambient condition is warmer (i.e. summer MHWs; Bass et al., <xref rid="ece310304-bib-0004" ref-type="bibr">2023</xref>). Moreover, stressors co‐occurring with MHWs can lead to more deleterious effects, such as changes in nutrient levels and turbidity, which can have much larger repercussions on the seagrass ecosystems (Kendrick et al., <xref rid="ece310304-bib-0038" ref-type="bibr">2019</xref>; Orth et al., <xref rid="ece310304-bib-0060" ref-type="bibr">2006</xref>). In large coastal cities, such as Hong Kong, land reclamation, pollution and harmful algal blooms threaten coastal habitat loss and fragmentation (Lai et al., <xref rid="ece310304-bib-0041" ref-type="bibr">2016</xref>). These disturbances, along with extreme climatic events, such as tropical cyclones (Fong, <xref rid="ece310304-bib-0024" ref-type="bibr">2000</xref>) and MHWs of increased severity and duration have to potential to compound and exacerbate the currently observed patterns of global seagrass loss.</p></sec><sec id="ece310304-sec-0009" disp-level="1"><label>5.</label><title>CONCLUSION</title><p>This study indicates that short MHWs in springtime pose no significant additional threat to the survival or growth of these two seagrass species. Importantly, their differing responses, and the responses of the epiphytes which grow on them, may have bottom‐up influences on the biotic environment of the habitats. The ongoing presence of these seagrasses will have an important role in shaping the associated floral and faunal biodiversity, and reduction of further biodiversity loss. Therefore, by understanding more about the responses of different seagrasses to potential environmental threats, conservation strategies can be adjusted to their individual habitat requirements.</p></sec><sec id="ece310304-sec-0013" disp-level="1"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Alissa V. Bass:</bold> Conceptualization (equal); data curation (lead); formal analysis (lead); investigation (lead); methodology (equal); visualization (lead); writing – original draft (lead); writing – review and editing (equal). <bold>Laura J. Falkenberg:</bold> Conceptualization (equal); funding acquisition (lead); methodology (equal); project administration (equal); supervision (lead); writing – review and editing (equal).</p></sec><sec id="ece310304-sec-0110" disp-level="1"><title>FUNDING INFORMATION</title><p>Alissa V Bass is supported by the Hong Kong PhD Fellowship Scheme (HKPFS) established by the Research Grants Council (RGC) of Hong Kong.</p></sec><sec id="sec12" disp-level="1"><title>Supporting information</title><supplementary-material id="ece310304-supitem-0001" position="float"><caption><p>
+Figure S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-13-e10304-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 67a7/10345732/cf762874fcff/ECE3-13-e10304-s001.docx?><?cloudpmc-bucket app?><?size 428057?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="ece310304-supitem-0002" position="float"><caption><p>
+Table S1.
+</p><p>
+Table S2.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-13-e10304-s002.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 67a7/10345732/d76341257398/ECE3-13-e10304-s002.docx?><?cloudpmc-bucket app?><?size 20982?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec><sec id="ece310304-sec-0010" sec-type="ack" disp-level="1"><title>ACKNOWLEDGMENTS</title><p>We would like to thank the Agricultural, Fisheries and Conservation Department of Hong Kong for approval of seagrass collection and the project.</p></sec><sec id="notes1" disp-level="1"><p>
+
+
+Bass, A. V.
+, &amp; 
+Falkenberg, L. J.
+ (2023). Two tropical seagrass species show differing indicators of resistance to a marine heatwave. Ecology and Evolution, 13, e10304. 10.1002/ece3.10304
+
+</p></sec><sec id="ece310304-sec-0012" disp-level="1"><title>DATA AVAILABILITY STATEMENT</title><p>The data that support the findings of this study can be accessed at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.48668/T2WBX8" ext-link-type="uri">https://doi.org/10.48668/T2WBX8</ext-link>.</p></sec><sec id="ece310304-bibl-0001" sec-type="ref-list" disp-level="1"><title>REFERENCES</title><sec id="ece310304-bibl-0001_sec2" disp-level="2"><ref-list><ref id="ece310304-bib-0001"><mixed-citation id="ece310304-cit-0001"><named-content content-type="citation-string">
+
+Arias‐Ortiz, A.
+, 
+Serrano, O.
+, 
+Masqué, P.
+, 
+Lavery, P. S.
+, 
+Mueller, U.
+, 
+Kendrick, G. A.
+, 
+Rozaimi, M.
+, 
+Esteban, A.
+, 
+Fourqurean, J. W.
+, 
+Marbà, N.
+, 
+Mateo, M. A.
+, 
+Murray, K.
+, 
+Rule, M. J.
+, &amp; 
+Duarte, C. M.
+ (2018). A marine heatwave drives massive losses from the world's largest seagrass carbon stocks. Nature Climate Change, 8, 338–344. 10.1038/s41558-018-0096-y
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41558-018-0096-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Climate Change&amp;title=A marine heatwave drives massive losses from the world's largest seagrass carbon stocks&amp;author=A. Arias‐Ortiz&amp;author=O. Serrano&amp;author=P. Masqué&amp;author=P. S. Lavery&amp;author=U. Mueller&amp;volume=8&amp;publication_year=2018&amp;pages=338-344&amp;doi=10.1038/s41558-018-0096-y&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0002"><mixed-citation id="ece310304-cit-0002"><named-content content-type="citation-string">
+
+Babcock, R. C.
+, 
+Bustamante, R. H.
+, 
+Fulton, E. A.
+, 
+Fulton, D. J.
+, 
+Haywood, M. D. E.
+, 
+Hobday, A. J.
+, 
+Kenyon, R.
+, 
+Matear, R. J.
+, 
+Plagányi, E. E.
+, 
+Richardson, A. J.
+, &amp; 
+Vanderklift, M. A.
+ (2019). Severe continental‐scale impacts of climate change are happening now: Extreme climate events impact marine habitat forming communities along 45% of Australia's coast. Frontiers in Marine Science, 6, 411. 10.3389/fmars.2019.00411
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2019.00411"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Frontiers in Marine Science&amp;title=Severe continental‐scale impacts of climate change are happening now: Extreme climate events impact marine habitat forming communities along 45% of Australia's coast&amp;author=R. C. Babcock&amp;author=R. H. Bustamante&amp;author=E. A. Fulton&amp;author=D. J. Fulton&amp;author=M. D. E. Haywood&amp;volume=6&amp;publication_year=2019&amp;pages=411&amp;doi=10.3389/fmars.2019.00411&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0003"><mixed-citation id="ece310304-cit-0003"><named-content content-type="citation-string">
+
+Barbier, E. B.
+, 
+Hacker, S. D.
+, 
+Kennedy, C.
+, 
+Koch, E. W.
+, 
+Stier, A. C.
+, &amp; 
+Silliman, B. R.
+ (2011). The value of estuarine and coastal ecosystem services. Ecological Monographs, 81(2), 169–193. 10.1890/10-1510.1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1890/10-1510.1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecological Monographs&amp;title=The value of estuarine and coastal ecosystem services&amp;author=E. B. Barbier&amp;author=S. D. Hacker&amp;author=C. Kennedy&amp;author=E. W. Koch&amp;author=A. C. Stier&amp;volume=81&amp;issue=2&amp;publication_year=2011&amp;pages=169-193&amp;doi=10.1890/10-1510.1&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0004"><mixed-citation id="ece310304-cit-0004"><named-content content-type="citation-string">
+
+Bass, A. V.
+, 
+Smith, K. E.
+, &amp; 
+Smale, D. A.
+ (2023). Marine heatwaves and decreased light availability interact to erode the ecophysiological performance of habitat‐forming kelp species. Journal of Phycology, 59, 481–495. 10.1111/jpy.13332
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/jpy.13332"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36964952"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Phycology&amp;title=Marine heatwaves and decreased light availability interact to erode the ecophysiological performance of habitat‐forming kelp species&amp;author=A. V. Bass&amp;author=K. E. Smith&amp;author=D. A. Smale&amp;volume=59&amp;publication_year=2023&amp;pages=481-495&amp;pmid=36964952&amp;doi=10.1111/jpy.13332&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0005"><mixed-citation id="ece310304-cit-0005"><named-content content-type="citation-string">
+
+Bates, D.
+, 
+Mächler, M.
+, 
+Bolker, B.
+, &amp; 
+Walker, S.
+ (2015). Fitting linear mixed‐effects models using lme4. Journal of Statistical Software, 67, 1–48. 10.18637/jss.v067.i01
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.18637/jss.v067.i01"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Statistical Software&amp;title=Fitting linear mixed‐effects models using lme4&amp;author=D. Bates&amp;author=M. Mächler&amp;author=B. Bolker&amp;author=S. Walker&amp;volume=67&amp;publication_year=2015&amp;pages=1-48&amp;doi=10.18637/jss.v067.i01&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0006"><mixed-citation id="ece310304-cit-0006"><named-content content-type="citation-string">
+
+Bendell, B. E.
+ (2009). Interactions amongst invertebrates, epiphytes, and seagrasses in tropical intertidal meadows (Unpublished PhD thesis). James Cook University.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Interactions amongst invertebrates, epiphytes, and seagrasses in tropical intertidal meadows&amp;author=B. E. Bendell&amp;publication_year=2009&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0007"><mixed-citation id="ece310304-cit-0007"><named-content content-type="citation-string">
+
+Bennett, S.
+, 
+Alcoverro, T.
+, 
+Kletou, D.
+, 
+Antoniou, C.
+, 
+Boada, J.
+, 
+Buñuel, X.
+, 
+Cucala, L.
+, 
+Jorda, G.
+, 
+Kleitou, P.
+, 
+Roca, G.
+, &amp; 
+Santana‐Garcon, J.
+ (2022). Resilience of seagrass populations to thermal stress does not reflect regional differences in ocean climate. The New Phytologist, 233(4), 1657–1666.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/nph.17885"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9299911"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34843111"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=The New Phytologist&amp;title=Resilience of seagrass populations to thermal stress does not reflect regional differences in ocean climate&amp;author=S. Bennett&amp;author=T. Alcoverro&amp;author=D. Kletou&amp;author=C. Antoniou&amp;author=J. Boada&amp;volume=233&amp;issue=4&amp;publication_year=2022&amp;pages=1657-1666&amp;pmid=34843111&amp;doi=10.1111/nph.17885&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0008"><mixed-citation id="ece310304-cit-0008"><named-content content-type="citation-string">
+
+Bjorndal, K. A.
+ (1980). Nutrition and grazing behavior of the green turtle <italic>Chelonia mydas</italic>
+. Marine Biology, 56, 147–154. 10.1007/BF00397131
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/BF00397131"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Biology&amp;title=Nutrition and grazing behavior of the green turtle Chelonia mydas&amp;author=K. A. Bjorndal&amp;volume=56&amp;publication_year=1980&amp;pages=147-154&amp;doi=10.1007/BF00397131&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0009"><mixed-citation id="ece310304-cit-0009"><named-content content-type="citation-string">
+
+Brodersen, K.
+, 
+Lichtenberg, M.
+, 
+Paz, L.‐C.
+, &amp; 
+Kühl, M.
+ (2015). Epiphyte‐cover on seagrass (<italic>Zostera marina</italic> L.) leaves impedes plant performance and radial O<sub>2</sub> loss from the below‐ground tissue. Frontiers in Marine Science, 2, 58. 10.3389/fmars.2015.00058
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2015.00058"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Frontiers in Marine Science&amp;title=Epiphyte‐cover on seagrass (Zostera marina L.) leaves impedes plant performance and radial O2 loss from the below‐ground tissue&amp;author=K. Brodersen&amp;author=M. Lichtenberg&amp;author=L.‐C. Paz&amp;author=M. Kühl&amp;volume=2&amp;publication_year=2015&amp;pages=58&amp;doi=10.3389/fmars.2015.00058&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0010"><mixed-citation id="ece310304-cit-0010"><named-content content-type="citation-string">
+
+Brown, M. B.
+, &amp; 
+Forsythe, A. B.
+ (1974). Robust tests for the equality of variances. Journal of the American Statistical Association, 69(346), 364–367. 10.1080/01621459.1974.10482955
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1080/01621459.1974.10482955"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of the American Statistical Association&amp;title=Robust tests for the equality of variances&amp;author=M. B. Brown&amp;author=A. B. Forsythe&amp;volume=69&amp;issue=346&amp;publication_year=1974&amp;pages=364-367&amp;doi=10.1080/01621459.1974.10482955&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0011"><mixed-citation id="ece310304-cit-0011"><named-content content-type="citation-string">
+
+Campbell, S. J.
+, 
+McKenzie, L. J.
+, &amp; 
+Kerville, S. P.
+ (2006). Photosynthetic responses of seven tropical seagrasses to elevated seawater temperature. Journal of Experimental Marine Biology and Ecology, 330, 455–468. 10.1016/j.jembe.2005.09.017
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jembe.2005.09.017"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Experimental Marine Biology and Ecology&amp;title=Photosynthetic responses of seven tropical seagrasses to elevated seawater temperature&amp;author=S. J. Campbell&amp;author=L. J. McKenzie&amp;author=S. P. Kerville&amp;volume=330&amp;publication_year=2006&amp;pages=455-468&amp;doi=10.1016/j.jembe.2005.09.017&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0012"><mixed-citation id="ece310304-cit-0012"><named-content content-type="citation-string">
+
+Chefaoui, R.
+, 
+Duarte, C.
+, &amp; 
+Serrao, E.
+ (2018). Dramatic loss of seagrass habitat under projected climate change in the Mediterranean Sea. Global Change Biology, 24, 4919–4928. 10.1111/gcb.14401
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.14401"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30006980"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Change Biology&amp;title=Dramatic loss of seagrass habitat under projected climate change in the Mediterranean Sea&amp;author=R. Chefaoui&amp;author=C. Duarte&amp;author=E. Serrao&amp;volume=24&amp;publication_year=2018&amp;pages=4919-4928&amp;pmid=30006980&amp;doi=10.1111/gcb.14401&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0013"><mixed-citation id="ece310304-cit-0013"><named-content content-type="citation-string">
+
+Costanza, R.
+, 
+de Groot, R.
+, 
+Sutton, P.
+, 
+van der Ploeg, S.
+, 
+Anderson, S. J.
+, 
+Kubiszewski, I.
+, 
+Farber, S.
+, &amp; 
+Turner, R. K.
+ (2014). Changes in the global value of ecosystem services. Global Environmental Change, 26, 152–158. 10.1016/j.gloenvcha.2014.04.002
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.gloenvcha.2014.04.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Environmental Change&amp;title=Changes in the global value of ecosystem services&amp;author=R. Costanza&amp;author=R. de Groot&amp;author=P. Sutton&amp;author=S. van der Ploeg&amp;author=S. J. Anderson&amp;volume=26&amp;publication_year=2014&amp;pages=152-158&amp;doi=10.1016/j.gloenvcha.2014.04.002&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0014"><mixed-citation id="ece310304-cit-0014"><named-content content-type="citation-string">
+
+Deguette, A.
+, 
+Barrote, I.
+, &amp; 
+Silva, J.
+ (2022). Physiological and morphological effects of a marine heatwave on the seagrass <italic>Cymodocea nodosa</italic>
+. Scientific Reports, 12(1), 1–13. 10.1038/s41598-022-12102-x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-022-12102-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9106744"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35562537"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Physiological and morphological effects of a marine heatwave on the seagrass Cymodocea nodosa&amp;author=A. Deguette&amp;author=I. Barrote&amp;author=J. Silva&amp;volume=12&amp;issue=1&amp;publication_year=2022&amp;pages=1-13&amp;pmid=35562537&amp;doi=10.1038/s41598-022-12102-x&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0015"><mixed-citation id="ece310304-cit-0015"><named-content content-type="citation-string">
+
+Den Hartog, C.
+ (1970). The sea‐grasses of the world. North‐Holland.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=The sea‐grasses of the world&amp;author=C. Den Hartog&amp;publication_year=1970&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0016"><mixed-citation id="ece310304-cit-0016"><named-content content-type="citation-string">
+
+Duarte, C. M.
+ (2002). The future of seagrass meadows. Environmental Conservation, 29, 192–206. 10.1017/S0376892902000127
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1017/S0376892902000127"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Conservation&amp;title=The future of seagrass meadows&amp;author=C. M. Duarte&amp;volume=29&amp;publication_year=2002&amp;pages=192-206&amp;doi=10.1017/S0376892902000127&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0017"><mixed-citation id="ece310304-cit-0017"><named-content content-type="citation-string">
+
+Duarte, C. M.
+, &amp; 
+Cebrián, J.
+ (1996). The fate of marine autotrophic production. Limnology and Oceanography, 41, 1758–1766. 10.4319/lo.1996.41.8.1758
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4319/lo.1996.41.8.1758"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Limnology and Oceanography&amp;title=The fate of marine autotrophic production&amp;author=C. M. Duarte&amp;author=J. Cebrián&amp;volume=41&amp;publication_year=1996&amp;pages=1758-1766&amp;doi=10.4319/lo.1996.41.8.1758&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0018"><mixed-citation id="ece310304-cit-0018"><named-content content-type="citation-string">
+
+Duarte, C. M.
+, &amp; 
+Chiscano, C. L.
+ (1999). Seagrass biomass and production: A reassessment. Aquatic Botany, 65, 159–174. 10.1016/S0304-3770(99)00038-8
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0304-3770(99)00038-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Aquatic Botany&amp;title=Seagrass biomass and production: A reassessment&amp;author=C. M. Duarte&amp;author=C. L. Chiscano&amp;volume=65&amp;publication_year=1999&amp;pages=159-174&amp;doi=10.1016/S0304-3770(99)00038-8&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0019"><mixed-citation id="ece310304-cit-0019"><named-content content-type="citation-string">
+
+Duffy, J. E.
+, 
+Macdonald, K. S.
+, 
+Rhode, J. M.
+, &amp; 
+Parker, J. D.
+ (2001). Grazer diversity, functional redundancy, and productivity in seagrass beds: An experimental test. Ecology, 82, 2417–2434. 10.1890/0012-9658(2001)082[2417:GDFRAP]2.0.CO;2
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1890/0012-9658(2001)082[2417:GDFRAP]2.0.CO;2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecology&amp;title=Grazer diversity, functional redundancy, and productivity in seagrass beds: An experimental test&amp;author=J. E. Duffy&amp;author=K. S. Macdonald&amp;author=J. M. Rhode&amp;author=J. D. Parker&amp;volume=82&amp;publication_year=2001&amp;pages=2417-2434&amp;doi=10.1890/0012-9658(2001)082[2417:GDFRAP]2.0.CO;2&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0020"><mixed-citation id="ece310304-cit-0020"><named-content content-type="citation-string">
+
+Ebrahim, A.
+, 
+Olds, A. D.
+, 
+Maxwell, P. S.
+, 
+Pitt, K. A.
+, 
+Burfeind, D. D.
+, &amp; 
+Connolly, R. M.
+ (2014). Herbivory in a subtropical seagrass ecosystem: Separating the functional role of different grazers. Marine Ecology Progress Series, 511, 83–91. 10.3354/meps10901
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps10901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology Progress Series&amp;title=Herbivory in a subtropical seagrass ecosystem: Separating the functional role of different grazers&amp;author=A. Ebrahim&amp;author=A. D. Olds&amp;author=P. S. Maxwell&amp;author=K. A. Pitt&amp;author=D. D. Burfeind&amp;volume=511&amp;publication_year=2014&amp;pages=83-91&amp;doi=10.3354/meps10901&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0021"><mixed-citation id="ece310304-cit-0021"><named-content content-type="citation-string">
+
+Egea, L. G.
+, 
+Jiménez–Ramos, R.
+, 
+Hernández, I.
+, &amp; 
+Brun, F. G.
+ (2019). Effect of in situ short–term temperature increase on carbon metabolism and dissolved organic carbon (DOC) fluxes in a community dominated by the seagrass <italic>Cymodocea nodosa</italic>
+. PLoS One, 14, e0210386. 10.1371/journal.pone.0210386
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0210386"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6331083"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30640926"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Effect of in situ short–term temperature increase on carbon metabolism and dissolved organic carbon (DOC) fluxes in a community dominated by the seagrass Cymodocea nodosa&amp;author=L. G. Egea&amp;author=R. Jiménez–Ramos&amp;author=I. Hernández&amp;author=F. G. Brun&amp;volume=14&amp;publication_year=2019&amp;pages=e0210386&amp;pmid=30640926&amp;doi=10.1371/journal.pone.0210386&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0022"><mixed-citation id="ece310304-cit-0022"><named-content content-type="citation-string">
+
+Erftemeijer, P. L.
+, &amp; 
+Stapel, J.
+ (1999). Primary production of deep‐water <italic>Halophila ovalis</italic> meadows. Aquatic Botany, 65(1–4), 71–82. 10.1016/S0304-3770(99)00032-7
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0304-3770(99)00032-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Aquatic Botany&amp;title=Primary production of deep‐water Halophila ovalis meadows&amp;author=P. L. Erftemeijer&amp;author=J. Stapel&amp;volume=65&amp;issue=1–4&amp;publication_year=1999&amp;pages=71-82&amp;doi=10.1016/S0304-3770(99)00032-7&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0023"><mixed-citation id="ece310304-cit-0023"><named-content content-type="citation-string">
+
+Fong, J. M.
+, 
+Lai, S.
+, 
+Yaakub, S. M.
+, 
+Ow, Y. X.
+, &amp; 
+Todd, P. A.
+ (2018). The diet and feeding rates of gastropod grazers in Singapore's seagrass meadows. Botanica Marina, 61, 181–192. 10.1515/bot-2017-0091
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1515/bot-2017-0091"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Botanica Marina&amp;title=The diet and feeding rates of gastropod grazers in Singapore's seagrass meadows&amp;author=J. M. Fong&amp;author=S. Lai&amp;author=S. M. Yaakub&amp;author=Y. X. Ow&amp;author=P. A. Todd&amp;volume=61&amp;publication_year=2018&amp;pages=181-192&amp;doi=10.1515/bot-2017-0091&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0024"><mixed-citation id="ece310304-cit-0024"><named-content content-type="citation-string">
+
+Fong, T. C.
+ (2000). Conservation and management of Hong Kong seagrasses. In Morton B. (Ed.), Asian marine biology (Vol. 16). Hong Kong University Press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Asian marine biology&amp;author=T. C. Fong&amp;publication_year=2000&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0025"><mixed-citation id="ece310304-cit-0025"><named-content content-type="citation-string">
+
+Fox, J.
+, &amp; 
+Weisberg, S.
+ (2011). An R companion to applied regression. SAGE Publications.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=An R companion to applied regression&amp;author=J. Fox&amp;author=S. Weisberg&amp;publication_year=2011&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0026"><mixed-citation id="ece310304-cit-0026"><named-content content-type="citation-string">
+
+Fraser, M. W.
+, 
+Kendrick, G. A.
+, 
+Statton, J.
+, 
+Hovey, R. K.
+, 
+Zavala‐Perez, A.
+, &amp; 
+Walker, D. I.
+ (2014). Extreme climate events lower resilience of foundation seagrass at edge of biogeographical range. Journal of Ecology, 102(6), 1528–1536.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Ecology&amp;title=Extreme climate events lower resilience of foundation seagrass at edge of biogeographical range&amp;author=M. W. Fraser&amp;author=G. A. Kendrick&amp;author=J. Statton&amp;author=R. K. Hovey&amp;author=A. Zavala‐Perez&amp;volume=102&amp;issue=6&amp;publication_year=2014&amp;pages=1528-1536&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0027"><mixed-citation id="ece310304-cit-0027"><named-content content-type="citation-string">
+
+Frölicher, T. L.
+, 
+Fischer, E. M.
+, &amp; 
+Gruber, N.
+ (2018). Marine heatwaves under global warming. Nature, 560, 360–364. 10.1038/s41586-018-0383-9
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-018-0383-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30111788"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Marine heatwaves under global warming&amp;author=T. L. Frölicher&amp;author=E. M. Fischer&amp;author=N. Gruber&amp;volume=560&amp;publication_year=2018&amp;pages=360-364&amp;pmid=30111788&amp;doi=10.1038/s41586-018-0383-9&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0028"><mixed-citation id="ece310304-cit-0028"><named-content content-type="citation-string">
+
+Green, E. P.
+, &amp; 
+Short, F. T.
+ (Eds.). (2003). World atlas of seagrasses. University of California Press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=World atlas of seagrasses&amp;publication_year=2003&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0029"><mixed-citation id="ece310304-cit-0029"><named-content content-type="citation-string">
+
+Gullström, M.
+, 
+Lyimo, L. D.
+, 
+Dahl, M.
+, 
+Samuelsson, G. S.
+, 
+Eggertsen, M.
+, 
+Anderberg, E.
+, 
+Rasmusson, L. M.
+, 
+Linderholm, H. W.
+, 
+Knudby, A.
+, 
+Bandeira, S.
+, 
+Nordlund, L. M.
+, &amp; 
+Björk, M.
+ (2018). Blue carbon storage in tropical seagrass meadows relates to carbonate stock dynamics, plant–sediment processes, and landscape context: Insights from the western Indian Ocean. Ecosystems, 21, 551–566. 10.1007/s10021-017-0170-8
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10021-017-0170-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecosystems&amp;title=Blue carbon storage in tropical seagrass meadows relates to carbonate stock dynamics, plant–sediment processes, and landscape context: Insights from the western Indian Ocean&amp;author=M. Gullström&amp;author=L. D. Lyimo&amp;author=M. Dahl&amp;author=G. S. Samuelsson&amp;author=M. Eggertsen&amp;volume=21&amp;publication_year=2018&amp;pages=551-566&amp;doi=10.1007/s10021-017-0170-8&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0030"><mixed-citation id="ece310304-cit-0030"><named-content content-type="citation-string">
+
+Heck, K. L.
+, 
+Carruthers, T. J.
+, 
+Duarte, C. M.
+, 
+Hughes, A. R.
+, 
+Kendrick, G.
+, 
+Orth, R. J.
+, &amp; 
+Williams, S. W.
+ (2008). Trophic transfers from seagrass meadows subsidize diverse marine and terrestrial consumers. Ecosystems, 11, 1198–1210. 10.1007/s10021-008-9155-y
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10021-008-9155-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecosystems&amp;title=Trophic transfers from seagrass meadows subsidize diverse marine and terrestrial consumers&amp;author=K. L. Heck&amp;author=T. J. Carruthers&amp;author=C. M. Duarte&amp;author=A. R. Hughes&amp;author=G. Kendrick&amp;volume=11&amp;publication_year=2008&amp;pages=1198-1210&amp;doi=10.1007/s10021-008-9155-y&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0031"><mixed-citation id="ece310304-cit-0031"><named-content content-type="citation-string">
+
+Hobday, A. J.
+, 
+Alexander, L. V.
+, 
+Perkins, S. E.
+, 
+Smale, D. A.
+, 
+Straub, S. C.
+, 
+Oliver, E. C. J.
+, 
+Benthuysen, J. A.
+, 
+Burrows, M. T.
+, 
+Donat, M. G.
+, 
+Feng, M.
+, 
+Holbrook, N. J.
+, 
+Moore, P. J.
+, 
+Scannell, H. A.
+, 
+Sen Gupta, A.
+, &amp; 
+Wernberg, T.
+ (2016). A hierarchical approach to defining marine heatwaves. Progress in Oceanography, 141, 227–238. 10.1016/j.pocean.2015.12.014
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.pocean.2015.12.014"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Progress in Oceanography&amp;title=A hierarchical approach to defining marine heatwaves&amp;author=A. J. Hobday&amp;author=L. V. Alexander&amp;author=S. E. Perkins&amp;author=D. A. Smale&amp;author=S. C. Straub&amp;volume=141&amp;publication_year=2016&amp;pages=227-238&amp;doi=10.1016/j.pocean.2015.12.014&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0032"><mixed-citation id="ece310304-cit-0032"><named-content content-type="citation-string">
+
+Hobday, A. J.
+, 
+Oliver, E. C.
+, 
+Gupta, A. S.
+, 
+Benthuysen, J. A.
+, 
+Burrows, M. T.
+, 
+Donat, M. G.
+, 
+Holbrook, N. J.
+, 
+Moore, P. J.
+, 
+Thomsen, M. S.
+, 
+Wernberg, T.
+, &amp; 
+Smale, D. A.
+ (2018). Categorizing and naming marine heatwaves. Oceanography, 31(2), 162–173.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Oceanography&amp;title=Categorizing and naming marine heatwaves&amp;author=A. J. Hobday&amp;author=E. C. Oliver&amp;author=A. S. Gupta&amp;author=J. A. Benthuysen&amp;author=M. T. Burrows&amp;volume=31&amp;issue=2&amp;publication_year=2018&amp;pages=162-173&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0033"><mixed-citation id="ece310304-cit-0033"><named-content content-type="citation-string">
+Hong Kong Herbarium
+. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.herbarium.gov.hk/en/hk-plant-database/plant-detail/index.html?pType=species%26oID=9183" ext-link-type="uri">https://www.herbarium.gov.hk/en/hk‐plant‐database/plant‐detail/index.html?pType=species&amp;oID=9183</ext-link>
+</named-content></mixed-citation></ref><ref id="ece310304-bib-0034"><mixed-citation id="ece310304-cit-0034"><named-content content-type="citation-string">
+
+Hovey, R. K.
+, 
+Cambridge, M. L.
+, &amp; 
+Kendrick, G. A.
+ (2012). Season and sediment nutrient additions affect root architecture in the temperate seagrasses <italic>Posidonia australis</italic> and <italic>P. sinuosa</italic>
+. Marine Ecology Progress Series, 446, 23–30.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology Progress Series&amp;title=Season and sediment nutrient additions affect root architecture in the temperate seagrasses Posidonia australis and P. sinuosa&amp;author=R. K. Hovey&amp;author=M. L. Cambridge&amp;author=G. A. Kendrick&amp;volume=446&amp;publication_year=2012&amp;pages=23-30&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0035"><mixed-citation id="ece310304-cit-0035"><named-content content-type="citation-string">
+
+Jiang, Z.
+, 
+Cui, L.
+, 
+Liu, S.
+, 
+Zhao, C.
+, 
+Wu, Y.
+, 
+Chen, Q.
+, 
+Yu, S.
+, 
+Li, J.
+, 
+He, J.
+, 
+Fang, Y.
+, &amp; 
+Ranvilage, C. I. P. M.
+ (2020). Historical changes in seagrass beds in a rapidly urbanizing area of Guangdong Province: Implications for conservation and management. Global Ecology and Conservation, 22, e01035. 10.1016/j.gecco.2020.e01035
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.gecco.2020.e01035"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Ecology and Conservation&amp;title=Historical changes in seagrass beds in a rapidly urbanizing area of Guangdong Province: Implications for conservation and management&amp;author=Z. Jiang&amp;author=L. Cui&amp;author=S. Liu&amp;author=C. Zhao&amp;author=Y. Wu&amp;volume=22&amp;publication_year=2020&amp;pages=e01035&amp;doi=10.1016/j.gecco.2020.e01035&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0036"><mixed-citation id="ece310304-cit-0036"><named-content content-type="citation-string">
+
+Jiang, Z.
+, 
+Zhao, C.
+, 
+Yu, S.
+, 
+Liu, S.
+, 
+Cui, L.
+, 
+Wu, Y.
+, 
+Fang, Y.
+, &amp; 
+Huang, X.
+ (2019). Contrasting root length, nutrient content and carbon sequestration of seagrass growing in offshore carbonate and onshore terrigenous sediments in the South China Sea. Science of the Total Environment, 662, 151–159.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2019.01.175"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30690350"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science of the Total Environment&amp;title=Contrasting root length, nutrient content and carbon sequestration of seagrass growing in offshore carbonate and onshore terrigenous sediments in the South China Sea&amp;author=Z. Jiang&amp;author=C. Zhao&amp;author=S. Yu&amp;author=S. Liu&amp;author=L. Cui&amp;volume=662&amp;publication_year=2019&amp;pages=151-159&amp;pmid=30690350&amp;doi=10.1016/j.scitotenv.2019.01.175&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0037"><mixed-citation id="ece310304-cit-0037"><named-content content-type="citation-string">
+
+Kelaher, B. P.
+, 
+Coleman, M. A.
+, &amp; 
+Bishop, M. J.
+ (2018). Ocean warming, but not acidification, accelerates seagrass decomposition under near‐future climate scenarios. Marine Ecology Progress Series, 605, 103–110.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology Progress Series&amp;title=Ocean warming, but not acidification, accelerates seagrass decomposition under near‐future climate scenarios&amp;author=B. P. Kelaher&amp;author=M. A. Coleman&amp;author=M. J. Bishop&amp;volume=605&amp;publication_year=2018&amp;pages=103-110&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0038"><mixed-citation id="ece310304-cit-0038"><named-content content-type="citation-string">
+
+Kendrick, G. A.
+, 
+Nowicki, R. J.
+, 
+Olsen, Y. S.
+, 
+Strydom, S.
+, 
+Fraser, M. W.
+, 
+Sinclair, E. A.
+, 
+Statton, J.
+, 
+Hovey, R. K.
+, 
+Thomson, J. A.
+, 
+Burkholder, D. A.
+, 
+McMahon, K. M.
+, 
+Kilminster, K.
+, 
+Hetzel, Y.
+, 
+Fourqurean, J. W.
+, 
+Heithaus, M. R.
+, &amp; 
+Orth, R. J.
+ (2019). A systematic review of how multiple stressors from an extreme event drove ecosystem‐wide loss of resilience in an iconic seagrass community. Frontiers in Marine Science, 6, 455. 10.3389/fmars.2019.00455
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2019.00455"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Frontiers in Marine Science&amp;title=A systematic review of how multiple stressors from an extreme event drove ecosystem‐wide loss of resilience in an iconic seagrass community&amp;author=G. A. Kendrick&amp;author=R. J. Nowicki&amp;author=Y. S. Olsen&amp;author=S. Strydom&amp;author=M. W. Fraser&amp;volume=6&amp;publication_year=2019&amp;pages=455&amp;doi=10.3389/fmars.2019.00455&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0039"><mixed-citation id="ece310304-cit-0039"><named-content content-type="citation-string">
+
+Klumpp, D. W.
+, 
+Salita‐Espinosa, J. S.
+, &amp; 
+Fortes, M. D.
+ (1992). The role of epiphytic periphyton and macroinvertebrate grazers in the trophic flux of a tropical seagrass community. Aquatic Botany, 43, 327–349. 10.1016/0304-3770(92)90046-L
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0304-3770(92)90046-L"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Aquatic Botany&amp;title=The role of epiphytic periphyton and macroinvertebrate grazers in the trophic flux of a tropical seagrass community&amp;author=D. W. Klumpp&amp;author=J. S. Salita‐Espinosa&amp;author=M. D. Fortes&amp;volume=43&amp;publication_year=1992&amp;pages=327-349&amp;doi=10.1016/0304-3770(92)90046-L&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0040"><mixed-citation id="ece310304-cit-0040"><named-content content-type="citation-string">
+
+Kwan, B. K. Y.
+, 
+Hsieh, H.‐L.
+, 
+Cheung, S. G.
+, &amp; 
+Shin, P. K. S.
+ (2016). Present population and habitat status of potentially threatened Asian horseshoe crabs <italic>Tachypleus tridentatus</italic> and <italic>Carcinoscorpius rotundicauda</italic> in Hong Kong: A proposal for marine protected areas. Biodiversity and Conservation, 25, 673–692. 10.1007/s10531-016-1084-z
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10531-016-1084-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biodiversity and Conservation&amp;title=Present population and habitat status of potentially threatened Asian horseshoe crabs Tachypleus tridentatus and Carcinoscorpius rotundicauda in Hong Kong: A proposal for marine protected areas&amp;author=B. K. Y. Kwan&amp;author=H.‐L. Hsieh&amp;author=S. G. Cheung&amp;author=P. K. S. Shin&amp;volume=25&amp;publication_year=2016&amp;pages=673-692&amp;doi=10.1007/s10531-016-1084-z&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0041"><mixed-citation id="ece310304-cit-0041"><named-content content-type="citation-string">
+
+Lai, R. W. S.
+, 
+Perkins, M. J.
+, 
+Ho, K. K. Y.
+, 
+Astudillo, J. C.
+, 
+Yung, M. M. N.
+, 
+Russell, B. D.
+, 
+Williams, G. A.
+, &amp; 
+Leung, K. M. Y.
+ (2016). Hong Kong's marine environments: History, challenges and opportunities. Regional Studies in Marine Science. Special Issue on the World Harbour Project – Global harbours and ports: Different locations, similar problems? 8, 259–273. 10.1016/j.rsma.2016.09.001
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.rsma.2016.09.001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Regional Studies in Marine Science&amp;title=Hong Kong's marine environments: History, challenges and opportunities&amp;author=R. W. S. Lai&amp;author=M. J. Perkins&amp;author=K. K. Y. Ho&amp;author=J. C. Astudillo&amp;author=M. M. N. Yung&amp;volume=8&amp;publication_year=2016&amp;pages=259-273&amp;doi=10.1016/j.rsma.2016.09.001&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0042"><mixed-citation id="ece310304-cit-0042"><named-content content-type="citation-string">
+
+Le Xuan, X. D. T.
+, 
+Phan, T. T. H.
+, 
+Hoang, C. T.
+, 
+Ton, T. P.
+, &amp; 
+Luong, Q. D.
+ (2022). Growth and morphological responses of <italic>Halophila beccarii</italic> to low salinity. HUJOS: Natural Science, 131(1B), 47–57. 10.26459/hueunijns.v131i1B.6452
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.26459/hueunijns.v131i1B.6452"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=HUJOS: Natural Science&amp;title=Growth and morphological responses of Halophila beccarii to low salinity&amp;author=X. D. T. Le Xuan&amp;author=T. T. H. Phan&amp;author=C. T. Hoang&amp;author=T. P. Ton&amp;author=Q. D. Luong&amp;volume=131&amp;issue=1B&amp;publication_year=2022&amp;pages=47-57&amp;doi=10.26459/hueunijns.v131i1B.6452&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0043"><mixed-citation id="ece310304-cit-0043"><named-content content-type="citation-string">
+
+Lee, K.‐S.
+, 
+Park, S. R.
+, &amp; 
+Kim, Y. K.
+ (2007). Effects of irradiance, temperature, and nutrients on growth dynamics of seagrasses: A review. Journal of Experimental Marine Biology and Ecology, 350, 144–175. 10.1016/j.jembe.2007.06.016
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jembe.2007.06.016"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Experimental Marine Biology and Ecology&amp;title=Effects of irradiance, temperature, and nutrients on growth dynamics of seagrasses: A review&amp;author=K.‐S. Lee&amp;author=S. R. Park&amp;author=Y. K. Kim&amp;volume=350&amp;publication_year=2007&amp;pages=144-175&amp;doi=10.1016/j.jembe.2007.06.016&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0044"><mixed-citation id="ece310304-cit-0044"><named-content content-type="citation-string">
+
+Liu, P.‐J.
+, 
+Chang, H.‐F.
+, 
+Mayfield, A. B.
+, &amp; 
+Lin, H.‐J.
+ (2022). Assessing the effects of ocean warming and acidification on the seagrass <italic>Thalassia hemprichii</italic>
+. Journal of Marine Science and Engineering, 10, 714. 10.3390/jmse10060714
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/jmse10060714"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Marine Science and Engineering&amp;title=Assessing the effects of ocean warming and acidification on the seagrass Thalassia hemprichii&amp;author=P.‐J. Liu&amp;author=H.‐F. Chang&amp;author=A. B. Mayfield&amp;author=H.‐J. Lin&amp;volume=10&amp;publication_year=2022&amp;pages=714&amp;doi=10.3390/jmse10060714&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0045"><mixed-citation id="ece310304-cit-0045"><named-content content-type="citation-string">
+
+Luong, C. V.
+, 
+Thao, N. V.
+, 
+Komatsu, T.
+, 
+Ve, N. D.
+, &amp; 
+Tien, D. D.
+ (2012). Status and threats on seagrass beds using GIS in Vietnam. In Remote sensing of the marine environment II (pp. 214–226). SPIE. 10.1117/12.977277
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1117/12.977277"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Remote sensing of the marine environment II&amp;author=C. V. Luong&amp;author=N. V. Thao&amp;author=T. Komatsu&amp;author=N. D. Ve&amp;author=D. D. Tien&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0046"><mixed-citation id="ece310304-cit-0046"><named-content content-type="citation-string">
+
+Marbà, N.
+, 
+Díaz‐Almela, E.
+, &amp; 
+Duarte, C. M.
+ (2014). Mediterranean seagrass (<italic>Posidonia oceanica</italic>) loss between 1842 and 2009. Biological Conservation, 176, 183–190. 10.1016/j.biocon.2014.05.024
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.biocon.2014.05.024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biological Conservation&amp;title=Mediterranean seagrass (Posidonia oceanica) loss between 1842 and 2009&amp;author=N. Marbà&amp;author=E. Díaz‐Almela&amp;author=C. M. Duarte&amp;volume=176&amp;publication_year=2014&amp;pages=183-190&amp;doi=10.1016/j.biocon.2014.05.024&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0047"><mixed-citation id="ece310304-cit-0047"><named-content content-type="citation-string">
+
+Marbà, N.
+, &amp; 
+Duarte, C.
+ (1998). Rhizome elongation and seagrass clonal growth. Marine Ecology Progress Series, 174, 269–280. 10.3354/meps174269
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps174269"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology Progress Series&amp;title=Rhizome elongation and seagrass clonal growth&amp;author=N. Marbà&amp;author=C. Duarte&amp;volume=174&amp;publication_year=1998&amp;pages=269-280&amp;doi=10.3354/meps174269&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0048"><mixed-citation id="ece310304-cit-0048"><named-content content-type="citation-string">
+
+Marbà, N.
+, &amp; 
+Duarte, C. M.
+ (2010). Mediterranean warming triggers seagrass (<italic>Posidonia oceanica</italic>) shoot mortality. Global Change Biology, 16, 2366–2375. 10.1111/j.1365-2486.2009.02130.x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1365-2486.2009.02130.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Change Biology&amp;title=Mediterranean warming triggers seagrass (Posidonia oceanica) shoot mortality&amp;author=N. Marbà&amp;author=C. M. Duarte&amp;volume=16&amp;publication_year=2010&amp;pages=2366-2375&amp;doi=10.1111/j.1365-2486.2009.02130.x&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0049"><mixed-citation id="ece310304-cit-0049"><named-content content-type="citation-string">
+
+Marsh, H.
+, 
+Channells, P. W.
+, 
+Heinsohn, G. E.
+, &amp; 
+Morrissey, J.
+ (1982). Analysis of stomach contents of dugongs from Queensland. Wildlife Research, 9, 55–67. 10.1071/wr9820055
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1071/wr9820055"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Wildlife Research&amp;title=Analysis of stomach contents of dugongs from Queensland&amp;author=H. Marsh&amp;author=P. W. Channells&amp;author=G. E. Heinsohn&amp;author=J. Morrissey&amp;volume=9&amp;publication_year=1982&amp;pages=55-67&amp;doi=10.1071/wr9820055&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0050"><mixed-citation id="ece310304-cit-0050"><named-content content-type="citation-string">
+
+McKenzie, L. J.
+, 
+Nordlund, L. M.
+, 
+Jones, B. L.
+, 
+Cullen‐Unsworth, L. C.
+, 
+Roelfsema, C.
+, &amp; 
+Unsworth, R. K.
+ (2020). The global distribution of seagrass meadows. Environmental Research Letters, 15(7), 074041. 10.1088/1748-9326/ab7d06/meta
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/1748-9326/ab7d06/meta"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research Letters&amp;title=The global distribution of seagrass meadows&amp;author=L. J. McKenzie&amp;author=L. M. Nordlund&amp;author=B. L. Jones&amp;author=L. C. Cullen‐Unsworth&amp;author=C. Roelfsema&amp;volume=15&amp;issue=7&amp;publication_year=2020&amp;pages=074041&amp;doi=10.1088/1748-9326/ab7d06/meta&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0051"><mixed-citation id="ece310304-cit-0051"><named-content content-type="citation-string">
+
+Minuti, J. J.
+, 
+Byrne, M.
+, 
+Hemraj, D. A.
+, &amp; 
+Russell, B. D.
+ (2021). Capacity of an ecologically key urchin to recover from extreme events: Physiological impacts of heatwaves and the road to recovery. Science of the Total Environment, 785, 147281. 10.1016/j.scitotenv.2021.147281
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2021.147281"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33933766"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science of the Total Environment&amp;title=Capacity of an ecologically key urchin to recover from extreme events: Physiological impacts of heatwaves and the road to recovery&amp;author=J. J. Minuti&amp;author=M. Byrne&amp;author=D. A. Hemraj&amp;author=B. D. Russell&amp;volume=785&amp;publication_year=2021&amp;pages=147281&amp;pmid=33933766&amp;doi=10.1016/j.scitotenv.2021.147281&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0052"><mixed-citation id="ece310304-cit-0052"><named-content content-type="citation-string">
+
+Morton, B.
+, &amp; 
+Morton, J.
+ (1983). The sea shore ecology of Hong Kong. Hong Kong University Press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=The sea shore ecology of Hong Kong&amp;author=B. Morton&amp;author=J. Morton&amp;publication_year=1983&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0053"><mixed-citation id="ece310304-cit-0053"><named-content content-type="citation-string">
+
+Nguyen, H. D.
+, 
+Nguyen, X. H.
+, 
+Pham, H. T.
+, &amp; 
+Nguyen, T. L.
+ (2000). 
+<italic>Seagrass beds along the southern coast of Vietnam and their significance for associated flora and fauna</italic> 13. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://hdl.handle.net/1834/9282" ext-link-type="uri">http://hdl.handle.net/1834/9282</ext-link>
+</named-content></mixed-citation></ref><ref id="ece310304-bib-0054"><mixed-citation id="ece310304-cit-0054"><named-content content-type="citation-string">
+
+Noisette, F.
+, &amp; 
+Hurd, C.
+ (2018). Abiotic and biotic interactions in the diffusive boundary layer of kelp blades create a potential refuge from ocean acidification. Functional Ecology, 32(5), 1329–1342. 10.1111/1365-2435.13067
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1365-2435.13067"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Functional Ecology&amp;title=Abiotic and biotic interactions in the diffusive boundary layer of kelp blades create a potential refuge from ocean acidification&amp;author=F. Noisette&amp;author=C. Hurd&amp;volume=32&amp;issue=5&amp;publication_year=2018&amp;pages=1329-1342&amp;doi=10.1111/1365-2435.13067&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0055"><mixed-citation id="ece310304-cit-0055"><named-content content-type="citation-string">
+
+Nordlund, L. M.
+, 
+Koch, E. W.
+, 
+Barbier, E. B.
+, &amp; 
+Creed, J. C.
+ (2016). Seagrass ecosystem services and their variability across genera and geographical regions. PLoS One, 11(10), e0163091. 10.1371/journal.pone.0163091
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0163091"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5061329"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27732600"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=Seagrass ecosystem services and their variability across genera and geographical regions&amp;author=L. M. Nordlund&amp;author=E. W. Koch&amp;author=E. B. Barbier&amp;author=J. C. Creed&amp;volume=11&amp;issue=10&amp;publication_year=2016&amp;pages=e0163091&amp;pmid=27732600&amp;doi=10.1371/journal.pone.0163091&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0056"><mixed-citation id="ece310304-cit-0056"><named-content content-type="citation-string">
+
+O'Brien, K. R.
+, 
+Waycott, M.
+, 
+Maxwell, P.
+, 
+Kendrick, G. A.
+, 
+Udy, J. W.
+, 
+Ferguson, A. J. P.
+, 
+Kilminster, K.
+, 
+Scanes, P.
+, 
+McKenzie, L. J.
+, 
+McMahon, K.
+, 
+Adams, M. P.
+, 
+Samper‐Villarreal, J.
+, 
+Collier, C.
+, 
+Lyons, M.
+, 
+Mumby, P. J.
+, 
+Radke, L.
+, 
+Christianen, M. J. A.
+, &amp; 
+Dennison, W. C.
+ (2018). Seagrass ecosystem trajectory depends on the relative timescales of resistance, recovery and disturbance. Marine Pollution Bulletin, 134, 166–176. 10.1016/j.marpolbul.2017.09.006
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.marpolbul.2017.09.006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28935363"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Pollution Bulletin&amp;title=Seagrass ecosystem trajectory depends on the relative timescales of resistance, recovery and disturbance&amp;author=K. R. O'Brien&amp;author=M. Waycott&amp;author=P. Maxwell&amp;author=G. A. Kendrick&amp;author=J. W. Udy&amp;volume=134&amp;publication_year=2018&amp;pages=166-176&amp;pmid=28935363&amp;doi=10.1016/j.marpolbul.2017.09.006&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0057"><mixed-citation id="ece310304-cit-0057"><named-content content-type="citation-string">
+
+Oliver, E. C. J.
+, 
+Burrows, M. T.
+, 
+Donat, M. G.
+, 
+Sen Gupta, A.
+, 
+Alexander, L. V.
+, 
+Perkins‐Kirkpatrick, S. E.
+, 
+Benthuysen, J. A.
+, 
+Hobday, A. J.
+, 
+Holbrook, N. J.
+, 
+Moore, P. J.
+, 
+Thomsen, M. S.
+, 
+Wernberg, T.
+, &amp; 
+Smale, D. A.
+ (2019). Projected marine heatwaves in the 21st century and the potential for ecological impact. Frontiers in Marine Science, 6, 734.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Frontiers in Marine Science&amp;title=Projected marine heatwaves in the 21st century and the potential for ecological impact&amp;author=E. C. J. Oliver&amp;author=M. T. Burrows&amp;author=M. G. Donat&amp;author=A. Sen Gupta&amp;author=L. V. Alexander&amp;volume=6&amp;publication_year=2019&amp;pages=734&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0058"><mixed-citation id="ece310304-cit-0058"><named-content content-type="citation-string">
+
+Oliver, E. C. J.
+, 
+Donat, M. G.
+, 
+Burrows, M. T.
+, 
+Moore, P. J.
+, 
+Smale, D. A.
+, 
+Alexander, L. V.
+, 
+Benthuysen, J. A.
+, 
+Feng, M.
+, 
+Sen Gupta, A.
+, 
+Hobday, A. J.
+, 
+Holbrook, N. J.
+, 
+Perkins‐Kirkpatrick, S. E.
+, 
+Scannell, H. A.
+, 
+Straub, S. C.
+, &amp; 
+Wernberg, T.
+ (2018). Longer and more frequent marine heatwaves over the past century. Nature Communications, 9, 1324. 10.1038/s41467-018-03732-9
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-018-03732-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5893591"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29636482"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Communications&amp;title=Longer and more frequent marine heatwaves over the past century&amp;author=E. C. J. Oliver&amp;author=M. G. Donat&amp;author=M. T. Burrows&amp;author=P. J. Moore&amp;author=D. A. Smale&amp;volume=9&amp;publication_year=2018&amp;pages=1324&amp;pmid=29636482&amp;doi=10.1038/s41467-018-03732-9&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0059"><mixed-citation id="ece310304-cit-0059"><named-content content-type="citation-string">
+
+Olsen, Y. S.
+, 
+Sánchez‐Camacho, M.
+, 
+Marbà, N.
+, &amp; 
+Duarte, C. M.
+ (2012). Mediterranean seagrass growth and demography responses to experimental warming. Estuaries and Coasts, 35, 1205–1213. 10.1007/s12237-012-9521-z
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s12237-012-9521-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Estuaries and Coasts&amp;title=Mediterranean seagrass growth and demography responses to experimental warming&amp;author=Y. S. Olsen&amp;author=M. Sánchez‐Camacho&amp;author=N. Marbà&amp;author=C. M. Duarte&amp;volume=35&amp;publication_year=2012&amp;pages=1205-1213&amp;doi=10.1007/s12237-012-9521-z&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0060"><mixed-citation id="ece310304-cit-0060"><named-content content-type="citation-string">
+
+Orth, R. J.
+, 
+Carruthers, T. J. B.
+, 
+Dennison, W. C.
+, 
+Duarte, C. M.
+, 
+Fourqurean, J. W.
+, 
+Heck, K. L.
+, 
+Hughes, A. R.
+, 
+Kendrick, G. A.
+, 
+Kenworthy, W. J.
+, 
+Olyarnik, S.
+, 
+Short, F. T.
+, 
+Waycott, M.
+, &amp; 
+Williams, S. L.
+ (2006). A global crisis for seagrass ecosystems. Bioscience, 56, 987–996. 10.1641/0006-3568(2006)56[987:AGCFSE]2.0.CO;2
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1641/0006-3568(2006)56[987:AGCFSE]2.0.CO;2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioscience&amp;title=A global crisis for seagrass ecosystems&amp;author=R. J. Orth&amp;author=T. J. B. Carruthers&amp;author=W. C. Dennison&amp;author=C. M. Duarte&amp;author=J. W. Fourqurean&amp;volume=56&amp;publication_year=2006&amp;pages=987-996&amp;doi=10.1641/0006-3568(2006)56[987:AGCFSE]2.0.CO;2&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0061"><mixed-citation id="ece310304-cit-0061"><named-content content-type="citation-string">
+
+Orth, R. J.
+, &amp; 
+Van Montfrans, J.
+ (1984). Epiphyte‐seagrass relationships with an emphasis on the role of micrograzing: A review. Aquatic Botany, 18, 43–69. 10.1016/0304-3770(84)90080-9
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0304-3770(84)90080-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Aquatic Botany&amp;title=Epiphyte‐seagrass relationships with an emphasis on the role of micrograzing: A review&amp;author=R. J. Orth&amp;author=J. Van Montfrans&amp;volume=18&amp;publication_year=1984&amp;pages=43-69&amp;doi=10.1016/0304-3770(84)90080-9&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0062"><mixed-citation id="ece310304-cit-0062"><named-content content-type="citation-string">
+
+Pruckner, S.
+, 
+Bedford, J.
+, 
+Murphy, L.
+, 
+Turner, J. A.
+, &amp; 
+Mills, J.
+ (2022). Adapting to heatwave‐induced seagrass loss: Prioritizing management areas through environmental sensitivity mapping. Estuarine, Coastal and Shelf Science, 272, 107857. 10.1016/j.ecss.2022.107857
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ecss.2022.107857"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9189866"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35937418"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Estuarine, Coastal and Shelf Science&amp;title=Adapting to heatwave‐induced seagrass loss: Prioritizing management areas through environmental sensitivity mapping&amp;author=S. Pruckner&amp;author=J. Bedford&amp;author=L. Murphy&amp;author=J. A. Turner&amp;author=J. Mills&amp;volume=272&amp;publication_year=2022&amp;pages=107857&amp;pmid=35937418&amp;doi=10.1016/j.ecss.2022.107857&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0063"><mixed-citation id="ece310304-cit-0063"><named-content content-type="citation-string">
+
+Ralph, P. J.
+ (1998). Photosynthetic response of laboratory‐cultured <italic>Halophila ovalis</italic> to thermal stress. Marine Ecology Progress Series, 171, 123–130. 10.3354/meps171123
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/meps171123"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology Progress Series&amp;title=Photosynthetic response of laboratory‐cultured Halophila ovalis to thermal stress&amp;author=P. J. Ralph&amp;volume=171&amp;publication_year=1998&amp;pages=123-130&amp;doi=10.3354/meps171123&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0064"><mixed-citation id="ece310304-cit-0064"><named-content content-type="citation-string">
+
+Ranjitham, S.
+, 
+Thirumaran, G.
+, 
+Anantharaman, P.
+, 
+Daisy, V.
+, 
+Nightingale, R.
+, &amp; 
+Balasubramanian, R.
+ (2008). Associated fauna of seaweeds and seagrasses in Vellar estuary. American‐Eurasian Journal of Botany, 1, 9–16.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=American‐Eurasian Journal of Botany&amp;title=Associated fauna of seaweeds and seagrasses in Vellar estuary&amp;author=S. Ranjitham&amp;author=G. Thirumaran&amp;author=P. Anantharaman&amp;author=V. Daisy&amp;author=R. Nightingale&amp;volume=1&amp;publication_year=2008&amp;pages=9-16&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0065"><mixed-citation id="ece310304-cit-0065"><named-content content-type="citation-string">
+
+Rasheed, M. A.
+, 
+Dew, K. R.
+, 
+McKenzie, L. J.
+, 
+Coles, R. G.
+, 
+Kerville, S. P.
+, &amp; 
+Campbell, S. J.
+ (2008). Productivity, carbon assimilation and intra‐annual change in tropical reef platform seagrass communities of the Torres Strait, North‐Eastern Australia. Continental Shelf Research, 28, 2292–2303. 10.1016/j.csr.2008.03.026
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.csr.2008.03.026"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Continental Shelf Research&amp;title=Productivity, carbon assimilation and intra‐annual change in tropical reef platform seagrass communities of the Torres Strait, North‐Eastern Australia&amp;author=M. A. Rasheed&amp;author=K. R. Dew&amp;author=L. J. McKenzie&amp;author=R. G. Coles&amp;author=S. P. Kerville&amp;volume=28&amp;publication_year=2008&amp;pages=2292-2303&amp;doi=10.1016/j.csr.2008.03.026&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0066"><mixed-citation id="ece310304-cit-0066"><named-content content-type="citation-string">
+
+Rasmusson, L. M.
+, 
+Buapet, P.
+, 
+George, R.
+, 
+Gullström, M.
+, 
+Gunnarsson, P. C.
+, &amp; 
+Björk, M.
+ (2020). Effects of temperature and hypoxia on respiration, photorespiration, and photosynthesis of seagrass leaves from contrasting temperature regimes. ICES Journal of Marine Science, 77(6), 2056–2065. 10.1093/icesjms/fsaa093
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/icesjms/fsaa093"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ICES Journal of Marine Science&amp;title=Effects of temperature and hypoxia on respiration, photorespiration, and photosynthesis of seagrass leaves from contrasting temperature regimes&amp;author=L. M. Rasmusson&amp;author=P. Buapet&amp;author=R. George&amp;author=M. Gullström&amp;author=P. C. Gunnarsson&amp;volume=77&amp;issue=6&amp;publication_year=2020&amp;pages=2056-2065&amp;doi=10.1093/icesjms/fsaa093&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0067"><mixed-citation id="ece310304-cit-0067"><named-content content-type="citation-string">
+
+Rasmusson, L. M.
+, 
+Nualla‐ong, A.
+, 
+Wutiruk, T.
+, 
+Björk, M.
+, 
+Gullström, M.
+, &amp; 
+Buapet, P.
+ (2021). Sensitivity of photosynthesis to warming in two similar species of the aquatic angiosperm <italic>Ruppia</italic> from tropical and temperate habitats. Sustainability, 13(16), 9433. 10.3390/su13169433
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/su13169433"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sustainability&amp;title=Sensitivity of photosynthesis to warming in two similar species of the aquatic angiosperm Ruppia from tropical and temperate habitats&amp;author=L. M. Rasmusson&amp;author=A. Nualla‐ong&amp;author=T. Wutiruk&amp;author=M. Björk&amp;author=M. Gullström&amp;volume=13&amp;issue=16&amp;publication_year=2021&amp;pages=9433&amp;doi=10.3390/su13169433&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0068"><mixed-citation id="ece310304-cit-0068"><named-content content-type="citation-string">
+
+Repolho, T.
+, 
+Duarte, B.
+, 
+Dionísio, G.
+, 
+Paula, J. R.
+, 
+Lopes, A. R.
+, 
+Rosa, I. C.
+, 
+Grilo, T. F.
+, 
+Caçador, I.
+, 
+Calado, R.
+, &amp; 
+Rosa, R.
+ (2017). Seagrass ecophysiological performance under ocean warming and acidification. Scientific Reports, 7, 41443. 10.1038/srep41443
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/srep41443"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5286439"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28145531"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Seagrass ecophysiological performance under ocean warming and acidification&amp;author=T. Repolho&amp;author=B. Duarte&amp;author=G. Dionísio&amp;author=J. R. Paula&amp;author=A. R. Lopes&amp;volume=7&amp;publication_year=2017&amp;pages=41443&amp;pmid=28145531&amp;doi=10.1038/srep41443&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0069"><mixed-citation id="ece310304-cit-0069"><named-content content-type="citation-string">
+
+Saha, M.
+, 
+Barboza, F. R.
+, 
+Somerfield, P. J.
+, 
+Al‐Janabi, B.
+, 
+Beck, M.
+, 
+Brakel, J.
+, 
+Ito, M.
+, 
+Pansch, C.
+, 
+Nascimento‐Schulze, J. C.
+, 
+Jakobsson Thor, S.
+, &amp; 
+Weinberger, F.
+ (2020). Response of foundation macrophytes to near‐natural simulated marine heatwaves. Global Change Biology, 26(2), 417–430. 10.1111/gcb.14801
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.14801"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31670451"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Change Biology&amp;title=Response of foundation macrophytes to near‐natural simulated marine heatwaves&amp;author=M. Saha&amp;author=F. R. Barboza&amp;author=P. J. Somerfield&amp;author=B. Al‐Janabi&amp;author=M. Beck&amp;volume=26&amp;issue=2&amp;publication_year=2020&amp;pages=417-430&amp;pmid=31670451&amp;doi=10.1111/gcb.14801&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0070"><mixed-citation id="ece310304-cit-0070"><named-content content-type="citation-string">
+
+Schindelin, J.
+, 
+Arganda‐Carreras, I.
+, 
+Frise, E.
+, 
+Kaynig, V.
+, 
+Longair, M.
+, 
+Pietzsch, T.
+, 
+Preibisch, S.
+, 
+Rueden, C.
+, 
+Saalfeld, S.
+, 
+Schmid, B.
+, 
+Tinevez, J.‐Y.
+, 
+White, D. J.
+, 
+Hartenstein, V.
+, 
+Eliceiri, K.
+, 
+Tomancak, P.
+, &amp; 
+Cardona, A.
+ (2012). Fiji: An open‐source platform for biological‐image analysis. Nature Methods, 9(7), 676–682. 10.1038/nmeth.2019
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nmeth.2019"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3855844"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22743772"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Methods&amp;title=Fiji: An open‐source platform for biological‐image analysis&amp;author=J. Schindelin&amp;author=I. Arganda‐Carreras&amp;author=E. Frise&amp;author=V. Kaynig&amp;author=M. Longair&amp;volume=9&amp;issue=7&amp;publication_year=2012&amp;pages=676-682&amp;pmid=22743772&amp;doi=10.1038/nmeth.2019&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0071"><mixed-citation id="ece310304-cit-0071"><named-content content-type="citation-string">
+
+Schlegel, R. W.
+, &amp; 
+Smit, A. J.
+ (2018). heatwaveR: A central algorithm for the detection of heatwaves and cold‐spells. Journal of Open Source Software, 3(27), 821. 10.21105/joss.00821
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.21105/joss.00821"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Open Source Software&amp;title=heatwaveR: A central algorithm for the detection of heatwaves and cold‐spells&amp;author=R. W. Schlegel&amp;author=A. J. Smit&amp;volume=3&amp;issue=27&amp;publication_year=2018&amp;pages=821&amp;doi=10.21105/joss.00821&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0072"><mixed-citation id="ece310304-cit-0072"><named-content content-type="citation-string">
+
+Serrano, O.
+, 
+Arias‐Ortiz, A.
+, 
+Duarte, C. M.
+, 
+Kendrick, G. A.
+, &amp; 
+Lavery, P. S.
+ (2021). Impact of marine heatwaves on seagrass ecosystems. In Canadell J. G. &amp; Jackson R. B. (Eds.), Ecosystem collapse and climate change, ecological studies (pp. 345–364). Springer International Publishing. 10.1007/978-3-030-71330-0_13
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-3-030-71330-0_13"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Ecosystem collapse and climate change, ecological studies&amp;author=O. Serrano&amp;author=A. Arias‐Ortiz&amp;author=C. M. Duarte&amp;author=G. A. Kendrick&amp;author=P. S. Lavery&amp;publication_year=2021&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0073"><mixed-citation id="ece310304-cit-0073"><named-content content-type="citation-string">
+
+Short, F.
+, 
+Carruthers, T.
+, 
+Dennison, W.
+, &amp; 
+Waycott, M.
+ (2007). Global seagrass distribution and diversity: A bioregional model. Journal of Experimental Marine Biology and Ecology. The Biology and Ecology of Seagrasses, 350, 3–20. 10.1016/j.jembe.2007.06.012
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jembe.2007.06.012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Experimental Marine Biology and Ecology&amp;title=Global seagrass distribution and diversity: A bioregional model&amp;author=F. Short&amp;author=T. Carruthers&amp;author=W. Dennison&amp;author=M. Waycott&amp;volume=350&amp;publication_year=2007&amp;pages=3-20&amp;doi=10.1016/j.jembe.2007.06.012&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0074"><mixed-citation id="ece310304-cit-0074"><named-content content-type="citation-string">
+
+Short, F. T.
+, &amp; 
+Duarte, C. M.
+ (2001). Methods for the measurement of seagrass growth and production. In Short F. T. &amp; Coles R. G. (Eds.), Global seagrass research methods (pp. 155–198). Elsevier.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Global seagrass research methods&amp;author=F. T. Short&amp;author=C. M. Duarte&amp;publication_year=2001&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0075"><mixed-citation id="ece310304-cit-0075"><named-content content-type="citation-string">
+
+Short, F. T.
+, 
+Koch, E. W.
+, 
+Creed, J. C.
+, 
+Magalhães, K. M.
+, 
+Fernandez, E.
+, &amp; 
+Gaeckle, J. L.
+ (2006). SeagrassNet monitoring across the Americas: Case studies of seagrass decline. Marine Ecology, 27, 277–289. 10.1111/j.1439-0485.2006.00095.x
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1439-0485.2006.00095.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology&amp;title=SeagrassNet monitoring across the Americas: Case studies of seagrass decline&amp;author=F. T. Short&amp;author=E. W. Koch&amp;author=J. C. Creed&amp;author=K. M. Magalhães&amp;author=E. Fernandez&amp;volume=27&amp;publication_year=2006&amp;pages=277-289&amp;doi=10.1111/j.1439-0485.2006.00095.x&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0076"><mixed-citation id="ece310304-cit-0076"><named-content content-type="citation-string">
+
+Short, F. T.
+, &amp; 
+Neckles, H. A.
+ (1999). The effects of global climate change on seagrasses. Aquatic Botany, 63, 169–196. 10.1016/S0304-3770(98)00117-X
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0304-3770(98)00117-X"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Aquatic Botany&amp;title=The effects of global climate change on seagrasses&amp;author=F. T. Short&amp;author=H. A. Neckles&amp;volume=63&amp;publication_year=1999&amp;pages=169-196&amp;doi=10.1016/S0304-3770(98)00117-X&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0077"><mixed-citation id="ece310304-cit-0077"><named-content content-type="citation-string">
+
+Smale, D. A.
+, 
+Wernberg, T.
+, 
+Oliver, E. C.
+, 
+Thomsen, M.
+, 
+Harvey, B. P.
+, 
+Straub, S. C.
+, 
+Burrows, M. T.
+, 
+Alexander, L. V.
+, 
+Benthuysen, J. A.
+, &amp; 
+Donat, M. G.
+ (2019). Marine heatwaves threaten global biodiversity and the provision of ecosystem services. Nature Climate Change, 9, 306–312.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Climate Change&amp;title=Marine heatwaves threaten global biodiversity and the provision of ecosystem services&amp;author=D. A. Smale&amp;author=T. Wernberg&amp;author=E. C. Oliver&amp;author=M. Thomsen&amp;author=B. P. Harvey&amp;volume=9&amp;publication_year=2019&amp;pages=306-312&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0078"><mixed-citation id="ece310304-cit-0078"><named-content content-type="citation-string">
+
+Smith, K. E.
+, 
+Burrows, M. T.
+, 
+Hobday, A. J.
+, 
+King, N. G.
+, 
+Moore, P. J.
+, 
+Sen Gupta, A.
+, 
+Thomsen, M. S.
+, 
+Wernberg, T.
+, &amp; 
+Smale, D. A.
+ (2023). Biological impacts of marine heatwaves. Annual Review of Marine Science, 15, 119–145. 10.1146/annurev-marine-032122-121437
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1146/annurev-marine-032122-121437"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35977411"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Annual Review of Marine Science&amp;title=Biological impacts of marine heatwaves&amp;author=K. E. Smith&amp;author=M. T. Burrows&amp;author=A. J. Hobday&amp;author=N. G. King&amp;author=P. J. Moore&amp;volume=15&amp;publication_year=2023&amp;pages=119-145&amp;pmid=35977411&amp;doi=10.1146/annurev-marine-032122-121437&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0079"><mixed-citation id="ece310304-cit-0079"><named-content content-type="citation-string">
+
+Strydom, S.
+, 
+Murray, K.
+, 
+Wilson, S.
+, 
+Huntley, B.
+, 
+Rule, M.
+, 
+Heithaus, M.
+, 
+Bessey, C.
+, 
+Kendrick, G. A.
+, 
+Burkholder, D.
+, 
+Fraser, M. W.
+, &amp; 
+Zdunic, K.
+ (2020). Too hot to handle: Unprecedented seagrass death driven by marine heatwave in a world heritage area. Global Change Biology, 26, 3525–3538. 10.1111/gcb.15065
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.15065"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32129909"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Change Biology&amp;title=Too hot to handle: Unprecedented seagrass death driven by marine heatwave in a world heritage area&amp;author=S. Strydom&amp;author=K. Murray&amp;author=S. Wilson&amp;author=B. Huntley&amp;author=M. Rule&amp;volume=26&amp;publication_year=2020&amp;pages=3525-3538&amp;pmid=32129909&amp;doi=10.1111/gcb.15065&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0080"><mixed-citation id="ece310304-cit-0080"><named-content content-type="citation-string">
+
+Szitenberg, A.
+, 
+Beca‐Carretero, P.
+, 
+Azcárate‐García, T.
+, 
+Yergaliyev, T.
+, 
+Alexander‐Shani, R.
+, &amp; 
+Winters, G.
+ (2022). Teasing apart the host‐related, nutrient‐related and temperature‐related effects shaping the phenology and microbiome of the tropical seagrass <italic>Halophila stipulacea</italic>
+. Environmental Microbiome, 17(1), 1–17. 10.1186/s40793-022-00412-6
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s40793-022-00412-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9013022"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35428367"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Microbiome&amp;title=Teasing apart the host‐related, nutrient‐related and temperature‐related effects shaping the phenology and microbiome of the tropical seagrass Halophila stipulacea&amp;author=A. Szitenberg&amp;author=P. Beca‐Carretero&amp;author=T. Azcárate‐García&amp;author=T. Yergaliyev&amp;author=R. Alexander‐Shani&amp;volume=17&amp;issue=1&amp;publication_year=2022&amp;pages=1-17&amp;pmid=35428367&amp;doi=10.1186/s40793-022-00412-6&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0081"><mixed-citation id="ece310304-cit-0081"><named-content content-type="citation-string">
+
+Thomson, J. A.
+, 
+Burkholder, D. A.
+, 
+Heithaus, M. R.
+, 
+Fourqurean, J. W.
+, 
+Fraser, M. W.
+, 
+Statton, J.
+, &amp; 
+Kendrick, G. A.
+ (2015). Extreme temperatures, foundation species, and abrupt ecosystem change: An example from an iconic seagrass ecosystem. Global Change Biology, 21, 1463–1474. 10.1111/gcb.12694
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.12694"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25145694"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Global Change Biology&amp;title=Extreme temperatures, foundation species, and abrupt ecosystem change: An example from an iconic seagrass ecosystem&amp;author=J. A. Thomson&amp;author=D. A. Burkholder&amp;author=M. R. Heithaus&amp;author=J. W. Fourqurean&amp;author=M. W. Fraser&amp;volume=21&amp;publication_year=2015&amp;pages=1463-1474&amp;pmid=25145694&amp;doi=10.1111/gcb.12694&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0082"><mixed-citation id="ece310304-cit-0082"><named-content content-type="citation-string">
+
+Trevathan‐Tackett, S. M.
+, 
+Brodersen, K. E.
+, &amp; 
+Macreadie, P. I.
+ (2020). Effects of elevated temperature on microbial breakdown of seagrass leaf and tea litter biomass. Biogeochemistry, 151(2–3), 171–185. 10.1007/s10533-020-00715-1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10533-020-00715-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biogeochemistry&amp;title=Effects of elevated temperature on microbial breakdown of seagrass leaf and tea litter biomass&amp;author=S. M. Trevathan‐Tackett&amp;author=K. E. Brodersen&amp;author=P. I. Macreadie&amp;volume=151&amp;issue=2–3&amp;publication_year=2020&amp;pages=171-185&amp;doi=10.1007/s10533-020-00715-1&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0083"><mixed-citation id="ece310304-cit-0083"><named-content content-type="citation-string">
+
+Unsworth, R. K. F.
+, 
+McKenzie, L. J.
+, 
+Nordlund, L. M.
+, &amp; 
+Cullen‐Unsworth, L. C.
+ (2018). A changing climate for seagrass conservation?
+Current Biology, 28, 1229–1232. 10.1016/j.cub.2018.09.027
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cub.2018.09.027"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30399340"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Current Biology&amp;title=A changing climate for seagrass conservation?&amp;author=R. K. F. Unsworth&amp;author=L. J. McKenzie&amp;author=L. M. Nordlund&amp;author=L. C. Cullen‐Unsworth&amp;volume=28&amp;publication_year=2018&amp;pages=1229-1232&amp;pmid=30399340&amp;doi=10.1016/j.cub.2018.09.027&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0084"><mixed-citation id="ece310304-cit-0084"><named-content content-type="citation-string">
+
+van Montfrans, J.
+, 
+Wetzel, R. L.
+, &amp; 
+Orth, R. J.
+ (1984). Epiphyte‐grazer relationships in seagrass meadows: Consequences for seagrass growth and production. Estuaries, 7, 289–309. 10.2307/1351615
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2307/1351615"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Estuaries&amp;title=Epiphyte‐grazer relationships in seagrass meadows: Consequences for seagrass growth and production&amp;author=J. van Montfrans&amp;author=R. L. Wetzel&amp;author=R. J. Orth&amp;volume=7&amp;publication_year=1984&amp;pages=289-309&amp;doi=10.2307/1351615&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0085"><mixed-citation id="ece310304-cit-0085"><named-content content-type="citation-string">
+
+Vermaat, J. E.
+, 
+Agawin, N. S.
+, 
+Duarte, C. M.
+, 
+Fortes, M. D.
+, 
+Marba, N.
+, &amp; 
+Uri, J. S.
+ (1995). Meadow maintenance, growth and productivity of a mixed Philippine seagrass bed. Marine Ecology Progress Series, 124, 215–225.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Marine Ecology Progress Series&amp;title=Meadow maintenance, growth and productivity of a mixed Philippine seagrass bed&amp;author=J. E. Vermaat&amp;author=N. S. Agawin&amp;author=C. M. Duarte&amp;author=M. D. Fortes&amp;author=N. Marba&amp;volume=124&amp;publication_year=1995&amp;pages=215-225&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0086"><mixed-citation id="ece310304-cit-0086"><named-content content-type="citation-string">
+
+Waycott, M.
+, 
+Duarte, C. M.
+, 
+Carruthers, T. J. B.
+, 
+Orth, R. J.
+, 
+Dennison, W. C.
+, 
+Olyarnik, S.
+, 
+Calladine, A.
+, 
+Fourqurean, J. W.
+, 
+Heck, K. L.
+, 
+Hughes, A. R.
+, 
+Kendrick, G. A.
+, 
+Kenworthy, W. J.
+, 
+Short, F. T.
+, &amp; 
+Williams, S. L.
+ (2009). Accelerating loss of seagrasses across the globe threatens coastal ecosystems. Proceedings of the National Academy of Sciences, 106, 12377–12381. 10.1073/pnas.0905620106
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.0905620106"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2707273"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19587236"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proceedings of the National Academy of Sciences&amp;title=Accelerating loss of seagrasses across the globe threatens coastal ecosystems&amp;author=M. Waycott&amp;author=C. M. Duarte&amp;author=T. J. B. Carruthers&amp;author=R. J. Orth&amp;author=W. C. Dennison&amp;volume=106&amp;publication_year=2009&amp;pages=12377-12381&amp;pmid=19587236&amp;doi=10.1073/pnas.0905620106&amp;"/></mixed-citation></ref><ref id="ece310304-bib-0087"><mixed-citation id="ece310304-cit-0087"><named-content content-type="citation-string">
+
+Wong, P. L.
+ (2018). An assessment of seasonal abundance of Halophila ovalis (R. Brown) hooker f. and potential for conservation in Hong Kong (Unpublished master's thesis). The University of Hong Kong.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=An assessment of seasonal abundance of Halophila ovalis (R. Brown) hooker f. and potential for conservation in Hong Kong&amp;author=P. L. Wong&amp;publication_year=2018&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>
+Figure S1.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-13-e10304-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 67a7/10345732/cf762874fcff/ECE3-13-e10304-s001.docx?><?cloudpmc-bucket app?><?size 428057?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="db_ds_supplementary-material2_reqid_" position="float"><caption><p>
+Table S1.
+</p><p>
+Table S2.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-13-e10304-s002.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 67a7/10345732/d76341257398/ECE3-13-e10304-s002.docx?><?cloudpmc-bucket app?><?size 20982?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>The data that support the findings of this study can be accessed at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.48668/T2WBX8" ext-link-type="uri">https://doi.org/10.48668/T2WBX8</ext-link>.</p></sec></sec></body></article>

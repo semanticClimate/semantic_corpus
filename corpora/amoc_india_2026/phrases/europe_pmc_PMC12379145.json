@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12379145",
+  "phrases": [
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 2.4
+    },
+    {
+      "phrase": "southeast china",
+      "display": "Southeast China",
+      "score": 2.3
+    },
+    {
+      "phrase": "northern westerlies",
+      "display": "Northern Westerlies",
+      "score": 1.6
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6
+    },
+    {
+      "phrase": "greenland interstadials",
+      "display": "Greenland Interstadials",
+      "score": 1.5
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.5
+    },
+    {
+      "phrase": "western north pacific",
+      "display": "Western North Pacific",
+      "score": 1.3
+    },
+    {
+      "phrase": "do",
+      "display": "DO",
+      "score": 3.2
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 1.8
+    },
+    {
+      "phrase": "ism",
+      "display": "ISM",
+      "score": 1.72
+    },
+    {
+      "phrase": "overshoot",
+      "score": 0.0405,
+      "display": "Overshoot"
+    },
+    {
+      "phrase": "do-15",
+      "score": 0.0398,
+      "display": "DO-15"
+    },
+    {
+      "phrase": "interstadials",
+      "score": 0.0375,
+      "display": "Interstadials"
+    },
+    {
+      "phrase": "cave",
+      "score": 0.0362,
+      "display": "Cave"
+    },
+    {
+      "phrase": "overshoot phases",
+      "score": 0.035,
+      "display": "Overshoot phases"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

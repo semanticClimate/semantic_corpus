@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12787522",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.5
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 2.5
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 1.8
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.7
+    },
+    {
+      "phrase": "saharan africa",
+      "display": "Saharan Africa",
+      "score": 1.6
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.4
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.4
+    },
+    {
+      "phrase": "fwi",
+      "display": "FWI",
+      "score": 2.56
+    },
+    {
+      "phrase": "zeroe",
+      "display": "ZeroE",
+      "score": 1.44
+    },
+    {
+      "phrase": "nege",
+      "display": "NegE",
+      "score": 1.36
+    },
+    {
+      "phrase": "danger",
+      "score": 0.0451,
+      "display": "danger"
+    },
+    {
+      "phrase": "zeroe scenario",
+      "score": 0.0442,
+      "display": "ZeroE scenario"
+    },
+    {
+      "phrase": "dangers",
+      "score": 0.0406,
+      "display": "dangers"
+    },
+    {
+      "phrase": "nege scenario",
+      "score": 0.0401,
+      "display": "NegE scenario"
+    },
+    {
+      "phrase": "relative humidity",
+      "score": 0.0375,
+      "display": "Relative humidity"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

@@ -1,0 +1,1279 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="jane14112" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Anim Ecol</journal-id><journal-id journal-id-type="iso-abbrev">J Anim Ecol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">0376574</journal-id><journal-id journal-id-type="publisher-id">JANE</journal-id><journal-title-group><journal-title>The Journal of Animal Ecology</journal-title></journal-title-group><issn pub-type="ppub">0021-8790</issn><issn pub-type="epub">1365-2656</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12326063</article-id><article-id pub-id-type="pmcid-ver">PMC12326063.1</article-id><article-id pub-id-type="pmcaid">12326063</article-id><article-id pub-id-type="pmcaiid">12326063</article-id><article-id pub-id-type="pmid">38867406</article-id><article-id pub-id-type="doi">10.1111/1365-2656.14112</article-id><article-id pub-id-type="publisher-id">JANE14112</article-id><article-id pub-id-type="other">JAE-2023-00668.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Applied Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Biodiversity Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Conservation Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Ecosystem Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Global Change Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Special Feature: Marine Heatwaves</subject><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></subj-group></article-categories><title-group><article-title>When resilience is not enough: 2022 extreme marine heatwave threatens climatic refugia for a habitat‐forming Mediterranean octocoral</article-title><alt-title alt-title-type="left-running-head">Rovira et al.</alt-title></title-group><contrib-group><contrib id="jane14112-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Rovira</surname><given-names initials="G">Graciel·la</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1943-4653</contrib-id><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>graciellarovira2@gmail.com</email></address></contrib><contrib id="jane14112-cr-0002" contrib-type="author"><name name-style="western"><surname>Capdevila</surname><given-names initials="P">Pol</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2842-4302</contrib-id><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jane14112-cr-0003" contrib-type="author"><name name-style="western"><surname>Zentner</surname><given-names initials="Y">Yanis</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6152-5028</contrib-id><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jane14112-cr-0004" contrib-type="author"><name name-style="western"><surname>Margarit</surname><given-names initials="N">Núria</given-names></name><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jane14112-cr-0005" contrib-type="author"><name name-style="western"><surname>Ortega</surname><given-names initials="J">Julia</given-names></name><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jane14112-cr-0006" contrib-type="author"><name name-style="western"><surname>Casals</surname><given-names initials="D">David</given-names></name><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jane14112-cr-0007" contrib-type="author"><name name-style="western"><surname>Figuerola‐Ferrando</surname><given-names initials="L">Laura</given-names></name><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jane14112-cr-0008" contrib-type="author"><name name-style="western"><surname>Aspillaga</surname><given-names initials="E">Eneko</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8888-8731</contrib-id><xref rid="jane14112-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="jane14112-cr-0009" contrib-type="author"><name name-style="western"><surname>Medrano</surname><given-names initials="A">Alba</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0513-9215</contrib-id><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jane14112-cr-0010" contrib-type="author"><name name-style="western"><surname>Pagès‐Escolà</surname><given-names initials="M">Marta</given-names></name><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jane14112-cr-0011" contrib-type="author"><name name-style="western"><surname>Hereu</surname><given-names initials="B">Bernat</given-names></name><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jane14112-cr-0012" contrib-type="author"><name name-style="western"><surname>Garrabou</surname><given-names initials="J">Joaquim</given-names></name><xref rid="jane14112-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="jane14112-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="jane14112-cr-0013" contrib-type="author"><name name-style="western"><surname>Linares</surname><given-names initials="C">Cristina</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3855-2743</contrib-id><xref rid="jane14112-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jane14112-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="jane14112-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Departament de Biologia Evolutiva, Ecologia i Ciències Ambientals, Facultat de Biologia</named-content>
+<institution>Universitat de Barcelona (UB)</institution>
+<city>Barcelona</city>
+<country country="ES">Spain</country>
+</aff><aff id="jane14112-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Institut de Recerca de la Biodiversitat (IRBio)</named-content>
+<institution>Universitat de Barcelona (UB)</institution>
+<city>Barcelona</city>
+<country country="ES">Spain</country>
+</aff><aff id="jane14112-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Instituto Mediterráneo de Estudios Avanzados (IMEDEA, CSIC‐UIB)</institution>
+<city>Esporles</city>
+<country country="ES">Spain</country>
+</aff><aff id="jane14112-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>Institut de Ciències del Mar‐CSIC</institution>
+<city>Barcelona</city>
+<country country="ES">Spain</country>
+</aff><aff id="jane14112-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Aix Marseille Université, Université de Toulon, CNRS, IRD, MIO</institution>
+<city>Marseille</city>
+<country country="FR">France</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Graciel·la Rovira<break/>
+Email: <email>graciellarovira2@gmail.com</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>12</day><month>6</month><year>2024</year></pub-date><pub-date pub-type="ppub"><month>8</month><year>2025</year></pub-date><volume>94</volume><issue seq="50">8</issue><issue-id pub-id-type="pmc-issue-id">494492</issue-id><issue-id pub-id-type="doi">10.1111/jane.v94.8</issue-id><issue-title>Special Feature: Marine Heatwaves</issue-title><fpage>1507</fpage><lpage>1514</lpage><history>
+<date date-type="received"><day>11</day><month>10</month><year>2023</year></date>
+<date date-type="accepted"><day>12</day><month>4</month><year>2024</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>06</day><month>08</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>07</day><month>08</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-08-07 00:25:56.363"><day>07</day><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Journal of Animal Ecology</italic> published by John Wiley &amp; Sons Ltd on behalf of British Ecological Society.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JANE-94-1507.pdf"><?pdf-name JANE-94-1507.pdf?><?pdf-size 1190103?><?pdf-md5 b6a524576f4a41f22b850fba9e4a15a2?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:d98b/12326063/b6a524576f4a/JANE-94-1507.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JANE-94-1507.pdf"/><abstract><title>Abstract</title><p>
+<list list-type="order" id="jane14112-list-0001"><list-item id="jane14112-li-0001"><p>Climate change is impacting ecosystems worldwide, and the Mediterranean Sea is no exception. Extreme climatic events, such as marine heat waves (MHWs), are increasing in frequency, extent and intensity during the last decades, which has been associated with an increase in mass mortality events for multiple species.</p></list-item><list-item id="jane14112-li-0002"><p>Coralligenous assemblages, where the octocoral <italic toggle="no">Paramuricea clavata</italic> lives, are strongly affected by MHWs. The Medes Islands Marine Reserve (NW Mediterranean) was considered a climate refugia for <italic toggle="no">P. clavata</italic>, as their populations were showing some resilience to these changing conditions.</p></list-item><list-item id="jane14112-li-0003"><p>In this study, we assessed the impacts of the MHWs that occurred between 2016 and 2022 in seven shallow populations of the octocoral <italic toggle="no">P. clavata</italic> from a Mediterranean Marine Protected Area.</p></list-item><list-item id="jane14112-li-0004"><p>The years that the mortality rates increased significantly were associated with the ones with strong MHWs, 2022 being the one with higher mortalities. In 2022, with 50 MHW days, the proportion of total affected colonies was almost 70%, with a proportion of the injured surface of almost 40%, reaching levels never attained in our study site since the monitoring was started.</p></list-item><list-item id="jane14112-li-0005"><p>We also found spatial variability between the monitored populations. Whereas few of them showed low levels of mortality, others lost around 75% of their biomass.</p></list-item><list-item id="jane14112-li-0006"><p>The significant impacts documented here raise concerns about the future of shallow <italic toggle="no">P. clavata</italic> populations across the Mediterranean, suggesting that the resilience of this species may not be maintained to sustain these populations face the ongoing warming trends.</p></list-item></list>
+</p></abstract><abstract abstract-type="graphical"><p>We are convinced that this paper can contribute to a better comprehension of the impact of climate change on marine ecosystems. We describe how Marine Heat Waves, which have been increasing in frequency, extent and intensity during the last decades, can negatively affect habitat‐forming species over time.<boxed-text position="anchor" content-type="graphic" id="jane14112-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="JANE-94-1507-g001.jpg"><?image-name JANE-94-1507-g001.jpg?><?image-size 71669?><?image-md5 b7a0a90673029a341b80e6755b86a774?><?image-image-server-status NEVER_LOAD?><?image-original-height 120?><?image-original-width 180?><?image-scaled-height 120?><?image-scaled-width 180?><?image-cloudpmc-urn urn:cdn:blobs/d98b/12326063/b7a0a9067302/JANE-94-1507-g001.jpg?></graphic></boxed-text>
+</p></abstract><trans-abstract xml:lang="es"><title>Resum</title><p>
+<list list-type="order" id="jane14112-list-0002"><list-item id="jane14112-li-0007"><p>El canvi climatic està impactant els ecosistemes arreu del planeta, i el Mar Mediterrani no n'és una excepció. Els esdeveniments climàtics extrems, com ara les onades de calor marines, estan augmentant en freqüència, extensió i intensitat en les darreres dècades, i estan sent associades a un increment dels esdeveniments de mortalitat massiva de múltiples espècies.</p></list-item><list-item id="jane14112-li-0008"><p>El coral·ligen, on hi viu l'octocorall <italic toggle="no">Paramuricea clavata</italic>, està altament afectat per les onades de calor marines. La Reserva Marina de les Illes Medes (NO del Mediterrani) es considerava un refugi climàtic per aquesta espècie, degut a que les seves poblacions mostraven certa resiliència a les condicions canviants.</p></list-item><list-item id="jane14112-li-0009"><p>En aquest estudi hem avaluat els impactes de les onades de calor marines succeïdes entre els anys 2016 i 2022 a set poblacions someres de l'octocorall <italic toggle="no">P. clavata</italic>, en una Àrea Marina Protegida del Mediterrani.</p></list-item><list-item id="jane14112-li-0010"><p>Els anys en els quals les taxes de mortalitat van incrementar significativament s'associen amb els anys amb fortes onades de calor marines, sent el 2022 l'any amb la mortalitat més elevada. Al 2022, amb 50 dies d'onada de calor, la proporció total de colònies afectades va ser prop del 70%, amb un percentatge de superfície afectada de gairebé el 40%, arribant a valors mai observats en el lloc d'estudi des de que es va iniciar el seguiment d'aquestes poblacions.</p></list-item><list-item id="jane14112-li-0011"><p>També hem observat variabilitat espacial entre les poblacions mostrejades. Mentre que algunes d'elles han mostrat poca mortalitat, altres han perdut al voltant del 75% de la seva biomassa.</p></list-item><list-item id="jane14112-li-0012"><p>Els impactes documentats en aquest estudi mostren un futur preocupant de les poblacions someres de <italic toggle="no">P. clavata</italic> arreu del Mediterrani, i això suggereix que la resiliència d'aquesta espècie podria no ser suficient per mantenir les seves poblacions en l'escenari d'escalfament que es preveu.</p></list-item></list>
+</p></trans-abstract><kwd-group kwd-group-type="author-generated"><kwd id="jane14112-kwd-0001">engineering species</kwd><kwd id="jane14112-kwd-0002">extinction</kwd><kwd id="jane14112-kwd-0003">global change</kwd><kwd id="jane14112-kwd-0004">global warming</kwd><kwd id="jane14112-kwd-0005">population collapse</kwd><kwd id="jane14112-kwd-0006">resistance</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Ministerio de Ciencia, Innovación y Universidades</institution><institution-id institution-id-type="doi">10.13039/100014440</institution-id></institution-wrap>
+</funding-source></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Departament de Territori i Sostenibilitat of the Generalitat de Catalunya</institution></institution-wrap>
+</funding-source><award-id>PTOP2017‐130</award-id><award-id>PTOP‐2021‐3</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Agencia Española de Investigación AEI</institution></institution-wrap>
+</funding-source><award-id>RTI2018‐095346‐BI00</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>European Union NextGenerationEU/PRT</institution><institution-id institution-id-type="doi">10.13039/100016210</institution-id></institution-wrap>
+</funding-source><award-id>TED2021‐131622B‐I00</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>Catalan Institution for Research and Advanced Studies ICREA</institution></institution-wrap>
+</funding-source></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>Generalitat de Catalunya</institution><institution-id institution-id-type="doi">10.13039/501100002809</institution-id></institution-wrap>
+</funding-source><award-id>2021 SGR 01073</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="0"/><page-count count="8"/><word-count count="7100"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.9 mode:remove_FC converted:06.08.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="JANE14112-cit-2001">
+<string-name name-style="western">
+<surname>Rovira</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capdevila</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zentner</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Margarit</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ortega</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Casals</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Figuerola‐Ferrando</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aspillaga</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medrano</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pagès‐Escolà</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hereu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name> (<year>2025</year>). <article-title>When resilience is not enough: 2022 extreme marine heatwave threatens climatic refugia for a habitat‐forming Mediterranean octocoral</article-title>. <source>Journal of Animal Ecology</source>, <volume>94</volume>, <fpage>1507</fpage>–<lpage>1514</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.14112</pub-id>
+<pub-id pub-id-type="pmcid">PMC12326063</pub-id><pub-id pub-id-type="pmid">38867406</pub-id></mixed-citation>
+</p><fn-group id="jane14112-ntgp-0001"><fn id="jane14112-note-0001"><p>
+<bold>Handling Editor:</bold> José Riascos</p></fn></fn-group></notes></front><body id="jane14112-body-0001"><sec id="jane14112-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Climate change is emerging as one of the most pressing threats to global biodiversity (Bellard et al., <xref rid="jane14112-bib-0006" ref-type="bibr">2012</xref>; Parmesan, <xref rid="jane14112-bib-0052" ref-type="bibr">2006</xref>; Pereira et al., <xref rid="jane14112-bib-0054" ref-type="bibr">2010</xref>). In marine ecosystems, it causes multiple impacts, such as acidification (Guinotte &amp; Fabry, <xref rid="jane14112-bib-0031" ref-type="bibr">2008</xref>) or sea level rise (Nicholls &amp; Cazenave, <xref rid="jane14112-bib-0050" ref-type="bibr">2010</xref>), but warming temperatures are particularly worrying (Oliver et al., <xref rid="jane14112-bib-0051" ref-type="bibr">2018</xref>; Smale &amp; Wernberg, <xref rid="jane14112-bib-0059" ref-type="bibr">2013</xref>). Of particular concern are Marine heatwaves (MHWs), defined as discrete prolonged anomalously warm water events in a particular location (Hobday et al., <xref rid="jane14112-bib-0032" ref-type="bibr">2016</xref>), which have already caused severe mortality events in benthic ecosystems worldwide, such as kelp forests (Wernberg et al., <xref rid="jane14112-bib-0062" ref-type="bibr">2016</xref>) and coral reefs (Hughes et al., <xref rid="jane14112-bib-0034" ref-type="bibr">2017</xref>, <xref rid="jane14112-bib-0033" ref-type="bibr">2018</xref>), pushing them to the brink of collapse. Even more worrying is the fact that these events are expected to increase in frequency, intensity, duration and geographic extent in the coming decades (Darmaraki et al., <xref rid="jane14112-bib-0017" ref-type="bibr">2019</xref>; Frölicher et al., <xref rid="jane14112-bib-0021" ref-type="bibr">2018</xref>). Notwithstanding the widespread ecological disruptions caused by these catastrophic events, certain regions have shown resilience to these impacts, maintaining their structure and functioning despite these sudden climatic events (Krumhansl et al., <xref rid="jane14112-bib-0039" ref-type="bibr">2016</xref>; Verdura et al., <xref rid="jane14112-bib-0061" ref-type="bibr">2021</xref>). Termed as climate refugia by Keppel et al. (<xref rid="jane14112-bib-0038" ref-type="bibr">2012</xref>), these regions encompass habitats where components of biodiversity retreat to, persist in and can potentially expand from under changing environmental conditions. Therefore, understanding the consequences of these increasingly frequent climatic events, and the potential loss of climatic refugia, is the first necessary step to predict the future of marine ecosystems.</p><p>The Mediterranean Sea is one of the regions most affected by rising temperatures, with an average warming rate three times higher than the global average (IPCC et al., <xref rid="jane14112-bib-0037" ref-type="bibr">2019</xref>). Its fast warming makes the Mediterranean Sea an outstanding model for studying the ecological consequences of climate change on marine biodiversity (Cramer et al., <xref rid="jane14112-bib-0015" ref-type="bibr">2018</xref>). During the last decade, the frequency of MHW events has strongly increased in the Western Mediterranean Basin (Pastor &amp; Khodayar, <xref rid="jane14112-bib-0053" ref-type="bibr">2022</xref>), causing mass mortality events (MME) of many sessile benthic species (Garrabou, Gómez‐Gras, et al., <xref rid="jane14112-bib-0023" ref-type="bibr">2022</xref>). The Mediterranean Sea is a hot spot of marine biodiversity, having one of the most unique habitats in terms of species richness and structural complexity, but also one of the most impacted by climate change, the coralligenous assemblages (Ballesteros, <xref rid="jane14112-bib-0005" ref-type="bibr">2006</xref>; Garrabou, Gómez‐Gras, et al., <xref rid="jane14112-bib-0023" ref-type="bibr">2022</xref>; Gómez‐Gras, Linares, Dornelas, et al., <xref rid="jane14112-bib-0028" ref-type="bibr">2021</xref>). The octocorals are among the most affected species by mass mortality events, in particular, the red gorgonian <italic toggle="yes">Paramuricea clavata</italic> (Garrabou, Gómez‐Gras, et al., <xref rid="jane14112-bib-0023" ref-type="bibr">2022</xref>). Most of these species display slow population dynamics with low mortality and recruitment rates (Garrabou &amp; Harmelin, <xref rid="jane14112-bib-0024" ref-type="bibr">2002</xref>; Linares et al., <xref rid="jane14112-bib-0044" ref-type="bibr">2007</xref>) and limited dispersal capabilities (Pilczynska et al., <xref rid="jane14112-bib-0055" ref-type="bibr">2016</xref>). These life‐history traits make them particularly vulnerable to climate change and MHWs (Garrabou, Gómez‐Gras, et al., <xref rid="jane14112-bib-0023" ref-type="bibr">2022</xref>). In addition, most of these species have an important structural role, fostering the biodiversity of coralligenous habitats (Gómez‐Gras, Linares, Dornelas, et al., <xref rid="jane14112-bib-0028" ref-type="bibr">2021</xref>; Ponti et al., <xref rid="jane14112-bib-0057" ref-type="bibr">2018</xref>). Therefore, focusing on these habitat‐forming species together with the study of the impacts of climate change in the Mediterranean Sea will provide a window into the future for other regions worldwide.</p><p>In this study, we showcase the strong impacts of the MHW that took place during the 2022 summer on the Mediterranean benthic ecosystems. The extreme temperature conditions of summer 2022 made it one of the warmest summers ever registered in this region (Guinaldo et al., <xref rid="jane14112-bib-0030" ref-type="bibr">2023</xref>), with MHWs lasting 50 days across the NW Mediterranean (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.t-mednet.org" ext-link-type="uri">www.t‐mednet.org</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.mercator-ocean.eu" ext-link-type="uri">www.mercator‐ocean.eu</ext-link>). These MHWs mainly affect shallow populations (down to 30 m depth) due to the formation of the thermocline during the summer (Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>; Linares et al., <xref rid="jane14112-bib-0041" ref-type="bibr">2005</xref>). Here, we compare the population status of the red gorgonian <italic toggle="yes">P. clavata</italic> with data from previous years (up to 7 years) in the Medes Islands Marine Reserve (NW Mediterranean). The <italic toggle="yes">P. clavata</italic> populations from this small Marine Reserve displayed resistance against previous MHWs that adversely affected other regions within the NW Mediterranean Sea (Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>). Given that resistance together with recovery is a component of resilience (Capdevila et al., <xref rid="jane14112-bib-0009" ref-type="bibr">2020</xref>; Côté &amp; Darling, <xref rid="jane14112-bib-0014" ref-type="bibr">2010</xref>), previous results suggested that these populations were resilient to past MHWs and can be considered as a climate refugia (Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>; Linares, Coma, Garrabou, et al., <xref rid="jane14112-bib-0042" ref-type="bibr">2008</xref>). We focus on the red gorgonian <italic toggle="yes">P. clavata</italic> because of its significant ecological value as a foundational species in the coralligenous habitats (Linares, Coma, Garrabou, et al., <xref rid="jane14112-bib-0042" ref-type="bibr">2008</xref>). If MHWs keep increasing in the coming years, the future of these populations, and their associated biodiversity, at shallow depths will most likely disappear (Gómez‐Gras, Linares, López‐Sanz, et al., <xref rid="jane14112-bib-0029" ref-type="bibr">2021</xref>; Verdura et al., <xref rid="jane14112-bib-0060" ref-type="bibr">2019</xref>).</p></sec><sec sec-type="materials-and-methods" id="jane14112-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="jane14112-sec-0003"><label>2.1</label><title>Study site</title><p>This study was performed at the Medes Islands Marine Reserve, located within the Montgrí, Illes Medes and Baix Ter Natural Park (NW Mediterranean Sea), with the approval of the Catalan Government under the project PTOP2017‐130 and PTOP‐2021‐3. The Marine Reserve was created in November 1983, when fishing activities were prohibited, becoming a No‐Take Protected Area. Some recreational activities are regulated within its boundaries, such as scuba diving or snorkelling, while activities like fishing or anchoring are banned. Also, there is a small island, Medallot, where only scientific scuba diving is allowed. In 2010, the government of Catalonia created the Montgrí, Medes Islands and Baix Ter Natural Park, encompassing the previously existing No‐Take Area.</p></sec><sec id="jane14112-sec-0004"><label>2.2</label><title>Population data and analyses</title><p>We monitored seven populations of <italic toggle="yes">P. clavata</italic> over 7 years (from 2016 to 2022) during September and October, the months immediately after the summer period when the highest temperatures of the year have already occurred, and mortality caused by thermal stress is easily observable (Linares et al., <xref rid="jane14112-bib-0045" ref-type="bibr">2010</xref>). At each population, we randomly placed a minimum of 30 quadrats (50 × 50 cm) between 15 and 20 m depth and then measured different parameters of each colony found within each quadrat: (i) the maximum height, directly measured with a ruler, (ii) the proportion of dead tissue, visually estimated relative to the total surface of the colony, and (iii) the mortality type: recent mortality (when the denuded axes of the gorgonians were clearly exposed or with remains of dead tissue), or old mortality (when the axis was epiphytized by algae, polychaetes or other organisms; Linares et al., <xref rid="jane14112-bib-0041" ref-type="bibr">2005</xref>). To carry out this monitoring, we did not require ethics approval as it is a non‐invasive monitoring method.</p><p>With all the above information, we estimated different metrics to study the conservation status of the populations: (i) proportion of affected colonies each year (we considered an affected colony when the proportion of injured tissue exceeded 10% of the total gorgonian surface; Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>; Linares, Coma, &amp; Zabala, <xref rid="jane14112-bib-0043" ref-type="bibr">2008</xref>), (ii) mean proportion of affected surface per colony and (iii) proportion of biomass change from the start of the study (2016). To calculate the biomass (g of dry weight) first, we estimated the total biomass of the colonies using the adjusted relationship from Coma et al. (<xref rid="jane14112-bib-0013" ref-type="bibr">1998</xref>): <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="inline" overflow="scroll"><mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mo>=</mml:mo><mml:mn>0.002</mml:mn><mml:mo>*</mml:mo><mml:msup><mml:mi mathvariant="normal">h</mml:mi><mml:mn>2.61</mml:mn></mml:msup></mml:mrow></mml:mrow></mml:math> (where h is the maximum height, in cm). This biomass is corrected by subtracting the proportion of the total dead tissue of the colonies (Linares, Coma, &amp; Zabala, <xref rid="jane14112-bib-0043" ref-type="bibr">2008</xref>; Zentner et al., <xref rid="jane14112-bib-0063" ref-type="bibr">2023</xref>). The dead tissue was visually estimated compared with the total surface of each colony as described above.</p><p>Finally, with these calculations, we analysed the temporal and spatial patterns of variation of <italic toggle="yes">P. clavata</italic> populations. For the temporal analyses, we calculated the mean values and standard error of the proportion of affected colonies (%) and the proportion of the total injured surface (%) across all sampled quadrats of the different populations each year of the study period. For the spatial analyses, we used two approximations: (i) the mean values of the proportion of affected colonies in the quadrats for each population for the year 2022 and (ii) the difference in the proportion of the mean quadrat biomass between the first (2016) and the last (2022) year of the study.</p></sec><sec id="jane14112-sec-0005"><label>2.3</label><title>Temperature data and analyses</title><p>The temperature data used in this study were taken from the T‐MEDNet database, a collaborative initiative which conducts large‐scale and long‐term monitoring throughout the Mediterranean Sea over the past two decades (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.t-mednet.org" ext-link-type="uri">www.t‐mednet.org</ext-link>). The data from this repository were obtained by deploying HOBO data loggers that take high‐frequency (every hour) temperature data (accuracy ±0.21°C) from 0 to 40 m depth, every 5 m. Specifically, we used data from the data loggers deployed since 2002 at the Pota del Llop site (42° 2′ 58.920″ N, 3° 13′ 31.440″ E), situated within the Medes Islands Marine Reserve. Also, we selected the data from 15 m depth, where most of the studied populations were closest.</p><p>To analyse the temperature data and identify MHWs, we followed the analyses from Gómez‐Gras, Linares, Dornelas, et al. (<xref rid="jane14112-bib-0028" ref-type="bibr">2021</xref>). First, we identified the warmer period of the year. That is, the period comprised from the 1st of June to the 30th of November (JJASON period). Secondly, we calculated the days at which the populations were exposed to MHWs. We considered a MHW event as a discrete prolonged period of abnormally high seawater temperatures (&gt;90th percentile of the in‐situ climatology) that lasted at least five consecutive days (Hobday et al., <xref rid="jane14112-bib-0032" ref-type="bibr">2016</xref>). In this case, we considered the climatology period the available temperature data from 2002 until 2015. Also, we added the thermotolerance response for <italic toggle="yes">P. clavata</italic> at different temperatures and time exposures, previously calculated by Gómez‐Gras, Linares, Dornelas, et al. (<xref rid="jane14112-bib-0028" ref-type="bibr">2021</xref>), determining the onset of thermal stress for this particular species. Finally, to study the impact of exposure to high temperatures on these organisms, we used the: (i) intensity of exposure, being the highest temperature reached during MHWs, and (ii) the duration of the exposure, as the cumulative number of consecutive MHW days in a year (Bensoussan et al., <xref rid="jane14112-bib-0007" ref-type="bibr">2019</xref>; Gómez‐Gras, Linares, Dornelas, et al., <xref rid="jane14112-bib-0028" ref-type="bibr">2021</xref>). This method implies that the red gorgonian's vulnerability to impacts depends on these two factors. For instance, colonies may be exposed to high temperatures exceeding their tolerance limits, but if the duration of the event is short, they may not be significantly affected. Alternatively, even if the temperature is not excessively high, prolonged exposure to it can still lead to detrimental effects on the red gorgonian.</p></sec></sec><sec sec-type="results" id="jane14112-sec-0006"><label>3</label><title>RESULTS</title><sec id="jane14112-sec-0007"><label>3.1</label><title>Temporal analyses</title><p>According to our defined criteria, over the period from 2016 to 2022, we identified four MHWs that surpassed the limits of thermotolerance of <italic toggle="yes">P. clavata</italic> in our study site, which took place in 2017, 2018, 2019 and 2022 (Figure <xref rid="jane14112-fig-0001" ref-type="fig">1a</xref>). Our results highlight that the 2022 MHW was the most severe, with a total of 50 days of MHWs registered and an intensity of 25.1°C (Figure <xref rid="jane14112-fig-0001" ref-type="fig">1a</xref>), affecting 68.2% (±2.19) of the colonies (Figure <xref rid="jane14112-fig-0001" ref-type="fig">1b</xref>), and a total mean of injured surface per colony of 38.2% (±1.08; Figure <xref rid="jane14112-fig-0001" ref-type="fig">1c</xref>). Also, we found a clear trend in the mortality indicators (cumulative proportion of affected colonies and injured surface) of the red gorgonian <italic toggle="yes">P. clavata</italic>, associated with the years with higher values of MHW days and intensity registered (stronger MHWs). For instance, during the years in which the values of MHWs (MHW days and intensity) were recorded as higher than <italic toggle="yes">P. clavata</italic> tolerates (i.e. 2017, 2018, 2019 and 2022, with 28, 42, 22 and 50 MHW days, respectively, and maximum temperatures above 24.3°C), there was a significant increase in both the proportion of affected colonies and the surface of individuals affected. On the contrary, in the years with values of MHW days and intensity within the thermotolerance range of our study species (i.e. 2016, 2020 and 2021, with maximum temperatures of 24.1°C, but only 12, 17 and 25 MHW days), the proportion of affected colonies and injured tissue were lower (Figure <xref rid="jane14112-fig-0001" ref-type="fig">1b,c</xref>). Furthermore, the years exhibiting stronger MHWs were also the ones showing higher mortalities: 2018 experienced 42 days of MHWs, which was the first year that, not only the proportion of affected colonies exceeded 50% (Figure <xref rid="jane14112-fig-0001" ref-type="fig">1b</xref>), but also the injured surface was above 20%, reaching 27.4% (Figure <xref rid="jane14112-fig-0001" ref-type="fig">1c</xref>). These results represent the average annual data across all seven populations.</p><fig position="float" fig-type="FIGURE" id="jane14112-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Temporal trends in different indicators of gorgonian mortality and marine heat waves (MHWs). (a) MHWs occurred over the years of the study, the circles represent MHWs detected, and their position represents the maximum exposure temperature (intensity), represented by the <italic toggle="yes">y</italic>‐axis, in relation to MHW days (duration), represented by the <italic toggle="yes">x</italic>‐axis. The size of the circles is proportional to their standardized position in the <italic toggle="yes">x</italic>‐ and <italic toggle="yes">y</italic>‐axis, meaning that higher temperatures exposed to more MHW days will be bigger and lower temperatures exposed to fewer MHW days will be smaller. The dashed line represents the thermotolerance response of <italic toggle="yes">Paramuricea clavata</italic> (calculated by Gómez‐Gras, Linares, Dornelas, et al., <xref rid="jane14112-bib-0028" ref-type="bibr">2021</xref>); that means that the circles below the line, in blue, represent no harm for the colonies, and the circles above, in orange, can produce mortality due to severe MHWs. (b) Proportion of affected colonies (%) (colonies displaying &gt;10% of the surface injured) each year of the study; the dots are the total mean of the proportion of colonies affected per year, while the error bar represents the standard error. (c) Proportion of the injured surface (%) each year of the study; the dots are the total mean of the proportion of injured surface per year, while the error bar represents the standard error. The circles represent the MHWs detected each year, and their size is the same as in (a), proportional to the MHW's intensity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="JANE-94-1507-g002.jpg"><?image-name JANE-94-1507-g002.jpg?><?image-size 45682?><?image-md5 80e4af00eb21d459fe03f14ee4221cb7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 360?><?image-original-width 1064?><?image-scaled-height 240?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/d98b/12326063/80e4af00eb21/JANE-94-1507-g002.jpg?><?thumb-name JANE-94-1507-g002.gif?><?thumb-size 8271?><?thumb-md5 eb11756a74fa8add3e6ecb27fd840505?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 68?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/d98b/12326063/eb11756a74fa/JANE-94-1507-g002.gif?></graphic></fig></sec><sec id="jane14112-sec-0008"><label>3.2</label><title>Spatial analyses</title><p>We found clear differences across the spatial scale of the study, with different populations being affected to different degrees. On the one hand, some populations, such as La Vaca and Pota del Llop, showed less than 50% of affected colonies (Figure <xref rid="jane14112-fig-0002" ref-type="fig">2a</xref>), while all the other populations showed a higher proportion (Figure <xref rid="jane14112-fig-0002" ref-type="fig">2a</xref>). In particular, Pedra de Déu, Tascó Petit, Tascó Gros and Carall Bernat, showed the highest partial mortality rates, with up to 93% of affected colonies (Figure <xref rid="jane14112-fig-0002" ref-type="fig">2a</xref>). Similarly, there was a clear spatial distinction in biomass loss (the total difference in biomass between 2016 and 2022), with La Vaca having a biomass increase (2%) and Pota del Llop showing a slight decrease (8%), while all other populations experienced a biomass decrease from 40% to 76% since 2016 (Figure <xref rid="jane14112-fig-0002" ref-type="fig">2b</xref>).</p><fig position="float" fig-type="FIGURE" id="jane14112-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Spatial distribution of the marine heat wave (MHW) impact on <italic toggle="yes">Paramuricea clavata</italic>. (a) Proportion of affected colonies at each population of the study during the year 2022. The colours represent the affection of the colonies: orange is the affected colonies and blue is the ones not affected (having less than 10% of the tissue injured). The red point marks the location of the HOBO data logger, at the Pota del Llop site (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.t-mednet.org" ext-link-type="uri">www.t‐mednet.org</ext-link>). (b) Proportion of biomass change between the first (2016) and the last year of the study (2022). Colours show if the population gained biomass (positive values, in blue), or lost biomass (negative values, in orange).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="JANE-94-1507-g003.jpg"><?image-name JANE-94-1507-g003.jpg?><?image-size 73250?><?image-md5 23e6954a839163eb09864016b1a9ca0a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 547?><?image-original-width 1064?><?image-scaled-height 364?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/d98b/12326063/23e6954a8391/JANE-94-1507-g003.jpg?><?thumb-name JANE-94-1507-g003.gif?><?thumb-size 11698?><?thumb-md5 467dc4bffb5555527ed273eab9d62ed6?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 155?><?thumb-cloudpmc-urn urn:cdn:blobs/d98b/12326063/467dc4bffb55/JANE-94-1507-g003.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="jane14112-sec-0009"><label>4</label><title>DISCUSSION</title><p>Our study highlights the adverse effects of extreme MHWs on Mediterranean gorgonians, with a particular focus on the 2022 event. Throughout our study, extreme climatic events have occurred as MHWs in our study area, but the last one (2022) was the most extreme ever registered there (Estaque et al., <xref rid="jane14112-bib-0019" ref-type="bibr">2023</xref>; Garrabou, Zabala, et al., <xref rid="jane14112-bib-0025" ref-type="bibr">2022</xref>; Marie et al., <xref rid="jane14112-bib-0046" ref-type="bibr">2023</xref>). Here, we show that the persistent high temperatures during 2022 have resulted in an unprecedented increase in the mortality of the red gorgonian <italic toggle="yes">P. clavata</italic> in the Medes Islands Marine Reserve surveyed populations. These outcomes are quite alarming and threaten the viability of this gorgonian species at shallow depths.</p><p>Over the last decades, the Mediterranean Sea has experienced several thermal anomalies (Ibrahim et al., <xref rid="jane14112-bib-0036" ref-type="bibr">2021</xref>), impacting many benthic species (Garrabou, Gómez‐Gras, et al., <xref rid="jane14112-bib-0023" ref-type="bibr">2022</xref>). Some studies have shown high mortalities of gorgonians due to MHWs in the past, such as the one in 1999 in the Ligurian Sea with a proportion of affected colonies between 60% and 100% (Cerrano et al., <xref rid="jane14112-bib-0010" ref-type="bibr">2000</xref>), or in 2003, with a value of an 80% in the Gulf of Genoa and Gulf of Naples (Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>). Despite the negative consequences of MHWs, some areas appeared to be acting as a climate refuge, where some species still resisted these extreme climatic events. Indeed, our study area acted as a haven where we could find large and well‐preserved populations of gorgonians, despite the effects of global warming (Coma et al., <xref rid="jane14112-bib-0011" ref-type="bibr">2004</xref>; Linares, Coma, Garrabou, et al., <xref rid="jane14112-bib-0042" ref-type="bibr">2008</xref>). In Medes Islands Marine Reserve, the occurrence of MHWs, such as the one in 2003, had less impact on coralligenous species than in other regions within the Mediterranean basin, probably due to the hydrodynamic conditions of the region and/or the adaptation to warmer conditions in comparison to the northern populations (Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>). Because human activities are regulated in our study site, it limits the impact of other stressors beyond MHWs, such as fishing or anchoring, except for diving activity, which has been recently demonstrated to have a synergistic effect with MHWs (Zentner et al., <xref rid="jane14112-bib-0063" ref-type="bibr">2023</xref>). However, our findings suggest that the 2022 MHW might have triggered a tipping point for the populations of this species in this site, leading them towards extinction.</p><p>Despite the potential for extinction of these populations, the spatial patterns of mortality revealed a diversity of responses to MHWs among the monitored populations. Even though our study area is small (93 ha), it exhibits a diverse array of environmental conditions that could explain the differences among the studied populations. There are abiotic factors, such as sedimentation or water movement (Lenihan et al., <xref rid="jane14112-bib-0040" ref-type="bibr">2008</xref>), that can differ even at small spatial scales, with potential beneficial or detrimental effects for organisms (Montero‐Serra et al., <xref rid="jane14112-bib-0049" ref-type="bibr">2019</xref>; Zentner et al., <xref rid="jane14112-bib-0063" ref-type="bibr">2023</xref>). For instance, some studies in tropical corals have shown that water circulation affects bleaching, either diminishing it and enhancing recovery (Anthony &amp; Kerswell, <xref rid="jane14112-bib-0002" ref-type="bibr">2007</xref>; Fabricius, <xref rid="jane14112-bib-0020" ref-type="bibr">2006</xref>; Lenihan et al., <xref rid="jane14112-bib-0040" ref-type="bibr">2008</xref>) or increasing it (McClanahan et al., <xref rid="jane14112-bib-0047" ref-type="bibr">2005</xref>). In addition, in Mediterranean octocoral species, biotic factors such as population genetics (Crisci et al., <xref rid="jane14112-bib-0016" ref-type="bibr">2017</xref>; Pilczynska et al., <xref rid="jane14112-bib-0055" ref-type="bibr">2016</xref>), inter/intra‐specific competition (Linares, Coma, &amp; Zabala, <xref rid="jane14112-bib-0043" ref-type="bibr">2008</xref>; Ponti et al., <xref rid="jane14112-bib-0056" ref-type="bibr">2014</xref>) and food availability (Coma et al., <xref rid="jane14112-bib-0012" ref-type="bibr">2009</xref>) can also play a critical role in shaping the response of organisms to environmental perturbations. Because of these factors, and notwithstanding the small‐scale spatial distribution of our populations, the heterogeneous responses of the studied populations to MHWs would further support that some populations could have adaptative potential to warmer conditions (Gómez‐Gras et al., <xref rid="jane14112-bib-0026" ref-type="bibr">2022</xref>) and they could act as a source for future repopulation of these species if environmental conditions were to improve. Nonetheless, recolonization is expected to be low in this species (Aurelle et al., <xref rid="jane14112-bib-0004" ref-type="bibr">2020</xref>; Mokhtar‐Jamaï et al., <xref rid="jane14112-bib-0048" ref-type="bibr">2011</xref>) with a strong spatial genetic structure due to their restricted connectivity (Arizmendi‐Mejia et al., <xref rid="jane14112-bib-0003" ref-type="bibr">2015</xref>).</p><p>Overall, our study shows an unprecedented mortality event of <italic toggle="yes">P. clavata</italic> at the Medes Islands Marine Reserve, where the populations seemed to withstand high temperatures until the summer of 2022. While MME of the red gorgonian have been reported previously in the Mediterranean (Cerrano et al., <xref rid="jane14112-bib-0010" ref-type="bibr">2000</xref>; Garrabou et al., <xref rid="jane14112-bib-0022" ref-type="bibr">2009</xref>; Gómez‐Gras, Linares, López‐Sanz, et al., <xref rid="jane14112-bib-0029" ref-type="bibr">2021</xref>; Iborra et al., <xref rid="jane14112-bib-0035" ref-type="bibr">2022</xref>; Zentner et al., <xref rid="jane14112-bib-0063" ref-type="bibr">2023</xref>), none showed the magnitude reached during 2022 at the NW Mediterranean Sea. The loss of these habitat‐forming species may trigger a reduction in the resilience of the whole ecosystem, as they have a primary role in mitigating physical and biological stress for associated fauna (Angelini et al., <xref rid="jane14112-bib-0001" ref-type="bibr">2011</xref>; de la Torriente et al., <xref rid="jane14112-bib-0018" ref-type="bibr">2020</xref>; Gómez‐Gras, Linares, López‐Sanz, et al., <xref rid="jane14112-bib-0029" ref-type="bibr">2021</xref>). Therefore, at shallow depths, the associated biodiversity of these communities will likely be affected (Gómez‐Gras et al., <xref rid="jane14112-bib-0027" ref-type="bibr">2019</xref>; Verdura et al., <xref rid="jane14112-bib-0060" ref-type="bibr">2019</xref>). The unprecedented rise of global sea temperatures (Birkel, <xref rid="jane14112-bib-0008" ref-type="bibr">n.d.</xref>), together with the observed increase in frequency and intensity of MHWs, surpassing previous records, implies that existing projections may underestimate the potential ecological consequences of global warming on marine ecosystems.</p></sec><sec id="jane14112-sec-0010"><title>AUTHOR CONTRIBUTIONS</title><p>Cristina Linares and Bernat Hereu conceived the ideas and designed the methodology; Graciel·la Rovira, Pol Capdevila, Yanis Zentner, Julia Ortega, Núria Margarit, David Casals, Laura Figuerola‐Ferrando, Eneko Aspillaga, Marta Pagès‐Escolà, Bernat Hereu, Joaquim Garrabou and Cristina Linares collected the data; Graciel·la Rovira, Pol Capdevila and Yanis Zentner analysed the data; Graciel·la Rovira, Pol Capdevila and Cristina Linares led the writing of the manuscript. All authors contributed critically to the drafts and gave final approval for publication.</p></sec><sec sec-type="COI-statement" id="jane14112-sec-0012"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></sec></body><back><ack id="jane14112-sec-0011"><title>ACKNOWLEDGEMENTS</title><p>We acknowledge the support of the Ramon Alturo and all the Parc Natural del Montgrí staff, les Illes Medes i el Baix Ter Marine Protected Area and Judith Ahufinger from the Generatitat de Catalunya. This work was supported by the long‐term monitoring programme of the marine natural parks of Catalonia, funded by Departament de Territori i Sostenibilitat of the Generalitat de Catalunya public agreements PTOP2017‐130 and PTOP‐2021‐3. This work was also financially supported by Heatmed project RTI2018‐095346‐BI00 funded by Agencia Española de Investigación AEI MICIU/AEI/10.13039/501100011033 and ‘ERDF A way of making Europe’, and Corfun project TED2021‐131622B‐I00 funded by MICIU/AEI/10.13039/501100011033 and ‘European Union NextGenerationEU/PRT’. C.L acknowledges the support by Catalan Institution for Research and Advanced Studies ICREA. All authors are part of the Marine Conservation research group funded by Generalitat de Catalunya [2021 SGR 01073].</p></ack><sec sec-type="data-availability" id="jane14112-sec-0014"><title>DATA AVAILABILITY STATEMENT</title><p>Data are available from the Dryad Digital Repository: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://doi.org/10.5061/dryad.tmpg4f569" ext-link-type="uri" specific-use="dataset is-supplemented-by">http://doi.org/10.5061/dryad.tmpg4f569</ext-link> (Rovira et al., <xref rid="jane14112-bib-0058" ref-type="bibr">2024</xref>).</p></sec><ref-list content-type="cited-references" id="jane14112-bibl-0001"><title>REFERENCES</title><ref id="jane14112-bib-0001"><mixed-citation publication-type="journal" id="jane14112-cit-0001">
+<string-name name-style="western">
+<surname>Angelini</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Altieri</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silliman</surname>, <given-names>B. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bertness</surname>, <given-names>M. D.</given-names>
+</string-name> (<year>2011</year>). <article-title>Interactions among foundation species and their consequences for community organization, biodiversity, and conservation</article-title>. <source>BioScience</source>, <volume>61</volume>(<issue>10</issue>), <fpage>782</fpage>–<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1525/bio.2011.61.10.8</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0002"><mixed-citation publication-type="journal" id="jane14112-cit-0002">
+<string-name name-style="western">
+<surname>Anthony</surname>, <given-names>K. R. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kerswell</surname>, <given-names>A. P.</given-names>
+</string-name> (<year>2007</year>). <article-title>Coral mortality following extreme low tides and high solar radiation</article-title>. <source>Marine Biology</source>, <volume>151</volume>, <fpage>1623</fpage>–<lpage>1631</lpage>. <pub-id pub-id-type="doi">10.1007/s00227-006-0573-0</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0003"><mixed-citation publication-type="journal" id="jane14112-cit-0003">
+<string-name name-style="western">
+<surname>Arizmendi‐Mejia</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Antunes</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ballesteros</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.‐B.</given-names>
+</string-name> (<year>2015</year>). <article-title>Combining genetic and demographic data for the conservation of a Mediterranean marine habitat‐forming species</article-title>. <source>PLoS One</source>, <volume>10</volume>(<issue>3</issue>), <elocation-id>e0119585</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0119585</pub-id>
+<pub-id pub-id-type="pmid">25774522</pub-id>
+<pub-id pub-id-type="pmcid">PMC4361678</pub-id></mixed-citation></ref><ref id="jane14112-bib-0004"><mixed-citation publication-type="journal" id="jane14112-cit-0004">
+<string-name name-style="western">
+<surname>Aurelle</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tariel</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zuberer</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haguenauer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ribout</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Masmoudi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kara</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chaoui</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.‐B.</given-names>
+</string-name> (<year>2020</year>). <article-title>Genetic insights into recolonization processes of Mediterranean octocorals</article-title>. <source>Marine Biology</source>, <volume>167</volume>, <fpage>1</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1007/s00227-020-03684-z</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0005"><mixed-citation publication-type="journal" id="jane14112-cit-0005">
+<string-name name-style="western">
+<surname>Ballesteros</surname>, <given-names>E.</given-names>
+</string-name> (<year>2006</year>). <article-title>Mediterranean coralligenous assemblages: A synthesis of present knowledge</article-title>. <source>En Oceanography and Marine Biology: An Annual Review</source>, <volume>44</volume>, <fpage>123</fpage>–<lpage>195</lpage>.</mixed-citation></ref><ref id="jane14112-bib-0006"><mixed-citation publication-type="journal" id="jane14112-cit-0006">
+<string-name name-style="western">
+<surname>Bellard</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bertelsmeier</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leadley</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thuiller</surname>, <given-names>W.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Courchamp</surname>, <given-names>F.</given-names>
+</string-name> (<year>2012</year>). <article-title>Impacts of climate change on the future of biodiversity: Biodiversity and climate change</article-title>. <source>Ecology Letters</source>, <volume>15</volume>(<issue>4</issue>), <fpage>365</fpage>–<lpage>377</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2011.01736.x</pub-id>
+<pub-id pub-id-type="pmid">22257223</pub-id>
+<pub-id pub-id-type="pmcid">PMC3880584</pub-id></mixed-citation></ref><ref id="jane14112-bib-0007"><mixed-citation publication-type="miscellaneous" id="jane14112-cit-0007">
+<string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiggiato</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buongiorno‐Nardelli</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pisano</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Copernicus marine service ocean state report, issue 3</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.tandfonline.com/doi/epdf/10.1080/1755876X.2019.1633075?needAccess=true&amp;role=button" ext-link-type="uri">https://www.tandfonline.com/doi/epdf/10.1080/1755876X.2019.1633075?needAccess=true&amp;role=button</ext-link>
+</mixed-citation></ref><ref id="jane14112-bib-0008"><mixed-citation publication-type="miscellaneous" id="jane14112-cit-0008">
+<string-name name-style="western">
+<surname>Birkel</surname>, <given-names>S. D.</given-names>
+</string-name>
+<article-title>Daily Sea Surface Temperature. <italic toggle="yes">Climate Reanalyzer</italic>
+</article-title>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://climatereanalyzer.org/clim/sst_daily/" ext-link-type="uri">https://climatereanalyzer.org/clim/sst_daily/</ext-link>
+</mixed-citation></ref><ref id="jane14112-bib-0009"><mixed-citation publication-type="journal" id="jane14112-cit-0009">
+<string-name name-style="western">
+<surname>Capdevila</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stott</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beger</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Salguero‐Gómez</surname>, <given-names>R.</given-names>
+</string-name> (<year>2020</year>). <article-title>Towards a comparative framework of demographic resilience</article-title>. <source>Trends in Ecology &amp; Evolution</source>, <volume>35</volume>(<issue>9</issue>), <fpage>776</fpage>–<lpage>786</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2020.05.001</pub-id>
+<pub-id pub-id-type="pmid">32482368</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0010"><mixed-citation publication-type="journal" id="jane14112-cit-0010">
+<string-name name-style="western">
+<surname>Cerrano</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bavestrello</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bianchi</surname>, <given-names>C. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cattaneo‐vietti</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bava</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morganti</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morri</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Picco</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sara</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schiaparelli</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siccardi</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sponga</surname>, <given-names>F.</given-names>
+</string-name> (<year>2000</year>). <article-title>A catastrophic mass‐mortality episode of gorgonians and other organisms in the Ligurian Sea (North‐western Mediterranean), summer 1999</article-title>. <source>Ecology Letters</source>, <volume>3</volume>(<issue>4</issue>), <fpage>284</fpage>–<lpage>293</lpage>. <pub-id pub-id-type="doi">10.1046/j.1461-0248.2000.00152.x</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0011"><mixed-citation publication-type="journal" id="jane14112-cit-0011">
+<string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pola</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ribes</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name> (<year>2004</year>). <article-title>Long‐term assessment of temperate octocoral mortality patterns, protected vs. unprotected areas</article-title>. <source>Ecological Applications</source>, <volume>14</volume>(<issue>5</issue>), <fpage>1466</fpage>–<lpage>1478</lpage>.</mixed-citation></ref><ref id="jane14112-bib-0012"><mixed-citation publication-type="journal" id="jane14112-cit-0012">
+<string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ribes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Serrano</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiménez</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salat</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pascual</surname>, <given-names>J.</given-names>
+</string-name> (<year>2009</year>). <article-title>Global warming‐enhanced stratification and mass mortality events in the Mediterranean</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>106</volume>(<issue>15</issue>), <fpage>6176</fpage>–<lpage>6181</lpage>. <pub-id pub-id-type="doi">10.1890/03-5176</pub-id>
+<pub-id pub-id-type="pmid">19332777</pub-id>
+<pub-id pub-id-type="pmcid">PMC2669359</pub-id></mixed-citation></ref><ref id="jane14112-bib-0013"><mixed-citation publication-type="journal" id="jane14112-cit-0013">
+<string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ribes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gili</surname>, <given-names>J.‐M.</given-names>
+</string-name> (<year>1998</year>). <article-title>Growth in a modular colonial marine invertebrate</article-title>. <source>Estuarine, Coastal and Shelf Science</source>, <volume>47</volume>(<issue>4</issue>), <fpage>459</fpage>–<lpage>470</lpage>. <pub-id pub-id-type="doi">10.1006/ecss.1998.0375</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0014"><mixed-citation publication-type="journal" id="jane14112-cit-0014">
+<string-name name-style="western">
+<surname>Côté</surname>, <given-names>I. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Darling</surname>, <given-names>E. S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Rethinking ecosystem resilience in the face of climate change</article-title>. <source>PLoS Biology</source>, <volume>8</volume>(<issue>7</issue>), <elocation-id>e1000438</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pbio.1000438</pub-id>
+<pub-id pub-id-type="pmid">20668536</pub-id>
+<pub-id pub-id-type="pmcid">PMC2910654</pub-id></mixed-citation></ref><ref id="jane14112-bib-0015"><mixed-citation publication-type="journal" id="jane14112-cit-0015">
+<string-name name-style="western">
+<surname>Cramer</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guiot</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fader</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gattuso</surname>, <given-names>J.‐P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iglesias</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lange</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lionello</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Llasat</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peñuelas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Snoussi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Toreti</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tsimplis</surname>, <given-names>M. N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Xoplaki</surname>, <given-names>E.</given-names>
+</string-name> (<year>2018</year>). <article-title>Climate change and interconnected risks to sustainable development in the Mediterranean</article-title>. <source>Nature Climate Change</source>, <volume>8</volume>(<issue>11</issue>), <fpage>972</fpage>–<lpage>980</lpage>. <pub-id pub-id-type="doi">10.1038/s41558-018-0299-2</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0016"><mixed-citation publication-type="journal" id="jane14112-cit-0016">
+<string-name name-style="western">
+<surname>Crisci</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.‐B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mokhtar‐Jamaï</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bally</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aurelle</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Féral</surname>, <given-names>J.‐P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>La Riviere</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Regional and local environmental conditions do not shape the response to warming of a marine habitat‐forming species</article-title>. <source>Scientific Reports</source>, <volume>7</volume>(<issue>1</issue>), <fpage>5069</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-017-05220-4</pub-id>
+<pub-id pub-id-type="pmid">28698582</pub-id>
+<pub-id pub-id-type="pmcid">PMC5505982</pub-id></mixed-citation></ref><ref id="jane14112-bib-0017"><mixed-citation publication-type="journal" id="jane14112-cit-0017">
+<string-name name-style="western">
+<surname>Darmaraki</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Somot</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sevault</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nabat</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cabos Narvaez</surname>, <given-names>W. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavicchia</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Djurdjevic</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sannino</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Sein</surname>, <given-names>D. V.</given-names>
+</string-name> (<year>2019</year>). <article-title>Future evolution of marine heatwaves in the Mediterranean Sea</article-title>. <source>Climate Dynamics</source>, <volume>53</volume>(<issue>3–4</issue>), <fpage>1371</fpage>–<lpage>1392</lpage>. <pub-id pub-id-type="doi">10.1007/s00382-019-04661-z</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0018"><mixed-citation publication-type="journal" id="jane14112-cit-0018">
+<string-name name-style="western">
+<surname>de la Torriente</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aguilar</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>González‐Irusta</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blanco</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Serrano</surname>, <given-names>A.</given-names>
+</string-name> (<year>2020</year>). <article-title>Habitat forming species explain taxonomic and functional diversities in a Mediterranean seamount</article-title>. <source>Ecological Indicators</source>, <volume>118</volume>, <elocation-id>106747</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ecolind.2020.106747</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0019"><mixed-citation publication-type="journal" id="jane14112-cit-0019">
+<string-name name-style="western">
+<surname>Estaque</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Richaume</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bianchimani</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schull</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mérigot</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonhomme</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vouriot</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sartoretto</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Monfort</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Basthard‐Bogain</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fargetton</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gatti</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barth</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheminée</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name> (<year>2023</year>). <article-title>Marine heatwaves on the rise: One of the strongest ever observed mass mortality event in temperate gorgonians</article-title>. <source>Global Change Biology</source>, <volume>29</volume>, <fpage>6159</fpage>–<lpage>6162</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.16931</pub-id>
+<pub-id pub-id-type="pmid">37681400</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0020"><mixed-citation publication-type="journal" id="jane14112-cit-0020">
+<string-name name-style="western">
+<surname>Fabricius</surname>, <given-names>K. E.</given-names>
+</string-name> (<year>2006</year>). <article-title>Effects of irradiance, flow, and colony pigmentation on the temperature microenvironment around corals: Implications for coral bleaching?</article-title>
+<source>Limnology and Oceanography</source>, <volume>51</volume>(<issue>1</issue>), <fpage>30</fpage>–<lpage>37</lpage>. <pub-id pub-id-type="doi">10.4319/lo.2006.51.1.0030</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0021"><mixed-citation publication-type="journal" id="jane14112-cit-0021">
+<string-name name-style="western">
+<surname>Frölicher</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fischer</surname>, <given-names>E. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gruber</surname>, <given-names>N.</given-names>
+</string-name> (<year>2018</year>). <article-title>Marine heatwaves under global warming</article-title>. <source>Nature</source>, <volume>560</volume>(<issue>7718</issue>), <fpage>360</fpage>–<lpage>364</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-018-0383-9</pub-id>
+<pub-id pub-id-type="pmid">30111788</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0022"><mixed-citation publication-type="journal" id="jane14112-cit-0022">
+<string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bally</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chevaldonné</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cigliano</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harmelin</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gambi</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kersting</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lejeusne</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marschal</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pérez</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ribes</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Romano</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Serrano</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teixido</surname>, <given-names>N.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Cerrano</surname>, <given-names>C.</given-names>
+</string-name> (<year>2009</year>). <article-title>Mass mortality in Northwestern Mediterranean rocky benthic communities: Effects of the 2003 heat wave</article-title>. <source>Global Change Biology</source>, <volume>15</volume>(<issue>5</issue>), <fpage>1090</fpage>–<lpage>1103</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2008.01823.x</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0023"><mixed-citation publication-type="journal" id="jane14112-cit-0023">
+<string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gómez‐Gras</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medrano</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cerrano</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ponti</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schlegel</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Turicchia</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sini</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gerovasileiou</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teixido</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mirasole</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tamburello</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rilov</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Souissi</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khamassi</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ghanem</surname>, <given-names>R.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Harmelin</surname>, <given-names>J.</given-names>
+</string-name> (<year>2022</year>). <article-title>Marine heatwaves drive recurrent mass mortalities in the Mediterranean Sea</article-title>. <source>Global Change Biology</source>, <volume>28</volume>(<issue>19</issue>), <fpage>5708</fpage>–<lpage>5725</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.16301</pub-id>
+<pub-id pub-id-type="pmid">35848527</pub-id>
+<pub-id pub-id-type="pmcid">PMC9543131</pub-id></mixed-citation></ref><ref id="jane14112-bib-0024"><mixed-citation publication-type="journal" id="jane14112-cit-0024">
+<string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Harmelin</surname>, <given-names>J. G.</given-names>
+</string-name> (<year>2002</year>). <article-title>A 20‐year study on life‐history traits of a harvested long‐lived temperate coral in the NW Mediterranean: Insights into conservation and management needs</article-title>. <source>Journal of Animal Ecology</source>, <volume>71</volume>(<issue>6</issue>), <fpage>966</fpage>–<lpage>978</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2656.2002.00661.x</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0025"><mixed-citation publication-type="book" id="jane14112-cit-0025">
+<string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>López‐Sendino</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zenter</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Margarit</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ballesteros</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Jou</surname>, <given-names>M.</given-names>
+</string-name> (<year>2022</year>). <source>Unitat promotora: Direcció General de Polítiques Ambientals i Medi Natural Generalitat de Catalunya</source>. <publisher-name>Informe Expedient AG‐2022‐1229, Departament de Territori i Sostenibilitat. Direcció General de Polítiques Ambientals. Generalitat de Catalunya</publisher-name>.</mixed-citation></ref><ref id="jane14112-bib-0026"><mixed-citation publication-type="journal" id="jane14112-cit-0026">
+<string-name name-style="western">
+<surname>Gómez‐Gras</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>López‐Sendino</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cerrano</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferretti</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kipson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bakran‐Petricioli</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Serrao</surname>, <given-names>E. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Paulo</surname>, <given-names>D.</given-names>
+</string-name> (<year>2022</year>). <article-title>Exploring the response of a key Mediterranean gorgonian to heat stress across biological and spatial scales</article-title>. <source>Scientific Reports</source>, <volume>12</volume>(<issue>1</issue>), <elocation-id>21064</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-022-25565-9</pub-id>
+<pub-id pub-id-type="pmid">36473926</pub-id>
+<pub-id pub-id-type="pmcid">PMC9726941</pub-id></mixed-citation></ref><ref id="jane14112-bib-0027"><mixed-citation publication-type="journal" id="jane14112-cit-0027">
+<string-name name-style="western">
+<surname>Gómez‐Gras</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Caralt</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frleta‐Valić</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montero‐Serra</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pagès‐Escolà</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>López‐Sendino</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Response diversity in Mediterranean coralligenous assemblages facing climate change: Insights from a multispecific thermotolerance experiment</article-title>. <source>Ecology and Evolution</source>, <volume>9</volume>(<issue>7</issue>), <fpage>4168</fpage>–<lpage>4180</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.5045</pub-id>
+<pub-id pub-id-type="pmid">31015996</pub-id>
+<pub-id pub-id-type="pmcid">PMC6468064</pub-id></mixed-citation></ref><ref id="jane14112-bib-0028"><mixed-citation publication-type="journal" id="jane14112-cit-0028">
+<string-name name-style="western">
+<surname>Gómez‐Gras</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dornelas</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Madin</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brambilla</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.‐B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>López‐Sendino</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name> (<year>2021</year>). <article-title>Climate change transforms the functional identity of Mediterranean coralligenous assemblages</article-title>. <source>Ecology Letters</source>, <volume>24</volume>(<issue>5</issue>), <fpage>1038</fpage>–<lpage>1051</lpage>. <pub-id pub-id-type="doi">10.1111/ele.13718</pub-id>
+<pub-id pub-id-type="pmid">33728823</pub-id>
+<pub-id pub-id-type="pmcid">PMC8252474</pub-id></mixed-citation></ref><ref id="jane14112-bib-0029"><mixed-citation publication-type="journal" id="jane14112-cit-0029">
+<string-name name-style="western">
+<surname>Gómez‐Gras</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>López‐Sanz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amate</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Drap</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bianchimani</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marschal</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Torrents</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zuberer</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teixidó</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kipson</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kersting</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montero‐Serra</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pagès‐Escolà</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medrano</surname>, <given-names>A.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name> (<year>2021</year>). <article-title>Population collapse of habitat‐forming species in the Mediterranean: A long‐term study of gorgonian populations affected by recurrent marine heatwaves</article-title>. <source>Proceedings of the Royal Society B: Biological Sciences</source>, <volume>288</volume>(<issue>1965</issue>), <elocation-id>20212384</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2021.2384</pub-id>
+<pub-id pub-id-type="pmcid">PMC8692971</pub-id><pub-id pub-id-type="pmid">34933599</pub-id></mixed-citation></ref><ref id="jane14112-bib-0030"><mixed-citation publication-type="journal" id="jane14112-cit-0030">
+<string-name name-style="western">
+<surname>Guinaldo</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Voldoire</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waldman</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saux Picart</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Roquet</surname>, <given-names>H.</given-names>
+</string-name> (<year>2023</year>). <article-title>Response of the sea surface temperature to heatwaves during the France 2022 meteorological summer</article-title>. <source>Ocean Science</source>, <volume>19</volume>(<issue>3</issue>), <fpage>629</fpage>–<lpage>647</lpage>. <pub-id pub-id-type="doi">10.5194/os-19-629-2023</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0031"><mixed-citation publication-type="journal" id="jane14112-cit-0031">
+<string-name name-style="western">
+<surname>Guinotte</surname>, <given-names>J. M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Fabry</surname>, <given-names>V. J.</given-names>
+</string-name> (<year>2008</year>). <article-title>Ocean acidification and its potential effects on marine ecosystems</article-title>. <source>Annals of the New York Academy of Sciences</source>, <volume>1134</volume>(<issue>1</issue>), <fpage>320</fpage>–<lpage>342</lpage>. <pub-id pub-id-type="doi">10.1196/annals.1439.013</pub-id>
+<pub-id pub-id-type="pmid">18566099</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0032"><mixed-citation publication-type="journal" id="jane14112-cit-0032">
+<string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexander</surname>, <given-names>L. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perkins</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smale</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Straub</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benthuysen</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burrows</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donat</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feng</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holbrook</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scannell</surname>, <given-names>H. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sen Gupta</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name> (<year>2016</year>). <article-title>A hierarchical approach to defining marine heatwaves</article-title>. <source>Progress in Oceanography</source>, <volume>141</volume>, <fpage>227</fpage>–<lpage>238</lpage>. <pub-id pub-id-type="doi">10.1016/j.pocean.2015.12.014</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0033"><mixed-citation publication-type="journal" id="jane14112-cit-0033">
+<string-name name-style="western">
+<surname>Hughes</surname>, <given-names>T. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>K. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Connolly</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heron</surname>, <given-names>S. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kerry</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lough</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baird</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baum</surname>, <given-names>J. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berumen</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bridge</surname>, <given-names>T. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claar</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eakin</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gilmour</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Graham</surname>, <given-names>N. A. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harrison</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobbs</surname>, <given-names>J.‐P. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoey</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoogenboom</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lowe</surname>, <given-names>R. J.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2018</year>). <article-title>Spatial and temporal patterns of mass bleaching of corals in the Anthropocene</article-title>. <source>Science</source>, <volume>359</volume>(<issue>6371</issue>), <fpage>80</fpage>–<lpage>83</lpage>. <pub-id pub-id-type="doi">10.1126/science.aan8048</pub-id>
+<pub-id pub-id-type="pmid">29302011</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0034"><mixed-citation publication-type="journal" id="jane14112-cit-0034">
+<string-name name-style="western">
+<surname>Hughes</surname>, <given-names>T. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kerry</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Álvarez‐Noriega</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Álvarez‐Romero</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>K. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baird</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Babcock</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellwood</surname>, <given-names>D. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berkelmans</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bridge</surname>, <given-names>T. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Butler</surname>, <given-names>I. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cantin</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Comeau</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Connolly</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cumming</surname>, <given-names>G. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dalton</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz‐Pulido</surname>, <given-names>G.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2017</year>). <article-title>Global warming and recurrent mass bleaching of corals</article-title>. <source>Nature</source>, <volume>543</volume>(<issue>7645</issue>), <fpage>373</fpage>–<lpage>377</lpage>. <pub-id pub-id-type="doi">10.1038/nature21707</pub-id>
+<pub-id pub-id-type="pmid">28300113</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0035"><mixed-citation publication-type="journal" id="jane14112-cit-0035">
+<string-name name-style="western">
+<surname>Iborra</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leduc</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fullgrabe</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cuny</surname>, <given-names>P.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Gobert</surname>, <given-names>S.</given-names>
+</string-name> (<year>2022</year>). <article-title>Temporal trends of two iconic Mediterranean gorgonians (<italic toggle="yes">Paramuricea clavata</italic> and <italic toggle="yes">Eunicella cavolini</italic>) in the climate change context</article-title>. <source>Journal of Sea Research</source>, <volume>186</volume>, <elocation-id>102241</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.seares.2022.102241</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0036"><mixed-citation publication-type="journal" id="jane14112-cit-0036">
+<string-name name-style="western">
+<surname>Ibrahim</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mohamed</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nagy</surname>, <given-names>H.</given-names>
+</string-name> (<year>2021</year>). <article-title>Spatial variability and trends of marine heat waves in the eastern Mediterranean sea over 39 years</article-title>. <source>Journal of Marine Science and Engineering</source>, <volume>9</volume>(<issue>6</issue>), <elocation-id>643</elocation-id>. <pub-id pub-id-type="doi">10.3390/jmse9060643</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0037"><mixed-citation publication-type="book" id="jane14112-cit-0037">
+<collab collab-type="authors">IPCC</collab>
+, <string-name name-style="western">
+<surname>Pörtner</surname>, <given-names>H.‐O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roberts</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Masson‐Delmotte</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhai</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tignor</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Poloczanska</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mintenbeck</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nicolai</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okem</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Petzold</surname>, <given-names>J.</given-names>
+</string-name> (<year>2019</year>). <source>IPCC special report on the ocean and cryosphere in a changing climate</source> (Vol. 1(3)). <publisher-name>IPCC: Intergovernmental Panel on Climate Change</publisher-name>.</mixed-citation></ref><ref id="jane14112-bib-0038"><mixed-citation publication-type="journal" id="jane14112-cit-0038">
+<string-name name-style="western">
+<surname>Keppel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Niel</surname>, <given-names>K. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wardell‐Johnson</surname>, <given-names>G. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yates</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mucina</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schut</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hopper</surname>, <given-names>S. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Franklin</surname>, <given-names>S. E.</given-names>
+</string-name> (<year>2012</year>). <article-title>Refugia: Identifying and understanding safe havens for biodiversity under climate change</article-title>. <source>Global Ecology and Biogeography</source>, <volume>21</volume>(<issue>4</issue>), <fpage>393</fpage>–<lpage>404</lpage>. <pub-id pub-id-type="doi">10.1111/j.1466-8238.2011.00686.x</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0039"><mixed-citation publication-type="journal" id="jane14112-cit-0039">
+<string-name name-style="western">
+<surname>Krumhansl</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okamoto</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rassweiler</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Novak</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bolton</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavanaugh</surname>, <given-names>K. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Connell</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Konar</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ling</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Micheli</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Norderhaug</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pérez‐Matus</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sousa‐Pinto</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reed</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salomon</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shears</surname>, <given-names>N. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>R. J.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Byrnes</surname>, <given-names>J. E. K.</given-names>
+</string-name> (<year>2016</year>). <article-title>Global patterns of kelp forest change over the past half‐century</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>113</volume>(<issue>48</issue>), <fpage>13785</fpage>–<lpage>13790</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1606102113</pub-id>
+<pub-id pub-id-type="pmid">27849580</pub-id>
+<pub-id pub-id-type="pmcid">PMC5137772</pub-id></mixed-citation></ref><ref id="jane14112-bib-0040"><mixed-citation publication-type="journal" id="jane14112-cit-0040">
+<string-name name-style="western">
+<surname>Lenihan</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adjeroud</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kotchen</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hench</surname>, <given-names>J. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Nakamura</surname>, <given-names>T.</given-names>
+</string-name> (<year>2008</year>). <article-title>Reef structure regulates small‐scale spatial variation in coral bleaching</article-title>. <source>Marine Ecology Progress Series</source>, <volume>370</volume>, <fpage>127</fpage>–<lpage>141</lpage>. <pub-id pub-id-type="doi">10.3354/meps07622</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0041"><mixed-citation publication-type="journal" id="jane14112-cit-0041">
+<string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hereu</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dantart</surname>, <given-names>L.</given-names>
+</string-name> (<year>2005</year>). <article-title>Immediate and delayed effects of a mass mortality event on gorgonian population dynamics and benthic community structure in the NW Mediterranean Sea</article-title>. <source>Marine Ecology Progress Series</source>, <volume>305</volume>, <fpage>127</fpage>–<lpage>137</lpage>. <pub-id pub-id-type="doi">10.3354/meps305127</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0042"><mixed-citation publication-type="journal" id="jane14112-cit-0042">
+<string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Díaz</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Size distribution, density and disturbance in two Mediterranean gorgonians: <italic toggle="yes">Paramuricea clavata</italic> and <italic toggle="yes">Eunicella singularis</italic>
+</article-title>. <source>Journal of Applied Ecology</source>, <volume>45</volume>(<issue>2</issue>), <fpage>688</fpage>–<lpage>699</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2664.2007.01419.x</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0043"><mixed-citation publication-type="journal" id="jane14112-cit-0043">
+<string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Effects of a mass mortality event on gorgonian reproduction</article-title>. <source>Coral Reefs</source>, <volume>27</volume>(<issue>1</issue>), <fpage>27</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1007/s00338-007-0285-z</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0044"><mixed-citation publication-type="journal" id="jane14112-cit-0044">
+<string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doak</surname>, <given-names>D. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Life history and viability of a long‐lived marine invertebrate: The octocoral <italic toggle="yes">Paramuricea clavata</italic>
+</article-title>. <source>Ecology</source>, <volume>88</volume>(<issue>4</issue>), <fpage>918</fpage>–<lpage>928</lpage>. <pub-id pub-id-type="doi">10.1890/05-1931</pub-id>
+<pub-id pub-id-type="pmid">17536708</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0045"><mixed-citation publication-type="journal" id="jane14112-cit-0045">
+<string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zabala</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Díaz</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hereu</surname>, <given-names>B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Dantart</surname>, <given-names>L.</given-names>
+</string-name> (<year>2010</year>). <article-title>Assessing the impact of diving in coralligenous communities: The usefulness of demographic studies of red gorgonian populations</article-title>. <source>Scientific Reports of the Port‐Cros National Park</source>, <volume>24</volume>, <fpage>161</fpage>–<lpage>184</lpage>.</mixed-citation></ref><ref id="jane14112-bib-0046"><mixed-citation publication-type="journal" id="jane14112-cit-0046">
+<string-name name-style="western">
+<surname>Marie</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tal</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pierre</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Thierry</surname>, <given-names>P.</given-names>
+</string-name> (<year>2023</year>). <article-title>Mediterranean marine keystone species on the brink of extinction</article-title>. <source>Global Change Biology</source>, <volume>29</volume>(<issue>7</issue>), <fpage>1681</fpage>–<lpage>1683</lpage>. <pub-id pub-id-type="doi">10.1111/gcb.16597</pub-id>
+<pub-id pub-id-type="pmid">36660905</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0047"><mixed-citation publication-type="journal" id="jane14112-cit-0047">
+<string-name name-style="western">
+<surname>McClanahan</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maina</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moothien‐Pillay</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Baker</surname>, <given-names>A. C.</given-names>
+</string-name> (<year>2005</year>). <article-title>Effects of geography, taxa, water flow, and temperature variation on coral bleaching intensity in Mauritius</article-title>. <source>Marine Ecology Progress Series</source>, <volume>298</volume>, <fpage>131</fpage>–<lpage>142</lpage>. <pub-id pub-id-type="doi">10.3354/meps298131</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0048"><mixed-citation publication-type="journal" id="jane14112-cit-0048">
+<string-name name-style="western">
+<surname>Mokhtar‐Jamaï</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pascual</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.‐B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Féral</surname>, <given-names>J.‐P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Aurelle</surname>, <given-names>D.</given-names>
+</string-name> (<year>2011</year>). <article-title>From global to local genetic structuring in the red gorgonian <italic toggle="yes">Paramuricea clavata</italic>: The interplay between oceanographic conditions and limited larval dispersal</article-title>. <source>Molecular Ecology</source>, <volume>20</volume>(<issue>16</issue>), <fpage>3291</fpage>–<lpage>3305</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-294X.2011.05176.x</pub-id>
+<pub-id pub-id-type="pmid">21762434</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0049"><mixed-citation publication-type="journal" id="jane14112-cit-0049">
+<string-name name-style="western">
+<surname>Montero‐Serra</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doak</surname>, <given-names>D. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ledoux</surname>, <given-names>J.‐B.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name> (<year>2019</year>). <article-title>Marine protected areas enhance structural complexity but do not buffer the consequences of ocean warming for an overexploited precious coral</article-title>. <source>Journal of Applied Ecology</source>, <volume>56</volume>(<issue>5</issue>), <fpage>1063</fpage>–<lpage>1074</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2664.13321</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0050"><mixed-citation publication-type="journal" id="jane14112-cit-0050">
+<string-name name-style="western">
+<surname>Nicholls</surname>, <given-names>R. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cazenave</surname>, <given-names>A.</given-names>
+</string-name> (<year>2010</year>). <article-title>Sea‐level rise and its impact on coastal zones</article-title>. <source>Science</source>, <volume>328</volume>(<issue>5985</issue>), <fpage>1517</fpage>–<lpage>1520</lpage>. <pub-id pub-id-type="doi">10.1126/science.1185782</pub-id>
+<pub-id pub-id-type="pmid">20558707</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0051"><mixed-citation publication-type="journal" id="jane14112-cit-0051">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donat</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burrows</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moore</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smale</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexander</surname>, <given-names>L. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benthuysen</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feng</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sen Gupta</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A. J.</given-names>
+</string-name> (<year>2018</year>). <article-title>Longer and more frequent marine heatwaves over the past century</article-title>. <source>Nature Communications</source>, <volume>9</volume>(<issue>1</issue>), <fpage>1</fpage>–<lpage>12</lpage>. <pub-id pub-id-type="doi">10.1038/s41467-018-03732-9</pub-id>
+<pub-id pub-id-type="pmcid">PMC5893591</pub-id><pub-id pub-id-type="pmid">29636482</pub-id></mixed-citation></ref><ref id="jane14112-bib-0052"><mixed-citation publication-type="journal" id="jane14112-cit-0052">
+<string-name name-style="western">
+<surname>Parmesan</surname>, <given-names>C.</given-names>
+</string-name> (<year>2006</year>). <article-title>Ecological and evolutionary responses to recent climate change</article-title>. <source>Annual Review of Ecology, Evolution, and Systematics</source>, <volume>37</volume>, <fpage>637</fpage>–<lpage>669</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.ecolsys.37.091305.110100</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0053"><mixed-citation publication-type="journal" id="jane14112-cit-0053">
+<string-name name-style="western">
+<surname>Pastor</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Khodayar</surname>, <given-names>S.</given-names>
+</string-name> (<year>2022</year>). <article-title>Marine heat waves: Characterizing a major climate impact in the Mediterranean</article-title>. <source>Science of the Total Environment</source>, <volume>861</volume>, <elocation-id>160621</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.160621</pub-id>
+<pub-id pub-id-type="pmid">36462657</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0054"><mixed-citation publication-type="journal" id="jane14112-cit-0054">
+<string-name name-style="western">
+<surname>Pereira</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leadley</surname>, <given-names>P. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Proença</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alkemade</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scharlemann</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernandez‐Manjarrés</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Araújo</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balvanera</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biggs</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cheung</surname>, <given-names>W. W.</given-names>
+</string-name> (<year>2010</year>). <article-title>Scenarios for global biodiversity in the 21st century</article-title>. <source>Science</source>, <volume>330</volume>(<issue>6010</issue>), <fpage>1496</fpage>–<lpage>1501</lpage>. <pub-id pub-id-type="doi">10.1126/science.1196624</pub-id>
+<pub-id pub-id-type="pmid">20978282</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0055"><mixed-citation publication-type="journal" id="jane14112-cit-0055">
+<string-name name-style="western">
+<surname>Pilczynska</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cocito</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boavida</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Serrão</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Queiroga</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>). <article-title>Genetic diversity and local connectivity in the Mediterranean red gorgonian coral after mass mortality events</article-title>. <source>PLoS One</source>, <volume>11</volume>(<issue>3</issue>), <elocation-id>e0150590</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0150590</pub-id>
+<pub-id pub-id-type="pmid">26982334</pub-id>
+<pub-id pub-id-type="pmcid">PMC4794161</pub-id></mixed-citation></ref><ref id="jane14112-bib-0056"><mixed-citation publication-type="journal" id="jane14112-cit-0056">
+<string-name name-style="western">
+<surname>Ponti</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perlini</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ventra</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grech</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abbiati</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cerrano</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Ecological shifts in Mediterranean coralligenous assemblages related to gorgonian forest loss</article-title>. <source>PLoS One</source>, <volume>9</volume>(<issue>7</issue>), <elocation-id>e102782</elocation-id>.<pub-id pub-id-type="pmid">25054286</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0102782</pub-id><pub-id pub-id-type="pmcid">PMC4108394</pub-id></mixed-citation></ref><ref id="jane14112-bib-0057"><mixed-citation publication-type="journal" id="jane14112-cit-0057">
+<string-name name-style="western">
+<surname>Ponti</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Turicchia</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferro</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cerrano</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Abbiati</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>). <article-title>The understorey of gorgonian forests in mesophotic temperate reefs</article-title>. <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source>, <volume>28</volume>(<issue>5</issue>), <fpage>1153</fpage>–<lpage>1166</lpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0102782</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0058"><mixed-citation publication-type="miscellaneous" id="jane14112-cit-0058">
+<string-name name-style="western">
+<surname>Rovira</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capdevila</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zentner</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Margarit</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ortega</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Casals</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Figuerola‐Ferrando</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aspillaga</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medrano</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pagès‐Escolà</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hereu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name> (<year>2024</year>). <article-title>Data from: When resilience is not enough: 2022 extreme marine heatwave threatens climatic refugia for a habitat‐forming Mediterranean octocoral</article-title>. <italic toggle="yes">Dryad</italic>
+<pub-id pub-id-type="doi">10.5061/dryad.tmpg4f569</pub-id>
+<pub-id pub-id-type="pmcid">PMC12326063</pub-id><pub-id pub-id-type="pmid">38867406</pub-id></mixed-citation></ref><ref id="jane14112-bib-0059"><mixed-citation publication-type="journal" id="jane14112-cit-0059">
+<string-name name-style="western">
+<surname>Smale</surname>, <given-names>D. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name> (<year>2013</year>). <article-title>Extreme climatic event drives range contraction of a habitat‐forming species</article-title>. <source>Proceedings of the Royal Society B: Biological Sciences</source>, <volume>280</volume>(<issue>1754</issue>), <elocation-id>20122829</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2012.2829</pub-id>
+<pub-id pub-id-type="pmcid">PMC3574333</pub-id><pub-id pub-id-type="pmid">23325774</pub-id></mixed-citation></ref><ref id="jane14112-bib-0060"><mixed-citation publication-type="journal" id="jane14112-cit-0060">
+<string-name name-style="western">
+<surname>Verdura</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ballesteros</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coma</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Uriz</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bensoussan</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name> (<year>2019</year>). <article-title>Biodiversity loss in a Mediterranean ecosystem due to an extreme warming event unveils the role of an engineering gorgonian species</article-title>. <source>Scientific Reports</source>, <volume>9</volume>(<issue>1</issue>), <elocation-id>Article 1</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-019-41929-0</pub-id>
+<pub-id pub-id-type="pmcid">PMC6459914</pub-id><pub-id pub-id-type="pmid">30976028</pub-id></mixed-citation></ref><ref id="jane14112-bib-0061"><mixed-citation publication-type="journal" id="jane14112-cit-0061">
+<string-name name-style="western">
+<surname>Verdura</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santamaría</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ballesteros</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smale</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cefalì</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golo</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Caralt</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vergés</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cebrian</surname>, <given-names>E.</given-names>
+</string-name> (<year>2021</year>). <article-title>Local‐scale climatic refugia offer sanctuary for a habitat‐forming species during a marine heatwave</article-title>. <source>Journal of Ecology</source>, <volume>109</volume>(<issue>4</issue>), <fpage>1758</fpage>–<lpage>1773</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.13599</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0062"><mixed-citation publication-type="journal" id="jane14112-cit-0062">
+<string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Babcock</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Bettignies</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cure</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Depczynski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dufois</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fromont</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fulton</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hovey</surname>, <given-names>R. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harvey</surname>, <given-names>E. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holmes</surname>, <given-names>T. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kendrick</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Radford</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santana‐Garcon</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saunders</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smale</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomsen</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tuckett</surname>, <given-names>C. A.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>S.</given-names>
+</string-name> (<year>2016</year>). <article-title>Climate‐driven regime shift of a temperate marine ecosystem</article-title>. <source>Science</source>, <volume>353</volume>(<issue>6295</issue>), <fpage>169</fpage>–<lpage>172</lpage>. <pub-id pub-id-type="doi">10.1126/science.aad8745</pub-id>
+<pub-id pub-id-type="pmid">27387951</pub-id>
+</mixed-citation></ref><ref id="jane14112-bib-0063"><mixed-citation publication-type="journal" id="jane14112-cit-0063">
+<string-name name-style="western">
+<surname>Zentner</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rovira</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Margarit</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ortega</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Casals</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Medrano</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pagès‐Escolà</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aspillaga</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capdevila</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Figuerola‐Ferrando</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Riera</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hereu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrabou</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Linares</surname>, <given-names>C.</given-names>
+</string-name> (<year>2023</year>). <article-title>Marine protected areas in a changing ocean: Adaptive management can mitigate the synergistic effects of local and climate change impacts</article-title>. <source>Biological Conservation</source>, <volume>282</volume>, <elocation-id>110048</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biocon.2023.110048</pub-id>
+</mixed-citation></ref></ref-list></back></article>

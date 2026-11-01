@@ -720,6 +720,17 @@ semantic_corpus download \
 - `--output, -o`: Output directory (default: `temp/downloads`)
 - `--verbose, -v`: Enable verbose output
 
+#### Migrating from pygetpapers
+
+Prefer native `search` / `download`. To reuse a familiar pygetpapers flag line (quoting stays with the shell):
+
+```bash
+semantic_corpus --pygetpapers -q 'AMOC AND India' -k 50 -o temp/queries/amoc_india_2026 -x
+# → semantic_corpus download --query 'AMOC AND India' --limit 50 --output … --formats xml --repository europe_pmc
+```
+
+Supported: `-q/--query`, `-k/--limit`, `-o/--output`, `-x/--xml`, `-p/--pdf`, `-n/--noexecute`. Unsupported flags (`--supp`, `--makecsv`, …) are ignored with a warning. Europe PMC HTTP 503 / `errCode` responses raise a clear error with a retry hint.
+
 **Example Output:**
 ```
 Found 10 papers, starting download...

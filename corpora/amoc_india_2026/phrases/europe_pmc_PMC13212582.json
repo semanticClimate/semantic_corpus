@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13212582",
+  "phrases": [
+    {
+      "phrase": "santa maria",
+      "display": "Santa Maria",
+      "score": 3.4
+    },
+    {
+      "phrase": "middle east",
+      "display": "Middle East",
+      "score": 1.6
+    },
+    {
+      "phrase": "krakatau and santa maria",
+      "display": "Krakatau and Santa Maria",
+      "score": 1.5
+    },
+    {
+      "phrase": "random forest",
+      "display": "Random Forest",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic oscillation",
+      "display": "North Atlantic Oscillation",
+      "score": 1.3
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.2
+    },
+    {
+      "phrase": "tropical north atlantic",
+      "display": "Tropical North Atlantic",
+      "score": 1.2
+    },
+    {
+      "phrase": "iran",
+      "display": "Iran",
+      "score": 1.57
+    },
+    {
+      "phrase": "nao",
+      "display": "NAO",
+      "score": 1.48
+    },
+    {
+      "phrase": "enso",
+      "display": "ENSO",
+      "score": 1.4
+    },
+    {
+      "phrase": "krakatau",
+      "score": 0.0395,
+      "display": "Krakatau"
+    },
+    {
+      "phrase": "indices",
+      "score": 0.0394,
+      "display": "Indices"
+    },
+    {
+      "phrase": "santa",
+      "score": 0.0386,
+      "display": "Santa"
+    },
+    {
+      "phrase": "temperature anomalies",
+      "score": 0.0384,
+      "display": "Temperature anomalies"
+    },
+    {
+      "phrase": "post-eruption",
+      "score": 0.0384,
+      "display": "post-eruption"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

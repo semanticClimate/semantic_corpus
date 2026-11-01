@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Environmental Science &amp; Technology</journal-title><abbrev-journal-title>Environ Sci Technol</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12312086</article-id><article-id pub-id-type="pmcaid">12312086</article-id><article-id pub-id-type="pmcaiid">12312086</article-id><article-id pub-id-type="pmid">40686369</article-id><article-id pub-id-type="doi">10.1021/acs.est.5c03122</article-id><title-group><article-title>Impacts of the 2023
+Marine Heatwave in the Florida
+Keys: Detection and Analysis of a Mass Coral Bleaching Event Using
+Spaceborne Remote Sensing Imagery</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Ayad</surname><given-names initials="M">Mariam</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Lee</surname><given-names initials="CM">Christine M</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Porter</surname><given-names initials="JW">James W</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Chirayath</surname><given-names initials="V">Ved</given-names></name><xref ref-type="aff" rid="aff4">∥</xref></contrib><contrib><name name-style="western"><surname>Nivison</surname><given-names initials="CL">Camilla L</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Vaughn</surname><given-names initials="KM">Kelsey M</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Kudela</surname><given-names initials="R">Raphael</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+Department
+of Ocean Sciences, University of California, Santa Cruz, Santa Cruz, California
+95064, United States
+</aff><aff id="aff2">
+<label>‡</label>
+Jet
+Propulsion Laboratory, California Institute
+of Technology, Pasadena, California
+91011, United States
+</aff><aff id="aff3">
+<label>§</label>
+Odum
+School of Ecology, University of Georgia, Athens, Georgia
+30602, United States
+</aff><aff id="aff4">
+<label>∥</label>
+Rosenstiel
+School of Marine, Atmospheric, and Earth Science, University of Miami, Miami, Florida
+33149, United States
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>maayad@ucsc.edu</email>.</p></fn></author-notes><pub-date><day>21</day><month>7</month><year>2025</year></pub-date><volume>59</volume><issue>29</issue><fpage>15227</fpage><page-range>15227–15235</page-range><pub-history><event event-type="pmc-release"><date><day>1</day><month>8</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© 2025 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="es5c03122.pdf" content-type="pmc-pdf"><?cloudpmc-path 9c22/12312086/c06c44caef29/es5c03122.pdf?><?cloudpmc-bucket app?><?size 2936897?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Coral reefs are facing several stressors, such as increases
+in
+sea surface temperature, eutrophication, and hurricanes, resulting
+in reef-decline worldwide. In the Florida Keys, these stressors, especially
+elevated temperatures, have triggered widespread coral bleaching as
+well as a cascade of simultaneous negative impacts, such as increased
+disease, accelerated reef erosion, and severe ecosystem degradation.
+In the summer of 2023, the Florida Keys and the Caribbean experienced
+a mass bleaching event due to a record-breaking marine heatwave with
+ocean temperatures exceeding 38 °C. This study investigates whether
+remote sensing using Planet’s SuperDove sensor could detect
+this mass coral bleaching event at Horseshoe Reef and Cheeca Rocks
+in the Florida Keys. We validated these data using several sources:
+NOAA photomosaic data, NASA airborne fluid lensing from two campaigns
+(before and during bleaching), and underwater orthomosaic data from
+July 2023. We were able to detect a signal change using the SuperDove
+sensor between healthy and bleached coral. Bleached corals have a
+higher reflectance in SuperDove’s band 2 (492 nm) compared
+to healthy coral. The results of this study supports the use of Planet’s
+SuperDove satellite imagery for long-term monitoring of coral bleaching,
+though confirmation with high-resolution refraction-free data are
+still needed.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> coral bleaching, coral reef, remote sensing, planet SuperDove, Florida Keys, change detection</p></sec></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="es5c03122_0012.jpg"><?cloudpmc-path blobs/9c22/12312086/0076635db9e5/es5c03122_0012.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 559?><?original-width 388?><?scaled-height 559?><?scaled-width 388?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="es5c03122_0010.jpg"><?cloudpmc-path blobs/9c22/12312086/0076635db9e5/es5c03122_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 559?><?original-width 388?><?scaled-height 559?><?scaled-width 388?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Mar 6; Accepted 2025 Jul 11; Revised 2025 Jul 10; Collection date 2025 Jul 29.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><title>Introduction</title><p>The Florida Keys provide critical ecosystem
+services to several
+threatened and endangered marine species and are a key contributor
+to Florida’s gross domestic product. Coral reefs in the Florida Keys generate $8.5 billion annually and
+create 70,400 jobs in the south Florida economy. Additionally, approximately half of all federally regulated
+fisheries rely on coral reefs. NOAA’s National Marine Fisheries
+Service estimates coral reefs contribute over $100 million to the
+commercial fishing industry annually. Although
+coral reefs play a vital role in maintaining a healthy economy, they
+are one of the most vulnerable ecosystems in a changing climate. Coral
+reefs face many stressors, such as nutrient pollution, overfishing,
+sedimentation, increased sea surface temperatures (SST), ocean acidification,
+oil pollution, terrestrial runoff, physical damage to the coral (from
+boats, tourists, dredging, and storms), and introduced species. These
+stressors have resulted in a loss of roughly 40% of coral cover in
+the Florida Keys in the past 40 years.<italic>
+−
+
+</italic>
+</p><p>One of the main
+causes of coral cover loss and mass coral bleaching
+events is the increasing frequency and severity of marine heatwaves
+(MHW). In 2023, the Florida Keys and the
+Caribbean experienced record-breaking SST (exceeding 38 °C) (<xref rid="fig1" ref-type="fig">Figure 
+</xref>), driven by El Niño-Southern
+Oscillation (ENSO) and amplified by climate change. This MHW event resulted in a mass coral bleaching event
+throughout the Florida Keys and Caribbean.<italic>
+,
+</italic> Coral
+bleaching is a stress-induced phenomenon in which corals expel or
+consume their symbiotic algae, . This process causes corals to turn white, as the absence of exposes the underlying white calcium
+carbonate skeleton. The loss of these
+vital symbionts eliminates the coral’s photosynthetic ability,
+and thus, its main carbon source, leading to declines in health and
+potential mortality. However, coral bleaching can be reversed if the
+stressor, in this case, SST, returns to normal conditions and the
+corals are recolonized by before they suffer too great an energy deficit.</p><fig id="fig1" position="float"><?disp-level 2?><label>1</label><caption><p>A map of the Florida
+Keys and the SST anomaly maximum on July 13,
+2023 (left panel) with the 2 study sites: Horseshoe Reef and Cheeca
+Rocks (right panel). The data are the Daily Global 5 km Satellite
+Sea Surface Temperature Anomaly from NOAA (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://coralreefwatch.noaa.gov/product/5km/" ext-link-type="uri">https://coralreefwatch.noaa.gov/product/5km/</ext-link>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="es5c03122_0001.jpg"><?cloudpmc-path blobs/9c22/12312086/b8b8e4e4f7a5/es5c03122_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 748?><?original-width 996?><?scaled-height 499?><?scaled-width 664?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0001.gif"><?cloudpmc-path blobs/9c22/12312086/3b4b1e1631dd/es5c03122_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To effectively manage and protect coral reefs,
+monitoring and understanding
+the scope of negative impacts across both spatial and temporal dimensions
+is essential. Rapid identification of which coral reefs bleach and
+which are spared will be especially valuable in targeting regions
+for special protection and restoration efforts. Achieving this requires
+fine-scale monitoring of reef systems over extensive areas, the scope
+of which can only be achieved using remote sensing. Remote sensing
+is a powerful tool for monitoring shallow coral reef habitats because
+it can rapidly capture large areas compared to labor-intensive diving
+surveys. Previous studies have indicated that mass coral bleaching
+events are detectable from satellite data.<italic>
+−
+
+
+</italic> These studies have primarily
+focused on the Great Barrier Reef, Australia, because of the availability
+of extensive survey field data and high coral cover. However, a few
+studies have investigated other regions, including Hawaii, China, Honduras and the Northwestern Hawaiian Islands and the
+Gilbert Islands. These methods require
+clear imagery, a sensor with frequent revisit times, and high spatial
+resolution (pixels ≤ 5 m). In
+addition, previous studies have found that the detection of coral
+bleaching using satellite remote sensing is limited to shallow coral
+reefs with a depth of less than 15 m, as the signal rapidly attenuates
+with increasing depth.<italic>
+,,,
+</italic>. Detection of bleached coral can be challenging
+due to similar spectral signatures of physically adjacent bright targets
+(e.g., sand or carbonate rock). Furthermore, in cases of overlapping
+coral types in the same pixel, the reflectance of bleach, live, or
+algal-covered coral is not readily distinguishable. These challenges
+highlight the need for a high-resolution sensor, especially for detecting
+bleaching on reefs with low coral cover.</p><p>Coral bleaching can
+occur on a time scale of weeks; therefore the
+PlanetScope SuperDove, with its 1 day revisit time was the best sensor
+for this work. This sensor has a spatial resolution of 3 m/pixel allowing
+it to record bleaching of very large individual coral heads and clusters
+of smaller colonies. Previous work by used Planet Dove imagery to assess large-scale bleaching across
+the Hawaiian Islands. Their approach estimated bottom reflectance
+through radiative transfer modeling and implemented a bleaching probability
+index informed by NOAA Coral Reef Watch (CRW) SST data to define the
+timing of the bleaching event. While this method provides a valuable
+framework for regional-scale assessments, it requires inputs such
+as high-resolution airborne maps of live coral cover, bathymetry,
+and water optical properties, which are not widely available for many
+reef systems. In contrast, our study focuses on localized bleaching
+impacts on two reefs in the Florida Keys, Horseshoe Reef and Cheeca
+Rocks, during the unprecedented 2023 marine heatwave. We apply a pseudoinvariant
+feature (PIF) normalization technique to remote sensing reflectance
+time series, allowing us to detect spectral anomalies associated with
+bleaching without the need for bottom reflectance modeling or SST-based
+thresholds. However, this approach requires well-georeferenced validation
+data of bleached coral cover to confirm the satellite-detected signals.
+In our case, the 2023 mass bleaching event provided a unique opportunity
+to test real-time remote sensing, as reports confirmed nearly 100%
+bleaching across all coral colonies in Florida’s reefs. This large-scale bleaching event prompted a
+widespread response, with several research groups and monitoring programs
+conducting fieldwork to collect in situ data across affected reef
+sites.</p><p>In this study, we combined satellite remote sensing observations
+with both airborne and diver-based methods to validate bleaching detection.
+We contributed to this effort by collecting NASA airborne fluid lensing
+data and in situ orthomosaics of benthic images taken underwater. Airborne fluid lensing is a NASA-patented technology
+that produces multispectral orthorectified and refraction-corrected
+imagery, bathymetry, and 3D models.<italic>
+,
+</italic> The FluidCam
+data set has allowed us to make much broader spatial scale assessments
+on the extent of bleaching, as compared to diver-based methods.<italic>
+,
+</italic> In contrast, diver-generated orthomosaics offered precise, colony-level
+validation at smaller, patchier sites like Horseshoe Reef. At Cheeca
+Rocks, we were also able to incorporate publicly available aerial
+data from NOAA, highlighting how this approach can be adapted for
+use at other sites where baseline data already exist. If validated,
+remote-sensing data can provide coastal zone managers and policymakers
+with inexpensive and effective ways to monitor these valuable and
+vulnerable ecosystems.
+</p></sec><sec id="sec2" disp-level="1"><title>Data and Methods</title><sec id="sec2.1" disp-level="2"><title>Study Sites</title><p>We focus on two study sites: Horseshoe Reef (total area of 35,029 m<sup>2</sup>) which has sparse coral cover and Cheeca
+Rocks (total area of 82,759 m<sup>2</sup>) with dense coral cover
+(<xref rid="fig1" ref-type="fig">Figure 
+</xref> right panel).
+These patch reefs are part of the Florida Keys National Marine Sanctuary
+(NMS) which protects 3800 square miles of coastal waters. Horseshoe
+Reef is a shallow reef (&lt;4 m) located about 7 km offshore and is
+known for its extensive stands of branching corals, and . is currently threatened
+by several environmental stressors.<italic>
+,
+</italic> Cheeca Rocks
+is a shallow reef (&lt;6 m) located about 2 km offshore and has dense
+coral cover of boulder and star corals. This site has exhibited resilience
+to environmental stressors and has been used by many researchers studying
+climate change impacts (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://floridakeys.noaa.gov" ext-link-type="uri">https://floridakeys.noaa.gov</ext-link>). Given their importance to the protection of coral biodiversity
+and promotion of commercial activities in the Florida Keys, both Horseshoe
+Reef and Cheeca Rocks have been designated as NOAA Iconic Reefs.<italic>
+−
+
+</italic> Fieldwork was completed before (May 2023) and during (July-August
+2023) this MHW event at Horseshoe Reef (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://earthobservatory.nasa.gov/images/153304/confronting-floridas-coral-collapse" ext-link-type="uri">https://earthobservatory.nasa.gov/images/153304/confronting-floridas-coral-collapse</ext-link>).</p></sec><sec id="sec2.2" disp-level="2"><title>Spaceborne Remote Sensing Methods</title><sec id="sec2.2.1" disp-level="3"><title>PlanetScope SuperDove Imagery</title><p>PlanetScope is the constellation
+of Earth observation satellites operated by Planet Laboratories Inc.,
+which includes three types of Dove sensors: Dove Classic, Dove-R,
+and SuperDove. The workflow for preprocessing the remote sensing images
+is shown in <xref rid="fig2" ref-type="fig">Figure 
+</xref>. Information on the Planet SuperDove sensor is shown in <xref rid="tbl1" ref-type="table">Table 
+</xref>. The SuperDove imagery
+is available from Planet.com and has a revisit time of 1 day and a
+high spatial resolution of 3 m. All images were carefully selected
+manually to be free of surface-reflectance glint and have less than
+15% cloud cover. For Horseshoe Reef, 16 images were selected and are
+summarized in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.5c03122/suppl_file/es5c03122_si_001.pdf" ext-link-type="uri">Table S1</ext-link>. We selected 2 images
+from 2022 because they have similar sun elevation to the 2023 bleaching
+period. We selected approximately 1 image per month from January 2023
+to April 2024. Some months were excluded due to rain or wind events
+that caused increased turbidity, which would impair image quality
+and comparison. We used <xref rid="fig3" ref-type="fig">Figure 
+</xref> to manually select bleached-coral
+locations. We calculated the average reflectance over this area. All
+images were normalized using the April 18, 2023, image. For Cheeca
+Rocks, 16 images were chosen using similar selection criteria (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.5c03122/suppl_file/es5c03122_si_001.pdf" ext-link-type="uri">Table S2</ext-link>). All images were normalized using the
+May 20, 2023 image.</p><fig id="fig2" position="float"><?disp-level 4?><label>2</label><caption><p>Workflow of satellite remote sensing methods for bleaching
+detection.
+Photograph of a dead colony at Horseshoe Reef (taken on May 10, 2024) courtesy of Andrew
+Ibarra, NOAA Office of National Marine Sanctuaries.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="es5c03122_0002.jpg"><?cloudpmc-path blobs/9c22/12312086/5bf8fa705e68/es5c03122_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1185?><?original-width 1292?><?scaled-height 593?><?scaled-width 646?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0002.gif"><?cloudpmc-path blobs/9c22/12312086/ee460e9932d3/es5c03122_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="tbl1" position="float"><?disp-level 4?><label>1</label><caption><title>Sensor Specifications for PlanetScope</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1">sensor</th><th align="center" colspan="1" rowspan="1">PlanetScope SuperDove
+(PSB.SD)</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">revisit time (days)</td><td align="left" colspan="1" rowspan="1">1</td></tr><tr><td align="left" colspan="1" rowspan="1">spatial resolution (meters)</td><td align="left" colspan="1" rowspan="1">3</td></tr><tr><td align="left" colspan="1" rowspan="1">spectral bands (bands used in this
+study)</td><td align="left" colspan="1" rowspan="1">band 1:444 nm: coastal blue</td></tr><tr><td align="left" colspan="1" rowspan="1"> </td><td align="left" colspan="1" rowspan="1">band 2:492 nm: blue</td></tr><tr><td align="left" colspan="1" rowspan="1"> </td><td align="left" colspan="1" rowspan="1">band 3:566 nm: green</td></tr><tr><td align="left" colspan="1" rowspan="1"> </td><td align="left" colspan="1" rowspan="1">band 4:666 nm: red</td></tr><tr><td align="left" colspan="1" rowspan="1"> </td><td align="left" colspan="1" rowspan="1">band 8:866 nm: NIR</td></tr></tbody></table></table-wrap><fig id="fig3" position="float"><?disp-level 4?><label>3</label><caption><p>Horseshoe Reef before and during the bleaching event. Airborne
+Fluid Lensing data set from 5/18/23 (top) and 8/8/2023 (bottom). Red
+boxes highlight where there is live coral cover. The black box highlights
+a bleached coral colony.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="es5c03122_0003.jpg"><?cloudpmc-path blobs/9c22/12312086/3edbca9f4d00/es5c03122_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1531?><?original-width 1292?><?scaled-height 766?><?scaled-width 646?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0003.gif"><?cloudpmc-path blobs/9c22/12312086/f2132f2f5a15/es5c03122_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec2.3" disp-level="2"><title>Image Processing</title><p>ACOLITE is a software tool used to
+process remote sensing imagery for coastal applications. The software
+can be downloaded from the GitHub repository: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/acolite/acolite" ext-link-type="uri">https://github.com/acolite/acolite</ext-link>. The Dark Spectrum Fitting (DSF) algorithm<italic>
+,
+</italic> is the atmospheric correction applied to the SuperDove sensor using
+the ACOLITE software. This DSF algorithm estimates the remote sensing
+reflectance [<italic>R</italic>
+<sub>rs</sub> (sr<sup>–1</sup>)] which is the output for all the images. After applying atmospheric
+correction, we applied a clear water (low-turbidity) sun glint correction
+using the NIR band. A mask was applied
+to remove land, boats, and clouds from each image.</p></sec><sec id="sec2.4" disp-level="2"><title>Radiometric Normalization Using Pseudo Invariant Features (PIFs)</title><p>To compare between remote sensing images, we normalized any distortions
+in the imagery (caused by atmospheric conditions, view angle, solar
+angle, etc.) by applying radiometric normalization via Pseudo Invariant
+Features (PIFs). PIFs are regions where
+reflectance is expected to be stable over time. For example, deep
+water regions, sand regions, algal-dominated environments, and airport/building
+roofs have served as reference targets in previous studies for coral
+bleaching detection.<italic>
+,,,,
+</italic> This normalization
+method uses a linear regression of the PIF spectra to determine the
+transformation values (gain and offset) from the adjusted image to
+the reference image. These values are applied to normalize the adjusted
+image to match the reference image. We calculated the spectral distance
+between the reference and the adjusted image to assist in selecting
+the PIFs. Spectral distance was calculated using spectral information
+divergence (SID) to measure the difference between the spectral characteristics
+of pixels in the reference and adjusted imagery. For Horseshoe and
+Cheeca Rocks we selected roughly 10–11 PIFs with a size of
+30 × 30 pixels. After applying the spectral difference between
+the adjusted (normalized) image and the reference image, the most
+stable pixels were found in deep water, shallow-water algal habitats,
+and benthic sand patches. For Horseshoe Reef, we selected algal habitats
+and sand pixels; for Cheeca Rocks, we selected deep-water and sand
+pixels. Increasing the polygon size from 5 × 5 pixels to 100
+× 100 pixels results in a reduction of variance in average reflectance
+values. We identified that a polygon
+size of 30 × 30 pixels combined with 10–11 Pseudo-Invariant
+Features (PIFs) produced the optimal correspondence between the normalized
+and reference images. Although smaller polygon sizes (e.g., 5 ×
+5 pixels and 10 × 10 pixels) were initially considered to preserve
+spatial resolution, no significant improvements were observed below
+the 30 × 30 size with 10–11 PIFs.</p></sec><sec id="sec2.5" disp-level="2"><title>Horseshoe Reef Data</title><sec id="sec2.5.1" disp-level="3"><title>Airborne Fluid Lensing Campaign 2023 Data</title><p>Novel NASA
+airborne fluid lensing was used to image Horseshoe Reef in 3D before<italic>
+−
+
+
+
+
+
+
+
+
+
+
+
+
+</italic> and during (8-8-2023) the unprecedented MHW of 2023. <xref rid="fig4" ref-type="fig">Figure 
+</xref> shows an example of mm-scale
+airborne fluid lensing reconstruction of a test target and coral reef
+with enhanced signal-to-noise ratio (SNR) and effective spatial resolution.
+The airborne fluid lensing data set was used to capture coral colony-level
+bleaching over the entirety of Horseshoe Reef for NMS and NOAA (<xref rid="fig3" ref-type="fig">Figure 
+</xref>).</p><fig id="fig4" position="float"><?disp-level 4?><label>4</label><caption><p>Next-Generation Ocean
+Remote Sensing with Fluid Lensing. Novel
+technologies such as fluid lensing permit multispectral 3D benthic
+imaging without ocean wave distortion and caustic noise. This results
+in improved signal-to-noise ratio (SNR), effective spatial resolution
+(ESR), and greater imaging depth. A sample data set from the 2021
+airborne Guam 2021 campaign demonstrates the technology’s capability
+to map complex shallow reef structures with high fidelity. Fluid lensing
+can also be adapted for use in various fluid environments, such as
+the hydrocarbon seas on Saturn’s moon Titan. Additionally,
+it can be applied to imaging through refractive distortions, like
+those near active deep sea hydrothermal vents on oceans across the
+solar system.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="es5c03122_0004.jpg"><?cloudpmc-path blobs/9c22/12312086/06a269c4ec06/es5c03122_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1190?><?original-width 1862?><?scaled-height 475?><?scaled-width 744?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0004.gif"><?cloudpmc-path blobs/9c22/12312086/8e0e6e685969/es5c03122_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec2.6" disp-level="2"><title>Underwater Photogrammetry</title><p>Photographs were taken by
+divers using paired GoPro underwater cameras (<xref rid="fig5" ref-type="fig">Figure 
+</xref>) with the image-capture rate set automatically
+at one-second intervals. These orthomosaics provided high-resolution
+data and facilitated species identifications and accurate assessments
+of coral health. The images captured on July 11-26, 2023 allowed us to ground-truth our airborne fluid
+lensing images.</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>Horseshoe Reef. Diver taking photos of Horseshoe Reef
+for 3D image
+analysis and remote sensing validation.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="es5c03122_0005.jpg"><?cloudpmc-path blobs/9c22/12312086/e3e35747b9f4/es5c03122_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 552?><?original-width 993?><?scaled-height 368?><?scaled-width 662?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0005.gif"><?cloudpmc-path blobs/9c22/12312086/347140d6cd6a/es5c03122_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.7" disp-level="2"><title>Cheeca Rocks Data</title><p>For Cheeca Rocks, data were acquired
+from NOAA through reports and photomosaics provided by the National
+Coral Reef Monitoring Program (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://coris.noaa.gov/monitoring/" ext-link-type="uri">https://coris.noaa.gov/monitoring/</ext-link>). Cheeca Rocks had reports of 100% bleaching during the 2023 marine
+heatwave (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://aoml.noaa.gov/cheeca-rocks-reef-completely-bleached/" ext-link-type="uri">https://aoml.noaa.gov/cheeca-rocks-reef-completely-bleached/</ext-link>). We also used airborne imagery collected from NOAA to map live
+coral cover over Cheeca Rocks. This orthoimage data set is a 4-band
+mosaic from Miami to Key West and has a spatial resolution of 0.3
+m. These were collected in the Winter (1/8) and Spring (5/20) of 2019
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fisheries.noaa.gov/inport/item/63292" ext-link-type="uri">https://fisheries.noaa.gov/inport/item/63292</ext-link>). The data were imported into ArcGIS Pro, where the Iso Cluster
+Unsupervised Classification tool was utilized to identify the general
+area of live coral cover. This tool employs the Iso Cluster Unsupervised
+Classification algorithm, which groups pixels into clusters based
+on similar spectral characteristics within the imagery. The resulting
+classification delineates areas of live coral cover, enabling the
+determination of the average reflectance over these regions across
+all images.</p></sec></sec><sec id="sec3" disp-level="1"><title>Results and Discussion</title><sec id="sec3.1" disp-level="2"><title>Horseshoe Reef Results</title><p>The average normalized remote
+sensing reflectance (sr<sup>–1</sup>) before, during, and after
+the bleaching event from August 2022 to April 2024 is shown in <xref rid="fig6" ref-type="fig">Figure 
+</xref>A. The results show
+that the bleached period (red and orange lines in <xref rid="fig6" ref-type="fig">Figure 
+</xref>A) has the highest reflectance
+in bands 1–2. We see a clear separation in reflectance values
+in band 2 (blue band492 nm). <xref rid="fig6" ref-type="fig">Figure 
+</xref>A also includes the data from August 17 and
+31, 2022, as represented by the dark gray lines, due to the similar
+solar angles observed on those dates. However, it remains unclear
+from this method whether coral paling or bleaching occurred during
+this period in August 2022.</p><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>(A) Average normalized remote sensing reflectance
+(sr<sup>–1</sup>) before, during, and after the bleaching event
+at Horseshoe Reef.
+Band 1444 nm: coastal blue; band 2492 nm: blue; band
+3566 nm: green; band 4666 nm: red; and band 8866
+nm: NIR. (B) NOAA daily global sea surface temperature anomaly from
+August 2022 to April 2024 at Horseshoe Reef. The region highlighted
+in the lighter red horizontal band shows a prolonged SST anomaly above
+1 °C from January to mid October 2023. The region highlighted
+in the darker red vertical bar is the bleaching period. (C) Time series
+data displayed in <xref rid="fig6" ref-type="fig">Figure 
+</xref>A includes only bands 1–3. The green highlighted area
+is before the bleaching event, the red highlighted area is during
+the bleaching event, and the purple highlighted area is after the
+bleaching event.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="es5c03122_0006.jpg"><?cloudpmc-path blobs/9c22/12312086/78e9b16d4e56/es5c03122_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 831?><?original-width 1667?><?scaled-height 332?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0006.gif"><?cloudpmc-path blobs/9c22/12312086/60e997262d05/es5c03122_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To ground-truth the fluid lensing data, we compared
+these results
+to orthomosaics of Horseshoe Reef. The
+large colony in <xref rid="fig3" ref-type="fig">Figure 
+</xref> (black box in bottom
+panel) is the same colony shown in the orthomosaic when healthy (<xref rid="fig7" ref-type="fig">Figure 
+</xref>A) and bleached (<xref rid="fig7" ref-type="fig">Figure 
+</xref>B). Further, the
+fluid lensing images also show the surrounding coral colonies, which
+appear completely bleached by July 25, 2023 through at least August
+8, confirming that we correctly identified the period of bleaching
+through this novel technique.</p><fig id="fig7" position="float"><?disp-level 3?><label>7</label><caption><p>Orthomosaics of healthy colonies on Horseshoe Reef in Key Largo, Florida,
+from July 11,
+2023 (A) and visually bleached colonies from July 25, 2023 (B). Images
+from.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="es5c03122_0007.jpg"><?cloudpmc-path blobs/9c22/12312086/fb82d49f29aa/es5c03122_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 541?><?original-width 833?><?scaled-height 360?><?scaled-width 555?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0007.gif"><?cloudpmc-path blobs/9c22/12312086/0886fb7e48b9/es5c03122_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The SST anomaly from August 2022 to April 2024
+at Horseshoe Reef
+is shown in <xref rid="fig6" ref-type="fig">Figure 
+</xref>B. From June 14 to September 3 of 2023, the SST anomaly was above
+1 °C for 81 days. <xref rid="fig6" ref-type="fig">Figure 
+</xref>C shows a time series of the same data as <xref rid="fig6" ref-type="fig">Figure 
+</xref>A only showing bands 1–3.
+We find that after the bleaching event (highlighted in purple), we
+see spikes in band 3 in November and March of 2024 (<xref rid="fig6" ref-type="fig">Figure 
+</xref>C) which may be due to turf
+algal growth over dead corals on the reef. Anecdotal reports from
+NOAA found that there was high mortality of at Horseshoe Reef sometime between November 2023 and April 2024.
+</p><p>The average remote sensing reflectance
+(sr<sup>–1</sup>)
+for bright sand and shallow water regions are included in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.5c03122/suppl_file/es5c03122_si_001.pdf" ext-link-type="uri">Figure S1</ext-link>. We selected random targets (30 ×
+30 pixels) of sand and water regions near Horseshoe Reef. We found
+that the bright sand targets show more variability compared to the
+shallow water regions. Also, the sand pixels have higher reflectance
+(∼0.03–0.06 across bands 1–3) compared to the
+bleached pixels (∼0.02–0.03 across bands 1–3).</p></sec><sec id="sec3.2" disp-level="2"><title>Cheeca Rocks Results</title><p>
+<xref rid="fig8" ref-type="fig">Figure 
+</xref> shows results from Cheeca Rocks before and
+during the bleaching event at four reef patches highlighted by red
+boxes. Radiometric normalization via PIFs is applied to these images. <xref rid="fig8" ref-type="fig">Figure 
+</xref>A is before the bleaching
+event and <xref rid="fig8" ref-type="fig">Figure 
+</xref>B
+is during the bleaching event. Visually we can see a difference in
+the normal conditions and bleached corals in the imagery.</p><fig id="fig8" position="float"><?disp-level 3?><label>8</label><caption><p>RGB imagery
+of the SuperDove sensor (PSB.SD) before (left) and
+during (right) the bleaching event at Cheeca Rocks. Radiometric normalization
+via PIFs applied to both images. (A) May 20, 2023, is before the bleaching
+event; (B) July 30, 2023, is during the bleaching event. Red boxes
+show where there is high coral cover. The red highlighted reef areas
+lighten significantly during the bleaching event.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr8" xlink:href="es5c03122_0008.jpg"><?cloudpmc-path blobs/9c22/12312086/043373935ec5/es5c03122_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 477?><?original-width 996?><?scaled-height 318?><?scaled-width 664?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0008.gif"><?cloudpmc-path blobs/9c22/12312086/a3b910960c51/es5c03122_0008.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The normalized difference between the May 20 and
+July 30 image
+is shown in the background in <xref rid="fig9" ref-type="fig">Figure 
+</xref>. The bright gold regions show the optical signal change
+that occurs when healthy coral bleaches. C1–C4 are four coral-rich
+regions at Cheeca Rocks, as demarcated by the red, green, yellow,
+and pink boxes. Each plot is the average normalized remote sensing
+reflectance (sr<sup>–1</sup>) before, during, and after the
+bleaching event from April 2022 to September 2024. The darker lines
+(gray, blue, and green) are the average of the entire patch, and the
+lighter lines are the average of the highlighted gold regions within
+the patch. We found that when we took the average of the entire patch,
+it did not show a significant peak during the bleaching period (highlighted
+in red). However, when we selected smaller subsets within the patch
+(boxes C1–C4) we were able to see a very distinct peak of reflectance,
+especially in band 2. Before and after the bleaching event (green
+and purple regions) the data are noisy in all four patches; during
+the bleaching event (red regions), however, the optical signals move
+in concert for the three bands. We also see an increase in reflectance
+after the 2023 bleaching event especially in the Summer of 2024 which
+could be due to another bleaching or paling event.</p><fig id="fig9" position="float"><?disp-level 3?><label>9</label><caption><p>Cheeca Rocks: Background
+image is the normalized difference between
+5/20/23 (see <xref rid="fig8" ref-type="fig">Figure 
+</xref>A) and 7/30/23 (see <xref rid="fig8" ref-type="fig">Figure 
+</xref>B) images and the RGB color composite is reversed. The time
+series of bands 1–3 of the four coral patches before, during,
+and after the bleaching event are shown for all four smaller regions
+on the reef (C1 – C4) with high coral cover at Cheeca Rocks.
+The dark gray, blue, and green lines are the average normalized remote
+sensing reflectance (sr<sup>–1</sup>) of the entire patch.
+The lighter lines are the average normalized reflectance of smaller
+regions within the patch (regions highlighted in bright gold). The
+green highlights before the bleaching event, red highlights during
+the bleaching event, and the purple highlights after the bleaching
+event.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr9" xlink:href="es5c03122_0009.jpg"><?cloudpmc-path blobs/9c22/12312086/ccec8c80d80f/es5c03122_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1234?><?original-width 1940?><?scaled-height 494?><?scaled-width 776?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="es5c03122_0009.gif"><?cloudpmc-path blobs/9c22/12312086/a6210368e56b/es5c03122_0009.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Results of the average remote sensing reflectance
+of the bright
+gold regions at each patch for bands 1–8 are located in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.5c03122/suppl_file/es5c03122_si_001.pdf" ext-link-type="uri">Figure S2</ext-link>. These results found that band 2 is
+able to detect the bleaching at each of the four patches. The average
+remote sensing reflectance (sr<sup>–1</sup>) for bright sand
+and shallow water regions are included in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.5c03122/suppl_file/es5c03122_si_001.pdf" ext-link-type="uri">Figure S3</ext-link>. We selected random targets (30 × 30 pixels) of sand
+and deep-water regions near Cheeca Rocks. We found that the bright
+sand targets show more variability compared to the deep-water regions.
+Also, the sand pixels have higher reflectance (∼0.025–0.5
+across bands 1–3) compared to the bleached pixels (∼0.013–0.025
+across bands 1–3).</p></sec></sec><sec id="sec4" disp-level="1"><title>Coral Bleaching Detection</title><p>This study investigates the
+question: Can we detect coral bleaching
+using PlanetScope SuperDove imagery in the Florida Keys? Previous
+studies have used Sentinel 2, Landsat 8, and IKONOS imagery to detect
+coral bleaching.<italic>
+−
+
+,,
+</italic> These studies have focused mainly on reefs in Australia which have
+dense coral cover. Our results found that band 2 (492 nm) from the
+SuperDove imagery is the best indicator of coral bleaching (<xref rid="fig6" ref-type="fig">Figures 
+</xref> and ). This finding is in agreement with using Sentinel 2A band 2 (490 nm). Due to rapid signal attenuation
+with depth, previous studies have also found that shallow coral reefs
+(less than 15 m) are ideal for detection of coral bleaching events.
+For these reasons, we chose two shallow-water coral reefs, Horseshoe
+Reef and Cheeca Rocks, for this study. Although we selected clear
+images with &lt;15% cloud cover and excluded imagery close to storm
+or rain events, there will inevitably be noise in the data set. We
+see noise in the time series before and after the bleaching event
+at both sites (<xref rid="fig6" ref-type="fig">Figures 
+</xref>C and ). Noise in the data set could be introduced
+by several factors, such as colored dissolved organic matter (CDOM),
+turbidity, high chlorophyll concentrations, or a mixed pixel effect,
+all of which alter the reflectance patterns of the water. These effects could also be due to the SuperDove
+sensor itself, where there is higher noise in the NIR band, which
+is used for glint correction. However,
+because we have in situ field validation (<xref rid="fig3" ref-type="fig">Figures 
+</xref> and ) of the bleaching
+extent on both Horseshoe Reef and Cheeca Rocks, we can confirm that
+the elevated reflectance signal is due to bleaching.</p><p>Although
+our study focused on two small reef sites in the Florida
+Keys, the results suggest that this approach, when combined with in
+situ observations of bleaching, may be adaptable to other regions.
+The use of pseudoinvariant features (PIFs) to normalize satellite
+imagery has been successfully applied in other coral reef environments
+(e.g., 11; 16; 12; 36), and holds promise for broader application,
+particularly in clear, shallow waters with available ground-truth
+data and cloud-free imagery. Unlike current bleaching alerts that
+rely on SST data to forecast thermal stress, such as those from NOAA’s
+Coral Reef Watch, our approach directly detects bleaching-related
+changes in reef reflectance over time (<xref rid="fig6" ref-type="fig">Figures 
+</xref> and ), providing
+a valuable complement to existing monitoring tools. However, even
+in the absence of time series information, the “white-out”
+conditions of a recently bleached, high coral cover reef create an
+optical signal which is ripe for satellite detection. As satellite
+resolution and band-with algorithms improve, bleaching signal detection
+will also improve.</p><p>More work needs to be done to test these
+methods in other regions
+using SuperDove data. Prior studies typically used Sentinel 2. We
+utilized the third-generation Planet SuperDove sensor, which has an
+increased number of bands from four to eight. This increase in the
+number of bands also closely aligns our SuperDove data with Sentinel
+2 data. So far, these methods have only been applied to regions during
+a severe mass bleaching event where we see &gt;90% bleaching and high
+coral cover. Horseshoe Reef was a special case in that although coral
+cover was generally low, there were smaller patches on the reef with
+very high cover of . When
+these living coral patches bleached, the signal was easily detectable
+at our 3 m/pixel resolution. Our study also benefitted from our use
+of before, during, and after georeferenced optical signals from the
+airborne fluid lensing data set.</p><p>Data availability is also another
+challenge for detecting coral
+bleaching from space. Some traditional methods do not include well-georeferenced
+data nor well-monitored local % coral cover data. Accurate georeferenced
+information on the presence of healthy (before) and bleached coral
+(after) populations is critical in trying to decide where to spend
+limited conservation dollars. Ground-truthing with the NASA airborne
+fluid lensing data set and the in situ orthomosaics were key to accurate
+interpretation of coral bleaching on Horseshoe Reef. Our combined
+method (satellite information and field data) creates a powerful diagnostic
+and conservation tool. Future work should focus on areas with coral
+reefs that have (a) high coral cover, (b) coral monitoring programs,
+and which (c) experience bleaching events that affect &gt;90% of its
+coral cover.
+</p><p>Coral reefs around
+the world face an increased risk of bleaching
+in a changing climate. The need to map live coral cover over time
+therefore has become more important than ever. This will allow us
+to know which reefs are healthy or stressed during heatwave events.
+It will allow us to know which reefs are more resilient than others.
+A combination of satellite and in situ monitoring will achieve these
+goals and benefit both ecological research and coral restoration programs
+in the future. <xref rid="fig3" ref-type="fig">Figure 
+</xref> provides a high-resolution example of these combined monitoring
+methods on Horseshoe Reef.</p><p>Airborne fluid lensing missions are
+ongoing globally as part of
+the NASA NeMO-Net global coral mapping initiative and freely available
+at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://nemonet.info" ext-link-type="uri">http://nemonet.info</ext-link>. Using
+NeMO-Net and airborne fluid lensing, coral reef ecosystems are being
+classified into habitats and monitored at the cm-scale through time.
+Fluid lensing data are also being used as part of the ongoing NASA
+MarineVERSE project, which uses the fine-scale, distortion free imagery
+to train, enhance, and increase the robustness of benthic habitat
+classification using satellite imagery.
+</p></sec><sec id="sec16" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="es5c03122_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 9c22/12312086/43d43e6d0b27/es5c03122_si_001.pdf?><?cloudpmc-bucket app?><?size 517285?></media></supplementary-material></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>We would like to acknowledge Planet Laboratories
+for allowing access to SuperDove imagery for this study from the Education
+and Research Program and the Commercial Satellite Data Acquisition
+(CSDA) Program. We would also like to thank Andrew Ibarra (NOAA Office
+of National Marine Sanctuaries) for providing the photograph of a
+dead colony at Horseshoe
+Reef (taken on May 10, 2024), used in <xref rid="fig2" ref-type="fig">Figure 
+</xref>.</p></sec><sec id="notes1" disp-level="1"><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.est.5c03122?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.est.5c03122</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Normalized remote sensing reflectance data for bright
+sand, shallow and deep-water targets (Figures S1 and S3); normalized
+remote sensing reflectance data extracted from bright gold regions
+in <xref rid="fig9" ref-type="fig">Figure 
+</xref> (Figure
+S2); image selection tables for Horseshoe Reef and Cheeca Rocks from
+2022 to 2024 (Tables S1 and S2) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.est.5c03122/suppl_file/es5c03122_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes4" disp-level="1"><p>RK, CL, and
+JP provided the guidance on designing and planning the study. All
+authors contributed and approved the final version of the manuscript.</p></sec><sec id="notes2" disp-level="1"><p>This work was
+funded by the NASA Minority University Research and Education Project
+(MUREP) Institutional Research Opportunity under Grant (21-MSI21-0034)
+to the University of California Santa Cruz. Support was also provided
+by NSF Infrastructure Innovation for Biological Research Grant IIBR
+2016741 and by NSF IIBR Grant 2316801 to JWP at the University of
+Georgia. This work was performed at the University of California,
+Santa Cruz and the Jet Propulsion Laboratory, California Institute
+of Technology, under contract with the National Aeronautics and Space
+Administration. Field work was conducted at the Keys Marine Laboratory
+in Layton, FL. Funding for the airborne fluid lensing data set for
+Horseshoe Reef was provided through a National Marine Sanctuaries
+(NMS) grant for NOAA’s Mission: Iconic Reefs, led by V. Chirayath.
+NeMO-Net and MarineVERSE are supported by NASA’s Earth Science
+Technology Office and Biological Diversity and Ecological Conservation
+programs.</p></sec><sec id="notes3" disp-level="1"><p>The authors
+declare no competing financial interest.</p></sec><sec id="spn1" disp-level="1"><p>Published
+as part of <italic>Environmental Science &amp; Technology</italic>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/curated-content?journal=esthag&amp;ref=feature" ext-link-type="uri">special issue</ext-link> “Ocean Health”.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Gazal K., Andrew R., Burns R.. Economic contributions of visitor
+spending in ocean recreation in the Florida Keys National Marine Sanctuary. Water. 2022;14(2):198. doi: 10.3390/w14020198.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/w14020198"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Water&amp;title=Economic contributions of visitor spending in ocean recreation in the Florida Keys National Marine Sanctuary&amp;author=K. Gazal&amp;author=R. Andrew&amp;author=R. Burns&amp;volume=14&amp;issue=2&amp;publication_year=2022&amp;pages=198&amp;doi=10.3390/w14020198&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">
+
+Towle, E.
+; 
+Geiger, E.
+; 
+Grove, J.
+; 
+Groves, S.
+; 
+Viehman, S.
+; 
+Johnson, M.
+; 
+Lirman, D.
+. 
+Coral Reef Condition:
+A Status Report
+for Florida’s Coral Reef; NOAA Coral
+Reef Conservation Program: Silver
+Spring, MD, 2020; Vol. 7 pp.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Coral Reef Condition: A Status Report for Florida’s Coral Reef&amp;publication_year=2020&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">
+
+Porter, J. W.
+; 
+Kosmynin, V.
+; 
+Patterson, K. L.
+; 
+Porter, K. G.
+; 
+Jaap, W. C.
+; 
+Wheaton, J. L.
+; 
+Hackett, K.
+; 
+Lybolt, M.
+; 
+Tsokos, C. P.
+; 
+Yanev, G.
+; 
+Marcinek, D. M.
+; 
+Dotten, J.
+; 
+Eaken, D.
+; 
+Patterson, M.
+; 
+Meier, O.
+; 
+Brill, M.
+; 
+Dustan, P. D.
+. 
+Detection of coral reef change by
+the Florida Keys
+coral reef monitoring project. In The Everglades,
+Florida Bay, and Coral Reefs of the Florida Keys; 
+Porter, J. W.
+, 
+Porter, K. G.
+, Eds.; CRC
+Press: Boca Raton, FL, 2002; pp 749–769.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=The Everglades, Florida Bay, and Coral Reefs of the Florida Keys&amp;publication_year=2002&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Somerfield P. J., Jaap W. C., Clarke K. R., Callahan M., Hackett K., Porter J., Lybolt M., Tsokos C., Yanev G.. Changes in
+coral reef communities among the Florida Keys, 1996–2003. Coral Reefs. 2008;27(4):951–965. doi: 10.1007/s00338-008-0390-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00338-008-0390-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Changes in coral reef communities among the Florida Keys, 1996–2003&amp;author=P. J. Somerfield&amp;author=W. C. Jaap&amp;author=K. R. Clarke&amp;author=M. Callahan&amp;author=K. Hackett&amp;volume=27&amp;issue=4&amp;publication_year=2008&amp;pages=951-965&amp;doi=10.1007/s00338-008-0390-7&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Lapointe B. E., Brewton R. A., Herren L. W., Porter J. W., Hu C.. Nitrogen enrichment,
+altered stoichiometry, and coral reef decline at Looe Key, Florida
+Keys, USA: A 3-decade study. Mar. Biol. 2019;166(8):108. doi: 10.1007/s00227-019-3538-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00227-019-3538-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Biol.&amp;title=Nitrogen enrichment, altered stoichiometry, and coral reef decline at Looe Key, Florida Keys, USA: A 3-decade study&amp;author=B. E. Lapointe&amp;author=R. A. Brewton&amp;author=L. W. Herren&amp;author=J. W. Porter&amp;author=C. Hu&amp;volume=166&amp;issue=8&amp;publication_year=2019&amp;pages=108&amp;doi=10.1007/s00227-019-3538-9&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Sully S., Hodgson G., van Woesik R.. Present and
+future bright and dark
+spots for coral reefs through climate change. Glob. Change Biol. 2022;28(15):4509–4522. doi: 10.1111/gcb.16083.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/gcb.16083"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9303460"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35106864"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Glob. Change Biol.&amp;title=Present and future bright and dark spots for coral reefs through climate change&amp;author=S. Sully&amp;author=G. Hodgson&amp;author=R. van Woesik&amp;volume=28&amp;issue=15&amp;publication_year=2022&amp;pages=4509-4522&amp;pmid=35106864&amp;doi=10.1111/gcb.16083&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Cornwall W.. Florida coral
+restoration in hot water. Science. 2024;383(6683):576–577. doi: 10.1126/science.ado5311.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.ado5311"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38330105"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Florida coral restoration in hot water&amp;author=W. Cornwall&amp;volume=383&amp;issue=6683&amp;publication_year=2024&amp;pages=576-577&amp;pmid=38330105&amp;doi=10.1126/science.ado5311&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Hoegh-Guldberg O., Skirving W., Dove S. G., Spady B. L., Norrie A. G., Geiger E. F., Liu G., De La Cour J. L., Manzello D. P.. Coral reefs in peril in a record-breaking
+year. Science. 2023;382(6676):1238–1240. doi: 10.1126/science.adk4532.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.adk4532"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38060674"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Coral reefs in peril in a record-breaking year&amp;author=O. Hoegh-Guldberg&amp;author=W. Skirving&amp;author=S. G. Dove&amp;author=B. L. Spady&amp;author=A. G. Norrie&amp;volume=382&amp;issue=6676&amp;publication_year=2023&amp;pages=1238-1240&amp;pmid=38060674&amp;doi=10.1126/science.adk4532&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Douglas A. E.. Coral bleachinghow
+and why? Mar. Pollut. Bull. 2003;46(4):385–392. doi: 10.1016/S0025-326X(03)00037-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0025-326X(03)00037-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12705909"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mar. Pollut. Bull.&amp;title=Coral bleachinghow and why?&amp;author=A. E. Douglas&amp;volume=46&amp;issue=4&amp;publication_year=2003&amp;pages=385-392&amp;pmid=12705909&amp;doi=10.1016/S0025-326X(03)00037-7&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Hedley J. D., Roelfsema C., Brando V., Giardino C., Kutser T., Phinn S., Mumby P. J., Barrilero O., Laporte J., Koetz B.. Coral reef
+applications of Sentinel-2:
+Coverage, characteristics, bathymetry and benthic mapping with comparison
+to Landsat 8. Remote Sens. Environ. 2018;216:598–614. doi: 10.1016/j.rse.2018.07.014.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.rse.2018.07.014"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens. Environ.&amp;title=Coral reef applications of Sentinel-2: Coverage, characteristics, bathymetry and benthic mapping with comparison to Landsat 8&amp;author=J. D. Hedley&amp;author=C. Roelfsema&amp;author=V. Brando&amp;author=C. Giardino&amp;author=T. Kutser&amp;volume=216&amp;publication_year=2018&amp;pages=598-614&amp;doi=10.1016/j.rse.2018.07.014&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">D
+Elvidge C., B Dietz J., Berkelmans R., Andréfouët S., Skirving W., E Strong A., T Tuttle B.. Satellite observation of Keppel Islands (Great Barrier
+Reef) 2002 coral bleaching using IKONOS data. Coral Reefs. 2004;23(3):461–462. doi: 10.1007/s00338-004-0418-6.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00338-004-0418-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coral Reefs&amp;title=Satellite observation of Keppel Islands (Great Barrier Reef) 2002 coral bleaching using IKONOS data&amp;author=C. D Elvidge&amp;author=J. B Dietz&amp;author=R. Berkelmans&amp;author=S. Andréfouët&amp;author=W. Skirving&amp;volume=23&amp;issue=3&amp;publication_year=2004&amp;pages=461-462&amp;doi=10.1007/s00338-004-0418-6&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Xu J., Zhao J., Wang F., Chen Y., Lee Z.. Detection
+of coral reef bleaching based on Sentinel-2 multi-temporal imagery:
+Simulation and case study. Front. Mar. Sci. 2021;8:584263. doi: 10.3389/fmars.2021.584263.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2021.584263"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Mar. Sci.&amp;title=Detection of coral reef bleaching based on Sentinel-2 multi-temporal imagery: Simulation and case study&amp;author=J. Xu&amp;author=J. Zhao&amp;author=F. Wang&amp;author=Y. Chen&amp;author=Z. Lee&amp;volume=8&amp;publication_year=2021&amp;pages=584263&amp;doi=10.3389/fmars.2021.584263&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Little C. M., Liu G., De La Cour J. L., Eakin C. M., Manzello D., Heron S. F.. Global coral bleaching
+event detection from satellite
+monitoring of extreme heat stress. Front. Mar.
+Sci. 2022;9:883271. doi: 10.3389/fmars.2022.883271.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2022.883271"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Mar. Sci.&amp;title=Global coral bleaching event detection from satellite monitoring of extreme heat stress&amp;author=C. M. Little&amp;author=G. Liu&amp;author=J. L. De La Cour&amp;author=C. M. Eakin&amp;author=D. Manzello&amp;volume=9&amp;publication_year=2022&amp;pages=883271&amp;doi=10.3389/fmars.2022.883271&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Xu Y., Vaughn N. R., Knapp D. E., Martin R. E., Balzotti C., Li J., Foo S. A., Asner G. P.. Coral bleaching detection in the
+Hawaiian Islands using spatio-temporal standardized bottom reflectance
+and Planet Dove satellites. Remote Sens. 2020;12(19):3219. doi: 10.3390/rs12193219.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/rs12193219"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens&amp;title=Coral bleaching detection in the Hawaiian Islands using spatio-temporal standardized bottom reflectance and Planet Dove satellites&amp;author=Y. Xu&amp;author=N. R. Vaughn&amp;author=D. E. Knapp&amp;author=R. E. Martin&amp;author=C. Balzotti&amp;volume=12&amp;issue=19&amp;publication_year=2020&amp;pages=3219&amp;doi=10.3390/rs12193219&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">
+
+Liu, B.
+; 
+Guan, L.
+. 
+Coral Bleaching Detection Using
+Sentinel-2B/MSI Images. In 2021 IEEE International
+Geoscience and Remote Sensing Symposium (IGARSS); IEEE: Brussels, Belgium, 2021; pp 3777–3780. 10.1109/IGARSS47720.2021.9554495.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1109/IGARSS47720.2021.9554495"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=2021 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)&amp;publication_year=2021&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Rowlands G. P., Purkis S. J., Riegl B. M.. The 2005
+coral-bleaching event Roatán
+(Honduras): Use of pseudoinvariant features (PIFs) in satellite assessments. J. Spatial Sci. 2008;53(1):99–112. doi: 10.1080/14498596.2008.9635139.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1080/14498596.2008.9635139"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Spatial Sci.&amp;title=The 2005 coral-bleaching event Roatán (Honduras): Use of pseudoinvariant features (PIFs) in satellite assessments&amp;author=G. P. Rowlands&amp;author=S. J. Purkis&amp;author=B. M. Riegl&amp;volume=53&amp;issue=1&amp;publication_year=2008&amp;pages=99-112&amp;doi=10.1080/14498596.2008.9635139&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Ma Y., Zhang H., Cao W., Wang J.. Detection of coral
+bleaching in oceanic islands using normalized bottom reflectance change
+index from multispectral satellite imagery. IEEE Geosci. Remote Sens. Lett. 2023;20:1–5. doi: 10.1109/LGRS.2023.3282708.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1109/LGRS.2023.3282708"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=IEEE Geosci. Remote Sens. Lett.&amp;title=Detection of coral bleaching in oceanic islands using normalized bottom reflectance change index from multispectral satellite imagery&amp;author=Y. Ma&amp;author=H. Zhang&amp;author=W. Cao&amp;author=J. Wang&amp;volume=20&amp;publication_year=2023&amp;pages=1-5&amp;doi=10.1109/LGRS.2023.3282708&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Neely K. L., Nowicki R. J., Dobler M. A., Chaparro A. A., Miller S. M., Toth K. A.. Too Hot to Handle? The impact of the 2023 marine heatwave
+on Florida Keys coral. Front. Mar. Sci. 2024;11:1489273. doi: 10.3389/fmars.2024.1489273.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2024.1489273"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Mar. Sci.&amp;title=Too Hot to Handle? The impact of the 2023 marine heatwave on Florida Keys coral&amp;author=K. L. Neely&amp;author=R. J. Nowicki&amp;author=M. A. Dobler&amp;author=A. A. Chaparro&amp;author=S. M. Miller&amp;volume=11&amp;publication_year=2024&amp;pages=1489273&amp;doi=10.3389/fmars.2024.1489273&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">
+
+Nivison, C. L.
+; 
+Porter, J. W.
+; 
+Bourbonnais, M. E.
+; 
+May, C. R.
+; 
+Grotolli, A.
+; 
+Qin, R.
+. 
+A perfect storm:
+El Niño
+and disease result in unprecedented bleaching mortality of Acropora
+palmata on Horseshoe Reef, Florida. Manuscript in
+preparation, 2025.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="Nivison, C. L. ; Porter, J. W. ; Bourbonnais, M. E. ; May, C. R. ; Grotolli, A. ; Qin, R. . A perfect storm: El Niño and disease result in unprecedented bleaching mortality of Acropora palmata on Horseshoe Reef, Florida. Manuscript in preparation, 2025."/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">
+
+Chirayath, V.
+
+System and method
+for active multispectral imaging and optical communications. U.S. Patent. 10,041,833 B1, 2018,</named-content></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">
+
+Chirayath, V.
+
+System
+and Method
+for Imaging Underwater Environments Using Fluid Lensing. U.S. Patent. 10,929,966 B2, 2021,</named-content></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Chirayath V., Earle S.. A. Drones that see through waves–preliminary
+results from
+airborne fluid lensing for centimetre-scale aquatic conservation. Aquat. Conserv.: Mar. Freshw. Ecosyst. 2016;26:237–250. doi: 10.1002/aqc.2654.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/aqc.2654"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Aquat. Conserv.: Mar. Freshw. Ecosyst.&amp;title=A. Drones that see through waves–preliminary results from airborne fluid lensing for centimetre-scale aquatic conservation&amp;author=V. Chirayath&amp;author=S. Earle&amp;volume=26&amp;publication_year=2016&amp;pages=237-250&amp;doi=10.1002/aqc.2654&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Chirayath V., Li A.. Next-generation optical sensing technologies for exploring ocean
+worldsNASA FluidCam, MiDAR, and NeMO-Net. Front. Mar. Sci. 2019;6:521. doi: 10.3389/fmars.2019.00521.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fmars.2019.00521"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Mar. Sci.&amp;title=Next-generation optical sensing technologies for exploring ocean worldsNASA FluidCam, MiDAR, and NeMO-Net&amp;author=V. Chirayath&amp;author=A. Li&amp;volume=6&amp;publication_year=2019&amp;pages=521&amp;doi=10.3389/fmars.2019.00521&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Hu C., Hackett K. E., Callahan M. K., Andréfouët S., Wheaton J., Porter J. W., Muller-Karger F. E.. The 2002
+ocean color anomaly in the Florida Bight: A cause of local coral reef
+decline? Geophys. Res. Lett. 2003;30(3):1151. doi: 10.1029/2002gl016479.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2002gl016479"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Geophys. Res. Lett.&amp;title=The 2002 ocean color anomaly in the Florida Bight: A cause of local coral reef decline?&amp;author=C. Hu&amp;author=K. E. Hackett&amp;author=M. K. Callahan&amp;author=S. Andréfouët&amp;author=J. Wheaton&amp;volume=30&amp;issue=3&amp;publication_year=2003&amp;pages=1151&amp;doi=10.1029/2002gl016479&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">
+
+Porter, J. W.
+; 
+Meyers, M. K.
+; 
+Ruzika, R.
+; 
+Callahan, M. K.
+; 
+Colella, M.
+; 
+Kidney, J.
+; 
+Rathbun, S. L.
+; 
+Sutherland, K. P.
+. 
+Catastrophic
+Loss of Acropora palmata in the Florida Keys. In Proceedings of the 12th International Coral Reef Symposium; Cairns: Australia, 2012; Vol. 1, pp 1–5.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Proceedings of the 12th International Coral Reef Symposium&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Sutherland K. P., Griffin A., Park A., Porter J. W., Heron S. F., Eakin C. M., Berry B., Kemp D. W., Kemp K. M., Lipp E. K., Wares J. P.. Twenty-year record of white pox disease
+in the Florida Keys: Importance of environmental risk factors as drivers
+of coral health. Dis. Aquat. Org. 2023;154:15–31. doi: 10.3354/dao03727.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/dao03727"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37260163"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Dis. Aquat. Org.&amp;title=Twenty-year record of white pox disease in the Florida Keys: Importance of environmental risk factors as drivers of coral health&amp;author=K. P. Sutherland&amp;author=A. Griffin&amp;author=A. Park&amp;author=J. W. Porter&amp;author=S. F. Heron&amp;volume=154&amp;publication_year=2023&amp;pages=15-31&amp;pmid=37260163&amp;doi=10.3354/dao03727&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">
+NOAA Fisheries Office . Restoring Seven Iconic Reefs: A Mission
+to Recover the Coral Reefs of the Florida Keys. NOAA Fisheries Office of Habitat Conservation Newsletter. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.fisheries.noaa.gov/southeast/habitat-conservation/restoring-seven-iconic-reefs-mission-recover-coral-reefs-florida-keys" ext-link-type="uri">https://www.fisheries.noaa.gov/southeast/habitat-conservation/restoring-seven-iconic-reefs-mission-recover-coral-reefs-florida-keys</ext-link> (accessed June 21, 2025).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="NOAA Fisheries Office . Restoring Seven Iconic Reefs: A Mission to Recover the Coral Reefs of the Florida Keys. NOAA Fisheries Office of Habitat Conservation Newsletter. https://www.fisheries.noaa.gov/southeast/habitat-conservation/restoring-seven-iconic-reefs-mission-recover-coral-reefs-florida-keys (accessed June 21, 2025)."/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">
+NOAA Fisheries Office 
+Mission: Iconic Reefs, Cheeca Rocks; NOAA Fisheries, 2024. 
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://media.fisheries.noaa.gov/dam-migration/cheeca_rocks_v3.pdf" ext-link-type="uri">https://media.fisheries.noaa.gov/dam-migration/cheeca_rocks_v3.pdf</ext-link>. (accessed June 21, 2025).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="NOAA Fisheries Office Mission: Iconic Reefs, Cheeca Rocks; NOAA Fisheries, 2024. https://media.fisheries.noaa.gov/dam-migration/cheeca_rocks_v3.pdf. (accessed June 21, 2025)."/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">
+NOAA Fisheries Office . Mission: Iconic Reefs; Horseshoe Reef; NOAA Fisheries, 2024. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://media.fisheries.noaa.gov/dam-migration/horseshoe_v3.pdf" ext-link-type="uri">https://media.fisheries.noaa.gov/dam-migration/horseshoe_v3.pdf</ext-link> (accessed June 21, 2025).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Mission: Iconic Reefs; Horseshoe Reef&amp;publication_year=2024&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Hedley J.
+D., Roelfsema C. M., Chollett I., Harborne A. R., Heron S. F., Weeks S., Skirving W. J., Strong A. E., Eakin C. M., Christensen T. R. L., Ticzon V., Bejarano S., Mumby P. J.. Remote
+sensing of coral reefs for monitoring and management: A review. Remote Sens. 2016;8(2):118. doi: 10.3390/rs8020118.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/rs8020118"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens.&amp;title=Remote sensing of coral reefs for monitoring and management: A review&amp;author=J. D. Hedley&amp;author=C. M. Roelfsema&amp;author=I. Chollett&amp;author=A. R. Harborne&amp;author=S. F. Heron&amp;volume=8&amp;issue=2&amp;publication_year=2016&amp;pages=118&amp;doi=10.3390/rs8020118&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Vanhellemont Q., Ruddick K.. Atmospheric correction
+of metre-scale optical satellite
+data for inland and coastal water applications. Remote Sens. Environ. 2018;216:586–597. doi: 10.1016/j.rse.2018.07.015.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.rse.2018.07.015"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens. Environ.&amp;title=Atmospheric correction of metre-scale optical satellite data for inland and coastal water applications&amp;author=Q. Vanhellemont&amp;author=K. Ruddick&amp;volume=216&amp;publication_year=2018&amp;pages=586-597&amp;doi=10.1016/j.rse.2018.07.015&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Vanhellemont Q.. Adaptation
+of the dark spectrum fitting atmospheric correction for aquatic applications
+of the Landsat and Sentinel-2 archives. Remote
+Sens. Environ. 2019;225:175–192. doi: 10.1016/j.rse.2019.03.010.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.rse.2019.03.010"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens. Environ.&amp;title=Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives&amp;author=Q. Vanhellemont&amp;volume=225&amp;publication_year=2019&amp;pages=175-192&amp;doi=10.1016/j.rse.2019.03.010&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Vanhellemont Q.. Evaluation
+of eight band SuperDove imagery for aquatic applications. Opt. Express. 2023;31(9):13851–13874. doi: 10.1364/OE.483418.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1364/OE.483418"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37157262"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Opt. Express&amp;title=Evaluation of eight band SuperDove imagery for aquatic applications&amp;author=Q. Vanhellemont&amp;volume=31&amp;issue=9&amp;publication_year=2023&amp;pages=13851-13874&amp;pmid=37157262&amp;doi=10.1364/OE.483418&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Schott J. R., Salvaggio C., Volchok W. J.. Radiometric scene normalization using
+pseudoinvariant features. Remote Sens. Environ. 1988;26(1):1–16. doi: 10.1016/0034-4257(88)90116-2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0034-4257(88)90116-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens. Environ.&amp;title=Radiometric scene normalization using pseudoinvariant features&amp;author=J. R. Schott&amp;author=C. Salvaggio&amp;author=W. J. Volchok&amp;volume=26&amp;issue=1&amp;publication_year=1988&amp;pages=1-16&amp;doi=10.1016/0034-4257(88)90116-2&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Chen L., Ma Y., Lian Y., Zhang H., Yu Y., Lin Y.. Radiometric
+normalization using a pseudo-invariant polygon features-based algorithm
+with contemporaneous Sentinel-2A and Landsat-8 OLI imagery. Appl. Sci. 2023;13(4):2525. doi: 10.3390/app13042525.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/app13042525"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Sci.&amp;title=Radiometric normalization using a pseudo-invariant polygon features-based algorithm with contemporaneous Sentinel-2A and Landsat-8 OLI imagery&amp;author=L. Chen&amp;author=Y. Ma&amp;author=Y. Lian&amp;author=H. Zhang&amp;author=Y. Yu&amp;volume=13&amp;issue=4&amp;publication_year=2023&amp;pages=2525&amp;doi=10.3390/app13042525&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Yamano H., Tamura M.. Detection limits of
+coral reef bleaching by satellite
+remote sensing: Simulation and data analysis. Remote Sens. Environ. 2004;90(1):86–103. doi: 10.1016/j.rse.2003.12.005.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.rse.2003.12.005"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Remote Sens. Environ.&amp;title=Detection limits of coral reef bleaching by satellite remote sensing: Simulation and data analysis&amp;author=H. Yamano&amp;author=M. Tamura&amp;volume=90&amp;issue=1&amp;publication_year=2004&amp;pages=86-103&amp;doi=10.1016/j.rse.2003.12.005&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Li A. S., Chirayath V., Segal-Rozenhaimer M., Torres-Pérez J. L., van den Bergh J.. NASA NeMO-Net’s
+convolutional neural network:
+Mapping marine habitats with spectrally heterogeneous remote sensing
+imagery. IEEE J. Sel. Top. Appl. Earth Obs.
+Remote Sens. 2020;13:5115–5133. doi: 10.1109/JSTARS.2020.3018719.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1109/JSTARS.2020.3018719"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.&amp;title=NASA NeMO-Net’s convolutional neural network: Mapping marine habitats with spectrally heterogeneous remote sensing imagery&amp;author=A. S. Li&amp;author=V. Chirayath&amp;author=M. Segal-Rozenhaimer&amp;author=J. L. Torres-Pérez&amp;author=J. van den Bergh&amp;volume=13&amp;publication_year=2020&amp;pages=5115-5133&amp;doi=10.1109/JSTARS.2020.3018719&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="es5c03122_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 9c22/12312086/43d43e6d0b27/es5c03122_si_001.pdf?><?cloudpmc-bucket app?><?size 517285?></media></supplementary-material></sec></sec></body></article>

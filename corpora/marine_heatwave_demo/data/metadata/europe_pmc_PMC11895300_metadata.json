@@ -1,0 +1,50 @@
+{
+  "pmcid": "PMC11895300",
+  "pmid": "40069618",
+  "title": "Transcriptional profiles reveal physiological mechanisms for compensation during a simulated marine heatwave in Yellowtail Kingfish (Seriola lalandi).",
+  "abstract": "<h4>Background</h4>Changing ocean temperatures are already causing declines in populations of marine organisms. Predicting the capacity of organisms to adjust to the pressures posed by climate change is a topic of much current research effort, particularly for species we farm or harvest. To explore one measure of phenotypic plasticity, the physiological compensations in response to heat stress as might be experienced in a marine heatwave, we exposed Yellowtail Kingfish (Seriola lalandi) to sublethal heat stress, and used the transcriptome in gill and muscle, benchmarked against heat shock proteins and oxidative stress indicators, to characterise the acute heat stress response (6 h after the initiation of stress), and the physiological compensation to that response (24 and 72 h after the initiation of stress).<h4>Results</h4>The heat stress experiments induced elevations in heat shock proteins, as measured in blood, demonstrating the sublethal stress level. The initial response (6 h) to heat stress included the expected cellular stress response. Exposure of 24 h or more led to altered transcriptomic patterns for protein degradation, membrane transporters, and primary metabolism. In the muscle, numerous transcripts with mitochondrial function had altered abundance. There was a profound change to the regulation of transcription, as well as numerous transcripts with differential exon usage, suggesting that this may be a mechanism for conferring physiological resilience to heat stress.<h4>Conclusions</h4>These results demonstrate the processes involved in acclimation to heat stress in this species, and the utility of using the transcriptome to assess plasticity. It also showed that differential exon usage may be an important mechanism for conferring plasticity. Future work should investigate the role of genome regulation, and alternative splicing in particular, on conferring resilience to temperature changes.",
+  "authors": [
+    "Hook SE",
+    "Farr RJ",
+    "Su J",
+    "Hobday AJ",
+    "Wingate C",
+    "Woolley L",
+    "Pilmer L"
+  ],
+  "publication_date": "2025-03-11",
+  "journal": "",
+  "doi": "10.1186/s12864-025-11283-9",
+  "full_text_urls": [
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1186/s12864-025-11283-9"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1186/s12864-025-11283-9"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11895300"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11895300?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

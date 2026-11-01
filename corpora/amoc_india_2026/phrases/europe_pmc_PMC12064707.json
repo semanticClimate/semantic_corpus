@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12064707",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.1
+    },
+    {
+      "phrase": "eirik drift",
+      "display": "Eirik Drift",
+      "score": 1.5
+    },
+    {
+      "phrase": "reykjanes ridge",
+      "display": "Reykjanes Ridge",
+      "score": 1.4
+    },
+    {
+      "phrase": "denmark strait overflow water",
+      "display": "Denmark Strait Overflow Water",
+      "score": 1.3
+    },
+    {
+      "phrase": "scotland overflow water",
+      "display": "Scotland Overflow Water",
+      "score": 1.3
+    },
+    {
+      "phrase": "ocean drilling program",
+      "display": "Ocean Drilling Program",
+      "score": 1.3
+    },
+    {
+      "phrase": "scotland ridge",
+      "display": "Scotland Ridge",
+      "score": 1.3
+    },
+    {
+      "phrase": "isow",
+      "display": "ISOW",
+      "score": 1.52
+    },
+    {
+      "phrase": "nadw",
+      "display": "NADW",
+      "score": 1.22
+    },
+    {
+      "phrase": "odp",
+      "display": "ODP",
+      "score": 1.22
+    },
+    {
+      "phrase": "ma",
+      "score": 0.0404,
+      "display": "Ma"
+    },
+    {
+      "phrase": "sedimentation",
+      "score": 0.0402,
+      "display": "Sedimentation"
+    },
+    {
+      "phrase": "drift",
+      "score": 0.0395,
+      "display": "Drift"
+    },
+    {
+      "phrase": "zr",
+      "score": 0.0371,
+      "display": "Zr"
+    },
+    {
+      "phrase": "dsow",
+      "score": 0.0371,
+      "display": "DSOW"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

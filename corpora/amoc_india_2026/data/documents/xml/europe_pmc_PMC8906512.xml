@@ -1,0 +1,2765 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Natl Sci Rev</journal-id><journal-id journal-id-type="iso-abbrev">Natl Sci Rev</journal-id><journal-id journal-id-type="pmc-domain-id">4044</journal-id><journal-id journal-id-type="pmc-domain">nsr</journal-id><journal-id journal-id-type="nlm-id">101633095</journal-id><journal-id journal-id-type="publisher-id">nsr</journal-id><journal-title-group><journal-title>National Science Review</journal-title></journal-title-group><issn pub-type="ppub">2095-5138</issn><issn pub-type="epub">2053-714X</issn><?publisher_abbrev oup?><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC8906512</article-id><article-id pub-id-type="pmcid-ver">PMC8906512.1</article-id><article-id pub-id-type="pmcaid">8906512</article-id><article-id pub-id-type="pmcaiid">8906512</article-id><article-id pub-id-type="pmid">35273806</article-id><article-id pub-id-type="doi">10.1093/nsr/nwaa011</article-id><article-id pub-id-type="publisher-id">nwaa011</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Special Topic: Land–Atmosphere Interaction of the Tibetan Plateau</subject><subj-group subj-group-type="category-toc-heading"><subject>Review</subject><subj-group subj-group-type="category-toc-heading"><subject>Earth Sciences</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/MED00010</subject><subject>AcademicSubjects/SCI00010</subject></subj-group></article-categories><title-group><article-title>Land–atmosphere–ocean coupling associated with the Tibetan Plateau and its
+climate impacts</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yimin</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff2" ref-type="aff">2</xref><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Lu</surname><given-names initials="M">Mengmeng</given-names></name><xref rid="aff4" ref-type="aff">4</xref><xref rid="aff5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="H">Haijun</given-names></name><xref rid="aff6" ref-type="aff">6</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Duan</surname><given-names initials="A">Anmin</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff2" ref-type="aff">2</xref><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>He</surname><given-names initials="B">Bian</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff2" ref-type="aff">2</xref><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Yang</surname><given-names initials="S">Song</given-names></name><xref rid="aff4" ref-type="aff">4</xref><xref rid="aff7" ref-type="aff">7</xref><xref rid="cor1" ref-type="corresp"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1838-1951</contrib-id><name name-style="western"><surname>Wu</surname><given-names initials="G">Guoxiong</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff2" ref-type="aff">2</xref><xref rid="cor2" ref-type="corresp"/></contrib></contrib-group><aff id="aff1"><label>1</label>
+<institution>State Key Laboratory of Numerical Modeling for Atmospheric Sciences and
+Geophysical Fluid Dynamics, Institute of Atmospheric Physics, Chinese Academy of Sciences
+(CAS)</institution>, Beijing 100029, <country country="CN">China</country>
+</aff><aff id="aff2"><label>2</label>
+<institution>College of Earth Science, University of Chinese Academy of
+Sciences</institution>, Beijing 100049, <country country="CN">China</country>
+</aff><aff id="aff3"><label>3</label>
+<institution>CAS Center for Excellence in Tibetan Plateau Earth Sciences</institution>,
+Beijing 100101, <country country="CN">China</country>
+</aff><aff id="aff4"><label>4</label>
+<institution>School of Atmospheric Sciences &amp; Guangdong Province Key Laboratory for
+Climate Change and Natural Disaster Studies, Sun Yat-sen University</institution>,
+Guangzhou 510275, <country country="CN">China</country>
+</aff><aff id="aff5"><label>5</label>
+<institution>Department of Earth and Planetary Sciences, Harvard University</institution>,
+Cambridge, MA 02138, <country country="US">USA</country>
+</aff><aff id="aff6"><label>6</label>
+<institution>Laboratory for Climate and Ocean-Atmosphere Studies (LaCOAS) and Department of
+Atmospheric and Oceanic Sciences, School of Physics, Peking University</institution>,
+Beijing 100871, <country country="CN">China</country>
+</aff><aff id="aff7"><label>7</label>
+<institution>Southern Marine Science and Engineering Guangdong Laboratory
+(Zhuhai)</institution>, Zhuhai 519080, <country country="CN">China</country>
+</aff><author-notes><corresp id="cor1">
+<bold>Corresponding author.</bold> E-mail: <email>yangsong3@mail.sysu.edu.cn</email>
+</corresp><corresp id="cor2">
+<bold>Corresponding author.</bold> E-mail: <email>gxwu@lasg.iap.ac.cn</email>
+</corresp></author-notes><pub-date pub-type="collection"><month>3</month><year>2020</year></pub-date><pub-date iso-8601-date="2020-02-06" pub-type="epub"><day>06</day><month>2</month><year>2020</year></pub-date><volume>7</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">386007</issue-id><fpage>534</fpage><lpage>552</lpage><history><date date-type="received"><day>05</day><month>10</month><year>2019</year></date><date date-type="rev-recd"><day>27</day><month>1</month><year>2020</year></date><date date-type="accepted"><day>31</day><month>1</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>06</day><month>02</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>09</day><month>03</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2022-03-13 05:16:48.930"><day>13</day><month>03</month><year>2022</year></date></event></pub-history><permissions><copyright-statement>© The Author(s) 2020. Published by Oxford University Press on behalf of
+China Science Publishing &amp; Media Ltd.</copyright-statement><copyright-year>2020</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative
+Commons Attribution License (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted
+reuse, distribution, and reproduction in any medium, provided the original work is
+properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="nwaa011.pdf"><?pdf-name nwaa011.pdf?><?pdf-size 4858244?><?pdf-md5 00f6878acc91c92f53398f9562700cdf?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:97d6/8906512/00f6878acc91/nwaa011.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="NSR_7_3_534.pdf"/><abstract><title>Abstract</title><p>This paper reviews recent advances regarding land–atmosphere–ocean coupling associated
+with the Tibetan Plateau (TP) and its climatic impacts. Thermal forcing over the TP
+interacts strongly with that over the Iranian Plateau, forming a coupled heating system
+that elevates the tropopause, generates a monsoonal meridional circulation over South Asia
+and creates conditions of large-scale ascent favorable for Asian summer monsoon
+development. TP heating leads to intensification and westward extension (northward
+movement) of the South Asian High (Atlantic Intertropical Convergence Zone), and exerts
+strong impacts on upstream climate variations from North Atlantic to West Asia. It also
+affects oceanic circulation and buoyancy fields via atmospheric stationary wave trains and
+air–sea interaction processes, contributing to formation of the Atlantic Meridional
+Overturning Circulation. The TP thermal state and atmospheric–oceanic conditions are
+highly interactive and Asian summer monsoon variability is controlled synergistically by
+internal TP variability and external forcing factors.</p></abstract><kwd-group kwd-group-type="keywords"><kwd>Tibetan and Iranian Plateau system</kwd><kwd>atmospheric heat source</kwd><kwd>Asian summer monsoon</kwd><kwd>upstream climate</kwd><kwd>Atlantic Meridional Overturning Circulation</kwd></kwd-group><funding-group><award-group award-type="grant"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="DOI">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>91637312</award-id><award-id>91937302</award-id><award-id>91637208</award-id><award-id>91737204</award-id><award-id>41730963</award-id><award-id>41725018</award-id><award-id>41725021</award-id><award-id>91837101</award-id></award-group><award-group award-type="grant"><funding-source>
+<institution-wrap><institution>Key Research Program of Frontier Sciences of the Chinese Academy of
+Sciences</institution></institution-wrap>
+</funding-source><award-id>QYZDY-SSW-DQC018</award-id></award-group><award-group award-type="grant"><funding-source>
+<institution-wrap><institution>NIH</institution><institution-id institution-id-type="DOI">10.13039/100000002</institution-id></institution-wrap>
+</funding-source></award-group></funding-group><counts><page-count count="19"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>INTRODUCTION</title><p>The Tibetan Plateau (TP), which possesses a variety of complex landscapes, has average
+elevation of 4 km and its highest peak (Qomolangma; Everest) extends into the upper
+troposphere. The TP covers approximately 2.5 × 10<sup>6</sup> km<sup>2</sup>, that is
+approximately 25% of China's land area, and constitutes the largest plateau on earth.
+Located in the subtropics of the eastern Afro-Eurasian continent, its
+longitudinal–latitudinal position, elevation, size and steep slopes (to the south and east)
+are the reasons for the considerable importance of the TP regarding the global climate. Its
+dynamic blocking effect in winter leads to division of the impinging westerly flow into
+northern and southern branches, which merge on the lee side of the plateau to form the
+strong East Asian jet stream downstream [<xref rid="bib1" ref-type="bibr">1</xref>,<xref rid="bib2" ref-type="bibr">2</xref>]. The pioneering studies of Yeh <italic toggle="yes">et
+al</italic>. [<xref rid="bib3" ref-type="bibr">3</xref>] and Flohn [<xref rid="bib4" ref-type="bibr">4</xref>] demonstrated that the TP is an atmospheric heat sink in winter but a
+heat source in summer. They initiated a new era of investigation of plateau meteorology, and
+the book <italic toggle="yes">Meteorology of the Qinghai-Xizang Plateau</italic> [<xref rid="bib5" ref-type="bibr">5</xref>] summarizes many related achievements from subsequent studies.</p><p>Owing to the rapid progress of observational tools, computer technology, and numerical
+methods since the 1980s, the dynamics of the TP climate have been studied comprehensively,
+and in-depth investigations have revealed many features of the variation of the TP climate
+and of the climatic impact of the plateau on various timescales. Previous studies have
+mainly concentrated on the impact of the TP on the climate in Asia. In particular, the
+impact of the TP on the formation, intensity and variability of the Asian summer monsoon
+(ASM) has been investigated intensively [<xref rid="bib6" ref-type="bibr">6–15</xref>]. It has also
+been reported recently that the TP strongly affects the climate in its ‘upstream’ (relative
+to the prevalent westerly flow) regions [<xref rid="bib16" ref-type="bibr">16–19</xref>]. The influence of the TP on the ASM system is complex, and challenges and
+controversies regarding potential mechanisms have prompted discussions that have improved
+the overall understanding. One such example is the debate on the relative importance of TP
+thermal forcing versus mechanical forcing in maintaining the South Asian summer monsoon,
+which is reviewed here.</p><p>The effect of TP orography on oceanic properties emerged as an important issue in recent
+years in relation to the understanding of the formation of modern oceanic circulations
+[<xref rid="bib20" ref-type="bibr">20–24</xref>]. Studies have
+shown that the modern-state thermohaline circulation, that is deep-water formation in the
+North Atlantic, is forced by the present-day distribution of high mountains, whereas it
+would occur in the Pacific if there were no mountains [<xref rid="bib25" ref-type="bibr">25</xref>,<xref rid="bib26" ref-type="bibr">26</xref>]. Freshwater transport is known as
+a major driver of this switch. Reduction of water vapor transport from the Pacific to the
+Atlantic because of high mountains contributes to increased (decreased) salinity and
+enhanced (reduced) deep-water formation in the North Atlantic (Pacific) [<xref rid="bib23" ref-type="bibr">23</xref>,<xref rid="bib25" ref-type="bibr">25</xref>].
+However, it remains unknown which mountains play the most important role in shaping the
+modern oceanic circulation and the transient response of the oceanic circulation to
+orographic forcing remains unclear.</p><p>To date, most related studies have assumed a heat source over the TP and subsequently have
+investigated its influence on atmospheric circulation. However, the climate system is a
+fully coupled system and thus multisphere interactions must affect the heat source over the
+TP. This prompts questions concerning how the thermal status of the TP and of the oceans
+might interact through the atmospheric circulation, and how the TP and oceans might
+synergistically influence regional and global climate. Here, recent advances in the
+understanding of both the variations of the atmospheric heat source/sink (AHS) over the TP
+and the influences of the TP on the atmospheric circulation (e.g. the ASM and ‘upstream
+climate’ over West Asia, North Africa, Europe and North Atlantic) and the Atlantic
+Meridional Overturning Circulation (AMOC) are reviewed. Moreover, the feedback of the oceans
+on the AHS over the TP and the synergistic impact of the TP and ocean forcing on the ASM are
+considered.</p></sec><sec id="sec2"><title>AHS OVER THE TP AND ASSOCIATED CIRCULATION</title><sec id="sec2-1"><title>TP heating and elevation dependence</title><p>For a given location and a given period, an AHS is defined as a net heat gain/loss:
+<disp-formula><tex-math id="mt001" notation="LaTeX"><?equation-image-name mt001.gif?><?equation-image-status READY?><?equation-image-md5 e1801158c5f1288c1bcd220bd844cd75?><?equation-image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/e1801158c5f1/mt001.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}{\rm AHS} = {\rm SH} + {\rm LH} + {\rm RC},\end{equation*}$$\end{document}</tex-math>
+</disp-formula>
+</p><p>where SH denotes surface sensible heat flux, LH is the latent heat released to the
+atmosphere associated with the change of water phase and RC is the convergence of the net
+radiation flux of the air column. Since the studies of Yeh <italic toggle="yes">et al</italic>. [<xref rid="bib3" ref-type="bibr">3</xref>] and Flohn [<xref rid="bib4" ref-type="bibr">4</xref>], considerable effort has been devoted to understanding the AHS over the TP
+and its impact on both weather and climate based on observations, process diagnosis, and
+numerical model experiments [<xref rid="bib5" ref-type="bibr">5</xref>,<xref rid="bib27" ref-type="bibr">27–31</xref>]. It has been revealed
+that the TP AHS is weakly negative in winter and strongly positive in summer. The July
+mean distributions of 200-hPa geopotential height and AHS over the TP are shown in
+Fig. <xref rid="fig1" ref-type="fig">1</xref>a [<xref rid="bib32" ref-type="bibr">32</xref>]. In addition to the strong tropical heating, a unique feature in the
+extratropics shown in Fig. <xref rid="fig1" ref-type="fig">1</xref>a is the remarkable
+heating of &gt;300 W m<sup>−2</sup> over the southern slopes of the TP, which is
+comparable in magnitude to that associated with tropical convection. A continental-scale
+South Asian High (SAH) at 200 hPa can also be seen over Eurasia with its center located
+over the southwestern border of the TP.</p><fig position="float" id="fig1" orientation="portrait"><label>Figure 1.</label><caption><p>Atmospheric heating over the TP and its variation. (a) July mean from reanalysis data
+of geopotential height (contours, unit: dgpm) at 200 hPa and total diabatic heating
+(shading, unit: W m<sup>−2</sup>) [<xref rid="bib32" ref-type="bibr">32</xref>]. (b)
+Elevation dependence of mean latent heat released to the atmosphere through
+condensation (LH, unit: W m<sup>−2</sup>), local surface sensible heat flux (SH, unit:
+W m<sup>−2</sup>), surface wind speed (<italic toggle="yes">V</italic>, unit: m s<sup>−1</sup>),
+and ground–air temperature difference (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>, unit: °C) for spring (MAM), summer (JJA), autumn (SON) and winter (DJF),
+averaged from 158 stations over the TP during 1979–2014. The blue, green, yellow and
+red bars are for areas with terrain height of 1.5–2.0, 2.0–3.0, 3.0–4.0 and
+4.0–5.0 km, respectively. (c) Climatic mean (solid line; unit: W m<sup>−2</sup>) and
+monthly variance (bars) of each component of the TP heat source, as determined by
+averaged observational data from 73 stations. Red denotes SH, green denotes LH, blue
+denotes RC and black gives their sum [<xref rid="bib35" ref-type="bibr">35</xref>].
+(d) Evolutions of JJA means (averaged over the TP stations) of <italic toggle="yes">T</italic>
+<sub>g</sub>, <italic toggle="yes">T</italic>
+<sub>a</sub>, (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>), <italic toggle="yes">V</italic>, and the parameterized surface sensible heat flux
+<italic toggle="yes">V</italic> (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>). Heavy curves correspond to 11-year running mean [<xref rid="bib37" ref-type="bibr">37</xref>].</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f1.jpg"><?image-name NSR_7_3_534_f1.jpg?><?image-size 113988?><?image-md5 e22305f89c726662fe810daf6b95ddf5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2392?><?image-original-width 1654?><?image-scaled-height 956?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/e22305f89c72/NSR_7_3_534_f1.jpg?><?thumb-name NSR_7_3_534_f1.gif?><?thumb-size 11243?><?thumb-md5 67d4ebc7574507cb52fe8fe6fb6db25c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 145?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/67d4ebc75745/NSR_7_3_534_f1.gif?></graphic></fig><p>Diabatic heating over the TP is dependent on elevation in all seasons [<xref rid="bib33" ref-type="bibr">33</xref>]. LH reaches its maximum (minimum) in summer
+(winter) and it decreases with height in all seasons (Fig. <xref rid="fig1" ref-type="fig">1</xref>b, left column) because the water vapor content at the lower elevated boundary
+is larger than that at the higher elevated boundary. Conversely, maximum SH is in spring
+and it increases with height throughout the year, except in winter when there is uneven
+snow accumulation over the TP (Fig. <xref rid="fig1" ref-type="fig">1</xref>b, next to
+left column). The increase in SH with height is partially a result of the increasing wind
+speed (Fig. <xref rid="fig1" ref-type="fig">1</xref>b, next to right column) and of the
+temperature difference between the land surface and surface air (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>) with elevation (Fig. <xref rid="fig1" ref-type="fig">1</xref>b, right
+column). It is understood that the increase in SH with height is of significance in
+forcing the atmospheric circulation.</p></sec><sec id="sec2-2"><title>Annual cycle and variability of the AHS over the TP</title><p>Owing to the complex conditions of the land surface, even state-of-the-art general
+circulation models (GCMs) and reanalysis products show large biases in reproducing the
+land surface processes over the TP [<xref rid="bib34" ref-type="bibr">34</xref>]. The
+accumulation of routine meteorological records and field observation data has facilitated
+recent studies conducted to elucidate TP diabatic heating. Typically, SH is estimated
+using the bulk aerodynamic scheme and the total heat source is calculated by additionally
+considering precipitation and the radiant flux derived from satellite data. Zhao
+<italic toggle="yes">et al</italic>. [<xref rid="bib35" ref-type="bibr">35</xref>] used the latest TP
+observations and satellite data to depict the monthly climatology of the annual cycle of
+various components of TP AHS and variance (Fig. <xref rid="fig1" ref-type="fig">1</xref>c). It is shown that over the TP, SH dominates the AHS in spring, especially in
+March and April when SH (50–70 W m<sup>−2</sup>) is much larger than LH (5–20
+W m<sup>−2</sup>). In May, the TP SH reaches its peak of the entire year. However, with
+the arrival of the rainy season, LH increases rapidly in May and June and it exceeds SH in
+late May and early June. Reaching its peak in July as the major component of the total
+heat source, LH surpasses SH throughout the summer and thus becomes the most important
+component of the AHS. The net radiant flux behaves as a cooling effect throughout the
+year, but the cooling effect in spring and summer (−40 to −70 W m<sup>−2</sup>) is smaller
+than in autumn and winter (−80 to −110 W m<sup>−2</sup>). The variance of SH in spring is
+larger than that of LH and the largest value is in May. The variance of LH in summer is
+larger than that of SH and it reaches a peak of 300 W<sup>2</sup> m<sup>−4</sup> in
+August. These results are consistent with the features revealed by station observations
+and reanalysis products (e.g. [<xref rid="bib33" ref-type="bibr">33</xref>,<xref rid="bib36" ref-type="bibr">36</xref>]).</p><p>Yu <italic toggle="yes">et al</italic>. [<xref rid="bib33" ref-type="bibr">33</xref>] used the latest
+station observations to examine the temporal characteristics of TP SH variation. Their
+results indicated that for interannual and interdecadal variations of SH, the influence of
+the change in either density or drag coefficient is insignificant, while the main
+contributors are the changes in surface wind speed (<italic toggle="yes">V</italic>) and the
+temperature difference between the land surface and surface air (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>). Liu <italic toggle="yes">et al</italic>. [<xref rid="bib37" ref-type="bibr">37</xref>]
+designed a parameter of SH, <italic toggle="yes">V</italic> (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>), to investigate the interannual and interdecadal variations of SH over the
+TP. As shown in Fig. <xref rid="fig1" ref-type="fig">1</xref>d, the interannual variation
+of (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>) is comparable with that of <italic toggle="yes">V</italic>, whereas the relative change
+in <italic toggle="yes">V</italic> is larger than that in (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>) on the interdecadal timescale. During the analysis period,
+<italic toggle="yes">T</italic>
+<sub>g</sub>, <italic toggle="yes">T</italic>
+<sub>a</sub> and (<italic toggle="yes">T</italic>
+<sub>g</sub> − <italic toggle="yes">T</italic>
+<sub>a</sub>) all increased, whereas <italic toggle="yes">V</italic> decreased from 1980 to the end of
+the previous century but then increased after 2003. Consequently, the parameterized SH
+over the TP presents a weakened trend in summer before the end of the previous century but
+an increased trend since the beginning of this century. This could exert strong impact on
+the climate variation in surrounding areas, as shown in the following.</p></sec><sec id="sec2-3"><title>AHS over the TP and associated circulation in winter and summer</title><p>Figure <xref rid="fig1" ref-type="fig">1</xref>c shows that the AHS over the TP is
+cooling (heating) in winter (summer). The corresponding vertical profiles of the varied
+heating also present strong seasonal contrast. In winter, the SH, LH and shortwave
+radiation heating over the TP are all weak and they cannot compensate the longwave
+radiation cooling throughout the troposphere (Fig. <xref rid="fig2" ref-type="fig">2</xref>a). The profile of total AHS indicates the existence of a remarkable inversion
+below the height σ = 0.85. In summer, all types of heating develop strongly in different
+layers of the troposphere with the strongest SH of approximately 9 K day<sup>−1</sup> near
+the surface and their sum far exceeds the longwave radiation cooling in the troposphere
+(Fig. <xref rid="fig2" ref-type="fig">2</xref>b).</p><fig position="float" id="fig2" orientation="portrait"><label>Figure 2.</label><caption><p>Tibetan Plateau SH-driven air pump: (a and b) vertical profiles of different
+components of heating rate (unit: K day<sup>−1</sup>) averaged over the TP (20°–40°N,
+70°–100°E) with elevation above 1.5 km; (c and d) cross sections along 90°E of monthly
+mean potential temperature (unit: K) and circulation (vectors, unit: m s<sup>−1</sup>)
+projected onto the cross sections, and (e and f) deviations from the annual mean of
+monthly mean streamlines at 10 m above the surface. Data are from the NCEPII
+reanalysis for the period 1979–2014. The left column is for January and the right
+column is for July. The red contours in (e) and (f) indicate the 1.5-km elevation of
+the TP (refer to [<xref rid="bib10" ref-type="bibr">10</xref>]).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f2.jpg"><?image-name NSR_7_3_534_f2.jpg?><?image-size 114317?><?image-md5 90bd8268752b1306963e61e7cf9223f4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1477?><?image-original-width 1654?><?image-scaled-height 590?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/90bd8268752b/NSR_7_3_534_f2.jpg?><?thumb-name NSR_7_3_534_f2.gif?><?thumb-size 10044?><?thumb-md5 fd7673f662e565092ec01e5f823ffbac?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 89?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/fd7673f662e5/NSR_7_3_534_f2.gif?></graphic></fig><p>The cooling in winter and heating in summer over the broad scale of the TP as well as
+that of the continents, exert a strong impact on atmospheric temperature and circulation.
+Cross sections of the monthly mean potential temperature and meridional circulation along
+90°E in January and July (Fig. <xref rid="fig2" ref-type="fig">2</xref>c and d) show cold
+(warm) temperatures over continental areas and warm (cold) temperatures over oceans in
+January (July). In January, the strongest cooling and strongest air descent occur over the
+TP and to its south (Fig. <xref rid="fig2" ref-type="fig">2</xref>c). In July, the warmest
+potential temperature is just above the TP, consistent with previous findings [<xref rid="bib29" ref-type="bibr">29</xref>]. Strong ascent prevails from the southern TP to
+the tropical Indian Ocean (Fig. <xref rid="fig2" ref-type="fig">2</xref>d). Seasonal
+changes in the thermal contrast between land and oceans, and between the two hemispheres,
+drive surface movement of air from the winter hemisphere into the summer hemisphere, and
+from the continents to the oceans in winter but from the oceans to the continents in
+summer (Fig. <xref rid="fig2" ref-type="fig">2</xref>e and f). A prominent reversal of the
+monthly mean circulation deviated from the annual mean occurs over the TP area. In
+January, surface air is pumped away from the TP toward Africa and the Southern Hemisphere
+(Fig. <xref rid="fig2" ref-type="fig">2</xref>e), whereas the opposite occurs in July
+(Fig. <xref rid="fig2" ref-type="fig">2</xref>f), signifying the seasonal reversal of
+the Asian monsoonal flows. The process repeats annually and appears as a gigantic air
+pump. As this air pump is driven primarily by the SH of the TP [<xref rid="bib10" ref-type="bibr">10</xref>,<xref rid="bib38" ref-type="bibr">38</xref>], it has been defined
+as the TP SH-driven air pump. In addition to the large-scale land–sea thermal contrast,
+the TP thermal pumping exerts strong influence on the onset, maintenance and seasonal
+evolution of the ASM.</p></sec></sec><sec id="sec3"><title>TP FORCING AND ASM</title><sec id="sec3-1"><title>TP forcing and ASM onset</title><p>The onset of the ASM is affected by the TP [<xref rid="bib39" ref-type="bibr">39</xref>].
+One of the key dynamic processes for monsoon onset is a reduction of upper-level absolute
+vorticity [<xref rid="bib40" ref-type="bibr">40</xref>,<xref rid="bib41" ref-type="bibr">41</xref>]. Stationary planetary waves are able to produce an intensified thermally
+direct circulation over areas with low absolute vorticity [<xref rid="bib42" ref-type="bibr">42</xref>]. Springtime heating over the continent and the TP can force a
+stationary wave and ascent over the plateau, forming divergence collocated with
+non-negligible absolute vorticity off the equator and decreasing the upper-level
+vorticity. Thus, the lower-latitude circulation is rapidly adjusted into a thermally
+direct regime with an intensified monsoonal-type meridional circulation located to the
+south of the TP, leading to abrupt monsoon onset [<xref rid="bib43" ref-type="bibr">43</xref>]. The earliest ASM onset occurs over the eastern Bay of Bengal (BOB) [<xref rid="bib44" ref-type="bibr">44</xref>]. Numerical experiments have revealed that the
+location of this monsoon onset is anchored by TP forcing, that is moving the ‘TP’ westward
+by 30° longitude leads to a similar westward displacement of the location of the earliest
+ASM onset [<xref rid="bib45" ref-type="bibr">45</xref>].</p><p>Previous studies have also revealed that TP forcing in spring creates favorable
+conditions of coupling between the upper and lower circulations for convection development
+and ASM onset over the eastern BOB. In spring, the subtropical westerly flow over Asia
+remains strong and it impinges directly on the TP in the mid–lower troposphere, forming a
+stationary circulation dipole over Asia with an anticyclonic (a cyclonic) gyre to the
+north (south) of the TP [<xref rid="bib10" ref-type="bibr">10</xref>,<xref rid="bib46" ref-type="bibr">46</xref>]. The southwesterly flow in front of the cyclonic gyre transports
+ample water vapor from the BOB to the Indochina Peninsula, causing frequent spring
+rainfall and leading to northwestward movement of the SAH with its center over the
+northern Indochina Peninsula. Thus, strong divergent flow develops over the southeastern
+BOB, reducing the local vorticity aloft and forming upper-layer pumping [<xref rid="bib47" ref-type="bibr">47</xref>].</p><p>In the lower troposphere, a cold northwesterly flow along the TP-induced cyclonic gyre
+sweeps over India where the surface temperature is high. Strong SH is generated, forming a
+prominent surface cyclonic circulation over the Indian Peninsula with a strong
+southwesterly coastal flow over the northwestern BOB. Strong air–sea interaction is thus
+triggered in the BOB, forming a unique springtime warm pool with sea surface temperature
+(SST) of &gt;31°C in the BOB and stimulating the development of strong convection over
+the south of the warm pool [<xref rid="bib48" ref-type="bibr">48</xref>]. When this
+lower-layer convection is coupled with the vorticity minimum aloft and the upper-layer
+pumping from the SAH, the ASM starts to erupt over the southeastern BOB. Therefore, it is
+the TP-induced local air–sea interaction and the land–sea thermal contrast over South Asia
+in spring that causes the earliest ASM onset over the southeastern BOB.</p></sec><sec id="sec3-2"><title>Two types of heating and the Tibetan–Iranian Plateau coupling system</title><p>Similar to the TP, the thermal forcing of the Iranian Plateau can generate a cyclonic
+circulation in the lower troposphere, which conveys water vapor from the Arabian Sea to
+India and the TP, contributing to regional rainfall. Thereby, the SH increase over the
+Iranian Plateau can lead to SH decrease and LH increase over the Tibetan Plateau [<xref rid="bib49" ref-type="bibr">49</xref>]. In return, the SH increase/decrease over the
+Tibetan Plateau can intensify/weaken sinking motions to its west, causing SH
+increase/decrease over the Iranian Plateau. Thus, a quasi-equilibrium state between the SH
+and LH over the Tibetan Plateau, vertical atmospheric motion over the TP and the Iranian
+Plateau, and SH over the Iranian Plateau is reached. This so-called Tibetan–Iranian
+Plateau coupling system (TIPS) (Fig. <xref rid="fig3" ref-type="fig">3</xref>a) can
+significantly influence atmospheric circulation [<xref rid="bib50" ref-type="bibr">50</xref>]. It has been demonstrated that interaction between the SH and LH over the TP
+plays a leading role in the TIPS. The impacts of Iranian Plateau SH and TP SH on the
+climate of other regions can reinforce or offset each other. Their combined influence
+signifies the dominant regional water vapor transport. The heating of the TIPS warms the
+atmosphere aloft, elevates the tropopause and enhances anticyclonic circulation in the
+upper troposphere with two anomalous centers over the Tibetan–Iranian Plateau (TIP)
+(Fig. <xref rid="fig3" ref-type="fig">3</xref>b and c). The anomalous centers are warm
+in the upper troposphere but cold in the lower stratosphere, leading to development of
+minimum absolute vorticity near the tropopause over the plateaus [<xref rid="bib51" ref-type="bibr">51</xref>]. Subject to angular momentum conservation [<xref rid="bib52" ref-type="bibr">52</xref>], a monsoon-type meridional circulation is generated with its
+descending branch in the Southern Hemisphere and its ascending branch over the southern
+TIP. Easterly vertical shear and large-scale ascent thus develop over South Asia
+(Fig. <xref rid="fig3" ref-type="fig">3</xref>d), creating a favorable background for
+ASM development.</p><fig position="float" id="fig3" orientation="portrait"><label>Figure 3.</label><caption><p>(a) Schematic of the TIPS feedback coupling system comprising the thermal forcing
+over both the TP and the Iranian Plateau and the water vapor transport over South
+Asia. (b) Differences in temperature (shading, unit: °C), wind field (vectors, unit: m
+s<sup>−1</sup>) at 100 hPa between the control experiment and the experiment without
+sensible heating over the TIP. Stippling indicates where the temperature difference
+exceeds 95% significance level; and wind difference significant above the 95% level is
+plotted in black. (c) As for (b) except for 300 hPa; and (d) cross sections of the
+July mean meridional circulation (streamlines), absolute vorticity (shading, unit:
+10<sup>−5</sup> s<sup>−1</sup>), and zero-zonal wind curve (white dashed line) for
+the Asian monsoon area (70°–90°E) [<xref rid="bib50" ref-type="bibr">50</xref>,<xref rid="bib51" ref-type="bibr">51</xref>].</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f3.jpg"><?image-name NSR_7_3_534_f3.jpg?><?image-size 146818?><?image-md5 c2d202695fdbd894f843fd963556aff5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2386?><?image-original-width 1654?><?image-scaled-height 954?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/c2d202695fdb/NSR_7_3_534_f3.jpg?><?thumb-name NSR_7_3_534_f3.gif?><?thumb-size 12978?><?thumb-md5 47041b7d399824c21444ea67dfa31c8c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 144?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/47041b7d3998/NSR_7_3_534_f3.gif?></graphic></fig></sec><sec id="sec3-3"><title>Impacts of TP heating on ASM precipitation</title><p>The TP can influence the ASM through air–sea interaction, mid-latitude wave propagation
+and even aerosol forcings [<xref rid="bib53" ref-type="bibr">53–55</xref>].
+The surface heating effect of the TP is a crucial physical process in controlling the
+relationship of the TP and other weather and climate systems [<xref rid="bib56" ref-type="bibr">56–59</xref>]. It has been shown that heating over the TP
+correlates well with Indian summer monsoon rainfall in the early (20 May to 15 June) and
+late (1 September to 15 October) monsoon season [<xref rid="bib60" ref-type="bibr">60</xref>]. This together with the El Niño–Southern Oscillation (ENSO) explains a
+substantial portion of the interannual variability in early and late seasonal rainfall,
+and it provides potential for predictability.</p><p>The TP thermal impact on the ASM can also be detected on the decadal timescale. As shown
+in Fig. <xref rid="fig1" ref-type="fig">1</xref>d, the SH of the TP has declined from the
+mid-1970s to the end of the 20th century. Data diagnosis and numerical experiments [<xref rid="bib37" ref-type="bibr">37</xref>,<xref rid="bib61" ref-type="bibr">61</xref>] have
+demonstrated that reduction of the SH of the TP in spring and summer weakens the forced
+near-surface cyclonic circulation. Consequently, the summertime southerlies that usually
+prevail over eastern China are weakened, and the rain belt associated with the ASM remains
+over South China, instead of moving northward. The distribution of precipitation
+difference between the last and second last decades of the 20th century is shown in
+Fig. <xref rid="fig4" ref-type="fig">4</xref>b. An apparent anomalous pattern can be
+seen with enhanced rainfall over South China and reduced rainfall over North China,
+presenting a north–south seesaw axis over East China (see the two brown boxes in
+Fig. <xref rid="fig4" ref-type="fig">4</xref>b), that is the so-called ‘South
+flood–North drought’ pattern.</p><fig position="float" id="fig4" orientation="portrait"><label>Figure 4.</label><caption><p>(a) Schematic of the <italic toggle="yes">T-Q<sub>Z</sub>
+</italic> mechanism. The warm center and SAH in the upper troposphere present on the
+eastern end of the cooling and to the west of the heating (blue arrow, monsoon
+heating; purple arrow, vertical descent; black arrow, vertical shear of meridional
+wind; and brown arrow, Coriolis force); and decadal changes in JJA mean climate
+between the periods of 1991–2000 and 1981–1990 of (b) precipitation based on the
+PREC/L dataset (unit: mm d<sup>−1</sup>), (c) 200-hPa geopotential height (unit: gpm),
+and (d) 200–400 hPa mass-weighted temperature (unit: K) based on ERA40 reanalysis data
+[<xref rid="bib63" ref-type="bibr">63</xref>]. The two pairs of boxes in (b)
+indicate the south–north seesaw and the west–east seesaw.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f4.jpg"><?image-name NSR_7_3_534_f4.jpg?><?image-size 57383?><?image-md5 30e4070c82e8f27e2caea1e4c3484c0c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 905?><?image-original-width 1654?><?image-scaled-height 362?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/30e4070c82e8/NSR_7_3_534_f4.jpg?><?thumb-name NSR_7_3_534_f4.gif?><?thumb-size 10507?><?thumb-md5 662086ec05c5cefd8605c855feb88f62?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 146?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/662086ec05c5/NSR_7_3_534_f4.gif?></graphic></fig><p>For a steady-state frictionless atmosphere in the subtropics, the meridional wind
+<italic toggle="yes">v</italic> and the vertical gradient of diabatic heating <italic toggle="yes">Q</italic> can
+be well expressed as in the following Sverdrup balance [<xref rid="bib62" ref-type="bibr">62</xref>]: <disp-formula>
+<tex-math id="mt002" notation="LaTeX"><?equation-image-name mt002.gif?><?equation-image-status READY?><?equation-image-md5 229342a7529403f5428f669839c7d388?><?equation-image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/229342a75294/mt002.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{eqnarray*}\beta \nu \&amp;\approx\&amp; (f + \zeta )\theta _z^{ - 1}(\partial Q/\partial z),\nonumber\\ \&amp;{\theta _z}\ne\&amp; 0,{\rm{\vec{V}}} \cdot \nabla \zeta \to 0.\end{eqnarray*}$$\end{document}</tex-math>
+</disp-formula>
+</p><p>Following the thermal wind relation between temperature and meridional wind
+<italic toggle="yes">v</italic>, and assuming normal distributions for both diabatic heating
+<italic toggle="yes">Q</italic> and temperature <italic toggle="yes">T</italic>, then <italic toggle="yes">T</italic> and
+<italic toggle="yes">Q</italic> approximately satisfy the following relation [<xref rid="bib63" ref-type="bibr">63</xref>]: <disp-formula>
+<tex-math id="mt003" notation="LaTeX"><?equation-image-name mt003.gif?><?equation-image-status READY?><?equation-image-md5 05ba97a1e24ad160ed910414bbab4903?><?equation-image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/05ba97a1e24a/mt003.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$$\begin{equation*}T(x) \approx {\lambda ^2}(\partial Q(x)/\partial x),\end{equation*}$$\end{document}</tex-math>
+</disp-formula>
+</p><p>where <inline-formula><tex-math id="mt004" notation="LaTeX"><?equation-image-name mt004.gif?><?equation-image-status READY?><?equation-image-md5 3485aa2c8cbb72e1d332c84f13049b0a?><?equation-image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/3485aa2c8cbb/mt004.gif?>\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\lambda ^2}$\end{document}</tex-math></inline-formula> is a positive coefficient. It
+implies that the heating-induced temperature anomaly <italic toggle="yes">T</italic>(x) lags the
+heating <italic toggle="yes">Q</italic>(x) by one-quarter phase, as shown schematically in Fig. <xref rid="fig4" ref-type="fig">4</xref>a. Thus, increased convectional heating can enhance
+the upper-tropospheric warm center together with the SAH to the west, intensifying the
+sinking motion further to the west. This agrees well with the observed climatic mean
+longitudinal distributions of temperature and diabatic heating along the subtropics in the
+upper troposphere [<xref rid="bib63" ref-type="bibr">63</xref>]. During the final two
+decades of the 20th century, as the SH over the TP decreased (Fig. <xref rid="fig1" ref-type="fig">1</xref>d) and the precipitation over South China increased (Fig. <xref rid="fig4" ref-type="fig">4</xref>b), the SAH and the upper-tropospheric warm center
+intensified (Fig. <xref rid="fig4" ref-type="fig">4</xref>c and d), while precipitation
+over North India and Bangladesh decreased (Fig. <xref rid="fig4" ref-type="fig">4</xref>b). Namely, the rainfall anomaly presents a west–east seesaw along the Asian
+subtropics (see the two red boxes in Fig. <xref rid="fig4" ref-type="fig">4</xref>b). The
+results demonstrate that anomalous heating over the TP exerts an important impact on the
+configuration of climate anomalies, at least over the ASM area.</p></sec><sec id="sec3-4"><title>Debate on the maintenance of the South Asian summer monsoon</title><p>In a recent model experiment in which the main part of the TP was removed but the
+Himalayas were retained, the simulated South Asian summer monsoon was found to be largely
+unaffected and thus a new hypothesis was proposed. This hypothesis considers the Himalayas
+as a thermal isolator that prohibits the cold dry northerly flow (with low entropy) from
+the mid-latitudes, which means the high entropy air in the lower layers over India can be
+coupled with the warm center in the upper troposphere through monsoonal convection over
+South Asia [<xref rid="bib64" ref-type="bibr">64</xref>, hereafter BK10; <xref rid="bib65" ref-type="bibr">65</xref>]. This new hypothesis has stimulated debate on the
+maintenance of the South Asian summer monsoon [<xref rid="bib66" ref-type="bibr">66–69</xref>], which has advanced the overall
+understanding of the relevant science.</p><p>The barrier hypothesis was reexamined by conducting a series of independent numerical
+experiments that included full TP, barrier and no-TP configurations [<xref rid="bib70" ref-type="bibr">70</xref>]. The proposed barrier-induced blocking mechanism was not found
+and the sensible heating on the slopes of the TP was considered a driver of the South
+Asian monsoon. It transpires that the key is the surface sensible heating on the slopes of
+the Himalayas, which was retained in BK10’s experimental design such that the thermal
+pumping effect of the TP was included. Once the surface sensible heating on the slopes of
+the Himalayas is removed, the northern branches of the South Asian summer monsoon and the
+East Asian summer monsoon disappear [<xref rid="bib69" ref-type="bibr">69</xref>].
+Physically, the surface insolation in summer is higher to the north of the TP than to its
+south, and the prevailing wind in the lower troposphere across the TP is southerly because
+the land–sea thermal contrast in summer produces a continental-scale surface cyclonic
+circulation over the continent and because the TP is located in the eastern Afro-Eurasian
+continent [<xref rid="bib67" ref-type="bibr">67</xref>]. Thus, there is no northerly
+advection, which means the presence of a thermal isolator for preventing cold dry invasion
+from the north is not required [<xref rid="bib68" ref-type="bibr">68</xref>]. Second, as
+mentioned above (Fig. <xref rid="fig4" ref-type="fig">4</xref>a), descending motion occurs
+under the central and western SAH and the upper-tropospheric warm center. There is no
+convection for coupling the high energy in the lower troposphere and the warm center
+above. The high surface entropy over India in summer associated with monsoon development
+is indeed mainly a result of its high water vapor content, which, as described above, is
+transported from the Arabian Sea and BOB via the TIP thermal pumping [<xref rid="bib68" ref-type="bibr">68</xref>]. The ASM is in fact controlled thermally by both
+the land–sea contrast and the elevated heating of the TP [<xref rid="bib69" ref-type="bibr">69</xref>].</p><p>The above does not mean that the mechanical barrier effect is unimportant. This effect in
+winter not only splits the impinging westerly flow into northern and southern branches but
+also blocks the northerly flow in the lower troposphere. The cold intrusion into India
+thus becomes a deflected northwesterly or northeasterly flow [<xref rid="bib68" ref-type="bibr">68</xref>]. In summer, the TP barrier effect causes the prevailing southerly
+flow to climb its southern slope, forming heavier precipitation when there is surface
+heating on the sloped surface. If there were no surface heating, the barrier effect would
+cause the impinging southerly flow to deflect around the TP and thus there would be no
+monsoon over northern India [<xref rid="bib67" ref-type="bibr">67</xref>].</p></sec></sec><sec id="sec4"><title>IMPACTS OF THE TP ON UPSTREAM CLIMATE OVER WEST ASIA, EUROPE, AFRICA AND THE NORTH
+ATLANTIC</title><p>The climate over Asia and Africa/Europe is strongly linked by zonal–vertical overturning
+circulation in the lower latitudes and wave-train patterns in the higher latitudes, which
+are related to divergent and rotational portions of the atmospheric motion, respectively.
+While the latitudinal heating gradients between warmer continents and cooler oceans has been
+recognized as the dominant forcing of ASM formation and development since the time of Halley
+[<xref rid="bib71" ref-type="bibr">71</xref>], longitudinal heating gradients were also
+believed important for the monsoon [<xref rid="bib72" ref-type="bibr">72–76</xref>]. Given that large latent heating occurs
+in the monsoon region and radiative cooling is dominant in the African desert region, and
+given that the longitudinal gradient of total heating between Asia and North Africa in
+summer is of the same order of magnitude as the latitudinal gradient across the Asian
+monsoon region [<xref rid="bib76" ref-type="bibr">76</xref>,<xref rid="bib77" ref-type="bibr">77–79</xref>], it has been hypothesized that the longitudinal
+heating gradient is a potential factor that influences ASM variability.</p><p>Although the increase in anthropogenic aerosols and greenhouse gases might play a role in
+the drying trend of Sahel rainfall since the 1950s [<xref rid="bib80" ref-type="bibr">80–83</xref>], a recent study by He <italic toggle="yes">et al</italic>.
+[<xref rid="bib84" ref-type="bibr">84</xref>] revealed that the strengthened latent
+heating associated with the ASM could explain the long-term decrease in Sahel rainfall
+through an anomalous zonal–vertical circulation. The robustness of this feature can be
+demonstrated by model experiments with enhanced heating over either South Asia or Southeast
+Asia. More recently, Sy <italic toggle="yes">et al</italic>. [<xref rid="bib85" ref-type="bibr">85</xref>] related the climate link between South Asia and the Sahel to variation of the
+tropical easterly jet stream in the upper troposphere.</p><p>In higher latitudes, especially during the cold seasons, the interaction between the TP and
+wave-train patterns, including Rossby wave propagation, is an issue of considerable
+interest. Within this context, both the influence of atmospheric teleconnection patterns on
+the climate over the TP and adjacent regions [<xref rid="bib10" ref-type="bibr">10</xref>]
+and the impact of the ASM on the high-latitude upstream climate have attracted certain
+research interest. For example, Rodwell and Hoskins [<xref rid="bib86" ref-type="bibr">86</xref>,<xref rid="bib87" ref-type="bibr">87</xref>] claimed that the characteristic
+Mediterranean climate was a Rossby-type response to Indian summer monsoon heating, while
+Zhao <italic toggle="yes">et al</italic>. [<xref rid="bib88" ref-type="bibr">88</xref>] found that the
+origin of summer climate signals over the North Atlantic and European regions could be
+traced to the Asian continent. The effects of large-scale orography on the Northern
+Hemisphere climate including the monsoonal climate and mid-latitude dry climate have been
+discussed widely [<xref rid="bib89" ref-type="bibr">89–91</xref>]. The dry
+climate over central Asia is well reproduced in model experiments with mountains because of
+the stationary waves during the cold seasons and the South Asian monsoon circulation during
+summer that are induced particularly by the TP. In contrast, a moist climate appears in
+experiments without mountains, indicating the crucial role of the TP in formation of the
+central Asian climate [<xref rid="bib90" ref-type="bibr">90</xref>].</p><p>It is important to consider the role that the TP might have in the connection between the
+plateau and the upstream climate or its impact on the upstream climatic variation. Model
+experiments have demonstrated that the TP plays an important role in modulating both the
+downstream East Asian monsoon and the upstream desert climate [<xref rid="bib92" ref-type="bibr">92</xref>]. TP heating also drives the variability of Pakistan monsoon
+rainfall via a TP-induced Rossby wave response in the upper troposphere and weakened water
+vapor transport from the BOB to Pakistan [<xref rid="bib19" ref-type="bibr">19</xref>].
+Furthermore, a significant positive relationship exists between the tropospheric temperature
+over the TP and rainfall over the central–eastern Sahel during summer. This is manifest
+through an anomalous zonal–vertical cell with ascent over the TP and descent over the
+Mediterranean, as well as an anomalous meridional cell with rising motion over the Sahel
+[<xref rid="bib18" ref-type="bibr">18</xref>].</p><p>A series of experiments with earth system models has illustrated that TP heating exerts
+strong impact on the climate over West Asia, the Middle East, North Africa, South Europe and
+the North Atlantic [<xref rid="bib16" ref-type="bibr">16</xref>,<xref rid="bib18" ref-type="bibr">18</xref>]. Figure <xref rid="fig5" ref-type="fig">5</xref> presents the
+changes in horizontal circulation, tropospheric temperature and vertical circulation
+associated with heating of the TP surface from surface albedo reduction. According to the
+so-called SH-driven air pump effect [<xref rid="bib10" ref-type="bibr">10</xref>,<xref rid="bib93" ref-type="bibr">93</xref>], TP heating leads to increases in regional
+tropospheric temperature and thickness of the air column (Fig. <xref rid="fig5" ref-type="fig">5</xref>c and d). In the upper troposphere, the SAH intensifies and extends
+westward, and to the west of the TP, a distinct Rossby wave response emerges with anomalous
+anticyclonic circulation and warming throughout the entire troposphere. In the lower–middle
+troposphere, the Atlantic subtropical high intensifies and moves northwestward (Fig. <xref rid="fig5" ref-type="fig">5</xref>a and b), accompanied by northward shifts of the
+Atlantic Intertropical Convergence Zone (Fig. <xref rid="fig5" ref-type="fig">5</xref>h) and
+the local Hadley circulation (not shown). Moreover, features of a thermally driven
+circulation are apparent (Fig. <xref rid="fig5" ref-type="fig">5</xref>e and f). An
+anomalous zonal–vertical cell appears with an ascending branch over the TP and a descending
+branch over the Mediterranean Sea, and an anomalous meridional–vertical cell occurs with an
+ascending branch over the TP and a descending branch over India and adjacent regions.
+Therefore, subsidence strengthens over the Mediterranean and the North Atlantic, decreasing
+rainfall (Fig. <xref rid="fig5" ref-type="fig">5</xref>h) and increasing surface temperature
+correspondingly (Fig. <xref rid="fig5" ref-type="fig">5</xref>g). In short, as depicted by
+the schematic in Fig. <xref rid="fig6" ref-type="fig">6</xref>, warming, anomalous ascent, a
+low-level cyclone and a high-level anticyclone occur when heating increases over the TP,
+inducing anticyclonic anomalies (intensified SAH and Atlantic subtropical high), reduced
+rainfall and warming over the Mediterranean Sea and extratropical North Atlantic through
+both the Rossby wave response and the thermally driven vertical circulation. Within this
+framework, changes in the tropical divergent part and the extratropical rotational portion
+of the atmospheric circulation related to TP heating are emphasized. Limited evidence
+indicates that the effect of the northern portion of the TP relative to its southern
+counterpart favors a circumglobal pattern that affects the climate of the North Atlantic,
+South Europe and North Africa (figure not shown).</p><fig position="float" id="fig5" orientation="portrait"><label>Figure 5.</label><caption><p>JJA climatology of (a) sea level pressure (shading, unit: hPa) and 850-hPa wind
+(vectors, unit: m s<sup>−1</sup>), (c) tropospheric temperature (shading, unit: °C,
+averaged from 700 to 200 hPa where the terrain is &lt;3000 m and from 500 to 200 hPa
+where the terrain is &gt;3000 m) and 200-hPa winds (vectors, unit: m s<sup>−1</sup>)
+in the control experiment. (b) and (d) Corresponding differences between the TP heating
+and control experiments, respectively. The differences between the TP heating and
+control experiments are shown in (e) for 30°–40°N averaged omega (shading, unit: Pa
+s<sup>−1</sup>, multiplied by -100) and zonal–vertical circulation (vectors; zonal
+wind in m s<sup>−1</sup>, and omega in Pa s<sup>−1</sup>, multiplied by -100), and in
+(f) for 75°–105°E averaged omega (shading, unit: Pa s<sup>−1</sup>, multiplied by -100)
+and meridional–vertical circulation (vectors; meridional winds in m s<sup>−1</sup>, and
+omega in Pa s<sup>−1</sup>, multiplied by -100). Differences are also shown in (g) for
+surface temperature (unit: °C) and in (h) for precipitation (unit: mm d<sup>−1</sup>).
+Dots indicate the values that significantly exceed the 95% confidence level. In (b),
+(d), (e) and (f), the values of wind differences significantly above the 95% confidence
+level are plotted in black vectors. Dashed green lines indicate the TP region where the
+terrain is &gt;1500 m. Black shading represents terrain height.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f5.jpg"><?image-name NSR_7_3_534_f5.jpg?><?image-size 118806?><?image-md5 25bd0c7f8ece5e13d3addd8ab1f58448?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1571?><?image-original-width 1654?><?image-scaled-height 628?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/25bd0c7f8ece/NSR_7_3_534_f5.jpg?><?thumb-name NSR_7_3_534_f5.gif?><?thumb-size 10659?><?thumb-md5 2acf6580e1fb8a12ad09900b8f304c37?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 95?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/2acf6580e1fb/NSR_7_3_534_f5.gif?></graphic></fig><fig position="float" id="fig6" orientation="portrait"><label>Figure 6.</label><caption><p>Schematic of the impact of TP heating on upstream climate. Red contours indicate the
+changes in 200-hPa geopotential height and blue contours denote changes in sea level
+pressure (solid contours, positive anomalies; dashed contours, negative anomalies). A
+(C) indicates anticyclonic (cyclonic) anomalies. Green (red) vectors represent upward
+(downward) anomalies.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f6.jpg"><?image-name NSR_7_3_534_f6.jpg?><?image-size 53930?><?image-md5 b07ecb4be4f1b4e31ff9e6da00cf570e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 556?><?image-original-width 1149?><?image-scaled-height 371?><?image-scaled-width 766?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/b07ecb4be4f1/NSR_7_3_534_f6.jpg?><?thumb-name NSR_7_3_534_f6.gif?><?thumb-size 10902?><?thumb-md5 1a488b4f6b52847ed594282a2b7bf4c1?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 165?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/1a488b4f6b52/NSR_7_3_534_f6.gif?></graphic></fig><p>It is also interesting to elucidate the relative importance of TP heating to Asian
+continental heating regarding modification of the upstream climate variations. Based on the
+relative changes in circulation patterns, surface temperature and rainfall, TP heating
+accounts for approximately 40–50% of the climate signals induced by Asian continent heating,
+although the TP domain occupies only one-third of the area of the Asian continent according
+to numerical model experiments [<xref rid="bib16" ref-type="bibr">16</xref>].</p><p>Given the interactive nature between SST and its overlying atmosphere, the North Atlantic
+SST signals caused by the thermal impact of the TP in turn influence the variations of
+upstream climate. The feedback of these SST signals accounts for above 20% of the total
+upstream signals caused by TP heating, as assessed by numerical model experiments with and
+without Atlantic SST variations [<xref rid="bib17" ref-type="bibr">17</xref>]. Compared with
+experiments in which TP heating is included but Atlantic SST variation is excluded, an
+anomalous wave pattern characterized by three positive centers (over the extratropical North
+Atlantic, Arctic Ocean and to the east of Japan) and four negative centers (over the central
+North Atlantic, North Europe, northeastern North America and northwestern Pacific) appears
+when Atlantic SST variation is involved. Corresponding to the circulation pattern, rainfall
+increases over northeastern North America and North Europe but decreases over the
+northwestern Atlantic. Because of the reduced strength of the westerlies related to the
+reduced strength of the thermal low over subtropical Africa, the increase in Sahel rainfall
+is less evident when the change in Atlantic SST is considered (Fig. <xref rid="fig5" ref-type="fig">5</xref>h).</p><p>Previous studies have also revealed that the heat source over the TP can be affected by
+early spring SST anomalies over the North Atlantic through a stationary wave train that
+crosses the North Atlantic, North Europe and the TP, and then modulates the subtropical
+westerly jet stream [<xref rid="bib94" ref-type="bibr">94</xref>]. Given the various
+timescales and spatial domains of Atlantic SST variation, the impact of the TP on upstream
+regions is much more complex when the feedback of different types of Atlantic SST variation
+is considered.</p></sec><sec id="sec5"><title>TP EFFECT ON THE AMOC</title><p>The rapid uplift of the TP began approximately 50 Ma (million years ago) and was
+accelerated at approximately 10–8 Ma [<xref rid="bib95" ref-type="bibr">95</xref>,<xref rid="bib96" ref-type="bibr">96</xref>]. It triggered establishment of the Indian and East
+Asian monsoons at around 9–8 Ma, resulting in enhanced aridity in the Eurasian interior and
+an intensified westerly jet stream in winter in the Northern Hemisphere [<xref rid="bib97" ref-type="bibr">97–99</xref>], as well as increased dust transport
+to the North Pacific Ocean [<xref rid="bib99" ref-type="bibr">99</xref>]. These features
+could have resulted in freshening and cooling of the North Pacific and weakening of the
+Pacific meridional overturning circulation [<xref rid="bib100" ref-type="bibr">100</xref>].
+However, the timing of significant uplift of the TP was close to that of the establishment
+of the AMOC [<xref rid="bib101" ref-type="bibr">101</xref>, and references therein]. In
+contrast, the Rocky Mountains were fully developed by 45 Ma, far earlier than the
+establishment of the AMOC. Paleoclimatic evidence implies an important role of the TP in the
+formation of modern thermohaline circulations.</p><p>The AMOC, one of the key elements of the global climate system, is commonly recognized as
+being sustained by North Atlantic deep-water formation (NADW) on short timescales [<xref rid="bib102" ref-type="bibr">102–104</xref>]. Considering both the thermal
+and the mechanical effects of the TP, Fallah <italic toggle="yes">et al</italic>. [<xref rid="bib22" ref-type="bibr">22</xref>] conducted topography-sensitive experiments with a coupled GCM
+(CGCM) and found that the TP could significantly affect both the North Atlantic SST and the
+AMOC. Recent investigations into the effect of the TP on the AMOC using the fully coupled
+climate model, demonstrated that removing the TP would result in collapse of the AMOC [<xref rid="bib105" ref-type="bibr">105</xref>].</p><p>Figure <xref rid="fig7" ref-type="fig">7</xref> shows the changes in the AMOC index and its
+pattern in response to TP removal. The AMOC is enhanced by as much as 20% in the first few
+decades of model integration and then weakened by more than 80% after 300 years (black
+curve, Fig. <xref rid="fig7" ref-type="fig">7</xref>a), which is a feature confirmed by 10
+ensemble runs (gray curves, Fig. <xref rid="fig7" ref-type="fig">7</xref>a). The
+experimental result implies the importance of the TP in the establishment of the AMOC in the
+modern climate. The quasi-equilibrium response of the AMOC (year 300–400) is comparable with
+that in experiments when freshwater is hosed into the North Atlantic [<xref rid="bib106" ref-type="bibr">106–108</xref>]. The spatial patterns of AMOC changes in the
+initial stage (Stage-I) and the quasi-equilibrium stage (Stage-II) are plotted in Fig. <xref rid="fig7" ref-type="fig">7</xref>c and d, respectively. The patterns exhibit a marginally
+positive anomaly in Stage-I (Fig. <xref rid="fig7" ref-type="fig">7</xref>c) and a
+significant reduction of downward mass transport in the subpolar North Atlantic in Stage-II,
+that is collapse of the AMOC (Fig. <xref rid="fig7" ref-type="fig">7</xref>c and d). The
+AMOC comprises a wind-driven circulation and a thermohaline circulation [<xref rid="bib109" ref-type="bibr">109</xref>]. The wind-driven circulation in the tropics is
+affected minimally by TP removal (Fig. <xref rid="fig7" ref-type="fig">7</xref>c and d);
+thus, the major influence of the TP on the AMOC is from the thermohaline branch.</p><fig position="float" id="fig7" orientation="portrait"><label>Figure 7.</label><caption><p>AMOC index and patterns. (a) Percentage change in the AMOC index (black curve), which
+is defined as the maximum streamfunction in the range of 0°–10°C isothermal between 20°N
+and 70°N in the Atlantic. Gray curves show the AMOC changes in 10 ensemble runs. (b)
+Changes in sea surface salinity (SSS; blue, unit: psu), temperature (SST; red, unit:
+°C), and density (SSD; black, unit: kg m<sup>−3</sup>), SSS-induced SSD change (dashed
+blue) and SST-induced SSD change (dashed red). In (b), all variables are averaged over
+the region 40°–65°N, 10°–60°W and 0–30 m. (c) and (d) Mean AMOC in control experiment
+(Real) (contour, unit: Sv, 1 Sv = 10<sup>6</sup> m<sup>3</sup> s<sup>−1</sup>) and its
+change (shading, unit: Sv) in Stage-I and Stage-II, respectively, which are defined in
+(a). All changes are obtained from TP removal experiments (NoTibet), with respect to
+Real (adapted from [<xref rid="bib105" ref-type="bibr">105</xref>]).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f7.jpg"><?image-name NSR_7_3_534_f7.jpg?><?image-size 51005?><?image-md5 0cdc0b69ea93e9c42d9eed6e11e49e7f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 847?><?image-original-width 1654?><?image-scaled-height 338?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/0cdc0b69ea93/NSR_7_3_534_f7.jpg?><?thumb-name NSR_7_3_534_f7.gif?><?thumb-size 9708?><?thumb-md5 bb28a5bbbb85c719c7240169271ed743?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 156?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/bb28a5bbbb85/NSR_7_3_534_f7.gif?></graphic></fig><p>Surface buoyancy change in the NADW region (40°–65°N, 10°–60°W) is the key factor
+determining the response of the AMOC [<xref rid="bib110" ref-type="bibr">110</xref>]. The
+sea surface density (SSD) averaged in the NADW region increases slightly during the first 50
+years and then decreases remarkably subsequently (Fig. <xref rid="fig7" ref-type="fig">7</xref>b), consistent with the evolution of the AMOC. The SSD change can be further
+split into the change induced by SST and that attributable to sea surface salinity (SSS).
+The North Atlantic SST is cooled during the entire 400 years (red solid line), which
+increases SSD (red dashed line). However, SSS increases during the first few decades and
+then decreases during the remainder of the integration (blue solid line), driving SSD
+changes accordingly (blue dashed line). In general, the SSD increase during Stage-I leads to
+a stronger AMOC, of which 30% is attributable to surface cooling and 70% to surface
+salinization, while the SSD decrease later on is exclusively attributed to surface
+freshening, resulting in the collapse of the AMOC.</p><p>The mechanism via which the TP affects the AMOC presented by Yang and Wen [<xref rid="bib105" ref-type="bibr">105</xref>] is summarized in Fig. <xref rid="fig8" ref-type="fig">8</xref>. Removing the TP would intensify the westerlies over the North
+Atlantic, enhancing ocean surface evaporation that would result in greater heat loss to the
+atmosphere through LH and SH fluxes, and strengthen the southward Ekman flow, which would
+bring additional cold water from the Greenland–Iceland–Norwegian seas into the North
+Atlantic. Atmospheric processes are vital in Stage-I. SSS increase in the first few decades
+after TP removal is attributed to the intensified westerlies that enhance evaporation and
+cold-water advection from the north. However, the subsequent SSS decrease is because of
+greater freshwater transport from the tropical Pacific to the North Atlantic along the
+so-called atmospheric river [<xref rid="bib111" ref-type="bibr">111</xref>], converging over
+the North Atlantic and leading to freshening of the upper ocean (red vectors and green
+shading, Fig. <xref rid="fig8" ref-type="fig">8</xref>). This surface freshening weakens the
+NADW, triggering a decline of AMOC. The teleconnection pattern shown in Fig. <xref rid="fig8" ref-type="fig">8</xref> is established mainly via atmospheric processes [<xref rid="bib112" ref-type="bibr">112–115</xref>]. Oceanic processes do
+not contribute to the teleconnection; instead, they respond to the teleconnection. In other
+words, the TP affects the oceanic circulation and buoyancy fields via atmospheric processes
+[<xref rid="bib22" ref-type="bibr">22</xref>].</p><fig position="float" id="fig8" orientation="portrait"><label>Figure 8.</label><caption><p>Wave train, westerlies and water vapor transport. Brown ribbon and arrows show
+schematically the stationary wave structure and corresponding winds at 850-hPa
+geopotential height in Real. Purple ribbon and arrows are the same as the brown ones,
+except for NoTibet. Red dots (blue stars) represent the high- and low-pressure centers
+in Real (NoTibet). Blue arrows are the wind changes in NoTibet with respect to Real,
+showing enhanced westerlies. Red arrows represent the change in vertically-integrated
+water vapor transport in NoTibet with respect to Real. Green shading represents the
+change in water vapor convergence in NoTibet, and negative values mean that the ocean
+gains freshwater from the atmosphere. The TP is indicated by the gray patch.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f8.jpg"><?image-name NSR_7_3_534_f8.jpg?><?image-size 77009?><?image-md5 e094420f549113ace7c61d442a8b0f9e?><?image-image-server-status NEVER_LOAD?><?image-original-height 496?><?image-original-width 768?><?image-scaled-height 496?><?image-scaled-width 768?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/e094420f5491/NSR_7_3_534_f8.jpg?><?thumb-name NSR_7_3_534_f8.gif?><?thumb-size 10529?><?thumb-md5 960481b0cdb5922728bad3131fa0cf2b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 123?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/960481b0cdb5/NSR_7_3_534_f8.gif?></graphic></fig><p>The modeling results of Yang and Wen [<xref rid="bib105" ref-type="bibr">105</xref>] are
+qualitatively consistent with those of previous studies by Fallah <italic toggle="yes">et al</italic>.
+[<xref rid="bib22" ref-type="bibr">22</xref>], Maffre <italic toggle="yes">et al</italic>. [<xref rid="bib23" ref-type="bibr">23</xref>] and Su <italic toggle="yes">et al</italic>. [<xref rid="bib116" ref-type="bibr">116</xref>], that is removal of the TP results in collapse of
+the AMOC. However, the detailed processes that lead to AMOC collapse are different in
+different studies. For example, Fallah <italic toggle="yes">et al</italic>. [<xref rid="bib22" ref-type="bibr">22</xref>] emphasized the role of reduced northeastward heat advection from
+the North Atlantic in weakening of the AMOC. Maffre <italic toggle="yes">et al</italic>. [<xref rid="bib23" ref-type="bibr">23</xref>] concluded that the westward freshwater transfer
+across Africa is critical to the freshening of the Atlantic and thus to the weakening of the
+AMOC. Su <italic toggle="yes">et al</italic>. [<xref rid="bib116" ref-type="bibr">116</xref>] identified
+the critical factor as northward moisture transport over the North Atlantic. However, these
+studies did not show the transient change in the AMOC. The study of Yang and Wen [<xref rid="bib105" ref-type="bibr">105</xref>] showed initial strengthening of the AMOC in
+response to TP removal, followed by subsequent weakening. Moreover, they emphasized that the
+atmospheric moisture relocation from the tropical Pacific to the North Atlantic is the key
+that triggers the weakening of the AMOC, and the positive feedback between the southward
+expansion of sea ice and the AMOC decline leads to the AMOC shutdown eventually. These
+mechanisms are different from those discussed in previous studies. The discrepancies in the
+mechanisms reflect the complexity of the effect of the TP on global ocean circulations.
+Consequently, further sensitivity experiments using different models are needed.</p></sec><sec id="sec6"><title>TP AND OCEANS: SYNERGISTIC CLIMATE INFLUENCE</title><p>Although the TP and its thermal status are treated as a forcing source for generating
+regional and remote anomalies in atmospheric and oceanic circulations, the TP forcing itself
+should be considered a result of atmospheric and oceanic circulations. This is because the
+heating source and mechanical forcing of the TP are determined by various atmospheric
+variables such as wind, temperature, humidity and ground surface heat flux. Revealing how TP
+forcing is manifest could help elucidate the role of TP forcing in the framework of
+land–air–sea interactions. In recent decades, the interaction between the TP and oceans,
+together with their synergistic role regarding the Asian monsoon, has drawn increasing
+attention. The consensus is that the TP can interact with remote oceans through westerly jet
+streams, Rossby waves, local atmospheric circulations and teleconnections. Here, two aspects
+are discussed: the interaction between the TP and the oceans, and their synergistic
+influence on the East Asian summer monsoon.</p><p>The persuasive research method adopted to clarify the impact of the TP on oceans is to use
+climatic models CGCMs (e.g. [<xref rid="bib8" ref-type="bibr">8</xref>,<xref rid="bib117" ref-type="bibr">117–119</xref>]) and to conduct experiments with different
+degrees of global terrain elevation. It was found that the Asian monsoon climate and
+Indo-Pacific SSTs respond significantly to TP forcing via changes in cloud radiation and
+wind evaporation processes. Because the Pacific Ocean is located downstream of TP along the
+westerly belt, the <italic toggle="yes">in situ</italic> SST anomaly (SSTA) is inevitably related to TP
+thermal forcing. Zhao <italic toggle="yes">et al</italic>. [<xref rid="bib115" ref-type="bibr">115</xref>] found that the atmospheric circulations over the TP and the North Pacific are
+closely related and hence, they proposed the concept of the Asia Pacific Oscillation. Nan
+<italic toggle="yes">et al</italic>. [<xref rid="bib120" ref-type="bibr">120</xref>] further argued
+that the tropospheric temperature over the TP might induce a warm SSTA in the equatorial
+central–eastern Pacific through the Asia Pacific Oscillation.</p><p>As mentioned above, the AHS over the TP in spring is dominated by SH. Based on GCM
+experiments, Duan <italic toggle="yes">et al</italic>. [<xref rid="bib121" ref-type="bibr">121</xref>]
+found that TP heating could affect the western Pacific subtropical high by changing the
+equatorial Pacific SST. Sun <italic toggle="yes">et al</italic>. [<xref rid="bib122" ref-type="bibr">122</xref>] also indicated that TP SH in spring could affect the North Pacific by
+generating an anomalous barotropic atmospheric circulation. As a result, the underlying SST
+is altered significantly through sea surface heat exchange and Ekman transport (Fig. <xref rid="fig9" ref-type="fig">9</xref>).</p><fig position="float" id="fig9" orientation="portrait"><label>Figure 9.</label><caption><p>Schematic showing the role of spring TP heating in alternating North Pacific SSTA.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="NSR_7_3_534_f9.jpg"><?image-name NSR_7_3_534_f9.jpg?><?image-size 38649?><?image-md5 a30ae2238978ef34b03beb607e1bcf97?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 772?><?image-original-width 1654?><?image-scaled-height 309?><?image-scaled-width 661?><?image-cloudpmc-urn urn:cdn:blobs/97d6/8906512/a30ae2238978/NSR_7_3_534_f9.jpg?><?thumb-name NSR_7_3_534_f9.gif?><?thumb-size 9965?><?thumb-md5 6f5ab168abd9d45aa617de6e09330ec0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 171?><?thumb-cloudpmc-urn urn:cdn:blobs/97d6/8906512/6f5ab168abd9/NSR_7_3_534_f9.gif?></graphic></fig><p>In addition to the significant impacts of the TP on North Atlantic SST, SSS and the AMOC,
+previous studies have also focused on the thermal effect of the TP on air–sea interaction in
+the Indian Ocean, especially in summer. Wang <italic toggle="yes">et al</italic>. [<xref rid="bib123" ref-type="bibr">123</xref>] employed a regional climate model to examine the relationship
+between the thermodynamic processes of the TP in summer and air–sea interaction in the
+Indian Ocean, and indicated that TP thermal forcing could obviously reduce the northern
+Indian Ocean SST by enhancing southwesterly winds. Meanwhile, monsoonal convective activity
+around the regions of decreased SST in the northern Indian Ocean was suppressed. A similar
+result was reported by He <italic toggle="yes">et al</italic>. [<xref rid="bib124" ref-type="bibr">124</xref>] following comparison of atmospheric GCM and CGCM experiments. It is further
+concluded that air–sea interaction processes can somehow offset the impact of TIP thermal
+forcing on the surrounding atmospheric circulation, and that upwelling (downwelling) motion
+in the east (west) along the equatorial Indian Ocean can be detected from CGCM experiments.
+Almost at the same time, another independent work by Baldwin <italic toggle="yes">et al</italic>. [<xref rid="bib125" ref-type="bibr">125</xref>] showed that with TP topography included in a
+CGCM, the northwestern Pacific SST would respond as a dipole pattern and upwelling would be
+enhanced in the Arabian Sea, resulting in local SST cooling. All these results indicate the
+non-negligible role of large-scale topography in the regulation of global SSTs and ocean
+currents.</p><p>In addition to the remote influence of the TP, remote forcing from global oceans on the
+thermal conditions of the TP has also been emphasized in recent years. In the mid–high
+latitudes, the contributions from atmospheric internal modes, for example the North Atlantic
+Oscillation, and oceanic variability such as the North Atlantic Tripolar SST pattern, on the
+interannual variation of TP diabatic heating have been revealed ([<xref rid="bib94" ref-type="bibr">94</xref>,<xref rid="bib126" ref-type="bibr">126</xref>]). On longer
+timescales, Shi <italic toggle="yes">et al</italic>. [<xref rid="bib127" ref-type="bibr">127</xref>]
+found that convection (temperature) over the plateau was suppressed (increased) during the
+warm phase of the Atlantic multidecadal Oscillation.</p><p>It is noteworthy that the relationship between TP thermal forcing and global and regional
+SSTAs exhibits strong seasonality. In early spring, the general circulation over the TP and
+Asian monsoon regions is still in the winter state and the AHS over the TP is influenced
+mainly by the mid–high-latitude circulation in the Northern Hemisphere. After the onset of
+the Southeast Asian monsoon in early May, accompanied by weakening and northward retreat of
+the westerly jet stream, the relationship between the tropical oceans, especially the Indian
+Ocean, and the TP diabatic heating shows a more intimate interconnection. Specifically, the
+Indian Ocean Basin Mode (IOBM) can significantly affect the heating condition of the TP by
+altering the local meridional circulation and suppressing or enhancing ascent over the TP
+[<xref rid="bib35" ref-type="bibr">35</xref>]. In terms of a pure Indian Ocean Dipole,
+through response of the barotropic Rossby wave, the negative geopotential height over
+northern India can induce warm humid southwesterly flows that benefit the snow cover over
+the TP. In contrast, the anomalies of moisture are insignificant in relation to a pure El
+Niño effect. However, there is significant positive partial correlation between TP snow
+cover in the preceding spring/summer and ENSO at the end of the year [<xref rid="bib128" ref-type="bibr">128</xref>]. Overall, both tropical and mid-latitude ocean signals can affect
+the thermal conditions of the TP, but their relative importance and the influencing pathways
+depend on timescales and seasonal phases.</p><p>The interannual variability of the East Asian Summer Monsoon (EASM) is controlled by
+atmospheric internal variability and external forcing. Through data diagnosis and numerical
+simulations, the relative importance of the thermal forcing of the TP and the first leading
+mode of the Indian Ocean SSTA, that is the IOBM, with regard to the interannual variability
+of the EASM circulation was investigated [<xref rid="bib129" ref-type="bibr">129</xref>].
+Results demonstrated that stronger thermal forcing of the TP could enhance the SAH in the
+upper troposphere, strengthen the southwesterly (northerly) wind over southern (northern)
+China in the lower troposphere, and hence intensify the main rainfall belt of the EASM,
+which normally extends from the middle–lower reaches of the Yangtze River to Japan.
+Conversely, the positive phase of the IOBM could drive an anticyclonic anomaly over the
+northwestern Pacific in the lower troposphere, consistent with the dominant mode of the EASM
+circulation system. Overall, the positive phase of the IOBM and the stronger AHS over the TP
+are both favorable for above normal EASM precipitation.</p></sec><sec id="sec7"><title>PROSPECTS</title><p>Despite the recent advances in studies of the thermal status of the TP and of its climate
+impacts, many unknowns and challenges remain.</p><p>It has been demonstrated that the elevated thermal status of the TIPS exerts significant
+impact on atmospheric circulations and the global climate, particularly the maintenance of
+the ASM. However, mechanisms for generation and maintenance of the monsoon can be different
+from that responsible for its variation on different timescales. Given the existence of both
+the land–sea thermal contrast and the thermal forcing of large-scale orography in the
+current climate system, the relative contributions to monsoon variability of the mechanical
+forcing of the TP versus its thermal forcing and of the remote effects versus the local
+thermal impacts remain unclear and require further study.</p><p>Improved understanding of the thermal status of the TP and of its climate impact is helpful
+for enhancing the skill of climate prediction. Knowledge of clouds and their role in TP
+climate variations remains limited because of the sparse observations before the 1970s.
+Since 2006, with the launch of the CloudSat and CALIPSO satellites, the vertical structure
+of clouds and their radiative effects over the TP have been the focus of considerable
+research interest [<xref rid="bib130" ref-type="bibr">130</xref>,<xref rid="bib131" ref-type="bibr">131</xref>]. However, current climate models and even reanalysis systems
+still cannot simulate adequately the vertical structure of clouds [<xref rid="bib132" ref-type="bibr">132</xref>]. To improve simulations of clouds and precipitation over the TP,
+additional efforts are required to reveal the roles of the physical processes of both the
+planetary boundary layer and the underlying surface of the TP in shaping shallow and deep
+convective clouds.</p><p>The previously sparse distribution of meteorological observation stations over the TIP area
+meant information for quantification of the land–air coupling processes over the TP was
+insufficient. The Chinese Meteorological Administration, together with the provinces near
+the plateau, has now provided 2 billion Yuan (RMB) to construct an improved observation
+network over the TP comprising more than 6000 automatic weather stations before 2023. This
+network is expected to lead to marked improvement in our understanding of the coupled
+land–air processes and the thermal features of the TP, as well as their variations.</p><p>Correlation diagnosis, statistical analysis and numerical modeling have all been used
+widely to reveal the impacts of TP forcing on downstream circulation and climate, whilst
+dynamic approaches are helpful for improved understanding of these impacts. From the
+potential vorticity–diabatic heating (PV-Q) perspective, it is known that the strong diurnal
+change in surface heating of the TP in summer significantly influences the land–air coupling
+and provides favorable background conditions for the genesis of a plateau vortex during the
+night [<xref rid="bib133" ref-type="bibr">133</xref>]. In winter, the impinging westerly
+flow is split into northern and southern branches in the lower layer by the TP [<xref rid="bib1" ref-type="bibr">1</xref>,<xref rid="bib2" ref-type="bibr">2</xref>]. These
+branches then merge on the lee side of the TP to form remarkable convergence in the boundary
+layer and to generate positive PV near the surface over the eastern TP (where the elevation
+is near the middle of the troposphere). Eastward advection of the generated positive PV
+along the westerly basic flow can initiate cyclogenesis and ascent that result in anomalous
+circulation and climate anomalies downstream of the plateau through processes study [<xref rid="bib134" ref-type="bibr">134</xref>,<xref rid="bib135" ref-type="bibr">135</xref>].</p><p>Many African and European regions are highly populated and the regional ecosystems and
+environments are susceptible to global climate change; therefore, better understanding of
+the impact of the TP on its upstream climate is very important because of the strong link
+between the TP and its upstream regions. Although previous studies have demonstrated
+numerous changes in the upstream climate that appear linked to the conditions of the TP, the
+physical processes through which the plateau might exert its influence remain unclear. For
+example, in the mid–high latitudes, the rotational portion of atmospheric motion is dominant
+and forcing, such as that derived from the TP, usually generates wave-train patterns.
+Therefore, it is important to consider whether the changes in TP conditions directly ‘block’
+the eastward propagating signals causing variations of the upstream climate, or generate
+signals that propagate eastward (and even globally) across the North Pacific and North
+America to affect regions to the west of the plateau. Future investigations are needed to
+provide answers to the many related important questions.</p><p>Understanding the modulation of the TP on air–sea interaction is challenging in the study
+of climate dynamics. Despite encouraging progress in exploration of the interactions between
+the TP and global oceans, various important issues remain unaddressed. For example, it will
+be important to determine how such modulation influences the variability of the ASM and the
+ENSO–monsoon relationship. Moreover, the question of whether the melting of Arctic sea ice
+is related to continuous weakening of the TP heat source is of fundamental importance. In
+addition, further investigation is required to establish the optimal method for measuring
+the relative importance of external forcing (e.g. ocean signals, the North Atlantic
+Oscillation and others) to the variability of the TP heat source against its self-sustained
+variability.</p></sec></body><back><ack id="ack1"><title>Acknowledgements</title><p>Lu Mengmeng thanks Harvard University for hosting her two-year visit in the Department of
+Earth and Planetary Sciences. We thank James Buxton from Liwen Bianji, Edanz Group China,
+for editing the English text of this manuscript.</p></ack><sec id="sec8"><title>FUNDING</title><p>This work was supported by the National Natural Science Foundation of China (91637312,
+91937302, 91637208, 91737204, 41730963, 41725018, 41725021 and 91837101) and the Key
+Research Program of Frontier Sciences of the Chinese Academy of Sciences
+(QYZDY-SSW-DQC018).</p><p>
+<bold>
+<italic toggle="yes">Conflict of interest statement.</italic>
+</bold> None declared.</p></sec><ref-list id="REF1"><title>REFERENCES</title><ref id="bib1"><label>1.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Bolin</surname>
+<given-names>B</given-names>
+</string-name>
+</person-group>. <article-title>On the influence of the Earth's orography on the general
+character of the westerlies</article-title>. <source>Tellus</source>
+<year>1950</year>; <volume>2</volume>:
+<fpage>184</fpage>–<lpage>95</lpage>.</mixed-citation></ref><ref id="bib2"><label>2.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yeh</surname>
+<given-names>TC</given-names>
+</string-name>
+</person-group>. <article-title>The circulation of the high troposphere over China in the
+winter of 1945–1946</article-title>. <source>Tellus</source>
+<year>1950</year>; <volume>2</volume>:
+<fpage>173</fpage>–<lpage>83</lpage>.</mixed-citation></ref><ref id="bib3"><label>3.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yeh</surname>
+<given-names>TC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lo</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chu</surname>
+<given-names>PC</given-names>
+</string-name>
+</person-group>. <article-title>The wind structure and heat balance in the lower
+troposphere over Tibetan Plateau and its surrounding</article-title>. <source>Acta
+Meteorol Sin</source>
+<year>1957</year>; <volume>28</volume>:
+<fpage>108</fpage>–<lpage>21</lpage>.</mixed-citation></ref><ref id="bib4"><label>4.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Flohn</surname>
+<given-names>H</given-names>
+</string-name>
+</person-group>. <article-title>Large-scale aspects of the ‘summer monsoon’ in South and
+East Asia</article-title>. <source>J Meteorol Soc Jpn</source>
+<year>1957</year>; <volume>35A</volume>:
+<fpage>180</fpage>–<lpage>6</lpage>.</mixed-citation></ref><ref id="bib5"><label>5.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ye</surname>
+<given-names>DZ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>YX</given-names>
+</string-name>
+</person-group>. <source>Meteorology of the Qinghai-Xizang Plateau</source>.
+<publisher-name>Beijing: Science Press</publisher-name>,
+<year>1979</year>.</mixed-citation></ref><ref id="bib6"><label>6.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Hahn</surname>
+<given-names>DG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manabe</surname>
+<given-names>S</given-names>
+</string-name>
+</person-group>. <article-title>The role of mountains in the south Asian monsoon
+circulation</article-title>. <source>J Atmos Sci</source>
+<year>1975</year>; <volume>32</volume>:
+<fpage>1515</fpage>–<lpage>41</lpage>.</mixed-citation></ref><ref id="bib7"><label>7.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ye</surname>
+<given-names>DZ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>The role of the heat source of the Tibetan Plateau in the
+general circulation</article-title>. <source>Meteorol Atmos Phys</source>
+<year>1998</year>; <volume>67</volume>:
+<fpage>181</fpage>–<lpage>98</lpage>.</mixed-citation></ref><ref id="bib8"><label>8.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kitoh</surname>
+<given-names>A</given-names>
+</string-name>
+</person-group>. <article-title>Effects of mountain uplift on East Asian summer climate
+investigated by a coupled atmosphere–ocean GCM</article-title>. <source>J Clim</source>
+<year>2004</year>; <volume>17</volume>:
+<fpage>783</fpage>–<lpage>802</lpage>.</mixed-citation></ref><ref id="bib9"><label>9.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bao</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Recent progress in the impact of the Tibetan Plateau on climate in
+China</article-title>. <source>Adv Atmos Sci</source>
+<year>2007</year>; <volume>24</volume>:
+<fpage>1060</fpage>–<lpage>76</lpage>.</mixed-citation></ref><ref id="bib10"><label>10.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>TM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>The influence of mechanical and thermal forcing by the Tibetan Plateau on
+Asian climate</article-title>. <source>J Hydrometeorol</source>
+<year>2007</year>; <volume>8</volume>:
+<fpage>770</fpage>–<lpage>89</lpage>.</mixed-citation></ref><ref id="bib11"><label>11.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bao</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoskins</surname>
+<given-names>B</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Tibetan Plateau warming and precipitation changes in East
+Asia</article-title>. <source>Geophys Res Lett</source>
+<year>2008</year>; <volume>35</volume>: <fpage>L14702</fpage>.</mixed-citation></ref><ref id="bib12"><label>12.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGinnis</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>
+<given-names>Z</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Onset of the Asian summer monsoon in 1979 and the effect of the Tibetan
+Plateau</article-title>. <source>Mon Weather Rev</source>
+<year>1987</year>; <volume>115</volume>:
+<fpage>1966</fpage>–<lpage>95</lpage>.</mixed-citation></ref><ref id="bib13"><label>13.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>ZW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>ZH</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Modulation of the Tibetan Plateau snow cover on the ENSO teleconnections:
+from the East Asian summer monsoon perspective</article-title>. <source>J Clim</source>
+<year>2012</year>; <volume>25</volume>:
+<fpage>2481</fpage>–<lpage>9</lpage>.</mixed-citation></ref><ref id="bib14"><label>14.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>Time-lagged impact of spring sensible heat over the
+Tibetan Plateau on the summer rainfall anomaly in East China: case studies using the WRF
+model</article-title>. <source>Clim Dyn</source>
+<year>2014</year>; <volume>42</volume>:
+<fpage>2885</fpage>–<lpage>98</lpage>.</mixed-citation></ref><ref id="bib15"><label>15.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yanai</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>Effects of the Tibetan Plateau</article-title>. In:
+<person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>B</given-names>
+</string-name>
+</person-group> (ed.). <source>The Asian Monsoon</source>.
+<publisher-loc>Berlin</publisher-loc>: <publisher-name>Springer Praxis
+Books</publisher-name>, <year>2006</year>,
+<fpage>513</fpage>–<lpage>49</lpage>.</mixed-citation></ref><ref id="bib16"><label>16.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Lu</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>ZN</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Possible effect of the Tibetan Plateau on the ‘upstream’ climate over West
+Asia, North Africa, South Europe and the North Atlantic</article-title>. <source>Clim
+Dyn</source>
+<year>2018</year>; <volume>51</volume>:
+<fpage>1485</fpage>–<lpage>98</lpage>.</mixed-citation></ref><ref id="bib17"><label>17.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Lu</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>BH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>ZN</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Role of Atlantic air–sea interaction in modulating the effect of Tibetan
+Plateau heating on the upstream climate over Afro-Eurasia–Atlantic
+regions</article-title>. <source>Clim Dyn</source>
+<year>2019</year>; <volume>53</volume>:
+<fpage>509</fpage>–<lpage>19</lpage>.</mixed-citation></ref><ref id="bib18"><label>18.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Nan</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>JM</given-names>
+</string-name>
+</person-group>. <article-title>Variability of summertime Tibetan tropospheric temperature
+and associated precipitation anomalies over the central-eastern Sahel</article-title>.
+<source>Clim Dyn</source>
+<year>2019</year>; <volume>52</volume>:
+<fpage>1819</fpage>–<lpage>35</lpage>.</mixed-citation></ref><ref id="bib19"><label>19.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Tibetan Plateau heating as a driver of monsoon rainfall variability in
+Pakistan</article-title>. <source>Clim Dyn</source>
+<year>2019</year>; <volume>52</volume>:
+<fpage>6121</fpage>–<lpage>30</lpage>.</mixed-citation></ref><ref id="bib20"><label>20.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kitoh</surname>
+<given-names>A</given-names>
+</string-name>
+</person-group>. <article-title>Mountain uplift and surface temperature
+changes</article-title>. <source>Geophys Res Lett</source>
+<year>1997</year>;
+<volume>24</volume>:<fpage>185</fpage>–<lpage>8</lpage>.</mixed-citation></ref><ref id="bib21"><label>21.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kitoh</surname>
+<given-names>A</given-names>
+</string-name>
+</person-group>. <article-title>Effects of large-scale mountains on surface climate. A
+coupled ocean-atmosphere general circulation model study</article-title>. <source>J
+Meteorol Soc Jpn</source>
+<year>2002</year>; <volume>80</volume>:
+<fpage>1165</fpage>–<lpage>81</lpage>.</mixed-citation></ref><ref id="bib22"><label>22.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Fallah</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cubasch</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prömmel</surname>
+<given-names>K</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>A numerical model study on the behaviour of Asian summer monsoon and AMOC
+due to orographic forcing of Tibetan Plateau</article-title>. <source>Clim Dyn</source>
+<year>2016</year>; <volume>47</volume>:
+<fpage>1485</fpage>–<lpage>95</lpage>.</mixed-citation></ref><ref id="bib23"><label>23.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Maffre</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ladant</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Donnadieu</surname>
+<given-names>Y</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>The influence of orography on modern ocean circulation</article-title>.
+<source>Clim Dyn</source>
+<year>2018</year>; <volume>50</volume>:
+<fpage>1277</fpage>–<lpage>89</lpage>.</mixed-citation></ref><ref id="bib24"><label>24.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Naiman</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goodman</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Krasting</surname>
+<given-names>JP</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Impact of mountains on tropical circulation in two Earth system
+models</article-title>. <source>J Clim</source>
+<year>2017</year>; <volume>30</volume>:
+<fpage>4149</fpage>–<lpage>63</lpage>.</mixed-citation></ref><ref id="bib25"><label>25.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Schmittner</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Silva</surname>
+<given-names>TAM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fraedrich</surname>
+<given-names>K</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Effects of mountains and ice sheets on global ocean
+circulation</article-title>. <source>J Clim</source>
+<year>2011</year>; <volume>24</volume>:
+<fpage>2814</fpage>–<lpage>29</lpage>.</mixed-citation></ref><ref id="bib26"><label>26.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Sinha</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blaker</surname>
+<given-names>AT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hirschi</surname>
+<given-names>JJM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Mountain ranges favour vigorous Atlantic meridional
+overturning</article-title>. <source>Geophys Res Lett</source>
+<year>2012</year>; <volume>39</volume>: <fpage>L02705</fpage>.</mixed-citation></ref><ref id="bib27"><label>27.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Luo</surname>
+<given-names>HB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yanai</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>The large-scale circulation and heat sources over Tibetan
+Plateau and surrounding areas during early summer of 1979, Part II: heat and moisture
+budgets</article-title>. <source>Mon Weather Rev</source>
+<year>1984</year>; <volume>112</volume>:
+<fpage>966</fpage>–<lpage>89</lpage>.</mixed-citation></ref><ref id="bib28"><label>28.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>LX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reiter</surname>
+<given-names>ER</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feng</surname>
+<given-names>ZQ</given-names>
+</string-name>
+</person-group>. <article-title>The atmospheric heat source over the Tibetan Plateau:
+May-August 1979</article-title>. <source>Mon Weather Rev</source>
+<year>1985</year>; <volume>113</volume>:
+<fpage>1771</fpage>–<lpage>90</lpage>.</mixed-citation></ref><ref id="bib29"><label>29.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yanai</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>CF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>
+<given-names>ZS</given-names>
+</string-name>
+</person-group>. <article-title>Seasonal heating of the Tibetan Plateau and its effects on
+the evolution of the Asian summer monsoon</article-title>. <source>J Meteorol Soc
+Jpn</source>
+<year>1992</year>; <volume>70</volume>:
+<fpage>319</fpage>–<lpage>51</lpage>.</mixed-citation></ref><ref id="bib30"><label>30.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>Role of the Tibetan Plateau thermal forcing in the summer
+climate patterns over subtropical Asia</article-title>. <source>Clim Dyn</source>
+<year>2005</year>; <volume>24</volume>:
+<fpage>793</fpage>–<lpage>7</lpage>.</mixed-citation></ref><ref id="bib31"><label>31.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>J</given-names>
+</string-name>
+</person-group>. <article-title>On the climatology and trend of the atmospheric heat
+source over the Tibetan Plateau: an experiments-supported revisit</article-title>.
+<source>J Clim</source>
+<year>2011</year>; <volume>24</volume>:
+<fpage>1525</fpage>–<lpage>41</lpage>.</mixed-citation></ref><ref id="bib32"><label>32.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>B</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Seasonal evolution of the subtropical anticyclones in a climate system
+model FGOALS-s2</article-title>. <source>Adv Atmos Sci</source>
+<year>2013</year>; <volume>30</volume>:
+<fpage>593</fpage>–<lpage>6</lpage>.</mixed-citation></ref><ref id="bib33"><label>33.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>X</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>The interannual and decadal variation characteristics of the surface
+sensible heating at different elevations over the Qinghai-Tibetan Plateau and
+attribution analysis</article-title>. <source>Plateau Meteorol</source>
+<year>2018</year>; <volume>37</volume>:
+<fpage>1161</fpage>–<lpage>76</lpage>.</mixed-citation></ref><ref id="bib34"><label>34.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>XY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>An assessment of summer sensible heat flux on the Tibetan
+Plateau from eight data sets</article-title>. <source>Sci China Earth Sci</source>
+<year>2012</year>; <volume>55</volume>:
+<fpage>779</fpage>–<fpage>86</fpage>.</mixed-citation></ref><ref id="bib35"><label>35.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>Interannual variability of late-spring circulation and
+diabatic heating over the Tibetan Plateau associated with Indian Ocean
+forcing</article-title>. <source>Adv Atmos Sci</source>
+<year>2018</year>; <volume>35</volume>:
+<fpage>927</fpage>–<lpage>41</lpage>.</mixed-citation></ref><ref id="bib36"><label>36.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>
+</person-group>. <article-title>Trend in the atmospheric heat source over the central and
+eastern Tibetan Plateau during recent decades: comparison of observations and reanalysis
+data</article-title>. <source>Chin Sci Bull</source>
+<year>2012</year>; <volume>57</volume>:
+<fpage>548</fpage>–<lpage>57</lpage>.</mixed-citation></ref><ref id="bib37"><label>37.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hong</surname>
+<given-names>JL</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Revisiting Asian monsoon formation and change associated with Tibetan
+Plateau forcing: II. change</article-title>. <source>Clim Dyn</source>
+<year>2012</year>; <volume>39</volume>:
+<fpage>1183</fpage>–<lpage>95</lpage>.</mixed-citation></ref><ref id="bib38"><label>38.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>
+<given-names>H</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Sensible heat driven air-pump over the Tibetan Plateau and its impacts on
+the Asian summer monsoon</article-title>. In: <person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Ye</surname>
+<given-names>DZ</given-names>
+</string-name>
+</person-group> (ed.). <source>Collection in Memory of Zhao Jiuzhang</source>.
+<publisher-loc>Beijing</publisher-loc>: <publisher-name>Science Press</publisher-name>,
+<year>1997</year>, <fpage>116</fpage>–<lpage>26</lpage>.</mixed-citation></ref><ref id="bib39"><label>39.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Abe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hori</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yasunari</surname>
+<given-names>T</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>A. Effects of the Tibetan Plateau on the onset of the summer monsoon in
+South Asia: the role of the air-sea interaction</article-title>. <source>J Geophys Res
+Atmos</source>
+<year>2013</year>; <volume>118</volume>,
+<fpage>1760</fpage>–<lpage>76</lpage>.</mixed-citation></ref><ref id="bib40"><label>40.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Plumb</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hou</surname>
+<given-names>AY</given-names>
+</string-name>
+</person-group>. <article-title>The response of a zonally symmetric atmosphere to
+subtropical thermal forcing: threshold behavior</article-title>. <source>J Atmos
+Sci</source>
+<year>1992</year>; <volume>49</volume>:
+<fpage>1790</fpage>–<lpage>9</lpage>.</mixed-citation></ref><ref id="bib41"><label>41.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Bordoni</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schneider</surname>
+<given-names>T</given-names>
+</string-name>
+</person-group>. <article-title>Monsoons as eddy-mediated regime transitions of the
+tropical overturning circulation</article-title>. <source>Nat Geosci</source>
+<year>2008</year>; <volume>1</volume>:
+<fpage>515</fpage>–<lpage>9</lpage>.</mixed-citation></ref><ref id="bib42"><label>42.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>TA</given-names>
+</string-name>
+</person-group>. <article-title>On the role of planetary-scale waves in the abrupt
+seasonal transition of the northern hemisphere general circulation</article-title>.
+<source>J Atmos Sci</source>
+<year>2014</year>; <volume>71</volume>: <fpage>1724</fpage>–<lpage>46</lpage>
+</mixed-citation></ref><ref id="bib43"><label>43.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Geen</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lambert</surname>
+<given-names>FH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vallis</surname>
+<given-names>GK</given-names>
+</string-name>
+</person-group>. <article-title>Regime change behavior during Asian monsoon
+onset</article-title>. <source>J Clim</source>
+<year>2018</year>; <volume>31</volume>:
+<fpage>3327</fpage>–<lpage>48</lpage>.</mixed-citation></ref><ref id="bib44"><label>44.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>YS</given-names>
+</string-name>
+</person-group>. <article-title>Tibetan Plateau forcing and the timing of the monsoon
+onset over South Asia and the South China Sea</article-title>. <source>Mon Weather
+Rev</source>
+<year>1998</year>; <volume>126</volume>:
+<fpage>913</fpage>–<lpage>27</lpage>.</mixed-citation></ref><ref id="bib45"><label>45.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>XY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+</person-group>. <article-title>Effect of Tibetan Plateau on the site of onset and
+intensity of the Asian summer monsoon</article-title>. <source>Acta Meteorol
+Sin</source>
+<year>2005</year>; <volume>63</volume>:
+<fpage>799</fpage>–<lpage>805</lpage>.</mixed-citation></ref><ref id="bib46"><label>46.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Tibetan Plateau climate dynamics: recent progress and
+outlook</article-title>. <source>Natl Sci Rev</source>
+<year>2015</year>; <volume>2</volume>:
+<fpage>100</fpage>–<lpage>16</lpage>.</mixed-citation></ref><ref id="bib47"><label>47.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>BQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mao</surname>
+<given-names>JY</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Genesis of the South Asian High and its impact on the Asian summer monsoon
+onset</article-title>. <source>J Clim</source>
+<year>2013</year>; <volume>26</volume>:
+<fpage>2976</fpage>–<lpage>91</lpage>.</mixed-citation></ref><ref id="bib48"><label>48.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guan</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Air–sea interaction and formation of the Asian summer monsoon onset vortex
+over the Bay of Bengal</article-title>. <source>Clim Dyn</source>
+<year>2012</year>; <volume>38</volume>:
+<fpage>261</fpage>–<lpage>79</lpage>.</mixed-citation></ref><ref id="bib49"><label>49.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dong</surname>
+<given-names>BW</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Revisiting Asian monsoon formation and change associated with Tibetan
+Plateau forcing: I. formation</article-title>. <source>Clim Dyn</source>
+<year>2012</year>; <volume>39</volume>:
+<fpage>1169</fpage>–<lpage>81</lpage>.</mixed-citation></ref><ref id="bib50"><label>50.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhuo</surname>
+<given-names>HF</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Two types of summertime heating over Asian large-scale orography and
+excitation of potential-vorticity forcing II. Sensible heating over Tibetan-Iranian
+Plateau</article-title>. <source>Sci China Earth Sci</source>
+<year>2017</year>; <volume>60</volume>:
+<fpage>733</fpage>–<lpage>44</lpage>.</mixed-citation></ref><ref id="bib51"><label>51.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhuo</surname>
+<given-names>HF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZQ</given-names>
+</string-name>
+</person-group>. <article-title>Two types of summertime heating over the Asian large-scale
+orography and excitation of potential-vorticity forcing I. Over Tibetan
+Plateau</article-title>. <source>Sci China Earth Sci</source>
+<year>2016</year>; <volume>59</volume>: <fpage>1996</fpage>–<lpage>8</lpage>
+</mixed-citation></ref><ref id="bib52"><label>52.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Saha</surname>
+<given-names>K</given-names>
+</string-name>
+</person-group>. <article-title>Tropical Circulation Systems and Monsoons</article-title>.
+<publisher-loc>Heidelberg</publisher-loc>: <publisher-name>Springer
+Berlin</publisher-name>, <year>2010</year>.</mixed-citation></ref><ref id="bib53"><label>53.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Fujinami</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yasunari</surname>
+<given-names>T</given-names>
+</string-name>
+</person-group>. <article-title>The effects of midlatitude waves over and around the
+Tibetan Plateau on submonthly variability of the East Asian summer
+monsoon</article-title>. <source>Mon Weather Rev</source>
+<year>2009</year>; <volume>137</volume>:
+<fpage>2286</fpage>–<lpage>304</lpage>.</mixed-citation></ref><ref id="bib54"><label>54.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Koseki</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Watanabe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kimoto</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Role of the midlatitude air–sea interaction in
+orographically forced climate</article-title>. <source>J Meteorol Soc Jpn</source>
+<year>2008</year>; <volume>86</volume>:
+<fpage>335</fpage>–<lpage>51</lpage>.</mixed-citation></ref><ref id="bib55"><label>55.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Lau</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Asian summer monsoon anomalies induced by aerosol direct
+forcing: the role of the Tibetan Plateau</article-title>. <source>Clim Dyn</source>
+<year>2006</year>; <volume>26</volume>:
+<fpage>855</fpage>–<lpage>64</lpage>.</mixed-citation></ref><ref id="bib56"><label>56.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Hsu</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>X</given-names>
+</string-name>
+</person-group>. <article-title>Relationship between the Tibetan Plateau heating and East
+Asian summer monsoon rainfall</article-title>. <source>Geophys Res Lett</source>
+<year>2003</year>; <volume>30</volume>: <fpage>2066</fpage>.</mixed-citation></ref><ref id="bib57"><label>57.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Tamura</surname>
+<given-names>TK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taniguchi</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koike</surname>
+<given-names>T</given-names>
+</string-name>
+</person-group>. <article-title>Mechanism of upper tropospheric warming around the Tibetan
+Plateau at the onset phase of the Asian summer monsoon</article-title>. <source>J
+Geophys Res</source>
+<year>2010</year>; <volume>115</volume>: <fpage>D02106</fpage>.</mixed-citation></ref><ref id="bib58"><label>58.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Taniguchi</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tamura</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koike</surname>
+<given-names>T</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Atmospheric conditions and increasing temperature over the Tibetan Plateau
+during early spring and the premonsoon season in 2008</article-title>. <source>J
+Meteorol Soc Jpn</source>
+<year>2012</year>; <volume>90C</volume>:
+<fpage>17</fpage>–<lpage>32</lpage>.</mixed-citation></ref><ref id="bib59"><label>59.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Seto</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koike</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rasmy</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Analysis of the vertical structure of the atmospheric
+heating process and its seasonal variation over the Tibetan Plateau using a land data
+assimilation system</article-title>. <source>J Geophys Res</source>
+<year>2013</year>; <volume>118</volume>:
+<fpage>12403</fpage>–<lpage>21</lpage>.</mixed-citation></ref><ref id="bib60"><label>60.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Rajagopalan</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Molnar</surname>
+<given-names>P</given-names>
+</string-name>
+</person-group>. <article-title>Signatures of Tibetan Plateau heating on Indian summer
+monsoon rainfall variability</article-title>. <source>J Geophys Res Atmos</source>
+<year>2013</year>; <volume>118</volume>:
+<fpage>1170</fpage>–<lpage>8</lpage>.</mixed-citation></ref><ref id="bib61"><label>61.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Formation and variation of the atmospheric heat source over the Tibetan
+Plateau and its climate effects</article-title>. <source>Adv Atmos Sci</source>
+<year>2017</year>; <volume>34</volume>:
+<fpage>1169</fpage>–<lpage>84</lpage>.</mixed-citation></ref><ref id="bib62"><label>62.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>H</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Condensation heating of the Asian summer monsoon and the subtropical
+anticyclone in the Eastern Hemisphere</article-title>. <source>Clim Dyn</source>
+<year>2001</year>; <volume>17</volume>:
+<fpage>327</fpage>–<lpage>38</lpage>.</mixed-citation></ref><ref id="bib63"><label>63.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Location and variation of the summertime upper-troposphere temperature
+maximum over South Asia</article-title>. <source>Clim Dyn</source>
+<year>2015</year>; <volume>45</volume>:
+<fpage>2757</fpage>–<lpage>74</lpage>.</mixed-citation></ref><ref id="bib64"><label>64.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Boos</surname>
+<given-names>WR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuang</surname>
+<given-names>Z</given-names>
+</string-name>
+</person-group>. <article-title>Dominant control of the South Asian monsoon by orographic
+insulation versus plateau heating</article-title>. <source>Nature</source>
+<year>2010</year>; <volume>463</volume>:
+<fpage>218</fpage>–<lpage>22</lpage>.<pub-id pub-id-type="pmid">20075917</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08707</pub-id></mixed-citation></ref><ref id="bib65"><label>65.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Cane</surname>
+<given-names>MA</given-names>
+</string-name>
+</person-group>. <article-title>A moist model monsoon</article-title>.
+<source>Nature</source>
+<year>2010</year>; <volume>463</volume>:
+<fpage>163</fpage>–<lpage>4</lpage>.<pub-id pub-id-type="pmid">20075905</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/463163a</pub-id></mixed-citation></ref><ref id="bib66"><label>66.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Qiu</surname>
+<given-names>J</given-names>
+</string-name>
+</person-group>. <article-title>Monsoon melee</article-title>. <source>Science</source>
+<year>2013</year>; <volume>340</volume>:
+<fpage>1400</fpage>–<lpage>1</lpage>.<pub-id pub-id-type="pmid">23788780</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.340.6139.1400</pub-id></mixed-citation></ref><ref id="bib67"><label>67.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>XY</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Multi-scale forcing and the formation of subtropical desert and
+monsoon</article-title>. <source>Ann Geophys</source>
+<year>2009</year>; <volume>27</volume>:
+<fpage>3631</fpage>–<lpage>44</lpage>.</mixed-citation></ref><ref id="bib68"><label>68.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Astronomical and hydrological perspective of mountain impacts on the Asian
+summer monsoon</article-title>. <source>Sci Rep</source>
+<year>2015</year>; <volume>5</volume>: <fpage>17586</fpage>.<pub-id pub-id-type="pmid">26620727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep17586</pub-id><pub-id pub-id-type="pmcid">PMC4665198</pub-id></mixed-citation></ref><ref id="bib69"><label>69.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>B</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Thermal controls on the Asian summer monsoon</article-title>. <source>Sci
+Rep</source>
+<year>2012</year>; <volume>2</volume>: <fpage>404</fpage>.<pub-id pub-id-type="pmid">22582141</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep00404</pub-id><pub-id pub-id-type="pmcid">PMC3349950</pub-id></mixed-citation></ref><ref id="bib70"><label>70.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kutzbach</surname>
+<given-names>JE</given-names>
+</string-name>
+</person-group>. <article-title>Reexamining the barrier effect of the Tibetan Plateau on
+the South Asian summer monsoon</article-title>. <source>Clim Past</source>
+<year>2014</year>; <volume>10</volume>:
+<fpage>1269</fpage>–<lpage>75</lpage>.</mixed-citation></ref><ref id="bib71"><label>71.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Halley</surname>
+<given-names>E.</given-names>
+</string-name>
+</person-group>
+<article-title>An historical account of the trade winds, and monsoons, observable in the
+seas between and near the Tropicks, with an attempt to assign the physical cause of the
+said winds</article-title>. <source>Philos Trans R Soc A</source>
+<year>1687</year>; <volume>16</volume>:
+<fpage>153</fpage>–<lpage>68</lpage>.</mixed-citation></ref><ref id="bib72"><label>72.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lau</surname>
+<given-names>KM</given-names>
+</string-name>
+</person-group>. <article-title>A simple ocean-atmosphere climate model: basic model and a
+simple experiment</article-title>. <source>J Atmos Sci</source>
+<year>1977</year>; <volume>34</volume>:
+<fpage>1063</fpage>–<lpage>84</lpage>.</mixed-citation></ref><ref id="bib73"><label>73.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chou</surname>
+<given-names>LC</given-names>
+</string-name>
+</person-group>. <article-title>Seasonal structure of a simple monsoon
+system</article-title>. <source>J Atmos Sci</source>
+<year>1980</year>; <volume>37</volume>:
+<fpage>354</fpage>–<lpage>67</lpage>.</mixed-citation></ref><ref id="bib74"><label>74.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chou</surname>
+<given-names>LC</given-names>
+</string-name>
+</person-group>. <article-title>Low-frequency transitions of a simple monsoon
+system</article-title>. <source>J Atmos Sci</source>
+<year>1980</year>; <volume>37</volume>:
+<fpage>368</fpage>–<lpage>82</lpage>.</mixed-citation></ref><ref id="bib75"><label>75.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ.</given-names>
+</string-name>
+</person-group>
+<article-title>Mechanisms of monsoon low-frequency variability: surface hydrological
+effects</article-title>. <source>J Atmos Sci</source>
+<year>1983</year>; <volume>40</volume>:
+<fpage>2110</fpage>–<lpage>24</lpage>.</mixed-citation></ref><ref id="bib76"><label>76.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dong</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Longitudinal heating gradient: another possible factor
+influencing the intensity of the Asian summer monsoon circulation</article-title>.
+<source>Adv Atmos Sci</source>
+<year>1992</year>; <volume>9</volume>:
+<fpage>397</fpage>–<lpage>410</lpage>.</mixed-citation></ref><ref id="bib77"><label>77.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Magaña</surname>
+<given-names>VO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmer</surname>
+<given-names>TN</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Monsoons: processes, predictability, and the prospects for
+prediction</article-title>. <source>J Geophys Res</source>
+<year>1998</year>; <volume>103</volume>:
+<fpage>14451</fpage>–<lpage>510</lpage>.</mixed-citation></ref><ref id="bib78"><label>78.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Newell</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kidson</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vincent</surname>
+<given-names>DG</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>The general circulation of the tropical atmosphere and interactions with
+extratropical latitudes</article-title>. <source>Bull Am Meteorol Soc</source>
+<year>1974</year>; <volume>55</volume>:
+<fpage>324</fpage>–<lpage>6</lpage>.</mixed-citation></ref><ref id="bib79"><label>79.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Stephens</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Webster</surname>
+<given-names>PJ</given-names>
+</string-name>
+</person-group>. <article-title>Sensitivity of radiative forcing to variable cloud and
+moisture</article-title>. <source>J Atmos Sci</source>
+<year>1979</year>; <volume>36</volume>:
+<fpage>1542</fpage>–<lpage>56</lpage>.</mixed-citation></ref><ref id="bib80"><label>80.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Held</surname>
+<given-names>IM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Delworth</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>J</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Simulation of Sahel drought in the 20th and 21st centuries</article-title>.
+<source>Proc Natl Acad Sci USA</source>
+<year>2005</year>; <volume>102</volume>:
+<fpage>17891</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">16322101</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0509057102</pub-id><pub-id pub-id-type="pmcid">PMC1312412</pub-id></mixed-citation></ref><ref id="bib81"><label>81.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Biasutti</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giannini</surname>
+<given-names>A</given-names>
+</string-name>
+</person-group>. <article-title>Robust Sahel drying in response to late 20th century
+forcings</article-title>. <source>Geophys Res Lett</source>
+<year>2006</year>; <volume>33</volume>: <fpage>L11706</fpage>.</mixed-citation></ref><ref id="bib82"><label>82.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ackerley</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Booth</surname>
+<given-names>BBB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Knight</surname>
+<given-names>SHE</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Sensitivity of twentieth-century Sahel rainfall to sulfate aerosol and
+CO<sub>2</sub> forcing</article-title>. <source>J Clim</source>
+<year>2011</year>; <volume>24</volume>:
+<fpage>4999</fpage>–<lpage>5014</lpage>.</mixed-citation></ref><ref id="bib83"><label>83.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Biasutti</surname>
+<given-names>M.</given-names>
+</string-name>
+</person-group>
+<article-title>Forced Sahel rainfall trends in the CMIP5 archive</article-title>.
+<source>J Geophys Res Atmos</source>
+<year>2013</year>; <volume>118</volume>:
+<fpage>1613</fpage>–<lpage>23</lpage>.</mixed-citation></ref><ref id="bib84"><label>84.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>ZN</given-names>
+</string-name>
+</person-group>. <article-title>Influence of latent heating over the Asian and western
+Pacific monsoon region on Sahel summer rainfall</article-title>. <source>Sci
+Rep</source>
+<year>2017</year>; <volume>7</volume>: <fpage>7680</fpage>.<pub-id pub-id-type="pmid">28794484</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-017-07971-6</pub-id><pub-id pub-id-type="pmcid">PMC5550481</pub-id></mixed-citation></ref><ref id="bib85"><label>85.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Sy</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diop</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baelen</surname>
+<given-names>JV</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Upper tropospheric water vapor transport from Indian to Sahelian
+regions</article-title>. <source>Atmosphere</source>
+<year>2018</year>; <volume>9</volume>: <fpage>403</fpage>.</mixed-citation></ref><ref id="bib86"><label>86.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Rodwell</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoskins</surname>
+<given-names>BJ</given-names>
+</string-name>
+</person-group>. <article-title>Monsoon and the dynamics of deserts</article-title>.
+<source>Q J R Meteorol Soc</source>
+<year>1996</year>; <volume>122</volume>:
+<fpage>1385</fpage>–<lpage>404</lpage>.</mixed-citation></ref><ref id="bib87"><label>87.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Rodwell</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hoskins</surname>
+<given-names>BJ</given-names>
+</string-name>
+</person-group>. <article-title>Subtropical anticyclones and summer
+monsoons</article-title>. <source>J Clim</source>
+<year>2001</year>; <volume>14</volume>:
+<fpage>3192</fpage>–<lpage>211</lpage>.</mixed-citation></ref><ref id="bib88"><label>88.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>RG</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Asian origin of interannual variations of summer climate over the
+extratropical North Atlantic Ocean</article-title>. <source>J Clim</source>
+<year>2012</year>; <volume>25</volume>:
+<fpage>6594</fpage>–<lpage>609</lpage>.</mixed-citation></ref><ref id="bib89"><label>89.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Hoskins</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karoly</surname>
+<given-names>D</given-names>
+</string-name>
+</person-group>. <article-title>The steady linear response of a spherical atmosphere to
+thermal and orographic forcing</article-title>. <source>J Atmos Sci</source>
+<year>1981</year>; <volume>38</volume>:
+<fpage>1179</fpage>–<lpage>96</lpage>.</mixed-citation></ref><ref id="bib90"><label>90.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Broccoli</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manabe</surname>
+<given-names>S</given-names>
+</string-name>
+</person-group>. <article-title>The effects of orography on midlatitude Northern
+Hemisphere dry climates</article-title>. <source>J Clim</source>
+<year>1992</year>; <volume>5</volume>:
+<fpage>1181</fpage>–<lpage>201</lpage>.</mixed-citation></ref><ref id="bib91"><label>91.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boos</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuang</surname>
+<given-names>ZM</given-names>
+</string-name>
+</person-group>. <article-title>Effects of orography and surface heat fluxes on the South
+Asian summer monsoon</article-title>. <source>J Clim</source>
+<year>2014</year>; <volume>27</volume>:
+<fpage>6647</fpage>–<lpage>59</lpage>.</mixed-citation></ref><ref id="bib92"><label>92.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ren</surname>
+<given-names>RC</given-names>
+</string-name>
+</person-group>. <article-title>Relationship between the subtropical anticyclone and
+diabatic heating</article-title>. <source>J Clim</source>
+<year>2004</year>; <volume>17</volume>:
+<fpage>682</fpage>–<lpage>98</lpage>.</mixed-citation></ref><ref id="bib93"><label>93.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+</person-group>. <article-title>Impacts of the Tibetan Plateau on Asian
+climate</article-title>. <source>Meteorol Monogr</source>
+<year>2016</year>; <bold>5</bold>
+<volume>6</volume>: <fpage>7.1</fpage>–<lpage>29</lpage>.</mixed-citation></ref><ref id="bib94"><label>94.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Cui</surname>
+<given-names>YF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Interannual variability of the spring atmospheric heat source over the
+Tibetan Plateau forced by the North Atlantic SSTA</article-title>. <source>Clim
+Dyn</source>
+<year>2015</year>; <volume>45</volume>:
+<fpage>1617</fpage>–<lpage>34</lpage>.</mixed-citation></ref><ref id="bib95"><label>95.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Harrison</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Copeland</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kidd</surname>
+<given-names>WSF</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Raising tibet</article-title>. <source>Science</source>
+<year>1992</year>; <volume>255</volume>:
+<fpage>1663</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="pmid">17749419</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.255.5052.1663</pub-id></mixed-citation></ref><ref id="bib96"><label>96.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Molnar</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>England</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martinod</surname>
+<given-names>J</given-names>
+</string-name>
+</person-group>. <article-title>Mantle dynamics, uplift of the Tibetan Plateau, and the
+Indian monsoon</article-title>. <source>Rev Geophys</source>
+<year>1993</year>; <volume>31</volume>:
+<fpage>357</fpage>–<lpage>96</lpage>.</mixed-citation></ref><ref id="bib97"><label>97.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ruddiman</surname>
+<given-names>WF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kutzbach</surname>
+<given-names>JE</given-names>
+</string-name>
+</person-group>. <article-title>Forcing of Late Cenozoic Northern Hemisphere climate by
+plateau uplift in southern Asia and the American West</article-title>. <source>J Geophys
+Res</source>
+<year>1989</year>; <volume>94</volume>:
+<fpage>18409</fpage>–<lpage>27</lpage>.</mixed-citation></ref><ref id="bib98"><label>98.</label><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kutzbach</surname>
+<given-names>JE</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Simulated climatic changes: results of the COHMAP climate-model
+experiments</article-title>. In: <person-group person-group-type="editor">
+<string-name name-style="western">
+<surname>Wright</surname>
+<given-names>HE</given-names>
+</string-name>
+</person-group> (ed.). <source>Global Climates since the Last Glacial Maximum</source>.
+<publisher-loc>Minneapolis</publisher-loc>: <publisher-name>University of Minnesota
+Press</publisher-name>, <year>1993</year>,
+<fpage>24</fpage>–<lpage>93</lpage>.</mixed-citation></ref><ref id="bib99"><label>99.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>An</surname>
+<given-names>ZS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kutzbach</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prell</surname>
+<given-names>WL</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Evolution of Asian monsoons and phased uplift of the Himalayan-Tibetan
+plateau since Late Miocene times</article-title>. <source>Nature</source>
+<year>2001</year>; <volume>411</volume>: <fpage>62</fpage>–<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">11333976</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/35075035</pub-id></mixed-citation></ref><ref id="bib100"><label>100.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Rea</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Snoeckx</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joseph</surname>
+<given-names>LH</given-names>
+</string-name>
+</person-group>. <article-title>Late Cenozoic Eolian deposition in the North Pacific:
+Asian drying, Tibetan uplift, and cooling of the northern hemisphere</article-title>.
+<source>Paleoceanography</source>
+<year>1998</year>; <volume>13</volume>:
+<fpage>215</fpage>–<lpage>24</lpage>.</mixed-citation></ref><ref id="bib101"><label>101.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ferreira</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cessi</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coxall</surname>
+<given-names>HK</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Atlantic-Pacific asymmetry in deep water formation</article-title>.
+<source>Annu Rev Earth Planet Sci</source>
+<year>2018</year>; <volume>46</volume>:
+<fpage>327</fpage>–<lpage>52</lpage>.</mixed-citation></ref><ref id="bib102"><label>102.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Delworth</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manabe</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stouffer</surname>
+<given-names>RJ</given-names>
+</string-name>
+</person-group>. <article-title>Interdecadal variations of the thermohaline circulation in
+a coupled ocean-atmosphere model</article-title>. <source>J Clim</source>
+<year>1993</year>; <volume>6</volume>:
+<fpage>1993</fpage>–<lpage>2011</lpage>.</mixed-citation></ref><ref id="bib103"><label>103.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Delworth</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mann</surname>
+<given-names>ME</given-names>
+</string-name>
+</person-group>. <article-title>Observed and simulated multidecadal variability in the
+Northern Hemisphere</article-title>. <source>Clim Dyn</source>
+<year>2000</year>; <volume>16</volume>:
+<fpage>661</fpage>–<lpage>76</lpage>.</mixed-citation></ref><ref id="bib104"><label>104.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Latif</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roeckner</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Botzet</surname>
+<given-names>M</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Reconstructing, monitoring, and predicting multidecadal-scale changes in
+the North Atlantic thermohaline circulation with sea surface
+temperature</article-title>. <source>J Clim</source>
+<year>2004</year>; <volume>17</volume>:
+<fpage>1605</fpage>–<lpage>14</lpage>.</mixed-citation></ref><ref id="bib105"><label>105.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wen</surname>
+<given-names>Q</given-names>
+</string-name>
+</person-group>. <article-title>Investigating the role of the tibetan plateau in the
+formation of Atlantic meridional overturning circulation</article-title>. <source>J
+Clim</source>
+<year>2020</year>; <volume>33</volume>:
+<fpage>3585</fpage>–<lpage>601</lpage>.</mixed-citation></ref><ref id="bib106"><label>106.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Manabe</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stouffer</surname>
+<given-names>RJ</given-names>
+</string-name>
+</person-group>. <article-title>Simulation of abrupt climate change induced by freshwater
+input to the North Atlantic Ocean</article-title>. <source>Nature</source>
+<year>1995</year>; <volume>378</volume>:
+<fpage>165</fpage>–<lpage>7</lpage>.</mixed-citation></ref><ref id="bib107"><label>107.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Stouffer</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seidov</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haupt</surname>
+<given-names>BJ</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Climate response to external sources of freshwater: North Atlantic versus
+the Southern Ocean</article-title>. <source>J Clim</source>
+<year>2007</year>; <volume>20</volume>:
+<fpage>436</fpage>–<lpage>48</lpage>.</mixed-citation></ref><ref id="bib108"><label>108.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wen</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yao</surname>
+<given-names>J</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Bjerknes Compensation in meridional heat transport under freshwater forcing
+and the role of climate feedback</article-title>. <source>J Clim</source>
+<year>2017</year>; <volume>30</volume>:
+<fpage>5167</fpage>–<lpage>85</lpage>.</mixed-citation></ref><ref id="bib109"><label>109.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Weaver</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marotzke</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cummins</surname>
+<given-names>PF</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Stability and variability of the thermohaline circulation</article-title>.
+<source>J Phys Oceanogr</source>
+<year>1993</year>; <volume>23</volume>:
+<fpage>39</fpage>–<lpage>60</lpage>.</mixed-citation></ref><ref id="bib110"><label>110.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>AMOC response to global warming: dependence on the background climate and
+response timescale</article-title>. <source>Clim Dyn</source>
+<year>2015</year>; <volume>44</volume>:
+<fpage>3449</fpage>–<lpage>68</lpage>.</mixed-citation></ref><ref id="bib111"><label>111.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newell</surname>
+<given-names>RE</given-names>
+</string-name>
+</person-group>. <article-title>A proposed algorithm for moisture fluxes from atmospheric
+rivers</article-title>. <source>Mon Weather Rev</source>
+<year>1980</year>; <volume>126</volume>:
+<fpage>725</fpage>–<lpage>35</lpage>.</mixed-citation></ref><ref id="bib112"><label>112.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Thompson</surname>
+<given-names>DWJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wallace</surname>
+<given-names>JM</given-names>
+</string-name>
+</person-group>. <article-title>Regional climate impacts of the Northern Hemisphere
+annular mode</article-title>. <source>Science</source>
+<year>2001</year>; <volume>293</volume>:
+<fpage>85</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">11441178</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1058958</pub-id></mixed-citation></ref><ref id="bib113"><label>113.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Chiang</surname>
+<given-names>JCH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bitz</surname>
+<given-names>CM</given-names>
+</string-name>
+</person-group>. <article-title>Influence of high latitude ice cover on the marine
+Intertropical Convergence Zone</article-title>. <source>Clim Dyn</source>
+<year>2005</year>; <volume>25</volume>:
+<fpage>477</fpage>–<lpage>96</lpage>.</mixed-citation></ref><ref id="bib114"><label>114.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Broccoli</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dahl</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stouffer</surname>
+<given-names>RJ</given-names>
+</string-name>
+</person-group>. <article-title>Response of the ITCZ to Northern Hemisphere
+cooling</article-title>. <source>Geophys Res Lett</source>
+<year>2006</year>; <volume>33</volume>: <fpage>L01702</fpage>.</mixed-citation></ref><ref id="bib115"><label>115.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>YN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>RH</given-names>
+</string-name>
+</person-group>. <article-title>An Asian–Pacific teleconnection in summer tropospheric
+temperature and associated Asian climate variability</article-title>. <source>Clim
+Dyn</source>
+<year>2007</year>; <volume>29</volume>:
+<fpage>293</fpage>–<lpage>303</lpage>.</mixed-citation></ref><ref id="bib116"><label>116.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Su</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>R</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Difference between the North Atlantic and Pacific meridional overturning
+circulation in response to the uplift of the Tibetan Plateau</article-title>.
+<source>Clim Past</source>
+<year>2018</year>; <volume>14</volume>:
+<fpage>751</fpage>–<lpage>62</lpage>.</mixed-citation></ref><ref id="bib117"><label>117.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Abe</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>, <article-title>Kitoh A and Yasunari T. An evolution of the Asian summer
+monsoon associated with mountain uplift—simulation with the MRI atmosphere-ocean coupled
+GCM</article-title>. <source>J Meteorol Soc Jpn</source>
+<year>2003</year>; <volume>81</volume>:
+<fpage>909</fpage>–<lpage>33</lpage>.</mixed-citation></ref><ref id="bib118"><label>118.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Okajima</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xie</surname>
+<given-names>SP</given-names>
+</string-name>
+</person-group>. <article-title>Orographic effects on the northwestern Pacific monsoon:
+role of air‐sea interaction</article-title>. <source>Geophys Res Lett</source>
+<year>2007</year>; <volume>34</volume>: <fpage>L21708</fpage>.</mixed-citation></ref><ref id="bib119"><label>119.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kitoh</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Motoi</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arakawa</surname>
+<given-names>O</given-names>
+</string-name>
+</person-group>. <article-title>Climate modeling study on mountain uplift and Asian
+monsoon evolution</article-title>. <source>Geol Soc Spec Publ</source>
+<year>2010</year>; <volume>342</volume>:
+<fpage>293</fpage>–<lpage>301</lpage>.</mixed-citation></ref><ref id="bib120"><label>120.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Nan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Springtime tropospheric temperature over the Tibetan Plateau and evolutions
+of the tropical pacific SST</article-title>. <source>J Geophys Res Atmos</source>
+<year>2009</year>; <volume>114</volume>: <fpage>D10104</fpage>.</mixed-citation></ref><ref id="bib121"><label>121.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>RZ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>
+<given-names>JH</given-names>
+</string-name>
+</person-group>. <article-title>Impact of surface sensible heating over the Tibetan
+Plateau on the western Pacific subtropical high: a land–air–sea interaction
+perspective</article-title>. <source>Adv Atmos Sci</source>
+<year>2017</year>; <volume>34</volume>:
+<fpage>157</fpage>–<lpage>68</lpage>.</mixed-citation></ref><ref id="bib122"><label>122.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>RZ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>LL</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Interannual variability of the North Pacific mixed layer associated with
+the spring Tibetan Plateau thermal forcing</article-title>. <source>J Clim</source>
+<year>2019</year>; <volume>32</volume>:
+<fpage>3109</fpage>–<lpage>30</lpage>.</mixed-citation></ref><ref id="bib123"><label>123.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZQ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>S</given-names>
+</string-name>
+</person-group>. <article-title>Potential regulation on the climatic effect of Tibetan
+Plateau heating by tropical air–sea coupling in regional models</article-title>.
+<source>Clim Dyn</source>
+<year>2018</year>;
+<volume>52</volume>:<fpage>1685</fpage>–<lpage>94</lpage>.</mixed-citation></ref><ref id="bib124"><label>124.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>The role of air–sea interactions in regulating the thermal effect of the
+Tibetan–Iranian Plateau on the Asian summer monsoon</article-title>. <source>Clim
+Dyn</source>
+<year>2018</year>; <volume>52</volume>:
+<fpage>4227</fpage>–<lpage>45</lpage>.</mixed-citation></ref><ref id="bib125"><label>125.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Baldwin</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vecchi</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bordoni</surname>
+<given-names>S</given-names>
+</string-name>
+</person-group>. <article-title>The direct and ocean-mediated influence of Asian orography
+on tropical precipitation and cyclones</article-title>. <source>Clim Dyn</source>
+<year>2019</year>; <volume>53</volume>:
+<fpage>805</fpage>–<lpage>24</lpage>.</mixed-citation></ref><ref id="bib126"><label>126.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Impact of the North Atlantic Oscillation on the dipole oscillation of
+summer precipitation over the central and eastern Tibetan Plateau</article-title>.
+<source>Int J Climatol</source>
+<year>2015</year>; <volume>35</volume>:
+<fpage>4539</fpage>–<lpage>46</lpage>.</mixed-citation></ref><ref id="bib127"><label>127.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Shi</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GC</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Summer temperature over Tibetan Plateau modulated by Atlantic multidecadal
+variability</article-title>. <source>J Clim</source>
+<year>2019</year>; <volume>32</volume>:
+<fpage>4055</fpage>–<lpage>67</lpage>.</mixed-citation></ref><ref id="bib128"><label>128.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yuan</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tozuka</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miyasaka</surname>
+<given-names>T</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Respective influences of IOD and ENSO on the Tibetan snow cover in early
+winter</article-title>. <source>Clim Dyn</source>
+<year>2009</year>; <volume>33</volume>:
+<fpage>509</fpage>–<lpage>20</lpage>.</mixed-citation></ref><ref id="bib129"><label>129.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>AM</given-names>
+</string-name>
+</person-group>. <article-title>Relative contributions of the Tibetan Plateau thermal
+forcing and the Indian Ocean sea surface temperature basin mode to the interannual
+variability of the East Asian summer monsoon</article-title>. <source>Clim Dyn</source>
+<year>2015</year>; <volume>45</volume>:
+<fpage>2697</fpage>–<lpage>711</lpage>.</mixed-citation></ref><ref id="bib130"><label>130.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>YF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>
+<given-names>JH</given-names>
+</string-name>
+</person-group>. <article-title>Cloud vertical structure, precipitation, and cloud
+radiative effects over Tibetan Plateau and its neighboring regions</article-title>.
+<source>J Geophys Res Atmos</source>
+<year>2016</year>; <volume>121</volume>:
+<fpage>5864</fpage>–<lpage>77</lpage>.</mixed-citation></ref><ref id="bib131"><label>131.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yan</surname>
+<given-names>YF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+</person-group>. <article-title>Vertical structures of convective and stratiform clouds in
+boreal summer over the Tibetan Plateau and its neighboring regions</article-title>.
+<source>Adv Atmos Sci</source>
+<year>2019</year>; <volume>36</volume>:
+<fpage>1089</fpage>–<lpage>102</lpage>.</mixed-citation></ref><ref id="bib132"><label>132.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Miao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>XC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>An evaluation of cloud vertical structure in three reanalyses against
+CloudSat/cloud-aerosol lidar and infrared pathfinder satellite
+observations</article-title>. <source>Atmos Sci Lett</source>
+<year>2019</year>; <volume>20</volume>: <fpage>e906</fpage>.</mixed-citation></ref><ref id="bib133"><label>133.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Potential vorticity diagnosis on the formation, development and eastward
+movement of a Tibetan Plateau vortex and its influence on the downstream
+precipitation</article-title>. <source>Chin J Atmos Sci</source>
+<year>2020</year>; <comment>doi:
+10.3878/j.issn.1006-9895.1904.18275</comment>.</mixed-citation></ref><ref id="bib134"><label>134.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ma</surname>
+<given-names>TT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>GX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Impact of surface potential vorticity density forcing over the Tibetan
+Plateau on the South China extreme precipitation in January 2008. Part I: data
+analysis</article-title>. <source>J Meteorol Res</source>
+<year>2019</year>; <volume>33</volume>:
+<fpage>400</fpage>–<lpage>15</lpage>.</mixed-citation></ref><ref id="bib135"><label>135.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>YM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>TT</given-names>
+</string-name>
+<etal>et al.</etal>
+</person-group>
+<article-title>Impact of surface potential vorticity density forcing over the Tibetan
+Plateau on the South China extreme precipitation in January 2008. Part II: numerical
+simulation</article-title>. <source>J Meteorol Res</source>
+<year>2019</year>; <volume>33</volume>:
+<fpage>416</fpage>–<lpage>32</lpage>.</mixed-citation></ref></ref-list></back></article>

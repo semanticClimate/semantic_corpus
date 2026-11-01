@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12474537",
+  "phrases": [
+    {
+      "phrase": "southern oscillation",
+      "display": "Southern Oscillation",
+      "score": 1.3
+    },
+    {
+      "phrase": "see methodology and supplementary information",
+      "display": "See Methodology and Supplementary Information",
+      "score": 1.2
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.2
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.2
+    },
+    {
+      "phrase": "amazon basin",
+      "display": "Amazon Basin",
+      "score": 1.2
+    },
+    {
+      "phrase": "peter and clark momentary conditional independence",
+      "display": "Peter and Clark Momentary Conditional Independence",
+      "score": 1.1
+    },
+    {
+      "phrase": "network analysis and synchronization phenomena",
+      "display": "Network Analysis and Synchronization Phenomena",
+      "score": 1.1
+    },
+    {
+      "phrase": "nld",
+      "display": "NLD",
+      "score": 2.12
+    },
+    {
+      "phrase": "icv",
+      "display": "ICV",
+      "score": 1.66
+    },
+    {
+      "phrase": "les",
+      "display": "LEs",
+      "score": 1.46
+    },
+    {
+      "phrase": "predictability",
+      "score": 0.0369,
+      "display": "Predictability"
+    },
+    {
+      "phrase": "attractor",
+      "score": 0.0368,
+      "display": "Attractor"
+    },
+    {
+      "phrase": "climate",
+      "score": 0.0364,
+      "display": "Climate"
+    },
+    {
+      "phrase": "irreducible",
+      "score": 0.0343,
+      "display": "irreducible"
+    },
+    {
+      "phrase": "nonlinear",
+      "score": 0.034,
+      "display": "Nonlinear"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

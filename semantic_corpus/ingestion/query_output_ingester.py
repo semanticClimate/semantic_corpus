@@ -96,25 +96,33 @@ def ingest_query_output_directory(
         corpus.add_paper(corpus_id, normalized)
 
         file_stems = [s for s in (paper_id, identifier, pmcid, pmid) if s]
-        for stem in file_stems:
-            xml_src = Path(query_dir, f"{stem}.xml")
-            if xml_src.is_file():
-                xml_dst = Path(
-                    corpus.corpus_dir, "data", "documents", "xml", f"{corpus_id}.xml"
-                )
-                xml_dst.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(xml_src, xml_dst)
-                break
 
-        for stem in file_stems:
-            pdf_src = Path(query_dir, f"{stem}.pdf")
-            if pdf_src.is_file():
-                pdf_dst = Path(
-                    corpus.corpus_dir, "data", "documents", "pdf", f"{corpus_id}.pdf"
-                )
-                pdf_dst.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(pdf_src, pdf_dst)
-                break
+        def _find_src(fmt: str) -> Path:
+            for stem in file_stems:
+                for candidate in (
+                    Path(query_dir, f"{stem}.{fmt}"),
+                    Path(query_dir, "documents", f"{stem}.{fmt}"),
+                    Path(query_dir, "documents", fmt, f"{stem}.{fmt}"),
+                ):
+                    if candidate.is_file():
+                        return candidate
+            return Path()
+
+        xml_src = _find_src("xml")
+        if xml_src.is_file():
+            xml_dst = Path(
+                corpus.corpus_dir, "data", "documents", "xml", f"{corpus_id}.xml"
+            )
+            xml_dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(xml_src, xml_dst)
+
+        pdf_src = _find_src("pdf")
+        if pdf_src.is_file():
+            pdf_dst = Path(
+                corpus.corpus_dir, "data", "documents", "pdf", f"{corpus_id}.pdf"
+            )
+            pdf_dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(pdf_src, pdf_dst)
 
         if corpus.bagit_manager:
             corpus.bagit_manager.update_manifest()

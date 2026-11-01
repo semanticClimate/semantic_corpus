@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12868344",
+  "phrases": [
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.7
+    },
+    {
+      "phrase": "national snow and ice data centre",
+      "display": "National Snow and Ice Data Centre",
+      "score": 1.2
+    },
+    {
+      "phrase": "arctic basecamp foundation",
+      "display": "Arctic Basecamp Foundation",
+      "score": 1.2
+    },
+    {
+      "phrase": "arctic and antarctic",
+      "display": "Arctic and Antarctic",
+      "score": 1.2
+    },
+    {
+      "phrase": "arctic indigenous",
+      "display": "Arctic Indigenous",
+      "score": 1.2
+    },
+    {
+      "phrase": "arctic council",
+      "display": "Arctic Council",
+      "score": 1.2
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.2
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 1.38
+    },
+    {
+      "phrase": "health",
+      "display": "Health",
+      "score": 1.18
+    },
+    {
+      "phrase": "antarctic",
+      "display": "Antarctic",
+      "score": 1.13
+    },
+    {
+      "phrase": "health risks",
+      "score": 0.0402,
+      "display": "Health Risks"
+    },
+    {
+      "phrase": "diseases",
+      "score": 0.0365,
+      "display": "diseases"
+    },
+    {
+      "phrase": "mental health",
+      "score": 0.0358,
+      "display": "mental health"
+    },
+    {
+      "phrase": "mental",
+      "score": 0.0356,
+      "display": "mental"
+    },
+    {
+      "phrase": "risks",
+      "score": 0.035,
+      "display": "Risks"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}

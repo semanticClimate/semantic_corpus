@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13148317",
+  "phrases": [
+    {
+      "phrase": "taiping rebellion",
+      "display": "Taiping Rebellion",
+      "score": 2.1
+    },
+    {
+      "phrase": "yangtze river basin",
+      "display": "Yangtze River Basin",
+      "score": 1.5
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.5
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4
+    },
+    {
+      "phrase": "daoguan cave",
+      "display": "Daoguan Cave",
+      "score": 1.3
+    },
+    {
+      "phrase": "royal observatory of belgium",
+      "display": "Royal Observatory of Belgium",
+      "score": 1.2
+    },
+    {
+      "phrase": "pacific and atlantic",
+      "display": "Pacific and Atlantic",
+      "score": 1.2
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 2.2
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.35
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.18
+    },
+    {
+      "phrase": "taiping",
+      "score": 0.0422,
+      "display": "Taiping"
+    },
+    {
+      "phrase": "rebellion",
+      "score": 0.0413,
+      "display": "Rebellion"
+    },
+    {
+      "phrase": "dg7 record",
+      "score": 0.0404,
+      "display": "DG7 record"
+    },
+    {
+      "phrase": "northern china",
+      "score": 0.0403,
+      "display": "northern China"
+    },
+    {
+      "phrase": "solar",
+      "score": 0.0368,
+      "display": "Solar"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0716
+}
