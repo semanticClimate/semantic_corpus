@@ -2,8 +2,9 @@
 
 **Date:** 2026-11-01  
 **Status:** Steps **0–3 implemented and run end-to-end** on a 50-paper live corpus  
-**Next:** Steps 4–6 (iterative Keep/Remove, orphans actions, export) — planned  
+**Next:** Steps 4–6 — BKG cleaning loops (FP papers/terms), orphans/export, optional encyclopedia KG partner to Step 4 (**no Step 7**)  
 **Detail design:** [cluster_filtering_workflow.md](cluster_filtering_workflow.md)  
+**Orchestration (Make / doit):** [pipeline_make_doit.md](pipeline_make_doit.md)  
 **Poster sketch:** [aukget-poster-a0-sketch.jpg](aukget-poster-a0-sketch.jpg)
 
 ---
@@ -15,8 +16,10 @@
 | **0** | Query → download → BAGIT | **Done** | Search Europe PMC (etc.), download XML, create/refresh BAGIT under `corpora/` |
 | **1** | Load BAGIT | **Done** | Validate bag, list papers, pin active corpus (workshops can start here) |
 | **2** | Phrases | **Done** | Corpus TF-IDF (+ proper phrases) on **XML body only**; cache under `phrases/` |
-| **3** | Clusters | **Done** | Bipartite paper↔term Louvain clusters; read-only view under `clusters/` |
-| 4–6 | Curate / orphans / export | **Not started** | Human Keep/Remove loop, orphan actions, curated export |
+| **3** | BKG + clusters | **Done** | Bipartite paper↔term KG (BKG) + Louvain; read-only under `clusters/` |
+| **4** | BKG clean | **Not started** | Weed FP **papers** and FP **terms**; recompute loop → 3 |
+| **5** | Orphans + export | **Not started** | Orphan Keep/Remove + curated review snapshot |
+| **6** | Encyclopedia KG | **Not started** | Optional partner to 4 — Wikipedia/Wikidata islands → Step 4 |
 
 **Entry rule:** Step 0 **or** Step 1 yields the active corpus; Steps 2–3 are the same either way.
 
@@ -136,12 +139,32 @@ Step 3 surfaces several **real FPs**, concentrated in a few microbiology / metho
 
 ---
 
-## Not in Steps 0–3
+## Update BAGIT with additional files (any later stage)
 
-- Iterative **Keep / Remove** of clusters (Step 4)  
-- Actionable orphan queue (Step 5)  
-- Summary export of curated review table (Step 6)  
-- Encyclopedia / Wikipedia / KBIR / full AUKGET KG (separate pipeline; poster sketches that wider product)
+Not a numbered curation step. After an active corpus exists (Step 1+), fetch **missing PDFs** into `data/documents/pdf/` without re-running the query.
+
+- Skips valid PDFs already on disk (`%PDF` + size ≥ 10 KB); rejects HTML/error stubs.  
+- Europe PMC sources: OA S3 → FTP zip → OA PDF URLs (same as Step 0).  
+- Updates bag manifests and refreshes `has_pdf` on an existing review table when present.
+
+```bash
+./venv/bin/python examples/cluster_review/update_corpus_files.py \
+  --corpus-dir corpora/amoc_india_2026 --formats pdf
+```
+
+**Code:** `semantic_corpus/cluster_review/update_corpus.py` (`update_bagit_formats`)  
+**UI:** Streamlit sidebar + Step 1 panel — **Update corpus files (PDF)**
+
+---
+
+## Not in Steps 0–3 (planned 4–6; no Step 7)
+
+- **Step 4:** BKG cleaning loop — FP papers + FP terms; recompute clusters  
+- **Step 5:** Orphan queue + curated export  
+- **Step 6:** Encyclopedia / Wikidata KG as **optional partner to Step 4** (FP islands)  
+- Standalone “Step 7 remove FPs” — **removed**; cleaning is the graph feedback loops  
+
+See workflow diagram in [cluster_filtering_workflow.md §3](cluster_filtering_workflow.md#3-planned-end-to-end-product-with-kg-cleaning-loops).
 
 ---
 
@@ -156,4 +179,7 @@ Step 3 surfaces several **real FPs**, concentrated in a few microbiology / metho
 | Streamlit shell (Steps 0–3) | Yes |
 | Live 50-paper corpus + phrases + clusters | Yes (`amoc_india_2026`) |
 | Poster layout sketch | Yes (`docs/aukget-poster-a0-sketch.jpg`) |
-| Steps 4–6 curation UI | No |
+| Update BAGIT with PDFs (any later stage) | Yes (`update_corpus.py`) |
+| Steps 4–5 BKG clean + orphans/export | No |
+| Step 6 encyclopedia KG (optional partner to 4) | No |
+| Step 7 (standalone FP removal) | Removed — use cleaning loops |

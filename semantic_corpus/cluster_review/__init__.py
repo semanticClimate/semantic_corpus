@@ -18,6 +18,7 @@ from semantic_corpus.cluster_review.step3 import (
     load_graph_summary,
     load_orphans,
 )
+from semantic_corpus.cluster_review.update_corpus import update_bagit_formats
 
 __all__ = [
     "create_corpus_from_query",
@@ -35,4 +36,5 @@ __all__ = [
     "load_clusters",
     "load_orphans",
     "load_graph_summary",
+    "update_bagit_formats",
 ]

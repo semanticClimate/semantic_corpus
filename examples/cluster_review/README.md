@@ -86,6 +86,23 @@ pytest tests/test_cluster_review_step1.py -v
 
 In Streamlit, open stage **1. Load BAGIT**, pick a demo or path, click **Load BAGIT**.
 
+## Update BAGIT with additional files (PDF)
+
+Fetch missing PDFs into an existing bag (any time after Step 1). Skips valid PDFs; rejects HTML/error stubs.
+
+```bash
+python examples/cluster_review/update_corpus_files.py \
+  --corpus-dir corpora/amoc_india_2026 --formats pdf
+
+# Force re-download
+python examples/cluster_review/update_corpus_files.py \
+  --corpus-dir corpora/amoc_india_2026 --formats pdf --force
+
+pytest tests/test_cluster_review_update_corpus.py -v
+```
+
+In Streamlit: sidebar **Update corpus files (PDF)** when a corpus is active, or the same button on Step 1.
+
 ## Step 2 — YAKE phrases (n=3)
 
 Requires `yake` in the **same** Python you run with:
