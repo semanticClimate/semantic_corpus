@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13634050",
+  "phrases": [
+    {
+      "phrase": "irrigation model intercomparison project",
+      "display": "Irrigation Model Intercomparison Project",
+      "score": 1.2
+    },
+    {
+      "phrase": "land use model intercomparison project",
+      "display": "Land Use Model Intercomparison Project",
+      "score": 1.2
+    },
+    {
+      "phrase": "planck institute for meteorology",
+      "display": "Planck Institute for Meteorology",
+      "score": 1.2
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.1
+    },
+    {
+      "phrase": "irrigation model intercomparison",
+      "display": "Irrigation Model Intercomparison",
+      "score": 1.1
+    },
+    {
+      "phrase": "german climate computing center",
+      "display": "German Climate Computing Center",
+      "score": 1.1
+    },
+    {
+      "phrase": "toa",
+      "display": "TOA",
+      "score": 1.38
+    },
+    {
+      "phrase": "srf",
+      "display": "SRF",
+      "score": 1.2
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.16
+    },
+    {
+      "phrase": "alb",
+      "score": 0.0412,
+      "display": "ALB"
+    },
+    {
+      "phrase": "perturbation",
+      "score": 0.0405,
+      "display": "perturbation"
+    },
+    {
+      "phrase": "albedo",
+      "score": 0.0383,
+      "display": "albedo"
+    },
+    {
+      "phrase": "evp",
+      "score": 0.0382,
+      "display": "evp"
+    },
+    {
+      "phrase": "net",
+      "score": 0.038,
+      "display": "net"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

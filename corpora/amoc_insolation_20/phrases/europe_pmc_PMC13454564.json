@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13454564",
+  "phrases": [
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.8
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.5
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.4
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 1.4
+    },
+    {
+      "phrase": "sete lagoas",
+      "display": "Sete Lagoas",
+      "score": 1.4
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.48
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.26
+    },
+    {
+      "phrase": "rei",
+      "display": "REI",
+      "score": 1.19
+    },
+    {
+      "phrase": "temperature",
+      "score": 0.0404,
+      "display": "Temperature"
+    },
+    {
+      "phrase": "rei mato",
+      "score": 0.0401,
+      "display": "rei mato"
+    },
+    {
+      "phrase": "mato",
+      "score": 0.0401,
+      "display": "Mato"
+    },
+    {
+      "phrase": "fluid",
+      "score": 0.0389,
+      "display": "fluid"
+    },
+    {
+      "phrase": "cave",
+      "score": 0.0388,
+      "display": "Cave"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13434758",
+  "phrases": [
+    {
+      "phrase": "early pleistocene",
+      "display": "Early Pleistocene",
+      "score": 2.9
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5
+    },
+    {
+      "phrase": "appelscha fm",
+      "display": "Appelscha Fm",
+      "score": 2.2
+    },
+    {
+      "phrase": "north sea basin",
+      "display": "North Sea Basin",
+      "score": 2.0
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.9
+    },
+    {
+      "phrase": "north sea",
+      "display": "North Sea",
+      "score": 1.9
+    },
+    {
+      "phrase": "peize fm",
+      "display": "Peize Fm",
+      "score": 1.8
+    },
+    {
+      "phrase": "hbc",
+      "display": "HBC",
+      "score": 1.7
+    },
+    {
+      "phrase": "eis",
+      "display": "EIS",
+      "score": 1.68
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.45
+    },
+    {
+      "phrase": "fm",
+      "score": 0.0394,
+      "display": "Fm"
+    },
+    {
+      "phrase": "ma",
+      "score": 0.0361,
+      "display": "Ma"
+    },
+    {
+      "phrase": "appelscha",
+      "score": 0.0356,
+      "display": "Appelscha"
+    },
+    {
+      "phrase": "burial",
+      "score": 0.0346,
+      "display": "Burial"
+    },
+    {
+      "phrase": "baltic",
+      "score": 0.0335,
+      "display": "Baltic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

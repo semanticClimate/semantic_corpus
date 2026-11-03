@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12835000",
+  "phrases": [
+    {
+      "phrase": "yangtze river delta",
+      "display": "Yangtze River Delta",
+      "score": 1.6
+    },
+    {
+      "phrase": "weighted weighted",
+      "display": "Weighted Weighted",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.4
+    },
+    {
+      "phrase": "random forests",
+      "display": "Random Forests",
+      "score": 1.4
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.4
+    },
+    {
+      "phrase": "dark age cold period",
+      "display": "Dark Age Cold Period",
+      "score": 1.3
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.3
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 1.28
+    },
+    {
+      "phrase": "pann",
+      "display": "Pann",
+      "score": 1.24
+    },
+    {
+      "phrase": "lgm",
+      "display": "LGM",
+      "score": 1.18
+    },
+    {
+      "phrase": "tann",
+      "score": 0.0552,
+      "display": "Tann"
+    },
+    {
+      "phrase": "mtwa",
+      "score": 0.0488,
+      "display": "MTwa"
+    },
+    {
+      "phrase": "csja6",
+      "score": 0.0457,
+      "display": "CSJA6"
+    },
+    {
+      "phrase": "tann pann",
+      "score": 0.0437,
+      "display": "tann pann"
+    },
+    {
+      "phrase": "yangtze",
+      "score": 0.0426,
+      "display": "Yangtze"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

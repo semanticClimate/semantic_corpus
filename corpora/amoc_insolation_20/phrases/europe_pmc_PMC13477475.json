@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13477475",
+  "phrases": [
+    {
+      "phrase": "last glacial inception",
+      "display": "Last Glacial Inception",
+      "score": 1.9
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.9
+    },
+    {
+      "phrase": "hoher list",
+      "display": "Hoher List",
+      "score": 1.8
+    },
+    {
+      "phrase": "last interglacial",
+      "display": "Last Interglacial",
+      "score": 1.4
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2
+    },
+    {
+      "phrase": "late eemian aridity pulse",
+      "display": "Late Eemian Aridity Pulse",
+      "score": 1.2
+    },
+    {
+      "phrase": "eemian interglacial",
+      "display": "Eemian Interglacial",
+      "score": 1.2
+    },
+    {
+      "phrase": "leap",
+      "display": "LEAP",
+      "score": 2.36
+    },
+    {
+      "phrase": "eemian",
+      "display": "Eemian",
+      "score": 1.3
+    },
+    {
+      "phrase": "lgi",
+      "display": "LGI",
+      "score": 1.24
+    },
+    {
+      "phrase": "leap-i",
+      "score": 0.0484,
+      "display": "LEAP-I"
+    },
+    {
+      "phrase": "charcoal",
+      "score": 0.0452,
+      "display": "Charcoal"
+    },
+    {
+      "phrase": "abies",
+      "score": 0.0417,
+      "display": "Abies"
+    },
+    {
+      "phrase": "varve",
+      "score": 0.0417,
+      "display": "Varve"
+    },
+    {
+      "phrase": "chlorins",
+      "score": 0.0363,
+      "display": "chlorins"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

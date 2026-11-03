@@ -3,6 +3,7 @@
 **Date:** 2026-10-28 (updated 2026-11-02)  
 **Status:** Steps **0–3** implemented (library + tests + examples + Streamlit); Steps 4–6 planned (KG cleaning loops; **no Step 7**)  
 **Progress note:** [cluster_review_steps_0_3_progress.md](cluster_review_steps_0_3_progress.md)  
+**Pipeline CLI:** [pipeline.md](pipeline.md) (`pipeline --workdir … --query … --target clusters`)  
 **Orchestration (Make / doit decision):** [pipeline_make_doit.md](pipeline_make_doit.md)  
 **UI:** Streamlit (`apps/cluster_review/app.py`)  
 **Terms:** **corpus TF-IDF** (default) for the filter loop — not KBIR; YAKE optional fallback; default **`n=3`**; body-only indexing  

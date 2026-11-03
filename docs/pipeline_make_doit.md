@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-03  
 **Status:** Decision record — prefer **doit** for symbolic, skip-if-done cluster-review steps  
-**Related:** [cluster_filtering_workflow.md](cluster_filtering_workflow.md), [cluster_review_steps_0_3_progress.md](cluster_review_steps_0_3_progress.md)
+**Related:** [pipeline.md](pipeline.md) (user tutorial / CLI), [pipeline_design.md](pipeline_design.md) (detailed symbolic pipeline), [cluster_filtering_workflow.md](cluster_filtering_workflow.md), [cluster_review_steps_0_3_progress.md](cluster_review_steps_0_3_progress.md)
 
 ---
 
@@ -12,7 +12,7 @@ Cluster-review Steps 0–6 are evolving (BKG clean, encyclopedia KG; **no Step 7
 
 We need:
 
-1. **Stable symbolic targets** (`query`, `bagit`, `phrases`, `clusters`, …)  
+1. **Stable symbolic targets** (`query`, `corpus`, `phrases`, `clusters`, …)  
 2. **Make-like skip-if-done** — if artifacts are already current, do not re-run  
 3. A tool that works from the **command line** and can be triggered from **Streamlit**
 
@@ -97,7 +97,7 @@ Stable IDs (independent of UI step numbers):
 | Task | Meaning | “Current” when (sketch) |
 |------|---------|-------------------------|
 | `query` | Harvest literature → query dir (+ optional BAGIT create) | `search_results.json` (and bag if requested) |
-| `bagit` | Ensure / load BAGIT corpus | `bagit.txt` + ≥1 metadata paper |
+| `corpus` | Ensure / load BAGIT corpus (produced by query/documents) | `bagit.txt` + ≥1 metadata paper |
 | `phrases` | Keyphrase extract (TF-IDF default) | `phrases/index.json` matches paper set + params |
 | `clusters` | Bipartite KG (BKG) + Louvain | `clusters/graph_summary.json` ≥ phrases index |
 | `update_pdfs` | Fill missing PDFs into the bag | Per-file skip (existing `update_bagit_formats`) |
@@ -107,16 +107,16 @@ Stable IDs (independent of UI step numbers):
 
 Default chain: `query → bagit → phrases → clusters` (then planned `clean → orphans`; `encyclopedia` optional).
 
-Example CLI once wired:
+Example CLI (placeholders; see [pipeline.md](pipeline.md)):
 
 ```bash
 # Ensure through clusters; skip steps already current
-doit -f semantic_corpus/cluster_review/dodo_cluster.py clusters
+pipeline --workdir temp/demo --query "AMOC AND India" --limit 50 --target clusters
 
-# Remake phrases (and anything that depends on them)
-doit phrases   # with force / forget as configured
+# Remake phrases (then dependents on next ensure)
+pipeline forget phrases && pipeline clusters
 
-# From Streamlit: same ModuleTaskLoader + DoitMain(["run", "clusters"])
+# From Streamlit later: same ModuleTaskLoader + DoitMain(["run", "clusters"])
 ```
 
 ---

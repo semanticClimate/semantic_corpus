@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13594180",
+  "phrases": [
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 2.0
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4
+    },
+    {
+      "phrase": "surface temperature",
+      "display": "Surface Temperature",
+      "score": 1.4
+    },
+    {
+      "phrase": "foraminiferal mg",
+      "display": "Foraminiferal Mg",
+      "score": 1.4
+    },
+    {
+      "phrase": "bay of bengal",
+      "display": "Bay of Bengal",
+      "score": 1.4
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.3
+    },
+    {
+      "phrase": "south asian",
+      "display": "South Asian",
+      "score": 1.3
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.82
+    },
+    {
+      "phrase": "asian",
+      "display": "Asian",
+      "score": 1.58
+    },
+    {
+      "phrase": "lst",
+      "display": "LST",
+      "score": 1.5
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.0375,
+      "display": "Monsoon"
+    },
+    {
+      "phrase": "mjjas",
+      "score": 0.0367,
+      "display": "MJJAS"
+    },
+    {
+      "phrase": "monsoon precipitation",
+      "score": 0.0355,
+      "display": "monsoon Precipitation"
+    },
+    {
+      "phrase": "kyr",
+      "score": 0.0355,
+      "display": "Kyr"
+    },
+    {
+      "phrase": "precipitation",
+      "score": 0.0343,
+      "display": "Precipitation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

@@ -56,6 +56,14 @@ test = [
     "pytest>=7.0.0",
     "pytest-cov>=4.0.0",
     "pytest-mock>=3.10.0",
+    "doit>=0.36.0",
+]
+cluster_review = [
+    "streamlit>=1.28.0",
+    "yake>=0.4.8",
+    "scikit-learn>=1.0.0",
+    "networkx>=3.0",
+    "doit>=0.36.0",
 ]
 
 [project.urls]
@@ -66,10 +74,17 @@ Documentation = "https://semanticclimate.github.io/semantic_corpus"
 
 [project.scripts]
 semantic_corpus = "semantic_corpus.cli:main"
+pipeline = "semantic_corpus.pipeline.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["semantic_corpus*"]
+
+[tool.setuptools.package-data]
+semantic_corpus = [
+    "cluster_review/lists/*.txt",
+    "cluster_review/lists/*.md",
+]
 
 [tool.pytest.ini_options]
 minversion = "7.0"

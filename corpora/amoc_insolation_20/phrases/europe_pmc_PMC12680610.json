@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12680610",
+  "phrases": [
+    {
+      "phrase": "heqing basin",
+      "display": "Heqing Basin",
+      "score": 1.8
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.4
+    },
+    {
+      "phrase": "institute of earth environment",
+      "display": "Institute of Earth Environment",
+      "score": 1.3
+    },
+    {
+      "phrase": "chinese academy of sciences",
+      "display": "Chinese Academy of Sciences",
+      "score": 1.3
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.2
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.2
+    },
+    {
+      "phrase": "heqing basin",
+      "display": "Heqing Basin",
+      "score": 1.2
+    },
+    {
+      "phrase": "arm",
+      "display": "ARM",
+      "score": 1.7
+    },
+    {
+      "phrase": "ism",
+      "display": "ISM",
+      "score": 1.54
+    },
+    {
+      "phrase": "sirm",
+      "display": "SIRM",
+      "score": 1.48
+    },
+    {
+      "phrase": "magnetic",
+      "score": 0.0525,
+      "display": "magnetic"
+    },
+    {
+      "phrase": "core pt2",
+      "score": 0.0492,
+      "display": "core PT2"
+    },
+    {
+      "phrase": "pt2 drill",
+      "score": 0.0474,
+      "display": "PT2 drill"
+    },
+    {
+      "phrase": "pt2 drill core",
+      "score": 0.0468,
+      "display": "PT2 drill core"
+    },
+    {
+      "phrase": "arm sirm",
+      "score": 0.0454,
+      "display": "arm sirm"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

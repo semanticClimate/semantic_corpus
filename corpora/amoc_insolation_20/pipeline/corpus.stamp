@@ -1,0 +1,24 @@
+{
+  "step": "corpus",
+  "status": "ok",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20",
+  "written_at": "2026-11-03T13:43:50.530710+00:00",
+  "options": {
+    "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20",
+    "from_mode": "query",
+    "query": "amoc AND insolation",
+    "limit": 20,
+    "repository": "europe_pmc",
+    "source": null,
+    "phrase_method": "tfidf",
+    "phrase_n": 3,
+    "phrase_top": 15,
+    "cluster_resolution": 0.8,
+    "cluster_algorithm": "louvain",
+    "encyclopedia_lang": "en",
+    "kg_max_island": 20
+  },
+  "note": "Placeholder for pipeline step 'corpus' \u2014 not yet wired to real work.",
+  "paper_count": 20,
+  "bag_root": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20"
+}

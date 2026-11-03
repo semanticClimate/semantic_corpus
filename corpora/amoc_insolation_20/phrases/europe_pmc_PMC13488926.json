@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13488926",
+  "phrases": [
+    {
+      "phrase": "lisiecki and stern",
+      "display": "Lisiecki and Stern",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.4
+    },
+    {
+      "phrase": "dronning maud land",
+      "display": "Dronning Maud Land",
+      "score": 1.2
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.2
+    },
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "score": 1.2
+    },
+    {
+      "phrase": "talos dome",
+      "display": "Talos Dome",
+      "score": 1.2
+    },
+    {
+      "phrase": "dome fuji",
+      "display": "Dome Fuji",
+      "score": 1.2
+    },
+    {
+      "phrase": "eei",
+      "display": "EEI",
+      "score": 1.88
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.5
+    },
+    {
+      "phrase": "mot",
+      "display": "MOT",
+      "score": 1.42
+    },
+    {
+      "phrase": "eeiocean",
+      "score": 0.0448,
+      "display": "EEIocean"
+    },
+    {
+      "phrase": "eeiice",
+      "score": 0.0395,
+      "display": "EEIice"
+    },
+    {
+      "phrase": "stack",
+      "score": 0.0381,
+      "display": "stack"
+    },
+    {
+      "phrase": "energy",
+      "score": 0.0379,
+      "display": "Energy"
+    },
+    {
+      "phrase": "ka",
+      "score": 0.0368,
+      "display": "ka"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

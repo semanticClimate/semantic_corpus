@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13376600",
+  "phrases": [
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 3.6
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8
+    },
+    {
+      "phrase": "last termination",
+      "display": "Last Termination",
+      "score": 1.7
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.5
+    },
+    {
+      "phrase": "north atlantic current",
+      "display": "North Atlantic Current",
+      "score": 1.2
+    },
+    {
+      "phrase": "norwegian current",
+      "display": "Norwegian Current",
+      "score": 1.2
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.2
+    },
+    {
+      "phrase": "aw",
+      "display": "AW",
+      "score": 1.48
+    },
+    {
+      "phrase": "eis",
+      "display": "EIS",
+      "score": 1.38
+    },
+    {
+      "phrase": "is",
+      "display": "IS",
+      "score": 1.38
+    },
+    {
+      "phrase": "nordic",
+      "score": 0.0421,
+      "display": "Nordic"
+    },
+    {
+      "phrase": "is-1b",
+      "score": 0.0395,
+      "display": "IS-1B"
+    },
+    {
+      "phrase": "seas",
+      "score": 0.039,
+      "display": "Seas"
+    },
+    {
+      "phrase": "pachyderma",
+      "score": 0.0377,
+      "display": "pachyderma"
+    },
+    {
+      "phrase": "core is-1b",
+      "score": 0.0369,
+      "display": "core IS-1B"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

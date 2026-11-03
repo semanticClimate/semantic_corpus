@@ -24,6 +24,7 @@ from semantic_corpus.cluster_review import (
     load_graph_summary,
     load_orphans,
     load_phrase_index,
+    update_bagit_formats,
 )
 from semantic_corpus.core.repository_factory import RepositoryFactory
 from semantic_corpus.utils import get_project_temp_dir
@@ -32,10 +33,10 @@ STAGES = [
     ("0", "Query → BAGIT"),
     ("1", "Load BAGIT"),
     ("2", "Phrases (TF-IDF)"),
-    ("3", "Clusters"),
-    ("4", "Remove clusters"),
-    ("5", "Orphans"),
-    ("6", "Summary"),
+    ("3", "BKG clusters"),
+    ("4", "BKG clean (FP)"),
+    ("5", "Orphans / export"),
+    ("6", "Encyclopedia KG"),  # optional partner to Step 4; no Step 7
 ]
 
 IMPLEMENTED = {"0", "1", "2", "3"}
@@ -54,6 +55,8 @@ def _init_state() -> None:
         st.session_state.step3_summary = None
     if "active_corpus" not in st.session_state:
         st.session_state.active_corpus = None
+    if "update_corpus_summary" not in st.session_state:
+        st.session_state.update_corpus_summary = None
 
 
 def _active_summary():
@@ -74,8 +77,9 @@ def main() -> None:
 
     st.title("Cluster review — semantic_corpus")
     st.caption(
-        "Steps 0–3: create/load a BAGIT, extract phrases, then view bipartite clusters. "
-        "Later stages (remove / orphans / export) are locked until built."
+        "Steps 0–3: create/load a BAGIT, extract phrases, build the bipartite KG (BKG). "
+        "Steps 4–5: clean FP papers/terms via BKG loops, then orphans/export. "
+        "Step 6 (encyclopedia KG) is an optional partner to Step 4 — there is no Step 7."
     )
 
     with st.sidebar:
@@ -98,6 +102,35 @@ def main() -> None:
             )
             st.caption(active.get("corpus_dir") or active.get("bag_root") or "")
             st.caption(f"Source step: {active.get('step')}")
+            st.divider()
+            st.caption("Update BAGIT with additional files (any stage)")
+            force_pdf = st.checkbox("Force re-download PDFs", value=False, key="upd_force")
+            if st.button("Update corpus files (PDF)", use_container_width=True):
+                corpus_dir = _corpus_dir_from_active()
+                if corpus_dir is None:
+                    st.error("No active corpus.")
+                else:
+                    with st.spinner("Downloading missing PDFs…"):
+                        try:
+                            upd = update_bagit_formats(
+                                corpus_dir,
+                                formats=["pdf"],
+                                force=force_pdf,
+                            )
+                        except Exception as exc:
+                            st.exception(exc)
+                        else:
+                            st.session_state.update_corpus_summary = upd
+                            st.success(
+                                f"PDFs: +{upd['downloaded']} downloaded, "
+                                f"{upd['skipped']} skipped, {upd['failed']} failed"
+                            )
+            upd = st.session_state.update_corpus_summary
+            if upd:
+                st.caption(
+                    f"Last update: ↓{upd.get('downloaded')} "
+                    f"skip {upd.get('skipped')} fail {upd.get('failed')}"
+                )
         step2 = st.session_state.step2_summary
         if step2:
             st.metric("Unique phrases", step2.get("unique_phrases") or 0)
@@ -244,6 +277,27 @@ def _render_step1() -> None:
 
     st.write("### Summary")
     st.json({k: v for k, v in summary.items() if k not in ("rows", "papers", "paper_ids")})
+
+    st.write("### Update corpus files")
+    st.caption(
+        "Fetch missing PDFs into this BAGIT (Europe PMC). "
+        "Also available from the sidebar at any later stage."
+    )
+    if st.button("Update corpus files (PDF)", key="step1_update_pdf"):
+        with st.spinner("Downloading missing PDFs…"):
+            try:
+                upd = update_bagit_formats(
+                    Path(summary["corpus_dir"]),
+                    formats=["pdf"],
+                )
+            except Exception as exc:
+                st.exception(exc)
+            else:
+                st.session_state.update_corpus_summary = upd
+                st.success(
+                    f"PDFs: +{upd['downloaded']} downloaded, "
+                    f"{upd['skipped']} skipped, {upd['failed']} failed"
+                )
 
     papers = summary.get("papers") or []
     if papers:
@@ -461,7 +515,7 @@ def _render_step2() -> None:
 
 
 def _render_step3() -> None:
-    st.subheader("Step 3 — Bipartite clusters (read-only)")
+    st.subheader("Step 3 — Bipartite KG (BKG) clusters (read-only)")
 
     corpus_dir = _corpus_dir_from_active()
     demos = list_demo_corpora()

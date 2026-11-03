@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12753843",
+  "phrases": [
+    {
+      "phrase": "zhangjia cave",
+      "display": "Zhangjia Cave",
+      "score": 2.0
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.3
+    },
+    {
+      "phrase": "bermuda rise",
+      "display": "Bermuda Rise",
+      "score": 1.3
+    },
+    {
+      "phrase": "dongge cave",
+      "display": "Dongge Cave",
+      "score": 1.3
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2
+    },
+    {
+      "phrase": "clearwater cave and whiterock cave",
+      "display": "Clearwater Cave and Whiterock Cave",
+      "score": 1.2
+    },
+    {
+      "phrase": "xiaobailong cave in southwest",
+      "display": "Xiaobailong Cave in Southwest",
+      "score": 1.2
+    },
+    {
+      "phrase": "sasm",
+      "display": "SASM",
+      "score": 1.7
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 1.5
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.44
+    },
+    {
+      "phrase": "zhangjia",
+      "score": 0.0536,
+      "display": "Zhangjia"
+    },
+    {
+      "phrase": "cave",
+      "score": 0.0464,
+      "display": "Cave"
+    },
+    {
+      "phrase": "asm",
+      "score": 0.0455,
+      "display": "ASM"
+    },
+    {
+      "phrase": "dongge",
+      "score": 0.0427,
+      "display": "Dongge"
+    },
+    {
+      "phrase": "ka bp",
+      "score": 0.0401,
+      "display": "ka BP"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

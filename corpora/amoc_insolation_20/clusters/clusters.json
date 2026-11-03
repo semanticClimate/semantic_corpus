@@ -1,0 +1,892 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 0.8,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "North Atlantic; AMOC; North Pacific; Atlantic; Atlantic Meridional Overturning Circulation",
+      "paper_count": 3,
+      "term_count": 37,
+      "paper_ids": [
+        "europe_pmc_PMC12354891",
+        "europe_pmc_PMC13319204",
+        "europe_pmc_PMC13473526"
+      ],
+      "terms": [
+        {
+          "phrase": "north atlantic",
+          "display": "North Atlantic",
+          "weight": 11.4
+        },
+        {
+          "phrase": "amoc",
+          "display": "AMOC",
+          "weight": 6.14
+        },
+        {
+          "phrase": "north pacific",
+          "display": "North Pacific",
+          "weight": 3.4
+        },
+        {
+          "phrase": "atlantic",
+          "display": "Atlantic",
+          "weight": 3.06
+        },
+        {
+          "phrase": "atlantic meridional overturning circulation",
+          "display": "Atlantic Meridional Overturning Circulation",
+          "weight": 2.5
+        },
+        {
+          "phrase": "laurentide ice sheet",
+          "display": "Laurentide Ice Sheet",
+          "weight": 2.2
+        },
+        {
+          "phrase": "north",
+          "display": "North",
+          "weight": 1.96
+        },
+        {
+          "phrase": "bp",
+          "display": "BP",
+          "weight": 1.9
+        },
+        {
+          "phrase": "northeast pacific",
+          "display": "Northeast Pacific",
+          "weight": 1.9
+        },
+        {
+          "phrase": "agulhas leakage",
+          "display": "Agulhas Leakage",
+          "weight": 1.8
+        },
+        {
+          "phrase": "iv",
+          "display": "IV",
+          "weight": 1.8
+        },
+        {
+          "phrase": "monte carlo",
+          "display": "Monte Carlo",
+          "weight": 1.8
+        },
+        {
+          "phrase": "northeast atlantic",
+          "display": "Northeast Atlantic",
+          "weight": 1.7
+        },
+        {
+          "phrase": "european ice sheets",
+          "display": "European Ice Sheets",
+          "weight": 1.6
+        },
+        {
+          "phrase": "lgi",
+          "display": "LGI",
+          "weight": 1.52
+        },
+        {
+          "phrase": "antarctic bottom water",
+          "display": "Antarctic Bottom Water",
+          "weight": 1.3
+        },
+        {
+          "phrase": "gulf of genoa",
+          "display": "Gulf of Genoa",
+          "weight": 1.3
+        },
+        {
+          "phrase": "integrated ocean drilling program",
+          "display": "Integrated Ocean Drilling Program",
+          "weight": 1.3
+        },
+        {
+          "phrase": "red sea",
+          "display": "Red Sea",
+          "weight": 1.3
+        },
+        {
+          "phrase": "doherty earth observatory of columbia university",
+          "display": "Doherty Earth Observatory of Columbia University",
+          "weight": 1.2
+        },
+        {
+          "phrase": "reconstructed atlantic meridional overturning circulation",
+          "display": "Reconstructed Atlantic Meridional Overturning Circulation",
+          "weight": 1.2
+        },
+        {
+          "phrase": "supplementary information transparent peer review",
+          "display": "Supplementary Information Transparent Peer Review",
+          "weight": 1.2
+        },
+        {
+          "phrase": "pa th",
+          "display": "pa th",
+          "weight": 0.0509
+        },
+        {
+          "phrase": "pa",
+          "display": "Pa",
+          "weight": 0.0495
+        },
+        {
+          "phrase": "th",
+          "display": "Th",
+          "weight": 0.0467
+        },
+        {
+          "phrase": "particle flux",
+          "display": "particle flux",
+          "weight": 0.044
+        },
+        {
+          "phrase": "t-iv",
+          "display": "T-IV",
+          "weight": 0.041
+        },
+        {
+          "phrase": "opal",
+          "display": "opal",
+          "weight": 0.0407
+        },
+        {
+          "phrase": "kyr bp",
+          "display": "kyr BP",
+          "weight": 0.0387
+        },
+        {
+          "phrase": "kyr",
+          "display": "Kyr",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "rates sea-level",
+          "display": "rates sea-level",
+          "weight": 0.0376
+        },
+        {
+          "phrase": "siku",
+          "display": "Siku",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "subsurface",
+          "display": "Subsurface",
+          "weight": 0.0372
+        },
+        {
+          "phrase": "site u1385",
+          "display": "Site U1385",
+          "weight": 0.037
+        },
+        {
+          "phrase": "northeast",
+          "display": "Northeast",
+          "weight": 0.0364
+        },
+        {
+          "phrase": "np02 np05",
+          "display": "np02 np05",
+          "weight": 0.0356
+        },
+        {
+          "phrase": "np01 np02",
+          "display": "np01 np02",
+          "weight": 0.0351
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Northern Hemisphere; Southern Hemisphere; Maritime Continent; Heqing Basin; Indian Ocean",
+      "paper_count": 3,
+      "term_count": 35,
+      "paper_ids": [
+        "europe_pmc_PMC12680610",
+        "europe_pmc_PMC12859089",
+        "europe_pmc_PMC13639189"
+      ],
+      "terms": [
+        {
+          "phrase": "northern hemisphere",
+          "display": "Northern Hemisphere",
+          "weight": 6.3
+        },
+        {
+          "phrase": "southern hemisphere",
+          "display": "Southern Hemisphere",
+          "weight": 4.7
+        },
+        {
+          "phrase": "maritime continent",
+          "display": "Maritime Continent",
+          "weight": 4.6
+        },
+        {
+          "phrase": "heqing basin",
+          "display": "Heqing Basin",
+          "weight": 3.0
+        },
+        {
+          "phrase": "indian ocean",
+          "display": "Indian Ocean",
+          "weight": 3.0
+        },
+        {
+          "phrase": "aim",
+          "display": "AIM",
+          "weight": 2.46
+        },
+        {
+          "phrase": "arm",
+          "display": "ARM",
+          "weight": 1.7
+        },
+        {
+          "phrase": "sunda and sahul",
+          "display": "Sunda and Sahul",
+          "weight": 1.7
+        },
+        {
+          "phrase": "holocene",
+          "display": "Holocene",
+          "weight": 1.65
+        },
+        {
+          "phrase": "ism",
+          "display": "ISM",
+          "weight": 1.54
+        },
+        {
+          "phrase": "yd",
+          "display": "YD",
+          "weight": 1.54
+        },
+        {
+          "phrase": "ausm",
+          "display": "AuSM",
+          "weight": 1.51
+        },
+        {
+          "phrase": "bromfield swamp",
+          "display": "Bromfield Swamp",
+          "weight": 1.5
+        },
+        {
+          "phrase": "sirm",
+          "display": "SIRM",
+          "weight": 1.48
+        },
+        {
+          "phrase": "chinese loess plateau",
+          "display": "Chinese Loess Plateau",
+          "weight": 1.4
+        },
+        {
+          "phrase": "global precipitation climatology project",
+          "display": "Global Precipitation Climatology Project",
+          "weight": 1.4
+        },
+        {
+          "phrase": "chinese academy of sciences",
+          "display": "Chinese Academy of Sciences",
+          "weight": 1.3
+        },
+        {
+          "phrase": "institute of earth environment",
+          "display": "Institute of Earth Environment",
+          "weight": 1.3
+        },
+        {
+          "phrase": "itcz",
+          "display": "ITCZ",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ipwp",
+          "display": "IPWP",
+          "weight": 1.28
+        },
+        {
+          "phrase": "earth system grid federation",
+          "display": "Earth System Grid Federation",
+          "weight": 1.2
+        },
+        {
+          "phrase": "australia",
+          "display": "Australia",
+          "weight": 0.075
+        },
+        {
+          "phrase": "magnetic",
+          "display": "magnetic",
+          "weight": 0.0525
+        },
+        {
+          "phrase": "core pt2",
+          "display": "core PT2",
+          "weight": 0.0492
+        },
+        {
+          "phrase": "pt2 drill",
+          "display": "PT2 drill",
+          "weight": 0.0474
+        },
+        {
+          "phrase": "pt2 drill core",
+          "display": "PT2 drill core",
+          "weight": 0.0468
+        },
+        {
+          "phrase": "arm sirm",
+          "display": "arm sirm",
+          "weight": 0.0454
+        },
+        {
+          "phrase": "monsoon",
+          "display": "Monsoon",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "a-aums",
+          "display": "A-AuMS",
+          "weight": 0.0412
+        },
+        {
+          "phrase": "yd event",
+          "display": "YD event",
+          "weight": 0.0412
+        },
+        {
+          "phrase": "australian",
+          "display": "Australian",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "rainfall",
+          "display": "rainfall",
+          "weight": 0.038
+        },
+        {
+          "phrase": "maritime",
+          "display": "Maritime",
+          "weight": 0.036
+        },
+        {
+          "phrase": "shelf",
+          "display": "Shelf",
+          "weight": 0.0339
+        },
+        {
+          "phrase": "continent",
+          "display": "Continent",
+          "weight": 0.0321
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "EASM; Zhangjia Cave; SASM; Yangtze River Delta; Weighted Weighted",
+      "paper_count": 2,
+      "term_count": 23,
+      "paper_ids": [
+        "europe_pmc_PMC12753843",
+        "europe_pmc_PMC12835000"
+      ],
+      "terms": [
+        {
+          "phrase": "easm",
+          "display": "EASM",
+          "weight": 2.78
+        },
+        {
+          "phrase": "zhangjia cave",
+          "display": "Zhangjia Cave",
+          "weight": 2.0
+        },
+        {
+          "phrase": "sasm",
+          "display": "SASM",
+          "weight": 1.7
+        },
+        {
+          "phrase": "yangtze river delta",
+          "display": "Yangtze River Delta",
+          "weight": 1.6
+        },
+        {
+          "phrase": "weighted weighted",
+          "display": "Weighted Weighted",
+          "weight": 1.5
+        },
+        {
+          "phrase": "random forests",
+          "display": "Random Forests",
+          "weight": 1.4
+        },
+        {
+          "phrase": "bermuda rise",
+          "display": "Bermuda Rise",
+          "weight": 1.3
+        },
+        {
+          "phrase": "dark age cold period",
+          "display": "Dark Age Cold Period",
+          "weight": 1.3
+        },
+        {
+          "phrase": "dongge cave",
+          "display": "Dongge Cave",
+          "weight": 1.3
+        },
+        {
+          "phrase": "pann",
+          "display": "Pann",
+          "weight": 1.24
+        },
+        {
+          "phrase": "clearwater cave and whiterock cave",
+          "display": "Clearwater Cave and Whiterock Cave",
+          "weight": 1.2
+        },
+        {
+          "phrase": "xiaobailong cave in southwest",
+          "display": "Xiaobailong Cave in Southwest",
+          "weight": 1.2
+        },
+        {
+          "phrase": "lgm",
+          "display": "LGM",
+          "weight": 1.18
+        },
+        {
+          "phrase": "tann",
+          "display": "Tann",
+          "weight": 0.0552
+        },
+        {
+          "phrase": "zhangjia",
+          "display": "Zhangjia",
+          "weight": 0.0536
+        },
+        {
+          "phrase": "mtwa",
+          "display": "MTwa",
+          "weight": 0.0488
+        },
+        {
+          "phrase": "cave",
+          "display": "Cave",
+          "weight": 0.0464
+        },
+        {
+          "phrase": "csja6",
+          "display": "CSJA6",
+          "weight": 0.0457
+        },
+        {
+          "phrase": "asm",
+          "display": "ASM",
+          "weight": 0.0455
+        },
+        {
+          "phrase": "tann pann",
+          "display": "tann pann",
+          "weight": 0.0437
+        },
+        {
+          "phrase": "dongge",
+          "display": "Dongge",
+          "weight": 0.0427
+        },
+        {
+          "phrase": "yangtze",
+          "display": "Yangtze",
+          "weight": 0.0426
+        },
+        {
+          "phrase": "ka bp",
+          "display": "ka BP",
+          "weight": 0.0401
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "MIS; MCV; Zoige Basin; ZB; MPT",
+      "paper_count": 2,
+      "term_count": 23,
+      "paper_ids": [
+        "europe_pmc_PMC13458837",
+        "europe_pmc_PMC13578706"
+      ],
+      "terms": [
+        {
+          "phrase": "mis",
+          "display": "MIS",
+          "weight": 4.14
+        },
+        {
+          "phrase": "mcv",
+          "display": "MCV",
+          "weight": 2.86
+        },
+        {
+          "phrase": "zoige basin",
+          "display": "Zoige Basin",
+          "weight": 1.8
+        },
+        {
+          "phrase": "zb",
+          "display": "ZB",
+          "weight": 1.64
+        },
+        {
+          "phrase": "mpt",
+          "display": "MPT",
+          "weight": 1.58
+        },
+        {
+          "phrase": "tibetan plateau",
+          "display": "Tibetan Plateau",
+          "weight": 1.5
+        },
+        {
+          "phrase": "chinese loess",
+          "display": "Chinese Loess",
+          "weight": 1.4
+        },
+        {
+          "phrase": "sr and carb",
+          "display": "Sr and Carb",
+          "weight": 1.4
+        },
+        {
+          "phrase": "pleistocene transition",
+          "display": "Pleistocene Transition",
+          "weight": 1.3
+        },
+        {
+          "phrase": "gulang loess",
+          "display": "Gulang Loess",
+          "weight": 1.2
+        },
+        {
+          "phrase": "mediterranean sea",
+          "display": "Mediterranean Sea",
+          "weight": 1.2
+        },
+        {
+          "phrase": "paleolake zoige",
+          "display": "Paleolake Zoige",
+          "weight": 1.2
+        },
+        {
+          "phrase": "supplementary tab",
+          "display": "Supplementary Tab",
+          "weight": 1.2
+        },
+        {
+          "phrase": "mediterranean forest",
+          "display": "Mediterranean forest",
+          "weight": 0.0406
+        },
+        {
+          "phrase": "mis mis",
+          "display": "mis mis",
+          "weight": 0.0398
+        },
+        {
+          "phrase": "middle phase",
+          "display": "middle phase",
+          "weight": 0.0382
+        },
+        {
+          "phrase": "ma",
+          "display": "Ma",
+          "weight": 0.038
+        },
+        {
+          "phrase": "forest",
+          "display": "forest",
+          "weight": 0.0374
+        },
+        {
+          "phrase": "carb",
+          "display": "Carb",
+          "weight": 0.0369
+        },
+        {
+          "phrase": "zoige",
+          "display": "Zoige",
+          "weight": 0.0369
+        },
+        {
+          "phrase": "rb sr",
+          "display": "rb sr",
+          "weight": 0.0367
+        },
+        {
+          "phrase": "early phase",
+          "display": "early phase",
+          "weight": 0.0363
+        },
+        {
+          "phrase": "rb",
+          "display": "Rb",
+          "weight": 0.0354
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "theme": "Nordic Seas; EIS; Early Pleistocene; Appelscha Fm; North Sea Basin",
+      "paper_count": 2,
+      "term_count": 22,
+      "paper_ids": [
+        "europe_pmc_PMC13376600",
+        "europe_pmc_PMC13434758"
+      ],
+      "terms": [
+        {
+          "phrase": "nordic seas",
+          "display": "Nordic Seas",
+          "weight": 3.6
+        },
+        {
+          "phrase": "eis",
+          "display": "EIS",
+          "weight": 3.06
+        },
+        {
+          "phrase": "early pleistocene",
+          "display": "Early Pleistocene",
+          "weight": 2.9
+        },
+        {
+          "phrase": "appelscha fm",
+          "display": "Appelscha Fm",
+          "weight": 2.2
+        },
+        {
+          "phrase": "north sea basin",
+          "display": "North Sea Basin",
+          "weight": 2.0
+        },
+        {
+          "phrase": "north sea",
+          "display": "North Sea",
+          "weight": 1.9
+        },
+        {
+          "phrase": "peize fm",
+          "display": "Peize Fm",
+          "weight": 1.8
+        },
+        {
+          "phrase": "hbc",
+          "display": "HBC",
+          "weight": 1.7
+        },
+        {
+          "phrase": "last termination",
+          "display": "Last Termination",
+          "weight": 1.7
+        },
+        {
+          "phrase": "aw",
+          "display": "AW",
+          "weight": 1.48
+        },
+        {
+          "phrase": "is",
+          "display": "IS",
+          "weight": 1.38
+        },
+        {
+          "phrase": "north atlantic current",
+          "display": "North Atlantic Current",
+          "weight": 1.2
+        },
+        {
+          "phrase": "norwegian current",
+          "display": "Norwegian Current",
+          "weight": 1.2
+        },
+        {
+          "phrase": "nordic",
+          "display": "Nordic",
+          "weight": 0.0421
+        },
+        {
+          "phrase": "is-1b",
+          "display": "IS-1B",
+          "weight": 0.0395
+        },
+        {
+          "phrase": "fm",
+          "display": "Fm",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "seas",
+          "display": "Seas",
+          "weight": 0.039
+        },
+        {
+          "phrase": "pachyderma",
+          "display": "pachyderma",
+          "weight": 0.0377
+        },
+        {
+          "phrase": "core is-1b",
+          "display": "core IS-1B",
+          "weight": 0.0369
+        },
+        {
+          "phrase": "appelscha",
+          "display": "Appelscha",
+          "weight": 0.0356
+        },
+        {
+          "phrase": "burial",
+          "display": "Burial",
+          "weight": 0.0346
+        },
+        {
+          "phrase": "baltic",
+          "display": "Baltic",
+          "weight": 0.0335
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "theme": "South America; NASH; North America; AWP; Last Glacial Maximum",
+      "paper_count": 2,
+      "term_count": 21,
+      "paper_ids": [
+        "europe_pmc_PMC12662202",
+        "europe_pmc_PMC13454564"
+      ],
+      "terms": [
+        {
+          "phrase": "south america",
+          "display": "South America",
+          "weight": 3.1
+        },
+        {
+          "phrase": "nash",
+          "display": "NASH",
+          "weight": 2.0
+        },
+        {
+          "phrase": "north america",
+          "display": "North America",
+          "weight": 1.9
+        },
+        {
+          "phrase": "awp",
+          "display": "AWP",
+          "weight": 1.82
+        },
+        {
+          "phrase": "last glacial maximum",
+          "display": "Last Glacial Maximum",
+          "weight": 1.5
+        },
+        {
+          "phrase": "heinrich stadial",
+          "display": "Heinrich Stadial",
+          "weight": 1.4
+        },
+        {
+          "phrase": "sete lagoas",
+          "display": "Sete Lagoas",
+          "weight": 1.4
+        },
+        {
+          "phrase": "younger dryas",
+          "display": "Younger Dryas",
+          "weight": 1.4
+        },
+        {
+          "phrase": "caribbean sea",
+          "display": "Caribbean Sea",
+          "weight": 1.3
+        },
+        {
+          "phrase": "central america",
+          "display": "Central America",
+          "weight": 1.3
+        },
+        {
+          "phrase": "costa rica",
+          "display": "Costa Rica",
+          "weight": 1.3
+        },
+        {
+          "phrase": "jiaotong university",
+          "display": "Jiaotong University",
+          "weight": 1.3
+        },
+        {
+          "phrase": "rei",
+          "display": "REI",
+          "weight": 1.19
+        },
+        {
+          "phrase": "cust-1",
+          "display": "CUST-1",
+          "weight": 0.0447
+        },
+        {
+          "phrase": "cuba",
+          "display": "Cuba",
+          "weight": 0.0422
+        },
+        {
+          "phrase": "temperature",
+          "display": "Temperature",
+          "weight": 0.0404
+        },
+        {
+          "phrase": "mato",
+          "display": "Mato",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "rei mato",
+          "display": "rei mato",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "fluid",
+          "display": "fluid",
+          "weight": 0.0389
+        },
+        {
+          "phrase": "ssts",
+          "display": "SSTs",
+          "weight": 0.0358
+        },
+        {
+          "phrase": "wb-nash",
+          "display": "Wb-NASH",
+          "weight": 0.0354
+        }
+      ]
+    }
+  ]
+}

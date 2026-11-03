@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC13398485",
+  "phrases": [
+    {
+      "phrase": "eastern mediterranean",
+      "display": "Eastern Mediterranean",
+      "score": 4.0
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.0
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4
+    },
+    {
+      "phrase": "balkans and turkey",
+      "display": "Balkans and Turkey",
+      "score": 1.4
+    },
+    {
+      "phrase": "strait of gibraltar",
+      "display": "Strait of Gibraltar",
+      "score": 1.2
+    },
+    {
+      "phrase": "soreq cave",
+      "display": "Soreq Cave",
+      "score": 1.2
+    },
+    {
+      "phrase": "united nations environment programme",
+      "display": "United Nations Environment Programme",
+      "score": 1.1
+    },
+    {
+      "phrase": "mediterranean",
+      "display": "Mediterranean",
+      "score": 1.72
+    },
+    {
+      "phrase": "bce",
+      "display": "BCE",
+      "score": 1.56
+    },
+    {
+      "phrase": "pet",
+      "display": "PET",
+      "score": 1.5
+    },
+    {
+      "phrase": "turkey",
+      "score": 0.0396,
+      "display": "Turkey"
+    },
+    {
+      "phrase": "balkans",
+      "score": 0.0396,
+      "display": "Balkans"
+    },
+    {
+      "phrase": "levant",
+      "score": 0.0374,
+      "display": "Levant"
+    },
+    {
+      "phrase": "spei",
+      "score": 0.0361,
+      "display": "SPEI"
+    },
+    {
+      "phrase": "hydroclimatic",
+      "score": 0.0357,
+      "display": "hydroclimatic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}

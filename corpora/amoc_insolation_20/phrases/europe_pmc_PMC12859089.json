@@ -1,0 +1,93 @@
+{
+  "paper_id": "europe_pmc_PMC12859089",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 3.2
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.9
+    },
+    {
+      "phrase": "maritime continent",
+      "display": "Maritime Continent",
+      "score": 1.5
+    },
+    {
+      "phrase": "bromfield swamp",
+      "display": "Bromfield Swamp",
+      "score": 1.5
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.5
+    },
+    {
+      "phrase": "global precipitation climatology project",
+      "display": "Global Precipitation Climatology Project",
+      "score": 1.4
+    },
+    {
+      "phrase": "chinese loess plateau",
+      "display": "Chinese Loess Plateau",
+      "score": 1.4
+    },
+    {
+      "phrase": "holocene",
+      "display": "Holocene",
+      "score": 1.65
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.54
+    },
+    {
+      "phrase": "ausm",
+      "display": "AuSM",
+      "score": 1.51
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.0413,
+      "display": "monsoon"
+    },
+    {
+      "phrase": "a-aums",
+      "score": 0.0412,
+      "display": "A-AuMS"
+    },
+    {
+      "phrase": "yd event",
+      "score": 0.0412,
+      "display": "YD event"
+    },
+    {
+      "phrase": "australian",
+      "score": 0.0394,
+      "display": "Australian"
+    },
+    {
+      "phrase": "australia",
+      "score": 0.0394,
+      "display": "Australia"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 2
+  },
+  "elapsed_s": 0.0258
+}
