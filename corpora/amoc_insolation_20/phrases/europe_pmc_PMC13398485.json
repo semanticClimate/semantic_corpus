@@ -4,76 +4,91 @@
     {
       "phrase": "eastern mediterranean",
       "display": "Eastern Mediterranean",
-      "score": 4.0
+      "score": 4.0,
+      "channel": "uppercase"
     },
     {
       "phrase": "north atlantic",
       "display": "North Atlantic",
-      "score": 2.0
+      "score": 2.0,
+      "channel": "uppercase"
     },
     {
       "phrase": "northern hemisphere",
       "display": "Northern Hemisphere",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "balkans and turkey",
       "display": "Balkans and Turkey",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "strait of gibraltar",
       "display": "Strait of Gibraltar",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "soreq cave",
       "display": "Soreq Cave",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "united nations environment programme",
       "display": "United Nations Environment Programme",
-      "score": 1.1
+      "score": 1.1,
+      "channel": "uppercase"
     },
     {
       "phrase": "mediterranean",
       "display": "Mediterranean",
-      "score": 1.72
+      "score": 1.72,
+      "channel": "uppercase"
     },
     {
       "phrase": "bce",
       "display": "BCE",
-      "score": 1.56
+      "score": 1.56,
+      "channel": "uppercase"
     },
     {
       "phrase": "pet",
       "display": "PET",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "turkey",
       "score": 0.0396,
+      "channel": "tfidf",
       "display": "Turkey"
     },
     {
       "phrase": "balkans",
       "score": 0.0396,
+      "channel": "tfidf",
       "display": "Balkans"
     },
     {
       "phrase": "levant",
       "score": 0.0374,
+      "channel": "tfidf",
       "display": "Levant"
     },
     {
       "phrase": "spei",
       "score": 0.0361,
+      "channel": "tfidf",
       "display": "SPEI"
     },
     {
       "phrase": "hydroclimatic",
       "score": 0.0357,
+      "channel": "tfidf",
       "display": "hydroclimatic"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

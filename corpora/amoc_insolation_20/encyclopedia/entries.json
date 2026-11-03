@@ -1,0 +1,1260 @@
+{
+  "step": "encyclopedia",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20",
+  "params": {
+    "lang": "en",
+    "max_entries": 50,
+    "min_score": 0.0,
+    "min_paper_count": 2,
+    "source": "phrases",
+    "phrase_source": "phrases_terms",
+    "selected_count": 30,
+    "phrase_fingerprint": "bcebfb923e758772",
+    "disambiguate": true
+  },
+  "entries": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic Current",
+      "wiki_lang": "en",
+      "wiki_title": "North Atlantic Current",
+      "wiki_pageid": 698,
+      "wiki_url": "https://en.wikipedia.org/wiki/North_Atlantic_Current",
+      "wikidata_id": "Q97",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q97",
+      "candidates": [
+        {
+          "title": "Atlantic Ocean",
+          "pageid": 698,
+          "snippet": "and CFCs. <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> gyre <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> gyre <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> gyre Indian Ocean gyre <span class=\"searchmatch\">North</span> Pacific gyre South Pacific gyre South <span class=\"searchmatch\">Atlantic</span>         gyre"
+        },
+        {
+          "title": "NATO",
+          "pageid": 21133,
+          "snippet": "The <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Treaty Organization (NATO) is an intergovernmental military alliance between 32 member states (thirty in Europe and two in <span class=\"searchmatch\">North</span> America)"
+        },
+        {
+          "title": "North Atlantic Treaty",
+          "pageid": 22007,
+          "snippet": "The <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Treaty, also known as the Washington Treaty, forms the legal basis of, and is implemented by, the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Treaty Organization"
+        },
+        {
+          "title": "North Atlantic Current",
+          "pageid": 21512,
+          "snippet": "The <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Current (NAC), also known as <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Drift and <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Sea Movement, is a powerful warm western boundary current within"
+        },
+        {
+          "title": "North Atlantic Tracks",
+          "pageid": 4638550,
+          "snippet": "The <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Tracks, officially titled the <span class=\"searchmatch\">North</span> <span class=\"searchmatch\">Atlantic</span> Organised Track System (NAT-OTS), are a structured set of transatlantic flight routes"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:17.076458+00:00",
+      "status": "resolved",
+      "disambiguation_history": "Disambiguation: lead paragraphs matched North Atlantic Current. Also considered: Atlantic Ocean; NATO.",
+      "disambiguation_status": "resolved",
+      "disambiguation_error": "403 Client Error: Forbidden for url: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageprops%7Cinfo&titles=North+Atlantic+Current&redirects=1",
+      "pointer_kind": "disambiguation",
+      "pointer_url": "https://en.wikipedia.org/wiki/Atlantic_Ocean",
+      "pointer_title": "Atlantic Ocean"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "wiki_lang": "en",
+      "wiki_title": "Northern Hemisphere",
+      "wiki_pageid": 22126,
+      "wiki_url": "https://en.wikipedia.org/wiki/Northern_Hemisphere",
+      "wikidata_id": "Q39061",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q39061",
+      "candidates": [
+        {
+          "title": "Northern Hemisphere",
+          "pageid": 22126,
+          "snippet": "The <span class=\"searchmatch\">Northern</span> <span class=\"searchmatch\">Hemisphere</span> is the half of Earth that is north of the equator. For other planets in the Solar System, north is defined as being in the same"
+        },
+        {
+          "title": "Northern celestial hemisphere",
+          "pageid": 43696720,
+          "snippet": "The <span class=\"searchmatch\">northern</span> celestial <span class=\"searchmatch\">hemisphere</span>, also called the <span class=\"searchmatch\">Northern</span> Sky, is the <span class=\"searchmatch\">northern</span> half of the celestial sphere. Most easily viewed from the Earth&#039;s Northern"
+        },
+        {
+          "title": "2026 Nations Championship",
+          "pageid": 80997670,
+          "snippet": "Southern <span class=\"searchmatch\">Hemisphere</span> Series. From the <span class=\"searchmatch\">Northern</span> <span class=\"searchmatch\">Hemisphere</span> Series and Finals. For the Southern <span class=\"searchmatch\">Hemisphere</span> Series. For the <span class=\"searchmatch\">Northern</span> <span class=\"searchmatch\">Hemisphere</span> Series and"
+        },
+        {
+          "title": "Hemispheres of Earth",
+          "pageid": 31655501,
+          "snippet": "and cartography, <span class=\"searchmatch\">hemispheres</span> of Earth are any division of the globe into two equal halves (<span class=\"searchmatch\">hemispheres</span>), typically divided into <span class=\"searchmatch\">northern</span> and southern halves"
+        },
+        {
+          "title": "2026 Nations Championship Northern Hemisphere Series",
+          "pageid": 83155697,
+          "snippet": "The 2026 Nations Championship <span class=\"searchmatch\">Northern</span> <span class=\"searchmatch\">Hemisphere</span> Series will be the second phase of matches (rounds 4–6) in the inaugural edition of the Nations Championship"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:18.580421+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "maritime continent",
+      "display": "Maritime Continent",
+      "wiki_lang": "en",
+      "wiki_title": "Maritime Continent",
+      "wiki_pageid": 14901447,
+      "wiki_url": "https://en.wikipedia.org/wiki/Maritime_Continent",
+      "wikidata_id": "Q6765800",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q6765800",
+      "candidates": [
+        {
+          "title": "Maritime Continent",
+          "pageid": 14901447,
+          "snippet": "<span class=\"searchmatch\">Maritime</span> <span class=\"searchmatch\">Continent</span> is the name given primarily by meteorologists and oceanographers to the region of Southeast Eurafrasia which comprises, amongst other"
+        },
+        {
+          "title": "Maritime Southeast Asia",
+          "pageid": 759244,
+          "snippet": "Philippines. In the natural sciences, the region is sometimes known as the <span class=\"searchmatch\">Maritime</span> <span class=\"searchmatch\">Continent</span>. It also corresponds to the biogeographical region of Malesia (not"
+        },
+        {
+          "title": "Australia (continent)",
+          "pageid": 20611325,
+          "snippet": "located within the Southern and Eastern hemispheres, near the <span class=\"searchmatch\">Maritime</span> Southeast Asia. The <span class=\"searchmatch\">continent</span> includes mainland Australia, Tasmania, the island of New"
+        },
+        {
+          "title": "Hector (cloud)",
+          "pageid": 29746234,
+          "snippet": "Beringer, Jason; Tapper, Nigel J.; Keenan, Tom D. (2001). &quot;Evolution of <span class=\"searchmatch\">maritime</span> <span class=\"searchmatch\">continent</span> thunderstorms under varying meteorological conditions over the Tiwi"
+        },
+        {
+          "title": "Congo Basin",
+          "pageid": 1866767,
+          "snippet": "convection (thunderstorms) in the tropics, the other two being over the <span class=\"searchmatch\">Maritime</span> <span class=\"searchmatch\">continent</span> and the Amazon. These three regions together drive the climate circulation"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:19.302755+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "mis",
+      "display": "MIS",
+      "wiki_lang": "en",
+      "wiki_title": "MIS",
+      "wiki_pageid": 237626,
+      "wiki_url": "https://en.wikipedia.org/wiki/MIS",
+      "wikidata_id": "Q344480",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q344480",
+      "candidates": [
+        {
+          "title": "MIS",
+          "pageid": 237626,
+          "snippet": "Look up <span class=\"searchmatch\">MIS</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">MIS</span> or <span class=\"searchmatch\">mis</span> may refer to: Mammography information system, a type of software that manages clinical data"
+        },
+        {
+          "title": "Mis-Teeq",
+          "pageid": 716341,
+          "snippet": "<span class=\"searchmatch\">Mis</span>-Teeq (mystic) were a British girl group formed in 1999, originally consisting of Sabrina Washington, Su-Elise Nash, Alesha Dixon and Zena McNally"
+        },
+        {
+          "title": "The Further Mis-Adventures of Cliff Booth",
+          "pageid": 80231658,
+          "snippet": "The Further <span class=\"searchmatch\">Mis</span>-Adventures of Cliff Booth is an upcoming American comedy-drama film directed by David Fincher and written by Quentin Tarantino. Produced"
+        },
+        {
+          "title": "MIS AG",
+          "pageid": 1448214,
+          "snippet": "Applications: <span class=\"searchmatch\">MIS</span> Enterprise Planning <span class=\"searchmatch\">MIS</span> Balanced Scorecard <span class=\"searchmatch\">MIS</span> Subsidiary Management <span class=\"searchmatch\">MIS</span> Financial Consolidation <span class=\"searchmatch\">MIS</span> Risk Management In October 2003, <span class=\"searchmatch\">MIS</span> AG was"
+        },
+        {
+          "title": "THeMIS",
+          "pageid": 60572185,
+          "snippet": "THe<span class=\"searchmatch\">MIS</span> (Tracked Hybrid Modular Infantry System), unmanned ground vehicle (UGV), is a ground-based armed drone vehicle designed largely for military applications"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:20.141972+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "amoc",
+      "display": "Atlantic meridional overturning circulation",
+      "wiki_lang": "en",
+      "wiki_title": "Atlantic meridional overturning circulation",
+      "wiki_pageid": 5097491,
+      "wiki_url": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+      "wikidata_id": "Q4652675",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4652675",
+      "candidates": [
+        {
+          "title": "Atlantic meridional overturning circulation",
+          "pageid": 5097491,
+          "snippet": "The Atlantic meridional overturning circulation (<span class=\"searchmatch\">AMOC</span>) is the main ocean current system in the Atlantic Ocean. It is a major component of Earth&#039;s ocean"
+        },
+        {
+          "title": "AMOC (disambiguation)",
+          "pageid": 67260575,
+          "snippet": "<span class=\"searchmatch\">AMOC</span> or <span class=\"searchmatch\">Amoc</span> may refer to: Atlantic meridional overturning circulation, current in the Atlantic Ocean Alaska Mission Operations Center, a US National Security"
+        },
+        {
+          "title": "Amoc (rapper)",
+          "pageid": 19720261,
+          "snippet": "Mikkâl Antti Morottaja (born 1984), known by his stage name <span class=\"searchmatch\">Amoc</span> (/ˈæmɒk/ AM-ok; an acronym for Aanaar Master of the Ceremony), is a Finnish Sámi rapper"
+        },
+        {
+          "title": "Thermohaline circulation",
+          "pageid": 387457,
+          "snippet": "comprises two major &quot;limbs;&quot; the Atlantic meridional overturning circulation (<span class=\"searchmatch\">AMOC</span>) centered in the north Atlantic Ocean, and the Southern Ocean overturning"
+        },
+        {
+          "title": "Tipping points in the climate system",
+          "pageid": 16817594,
+          "snippet": "current changes include the Atlantic Meridional Overturning Circulation (<span class=\"searchmatch\">AMOC</span>), the North Subpolar Gyre and the Southern Ocean overturning circulation"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:20.901275+00:00",
+      "status": "resolved",
+      "disambiguation_history": "Disambiguation: lead paragraphs matched Atlantic meridional overturning circulation. Also considered: Amoc (rapper); Thermohaline circulation.",
+      "disambiguation_status": "resolved",
+      "disambiguation_error": "403 Client Error: Forbidden for url: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageprops%7Cinfo&titles=Atlantic+meridional+overturning+circulation&redirects=1",
+      "pointer_kind": "disambiguation",
+      "pointer_url": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+      "pointer_title": "Atlantic meridional overturning circulation"
+    },
+    {
+      "phrase": "east asian",
+      "display": "Ethnic groups in East Asia",
+      "wiki_lang": "en",
+      "wiki_title": "Ethnic groups in East Asia",
+      "wiki_pageid": 19605700,
+      "wiki_url": "https://en.wikipedia.org/wiki/Ethnic_groups_in_East_Asia",
+      "wikidata_id": "Q27231",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q27231",
+      "candidates": [
+        {
+          "title": "East Asia",
+          "pageid": 19605700,
+          "snippet": "<span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asia</span> and was undoubtedly the core of <span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asian</span> civilization from where other parts of <span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asia</span> were formed. The various other regions in <span class=\"searchmatch\">East</span> Asia"
+        },
+        {
+          "title": "Southeast Asia",
+          "pageid": 28741,
+          "snippet": "Southeast <span class=\"searchmatch\">Asian</span> Nations (ASEAN) – Intergovernmental forum of Southeast <span class=\"searchmatch\">Asian</span> nations List of firsts in Southeast <span class=\"searchmatch\">Asia</span> Mainland Southeast <span class=\"searchmatch\">Asia</span> – Continental"
+        },
+        {
+          "title": "Greater East Asia Co-Prosperity Sphere",
+          "pageid": 244149,
+          "snippet": "Greater <span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asia</span> Co-Prosperity Sphere (Japanese: 大東亜共栄圏, Hepburn: Dai Tōa Kyōeiken; Kyujitai: 大東亞共榮圈), also known as the GEACPS, was a pan-<span class=\"searchmatch\">Asian</span> union"
+        },
+        {
+          "title": "Four Asian Tigers",
+          "pageid": 160114,
+          "snippet": "The Four <span class=\"searchmatch\">Asian</span> Tigers (a.k.a. the Four <span class=\"searchmatch\">Asian</span> Dragons or Four Little Dragons in Korean and Chinese) are the developed <span class=\"searchmatch\">Asian</span> economies of Hong Kong, Singapore"
+        },
+        {
+          "title": "Ethnic groups in East Asia",
+          "pageid": 28806034,
+          "snippet": "<span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asian</span> people (also <span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asians</span>) comprise a wide variety of ethnic groups from <span class=\"searchmatch\">East</span> <span class=\"searchmatch\">Asia</span>, which includes China, Japan, Mongolia, North Korea, South"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:22.122003+00:00",
+      "status": "resolved",
+      "disambiguation_history": "Disambiguation: lead paragraphs matched Ethnic groups in East Asia. Also considered: East Asia; Southeast Asia.",
+      "disambiguation_status": "resolved",
+      "disambiguation_error": "403 Client Error: Forbidden for url: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageprops%7Cinfo&titles=Ethnic+groups+in+East+Asia&redirects=1",
+      "pointer_kind": "disambiguation",
+      "pointer_url": "https://en.wikipedia.org/wiki/East_Asia",
+      "pointer_title": "East Asia"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "wiki_lang": "en",
+      "wiki_title": "North",
+      "wiki_pageid": 56478,
+      "wiki_url": "https://en.wikipedia.org/wiki/North",
+      "wikidata_id": "Q659",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q659",
+      "candidates": [
+        {
+          "title": "North",
+          "pageid": 56478,
+          "snippet": "<span class=\"searchmatch\">North</span> is one of the four compass points or cardinal directions. It is the opposite of south and is perpendicular to east and west. <span class=\"searchmatch\">North</span> is a noun, adjective"
+        },
+        {
+          "title": "North (disambiguation)",
+          "pageid": 1918408,
+          "snippet": "Look up <span class=\"searchmatch\">North</span>, <span class=\"searchmatch\">north</span>, or northward in Wiktionary, the free dictionary. <span class=\"searchmatch\">North</span> is a cardinal direction or compass point. <span class=\"searchmatch\">North</span> or The <span class=\"searchmatch\">North</span> may also refer"
+        },
+        {
+          "title": "North of North",
+          "pageid": 76361875,
+          "snippet": "<span class=\"searchmatch\">North</span> of <span class=\"searchmatch\">North</span> is a Canadian comedy television series that premiered on CBC Television (CBC), the Aboriginal Peoples Television Network (APTN), and Netflix"
+        },
+        {
+          "title": "North America",
+          "pageid": 21139,
+          "snippet": "<span class=\"searchmatch\">North</span> America is a continent in the Northern and Western hemispheres. It is bordered to the <span class=\"searchmatch\">north</span> by the Arctic Ocean, to the east by the Atlantic Ocean"
+        },
+        {
+          "title": "North Korea",
+          "pageid": 21255,
+          "snippet": "<span class=\"searchmatch\">North</span> Korea, officially the Democratic People&#039;s Republic of Korea (DPRK), is a country in East Asia. It constitutes the northern half of the Korean Peninsula"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:23.396093+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "wiki_lang": "en",
+      "wiki_title": "BP",
+      "wiki_pageid": 18998720,
+      "wiki_url": "https://en.wikipedia.org/wiki/BP",
+      "wikidata_id": "Q152057",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q152057",
+      "candidates": [
+        {
+          "title": "BP",
+          "pageid": 18998720,
+          "snippet": "<span class=\"searchmatch\">BP</span> p.l.c. is a British multinational oil and gas company headquartered in London, England. It is one of the oil and gas &quot;supermajors&quot; and one of the world&#039;s"
+        },
+        {
+          "title": "BP (disambiguation)",
+          "pageid": 965870,
+          "snippet": "Look up <span class=\"searchmatch\">BP</span> or <span class=\"searchmatch\">Bp</span>. in Wiktionary, the free dictionary. <span class=\"searchmatch\">BP</span> is a British multinational oil and gas company headquartered in London. <span class=\"searchmatch\">BP</span>, <span class=\"searchmatch\">bp</span>, and <span class=\"searchmatch\">Bp</span> may also"
+        },
+        {
+          "title": "Deepwater Horizon oil spill",
+          "pageid": 27046954,
+          "snippet": "disaster off the coast of the United States in the Gulf of Mexico, on the <span class=\"searchmatch\">BP</span>-operated Macondo Prospect. It is considered the largest marine oil spill in"
+        },
+        {
+          "title": "Before Present",
+          "pageid": 971107,
+          "snippet": "Before Present (<span class=\"searchmatch\">BP</span>) or &quot;years before present (YBP)&quot; is a time scale used mainly in archaeology, geology, and other scientific disciplines to specify when"
+        },
+        {
+          "title": "Aker BP",
+          "pageid": 30233709,
+          "snippet": "Aker <span class=\"searchmatch\">BP</span> ASA is a Norwegian oil exploration and development company focusing on petroleum resources on the Norwegian Continental Shelf. It is present all"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:24.335674+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "wiki_lang": "en",
+      "wiki_title": "Southern Hemisphere",
+      "wiki_pageid": 261273,
+      "wiki_url": "https://en.wikipedia.org/wiki/Southern_Hemisphere",
+      "wikidata_id": "Q41228",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q41228",
+      "candidates": [
+        {
+          "title": "Southern Hemisphere",
+          "pageid": 261273,
+          "snippet": "The <span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Hemisphere</span> is the half (<span class=\"searchmatch\">hemisphere</span>) of Earth that is south of the equator. It contains all or part of five continents (the whole of Antarctica"
+        },
+        {
+          "title": "Southern celestial hemisphere",
+          "pageid": 43344021,
+          "snippet": "<span class=\"searchmatch\">southern</span> celestial <span class=\"searchmatch\">hemisphere</span>, also called the <span class=\"searchmatch\">Southern</span> Sky, is the <span class=\"searchmatch\">southern</span> half of the celestial sphere. Most easily viewed from Earth&#039;s <span class=\"searchmatch\">Southern</span> Hemisphere"
+        },
+        {
+          "title": "Northern Hemisphere",
+          "pageid": 22126,
+          "snippet": "Northern <span class=\"searchmatch\">Hemisphere</span>, oceanic currents can change the weather patterns that affect many factors within the north coast. Such events include El Niño–<span class=\"searchmatch\">Southern</span> Oscillation"
+        },
+        {
+          "title": "Hemispheres of Earth",
+          "pageid": 31655501,
+          "snippet": "cartography, <span class=\"searchmatch\">hemispheres</span> of Earth are any division of the globe into two equal halves (<span class=\"searchmatch\">hemispheres</span>), typically divided into northern and <span class=\"searchmatch\">southern</span> halves by"
+        },
+        {
+          "title": "2026 Nations Championship",
+          "pageid": 80997670,
+          "snippet": "the <span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Hemisphere</span> Series. From the Northern <span class=\"searchmatch\">Hemisphere</span> Series and Finals. For the <span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Hemisphere</span> Series. For the Northern <span class=\"searchmatch\">Hemisphere</span> Series"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:25.013071+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic Ocean",
+      "wiki_lang": "en",
+      "wiki_title": "Atlantic Ocean",
+      "wiki_pageid": 698,
+      "wiki_url": "https://en.wikipedia.org/wiki/Atlantic_Ocean",
+      "wikidata_id": "Q97",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q97",
+      "candidates": [
+        {
+          "title": "Atlantic Ocean",
+          "pageid": 698,
+          "snippet": "The <span class=\"searchmatch\">Atlantic</span> Ocean is the second largest of the world&#039;s five oceans, with an area of about 85,133,000 square kilometers (32,870,000 sq mi). It covers approximately"
+        },
+        {
+          "title": "The Atlantic",
+          "pageid": 149743,
+          "snippet": "The <span class=\"searchmatch\">Atlantic</span> is an American magazine and multi-platform publisher based in Washington, D.C. Founded in 1857 in Boston as The <span class=\"searchmatch\">Atlantic</span> Monthly, it began"
+        },
+        {
+          "title": "Atlantic Records",
+          "pageid": 59610,
+          "snippet": "<span class=\"searchmatch\">Atlantic</span> Recording Corporation is an American record label founded in October 1947 by Ahmet Ertegun and Herb Abramson. Over the course of its first two"
+        },
+        {
+          "title": "Atlanticism",
+          "pageid": 624968,
+          "snippet": "<span class=\"searchmatch\">Atlanticism</span>, also known as North <span class=\"searchmatch\">Atlanticism</span> or Transatlanticism, is the ideology that advocates a close alliance between nations in Northern America (the"
+        },
+        {
+          "title": "Atlantic City, New Jersey",
+          "pageid": 106211,
+          "snippet": "<span class=\"searchmatch\">Atlantic</span> City, sometimes referred to by its initials A.C., is a seaside resort city in <span class=\"searchmatch\">Atlantic</span> County, in the U.S. state of New Jersey. <span class=\"searchmatch\">Atlantic</span> City"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:25.884740+00:00",
+      "status": "ambiguous",
+      "disambiguation_history": "Disambiguation: unresolved. Top pages: Atlanticism; Atlantic Ocean; Atlantic City, New Jersey.",
+      "disambiguation_status": "unresolved",
+      "disambiguation_titles": [
+        "Atlanticism",
+        "Atlantic Ocean",
+        "Atlantic City, New Jersey"
+      ]
+    },
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "wiki_lang": "en",
+      "wiki_title": "Monte Carlo",
+      "wiki_pageid": 137721,
+      "wiki_url": "https://en.wikipedia.org/wiki/Monte_Carlo",
+      "wikidata_id": "Q45240",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q45240",
+      "candidates": [
+        {
+          "title": "Monte Carlo",
+          "pageid": 137721,
+          "snippet": "<span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> (/ˌmɒnti ˈkɑːrloʊ/ MON-tee KAR-loh; Italian: [<span class=\"searchmatch\">ˈmonte</span> ˈkarlo]; French: <span class=\"searchmatch\">Monte</span>-<span class=\"searchmatch\">Carlo</span> [mɔ̃te kaʁlo] or colloquially <span class=\"searchmatch\">Monte</span>-Carl [mɔ̃te kaʁl]; Monégasque:"
+        },
+        {
+          "title": "Chevrolet Monte Carlo",
+          "pageid": 1172775,
+          "snippet": "The Chevrolet <span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> is a two-door coupe that was manufactured and marketed by the Chevrolet division of General Motors. Deriving its name from the"
+        },
+        {
+          "title": "Monte Carlo method",
+          "pageid": 56098,
+          "snippet": "<span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> methods, also called the <span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> experiments or <span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> simulations, are a broad class of computational algorithms based on repeated"
+        },
+        {
+          "title": "Monte Carlo (2011 film)",
+          "pageid": 27265721,
+          "snippet": "<span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> is a 2011 American adventure-romantic comedy film based on the 2001 novel Headhunters by Rankin/Bass co-founder Jules Bass. It was directed"
+        },
+        {
+          "title": "Monte Carlo Casino",
+          "pageid": 14176537,
+          "snippet": "The <span class=\"searchmatch\">Monte</span> <span class=\"searchmatch\">Carlo</span> Casino, officially named Casino de <span class=\"searchmatch\">Monte</span>-<span class=\"searchmatch\">Carlo</span>, is a gambling and entertainment complex located in Monaco. It includes a casino, the Opéra"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:26.952444+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "wiki_lang": "en",
+      "wiki_title": "South America",
+      "wiki_pageid": 26769,
+      "wiki_url": "https://en.wikipedia.org/wiki/South_America",
+      "wikidata_id": "Q18",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q18",
+      "candidates": [
+        {
+          "title": "South America",
+          "pageid": 26769,
+          "snippet": "<span class=\"searchmatch\">South</span> <span class=\"searchmatch\">America</span> is a continent entirely in the Western Hemisphere and mostly in the Southern Hemisphere, with a considerably smaller portion in the Northern"
+        },
+        {
+          "title": "Americas",
+          "pageid": 29833,
+          "snippet": "The <span class=\"searchmatch\">Americas</span>, also collectively known as <span class=\"searchmatch\">America</span>, are a landmass comprising the totality of North <span class=\"searchmatch\">America</span> and <span class=\"searchmatch\">South</span> <span class=\"searchmatch\">America</span>. When viewed as a single continent"
+        },
+        {
+          "title": "List of South Park episodes",
+          "pageid": 224267,
+          "snippet": "<span class=\"searchmatch\">South</span> Park is an <span class=\"searchmatch\">American</span> animated television sitcom created by Trey Parker and Matt Stone for Comedy Central. Parker and Stone developed the series from"
+        },
+        {
+          "title": "Latin America",
+          "pageid": 18524,
+          "snippet": "of its geography, Latin <span class=\"searchmatch\">America</span> includes countries from both North and <span class=\"searchmatch\">South</span> <span class=\"searchmatch\">America</span>. For instance, countries from North <span class=\"searchmatch\">America</span> like Mexico, Honduras,"
+        },
+        {
+          "title": "Copa América",
+          "pageid": 250675,
+          "snippet": "The CONMEBOL Copa <span class=\"searchmatch\">América</span> (&#039;<span class=\"searchmatch\">Americas</span> Cup&#039;; known until 1975 as the <span class=\"searchmatch\">South</span> <span class=\"searchmatch\">American</span> Football Championship) is the top-flight football tournament for men&#039;s"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:27.787066+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "mediterranean",
+      "display": "Mediterranean Sea",
+      "wiki_lang": "en",
+      "wiki_title": "Mediterranean Sea",
+      "wiki_pageid": 19006,
+      "wiki_url": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
+      "wikidata_id": "Q4918",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4918",
+      "candidates": [
+        {
+          "title": "Mediterranean Sea",
+          "pageid": 19006,
+          "snippet": "The <span class=\"searchmatch\">Mediterranean</span> Sea (/ˌmɛdɪtəˈreɪniən/ MED-ih-tə-RAY-nee-ən) is an intercontinental sea situated between Europe, Asia, and Africa. It is surrounded"
+        },
+        {
+          "title": "Mediterranean climate",
+          "pageid": 349628,
+          "snippet": "A <span class=\"searchmatch\">Mediterranean</span> climate (/ˌmɛdɪtəˈreɪniən/ MED-ih-tə-RAY-nee-ən), also called a dry summer climate, described by Köppen and Trewartha as Cs, is a temperate"
+        },
+        {
+          "title": "Mediterranean basin",
+          "pageid": 2454408,
+          "snippet": "In biogeography, the <span class=\"searchmatch\">Mediterranean</span> basin (/ˌmɛdɪtəˈreɪniən/ MED-ih-tə-RAY-nee-ən), also known as the <span class=\"searchmatch\">Mediterranean</span> region or sometimes Mediterranea, is"
+        },
+        {
+          "title": "Eastern Mediterranean",
+          "pageid": 20316339,
+          "snippet": "The Eastern <span class=\"searchmatch\">Mediterranean</span> is a loosely delimited region comprising the easternmost portion of the <span class=\"searchmatch\">Mediterranean</span> Sea, as well as the adjoining land—often"
+        },
+        {
+          "title": "Mediterraneanism",
+          "pageid": 38421687,
+          "snippet": "<span class=\"searchmatch\">Mediterraneanism</span> is a racialist ideology that claims that the &quot;<span class=\"searchmatch\">Mediterranean</span> race&quot; (a historical race concept) is &quot;the greatest race...derived neither"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:28.823751+00:00",
+      "status": "ambiguous",
+      "disambiguation_history": "Disambiguation: unresolved. Top pages: Eastern Mediterranean; Mediterranean Sea; Mediterranean basin.",
+      "disambiguation_status": "unresolved",
+      "disambiguation_titles": [
+        "Eastern Mediterranean",
+        "Mediterranean Sea",
+        "Mediterranean basin"
+      ]
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "wiki_lang": "en",
+      "wiki_title": "Southern Ocean",
+      "wiki_pageid": 20611428,
+      "wiki_url": "https://en.wikipedia.org/wiki/Southern_Ocean",
+      "wikidata_id": "Q7354",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q7354",
+      "candidates": [
+        {
+          "title": "Southern Ocean",
+          "pageid": 20611428,
+          "snippet": "The <span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Ocean</span>, also known as the Antarctic <span class=\"searchmatch\">Ocean</span>, comprises the southernmost waters of the World <span class=\"searchmatch\">Ocean</span>, generally taken to be south of 60° S latitude"
+        },
+        {
+          "title": "Borders of the oceans",
+          "pageid": 29055353,
+          "snippet": "the five <span class=\"searchmatch\">oceans</span> are the Pacific <span class=\"searchmatch\">Ocean</span>, Atlantic <span class=\"searchmatch\">Ocean</span>, Indian <span class=\"searchmatch\">Ocean</span>, <span class=\"searchmatch\">Southern</span> (Antarctic) <span class=\"searchmatch\">Ocean</span>, and Arctic <span class=\"searchmatch\">Ocean</span>. Smaller regions of the <span class=\"searchmatch\">oceans</span> are called"
+        },
+        {
+          "title": "Ocean",
+          "pageid": 18842359,
+          "snippet": "as <span class=\"searchmatch\">oceans</span> (in descending order by area: the Pacific <span class=\"searchmatch\">Ocean</span>, the Atlantic <span class=\"searchmatch\">Ocean</span>, the Indian <span class=\"searchmatch\">Ocean</span>, the Antarctic/<span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Ocean</span>, and the Arctic <span class=\"searchmatch\">Ocean</span>), and"
+        },
+        {
+          "title": "Pacific Ocean",
+          "pageid": 23070,
+          "snippet": "Pacific <span class=\"searchmatch\">Ocean</span> is the largest and deepest of Earth&#039;s five <span class=\"searchmatch\">oceanic</span> divisions. It stretches from the Arctic <span class=\"searchmatch\">Ocean</span> in the north to the <span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Ocean</span>, or, depending"
+        },
+        {
+          "title": "Indian Ocean",
+          "pageid": 14580,
+          "snippet": "To the south it is bounded by the <span class=\"searchmatch\">Southern</span> <span class=\"searchmatch\">Ocean</span> or Antarctica, depending on the definition in use. The Indian <span class=\"searchmatch\">Ocean</span> has large marginal or regional seas"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:30.092750+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "eis",
+      "display": "EIS",
+      "wiki_lang": "en",
+      "wiki_title": "EIS",
+      "wiki_pageid": 235529,
+      "wiki_url": "https://en.wikipedia.org/wiki/EIS",
+      "wikidata_id": "Q406899",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q406899",
+      "candidates": [
+        {
+          "title": "EIS",
+          "pageid": 235529,
+          "snippet": "Look up <span class=\"searchmatch\">EIS</span>, <span class=\"searchmatch\">eis</span>, <span class=\"searchmatch\">Eis</span>, <span class=\"searchmatch\">eís</span>, or Eiß in Wiktionary, the free dictionary. Look up -<span class=\"searchmatch\">eis</span> or -<span class=\"searchmatch\">éis</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">Eis</span> or <span class=\"searchmatch\">EIS</span> may refer to:"
+        },
+        {
+          "title": "Meditations",
+          "pageid": 1396131,
+          "snippet": "Meditations (Koine Greek: Τὰ εἰς ἑαυτόν, romanized: Ta <span class=\"searchmatch\">eis</span> heauton, lit. &#039;&#039;Things Unto Himself&#039;&#039;) is a collection of personal writings by Marcus Aurelius"
+        },
+        {
+          "title": "Environmental impact statement",
+          "pageid": 604486,
+          "snippet": "An environmental impact statement (<span class=\"searchmatch\">EIS</span>), under United States environmental law, is a document required by the 1969 National Environmental Policy Act (NEPA)"
+        },
+        {
+          "title": "Alice Eis",
+          "pageid": 81155115,
+          "snippet": "(1913). <span class=\"searchmatch\">Eis</span> was born in Dayton, Ohio, the daughter of George <span class=\"searchmatch\">Eis</span> and Alice <span class=\"searchmatch\">Eis</span>. Her father left the family when <span class=\"searchmatch\">Eis</span> was three years old. <span class=\"searchmatch\">Eis</span> was a dancer"
+        },
+        {
+          "title": "Eis-zwei-Geissebei",
+          "pageid": 26228003,
+          "snippet": "<span class=\"searchmatch\">Eis</span>-zwei-Geissebei is a Carnival festival held in Rapperswil (Switzerland) on Shrove Tuesday. Its origin may go back to the siege and destruction of the"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:30.961980+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "wiki_lang": "en",
+      "wiki_title": "Indian Ocean",
+      "wiki_pageid": 14580,
+      "wiki_url": "https://en.wikipedia.org/wiki/Indian_Ocean",
+      "wikidata_id": "Q1239",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1239",
+      "candidates": [
+        {
+          "title": "Indian Ocean",
+          "pageid": 14580,
+          "snippet": "The <span class=\"searchmatch\">Indian</span> <span class=\"searchmatch\">Ocean</span> is the third-largest of the world&#039;s five <span class=\"searchmatch\">oceanic</span> divisions, covering 70,560,000 km2 (27,240,000 sq mi) or approximately 20% of the water"
+        },
+        {
+          "title": "2004 Indian Ocean earthquake and tsunami",
+          "pageid": 1328236,
+          "snippet": "tsunami, which devastated communities along the surrounding coasts of the <span class=\"searchmatch\">Indian</span> <span class=\"searchmatch\">Ocean</span>, killing an estimated 227,898 people in 14 countries, especially in Aceh"
+        },
+        {
+          "title": "British Indian Ocean Territory",
+          "pageid": 18950601,
+          "snippet": "The British <span class=\"searchmatch\">Indian</span> <span class=\"searchmatch\">Ocean</span> Territory (BIOT) is a British Overseas Territory situated in the <span class=\"searchmatch\">Indian</span> <span class=\"searchmatch\">Ocean</span>. The territory comprises the seven atolls of the"
+        },
+        {
+          "title": "Indian Ocean (band)",
+          "pageid": 1859663,
+          "snippet": "<span class=\"searchmatch\">Indian</span> <span class=\"searchmatch\">Ocean</span> is an <span class=\"searchmatch\">Indian</span> rock band formed in New Delhi in 1990, who are widely recognized as the pioneers of the fusion rock genre in India. Susmit Sen"
+        },
+        {
+          "title": "Indian Ocean trade",
+          "pageid": 25322095,
+          "snippet": "<span class=\"searchmatch\">Indian</span> <span class=\"searchmatch\">Ocean</span> trade is vital for the global economy and has been described as the &quot;cradle&quot; for global trade. Traditionally connecting the western world"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:31.669311+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "wiki_lang": "en",
+      "wiki_title": "YD",
+      "wiki_pageid": 10862642,
+      "wiki_url": "https://en.wikipedia.org/wiki/YD",
+      "wikidata_id": "Q2598610",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q2598610",
+      "candidates": [
+        {
+          "title": "YD",
+          "pageid": 10862642,
+          "snippet": "<span class=\"searchmatch\">YD</span>, or <span class=\"searchmatch\">Yd</span> may refer to: Yard (<span class=\"searchmatch\">yd</span>), a unit of length Nissan <span class=\"searchmatch\">YD</span> engine, an automobile engine Yarmouth–Dennis Red Sox, or Y-D Red Sox, a collegiate summer"
+        },
+        {
+          "title": "Longest recorded sniper kills",
+          "pageid": 27232111,
+          "snippet": "record of 3,540 m (3,871 <span class=\"searchmatch\">yd</span>), beating the record previously held by an Australian sniper (also unnamed) at 2,815 m (3,079 <span class=\"searchmatch\">yd</span>). In November 2023, the record"
+        },
+        {
+          "title": "Nissan YD engine",
+          "pageid": 13964981,
+          "snippet": "The <span class=\"searchmatch\">YD</span> engine is a 2.2 and 2.5 L (2,184 and 2,488 cc) inline-four diesel engine from Nissan. It has a cast-iron block and aluminium head with chain driven"
+        },
+        {
+          "title": "CheyTac Intervention",
+          "pageid": 2117869,
+          "snippet": "system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 <span class=\"searchmatch\">yd</span> (2,286 m). It is based on the EDM Arms Windrunner. The CheyTac M200 Intervention"
+        },
+        {
+          "title": "Square yard",
+          "pageid": 1618887,
+          "snippet": "yds, square <span class=\"searchmatch\">yd</span> sq yards, sq yard, sq yds, sq <span class=\"searchmatch\">yd</span>, sq.<span class=\"searchmatch\">yd</span>. yards/-2, yard/-2, yds/-2, <span class=\"searchmatch\">yd</span>/-2 yards^2, yard^2, yds^2, <span class=\"searchmatch\">yd</span>^2 yards², yard², yds², <span class=\"searchmatch\">yd</span>² One square"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:32.443944+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "lgi",
+      "display": "LGI Mle F1",
+      "wiki_lang": "en",
+      "wiki_title": "LGI Mle F1",
+      "wiki_pageid": 23011921,
+      "wiki_url": "https://en.wikipedia.org/wiki/LGI_Mle_F1",
+      "wikidata_id": "Q3216915",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3216915",
+      "candidates": [
+        {
+          "title": "LGI Mle F1",
+          "pageid": 23011921,
+          "snippet": "The <span class=\"searchmatch\">LGI</span> Mle F1 (Lance-grenade individuel Mle F1, &quot;individual grenade launcher Model F1&quot;) is a lightweight, close-support infantry weapon designed to be"
+        },
+        {
+          "title": "Leeds General Infirmary",
+          "pageid": 5117059,
+          "snippet": "Leeds General Infirmary (<span class=\"searchmatch\">LGI</span>) is a large teaching hospital based in the centre of Leeds, West Yorkshire, England, and is part of the Leeds Teaching Hospitals"
+        },
+        {
+          "title": "LGI Homes",
+          "pageid": 30841561,
+          "snippet": "<span class=\"searchmatch\">LGI</span> Homes is a Texas-based builder of new construction homes and housing developments, with its development projects mostly focused in the southwestern"
+        },
+        {
+          "title": "LGI (disambiguation)",
+          "pageid": 47869032,
+          "snippet": "<span class=\"searchmatch\">LGI</span> or <span class=\"searchmatch\">lgi</span> may refer to: <span class=\"searchmatch\">LGI</span> Mle F1, a French grenade launcher Leeds General Infirmary, England, a hospital Lengilu language (ISO code: <span class=\"searchmatch\">lgi</span>), a language"
+        },
+        {
+          "title": "Caridoid escape reaction",
+          "pageid": 1108892,
+          "snippet": "Wiersma found that stimulating just one lateral giant interneuron (LG or <span class=\"searchmatch\">LGI</span>) or one medial giant interneuron (MG or MGI) would result in the execution"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:33.235191+00:00",
+      "status": "ambiguous",
+      "disambiguation_history": "Disambiguation: unresolved. Top pages: LGI Homes; LGI Mle F1; Leeds General Infirmary.",
+      "disambiguation_status": "unresolved",
+      "disambiguation_titles": [
+        "LGI Homes",
+        "LGI Mle F1",
+        "Leeds General Infirmary"
+      ]
+    },
+    {
+      "phrase": "easm",
+      "display": "Monsoon",
+      "wiki_lang": "en",
+      "wiki_title": "Monsoon",
+      "wiki_pageid": 57630,
+      "wiki_url": "https://en.wikipedia.org/wiki/Monsoon",
+      "wikidata_id": "Q42967",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q42967",
+      "candidates": [
+        {
+          "title": "Monsoon",
+          "pageid": 57630,
+          "snippet": "Dansgaard–Oeschger events, the <span class=\"searchmatch\">EASM</span> grew in strength, but it has been suggested to have decreased in strength during Heinrich events. The <span class=\"searchmatch\">EASM</span> expanded its influence"
+        },
+        {
+          "title": "Medieval Warm Period",
+          "pageid": 60160417,
+          "snippet": "and the Tibetan Plateau. During the MWP, the East Asian Summer Monsoon (<span class=\"searchmatch\">EASM</span>) was the strongest it has been in the past millennium and was highly sensitive"
+        },
+        {
+          "title": "Hex file",
+          "pageid": 20043840,
+          "snippet": "format, a hex file format by Digital Research elektor assembler hex format (<span class=\"searchmatch\">EASM</span>), a hex file format by elektor Microchip Technology hex format, a hex file"
+        },
+        {
+          "title": "Explicit algebraic stress model",
+          "pageid": 41033059,
+          "snippet": "negligible, i.e. source dominated flows. In order to simplify the existing <span class=\"searchmatch\">EASM</span> and to achieve an efficient numerical implementation the underlying tensor"
+        },
+        {
+          "title": "4.2-kiloyear event",
+          "pageid": 8928747,
+          "snippet": "reduction in the strength of the East Asian Summer Monsoon (<span class=\"searchmatch\">EASM</span>). This profound weakening of the <span class=\"searchmatch\">EASM</span> has been postulated to have resulted from a reduction"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:34.285134+00:00",
+      "status": "ambiguous",
+      "disambiguation_history": "Disambiguation: unresolved. Top pages: Medieval Warm Period; Monsoon; Explicit algebraic stress model.",
+      "disambiguation_status": "unresolved",
+      "disambiguation_titles": [
+        "Medieval Warm Period",
+        "Monsoon",
+        "Explicit algebraic stress model"
+      ]
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "wiki_lang": "en",
+      "wiki_title": "Last Glacial Maximum",
+      "wiki_pageid": 1178938,
+      "wiki_url": "https://en.wikipedia.org/wiki/Last_Glacial_Maximum",
+      "wikidata_id": "Q1979625",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1979625",
+      "candidates": [
+        {
+          "title": "Last Glacial Maximum",
+          "pageid": 1178938,
+          "snippet": "The <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> <span class=\"searchmatch\">Maximum</span> (LGM), also referred to as the <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> Coldest Period, was the most recent time during the <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> Period where ice"
+        },
+        {
+          "title": "Last Glacial Maximum refugia",
+          "pageid": 10810812,
+          "snippet": "<span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> <span class=\"searchmatch\">Maximum</span> refugia were places (refugia) in which humans and other species survived during the <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> Period, around 25,000 to 18,000"
+        },
+        {
+          "title": "Last Glacial Period",
+          "pageid": 557672,
+          "snippet": "The <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> Period (LGP), also known as the <span class=\"searchmatch\">last</span> <span class=\"searchmatch\">glacial</span> cycle, occurred from the end of the <span class=\"searchmatch\">Last</span> Interglacial to the beginning of the Holocene, from"
+        },
+        {
+          "title": "Ice age",
+          "pageid": 15361,
+          "snippet": "ago. The most severe cold period of the LGP was the <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> <span class=\"searchmatch\">Maximum</span>, which reached its <span class=\"searchmatch\">maximum</span> between 26,000 and 20,000 years ago. The most recent"
+        },
+        {
+          "title": "Early human migrations",
+          "pageid": 14821485,
+          "snippet": "contribution) from regional varieties of archaic humans. After the <span class=\"searchmatch\">Last</span> <span class=\"searchmatch\">Glacial</span> <span class=\"searchmatch\">Maximum</span>, North Eurasian populations migrated to the Americas about 20,000"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:35.328469+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "wiki_lang": "en",
+      "wiki_title": "Tibetan Plateau",
+      "wiki_pageid": 523282,
+      "wiki_url": "https://en.wikipedia.org/wiki/Tibetan_Plateau",
+      "wikidata_id": "Q179842",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q179842",
+      "candidates": [
+        {
+          "title": "Tibetan Plateau",
+          "pageid": 523282,
+          "snippet": "The <span class=\"searchmatch\">Tibetan</span> <span class=\"searchmatch\">Plateau</span>, also known as the Qinghai–Tibet <span class=\"searchmatch\">Plateau</span>, Qingzang <span class=\"searchmatch\">Plateau</span>, is a vast elevated <span class=\"searchmatch\">plateau</span> located at the intersection of Central, South"
+        },
+        {
+          "title": "Tibetan fox",
+          "pageid": 1916398,
+          "snippet": "The <span class=\"searchmatch\">Tibetan</span> fox (Vulpes ferrilata), also known as the <span class=\"searchmatch\">Tibetan</span> sand fox, is a species of true fox endemic to the high <span class=\"searchmatch\">Tibetan</span> <span class=\"searchmatch\">Plateau</span> and Bhutan, China"
+        },
+        {
+          "title": "Tibet",
+          "pageid": 31516,
+          "snippet": "Asia, covering much of the <span class=\"searchmatch\">Tibetan</span> <span class=\"searchmatch\">Plateau</span>. It is the homeland of the <span class=\"searchmatch\">Tibetans</span>. Other ethnic groups also reside on the <span class=\"searchmatch\">plateau</span>, including Mongols, the Lhoba"
+        },
+        {
+          "title": "Plateau pika",
+          "pageid": 12542204,
+          "snippet": "of the <span class=\"searchmatch\">Tibetan</span> <span class=\"searchmatch\">Plateau</span>), the <span class=\"searchmatch\">plateau</span> pika is the favorite food of the area&#039;s brown bears. In addition to its role as a prey base, the <span class=\"searchmatch\">plateau</span> pika is"
+        },
+        {
+          "title": "Plateau",
+          "pageid": 538005,
+          "snippet": "are the <span class=\"searchmatch\">Tibetan</span> <span class=\"searchmatch\">Plateau</span> between the Himalayas and Kunlun Mountains, and the Altiplano <span class=\"searchmatch\">plateau</span> between two ranges of the Andes. Piedmont <span class=\"searchmatch\">plateaus</span> are bordered"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:36.174520+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich event",
+      "wiki_lang": "en",
+      "wiki_title": "Heinrich event",
+      "wiki_pageid": 1944832,
+      "wiki_url": "https://en.wikipedia.org/wiki/Heinrich_event",
+      "wikidata_id": "Q1596382",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1596382",
+      "candidates": [
+        {
+          "title": "Heinrich event",
+          "pageid": 1944832,
+          "snippet": "A <span class=\"searchmatch\">Heinrich</span> event is a natural phenomenon in which large groups of icebergs break off from the Laurentide ice sheet and traverse the Hudson Strait into"
+        },
+        {
+          "title": "Last Glacial Maximum",
+          "pageid": 1178938,
+          "snippet": "replaced open boreal forests at the start of the LGM, specifically during <span class=\"searchmatch\">Heinrich</span> <span class=\"searchmatch\">Stadial</span> 3. The overall climate of the region became both drier and colder."
+        },
+        {
+          "title": "Youngest Toba eruption",
+          "pageid": 186406,
+          "snippet": "also named <span class=\"searchmatch\">Heinrich</span> <span class=\"searchmatch\">stadial</span> 7a. <span class=\"searchmatch\">Heinrich</span> events tend to be longer, colder and with weaker AMOC in the Atlantic Ocean than other DO <span class=\"searchmatch\">stadials</span>. From 74 to"
+        },
+        {
+          "title": "Anil Kumar Gupta (scientist)",
+          "pageid": 71791110,
+          "snippet": "Baker, J., ... and Edwards, R.L. (2021). Onset and termination of <span class=\"searchmatch\">Heinrich</span> <span class=\"searchmatch\">Stadial</span> 4 and the underlying climate dynamics. Communications Earth &amp; Environment"
+        },
+        {
+          "title": "Desert of Maine",
+          "pageid": 3580082,
+          "snippet": "thinning of the Laurentide Ice Sheet in coastal Maine, USA, during late <span class=\"searchmatch\">Heinrich</span> <span class=\"searchmatch\">Stadial</span> 1&quot;. Quaternary Science Reviews. 163 (163): 180–192. Bibcode:2017QSRv"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:36.956678+00:00",
+      "status": "ambiguous",
+      "disambiguation_history": "Disambiguation: unresolved. Top pages: Heinrich event; Last Glacial Maximum; Desert of Maine.",
+      "disambiguation_status": "unresolved",
+      "disambiguation_titles": [
+        "Heinrich event",
+        "Last Glacial Maximum",
+        "Desert of Maine"
+      ]
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "wiki_lang": "en",
+      "wiki_title": "Younger Dryas",
+      "wiki_pageid": 54957,
+      "wiki_url": "https://en.wikipedia.org/wiki/Younger_Dryas",
+      "wikidata_id": "Q944279",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q944279",
+      "candidates": [
+        {
+          "title": "Younger Dryas",
+          "pageid": 54957,
+          "snippet": "the <span class=\"searchmatch\">Younger</span> <span class=\"searchmatch\">Dryas</span> has been confirmed in both ice cores and cave deposits. The <span class=\"searchmatch\">Younger</span> <span class=\"searchmatch\">Dryas</span> period is named after the alpine–tundra wildflower <span class=\"searchmatch\">Dryas</span> octopetala"
+        },
+        {
+          "title": "Younger Dryas impact hypothesis",
+          "pageid": 11338425,
+          "snippet": "The <span class=\"searchmatch\">Younger</span> <span class=\"searchmatch\">Dryas</span> impact hypothesis (YDIH) is a fringe hypothesis that posits that the cause of the disruption of the Atlantic meridional overturning"
+        },
+        {
+          "title": "Vela supernova remnant",
+          "pageid": 4090318,
+          "snippet": "been suggested that the supernova could have been a trigger for the <span class=\"searchmatch\">Younger</span> <span class=\"searchmatch\">Dryas</span> climate event that marked the end of the last ice age. While this theory"
+        },
+        {
+          "title": "Bølling–Allerød Interstadial",
+          "pageid": 9183618,
+          "snippet": "This interstadial followed the Oldest <span class=\"searchmatch\">Dryas</span> period, which lasted from ~18,000 to 14,700 BP. While Oldest <span class=\"searchmatch\">Dryas</span> was still significantly colder than the"
+        },
+        {
+          "title": "Late Pleistocene",
+          "pageid": 2803279,
+          "snippet": "Oldest <span class=\"searchmatch\">Dryas</span> (stadial), the Bølling oscillation (interstadial), the Older <span class=\"searchmatch\">Dryas</span> (stadial), the Allerød oscillation (interstadial) and finally the <span class=\"searchmatch\">Younger</span> Dryas"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:38.030300+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic meridional overturning circulation",
+      "wiki_lang": "en",
+      "wiki_title": "Atlantic meridional overturning circulation",
+      "wiki_pageid": 5097491,
+      "wiki_url": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+      "wikidata_id": "Q4652675",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q4652675",
+      "candidates": [
+        {
+          "title": "Atlantic meridional overturning circulation",
+          "pageid": 5097491,
+          "snippet": "The <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">meridional</span> <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span> (AMOC) is the main ocean current system in the <span class=\"searchmatch\">Atlantic</span> Ocean. It is a major component of Earth&#039;s ocean"
+        },
+        {
+          "title": "Thermohaline circulation",
+          "pageid": 387457,
+          "snippet": "This global <span class=\"searchmatch\">circulation</span> comprises two major &quot;limbs;&quot; the <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">meridional</span> <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span> (AMOC) centered in the north <span class=\"searchmatch\">Atlantic</span> Ocean, and the"
+        },
+        {
+          "title": "Gulf Stream",
+          "pageid": 23686446,
+          "snippet": "Gulf Stream is a warm and swift <span class=\"searchmatch\">Atlantic</span> ocean current that is part of the <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">meridional</span> <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span> (AMOC). It originates in the Gulf"
+        },
+        {
+          "title": "Southern Ocean overturning circulation",
+          "pageid": 70383490,
+          "snippet": "Ocean <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span> (sometimes referred to as the Southern <span class=\"searchmatch\">Meridional</span> <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span> (SMOC) or Antarctic <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span>) is"
+        },
+        {
+          "title": "Cold blob",
+          "pageid": 49190541,
+          "snippet": "of Greenland, affecting the <span class=\"searchmatch\">Atlantic</span> <span class=\"searchmatch\">meridional</span> <span class=\"searchmatch\">overturning</span> <span class=\"searchmatch\">circulation</span> (AMOC) which is part of the thermohaline <span class=\"searchmatch\">circulation</span>, possibly related to global"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:38.770691+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "cave",
+      "display": "Cave",
+      "wiki_lang": "en",
+      "wiki_title": "Cave",
+      "wiki_pageid": 5778,
+      "wiki_url": "https://en.wikipedia.org/wiki/Cave",
+      "wikidata_id": "Q35509",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q35509",
+      "candidates": [
+        {
+          "title": "Cave",
+          "pageid": 5778,
+          "snippet": "<span class=\"searchmatch\">Caves</span> and caverns are natural voids under the surface of the Earth and have also been observed in other rocky worlds (e.g., on Mars). <span class=\"searchmatch\">Caves</span> often form"
+        },
+        {
+          "title": "Cave (company)",
+          "pageid": 1595641,
+          "snippet": "<span class=\"searchmatch\">CAVE</span> Interactive Co., Ltd. is a Japanese video game company founded in 1994 by former employees of Toaplan following its bankruptcy. It is known primarily"
+        },
+        {
+          "title": "Caving",
+          "pageid": 5776,
+          "snippet": "exploring wild <span class=\"searchmatch\">cave</span> systems (as distinguished from show <span class=\"searchmatch\">caves</span>). In contrast, speleology is the scientific study of <span class=\"searchmatch\">caves</span> and the <span class=\"searchmatch\">cave</span> environment. The"
+        },
+        {
+          "title": "Nutty Putty Cave",
+          "pageid": 25226280,
+          "snippet": "Putty <span class=\"searchmatch\">Cave</span> is a hydrothermal <span class=\"searchmatch\">cave</span> located west of Utah Lake in Utah County, Utah, United States. The <span class=\"searchmatch\">cave</span> attracted amateur and professional <span class=\"searchmatch\">cavers</span> alike"
+        },
+        {
+          "title": "Allegory of the cave",
+          "pageid": 89525,
+          "snippet": "The allegory of the <span class=\"searchmatch\">cave</span> is an allegory presented by the Greek philosopher Plato in his work Republic (514a–520a, Book VII) to compare &quot;the effect of education"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:39.585397+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "monsoon",
+      "display": "Monsoon",
+      "wiki_lang": "en",
+      "wiki_title": "Monsoon",
+      "wiki_pageid": 57630,
+      "wiki_url": "https://en.wikipedia.org/wiki/Monsoon",
+      "wikidata_id": "Q42967",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q42967",
+      "candidates": [
+        {
+          "title": "Monsoon",
+          "pageid": 57630,
+          "snippet": "A <span class=\"searchmatch\">monsoon</span> (/mɒnˈsuːn/) is traditionally a seasonal reversing wind accompanied by corresponding changes in precipitation, but now used to describe seasonal"
+        },
+        {
+          "title": "Monsoon (disambiguation)",
+          "pageid": 6203383,
+          "snippet": "refer to: <span class=\"searchmatch\">Monsoon</span> (speakers), a brand of loudspeakers <span class=\"searchmatch\">Monsoon</span> Accessorize, a British clothing retailer <span class=\"searchmatch\">Monsoon</span> Books, a publishing firm <span class=\"searchmatch\">Monsoon</span> (comics)"
+        },
+        {
+          "title": "Jinkx Monsoon",
+          "pageid": 39182057,
+          "snippet": "Lilith Hoffer (born September 18, 1987), best known by the stage name Jinkx <span class=\"searchmatch\">Monsoon</span>, is an American drag queen, actress, singer and comedian, best-known for"
+        },
+        {
+          "title": "Monsoon Wedding",
+          "pageid": 940565,
+          "snippet": "<span class=\"searchmatch\">Monsoon</span> Wedding is a 2001 comedy-drama film directed by Mira Nair, written by Sabrina Dhawan, and starring Naseeruddin Shah, Lillete Dubey, Shefali Shah"
+        },
+        {
+          "title": "Monsoon of South Asia",
+          "pageid": 31096097,
+          "snippet": "The <span class=\"searchmatch\">Monsoon</span> of South Asia is among several geographically distributed global <span class=\"searchmatch\">monsoons</span>. It affects the Indian subcontinent, where it is one of the oldest"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:40.315182+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "ka bp",
+      "display": "4.2-kiloyear event",
+      "wiki_lang": "en",
+      "wiki_title": "4.2-kiloyear event",
+      "wiki_pageid": 8928747,
+      "wiki_url": "https://en.wikipedia.org/wiki/4.2-kiloyear_event",
+      "wikidata_id": "Q1291515",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q1291515",
+      "candidates": [
+        {
+          "title": "4.2-kiloyear event",
+          "pageid": 8928747,
+          "snippet": "pronounced dry phases from 2350 to 2200 BC (4.3 - 4.15 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>) and from 2100 to 2000 BC (4.05 - 3.95 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>). The dry phases were followed by a shift towards"
+        },
+        {
+          "title": "Weichselian glaciation",
+          "pageid": 20930890,
+          "snippet": "19 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>. In the remainder of northwestern Russia the largest glacier advance occurred 17 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>. As the ice margin started to recede 22–17 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>, Denmark"
+        },
+        {
+          "title": "Lake Van",
+          "pageid": 46772,
+          "snippet": "level occurred circa 600, 365–340, 290–230, 150–130, and 30–14 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>. Between 600 and 230 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>, the lake varied dramatically, by hundreds of meters. The occurrence"
+        },
+        {
+          "title": "Yana Rhinoceros Horn Site",
+          "pageid": 69359516,
+          "snippet": "remains of two young male humans discovered at the site, dating to c. 31.6 <span class=\"searchmatch\">ka</span> <span class=\"searchmatch\">BP</span>, represent a distinct archaeogenetic lineage, named Ancient North Siberians"
+        },
+        {
+          "title": "Littorina Sea",
+          "pageid": 2514948,
+          "snippet": "fresh water stage in the Baltic basin, the Ancylus Lake ended at 9,800 <span class=\"searchmatch\">ka</span> cal. <span class=\"searchmatch\">BP</span> when salt water from the world ocean started entering the Mastogloia Sea"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:41.097172+00:00",
+      "status": "ambiguous",
+      "disambiguation_history": "Disambiguation: unresolved. Top pages: Yana Rhinoceros Horn Site; 4.2-kiloyear event; Littorina Sea.",
+      "disambiguation_status": "unresolved",
+      "disambiguation_titles": [
+        "Yana Rhinoceros Horn Site",
+        "4.2-kiloyear event",
+        "Littorina Sea"
+      ]
+    },
+    {
+      "phrase": "australia",
+      "display": "Australia",
+      "wiki_lang": "en",
+      "wiki_title": "Australia",
+      "wiki_pageid": 4689264,
+      "wiki_url": "https://en.wikipedia.org/wiki/Australia",
+      "wikidata_id": "Q408",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q408",
+      "candidates": [
+        {
+          "title": "Australia",
+          "pageid": 4689264,
+          "snippet": "<span class=\"searchmatch\">Australia</span>, officially the Commonwealth of <span class=\"searchmatch\">Australia</span>, is a country comprising the mainland of the <span class=\"searchmatch\">Australian</span> continent, the island of Tasmania and numerous"
+        },
+        {
+          "title": "Australians",
+          "pageid": 11197621,
+          "snippet": "<span class=\"searchmatch\">Australians</span>, colloquially known as Aussies, are the citizens, nationals and individuals associated with the country <span class=\"searchmatch\">Australia</span>. This connection may be"
+        },
+        {
+          "title": "Australasia",
+          "pageid": 21492915,
+          "snippet": "Asia: New South Wales, Queensland, South <span class=\"searchmatch\">Australia</span>, Tasmania, Western <span class=\"searchmatch\">Australia</span>, Victoria (i.e., the <span class=\"searchmatch\">Australian</span> colonies) and New Zealand. Australasia found"
+        },
+        {
+          "title": "Taskmaster Australia",
+          "pageid": 72960880,
+          "snippet": "Taskmaster <span class=\"searchmatch\">Australia</span> is an <span class=\"searchmatch\">Australian</span> comedy panel game show first broadcast on Network 10 on 2 February 2023. Based on the British show Taskmaster created"
+        },
+        {
+          "title": "Australia (disambiguation)",
+          "pageid": 3155912,
+          "snippet": "Look up <span class=\"searchmatch\">Australia</span>, <span class=\"searchmatch\">Austrália</span>, <span class=\"searchmatch\">Austràlia</span>, <span class=\"searchmatch\">australia</span>, or <span class=\"searchmatch\">australià</span> in Wiktionary, the free dictionary. <span class=\"searchmatch\">Australia</span> is a country in the Southern Hemisphere"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:42.346586+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "ma",
+      "display": "MA",
+      "wiki_lang": "en",
+      "wiki_title": "MA",
+      "wiki_pageid": 225047,
+      "wiki_url": "https://en.wikipedia.org/wiki/MA",
+      "wikidata_id": "Q219251",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q219251",
+      "candidates": [
+        {
+          "title": "MA",
+          "pageid": 225047,
+          "snippet": "Look up -<span class=\"searchmatch\">ma</span>, <span class=\"searchmatch\">Ma</span>, <span class=\"searchmatch\">ma</span>, or <span class=\"searchmatch\">ma</span>- in Wiktionary, the free dictionary. <span class=\"searchmatch\">Ma</span>, <span class=\"searchmatch\">MA</span>, or <span class=\"searchmatch\">mA</span> may refer to: Master of Arts, a degree award Master of Arts (Oxford, Cambridge"
+        },
+        {
+          "title": "Maria",
+          "pageid": 14781968,
+          "snippet": "Look up Maria, María, or maria in Wiktionary, the free dictionary. Maria may refer to: Maria (given name), a popular given name in many languages Moria"
+        },
+        {
+          "title": "Jack Ma",
+          "pageid": 2432849,
+          "snippet": "<span class=\"searchmatch\">Ma</span> Yun (Chinese: 马云; pinyin: <span class=\"searchmatch\">Mǎ</span> Yún; born 10 September 1964), also known as Jack <span class=\"searchmatch\">Ma</span>, is a Chinese businessman and philanthropist. He is the founder of"
+        },
+        {
+          "title": ".ma",
+          "pageid": 1237567,
+          "snippet": "register a .<span class=\"searchmatch\">ma</span> or .co.<span class=\"searchmatch\">ma</span> domain name. Further restrictions are imposed on the registering of other second-level domains (such as .ac.<span class=\"searchmatch\">ma</span> or .gov.<span class=\"searchmatch\">ma</span>). In 1993"
+        },
+        {
+          "title": "Ma Ma",
+          "pageid": 47679948,
+          "snippet": "<span class=\"searchmatch\">Ma</span> <span class=\"searchmatch\">Ma</span> can refer to: <span class=\"searchmatch\">Ma</span>-<span class=\"searchmatch\">ma</span> (1976 film), a 1976 Romanian film <span class=\"searchmatch\">Ma</span> <span class=\"searchmatch\">Ma</span> (2015 film), a 2015 Spanish film Mama This disambiguation page lists articles associated"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:43.231459+00:00",
+      "status": "resolved"
+    },
+    {
+      "phrase": "kyr",
+      "display": "KYR",
+      "wiki_lang": "en",
+      "wiki_title": "KYR",
+      "wiki_pageid": 69702309,
+      "wiki_url": "https://en.wikipedia.org/wiki/KYR",
+      "wikidata_id": "Q3812326",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q3812326",
+      "candidates": [
+        {
+          "title": "KYR",
+          "pageid": 69702309,
+          "snippet": "<span class=\"searchmatch\">KYR</span> or <span class=\"searchmatch\">kyr</span> refers to: <span class=\"searchmatch\">kyr</span>, a kiloyear, a millennium Kyrgyzstan, UNDP country code <span class=\"searchmatch\">kyr</span>, ISO 639-3 code for Kuruaya language Robert <span class=\"searchmatch\">Kyr</span>, an American composer"
+        },
+        {
+          "title": "Year",
+          "pageid": 34341,
+          "snippet": "literature. In some Earth sciences branches (geology and paleontology), &quot;<span class=\"searchmatch\">kyr</span>, myr, byr&quot; (thousands, millions, and billions of years, respectively) and"
+        },
+        {
+          "title": "Kyrgyzstan",
+          "pageid": 170131,
+          "snippet": "Kyrgyzstan, officially the Kyrgyz Republic, formerly known as Kirghizia, is a landlocked country located in Central Asia, lying in the Tian Shan and Pamir"
+        },
+        {
+          "title": "Kyr Kozma",
+          "pageid": 60109878,
+          "snippet": "<span class=\"searchmatch\">Kyr</span> Kozma (Master Kozma or Kozma) was one of the most renowned Serbian painters who lived and worked in the sixteenth and early seventeenth century along"
+        },
+        {
+          "title": "Veľký Kýr",
+          "pageid": 7437442,
+          "snippet": "Veľký <span class=\"searchmatch\">Kýr</span> (Hungarian: Nagykér or Nyitranagykér) is a village and municipality in the Nové Zámky District in the Nitra Region of south-west Slovakia. In"
+        }
+      ],
+      "fetched_at": "2026-11-03T18:39:44.010364+00:00",
+      "status": "resolved"
+    }
+  ],
+  "counts": {
+    "selected": 30,
+    "written": 30,
+    "fetched": 30,
+    "cached": 0,
+    "error": 0,
+    "resolved": 24,
+    "ambiguous": 6,
+    "missing": 0,
+    "disambiguated": 2
+  },
+  "entries_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20/encyclopedia/entries.json",
+  "html_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20/encyclopedia/encyclopedia.html"
+}

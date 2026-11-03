@@ -4,76 +4,91 @@
     {
       "phrase": "northern hemisphere",
       "display": "Northern Hemisphere",
-      "score": 3.2
+      "score": 3.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "southern hemisphere",
       "display": "Southern Hemisphere",
-      "score": 1.9
+      "score": 1.9,
+      "channel": "uppercase"
     },
     {
       "phrase": "maritime continent",
       "display": "Maritime Continent",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "bromfield swamp",
       "display": "Bromfield Swamp",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "east asian",
       "display": "East Asian",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "global precipitation climatology project",
       "display": "Global Precipitation Climatology Project",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "chinese loess plateau",
       "display": "Chinese Loess Plateau",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "holocene",
       "display": "Holocene",
-      "score": 1.65
+      "score": 1.65,
+      "channel": "uppercase"
     },
     {
       "phrase": "yd",
       "display": "YD",
-      "score": 1.54
+      "score": 1.54,
+      "channel": "uppercase"
     },
     {
       "phrase": "ausm",
       "display": "AuSM",
-      "score": 1.51
+      "score": 1.51,
+      "channel": "uppercase"
     },
     {
       "phrase": "monsoon",
       "score": 0.0413,
+      "channel": "tfidf",
       "display": "monsoon"
     },
     {
       "phrase": "a-aums",
       "score": 0.0412,
+      "channel": "tfidf",
       "display": "A-AuMS"
     },
     {
       "phrase": "yd event",
       "score": 0.0412,
+      "channel": "tfidf",
       "display": "YD event"
     },
     {
       "phrase": "australian",
       "score": 0.0394,
+      "channel": "tfidf",
       "display": "Australian"
     },
     {
       "phrase": "australia",
       "score": 0.0394,
+      "channel": "tfidf",
       "display": "Australia"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

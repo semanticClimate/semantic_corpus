@@ -76,9 +76,17 @@ def run_placeholder(step: str) -> Dict[str, Any]:
             f"resolution={opts.cluster_resolution}"
         )
     elif step == "encyclopedia":
-        extra = f" lang={opts.encyclopedia_lang}"
+        extra = (
+            f" lang={opts.encyclopedia_lang} max_entries={opts.max_entries} "
+            f"min_score={opts.min_score} min_paper_count={opts.min_paper_count} "
+            f"from={opts.encyclopedia_source}"
+        )
     elif step == "kg":
-        extra = f" max_island={opts.kg_max_island}"
+        extra = (
+            f" links={opts.kg_links!r} max_island={opts.kg_max_island} "
+            f"min_paper_count={opts.kg_min_paper_count} "
+            f"max_terms={opts.kg_max_terms}"
+        )
 
     print(f"[pipeline] {step}: placeholder → {path}{extra}")
 

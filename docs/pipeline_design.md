@@ -199,7 +199,7 @@ Force semantics: `doit forget <task>` or task-specific `--force` / Streamlit “
 
 **Depends on.** `corpus`.
 
-**Actions.** `extract_phrases` (default TF-IDF, XML **body only**, proper phrases; YAKE optional). Writes `phrases/`.
+**Actions.** `extract_phrases` (default TF-IDF, XML **body only**, uppercase/titlecase phrases; YAKE optional). Writes `phrases/`.
 
 **Policy (fixed for v1 design).**
 
@@ -291,50 +291,56 @@ Force semantics: `doit forget <task>` or task-specific `--force` / Streamlit “
 
 ### 5.8 `encyclopedia` — Wikipedia entries for phrases
 
-**Purpose.** For **retained** phrases (after clean, or after clusters if clean skipped), resolve Wikipedia pages / Wikidata items.
+**Authoritative definition:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md).
 
-**Depends on.** Prefer `clean` (use kept phrases); allow `clusters` if user skips clean (document the risk).
+**Purpose.** Resolve retained phrases to Wikipedia pages + Wikidata ids; cache under `encyclopedia/`. Does not build the multi-edge KG (`kg` does).
 
-**Actions (design).**
+**Depends on.** `clean` (graph); prefer Keep / non-demoted terms.
 
-1. Phrase list = non-demoted terms from kept papers.  
-2. Resolve titles / Q-ids (MediaWiki / Wikidata APIs; rate-limit; cache).  
-3. Write `encyclopedia/entries.json` (`phrase`, `display`, `wiki_title`, `wikidata_id`, `url`, `status`).  
-4. Write `encyclopedia/fetch_log.jsonl`.
+**Flags.** `--encyclopedia-lang`, `--max-entries`.
 
-**Targets / uptodate.**
+**Outputs.** `encyclopedia/entries.json`, `fetch_log.jsonl`, `pipeline/encyclopedia.stamp`.
 
-- `encyclopedia/entries.json`  
-- Current if entries cover current kept-phrase set hash (hash of sorted phrase ids from clean/clusters).
-
-**Streamlit.** Stage Encyclopedia; progress for fetches.
+**Partner sketch:** [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md).
 
 ---
 
-### 5.9 `kg` — linked knowledge graph
+### 5.9 `kg` — linked knowledge graph + display
 
-**Purpose.** Build a displayable KG linking **corpus papers**, **phrases**, and **encyclopedia entities**, plus Wikidata/Wikimedia proximity / bibliography edges where available. Surface **islands** as FP hints for `clean`.
+**Purpose.** Build a **displayable** KG from the cluster BKG (papers ↔ phrases), optionally attaching encyclopedia entities. Generate typed edges from selectable link tools; surface **islands** as FP hints for `clean`.
 
-**Depends on.** `encyclopedia` (and implicitly corpus/phrases). Optional edges from BKG (`clusters`).
+**Depends on.** `clusters` (encyclopedia is optional soft-attach when `entries.json` exists).
 
-**Actions (design).**
+**Flags.** `--kg-links clusters,wikipedia,wikidata`, `--kg-max-island`.
 
-1. Nodes: papers, phrases, wiki/wikidata entities.  
-2. Edges: paper–phrase (from phrases/BKG); phrase–entity (encyclopedia); entity–entity (Wikidata proximity / sitelinks); optional biblio.  
-3. Write `encyclopedia/kg.json` or `kg/graph.json` + `kg/islands.json` (components weakly linked to the main topical core).  
-4. `kg/kg_summary.json` (counts, island sizes).
+**CLI.** `pipeline kg --workdir … --kg-links clusters,wikipedia --open`
+
+**Edge / link generators.**
+
+| Source (`--kg-links`) | Edges (v1) |
+|-----------------------|--------|
+| `clusters` | Paper↔phrase from the BKG (required core) |
+| `wikipedia` | Attach encyclopedia entity nodes when `entries.json` exists |
+| `wikidata` | Reserved (structured neighbours / embeddings — not yet wired) |
+
+**Actions.**
+
+1. Nodes: papers, phrases; optional wiki entities from encyclopedia.  
+2. Run selected link tools; tag each edge with `source`.  
+3. Write `kg/graph.json` + `kg/islands.json` + `kg/kg_summary.json` + `kg/knowledge_graph.html`.  
+4. **Display:** vis-network HTML (`--open` opens the browser); Streamlit stage later.
 
 **Targets / uptodate.**
 
-- `kg/graph.json` (or agreed path under `encyclopedia/`)  
-- Current if newer than `encyclopedia/entries.json` and phrase/clean stamp.
+- `kg/graph.json`, `kg/knowledge_graph.html`  
+- Current if newer than `clusters/` (and `encyclopedia/entries.json` when used) and selected `--kg-links` params.
 
 **Relationship to `encyclopedia`.**  
-- `encyclopedia` = per-phrase page resolution.  
-- `kg` = graph assembly + island detection + UI visualisation.  
-- Optional partner to `clean`: islands feed candidate FP terms/papers back into the clean UI (**dashed feedback**, human confirms).
+- `encyclopedia` = per-phrase page resolution (optional input).  
+- `kg` = graph assembly + link tools + island detection + HTML.  
+- Optional partner to `clean`: islands feed candidate FP terms/papers (**human confirms**).
 
-**Streamlit.** Stage “Knowledge graph”; island panel with “Send to clean”.
+**Detail:** [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md).
 
 ---
 

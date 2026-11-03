@@ -1,0 +1,88 @@
+{
+  "max_island": 20,
+  "island_count": 5,
+  "islands": [
+    {
+      "size": 14,
+      "node_ids": [
+        "paper:europe_pmc_PMC12680610",
+        "paper:europe_pmc_PMC12753843",
+        "paper:europe_pmc_PMC12835000",
+        "paper:europe_pmc_PMC12859089",
+        "paper:europe_pmc_PMC13639189",
+        "term:australia",
+        "term:cave",
+        "term:easm",
+        "term:indian ocean",
+        "term:ka bp",
+        "term:maritime continent",
+        "term:northern hemisphere",
+        "term:southern hemisphere",
+        "term:yd"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 7,
+      "node_ids": [
+        "paper:europe_pmc_PMC12354891",
+        "paper:europe_pmc_PMC13477475",
+        "paper:europe_pmc_PMC13488926",
+        "paper:europe_pmc_PMC13598196",
+        "term:amoc",
+        "term:lgi",
+        "term:southern ocean"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13376600",
+        "paper:europe_pmc_PMC13454564",
+        "term:heinrich stadial",
+        "term:last glacial maximum",
+        "term:south america",
+        "term:younger dryas"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC12662202",
+        "paper:europe_pmc_PMC13319204",
+        "term:bp",
+        "term:kyr",
+        "term:monte carlo"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC13458837",
+        "paper:europe_pmc_PMC13578706",
+        "term:ma",
+        "term:mis",
+        "term:tibetan plateau"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

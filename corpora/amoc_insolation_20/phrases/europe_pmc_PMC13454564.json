@@ -4,76 +4,91 @@
     {
       "phrase": "south america",
       "display": "South America",
-      "score": 1.8
+      "score": 1.8,
+      "channel": "uppercase"
     },
     {
       "phrase": "last glacial maximum",
       "display": "Last Glacial Maximum",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "northern hemisphere",
       "display": "Northern Hemisphere",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "heinrich stadial",
       "display": "Heinrich Stadial",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "younger dryas",
       "display": "Younger Dryas",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "sete lagoas",
       "display": "Sete Lagoas",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "atlantic meridional overturning circulation",
       "display": "Atlantic Meridional Overturning Circulation",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "amoc",
       "display": "AMOC",
-      "score": 1.48
+      "score": 1.48,
+      "channel": "uppercase"
     },
     {
       "phrase": "yd",
       "display": "YD",
-      "score": 1.26
+      "score": 1.26,
+      "channel": "uppercase"
     },
     {
       "phrase": "rei",
       "display": "REI",
-      "score": 1.19
+      "score": 1.19,
+      "channel": "uppercase"
     },
     {
       "phrase": "temperature",
       "score": 0.0404,
+      "channel": "tfidf",
       "display": "Temperature"
     },
     {
       "phrase": "rei mato",
       "score": 0.0401,
+      "channel": "tfidf",
       "display": "rei mato"
     },
     {
       "phrase": "mato",
       "score": 0.0401,
+      "channel": "tfidf",
       "display": "Mato"
     },
     {
       "phrase": "fluid",
       "score": 0.0389,
+      "channel": "tfidf",
       "display": "fluid"
     },
     {
       "phrase": "cave",
       "score": 0.0388,
+      "channel": "tfidf",
       "display": "Cave"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

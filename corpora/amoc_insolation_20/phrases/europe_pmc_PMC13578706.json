@@ -4,76 +4,91 @@
     {
       "phrase": "north atlantic",
       "display": "North Atlantic",
-      "score": 2.2
+      "score": 2.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "zoige basin",
       "display": "Zoige Basin",
-      "score": 1.8
+      "score": 1.8,
+      "channel": "uppercase"
     },
     {
       "phrase": "tibetan plateau",
       "display": "Tibetan Plateau",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "northern hemisphere",
       "display": "Northern Hemisphere",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "sr and carb",
       "display": "Sr and Carb",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "paleolake zoige",
       "display": "Paleolake Zoige",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "gulang loess",
       "display": "Gulang Loess",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "mcv",
       "display": "MCV",
-      "score": 2.86
+      "score": 2.86,
+      "channel": "uppercase"
     },
     {
       "phrase": "zb",
       "display": "ZB",
-      "score": 1.64
+      "score": 1.64,
+      "channel": "uppercase"
     },
     {
       "phrase": "mis",
       "display": "MIS",
-      "score": 1.46
+      "score": 1.46,
+      "channel": "uppercase"
     },
     {
       "phrase": "ma",
       "score": 0.038,
+      "channel": "tfidf",
       "display": "Ma"
     },
     {
       "phrase": "zoige",
       "score": 0.0369,
+      "channel": "tfidf",
       "display": "Zoige"
     },
     {
       "phrase": "carb",
       "score": 0.0369,
+      "channel": "tfidf",
       "display": "Carb"
     },
     {
       "phrase": "rb sr",
       "score": 0.0367,
+      "channel": "tfidf",
       "display": "rb sr"
     },
     {
       "phrase": "rb",
       "score": 0.0354,
+      "channel": "tfidf",
       "display": "Rb"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

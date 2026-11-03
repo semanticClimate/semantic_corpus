@@ -35,6 +35,17 @@ DEFAULT_MAX_BODY_CHARS = 50_000
 DEFAULT_METHOD = "tfidf"
 DEFAULT_SCORE_DIGITS = 4
 VALID_METHODS = frozenset({"tfidf", "yake"})
+# Phrase JSON shape: 4 uses channel ``uppercase`` (was ``proper`` in schema 3).
+PHRASE_SCHEMA = 4
+VALID_CHANNELS = frozenset({"uppercase", "tfidf", "yake"})
+# Older label kept only when reading schema-3 caches.
+_CHANNEL_ALIASES = {
+    "proper": "uppercase",
+    "uc": "uppercase",
+    "upper": "uppercase",
+}
+# Dual-scale heuristic for schema<3 TF-IDF caches (uppercase remapped to ≥1.0).
+_LEGACY_UPPERCASE_SCORE_FLOOR = 1.0
 
 # Loaded from ``cluster_review/lists/*.txt`` (editable; see lists/README.md).
 # Back-compat alias for callers that import BOILERPLATE_PHRASES.
@@ -139,6 +150,47 @@ def round_score(score: float, ndigits: int = DEFAULT_SCORE_DIGITS) -> float:
         return round(float(score), ndigits)
     except (TypeError, ValueError):
         return 0.0
+
+
+def phrase_channel(
+    item: Dict[str, Any],
+    *,
+    method: Optional[str] = None,
+) -> str:
+    """Return ``uppercase`` | ``tfidf`` | ``yake`` for a phrase dict.
+
+    Prefer the stored ``channel`` field. Legacy TF-IDF caches without
+    ``channel`` are inferred from the dual score scale (uppercase ≥ 1.0).
+    Schema-3 ``proper`` is accepted as an alias for ``uppercase``.
+    """
+    raw = str(item.get("channel") or "").strip().lower()
+    if raw in VALID_CHANNELS:
+        return raw
+    if raw in _CHANNEL_ALIASES:
+        return _CHANNEL_ALIASES[raw]
+    method_l = (method or "").strip().lower()
+    if method_l == "yake":
+        return "yake"
+    try:
+        score = float(item.get("score") or 0.0)
+    except (TypeError, ValueError):
+        score = 0.0
+    if score >= _LEGACY_UPPERCASE_SCORE_FLOOR:
+        return "uppercase"
+    return "tfidf"
+
+
+def _better_score(
+    current: Optional[float],
+    candidate: float,
+    *,
+    higher_is_better: bool,
+) -> float:
+    if current is None:
+        return candidate
+    if higher_is_better:
+        return candidate if candidate > current else current
+    return candidate if candidate < current else current
 
 
 def paper_text_from_metadata(metadata: Dict[str, Any]) -> str:
@@ -461,6 +513,7 @@ def _filter_phrases(
                 "phrase": norm,
                 "display": prefer_phrase_display(norm, surface),
                 "score": round_score(score),
+                "channel": "yake",
             }
         )
         if len(out) >= top:
@@ -536,6 +589,8 @@ def save_paper_phrases(
 def write_phrases_csv(
     phrases_dir: Path,
     papers: Sequence[Dict[str, Any]],
+    *,
+    method: Optional[str] = None,
 ) -> Path:
     """Write long-form ``phrases.csv``: one row per (paper, phrase)."""
     path = Path(phrases_dir, "phrases.csv")
@@ -543,7 +598,15 @@ def write_phrases_csv(
     with open(path, "w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
             handle,
-            fieldnames=["paper_id", "rank", "phrase", "display", "score", "source"],
+            fieldnames=[
+                "paper_id",
+                "rank",
+                "phrase",
+                "display",
+                "score",
+                "channel",
+                "source",
+            ],
         )
         writer.writeheader()
         for paper in papers:
@@ -560,6 +623,9 @@ def write_phrases_csv(
                         "score": round_score(item.get("score"))
                         if item.get("score") is not None
                         else "",
+                        "channel": phrase_channel(item, method=method)
+                        if phrase
+                        else "",
                         "source": source,
                     }
                 )
@@ -572,8 +638,13 @@ def write_phrases_summary_csv(
     *,
     top_n: int = 5,
     score_higher_is_better: bool = False,
+    method: Optional[str] = None,
 ) -> Tuple[Path, Path]:
     """Write inspection CSVs beside the phrase cache.
+
+    ``phrases_terms.csv`` splits scores by channel (``uppercase`` / ``tfidf`` /
+    ``yake``). ``best_score`` + ``score_channel`` name the preferred channel
+    for sorting (uppercase, else tfidf, else yake).
 
     Returns:
         ``(phrases_summary.csv, phrases_terms.csv)``
@@ -614,6 +685,8 @@ def write_phrases_summary_csv(
     term_stats: Dict[str, Dict[str, Any]] = {}
     for paper in papers:
         paper_id = str(paper.get("paper_id") or "")
+        # Track which (phrase, channel) pairs already counted this paper
+        seen_channel_paper: set = set()
         for item in paper.get("phrases") or []:
             phrase = str(item.get("phrase") or "").strip()
             if not phrase:
@@ -627,54 +700,107 @@ def write_phrases_summary_csv(
                 phrase,
                 item.get("display") if isinstance(item.get("display"), str) else None,
             )
+            channel = phrase_channel(item, method=method)
             entry = term_stats.get(phrase)
             if entry is None:
-                term_stats[phrase] = {
+                entry = {
                     "phrase": phrase,
                     "display": display,
-                    "n_papers": 1,
-                    "best_score": score_f,
-                    "paper_ids": [paper_id] if paper_id else [],
+                    "n_papers": 0,
+                    "paper_ids": [],
+                    "best_uppercase": None,
+                    "n_uppercase": 0,
+                    "best_tfidf": None,
+                    "n_tfidf": 0,
+                    "best_yake": None,
+                    "n_yake": 0,
                 }
+                term_stats[phrase] = entry
             else:
                 entry["display"] = prefer_phrase_display(entry.get("display"), display)
-                if paper_id and paper_id not in entry["paper_ids"]:
-                    entry["n_papers"] += 1
-                    entry["paper_ids"].append(paper_id)
-                if score_f is not None:
-                    if entry["best_score"] is None:
-                        entry["best_score"] = score_f
-                    elif score_higher_is_better and score_f > entry["best_score"]:
-                        entry["best_score"] = score_f
-                    elif not score_higher_is_better and score_f < entry["best_score"]:
-                        entry["best_score"] = score_f
+
+            if paper_id and paper_id not in entry["paper_ids"]:
+                entry["n_papers"] += 1
+                entry["paper_ids"].append(paper_id)
+
+            ch_key = (phrase, channel, paper_id)
+            if paper_id and ch_key not in seen_channel_paper:
+                seen_channel_paper.add(ch_key)
+                entry[f"n_{channel}"] = int(entry.get(f"n_{channel}") or 0) + 1
+
+            if score_f is not None:
+                # Per-channel: YAKE lower-is-better; uppercase/tfidf higher-is-better
+                ch_higher = channel != "yake"
+                best_key = f"best_{channel}"
+                entry[best_key] = _better_score(
+                    entry.get(best_key),
+                    score_f,
+                    higher_is_better=ch_higher,
+                )
 
     terms_path = Path(phrases_dir, "phrases_terms.csv")
+    fieldnames = [
+        "phrase",
+        "display",
+        "n_papers",
+        "best_uppercase",
+        "n_uppercase",
+        "best_tfidf",
+        "n_tfidf",
+        "best_yake",
+        "n_yake",
+        "best_score",
+        "score_channel",
+        "paper_ids",
+    ]
     with open(terms_path, "w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(
-            handle,
-            fieldnames=["phrase", "display", "n_papers", "best_score", "paper_ids"],
-        )
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
 
+        def _preferred(row: Dict[str, Any]) -> Tuple[Optional[float], str]:
+            if row.get("n_uppercase"):
+                return row.get("best_uppercase"), "uppercase"
+            if row.get("n_tfidf"):
+                return row.get("best_tfidf"), "tfidf"
+            if row.get("n_yake"):
+                return row.get("best_yake"), "yake"
+            return None, ""
+
         def _term_sort_key(r: Dict[str, Any]):
-            score = r["best_score"]
+            score, channel = _preferred(r)
+            has_uppercase = 0 if r.get("n_uppercase") else 1
             if score is None:
                 score_key = (True, 0.0)
-            elif score_higher_is_better:
-                score_key = (False, -float(score))
-            else:
+            elif channel == "yake" or not score_higher_is_better:
                 score_key = (False, float(score))
-            return (-int(r["n_papers"]),) + score_key + (r["phrase"],)
+            else:
+                score_key = (False, -float(score))
+            return (-int(r["n_papers"]), has_uppercase) + score_key + (
+                r["phrase"],
+            )
 
         rows = sorted(term_stats.values(), key=_term_sort_key)
         for row in rows:
+            best, channel = _preferred(row)
             writer.writerow(
                 {
                     "phrase": row["phrase"],
                     "display": row.get("display") or row["phrase"],
                     "n_papers": row["n_papers"],
-                    "best_score": row["best_score"],
+                    "best_uppercase": row["best_uppercase"]
+                    if row["best_uppercase"] is not None
+                    else "",
+                    "n_uppercase": row["n_uppercase"],
+                    "best_tfidf": row["best_tfidf"]
+                    if row["best_tfidf"] is not None
+                    else "",
+                    "n_tfidf": row["n_tfidf"],
+                    "best_yake": row["best_yake"]
+                    if row["best_yake"] is not None
+                    else "",
+                    "n_yake": row["n_yake"],
+                    "best_score": best if best is not None else "",
+                    "score_channel": channel,
                     "paper_ids": ";".join(row["paper_ids"]),
                 }
             )
@@ -753,11 +879,12 @@ def proper_phrases_from_text(
     min_count: int = 2,
     top: int = 8,
 ) -> List[Dict[str, Any]]:
-    """Extract capitalized phrases from document text.
+    """Extract uppercase / titlecase phrases from document text.
 
-    Document-grounded (not query seeds): multiword proper phrases are kept on
-    first sight; single tokens need ``min_count`` repeats. Surfaces geography
-    like ``Indian Ocean`` that TF-IDF buries under method jargon.
+    Document-grounded (not query seeds): multiword capitalized spans are kept
+    on first sight; single tokens need ``min_count`` repeats. Surfaces
+    geography like ``Indian Ocean`` that TF-IDF buries under method jargon.
+    Tagged as channel ``uppercase`` when merged with TF-IDF.
     """
     if not text:
         return []
@@ -859,7 +986,7 @@ def merge_tfidf_and_proper(
     top: int = DEFAULT_TOP,
     max_proper: int = 10,
 ) -> List[Dict[str, Any]]:
-    """Reserve slots for proper phrases, fill the rest from TF-IDF."""
+    """Reserve slots for uppercase phrases, fill the rest from TF-IDF."""
     proper_cap = max(0, min(max_proper, max(top - 5, 5) if top >= 8 else top // 2))
     cleaned: List[Dict[str, Any]] = []
     for item in proper_phrases or []:
@@ -884,6 +1011,7 @@ def merge_tfidf_and_proper(
                 "phrase": phrase,
                 "display": display,
                 "score": round_score(1.0 + raw * 0.01),
+                "channel": "uppercase",
             }
         )
 
@@ -896,11 +1024,15 @@ def merge_tfidf_and_proper(
     proper_part = multis[:multi_slots] + singles[:single_slots]
 
     used = {p["phrase"] for p in proper_part}
-    rest = [
-        p
-        for p in tfidf_phrases
-        if normalize_phrase(p.get("phrase") or "") not in used
-    ]
+    rest = []
+    for p in tfidf_phrases:
+        norm = normalize_phrase(p.get("phrase") or "")
+        if not norm or norm in used:
+            continue
+        row = dict(p)
+        row["phrase"] = norm
+        row["channel"] = "tfidf"
+        rest.append(row)
     combined = proper_part + rest
     return combined[:top]
 
@@ -1007,7 +1139,13 @@ def tfidf_phrases_for_corpus(
             ):
                 continue
             seen.add(phrase)
-            phrases.append({"phrase": phrase, "score": round_score(weight)})
+            phrases.append(
+                {
+                    "phrase": phrase,
+                    "score": round_score(weight),
+                    "channel": "tfidf",
+                }
+            )
             if len(phrases) >= top:
                 break
         results.append(phrases)
@@ -1110,7 +1248,7 @@ def extract_phrases(
         "include_front_matter": include_front_matter,
         "max_body_chars": max_body_chars if include_xml_body else 0,
         # Bump when phrase JSON shape changes (forces cache refresh).
-        "phrase_schema": 2,
+        "phrase_schema": PHRASE_SCHEMA,
     }
 
     if method == "tfidf":
@@ -1203,11 +1341,13 @@ def _finalize_summary(
             ensure_ascii=False,
         )
 
-    phrases_csv = write_phrases_csv(phrases_dir, papers_out)
+    method = str((params or {}).get("method") or "")
+    phrases_csv = write_phrases_csv(phrases_dir, papers_out, method=method)
     summary_csv, terms_csv = write_phrases_summary_csv(
         phrases_dir,
         papers_out,
         score_higher_is_better=score_higher_is_better,
+        method=method,
     )
     return {
         **index,

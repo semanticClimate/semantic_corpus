@@ -65,6 +65,10 @@ cluster_review = [
     "networkx>=3.0",
     "doit>=0.36.0",
 ]
+encyclopedia_html = [
+    "amilib>=1.0.0",
+    # Install sibling checkout: pip install -e ../encyclopedia
+]
 
 [project.urls]
 Homepage = "https://github.com/semanticClimate/semantic_corpus"

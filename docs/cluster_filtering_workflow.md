@@ -50,7 +50,7 @@ Step 0: Query → download → (optional) BAGIT
 Step 1: Load existing BAGIT
                     │
                     ▼
-Step 2: Keyphrases (TF-IDF / proper phrases)
+Step 2: Keyphrases (TF-IDF / uppercase phrases)
                     │
                     ▼
 Step 3: Bipartite KG (BKG)  paper ↔ term  →  clusters / orphans
@@ -141,7 +141,7 @@ Workshop mode should default to the **pre-built 50-paper bundle** so elapsed tim
 ### 5.2 Phrases (corpus TF-IDF default)
 
 - Input: title + abstract + XML body (capped; abstract-only OK if no body).  
-- **Default:** corpus **TF-IDF** on **XML body only** (no front matter / title / abstract; no references or acknowledgments sections), plus **document-grounded proper phrases**.  
+- **Default:** corpus **TF-IDF** on **XML body only** (no front matter / title / abstract; no references or acknowledgments sections), plus **document-grounded uppercase phrases** (titlecase / acronyms).  
 - **Fallback:** per-paper YAKE (`method="yake"`) — same text policy.  
 - Hygiene: lowercase, English stopwords, editable stop lists under `cluster_review/lists/`.  
 - Output: per-paper phrase list (JSON/CSV) used only for clustering.
@@ -570,7 +570,7 @@ corpora/amoc_india_2026/
 **Operations**
 
 1. For each paper, build text from **title + abstract + XML body** (body capped, default 50k chars).  
-2. **Default `method=tfidf`:** fit one corpus `TfidfVectorizer` (blended with local TF), then merge in **document-grounded proper phrases** (capitalized multiwords + repeated acronyms/place names from the paper text — not query seeds). Higher score = better.  
+2. **Default `method=tfidf`:** fit one corpus `TfidfVectorizer` (blended with local TF), then merge in **document-grounded uppercase phrases** (capitalized multiwords + repeated acronyms/place names from the paper text — not query seeds). Higher score = better.  
 3. Optional `method=yake`: per-paper YAKE on the same text (lower score = better).  
 4. Write cache beside the corpus; write `index.json` + CSV exports. Caches whose `params.method` does not match are ignored.  
 5. `clear_all_caches` deletes this whole `phrases/` tree only (not BAGIT payload, not `review/`).
@@ -581,16 +581,20 @@ corpora/amoc_india_2026/
 corpora/amoc_india_2026/
   phrases/                          # NEW
     index.json
-    phrases.csv                     # long form: paper_id, rank, phrase, score
+    phrases.csv                     # long form: paper_id, rank, phrase, score, channel
     phrases_summary.csv             # per-paper inspection: counts + top phrases
-    phrases_terms.csv               # unique phrases: n_papers, best_score
+    phrases_terms.csv               # unique phrases: n_papers + per-channel scores
     europe_pmc_PMC........json
     europe_pmc_PMC........json
     ...                             # one file per paper (≤50)
 ```
 
-**Per-paper JSON fields (typical):** `paper_id`, `phrases` (`[{phrase, display, score}, …]`), `params` (`method`, `n`, `top`, `text_fields`), `text_source`, `elapsed_s`.  
-`phrase` is the lowercase match key; `display` is the usual capitalization recovered from the paper (e.g. `ISM`, `NegE`, `Indian Ocean`).
+**Per-paper JSON fields (typical):** `paper_id`, `phrases` (`[{phrase, display, score, channel}, …]`), `params` (`method`, `n`, `top`, `text_fields`, `phrase_schema`), `text_source`, `elapsed_s`.  
+`phrase` is the lowercase match key; `display` is the usual capitalization recovered from the paper (e.g. `ISM`, `NegE`, `Indian Ocean`).  
+`channel` is `uppercase` | `tfidf` | `yake` (set at extract; schema 4+). `uppercase` = capitalization/titlecase/acronym channel (not “correct”). TF-IDF mode merges two incompatible score scales — do not compare them as one number.
+
+**`phrases_terms.csv` columns:** `phrase`, `display`, `n_papers`, `best_uppercase`, `n_uppercase`, `best_tfidf`, `n_tfidf`, `best_yake`, `n_yake`, `best_score`, `score_channel`, `paper_ids`.  
+`best_score` / `score_channel` prefer uppercase, else tfidf, else yake (for sorting only). Filter/eliminate by channel columns, not a single mixed threshold.
 
 ### 12.6 Step 3 — BKG + clusters (view) ✅
 

@@ -4,76 +4,91 @@
     {
       "phrase": "north atlantic",
       "display": "North Atlantic",
-      "score": 6.9
+      "score": 6.9,
+      "channel": "uppercase"
     },
     {
       "phrase": "north pacific",
       "display": "North Pacific",
-      "score": 3.4
+      "score": 3.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "laurentide ice sheet",
       "display": "Laurentide Ice Sheet",
-      "score": 2.2
+      "score": 2.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "northeast pacific",
       "display": "Northeast Pacific",
-      "score": 1.9
+      "score": 1.9,
+      "channel": "uppercase"
     },
     {
       "phrase": "agulhas leakage",
       "display": "Agulhas Leakage",
-      "score": 1.8
+      "score": 1.8,
+      "channel": "uppercase"
     },
     {
       "phrase": "northeast atlantic",
       "display": "Northeast Atlantic",
-      "score": 1.7
+      "score": 1.7,
+      "channel": "uppercase"
     },
     {
       "phrase": "european ice sheets",
       "display": "European Ice Sheets",
-      "score": 1.6
+      "score": 1.6,
+      "channel": "uppercase"
     },
     {
       "phrase": "amoc",
       "display": "AMOC",
-      "score": 2.64
+      "score": 2.64,
+      "channel": "uppercase"
     },
     {
       "phrase": "north",
       "display": "North",
-      "score": 1.96
+      "score": 1.96,
+      "channel": "uppercase"
     },
     {
       "phrase": "atlantic",
       "display": "Atlantic",
-      "score": 1.86
+      "score": 1.86,
+      "channel": "uppercase"
     },
     {
       "phrase": "siku",
       "score": 0.0375,
+      "channel": "tfidf",
       "display": "Siku"
     },
     {
       "phrase": "subsurface",
       "score": 0.0372,
+      "channel": "tfidf",
       "display": "Subsurface"
     },
     {
       "phrase": "northeast",
       "score": 0.0364,
+      "channel": "tfidf",
       "display": "Northeast"
     },
     {
       "phrase": "np02 np05",
       "score": 0.0356,
+      "channel": "tfidf",
       "display": "np02 np05"
     },
     {
       "phrase": "np01 np02",
       "score": 0.0351,
+      "channel": "tfidf",
       "display": "np01 np02"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

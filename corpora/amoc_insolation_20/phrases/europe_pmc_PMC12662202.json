@@ -4,76 +4,91 @@
     {
       "phrase": "north atlantic",
       "display": "North Atlantic",
-      "score": 2.4
+      "score": 2.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "north america",
       "display": "North America",
-      "score": 1.9
+      "score": 1.9,
+      "channel": "uppercase"
     },
     {
       "phrase": "jiaotong university",
       "display": "Jiaotong University",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "central america",
       "display": "Central America",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "caribbean sea",
       "display": "Caribbean Sea",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "south america",
       "display": "South America",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "costa rica",
       "display": "Costa Rica",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "nash",
       "display": "NASH",
-      "score": 2.0
+      "score": 2.0,
+      "channel": "uppercase"
     },
     {
       "phrase": "awp",
       "display": "AWP",
-      "score": 1.82
+      "score": 1.82,
+      "channel": "uppercase"
     },
     {
       "phrase": "bp",
       "display": "BP",
-      "score": 1.7
+      "score": 1.7,
+      "channel": "uppercase"
     },
     {
       "phrase": "cust-1",
       "score": 0.0447,
+      "channel": "tfidf",
       "display": "CUST-1"
     },
     {
       "phrase": "cuba",
       "score": 0.0422,
+      "channel": "tfidf",
       "display": "Cuba"
     },
     {
       "phrase": "ka bp",
       "score": 0.0387,
+      "channel": "tfidf",
       "display": "ka BP"
     },
     {
       "phrase": "ssts",
       "score": 0.0358,
+      "channel": "tfidf",
       "display": "SSTs"
     },
     {
       "phrase": "wb-nash",
       "score": 0.0354,
+      "channel": "tfidf",
       "display": "Wb-NASH"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

@@ -19,6 +19,13 @@ from semantic_corpus.cluster_review.step3 import (
     load_orphans,
 )
 from semantic_corpus.cluster_review.update_corpus import update_bagit_formats
+from semantic_corpus.cluster_review.encyclopedia import (
+    build_encyclopedia,
+    encyclopedia_is_current,
+    load_entries,
+    select_phrases,
+)
+from semantic_corpus.cluster_review.encyclopedia_html import write_encyclopedia_html
 
 __all__ = [
     "create_corpus_from_query",
@@ -37,4 +44,9 @@ __all__ = [
     "load_orphans",
     "load_graph_summary",
     "update_bagit_formats",
+    "build_encyclopedia",
+    "encyclopedia_is_current",
+    "load_entries",
+    "select_phrases",
+    "write_encyclopedia_html",
 ]

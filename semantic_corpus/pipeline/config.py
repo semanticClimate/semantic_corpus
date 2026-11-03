@@ -8,16 +8,16 @@ Flag groups (more will be added as steps are wired):
 - **corpus** — usually implied (produced by query/documents, or existing bag)
 - **phrases** — method + params (``--phrase-method``, ``--phrase-n``, …)
 - **clusters** — method + params (``--cluster-resolution``, …)
-- **encyclopedia** / **kg** — optional parameters (stubs for now)
+- **encyclopedia** / **kg** — ``--max-entries``, ``--kg-links``, ``--open``, …
 """
 
 from __future__ import annotations
 
 import json
 import os
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, Tuple
 
 from semantic_corpus.pipeline.steps import FROM_MODES
 
@@ -36,7 +36,16 @@ DEFAULT_PHRASE_TOP = 15
 DEFAULT_CLUSTER_RESOLUTION = 1.0
 DEFAULT_CLUSTER_ALGORITHM = "louvain"
 DEFAULT_ENCYCLOPEDIA_LANG = "en"
+DEFAULT_ENCYCLOPEDIA_MAX_ENTRIES = 100
+DEFAULT_ENCYCLOPEDIA_MIN_SCORE = 0.0
+DEFAULT_ENCYCLOPEDIA_MIN_PAPER_COUNT = 1
+DEFAULT_ENCYCLOPEDIA_SOURCE = "auto"
 DEFAULT_KG_MAX_ISLAND = 20
+DEFAULT_KG_MAX_TERMS = 50
+DEFAULT_KG_MIN_PAPER_COUNT = 2
+DEFAULT_KG_LINKS = "clusters,wikipedia,wikidata"
+KG_LINK_CHOICES: Tuple[str, ...] = ("clusters", "wikipedia", "wikidata")
+ENCYCLOPEDIA_SOURCE_CHOICES: Tuple[str, ...] = ("auto", "clusters", "phrases")
 
 
 @dataclass(frozen=True)
@@ -63,15 +72,46 @@ class PipelineOptions:
     cluster_resolution: float = DEFAULT_CLUSTER_RESOLUTION
     cluster_algorithm: str = DEFAULT_CLUSTER_ALGORITHM
 
-    # --- encyclopedia / kg (stubs) ---
+    # --- encyclopedia / kg (stubs until wired) ---
     encyclopedia_lang: str = DEFAULT_ENCYCLOPEDIA_LANG
+    max_entries: int = DEFAULT_ENCYCLOPEDIA_MAX_ENTRIES
+    min_score: float = DEFAULT_ENCYCLOPEDIA_MIN_SCORE
+    min_paper_count: int = DEFAULT_ENCYCLOPEDIA_MIN_PAPER_COUNT
+    encyclopedia_source: str = DEFAULT_ENCYCLOPEDIA_SOURCE
     kg_max_island: int = DEFAULT_KG_MAX_ISLAND
+    kg_max_terms: int = DEFAULT_KG_MAX_TERMS
+    kg_min_paper_count: int = DEFAULT_KG_MIN_PAPER_COUNT
+    kg_links: str = DEFAULT_KG_LINKS
 
     def __post_init__(self) -> None:
         if self.from_mode not in FROM_MODES:
             raise ValueError(f"from_mode must be one of {FROM_MODES}")
         if self.query and self.source:
             raise ValueError("Use either --query or --source, not both")
+        if self.max_entries < 1:
+            raise ValueError("--max-entries must be >= 1")
+        if self.min_paper_count < 1:
+            raise ValueError("--min-paper-count must be >= 1")
+        if self.kg_max_terms < 1:
+            raise ValueError("--kg-max-terms must be >= 1")
+        if self.kg_min_paper_count < 1:
+            raise ValueError("--kg-min-paper-count must be >= 1")
+        if self.encyclopedia_source not in ENCYCLOPEDIA_SOURCE_CHOICES:
+            raise ValueError(
+                f"--encyclopedia-from must be one of {ENCYCLOPEDIA_SOURCE_CHOICES}"
+            )
+        unknown = [
+            p for p in self.kg_link_list() if p not in KG_LINK_CHOICES
+        ]
+        if unknown:
+            raise ValueError(
+                f"Unknown --kg-links token(s) {unknown}; "
+                f"choose from {list(KG_LINK_CHOICES)}"
+            )
+
+    def kg_link_list(self) -> Tuple[str, ...]:
+        parts = [p.strip() for p in (self.kg_links or "").split(",")]
+        return tuple(p for p in parts if p)
 
     def to_public_dict(self) -> Dict[str, Any]:
         """JSON-serialisable view for stamps / debugging."""

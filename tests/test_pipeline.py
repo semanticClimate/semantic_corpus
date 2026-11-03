@@ -243,6 +243,98 @@ def test_cli_query_and_source_rejected(tmp_path: Path):
     assert rc == 2
 
 
+def test_kg_plan_after_clusters():
+    plan = required_steps(["kg"], from_mode="existing")
+    assert plan == [
+        "corpus",
+        "phrases",
+        "clusters",
+        "kg",
+    ]
+    assert "encyclopedia" not in plan
+    assert "clean" not in plan
+
+
+def test_options_max_entries_and_kg_links():
+    from pathlib import Path as P
+
+    from semantic_corpus.pipeline.config import PipelineOptions
+
+    opts = PipelineOptions(
+        workdir=P("."),
+        from_mode="existing",
+        max_entries=50,
+        kg_links="clusters,wikipedia",
+    )
+    assert opts.max_entries == 50
+    assert opts.kg_link_list() == ("clusters", "wikipedia")
+
+    with pytest.raises(ValueError, match="max-entries"):
+        PipelineOptions(workdir=P("."), from_mode="existing", max_entries=0)
+    with pytest.raises(ValueError, match="kg-links"):
+        PipelineOptions(
+            workdir=P("."), from_mode="existing", kg_links="clusters,nope"
+        )
+
+
+def test_cli_encyclopedia_max_entries_and_kg_links(tmp_path: Path):
+    """Stub encyclopedia/kg accept --max-entries and --kg-links (placeholder)."""
+    from semantic_corpus.pipeline.cli import main
+
+    assert (
+        main(
+            [
+                "--workdir",
+                str(tmp_path),
+                "--max-entries",
+                "50",
+                "--encyclopedia-lang",
+                "en",
+                "--kg-links",
+                "clusters,wikipedia,wikidata",
+                "--kg-max-island",
+                "15",
+                "--target",
+                "kg",
+            ]
+        )
+        == 0
+    )
+    for step in (
+        "corpus",
+        "phrases",
+        "clusters",
+        "kg",
+    ):
+        assert stamp_path(step, tmp_path).is_file(), step
+    assert not stamp_path("clean", tmp_path).is_file()
+    # encyclopedia is optional for kg (soft-attach when entries exist)
+    assert not stamp_path("encyclopedia", tmp_path).is_file()
+
+    kg = json.loads(stamp_path("kg", tmp_path).read_text(encoding="utf-8"))
+    assert kg["options"]["max_entries"] == 50
+    assert kg["options"]["encyclopedia_lang"] == "en"
+    assert kg["options"]["kg_links"] == "clusters,wikipedia,wikidata"
+    assert kg["options"]["kg_max_island"] == 15
+    assert kg["status"] == "placeholder"
+
+
+def test_cli_invalid_kg_links_rejected(tmp_path: Path):
+    from semantic_corpus.pipeline.cli import main
+
+    rc = main(
+        [
+            "--workdir",
+            str(tmp_path),
+            "--kg-links",
+            "clusters,bogus",
+            "--target",
+            "kg",
+        ]
+    )
+    assert rc == 2
+
+
 def test_cli_second_run_skips(tmp_path: Path, capsys):
     from semantic_corpus.pipeline.cli import main
 

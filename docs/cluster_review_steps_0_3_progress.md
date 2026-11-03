@@ -15,7 +15,7 @@
 |------|------|--------|--------------|
 | **0** | Query → download → BAGIT | **Done** | Search Europe PMC (etc.), download XML, create/refresh BAGIT under `corpora/` |
 | **1** | Load BAGIT | **Done** | Validate bag, list papers, pin active corpus (workshops can start here) |
-| **2** | Phrases | **Done** | Corpus TF-IDF (+ proper phrases) on **XML body only**; cache under `phrases/` |
+| **2** | Phrases | **Done** | Corpus TF-IDF (+ uppercase phrases) on **XML body only**; cache under `phrases/` |
 | **3** | BKG + clusters | **Done** | Bipartite paper↔term KG (BKG) + Louvain; read-only under `clusters/` |
 | **4** | BKG clean | **Not started** | Weed FP **papers** and FP **terms**; recompute loop → 3 |
 | **5** | Orphans + export | **Not started** | Orphan Keep/Remove + curated review snapshot |
@@ -101,7 +101,7 @@ Step 3 surfaces several **real FPs**, concentrated in a few microbiology / metho
 ### Step 2 — Phrases ✅
 
 - **Default:** corpus TF-IDF on **XML body only** (no front matter / title / abstract; skips References, Acknowledgments, and similar sections).  
-- Document-grounded proper phrases (places, acronyms) merged into the top-*k* list.  
+- Document-grounded uppercase phrases (places, acronyms) merged into the top-*k* list.  
 - Editable stop lists under `semantic_corpus/cluster_review/lists/` (including `scientific_discourse.txt`).  
 - Each phrase JSON entry: `phrase` (lowercase key) + `display` (usual capitalization, e.g. `ISM`, `NegE`) + `score`.  
 - YAKE remains available as `method="yake"`.  

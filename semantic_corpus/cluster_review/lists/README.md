@@ -8,7 +8,7 @@ Plain-text lists used by `semantic_corpus.cluster_review.step2`.
 |------|---------|
 | `phrase_boilerplate.txt` | Drop after YAKE/TF-IDF (publishing boilerplate) |
 | `latex_noise.txt` | Drop LaTeX / math-mode tokens from TF-IDF |
-| `proper_boilerplate.txt` | Drop from capitalized “proper phrase” channel |
+| `proper_boilerplate.txt` | Drop from capitalized “uppercase” phrase channel |
 | `common_titlecase.txt` | Skip as Titlecase/acronym singles (keep empty or generic) |
 | `acronym_skip.txt` | ALLCAPS tokens never treated as phrases |
 | `figure_table_noise.txt` | Drop bare fig/eq/table tokens |

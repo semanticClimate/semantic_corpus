@@ -14,6 +14,7 @@ from semantic_corpus.cluster_review.step0 import create_corpus_from_query
 from semantic_corpus.cluster_review.step2 import (
     DEFAULT_METHOD,
     DEFAULT_N,
+    PHRASE_SCHEMA,
     clear_all_caches,
     extract_phrases,
     extract_phrases_from_text,
@@ -22,11 +23,14 @@ from semantic_corpus.cluster_review.step2 import (
     extract_yake_phrases,
     find_phrase_cache,
     load_cached_phrases,
+    merge_tfidf_and_proper,
     normalize_phrase,
     paper_text_from_metadata,
+    phrase_channel,
     phrases_dir_for_corpus,
     proper_phrases_from_text,
     tfidf_phrases_for_corpus,
+    write_phrases_summary_csv,
 )
 from semantic_corpus.core.exceptions import CorpusError
 
@@ -182,6 +186,92 @@ class TestHelpers:
         )
         assert [p["phrase"] for p in phrases] == ["marine heatwaves", "coral reefs"]
         assert phrases[0]["score"] == 0.01
+        assert all(p["channel"] == "yake" for p in phrases)
+
+    def test_merge_tags_uppercase_and_tfidf_channels(self) -> None:
+        merged = merge_tfidf_and_proper(
+            [{"phrase": "particle flux", "score": 0.05}],
+            [
+                {
+                    "phrase": "north atlantic",
+                    "display": "North Atlantic",
+                    "score": 20.0,
+                }
+            ],
+            top=10,
+        )
+        by_phrase = {p["phrase"]: p for p in merged}
+        assert by_phrase["north atlantic"]["channel"] == "uppercase"
+        assert by_phrase["north atlantic"]["score"] >= 1.0
+        assert by_phrase["particle flux"]["channel"] == "tfidf"
+        assert by_phrase["particle flux"]["score"] < 0.1
+
+    def test_phrase_channel_infers_legacy_tfidf_scale(self) -> None:
+        assert phrase_channel({"score": 1.3}, method="tfidf") == "uppercase"
+        assert phrase_channel({"score": 0.04}, method="tfidf") == "tfidf"
+        assert phrase_channel({"score": 0.04}, method="yake") == "yake"
+        assert phrase_channel({"channel": "tfidf", "score": 1.5}) == "tfidf"
+        assert phrase_channel({"channel": "proper", "score": 1.5}) == "uppercase"
+
+    def test_phrases_terms_splits_channel_scores(self, temp_dir: Path) -> None:
+        papers = [
+            {
+                "paper_id": "p1",
+                "source": "extracted",
+                "text_source": "xml-body",
+                "phrases": [
+                    {
+                        "phrase": "north atlantic",
+                        "display": "North Atlantic",
+                        "score": 2.0,
+                        "channel": "uppercase",
+                    },
+                    {
+                        "phrase": "opal",
+                        "display": "opal",
+                        "score": 0.04,
+                        "channel": "tfidf",
+                    },
+                ],
+            },
+            {
+                "paper_id": "p2",
+                "source": "extracted",
+                "text_source": "xml-body",
+                "phrases": [
+                    {
+                        "phrase": "north atlantic",
+                        "display": "North Atlantic",
+                        "score": 1.5,
+                        "channel": "uppercase",
+                    },
+                    {
+                        "phrase": "north atlantic",
+                        "display": "North Atlantic",
+                        "score": 0.05,
+                        "channel": "tfidf",
+                    },
+                ],
+            },
+        ]
+        _, terms_path = write_phrases_summary_csv(
+            temp_dir, papers, score_higher_is_better=True, method="tfidf"
+        )
+        import csv
+
+        rows = {r["phrase"]: r for r in csv.DictReader(terms_path.open())}
+        na = rows["north atlantic"]
+        assert na["n_papers"] == "2"
+        assert na["n_uppercase"] == "2"
+        assert na["n_tfidf"] == "1"
+        assert float(na["best_uppercase"]) == 2.0
+        assert float(na["best_tfidf"]) == 0.05
+        assert na["score_channel"] == "uppercase"
+        assert float(na["best_score"]) == 2.0
+        opal = rows["opal"]
+        assert opal["n_uppercase"] == "0"
+        assert opal["n_tfidf"] == "1"
+        assert opal["score_channel"] == "tfidf"
 
     def test_tfidf_phrases_for_corpus_ranks_distinctive_terms(self) -> None:
         texts = [
@@ -286,14 +376,19 @@ class TestExtractYakePhrases:
         assert Path(summary["phrases_terms_csv"]).is_file()
 
         detail = Path(summary["phrases_csv"]).read_text(encoding="utf-8")
-        assert "paper_id,rank,phrase,display,score,source" in detail
+        assert "paper_id,rank,phrase,display,score,channel,source" in detail
         assert "marine heatwaves" in detail
 
         paper_summary = Path(summary["phrases_summary_csv"]).read_text(encoding="utf-8")
         assert "paper_id,phrase_count,top_phrases" in paper_summary
 
         terms = Path(summary["phrases_terms_csv"]).read_text(encoding="utf-8")
-        assert "phrase,display,n_papers,best_score,paper_ids" in terms
+        assert (
+            "best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake"
+            in terms
+        )
+        assert "best_score,score_channel,paper_ids" in terms
+        assert "yake" in terms
 
         for paper in summary["papers"]:
             assert paper["source"] == "extracted"
@@ -302,6 +397,8 @@ class TestExtractYakePhrases:
             assert cached is not None
             assert cached["params"]["n"] == 3
             assert cached["params"]["method"] == "yake"
+            assert cached["params"]["phrase_schema"] == PHRASE_SCHEMA
+            assert all(p.get("channel") == "yake" for p in cached["phrases"])
 
     def test_uses_cache_on_second_run(
         self, mini_bagit: Path, fake_extractor: FakeYakeExtractor
@@ -361,9 +458,21 @@ class TestExtractTfidfPhrases:
         pytest.importorskip("sklearn")
         summary = extract_phrases(mini_bagit, force=True, n=3, top=10)
         assert summary["params"]["method"] == "tfidf"
+        assert summary["params"]["phrase_schema"] == PHRASE_SCHEMA
         assert summary["paper_count"] == 2
         assert summary["papers_extracted"] == 2
         assert Path(summary["phrases_csv"]).is_file()
+        channels = {
+            p.get("channel")
+            for paper in summary["papers"]
+            for p in paper["phrases"]
+        }
+        assert channels <= {"uppercase", "tfidf"}
+        assert "uppercase" in channels or "tfidf" in channels
+        terms_header = Path(summary["phrases_terms_csv"]).read_text(
+            encoding="utf-8"
+        ).splitlines()[0]
+        assert "best_uppercase" in terms_header and "score_channel" in terms_header
 
     def test_tfidf_cache_roundtrip(self, mini_bagit: Path) -> None:
         pytest.importorskip("sklearn")

@@ -1,25 +1,30 @@
 {
   "step": "clusters",
   "status": "ok",
-  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20",
-  "written_at": "2026-11-03T13:43:50.545885+00:00",
+  "workdir": "corpora/amoc_insolation_20",
+  "written_at": "2026-11-03T17:09:49.071115+00:00",
   "options": {
-    "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20",
-    "from_mode": "query",
-    "query": "amoc AND insolation",
-    "limit": 20,
-    "repository": "europe_pmc",
+    "workdir": "corpora/amoc_insolation_20",
+    "from_mode": "existing",
+    "query": null,
+    "limit": null,
+    "repository": null,
     "source": null,
     "phrase_method": "tfidf",
     "phrase_n": 3,
     "phrase_top": 15,
-    "cluster_resolution": 0.8,
+    "cluster_resolution": 1.0,
     "cluster_algorithm": "louvain",
     "encyclopedia_lang": "en",
-    "kg_max_island": 20
+    "max_entries": 50,
+    "min_score": 0.0,
+    "min_papers": 2,
+    "encyclopedia_source": "phrases",
+    "kg_max_island": 20,
+    "kg_links": "clusters,wikipedia,wikidata"
   },
   "note": "Placeholder for pipeline step 'clusters' \u2014 not yet wired to real work.",
-  "cluster_count": 6,
+  "cluster_count": 7,
   "paper_count": 20,
-  "graph_summary": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_insolation_20/clusters/graph_summary.json"
+  "graph_summary": "corpora/amoc_insolation_20/clusters/graph_summary.json"
 }

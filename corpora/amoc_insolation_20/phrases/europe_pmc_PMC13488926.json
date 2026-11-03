@@ -4,76 +4,91 @@
     {
       "phrase": "lisiecki and stern",
       "display": "Lisiecki and Stern",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "north atlantic",
       "display": "North Atlantic",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "dronning maud land",
       "display": "Dronning Maud Land",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "indian ocean",
       "display": "Indian Ocean",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "monte carlo",
       "display": "Monte Carlo",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "talos dome",
       "display": "Talos Dome",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "dome fuji",
       "display": "Dome Fuji",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "eei",
       "display": "EEI",
-      "score": 1.88
+      "score": 1.88,
+      "channel": "uppercase"
     },
     {
       "phrase": "amoc",
       "display": "AMOC",
-      "score": 1.5
+      "score": 1.5,
+      "channel": "uppercase"
     },
     {
       "phrase": "mot",
       "display": "MOT",
-      "score": 1.42
+      "score": 1.42,
+      "channel": "uppercase"
     },
     {
       "phrase": "eeiocean",
       "score": 0.0448,
+      "channel": "tfidf",
       "display": "EEIocean"
     },
     {
       "phrase": "eeiice",
       "score": 0.0395,
+      "channel": "tfidf",
       "display": "EEIice"
     },
     {
       "phrase": "stack",
       "score": 0.0381,
+      "channel": "tfidf",
       "display": "stack"
     },
     {
       "phrase": "energy",
       "score": 0.0379,
+      "channel": "tfidf",
       "display": "Energy"
     },
     {
       "phrase": "ka",
       "score": 0.0368,
+      "channel": "tfidf",
       "display": "ka"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

@@ -4,76 +4,91 @@
     {
       "phrase": "north atlantic",
       "display": "North Atlantic",
-      "score": 2.0
+      "score": 2.0,
+      "channel": "uppercase"
     },
     {
       "phrase": "northern hemisphere",
       "display": "Northern Hemisphere",
-      "score": 1.9
+      "score": 1.9,
+      "channel": "uppercase"
     },
     {
       "phrase": "chinese loess",
       "display": "Chinese Loess",
-      "score": 1.4
+      "score": 1.4,
+      "channel": "uppercase"
     },
     {
       "phrase": "pleistocene transition",
       "display": "Pleistocene Transition",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "monte carlo",
       "display": "Monte Carlo",
-      "score": 1.3
+      "score": 1.3,
+      "channel": "uppercase"
     },
     {
       "phrase": "mediterranean sea",
       "display": "Mediterranean Sea",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "supplementary tab",
       "display": "Supplementary Tab",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "mis",
       "display": "MIS",
-      "score": 2.68
+      "score": 2.68,
+      "channel": "uppercase"
     },
     {
       "phrase": "mpt",
       "display": "MPT",
-      "score": 1.58
+      "score": 1.58,
+      "channel": "uppercase"
     },
     {
       "phrase": "mediterranean",
       "display": "Mediterranean",
-      "score": 1.41
+      "score": 1.41,
+      "channel": "uppercase"
     },
     {
       "phrase": "mediterranean forest",
       "score": 0.0406,
+      "channel": "tfidf",
       "display": "Mediterranean forest"
     },
     {
       "phrase": "mis mis",
       "score": 0.0398,
+      "channel": "tfidf",
       "display": "mis mis"
     },
     {
       "phrase": "middle phase",
       "score": 0.0382,
+      "channel": "tfidf",
       "display": "middle phase"
     },
     {
       "phrase": "forest",
       "score": 0.0374,
+      "channel": "tfidf",
       "display": "forest"
     },
     {
       "phrase": "early phase",
       "score": 0.0363,
+      "channel": "tfidf",
       "display": "early phase"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

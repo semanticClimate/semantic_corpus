@@ -4,76 +4,91 @@
     {
       "phrase": "irrigation model intercomparison project",
       "display": "Irrigation Model Intercomparison Project",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "land use model intercomparison project",
       "display": "Land Use Model Intercomparison Project",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "planck institute for meteorology",
       "display": "Planck Institute for Meteorology",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "atlantic meridional overturning circulation",
       "display": "Atlantic Meridional Overturning Circulation",
-      "score": 1.1
+      "score": 1.1,
+      "channel": "uppercase"
     },
     {
       "phrase": "intergovernmental panel on climate change",
       "display": "Intergovernmental Panel on Climate Change",
-      "score": 1.1
+      "score": 1.1,
+      "channel": "uppercase"
     },
     {
       "phrase": "irrigation model intercomparison",
       "display": "Irrigation Model Intercomparison",
-      "score": 1.1
+      "score": 1.1,
+      "channel": "uppercase"
     },
     {
       "phrase": "german climate computing center",
       "display": "German Climate Computing Center",
-      "score": 1.1
+      "score": 1.1,
+      "channel": "uppercase"
     },
     {
       "phrase": "toa",
       "display": "TOA",
-      "score": 1.38
+      "score": 1.38,
+      "channel": "uppercase"
     },
     {
       "phrase": "srf",
       "display": "SRF",
-      "score": 1.2
+      "score": 1.2,
+      "channel": "uppercase"
     },
     {
       "phrase": "amoc",
       "display": "AMOC",
-      "score": 1.16
+      "score": 1.16,
+      "channel": "uppercase"
     },
     {
       "phrase": "alb",
       "score": 0.0412,
+      "channel": "tfidf",
       "display": "ALB"
     },
     {
       "phrase": "perturbation",
       "score": 0.0405,
+      "channel": "tfidf",
       "display": "perturbation"
     },
     {
       "phrase": "albedo",
       "score": 0.0383,
+      "channel": "tfidf",
       "display": "albedo"
     },
     {
       "phrase": "evp",
       "score": 0.0382,
+      "channel": "tfidf",
       "display": "evp"
     },
     {
       "phrase": "net",
       "score": 0.038,
+      "channel": "tfidf",
       "display": "net"
     }
   ],
@@ -87,7 +102,7 @@
     "text_fields": "xml_body",
     "include_front_matter": false,
     "max_body_chars": 50000,
-    "phrase_schema": 2
+    "phrase_schema": 4
   },
-  "elapsed_s": 0.0258
+  "elapsed_s": 0.0638
 }

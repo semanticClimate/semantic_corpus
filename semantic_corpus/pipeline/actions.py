@@ -183,11 +183,97 @@ def run_clean() -> Dict[str, Any]:
 
 
 def run_encyclopedia() -> Dict[str, Any]:
-    return run_placeholder("encyclopedia")
+    if use_placeholders():
+        return run_placeholder("encyclopedia")
+
+    from semantic_corpus.cluster_review.encyclopedia import build_encyclopedia
+
+    opts = options_from_env()
+    print(
+        f"[pipeline] encyclopedia: lang={opts.encyclopedia_lang} "
+        f"max_entries={opts.max_entries} min_score={opts.min_score} "
+        f"min_paper_count={opts.min_paper_count} from={opts.encyclopedia_source}"
+    )
+    summary = build_encyclopedia(
+        opts.workdir,
+        lang=opts.encyclopedia_lang,
+        max_entries=int(opts.max_entries),
+        min_score=float(opts.min_score),
+        min_paper_count=int(opts.min_paper_count),
+        source=opts.encyclopedia_source,
+        force=False,
+        write_html=True,
+        fetch_html_descriptions=True,
+    )
+    counts = summary.get("counts") or {}
+    _stamp(
+        "encyclopedia",
+        {
+            "entries_path": summary.get("entries_path"),
+            "html_path": summary.get("html_path"),
+            "selected": counts.get("selected"),
+            "resolved": counts.get("resolved"),
+            "ambiguous": counts.get("ambiguous"),
+            "missing": counts.get("missing"),
+            "error": counts.get("error"),
+            "disambiguated": counts.get("disambiguated"),
+            "phrase_source": (summary.get("params") or {}).get("phrase_source"),
+        },
+    )
+    html_note = f" html={summary.get('html_path')}" if summary.get("html_path") else ""
+    print(
+        f"[pipeline] encyclopedia: selected={counts.get('selected')} "
+        f"resolved={counts.get('resolved')} missing={counts.get('missing')} "
+        f"disambiguated={counts.get('disambiguated')} "
+        f"error={counts.get('error')}{html_note}"
+    )
+    return summary
 
 
 def run_kg() -> Dict[str, Any]:
-    return run_placeholder("kg")
+    if use_placeholders():
+        return run_placeholder("kg")
+
+    from semantic_corpus.cluster_review.kg import build_kg
+
+    opts = options_from_env()
+    links = opts.kg_link_list()
+    print(
+        f"[pipeline] kg: links={','.join(links)} "
+        f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
+        f"max_island={opts.kg_max_island}"
+    )
+    summary = build_kg(
+        opts.workdir,
+        kg_links=links,
+        max_island=int(opts.kg_max_island),
+        min_paper_count=int(opts.kg_min_paper_count),
+        max_terms=int(opts.kg_max_terms),
+        write_html=True,
+        open_browser=False,
+    )
+    counts = summary.get("counts") or {}
+    params = summary.get("params") or {}
+    _stamp(
+        "kg",
+        {
+            "graph_path": summary.get("graph_path"),
+            "html_path": summary.get("html_path"),
+            "islands_path": summary.get("islands_path"),
+            "nodes": counts.get("nodes"),
+            "edges": counts.get("edges"),
+            "islands": counts.get("islands"),
+            "kg_links_used": params.get("kg_links_used"),
+            "min_paper_count": params.get("min_paper_count"),
+            "max_terms": params.get("max_terms"),
+        },
+    )
+    print(
+        f"[pipeline] kg: nodes={counts.get('nodes')} edges={counts.get('edges')} "
+        f"terms={counts.get('terms')} islands={counts.get('islands')} "
+        f"html={summary.get('html_path')}"
+    )
+    return summary
 
 
 STEP_ACTIONS = {
@@ -224,4 +310,25 @@ def is_step_current(step: str) -> bool:
         return (workdir / "phrases" / "index.json").is_file()
     if step == "clusters":
         return (workdir / "clusters" / "graph_summary.json").is_file()
+    if step == "encyclopedia":
+        from semantic_corpus.cluster_review.encyclopedia import encyclopedia_is_current
+
+        return encyclopedia_is_current(
+            workdir,
+            lang=opts.encyclopedia_lang,
+            max_entries=int(opts.max_entries),
+            min_score=float(opts.min_score),
+            min_paper_count=int(opts.min_paper_count),
+            source=opts.encyclopedia_source,
+        )
+    if step == "kg":
+        from semantic_corpus.cluster_review.kg import kg_is_current
+
+        return kg_is_current(
+            workdir,
+            kg_links=opts.kg_link_list(),
+            max_island=int(opts.kg_max_island),
+            min_paper_count=int(opts.kg_min_paper_count),
+            max_terms=int(opts.kg_max_terms),
+        )
     return True

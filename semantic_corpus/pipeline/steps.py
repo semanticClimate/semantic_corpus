@@ -34,7 +34,10 @@ STEP_DOCS: Dict[str, str] = {
     "pdfs": "Fill missing valid PDFs into the corpus (parallel with phrases)",
     "clusters": "Bipartite KG (BKG) + communities → clusters/ (method flags)",
     "clean": "FP paper/term cleaning loop (recompute clusters)",
-    "encyclopedia": "Wikipedia / Wikidata entries for retained phrases",
+    "encyclopedia": (
+        "Resolve retained phrases to Wikipedia/Wikidata "
+        "(--encyclopedia-lang, --max-entries) → encyclopedia/"
+    ),
     "kg": "Linked knowledge graph + islands (feedback to clean)",
 }
 
@@ -49,8 +52,12 @@ _BASE_DEPS: Dict[str, List[str]] = {
     "pdfs": ["corpus"],
     "clusters": ["phrases"],
     "clean": ["clusters"],
-    "encyclopedia": ["clean"],
-    "kg": ["encyclopedia"],
+    # Prefer clean decisions when present; graph only requires clusters so the
+    # step is runnable before/without a clean session (see pipeline_encyclopedia.md).
+    "encyclopedia": ["clusters"],
+    # KG can run after clusters (BKG edges); wikipedia/wikidata soft-attach
+    # encyclopedia nodes when entries.json exists.
+    "kg": ["clusters"],
 }
 
 _DOIT_BASENAME: Dict[str, str] = {

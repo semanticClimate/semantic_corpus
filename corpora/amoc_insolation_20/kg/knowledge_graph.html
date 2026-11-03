@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (amoc_insolation_20)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #mynetwork { width: 100%; height: calc(100vh - 64px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    /* Hide any leftover vis built-in tooltip */
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge graph (amoc_insolation_20)</h1>
+    <p>37 nodes · 55 edges — drag, zoom, hover</p>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:northern hemisphere", "label": "Northern Hemisphere", "tooltip": "Northern Hemisphere (cluster weight 6.3; n_papers 11)", "value": 14.3, "group": "Term"}, {"id": "paper:europe_pmc_PMC12680610", "label": "PMC12680610", "tooltip": "Indian summer monsoon variability from 184 to 25 ka inferred from sedimentary magnetic properties in Heqing Basin, Southwest China.<br>(PMC12680610)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC12859089", "label": "PMC12859089", "tooltip": "Modulation of inter-hemispheric temperature gradients on the Holocene Asian-Australian summer monsoon.<br>(PMC12859089)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13639189", "label": "PMC13639189", "tooltip": "The Australian–Indonesian monsoon through time<br>(PMC13639189)", "value": 12.0, "group": "Paper"}, {"id": "term:southern hemisphere", "label": "Southern Hemisphere", "tooltip": "Southern Hemisphere (cluster weight 4.7; n_papers 4)", "value": 12.7, "group": "Term"}, {"id": "term:maritime continent", "label": "Maritime Continent", "tooltip": "Maritime Continent (cluster weight 4.6; n_papers 2)", "value": 12.6, "group": "Term"}, {"id": "term:indian ocean", "label": "Indian Ocean", "tooltip": "Indian Ocean (cluster weight 3; n_papers 3)", "value": 11.0, "group": "Term"}, {"id": "term:yd", "label": "YD", "tooltip": "YD (cluster weight 1.54; n_papers 2)", "value": 9.54, "group": "Term"}, {"id": "term:australia", "label": "Australia", "tooltip": "Australia (cluster weight 0.075; n_papers 2)", "value": 8.075, "group": "Term"}, {"id": "term:amoc", "label": "Atlantic meridional overturning circulation", "tooltip": "AMOC (cluster weight 3.4; n_papers 7)<br>synonyms: Atlantic Meridional Overturning Circulation, amoc, atlantic meridional overturning circulation<br>Wikipedia: Atlantic meridional overturning circulation<br>Wikidata: Q4652675<br>https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation", "value": 11.4, "group": "Term"}, {"id": "paper:europe_pmc_PMC13488926", "label": "PMC13488926", "tooltip": "Reconstruction and attribution of Late-Pleistocene changes in the Earth's energy imbalance.<br>(PMC13488926)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13598196", "label": "PMC13598196", "tooltip": "Patagonian Ice Sheet discharge enhanced by AMOC slowdown through thermal bipolar seesaw.<br>(PMC13598196)", "value": 12.0, "group": "Paper"}, {"id": "term:southern ocean", "label": "Southern Ocean", "tooltip": "Southern Ocean (cluster weight 1.7; n_papers 2)", "value": 9.7, "group": "Term"}, {"id": "term:bp", "label": "BP", "tooltip": "BP (cluster weight 3.6; n_papers 3)", "value": 11.6, "group": "Term"}, {"id": "paper:europe_pmc_PMC12662202", "label": "PMC12662202", "tooltip": "North Atlantic Subtropical High forcing of Atlantic Warm Pool hydroclimate variability on millennial to orbital timescales.<br>(PMC12662202)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13319204", "label": "PMC13319204", "tooltip": "Protracted ocean circulation slowdown drove exceptional ice-sheet melting during ice age termination IV.<br>(PMC13319204)", "value": 12.0, "group": "Paper"}, {"id": "term:monte carlo", "label": "Monte Carlo", "tooltip": "Monte Carlo (cluster weight 1.8; n_papers 3)", "value": 9.8, "group": "Term"}, {"id": "term:kyr", "label": "Kyr", "tooltip": "Kyr (cluster weight 0.0379; n_papers 2)", "value": 8.0379, "group": "Term"}, {"id": "term:easm", "label": "Monsoon", "tooltip": "EASM (cluster weight 2.78; n_papers 2)<br>synonyms: easm, monsoon<br>Wikipedia: Monsoon<br>Wikidata: Q42967<br>https://en.wikipedia.org/wiki/Monsoon", "value": 10.78, "group": "Term"}, {"id": "paper:europe_pmc_PMC12753843", "label": "PMC12753843", "tooltip": "Monsoon differences in South Asia and East Asia during the penultimate deglaciation revealed by speleothem oxygen isotopes.<br>(PMC12753843)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC12835000", "label": "PMC12835000", "tooltip": "Quantitative paleoclimate reconstruction in the Yangtze River Delta since the Last Glacial Maximum based on pollen records.<br>(PMC12835000)", "value": 12.0, "group": "Paper"}, {"id": "term:cave", "label": "Cave", "tooltip": "Cave (cluster weight 0.0464; n_papers 2)", "value": 8.0464, "group": "Term"}, {"id": "term:ka bp", "label": "ka BP", "tooltip": "ka BP (cluster weight 0.0401; n_papers 2)", "value": 8.0401, "group": "Term"}, {"id": "term:mis", "label": "MIS", "tooltip": "MIS (cluster weight 4.14; n_papers 2)", "value": 12.14, "group": "Term"}, {"id": "paper:europe_pmc_PMC13458837", "label": "PMC13458837", "tooltip": "Insolation-driven northern Atlantic westerly wind patterns shaped the mid-Pleistocene transition in three phases.<br>(PMC13458837)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13578706", "label": "PMC13578706", "tooltip": "Pervasive tropical-forced millennial monsoon variability over the past 3.5 million years.<br>(PMC13578706)", "value": 12.0, "group": "Paper"}, {"id": "term:tibetan plateau", "label": "Tibetan Plateau", "tooltip": "Tibetan Plateau (cluster weight 1.5; n_papers 3)", "value": 9.5, "group": "Term"}, {"id": "term:ma", "label": "Ma", "tooltip": "Ma (cluster weight 0.038; n_papers 2)", "value": 8.038, "group": "Term"}, {"id": "term:lgi", "label": "LGI", "tooltip": "LGI (cluster weight 2.76; n_papers 2)", "value": 10.76, "group": "Term"}, {"id": "paper:europe_pmc_PMC12354891", "label": "PMC12354891", "tooltip": "Abrupt weakening of deep Atlantic circulation at the last glacial inception.<br>(PMC12354891)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13477475", "label": "PMC13477475", "tooltip": "Annual-resolution evidence for aridity spikes at the onset of the Last Glacial Inception in an Eifel maar lake sediment.<br>(PMC13477475)", "value": 12.0, "group": "Paper"}, {"id": "term:heinrich stadial", "label": "Heinrich Stadial", "tooltip": "Heinrich Stadial (cluster weight 2.6; n_papers 2)", "value": 10.6, "group": "Term"}, {"id": "paper:europe_pmc_PMC13376600", "label": "PMC13376600", "tooltip": "Insolation-forced oceanic changes triggered the Eurasian Ice Sheet collapse and the Last Termination.<br>(PMC13376600)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13454564", "label": "PMC13454564", "tooltip": "Rapid warming in South America during the last deglaciation.<br>(PMC13454564)", "value": 12.0, "group": "Paper"}, {"id": "term:south america", "label": "South America", "tooltip": "South America (cluster weight 1.8; n_papers 2)", "value": 9.8, "group": "Term"}, {"id": "term:last glacial maximum", "label": "Last Glacial Maximum", "tooltip": "Last Glacial Maximum (cluster weight 1.5; n_papers 2)", "value": 9.5, "group": "Term"}, {"id": "term:younger dryas", "label": "Younger Dryas", "tooltip": "Younger Dryas (cluster weight 1.4; n_papers 2)", "value": 9.4, "group": "Term"}], "edges": [{"from": "paper:europe_pmc_PMC12680610", "to": "term:northern hemisphere", "value": 6.3}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:northern hemisphere", "value": 6.3}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:northern hemisphere", "value": 6.3}, {"from": "paper:europe_pmc_PMC12680610", "to": "term:southern hemisphere", "value": 4.7}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:southern hemisphere", "value": 4.7}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:southern hemisphere", "value": 4.7}, {"from": "paper:europe_pmc_PMC12680610", "to": "term:maritime continent", "value": 4.6}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:maritime continent", "value": 4.6}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:maritime continent", "value": 4.6}, {"from": "paper:europe_pmc_PMC12680610", "to": "term:indian ocean", "value": 3.0}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:indian ocean", "value": 3.0}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:indian ocean", "value": 3.0}, {"from": "paper:europe_pmc_PMC12680610", "to": "term:yd", "value": 1.54}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:yd", "value": 1.54}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:yd", "value": 1.54}, {"from": "paper:europe_pmc_PMC12680610", "to": "term:australia", "value": 0.075}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:australia", "value": 0.075}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:australia", "value": 0.075}, {"from": "paper:europe_pmc_PMC12680610", "to": "term:easm", "value": 0.0413}, {"from": "paper:europe_pmc_PMC12859089", "to": "term:easm", "value": 0.0413}, {"from": "paper:europe_pmc_PMC13639189", "to": "term:easm", "value": 0.0413}, {"from": "paper:europe_pmc_PMC13488926", "to": "term:amoc", "value": 3.4}, {"from": "paper:europe_pmc_PMC13598196", "to": "term:amoc", "value": 3.4}, {"from": "paper:europe_pmc_PMC13488926", "to": "term:southern ocean", "value": 1.7}, {"from": "paper:europe_pmc_PMC13598196", "to": "term:southern ocean", "value": 1.7}, {"from": "paper:europe_pmc_PMC12662202", "to": "term:bp", "value": 3.6}, {"from": "paper:europe_pmc_PMC13319204", "to": "term:bp", "value": 3.6}, {"from": "paper:europe_pmc_PMC12662202", "to": "term:monte carlo", "value": 1.8}, {"from": "paper:europe_pmc_PMC13319204", "to": "term:monte carlo", "value": 1.8}, {"from": "paper:europe_pmc_PMC12662202", "to": "term:kyr", "value": 0.0379}, {"from": "paper:europe_pmc_PMC13319204", "to": "term:kyr", "value": 0.0379}, {"from": "paper:europe_pmc_PMC12753843", "to": "term:easm", "value": 2.78}, {"from": "paper:europe_pmc_PMC12835000", "to": "term:easm", "value": 2.78}, {"from": "paper:europe_pmc_PMC12753843", "to": "term:cave", "value": 0.0464}, {"from": "paper:europe_pmc_PMC12835000", "to": "term:cave", "value": 0.0464}, {"from": "paper:europe_pmc_PMC12753843", "to": "term:ka bp", "value": 0.0401}, {"from": "paper:europe_pmc_PMC12835000", "to": "term:ka bp", "value": 0.0401}, {"from": "paper:europe_pmc_PMC13458837", "to": "term:mis", "value": 4.14}, {"from": "paper:europe_pmc_PMC13578706", "to": "term:mis", "value": 4.14}, {"from": "paper:europe_pmc_PMC13458837", "to": "term:tibetan plateau", "value": 1.5}, {"from": "paper:europe_pmc_PMC13578706", "to": "term:tibetan plateau", "value": 1.5}, {"from": "paper:europe_pmc_PMC13458837", "to": "term:ma", "value": 0.038}, {"from": "paper:europe_pmc_PMC13578706", "to": "term:ma", "value": 0.038}, {"from": "paper:europe_pmc_PMC12354891", "to": "term:lgi", "value": 2.76}, {"from": "paper:europe_pmc_PMC13477475", "to": "term:lgi", "value": 2.76}, {"from": "paper:europe_pmc_PMC12354891", "to": "term:amoc", "value": 2.5}, {"from": "paper:europe_pmc_PMC13477475", "to": "term:amoc", "value": 2.5}, {"from": "paper:europe_pmc_PMC13376600", "to": "term:heinrich stadial", "value": 2.6}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:heinrich stadial", "value": 2.6}, {"from": "paper:europe_pmc_PMC13376600", "to": "term:south america", "value": 1.8}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:south america", "value": 1.8}, {"from": "paper:europe_pmc_PMC13376600", "to": "term:last glacial maximum", "value": 1.5}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:last glacial maximum", "value": 1.5}, {"from": "paper:europe_pmc_PMC13376600", "to": "term:younger dryas", "value": 1.4}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:younger dryas", "value": 1.4}], "title": "Knowledge graph (amoc_insolation_20)"};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () {
+      tip.style.display = 'none';
+    });
+    network.on('dragStart', function () {
+      tip.style.display = 'none';
+    });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') {
+        showTip(tip.innerHTML, evt);
+      }
+    });
+  </script>
+</body>
+</html>

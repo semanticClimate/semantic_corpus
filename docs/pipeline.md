@@ -1,7 +1,8 @@
 # Pipeline CLI (`pipeline`)
 
 **Date:** 2026-11-03  
-**Status:** CLI + doit orchestration live; **`query` / `corpus` / `phrases` / `clusters` are real**; `pdfs` / `clean` / `encyclopedia` / `kg` / `--source` still placeholders or partial.  
+**Status:** CLI + doit orchestration live; **`query` / `corpus` / `phrases` / `clusters` / `encyclopedia` are real**; `pdfs` / `clean` / `kg` / `--source` still placeholders or partial.  
+**Next:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md) (step definition) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)  
 **Related:** [pipeline_design.md](pipeline_design.md) · [pipeline_make_doit.md](pipeline_make_doit.md) · [cluster_filtering_workflow.md](cluster_filtering_workflow.md)
 
 Install:
@@ -165,14 +166,24 @@ Note: even with `--always`, the downloader may still reuse XMLs already present 
 | `--cluster-algorithm` | Community detection | `louvain` |
 | `--cluster-resolution` | Louvain resolution | `1.0` |
 
-### Encyclopedia / kg (stubs)
+### Encyclopedia / kg
 
 | Flag | Role | Default |
 |------|------|---------|
 | `--encyclopedia-lang` | Wikipedia language | `en` |
-| `--kg-max-island` | Island size hint threshold | `20` |
+| `--max-entries` | Cap phrases resolved for encyclopedia | `100` |
+| `--kg-links` | Edge generators: `clusters`, `wikipedia`, `wikidata` | `clusters,wikipedia,wikidata` |
+| `--kg-max-island` | Island size hint threshold for clean feedback | `20` |
+| `--kg-min-paper-count` | Min `n_papers` (phrases_terms) for a term node | `2` |
+| `--kg-max-terms` | Cap term nodes after ranking by `n_papers` | `50` |
 
-More flags will be added beside these groups without renaming steps.
+```bash
+# After clusters — interactive KG HTML (filtered terms)
+pipeline kg --workdir corpora/amoc_insolation_20 \
+  --kg-links clusters,wikipedia --kg-min-paper-count 2 --kg-max-terms 40 --open
+```
+
+Detail: [pipeline_encyclopedia.md](pipeline_encyclopedia.md) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md).
 
 ---
 
@@ -233,3 +244,26 @@ pipeline forget --workdir corpora/amoc_insolation_20 --target clusters
 | Tests | `tests/test_pipeline.py` |
 
 Streamlit should call the same tasks via `DoitMain` + `ModuleTaskLoader` (not `doit.run()`, which calls `sys.exit`). See [pipeline_make_doit.md](pipeline_make_doit.md).
+
+---
+
+## 9. Next steps: encyclopedia + kg
+
+- **`encyclopedia` definition:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md)  
+- **With `kg`:** [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)
+
+Short version:
+
+1. **`encyclopedia`** — select/rank phrases → Wikipedia/Wikidata; `--max-entries`, `--encyclopedia-lang`; write `encyclopedia/entries.json`.  
+2. **`kg`** — edges from `--kg-links` (`clusters` \| `wikipedia` \| `wikidata`); display + islands → `clean`.
+
+```bash
+# once wired
+pipeline --workdir corpora/amoc_insolation_20 \
+  --encyclopedia-lang en --max-entries 50 \
+  --target encyclopedia
+
+pipeline --workdir corpora/amoc_insolation_20 \
+  --kg-links clusters,wikipedia,wikidata \
+  --target kg
+```
