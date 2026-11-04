@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13701812",
+  "phrases": [
+    {
+      "phrase": "del carmen",
+      "display": "Del Carmen",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southwest monsoon",
+      "display": "Southwest Monsoon",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "del carmen mangrove reserve",
+      "display": "Del Carmen Mangrove Reserve",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northeast monsoon",
+      "display": "Northeast Monsoon",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "campbell scientific",
+      "display": "Campbell Scientific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "campbell scientific inc",
+      "display": "Campbell Scientific Inc",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "siargao island",
+      "display": "Siargao Island",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nee",
+      "display": "NEE",
+      "score": 2.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gpp",
+      "display": "GPP",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "re",
+      "display": "RE",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tower",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "Tower"
+    },
+    {
+      "phrase": "footprint",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "Footprint"
+    },
+    {
+      "phrase": "august",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "August"
+    },
+    {
+      "phrase": "del",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "Del"
+    },
+    {
+      "phrase": "carmen",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "Carmen"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

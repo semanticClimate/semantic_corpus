@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13382337",
+  "phrases": [
+    {
+      "phrase": "qinglan harbor",
+      "display": "Qinglan Harbor",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atmospherically resistant vegetation index",
+      "display": "Atmospherically Resistant Vegetation Index",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "synthetic aperture radar",
+      "display": "Synthetic Aperture Radar",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "green leaf index",
+      "display": "Green Leaf Index",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google earth",
+      "display": "Google Earth",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "least absolute shrinkage and selection operator",
+      "display": "Least Absolute Shrinkage and Selection Operator",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "advanced land observing satellite",
+      "display": "Advanced Land Observing Satellite",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "socd",
+      "display": "SOCD",
+      "score": 2.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soc",
+      "display": "SOC",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sar",
+      "display": "SAR",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lidar",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "LiDAR"
+    },
+    {
+      "phrase": "xgboost",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "XGBoost"
+    },
+    {
+      "phrase": "lasso",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Lasso"
+    },
+    {
+      "phrase": "wv-2",
+      "score": 0.0329,
+      "channel": "tfidf",
+      "display": "WV-2"
+    },
+    {
+      "phrase": "carbon",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "carbon"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

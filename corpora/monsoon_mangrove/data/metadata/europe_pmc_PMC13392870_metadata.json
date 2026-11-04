@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC13392870",
+  "pmid": "42495534",
+  "title": "Integrating multi-index remote sensing and machine learning for mangrove dynamics assessment using sentinel-2 imagery.",
+  "abstract": "Mangrove ecosystems in the Indus Delta provide critical coastal protection, carbon storage, and biodiversity support but remain vulnerable to environmental change. This study integrated sentinel-2 imagery, nine spectral indices, and random forest machine learning to evaluate mangrove dynamics between 2018 and 2024. Multi-temporal classification achieved high accuracy and enabled detailed assessment of land-cover transitions across the delta. Mangrove extent increased from 70.69 km<sup>2</sup> in 2018 to 117.05 km<sup>2</sup> in 2024, representing a 65.6% expansion. Change detection revealed that regeneration (50.54 km<sup>2</sup>) substantially exceeded degradation (3.43 km<sup>2</sup>), indicating strong ecosystem recovery. Most expansion occurred through colonization of previously bare tidal flats and succession from non-mangrove vegetation. These findings demonstrate the effectiveness of integrating multi-index remote sensing with machine learning for coastal ecosystem monitoring and provide valuable information for mangrove conservation, restoration planning, and sustainable management of vulnerable deltaic environments.",
+  "authors": [
+    "Yu H",
+    "Wu J",
+    "Aslam RW",
+    "Naz I",
+    "Tariq A",
+    "Ullah S",
+    "Elmannai H",
+    "Said Y"
+  ],
+  "publication_date": "2026-07-21",
+  "journal": "",
+  "doi": "10.1016/j.isci.2026.116796",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1016/j.isci.2026.116796"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13392870"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13392870?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

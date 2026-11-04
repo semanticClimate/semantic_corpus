@@ -1,0 +1,167 @@
+{
+  "step": 2,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove",
+  "bag_root": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "paper_count": 20,
+  "papers_from_cache": 0,
+  "papers_extracted": 20,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 300,
+  "unique_phrases": 277,
+  "elapsed_s": 1.4797,
+  "paper_ids": [
+    "europe_pmc_PMC11889114",
+    "europe_pmc_PMC12374975",
+    "europe_pmc_PMC12682276",
+    "europe_pmc_PMC12683603",
+    "europe_pmc_PMC12979779",
+    "europe_pmc_PMC13062685",
+    "europe_pmc_PMC13191654",
+    "europe_pmc_PMC13223266",
+    "europe_pmc_PMC13229405",
+    "europe_pmc_PMC13332146",
+    "europe_pmc_PMC13363884",
+    "europe_pmc_PMC13365400",
+    "europe_pmc_PMC13370299",
+    "europe_pmc_PMC13382337",
+    "europe_pmc_PMC13392870",
+    "europe_pmc_PMC13547495",
+    "europe_pmc_PMC13579965",
+    "europe_pmc_PMC13611807",
+    "europe_pmc_PMC13673541",
+    "europe_pmc_PMC13701812"
+  ],
+  "papers": [
+    {
+      "paper_id": "europe_pmc_PMC11889114",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC11889114.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12374975",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC12374975.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12682276",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC12682276.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12683603",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC12683603.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12979779",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC12979779.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13062685",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13062685.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13191654",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13191654.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13223266",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13223266.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13229405",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13229405.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13332146",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13332146.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13363884",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13363884.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13365400",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13365400.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13370299",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13370299.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13382337",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13382337.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13392870",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13392870.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13547495",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13547495.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13579965",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13579965.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13611807",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13611807.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13673541",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13673541.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13701812",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon_mangrove/phrases/europe_pmc_PMC13701812.json"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13448930",
+  "phrases": [
+    {
+      "phrase": "national institutes of health",
+      "display": "National Institutes of Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "although peptide",
+      "display": "Although Peptide",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kounosuke oisaki",
+      "display": "Kounosuke Oisaki",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "except for his",
+      "display": "Except for His",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stefan kolmar",
+      "display": "Stefan Kolmar",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "junfeng zhao",
+      "display": "Junfeng Zhao",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc method",
+      "display": "Amoc Method",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "Amoc",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aa",
+      "display": "AA",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fmoc",
+      "display": "Fmoc",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peptide",
+      "score": 0.0734,
+      "channel": "tfidf",
+      "display": "Peptide"
+    },
+    {
+      "phrase": "synthesis",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "synthesis"
+    },
+    {
+      "phrase": "peptide synthesis",
+      "score": 0.0579,
+      "channel": "tfidf",
+      "display": "peptide synthesis"
+    },
+    {
+      "phrase": "amino",
+      "score": 0.0572,
+      "channel": "tfidf",
+      "display": "Amino"
+    },
+    {
+      "phrase": "acids",
+      "score": 0.0556,
+      "channel": "tfidf",
+      "display": "acids"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0897
+}

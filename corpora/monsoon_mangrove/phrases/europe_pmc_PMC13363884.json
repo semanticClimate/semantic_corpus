@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13363884",
+  "phrases": [
+    {
+      "phrase": "indus delta",
+      "display": "Indus Delta",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sindh and balochistan",
+      "display": "Sindh and Balochistan",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "random forest",
+      "display": "Random Forest",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european space agency",
+      "display": "European Space Agency",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea surface salinity",
+      "display": "Sea Surface Salinity",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mountain view",
+      "display": "Mountain View",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google earth",
+      "display": "Google Earth",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lue",
+      "display": "LUE",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agb",
+      "display": "AGB",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vpd",
+      "display": "VPD",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mg ha",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Mg ha"
+    },
+    {
+      "phrase": "carbon",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "Carbon"
+    },
+    {
+      "phrase": "pakistan",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "Pakistan"
+    },
+    {
+      "phrase": "ha",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "ha"
+    },
+    {
+      "phrase": "mangrove",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "Mangrove"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

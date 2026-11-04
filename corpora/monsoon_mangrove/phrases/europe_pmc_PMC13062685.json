@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13062685",
+  "phrases": [
+    {
+      "phrase": "digha mohona",
+      "display": "Digha Mohona",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "champa river",
+      "display": "Champa River",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mehta and vyas",
+      "display": "Mehta and Vyas",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sariyildiz and mohammed ali",
+      "display": "Sariyildiz and Mohammed Ali",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "although the digha mohona",
+      "display": "Although the Digha Mohona",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lokhande and suprasanna",
+      "display": "Lokhande and Suprasanna",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "purba medinipur coast",
+      "display": "Purba Medinipur Coast",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rwc",
+      "display": "RWC",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ec",
+      "display": "EC",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tds",
+      "display": "TDS",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rumphiana",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "rumphiana"
+    },
+    {
+      "phrase": "alba",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "alba"
+    },
+    {
+      "phrase": "officinalis",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "officinalis"
+    },
+    {
+      "phrase": "proline",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "Proline"
+    },
+    {
+      "phrase": "tppc",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "TPPC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

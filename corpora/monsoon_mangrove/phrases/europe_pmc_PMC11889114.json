@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11889114",
+  "phrases": [
+    {
+      "phrase": "bay of bengal",
+      "display": "Bay of Bengal",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "not significant",
+      "display": "Not Significant",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soil cr",
+      "display": "Soil Cr",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soil cu",
+      "display": "Soil Cu",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soil mn",
+      "display": "Soil Mn",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soil zn",
+      "display": "Soil Zn",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "multiple sequence alignment program",
+      "display": "Multiple Sequence Alignment Program",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cfu",
+      "display": "CFU",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ariyankuppam",
+      "display": "Ariyankuppam",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vellar",
+      "display": "Vellar",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "thraustochytrids",
+      "score": 0.0439,
+      "channel": "tfidf",
+      "display": "Thraustochytrids"
+    },
+    {
+      "phrase": "count",
+      "score": 0.0414,
+      "channel": "tfidf",
+      "display": "count"
+    },
+    {
+      "phrase": "cfu table",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "cfu table"
+    },
+    {
+      "phrase": "pichavaram",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "Pichavaram"
+    },
+    {
+      "phrase": "planted",
+      "score": 0.0364,
+      "channel": "tfidf",
+      "display": "Planted"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13478603",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "medieval climate anomaly",
+      "display": "Medieval Climate Anomaly",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little ice age",
+      "display": "Little Ice Age",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south greenland margin",
+      "display": "South Greenland Margin",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laurentian channel",
+      "display": "Laurentian Channel",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exp",
+      "display": "EXP",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cesm",
+      "display": "CESM",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "volcanic",
+      "score": 0.0449,
+      "channel": "tfidf",
+      "display": "volcanic"
+    },
+    {
+      "phrase": "amoc-sensitive",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "AMOC-sensitive"
+    },
+    {
+      "phrase": "amoc-sensitive indicators",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "AMOC-sensitive indicators"
+    },
+    {
+      "phrase": "eruptions",
+      "score": 0.04,
+      "channel": "tfidf",
+      "display": "eruptions"
+    },
+    {
+      "phrase": "volcanic eruptions",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "volcanic eruptions"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0897
+}

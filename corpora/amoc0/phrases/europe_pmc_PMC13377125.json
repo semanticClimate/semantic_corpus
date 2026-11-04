@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13377125",
+  "phrases": [
+    {
+      "phrase": "northward group",
+      "display": "Northward Group",
+      "score": 3.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southward group",
+      "display": "Southward Group",
+      "score": 3.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "neutral group",
+      "display": "Neutral Group",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northward and southward groups",
+      "display": "Northward and Southward Groups",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "itcz",
+      "display": "ITCZ",
+      "score": 5.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hc",
+      "display": "HC",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ahteq",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "AHTeq"
+    },
+    {
+      "phrase": "ohteq",
+      "score": 0.0432,
+      "channel": "tfidf",
+      "display": "OHTeq"
+    },
+    {
+      "phrase": "ts",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "TS"
+    },
+    {
+      "phrase": "group",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "Group"
+    },
+    {
+      "phrase": "movement",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "movement"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0897
+}

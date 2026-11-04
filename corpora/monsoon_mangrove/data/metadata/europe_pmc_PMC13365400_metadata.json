@@ -1,0 +1,43 @@
+{
+  "pmcid": "PMC13365400",
+  "pmid": "42135306",
+  "title": "Integrated machine learning-bayesian receptor modelling framework for uncertainty-aware source apportionment in a non-stationary fluoride-contaminated coastal aquifer.",
+  "abstract": "Fluoride contamination in coastal aquifers is difficult to evaluate because its mobilisation is controlled by overlapping and seasonally dynamic non-stationary hydrogeochemical processes influenced by seawater intrusion, lithological heterogeneity, recharge, and anthropogenic activity. Therefore, this study aimed to develop and apply an integrated, uncertainty-aware framework to identify the dominant processes controlling groundwater fluoride, quantify their relative contributions, and relate them to lithology and land use factors. To address these complexities, a Bayesian-Absolute Principal Component Scores-Multiple Linear Regression (APCS-MLR) receptor model, integrated with Self-Organizing Maps (SOM), was proposed to achieve uncertainty-aware source apportionment. Data-informed priors combined with prior-posterior checks and No-U-Turn Sampler-based (NUTS) inference produced credible, physically consistent source contribution intervals within the Bayesian model. The framework was applied to an underexplored eastern coastal aquifer system of India, where seasonal monitoring of 171 stations revealed emerging F<sup>-</sup> hotspots with concentrations up to 7.10 mg/L, raising concerns among water authorities. The proposed Bayesian APCS-MLR receptor model revealed that groundwater fluoride was overwhelmingly controlled by geogenic leaching during the pre-monsoon season (89.14%, 95% Confidence Interval (CI): 80.09-97.26%), with only minor contributions from pH modulation (4.48%, CI: 0.32-9.19%) and silicate weathering/cation exchange (1.24%, CI: 0.12-2.39%), while anthropogenic and salinity influences remained negligible (0.23%, CI: 0.01-0.65% and 0.14%, CI: 0.01-0.42%, respectively). In the post-monsoon season, geogenic control weakened substantially to 48.86% (95% CI: 38.80-64.91%), concurrent with stronger recharge-enhanced pH effects (16.13%, CI: 3.20-24.11%) and intensified ion-exchange contributions (3.83%, CI: 0.75-7.31%). Unidentified contributions also rose sharply to 30.03% (CI: 24.72-33.68%) during post-monsoon, indicating the growing role of mixing, complexation, and unresolved non-linear mechanisms under post-monsoon conditions. Posterior probability distributions further showed that seasonal fluoride variability is primarily governed by recharge-driven processes superimposed on a persistent geogenic baseline, with lithology and land use acting as dominant regulators. Fine-textured formations and cropland or plantation areas retained strong geogenic influence, whereas coarse alluvium and aquaculture-linked settings exhibited stronger post-monsoon anthropogenic pH- and ion-exchange-driven fluoride release, likely facilitated by aquaculture pond leakage and clay compaction. Overall, the proposed methodology offers an uncertainty-aware and process-informed approach for source identification and apportionment in complex aquifers with overlapping hydrogeochemical controls, supporting informed groundwater management under SDG 6.",
+  "authors": [
+    "Sahu SK",
+    "Roy A",
+    "Panigrahi AK",
+    "Das MT",
+    "Sahu S",
+    "Mishra PC",
+    "Keesari T"
+  ],
+  "publication_date": "2026-05-14",
+  "journal": "",
+  "doi": "10.1038/s41598-026-48618-9",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41598-026-48618-9"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13365400"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13365400?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

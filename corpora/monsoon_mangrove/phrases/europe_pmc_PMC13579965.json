@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13579965",
+  "phrases": [
+    {
+      "phrase": "comparison of total",
+      "display": "Comparison of Total",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laura sereni",
+      "display": "Laura Sereni",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national atmospheric deposition program",
+      "display": "National Atmospheric Deposition Program",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "web of science core collection",
+      "display": "Web of Science Core Collection",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "specifications table this",
+      "display": "Specifications Table This",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america and africa",
+      "display": "South America and Africa",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "oceania and antarctica",
+      "display": "Oceania and Antarctica",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lf",
+      "display": "LF",
+      "score": 2.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tf",
+      "display": "TF",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "thg",
+      "display": "THg",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "broadleaved",
+      "score": 0.049,
+      "channel": "tfidf",
+      "display": "broadleaved"
+    },
+    {
+      "phrase": "mehg",
+      "score": 0.0476,
+      "channel": "tfidf",
+      "display": "MeHg"
+    },
+    {
+      "phrase": "lf tf",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "lf tf"
+    },
+    {
+      "phrase": "total-lf",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "Total-LF"
+    },
+    {
+      "phrase": "broadleaved forest",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "broadleaved forest"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12374975",
+  "phrases": [
+    {
+      "phrase": "indus delta",
+      "display": "Indus Delta",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "miani hor",
+      "display": "Miani Hor",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary file",
+      "display": "Supplementary File",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "miani hor and indus delta",
+      "display": "Miani Hor and Indus Delta",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus river",
+      "display": "Indus River",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus delta and miani hor",
+      "display": "Indus Delta and Miani Hor",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hm",
+      "display": "HM",
+      "score": 2.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sandspit",
+      "display": "Sandspit",
+      "score": 1.41,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus",
+      "display": "Indus",
+      "score": 1.37,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hor",
+      "score": 0.0443,
+      "channel": "tfidf",
+      "display": "Hor"
+    },
+    {
+      "phrase": "miani",
+      "score": 0.0443,
+      "channel": "tfidf",
+      "display": "Miani"
+    },
+    {
+      "phrase": "hg",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "Hg"
+    },
+    {
+      "phrase": "cd",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Cd"
+    },
+    {
+      "phrase": "fe",
+      "score": 0.0407,
+      "channel": "tfidf",
+      "display": "Fe"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

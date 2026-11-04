@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13191654",
+  "phrases": [
+    {
+      "phrase": "united kingdom",
+      "display": "United Kingdom",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "oxford nanopore technologies",
+      "display": "Oxford Nanopore Technologies",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hanna instruments",
+      "display": "Hanna Instruments",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states of america",
+      "display": "United States of America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "punyasloke bhadury",
+      "display": "Punyasloke Bhadury",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "west bengal",
+      "display": "West Bengal",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bacteroidetes and actinobacteria",
+      "display": "Bacteroidetes and Actinobacteria",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "smf",
+      "display": "SMF",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "doc",
+      "display": "DOC",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united",
+      "display": "United",
+      "score": 1.07,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surface water",
+      "score": 0.065,
+      "channel": "tfidf",
+      "display": "Surface water"
+    },
+    {
+      "phrase": "smf pond",
+      "score": 0.0642,
+      "channel": "tfidf",
+      "display": "SMF pond"
+    },
+    {
+      "phrase": "pond",
+      "score": 0.0593,
+      "channel": "tfidf",
+      "display": "pond"
+    },
+    {
+      "phrase": "sediment surface water",
+      "score": 0.0567,
+      "channel": "tfidf",
+      "display": "sediment surface water"
+    },
+    {
+      "phrase": "sediment surface",
+      "score": 0.0534,
+      "channel": "tfidf",
+      "display": "sediment surface"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

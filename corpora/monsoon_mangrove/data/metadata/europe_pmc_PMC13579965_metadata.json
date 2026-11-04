@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC13579965",
+  "pmid": "42751499",
+  "title": "Standardizing mercury litterfall and throughfall data for comparative research: Introducing the MFallDa global database.",
+  "abstract": "Vegetation plays a pivotal role in the global mercury (Hg) cycle through the uptake of atmospheric Hg and its subsequent transfer to soils via litterfall (LF), as well as through Hg deposition on leaf surfaces that is washed off by precipitation and throughfall (TF). Yet, global LF and TF fluxes to soils remain poorly constrained, particularly across biomes and climate regions. Moreover, methylmercury (MeHg), that is the most bioavailable and toxic form of Hg, has long been overlooked in terrestrial Hg budgets despite its non-negligible contribution. This database is the first effort to systematically compile and harmonize all available data on total Hg (THg) and MeHg concentrations and fluxes in LF and TF, ensuring that only datasets with comparable sampling protocols are included. The result is the first global Mercury litter- and throughFall Database (MFallDa, https://doi.org/10.5281/zenodo.21979623). The dataset includes measurements collected between 1987 and 2024 from 147 sites spanning all major biomes, together with metadata on ecosystem type, sampling protocols, precipitation, wet deposition, and Köppen-Geiger climate classification. MFallDa provides an open-access, standardized resource to improve spatially explicit estimates of vegetation-mediated Hg inputs to soils, and refine inter- and intra-site Hg budgets. To facilitate community data sharing and ensure regular updates, a contribution template is provided and the database is hosted on GitHub enabling collaborative input from the global research community. By collecting and standardizing these critical data, MFallDa addresses a key data gap, thereby supporting more robust assessments of vegetation-mediated Hg budgets.",
+  "authors": [
+    "Sereni L",
+    "Jahangir E",
+    "Feng X",
+    "Fernandez IJ",
+    "Fostier AH",
+    "Grigal D",
+    "Gómez-Armesto A",
+    "Kolka R",
+    "Munthe J",
+    "Navrátil T",
+    "Nóvoa-Muñoz JC",
+    "Parente-Sendín A",
+    "Pontevedra-Pombal X",
+    "Silva-Filho EV",
+    "Angot H"
+  ],
+  "publication_date": "2026-08-27",
+  "journal": "",
+  "doi": "10.1016/j.dib.2026.113206",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1016/j.dib.2026.113206"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13579965"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13579965?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

@@ -1,0 +1,652 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "Guangdong Province; China; Guangdong; Hong Kong; Guangdong and Guangxi",
+      "paper_count": 3,
+      "term_count": 40,
+      "paper_ids": [
+        "europe_pmc_PMC12683603",
+        "europe_pmc_PMC13223266",
+        "europe_pmc_PMC13673541"
+      ],
+      "terms": [
+        {
+          "phrase": "guangdong province",
+          "display": "Guangdong Province",
+          "weight": 4.0
+        },
+        {
+          "phrase": "china",
+          "display": "China",
+          "weight": 3.59
+        },
+        {
+          "phrase": "guangdong",
+          "display": "Guangdong",
+          "weight": 2.31
+        },
+        {
+          "phrase": "hong kong",
+          "display": "Hong Kong",
+          "weight": 1.5
+        },
+        {
+          "phrase": "guangdong and guangxi",
+          "display": "Guangdong and Guangxi",
+          "weight": 1.3
+        },
+        {
+          "phrase": "shantou and huiyang",
+          "display": "Shantou and Huiyang",
+          "weight": 1.3
+        },
+        {
+          "phrase": "zhanjiang mangrove national nature reserve",
+          "display": "Zhanjiang Mangrove National Nature Reserve",
+          "weight": 1.3
+        },
+        {
+          "phrase": "yangjiang",
+          "display": "Yangjiang",
+          "weight": 1.21
+        },
+        {
+          "phrase": "de haan",
+          "display": "De Haan",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ellobiidae and littorinidae",
+          "display": "Ellobiidae and Littorinidae",
+          "weight": 1.2
+        },
+        {
+          "phrase": "hong kong and macao",
+          "display": "Hong Kong and Macao",
+          "weight": 1.2
+        },
+        {
+          "phrase": "hong kong and macao special administrative regions",
+          "display": "Hong Kong and Macao Special Administrative Regions",
+          "weight": 1.2
+        },
+        {
+          "phrase": "local ecological footprinting tool",
+          "display": "Local Ecological Footprinting Tool",
+          "weight": 1.2
+        },
+        {
+          "phrase": "observation dataset",
+          "display": "Observation Dataset",
+          "weight": 1.2
+        },
+        {
+          "phrase": "platytrombidium thor",
+          "display": "Platytrombidium Thor",
+          "weight": 1.2
+        },
+        {
+          "phrase": "protopenthalodes jesionowska",
+          "display": "Protopenthalodes Jesionowska",
+          "weight": 1.2
+        },
+        {
+          "phrase": "zhejiang province",
+          "display": "Zhejiang Province",
+          "weight": 1.2
+        },
+        {
+          "phrase": "pls",
+          "display": "PLS",
+          "weight": 1.14
+        },
+        {
+          "phrase": "zhanjiang",
+          "display": "Zhanjiang",
+          "weight": 1.11
+        },
+        {
+          "phrase": "april and september",
+          "display": "April and September",
+          "weight": 1.1
+        },
+        {
+          "phrase": "bellinato and bogliani",
+          "display": "Bellinato and Bogliani",
+          "weight": 1.1
+        },
+        {
+          "phrase": "cancellieri and murphy",
+          "display": "Cancellieri and Murphy",
+          "weight": 1.1
+        },
+        {
+          "phrase": "chinese pond heron",
+          "display": "Chinese Pond Heron",
+          "weight": 1.1
+        },
+        {
+          "phrase": "forstmeier and weiss",
+          "display": "Forstmeier and Weiss",
+          "weight": 1.1
+        },
+        {
+          "phrase": "caoyang",
+          "display": "Caoyang",
+          "weight": 1.08
+        },
+        {
+          "phrase": "nests",
+          "display": "Nests",
+          "weight": 0.0784
+        },
+        {
+          "phrase": "predation",
+          "display": "Predation",
+          "weight": 0.0728
+        },
+        {
+          "phrase": "breeding",
+          "display": "breeding",
+          "weight": 0.0625
+        },
+        {
+          "phrase": "eggs",
+          "display": "eggs",
+          "weight": 0.0625
+        },
+        {
+          "phrase": "birds",
+          "display": "Birds",
+          "weight": 0.0624
+        },
+        {
+          "phrase": "avian diversity",
+          "display": "avian diversity",
+          "weight": 0.0449
+        },
+        {
+          "phrase": "avian",
+          "display": "avian",
+          "weight": 0.0428
+        },
+        {
+          "phrase": "phytoplankton",
+          "display": "Phytoplankton",
+          "weight": 0.0381
+        },
+        {
+          "phrase": "mangrove",
+          "display": "Mangrove",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "stations",
+          "display": "Stations",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "diversity",
+          "display": "Diversity",
+          "weight": 0.0357
+        },
+        {
+          "phrase": "species",
+          "display": "Species",
+          "weight": 0.0352
+        },
+        {
+          "phrase": "bakawan",
+          "display": "Bakawan",
+          "weight": 0.0341
+        },
+        {
+          "phrase": "sp",
+          "display": "sp",
+          "weight": 0.0341
+        },
+        {
+          "phrase": "shantou",
+          "display": "Shantou",
+          "weight": 0.0336
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "CFU; Bay of Bengal; Ariyankuppam; Not Significant; Vellar",
+      "paper_count": 2,
+      "term_count": 28,
+      "paper_ids": [
+        "europe_pmc_PMC11889114",
+        "europe_pmc_PMC13365400"
+      ],
+      "terms": [
+        {
+          "phrase": "cfu",
+          "display": "CFU",
+          "weight": 2.9
+        },
+        {
+          "phrase": "bay of bengal",
+          "display": "Bay of Bengal",
+          "weight": 2.6
+        },
+        {
+          "phrase": "ariyankuppam",
+          "display": "Ariyankuppam",
+          "weight": 1.3
+        },
+        {
+          "phrase": "not significant",
+          "display": "Not Significant",
+          "weight": 1.3
+        },
+        {
+          "phrase": "vellar",
+          "display": "Vellar",
+          "weight": 1.28
+        },
+        {
+          "phrase": "google colab",
+          "display": "Google Colab",
+          "weight": 1.2
+        },
+        {
+          "phrase": "map of balasore",
+          "display": "Map of Balasore",
+          "weight": 1.2
+        },
+        {
+          "phrase": "soil cr",
+          "display": "Soil Cr",
+          "weight": 1.2
+        },
+        {
+          "phrase": "soil cu",
+          "display": "Soil Cu",
+          "weight": 1.2
+        },
+        {
+          "phrase": "soil mn",
+          "display": "Soil Mn",
+          "weight": 1.2
+        },
+        {
+          "phrase": "soil zn",
+          "display": "Soil Zn",
+          "weight": 1.2
+        },
+        {
+          "phrase": "tamil nadu",
+          "display": "Tamil Nadu",
+          "weight": 1.2
+        },
+        {
+          "phrase": "som",
+          "display": "SOM",
+          "weight": 1.16
+        },
+        {
+          "phrase": "apcs",
+          "display": "APCS",
+          "weight": 1.14
+        },
+        {
+          "phrase": "mlr",
+          "display": "MLR",
+          "weight": 1.12
+        },
+        {
+          "phrase": "achieving sustainable development goal",
+          "display": "Achieving Sustainable Development Goal",
+          "weight": 1.1
+        },
+        {
+          "phrase": "bayesian absolute principal component score",
+          "display": "Bayesian Absolute Principal Component Score",
+          "weight": 1.1
+        },
+        {
+          "phrase": "multiple sequence alignment program",
+          "display": "Multiple Sequence Alignment Program",
+          "weight": 1.1
+        },
+        {
+          "phrase": "unlike positive matrix factorisation",
+          "display": "Unlike Positive Matrix Factorisation",
+          "weight": 1.1
+        },
+        {
+          "phrase": "fluoride",
+          "display": "Fluoride",
+          "weight": 0.0501
+        },
+        {
+          "phrase": "thraustochytrids",
+          "display": "Thraustochytrids",
+          "weight": 0.0439
+        },
+        {
+          "phrase": "count",
+          "display": "count",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "minimal",
+          "display": "minimal",
+          "weight": 0.0412
+        },
+        {
+          "phrase": "cfu table",
+          "display": "cfu table",
+          "weight": 0.0396
+        },
+        {
+          "phrase": "pichavaram",
+          "display": "Pichavaram",
+          "weight": 0.0377
+        },
+        {
+          "phrase": "na",
+          "display": "Na",
+          "weight": 0.0376
+        },
+        {
+          "phrase": "fluorite",
+          "display": "fluorite",
+          "weight": 0.0372
+        },
+        {
+          "phrase": "planted",
+          "display": "Planted",
+          "weight": 0.0364
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "Indus Delta; Miani Hor; Indus River; Indus; Supplementary File",
+      "paper_count": 2,
+      "term_count": 25,
+      "paper_ids": [
+        "europe_pmc_PMC12374975",
+        "europe_pmc_PMC13392870"
+      ],
+      "terms": [
+        {
+          "phrase": "indus delta",
+          "display": "Indus Delta",
+          "weight": 7.1
+        },
+        {
+          "phrase": "miani hor",
+          "display": "Miani Hor",
+          "weight": 2.9
+        },
+        {
+          "phrase": "indus river",
+          "display": "Indus River",
+          "weight": 2.7
+        },
+        {
+          "phrase": "indus",
+          "display": "Indus",
+          "weight": 2.57
+        },
+        {
+          "phrase": "supplementary file",
+          "display": "Supplementary File",
+          "weight": 2.5
+        },
+        {
+          "phrase": "hm",
+          "display": "HM",
+          "weight": 2.18
+        },
+        {
+          "phrase": "miani hor and indus delta",
+          "display": "Miani Hor and Indus Delta",
+          "weight": 2.0
+        },
+        {
+          "phrase": "sandspit",
+          "display": "Sandspit",
+          "weight": 1.41
+        },
+        {
+          "phrase": "arabian sea",
+          "display": "Arabian Sea",
+          "weight": 1.4
+        },
+        {
+          "phrase": "indus delta and miani hor",
+          "display": "Indus Delta and Miani Hor",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ndvi",
+          "display": "NDVI",
+          "weight": 1.26
+        },
+        {
+          "phrase": "delta",
+          "display": "Delta",
+          "weight": 1.2
+        },
+        {
+          "phrase": "arthrocnemum and salicornia",
+          "display": "Arthrocnemum and Salicornia",
+          "weight": 1.1
+        },
+        {
+          "phrase": "das and vincent",
+          "display": "Das and Vincent",
+          "weight": 1.1
+        },
+        {
+          "phrase": "indus delta in pakistan",
+          "display": "Indus Delta in Pakistan",
+          "weight": 1.1
+        },
+        {
+          "phrase": "sindh forest department",
+          "display": "Sindh Forest Department",
+          "weight": 1.1
+        },
+        {
+          "phrase": "hor",
+          "display": "Hor",
+          "weight": 0.0443
+        },
+        {
+          "phrase": "miani",
+          "display": "Miani",
+          "weight": 0.0443
+        },
+        {
+          "phrase": "hg",
+          "display": "Hg",
+          "weight": 0.0428
+        },
+        {
+          "phrase": "cd",
+          "display": "Cd",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "fe",
+          "display": "Fe",
+          "weight": 0.0407
+        },
+        {
+          "phrase": "expansion",
+          "display": "Expansion",
+          "weight": 0.0335
+        },
+        {
+          "phrase": "bare ground",
+          "display": "Bare ground",
+          "weight": 0.0321
+        },
+        {
+          "phrase": "bare",
+          "display": "Bare",
+          "weight": 0.0316
+        },
+        {
+          "phrase": "vegetation",
+          "display": "vegetation",
+          "weight": 0.0313
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "AGB; Lon and Lat; Tieshan Harbor; LUE; BGB",
+      "paper_count": 2,
+      "term_count": 25,
+      "paper_ids": [
+        "europe_pmc_PMC13363884",
+        "europe_pmc_PMC13611807"
+      ],
+      "terms": [
+        {
+          "phrase": "agb",
+          "display": "AGB",
+          "weight": 3.34
+        },
+        {
+          "phrase": "lon and lat",
+          "display": "Lon and Lat",
+          "weight": 1.7
+        },
+        {
+          "phrase": "tieshan harbor",
+          "display": "Tieshan Harbor",
+          "weight": 1.7
+        },
+        {
+          "phrase": "lue",
+          "display": "LUE",
+          "weight": 1.66
+        },
+        {
+          "phrase": "bgb",
+          "display": "BGB",
+          "weight": 1.62
+        },
+        {
+          "phrase": "shap",
+          "display": "SHAP",
+          "weight": 1.52
+        },
+        {
+          "phrase": "vpd",
+          "display": "VPD",
+          "weight": 1.46
+        },
+        {
+          "phrase": "random forest",
+          "display": "Random Forest",
+          "weight": 1.4
+        },
+        {
+          "phrase": "sindh and balochistan",
+          "display": "Sindh and Balochistan",
+          "weight": 1.4
+        },
+        {
+          "phrase": "european space agency",
+          "display": "European Space Agency",
+          "weight": 1.2
+        },
+        {
+          "phrase": "google earth",
+          "display": "Google Earth",
+          "weight": 1.2
+        },
+        {
+          "phrase": "mountain view",
+          "display": "Mountain View",
+          "weight": 1.2
+        },
+        {
+          "phrase": "sea surface salinity",
+          "display": "Sea Surface Salinity",
+          "weight": 1.2
+        },
+        {
+          "phrase": "green normalized difference vegetation index",
+          "display": "Green Normalized Difference Vegetation Index",
+          "weight": 1.1
+        },
+        {
+          "phrase": "normalized difference vegetation index",
+          "display": "Normalized Difference Vegetation Index",
+          "weight": 1.1
+        },
+        {
+          "phrase": "shankou mangrove national nature reserve",
+          "display": "Shankou Mangrove National Nature Reserve",
+          "weight": 1.1
+        },
+        {
+          "phrase": "technical regulations for investigation and assessment of carbon storage in mangrove ecosystems",
+          "display": "Technical Regulations for Investigation and Assessment of Carbon Storage in Mangrove Ecosystems",
+          "weight": 1.1
+        },
+        {
+          "phrase": "carbon",
+          "display": "Carbon",
+          "weight": 0.0717
+        },
+        {
+          "phrase": "carbon stock",
+          "display": "Carbon stock",
+          "weight": 0.0396
+        },
+        {
+          "phrase": "mg ha",
+          "display": "Mg ha",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "stock",
+          "display": "stock",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "slope",
+          "display": "Slope",
+          "weight": 0.0373
+        },
+        {
+          "phrase": "aspect",
+          "display": "Aspect",
+          "weight": 0.0369
+        },
+        {
+          "phrase": "pakistan",
+          "display": "Pakistan",
+          "weight": 0.0346
+        },
+        {
+          "phrase": "ha",
+          "display": "ha",
+          "weight": 0.0345
+        }
+      ]
+    }
+  ]
+}

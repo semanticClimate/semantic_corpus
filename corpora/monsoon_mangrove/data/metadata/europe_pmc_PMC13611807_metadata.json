@@ -1,0 +1,41 @@
+{
+  "pmcid": "PMC13611807",
+  "pmid": "42817395",
+  "title": "Mapping the Spatial Heterogeneity and Driving Mechanisms of Species-Specific Mangrove Carbon Stock with GF-1 Imagery and Models.",
+  "abstract": "Accurate estimation of mangrove carbon stocks and the driving mechanisms behind their spatial patterns are crucial for blue carbon assessment and management. This study addresses several challenges in remote sensing estimation of mangroves, including the limited generalizability of single estimation models, the difficulty in directly inverting belowground biomass (BGB), and insufficient analysis of the driving mechanisms underlying spatial heterogeneity. Using typical coastal mangrove distribution regions as the study area, an analytical framework integrating species-specific modeling, high-accuracy species classification, and multi-dimensional mechanism analysis was constructed by combining GF-1 remote sensing images with field survey data. First, species-specific aboveground biomass (AGB) and belowground biomass estimation models were established. Subsequently, high-precision mangrove species classification was achieved, with an overall species classification accuracy of 98.18% and a Kappa coefficient of 0.94. Furthermore, a variety of methods-including SHAP analysis, geographical detectors, and structural equation modeling (SEM)-were comprehensively applied to systematically examine the driving mechanisms behind the spatial distribution of carbon stocks. The results indicate that spatial heterogeneity in carbon stocks is primarily driven by spatial characteristics (latitude (Lat) and longitude (Lon), explanatory power = 0.514), with topographic characteristics (DEM, slope, aspect, explanatory power = 0.239) playing a synergistic and enhancing auxiliary role, and significant interactions existing among these factors. This study significantly improves the accuracy of mangrove carbon stock estimation and deepens the understanding of its driving mechanisms, providing scientific methodology and a case study support for refined monitoring, conservation, and carbon sink management of coastal blue carbon ecosystems.",
+  "authors": [
+    "Li X",
+    "Wang Y",
+    "Liu X",
+    "Zhang L",
+    "Shi X"
+  ],
+  "publication_date": "2026-09-11",
+  "journal": "",
+  "doi": "10.3390/s26185787",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3390/s26185787"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13611807"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13611807?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

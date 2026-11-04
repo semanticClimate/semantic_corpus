@@ -1,0 +1,43 @@
+{
+  "pmcid": "PMC13547495",
+  "pmid": "42707510",
+  "title": "DCSF-Net: a dual-branch cross-scale spatiotemporal fusion network for fine-scale mangrove mapping from RGB and Sentinel-2 imagery.",
+  "abstract": "Accurate fine-scale mangrove mapping is essential for coastal resource monitoring, ecological restoration, and shoreline management, yet fragmented boundaries, heterogeneous intertidal backgrounds, and the limited spectral dimensionality of high-resolution RGB imagery continue to constrain class separability. We developed DCSF-Net, a dual-branch cross-scale spatiotemporal fusion network that integrates 0.3 m RGB imagery with a 26-channel Sentinel-2 spectral-phenological feature tensor derived from 2024 dry-season (T1, October-December) and wet-season (T2, April-September) median composites and their differences. The RGB branch uses local boundary attention (LBA) and a directional topology module (DTM) to retain local contrast and elongated morphology, while the Deformable Cross-Scale Attention Bridge (D-CSAB) fuses the high-resolution spatial feature tensor output by the RGB branch with the upsampled Sentinel-2 representation through RGB-guided deformable convolution, cross-attention, and zero-initialized residual injection. On the test set, DCSF-Net achieved an F1-score of 95.68% and an intersection over union (IoU) of 91.72%, outperforming the evaluated RGB-only baselines. In matched-input ablations, replacing D-CSAB with direct fusion reduced IoU by 3.20 percentage points, removing zero-initialized residual injection reduced IoU by 1.86 points, and jointly removing LBA and DTM reduced IoU by 5.36 points. These results demonstrate the value of combining fine spatial detail with complementary spectral-seasonal context for mangrove mapping within the present study area and experimental design.",
+  "authors": [
+    "Zhuang S",
+    "Wen L",
+    "Wang Y",
+    "Wang Z",
+    "He Y",
+    "Chen L",
+    "Cui K"
+  ],
+  "publication_date": "2026-08-24",
+  "journal": "",
+  "doi": "10.3389/fpls.2026.1931676",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3389/fpls.2026.1931676"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13547495"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13547495?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

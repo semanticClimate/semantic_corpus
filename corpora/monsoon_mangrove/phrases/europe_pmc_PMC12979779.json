@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12979779",
+  "phrases": [
+    {
+      "phrase": "high low high low",
+      "display": "High Low High Low",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kanyakumari coast",
+      "display": "Kanyakumari Coast",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "enayum edapadu",
+      "display": "Enayum Edapadu",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hydrogeochemistry and resistivity",
+      "display": "Hydrogeochemistry and Resistivity",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dissolved inorganic phosphorus",
+      "display": "Dissolved Inorganic Phosphorus",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dissolved inorganic nitrogen",
+      "display": "Dissolved Inorganic Nitrogen",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sgd",
+      "display": "SGD",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "din",
+      "display": "DIN",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dip",
+      "display": "DIP",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "radon",
+      "score": 0.0625,
+      "channel": "tfidf",
+      "display": "Radon"
+    },
+    {
+      "phrase": "groundwater",
+      "score": 0.0516,
+      "channel": "tfidf",
+      "display": "Groundwater"
+    },
+    {
+      "phrase": "porewater",
+      "score": 0.05,
+      "channel": "tfidf",
+      "display": "Porewater"
+    },
+    {
+      "phrase": "kanyakumari",
+      "score": 0.0477,
+      "channel": "tfidf",
+      "display": "Kanyakumari"
+    },
+    {
+      "phrase": "dsi",
+      "score": 0.047,
+      "channel": "tfidf",
+      "display": "DSi"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

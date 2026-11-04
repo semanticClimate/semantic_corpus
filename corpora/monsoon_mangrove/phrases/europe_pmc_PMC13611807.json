@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13611807",
+  "phrases": [
+    {
+      "phrase": "tieshan harbor",
+      "display": "Tieshan Harbor",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lon and lat",
+      "display": "Lon and Lat",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "technical regulations for investigation and assessment of carbon storage in mangrove ecosystems",
+      "display": "Technical Regulations for Investigation and Assessment of Carbon Storage in Mangrove Ecosystems",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "green normalized difference vegetation index",
+      "display": "Green Normalized Difference Vegetation Index",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zhanjiang mangrove national nature reserve",
+      "display": "Zhanjiang Mangrove National Nature Reserve",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shankou mangrove national nature reserve",
+      "display": "Shankou Mangrove National Nature Reserve",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "normalized difference vegetation index",
+      "display": "Normalized Difference Vegetation Index",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agb",
+      "display": "AGB",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bgb",
+      "display": "BGB",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shap",
+      "display": "SHAP",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "carbon stock",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Carbon stock"
+    },
+    {
+      "phrase": "stock",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "stock"
+    },
+    {
+      "phrase": "slope",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "Slope"
+    },
+    {
+      "phrase": "aspect",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "Aspect"
+    },
+    {
+      "phrase": "carbon",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "Carbon"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (monsoon_mangrove)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #mynetwork { width: 100%; height: calc(100vh - 64px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    /* Hide any leftover vis built-in tooltip */
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge graph (monsoon_mangrove)</h1>
+    <p>23 nodes · 34 edges — drag, zoom, hover</p>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:guangdong province", "label": "Guangdong Province", "tooltip": "Guangdong Province (cluster weight 4; n_papers 3)", "value": 12.0, "group": "Term"}, {"id": "paper:europe_pmc_PMC12683603", "label": "PMC12683603", "tooltip": "Mangrove Habitats in Zhanjiang of South China: A Potentially High-Risk Environment for Breeding Birds.<br>(PMC12683603)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13223266", "label": "PMC13223266", "tooltip": "Biodiversity of natural versus planted mangrove forests across latitudes in Guangdong China with seven new records and potential new species.<br>(PMC13223266)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13673541", "label": "PMC13673541", "tooltip": "China’s mangrove expansion boosts avian diversity<br>(PMC13673541)", "value": 12.0, "group": "Paper"}, {"id": "term:china", "label": "China", "tooltip": "China (cluster weight 3.59; n_papers 3)", "value": 11.59, "group": "Term"}, {"id": "term:guangdong", "label": "Guangdong", "tooltip": "Guangdong (cluster weight 2.31; n_papers 2)", "value": 10.31, "group": "Term"}, {"id": "term:hong kong", "label": "Hong Kong", "tooltip": "Hong Kong (cluster weight 1.5; n_papers 2)", "value": 9.5, "group": "Term"}, {"id": "term:zhanjiang mangrove national nature reserve", "label": "Zhanjiang Mangrove National Nature Reserve", "tooltip": "Zhanjiang Mangrove National Nature Reserve (cluster weight 1.3; n_papers 2)", "value": 9.3, "group": "Term"}, {"id": "term:mangrove", "label": "Mangrove", "tooltip": "Mangrove (cluster weight 0.0379; n_papers 3)", "value": 8.0379, "group": "Term"}, {"id": "term:bay of bengal", "label": "Bay of Bengal", "tooltip": "Bay of Bengal (cluster weight 2.6; n_papers 2)", "value": 10.6, "group": "Term"}, {"id": "paper:europe_pmc_PMC11889114", "label": "PMC11889114", "tooltip": "Seasonal dynamics of thraustochytrids in mangrove rhizospheres for microbial interactions, PUFA production.<br>(PMC11889114)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13365400", "label": "PMC13365400", "tooltip": "Integrated machine learning-bayesian receptor modelling framework for uncertainty-aware source apportionment in a non-stationary fluoride-contaminated coastal aquifer.<br>(PMC13365400)", "value": 12.0, "group": "Paper"}, {"id": "term:indus delta", "label": "Indus Delta", "tooltip": "Indus Delta (cluster weight 7.1; n_papers 3)", "value": 15.1, "group": "Term"}, {"id": "paper:europe_pmc_PMC12374975", "label": "PMC12374975", "tooltip": "Pollution indices of brackish water and sediments of major mangrove sites along Arabian Sea coast of Pakistan.<br>(PMC12374975)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13392870", "label": "PMC13392870", "tooltip": "Integrating multi-index remote sensing and machine learning for mangrove dynamics assessment using sentinel-2 imagery.<br>(PMC13392870)", "value": 12.0, "group": "Paper"}, {"id": "term:indus river", "label": "Indus River", "tooltip": "Indus River (cluster weight 2.7; n_papers 2)", "value": 10.7, "group": "Term"}, {"id": "term:indus", "label": "Indus", "tooltip": "Indus (cluster weight 2.57; n_papers 2)", "value": 10.57, "group": "Term"}, {"id": "term:arabian sea", "label": "Arabian Sea", "tooltip": "Arabian Sea (cluster weight 1.4; n_papers 2)", "value": 9.4, "group": "Term"}, {"id": "term:agb", "label": "AGB", "tooltip": "AGB (cluster weight 3.34; n_papers 2)", "value": 11.34, "group": "Term"}, {"id": "paper:europe_pmc_PMC13363884", "label": "PMC13363884", "tooltip": "Spatiotemporal Modeling of Mangrove Carbon Stock Along Pakistan's Coast Using Multi-Sensor Sentinel and Landsat Data.<br>(PMC13363884)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13611807", "label": "PMC13611807", "tooltip": "Mapping the Spatial Heterogeneity and Driving Mechanisms of Species-Specific Mangrove Carbon Stock with GF-1 Imagery and Models.<br>(PMC13611807)", "value": 12.0, "group": "Paper"}, {"id": "term:google earth", "label": "Google Earth", "tooltip": "Google Earth (cluster weight 1.2; n_papers 3)", "value": 9.2, "group": "Term"}, {"id": "term:carbon", "label": "Carbon", "tooltip": "Carbon (cluster weight 0.0717; n_papers 3)", "value": 8.0717, "group": "Term"}], "edges": [{"from": "paper:europe_pmc_PMC12683603", "to": "term:guangdong province", "value": 4.0}, {"from": "paper:europe_pmc_PMC13223266", "to": "term:guangdong province", "value": 4.0}, {"from": "paper:europe_pmc_PMC13673541", "to": "term:guangdong province", "value": 4.0}, {"from": "paper:europe_pmc_PMC12683603", "to": "term:china", "value": 3.59}, {"from": "paper:europe_pmc_PMC13223266", "to": "term:china", "value": 3.59}, {"from": "paper:europe_pmc_PMC13673541", "to": "term:china", "value": 3.59}, {"from": "paper:europe_pmc_PMC12683603", "to": "term:guangdong", "value": 2.31}, {"from": "paper:europe_pmc_PMC13223266", "to": "term:guangdong", "value": 2.31}, {"from": "paper:europe_pmc_PMC13673541", "to": "term:guangdong", "value": 2.31}, {"from": "paper:europe_pmc_PMC12683603", "to": "term:hong kong", "value": 1.5}, {"from": "paper:europe_pmc_PMC13223266", "to": "term:hong kong", "value": 1.5}, {"from": "paper:europe_pmc_PMC13673541", "to": "term:hong kong", "value": 1.5}, {"from": "paper:europe_pmc_PMC12683603", "to": "term:zhanjiang mangrove national nature reserve", "value": 1.3}, {"from": "paper:europe_pmc_PMC13223266", "to": "term:zhanjiang mangrove national nature reserve", "value": 1.3}, {"from": "paper:europe_pmc_PMC13673541", "to": "term:zhanjiang mangrove national nature reserve", "value": 1.3}, {"from": "paper:europe_pmc_PMC12683603", "to": "term:mangrove", "value": 0.0379}, {"from": "paper:europe_pmc_PMC13223266", "to": "term:mangrove", "value": 0.0379}, {"from": "paper:europe_pmc_PMC13673541", "to": "term:mangrove", "value": 0.0379}, {"from": "paper:europe_pmc_PMC11889114", "to": "term:bay of bengal", "value": 2.6}, {"from": "paper:europe_pmc_PMC13365400", "to": "term:bay of bengal", "value": 2.6}, {"from": "paper:europe_pmc_PMC12374975", "to": "term:indus delta", "value": 7.1}, {"from": "paper:europe_pmc_PMC13392870", "to": "term:indus delta", "value": 7.1}, {"from": "paper:europe_pmc_PMC12374975", "to": "term:indus river", "value": 2.7}, {"from": "paper:europe_pmc_PMC13392870", "to": "term:indus river", "value": 2.7}, {"from": "paper:europe_pmc_PMC12374975", "to": "term:indus", "value": 2.57}, {"from": "paper:europe_pmc_PMC13392870", "to": "term:indus", "value": 2.57}, {"from": "paper:europe_pmc_PMC12374975", "to": "term:arabian sea", "value": 1.4}, {"from": "paper:europe_pmc_PMC13392870", "to": "term:arabian sea", "value": 1.4}, {"from": "paper:europe_pmc_PMC13363884", "to": "term:agb", "value": 3.34}, {"from": "paper:europe_pmc_PMC13611807", "to": "term:agb", "value": 3.34}, {"from": "paper:europe_pmc_PMC13363884", "to": "term:google earth", "value": 1.2}, {"from": "paper:europe_pmc_PMC13611807", "to": "term:google earth", "value": 1.2}, {"from": "paper:europe_pmc_PMC13363884", "to": "term:carbon", "value": 0.0717}, {"from": "paper:europe_pmc_PMC13611807", "to": "term:carbon", "value": 0.0717}], "title": "Knowledge graph (monsoon_mangrove)"};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () {
+      tip.style.display = 'none';
+    });
+    network.on('dragStart', function () {
+      tip.style.display = 'none';
+    });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') {
+        showTip(tip.innerHTML, evt);
+      }
+    });
+  </script>
+</body>
+</html>

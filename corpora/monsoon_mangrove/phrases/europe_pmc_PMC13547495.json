@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13547495",
+  "phrases": [
+    {
+      "phrase": "macao greater bay area",
+      "display": "Macao Greater Bay Area",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greater bay area",
+      "display": "Greater Bay Area",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hong kong",
+      "display": "Hong Kong",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "loshchilov and hutter",
+      "display": "Loshchilov and Hutter",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google earth",
+      "display": "Google Earth",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "upsampling the sentinel",
+      "display": "Upsampling the Sentinel",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scale attention bridge",
+      "display": "Scale Attention Bridge",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rgb",
+      "display": "RGB",
+      "score": 2.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sentinel",
+      "display": "Sentinel",
+      "score": 1.55,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "csab",
+      "display": "CSAB",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iou",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "IoU"
+    },
+    {
+      "phrase": "sentinel-2",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Sentinel-2"
+    },
+    {
+      "phrase": "tensor",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "tensor"
+    },
+    {
+      "phrase": "dcsf-net",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "DCSF-Net"
+    },
+    {
+      "phrase": "d-csab",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "D-CSAB"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

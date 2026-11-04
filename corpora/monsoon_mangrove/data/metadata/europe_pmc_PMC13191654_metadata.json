@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC13191654",
+  "pmid": "42181306",
+  "title": "Dataset of prokaryotic and eukaryotic community structures from sediment and surface water eDNA of a sustainable mangrove fisheries (SMF) aquaculture pond.",
+  "abstract": "Sustainable mangrove fisheries (SMF) is an integrated mangrove fisheries approach used in coastal aquaculture ponds that brings sustainability to coastal aquaculture practices. To track the positive value of mangrove on the aquaculture practices, sediment and overlying surface water based environmental DNA (eDNA) biomonitoring has been initiated in SMF pond of Haroa Block (West Bengal, India), in close proximity to Sundarbans mangrove. In the post-monsoon of 2025 (January), sediment and overlying surface water samples were collected from the same SMF pond, followed by application of eDNA extraction and Oxford Nanopore Technologies (ONT) sequencing to deduce biological communities. During sampling, <i>in-situ</i> environmental parameters were recorded and dissolved nutrients were also measured. The dissolved nitrate and reactive silicate concentrations (320.32 and 46.85 µM respectively) were high in SMF pond reflecting effective mimicry of natural mangroves within the studied SMF pond. Using MinION platform integrating ONT, prokaryotic communities based on 16S rRNA metabarcoding revealed high abundance of Proteobacteria, followed by Firmicutes which were higher in sediment compared to surface water. There was high abundance of Bacteroidetes and Actinobacteria in sediment compared to the surface water reflecting the potential pool of complex forms of organic carbon. Microphytobenthos in the sediment was represented by members of Cyanobacteria. At the 18S rRNA level, members of Bacillariophyta dominated both sediment and water reflecting their importance in photosynthetic primary production and potential food for shrimps growing in the SMF pond. Besides, sequences representing other groups of alveolates were also encountered in sediment and surface water. The presence of Ascomycota and Basidiomycota within the eukaryotic pool reflecting their specific role in breakdown and utilization of mangrove litter, in addition to Firmicutes. This study generates key baseline information for long-term monitoring and represents the first eDNA-based dataset for sediment and surface water of prokaryotic and eukaryotic biological communities within the SMF.",
+  "authors": [
+    "Bhadury P",
+    "Danda AA",
+    "Ghosh A",
+    "Yash",
+    "Saini N",
+    "Chowdhury DR",
+    "Saha S",
+    "Dubey SK"
+  ],
+  "publication_date": "2026-04-23",
+  "journal": "",
+  "doi": "10.1016/j.dib.2026.112800",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1016/j.dib.2026.112800"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13191654"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13191654?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

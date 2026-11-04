@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13454564",
+  "phrases": [
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sete lagoas",
+      "display": "Sete Lagoas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rei",
+      "display": "REI",
+      "score": 1.19,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cave",
+      "score": 0.0477,
+      "channel": "tfidf",
+      "display": "Cave"
+    },
+    {
+      "phrase": "th",
+      "score": 0.0417,
+      "channel": "tfidf",
+      "display": "Th"
+    },
+    {
+      "phrase": "temperature",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "Temperature"
+    },
+    {
+      "phrase": "stalagmite",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "stalagmite"
+    },
+    {
+      "phrase": "rei mato",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "rei mato"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0897
+}

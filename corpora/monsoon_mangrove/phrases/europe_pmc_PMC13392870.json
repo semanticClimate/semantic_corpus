@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13392870",
+  "phrases": [
+    {
+      "phrase": "indus delta",
+      "display": "Indus Delta",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus delta",
+      "display": "Indus Delta",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus river",
+      "display": "Indus River",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arthrocnemum and salicornia",
+      "display": "Arthrocnemum and Salicornia",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus delta in pakistan",
+      "display": "Indus Delta in Pakistan",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sindh forest department",
+      "display": "Sindh Forest Department",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "das and vincent",
+      "display": "Das and Vincent",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ndvi",
+      "display": "NDVI",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "delta",
+      "display": "Delta",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indus",
+      "display": "Indus",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "expansion",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Expansion"
+    },
+    {
+      "phrase": "mangrove",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Mangrove"
+    },
+    {
+      "phrase": "bare ground",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "Bare ground"
+    },
+    {
+      "phrase": "bare",
+      "score": 0.0316,
+      "channel": "tfidf",
+      "display": "Bare"
+    },
+    {
+      "phrase": "vegetation",
+      "score": 0.0313,
+      "channel": "tfidf",
+      "display": "vegetation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

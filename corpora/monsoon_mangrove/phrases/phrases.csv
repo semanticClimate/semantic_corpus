@@ -1,0 +1,301 @@
+paper_id,rank,phrase,display,score,channel,source
+europe_pmc_PMC11889114,1,bay of bengal,Bay of Bengal,1.4,uppercase,extracted
+europe_pmc_PMC11889114,2,not significant,Not Significant,1.3,uppercase,extracted
+europe_pmc_PMC11889114,3,soil cr,Soil Cr,1.2,uppercase,extracted
+europe_pmc_PMC11889114,4,soil cu,Soil Cu,1.2,uppercase,extracted
+europe_pmc_PMC11889114,5,soil mn,Soil Mn,1.2,uppercase,extracted
+europe_pmc_PMC11889114,6,soil zn,Soil Zn,1.2,uppercase,extracted
+europe_pmc_PMC11889114,7,multiple sequence alignment program,Multiple Sequence Alignment Program,1.1,uppercase,extracted
+europe_pmc_PMC11889114,8,cfu,CFU,2.9,uppercase,extracted
+europe_pmc_PMC11889114,9,ariyankuppam,Ariyankuppam,1.3,uppercase,extracted
+europe_pmc_PMC11889114,10,vellar,Vellar,1.28,uppercase,extracted
+europe_pmc_PMC11889114,11,thraustochytrids,Thraustochytrids,0.0439,tfidf,extracted
+europe_pmc_PMC11889114,12,count,count,0.0414,tfidf,extracted
+europe_pmc_PMC11889114,13,cfu table,cfu table,0.0396,tfidf,extracted
+europe_pmc_PMC11889114,14,pichavaram,Pichavaram,0.0377,tfidf,extracted
+europe_pmc_PMC11889114,15,planted,Planted,0.0364,tfidf,extracted
+europe_pmc_PMC12374975,1,indus delta,Indus Delta,3.3,uppercase,extracted
+europe_pmc_PMC12374975,2,miani hor,Miani Hor,2.9,uppercase,extracted
+europe_pmc_PMC12374975,3,supplementary file,Supplementary File,2.5,uppercase,extracted
+europe_pmc_PMC12374975,4,miani hor and indus delta,Miani Hor and Indus Delta,2.0,uppercase,extracted
+europe_pmc_PMC12374975,5,indus river,Indus River,1.5,uppercase,extracted
+europe_pmc_PMC12374975,6,arabian sea,Arabian Sea,1.4,uppercase,extracted
+europe_pmc_PMC12374975,7,indus delta and miani hor,Indus Delta and Miani Hor,1.3,uppercase,extracted
+europe_pmc_PMC12374975,8,hm,HM,2.18,uppercase,extracted
+europe_pmc_PMC12374975,9,sandspit,Sandspit,1.41,uppercase,extracted
+europe_pmc_PMC12374975,10,indus,Indus,1.37,uppercase,extracted
+europe_pmc_PMC12374975,11,hor,Hor,0.0443,tfidf,extracted
+europe_pmc_PMC12374975,12,miani,Miani,0.0443,tfidf,extracted
+europe_pmc_PMC12374975,13,hg,Hg,0.0428,tfidf,extracted
+europe_pmc_PMC12374975,14,cd,Cd,0.0413,tfidf,extracted
+europe_pmc_PMC12374975,15,fe,Fe,0.0407,tfidf,extracted
+europe_pmc_PMC12682276,1,singapore strait,Singapore Strait,1.6,uppercase,extracted
+europe_pmc_PMC12682276,2,cyrene reefs,Cyrene Reefs,1.6,uppercase,extracted
+europe_pmc_PMC12682276,3,pulau subar darat,Pulau Subar Darat,1.5,uppercase,extracted
+europe_pmc_PMC12682276,4,pulau semakau,Pulau Semakau,1.5,uppercase,extracted
+europe_pmc_PMC12682276,5,new england biolabs,New England Biolabs,1.3,uppercase,extracted
+europe_pmc_PMC12682276,6,pulau semakau north,Pulau Semakau North,1.3,uppercase,extracted
+europe_pmc_PMC12682276,7,pulau semakau south,Pulau Semakau South,1.3,uppercase,extracted
+europe_pmc_PMC12682276,8,smkn,SMKN,1.38,uppercase,extracted
+europe_pmc_PMC12682276,9,cyr,CYR,1.34,uppercase,extracted
+europe_pmc_PMC12682276,10,owr,OWR,1.34,uppercase,extracted
+europe_pmc_PMC12682276,11,edna,eDNA,0.0472,tfidf,extracted
+europe_pmc_PMC12682276,12,macrophyte,macrophyte,0.0407,tfidf,extracted
+europe_pmc_PMC12682276,13,taxa,taxa,0.0376,tfidf,extracted
+europe_pmc_PMC12682276,14,macroalgal,Macroalgal,0.0361,tfidf,extracted
+europe_pmc_PMC12682276,15,macroalgae,macroalgae,0.0358,tfidf,extracted
+europe_pmc_PMC12683603,1,zhanjiang mangrove national nature reserve,Zhanjiang Mangrove National Nature Reserve,1.3,uppercase,extracted
+europe_pmc_PMC12683603,2,bellinato and bogliani,Bellinato and Bogliani,1.1,uppercase,extracted
+europe_pmc_PMC12683603,3,cancellieri and murphy,Cancellieri and Murphy,1.1,uppercase,extracted
+europe_pmc_PMC12683603,4,forstmeier and weiss,Forstmeier and Weiss,1.1,uppercase,extracted
+europe_pmc_PMC12683603,5,april and september,April and September,1.1,uppercase,extracted
+europe_pmc_PMC12683603,6,chinese pond heron,Chinese Pond Heron,1.1,uppercase,extracted
+europe_pmc_PMC12683603,7,guangdong province,Guangdong Province,1.1,uppercase,extracted
+europe_pmc_PMC12683603,8,zhanjiang,Zhanjiang,1.11,uppercase,extracted
+europe_pmc_PMC12683603,9,caoyang,Caoyang,1.08,uppercase,extracted
+europe_pmc_PMC12683603,10,china,China,1.07,uppercase,extracted
+europe_pmc_PMC12683603,11,nests,Nests,0.0784,tfidf,extracted
+europe_pmc_PMC12683603,12,predation,Predation,0.0728,tfidf,extracted
+europe_pmc_PMC12683603,13,eggs,eggs,0.0625,tfidf,extracted
+europe_pmc_PMC12683603,14,breeding,breeding,0.0625,tfidf,extracted
+europe_pmc_PMC12683603,15,birds,Birds,0.0624,tfidf,extracted
+europe_pmc_PMC12979779,1,high low high low,High Low High Low,1.4,uppercase,extracted
+europe_pmc_PMC12979779,2,kanyakumari coast,Kanyakumari Coast,1.3,uppercase,extracted
+europe_pmc_PMC12979779,3,enayum edapadu,Enayum Edapadu,1.3,uppercase,extracted
+europe_pmc_PMC12979779,4,arabian sea,Arabian Sea,1.2,uppercase,extracted
+europe_pmc_PMC12979779,5,hydrogeochemistry and resistivity,Hydrogeochemistry and Resistivity,1.1,uppercase,extracted
+europe_pmc_PMC12979779,6,dissolved inorganic phosphorus,Dissolved Inorganic Phosphorus,1.1,uppercase,extracted
+europe_pmc_PMC12979779,7,dissolved inorganic nitrogen,Dissolved Inorganic Nitrogen,1.1,uppercase,extracted
+europe_pmc_PMC12979779,8,sgd,SGD,2.0,uppercase,extracted
+europe_pmc_PMC12979779,9,din,DIN,1.3,uppercase,extracted
+europe_pmc_PMC12979779,10,dip,DIP,1.3,uppercase,extracted
+europe_pmc_PMC12979779,11,radon,Radon,0.0625,tfidf,extracted
+europe_pmc_PMC12979779,12,groundwater,Groundwater,0.0516,tfidf,extracted
+europe_pmc_PMC12979779,13,porewater,Porewater,0.05,tfidf,extracted
+europe_pmc_PMC12979779,14,kanyakumari,Kanyakumari,0.0477,tfidf,extracted
+europe_pmc_PMC12979779,15,dsi,DSi,0.047,tfidf,extracted
+europe_pmc_PMC13062685,1,digha mohona,Digha Mohona,1.8,uppercase,extracted
+europe_pmc_PMC13062685,2,champa river,Champa River,1.4,uppercase,extracted
+europe_pmc_PMC13062685,3,mehta and vyas,Mehta and Vyas,1.2,uppercase,extracted
+europe_pmc_PMC13062685,4,sariyildiz and mohammed ali,Sariyildiz and Mohammed Ali,1.1,uppercase,extracted
+europe_pmc_PMC13062685,5,although the digha mohona,Although the Digha Mohona,1.1,uppercase,extracted
+europe_pmc_PMC13062685,6,lokhande and suprasanna,Lokhande and Suprasanna,1.1,uppercase,extracted
+europe_pmc_PMC13062685,7,purba medinipur coast,Purba Medinipur Coast,1.1,uppercase,extracted
+europe_pmc_PMC13062685,8,rwc,RWC,1.6,uppercase,extracted
+europe_pmc_PMC13062685,9,ec,EC,1.54,uppercase,extracted
+europe_pmc_PMC13062685,10,tds,TDS,1.54,uppercase,extracted
+europe_pmc_PMC13062685,11,rumphiana,rumphiana,0.0395,tfidf,extracted
+europe_pmc_PMC13062685,12,alba,alba,0.0386,tfidf,extracted
+europe_pmc_PMC13062685,13,officinalis,officinalis,0.038,tfidf,extracted
+europe_pmc_PMC13062685,14,proline,Proline,0.037,tfidf,extracted
+europe_pmc_PMC13062685,15,tppc,TPPC,0.0351,tfidf,extracted
+europe_pmc_PMC13191654,1,united kingdom,United Kingdom,1.5,uppercase,extracted
+europe_pmc_PMC13191654,2,oxford nanopore technologies,Oxford Nanopore Technologies,1.4,uppercase,extracted
+europe_pmc_PMC13191654,3,hanna instruments,Hanna Instruments,1.3,uppercase,extracted
+europe_pmc_PMC13191654,4,united states of america,United States of America,1.2,uppercase,extracted
+europe_pmc_PMC13191654,5,punyasloke bhadury,Punyasloke Bhadury,1.2,uppercase,extracted
+europe_pmc_PMC13191654,6,west bengal,West Bengal,1.2,uppercase,extracted
+europe_pmc_PMC13191654,7,bacteroidetes and actinobacteria,Bacteroidetes and Actinobacteria,1.1,uppercase,extracted
+europe_pmc_PMC13191654,8,smf,SMF,1.58,uppercase,extracted
+europe_pmc_PMC13191654,9,doc,DOC,1.08,uppercase,extracted
+europe_pmc_PMC13191654,10,united,United,1.07,uppercase,extracted
+europe_pmc_PMC13191654,11,surface water,Surface water,0.065,tfidf,extracted
+europe_pmc_PMC13191654,12,smf pond,SMF pond,0.0642,tfidf,extracted
+europe_pmc_PMC13191654,13,pond,pond,0.0593,tfidf,extracted
+europe_pmc_PMC13191654,14,sediment surface water,sediment surface water,0.0567,tfidf,extracted
+europe_pmc_PMC13191654,15,sediment surface,sediment surface,0.0534,tfidf,extracted
+europe_pmc_PMC13223266,1,guangdong province,Guangdong Province,1.6,uppercase,extracted
+europe_pmc_PMC13223266,2,shantou and huiyang,Shantou and Huiyang,1.3,uppercase,extracted
+europe_pmc_PMC13223266,3,local ecological footprinting tool,Local Ecological Footprinting Tool,1.2,uppercase,extracted
+europe_pmc_PMC13223266,4,protopenthalodes jesionowska,Protopenthalodes Jesionowska,1.2,uppercase,extracted
+europe_pmc_PMC13223266,5,ellobiidae and littorinidae,Ellobiidae and Littorinidae,1.2,uppercase,extracted
+europe_pmc_PMC13223266,6,platytrombidium thor,Platytrombidium Thor,1.2,uppercase,extracted
+europe_pmc_PMC13223266,7,de haan,De Haan,1.2,uppercase,extracted
+europe_pmc_PMC13223266,8,china,China,1.21,uppercase,extracted
+europe_pmc_PMC13223266,9,yangjiang,Yangjiang,1.21,uppercase,extracted
+europe_pmc_PMC13223266,10,guangdong,Guangdong,1.16,uppercase,extracted
+europe_pmc_PMC13223266,11,stations,Stations,0.0375,tfidf,extracted
+europe_pmc_PMC13223266,12,species,Species,0.0352,tfidf,extracted
+europe_pmc_PMC13223266,13,bakawan,Bakawan,0.0341,tfidf,extracted
+europe_pmc_PMC13223266,14,sp,sp,0.0341,tfidf,extracted
+europe_pmc_PMC13223266,15,shantou,Shantou,0.0336,tfidf,extracted
+europe_pmc_PMC13229405,1,tree physiology online,Tree Physiology Online,2.0,uppercase,extracted
+europe_pmc_PMC13229405,2,xishuangbanna tropical botanical garden,Xishuangbanna Tropical Botanical Garden,1.6,uppercase,extracted
+europe_pmc_PMC13229405,3,chinese academy of sciences,Chinese Academy of Sciences,1.6,uppercase,extracted
+europe_pmc_PMC13229405,4,christman and sperry,Christman and Sperry,1.5,uppercase,extracted
+europe_pmc_PMC13229405,5,menglun town,Menglun Town,1.5,uppercase,extracted
+europe_pmc_PMC13229405,6,yunnan key laboratory of forest ecosystem stability and global change,Yunnan Key Laboratory of Forest Ecosystem Stability and Global Change,1.3,uppercase,extracted
+europe_pmc_PMC13229405,7,guangxi key laboratory of forest ecology and conservation,Guangxi Key Laboratory of Forest Ecology and Conservation,1.3,uppercase,extracted
+europe_pmc_PMC13229405,8,si,SI,1.42,uppercase,extracted
+europe_pmc_PMC13229405,9,sc,SC,1.32,uppercase,extracted
+europe_pmc_PMC13229405,10,fpf,FPF,1.2,uppercase,extracted
+europe_pmc_PMC13229405,11,hydraulic,Hydraulic,0.0499,tfidf,extracted
+europe_pmc_PMC13229405,12,pit,Pit,0.0479,tfidf,extracted
+europe_pmc_PMC13229405,13,embolism,embolism,0.0435,tfidf,extracted
+europe_pmc_PMC13229405,14,xylem,Xylem,0.0427,tfidf,extracted
+europe_pmc_PMC13229405,15,hydraulic safety,Hydraulic safety,0.0413,tfidf,extracted
+europe_pmc_PMC13332146,1,doon valley,Doon Valley,3.7,uppercase,extracted
+europe_pmc_PMC13332146,2,asan ramsar site,Asan Ramsar Site,1.5,uppercase,extracted
+europe_pmc_PMC13332146,3,asan central,Asan Central,1.5,uppercase,extracted
+europe_pmc_PMC13332146,4,asan right,Asan Right,1.5,uppercase,extracted
+europe_pmc_PMC13332146,5,manu swamp,Manu Swamp,1.5,uppercase,extracted
+europe_pmc_PMC13332146,6,asan left,Asan Left,1.5,uppercase,extracted
+europe_pmc_PMC13332146,7,herbert river,Herbert River,1.3,uppercase,extracted
+europe_pmc_PMC13332146,8,al,AL,1.98,uppercase,extracted
+europe_pmc_PMC13332146,9,ac,AC,1.92,uppercase,extracted
+europe_pmc_PMC13332146,10,nk,NK,1.86,uppercase,extracted
+europe_pmc_PMC13332146,11,doon,Doon,0.0401,tfidf,extracted
+europe_pmc_PMC13332146,12,dp,DP,0.0398,tfidf,extracted
+europe_pmc_PMC13332146,13,asan,Asan,0.0391,tfidf,extracted
+europe_pmc_PMC13332146,14,wetlands,Wetlands,0.0388,tfidf,extracted
+europe_pmc_PMC13332146,15,ars,ARS,0.0387,tfidf,extracted
+europe_pmc_PMC13363884,1,indus delta,Indus Delta,1.7,uppercase,extracted
+europe_pmc_PMC13363884,2,sindh and balochistan,Sindh and Balochistan,1.4,uppercase,extracted
+europe_pmc_PMC13363884,3,random forest,Random Forest,1.4,uppercase,extracted
+europe_pmc_PMC13363884,4,european space agency,European Space Agency,1.2,uppercase,extracted
+europe_pmc_PMC13363884,5,sea surface salinity,Sea Surface Salinity,1.2,uppercase,extracted
+europe_pmc_PMC13363884,6,mountain view,Mountain View,1.2,uppercase,extracted
+europe_pmc_PMC13363884,7,google earth,Google Earth,1.2,uppercase,extracted
+europe_pmc_PMC13363884,8,lue,LUE,1.66,uppercase,extracted
+europe_pmc_PMC13363884,9,agb,AGB,1.48,uppercase,extracted
+europe_pmc_PMC13363884,10,vpd,VPD,1.46,uppercase,extracted
+europe_pmc_PMC13363884,11,mg ha,Mg ha,0.0394,tfidf,extracted
+europe_pmc_PMC13363884,12,carbon,Carbon,0.0351,tfidf,extracted
+europe_pmc_PMC13363884,13,pakistan,Pakistan,0.0346,tfidf,extracted
+europe_pmc_PMC13363884,14,ha,ha,0.0345,tfidf,extracted
+europe_pmc_PMC13363884,15,mangrove,Mangrove,0.034,tfidf,extracted
+europe_pmc_PMC13365400,1,map of balasore,Map of Balasore,1.2,uppercase,extracted
+europe_pmc_PMC13365400,2,bay of bengal,Bay of Bengal,1.2,uppercase,extracted
+europe_pmc_PMC13365400,3,google colab,Google Colab,1.2,uppercase,extracted
+europe_pmc_PMC13365400,4,tamil nadu,Tamil Nadu,1.2,uppercase,extracted
+europe_pmc_PMC13365400,5,bayesian absolute principal component score,Bayesian Absolute Principal Component Score,1.1,uppercase,extracted
+europe_pmc_PMC13365400,6,achieving sustainable development goal,Achieving Sustainable Development Goal,1.1,uppercase,extracted
+europe_pmc_PMC13365400,7,unlike positive matrix factorisation,Unlike Positive Matrix Factorisation,1.1,uppercase,extracted
+europe_pmc_PMC13365400,8,som,SOM,1.16,uppercase,extracted
+europe_pmc_PMC13365400,9,apcs,APCS,1.14,uppercase,extracted
+europe_pmc_PMC13365400,10,mlr,MLR,1.12,uppercase,extracted
+europe_pmc_PMC13365400,11,fluoride,Fluoride,0.0501,tfidf,extracted
+europe_pmc_PMC13365400,12,minimal,minimal,0.0412,tfidf,extracted
+europe_pmc_PMC13365400,13,groundwater,Groundwater,0.0393,tfidf,extracted
+europe_pmc_PMC13365400,14,na,Na,0.0376,tfidf,extracted
+europe_pmc_PMC13365400,15,fluorite,fluorite,0.0372,tfidf,extracted
+europe_pmc_PMC13370299,1,southeast asia,Southeast Asia,1.9,uppercase,extracted
+europe_pmc_PMC13370299,2,sunda shelf,Sunda Shelf,1.9,uppercase,extracted
+europe_pmc_PMC13370299,3,gulf of thailand,Gulf of Thailand,1.4,uppercase,extracted
+europe_pmc_PMC13370299,4,kessler and jong,Kessler and Jong,1.3,uppercase,extracted
+europe_pmc_PMC13370299,5,huon peninsula,Huon Peninsula,1.3,uppercase,extracted
+europe_pmc_PMC13370299,6,kench and mann,Kench and Mann,1.3,uppercase,extracted
+europe_pmc_PMC13370299,7,spermonde archipelago,Spermonde Archipelago,1.2,uppercase,extracted
+europe_pmc_PMC13370299,8,sea,SEA,2.1,uppercase,extracted
+europe_pmc_PMC13370299,9,rslr,RSLR,1.34,uppercase,extracted
+europe_pmc_PMC13370299,10,holocene,Holocene,1.27,uppercase,extracted
+europe_pmc_PMC13370299,11,sea-level,Sea-Level,0.0393,tfidf,extracted
+europe_pmc_PMC13370299,12,mm yr,mm yr,0.0368,tfidf,extracted
+europe_pmc_PMC13370299,13,yr,yr,0.0367,tfidf,extracted
+europe_pmc_PMC13370299,14,al,al,0.0358,tfidf,extracted
+europe_pmc_PMC13370299,15,et,et,0.0354,tfidf,extracted
+europe_pmc_PMC13382337,1,qinglan harbor,Qinglan Harbor,1.7,uppercase,extracted
+europe_pmc_PMC13382337,2,atmospherically resistant vegetation index,Atmospherically Resistant Vegetation Index,1.2,uppercase,extracted
+europe_pmc_PMC13382337,3,synthetic aperture radar,Synthetic Aperture Radar,1.2,uppercase,extracted
+europe_pmc_PMC13382337,4,green leaf index,Green Leaf Index,1.2,uppercase,extracted
+europe_pmc_PMC13382337,5,google earth,Google Earth,1.2,uppercase,extracted
+europe_pmc_PMC13382337,6,least absolute shrinkage and selection operator,Least Absolute Shrinkage and Selection Operator,1.1,uppercase,extracted
+europe_pmc_PMC13382337,7,advanced land observing satellite,Advanced Land Observing Satellite,1.1,uppercase,extracted
+europe_pmc_PMC13382337,8,socd,SOCD,2.44,uppercase,extracted
+europe_pmc_PMC13382337,9,soc,SOC,1.6,uppercase,extracted
+europe_pmc_PMC13382337,10,sar,SAR,1.32,uppercase,extracted
+europe_pmc_PMC13382337,11,lidar,LiDAR,0.0399,tfidf,extracted
+europe_pmc_PMC13382337,12,xgboost,XGBoost,0.0373,tfidf,extracted
+europe_pmc_PMC13382337,13,lasso,Lasso,0.0356,tfidf,extracted
+europe_pmc_PMC13382337,14,wv-2,WV-2,0.0329,tfidf,extracted
+europe_pmc_PMC13382337,15,carbon,carbon,0.0326,tfidf,extracted
+europe_pmc_PMC13392870,1,indus delta,Indus Delta,2.6,uppercase,extracted
+europe_pmc_PMC13392870,2,indus delta,Indus Delta,1.2,uppercase,extracted
+europe_pmc_PMC13392870,3,indus river,Indus River,1.2,uppercase,extracted
+europe_pmc_PMC13392870,4,arthrocnemum and salicornia,Arthrocnemum and Salicornia,1.1,uppercase,extracted
+europe_pmc_PMC13392870,5,indus delta in pakistan,Indus Delta in Pakistan,1.1,uppercase,extracted
+europe_pmc_PMC13392870,6,sindh forest department,Sindh Forest Department,1.1,uppercase,extracted
+europe_pmc_PMC13392870,7,das and vincent,Das and Vincent,1.1,uppercase,extracted
+europe_pmc_PMC13392870,8,ndvi,NDVI,1.26,uppercase,extracted
+europe_pmc_PMC13392870,9,delta,Delta,1.2,uppercase,extracted
+europe_pmc_PMC13392870,10,indus,Indus,1.2,uppercase,extracted
+europe_pmc_PMC13392870,11,expansion,Expansion,0.0335,tfidf,extracted
+europe_pmc_PMC13392870,12,mangrove,Mangrove,0.0335,tfidf,extracted
+europe_pmc_PMC13392870,13,bare ground,Bare ground,0.0321,tfidf,extracted
+europe_pmc_PMC13392870,14,bare,Bare,0.0316,tfidf,extracted
+europe_pmc_PMC13392870,15,vegetation,vegetation,0.0313,tfidf,extracted
+europe_pmc_PMC13547495,1,macao greater bay area,Macao Greater Bay Area,1.3,uppercase,extracted
+europe_pmc_PMC13547495,2,greater bay area,Greater Bay Area,1.3,uppercase,extracted
+europe_pmc_PMC13547495,3,hong kong,Hong Kong,1.3,uppercase,extracted
+europe_pmc_PMC13547495,4,loshchilov and hutter,Loshchilov and Hutter,1.2,uppercase,extracted
+europe_pmc_PMC13547495,5,google earth,Google Earth,1.2,uppercase,extracted
+europe_pmc_PMC13547495,6,upsampling the sentinel,Upsampling the Sentinel,1.1,uppercase,extracted
+europe_pmc_PMC13547495,7,scale attention bridge,Scale Attention Bridge,1.1,uppercase,extracted
+europe_pmc_PMC13547495,8,rgb,RGB,2.58,uppercase,extracted
+europe_pmc_PMC13547495,9,sentinel,Sentinel,1.55,uppercase,extracted
+europe_pmc_PMC13547495,10,csab,CSAB,1.36,uppercase,extracted
+europe_pmc_PMC13547495,11,iou,IoU,0.0405,tfidf,extracted
+europe_pmc_PMC13547495,12,sentinel-2,Sentinel-2,0.0396,tfidf,extracted
+europe_pmc_PMC13547495,13,tensor,tensor,0.0371,tfidf,extracted
+europe_pmc_PMC13547495,14,dcsf-net,DCSF-Net,0.0361,tfidf,extracted
+europe_pmc_PMC13547495,15,d-csab,D-CSAB,0.0361,tfidf,extracted
+europe_pmc_PMC13579965,1,comparison of total,Comparison of Total,1.2,uppercase,extracted
+europe_pmc_PMC13579965,2,laura sereni,Laura Sereni,1.2,uppercase,extracted
+europe_pmc_PMC13579965,3,national atmospheric deposition program,National Atmospheric Deposition Program,1.1,uppercase,extracted
+europe_pmc_PMC13579965,4,web of science core collection,Web of Science Core Collection,1.1,uppercase,extracted
+europe_pmc_PMC13579965,5,specifications table this,Specifications Table This,1.1,uppercase,extracted
+europe_pmc_PMC13579965,6,south america and africa,South America and Africa,1.1,uppercase,extracted
+europe_pmc_PMC13579965,7,oceania and antarctica,Oceania and Antarctica,1.1,uppercase,extracted
+europe_pmc_PMC13579965,8,lf,LF,2.48,uppercase,extracted
+europe_pmc_PMC13579965,9,tf,TF,1.98,uppercase,extracted
+europe_pmc_PMC13579965,10,thg,THg,1.4,uppercase,extracted
+europe_pmc_PMC13579965,11,broadleaved,broadleaved,0.049,tfidf,extracted
+europe_pmc_PMC13579965,12,mehg,MeHg,0.0476,tfidf,extracted
+europe_pmc_PMC13579965,13,lf tf,lf tf,0.0441,tfidf,extracted
+europe_pmc_PMC13579965,14,total-lf,Total-LF,0.0441,tfidf,extracted
+europe_pmc_PMC13579965,15,broadleaved forest,broadleaved forest,0.0441,tfidf,extracted
+europe_pmc_PMC13611807,1,tieshan harbor,Tieshan Harbor,1.7,uppercase,extracted
+europe_pmc_PMC13611807,2,lon and lat,Lon and Lat,1.7,uppercase,extracted
+europe_pmc_PMC13611807,3,technical regulations for investigation and assessment of carbon storage in mangrove ecosystems,Technical Regulations for Investigation and Assessment of Carbon Storage in Mangrove Ecosystems,1.1,uppercase,extracted
+europe_pmc_PMC13611807,4,green normalized difference vegetation index,Green Normalized Difference Vegetation Index,1.1,uppercase,extracted
+europe_pmc_PMC13611807,5,zhanjiang mangrove national nature reserve,Zhanjiang Mangrove National Nature Reserve,1.1,uppercase,extracted
+europe_pmc_PMC13611807,6,shankou mangrove national nature reserve,Shankou Mangrove National Nature Reserve,1.1,uppercase,extracted
+europe_pmc_PMC13611807,7,normalized difference vegetation index,Normalized Difference Vegetation Index,1.1,uppercase,extracted
+europe_pmc_PMC13611807,8,agb,AGB,1.86,uppercase,extracted
+europe_pmc_PMC13611807,9,bgb,BGB,1.62,uppercase,extracted
+europe_pmc_PMC13611807,10,shap,SHAP,1.52,uppercase,extracted
+europe_pmc_PMC13611807,11,carbon stock,Carbon stock,0.0396,tfidf,extracted
+europe_pmc_PMC13611807,12,stock,stock,0.0379,tfidf,extracted
+europe_pmc_PMC13611807,13,slope,Slope,0.0373,tfidf,extracted
+europe_pmc_PMC13611807,14,aspect,Aspect,0.0369,tfidf,extracted
+europe_pmc_PMC13611807,15,carbon,Carbon,0.0366,tfidf,extracted
+europe_pmc_PMC13673541,1,hong kong,Hong Kong,1.5,uppercase,extracted
+europe_pmc_PMC13673541,2,guangdong and guangxi,Guangdong and Guangxi,1.3,uppercase,extracted
+europe_pmc_PMC13673541,3,guangdong province,Guangdong Province,1.3,uppercase,extracted
+europe_pmc_PMC13673541,4,hong kong and macao special administrative regions,Hong Kong and Macao Special Administrative Regions,1.2,uppercase,extracted
+europe_pmc_PMC13673541,5,hong kong and macao,Hong Kong and Macao,1.2,uppercase,extracted
+europe_pmc_PMC13673541,6,observation dataset,Observation Dataset,1.2,uppercase,extracted
+europe_pmc_PMC13673541,7,zhejiang province,Zhejiang Province,1.2,uppercase,extracted
+europe_pmc_PMC13673541,8,china,China,1.31,uppercase,extracted
+europe_pmc_PMC13673541,9,guangdong,Guangdong,1.15,uppercase,extracted
+europe_pmc_PMC13673541,10,pls,PLS,1.14,uppercase,extracted
+europe_pmc_PMC13673541,11,avian diversity,avian diversity,0.0449,tfidf,extracted
+europe_pmc_PMC13673541,12,avian,avian,0.0428,tfidf,extracted
+europe_pmc_PMC13673541,13,phytoplankton,Phytoplankton,0.0381,tfidf,extracted
+europe_pmc_PMC13673541,14,mangrove,Mangrove,0.0379,tfidf,extracted
+europe_pmc_PMC13673541,15,diversity,Diversity,0.0357,tfidf,extracted
+europe_pmc_PMC13701812,1,del carmen,Del Carmen,2.3,uppercase,extracted
+europe_pmc_PMC13701812,2,southwest monsoon,Southwest Monsoon,1.6,uppercase,extracted
+europe_pmc_PMC13701812,3,del carmen mangrove reserve,Del Carmen Mangrove Reserve,1.4,uppercase,extracted
+europe_pmc_PMC13701812,4,northeast monsoon,Northeast Monsoon,1.4,uppercase,extracted
+europe_pmc_PMC13701812,5,campbell scientific,Campbell Scientific,1.3,uppercase,extracted
+europe_pmc_PMC13701812,6,campbell scientific inc,Campbell Scientific Inc,1.2,uppercase,extracted
+europe_pmc_PMC13701812,7,siargao island,Siargao Island,1.2,uppercase,extracted
+europe_pmc_PMC13701812,8,nee,NEE,2.68,uppercase,extracted
+europe_pmc_PMC13701812,9,gpp,GPP,1.8,uppercase,extracted
+europe_pmc_PMC13701812,10,re,RE,1.74,uppercase,extracted
+europe_pmc_PMC13701812,11,tower,Tower,0.0431,tfidf,extracted
+europe_pmc_PMC13701812,12,footprint,Footprint,0.0392,tfidf,extracted
+europe_pmc_PMC13701812,13,august,August,0.0389,tfidf,extracted
+europe_pmc_PMC13701812,14,del,Del,0.037,tfidf,extracted
+europe_pmc_PMC13701812,15,carmen,Carmen,0.0361,tfidf,extracted

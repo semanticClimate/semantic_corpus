@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13673541",
+  "phrases": [
+    {
+      "phrase": "hong kong",
+      "display": "Hong Kong",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "guangdong and guangxi",
+      "display": "Guangdong and Guangxi",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "guangdong province",
+      "display": "Guangdong Province",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hong kong and macao special administrative regions",
+      "display": "Hong Kong and Macao Special Administrative Regions",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hong kong and macao",
+      "display": "Hong Kong and Macao",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "observation dataset",
+      "display": "Observation Dataset",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zhejiang province",
+      "display": "Zhejiang Province",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.31,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "guangdong",
+      "display": "Guangdong",
+      "score": 1.15,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pls",
+      "display": "PLS",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "avian diversity",
+      "score": 0.0449,
+      "channel": "tfidf",
+      "display": "avian diversity"
+    },
+    {
+      "phrase": "avian",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "avian"
+    },
+    {
+      "phrase": "phytoplankton",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "Phytoplankton"
+    },
+    {
+      "phrase": "mangrove",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "Mangrove"
+    },
+    {
+      "phrase": "diversity",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "Diversity"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

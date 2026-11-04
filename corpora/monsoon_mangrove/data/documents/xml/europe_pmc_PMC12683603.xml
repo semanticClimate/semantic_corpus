@@ -1,0 +1,625 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ece372651" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="pmc-domain-id">1740</journal-id><journal-id journal-id-type="pmc-domain">ece</journal-id><journal-id journal-id-type="nlm-id">101566408</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12683603</article-id><article-id pub-id-type="pmcid-ver">PMC12683603.1</article-id><article-id pub-id-type="pmcaid">12683603</article-id><article-id pub-id-type="pmcaiid">12683603</article-id><article-id pub-id-type="pmid">41367950</article-id><article-id pub-id-type="doi">10.1002/ece3.72651</article-id><article-id pub-id-type="publisher-id">ECE372651</article-id><article-id pub-id-type="other">ECE-2025-07-01729.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Biodiversity Ecology</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Mangrove Habitats in Zhanjiang of South China: A Potentially High‐Risk Environment for Breeding Birds</article-title></title-group><contrib-group><contrib id="ece372651-cr-0001" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yiming</given-names></name><xref rid="ece372651-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ece372651-cr-0002" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="J">Jianping</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6526-8831</contrib-id><xref rid="ece372651-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ece372651-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Liang</surname><given-names initials="W">Wei</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0004-9707</contrib-id><xref rid="ece372651-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>liangwei@hainnu.edu.cn</email></address></contrib></contrib-group><aff id="ece372651-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Zhanjiang Mangrove National Nature Reserve</institution>
+<city>Zhanjiang</city>
+<named-content content-type="country-part">Guangdong</named-content>
+<country country="CN">China</country>
+</aff><aff id="ece372651-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">College of Biological Sciences and Engineering</named-content>
+<institution>North Minzu University</institution>
+<city>Yinchuan</city>
+<country country="CN">China</country>
+</aff><aff id="ece372651-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Ministry of Education Key Laboratory for Ecology of Tropical Islands, Key Laboratory of Tropical Animal and Plant Ecology of Hainan Province</named-content>
+<institution>College of Life Sciences, Hainan Normal University</institution>
+<city>Haikou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Wei Liang (<email>liangwei@hainnu.edu.cn</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2025</year></pub-date><volume>15</volume><issue seq="1190">12</issue><issue-id pub-id-type="pmc-issue-id">501352</issue-id><issue-id pub-id-type="doi">10.1002/ece3.v15.12</issue-id><elocation-id>e72651</elocation-id><history>
+<date date-type="rev-recd"><day>04</day><month>11</month><year>2025</year></date>
+<date date-type="received"><day>06</day><month>7</month><year>2025</year></date>
+<date date-type="accepted"><day>28</day><month>11</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>08</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>09</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 19:33:17.413"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Ecology and Evolution</italic> published by British Ecological Society and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ECE3-15-e72651.pdf"><?pdf-name ECE3-15-e72651.pdf?><?pdf-size 533104?><?pdf-md5 8cfa1684bf7ffd1b6165e395e2141430?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:3f9e/12683603/8cfa1684bf7f/ECE3-15-e72651.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ECE3-15-e72651.pdf"/><abstract><title>ABSTRACT</title><p>Nest predation is one of the most important causes of breeding failure in birds, and the risk of predation is closely related to nest site selection. To maximize site suitability, birds should choose safe locations for nest site to reduce the risk of nest predation. Mangroves and mudflats are very important feeding and wintering grounds for many birds; however, we still know little about the risk of nest predation experienced by birds breeding in mangrove habitats. From August to December 2019, we studied nest predation rates and predator types in mangroves by setting up artificial nest experiments in the Zhanjiang Mangrove National Nature Reserve in Guangdong Province, south China. The results showed that the nest predation rates in the Jiulongshan mangrove area in the reserve were substantially higher than those in the Caoyang mangrove area during the first 3 days for both the artificial nests on trees and on the ground. However, the nest predation rates were 100% for the experimental nests in both mangroves within 7 days. There were diverse predators, including the greater coucal (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Centropus sinensis</italic>
+</styled-content>), Oriental magpie‐robin (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Copsychus saularis</italic>
+</styled-content>), white‐breasted waterhen (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Amaurornis phoenicurus</italic>
+</styled-content>), mangrove crabs (<italic toggle="no">Chiromantes dehaani</italic>), and rats. We recorded a total of 44 nests. The predation rate of the greater coucal on the experimental nests was as high as 70.45%, while the predation rates of the mangrove crabs and rats on the experimental nests were both 20.45%. Our research indicates that birds breeding in mangrove habitats of the Zhanjiang Mangrove in south China face a relatively high risk of nest predation.</p></abstract><abstract abstract-type="graphical"><p>Mangroves are important feeding and wintering grounds for many birds. However, we still know little about the risk of nest predation experienced by birds breeding in mangrove habitats. The nest predation rates were 100% for the experimental nests in mangroves within 7 days, with diverse predators. Birds breeding in Zhangjiang mangrove habitats of south China face a relatively high risk of nest predation.<boxed-text position="anchor" content-type="graphic" id="ece372651-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ECE3-15-e72651-g002.jpg"><?image-name ECE3-15-e72651-g002.jpg?><?image-size 76401?><?image-md5 11ddd9be56e78615b1bfb8d1066d418d?><?image-image-server-status NEVER_LOAD?><?image-original-height 268?><?image-original-width 331?><?image-scaled-height 268?><?image-scaled-width 331?><?image-cloudpmc-urn urn:cdn:blobs/3f9e/12683603/11ddd9be56e7/ECE3-15-e72651-g002.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece372651-kwd-0001">breeding bird</kwd><kwd id="ece372651-kwd-0002">crab predation</kwd><kwd id="ece372651-kwd-0003">mangrove</kwd><kwd id="ece372651-kwd-0004">nest predation</kwd></kwd-group><counts><fig-count count="2"/><table-count count="1"/><page-count count="5"/><word-count count="4200"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:08.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece372651-cit-1001">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Liang</surname>
+</string-name>. <year>2025</year>. “<article-title>Mangrove Habitats in Zhanjiang of South China: A Potentially High‐Risk Environment for Breeding Birds</article-title>.” <source>Ecology and Evolution</source>
+<volume>15</volume>, no. <issue>12</issue>: <elocation-id>e72651</elocation-id>. <pub-id pub-id-type="doi">10.1002/ece3.72651</pub-id>.<pub-id pub-id-type="pmcid">PMC12683603</pub-id><pub-id pub-id-type="pmid">41367950</pub-id></mixed-citation>
+</p></notes></front><body id="ece372651-body-0001"><sec id="ece372651-sec-0001"><label>1</label><title>Introduction</title><p>Predation is one of the main causes of nesting failure (Ricklefs <xref rid="ece372651-bib-0034" ref-type="bibr">1969</xref>; T. E. Martin <xref rid="ece372651-bib-0026" ref-type="bibr">1993</xref>) and is an important factor affecting the nesting ecology of birds (T. E. Martin <xref rid="ece372651-bib-0026" ref-type="bibr">1993</xref>, <xref rid="ece372651-bib-0027" ref-type="bibr">1995</xref>; Parejo and Avilés <xref rid="ece372651-bib-0032" ref-type="bibr">2011</xref>). Natural selection has led to the evolution of appropriate breeding strategies in birds to reduce the risk of nest predation and maximize their fitness (T. E. Martin <xref rid="ece372651-bib-0028" ref-type="bibr">1998</xref>; Lima <xref rid="ece372651-bib-0019" ref-type="bibr">2009</xref>; Hua et al. <xref rid="ece372651-bib-0013" ref-type="bibr">2014</xref>; Maisey et al. <xref rid="ece372651-bib-0024" ref-type="bibr">2016</xref>; Zhang et al. <xref rid="ece372651-bib-0043" ref-type="bibr">2020</xref>). Several studies have shown that birds reduce the risk of nest predation via certain behaviors before nesting, during egg incubation, or during brood rearing (Fontaine et al. <xref rid="ece372651-bib-0008" ref-type="bibr">2007</xref>; Brawn et al. <xref rid="ece372651-bib-0004" ref-type="bibr">2011</xref>; Ocampo and Londoño <xref rid="ece372651-bib-0031" ref-type="bibr">2015</xref>). For example, many birds will prefer to breed in places that are inaccessible to predators or breed at safe and secluded nest sites to reduce the risk of predation (Eggers et al. <xref rid="ece372651-bib-0007" ref-type="bibr">2006</xref>; Peluc et al. <xref rid="ece372651-bib-0033" ref-type="bibr">2008</xref>; Wright et al. <xref rid="ece372651-bib-0040" ref-type="bibr">2013</xref>; Cancellieri and Murphy <xref rid="ece372651-bib-0005" ref-type="bibr">2014</xref>; Ocampo and Londoño <xref rid="ece372651-bib-0031" ref-type="bibr">2015</xref>; Macdonald et al. <xref rid="ece372651-bib-0023" ref-type="bibr">2016</xref>; Jiang et al. <xref rid="ece372651-bib-0015" ref-type="bibr">2017</xref>; Liu et al. <xref rid="ece372651-bib-0022" ref-type="bibr">2025</xref>), and some birds even actively guard their nests and engage in aggressive behaviors to deter potential predators (Kostoglou et al. <xref rid="ece372651-bib-0016" ref-type="bibr">2020</xref>), although there are also many species that build their nests in open and accessible areas, including urban areas (James Reynolds et al. <xref rid="ece372651-bib-0014" ref-type="bibr">2019</xref>). Overall, each species may select nesting sites based on certain features such as concealment, proximity to food sources, protection from weather, etc. However, there remains limited understanding regarding whether habitats that appear suitable for avian breeding can effectively reduce the risk of nest predation and positively influence reproductive success.</p><p>Mangroves are woody plant communities in the intertidal zone of subtropical and tropical coastal areas. As one of the important types of wetlands, they play a key role in maintaining the ecological balance of the coast, reducing the impact of wind and disasters, protecting embankments and shores, and purifying environmental pollution (Furness et al. <xref rid="ece372651-bib-0010" ref-type="bibr">1993</xref>; Akram et al. <xref rid="ece372651-bib-0001" ref-type="bibr">2023</xref>). At high tide, mangroves are often submerged by seawater, or only with the canopy exposed; at low tide, the horizontal and vertical growth of mangroves is evident in the mudflats. The abundance of benthic animals such as shrimps and crabs in mangroves provides an abundant food source for birds, making mangroves ideal for foraging, breeding, and wintering grounds for many birds (Way and Heong <xref rid="ece372651-bib-0038" ref-type="bibr">1994</xref>; Lin <xref rid="ece372651-bib-0021" ref-type="bibr">1997</xref>; Zou et al. <xref rid="ece372651-bib-0046" ref-type="bibr">2001</xref>, <xref rid="ece372651-bib-0047" ref-type="bibr">2008</xref>; Wang and Wang <xref rid="ece372651-bib-0037" ref-type="bibr">2007</xref>; Zhang et al. <xref rid="ece372651-bib-0042" ref-type="bibr">2008</xref>; Cheng et al. <xref rid="ece372651-bib-0006" ref-type="bibr">2019</xref>; Mancini et al. <xref rid="ece372651-bib-0025" ref-type="bibr">2023</xref>).</p><p>In China, there are 445 species of mangrove birds, among which 173 are water birds, accounting for 38.9% of the total number of mangrove birds (Zou <xref rid="ece372651-bib-0045" ref-type="bibr">2010</xref>). Some surveys have shown that mangrove summer birds are mostly herons, such as the Chinese Pond Heron (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Ardeola bacchus</italic>
+</styled-content>), the Little Egret (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Egretta garzetta</italic>
+</styled-content>), the Green‐backed Heron (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Butorides striata</italic>
+</styled-content>), and the Black‐crowned Night Heron (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Nycticorax nycticorax</italic>
+</styled-content>) (Zou et al. <xref rid="ece372651-bib-0046" ref-type="bibr">2001</xref>, <xref rid="ece372651-bib-0047" ref-type="bibr">2008</xref>; Tan et al. <xref rid="ece372651-bib-0036" ref-type="bibr">2013</xref>; Cheng et al. <xref rid="ece372651-bib-0006" ref-type="bibr">2019</xref>). Other birds, like the Scarlet Ibis (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Eudocimus ruber</italic>
+</styled-content>), are also common in Brazilian mangroves (Mancini et al. <xref rid="ece372651-bib-0025" ref-type="bibr">2023</xref>). Larger waterbirds that breed in mangroves, such as herons, are primarily social breeders. As such, their large colonies and sizable nests render them easily detectable by humans (Bellinato and Bogliani <xref rid="ece372651-bib-0003" ref-type="bibr">1995</xref>). In China, although there are many studies on the community structure and diversity of birds in mangroves, there have been few reports on birds breeding in mangroves (Zhu and Zou <xref rid="ece372651-bib-0044" ref-type="bibr">2001</xref>; Wong et al. <xref rid="ece372651-bib-0039" ref-type="bibr">2004</xref>; Liang et al. <xref rid="ece372651-bib-0018" ref-type="bibr">2006</xref>). Furthermore, there remains a lack of relevant reports identifying the primary predators of mangrove‐breeding birds and quantifying the associated predation risk in China.</p><p>While previous studies have documented crabs preying on bird eggs or chicks (Yang et al. <xref rid="ece372651-bib-0041" ref-type="bibr">2014</xref>; Kwon et al. <xref rid="ece372651-bib-0017" ref-type="bibr">2018</xref>), and the Zhanjiang mangrove reserve we studied harbors a diverse assemblage of crab species, it remains unknown whether crabs prey on eggs and nestlings of birds breeding in these mangroves and, if so, which crab species are responsible for that. Therefore, an artificial nest predation experiment was set up from August to December 2019 in Zhanjiang Mangrove National Nature Reserve, Guangdong, China. Nest predation rates and predator types in mangroves were studied.</p></sec><sec sec-type="materials-and-methods" id="ece372651-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece372651-sec-0003"><label>2.1</label><title>Study Area</title><p>The Zhanjiang Mangrove National Nature Reserve is located at the southernmost tip of mainland China (20°15′–21°55′ N, 109°40′–110°55′ E). Patches of mangroves are scattered along the coastal mudflats of Leizhou Peninsula in southwest Guangdong Province that face the South China Sea in the east, with the Beibu Gulf in the west connected to Guangxi and with the Qiongzhou Strait in the south facing Hainan Island across the sea, covering an area of approximately 200 km<sup>2</sup>. The reserve is located in the transition zone from the northern tropics to the southern subtropics and is influenced by the monsoon and marine climates. The average annual temperature is 23°C, with a maximum temperature of 38.8°C and a minimum temperature of −1.4°C. The average annual precipitation is 1534.6 mm, with rainfall concentrated between April and September, which is also the typhoon season (Zou et al. <xref rid="ece372651-bib-0047" ref-type="bibr">2008</xref>). The coastal tidal patterns are varied, with an average tidal height of approximately 2 m.</p></sec><sec id="ece372651-sec-0004"><label>2.2</label><title>Artificial Nest Predation Experiments</title><p>From August to December 2019, artificial nest experiments were set up in the Jiulongshan and the Caoyang mangrove areas in the Zhanjiang Mangrove National Nature Reserve to study the nest predation rates and predator types in the mangrove forests of the two sites. Artificial nests were woven from rattan (Figure <xref rid="ece372651-fig-0001" ref-type="fig">1A</xref>). We placed artificial nests either in trees (<italic toggle="yes">n</italic> = 46 in Jiulongshan; <italic toggle="yes">n</italic> = 20 in Caoyang) or on the ground (<italic toggle="yes">n</italic> = 34 in Jiulongshan; <italic toggle="yes">n</italic> = 20 in Caoyang). Given the average height of the local mangrove species in both areas is 2.5 m, tree nests were positioned at approximately 2 m height with minimal overhead vegetation cover. The reason for choosing this specific height for the nest is that there are more horizontal branches at this level, which makes it convenient to fix the artificial nest. Ground nests also had 0% vegetation coverage within 0.5 m above them. The locations of the artificial nests were randomly chosen, and the minimum distance between nests was 30 m. Placement of experimental nests was based primarily on practicality. For tree nests, we ensured sufficient distance between nests and selected trees that facilitated secure attachment. For ground nests, we chose locations with minimal vegetation cover. The only difference between the artificial nest experiments at the two sites was that quail eggs were placed in the artificial nests in the Jiulongshan mangrove area, whereas pigeon eggs were placed in the artificial nests in the Caoyang mangrove area. Quail and pigeon eggs were both commercially available, with unfertilized eggs being purchased online. The reason for choosing quail and pigeon eggs was primarily because they are similar to the eggs of shorebirds and herons that might breed in mangroves.</p><fig position="float" fig-type="FIGURE" id="ece372651-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Four main predators in mangroves identified in this study. (A) Greater coucal preying on a pigeon egg, (B) An oriental magpie‐robin preying on a munia egg, (C) A rat preying on a quail egg, and (D) a crab preying on a munia egg.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ECE3-15-e72651-g001.jpg"><?image-name ECE3-15-e72651-g001.jpg?><?image-size 190067?><?image-md5 ea984ad7e1454ac3bcf08abdc07b7c55?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 864?><?image-original-width 1064?><?image-scaled-height 576?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/3f9e/12683603/ea984ad7e145/ECE3-15-e72651-g001.jpg?><?thumb-name ECE3-15-e72651-g001.gif?><?thumb-size 22234?><?thumb-md5 de25b484284743c73611a9aad4b032ef?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 81?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/3f9e/12683603/de25b4842847/ECE3-15-e72651-g001.gif?></graphic></fig><p>In addition, the predation of bird nests by crabs in the Caoyang mangrove area was also investigated, that is, two munia (<italic toggle="yes">Lonchura</italic> spp.) eggs, or a munia egg and a pigeon egg, were placed 10 cm from a crab hole and the predation of bird eggs by crabs was observed and recorded (<italic toggle="yes">n</italic> = 66).</p><p>We observed all experimental nests or experimental eggs continuously for 7 days and recorded the outcome of the experimental eggs. In addition, some nests were videotaped to record the predator type (<italic toggle="yes">n</italic> = 44). Pearson's Chi‐squared test was used to compare the predation rates in different experimental groups. All tests were two‐tailed, with a significance level of <italic toggle="yes">p</italic> &lt; 0.05. IBM SPSS 22.0 software (IBM Corp., Armonk, NY, USA) was used for all data analyses.</p></sec></sec><sec sec-type="results" id="ece372651-sec-0005"><label>3</label><title>Results</title><p>For the first 3 days, the predation rates of 65.2% (<italic toggle="yes">n</italic> = 46) and 82.4% (<italic toggle="yes">n</italic> = 34) for the tree and ground nests, respectively, in the Jiulongshan mangrove area were significantly higher than the predation rates of 35% (<italic toggle="yes">n</italic> = 20) and 45% (<italic toggle="yes">n</italic> = 20) for those in the Caoyang mangrove area, respectively (Chi‐square test, <italic toggle="yes">ꭓ</italic>
+<sup>2</sup> = 5.167, df = 1, <italic toggle="yes">p</italic> = 0.032; <italic toggle="yes">ꭓ</italic>
+<sup>2</sup> = 8.145, df = 1, <italic toggle="yes">p</italic> = 0.007). However, the predation rate was 100% for both tree and ground nests at both sites within 7 days.</p><p>In the Caoyang mangrove area, the predation rate of the eggs was as high as 77.7% (<italic toggle="yes">n</italic> = 36) within a day of placing two munia eggs near the crab hole, and 100% (<italic toggle="yes">n</italic> = 30) within a day of placing one munia egg and one pigeon egg near the crab hole, and 86.6% (<italic toggle="yes">n</italic> = 30) within a day of placing one pigeon egg.</p><p>In total, 44 experimental nests were videotaped, including 14 tree nests, six ground nests, and 24 nests at crab holes (Table <xref rid="ece372651-tbl-0001" ref-type="table">1</xref>). Five types of predators were identified, including the greater coucal (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Centropus sinensis</italic>
+</styled-content>) (Figure <xref rid="ece372651-fig-0001" ref-type="fig">1A</xref>), Oriental magpie‐robin (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Copsychus saularis</italic>
+</styled-content>) (Figure <xref rid="ece372651-fig-0001" ref-type="fig">1B</xref>), mangrove crab (<italic toggle="yes">Chiromantes dehaani</italic>) (Figure <xref rid="ece372651-fig-0001" ref-type="fig">1C</xref>), rats (Figure <xref rid="ece372651-fig-0001" ref-type="fig">1D</xref>), and white‐breasted waterhen (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Amaurornis phoenicurus</italic>
+</styled-content>). The greater coucal was involved in 70.4% (<italic toggle="yes">n</italic> = 44) of the total occurrences of predation; rats and crabs each accounted for 20.4% (<italic toggle="yes">n</italic> = 44) and 2.2% (<italic toggle="yes">n</italic> = 44), while only one case each was caused by the Oriental magpie‐robin and white‐breasted waterhen, respectively.</p><table-wrap position="float" id="ece372651-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Predation of artificial nests by five predators at two mangrove study areas.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Site</th><th align="center" rowspan="2" valign="bottom" colspan="1">Nest location</th><th align="center" rowspan="2" valign="bottom" colspan="1">Experiment</th><th align="center" colspan="3" valign="bottom" rowspan="1">Predator type</th><th align="center" rowspan="2" valign="bottom" colspan="1">Number of videos of predated nests</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">Greater coucal</th><th align="center" valign="bottom" rowspan="1" colspan="1">Rat</th><th align="center" valign="bottom" rowspan="1" colspan="1">Crab</th></tr></thead><tbody valign="top"><tr><td align="left" rowspan="2" valign="top" colspan="1">Jiulongshan</td><td align="center" valign="top" rowspan="1" colspan="1">On the tree</td><td align="center" rowspan="2" valign="top" colspan="1">Two quail eggs</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">3</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">On the ground</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">2</td></tr><tr><td align="left" rowspan="4" valign="top" colspan="1">Caoyang</td><td align="center" valign="top" rowspan="1" colspan="1">On the tree</td><td align="center" rowspan="2" valign="top" colspan="1">Two pigeon eggs</td><td align="center" valign="top" rowspan="1" colspan="1">10</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">11</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">On the ground</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1"/><td align="center" valign="top" rowspan="1" colspan="1">4</td></tr><tr><td align="center" rowspan="2" valign="top" colspan="1">On the crab hole entrance</td><td align="center" valign="top" rowspan="1" colspan="1">Two munia eggs</td><td align="center" valign="top" rowspan="1" colspan="1">9</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">8</td><td align="center" valign="top" rowspan="1" colspan="1">17</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">One munia and one pigeon egg</td><td align="center" valign="top" rowspan="1" colspan="1">7</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">1</td><td align="center" valign="top" rowspan="1" colspan="1">7</td></tr></tbody></table><table-wrap-foot id="ece372651-ntgp-0001"><fn id="ece372651-note-0001"><p>
+<italic toggle="yes">Note:</italic> One of the nests on the ground in Jiulongshan was jointly predated by a rat and a white‐breasted waterhen; one of the nests on a tree in Caoyang was jointly predated by a rat and a greater coucal. In the experiment with two munia eggs near a crab hole, one nest was jointly predated by an Oriental magpie‐robin and a greater coucal; in the experiment with one munia egg and one pigeon egg, one nest was jointly predated by a greater coucal and a rat, and the other was jointly predated by a crab and a greater coucal.</p></fn></table-wrap-foot></table-wrap></sec><sec sec-type="discussion" id="ece372651-sec-0006"><label>4</label><title>Discussion</title><p>Our study shows that birds breeding in Zhanjiang mangroves face multiple predators. Among them, the greater coucals and rats prey on both ground nests and tree nests. Crabs in mangroves also prey on bird eggs, with the primary predators being Sesarmidae crabs. Nests near crab holes were predated more rapidly than nests at other sites. Our research indicates that birds breeding in Zhanjiang mangrove habitats are exposed to a high risk of predation.</p><p>Nest predation is the main cause of life history evolution in birds (Roff <xref rid="ece372651-bib-0035" ref-type="bibr">1992</xref>). Birds are limited to the vicinity of their nests during the breeding season. In addition, predators can locate breeding parents through their nests. Therefore, breeding birds are highly sensitive to the risk of predation (Lima and Dill <xref rid="ece372651-bib-0020" ref-type="bibr">1990</xref>). Studies have shown that birds perceive predation risk in their environment and choose to build concealed nests or avoid breeding in high‐risk areas to reduce predation risk when nesting (Eggers et al. <xref rid="ece372651-bib-0007" ref-type="bibr">2006</xref>; Mönkkönen et al. <xref rid="ece372651-bib-0029" ref-type="bibr">2009</xref>; Parejo and Avilés <xref rid="ece372651-bib-0032" ref-type="bibr">2011</xref>; Liu et al. <xref rid="ece372651-bib-0022" ref-type="bibr">2025</xref>). For example, the dusky warbler (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Phylloscopus fuscatus</italic>
+</styled-content>) secures its nest by building it at increased heights from the ground and in highly isolated thickets during years when its predators, the Siberian chipmunk (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Tamias sibiricus</italic>
+</styled-content>), are abundant (Forstmeier and Weiss <xref rid="ece372651-bib-0009" ref-type="bibr">2004</xref>). Birds breeding in mangroves face two primary nesting choices: building nests in trees, as is often reported for herons that are colonial breeding in mangrove trees (Zou et al. <xref rid="ece372651-bib-0047" ref-type="bibr">2008</xref>; Tan et al. <xref rid="ece372651-bib-0036" ref-type="bibr">2013</xref>; Cheng et al. <xref rid="ece372651-bib-0006" ref-type="bibr">2019</xref>; Mancini et al. <xref rid="ece372651-bib-0025" ref-type="bibr">2023</xref>), or building nests directly on the ground, as seen in some shorebirds (Gopi and Pandav <xref rid="ece372651-bib-0011" ref-type="bibr">2007</xref>). However, our experimental results indicate that both tree‐ and ground‐nesting birds in Zhanjiang mangrove habitats experience high rates of predation. Various predators inhabit the mangroves, any of which can lead to reproductive failure. For example, greater coucals and rats prey not only on bird eggs, but also on chicks (Narayana et al. <xref rid="ece372651-bib-0030" ref-type="bibr">2013</xref>). During low tides, the presence of large numbers of various crabs in the mangroves may threaten only the survival of the offspring of breeding birds with ground nests (Kwon et al. <xref rid="ece372651-bib-0017" ref-type="bibr">2018</xref>), but at high tides, these crabs may climb up trees and prey on the eggs and even chicks of breeding birds in tree nests (Yang et al. <xref rid="ece372651-bib-0041" ref-type="bibr">2014</xref>; Kwon et al. <xref rid="ece372651-bib-0017" ref-type="bibr">2018</xref>). In addition, our survey also found many ant nests in the Zhanjiang mangrove habitats. Although the ants do not necessarily prey on the eggs, they do bite the chicks in some cases, or through ant‐mediated predation (Haemig <xref rid="ece372651-bib-0012" ref-type="bibr">1999</xref>; Avilés <xref rid="ece372651-bib-0002" ref-type="bibr">2024</xref>), which can also cause breeding failure. Therefore, the birds that breed in the Zhanjiang mangrove habitats may be exposed to various predation risks posed by multiple predators.</p><p>In conclusion, our study confirms that there are multiple nest predators of birds in Zhanjiang mangrove habitats, and birds breeding in Zhanjiang mangrove habitats are exposed to a relatively high risk of predation. Whether higher predation risk leads to fewer birds breeding in the study area remains to be further investigated.</p></sec><sec id="ece372651-sec-0013"><title>Author Contributions</title><p>
+<bold>Yiming Liu:</bold> data curation (equal), investigation (lead), methodology (equal), writing – original draft (equal). <bold>Jianping Liu:</bold> formal analysis (lead), validation (equal), writing – review and editing (equal). <bold>Wei Liang:</bold> conceptualization (lead), funding acquisition (lead), supervision (lead), validation (equal), writing – review and editing (equal).</p></sec><sec id="ece372651-sec-0008"><title>Funding</title><p>W.L. was supported by the specific research fund of The Innovation Platform for Academicians of Hainan Province (no. YSPTZX202408). J.L. was supported by the 2023 Ningxia Hui Autonomous Region Youth Science and Technology Support Talent Training Project.</p></sec><sec id="ece372651-sec-0010"><title>Ethics Statement</title><p>The experiments comply with the current laws of China. No special permit was required for this study as it was not involved in animal or plant collection.</p></sec><sec sec-type="COI-statement" id="ece372651-sec-0009"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece372651-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> ece372651‐sup‐0001‐TableS1.xls.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ECE3-15-e72651-s001.xls" position="float" orientation="portrait"><?suppdata-name ECE3-15-e72651-s001.xls?><?suppdata-size 47616?><?suppdata-md5 e914893e3f582cc1bda3f252a06f02fe?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.ms-excel?><?suppdata-cloudpmc-urn urn:app:3f9e/12683603/e914893e3f58/ECE3-15-e72651-s001.xls?></media></supplementary-material></sec></body><back><ack id="ece372651-sec-0007"><title>Acknowledgments</title><p>We thank Chris Foote, the Associate Editor, and two reviewers for their constructive comments on an early version of this manuscript. We are grateful to Zhanjiang Mangrove National Nature Reserve, Guangdong Province, for the permit for field experiments.</p></ack><sec sec-type="data-availability" id="ece372651-sec-0012"><title>Data Availability Statement</title><p>Data used for this study is provided as Table <xref rid="ece372651-fig-0001" ref-type="fig">S1</xref> and can be found at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://figshare.com/s/65878800ac7012ce363f" ext-link-type="uri" specific-use="software is-supplemented-by">https://figshare.com/s/65878800ac7012ce363f</ext-link> (doi: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.28329860" ext-link-type="uri">10.6084/m9.figshare.28329860</ext-link>).</p></sec><ref-list content-type="cited-references" id="ece372651-bibl-0001"><title>References</title><ref id="ece372651-bib-0001"><mixed-citation publication-type="journal" id="ece372651-cit-0001">
+<string-name name-style="western">
+<surname>Akram</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hussain</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Mazumdar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. O.</given-names>
+<surname>Chua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. E.</given-names>
+<surname>Butt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Harikrishna</surname>
+</string-name>. <year>2023</year>. “<article-title>Mangrove Health: A Review of Functions, Threats, and Challenges Associated With Mangrove Management Practices</article-title>.” <source>Forests</source>
+<volume>14</volume>: <elocation-id>1698</elocation-id>.</mixed-citation></ref><ref id="ece372651-bib-0002"><mixed-citation publication-type="journal" id="ece372651-cit-0002">
+<string-name name-style="western">
+<surname>Avilés</surname>, <given-names>J. M.</given-names>
+</string-name>
+<year>2024</year>. “<article-title>The Evolutionary Ecology of Bird–Ant Interactions: A Pervasive but Under‐Studied Connection</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>291</volume>: <elocation-id>20232023</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2023.2023</pub-id><pub-id pub-id-type="pmcid">PMC10762437</pub-id><pub-id pub-id-type="pmid">38166423</pub-id></mixed-citation></ref><ref id="ece372651-bib-0003"><mixed-citation publication-type="journal" id="ece372651-cit-0003">
+<string-name name-style="western">
+<surname>Bellinato</surname>, <given-names>F.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bogliani</surname>
+</string-name>. <year>1995</year>. “<article-title>Colonial Breeding Imposes Increased Predation: Experimental Studies With Herons</article-title>.” <source>Ethology Ecology and Evolution</source>
+<volume>7</volume>: <fpage>347</fpage>–<lpage>353</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0004"><mixed-citation publication-type="journal" id="ece372651-cit-0004">
+<string-name name-style="western">
+<surname>Brawn</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Angehr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Davros</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. D.</given-names>
+<surname>Robinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. N.</given-names>
+<surname>Styrsky</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Tarwater</surname>
+</string-name>. <year>2011</year>. “<article-title>Sources of Variation in the Nesting Success of Understory Tropical Birds</article-title>.” <source>Journal of Avian Biology</source>
+<volume>42</volume>: <fpage>61</fpage>–<lpage>68</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0005"><mixed-citation publication-type="journal" id="ece372651-cit-0005">
+<string-name name-style="western">
+<surname>Cancellieri</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Murphy</surname>
+</string-name>. <year>2014</year>. “<article-title>Experimental Analysis of Nest‐Site Choice and Its Relationship to Nest Success in an Open‐Cup‐Nesting Passerine</article-title>.” <source>Auk: Ornithological Advances</source>
+<volume>131</volume>: <fpage>539</fpage>–<lpage>548</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0006"><mixed-citation publication-type="journal" id="ece372651-cit-0006">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lu</surname>
+</string-name>. <year>2019</year>. “<article-title>Waterbird Diversity in Mangrove Wetlands in Hainan Island, China</article-title>.” <source>Chinese Journal of Zoology</source>
+<volume>54</volume>: <fpage>636</fpage>–<lpage>645</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0007"><mixed-citation publication-type="journal" id="ece372651-cit-0007">
+<string-name name-style="western">
+<surname>Eggers</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Griesser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nystrand</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ekman</surname>
+</string-name>. <year>2006</year>. “<article-title>Predation Risk Induces Changes in Nest‐Site Selection and Clutch Size in the Siberian Jay</article-title>.” <source>Proceedings of the Royal Society B: Biological Sciences</source>
+<volume>273</volume>: <fpage>701</fpage>–<lpage>706</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2005.3373</pub-id><pub-id pub-id-type="pmcid">PMC1560074</pub-id><pub-id pub-id-type="pmid">16608689</pub-id></mixed-citation></ref><ref id="ece372651-bib-0008"><mixed-citation publication-type="journal" id="ece372651-cit-0008">
+<string-name name-style="western">
+<surname>Fontaine</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Martel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Markland</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Niklison</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Decker</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T. E.</given-names>
+<surname>Martin</surname>
+</string-name>. <year>2007</year>. “<article-title>Testing Ecological and Behavioral Correlates of Nest Predation</article-title>.” <source>Oikos</source>
+<volume>116</volume>: <fpage>1887</fpage>–<lpage>1894</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0009"><mixed-citation publication-type="journal" id="ece372651-cit-0009">
+<string-name name-style="western">
+<surname>Forstmeier</surname>, <given-names>W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Weiss</surname>
+</string-name>. <year>2004</year>. “<article-title>Adaptive Plasticity in Nest‐Site Selection in Response to Changing Predation Risk</article-title>.” <source>Oikos</source>
+<volume>104</volume>: <fpage>487</fpage>–<lpage>499</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0010"><mixed-citation publication-type="book" id="ece372651-cit-0010">
+<string-name name-style="western">
+<surname>Furness</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. J. D.</given-names>
+<surname>Greenwood</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Jarvis</surname>
+</string-name>. <year>1993</year>. “<part-title>Can Birds Be Used to Monitor the Environment?</part-title>” In <source>Birds as Monitors of Environmental Change</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R. W.</given-names>
+<surname>Furness</surname>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J. J. D.</given-names>
+<surname>Greenwood</surname>
+</string-name>
+</person-group>, <fpage>1</fpage>–<lpage>41</lpage>. <publisher-name>Chapman &amp; Hall</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0011"><mixed-citation publication-type="journal" id="ece372651-cit-0011">
+<string-name name-style="western">
+<surname>Gopi</surname>, <given-names>G. V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pandav</surname>
+</string-name>. <year>2007</year>. “<article-title>Avifauna of Bhitarkanika Mangroves, India</article-title>.” <source>Zoos' Print Journal</source>
+<volume>22</volume>: <fpage>2839</fpage>–<lpage>2847</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0012"><mixed-citation publication-type="journal" id="ece372651-cit-0012">
+<string-name name-style="western">
+<surname>Haemig</surname>, <given-names>P. D.</given-names>
+</string-name>
+<year>1999</year>. “<article-title>Predation Risk Alters Interactions Among Species: Competition and Facilitation Between Ants and Nesting Birds in a Boreal Forest</article-title>.” <source>Ecology Letters</source>
+<volume>2</volume>: <fpage>178</fpage>–<lpage>184</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0013"><mixed-citation publication-type="journal" id="ece372651-cit-0013">
+<string-name name-style="western">
+<surname>Hua</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Sieving</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Fletcher</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Wright</surname>
+</string-name>. <year>2014</year>. “<article-title>Increased Perception of Predation Risk to Adults and Offspring Alters Avian Reproductive Strategy and Performance</article-title>.” <source>Behavioral Ecology</source>
+<volume>25</volume>: <fpage>509</fpage>–<lpage>519</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0014"><mixed-citation publication-type="journal" id="ece372651-cit-0014">
+<string-name name-style="western">
+<surname>James Reynolds</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Ibáñez‐Álamo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Sumasgutner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Mainwaring</surname>
+</string-name>. <year>2019</year>. “<article-title>Urbanisation and Nest Building in Birds: A Review of Threats and Opportunities</article-title>.” <source>Journal of Ornithology</source>
+<volume>160</volume>: <fpage>841</fpage>–<lpage>860</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0015"><mixed-citation publication-type="journal" id="ece372651-cit-0015">
+<string-name name-style="western">
+<surname>Jiang</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Zhou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Goodale</surname>
+</string-name>. <year>2017</year>. “<article-title>Nest‐Site Selection and Breeding Ecology of Streaked Wren‐Babbler (<italic toggle="yes">Napothera Brevicaudata</italic>) in a Tropical Limestone Forest of Southern China</article-title>.” <source>Avian Research</source>
+<volume>8</volume>: <fpage>28</fpage>.</mixed-citation></ref><ref id="ece372651-bib-0016"><mixed-citation publication-type="journal" id="ece372651-cit-0016">
+<string-name name-style="western">
+<surname>Kostoglou</surname>, <given-names>K. N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. F. D.</given-names>
+<surname>van Dongen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Weston</surname>
+</string-name>. <year>2020</year>. “<article-title>Parental Defence in Shorebirds Is Mediated by Embryonic Calling, Ambient Temperature and Predator Latency</article-title>.” <source>Journal of Ornithology</source>
+<volume>161</volume>: <fpage>1153</fpage>–<lpage>1165</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0017"><mixed-citation publication-type="journal" id="ece372651-cit-0017">
+<string-name name-style="western">
+<surname>Kwon</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. D.</given-names>
+<surname>Fraser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Catlin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Karpanty</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Weithman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Muiznieks</surname>
+</string-name>. <year>2018</year>. “<article-title>Presence of Ghost Crabs and Piping Plover Nesting Success</article-title>.” <source>Journal of Wildlife Management</source>
+<volume>82</volume>: <fpage>850</fpage>–<lpage>856</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0018"><mixed-citation publication-type="journal" id="ece372651-cit-0018">
+<string-name name-style="western">
+<surname>Liang</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. C.</given-names>
+<surname>Wong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Wong</surname>
+</string-name>. <year>2006</year>. “<article-title>Ardeid Nesting Colony Survey in Hainan, China</article-title>.” <source>Waterbirds</source>
+<volume>29</volume>: <fpage>69</fpage>–<lpage>75</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0019"><mixed-citation publication-type="journal" id="ece372651-cit-0019">
+<string-name name-style="western">
+<surname>Lima</surname>, <given-names>S. L.</given-names>
+</string-name>
+<year>2009</year>. “<article-title>Predators and the Breeding Bird: Behavioral and Reproductive Flexibility Under the Risk of Predation</article-title>.” <source>Biological Reviews</source>
+<volume>84</volume>: <fpage>485</fpage>–<lpage>513</lpage>.<pub-id pub-id-type="pmid">19659887</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1469-185X.2009.00085.x</pub-id></mixed-citation></ref><ref id="ece372651-bib-0020"><mixed-citation publication-type="journal" id="ece372651-cit-0020">
+<string-name name-style="western">
+<surname>Lima</surname>, <given-names>S. L.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Dill</surname>
+</string-name>. <year>1990</year>. “<article-title>Behavioral Decisions Made Under the Risk of Predation: A Review and Prospectus</article-title>.” <source>Canadian Journal of Zoology</source>
+<volume>68</volume>: <fpage>619</fpage>–<lpage>640</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0021"><mixed-citation publication-type="book" id="ece372651-cit-0021">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>P.</given-names>
+</string-name>
+<year>1997</year>. <source>Mangrove Ecosystems in China</source>. <publisher-name>Science Press</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0022"><mixed-citation publication-type="journal" id="ece372651-cit-0022">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Lorrilliere</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Effects of Local Nest Predation Risk on Nest Defence Behaviour of Japanese Tits</article-title>.” <source>Animal Behaviour</source>
+<volume>219</volume>: <elocation-id>123031</elocation-id>.</mixed-citation></ref><ref id="ece372651-bib-0023"><mixed-citation publication-type="journal" id="ece372651-cit-0023">
+<string-name name-style="western">
+<surname>Macdonald</surname>, <given-names>E. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. F.</given-names>
+<surname>Camfield</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Martin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wilson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Martin</surname>
+</string-name>. <year>2016</year>. “<article-title>Nest‐Site Selection and Consequences for Nest Survival Among Three Sympatric Songbirds in an Alpine Environment</article-title>.” <source>Journal of Ornithology</source>
+<volume>157</volume>: <fpage>1</fpage>–<lpage>13</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0024"><mixed-citation publication-type="journal" id="ece372651-cit-0024">
+<string-name name-style="western">
+<surname>Maisey</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. T.</given-names>
+<surname>Carter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Incoll</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. F.</given-names>
+<surname>Bennett</surname>
+</string-name>. <year>2016</year>. “<article-title>Environmental Influences on Variation in Nest‐Characteristics in a Long‐Term Study Population of the Superb Lyrebird, <italic toggle="yes">Menura Novaehollandiae</italic>
+</article-title>.” <source>Emu—Austral Ornithology</source>
+<volume>116</volume>: <fpage>445</fpage>–<lpage>451</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0025"><mixed-citation publication-type="book" id="ece372651-cit-0025">
+<string-name name-style="western">
+<surname>Mancini</surname>, <given-names>P. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. V. V.</given-names>
+<surname>da Costa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Dias</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. F.</given-names>
+<surname>Silveira</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Schunck</surname>
+</string-name>. <year>2023</year>. “<part-title>Mangrove and Salt Marsh Migratory and Resident Birds</part-title>.” In <source>Brazilian Mangroves and Salt Marshes</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Schaeffer‐Novelli</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>G. M. O.</given-names>
+<surname>Abuchahla</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Cintrón‐Molero</surname>
+</string-name>
+</person-group>, <edition designator="1">1st ed.</edition>, <fpage>233</fpage>–<lpage>280</lpage>. <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0026"><mixed-citation publication-type="journal" id="ece372651-cit-0026">
+<string-name name-style="western">
+<surname>Martin</surname>, <given-names>T. E.</given-names>
+</string-name>
+<year>1993</year>. “<article-title>Nest Predation and Nest Sites: New Perspectives on Old Patterns</article-title>.” <source>BioScience</source>
+<volume>43</volume>: <fpage>523</fpage>–<lpage>532</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0027"><mixed-citation publication-type="journal" id="ece372651-cit-0027">
+<string-name name-style="western">
+<surname>Martin</surname>, <given-names>T. E.</given-names>
+</string-name>
+<year>1995</year>. “<article-title>Avian Life History Evolution in Relation to Nest Sites, Nest Predation, and Food</article-title>.” <source>Ecological Monographs</source>
+<volume>65</volume>: <fpage>101</fpage>–<lpage>127</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0028"><mixed-citation publication-type="journal" id="ece372651-cit-0028">
+<string-name name-style="western">
+<surname>Martin</surname>, <given-names>T. E.</given-names>
+</string-name>
+<year>1998</year>. “<article-title>Are Microhabitat Preferences of Coexisting Species Under Selection and Adaptive?</article-title>” <source>Ecology</source>
+<volume>79</volume>: <fpage>656</fpage>–<lpage>670</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0029"><mixed-citation publication-type="journal" id="ece372651-cit-0029">
+<string-name name-style="western">
+<surname>Mönkkönen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Forsman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kananoja</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Ylonen</surname>
+</string-name>. <year>2009</year>. “<article-title>Indirect Cues of Nest Predation Risk and Avian Reproductive Decisions</article-title>.” <source>Biology Letters</source>
+<volume>5</volume>: <fpage>176</fpage>–<lpage>178</lpage>.<pub-id pub-id-type="pmid">19126533</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rsbl.2008.0631</pub-id><pub-id pub-id-type="pmcid">PMC2665812</pub-id></mixed-citation></ref><ref id="ece372651-bib-0030"><mixed-citation publication-type="journal" id="ece372651-cit-0030">
+<string-name name-style="western">
+<surname>Narayana</surname>, <given-names>B. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Surender</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Swamy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Venkateshwarlu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. S.</given-names>
+<surname>Kumar</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V. V.</given-names>
+<surname>Rao</surname>
+</string-name>. <year>2013</year>. “<article-title>Greater Coucal (<italic toggle="yes">Centropus Sinensis</italic>) Feeding on the Common Myna (<italic toggle="yes">Acridotheres Tristis</italic>): A Case Report From Hyderabad, Andhra Pradesh</article-title>.” <source>Life Sciences Leaflets</source>
+<volume>10</volume>: <fpage>72</fpage>–<lpage>75</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0031"><mixed-citation publication-type="journal" id="ece372651-cit-0031">
+<string-name name-style="western">
+<surname>Ocampo</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G. A.</given-names>
+<surname>Londoño</surname>
+</string-name>. <year>2015</year>. “<article-title>Tropical Montane Birds Have Increased Nesting Success on Small River Islands</article-title>.” <source>Auk: Ornithological Advances</source>
+<volume>132</volume>: <fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0032"><mixed-citation publication-type="journal" id="ece372651-cit-0032">
+<string-name name-style="western">
+<surname>Parejo</surname>, <given-names>D.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Avilés</surname>
+</string-name>. <year>2011</year>. “<article-title>Predation Risk Determines Breeding Territory Choice in a Mediterranean Cavity‐Nesting Bird Community</article-title>.” <source>Oecologia</source>
+<volume>165</volume>: <fpage>185</fpage>–<lpage>191</lpage>.<pub-id pub-id-type="pmid">20652593</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00442-010-1723-0</pub-id></mixed-citation></ref><ref id="ece372651-bib-0033"><mixed-citation publication-type="journal" id="ece372651-cit-0033">
+<string-name name-style="western">
+<surname>Peluc</surname>, <given-names>S. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. S.</given-names>
+<surname>Sillett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. T.</given-names>
+<surname>Rotenberry</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Ghalambor</surname>
+</string-name>. <year>2008</year>. “<article-title>Adaptive Phenotypic Plasticity in an Island Songbird Exposed to a Novel Predation Risk</article-title>.” <source>Behavioral Ecology</source>
+<volume>19</volume>: <fpage>830</fpage>–<lpage>835</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0034"><mixed-citation publication-type="journal" id="ece372651-cit-0034">
+<string-name name-style="western">
+<surname>Ricklefs</surname>, <given-names>R. E.</given-names>
+</string-name>
+<year>1969</year>. “<article-title>An Analysis of Nesting Mortality in Birds</article-title>.” <source>Smithsonian Contributions to Zoology</source>
+<volume>9</volume>: <fpage>1</fpage>–<lpage>48</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0035"><mixed-citation publication-type="book" id="ece372651-cit-0035">
+<string-name name-style="western">
+<surname>Roff</surname>, <given-names>D. A.</given-names>
+</string-name>
+<year>1992</year>. <source>The Evolution of Life Histories: Theory and Analysis</source>. <publisher-name>Chapman &amp; Hall</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0036"><mixed-citation publication-type="journal" id="ece372651-cit-0036">
+<string-name name-style="western">
+<surname>Tan</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Fang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zhou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2013</year>. “<article-title>Nest‐Site Selection of Ardeidae Birds in Mangrove Habitats of Zhangjiang Estuary in Fujian Province, China</article-title>.” <source>Chinese Journal of Zoology</source>
+<volume>48</volume>: <fpage>212</fpage>–<lpage>219</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0037"><mixed-citation publication-type="book" id="ece372651-cit-0037">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2007</year>. <source>Chinese Mangrove</source>. <publisher-name>Science Press</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0038"><mixed-citation publication-type="journal" id="ece372651-cit-0038">
+<string-name name-style="western">
+<surname>Way</surname>, <given-names>M. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Heong</surname>
+</string-name>. <year>1994</year>. “<article-title>The Role of Biodiversity in the Dynamics and Management of Insect Pests of Tropical Irrigated Rice: A Review</article-title>.” <source>Bulletin of Entomological Research</source>
+<volume>84</volume>: <fpage>567</fpage>–<lpage>587</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0039"><mixed-citation publication-type="journal" id="ece372651-cit-0039">
+<string-name name-style="western">
+<surname>Wong</surname>, <given-names>L. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chang</surname>
+</string-name>, et al. <year>2004</year>. “<article-title>A Questionnaire Survey of Ardeid Nesting Colony Distribution in Guangdong, Guangxi and Hainan, South China</article-title>.” <source>Waterbirds</source>
+<volume>27</volume>: <fpage>216</fpage>–<lpage>223</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0040"><mixed-citation publication-type="journal" id="ece372651-cit-0040">
+<string-name name-style="western">
+<surname>Wright</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. V.</given-names>
+<surname>Byrd</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Renner</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Sowls</surname>
+</string-name>. <year>2013</year>. “<article-title>Breeding Ecology of Red‐Faced Cormorants in the Pribilof Islands, Alaska</article-title>.” <source>Journal of Field Ornithology</source>
+<volume>84</volume>: <fpage>49</fpage>–<lpage>57</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0041"><mixed-citation publication-type="journal" id="ece372651-cit-0041">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Møller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Liang</surname>
+</string-name>. <year>2014</year>. “<article-title>Intensive Nest Predation by Crabs Produces Source‐Sink Dynamics in Hosts and Parasites</article-title>.” <source>Journal of Ornithology</source>
+<volume>155</volume>: <fpage>219</fpage>–<lpage>223</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0042"><mixed-citation publication-type="journal" id="ece372651-cit-0042">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Qian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Chu</surname>
+</string-name>. <year>2008</year>. “<article-title>Influence of Mangrove Forests on Waterbirds in Hainan Island</article-title>.” <source>Scientia Silvae Sinica</source>
+<volume>44</volume>: <fpage>97</fpage>–<lpage>100</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0043"><mixed-citation publication-type="journal" id="ece372651-cit-0043">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Møller</surname>
+</string-name>. <year>2020</year>. “<article-title>Fight or Flight: Geographic Variation in Antipredator Defenses by Cinereous Tits</article-title>.” <source>Global Ecology and Conservation</source>
+<volume>24</volume>: <elocation-id>e01207</elocation-id>.</mixed-citation></ref><ref id="ece372651-bib-0044"><mixed-citation publication-type="book" id="ece372651-cit-0044">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>X.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zou</surname>
+</string-name>. <year>2001</year>. <source>The Herons of China</source>. <publisher-name>China Forestry Publishing House</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0045"><mixed-citation publication-type="book" id="ece372651-cit-0045">
+<string-name name-style="western">
+<surname>Zou</surname>, <given-names>F.</given-names>
+</string-name>
+<year>2010</year>. <source>Birds in Mangrove Areas of China</source>. <publisher-name>Science Press</publisher-name>.</mixed-citation></ref><ref id="ece372651-bib-0046"><mixed-citation publication-type="journal" id="ece372651-cit-0046">
+<string-name name-style="western">
+<surname>Zou</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zheng</surname>
+</string-name>. <year>2001</year>. “<article-title>Avian Diversity in the Mangrove Wetland of Dongzhaigang</article-title>.” <source>Chinese Journal of Ecology</source>
+<volume>20</volume>: <fpage>21</fpage>–<lpage>23</lpage>.</mixed-citation></ref><ref id="ece372651-bib-0047"><mixed-citation publication-type="journal" id="ece372651-cit-0047">
+<string-name name-style="western">
+<surname>Zou</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Howes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Dahmer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2008</year>. “<article-title>Avian Diversity on Mangrove Wetland of Leizhou Peninsula</article-title>.” <source>Chinese Journal of Ecology</source>
+<volume>3</volume>: <fpage>383</fpage>–<lpage>390</lpage>.</mixed-citation></ref></ref-list></back></article>

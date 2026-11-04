@@ -1,0 +1,105 @@
+{
+  "max_island": 20,
+  "island_count": 7,
+  "islands": [
+    {
+      "size": 7,
+      "node_ids": [
+        "paper:europe_pmc_PMC13108545",
+        "paper:europe_pmc_PMC13392445",
+        "paper:europe_pmc_PMC13473526",
+        "paper:europe_pmc_PMC13538684",
+        "term:atlantic",
+        "term:north atlantic",
+        "term:north pacific"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 7,
+      "node_ids": [
+        "paper:europe_pmc_PMC13381650",
+        "paper:europe_pmc_PMC13454564",
+        "term:atlantic meridional overturning circulation",
+        "term:heinrich stadial",
+        "term:last glacial maximum",
+        "term:southern ocean",
+        "term:younger dryas"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13281800",
+        "paper:europe_pmc_PMC13478603",
+        "paper:europe_pmc_PMC13665990",
+        "term:amoc",
+        "term:arctic ocean",
+        "term:nordic seas"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13342563",
+        "paper:europe_pmc_PMC13377125",
+        "paper:europe_pmc_PMC13598196",
+        "term:northern hemisphere",
+        "term:south pacific",
+        "term:southern hemisphere"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC13060603",
+        "paper:europe_pmc_PMC13376509",
+        "term:community earth system model",
+        "term:coupled model intercomparison project phase"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC13082334",
+        "paper:europe_pmc_PMC13488926",
+        "term:indian ocean"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC13319204",
+        "paper:europe_pmc_PMC13440228",
+        "term:monte carlo"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

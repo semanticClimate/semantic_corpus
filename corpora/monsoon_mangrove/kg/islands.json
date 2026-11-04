@@ -1,0 +1,65 @@
+{
+  "max_island": 20,
+  "island_count": 4,
+  "islands": [
+    {
+      "size": 9,
+      "node_ids": [
+        "paper:europe_pmc_PMC12683603",
+        "paper:europe_pmc_PMC13223266",
+        "paper:europe_pmc_PMC13673541",
+        "term:china",
+        "term:guangdong",
+        "term:guangdong province",
+        "term:hong kong",
+        "term:mangrove",
+        "term:zhanjiang mangrove national nature reserve"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC12374975",
+        "paper:europe_pmc_PMC13392870",
+        "term:arabian sea",
+        "term:indus",
+        "term:indus delta",
+        "term:indus river"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC13363884",
+        "paper:europe_pmc_PMC13611807",
+        "term:agb",
+        "term:carbon",
+        "term:google earth"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC11889114",
+        "paper:europe_pmc_PMC13365400",
+        "term:bay of bengal"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

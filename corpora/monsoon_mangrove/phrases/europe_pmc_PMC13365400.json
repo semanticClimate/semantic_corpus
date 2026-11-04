@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13365400",
+  "phrases": [
+    {
+      "phrase": "map of balasore",
+      "display": "Map of Balasore",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bay of bengal",
+      "display": "Bay of Bengal",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google colab",
+      "display": "Google Colab",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tamil nadu",
+      "display": "Tamil Nadu",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bayesian absolute principal component score",
+      "display": "Bayesian Absolute Principal Component Score",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "achieving sustainable development goal",
+      "display": "Achieving Sustainable Development Goal",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "unlike positive matrix factorisation",
+      "display": "Unlike Positive Matrix Factorisation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "som",
+      "display": "SOM",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "apcs",
+      "display": "APCS",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mlr",
+      "display": "MLR",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fluoride",
+      "score": 0.0501,
+      "channel": "tfidf",
+      "display": "Fluoride"
+    },
+    {
+      "phrase": "minimal",
+      "score": 0.0412,
+      "channel": "tfidf",
+      "display": "minimal"
+    },
+    {
+      "phrase": "groundwater",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "Groundwater"
+    },
+    {
+      "phrase": "na",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "Na"
+    },
+    {
+      "phrase": "fluorite",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "fluorite"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.062
+}

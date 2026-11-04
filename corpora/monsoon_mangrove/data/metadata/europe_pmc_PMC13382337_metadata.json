@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC13382337",
+  "pmid": "42519043",
+  "title": "Estimating soil organic carbon density in mangroves of different stand ages using multi-source remote sensing and machine learning.",
+  "abstract": "Mangrove ecosystems are highly efficient natural carbon sinks, yet quantifying soil organic carbon density (SOCD) across stand ages is critical for evaluating restoration benefits. This study integrated WorldView-2, LiDAR, and Sentinel-1 SAR data with machine learning to map SOCD in Qinglan Harbor, China. eXtreme Gradient Boosting achieved the highest accuracy (<i>R</i> <sup>2</sup> = 0.72, RMSE = 2.87 kg m<sup>-2</sup>) among four regression methods. Lasso regression identified LiDAR-derived structural metrics and optical vegetation indices as key predictors, highlighting the importance of 3D canopy structure and spectral data. Results showed age-dependent SOCD accumulation: mangroves older than 15 years stored significantly more carbon (11.47 kg m<sup>-2</sup>) than 0-5 year stands (10.49 kg m<sup>-2</sup>). These findings underscore the value of long-term restoration for blue carbon sequestration and provide a scalable monitoring framework that integrates multi-sensor remote sensing and machine learning to support coastal management and climate mitigation.",
+  "authors": [
+    "Chen Z",
+    "Shi T",
+    "Zeng Y",
+    "Wang Z",
+    "Pan X",
+    "Wu T",
+    "Chen X",
+    "Chen Y"
+  ],
+  "publication_date": "2026-07-13",
+  "journal": "",
+  "doi": "10.1016/j.isci.2026.116273",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1016/j.isci.2026.116273"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13382337"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13382337?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

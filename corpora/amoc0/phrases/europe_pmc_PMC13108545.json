@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13108545",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 7.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bering strait",
+      "display": "Bering Strait",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little diomede island",
+      "display": "Little Diomede Island",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "big diomede island",
+      "display": "Big Diomede Island",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic and north pacific ocean",
+      "display": "Arctic and North Pacific Ocean",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cbs",
+      "display": "CBS",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "obs",
+      "display": "OBS",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "closure",
+      "score": 0.0486,
+      "channel": "tfidf",
+      "display": "closure"
+    },
+    {
+      "phrase": "fh",
+      "score": 0.0435,
+      "channel": "tfidf",
+      "display": "FH"
+    },
+    {
+      "phrase": "fh sverdrup",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "fh sverdrup"
+    },
+    {
+      "phrase": "hosing",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "hosing"
+    },
+    {
+      "phrase": "strait",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "Strait"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0897
+}
