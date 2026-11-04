@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13686517",
+  "phrases": [
+    {
+      "phrase": "orchha wildlife sanctuary",
+      "display": "Orchha Wildlife Sanctuary",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "random forest",
+      "display": "Random Forest",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google earth engine",
+      "display": "Google Earth Engine",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "normalized difference vegetation index",
+      "display": "Normalized Difference Vegetation Index",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "normalized difference moisture index",
+      "display": "Normalized Difference Moisture Index",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "syzygiumcumini and terminalia",
+      "display": "Syzygiumcumini and Terminalia",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surface reflectance",
+      "display": "Surface Reflectance",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ndvi",
+      "display": "NDVI",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sentinel",
+      "display": "Sentinel",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "glcm",
+      "display": "GLCM",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "canopy",
+      "score": 0.0493,
+      "channel": "tfidf",
+      "display": "Canopy"
+    },
+    {
+      "phrase": "canopy-density",
+      "score": 0.0446,
+      "channel": "tfidf",
+      "display": "Canopy-density"
+    },
+    {
+      "phrase": "class",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "Class"
+    },
+    {
+      "phrase": "ha",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "ha"
+    },
+    {
+      "phrase": "pre-monsoon",
+      "score": 0.0412,
+      "channel": "tfidf",
+      "display": "pre-monsoon"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

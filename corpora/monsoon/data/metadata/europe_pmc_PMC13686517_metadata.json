@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC13686517",
+  "pmid": "42905757",
+  "title": "Monitoring seasonal and long-term forest canopy dynamics using Sentinel-2 imagery and Random Forest on the Google Earth Engine platform.",
+  "abstract": "Understanding forest canopy dynamics is critical for assessing the condition, resilience, and conservation priorities of protected landscapes. This study evaluated the spatiotemporal and seasonal variation in mapped forest canopy density within the Orchha Wildlife Sanctuary, Madhya Pradesh, India, using multi-seasonal Sentinel-2 imagery and a Google Earth Engine (GEE)-based Random Forest (RF) classification framework. Sentinel-2 data for pre-monsoon (March-May) and post-monsoon (October-December) periods in 2016 and 2024 were analyzed independently. Canopy-density information was derived from NDVI, NDMI, elevation, slope, and GLCM texture features and classified into four classes: non-forest, open, moderate, and dense canopy. The same RF procedure was applied to all four season-year datasets using NDVI-informed canopy-density strata and balanced reference sampling. Overall accuracy ranged from 97.80% to 98.95%, with Kappa coefficients of 0.970-0.986. The results indicated clear seasonal and interannual redistribution of mapped canopy-density classes. During the pre-monsoon period, non-forest and open classes decreased by 39.62% and 7.15%, respectively, while moderate and dense classes increased by 231.64% and 240.43%. During the post-monsoon period, moderate canopy increased by 26.01%, whereas dense canopy decreased by 9.46%. Within the common comparison area of 4,533.54 ha, transition analysis revealed substantial class persistence and redistribution, particularly among adjacent canopy-density classes such as open-to-moderate and dense-to-moderate transitions. Spatial changes were distributed across riparian, interior, and peripheral zones. Because 2016 used Level-1C top-of-atmosphere data and 2024 used Level-2A surface-reflectance products, interannual differences should be interpreted as changes in mapped canopy-density classes rather than precise biophysical changes in canopy structure. The framework provides a replicable approach for seasonal forest monitoring and spatially targeted conservation planning.",
+  "authors": [
+    "Kumar P",
+    "Kumar R",
+    "Sahu S",
+    "Dobriyal M",
+    "Lavania P",
+    "Srivastav M",
+    "Pandey PC",
+    "Turyasingura B"
+  ],
+  "publication_date": "2026-10-21",
+  "journal": "",
+  "doi": "10.1371/journal.pone.0361024",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0361024"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13686517"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13686517?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

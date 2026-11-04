@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13722036",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "review question",
+      "display": "Review Question",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mexico and peru",
+      "display": "Mexico and Peru",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "preferred reporting items for systematic",
+      "display": "Preferred Reporting Items for Systematic",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "analyses extension for scoping reviews",
+      "display": "Analyses Extension for Scoping Reviews",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "social determinants of health",
+      "display": "Social Determinants of Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united nations declaration",
+      "display": "United Nations Declaration",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sdh",
+      "display": "SDH",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brazil",
+      "display": "Brazil",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "america",
+      "display": "America",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intimate",
+      "score": 0.0522,
+      "channel": "tfidf",
+      "display": "Intimate"
+    },
+    {
+      "phrase": "intimate partner",
+      "score": 0.052,
+      "channel": "tfidf",
+      "display": "Intimate partner"
+    },
+    {
+      "phrase": "intimate partner violence",
+      "score": 0.0519,
+      "channel": "tfidf",
+      "display": "Intimate partner violence"
+    },
+    {
+      "phrase": "partner violence",
+      "score": 0.0519,
+      "channel": "tfidf",
+      "display": "partner violence"
+    },
+    {
+      "phrase": "violence",
+      "score": 0.0514,
+      "channel": "tfidf",
+      "display": "Violence"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

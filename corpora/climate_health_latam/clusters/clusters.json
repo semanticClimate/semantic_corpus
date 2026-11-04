@@ -1,0 +1,598 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "One Health; Central America; South America; America; Health",
+      "paper_count": 4,
+      "term_count": 39,
+      "paper_ids": [
+        "europe_pmc_PMC13345226",
+        "europe_pmc_PMC13421129",
+        "europe_pmc_PMC13465641",
+        "europe_pmc_PMC13555732"
+      ],
+      "terms": [
+        {
+          "phrase": "one health",
+          "display": "One Health",
+          "weight": 5.3
+        },
+        {
+          "phrase": "central america",
+          "display": "Central America",
+          "weight": 4.0
+        },
+        {
+          "phrase": "south america",
+          "display": "South America",
+          "weight": 3.9
+        },
+        {
+          "phrase": "america",
+          "display": "America",
+          "weight": 3.23
+        },
+        {
+          "phrase": "health",
+          "display": "Health",
+          "weight": 2.5242
+        },
+        {
+          "phrase": "southern oscillation",
+          "display": "Southern Oscillation",
+          "weight": 2.4
+        },
+        {
+          "phrase": "one",
+          "display": "One",
+          "weight": 2.37
+        },
+        {
+          "phrase": "costa rica",
+          "display": "Costa Rica",
+          "weight": 1.8
+        },
+        {
+          "phrase": "el salvador",
+          "display": "El Salvador",
+          "weight": 1.8
+        },
+        {
+          "phrase": "mesoamerica",
+          "display": "Mesoamerica",
+          "weight": 1.41
+        },
+        {
+          "phrase": "amazon basin",
+          "display": "Amazon Basin",
+          "weight": 1.2
+        },
+        {
+          "phrase": "south american",
+          "display": "South American",
+          "weight": 1.2
+        },
+        {
+          "phrase": "andean and southern cone",
+          "display": "Andean and Southern Cone",
+          "weight": 1.1
+        },
+        {
+          "phrase": "committee on achieving sustainable global capacity for surveillance and response",
+          "display": "Committee on Achieving Sustainable Global Capacity for Surveillance and Response",
+          "weight": 1.1
+        },
+        {
+          "phrase": "emerging diseases of zoonotic origin",
+          "display": "Emerging Diseases of Zoonotic Origin",
+          "weight": 1.1
+        },
+        {
+          "phrase": "member states",
+          "display": "Member States",
+          "weight": 1.1
+        },
+        {
+          "phrase": "northern hemisphere",
+          "display": "Northern Hemisphere",
+          "weight": 1.1
+        },
+        {
+          "phrase": "pan american health organization",
+          "display": "Pan American Health Organization",
+          "weight": 1.1
+        },
+        {
+          "phrase": "precautionary principle",
+          "display": "Precautionary Principle",
+          "weight": 1.1
+        },
+        {
+          "phrase": "southern cone",
+          "display": "Southern Cone",
+          "weight": 1.1
+        },
+        {
+          "phrase": "wash",
+          "display": "WASH",
+          "weight": 1.04
+        },
+        {
+          "phrase": "south",
+          "display": "South",
+          "weight": 1.03
+        },
+        {
+          "phrase": "el",
+          "display": "El",
+          "weight": 0.1316
+        },
+        {
+          "phrase": "water",
+          "display": "water",
+          "weight": 0.0602
+        },
+        {
+          "phrase": "displacement",
+          "display": "displacement",
+          "weight": 0.0579
+        },
+        {
+          "phrase": "arboviral",
+          "display": "arboviral",
+          "weight": 0.0567
+        },
+        {
+          "phrase": "forecasting",
+          "display": "Forecasting",
+          "weight": 0.0528
+        },
+        {
+          "phrase": "health impacts",
+          "display": "health impacts",
+          "weight": 0.0525
+        },
+        {
+          "phrase": "impacts",
+          "display": "impacts",
+          "weight": 0.0508
+        },
+        {
+          "phrase": "spillover",
+          "display": "Spillover",
+          "weight": 0.0451
+        },
+        {
+          "phrase": "wildlife",
+          "display": "Wildlife",
+          "weight": 0.0419
+        },
+        {
+          "phrase": "interfaces",
+          "display": "interfaces",
+          "weight": 0.0415
+        },
+        {
+          "phrase": "surveillance",
+          "display": "Surveillance",
+          "weight": 0.0413
+        },
+        {
+          "phrase": "reservoir",
+          "display": "reservoir",
+          "weight": 0.0408
+        },
+        {
+          "phrase": "disease",
+          "display": "Disease",
+          "weight": 0.0348
+        },
+        {
+          "phrase": "mesoamerican",
+          "display": "Mesoamerican",
+          "weight": 0.0345
+        },
+        {
+          "phrase": "transmission",
+          "display": "Transmission",
+          "weight": 0.0328
+        },
+        {
+          "phrase": "zoonotic",
+          "display": "Zoonotic",
+          "weight": 0.0328
+        },
+        {
+          "phrase": "animal",
+          "display": "animal",
+          "weight": 0.0316
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "WHO; DENV; IVM; Infodengue and Argentina; Sistema Nacional",
+      "paper_count": 2,
+      "term_count": 23,
+      "paper_ids": [
+        "europe_pmc_PMC13307566",
+        "europe_pmc_PMC7619672"
+      ],
+      "terms": [
+        {
+          "phrase": "who",
+          "display": "WHO",
+          "weight": 2.5
+        },
+        {
+          "phrase": "denv",
+          "display": "DENV",
+          "weight": 1.28
+        },
+        {
+          "phrase": "ivm",
+          "display": "IVM",
+          "weight": 1.24
+        },
+        {
+          "phrase": "infodengue and argentina",
+          "display": "Infodengue and Argentina",
+          "weight": 1.2
+        },
+        {
+          "phrase": "sistema nacional",
+          "display": "Sistema Nacional",
+          "weight": 1.2
+        },
+        {
+          "phrase": "stop dengue task force",
+          "display": "Stop Dengue Task Force",
+          "weight": 1.2
+        },
+        {
+          "phrase": "virtual campus",
+          "display": "Virtual Campus",
+          "weight": 1.2
+        },
+        {
+          "phrase": "world mosquito program in brazil and colombia",
+          "display": "World Mosquito Program in Brazil and Colombia",
+          "weight": 1.2
+        },
+        {
+          "phrase": "tpp",
+          "display": "TPP",
+          "weight": 1.14
+        },
+        {
+          "phrase": "asia and latin",
+          "display": "Asia and Latin",
+          "weight": 1.1
+        },
+        {
+          "phrase": "asia and latin america",
+          "display": "Asia and Latin America",
+          "weight": 1.1
+        },
+        {
+          "phrase": "medicines patent pool",
+          "display": "Medicines Patent Pool",
+          "weight": 1.1
+        },
+        {
+          "phrase": "model lists of essential",
+          "display": "Model Lists of Essential",
+          "weight": 1.1
+        },
+        {
+          "phrase": "tpps",
+          "display": "TPPs",
+          "weight": 1.06
+        },
+        {
+          "phrase": "dengue",
+          "display": "Dengue",
+          "weight": 0.089
+        },
+        {
+          "phrase": "therapeutics",
+          "display": "Therapeutics",
+          "weight": 0.0455
+        },
+        {
+          "phrase": "dengue therapeutics",
+          "display": "dengue therapeutics",
+          "weight": 0.0417
+        },
+        {
+          "phrase": "drug",
+          "display": "drug",
+          "weight": 0.0416
+        },
+        {
+          "phrase": "development",
+          "display": "development",
+          "weight": 0.0392
+        },
+        {
+          "phrase": "efficacy",
+          "display": "efficacy",
+          "weight": 0.0391
+        },
+        {
+          "phrase": "control",
+          "display": "control",
+          "weight": 0.0335
+        },
+        {
+          "phrase": "mosquito",
+          "display": "Mosquito",
+          "weight": 0.0326
+        },
+        {
+          "phrase": "dengue control",
+          "display": "Dengue control",
+          "weight": 0.0321
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "Latin American; Latin; Latin America and Africa; United States; Universal Health Coverage",
+      "paper_count": 2,
+      "term_count": 23,
+      "paper_ids": [
+        "europe_pmc_PMC13460890",
+        "europe_pmc_PMC13512877"
+      ],
+      "terms": [
+        {
+          "phrase": "latin american",
+          "display": "Latin American",
+          "weight": 4.6
+        },
+        {
+          "phrase": "latin",
+          "display": "Latin",
+          "weight": 2.53
+        },
+        {
+          "phrase": "latin america and africa",
+          "display": "Latin America and Africa",
+          "weight": 2.3
+        },
+        {
+          "phrase": "united states",
+          "display": "United States",
+          "weight": 1.9
+        },
+        {
+          "phrase": "universal health coverage",
+          "display": "Universal Health Coverage",
+          "weight": 1.6
+        },
+        {
+          "phrase": "health care state",
+          "display": "Health Care State",
+          "weight": 1.3
+        },
+        {
+          "phrase": "world health organization",
+          "display": "World Health Organization",
+          "weight": 1.3
+        },
+        {
+          "phrase": "african",
+          "display": "African",
+          "weight": 1.27
+        },
+        {
+          "phrase": "latin american and african",
+          "display": "Latin American and African",
+          "weight": 1.2
+        },
+        {
+          "phrase": "michael moran",
+          "display": "Michael Moran",
+          "weight": 1.2
+        },
+        {
+          "phrase": "states",
+          "display": "States",
+          "weight": 1.12
+        },
+        {
+          "phrase": "united",
+          "display": "United",
+          "weight": 1.12
+        },
+        {
+          "phrase": "middle east and africa",
+          "display": "Middle East and Africa",
+          "weight": 1.1
+        },
+        {
+          "phrase": "united states and israel",
+          "display": "United States and Israel",
+          "weight": 1.1
+        },
+        {
+          "phrase": "world health organization and global burden of disease",
+          "display": "World Health Organization and Global Burden of Disease",
+          "weight": 1.1
+        },
+        {
+          "phrase": "state",
+          "display": "State",
+          "weight": 0.0501
+        },
+        {
+          "phrase": "policy documents",
+          "display": "Policy documents",
+          "weight": 0.0477
+        },
+        {
+          "phrase": "documents",
+          "display": "documents",
+          "weight": 0.0472
+        },
+        {
+          "phrase": "war",
+          "display": "War",
+          "weight": 0.0447
+        },
+        {
+          "phrase": "welfare",
+          "display": "Welfare",
+          "weight": 0.0447
+        },
+        {
+          "phrase": "conflicts",
+          "display": "conflicts",
+          "weight": 0.0431
+        },
+        {
+          "phrase": "reviewed",
+          "display": "reviewed",
+          "weight": 0.0399
+        },
+        {
+          "phrase": "policy",
+          "display": "Policy",
+          "weight": 0.0395
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "Latin American and Caribbean; International Organization for Migration; Burgos Moreno and Parvic Klijn; Web of Science; Although Cabieses and Huerta",
+      "paper_count": 2,
+      "term_count": 22,
+      "paper_ids": [
+        "europe_pmc_PMC13575796",
+        "europe_pmc_PMC13602859"
+      ],
+      "terms": [
+        {
+          "phrase": "latin american and caribbean",
+          "display": "Latin American and Caribbean",
+          "weight": 2.2
+        },
+        {
+          "phrase": "international organization for migration",
+          "display": "International Organization for Migration",
+          "weight": 1.3
+        },
+        {
+          "phrase": "burgos moreno and parvic klijn",
+          "display": "Burgos Moreno and Parvic Klijn",
+          "weight": 1.2
+        },
+        {
+          "phrase": "web of science",
+          "display": "Web of Science",
+          "weight": 1.2
+        },
+        {
+          "phrase": "although cabieses and huerta",
+          "display": "Although Cabieses and Huerta",
+          "weight": 1.1
+        },
+        {
+          "phrase": "lancet countdown",
+          "display": "Lancet Countdown",
+          "weight": 1.1
+        },
+        {
+          "phrase": "lancet regional health",
+          "display": "Lancet Regional Health",
+          "weight": 1.1
+        },
+        {
+          "phrase": "mexico and south america",
+          "display": "Mexico and South America",
+          "weight": 1.1
+        },
+        {
+          "phrase": "our commission",
+          "display": "Our Commission",
+          "weight": 1.1
+        },
+        {
+          "phrase": "covid",
+          "display": "COVID",
+          "weight": 1.06
+        },
+        {
+          "phrase": "americas",
+          "display": "Americas",
+          "weight": 1.05
+        },
+        {
+          "phrase": "caribbean",
+          "display": "Caribbean",
+          "weight": 1.05
+        },
+        {
+          "phrase": "research",
+          "display": "research",
+          "weight": 0.0695
+        },
+        {
+          "phrase": "journal",
+          "display": "journal",
+          "weight": 0.068
+        },
+        {
+          "phrase": "issue",
+          "display": "issue",
+          "weight": 0.0636
+        },
+        {
+          "phrase": "inequity",
+          "display": "inequity",
+          "weight": 0.0568
+        },
+        {
+          "phrase": "voice",
+          "display": "voice",
+          "weight": 0.0568
+        },
+        {
+          "phrase": "researchers",
+          "display": "researchers",
+          "weight": 0.0561
+        },
+        {
+          "phrase": "migrant",
+          "display": "migrant",
+          "weight": 0.0477
+        },
+        {
+          "phrase": "mobility",
+          "display": "mobility",
+          "weight": 0.0472
+        },
+        {
+          "phrase": "human mobility",
+          "display": "human mobility",
+          "weight": 0.0453
+        },
+        {
+          "phrase": "publications",
+          "display": "publications",
+          "weight": 0.0436
+        }
+      ]
+    }
+  ]
+}

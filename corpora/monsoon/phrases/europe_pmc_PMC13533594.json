@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13533594",
+  "phrases": [
+    {
+      "phrase": "asan conservation reserve",
+      "display": "Asan Conservation Reserve",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "renuka ji",
+      "display": "Renuka Ji",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "himalayan ramsar",
+      "display": "Himalayan Ramsar",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "renuka ji lake",
+      "display": "Renuka Ji Lake",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "renuka ji and asan conservation reserve",
+      "display": "Renuka Ji and Asan Conservation Reserve",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ahemad and kibret",
+      "display": "Ahemad and Kibret",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sanger sequencing",
+      "display": "Sanger Sequencing",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cfu",
+      "display": "CFU",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ec",
+      "display": "EC",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bacterial",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "Bacterial"
+    },
+    {
+      "phrase": "renuka",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "Renuka"
+    },
+    {
+      "phrase": "ji",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "Ji"
+    },
+    {
+      "phrase": "himalayan",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "Himalayan"
+    },
+    {
+      "phrase": "culturable",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "culturable"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

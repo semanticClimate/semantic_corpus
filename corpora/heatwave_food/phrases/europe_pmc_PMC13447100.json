@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13447100",
+  "phrases": [
+    {
+      "phrase": "census bureau and central european",
+      "display": "Census Bureau and Central European",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rocky mountains",
+      "display": "Rocky Mountains",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nature geoscience",
+      "display": "Nature Geoscience",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ten coupled model intercomparison project",
+      "display": "Ten Coupled Model Intercomparison Project",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national water information system",
+      "display": "National Water Information System",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "methods and extended data table",
+      "display": "Methods and Extended Data Table",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shared socioeconomic pathway",
+      "display": "Shared Socioeconomic Pathway",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arch",
+      "display": "ARCH",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wt",
+      "display": "WT",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rhw",
+      "display": "RHW",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rhws",
+      "score": 0.0486,
+      "channel": "tfidf",
+      "display": "RHWs"
+    },
+    {
+      "phrase": "ahws",
+      "score": 0.0478,
+      "channel": "tfidf",
+      "display": "AHWs"
+    },
+    {
+      "phrase": "arch frequency",
+      "score": 0.0443,
+      "channel": "tfidf",
+      "display": "ARCH frequency"
+    },
+    {
+      "phrase": "data fig",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "Data Fig"
+    },
+    {
+      "phrase": "river",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "River"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

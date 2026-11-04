@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13465641",
+  "phrases": [
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 3.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el salvador",
+      "display": "El Salvador",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "costa rica",
+      "display": "Costa Rica",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mesoamerica",
+      "display": "Mesoamerica",
+      "score": 1.41,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "health",
+      "display": "Health",
+      "score": 1.25,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "one",
+      "display": "One",
+      "score": 1.25,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "disease",
+      "score": 0.0348,
+      "channel": "tfidf",
+      "display": "Disease"
+    },
+    {
+      "phrase": "mesoamerican",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "Mesoamerican"
+    },
+    {
+      "phrase": "zoonotic",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "Zoonotic"
+    },
+    {
+      "phrase": "transmission",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "Transmission"
+    },
+    {
+      "phrase": "animal",
+      "score": 0.0316,
+      "channel": "tfidf",
+      "display": "animal"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

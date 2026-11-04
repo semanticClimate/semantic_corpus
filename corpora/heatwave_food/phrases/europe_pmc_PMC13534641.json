@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13534641",
+  "phrases": [
+    {
+      "phrase": "source data",
+      "display": "Source Data",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exclusive economic zone",
+      "display": "Exclusive Economic Zone",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "solomon islands",
+      "display": "Solomon Islands",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united kingdom",
+      "display": "United Kingdom",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea around us",
+      "display": "Sea Around Us",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shared socioeconomic pathways",
+      "display": "Shared Socioeconomic Pathways",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nppx",
+      "display": "NPPX",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "npp",
+      "display": "NPP",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eez",
+      "display": "EEZ",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odds",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "Odds"
+    },
+    {
+      "phrase": "tempx",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "TempX"
+    },
+    {
+      "phrase": "extreme low",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "extreme low"
+    },
+    {
+      "phrase": "catch",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "catch"
+    },
+    {
+      "phrase": "catches",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "catches"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

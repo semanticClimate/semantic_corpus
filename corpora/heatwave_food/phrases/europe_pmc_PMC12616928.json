@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12616928",
+  "phrases": [
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "west nile",
+      "display": "West Nile",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "embedding one health and planetary health",
+      "display": "Embedding One Health and Planetary Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lactobacillus and bifidobacteria",
+      "display": "Lactobacillus and Bifidobacteria",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization carbon",
+      "display": "World Health Organization Carbon",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america and scandinavia",
+      "display": "North America and Scandinavia",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amr",
+      "display": "AMR",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ai",
+      "display": "AI",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "health",
+      "display": "Health",
+      "score": 1.07,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "microbial",
+      "score": 0.0426,
+      "channel": "tfidf",
+      "display": "Microbial"
+    },
+    {
+      "phrase": "microbiome",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "microbiome"
+    },
+    {
+      "phrase": "diseases",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "diseases"
+    },
+    {
+      "phrase": "climate",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "Climate"
+    },
+    {
+      "phrase": "gut",
+      "score": 0.0339,
+      "channel": "tfidf",
+      "display": "Gut"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13487444",
+  "phrases": [
+    {
+      "phrase": "hixson and arts",
+      "display": "Hixson and Arts",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary results",
+      "display": "Supplementary Results",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary methods",
+      "display": "Supplementary Methods",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "guschina and harwood",
+      "display": "Guschina and Harwood",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fisheries research and development corporation",
+      "display": "Fisheries Research and Development Corporation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world register of marine organisms",
+      "display": "World Register of Marine Organisms",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "web of science core collection",
+      "display": "Web of Science Core Collection",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fa",
+      "display": "FA",
+      "score": 2.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dha",
+      "display": "DHA",
+      "score": 2.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pufa",
+      "display": "PUFA",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "omega",
+      "score": 0.0504,
+      "channel": "tfidf",
+      "display": "Omega"
+    },
+    {
+      "phrase": "fas",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "FAs"
+    },
+    {
+      "phrase": "moderators",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "moderators"
+    },
+    {
+      "phrase": "primary producers",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "Primary producers"
+    },
+    {
+      "phrase": "proportions",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "proportions"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

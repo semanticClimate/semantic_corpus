@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13642211",
+  "phrases": [
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central india institute of medical sciences",
+      "display": "Central India Institute of Medical Sciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "clinical and laboratory standards institute",
+      "display": "Clinical and Laboratory Standards Institute",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "assisted laser desorption ionization time",
+      "display": "Assisted Laser Desorption Ionization Time",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institutional animal ethics committee",
+      "display": "Institutional Animal Ethics Committee",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "modified double disc synergy test",
+      "display": "Modified Double Disc Synergy Test",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institutional ethics committee",
+      "display": "Institutional Ethics Committee",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amr",
+      "display": "AMR",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mdr",
+      "display": "MDR",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "esbl",
+      "display": "ESBL",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coli",
+      "score": 0.0476,
+      "channel": "tfidf",
+      "display": "coli"
+    },
+    {
+      "phrase": "isolates",
+      "score": 0.0436,
+      "channel": "tfidf",
+      "display": "isolates"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "genes"
+    },
+    {
+      "phrase": "occurrence",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Occurrence"
+    },
+    {
+      "phrase": "resistance",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "Resistance"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13721956",
+  "phrases": [
+    {
+      "phrase": "north african",
+      "display": "North African",
+      "score": 3.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north africa",
+      "display": "North Africa",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south asian and north african",
+      "display": "South Asian and North African",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north africa and south asia",
+      "display": "North Africa and South Asia",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "late miocene",
+      "display": "Late Miocene",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sahara desert",
+      "display": "Sahara Desert",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sam",
+      "display": "SAM",
+      "score": 2.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lbm",
+      "display": "LBM",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "monsoon-desert",
+      "score": 0.0502,
+      "channel": "tfidf",
+      "display": "monsoon-desert"
+    },
+    {
+      "phrase": "africa",
+      "score": 0.0479,
+      "channel": "tfidf",
+      "display": "Africa"
+    },
+    {
+      "phrase": "african",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "African"
+    },
+    {
+      "phrase": "monsoon-desert teleconnection",
+      "score": 0.0448,
+      "channel": "tfidf",
+      "display": "monsoon-desert teleconnection"
+    },
+    {
+      "phrase": "cenozoic",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "Cenozoic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

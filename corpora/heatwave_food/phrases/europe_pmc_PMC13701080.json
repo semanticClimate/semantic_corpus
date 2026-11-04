@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13701080",
+  "phrases": [
+    {
+      "phrase": "british columbia",
+      "display": "British Columbia",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scale heatwave exposure",
+      "display": "Scale Heatwave Exposure",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united nations children",
+      "display": "United Nations Children",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dissemination area",
+      "display": "Dissemination Area",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "canadian downscaled climate scenarios",
+      "display": "Canadian Downscaled Climate Scenarios",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vancouver and montreal",
+      "display": "Vancouver and Montreal",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lhe",
+      "display": "LHE",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "da",
+      "display": "DA",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "canada",
+      "display": "Canada",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "children",
+      "score": 0.0415,
+      "channel": "tfidf",
+      "display": "Children"
+    },
+    {
+      "phrase": "lifetime",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "Lifetime"
+    },
+    {
+      "phrase": "hwmid",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "HWMId"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

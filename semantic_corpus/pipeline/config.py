@@ -28,7 +28,7 @@ ENV_PLACEHOLDER = "PIPELINE_PLACEHOLDER"
 
 DEFAULT_WORKDIR = "temp/pipeline_demo"
 DEFAULT_FROM = "existing"
-DEFAULT_LIMIT = 50
+DEFAULT_LIMIT = 20
 DEFAULT_REPOSITORY = "europe_pmc"
 DEFAULT_PHRASE_METHOD = "tfidf"
 DEFAULT_PHRASE_N = 3
@@ -41,9 +41,10 @@ DEFAULT_ENCYCLOPEDIA_MIN_SCORE = 0.0
 DEFAULT_ENCYCLOPEDIA_MIN_PAPER_COUNT = 1
 DEFAULT_ENCYCLOPEDIA_SOURCE = "auto"
 DEFAULT_KG_MAX_ISLAND = 20
-DEFAULT_KG_MAX_TERMS = 50
+DEFAULT_KG_MAX_TERMS = 40
 DEFAULT_KG_MIN_PAPER_COUNT = 2
-DEFAULT_KG_LINKS = "clusters,wikipedia,wikidata"
+DEFAULT_KG_LINKS = "clusters"
+DEFAULT_KG_OPEN = True
 KG_LINK_CHOICES: Tuple[str, ...] = ("clusters", "wikipedia", "wikidata")
 ENCYCLOPEDIA_SOURCE_CHOICES: Tuple[str, ...] = ("auto", "clusters", "phrases")
 
@@ -82,6 +83,7 @@ class PipelineOptions:
     kg_max_terms: int = DEFAULT_KG_MAX_TERMS
     kg_min_paper_count: int = DEFAULT_KG_MIN_PAPER_COUNT
     kg_links: str = DEFAULT_KG_LINKS
+    kg_open: bool = DEFAULT_KG_OPEN
 
     def __post_init__(self) -> None:
         if self.from_mode not in FROM_MODES:

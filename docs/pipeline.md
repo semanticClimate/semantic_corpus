@@ -1,8 +1,9 @@
 # Pipeline CLI (`pipeline`)
 
 **Date:** 2026-11-03  
-**Status:** CLI + doit orchestration live; **`query` / `corpus` / `phrases` / `clusters` / `encyclopedia` are real**; `pdfs` / `clean` / `kg` / `--source` still placeholders or partial.  
-**Next:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md) (step definition) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)  
+**Status:** CLI + doit orchestration live; **`query` / `corpus` / `phrases` / `clusters` / `encyclopedia` / `kg` are real**; `pdfs` / `clean` / `--source` still placeholders or partial.  
+**Tutorial:** [tutorials/kg_from_query.md](tutorials/kg_from_query.md) — one command from search → papers↔terms graph.  
+**Next:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)  
 **Related:** [pipeline_design.md](pipeline_design.md) · [pipeline_make_doit.md](pipeline_make_doit.md) · [cluster_filtering_workflow.md](cluster_filtering_workflow.md)
 
 Install:
@@ -64,8 +65,8 @@ pipeline --workdir corpora/amoc_insolation_20 \
 | `pdfs` | Fill PDFs into the bag | Placeholder (API exists: `update_bagit_formats`) |
 | `clusters` | BKG + Louvain → `clusters/` | Real (`step3`) |
 | `clean` | FP paper/term cleaning | Placeholder |
-| `encyclopedia` | Wiki / Wikidata pages | Placeholder |
-| `kg` | Linked graph + islands | Placeholder |
+| `encyclopedia` | Wiki / Wikidata pages | Real (`cluster_review.encyclopedia`) |
+| `kg` | Papers↔terms graph + HTML | Real (`cluster_review.kg`) |
 
 **`corpus` (not `bagit` as a step name).** BagIt remains the **on-disk format** (`bagit.txt`). The pipeline step is named `corpus` because `query` / `--source` must put material somewhere; packaging is part of producing that corpus, not a separate product idea.
 
@@ -148,7 +149,7 @@ Note: even with `--always`, the downloader may still reuse XMLs already present 
 | Flag | Role | Default |
 |------|------|---------|
 | `--query` / `-q` | Search string | *(required for search)* |
-| `--limit` / `-n` | Max hits | `50` |
+| `--limit` / `-n` | Max hits | `20` |
 | `--repository` | Adapter | `europe_pmc` |
 
 ### Phrases
@@ -172,15 +173,15 @@ Note: even with `--always`, the downloader may still reuse XMLs already present 
 |------|------|---------|
 | `--encyclopedia-lang` | Wikipedia language | `en` |
 | `--max-entries` | Cap phrases resolved for encyclopedia | `100` |
-| `--kg-links` | Edge generators: `clusters`, `wikipedia`, `wikidata` | `clusters,wikipedia,wikidata` |
+| `--kg-links` | Edge generators: `clusters`, `wikipedia`, `wikidata` | `clusters` |
 | `--kg-max-island` | Island size hint threshold for clean feedback | `20` |
 | `--kg-min-paper-count` | Min `n_papers` (phrases_terms) for a term node | `2` |
-| `--kg-max-terms` | Cap term nodes after ranking by `n_papers` | `50` |
+| `--kg-max-terms` | Cap term nodes after ranking by `n_papers` | `40` |
+| `--open` / `--no-open` | Open `knowledge_graph.html` after kg | on |
 
 ```bash
-# After clusters — interactive KG HTML (filtered terms)
-pipeline kg --workdir corpora/amoc_insolation_20 \
-  --kg-links clusters,wikipedia --kg-min-paper-count 2 --kg-max-terms 40 --open
+# After clusters — interactive KG HTML (defaults filter + open browser)
+pipeline kg --workdir corpora/amoc_insolation_20
 ```
 
 Detail: [pipeline_encyclopedia.md](pipeline_encyclopedia.md) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md).
@@ -258,12 +259,9 @@ Short version:
 2. **`kg`** — edges from `--kg-links` (`clusters` \| `wikipedia` \| `wikidata`); display + islands → `clean`.
 
 ```bash
-# once wired
-pipeline --workdir corpora/amoc_insolation_20 \
-  --encyclopedia-lang en --max-entries 50 \
-  --target encyclopedia
-
-pipeline --workdir corpora/amoc_insolation_20 \
-  --kg-links clusters,wikipedia,wikidata \
-  --target kg
+# From scratch → interactive papers↔terms graph (see tutorials/kg_from_query.md)
+pipeline --workdir corpora/amoc_demo \
+  --query "amoc AND insolation" --target kg
+# defaults: --limit 20 --kg-links clusters --kg-min-paper-count 2
+#           --kg-max-terms 40 --open
 ```

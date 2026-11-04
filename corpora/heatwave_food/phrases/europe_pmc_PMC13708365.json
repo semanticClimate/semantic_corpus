@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13708365",
+  "phrases": [
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific northwest",
+      "display": "Pacific Northwest",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "although the world organization for animal health",
+      "display": "Although the World Organization for Animal Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "manual of bacteriological analysis",
+      "display": "Manual of Bacteriological Analysis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aquaculture pathology laboratory",
+      "display": "Aquaculture Pathology Laboratory",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sustainable development goals",
+      "display": "Sustainable Development Goals",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ahpnd",
+      "display": "AHPND",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tdh",
+      "display": "TDH",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "trh",
+      "display": "TRH",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "parahaemolyticus",
+      "score": 0.0479,
+      "channel": "tfidf",
+      "display": "parahaemolyticus"
+    },
+    {
+      "phrase": "shrimp",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "Shrimp"
+    },
+    {
+      "phrase": "isolates",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "isolates"
+    },
+    {
+      "phrase": "o3 k6",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "o3 k6"
+    },
+    {
+      "phrase": "pathogen",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "pathogen"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

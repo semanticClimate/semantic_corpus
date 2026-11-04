@@ -1,0 +1,33 @@
+{
+  "max_island": 20,
+  "island_count": 2,
+  "islands": [
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC12616928",
+        "paper:europe_pmc_PMC13708365",
+        "term:climate",
+        "term:health",
+        "term:one health",
+        "term:united states"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC13219836",
+        "paper:europe_pmc_PMC13688465",
+        "term:british columbia"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13488029",
+  "phrases": [
+    {
+      "phrase": "saharan africa",
+      "display": "Saharan Africa",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south asia",
+      "display": "South Asia",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western sub",
+      "display": "Western Sub",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern europe",
+      "display": "Eastern Europe",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western europe",
+      "display": "Western Europe",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "middle east",
+      "display": "Middle East",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north africa and middle east",
+      "display": "North Africa and Middle East",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ui",
+      "display": "UI",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "africa",
+      "display": "Africa",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asia",
+      "display": "Asia",
+      "score": 1.25,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heatwave-related deaths",
+      "score": 0.0463,
+      "channel": "tfidf",
+      "display": "Heatwave-related deaths"
+    },
+    {
+      "phrase": "heatwave-related",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "Heatwave-related"
+    },
+    {
+      "phrase": "scenarios",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "scenarios"
+    },
+    {
+      "phrase": "heatwave",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Heatwave"
+    },
+    {
+      "phrase": "projections",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Projections"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

@@ -1,0 +1,282 @@
+phrase,display,n_papers,best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake,best_score,score_channel,paper_ids
+one health,One Health,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC12616928;europe_pmc_PMC12822599;europe_pmc_PMC13708365
+british columbia,British Columbia,3,1.8,3,,0,,0,1.8,uppercase,europe_pmc_PMC13219836;europe_pmc_PMC13688465;europe_pmc_PMC13701080
+bering sea,Bering Sea,2,2.7,2,,0,,0,2.7,uppercase,europe_pmc_PMC12675643;europe_pmc_PMC13219836
+pufa,PUFA,2,1.74,2,,0,,0,1.74,uppercase,europe_pmc_PMC12565726;europe_pmc_PMC13487444
+pacific,Pacific,2,1.53,2,,0,,0,1.53,uppercase,europe_pmc_PMC12675643;europe_pmc_PMC13688465
+australia,Australia,2,1.52,2,,0,,0,1.52,uppercase,europe_pmc_PMC12565726;europe_pmc_PMC12822599
+world health organization,World Health Organization,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC12822599;europe_pmc_PMC13701080
+shared socioeconomic pathways,Shared Socioeconomic Pathways,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC12775141;europe_pmc_PMC13534641
+united states,United States,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC13680218;europe_pmc_PMC13708365
+australian,Australian,2,1.2,1,0.0429,1,,0,1.2,uppercase,europe_pmc_PMC12565726;europe_pmc_PMC12822599
+china,China,2,1.19,2,,0,,0,1.19,uppercase,europe_pmc_PMC13223088;europe_pmc_PMC13680218
+health,Health,2,1.07,1,0.0697,1,,0,1.07,uppercase,europe_pmc_PMC12616928;europe_pmc_PMC13345226
+river,River,2,,0,0.0566,2,,0,0.0566,tfidf,europe_pmc_PMC12775141;europe_pmc_PMC13447100
+al,al,2,,0,0.0456,2,,0,0.0456,tfidf,europe_pmc_PMC12274789;europe_pmc_PMC13701080
+et,et,2,,0,0.0456,2,,0,0.0456,tfidf,europe_pmc_PMC12274789;europe_pmc_PMC13701080
+heat,Heat,2,,0,0.0375,2,,0,0.0375,tfidf,europe_pmc_PMC13508924;europe_pmc_PMC13536121
+climate,Climate,2,,0,0.0344,2,,0,0.0344,tfidf,europe_pmc_PMC12616928;europe_pmc_PMC13170430
+north pacific,North Pacific,1,3.7,1,,0,,0,3.7,uppercase,europe_pmc_PMC12675643
+fa,FA,1,2.86,1,,0,,0,2.86,uppercase,europe_pmc_PMC13487444
+south australia,South Australia,1,2.8,1,,0,,0,2.8,uppercase,europe_pmc_PMC12822599
+ecological environment code,Ecological Environment Code,1,2.5,1,,0,,0,2.5,uppercase,europe_pmc_PMC13223088
+south australian,South Australian,1,2.4,1,,0,,0,2.4,uppercase,europe_pmc_PMC12822599
+arch,ARCH,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13447100
+okhotsk sea,Okhotsk Sea,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC12675643
+dha,DHA,1,2.08,1,,0,,0,2.08,uppercase,europe_pmc_PMC13487444
+source data,Source Data,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13534641
+at,AT,1,1.96,1,,0,,0,1.96,uppercase,europe_pmc_PMC11328060
+egm,EGM,1,1.94,1,,0,,0,1.94,uppercase,europe_pmc_PMC13170430
+government of south australia,Government of South Australia,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC12822599
+hixson and arts,Hixson and Arts,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13487444
+hw,HW,1,1.88,1,,0,,0,1.88,uppercase,europe_pmc_PMC11328060
+nppx,NPPX,1,1.86,1,,0,,0,1.86,uppercase,europe_pmc_PMC13534641
+rcp,RCP,1,1.82,1,,0,,0,1.82,uppercase,europe_pmc_PMC12775141
+supplementary results,Supplementary Results,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13487444
+wt,WT,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13447100
+lhe,LHE,1,1.78,1,,0,,0,1.78,uppercase,europe_pmc_PMC13701080
+npp,NPP,1,1.72,1,,0,,0,1.72,uppercase,europe_pmc_PMC13534641
+new south wales,New South Wales,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12565726
+saharan africa,Saharan Africa,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13170430
+supplementary methods,Supplementary Methods,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13487444
+hab,HAB,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12822599
+ctr,CTR,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11328060
+da,DA,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13701080
+latin america,Latin America,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13345226
+rhw,RHW,1,1.58,1,,0,,0,1.58,uppercase,europe_pmc_PMC13447100
+eez,EEZ,1,1.52,1,,0,,0,1.52,uppercase,europe_pmc_PMC13534641
+cab abstract,Cab Abstract,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13170430
+census bureau and central european,Census Bureau and Central European,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13447100
+natural earth,Natural Earth,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12775141
+supreme people,Supreme People,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13223088
+south,South,1,1.47,1,,0,,0,1.47,uppercase,europe_pmc_PMC12822599
+sea,Sea,1,1.41,1,,0,,0,1.41,uppercase,europe_pmc_PMC12675643
+bc,BC,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13219836
+gulf of alaska,Gulf of Alaska,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12675643
+new zealand,New Zealand,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12565726
+odei obeng,Odei Obeng,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13170430
+rocky mountains,Rocky Mountains,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13447100
+senate standing committees on environment and communications,Senate Standing Committees on Environment and Communications,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12822599
+ssa,SSA,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13170430
+supplemental figure,Supplemental Figure,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13219836
+vibrio,Vibrio,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12274789
+north,North,1,1.37,1,,0,,0,1.37,uppercase,europe_pmc_PMC12675643
+ahpnd,AHPND,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC13708365
+mapk,MAPK,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC13508924
+tdh,TDH,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC13708365
+fxr,FXR,1,1.32,1,,0,,0,1.32,uppercase,europe_pmc_PMC13508924
+nf,NF,1,1.32,1,,0,,0,1.32,uppercase,europe_pmc_PMC13508924
+africa climate portal,Africa Climate Portal,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13170430
+african journals online,African Journals Online,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13170430
+department of primary industries and regional development,Department of Primary Industries and Regional Development,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12822599
+dissemination area,Dissemination Area,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13701080
+environmental protection law,Environmental Protection Law,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13223088
+exclusive economic zone,Exclusive Economic Zone,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13534641
+indian ocean,Indian Ocean,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13534641
+north pacific ocean,North Pacific Ocean,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12675643
+northeast pacific,Northeast Pacific,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13219836
+okhotsk sea and bering sea,Okhotsk Sea and Bering Sea,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12675643
+phase genomics,Phase Genomics,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13219836
+quality of life brief,Quality of Life Brief,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13536121
+regional environmental change portal,Regional Environmental Change Portal,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13170430
+scale heatwave exposure,Scale Heatwave Exposure,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13701080
+sea around us,Sea Around Us,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13534641
+social science research network,Social Science Research Network,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13170430
+solomon islands,Solomon Islands,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13534641
+sousa lda,Sousa Lda,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11328060
+south wales,South Wales,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12565726
+trh,TRH,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13708365
+united kingdom,United Kingdom,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13534641
+united nations children,United Nations Children,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13701080
+west nile,West Nile,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12616928
+amr,AMR,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC12616928
+canada,Canada,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC13701080
+se,SE,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC12274789
+aleutian islands,Aleutian Islands,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13219836
+amplicon sequence variants,Amplicon Sequence Variants,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12274789
+brisbane water,Brisbane Water,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12274789
+bureau of meteorology,Bureau of Meteorology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12274789
+canadian downscaled climate scenarios,Canadian Downscaled Climate Scenarios,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13701080
+central america,Central America,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13345226
+central bering sea,Central Bering Sea,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12675643
+congo and amazon,Congo and Amazon,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12775141
+de lorgeril,De Lorgeril,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12274789
+environmental requirements of five native brown algae species,Environmental Requirements of Five Native Brown Algae Species,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12565726
+faial island,Faial Island,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11328060
+guschina and harwood,Guschina and Harwood,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13487444
+hong kong,Hong Kong,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13508924
+ks,KS,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13219836
+lancet countdown,Lancet Countdown,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13223088
+mediterranean sea,Mediterranean Sea,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11328060
+monounsaturated fatty acids,Monounsaturated Fatty Acids,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12565726
+nature geoscience,Nature Geoscience,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13447100
+pacific northwest,Pacific Northwest,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13708365
+pashto and urdu,Pashto and Urdu,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13536121
+polyunsaturated fatty acids,Polyunsaturated Fatty Acids,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12565726
+proximo hi,Proximo Hi,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13219836
+representative concentration pathways,Representative Concentration Pathways,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12775141
+sabin center climate change litigation database,Sabin Center Climate Change Litigation Database,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13223088
+south america,South America,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13345226
+southern hemisphere,Southern Hemisphere,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12775141
+southern oscillation,Southern Oscillation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13345226
+tasmanian and victorian,Tasmanian and Victorian,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12565726
+thermo fisher scientific,Thermo Fisher Scientific,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11328060
+universal thermal climate index,Universal Thermal Climate Index,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13536121
+vancouver and montreal,Vancouver and Montreal,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13701080
+code,Code,1,1.19,1,,0,,0,1.19,uppercase,europe_pmc_PMC13223088
+glmm,GLMM,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC12274789
+environment,Environment,1,1.17,1,,0,,0,1.17,uppercase,europe_pmc_PMC13223088
+section,Section,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC13536121
+dna,DNA,1,1.14,1,,0,,0,1.14,uppercase,europe_pmc_PMC13219836
+icc,ICC,1,1.14,1,,0,,0,1.14,uppercase,europe_pmc_PMC13536121
+ai,AI,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC12616928
+fg,FG,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC13688465
+ipcc,IPCC,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC13170430
+mm,MM,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC13688465
+congo,Congo,1,1.11,1,,0,,0,1.11,uppercase,europe_pmc_PMC12775141
+activated akt,Activated Akt,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13508924
+although the world organization for animal health,Although the World Organization for Animal Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13708365
+america,America,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13345226
+andean and southern cone,Andean and Southern Cone,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13345226
+aquaculture pathology laboratory,Aquaculture Pathology Laboratory,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13708365
+australian genome research facility,Australian Genome Research Facility,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12274789
+british columbia and argentina,British Columbia and Argentina,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13688465
+by lyapunov,By Lyapunov,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13680218
+candidatus hepatoplasma and marinifilum,Candidatus Hepatoplasma and Marinifilum,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13508924
+climate prediction center,Climate Prediction Center,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13345226
+combining equations,Combining Equations,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13680218
+constrained analysis of principal coordinates,Constrained Analysis of Principal Coordinates,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12274789
+court interpretation on several issues concerning the application of law,Court Interpretation on Several Issues Concerning the Application of Law,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13223088
+embedding one health and planetary health,Embedding One Health and Planetary Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12616928
+ethical review committee of aga khan university,Ethical Review Committee of Aga Khan University,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13536121
+federation of european laboratory animal science associations,Federation of European Laboratory Animal Science Associations,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11328060
+fisheries research and development corporation,Fisheries Research and Development Corporation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13487444
+foshan weinuo refrigeration equipment co,Foshan Weinuo Refrigeration Equipment Co,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11328060
+fourier transform infrared spectroscopy,Fourier Transform Infrared Spectroscopy,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13688465
+general for food and veterinary,General for Food and Veterinary,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11328060
+google scholar,Google Scholar,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13508924
+household dietary diversity and source assessment module,Household Dietary Diversity and Source Assessment Module,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13536121
+household food insecurity experience scale section,Household Food Insecurity Experience Scale Section,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13536121
+intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12616928
+lactobacillus and bifidobacteria,Lactobacillus and Bifidobacteria,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12616928
+manual of bacteriological analysis,Manual of Bacteriological Analysis,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13708365
+methods and extended data table,Methods and Extended Data Table,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447100
+national water information system,National Water Information System,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447100
+north america and scandinavia,North America and Scandinavia,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12616928
+nuclear magnetic resonance spectroscopy,Nuclear Magnetic Resonance Spectroscopy,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13688465
+precautionary principle,Precautionary Principle,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13345226
+response surface methodology,Response Surface Methodology,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13688465
+rhodobacteraceae and cyanobacteraceae,Rhodobacteraceae and Cyanobacteraceae,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12274789
+rhodococcus and morganella,Rhodococcus and Morganella,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13508924
+sanggou bay,Sanggou Bay,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13680218
+sectoral impact model intercomparison project,Sectoral Impact Model Intercomparison Project,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12775141
+shandong peninsula,Shandong Peninsula,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13680218
+shared socioeconomic pathway,Shared Socioeconomic Pathway,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447100
+southern california and baja california,Southern California and Baja California,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13688465
+structural heat adaptation and education in rural settings,Structural Heat Adaptation and Education in Rural Settings,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13536121
+supplementary information transparent peer review,Supplementary Information Transparent Peer Review,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12775141
+sustainable development goals,Sustainable Development Goals,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13708365
+ten coupled model intercomparison project,Ten Coupled Model Intercomparison Project,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447100
+trial of environmental civil public interest litigation cases,Trial of Environmental Civil Public Interest Litigation Cases,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13223088
+use plastics directive,Use Plastics Directive,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13680218
+web of science,Web of Science,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13508924
+web of science core collection,Web of Science Core Collection,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13487444
+wiley online library,Wiley Online Library,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13508924
+within the northeast pacific,Within the Northeast Pacific,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13688465
+world health organization carbon,World Health Organization Carbon,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12616928
+world register of marine organisms,World Register of Marine Organisms,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13487444
+xiangshan bay,Xiangshan Bay,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13680218
+rehab,ReHAB,1,1.09,1,,0,,0,1.09,uppercase,europe_pmc_PMC13536121
+amazon,Amazon,1,1.08,1,,0,,0,1.08,uppercase,europe_pmc_PMC12775141
+enso,ENSO,1,1.08,1,,0,,0,1.08,uppercase,europe_pmc_PMC13345226
+latin,Latin,1,1.06,1,,0,,0,1.06,uppercase,europe_pmc_PMC13345226
+eps,EPS,1,1.04,1,,0,,0,1.04,uppercase,europe_pmc_PMC13680218
+bay,Bay,1,1.02,1,,0,,0,1.02,uppercase,europe_pmc_PMC13680218
+el,El,1,,0,0.0827,1,,0,0.0827,tfidf,europe_pmc_PMC13345226
+pallasii,pallasii,1,,0,0.0695,1,,0,0.0695,tfidf,europe_pmc_PMC13219836
+harengus,harengus,1,,0,0.062,1,,0,0.062,tfidf,europe_pmc_PMC13219836
+assembly,assembly,1,,0,0.0602,1,,0,0.0602,tfidf,europe_pmc_PMC13219836
+genome,Genome,1,,0,0.058,1,,0,0.058,tfidf,europe_pmc_PMC13219836
+clupea,Clupea,1,,0,0.0577,1,,0,0.0577,tfidf,europe_pmc_PMC13219836
+river heatwaves,River heatwaves,1,,0,0.0551,1,,0,0.0551,tfidf,europe_pmc_PMC12775141
+litigation,Litigation,1,,0,0.0549,1,,0,0.0549,tfidf,europe_pmc_PMC13223088
+chum,Chum,1,,0,0.0548,1,,0,0.0548,tfidf,europe_pmc_PMC12675643
+forecasting,Forecasting,1,,0,0.0547,1,,0,0.0547,tfidf,europe_pmc_PMC13345226
+chum salmon,Chum salmon,1,,0,0.0545,1,,0,0.0545,tfidf,europe_pmc_PMC12675643
+tiles,Tiles,1,,0,0.0536,1,,0,0.0536,tfidf,europe_pmc_PMC12274789
+public litigation,public litigation,1,,0,0.0523,1,,0,0.0523,tfidf,europe_pmc_PMC13223088
+action,action,1,,0,0.0513,1,,0,0.0513,tfidf,europe_pmc_PMC13345226
+el related,el related,1,,0,0.0511,1,,0,0.0511,tfidf,europe_pmc_PMC13345226
+civil public,Civil Public,1,,0,0.0509,1,,0,0.0509,tfidf,europe_pmc_PMC13223088
+civil public litigation,civil public litigation,1,,0,0.0509,1,,0,0.0509,tfidf,europe_pmc_PMC13223088
+omega,Omega,1,,0,0.0504,1,,0,0.0504,tfidf,europe_pmc_PMC13487444
+rhws,RHWs,1,,0,0.0486,1,,0,0.0486,tfidf,europe_pmc_PMC13447100
+alginate,Alginate,1,,0,0.0483,1,,0,0.0483,tfidf,europe_pmc_PMC13688465
+parahaemolyticus,parahaemolyticus,1,,0,0.0479,1,,0,0.0479,tfidf,europe_pmc_PMC13708365
+ahws,AHWs,1,,0,0.0478,1,,0,0.0478,tfidf,europe_pmc_PMC13447100
+taxiformis,taxiformis,1,,0,0.0469,1,,0,0.0469,tfidf,europe_pmc_PMC11328060
+climate civil,climate civil,1,,0,0.0467,1,,0,0.0467,tfidf,europe_pmc_PMC13223088
+river heatwave,River heatwave,1,,0,0.0465,1,,0,0.0465,tfidf,europe_pmc_PMC12775141
+oyster,Oyster,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC12274789
+oysters,Oysters,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC12274789
+salmon,Salmon,1,,0,0.0452,1,,0,0.0452,tfidf,europe_pmc_PMC12675643
+arch frequency,ARCH frequency,1,,0,0.0443,1,,0,0.0443,tfidf,europe_pmc_PMC13447100
+habs,HABs,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC12822599
+data fig,Data Fig,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13447100
+odds,Odds,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13534641
+microbial,Microbial,1,,0,0.0426,1,,0,0.0426,tfidf,europe_pmc_PMC12616928
+molar,Molar,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC13688465
+molar mass,Molar mass,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC13688465
+policies,Policies,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC12822599
+tempx,TempX,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13534641
+microplastic,Microplastic,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC13680218
+shrimp,Shrimp,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC13708365
+children,Children,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC13701080
+intervention,Intervention,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC13536121
+brown algae,Brown Algae,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12565726
+devices,devices,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC13536121
+rivers,Rivers,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12775141
+population exposure,Population exposure,1,,0,0.0409,1,,0,0.0409,tfidf,europe_pmc_PMC12775141
+fas,FAs,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13487444
+brown,Brown,1,,0,0.0407,1,,0,0.0407,tfidf,europe_pmc_PMC12565726
+extreme low,extreme low,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13534641
+biosecurity,Biosecurity,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC12822599
+moderators,moderators,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC13487444
+kelp,Kelp,1,,0,0.04,1,,0,0.04,tfidf,europe_pmc_PMC13688465
+catch,catch,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13534641
+hwmid,HWMId,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13701080
+lifetime,Lifetime,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13701080
+chum salmon habitat,chum salmon habitat,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC12675643
+salmon habitat,salmon habitat,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC12675643
+potatorum,potatorum,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12565726
+household,Household,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC13536121
+at-hw,AT-HW,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC11328060
+luetkeana,luetkeana,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC13688465
+payoff,Payoff,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC13680218
+policy,Policy,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC12822599
+radiata,radiata,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC12565726
+primary producers,Primary producers,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13487444
+proportions,proportions,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13487444
+cluster,cluster,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13536121
+marine ranching,Marine ranching,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13680218
+ranching,ranching,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13680218
+signaling,signaling,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13508924
+catches,catches,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC13534641
+seaweed,Seaweed,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC12565726
+enterprises,Enterprises,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13680218
+microbiome,microbiome,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC12616928
+heat stress,Heat stress,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC13508924
+isolates,isolates,1,,0,0.0371,1,,0,0.0371,tfidf,europe_pmc_PMC13708365
+exposed heatwave,exposed heatwave,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC11328060
+sargus,sargus,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC11328060
+diet containing,diet containing,1,,0,0.0363,1,,0,0.0363,tfidf,europe_pmc_PMC11328060
+stress,stress,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC13508924
+diseases,diseases,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC12616928
+o3 k6,o3 k6,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC13708365
+activation,Activation,1,,0,0.0343,1,,0,0.0343,tfidf,europe_pmc_PMC13508924
+pathogen,pathogen,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC13708365
+interventions,Interventions,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC13170430
+gut,Gut,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC12616928
+change adaptation,change adaptation,1,,0,0.0334,1,,0,0.0334,tfidf,europe_pmc_PMC13170430
+climate change adaptation,Climate change adaptation,1,,0,0.0334,1,,0,0.0334,tfidf,europe_pmc_PMC13170430
+papers,Papers,1,,0,0.0333,1,,0,0.0333,tfidf,europe_pmc_PMC13170430

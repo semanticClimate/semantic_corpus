@@ -1,0 +1,301 @@
+paper_id,rank,phrase,display,score,channel,source
+europe_pmc_PMC11328060,1,sousa lda,Sousa Lda,1.3,uppercase,extracted
+europe_pmc_PMC11328060,2,thermo fisher scientific,Thermo Fisher Scientific,1.2,uppercase,extracted
+europe_pmc_PMC11328060,3,mediterranean sea,Mediterranean Sea,1.2,uppercase,extracted
+europe_pmc_PMC11328060,4,faial island,Faial Island,1.2,uppercase,extracted
+europe_pmc_PMC11328060,5,federation of european laboratory animal science associations,Federation of European Laboratory Animal Science Associations,1.1,uppercase,extracted
+europe_pmc_PMC11328060,6,foshan weinuo refrigeration equipment co,Foshan Weinuo Refrigeration Equipment Co,1.1,uppercase,extracted
+europe_pmc_PMC11328060,7,general for food and veterinary,General for Food and Veterinary,1.1,uppercase,extracted
+europe_pmc_PMC11328060,8,at,AT,1.96,uppercase,extracted
+europe_pmc_PMC11328060,9,hw,HW,1.88,uppercase,extracted
+europe_pmc_PMC11328060,10,ctr,CTR,1.6,uppercase,extracted
+europe_pmc_PMC11328060,11,taxiformis,taxiformis,0.0469,tfidf,extracted
+europe_pmc_PMC11328060,12,at-hw,AT-HW,0.0395,tfidf,extracted
+europe_pmc_PMC11328060,13,sargus,sargus,0.0367,tfidf,extracted
+europe_pmc_PMC11328060,14,exposed heatwave,exposed heatwave,0.0367,tfidf,extracted
+europe_pmc_PMC11328060,15,diet containing,diet containing,0.0363,tfidf,extracted
+europe_pmc_PMC12274789,1,amplicon sequence variants,Amplicon Sequence Variants,1.2,uppercase,extracted
+europe_pmc_PMC12274789,2,bureau of meteorology,Bureau of Meteorology,1.2,uppercase,extracted
+europe_pmc_PMC12274789,3,brisbane water,Brisbane Water,1.2,uppercase,extracted
+europe_pmc_PMC12274789,4,de lorgeril,De Lorgeril,1.2,uppercase,extracted
+europe_pmc_PMC12274789,5,constrained analysis of principal coordinates,Constrained Analysis of Principal Coordinates,1.1,uppercase,extracted
+europe_pmc_PMC12274789,6,rhodobacteraceae and cyanobacteraceae,Rhodobacteraceae and Cyanobacteraceae,1.1,uppercase,extracted
+europe_pmc_PMC12274789,7,australian genome research facility,Australian Genome Research Facility,1.1,uppercase,extracted
+europe_pmc_PMC12274789,8,vibrio,Vibrio,1.4,uppercase,extracted
+europe_pmc_PMC12274789,9,se,SE,1.26,uppercase,extracted
+europe_pmc_PMC12274789,10,glmm,GLMM,1.18,uppercase,extracted
+europe_pmc_PMC12274789,11,tiles,Tiles,0.0536,tfidf,extracted
+europe_pmc_PMC12274789,12,oyster,Oyster,0.0458,tfidf,extracted
+europe_pmc_PMC12274789,13,et,et,0.0456,tfidf,extracted
+europe_pmc_PMC12274789,14,al,al,0.0456,tfidf,extracted
+europe_pmc_PMC12274789,15,oysters,Oysters,0.0456,tfidf,extracted
+europe_pmc_PMC12565726,1,new south wales,New South Wales,1.7,uppercase,extracted
+europe_pmc_PMC12565726,2,new zealand,New Zealand,1.4,uppercase,extracted
+europe_pmc_PMC12565726,3,south wales,South Wales,1.3,uppercase,extracted
+europe_pmc_PMC12565726,4,environmental requirements of five native brown algae species,Environmental Requirements of Five Native Brown Algae Species,1.2,uppercase,extracted
+europe_pmc_PMC12565726,5,monounsaturated fatty acids,Monounsaturated Fatty Acids,1.2,uppercase,extracted
+europe_pmc_PMC12565726,6,polyunsaturated fatty acids,Polyunsaturated Fatty Acids,1.2,uppercase,extracted
+europe_pmc_PMC12565726,7,tasmanian and victorian,Tasmanian and Victorian,1.2,uppercase,extracted
+europe_pmc_PMC12565726,8,australia,Australia,1.27,uppercase,extracted
+europe_pmc_PMC12565726,9,australian,Australian,1.2,uppercase,extracted
+europe_pmc_PMC12565726,10,pufa,PUFA,1.2,uppercase,extracted
+europe_pmc_PMC12565726,11,brown algae,Brown Algae,0.0413,tfidf,extracted
+europe_pmc_PMC12565726,12,brown,Brown,0.0407,tfidf,extracted
+europe_pmc_PMC12565726,13,potatorum,potatorum,0.0397,tfidf,extracted
+europe_pmc_PMC12565726,14,radiata,radiata,0.039,tfidf,extracted
+europe_pmc_PMC12565726,15,seaweed,Seaweed,0.0382,tfidf,extracted
+europe_pmc_PMC12616928,1,one health,One Health,1.3,uppercase,extracted
+europe_pmc_PMC12616928,2,west nile,West Nile,1.3,uppercase,extracted
+europe_pmc_PMC12616928,3,embedding one health and planetary health,Embedding One Health and Planetary Health,1.1,uppercase,extracted
+europe_pmc_PMC12616928,4,intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1.1,uppercase,extracted
+europe_pmc_PMC12616928,5,lactobacillus and bifidobacteria,Lactobacillus and Bifidobacteria,1.1,uppercase,extracted
+europe_pmc_PMC12616928,6,world health organization carbon,World Health Organization Carbon,1.1,uppercase,extracted
+europe_pmc_PMC12616928,7,north america and scandinavia,North America and Scandinavia,1.1,uppercase,extracted
+europe_pmc_PMC12616928,8,amr,AMR,1.28,uppercase,extracted
+europe_pmc_PMC12616928,9,ai,AI,1.12,uppercase,extracted
+europe_pmc_PMC12616928,10,health,Health,1.07,uppercase,extracted
+europe_pmc_PMC12616928,11,microbial,Microbial,0.0426,tfidf,extracted
+europe_pmc_PMC12616928,12,microbiome,microbiome,0.0379,tfidf,extracted
+europe_pmc_PMC12616928,13,diseases,diseases,0.0347,tfidf,extracted
+europe_pmc_PMC12616928,14,climate,Climate,0.0344,tfidf,extracted
+europe_pmc_PMC12616928,15,gut,Gut,0.0339,tfidf,extracted
+europe_pmc_PMC12675643,1,north pacific,North Pacific,3.7,uppercase,extracted
+europe_pmc_PMC12675643,2,bering sea,Bering Sea,2.7,uppercase,extracted
+europe_pmc_PMC12675643,3,okhotsk sea,Okhotsk Sea,2.1,uppercase,extracted
+europe_pmc_PMC12675643,4,gulf of alaska,Gulf of Alaska,1.4,uppercase,extracted
+europe_pmc_PMC12675643,5,okhotsk sea and bering sea,Okhotsk Sea and Bering Sea,1.3,uppercase,extracted
+europe_pmc_PMC12675643,6,north pacific ocean,North Pacific Ocean,1.3,uppercase,extracted
+europe_pmc_PMC12675643,7,central bering sea,Central Bering Sea,1.2,uppercase,extracted
+europe_pmc_PMC12675643,8,pacific,Pacific,1.53,uppercase,extracted
+europe_pmc_PMC12675643,9,sea,Sea,1.41,uppercase,extracted
+europe_pmc_PMC12675643,10,north,North,1.37,uppercase,extracted
+europe_pmc_PMC12675643,11,chum,Chum,0.0548,tfidf,extracted
+europe_pmc_PMC12675643,12,chum salmon,Chum salmon,0.0545,tfidf,extracted
+europe_pmc_PMC12675643,13,salmon,Salmon,0.0452,tfidf,extracted
+europe_pmc_PMC12675643,14,salmon habitat,salmon habitat,0.0398,tfidf,extracted
+europe_pmc_PMC12675643,15,chum salmon habitat,chum salmon habitat,0.0398,tfidf,extracted
+europe_pmc_PMC12775141,1,natural earth,Natural Earth,1.5,uppercase,extracted
+europe_pmc_PMC12775141,2,shared socioeconomic pathways,Shared Socioeconomic Pathways,1.3,uppercase,extracted
+europe_pmc_PMC12775141,3,representative concentration pathways,Representative Concentration Pathways,1.2,uppercase,extracted
+europe_pmc_PMC12775141,4,southern hemisphere,Southern Hemisphere,1.2,uppercase,extracted
+europe_pmc_PMC12775141,5,congo and amazon,Congo and Amazon,1.2,uppercase,extracted
+europe_pmc_PMC12775141,6,supplementary information transparent peer review,Supplementary Information Transparent Peer Review,1.1,uppercase,extracted
+europe_pmc_PMC12775141,7,sectoral impact model intercomparison project,Sectoral Impact Model Intercomparison Project,1.1,uppercase,extracted
+europe_pmc_PMC12775141,8,rcp,RCP,1.82,uppercase,extracted
+europe_pmc_PMC12775141,9,congo,Congo,1.11,uppercase,extracted
+europe_pmc_PMC12775141,10,amazon,Amazon,1.08,uppercase,extracted
+europe_pmc_PMC12775141,11,river,River,0.0566,tfidf,extracted
+europe_pmc_PMC12775141,12,river heatwaves,River heatwaves,0.0551,tfidf,extracted
+europe_pmc_PMC12775141,13,river heatwave,River heatwave,0.0465,tfidf,extracted
+europe_pmc_PMC12775141,14,rivers,Rivers,0.0413,tfidf,extracted
+europe_pmc_PMC12775141,15,population exposure,Population exposure,0.0409,tfidf,extracted
+europe_pmc_PMC12822599,1,south australia,South Australia,2.8,uppercase,extracted
+europe_pmc_PMC12822599,2,south australian,South Australian,2.4,uppercase,extracted
+europe_pmc_PMC12822599,3,government of south australia,Government of South Australia,1.9,uppercase,extracted
+europe_pmc_PMC12822599,4,world health organization,World Health Organization,1.5,uppercase,extracted
+europe_pmc_PMC12822599,5,one health,One Health,1.5,uppercase,extracted
+europe_pmc_PMC12822599,6,senate standing committees on environment and communications,Senate Standing Committees on Environment and Communications,1.4,uppercase,extracted
+europe_pmc_PMC12822599,7,department of primary industries and regional development,Department of Primary Industries and Regional Development,1.3,uppercase,extracted
+europe_pmc_PMC12822599,8,hab,HAB,1.68,uppercase,extracted
+europe_pmc_PMC12822599,9,australia,Australia,1.52,uppercase,extracted
+europe_pmc_PMC12822599,10,south,South,1.47,uppercase,extracted
+europe_pmc_PMC12822599,11,habs,HABs,0.0433,tfidf,extracted
+europe_pmc_PMC12822599,12,australian,Australian,0.0429,tfidf,extracted
+europe_pmc_PMC12822599,13,policies,Policies,0.0421,tfidf,extracted
+europe_pmc_PMC12822599,14,biosecurity,Biosecurity,0.0404,tfidf,extracted
+europe_pmc_PMC12822599,15,policy,Policy,0.0391,tfidf,extracted
+europe_pmc_PMC13170430,1,saharan africa,Saharan Africa,1.7,uppercase,extracted
+europe_pmc_PMC13170430,2,cab abstract,Cab Abstract,1.5,uppercase,extracted
+europe_pmc_PMC13170430,3,odei obeng,Odei Obeng,1.4,uppercase,extracted
+europe_pmc_PMC13170430,4,regional environmental change portal,Regional Environmental Change Portal,1.3,uppercase,extracted
+europe_pmc_PMC13170430,5,social science research network,Social Science Research Network,1.3,uppercase,extracted
+europe_pmc_PMC13170430,6,african journals online,African Journals Online,1.3,uppercase,extracted
+europe_pmc_PMC13170430,7,africa climate portal,Africa Climate Portal,1.3,uppercase,extracted
+europe_pmc_PMC13170430,8,egm,EGM,1.94,uppercase,extracted
+europe_pmc_PMC13170430,9,ssa,SSA,1.4,uppercase,extracted
+europe_pmc_PMC13170430,10,ipcc,IPCC,1.12,uppercase,extracted
+europe_pmc_PMC13170430,11,interventions,Interventions,0.034,tfidf,extracted
+europe_pmc_PMC13170430,12,change adaptation,change adaptation,0.0334,tfidf,extracted
+europe_pmc_PMC13170430,13,climate change adaptation,Climate change adaptation,0.0334,tfidf,extracted
+europe_pmc_PMC13170430,14,papers,Papers,0.0333,tfidf,extracted
+europe_pmc_PMC13170430,15,climate,Climate,0.0321,tfidf,extracted
+europe_pmc_PMC13219836,1,british columbia,British Columbia,1.7,uppercase,extracted
+europe_pmc_PMC13219836,2,supplemental figure,Supplemental Figure,1.4,uppercase,extracted
+europe_pmc_PMC13219836,3,northeast pacific,Northeast Pacific,1.3,uppercase,extracted
+europe_pmc_PMC13219836,4,phase genomics,Phase Genomics,1.3,uppercase,extracted
+europe_pmc_PMC13219836,5,aleutian islands,Aleutian Islands,1.2,uppercase,extracted
+europe_pmc_PMC13219836,6,bering sea,Bering Sea,1.2,uppercase,extracted
+europe_pmc_PMC13219836,7,proximo hi,Proximo Hi,1.2,uppercase,extracted
+europe_pmc_PMC13219836,8,bc,BC,1.4,uppercase,extracted
+europe_pmc_PMC13219836,9,ks,KS,1.2,uppercase,extracted
+europe_pmc_PMC13219836,10,dna,DNA,1.14,uppercase,extracted
+europe_pmc_PMC13219836,11,pallasii,pallasii,0.0695,tfidf,extracted
+europe_pmc_PMC13219836,12,harengus,harengus,0.062,tfidf,extracted
+europe_pmc_PMC13219836,13,assembly,assembly,0.0602,tfidf,extracted
+europe_pmc_PMC13219836,14,genome,Genome,0.058,tfidf,extracted
+europe_pmc_PMC13219836,15,clupea,Clupea,0.0577,tfidf,extracted
+europe_pmc_PMC13223088,1,ecological environment code,Ecological Environment Code,2.5,uppercase,extracted
+europe_pmc_PMC13223088,2,supreme people,Supreme People,1.5,uppercase,extracted
+europe_pmc_PMC13223088,3,environmental protection law,Environmental Protection Law,1.3,uppercase,extracted
+europe_pmc_PMC13223088,4,sabin center climate change litigation database,Sabin Center Climate Change Litigation Database,1.2,uppercase,extracted
+europe_pmc_PMC13223088,5,lancet countdown,Lancet Countdown,1.2,uppercase,extracted
+europe_pmc_PMC13223088,6,court interpretation on several issues concerning the application of law,Court Interpretation on Several Issues Concerning the Application of Law,1.1,uppercase,extracted
+europe_pmc_PMC13223088,7,trial of environmental civil public interest litigation cases,Trial of Environmental Civil Public Interest Litigation Cases,1.1,uppercase,extracted
+europe_pmc_PMC13223088,8,china,China,1.19,uppercase,extracted
+europe_pmc_PMC13223088,9,code,Code,1.19,uppercase,extracted
+europe_pmc_PMC13223088,10,environment,Environment,1.17,uppercase,extracted
+europe_pmc_PMC13223088,11,litigation,Litigation,0.0549,tfidf,extracted
+europe_pmc_PMC13223088,12,public litigation,public litigation,0.0523,tfidf,extracted
+europe_pmc_PMC13223088,13,civil public,Civil Public,0.0509,tfidf,extracted
+europe_pmc_PMC13223088,14,civil public litigation,civil public litigation,0.0509,tfidf,extracted
+europe_pmc_PMC13223088,15,climate civil,climate civil,0.0467,tfidf,extracted
+europe_pmc_PMC13345226,1,latin america,Latin America,1.6,uppercase,extracted
+europe_pmc_PMC13345226,2,southern oscillation,Southern Oscillation,1.2,uppercase,extracted
+europe_pmc_PMC13345226,3,central america,Central America,1.2,uppercase,extracted
+europe_pmc_PMC13345226,4,south america,South America,1.2,uppercase,extracted
+europe_pmc_PMC13345226,5,climate prediction center,Climate Prediction Center,1.1,uppercase,extracted
+europe_pmc_PMC13345226,6,andean and southern cone,Andean and Southern Cone,1.1,uppercase,extracted
+europe_pmc_PMC13345226,7,precautionary principle,Precautionary Principle,1.1,uppercase,extracted
+europe_pmc_PMC13345226,8,america,America,1.1,uppercase,extracted
+europe_pmc_PMC13345226,9,enso,ENSO,1.08,uppercase,extracted
+europe_pmc_PMC13345226,10,latin,Latin,1.06,uppercase,extracted
+europe_pmc_PMC13345226,11,el,El,0.0827,tfidf,extracted
+europe_pmc_PMC13345226,12,health,health,0.0697,tfidf,extracted
+europe_pmc_PMC13345226,13,forecasting,Forecasting,0.0547,tfidf,extracted
+europe_pmc_PMC13345226,14,action,action,0.0513,tfidf,extracted
+europe_pmc_PMC13345226,15,el related,el related,0.0511,tfidf,extracted
+europe_pmc_PMC13447100,1,census bureau and central european,Census Bureau and Central European,1.5,uppercase,extracted
+europe_pmc_PMC13447100,2,rocky mountains,Rocky Mountains,1.4,uppercase,extracted
+europe_pmc_PMC13447100,3,nature geoscience,Nature Geoscience,1.2,uppercase,extracted
+europe_pmc_PMC13447100,4,ten coupled model intercomparison project,Ten Coupled Model Intercomparison Project,1.1,uppercase,extracted
+europe_pmc_PMC13447100,5,national water information system,National Water Information System,1.1,uppercase,extracted
+europe_pmc_PMC13447100,6,methods and extended data table,Methods and Extended Data Table,1.1,uppercase,extracted
+europe_pmc_PMC13447100,7,shared socioeconomic pathway,Shared Socioeconomic Pathway,1.1,uppercase,extracted
+europe_pmc_PMC13447100,8,arch,ARCH,2.2,uppercase,extracted
+europe_pmc_PMC13447100,9,wt,WT,1.8,uppercase,extracted
+europe_pmc_PMC13447100,10,rhw,RHW,1.58,uppercase,extracted
+europe_pmc_PMC13447100,11,rhws,RHWs,0.0486,tfidf,extracted
+europe_pmc_PMC13447100,12,ahws,AHWs,0.0478,tfidf,extracted
+europe_pmc_PMC13447100,13,arch frequency,ARCH frequency,0.0443,tfidf,extracted
+europe_pmc_PMC13447100,14,data fig,Data Fig,0.0431,tfidf,extracted
+europe_pmc_PMC13447100,15,river,River,0.0399,tfidf,extracted
+europe_pmc_PMC13487444,1,hixson and arts,Hixson and Arts,1.9,uppercase,extracted
+europe_pmc_PMC13487444,2,supplementary results,Supplementary Results,1.8,uppercase,extracted
+europe_pmc_PMC13487444,3,supplementary methods,Supplementary Methods,1.7,uppercase,extracted
+europe_pmc_PMC13487444,4,guschina and harwood,Guschina and Harwood,1.2,uppercase,extracted
+europe_pmc_PMC13487444,5,fisheries research and development corporation,Fisheries Research and Development Corporation,1.1,uppercase,extracted
+europe_pmc_PMC13487444,6,world register of marine organisms,World Register of Marine Organisms,1.1,uppercase,extracted
+europe_pmc_PMC13487444,7,web of science core collection,Web of Science Core Collection,1.1,uppercase,extracted
+europe_pmc_PMC13487444,8,fa,FA,2.86,uppercase,extracted
+europe_pmc_PMC13487444,9,dha,DHA,2.08,uppercase,extracted
+europe_pmc_PMC13487444,10,pufa,PUFA,1.74,uppercase,extracted
+europe_pmc_PMC13487444,11,omega,Omega,0.0504,tfidf,extracted
+europe_pmc_PMC13487444,12,fas,FAs,0.0408,tfidf,extracted
+europe_pmc_PMC13487444,13,moderators,moderators,0.0401,tfidf,extracted
+europe_pmc_PMC13487444,14,primary producers,Primary producers,0.0389,tfidf,extracted
+europe_pmc_PMC13487444,15,proportions,proportions,0.0389,tfidf,extracted
+europe_pmc_PMC13508924,1,hong kong,Hong Kong,1.2,uppercase,extracted
+europe_pmc_PMC13508924,2,candidatus hepatoplasma and marinifilum,Candidatus Hepatoplasma and Marinifilum,1.1,uppercase,extracted
+europe_pmc_PMC13508924,3,rhodococcus and morganella,Rhodococcus and Morganella,1.1,uppercase,extracted
+europe_pmc_PMC13508924,4,wiley online library,Wiley Online Library,1.1,uppercase,extracted
+europe_pmc_PMC13508924,5,google scholar,Google Scholar,1.1,uppercase,extracted
+europe_pmc_PMC13508924,6,web of science,Web of Science,1.1,uppercase,extracted
+europe_pmc_PMC13508924,7,activated akt,Activated Akt,1.1,uppercase,extracted
+europe_pmc_PMC13508924,8,mapk,MAPK,1.36,uppercase,extracted
+europe_pmc_PMC13508924,9,fxr,FXR,1.32,uppercase,extracted
+europe_pmc_PMC13508924,10,nf,NF,1.32,uppercase,extracted
+europe_pmc_PMC13508924,11,signaling,signaling,0.0383,tfidf,extracted
+europe_pmc_PMC13508924,12,heat stress,Heat stress,0.0376,tfidf,extracted
+europe_pmc_PMC13508924,13,stress,stress,0.0362,tfidf,extracted
+europe_pmc_PMC13508924,14,heat,Heat,0.0359,tfidf,extracted
+europe_pmc_PMC13508924,15,activation,Activation,0.0343,tfidf,extracted
+europe_pmc_PMC13534641,1,source data,Source Data,2.0,uppercase,extracted
+europe_pmc_PMC13534641,2,exclusive economic zone,Exclusive Economic Zone,1.3,uppercase,extracted
+europe_pmc_PMC13534641,3,solomon islands,Solomon Islands,1.3,uppercase,extracted
+europe_pmc_PMC13534641,4,united kingdom,United Kingdom,1.3,uppercase,extracted
+europe_pmc_PMC13534641,5,sea around us,Sea Around Us,1.3,uppercase,extracted
+europe_pmc_PMC13534641,6,indian ocean,Indian Ocean,1.3,uppercase,extracted
+europe_pmc_PMC13534641,7,shared socioeconomic pathways,Shared Socioeconomic Pathways,1.2,uppercase,extracted
+europe_pmc_PMC13534641,8,nppx,NPPX,1.86,uppercase,extracted
+europe_pmc_PMC13534641,9,npp,NPP,1.72,uppercase,extracted
+europe_pmc_PMC13534641,10,eez,EEZ,1.52,uppercase,extracted
+europe_pmc_PMC13534641,11,odds,Odds,0.0431,tfidf,extracted
+europe_pmc_PMC13534641,12,tempx,TempX,0.0419,tfidf,extracted
+europe_pmc_PMC13534641,13,extreme low,extreme low,0.0406,tfidf,extracted
+europe_pmc_PMC13534641,14,catch,catch,0.0399,tfidf,extracted
+europe_pmc_PMC13534641,15,catches,catches,0.0382,tfidf,extracted
+europe_pmc_PMC13536121,1,quality of life brief,Quality of Life Brief,1.3,uppercase,extracted
+europe_pmc_PMC13536121,2,universal thermal climate index,Universal Thermal Climate Index,1.2,uppercase,extracted
+europe_pmc_PMC13536121,3,pashto and urdu,Pashto and Urdu,1.2,uppercase,extracted
+europe_pmc_PMC13536121,4,structural heat adaptation and education in rural settings,Structural Heat Adaptation and Education in Rural Settings,1.1,uppercase,extracted
+europe_pmc_PMC13536121,5,household dietary diversity and source assessment module,Household Dietary Diversity and Source Assessment Module,1.1,uppercase,extracted
+europe_pmc_PMC13536121,6,household food insecurity experience scale section,Household Food Insecurity Experience Scale Section,1.1,uppercase,extracted
+europe_pmc_PMC13536121,7,ethical review committee of aga khan university,Ethical Review Committee of Aga Khan University,1.1,uppercase,extracted
+europe_pmc_PMC13536121,8,section,Section,1.16,uppercase,extracted
+europe_pmc_PMC13536121,9,icc,ICC,1.14,uppercase,extracted
+europe_pmc_PMC13536121,10,rehab,ReHAB,1.09,uppercase,extracted
+europe_pmc_PMC13536121,11,intervention,Intervention,0.0415,tfidf,extracted
+europe_pmc_PMC13536121,12,devices,devices,0.0413,tfidf,extracted
+europe_pmc_PMC13536121,13,household,Household,0.0396,tfidf,extracted
+europe_pmc_PMC13536121,14,cluster,cluster,0.0386,tfidf,extracted
+europe_pmc_PMC13536121,15,heat,Heat,0.0375,tfidf,extracted
+europe_pmc_PMC13680218,1,use plastics directive,Use Plastics Directive,1.1,uppercase,extracted
+europe_pmc_PMC13680218,2,combining equations,Combining Equations,1.1,uppercase,extracted
+europe_pmc_PMC13680218,3,shandong peninsula,Shandong Peninsula,1.1,uppercase,extracted
+europe_pmc_PMC13680218,4,united states,United States,1.1,uppercase,extracted
+europe_pmc_PMC13680218,5,xiangshan bay,Xiangshan Bay,1.1,uppercase,extracted
+europe_pmc_PMC13680218,6,by lyapunov,By Lyapunov,1.1,uppercase,extracted
+europe_pmc_PMC13680218,7,sanggou bay,Sanggou Bay,1.1,uppercase,extracted
+europe_pmc_PMC13680218,8,eps,EPS,1.04,uppercase,extracted
+europe_pmc_PMC13680218,9,china,China,1.03,uppercase,extracted
+europe_pmc_PMC13680218,10,bay,Bay,1.02,uppercase,extracted
+europe_pmc_PMC13680218,11,microplastic,Microplastic,0.0418,tfidf,extracted
+europe_pmc_PMC13680218,12,payoff,Payoff,0.0393,tfidf,extracted
+europe_pmc_PMC13680218,13,marine ranching,Marine ranching,0.0386,tfidf,extracted
+europe_pmc_PMC13680218,14,ranching,ranching,0.0386,tfidf,extracted
+europe_pmc_PMC13680218,15,enterprises,Enterprises,0.0379,tfidf,extracted
+europe_pmc_PMC13688465,1,british columbia,British Columbia,1.8,uppercase,extracted
+europe_pmc_PMC13688465,2,fourier transform infrared spectroscopy,Fourier Transform Infrared Spectroscopy,1.1,uppercase,extracted
+europe_pmc_PMC13688465,3,nuclear magnetic resonance spectroscopy,Nuclear Magnetic Resonance Spectroscopy,1.1,uppercase,extracted
+europe_pmc_PMC13688465,4,southern california and baja california,Southern California and Baja California,1.1,uppercase,extracted
+europe_pmc_PMC13688465,5,british columbia and argentina,British Columbia and Argentina,1.1,uppercase,extracted
+europe_pmc_PMC13688465,6,response surface methodology,Response Surface Methodology,1.1,uppercase,extracted
+europe_pmc_PMC13688465,7,within the northeast pacific,Within the Northeast Pacific,1.1,uppercase,extracted
+europe_pmc_PMC13688465,8,fg,FG,1.12,uppercase,extracted
+europe_pmc_PMC13688465,9,mm,MM,1.12,uppercase,extracted
+europe_pmc_PMC13688465,10,pacific,Pacific,1.11,uppercase,extracted
+europe_pmc_PMC13688465,11,alginate,Alginate,0.0483,tfidf,extracted
+europe_pmc_PMC13688465,12,molar,Molar,0.0424,tfidf,extracted
+europe_pmc_PMC13688465,13,molar mass,Molar mass,0.0421,tfidf,extracted
+europe_pmc_PMC13688465,14,kelp,Kelp,0.04,tfidf,extracted
+europe_pmc_PMC13688465,15,luetkeana,luetkeana,0.0393,tfidf,extracted
+europe_pmc_PMC13701080,1,british columbia,British Columbia,1.7,uppercase,extracted
+europe_pmc_PMC13701080,2,scale heatwave exposure,Scale Heatwave Exposure,1.3,uppercase,extracted
+europe_pmc_PMC13701080,3,united nations children,United Nations Children,1.3,uppercase,extracted
+europe_pmc_PMC13701080,4,dissemination area,Dissemination Area,1.3,uppercase,extracted
+europe_pmc_PMC13701080,5,canadian downscaled climate scenarios,Canadian Downscaled Climate Scenarios,1.2,uppercase,extracted
+europe_pmc_PMC13701080,6,world health organization,World Health Organization,1.2,uppercase,extracted
+europe_pmc_PMC13701080,7,vancouver and montreal,Vancouver and Montreal,1.2,uppercase,extracted
+europe_pmc_PMC13701080,8,lhe,LHE,1.78,uppercase,extracted
+europe_pmc_PMC13701080,9,da,DA,1.6,uppercase,extracted
+europe_pmc_PMC13701080,10,canada,Canada,1.28,uppercase,extracted
+europe_pmc_PMC13701080,11,et,et,0.0428,tfidf,extracted
+europe_pmc_PMC13701080,12,al,al,0.0428,tfidf,extracted
+europe_pmc_PMC13701080,13,children,Children,0.0415,tfidf,extracted
+europe_pmc_PMC13701080,14,lifetime,Lifetime,0.0399,tfidf,extracted
+europe_pmc_PMC13701080,15,hwmid,HWMId,0.0399,tfidf,extracted
+europe_pmc_PMC13708365,1,one health,One Health,1.9,uppercase,extracted
+europe_pmc_PMC13708365,2,united states,United States,1.3,uppercase,extracted
+europe_pmc_PMC13708365,3,pacific northwest,Pacific Northwest,1.2,uppercase,extracted
+europe_pmc_PMC13708365,4,although the world organization for animal health,Although the World Organization for Animal Health,1.1,uppercase,extracted
+europe_pmc_PMC13708365,5,manual of bacteriological analysis,Manual of Bacteriological Analysis,1.1,uppercase,extracted
+europe_pmc_PMC13708365,6,aquaculture pathology laboratory,Aquaculture Pathology Laboratory,1.1,uppercase,extracted
+europe_pmc_PMC13708365,7,sustainable development goals,Sustainable Development Goals,1.1,uppercase,extracted
+europe_pmc_PMC13708365,8,ahpnd,AHPND,1.36,uppercase,extracted
+europe_pmc_PMC13708365,9,tdh,TDH,1.36,uppercase,extracted
+europe_pmc_PMC13708365,10,trh,TRH,1.3,uppercase,extracted
+europe_pmc_PMC13708365,11,parahaemolyticus,parahaemolyticus,0.0479,tfidf,extracted
+europe_pmc_PMC13708365,12,shrimp,Shrimp,0.0418,tfidf,extracted
+europe_pmc_PMC13708365,13,isolates,isolates,0.0371,tfidf,extracted
+europe_pmc_PMC13708365,14,o3 k6,o3 k6,0.0344,tfidf,extracted
+europe_pmc_PMC13708365,15,pathogen,pathogen,0.0341,tfidf,extracted

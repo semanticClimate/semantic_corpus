@@ -1,0 +1,979 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Adv</journal-id><journal-id journal-id-type="iso-abbrev">Sci Adv</journal-id><journal-id journal-id-type="pmc-domain-id">2850</journal-id><journal-id journal-id-type="pmc-domain">sciadv</journal-id><journal-id journal-id-type="nlm-id">101653440</journal-id><journal-id journal-id-type="publisher-id">sciadv</journal-id><journal-title-group><journal-title>Science Advances</journal-title></journal-title-group><issn pub-type="epub">2375-2548</issn><?publisher_abbrev aaas?><publisher><publisher-name>American Association for the Advancement of Science</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13721956</article-id><article-id pub-id-type="pmcid-ver">PMC13721956.1</article-id><article-id pub-id-type="pmcaid">13721956</article-id><article-id pub-id-type="pmcaiid">13721956</article-id><article-id pub-id-type="pmid">42962016</article-id><article-id pub-id-type="doi">10.1126/sciadv.aee1112</article-id><article-id pub-id-type="publisher-id">aee1112</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-type"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Earth, Environmental, Ecological, and Space Sciences</subject></subj-group><subj-group subj-group-type="legacy-article-type"><subject>SciAdv r-articles</subject></subj-group><subj-group subj-group-type="overline"><subject>Atmospheric Science</subject></subj-group></article-categories><title-group><article-title>Monsoon zonal seesaw: Development of the South Asian monsoon aridified North Africa in the Cenozoic</article-title><alt-title alt-title-type="short">South Asian monsoon and North African aridity</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1876-938X</contrib-id><name name-style="western"><surname>Yin</surname><given-names initials="Z">Zihan</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="afn1" ref-type="author-notes">†</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9829-8604</contrib-id><name name-style="western"><surname>Nie</surname><given-names initials="J">Ji</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cor1" ref-type="corresp">*</xref><xref rid="afn1" ref-type="author-notes">†</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9076-3551</contrib-id><name name-style="western"><surname>Boos</surname><given-names initials="WR">William R.</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff4" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5585-5338</contrib-id><name name-style="western"><surname>Farnsworth</surname><given-names initials="A">Alexander</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-software/">Software</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff5" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="aff6" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="Z">Zhongshi</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - original draft" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-original-draft/">Writing - original draft</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8844-2185</contrib-id><name name-style="western"><surname>Liu</surname><given-names initials="Y">Yonggang</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6031-2485</contrib-id><name name-style="western"><surname>Yang</surname><given-names initials="J">Jun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2259-9715</contrib-id><name name-style="western"><surname>Guo</surname><given-names initials="Z">Zhengtang</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff7" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4003-4630</contrib-id><name name-style="western"><surname>Hu</surname><given-names initials="Y">Yongyun</given-names></name><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-conceptualization/">Conceptualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-data-curation/">Data curation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-formal-analysis/">Formal analysis</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-funding-acquisition/">Funding acquisition</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-investigation/">Investigation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-methodology/">Methodology</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-project-administration/">Project administration</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-resources/">Resources</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-supervision/">Supervision</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-validation/">Validation</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Visualization" vocab-term-identifier="https://web.archive.org/web/20180313224017/http://dictionary.credit.niso.org/Contributor_Roles/Visualization">Visualization</role><role vocab="credit" vocab-identifier="https://credit.niso.org/term/contributor-roles/" vocab-term="Writing - review &amp; editing" vocab-term-identifier="https://credit.niso.org/term/contributor-roles-writing-review-editing/">Writing - review &amp; editing</role><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cor2" ref-type="corresp">*</xref></contrib><aff id="aff1"><label><sup>1</sup></label>Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China.</aff><aff id="aff2"><label><sup>2</sup></label>Institute of Ocean Research, Peking University, Beijing, China.</aff><aff id="aff3"><label><sup>3</sup></label>Institute of Carbon Neutrality, Peking University, Beijing, China.</aff><aff id="aff4"><label><sup>4</sup></label>Department of Earth and Planetary Science, University of California, Berkeley, Berkeley, CA, USA.</aff><aff id="aff5"><label><sup>5</sup></label>School of Geographical Sciences, University of Bristol, Bristol, UK.</aff><aff id="aff6"><label><sup>6</sup></label>State Key Laboratory of Tibetan Plateau Earth System, Environment and Resources (TPESER), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, China.</aff><aff id="aff7"><label><sup>7</sup></label>Key Laboratory of Cenozoic Geology and Environment, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China.</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Corresponding author. Email: <email xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jinie@pku.edu.cn">jinie@pku.edu.cn</email> (J.N.);</corresp><corresp id="cor2"><label>*</label>Corresponding author. Email: <email xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="yyhu@pku.edu.cn">yyhu@pku.edu.cn</email> (Y.H.)</corresp><fn id="afn1" fn-type="equal"><label>†</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="collection"><day>30</day><month>10</month><year>2026</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>30</day><month>10</month><year>2026</year></pub-date><volume>12</volume><issue>44</issue><issue-id pub-id-type="pmc-issue-id">524279</issue-id><elocation-id>eaee1112</elocation-id><history>
+<date date-type="received"><day>23</day><month>11</month><year>2025</year></date>
+<date date-type="accepted"><day>29</day><month>9</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>30</day><month>10</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>31</day><month>10</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-10-31 14:59:26.977"><day>31</day><month>10</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2026 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim to original U.S. Government Works. Distributed under a Creative Commons Attribution NonCommercial License 4.0 (CC BY-NC).</copyright-statement><copyright-year>2026</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense" start_date="2026-10-30">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open-access article distributed under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial license</ext-link>, which permits use, distribution, and reproduction in any medium, so long as the resultant use is <bold>not</bold> for commercial advantage and provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="sciadv.aee1112.pdf"><?pdf-name sciadv.aee1112.pdf?><?pdf-size 1397470?><?pdf-md5 85d5d843bbf7ab1ba280c765fdbeab3f?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:78d5/13721956/85d5d843bbf7/sciadv.aee1112.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="sciadv.aee1112.pdf"/><abstract><p>North Africa experienced a pronounced transition from humid to arid conditions during the early Cenozoic. Meanwhile, the South Asian monsoon underwent substantial intensification, largely driven by the uplift of the Himalayan-Tibetan Plateau. Here, we demonstrate that the two events, which greatly shaped the paleoenvironment and modern regional climate, are not independent responses to paleogeography changes; rather, the former is primarily driven by the latter through the monsoon-desert mechanism, in which South Asian monsoon diabatic heating produces large-scale subsidence and aridity over North Africa. Using multiple ensembles of paleoclimate simulations and a model for the atmospheric response to imposed diabatic heating, we show that the intensification and poleward shift of Asian monsoon rainfall each make comparable contributions to the aridification of North Africa. Our findings identify a persistent dynamical pathway linking the South Asian and North African monsoons and suggest that it played a major role in early Cenozoic North African aridification, while its climatic expression at other times depended on the relative strengths of competing forcings.</p></abstract><funding-group specific-use="FundRef"><award-group id="award2324968"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>42488201</award-id></award-group><award-group id="award2324969"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source><award-id>42375057</award-id></award-group><award-group id="award2324970"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef"/><institution>Beijing Natural Science Foundation</institution></institution-wrap>
+</funding-source><award-id>JQ23037</award-id></award-group><award-group id="award2324971"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef"/><institution>NSFGEO-NERC</institution></institution-wrap>
+</funding-source><award-id>NE/X015505/1</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="introduction" disp-level="1"><title>INTRODUCTION</title><p>The evolution of North African climate in the Cenozoic is marked by a pronounced transition from humid to arid conditions during the early Cenozoic, punctuated by several key transitions and oscillations (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>–<xref rid="R3" ref-type="bibr"><italic toggle="yes">3</italic></xref>). The onset of the arid Sahara occurred around the Late Miocene to Early Pliocene (<xref rid="R4" ref-type="bibr"><italic toggle="yes">4</italic></xref>, <xref rid="R5" ref-type="bibr"><italic toggle="yes">5</italic></xref>), and the persistent drying eventually formed today’s largest desert. A synthesis of available records reveals an overall tendency toward increasing aridity over North Africa during the Cenozoic, superimposed by substantial regional and temporal variability (<xref rid="F1" ref-type="fig">Fig. 1</xref> and fig. S1). The expansion of the Sahara was accompanied by the retreat of the North African monsoon (NAM), resulting in a narrow rainband to the south of the desert. This climate shift over North Africa has great importance in the Earth system, including modifying the planet’s radiative energy budget (<xref rid="R6" ref-type="bibr"><italic toggle="yes">6</italic></xref>), seeding Atlantic tropical cyclones (<xref rid="R7" ref-type="bibr"><italic toggle="yes">7</italic></xref>), supplying dust for ocean productivity (<xref rid="R8" ref-type="bibr"><italic toggle="yes">8</italic></xref>), driving Late Miocene biotic transitions (<xref rid="R9" ref-type="bibr"><italic toggle="yes">9</italic></xref>), and influencing the emergence of early hominins in Africa (<xref rid="R10" ref-type="bibr"><italic toggle="yes">10</italic></xref>).</p><fig position="float" id="F1" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 1.</label><caption><title>Compilation of long-term hydroclimate conditions over North Africa and South Asia in the Cenozoic.</title><p>Vertical shading indicates wet or dry conditions, following the interpretations reported in the literature (references numbered above). The results are interpolated onto uniform time intervals for better comparison. A detailed compilation is presented in figs. S1 and S2, including proxy types, sampling regions, and source locations (e.g., figures and text) in each study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1112-f1.webp"><?image-name sciadv.aee1112-f1.webp?><?image-size 46568?><?image-md5 b789488ac2116355cdca4b2a82f671e6?><?image-image-server-status NEED_LOADING?><?image-original-height 834?><?image-original-width 1600?><?image-scaled-height 834?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/78d5/13721956/b789488ac211/sciadv.aee1112-f1.webp?><?thumb-name sciadv.aee1112-f1.gif?><?thumb-size 9668?><?thumb-md5 42b07ec40d68271a16b8593274cebec2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 104?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/78d5/13721956/42b07ec40d68/sciadv.aee1112-f1.gif?></graphic></fig><p>Previous studies mainly attribute the aridification of North Africa in the Cenozoic to two factors: changes in global climate and regional paleogeography. After the warm and humid climate of the Early Cenozoic, the global climate began to cool, marked by stepwise shifts such as the Eocene-Oligocene transition (<xref rid="R11" ref-type="bibr"><italic toggle="yes">11</italic></xref>). Following global trends, the regional climate of North Africa became cooler and drier. Changes in paleogeography also affected North African climate by modulating atmospheric circulations. An influential argument is that the shrinkage of the Tethys Sea was a primary driver of the abrupt onset of the Sahara Desert during the Late Miocene (<xref rid="R12" ref-type="bibr"><italic toggle="yes">12</italic></xref>, <xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>). Other proposed paleogeographic factors include the uplift of eastern Africa and the closure of the Indonesian Seaway (<xref rid="R14" ref-type="bibr"><italic toggle="yes">14</italic></xref>, <xref rid="R15" ref-type="bibr"><italic toggle="yes">15</italic></xref>); however, their impacts are considered comparatively minor or limited to shorter timescales.</p><p>Here, we demonstrate that the pronounced early Cenozoic aridification of North Africa is primarily driven by the remote influence from the development of the South Asian monsoon (SAM), which experienced enhancement concurrently (<xref rid="F1" ref-type="fig">Fig. 1</xref> and fig. S2). The antiphase correlation between South Asian and North African hydroclimate is largely driven by the early Cenozoic transition, during which the SAM strengthened substantially in response to the uplift of the Himalayan-Tibetan Plateau. The linkage between SAM and NAM in the modern climate is well established as the monsoon-desert mechanism (<xref rid="R16" ref-type="bibr"><italic toggle="yes">16</italic></xref>, <xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>): Diabatic heating released from SAM precipitation generates westward-propagating stationary Rossby waves, manifested as a strong upper-tropospheric high-pressure system extending toward North Africa. The monsoon-desert mechanism accounts for the strong anticorrelation between North African precipitation and SAM variability on interannual to decadal timescales in the current climate (<xref rid="R18" ref-type="bibr"><italic toggle="yes">18</italic></xref>, <xref rid="R19" ref-type="bibr"><italic toggle="yes">19</italic></xref>).</p><p>Climate variability over North Africa and South Asia, and their potential linkage, has been investigated in modern and paleoclimate on orbital or suborbital timescales (literature synthesis in table S1). Under modern climate forcing (table S1A), North Africa and South Asia exhibit in-phase hydroclimate responses: both becoming wetter under CO<sub>2</sub>-induced warming [e.g., (<xref rid="R20" ref-type="bibr"><italic toggle="yes">20</italic></xref>, <xref rid="R21" ref-type="bibr"><italic toggle="yes">21</italic></xref>)] and drier under aerosol forcing [e.g., (<xref rid="R22" ref-type="bibr"><italic toggle="yes">22</italic></xref>, <xref rid="R23" ref-type="bibr"><italic toggle="yes">23</italic></xref>)]. Similarly, on orbital and suborbital timescales, most studies report in-phase variability (table S1B). For example, the Green Sahara and an enhanced SAM both occurred in the Middle Holocene under increased Northern Hemisphere summer insolation associated with orbital precession (<xref rid="R24" ref-type="bibr"><italic toggle="yes">24</italic></xref>–<xref rid="R26" ref-type="bibr"><italic toggle="yes">26</italic></xref>). This in-phase variability is opposite to the expectation from the monsoon-desert mechanism, implying that the responses to the global or hemispheric forcings potentially mask the effects of monsoon-desert teleconnection over North Africa. Notably, a number of proxy-based studies report antiphase hydroclimate variability between South Asia and regions to its west (e.g., East Africa, the Mediterranean, and the Middle East) on orbital and suborbital timescales [e.g., (<xref rid="R27" ref-type="bibr"><italic toggle="yes">27</italic></xref>–<xref rid="R29" ref-type="bibr"><italic toggle="yes">29</italic></xref>); table S1C], with the monsoon-desert mechanism often invoked but not explicitly tested.</p><p>These contrasting relationships indicate that the sign and strength of South Asian–North African hydroclimate covariability are not determined by timescale itself, but by the relative magnitudes and spatial structures of the forcings acting on the two regions. Here, we demonstrate that the monsoon-desert mechanism provides a dynamical pathway linking the evolution of the NAM and SAM in response to large paleogeographic forcing (i.e., uplift of the Himalayan-Tibetan Plateau). As SAM precipitation intensified and migrated poleward during the Cenozoic, a modern monsoon-desert teleconnection gradually emerged, which contributed to North African aridification. This provides a straightforward causal explanation for regional climate change in North Africa and establishes a robust connection between the evolution of the SAM and NAM under tectonic forcing.</p></sec><sec sec-type="results" disp-level="1"><title>RESULTS</title><sec disp-level="2"><title>Coevolution of the SAM and North African climate</title><p>This study employs two sets of time-slice paleoclimate simulations (Materials and Methods): the L2022 simulations (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>) and F2019 simulations (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>). Despite notable differences in their numerical models, boundary conditions, and experimental setups, both yield consistent conclusions. We first demonstrate the coevolution of SAM and North African climate throughout the Cenozoic. <xref rid="F2" ref-type="fig">Figure 2 (A and B)</xref> presents the summer climatology from the L2022_default simulations for the preindustrial period (PI, i.e., 0 Ma) and 50 Ma, and results for all time periods are shown in fig. S3. We focus on the summer season (June to August), as most annual rainfall in North Africa occurs during summer. The PI simulation reproduces broad features of the observed summer precipitation climatology well, confirming the model’s suitability for this investigation of changes in continental-scale features [(<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>); Materials and Methods]. At 50 Ma, the NAM was strong and expansive, with a broad rainbelt extending deep into the continent. Since 50 Ma, a pronounced drying trend is evident, reflected in the expansion of arid zones across the Sahara and an equatorward retreat of the NAM (fig. S3). This long-term aridification is consistent with multiple lines of geological evidence (<xref rid="F1" ref-type="fig">Fig. 1</xref>), including marine and sand deposits (<xref rid="R32" ref-type="bibr"><italic toggle="yes">32</italic></xref>), stratigraphy (<xref rid="R1" ref-type="bibr"><italic toggle="yes">1</italic></xref>) and lithology (<xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>, <xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>), as well as earlier modeling studies [e.g., (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>)].</p><fig position="float" id="F2" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 2.</label><caption><title>Summer (June to August) climatology from L2022_default simulations.</title><p>The results are at PI (top) and 50 Ma (bottom). (<bold>A</bold> and <bold>B</bold>) Precipitation (shading), column water vapor flux (vectors), monsoon regions [green contours; (<xref rid="R57" ref-type="bibr"><italic toggle="yes">57</italic></xref>)], semiarid (red diagonal hatching), and arid regions [red cross-hatching; (<xref rid="R58" ref-type="bibr"><italic toggle="yes">58</italic></xref>)]. Red dots mark evaporite records (<xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>, <xref rid="R34" ref-type="bibr"><italic toggle="yes">34</italic></xref>). (<bold>C</bold> and <bold>D</bold>) One hundred fifty–hectopascal geopotential height anomalies (shading; zonal mean removed), with red contours indicating the 90th percentile, blue contours denoting the 400-hPa diabatic heating (2 K day<sup>−1</sup> interval), and black dots indicating areas of strong subsidence (ω &gt; 0.002 Pa/s).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1112-f2.webp"><?image-name sciadv.aee1112-f2.webp?><?image-size 148996?><?image-md5 85fc3bfb8986d926ff007e7a1fc71abe?><?image-image-server-status NEED_LOADING?><?image-original-height 806?><?image-original-width 1600?><?image-scaled-height 806?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/78d5/13721956/85fc3bfb8986/sciadv.aee1112-f2.webp?><?thumb-name sciadv.aee1112-f2.gif?><?thumb-size 13772?><?thumb-md5 8b2bb1f865380819d8796e6a7454b49f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 101?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/78d5/13721956/8b2bb1f86538/sciadv.aee1112-f2.gif?></graphic></fig><p>Another prominent regional climate change during the Cenozoic is the development of the SAM (<xref rid="R35" ref-type="bibr"><italic toggle="yes">35</italic></xref>, <xref rid="R36" ref-type="bibr"><italic toggle="yes">36</italic></xref>). In the early Cenozoic, the SAM rainfall was relatively weak and confined to the deep tropics (<xref rid="F2" ref-type="fig">Fig. 2B</xref>). As the Indian plate drifted northward, the resulting uplift of the Himalayan-Tibetan Plateau enhanced monsoonal circulation, enabling the SAM to intensify and expand northward toward the southern slopes of the Himalayas (fig. S3). The Cenozoic development of SAM is well supported by both paleoclimate proxies and simulations [<xref rid="F1" ref-type="fig">Fig. 1</xref>; (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>, <xref rid="R37" ref-type="bibr"><italic toggle="yes">37</italic></xref>, <xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>)]. Note that North China is classified within the monsoon region based on its high proportion of summer precipitation; however, its annual precipitation is relatively low, consistent with the North China dry belt during 50 to 25 Ma (<xref rid="R39" ref-type="bibr"><italic toggle="yes">39</italic></xref>).</p><p>The simulated long-term trends of North African aridification and SAM development are consistent across both L2022_default and F2019 (figs. S3 and S5). However, notable differences exist in the pacing of regional climate evolution (fig. S7). Both simulations capture a transient weakening of the SAM between 10 and 5 Ma, in line with proxy records (<xref rid="R38" ref-type="bibr"><italic toggle="yes">38</italic></xref>), attributed to interhemispheric ice-sheet growth (<xref rid="R40" ref-type="bibr"><italic toggle="yes">40</italic></xref>) and accompanied by a modest strengthening of the NAM. Arid conditions in North Africa emerge at 35 Ma in L2022_default and 30 Ma in F2019, around the wet-to-dry shift at the Eocene-Oligocene transition in proxies (<xref rid="F1" ref-type="fig">Fig. 1</xref>). The geological record does not indicate a simple monotonic evolution thereafter, but instead shows substantial regional and temporal variability superimposed on the overall tendency toward aridity (<xref rid="F1" ref-type="fig">Fig. 1</xref> and fig. S1). Nevertheless, both simulations show a strong anticorrelation between the SAM and North African precipitation (<xref rid="F3" ref-type="fig">Fig. 3A</xref>), indicating a persistent dynamical linkage between the two regional climate systems. The antiphase correlation between South Asian and North African hydroclimate is dominated by the early Cenozoic transition, consistent across both proxy records and paleoclimate simulations (<xref rid="F1" ref-type="fig">Figs. 1</xref> and <xref rid="F3" ref-type="fig">3</xref>). The coevolution of the SAM and North African climate may arise from the establishment of the monsoon-desert teleconnection as elucidated below.</p><fig position="float" id="F3" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 3.</label><caption><title>South Asian monsoon versus North African climate.</title><p>Scatterplots of (<bold>A</bold>) SAM precipitation versus North African (NA) precipitation and (<bold>B</bold>) SAM precipitation versus mean pressure velocity at 400 to 600 hPa over NA. Each point represents a time-slice simulation, color-coded by geological age. Circles denote L2022_default simulations, and triangles denote F2019 simulations. Regional averaging domains are shown in <xref rid="F4" ref-type="fig">Fig. 4A</xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1112-f3.webp"><?image-name sciadv.aee1112-f3.webp?><?image-size 105016?><?image-md5 dfdaea541326b6aab5c1f12c232d858c?><?image-image-server-status NEED_LOADING?><?image-original-height 2561?><?image-original-width 1600?><?image-scaled-height 2561?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/78d5/13721956/dfdaea541326/sciadv.aee1112-f3.webp?><?thumb-name sciadv.aee1112-f3.gif?><?thumb-size 6905?><?thumb-md5 9c5c63d18bae6a267b30f19ca67e7a06?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 125?><?thumb-cloudpmc-urn urn:cdn:blobs/78d5/13721956/9c5c63d18bae/sciadv.aee1112-f3.gif?></graphic></fig></sec><sec disp-level="2"><title>Establishment of the monsoon-desert teleconnection</title><p>The linkage between the SAM and North African climate via the monsoon-desert teleconnection is evident in the evolution of the upper-tropospheric high-pressure anomaly. In the PI, the rising air of SAM builds an upper-tropospheric anticyclone, the South Asian High (SAH, i.e., the monsoon-desert teleconnection). Under the constraint of Earth’s rotation, the SAH extends westward as a stationary Rossby wave response to the monsoon heating. Because of mass continuity, upper-tropospheric divergence associated with the SAH induces compensating subsidence on its western flank (<xref rid="R17" ref-type="bibr"><italic toggle="yes">17</italic></xref>, <xref rid="R41" ref-type="bibr"><italic toggle="yes">41</italic></xref>), leading to arid conditions over North Africa. In contrast, at 50 Ma, the diabatic heating of SAM is located near the equator (<xref rid="F2" ref-type="fig">Fig. 2D</xref>), where the Coriolis effect is too weak to generate a strong pressure response [(<xref rid="R42" ref-type="bibr"><italic toggle="yes">42</italic></xref>); an upper-tropospheric high centered over East Asia in <xref rid="F1" ref-type="fig">Fig. 1D</xref> is likely associated with East Asian monsoonal heating]. Across all time periods, the monsoon-desert teleconnection strengthens coherently with the development of the SAM (fig. S4). A similar evolution is seen in F2019 (fig. S6).</p><p>The monsoon-desert teleconnection is evidenced by a strong negative correlation between SAM precipitation and North African precipitation (<xref rid="F3" ref-type="fig">Fig. 3A</xref>), and positive correlation between SAM precipitation and subsidence over North Africa (<xref rid="F3" ref-type="fig">Fig. 3B</xref>). Strong correlations among key dynamical and thermodynamical variables in South Asia and North Africa (figs. S7 and S8) further highlight the linkage between SAM development and North African climate via the monsoon-desert teleconnection. Notably, the above mechanism is insensitive to background climate. In a set of fixed CO<sub>2</sub> experiments (L2022_fixCO2, Materials and Methods), which exhibit much smaller climate variations, the antiphase coevolution remains evident (fig. S9). Comparison between the L2022_fixCO2 and L2022_default further indicates that, within these simulations, paleogeographic evolution exerts a substantially stronger influence on the SAM–North Africa relationship than the imposed CO<sub>2</sub> variations (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>).</p><p>It is of interest to assess the potential contribution of the Tibetan Plateau, whose elevation increased progressively during the Cenozoic, to the formation of the SAH via elevated heating over the Plateau [e.g., (<xref rid="R43" ref-type="bibr"><italic toggle="yes">43</italic></xref>, <xref rid="R44" ref-type="bibr"><italic toggle="yes">44</italic></xref>)]. We conduct a set of sensitivity experiments in which the main body of the Tibetan Plateau is flattened to 1 km while the Himalayas are retained, for three periods: PI, 10 Ma, and 30 Ma (table S2). Flattening the Plateau leads to a modest weakening of the SAH over the Plateau; however, the large-scale monsoon-desert teleconnection remains largely intact (fig. S10), and precipitation changes are limited outside the Plateau (fig. S11). Consistent with previous studies [e.g., (<xref rid="R45" ref-type="bibr"><italic toggle="yes">45</italic></xref>, <xref rid="R46" ref-type="bibr"><italic toggle="yes">46</italic></xref>)], our results suggest that the uplift of the Tibetan Plateau exerts a secondary influence on the SAH compared to latent heating associated with the SAM, while the uplift of the Himalayas, through its insulation effect, can substantially enhance the SAM and the associated SAH.</p></sec><sec disp-level="2"><title>Linear baroclinic model experiments</title><p>To directly test the causal influence of SAM diabatic heating on North African climate, we conducted a set of simulations using a linear baroclinic model (LBM; Materials and Methods). The LBM (<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>) is a simplified dynamical framework with primitive equations linearized around a specified basic state. It is commonly used to investigate atmospheric responses to external forcings and the mechanisms underlying teleconnection patterns (<xref rid="R48" ref-type="bibr"><italic toggle="yes">48</italic></xref>).</p><p>We force the LBM with diabatic heating associated with the SAM extracted from the L2022_default simulations and examine the resulting atmospheric responses. The specified diabatic heating is imposed as a smoothed version (approximated by a two-dimensional Gaussian distribution, fig. S12) of the diagnosed heating, to simplify interpretation. As an example, the LBM results at PI (<xref rid="F4" ref-type="fig">Fig. 4A</xref>) show an upper-tropospheric high-pressure center extending from South Asia to North Africa similar to the SAH (<xref rid="F2" ref-type="fig">Fig. 2C</xref>). The simulated atmospheric responses show the progressive establishment of the monsoon-desert teleconnection, qualitatively similar to the paleoclimate simulations (comparing figs. S13 and S4). At 50 Ma, the high-pressure anomaly driven by SAM heating is very weak and more symmetric across the equator, consistent with the near-equatorial nature of the heating. As the SAM heating intensifies and shifts northward, a modern-like SAH emerges, extends into North Africa, and induces strong subsidence there. These LBM experiments clearly demonstrate that the establishment of the monsoon-desert teleconnection acts as a seesaw transmitting the influence of the SAM to North African climate.</p><fig position="float" id="F4" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 4.</label><caption><title>LBM-simulated geopotential height anomaly.</title><p>(<bold>A</bold>) Same as <xref rid="F2" ref-type="fig">Fig. 2C</xref> but from LBM calculations for the PI case. Regional averaging domains for the SAM, teleconnection region, and North Africa are also indicated. (<bold>B</bold>) The LBM-simulated geopotential height anomaly at 150 hPa over the teleconnection region, with varying intensity (<italic toggle="yes">x</italic> axis) and latitude (<italic toggle="yes">y</italic> axis) of the prescribed heating. The circles represent the L2022 results with number indicating time period.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1112-f4.webp"><?image-name sciadv.aee1112-f4.webp?><?image-size 126042?><?image-md5 90107c1ffc36488bb1ff7a639653c174?><?image-image-server-status NEED_LOADING?><?image-original-height 2114?><?image-original-width 1600?><?image-scaled-height 2114?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/78d5/13721956/90107c1ffc36/sciadv.aee1112-f4.webp?><?thumb-name sciadv.aee1112-f4.gif?><?thumb-size 12265?><?thumb-md5 4537f3dc59f5cf0cb63868d86cc0b1c7?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 151?><?thumb-cloudpmc-urn urn:cdn:blobs/78d5/13721956/4537f3dc59f5/sciadv.aee1112-f4.gif?></graphic></fig><p>Both the intensification and northward shift of SAM precipitation may contribute to the enhanced monsoon-desert teleconnection. In addition to the increase in SAM precipitation that occurred between 50 Ma and the PI period, the SAM rainfall centroid shifted northward from 10°N to nearly 20°N in L2022_default (fig. S7A; a weaker shift occurred in F2019, fig. S5C). To quantify their relative contributions, we perform sensitivity experiments. Using the LBM simulation at 0 Ma as a reference, we independently vary the strength and the latitude of the prescribed heating. The LBM-simulated responses for different combinations of these perturbed parameters are presented in a matrix, illustrating the parameter dependences of the remote influence of the SAM on North African climate (<xref rid="F4" ref-type="fig">Fig. 4B</xref>). As expected, the high-pressure anomaly (and subsidence over North Africa; fig. S14) strengthens as SAM heating either intensifies or shifts poleward. The effect of a poleward shift of 10°N is roughly equivalent to a 70% increase in heating intensity (i.e., the slope of the color contours in <xref rid="F4" ref-type="fig">Fig. 4B</xref>). The paleoclimate simulation results (circles in <xref rid="F4" ref-type="fig">Fig. 4B</xref>) are qualitatively consistent with the LBM calculations. Specifically, the paleoclimate simulations across all time periods align along a line nearly perpendicular to the color contours, indicating that the poleward shift and intensification of SAM precipitation contribute almost equally to the formation of high pressure and subsidence over Northern Africa.</p></sec></sec><sec sec-type="discussion" disp-level="1"><title>DISCUSSION</title><p>This study demonstrates that the development of the SAM as a major driver of the pronounced early Cenozoic drying of North Africa, based on both paleo-proxies and modeling. The zonal seesaw arises from the monsoon-desert mechanism, which strengthened as SAM precipitation intensified and shifted poleward beyond the deep tropics. LBM experiments establish the causal atmospheric pathway and show that the intensification and poleward displacement of SAM heating make comparable contributions to high pressure and subsidence over North Africa. The particularly strong sensitivity to the latitude of SAM heating reveals an important control on regional circulation that has received limited attention in previous studies. A schematic diagram (<xref rid="F5" ref-type="fig">Fig. 5</xref>) summarizes the key circulation features across different stages of the Cenozoic.</p><fig position="float" id="F5" fig-type="image" specific-use="distribute" orientation="portrait"><label>Fig. 5.</label><caption><title>Schematic illustration of the monsoon-desert mechanism at different stages of SAM development.</title><p>(<bold>A</bold>) Present day, (<bold>B</bold>) the middle stage (i.e., Miocene), and (<bold>C</bold>) the early stage (i.e., Eocene). Yellow shading indicates arid regions, while green shading denotes monsoon regions. White clouds highlight regions of climatological intense convection and heavy precipitation. The vertical panels depict the associated upper-tropospheric high-pressure anomaly. Dashed blue arrows mark the large-scale circulation (the upper troposphere is an anticyclone circulation), with arrow size reflecting intensity. The color stars indicate the poleward shift of SAM precipitation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="sciadv.aee1112-f5.webp"><?image-name sciadv.aee1112-f5.webp?><?image-size 138502?><?image-md5 880ce9e033bcdd36d93098068b4e6cac?><?image-image-server-status NEED_LOADING?><?image-original-height 2003?><?image-original-width 1600?><?image-scaled-height 2003?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/78d5/13721956/880ce9e033bc/sciadv.aee1112-f5.webp?><?thumb-name sciadv.aee1112-f5.gif?><?thumb-size 11891?><?thumb-md5 adf42b2b9f0c1373cb3c34a8314014cc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 160?><?thumb-cloudpmc-urn urn:cdn:blobs/78d5/13721956/adf42b2b9f0c/sciadv.aee1112-f5.gif?></graphic></fig><p>The contrasting relationships between South Asian and North African hydroclimate under different climate states should not be interpreted as an intrinsic dependence on timescale. Rather, their net covariability reflects the relative magnitudes and spatial structures of the forcings acting on the two regions. Global or hemispheric forcings, including CO<sub>2</sub>, aerosols, orbital insolation, and high-latitude climate changes, can generate coherent hydroclimate responses in North Africa and South Asia (table S1), whereas regional paleogeographic changes that strengthen and poleward-displace SAM heating favor an antiphase response through the monsoon-desert mechanism. During the early Cenozoic transition, SAM forcing was strong enough to contribute substantially to North African drying, whereas at other times, its influence may have been reinforced or masked by competing forcings.</p><p>Although SAM development contributed substantially to early Cenozoic North African aridification, other paleogeographic factors may also have played a role. For instance, the shrinkage of the Tethys may enhance the onset of the Sahara Desert (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>). However, the timing of Tethys closure remains subject to considerable uncertainty (<xref rid="R49" ref-type="bibr"><italic toggle="yes">49</italic></xref>). In addition, differences in paleogeographic reconstructions between Zhang <italic toggle="yes">et al.</italic> (<xref rid="R13" ref-type="bibr"><italic toggle="yes">13</italic></xref>) and this study may further contribute to discrepancies and uncertainties in the timing of North African aridification. Notably, the retreat of the Tethys has also been suggested to strengthen the SAM (<xref rid="R50" ref-type="bibr"><italic toggle="yes">50</italic></xref>), which, based on our results, could lead to North African aridification. Future studies should further evaluate the relative contributions of remote (SAM) and local (Tethys) influences on North African climate. Last, it is important to note that the proposed seesaw relationship is presumably unidirectional, as the NAM is unlikely to exert a substantial influence on the SAM.</p><p>The geographical configuration that enables a strong SAM-NAM monsoon-desert teleconnection may be unique in Earth’s history, at least on intercontinental scales. Two key conditions must be met to establish such a linkage. First, the driving monsoon must be strong, with its rainfall center located more than 15° off the equator typically requiring prominent geographic features such as large mountains (e.g., the Himalayas for the SAM) or a supercontinent [e.g., the Pangaea monsoon; (<xref rid="R51" ref-type="bibr"><italic toggle="yes">51</italic></xref>, <xref rid="R52" ref-type="bibr"><italic toggle="yes">52</italic></xref>)]. Second, there must be another land monsoon located to the west within the reach of the stationary Rossby wave response (roughly 90° of longitude). A preliminary examination of paleoclimate simulations (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>) suggests that over the past 540 Ma, no other monsoon pairs meet these conditions or exhibit a similar linkage. This makes the NAM an outlier among monsoons and helps explain some of its distinctive features. Our findings also have important implications for regional climate evolution, for example, showing how and why subtropical high-pressure centers and ocean gyres evolved in paleoclimates across different timescales.</p></sec><sec sec-type="materials|methods" disp-level="1"><title>MATERIALS AND METHODS</title><sec disp-level="2"><title>Paleoclimate simulations</title><p>In this study, two sets of paleoclimate simulations are used. The first set of simulation [(<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>); short for L2022] is carried out by the authors at Peking University. These simulations use a time-slice approach, covering the period from 50 to 0 Ma (i.e., the Early Eocene to the PI) at 5-million-year intervals. A brief description of the simulation setup is provided here, and full details are available in Li <italic toggle="yes">et al.</italic> (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>). The simulations were conducted using the Community Earth System Model (CESM1.2.2), which includes components for the atmosphere (CAM4), ocean (POP2), land (CLM4), sea ice (CICE4), and river runoff. Dynamic vegetation is simulated using the carbon-nitrogen-dynamic vegetation module in CLM4.</p><p>For each geological period, paleogeographic boundary conditions, including continental configuration, topography, and bathymetry, were prescribed using the paleo-digital elevation model developed by Scotese and Wright (<xref rid="R53" ref-type="bibr"><italic toggle="yes">53</italic></xref>). CO<sub>2</sub> concentrations were tuned to match the reconstructed global mean surface temperatures (<xref rid="R54" ref-type="bibr"><italic toggle="yes">54</italic></xref>) in each simulation. Other atmospheric constituents and orbital parameters were fixed at PI simulation values. Each time-slice simulation includes a low-resolution atmosphere-ocean coupled simulation and high-resolution atmosphere-only simulation. The low-resolution simulations have a horizontal resolution of 3.75° × 3.75°. Each time-slice simulation is run to reach equilibrium (more than 3000 model years). Then, the climatological monthly mean sea surface temperature and sea ice, as well as annual mean vegetation, averaged over the final 100 model years, are used as boundary conditions for the high-resolution simulations. The high-resolution simulations use a horizontal resolution of 0.9° × 1.25° and run for 100 model years. The last 60 model years are used for analysis. The results are similar between the low- and high-resolution simulations, and we focus on the results of the high-resolution simulation (referred to as L2022_default). A set of fixed-CO<sub>2</sub> experiments was also conducted to isolate the effect of greenhouse gas forcing. In these simulations, CO<sub>2</sub> is fixed at 2800 ppm (10 times the PI level), while all other configurations remain the same as in the experiments described above. This set of simulations is referred to as L2022_fixCO2.</p><p>The second set of paleoclimate simulations [(<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>); short for F2019] was carried out by the author at the University of Bristol. It shares a similar modeling approach to the L2022. However, there are notable differences in the models and simulation settings. The F2019 experiments were performed using the HadCM3 model (HadCM3L v4.5) with a horizontal resolution of 3.75° × 2.5° for atmosphere and 3.75° × 2.5° for ocean, with an interactive vegetation scheme, TRIFFID [see Farnsworth <italic toggle="yes">et al.</italic> (<xref rid="R31" ref-type="bibr"><italic toggle="yes">31</italic></xref>) for further details]. The time interval of simulations is uneven following geological stage boundaries; there are 14 simulations from 40 Ma to PI. The paleogeographic boundary conditions were derived from Getech paleogeographic reconstructions produced by the Getech Plc group. The CO<sub>2</sub> concentrations were prescribed based on idealized estimations similar to Foster <italic toggle="yes">et al.</italic> (<xref rid="R55" ref-type="bibr"><italic toggle="yes">55</italic></xref>). Thus, there is a deviation of approximately 1 K in the time series of global mean surface temperature between L2022_default and F2019. Each simulation was run for 1400 model years and reached quasi-equilibrium.</p><p>Both the CESM1.2.2 and HadCM3 models well reproduce key features of modern monsoon precipitation and circulation climatology compared to other similar generation GCMs [(<xref rid="R56" ref-type="bibr"><italic toggle="yes">56</italic></xref>); figs. S3 to S6]. Evaporite proxies are used here to assess the performance of the paleoclimate simulations. Evaporite formation typically occurs within a net precipitation (precipitation minus evaporation) range of 0 to 300 mm/year. As shown in fig. S15, the evaporite records largely fall within this range in the simulations, corresponding approximately to the margins of arid regions in fig. S3.</p></sec><sec disp-level="2"><title>Linear baroclinic model</title><p>A simple model, the LBM (<xref rid="R47" ref-type="bibr"><italic toggle="yes">47</italic></xref>), is used to examine atmospheric remote responses to prescribed heating. The LBM is based on a set of primitive equations linearized around a climatological mean state. Compared to the Gill model (<xref rid="R41" ref-type="bibr"><italic toggle="yes">41</italic></xref>), it uses spherical coordinates and allows for vertical structure and background winds. In our simulations, the LBM uses a horizontal resolution of T42 and 20 unevenly spaced sigma levels vertically. The basic state is the zonally averaged climatology of boreal summer from the NCEP reanalysis from 1958 to 1997. To force the LBM, we prescribe steady diabatic heating over the SAM region (0 to 40°N, 60 to 90°E). The heating fields are extracted from the paleoclimate simulation at each time period. To reduce noise, we approximate the extracted heating using one (for 50 to 30 Ma) or two (for 20 to 0 Ma) two-dimensional Gaussian-shaped heating distributions (fig. S12). The vertical structure of the heating is also simplified (fig. S12). Each simulation is integrated for 30 days, and the last 10 days are averaged to obtain the equilibrium response.</p></sec></sec></body><back><ack><title>Acknowledgments</title><p>We thank the editor and reviewers for valuable comments and constructive suggestions. We also thank X. Bao for sharing evaporite records. Simulations were performed on the High-Performance Computing Platform of Peking University.</p><sec sec-type="funding"><title>Funding:</title><p>This research was supported by the National Natural Science Foundation of China grants 42488201 (to Y.H.) and 42375057 (to J.N.), the Beijing Natural Science Foundation grant JQ23037 (to J.N.), and the NSFGEO-NERC grant NE/X015505/1 (to A.F.). This is a contribution to the Deep-time Digital Earth.</p></sec><sec sec-type="author-contributions"><title>Author contributions:</title><p>Conceptualization: Z.Y., J.N., W.R.B., Z.Z., Z.G., and Y.H. Methodology: Z.Y., J.N., A.F., J.Y., and Y.H. Formal analysis: Z.Y., J.N., A.F., and Y.H. Investigation: Z.Y., J.N., A.F., Z.Z., Y.H., and Y.L. Visualization: Z.Y., Y.H., and Z.Z. Supervision: J.N., Y.H., and Z.G. Writing—original draft: Z.Y., J.N., and Z.Z. Writing—review and editing: Z.Y., J.N., W.R.B., A.F., Z.Z., Y.L., J.Y., Z.G., and Y.H. Funding acquisition: Y.H., J.N., and Z.G.</p></sec><sec sec-type="COI-statement"><title>Competing interests:</title><p>The authors declare that they have no competing interests.</p></sec><sec sec-type="data-availability"><title>Data, code, and materials availability:</title><p>All data and code needed to evaluate and reproduce the results in the paper are present in the paper and/or the Supplementary Materials. This study did not generate new materials. The NCEP Reanalysis-2 data are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html" ext-link-type="uri">https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html</ext-link>. The GPCP precipitation data are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cds.climate.copernicus.eu/datasets/" ext-link-type="uri">https://cds.climate.copernicus.eu/datasets/</ext-link>. The data of evaporites were provided by Bao <italic toggle="yes">et al.</italic> (<xref rid="R33" ref-type="bibr"><italic toggle="yes">33</italic></xref>); the corresponding study is available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.1093/nsr/nwad051" ext-link-type="uri">https://doi.org/10.1093/nsr/nwad051</ext-link>. The paleoclimate simulation data of L2022 are available from Li <italic toggle="yes">et al.</italic> (<xref rid="R30" ref-type="bibr"><italic toggle="yes">30</italic></xref>) at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.6084/m9.figshare.19920662" ext-link-type="uri">https://doi.org/10.6084/m9.figshare.19920662</ext-link>. The simulation data of F2019 are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://paleo.bristol.ac.uk/ummodel/scripts/papers/" ext-link-type="uri">https://paleo.bristol.ac.uk/ummodel/scripts/papers/</ext-link>. The analyses data are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.19398159" ext-link-type="uri">https://doi.org/10.5281/zenodo.19398159</ext-link>.</p></sec></ack><sec sec-type="supplementary-material"><title>Supplementary Materials</title><sec><title>This PDF file includes:</title><supplementary-material position="float" content-type="local-data" orientation="portrait"><caption><p>Figs. S1 to S15</p><p>Tables S1 and S2</p><p>References</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sciadv.aee1112_sm.pdf" position="float" orientation="portrait"><?suppdata-name sciadv.aee1112_sm.pdf?><?suppdata-size 15774813?><?suppdata-md5 c75e39409050d6915f0b195c92ff24fa?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:78d5/13721956/c75e39409050/sciadv.aee1112_sm.pdf?></media></supplementary-material></sec></sec><ref-list><title>REFERENCES</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C. S.</given-names>
+<surname>Swezey</surname></string-name></person-group>, 
+<article-title>Cenozoic stratigraphy of the Sahara, Northern Africa</article-title>. <source>J. Afr. Earth. Sci.</source>
+<volume>53</volume>, 
+<fpage>89</fpage>–<lpage>121</lpage> (<year>2009</year>).</mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="book">S. J. Feakins, P. B. Demenocal, in <italic toggle="yes">Cenozoic Mammals of Africa</italic>, L. Werdelin, Ed. (University of California Press, 2010).</mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="book">J. Knight, Geology and Long-Term Landscape Evolution of the Central Sahara, in <source>Landscapes and Landforms of the Central Sahara</source> (Springer, Cham, 2023), chap. 2, pp. 9–22. <pub-id pub-id-type="doi">10.1007/978-3-031-47160-5_2</pub-id>.</mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Schuster</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Duringer</surname></string-name>, <string-name name-style="western"><given-names>J.-F.</given-names>
+<surname>Ghienne</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Vignaud</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Mackaye</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Likius</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Brunet</surname></string-name></person-group>, 
+<article-title>The age of the Sahara Desert</article-title>. <source>Science</source>
+<volume>311</volume>, 
+<fpage>821</fpage> (<year>2006</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1120161</pub-id><pub-id pub-id-type="pmid">16469920</pub-id></mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A. J.</given-names>
+<surname>Crocker</surname></string-name>, <string-name name-style="western"><given-names>B. D. A.</given-names>
+<surname>Naafs</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Westerhold</surname></string-name>, <string-name name-style="western"><given-names>R. H.</given-names>
+<surname>James</surname></string-name>, <string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Cooper</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Röhl</surname></string-name>, <string-name name-style="western"><given-names>R. D.</given-names>
+<surname>Pancost</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Xuan</surname></string-name>, <string-name name-style="western"><given-names>C. P.</given-names>
+<surname>Osborne</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Beerling</surname></string-name>, <string-name name-style="western"><given-names>P. A.</given-names>
+<surname>Wilson</surname></string-name></person-group>, 
+<article-title>Astronomically controlled aridity in the Sahara since at least 11 million years ago</article-title>. <source>Nat. Geosci.</source>
+<volume>15</volume>, 
+<fpage>671</fpage>–<lpage>676</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Bonfils</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>de Noblet-Ducoudré</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Braconnot</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Joussaume</surname></string-name></person-group>, 
+<article-title>Hot desert albedo and climate change: Mid-Holocene monsoon in North Africa</article-title>. <source>J. Clim.</source>
+<volume>14</volume>, 
+<fpage>3724</fpage>–<lpage>3737</lpage> (<year>2001</year>).</mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>K.</given-names>
+<surname>Emanuel</surname></string-name></person-group>, 
+<article-title>Tropical cyclone seeds, transition probabilities, and genesis</article-title>. <source>J. Clim.</source>
+<volume>35</volume>, 
+<fpage>3557</fpage>–<lpage>3566</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T.</given-names>
+<surname>Jickells</surname></string-name>, <string-name name-style="western"><given-names>C. M.</given-names>
+<surname>Moore</surname></string-name></person-group>, 
+<article-title>The importance of atmospheric deposition for ocean productivity</article-title>. <source>Annu. Rev. Ecol. Evol. Syst.</source>
+<volume>46</volume>, 
+<fpage>481</fpage>–<lpage>501</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S. J.</given-names>
+<surname>Feakins</surname></string-name>, <string-name name-style="western"><given-names>N. E.</given-names>
+<surname>Levin</surname></string-name>, <string-name name-style="western"><given-names>H. M.</given-names>
+<surname>Liddy</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Sieracki</surname></string-name>, <string-name name-style="western"><given-names>T. I.</given-names>
+<surname>Eglinton</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Bonnefille</surname></string-name></person-group>, 
+<article-title>Northeast African vegetation change over 12 m.y</article-title>. <source>Geology</source>
+<volume>41</volume>, 
+<fpage>295</fpage>–<lpage>298</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S.</given-names>
+<surname>Shultz</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Maslin</surname></string-name></person-group>, 
+<article-title>Early human speciation, brain expansion and dispersal influenced by African climate pulses</article-title>. <source>PLOS ONE</source>
+<volume>8</volume>, 
+<fpage>e76750</fpage> (<year>2013</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0076750</pub-id><pub-id pub-id-type="pmcid">PMC3797764</pub-id><pub-id pub-id-type="pmid">24146922</pub-id></mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Pagani</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Zinniker</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>DeConto</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Huber</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Brinkhuis</surname></string-name>, <string-name name-style="western"><given-names>S. R.</given-names>
+<surname>Shah</surname></string-name>, <string-name name-style="western"><given-names>R. M.</given-names>
+<surname>Leckie</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Pearson</surname></string-name></person-group>, 
+<article-title>Global cooling during the Eocene-Oligocene climate transition</article-title>. <source>Science</source>
+<volume>323</volume>, 
+<fpage>1187</fpage>–<lpage>1190</lpage> (<year>2009</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1166368</pub-id><pub-id pub-id-type="pmid">19251622</pub-id></mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Flögel</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Fang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Sun</surname></string-name></person-group>, 
+<article-title>Modeling the effects of global cooling and the Tethyan Seaway closure on North African and South Asian climates during the Middle Miocene Climate Transition</article-title>. <source>Palaeogeogr. Palaeoclimatol. Palaeoecol.</source>
+<volume>619</volume>, 
+<fpage>111541</fpage> (<year>2023</year>).</mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Ramstein</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Schuster</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Contoux</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Yan</surname></string-name></person-group>, 
+<article-title>Aridification of the Sahara desert caused by Tethys Sea shrinkage during the Late Miocene</article-title>. <source>Nature</source>
+<volume>513</volume>, 
+<fpage>401</fpage>–<lpage>404</lpage> (<year>2014</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature13705</pub-id><pub-id pub-id-type="pmid">25230661</pub-id></mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. A.</given-names>
+<surname>Cane</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Molnar</surname></string-name></person-group>, 
+<article-title>Closing of the Indonesian seaway as a precursor to east African aridification around 3-4 million years ago</article-title>. <source>Nature</source>
+<volume>411</volume>, 
+<fpage>157</fpage>–<lpage>162</lpage> (<year>2001</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/35075500</pub-id><pub-id pub-id-type="pmid">11346785</pub-id></mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P.</given-names>
+<surname>Sepulchre</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Ramstein</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Fluteau</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Schuster</surname></string-name>, <string-name name-style="western"><given-names>J.-J.</given-names>
+<surname>Tiercelin</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Brunet</surname></string-name></person-group>, 
+<article-title>Tectonic uplift and Eastern Africa aridification</article-title>. <source>Science</source>
+<volume>313</volume>, 
+<fpage>1419</fpage>–<lpage>1423</lpage> (<year>2006</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1129158</pub-id><pub-id pub-id-type="pmid">16960002</pub-id></mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Rodwell</surname></string-name>, <string-name name-style="western"><given-names>B. J.</given-names>
+<surname>Hoskins</surname></string-name></person-group>, 
+<article-title>Subtropical anticyclones and summer monsoons</article-title>. <source>J. Clim.</source>
+<volume>14</volume>, 
+<fpage>3192</fpage>–<lpage>3211</lpage> (<year>2001</year>).</mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Rodwell</surname></string-name>, <string-name name-style="western"><given-names>B. J.</given-names>
+<surname>Hoskins</surname></string-name></person-group>, 
+<article-title>Monsoons and the dynamics of deserts</article-title>. <source>Q. J. R. Meteorol. Soc.</source>
+<volume>122</volume>, 
+<fpage>1385</fpage>–<lpage>1404</lpage> (<year>1996</year>).</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>H.-J.</given-names>
+<surname>Kim</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names>
+<surname>Webster</surname></string-name>, <string-name name-style="western"><given-names>S.-Y.</given-names>
+<surname>Yim</surname></string-name></person-group>, 
+<article-title>Recent change of the global monsoon precipitation (1979-2008)</article-title>. <source>Clim. Dyn.</source>
+<volume>39</volume>, 
+<fpage>1123</fpage>–<lpage>1135</lpage> (<year>2012</year>).</mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Cherchi</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Annamalai</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Masina</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Navarra</surname></string-name></person-group>, 
+<article-title>South Asian summer monsoon and the Eastern Mediterranean climate: The monsoon-desert mechanism in CMIP5 simulations</article-title>. <source>J. Clim.</source>
+<volume>27</volume>, 
+<fpage>6877</fpage>–<lpage>6903</lpage> (<year>2014</year>).</mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Jin</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>Future changes and controlling factors of the eight regional monsoons projected by CMIP6 models</article-title>. <source>J. Clim.</source>
+<volume>33</volume>, 
+<fpage>9307</fpage>–<lpage>9326</lpage> (<year>2020</year>).</mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Biasutti</surname></string-name>, <string-name name-style="western"><given-names>M. P.</given-names>
+<surname>Byrne</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Castro</surname></string-name>, <string-name name-style="western"><given-names>C.-P.</given-names>
+<surname>Chang</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Cook</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Fu</surname></string-name>, <string-name name-style="western"><given-names>A. M.</given-names>
+<surname>Grimm</surname></string-name>, <string-name name-style="western"><given-names>K.-J.</given-names>
+<surname>Ha</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Hendon</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Kitoh</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Krishnan</surname></string-name>, <string-name name-style="western"><given-names>J.-Y.</given-names>
+<surname>Lee</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Moise</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Pascale</surname></string-name>, <string-name name-style="western"><given-names>M. K.</given-names>
+<surname>Roxy</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Seth</surname></string-name>, <string-name name-style="western"><given-names>C.-H.</given-names>
+<surname>Sui</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Turner</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>K.-S.</given-names>
+<surname>Yun</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhou</surname></string-name></person-group>, 
+<article-title>Monsoons climate change assessment</article-title>. <source>Bull. Am. Meteorol. Soc.</source>
+<volume>102</volume>, 
+<fpage>E1</fpage>–<lpage>E19</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. M.</given-names>
+<surname>Dogar</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Sato</surname></string-name></person-group>, 
+<article-title>Regional climate response of Middle Eastern, African, and South Asian monsoon regions to explosive volcanism and ENSO forcing</article-title>. <source>J. Geophys. Res. Atmos.</source>
+<volume>124</volume>, 
+<fpage>7580</fpage>–<lpage>7598</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R.</given-names>
+<surname>Krishnan</surname></string-name>, <string-name name-style="western"><given-names>T. P.</given-names>
+<surname>Sabin</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Vellore</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Mujumdar</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Sanjay</surname></string-name>, <string-name name-style="western"><given-names>B. N.</given-names>
+<surname>Goswami</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Hourdin</surname></string-name>, <string-name name-style="western"><given-names>J. L.</given-names>
+<surname>Dufresne</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Terray</surname></string-name></person-group>, 
+<article-title>Deciphering the desiccation trend of the South Asian monsoon hydroclimate in a warming world</article-title>. <source>Clim. Dyn.</source>
+<volume>47</volume>, 
+<fpage>1007</fpage>–<lpage>1027</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D.</given-names>
+<surname>Texier</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>de Noblet</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Braconnot</surname></string-name></person-group>, 
+<article-title>Sensitivity of the African and Asian monsoons to mid-Holocene insolation and data-inferred surface changes</article-title>. <source>J. Clim.</source>
+<volume>13</volume>, 
+<fpage>164</fpage>–<lpage>181</lpage> (<year>2000</year>).</mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D.</given-names>
+<surname>Fleitmann</surname></string-name>, <string-name name-style="western"><given-names>S. J.</given-names>
+<surname>Burns</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Mudelsee</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Neff</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Kramers</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Mangini</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Matter</surname></string-name></person-group>, 
+<article-title>Holocene forcing of the Indian monsoon recorded in a stalagmite from southern Oman</article-title>. <source>Science</source>
+<volume>300</volume>, 
+<fpage>1737</fpage>–<lpage>1739</lpage> (<year>2003</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1083130</pub-id><pub-id pub-id-type="pmid">12805545</pub-id></mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Dallmeyer</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Claussen</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Fischer</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Haberkorn</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Wagner</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Pfeiffer</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Jin</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Khon</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Herzschuh</surname></string-name></person-group>, 
+<article-title>The evolution of sub-monsoon systems in the Afro-Asian monsoon region during the Holocene—Comparison of different transient climate model simulations</article-title>. <source>Clim. Past</source>
+<volume>11</volume>, 
+<fpage>305</fpage>–<lpage>326</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T.</given-names>
+<surname>Felis</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Pätzold</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Loya</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Fine</surname></string-name>, <string-name name-style="western"><given-names>A. H.</given-names>
+<surname>Nawar</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Wefer</surname></string-name></person-group>, 
+<article-title>A coral oxygen isotope record from the northern Red Sea documenting NAO, ENSO, and North Pacific teleconnections on Middle East climate variability since the year 1750</article-title>. <source>Paleoceanography</source>
+<volume>15</volume>, 
+<fpage>679</fpage>–<lpage>694</lpage> (<year>2000</year>).</mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C. S.</given-names>
+<surname>Miller</surname></string-name>, <string-name name-style="western"><given-names>S. A. G.</given-names>
+<surname>Leroy</surname></string-name>, <string-name name-style="western"><given-names>P. E. F.</given-names>
+<surname>Collins</surname></string-name>, <string-name name-style="western"><given-names>H. A. K.</given-names>
+<surname>Lahijani</surname></string-name></person-group>, 
+<article-title>Late Holocene vegetation and ocean variability in the Gulf of Oman</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>143</volume>, 
+<fpage>120</fpage>–<lpage>132</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Bekeschus</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Handorf</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Dallmeyer</surname></string-name>, <string-name name-style="western"><given-names>U.</given-names>
+<surname>Herzschuh</surname></string-name></person-group>, 
+<article-title>Coherent tropical-subtropical Holocene see-saw moisture patterns in the Eastern Hemisphere monsoon systems</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>169</volume>, 
+<fpage>231</fpage>–<lpage>242</lpage> (<year>2017</year>).</mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Lan</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Lin</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Bao</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Wei</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Man</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Yin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Han</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Zhu</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nie</surname></string-name></person-group>, 
+<article-title>A high-resolution climate simulation dataset for the past 540 million years</article-title>. <source>Sci. Data</source>
+<volume>9</volume>, 
+<fpage>371</fpage> (<year>2022</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41597-022-01490-4</pub-id><pub-id pub-id-type="pmcid">PMC9240078</pub-id><pub-id pub-id-type="pmid">35764652</pub-id></mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Farnsworth</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Lunt</surname></string-name>, <string-name name-style="western"><given-names>S. A.</given-names>
+<surname>Robinson</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names>
+<surname>Valdes</surname></string-name>, <string-name name-style="western"><given-names>W. H. G.</given-names>
+<surname>Roberts</surname></string-name>, <string-name name-style="western"><given-names>P. D.</given-names>
+<surname>Clift</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Markwick</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Su</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Wrobel</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Bragg</surname></string-name>, <string-name name-style="western"><given-names>S.-J.</given-names>
+<surname>Kelland</surname></string-name>, <string-name name-style="western"><given-names>R. D.</given-names>
+<surname>Pancost</surname></string-name></person-group>, 
+<article-title>Past East Asian monsoon evolution controlled by paleogeography, not CO<sub>2</sub></article-title>. <source>Sci. Adv.</source>
+<volume>5</volume>, 
+<fpage>eaax1697</fpage> (<year>2019</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.aax1697</pub-id><pub-id pub-id-type="pmcid">PMC6821471</pub-id><pub-id pub-id-type="pmid">31692956</pub-id></mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Abouessa</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Duringer</surname></string-name></person-group>, 
+<article-title>The macroscopic paleo-pedogenic features and their significance in deducing the continuity of sedimentation and the climatic changes during the Eocene/Oligocene transition, Dur At Talah sequence, central Libya</article-title>. <source>J. Afr. Earth. Sci.</source>
+<volume>190</volume>, 
+<fpage>104524</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>X.</given-names>
+<surname>Bao</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>C. R.</given-names>
+<surname>Scotese</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Lan</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Lin</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Wei</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Man</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Yin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Han</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Wei</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nie</surname></string-name></person-group>, 
+<article-title>Quantifying climate conditions for the formation of coals and evaporites</article-title>. <source>Natl. Sci. Rev.</source>
+<volume>10</volume>, 
+<fpage>nwad051</fpage> (<year>2023</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nsr/nwad051</pub-id><pub-id pub-id-type="pmcid">PMC10171626</pub-id><pub-id pub-id-type="pmid">37181086</pub-id></mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="book">A. J. Boucot, C. Xu, C. R. Scotese, R. J. Morley, <italic toggle="yes">Phanerozoic Paleoclimate: An Atlas of Lithologic Indicators of Climate</italic> (SEPM Society for Sedimentary Geology, 2013).</mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="book">P. D. Clift, A. A. G. Webb, <italic toggle="yes">Himalayan Tectonics: A Modern Synthesis</italic> (Geological Society of London, 2019), vol. 483.</mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>F.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Fang</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Dupont-Nivet</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nie</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Fluteau</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Han</surname></string-name></person-group>, 
+<article-title>Reorganization of Asian climate in relation to Tibetan Plateau uplift</article-title>. <source>Nat. Rev. Earth Environ.</source>
+<volume>3</volume>, 
+<fpage>684</fpage>–<lpage>700</lpage> (<year>2022</year>).</mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. R.</given-names>
+<surname>Thomson</surname></string-name>, <string-name name-style="western"><given-names>P. B.</given-names>
+<surname>Holden</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Anand</surname></string-name>, <string-name name-style="western"><given-names>N. R.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>C. A.</given-names>
+<surname>Porchier</surname></string-name>, <string-name name-style="western"><given-names>N. B. W.</given-names>
+<surname>Harris</surname></string-name></person-group>, 
+<article-title>Tectonic and climatic drivers of Asian monsoon evolution</article-title>. <source>Nat. Commun.</source>
+<volume>12</volume>, 
+<fpage>4022</fpage> (<year>2021</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-021-24244-z</pub-id><pub-id pub-id-type="pmcid">PMC8242090</pub-id><pub-id pub-id-type="pmid">34188033</pub-id></mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="book">P. D. Clift, R. A. Plumb, <italic toggle="yes">The Asian Monsoon: Causes, History and Effects</italic> (Cambridge Univ. Press, 2008).</mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Tan</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Deng</surname></string-name></person-group>, 
+<article-title>The origin of the modern-like East Asian monsoon: Insights from new proxy data synthesis and climate modelling</article-title>. <source>Earth Sci. Rev.</source>
+<volume>271</volume>, 
+<fpage>105297</fpage> (<year>2025</year>).</mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Yao</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Shi</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>B. N.</given-names>
+<surname>Nath</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Betzler</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Lindhorst</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Miriyala</surname></string-name></person-group>, 
+<article-title>Weakening of the South Asian summer monsoon linked to interhemispheric ice-sheet growth since 12 Ma</article-title>. <source>Nat. Commun.</source>
+<volume>14</volume>, 
+<fpage>829</fpage> (<year>2023</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-023-36537-6</pub-id><pub-id pub-id-type="pmcid">PMC9929083</pub-id><pub-id pub-id-type="pmid">36788217</pub-id></mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A. E.</given-names>
+<surname>Gill</surname></string-name></person-group>, 
+<article-title>Some simple solutions for heat-induced tropical circulation</article-title>. <source>Q. J. R. Meteorol. Soc.</source>
+<volume>106</volume>, 
+<fpage>447</fpage>–<lpage>462</lpage> (<year>1980</year>).</mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A. H.</given-names>
+<surname>Sobel</surname></string-name>, <string-name name-style="western"><given-names>C. S.</given-names>
+<surname>Bretherton</surname></string-name></person-group>, 
+<article-title>Modeling tropical precipitation in a single column</article-title>. <source>J. Clim.</source>
+<volume>13</volume>, 
+<fpage>4378</fpage>–<lpage>4392</lpage> (<year>2000</year>).</mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P.</given-names>
+<surname>Molnar</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>England</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Martinod</surname></string-name></person-group>, 
+<article-title>Mantle dynamics, uplift of the Tibetan Plateau, and the Indian Monsoon</article-title>. <source>Rev. Geophys.</source>
+<volume>31</volume>, 
+<fpage>357</fpage>–<lpage>396</lpage> (<year>1993</year>).</mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Duan</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Wan</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Liang</surname></string-name></person-group>, 
+<article-title>The influence of mechanical and thermal forcing by the Tibetan Plateau on Asian climate</article-title>. <source>J. Hydrometeorol.</source>
+<volume>8</volume>, 
+<fpage>770</fpage>–<lpage>789</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>W. R.</given-names>
+<surname>Boos</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Kuang</surname></string-name></person-group>, 
+<article-title>Dominant control of the South Asian monsoon by orographic insulation versus plateau heating</article-title>. <source>Nature</source>
+<volume>463</volume>, 
+<fpage>218</fpage>–<lpage>222</lpage> (<year>2010</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature08707</pub-id><pub-id pub-id-type="pmid">20075917</pub-id></mixed-citation></ref><ref id="R46"><label>46</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>L.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names>
+<surname>Valdes</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Farnsworth</surname></string-name></person-group>, 
+<article-title>The role of the North American continent in strengthening the Asian summer monsoon</article-title>. <source>Sci. Adv.</source>
+<volume>11</volume>, 
+<fpage>eadu8589</fpage> (<year>2025</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.adu8589</pub-id><pub-id pub-id-type="pmcid">PMC12412649</pub-id><pub-id pub-id-type="pmid">40911689</pub-id></mixed-citation></ref><ref id="R47"><label>47</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Watanabe</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Kimoto</surname></string-name></person-group>, 
+<article-title>Atmosphere-ocean thermal coupling in the North Atlantic: A positive feedback</article-title>. <source>Q. J. R. Meteorol. Soc.</source>
+<volume>126</volume>, 
+<fpage>3343</fpage>–<lpage>3369</lpage> (<year>2000</year>).</mixed-citation></ref><ref id="R48"><label>48</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.-H.</given-names>
+<surname>Fu</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>S.-P.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Dynamic pathway linking Pakistan flooding to East Asian heatwaves</article-title>. <source>Sci. Adv.</source>
+<volume>10</volume>, 
+<fpage>eadk9250</fpage> (<year>2024</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.adk9250</pub-id><pub-id pub-id-type="pmcid">PMC11042738</pub-id><pub-id pub-id-type="pmid">38657060</pub-id></mixed-citation></ref><ref id="R49"><label>49</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>N.</given-names>
+<surname>McQuarrie</surname></string-name>, <string-name name-style="western"><given-names>D. J. J.</given-names>
+<surname>van Hinsbergen</surname></string-name></person-group>, 
+<article-title>Retrodeforming the Arabia-Eurasia collision zone: Age of collision versus magnitude of continental subduction</article-title>. <source>Geology</source>
+<volume>41</volume>, 
+<fpage>315</fpage>–<lpage>318</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R50"><label>50</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G.</given-names>
+<surname>Ramstein</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Fluteau</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Besse</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Joussaume</surname></string-name></person-group>, 
+<article-title>Effect of orogeny, plate motion and land-sea distribution on Eurasian climate change over the past 30 million years</article-title>. <source>Nature</source>
+<volume>386</volume>, 
+<fpage>788</fpage>–<lpage>795</lpage> (<year>1997</year>).</mixed-citation></ref><ref id="R51"><label>51</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. E.</given-names>
+<surname>Kutzbach</surname></string-name>, <string-name name-style="western"><given-names>R. G.</given-names>
+<surname>Gallimore</surname></string-name></person-group>, 
+<article-title>Pangaean climates: Megamonsoons of the megacontinent</article-title>. <source>J. Geophys. Res. Atmos.</source>
+<volume>94</volume>, 
+<fpage>3341</fpage>–<lpage>3357</lpage> (<year>1989</year>).</mixed-citation></ref><ref id="R52"><label>52</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>W. R.</given-names>
+<surname>Boos</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Lan</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Lin</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Han</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Bao</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Yuan</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Wei</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Yang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nie</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Guo</surname></string-name></person-group>, 
+<article-title>Emergence of the modern global monsoon from the Pangaea megamonsoon set by palaeogeography</article-title>. <source>Nat. Geosci.</source>
+<volume>16</volume>, 
+<fpage>1041</fpage>–<lpage>1046</lpage> (<year>2023</year>).</mixed-citation></ref><ref id="R53"><label>53</label><mixed-citation publication-type="webpage">C. R. Scotese, N. M. Wright, PALEOMAP Paleodigital Elevation Models (PaleoDEMS) for the Phanerozoic (PALEOMAP Project, 2018); <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org10.5281/zenodo.5460860" ext-link-type="uri">https://doi.org10.5281/zenodo.5460860</ext-link>.</mixed-citation></ref><ref id="R54"><label>54</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C. R.</given-names>
+<surname>Scotese</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Song</surname></string-name>, <string-name name-style="western"><given-names>B. J. W.</given-names>
+<surname>Mills</surname></string-name>, <string-name name-style="western"><given-names>D. G.</given-names>
+<surname>van der Meer</surname></string-name></person-group>, 
+<article-title>Phanerozoic paleotemperatures: The earth’s changing climate during the last 540 million years</article-title>. <source>Earth Sci. Rev.</source>
+<volume>215</volume>, 
+<fpage>103503</fpage> (<year>2021</year>).</mixed-citation></ref><ref id="R55"><label>55</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G. L.</given-names>
+<surname>Foster</surname></string-name>, <string-name name-style="western"><given-names>D. L.</given-names>
+<surname>Royer</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Lunt</surname></string-name></person-group>, 
+<article-title>Future climate forcing potentially without precedent in the last 420 million years</article-title>. <source>Nat. Commun.</source>
+<volume>8</volume>, 
+<fpage>14845</fpage> (<year>2017</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms14845</pub-id><pub-id pub-id-type="pmcid">PMC5382278</pub-id><pub-id pub-id-type="pmid">28375201</pub-id></mixed-citation></ref><ref id="R56"><label>56</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>K. R.</given-names>
+<surname>Sperber</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Annamalai</surname></string-name>, <string-name name-style="western"><given-names>I. S.</given-names>
+<surname>Kang</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Kitoh</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Moise</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Turner</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhou</surname></string-name></person-group>, 
+<article-title>The Asian summer monsoon: An intercomparison of CMIP5 vs. CMIP3 simulations of the late 20th century</article-title>. <source>Clim. Dyn.</source>
+<volume>41</volume>, 
+<fpage>2711</fpage>–<lpage>2744</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R57"><label>57</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P. X.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Fasullo</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Kiefer</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name></person-group>, 
+<article-title>The global monsoon across time scales: Mechanisms and outstanding issues</article-title>. <source>Earth Sci. Rev.</source>
+<volume>174</volume>, 
+<fpage>84</fpage>–<lpage>121</lpage> (<year>2017</year>).</mixed-citation></ref><ref id="R58"><label>58</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. C.</given-names>
+<surname>Peel</surname></string-name>, <string-name name-style="western"><given-names>B. L.</given-names>
+<surname>Finlayson</surname></string-name>, <string-name name-style="western"><given-names>T. A.</given-names>
+<surname>McMahon</surname></string-name></person-group>, 
+<article-title>Updated world map of the Köppen-Geiger climate classification</article-title>. <source>Hydrol. Earth Syst. Sci.</source>
+<volume>11</volume>, 
+<fpage>1633</fpage>–<lpage>1644</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="R59"><label>59</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R. J.</given-names>
+<surname>Morley</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Richards</surname></string-name></person-group>, 
+<article-title>Gramineae cuticle: A key indicator of Late Cenozoic climatic change in the Niger Delta</article-title>. <source>Rev. Palaeobot. Palynol.</source>
+<volume>77</volume>, 
+<fpage>119</fpage>–<lpage>127</lpage> (<year>1993</year>).</mixed-citation></ref><ref id="R60"><label>60</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. G.</given-names>
+<surname>Wynn</surname></string-name>, <string-name name-style="western"><given-names>G. J.</given-names>
+<surname>Retallack</surname></string-name></person-group>, 
+<article-title>Paleoenvironmental reconstruction of middle Miocene paleosols bearing Kenyapithecus and Victoriapithecus, Nyakach Formation, southwestern Kenya</article-title>. <source>J. Hum. Evol.</source>
+<volume>40</volume>, 
+<fpage>263</fpage>–<lpage>288</lpage> (<year>2001</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/jhev.2000.0453</pub-id><pub-id pub-id-type="pmid">11312581</pub-id></mixed-citation></ref><ref id="R61"><label>61</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P. B.</given-names>
+<surname>deMenocal</surname></string-name></person-group>, 
+<article-title>African climate change and faunal evolution during the Pliocene-Pleistocene</article-title>. <source>Earth Planet. Sci. Lett.</source>
+<volume>220</volume>, 
+<fpage>3</fpage>–<lpage>24</lpage> (<year>2004</year>).</mixed-citation></ref><ref id="R62"><label>62</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>B.</given-names>
+<surname>Senut</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Pickford</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Ségalen</surname></string-name></person-group>, 
+<article-title>Neogene desertification of Africa</article-title>. <source>C. R. Geosci.</source>
+<volume>341</volume>, 
+<fpage>591</fpage>–<lpage>602</lpage> (<year>2009</year>).</mixed-citation></ref><ref id="R63"><label>63</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Abdelkareem</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Ghoneim</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>El-Baz</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Askalany</surname></string-name></person-group>, 
+<article-title>New insight on paleoriver development in the Nile basin of the eastern Sahara</article-title>. <source>J. Afr. Earth. Sci.</source>
+<volume>62</volume>, 
+<fpage>35</fpage>–<lpage>40</lpage> (<year>2012</year>).</mixed-citation></ref><ref id="R64"><label>64</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Vaks</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Woodhead</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Bar-Matthews</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Ayalon</surname></string-name>, <string-name name-style="western"><given-names>R. A.</given-names>
+<surname>Cliff</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zilberman</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Matthews</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Frumkin</surname></string-name></person-group>, 
+<article-title>Pliocene-Pleistocene climate of the northern margin of Saharan-Arabian Desert recorded in speleothems from the Negev Desert, Israel</article-title>. <source>Earth Planet. Sci. Lett.</source>
+<volume>368</volume>, 
+<fpage>88</fpage>–<lpage>100</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="R65"><label>65</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Moussa</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Novello</surname></string-name>, <string-name name-style="western"><given-names>A.-E.</given-names>
+<surname>Lebatard</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Decarreau</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Fontaine</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Barboni</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Sylvestre</surname></string-name>, <string-name name-style="western"><given-names>D. L.</given-names>
+<surname>Bourlès</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Paillès</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Buchet</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Duringer</surname></string-name>, <string-name name-style="western"><given-names>J.-F.</given-names>
+<surname>Ghienne</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Maley</surname></string-name>, <string-name name-style="western"><given-names>J.-C.</given-names>
+<surname>Mazur</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Roquin</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Schuster</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Vignaud</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Brunet</surname></string-name></person-group>, 
+<article-title>Lake Chad sedimentation and environments during the late Miocene and Pliocene: New evidence from mineralogy and chemistry of the Bol core sediments</article-title>. <source>J. Afr. Earth. Sci.</source>
+<volume>118</volume>, 
+<fpage>192</fpage>–<lpage>204</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R66"><label>66</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D. R.</given-names>
+<surname>Muhs</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Meco</surname></string-name>, <string-name name-style="western"><given-names>J. R.</given-names>
+<surname>Budahn</surname></string-name>, <string-name name-style="western"><given-names>G. L.</given-names>
+<surname>Skipp</surname></string-name>, <string-name name-style="western"><given-names>J. F.</given-names>
+<surname>Betancort</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Lomoschitz</surname></string-name></person-group>, 
+<article-title>The antiquity of the Sahara Desert: New evidence from the mineralogy and geochemistry of Pliocene paleosols on the Canary Islands, Spain</article-title>. <source>Palaeogeogr. Palaeoclimatol. Palaeoecol.</source>
+<volume>533</volume>, 
+<fpage>109245</fpage> (<year>2019</year>).</mixed-citation></ref><ref id="R67"><label>67</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T. L. P.</given-names>
+<surname>Couvreur</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Dauby</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Blach-Overgaard</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Deblauwe</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Dessein</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Droissart</surname></string-name>, <string-name name-style="western"><given-names>O. J.</given-names>
+<surname>Hardy</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Harris</surname></string-name>, <string-name name-style="western"><given-names>S. B.</given-names>
+<surname>Janssens</surname></string-name>, <string-name name-style="western"><given-names>A. C.</given-names>
+<surname>Ley</surname></string-name>, <string-name name-style="western"><given-names>B. A.</given-names>
+<surname>Mackinder</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Sonke</surname></string-name>, <string-name name-style="western"><given-names>M. S. M.</given-names>
+<surname>Sosef</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Stevart</surname></string-name>, <string-name name-style="western"><given-names>J. C.</given-names>
+<surname>Svenning</surname></string-name>, <string-name name-style="western"><given-names>J. J.</given-names>
+<surname>Wieringa</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Faye</surname></string-name>, <string-name name-style="western"><given-names>A. D.</given-names>
+<surname>Missoup</surname></string-name>, <string-name name-style="western"><given-names>K. A.</given-names>
+<surname>Tolley</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Nicolas</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Ntie</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Fluteau</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Robin</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Guillocheau</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Barboni</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Sepulchre</surname></string-name></person-group>, 
+<article-title>Tectonics, climate and the diversification of the tropical African terrestrial flora and fauna</article-title>. <source>Biol. Rev.</source>
+<volume>96</volume>, 
+<fpage>16</fpage>–<lpage>51</lpage> (<year>2021</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/brv.12644</pub-id><pub-id pub-id-type="pmcid">PMC7821006</pub-id><pub-id pub-id-type="pmid">32924323</pub-id></mixed-citation></ref><ref id="R68"><label>68</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Lunt</surname></string-name>, <string-name name-style="western"><given-names>P. J.</given-names>
+<surname>Valdes</surname></string-name></person-group>, 
+<article-title>Diagnosing the controls on desert dust emissions through the Phanerozoic</article-title>. <source>Clim. Past</source>
+<volume>20</volume>, 
+<fpage>2561</fpage>–<lpage>2585</lpage> (<year>2024</year>).</mixed-citation></ref><ref id="R69"><label>69</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D.</given-names>
+<surname>Kroon</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Steens</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Troelstra</surname></string-name></person-group>, 
+<article-title>Onset of monsoonal related upwelling in the Western Arabian Sea as revealed by planktonic foraminifers</article-title>. <source>Proc. ODP. Sci. Res.</source>
+<volume>117</volume>, 
+<fpage>257</fpage>–<lpage>263</lpage> (<year>1991</year>).</mixed-citation></ref><ref id="R70"><label>70</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y. G.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Ji</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Balsam</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Chen</surname></string-name></person-group>, 
+<article-title>Mid-Pliocene Asian monsoon intensification and the onset of Northern Hemisphere glaciation</article-title>. <source>Geology</source>
+<volume>37</volume>, 
+<fpage>599</fpage>–<lpage>602</lpage> (<year>2009</year>).</mixed-citation></ref><ref id="R71"><label>71</label><mixed-citation publication-type="book">M. Kuppusamy, P. Ghosh, in <italic toggle="yes">Modern Climatology</italic>, S.-Y. Wang, R. Gillies, Eds. (IntechOpen, 2012).</mixed-citation></ref><ref id="R72"><label>72</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>A.</given-names>
+<surname>Shukla</surname></string-name>, <string-name name-style="western"><given-names>R. C.</given-names>
+<surname>Mehrotra</surname></string-name>, <string-name name-style="western"><given-names>R. A.</given-names>
+<surname>Spicer</surname></string-name>, <string-name name-style="western"><given-names>T. E. V.</given-names>
+<surname>Spicer</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Kumar</surname></string-name></person-group>, 
+<article-title>Cool equatorial terrestrial temperatures and the South Asian monsoon in the Early Eocene: Evidence from the Gurha Mine, Rajasthan, India</article-title>. <source>Palaeogeogr. Palaeoclimatol. Palaeoecol.</source>
+<volume>412</volume>, 
+<fpage>187</fpage>–<lpage>198</lpage> (<year>2014</year>).</mixed-citation></ref><ref id="R73"><label>73</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Betzler</surname></string-name>, <string-name name-style="western"><given-names>G. P.</given-names>
+<surname>Eberli</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Kroon</surname></string-name>, <string-name name-style="western"><given-names>J. D.</given-names>
+<surname>Wright</surname></string-name>, <string-name name-style="western"><given-names>P. K.</given-names>
+<surname>Swart</surname></string-name>, <string-name name-style="western"><given-names>B. N.</given-names>
+<surname>Nath</surname></string-name>, <string-name name-style="western"><given-names>C. A.</given-names>
+<surname>Alvarez-Zarikian</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Alonso-Garcia</surname></string-name>, <string-name name-style="western"><given-names>O. M.</given-names>
+<surname>Bialik</surname></string-name>, <string-name name-style="western"><given-names>C. L.</given-names>
+<surname>Blattler</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Haffen</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Horozal</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Inoue</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Jovane</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Lanci</surname></string-name>, <string-name name-style="western"><given-names>J. C.</given-names>
+<surname>Laya</surname></string-name>, <string-name name-style="western"><given-names>A. L.</given-names>
+<surname>Mee</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Ludmann</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Nakakuni</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Niino</surname></string-name>, <string-name name-style="western"><given-names>L. M.</given-names>
+<surname>Petruny</surname></string-name>, <string-name name-style="western"><given-names>S. D.</given-names>
+<surname>Pratiwi</surname></string-name>, <string-name name-style="western"><given-names>J. J.</given-names>
+<surname>Reijmer</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Reolid</surname></string-name>, <string-name name-style="western"><given-names>A. L.</given-names>
+<surname>Slagle</surname></string-name>, <string-name name-style="western"><given-names>C. R.</given-names>
+<surname>Sloss</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Su</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Yao</surname></string-name>, <string-name name-style="western"><given-names>J. R.</given-names>
+<surname>Young</surname></string-name></person-group>, 
+<article-title>The abrupt onset of the modern South Asian Monsoon winds</article-title>. <source>Sci. Rep.</source>
+<volume>6</volume>, 
+<fpage>29838</fpage> (<year>2016</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep29838</pub-id><pub-id pub-id-type="pmcid">PMC4951686</pub-id><pub-id pub-id-type="pmid">27436574</pub-id></mixed-citation></ref><ref id="R74"><label>74</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Betzler</surname></string-name>, <string-name name-style="western"><given-names>G. P.</given-names>
+<surname>Eberli</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Lüdmann</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Reolid</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Kroon</surname></string-name>, <string-name name-style="western"><given-names>J. J. G.</given-names>
+<surname>Reijmer</surname></string-name>, <string-name name-style="western"><given-names>P. K.</given-names>
+<surname>Swart</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Wright</surname></string-name>, <string-name name-style="western"><given-names>J. R.</given-names>
+<surname>Young</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Alvarez-Zarikian</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Alonso-García</surname></string-name>, <string-name name-style="western"><given-names>O. M.</given-names>
+<surname>Bialik</surname></string-name>, <string-name name-style="western"><given-names>C. L.</given-names>
+<surname>Blättler</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Haffen</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Horozal</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Inoue</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Jovane</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Lanci</surname></string-name>, <string-name name-style="western"><given-names>J. C.</given-names>
+<surname>Laya</surname></string-name>, <string-name name-style="western"><given-names>A. L.</given-names>
+<surname>Hui Mee</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Nakakuni</surname></string-name>, <string-name name-style="western"><given-names>B. N.</given-names>
+<surname>Nath</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Niino</surname></string-name>, <string-name name-style="western"><given-names>L. M.</given-names>
+<surname>Petruny</surname></string-name>, <string-name name-style="western"><given-names>S. D.</given-names>
+<surname>Pratiwi</surname></string-name>, <string-name name-style="western"><given-names>A. L.</given-names>
+<surname>Slagle</surname></string-name>, <string-name name-style="western"><given-names>C. R.</given-names>
+<surname>Sloss</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Su</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Yao</surname></string-name></person-group>, 
+<article-title>Refinement of Miocene sea level and monsoon events from the sedimentary archive of the Maldives (Indian Ocean)</article-title>. <source>Prog. Earth Planet. Sci.</source>
+<volume>5</volume>, (<year>2018</year>).</mixed-citation></ref><ref id="R75"><label>75</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>X.</given-names>
+<surname>Fang</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Yan</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Nie</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Han</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Song</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Zan</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Yang</surname></string-name></person-group>, 
+<article-title>Paleogeography control of Indian monsoon intensification and expansion at 41 Ma</article-title>. <source>Sci. Bull.</source>
+<volume>66</volume>, 
+<fpage>2320</fpage>–<lpage>2328</lpage> (<year>2021</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.scib.2021.07.023</pub-id><pub-id pub-id-type="pmid">36654458</pub-id></mixed-citation></ref><ref id="R76"><label>76</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H.</given-names>
+<surname>Bhatia</surname></string-name>, <string-name name-style="western"><given-names>M. A.</given-names>
+<surname>Khan</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Srivastava</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Hazra</surname></string-name>, <string-name name-style="western"><given-names>R. A.</given-names>
+<surname>Spicer</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Hazra</surname></string-name>, <string-name name-style="western"><given-names>R. C.</given-names>
+<surname>Mehrotra</surname></string-name>, <string-name name-style="western"><given-names>T. E. V.</given-names>
+<surname>Spicer</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Bera</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Roy</surname></string-name></person-group>, 
+<article-title>Late Cretaceous-Paleogene Indian monsoon climate vis-à-vis movement of the Indian plate, and the birth of the South Asian Monsoon</article-title>. <source>Gondwana Res.</source>
+<volume>93</volume>, 
+<fpage>89</fpage>–<lpage>100</lpage> (<year>2021</year>).</mixed-citation></ref><ref id="R77"><label>77</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>G.</given-names>
+<surname>Xie</surname></string-name>, <string-name name-style="western"><given-names>J. F.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>S. Q.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>Y. F.</given-names>
+<surname>Yao</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Sun</surname></string-name>, <string-name name-style="western"><given-names>D. K.</given-names>
+<surname>Ferguson</surname></string-name>, <string-name name-style="western"><given-names>C. S.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Deng</surname></string-name>, <string-name name-style="western"><given-names>X. D.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>Y. F.</given-names>
+<surname>Wang</surname></string-name></person-group>, 
+<article-title>Bridging the knowledge gap on the evolution of the Asian monsoon during 26-16 Ma</article-title>. <source>Innovation</source>
+<volume>2</volume>, 
+<fpage>100110</fpage> (<year>2021</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.xinn.2021.100110</pub-id><pub-id pub-id-type="pmcid">PMC8454623</pub-id><pub-id pub-id-type="pmid">34557760</pub-id></mixed-citation></ref><ref id="R78"><label>78</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S.</given-names>
+<surname>Ali</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Hathorne</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Frank</surname></string-name></person-group>, 
+<article-title>Persistent provenance of South Asian Monsoon-induced silicate weathering over the past 27 million years</article-title>. <source>Paleoceanogr. Paleoclimatol.</source>
+<volume>36</volume>, 
+<fpage>e2020PA003909</fpage> (<year>2021</year>).</mixed-citation></ref><ref id="R79"><label>79</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P.</given-names>
+<surname>Behera</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Tiwari</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Kumar</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Sarathchandraprasad</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Tripathi</surname></string-name></person-group>, 
+<article-title>South Asian monsoon variability and Arctic sea ice extent linkages during the Late Pliocene</article-title>. <source>Paleoceanogr. Paleoclimatol.</source>
+<volume>37</volume>, 
+<fpage>e2022PA004436</fpage> (<year>2022</year>).</mixed-citation></ref><ref id="R80"><label>80</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C. S.</given-names>
+<surname>Jin</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Xu</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Hu</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Jiang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>Y.</given-names>
+<surname>Miao</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Wu</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Liang</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Su</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Sun</surname></string-name></person-group>, 
+<article-title>Tectonic and orbital forcing of the South Asian monsoon in central Tibet during the late Oligocene</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>120</volume>, 
+<fpage>e2214558120</fpage> (<year>2023</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.2214558120</pub-id><pub-id pub-id-type="pmcid">PMC10104490</pub-id><pub-id pub-id-type="pmid">37011203</pub-id></mixed-citation></ref><ref id="R81"><label>81</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>L.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Guo</surname></string-name></person-group>, 
+<article-title>Past warm intervals inform the future South Asian summer monsoon</article-title>. <source>Nature</source>
+<volume>641</volume>, 
+<fpage>653</fpage>–<lpage>659</lpage> (<year>2025</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-025-08956-6</pub-id><pub-id pub-id-type="pmid">40369141</pub-id></mixed-citation></ref><ref id="R82"><label>82</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M. M.</given-names>
+<surname>Chauhan</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Ali</surname></string-name>, <string-name name-style="western"><given-names>A. M.</given-names>
+<surname>Khan</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Kumar</surname></string-name>, <string-name name-style="western"><given-names>M. K.</given-names>
+<surname>Murari</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Samal</surname></string-name>, <string-name name-style="western"><given-names>B. P.</given-names>
+<surname>Singh</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Adlakha</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Saikia</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Phartiyal</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Sharma</surname></string-name></person-group>, 
+<article-title>Tracing South Asian monsoon variability through a late Miocene record from the himalayan foreland basin</article-title>. <source>NPJ Clim. Atmos. Sci.</source>
+<volume>9</volume>, 
+<fpage>21</fpage> (<year>2025</year>).</mixed-citation></ref><ref id="R83"><label>83</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>S.</given-names>
+<surname>Abhik</surname></string-name>, <string-name name-style="western"><given-names>F. A.</given-names>
+<surname>Capitanio</surname></string-name>, <string-name name-style="western"><given-names>B. N.</given-names>
+<surname>Goswami</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Farnsworth</surname></string-name>, <string-name name-style="western"><given-names>P. D.</given-names>
+<surname>Clift</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Dommenget</surname></string-name></person-group>, 
+<article-title>A brief history of Asian summer monsoon evolution in the Cenozoic era</article-title>. <source>NPJ Clim. Atmos. Sci.</source>
+<volume>9</volume>, 
+<fpage>5</fpage> (<year>2026</year>).</mixed-citation></ref><ref id="R84"><label>84</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>H.</given-names>
+<surname>Mutton</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Chadwick</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Collins</surname></string-name>, <string-name name-style="western"><given-names>F. H.</given-names>
+<surname>Lambert</surname></string-name>, <string-name name-style="western"><given-names>C. M.</given-names>
+<surname>Taylor</surname></string-name>, <string-name name-style="western"><given-names>R.</given-names>
+<surname>Geen</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Douville</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Saint-Lu</surname></string-name></person-group>, 
+<article-title>Understanding the uncertainty in the West African monsoon precipitation response to increasing CO<sub>2</sub></article-title>. <source>J. Clim.</source>
+<volume>38</volume>, 
+<fpage>3151</fpage>–<lpage>3168</lpage> (<year>2025</year>).</mixed-citation></ref><ref id="R85"><label>85</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.-J.</given-names>
+<surname>Chen</surname></string-name>, <string-name name-style="western"><given-names>Y.-T.</given-names>
+<surname>Hwang</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Lu</surname></string-name></person-group>, 
+<article-title>Robust increase in South Asian monsoon rainfall under warming driven by extratropical clouds and ocean</article-title>. <source>NPJ Clim. Atmos. Sci.</source>
+<volume>7</volume>, 
+<fpage>318</fpage> (<year>2024</year>).</mixed-citation></ref><ref id="R86"><label>86</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>K.</given-names>
+<surname>Marvel</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Biasutti</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Bonfils</surname></string-name></person-group>, 
+<article-title>Fingerprints of external forcings on Sahel rainfall: Aerosols, greenhouse gases, and model-observation discrepancies</article-title>. <source>Environ. Res. Lett.</source>
+<volume>15</volume>, 
+<fpage>084023</fpage> (<year>2020</year>).</mixed-citation></ref><ref id="R87"><label>87</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>He</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Gu</surname></string-name></person-group>, 
+<article-title>Distinctive changes of Asian-African summer monsoon in interglacial epochs and global warming scenario</article-title>. <source>Clim. Dyn.</source>
+<volume>62</volume>, 
+<fpage>2129</fpage>–<lpage>2145</lpage> (<year>2024</year>).</mixed-citation></ref><ref id="R88"><label>88</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R.</given-names>
+<surname>D’Agostino</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Bader</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Bordoni</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Ferreira</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Jungclaus</surname></string-name></person-group>, 
+<article-title>Northern Hemisphere monsoon response to mid-Holocene orbital forcing and greenhouse gas-induced global warming</article-title>. <source>Geophys. Res. Lett.</source>
+<volume>46</volume>, 
+<fpage>1591</fpage>–<lpage>1601</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R89"><label>89</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><collab id="coll01">COHMAP MEMBERS</collab></person-group>, 
+<article-title>Climatic changes of the last 18,000 years: Observations and model simulations</article-title>. <source>Science</source>
+<volume>241</volume>, 
+<fpage>1043</fpage>–<lpage>1052</lpage> (<year>1988</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.241.4869.1043</pub-id><pub-id pub-id-type="pmid">17747487</pub-id></mixed-citation></ref><ref id="R90"><label>90</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>J. H. C.</given-names>
+<surname>Bosmans</surname></string-name>, <string-name name-style="western"><given-names>S. S.</given-names>
+<surname>Drijfhout</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Tuenter</surname></string-name>, <string-name name-style="western"><given-names>F. J.</given-names>
+<surname>Hilgen</surname></string-name>, <string-name name-style="western"><given-names>L. J.</given-names>
+<surname>Lourens</surname></string-name></person-group>, 
+<article-title>Response of the North African summer monsoon to precession and obliquity forcings in the EC-Earth GCM</article-title>. <source>Clim. Dyn.</source>
+<volume>44</volume>, 
+<fpage>279</fpage>–<lpage>297</lpage> (<year>2015</year>).</mixed-citation></ref><ref id="R91"><label>91</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Liu</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Otto-Bliesner</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Kutzbach</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Shields</surname></string-name></person-group>, 
+<article-title>Coupled climate simulation of the evolution of global monsoons in the Holocene</article-title>. <source>J. Clim.</source>
+<volume>16</volume>, 
+<fpage>2472</fpage>–<lpage>2490</lpage> (<year>2003</year>).</mixed-citation></ref><ref id="R92"><label>92</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Y.</given-names>
+<surname>Cai</surname></string-name>, <string-name name-style="western"><given-names>I. Y.</given-names>
+<surname>Fung</surname></string-name>, <string-name name-style="western"><given-names>R. L.</given-names>
+<surname>Edwards</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>An</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Cheng</surname></string-name>, <string-name name-style="western"><given-names>J.-E.</given-names>
+<surname>Lee</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Tan</surname></string-name>, <string-name name-style="western"><given-names>C.-C.</given-names>
+<surname>Shen</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Wang</surname></string-name>, <string-name name-style="western"><given-names>J. A.</given-names>
+<surname>Day</surname></string-name>, <string-name name-style="western"><given-names>W.</given-names>
+<surname>Zhou</surname></string-name>, <string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Kelly</surname></string-name>, <string-name name-style="western"><given-names>J. C. H.</given-names>
+<surname>Chiang</surname></string-name></person-group>, 
+<article-title>Variability of stalagmite-inferred Indian monsoon precipitation over the past 252,000 y</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<volume>112</volume>, 
+<fpage>2954</fpage>–<lpage>2959</lpage> (<year>2015</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1424035112</pub-id><pub-id pub-id-type="pmcid">PMC4364182</pub-id><pub-id pub-id-type="pmid">25713347</pub-id></mixed-citation></ref><ref id="R93"><label>93</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Mohtadi</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Prange</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Steinke</surname></string-name></person-group>, 
+<article-title>Palaeoclimatic insights into forcing and response of monsoon rainfall</article-title>. <source>Nature</source>
+<volume>533</volume>, 
+<fpage>191</fpage>–<lpage>199</lpage> (<year>2016</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature17450</pub-id><pub-id pub-id-type="pmid">27172043</pub-id></mixed-citation></ref><ref id="R94"><label>94</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>T.</given-names>
+<surname>Caley</surname></string-name>, <string-name name-style="western"><given-names>B.</given-names>
+<surname>Malaizé</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Revel</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Ducassou</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Wainer</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Ibrahim</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Shoeaib</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Migeon</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Marieu</surname></string-name></person-group>, 
+<article-title>Orbital timing of the Indian, East Asian and African boreal monsoons and the concept of a ‘global monsoon’</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>30</volume>, 
+<fpage>3705</fpage>–<lpage>3715</lpage> (<year>2011</year>).</mixed-citation></ref><ref id="R95"><label>95</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R.</given-names>
+<surname>Rachmayani</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Prange</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Schulz</surname></string-name></person-group>, 
+<article-title>Intra-interglacial climate variability: Model simulations of marine isotope stages 1, 5, 11, 13, and 15</article-title>. <source>Clim. Past</source>
+<volume>12</volume>, 
+<fpage>677</fpage>–<lpage>695</lpage> (<year>2016</year>).</mixed-citation></ref><ref id="R96"><label>96</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>R.</given-names>
+<surname>Feng</surname></string-name>, <string-name name-style="western"><given-names>T.</given-names>
+<surname>Bhattacharya</surname></string-name>, <string-name name-style="western"><given-names>B. L.</given-names>
+<surname>Otto-Bliesner</surname></string-name>, <string-name name-style="western"><given-names>E. C.</given-names>
+<surname>Brady</surname></string-name>, <string-name name-style="western"><given-names>A. M.</given-names>
+<surname>Haywood</surname></string-name>, <string-name name-style="western"><given-names>J. C.</given-names>
+<surname>Tindall</surname></string-name>, <string-name name-style="western"><given-names>S. J.</given-names>
+<surname>Hunter</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Abe-Ouchi</surname></string-name>, <string-name name-style="western"><given-names>W. L.</given-names>
+<surname>Chan</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Kageyama</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Contoux</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Guo</surname></string-name>, <string-name name-style="western"><given-names>X.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Lohmann</surname></string-name>, <string-name name-style="western"><given-names>C.</given-names>
+<surname>Stepanek</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Tan</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Zhang</surname></string-name>, <string-name name-style="western"><given-names>Z.</given-names>
+<surname>Han</surname></string-name>, <string-name name-style="western"><given-names>C. J. R.</given-names>
+<surname>Williams</surname></string-name>, <string-name name-style="western"><given-names>D. J.</given-names>
+<surname>Lunt</surname></string-name>, <string-name name-style="western"><given-names>H. J.</given-names>
+<surname>Dowsett</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Chandan</surname></string-name>, <string-name name-style="western"><given-names>W. R.</given-names>
+<surname>Peltier</surname></string-name></person-group>, 
+<article-title>Past terrestrial hydroclimate sensitivity controlled by Earth system feedbacks</article-title>. <source>Nat. Commun.</source>
+<volume>13</volume>, 
+<fpage>1306</fpage> (<year>2022</year>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-022-28814-7</pub-id><pub-id pub-id-type="pmcid">PMC8921287</pub-id><pub-id pub-id-type="pmid">35288559</pub-id></mixed-citation></ref><ref id="R97"><label>97</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>Z.</given-names>
+<surname>Han</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Power</surname></string-name>, <string-name name-style="western"><given-names>G.</given-names>
+<surname>Li</surname></string-name>, <string-name name-style="western"><given-names>Q.</given-names>
+<surname>Zhang</surname></string-name></person-group>, 
+<article-title>Impacts of mid-Pliocene ice sheets and vegetation on Afro-Asian summer monsoon rainfall revealed by EC-Earth simulations</article-title>. <source>Geophys. Res. Lett.</source>
+<volume>51</volume>, 
+<fpage>e2023GL106145</fpage> (<year>2024</year>).</mixed-citation></ref><ref id="R98"><label>98</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>P. C.</given-names>
+<surname>Tzedakis</surname></string-name></person-group>, 
+<article-title>Seven ambiguities in the Mediterranean palaeoenvironmental narrative</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>26</volume>, 
+<fpage>2042</fpage>–<lpage>2066</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="R99"><label>99</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Djamali</surname></string-name>, <string-name name-style="western"><given-names>H.</given-names>
+<surname>Akhani</surname></string-name>, <string-name name-style="western"><given-names>V.</given-names>
+<surname>Andrieu-Ponel</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Braconnot</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Brewer</surname></string-name>, <string-name name-style="western"><given-names>J.-L.</given-names>
+<surname>de Beaulieu</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Fleitmann</surname></string-name>, <string-name name-style="western"><given-names>J.</given-names>
+<surname>Fleury</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Gasse</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Guibal</surname></string-name>, <string-name name-style="western"><given-names>S. T.</given-names>
+<surname>Jackson</surname></string-name>, <string-name name-style="western"><given-names>A.-M.</given-names>
+<surname>Lézine</surname></string-name>, <string-name name-style="western"><given-names>F.</given-names>
+<surname>Médail</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Ponel</surname></string-name>, <string-name name-style="western"><given-names>N.</given-names>
+<surname>Roberts</surname></string-name>, <string-name name-style="western"><given-names>L.</given-names>
+<surname>Stevens</surname></string-name></person-group>, 
+<article-title>Indian Summer Monsoon variations could have affected the early-Holocene woodland expansion in the Near East</article-title>. <source>Holocene</source>
+<volume>20</volume>, 
+<fpage>813</fpage>–<lpage>820</lpage> (<year>2010</year>).</mixed-citation></ref><ref id="R100"><label>100</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>C.</given-names>
+<surname>Katrantsiotis</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Norström</surname></string-name>, <string-name name-style="western"><given-names>R. H.</given-names>
+<surname>Smittenberg</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Finne</surname></string-name>, <string-name name-style="western"><given-names>E.</given-names>
+<surname>Weiberg</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Hättestrand</surname></string-name>, <string-name name-style="western"><given-names>P.</given-names>
+<surname>Avramidis</surname></string-name>, <string-name name-style="western"><given-names>S.</given-names>
+<surname>Wastegård</surname></string-name></person-group>, 
+<article-title>Climate changes in the Eastern Mediterranean over the last 5000 years and their links to the high-latitude atmospheric patterns and Asian monsoons</article-title>. <source>Glob. Planet. Change</source>
+<volume>175</volume>, 
+<fpage>36</fpage>–<lpage>51</lpage> (<year>2019</year>).</mixed-citation></ref><ref id="R101"><label>101</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>D.</given-names>
+<surname>Fleitmann</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Bosomworth</surname></string-name>, <string-name name-style="western"><given-names>D. A. M.</given-names>
+<surname>Amin Al-Manmi</surname></string-name>, <string-name name-style="western"><given-names>M. J.</given-names>
+<surname>Leng</surname></string-name>, <string-name name-style="western"><given-names>D.</given-names>
+<surname>Sahy</surname></string-name>, <string-name name-style="western"><given-names>K.</given-names>
+<surname>Radner</surname></string-name>, <string-name name-style="western"><given-names>A.</given-names>
+<surname>Morgan</surname></string-name>, <string-name name-style="western"><given-names>A. W. G.</given-names>
+<surname>Pike</surname></string-name>, <string-name name-style="western"><given-names>M.</given-names>
+<surname>Altaweel</surname></string-name></person-group>, 
+<article-title>Mid-Holocene hydroclimatic optimum recorded in a stalagmite from Shalaii Cave, northern Iraq</article-title>. <source>Quat. Sci. Rev.</source>
+<volume>356</volume>, 
+<fpage>109286</fpage> (<year>2025</year>).</mixed-citation></ref><ref id="R102"><label>102</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><given-names>M.</given-names>
+<surname>Watanabe</surname></string-name>, <string-name name-style="western"><given-names>F.-F.</given-names>
+<surname>Jin</surname></string-name></person-group>, 
+<article-title>A moist linear baroclinic model: Coupled dynamical-convective response to El Niño</article-title>. <source>J. Clim.</source>
+<volume>16</volume>, 
+<fpage>1121</fpage>–<lpage>1139</lpage> (<year>2003</year>).</mixed-citation></ref></ref-list></back></article>

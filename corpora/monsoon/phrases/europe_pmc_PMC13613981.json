@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13613981",
+  "phrases": [
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotese and robertsons",
+      "display": "Scotese and Robertsons",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "getech and robertsons",
+      "display": "Getech and Robertsons",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "early cretaceous",
+      "display": "Early Cretaceous",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "getech and scotese",
+      "display": "Getech and Scotese",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 2.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mpi",
+      "display": "MPI",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotese",
+      "display": "Scotese",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "robertsons",
+      "score": 0.0432,
+      "channel": "tfidf",
+      "display": "Robertsons"
+    },
+    {
+      "phrase": "getech",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "Getech"
+    },
+    {
+      "phrase": "palaeogeographic",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "palaeogeographic"
+    },
+    {
+      "phrase": "easm region",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "EASM region"
+    },
+    {
+      "phrase": "precipitation",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Precipitation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

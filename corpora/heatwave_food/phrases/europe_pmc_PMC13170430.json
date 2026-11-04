@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13170430",
+  "phrases": [
+    {
+      "phrase": "saharan africa",
+      "display": "Saharan Africa",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cab abstract",
+      "display": "Cab Abstract",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odei obeng",
+      "display": "Odei Obeng",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "regional environmental change portal",
+      "display": "Regional Environmental Change Portal",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "social science research network",
+      "display": "Social Science Research Network",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "african journals online",
+      "display": "African Journals Online",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "africa climate portal",
+      "display": "Africa Climate Portal",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "egm",
+      "display": "EGM",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ssa",
+      "display": "SSA",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ipcc",
+      "display": "IPCC",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "interventions",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "Interventions"
+    },
+    {
+      "phrase": "change adaptation",
+      "score": 0.0334,
+      "channel": "tfidf",
+      "display": "change adaptation"
+    },
+    {
+      "phrase": "climate change adaptation",
+      "score": 0.0334,
+      "channel": "tfidf",
+      "display": "Climate change adaptation"
+    },
+    {
+      "phrase": "papers",
+      "score": 0.0333,
+      "channel": "tfidf",
+      "display": "Papers"
+    },
+    {
+      "phrase": "climate",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "Climate"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

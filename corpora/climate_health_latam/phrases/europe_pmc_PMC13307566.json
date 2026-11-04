@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13307566",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world mosquito program in brazil and colombia",
+      "display": "World Mosquito Program in Brazil and Colombia",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "infodengue and argentina",
+      "display": "Infodengue and Argentina",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stop dengue task force",
+      "display": "Stop Dengue Task Force",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sistema nacional",
+      "display": "Sistema Nacional",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "virtual campus",
+      "display": "Virtual Campus",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "denv",
+      "display": "DENV",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ivm",
+      "display": "IVM",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "who",
+      "display": "WHO",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dengue",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "Dengue"
+    },
+    {
+      "phrase": "control",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "control"
+    },
+    {
+      "phrase": "surveillance",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "Surveillance"
+    },
+    {
+      "phrase": "mosquito",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "Mosquito"
+    },
+    {
+      "phrase": "dengue control",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "Dengue control"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

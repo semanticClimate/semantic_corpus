@@ -1,0 +1,246 @@
+{
+  "step": "kg",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 17,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "synonym_map": {},
+  "nodes": [
+    {
+      "id": "term:one health",
+      "label": "One Health",
+      "kind": "term",
+      "group": "Term",
+      "title": "One Health (cluster weight 3.2; n_papers 3)",
+      "value": 11.2,
+      "phrase": "one health",
+      "cluster_id": 1,
+      "n_papers": 3
+    },
+    {
+      "id": "paper:europe_pmc_PMC12616928",
+      "label": "PMC12616928",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "The silent microbial shift: climate change amplifies pathogen evolution, microbiome dysbiosis, and antimicrobial resistance.\n(PMC12616928)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC12616928",
+      "cluster_id": 1,
+      "paper_title": "The silent microbial shift: climate change amplifies pathogen evolution, microbiome dysbiosis, and antimicrobial resistance."
+    },
+    {
+      "id": "paper:europe_pmc_PMC13708365",
+      "label": "PMC13708365",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "&lt;i&gt;Vibrio parahaemolyticus&lt;/i&gt; in a Changing World: A One Health Perspective on Epidemiology, Antimicrobial Resistance, Virulence, and Climate-Driven Risks.\n(PMC13708365)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13708365",
+      "cluster_id": 1,
+      "paper_title": "&lt;i&gt;Vibrio parahaemolyticus&lt;/i&gt; in a Changing World: A One Health Perspective on Epidemiology, Antimicrobial Resistance, Virulence, and Climate-Driven Risks."
+    },
+    {
+      "id": "term:united states",
+      "label": "United States",
+      "kind": "term",
+      "group": "Term",
+      "title": "United States (cluster weight 1.3; n_papers 2)",
+      "value": 9.3,
+      "phrase": "united states",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "term:health",
+      "label": "Health",
+      "kind": "term",
+      "group": "Term",
+      "title": "Health (cluster weight 1.07; n_papers 2)",
+      "value": 9.07,
+      "phrase": "health",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "term:climate",
+      "label": "Climate",
+      "kind": "term",
+      "group": "Term",
+      "title": "Climate (cluster weight 0.0344; n_papers 2)",
+      "value": 8.0344,
+      "phrase": "climate",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "term:british columbia",
+      "label": "British Columbia",
+      "kind": "term",
+      "group": "Term",
+      "title": "British Columbia (cluster weight 3.5; n_papers 3)",
+      "value": 11.5,
+      "phrase": "british columbia",
+      "cluster_id": 2,
+      "n_papers": 3
+    },
+    {
+      "id": "paper:europe_pmc_PMC13219836",
+      "label": "PMC13219836",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "A chromosome-level reference genome for Pacific herring (&lt;i&gt;Clupea pallasii)&lt;/i&gt; from the Bering Sea.\n(PMC13219836)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13219836",
+      "cluster_id": 2,
+      "paper_title": "A chromosome-level reference genome for Pacific herring (&lt;i&gt;Clupea pallasii)&lt;/i&gt; from the Bering Sea."
+    },
+    {
+      "id": "paper:europe_pmc_PMC13688465",
+      "label": "PMC13688465",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Evaluating Kelp Feedstock for Alginate-Based Materials: Physicochemical Characterization of Sodium Alginate and Aquaculture Considerations.\n(PMC13688465)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13688465",
+      "cluster_id": 2,
+      "paper_title": "Evaluating Kelp Feedstock for Alginate-Based Materials: Physicochemical Characterization of Sodium Alginate and Aquaculture Considerations."
+    }
+  ],
+  "edges": [
+    {
+      "id": "clusters:paper:europe_pmc_PMC12616928::term:one health",
+      "from": "paper:europe_pmc_PMC12616928",
+      "to": "term:one health",
+      "source": "paper:europe_pmc_PMC12616928",
+      "target": "term:one health",
+      "weight": 3.2,
+      "value": 3.2,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔One Health"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13708365::term:one health",
+      "from": "paper:europe_pmc_PMC13708365",
+      "to": "term:one health",
+      "source": "paper:europe_pmc_PMC13708365",
+      "target": "term:one health",
+      "weight": 3.2,
+      "value": 3.2,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔One Health"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC12616928::term:united states",
+      "from": "paper:europe_pmc_PMC12616928",
+      "to": "term:united states",
+      "source": "paper:europe_pmc_PMC12616928",
+      "target": "term:united states",
+      "weight": 1.3,
+      "value": 1.3,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔United States"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13708365::term:united states",
+      "from": "paper:europe_pmc_PMC13708365",
+      "to": "term:united states",
+      "source": "paper:europe_pmc_PMC13708365",
+      "target": "term:united states",
+      "weight": 1.3,
+      "value": 1.3,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔United States"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC12616928::term:health",
+      "from": "paper:europe_pmc_PMC12616928",
+      "to": "term:health",
+      "source": "paper:europe_pmc_PMC12616928",
+      "target": "term:health",
+      "weight": 1.07,
+      "value": 1.07,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Health"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13708365::term:health",
+      "from": "paper:europe_pmc_PMC13708365",
+      "to": "term:health",
+      "source": "paper:europe_pmc_PMC13708365",
+      "target": "term:health",
+      "weight": 1.07,
+      "value": 1.07,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Health"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC12616928::term:climate",
+      "from": "paper:europe_pmc_PMC12616928",
+      "to": "term:climate",
+      "source": "paper:europe_pmc_PMC12616928",
+      "target": "term:climate",
+      "weight": 0.0344,
+      "value": 0.0344,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Climate"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13708365::term:climate",
+      "from": "paper:europe_pmc_PMC13708365",
+      "to": "term:climate",
+      "source": "paper:europe_pmc_PMC13708365",
+      "target": "term:climate",
+      "weight": 0.0344,
+      "value": 0.0344,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Climate"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13219836::term:british columbia",
+      "from": "paper:europe_pmc_PMC13219836",
+      "to": "term:british columbia",
+      "source": "paper:europe_pmc_PMC13219836",
+      "target": "term:british columbia",
+      "weight": 3.5,
+      "value": 3.5,
+      "link_source": "clusters",
+      "title": "cluster 2: paper↔British Columbia"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13688465::term:british columbia",
+      "from": "paper:europe_pmc_PMC13688465",
+      "to": "term:british columbia",
+      "source": "paper:europe_pmc_PMC13688465",
+      "target": "term:british columbia",
+      "weight": 3.5,
+      "value": 3.5,
+      "link_source": "clusters",
+      "title": "cluster 2: paper↔British Columbia"
+    }
+  ],
+  "counts": {
+    "nodes": 9,
+    "edges": 10,
+    "papers": 4,
+    "terms": 5,
+    "encyclopedia": 0,
+    "islands": 2,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-04T08:51:19.149157+00:00"
+}

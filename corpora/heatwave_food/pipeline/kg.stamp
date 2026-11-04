@@ -1,0 +1,41 @@
+{
+  "step": "kg",
+  "status": "ok",
+  "workdir": "corpora/heatwave_food",
+  "written_at": "2026-11-04T08:51:19.285585+00:00",
+  "options": {
+    "workdir": "corpora/heatwave_food",
+    "from_mode": "query",
+    "query": "'marine heatwave' AND 'food security'",
+    "limit": 20,
+    "repository": "europe_pmc",
+    "source": null,
+    "phrase_method": "tfidf",
+    "phrase_n": 3,
+    "phrase_top": 15,
+    "cluster_resolution": 1.0,
+    "cluster_algorithm": "louvain",
+    "encyclopedia_lang": "en",
+    "max_entries": 100,
+    "min_score": 0.0,
+    "min_paper_count": 1,
+    "encyclopedia_source": "phrases",
+    "kg_max_island": 20,
+    "kg_max_terms": 40,
+    "kg_min_paper_count": 2,
+    "kg_links": "clusters",
+    "kg_open": true
+  },
+  "note": "Placeholder for pipeline step 'kg' \u2014 not yet wired to real work.",
+  "graph_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/kg/graph.json",
+  "html_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/kg/knowledge_graph.html",
+  "islands_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/kg/islands.json",
+  "nodes": 9,
+  "edges": 10,
+  "islands": 2,
+  "kg_links_used": [
+    "clusters"
+  ],
+  "min_paper_count": 2,
+  "max_terms": 40
+}

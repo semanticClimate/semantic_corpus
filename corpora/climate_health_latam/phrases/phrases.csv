@@ -1,0 +1,256 @@
+paper_id,rank,phrase,display,score,channel,source
+europe_pmc_PMC13061210,1,indigenous peoples,Indigenous Peoples,2.9,uppercase,extracted
+europe_pmc_PMC13061210,2,latin america,Latin America,2.6,uppercase,extracted
+europe_pmc_PMC13061210,3,latin american,Latin American,1.9,uppercase,extracted
+europe_pmc_PMC13061210,4,peruvian amazon,Peruvian Amazon,1.3,uppercase,extracted
+europe_pmc_PMC13061210,5,many indigenous,Many Indigenous,1.2,uppercase,extracted
+europe_pmc_PMC13061210,6,indigenous organisations in latin america,Indigenous Organisations in Latin America,1.1,uppercase,extracted
+europe_pmc_PMC13061210,7,shawi and ashaninka indigenous peoples,Shawi and Ashaninka Indigenous Peoples,1.1,uppercase,extracted
+europe_pmc_PMC13061210,8,indigenous,Indigenous,1.99,uppercase,extracted
+europe_pmc_PMC13061210,9,latin,Latin,1.26,uppercase,extracted
+europe_pmc_PMC13061210,10,peoples,Peoples,1.23,uppercase,extracted
+europe_pmc_PMC13061210,11,health,Health,0.0494,tfidf,extracted
+europe_pmc_PMC13061210,12,systems,systems,0.0429,tfidf,extracted
+europe_pmc_PMC13061210,13,knowledge,knowledge,0.0429,tfidf,extracted
+europe_pmc_PMC13061210,14,knowledges,knowledges,0.0423,tfidf,extracted
+europe_pmc_PMC13061210,15,practices,practices,0.041,tfidf,extracted
+europe_pmc_PMC13307566,1,latin america,Latin America,2.1,uppercase,extracted
+europe_pmc_PMC13307566,2,world mosquito program in brazil and colombia,World Mosquito Program in Brazil and Colombia,1.2,uppercase,extracted
+europe_pmc_PMC13307566,3,infodengue and argentina,Infodengue and Argentina,1.2,uppercase,extracted
+europe_pmc_PMC13307566,4,stop dengue task force,Stop Dengue Task Force,1.2,uppercase,extracted
+europe_pmc_PMC13307566,5,sistema nacional,Sistema Nacional,1.2,uppercase,extracted
+europe_pmc_PMC13307566,6,latin american,Latin American,1.2,uppercase,extracted
+europe_pmc_PMC13307566,7,virtual campus,Virtual Campus,1.2,uppercase,extracted
+europe_pmc_PMC13307566,8,denv,DENV,1.28,uppercase,extracted
+europe_pmc_PMC13307566,9,ivm,IVM,1.24,uppercase,extracted
+europe_pmc_PMC13307566,10,who,WHO,1.22,uppercase,extracted
+europe_pmc_PMC13307566,11,dengue,Dengue,0.0384,tfidf,extracted
+europe_pmc_PMC13307566,12,control,control,0.0335,tfidf,extracted
+europe_pmc_PMC13307566,13,surveillance,Surveillance,0.0326,tfidf,extracted
+europe_pmc_PMC13307566,14,mosquito,Mosquito,0.0326,tfidf,extracted
+europe_pmc_PMC13307566,15,dengue control,Dengue control,0.0321,tfidf,extracted
+europe_pmc_PMC13345226,1,latin america,Latin America,1.6,uppercase,extracted
+europe_pmc_PMC13345226,2,southern oscillation,Southern Oscillation,1.2,uppercase,extracted
+europe_pmc_PMC13345226,3,central america,Central America,1.2,uppercase,extracted
+europe_pmc_PMC13345226,4,south america,South America,1.2,uppercase,extracted
+europe_pmc_PMC13345226,5,climate prediction center,Climate Prediction Center,1.1,uppercase,extracted
+europe_pmc_PMC13345226,6,andean and southern cone,Andean and Southern Cone,1.1,uppercase,extracted
+europe_pmc_PMC13345226,7,precautionary principle,Precautionary Principle,1.1,uppercase,extracted
+europe_pmc_PMC13345226,8,america,America,1.1,uppercase,extracted
+europe_pmc_PMC13345226,9,enso,ENSO,1.08,uppercase,extracted
+europe_pmc_PMC13345226,10,latin,Latin,1.06,uppercase,extracted
+europe_pmc_PMC13345226,11,el,El,0.0741,tfidf,extracted
+europe_pmc_PMC13345226,12,health,health,0.0692,tfidf,extracted
+europe_pmc_PMC13345226,13,forecasting,Forecasting,0.0528,tfidf,extracted
+europe_pmc_PMC13345226,14,health impacts,health impacts,0.0525,tfidf,extracted
+europe_pmc_PMC13345226,15,impacts,impacts,0.0508,tfidf,extracted
+europe_pmc_PMC13421129,1,south america,South America,1.3,uppercase,extracted
+europe_pmc_PMC13421129,2,central america,Central America,1.2,uppercase,extracted
+europe_pmc_PMC13421129,3,amazon basin,Amazon Basin,1.2,uppercase,extracted
+europe_pmc_PMC13421129,4,northern hemisphere,Northern Hemisphere,1.1,uppercase,extracted
+europe_pmc_PMC13421129,5,member states,Member States,1.1,uppercase,extracted
+europe_pmc_PMC13421129,6,southern cone,Southern Cone,1.1,uppercase,extracted
+europe_pmc_PMC13421129,7,united states,United States,1.1,uppercase,extracted
+europe_pmc_PMC13421129,8,america,America,1.05,uppercase,extracted
+europe_pmc_PMC13421129,9,wash,WASH,1.04,uppercase,extracted
+europe_pmc_PMC13421129,10,south,South,1.03,uppercase,extracted
+europe_pmc_PMC13421129,11,health,Health,0.065,tfidf,extracted
+europe_pmc_PMC13421129,12,water,water,0.0602,tfidf,extracted
+europe_pmc_PMC13421129,13,displacement,displacement,0.0579,tfidf,extracted
+europe_pmc_PMC13421129,14,el,El,0.0575,tfidf,extracted
+europe_pmc_PMC13421129,15,arboviral,arboviral,0.0567,tfidf,extracted
+europe_pmc_PMC13460890,1,latin american,Latin American,1.9,uppercase,extracted
+europe_pmc_PMC13460890,2,united states,United States,1.9,uppercase,extracted
+europe_pmc_PMC13460890,3,latin america,Latin America,1.6,uppercase,extracted
+europe_pmc_PMC13460890,4,health care state,Health Care State,1.3,uppercase,extracted
+europe_pmc_PMC13460890,5,michael moran,Michael Moran,1.2,uppercase,extracted
+europe_pmc_PMC13460890,6,united states and israel,United States and Israel,1.1,uppercase,extracted
+europe_pmc_PMC13460890,7,middle east and africa,Middle East and Africa,1.1,uppercase,extracted
+europe_pmc_PMC13460890,8,latin,Latin,1.13,uppercase,extracted
+europe_pmc_PMC13460890,9,states,States,1.12,uppercase,extracted
+europe_pmc_PMC13460890,10,united,United,1.12,uppercase,extracted
+europe_pmc_PMC13460890,11,state,State,0.0501,tfidf,extracted
+europe_pmc_PMC13460890,12,health,Health,0.0493,tfidf,extracted
+europe_pmc_PMC13460890,13,welfare,Welfare,0.0447,tfidf,extracted
+europe_pmc_PMC13460890,14,war,War,0.0447,tfidf,extracted
+europe_pmc_PMC13460890,15,conflicts,conflicts,0.0431,tfidf,extracted
+europe_pmc_PMC13465641,1,one health,One Health,3.2,uppercase,extracted
+europe_pmc_PMC13465641,2,el salvador,El Salvador,1.8,uppercase,extracted
+europe_pmc_PMC13465641,3,costa rica,Costa Rica,1.8,uppercase,extracted
+europe_pmc_PMC13465641,4,latin america,Latin America,1.7,uppercase,extracted
+europe_pmc_PMC13465641,5,central america,Central America,1.6,uppercase,extracted
+europe_pmc_PMC13465641,6,south america,South America,1.4,uppercase,extracted
+europe_pmc_PMC13465641,7,united states,United States,1.3,uppercase,extracted
+europe_pmc_PMC13465641,8,mesoamerica,Mesoamerica,1.41,uppercase,extracted
+europe_pmc_PMC13465641,9,health,Health,1.25,uppercase,extracted
+europe_pmc_PMC13465641,10,one,One,1.25,uppercase,extracted
+europe_pmc_PMC13465641,11,disease,Disease,0.0348,tfidf,extracted
+europe_pmc_PMC13465641,12,mesoamerican,Mesoamerican,0.0345,tfidf,extracted
+europe_pmc_PMC13465641,13,zoonotic,Zoonotic,0.0328,tfidf,extracted
+europe_pmc_PMC13465641,14,transmission,Transmission,0.0328,tfidf,extracted
+europe_pmc_PMC13465641,15,animal,animal,0.0316,tfidf,extracted
+europe_pmc_PMC13488029,1,saharan africa,Saharan Africa,2.7,uppercase,extracted
+europe_pmc_PMC13488029,2,south asia,South Asia,2.0,uppercase,extracted
+europe_pmc_PMC13488029,3,western sub,Western Sub,1.8,uppercase,extracted
+europe_pmc_PMC13488029,4,eastern europe,Eastern Europe,1.6,uppercase,extracted
+europe_pmc_PMC13488029,5,western europe,Western Europe,1.6,uppercase,extracted
+europe_pmc_PMC13488029,6,middle east,Middle East,1.6,uppercase,extracted
+europe_pmc_PMC13488029,7,north africa and middle east,North Africa and Middle East,1.5,uppercase,extracted
+europe_pmc_PMC13488029,8,ui,UI,1.44,uppercase,extracted
+europe_pmc_PMC13488029,9,africa,Africa,1.32,uppercase,extracted
+europe_pmc_PMC13488029,10,asia,Asia,1.25,uppercase,extracted
+europe_pmc_PMC13488029,11,heatwave-related deaths,Heatwave-related deaths,0.0463,tfidf,extracted
+europe_pmc_PMC13488029,12,heatwave-related,Heatwave-related,0.0461,tfidf,extracted
+europe_pmc_PMC13488029,13,scenarios,scenarios,0.0398,tfidf,extracted
+europe_pmc_PMC13488029,14,heatwave,Heatwave,0.0394,tfidf,extracted
+europe_pmc_PMC13488029,15,projections,Projections,0.0386,tfidf,extracted
+europe_pmc_PMC13512877,1,latin american,Latin American,2.7,uppercase,extracted
+europe_pmc_PMC13512877,2,latin america and africa,Latin America and Africa,2.3,uppercase,extracted
+europe_pmc_PMC13512877,3,latin america,Latin America,1.8,uppercase,extracted
+europe_pmc_PMC13512877,4,universal health coverage,Universal Health Coverage,1.6,uppercase,extracted
+europe_pmc_PMC13512877,5,world health organization,World Health Organization,1.3,uppercase,extracted
+europe_pmc_PMC13512877,6,latin american and african,Latin American and African,1.2,uppercase,extracted
+europe_pmc_PMC13512877,7,world health organization and global burden of disease,World Health Organization and Global Burden of Disease,1.1,uppercase,extracted
+europe_pmc_PMC13512877,8,latin,Latin,1.4,uppercase,extracted
+europe_pmc_PMC13512877,9,african,African,1.27,uppercase,extracted
+europe_pmc_PMC13512877,10,africa,Africa,1.24,uppercase,extracted
+europe_pmc_PMC13512877,11,policy documents,Policy documents,0.0477,tfidf,extracted
+europe_pmc_PMC13512877,12,documents,documents,0.0472,tfidf,extracted
+europe_pmc_PMC13512877,13,health,Health,0.041,tfidf,extracted
+europe_pmc_PMC13512877,14,reviewed,reviewed,0.0399,tfidf,extracted
+europe_pmc_PMC13512877,15,policy,Policy,0.0395,tfidf,extracted
+europe_pmc_PMC13545343,1,latin america,Latin America,1.3,uppercase,extracted
+europe_pmc_PMC13545343,2,ecuadorian amazon,Ecuadorian Amazon,1.2,uppercase,extracted
+europe_pmc_PMC13545343,3,coordinating body of indigenous organisations,Coordinating Body of Indigenous Organisations,1.1,uppercase,extracted
+europe_pmc_PMC13545343,4,amazonian ecclesial network in ecuador,Amazonian Ecclesial Network in Ecuador,1.1,uppercase,extracted
+europe_pmc_PMC13545343,5,united nations environment program,United Nations Environment Program,1.1,uppercase,extracted
+europe_pmc_PMC13545343,6,human rights watch,Human Rights Watch,1.1,uppercase,extracted
+europe_pmc_PMC13545343,7,world gold council,World Gold Council,1.1,uppercase,extracted
+europe_pmc_PMC13545343,8,amazon,Amazon,1.09,uppercase,extracted
+europe_pmc_PMC13545343,9,asgm,ASGM,1.06,uppercase,extracted
+europe_pmc_PMC13545343,10,america,America,1.04,uppercase,extracted
+europe_pmc_PMC13545343,11,gold,Gold,0.0954,tfidf,extracted
+europe_pmc_PMC13545343,12,mercury,mercury,0.0943,tfidf,extracted
+europe_pmc_PMC13545343,13,mining,mining,0.088,tfidf,extracted
+europe_pmc_PMC13545343,14,illegal mining,illegal mining,0.0754,tfidf,extracted
+europe_pmc_PMC13545343,15,illegal,illegal,0.0745,tfidf,extracted
+europe_pmc_PMC13555732,1,one health,One Health,2.1,uppercase,extracted
+europe_pmc_PMC13555732,2,latin america,Latin America,1.7,uppercase,extracted
+europe_pmc_PMC13555732,3,southern oscillation,Southern Oscillation,1.2,uppercase,extracted
+europe_pmc_PMC13555732,4,south american,South American,1.2,uppercase,extracted
+europe_pmc_PMC13555732,5,committee on achieving sustainable global capacity for surveillance and response,Committee on Achieving Sustainable Global Capacity for Surveillance and Response,1.1,uppercase,extracted
+europe_pmc_PMC13555732,6,emerging diseases of zoonotic origin,Emerging Diseases of Zoonotic Origin,1.1,uppercase,extracted
+europe_pmc_PMC13555732,7,pan american health organization,Pan American Health Organization,1.1,uppercase,extracted
+europe_pmc_PMC13555732,8,health,Health,1.14,uppercase,extracted
+europe_pmc_PMC13555732,9,one,One,1.12,uppercase,extracted
+europe_pmc_PMC13555732,10,america,America,1.08,uppercase,extracted
+europe_pmc_PMC13555732,11,spillover,Spillover,0.0451,tfidf,extracted
+europe_pmc_PMC13555732,12,wildlife,Wildlife,0.0419,tfidf,extracted
+europe_pmc_PMC13555732,13,interfaces,interfaces,0.0415,tfidf,extracted
+europe_pmc_PMC13555732,14,surveillance,Surveillance,0.0413,tfidf,extracted
+europe_pmc_PMC13555732,15,reservoir,reservoir,0.0408,tfidf,extracted
+europe_pmc_PMC13575796,1,latin america,Latin America,1.2,uppercase,extracted
+europe_pmc_PMC13575796,2,latin american and caribbean,Latin American and Caribbean,1.1,uppercase,extracted
+europe_pmc_PMC13575796,3,lancet regional health,Lancet Regional Health,1.1,uppercase,extracted
+europe_pmc_PMC13575796,4,lancet countdown,Lancet Countdown,1.1,uppercase,extracted
+europe_pmc_PMC13575796,5,our commission,Our Commission,1.1,uppercase,extracted
+europe_pmc_PMC13575796,6,covid,COVID,1.06,uppercase,extracted
+europe_pmc_PMC13575796,7,americas,Americas,1.05,uppercase,extracted
+europe_pmc_PMC13575796,8,indigenous,Indigenous,1.05,uppercase,extracted
+europe_pmc_PMC13575796,9,research,research,0.0695,tfidf,extracted
+europe_pmc_PMC13575796,10,health,Health,0.0687,tfidf,extracted
+europe_pmc_PMC13575796,11,journal,journal,0.068,tfidf,extracted
+europe_pmc_PMC13575796,12,issue,issue,0.0636,tfidf,extracted
+europe_pmc_PMC13575796,13,voice,voice,0.0568,tfidf,extracted
+europe_pmc_PMC13575796,14,inequity,inequity,0.0568,tfidf,extracted
+europe_pmc_PMC13575796,15,researchers,researchers,0.0561,tfidf,extracted
+europe_pmc_PMC13602859,1,latin america,Latin America,1.4,uppercase,extracted
+europe_pmc_PMC13602859,2,international organization for migration,International Organization for Migration,1.3,uppercase,extracted
+europe_pmc_PMC13602859,3,burgos moreno and parvic klijn,Burgos Moreno and Parvic Klijn,1.2,uppercase,extracted
+europe_pmc_PMC13602859,4,web of science,Web of Science,1.2,uppercase,extracted
+europe_pmc_PMC13602859,5,although cabieses and huerta,Although Cabieses and Huerta,1.1,uppercase,extracted
+europe_pmc_PMC13602859,6,latin american and caribbean,Latin American and Caribbean,1.1,uppercase,extracted
+europe_pmc_PMC13602859,7,mexico and south america,Mexico and South America,1.1,uppercase,extracted
+europe_pmc_PMC13602859,8,lac,LAC,1.28,uppercase,extracted
+europe_pmc_PMC13602859,9,america,America,1.05,uppercase,extracted
+europe_pmc_PMC13602859,10,caribbean,Caribbean,1.05,uppercase,extracted
+europe_pmc_PMC13602859,11,migrant,migrant,0.0477,tfidf,extracted
+europe_pmc_PMC13602859,12,mobility,mobility,0.0472,tfidf,extracted
+europe_pmc_PMC13602859,13,human mobility,human mobility,0.0453,tfidf,extracted
+europe_pmc_PMC13602859,14,health,Health,0.0438,tfidf,extracted
+europe_pmc_PMC13602859,15,publications,publications,0.0436,tfidf,extracted
+europe_pmc_PMC13650973,1,latin america,Latin America,1.9,uppercase,extracted
+europe_pmc_PMC13650973,2,one health,One Health,1.7,uppercase,extracted
+europe_pmc_PMC13650973,3,online supplementary document,Online Supplementary Document,1.5,uppercase,extracted
+europe_pmc_PMC13650973,4,latin american,Latin American,1.3,uppercase,extracted
+europe_pmc_PMC13650973,5,latin american network of national programs for venomous animal accidents,Latin American Network of National Programs for Venomous Animal Accidents,1.1,uppercase,extracted
+europe_pmc_PMC13650973,6,latin american network of public antivenom manufacturing laboratories,Latin American Network of Public Antivenom Manufacturing Laboratories,1.1,uppercase,extracted
+europe_pmc_PMC13650973,7,brazilian notifiable diseases information system,Brazilian Notifiable Diseases Information System,1.1,uppercase,extracted
+europe_pmc_PMC13650973,8,lac,LAC,1.3,uppercase,extracted
+europe_pmc_PMC13650973,9,evas,EVAs,1.27,uppercase,extracted
+europe_pmc_PMC13650973,10,eva,EVA,1.24,uppercase,extracted
+europe_pmc_PMC13650973,11,antivenom,Antivenom,0.0441,tfidf,extracted
+europe_pmc_PMC13650973,12,antivenoms,Antivenoms,0.0404,tfidf,extracted
+europe_pmc_PMC13650973,13,scorpion,Scorpion,0.0375,tfidf,extracted
+europe_pmc_PMC13650973,14,envenomation,Envenomation,0.0366,tfidf,extracted
+europe_pmc_PMC13650973,15,procurement,Procurement,0.0361,tfidf,extracted
+europe_pmc_PMC13678493,1,coastal el,Coastal El,2.1,uppercase,extracted
+europe_pmc_PMC13678493,2,latin america,Latin America,1.7,uppercase,extracted
+europe_pmc_PMC13678493,3,peru and ecuador,Peru and Ecuador,1.3,uppercase,extracted
+europe_pmc_PMC13678493,4,strong el,Strong El,1.3,uppercase,extracted
+europe_pmc_PMC13678493,5,climate prediction center,Climate Prediction Center,1.2,uppercase,extracted
+europe_pmc_PMC13678493,6,relative oceanic,Relative Oceanic,1.2,uppercase,extracted
+europe_pmc_PMC13678493,7,intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1.1,uppercase,extracted
+europe_pmc_PMC13678493,8,enso,ENSO,1.62,uppercase,extracted
+europe_pmc_PMC13678493,9,peru,Peru,1.22,uppercase,extracted
+europe_pmc_PMC13678493,10,ecuador,Ecuador,1.13,uppercase,extracted
+europe_pmc_PMC13678493,11,el,El,0.0419,tfidf,extracted
+europe_pmc_PMC13678493,12,coastal,Coastal,0.0378,tfidf,extracted
+europe_pmc_PMC13678493,13,health,Health,0.0356,tfidf,extracted
+europe_pmc_PMC13678493,14,el related,el related,0.0353,tfidf,extracted
+europe_pmc_PMC13678493,15,enso-specific,ENSO-specific,0.034,tfidf,extracted
+europe_pmc_PMC13722036,1,latin america,Latin America,2.3,uppercase,extracted
+europe_pmc_PMC13722036,2,review question,Review Question,1.4,uppercase,extracted
+europe_pmc_PMC13722036,3,mexico and peru,Mexico and Peru,1.3,uppercase,extracted
+europe_pmc_PMC13722036,4,preferred reporting items for systematic,Preferred Reporting Items for Systematic,1.1,uppercase,extracted
+europe_pmc_PMC13722036,5,analyses extension for scoping reviews,Analyses Extension for Scoping Reviews,1.1,uppercase,extracted
+europe_pmc_PMC13722036,6,social determinants of health,Social Determinants of Health,1.1,uppercase,extracted
+europe_pmc_PMC13722036,7,united nations declaration,United Nations Declaration,1.1,uppercase,extracted
+europe_pmc_PMC13722036,8,sdh,SDH,1.18,uppercase,extracted
+europe_pmc_PMC13722036,9,brazil,Brazil,1.16,uppercase,extracted
+europe_pmc_PMC13722036,10,america,America,1.14,uppercase,extracted
+europe_pmc_PMC13722036,11,intimate,Intimate,0.0522,tfidf,extracted
+europe_pmc_PMC13722036,12,intimate partner,Intimate partner,0.052,tfidf,extracted
+europe_pmc_PMC13722036,13,intimate partner violence,Intimate partner violence,0.0519,tfidf,extracted
+europe_pmc_PMC13722036,14,partner violence,partner violence,0.0519,tfidf,extracted
+europe_pmc_PMC13722036,15,violence,Violence,0.0514,tfidf,extracted
+europe_pmc_PMC13723821,1,latin american,Latin American,1.7,uppercase,extracted
+europe_pmc_PMC13723821,2,latin america,Latin America,1.5,uppercase,extracted
+europe_pmc_PMC13723821,3,sustainable development goals,Sustainable Development Goals,1.3,uppercase,extracted
+europe_pmc_PMC13723821,4,mexico and colombia,Mexico and Colombia,1.3,uppercase,extracted
+europe_pmc_PMC13723821,5,poverty eradication,Poverty Eradication,1.3,uppercase,extracted
+europe_pmc_PMC13723821,6,mexico and peru,Mexico and Peru,1.3,uppercase,extracted
+europe_pmc_PMC13723821,7,world bank,World Bank,1.3,uppercase,extracted
+europe_pmc_PMC13723821,8,tb,TB,3.2,uppercase,extracted
+europe_pmc_PMC13723821,9,ci,CI,1.34,uppercase,extracted
+europe_pmc_PMC13723821,10,peru,Peru,1.16,uppercase,extracted
+europe_pmc_PMC13723821,11,tb incidence,TB incidence,0.0535,tfidf,extracted
+europe_pmc_PMC13723821,12,poverty,Poverty,0.0503,tfidf,extracted
+europe_pmc_PMC13723821,13,notifications,notifications,0.0477,tfidf,extracted
+europe_pmc_PMC13723821,14,online supplemental,Online supplemental,0.0466,tfidf,extracted
+europe_pmc_PMC13723821,15,tb notifications,TB notifications,0.0447,tfidf,extracted
+europe_pmc_PMC7619672,1,world health organization,World Health Organization,1.1,uppercase,extracted
+europe_pmc_PMC7619672,2,model lists of essential,Model Lists of Essential,1.1,uppercase,extracted
+europe_pmc_PMC7619672,3,asia and latin america,Asia and Latin America,1.1,uppercase,extracted
+europe_pmc_PMC7619672,4,medicines patent pool,Medicines Patent Pool,1.1,uppercase,extracted
+europe_pmc_PMC7619672,5,asia and latin,Asia and Latin,1.1,uppercase,extracted
+europe_pmc_PMC7619672,6,latin america,Latin America,1.1,uppercase,extracted
+europe_pmc_PMC7619672,7,who,WHO,1.28,uppercase,extracted
+europe_pmc_PMC7619672,8,tpp,TPP,1.14,uppercase,extracted
+europe_pmc_PMC7619672,9,tpps,TPPs,1.06,uppercase,extracted
+europe_pmc_PMC7619672,10,dengue,Dengue,0.0506,tfidf,extracted
+europe_pmc_PMC7619672,11,therapeutics,Therapeutics,0.0455,tfidf,extracted
+europe_pmc_PMC7619672,12,dengue therapeutics,dengue therapeutics,0.0417,tfidf,extracted
+europe_pmc_PMC7619672,13,drug,drug,0.0416,tfidf,extracted
+europe_pmc_PMC7619672,14,development,development,0.0392,tfidf,extracted
+europe_pmc_PMC7619672,15,efficacy,efficacy,0.0391,tfidf,extracted

@@ -1,0 +1,118 @@
+{
+  "step": 2,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon",
+  "bag_root": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "paper_count": 13,
+  "papers_from_cache": 0,
+  "papers_extracted": 13,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 195,
+  "unique_phrases": 181,
+  "elapsed_s": 1.5241,
+  "paper_ids": [
+    "europe_pmc_PMC13430655",
+    "europe_pmc_PMC13486555",
+    "europe_pmc_PMC13533594",
+    "europe_pmc_PMC13558689",
+    "europe_pmc_PMC13570586",
+    "europe_pmc_PMC13580351",
+    "europe_pmc_PMC13594180",
+    "europe_pmc_PMC13613981",
+    "europe_pmc_PMC13639189",
+    "europe_pmc_PMC13642211",
+    "europe_pmc_PMC13686517",
+    "europe_pmc_PMC13701812",
+    "europe_pmc_PMC13721956"
+  ],
+  "papers": [
+    {
+      "paper_id": "europe_pmc_PMC13430655",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13430655.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13486555",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13486555.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13533594",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13533594.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13558689",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13558689.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13570586",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13570586.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13580351",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13580351.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13594180",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13594180.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13613981",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13613981.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13639189",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13639189.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13642211",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13642211.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13686517",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13686517.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13701812",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13701812.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13721956",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases/europe_pmc_PMC13721956.json"
+    }
+  ]
+}

@@ -1,0 +1,946 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="emi70152" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Environ Microbiol</journal-id><journal-id journal-id-type="iso-abbrev">Environ Microbiol</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">100883692</journal-id><journal-id journal-id-type="publisher-id">EMI</journal-id><journal-title-group><journal-title>Environmental Microbiology</journal-title></journal-title-group><issn pub-type="ppub">1462-2912</issn><issn pub-type="epub">1462-2920</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12274789</article-id><article-id pub-id-type="pmcid-ver">PMC12274789.1</article-id><article-id pub-id-type="pmcaid">12274789</article-id><article-id pub-id-type="pmcaiid">12274789</article-id><article-id pub-id-type="pmid">40682305</article-id><article-id pub-id-type="doi">10.1111/1462-2920.70152</article-id><article-id pub-id-type="publisher-id">EMI70152</article-id><article-id pub-id-type="other">EMI-2025-0351</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Intertidal Warming Causes Mortality and Disrupts the Microbiome of Oysters</article-title></title-group><contrib-group><contrib id="emi70152-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Scanes</surname><given-names initials="E">Elliot</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7520-3804</contrib-id><xref rid="emi70152-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="emi70152-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>elliot.scanes@uts.edu.au</email></address></contrib><contrib id="emi70152-cr-0002" contrib-type="author"><name name-style="western"><surname>Siboni</surname><given-names initials="N">Nachshon</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6082-0949</contrib-id><xref rid="emi70152-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="emi70152-cr-0003" contrib-type="author"><name name-style="western"><surname>Brandimarti</surname><given-names initials="M">Maquel</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4055-6623</contrib-id><xref rid="emi70152-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="emi70152-cr-0004" contrib-type="author"><name name-style="western"><surname>Seymour</surname><given-names initials="J">Justin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3745-6541</contrib-id><xref rid="emi70152-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="emi70152-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Climate Change Cluster</named-content>
+<institution>University of Technology Sydney</institution>
+<city>Ultimo</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="emi70152-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Parks Bay Marine Lab</institution>
+<city>Koolewong</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Elliot Scanes (<email>elliot.scanes@uts.edu.au</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>7</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>7</month><year>2025</year></pub-date><volume>27</volume><issue seq="240">7</issue><issue-id pub-id-type="pmc-issue-id">493297</issue-id><issue-id pub-id-type="doi">10.1111/emi.v27.7</issue-id><elocation-id>e70152</elocation-id><history>
+<date date-type="rev-recd"><day>26</day><month>6</month><year>2025</year></date>
+<date date-type="received"><day>17</day><month>3</month><year>2025</year></date>
+<date date-type="accepted"><day>07</day><month>7</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>19</day><month>07</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>20</day><month>07</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 22:46:10.780"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Environmental Microbiology</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="EMI-27-e70152.pdf"><?pdf-name EMI-27-e70152.pdf?><?pdf-size 7061030?><?pdf-md5 58d44d2b61711b374c62e675d5156490?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:b4a3/12274789/58d44d2b6171/EMI-27-e70152.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:EMI-27-e70152.pdf"/><abstract><title>ABSTRACT</title><p>Intertidal ecosystems are physically stressful habitats, with resident organisms often living close to their limits. These limits include the balance between host organisms and microbial partners; a balance that may be tipped by climate change. We simulated intertidal warming in the field by establishing populations of the Sydney rock oyster, <italic toggle="no">Saccostrea glomerata,</italic> on black and white concrete tiles, resulting in differing thermal conditions. Tiles were placed on the intertidal shoreline among natural oyster populations. Oysters on black tiles were up to 3°C warmer than those on white tiles during low tide. We monitored the tiles for oyster survival and took gill and haemolymph samples from oysters for microbiological analysis using qPCR, 16S, and HSP60 rRNA sequencing. We found that after six days, levels of oyster mortality were 50% greater on the black tiles. Oysters on black tiles exhibited a significant shift in their microbiome, involving increases in putative pathogenic bacteria from the <italic toggle="no">Vibrio</italic> genus, including the known oyster pathogen <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content> and the human pathogen <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content>. These findings demonstrate that relatively small increases in temperature within intertidal ecosystems can cause significant shifts in the microbiome and mortality among oyster populations, with putative links to bacterial pathogens.</p></abstract><abstract abstract-type="graphical"><p>We used black and white coloured tiles to manipulate intertidal oyster temperature. Oysters on black tiles experienced a shift in their microbiome compared to oysters on white tiles, with a significant increase in bacteria from the <italic toggle="no">Vibrio</italic> genus, including putative oyster (e.g., <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content>) and human (e.g., <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content>) pathogens.<boxed-text position="anchor" content-type="graphic" id="emi70152-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="EMI-27-e70152-g006.jpg"><?image-name EMI-27-e70152-g006.jpg?><?image-size 120126?><?image-md5 11e6f331f2cf718c0e3f816c3a445aad?><?image-image-server-status NEVER_LOAD?><?image-original-height 390?><?image-original-width 615?><?image-scaled-height 390?><?image-scaled-width 615?><?image-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/11e6f331f2cf/EMI-27-e70152-g006.jpg?></graphic></boxed-text>
+</p></abstract><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Australian Research Council</institution><institution-id institution-id-type="doi">10.13039/501100000923</institution-id></institution-wrap>
+</funding-source><award-id>DE240100272</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="0"/><page-count count="12"/><word-count count="7800"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.9 mode:remove_FC converted:19.07.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="emi70152-cit-1001">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Brandimarti</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Seymour</surname>
+</string-name>. <year>2025</year>. “<article-title>Intertidal Warming Causes Mortality and Disrupts the Microbiome of Oysters</article-title>.” <source>Environmental Microbiology</source>
+<volume>27</volume>, no. <issue>7</issue>: <elocation-id>e70152</elocation-id>. <pub-id pub-id-type="doi">10.1111/1462-2920.70152</pub-id>.<pub-id pub-id-type="pmcid">PMC12274789</pub-id><pub-id pub-id-type="pmid">40682305</pub-id></mixed-citation>
+</p><fn-group id="emi70152-ntgp-0001"><fn fn-type="funding" id="emi70152-note-0001"><p>
+<bold>Funding:</bold> This work was supported by Australian Research Council (DE240100272).</p></fn></fn-group></notes></front><body id="emi70152-body-0001"><sec id="emi70152-sec-0001"><label>1</label><title>Introduction</title><p>The intertidal marine environment is among the most physically stressful on earth, with many species residing close to their physiological limit, making intertidal habitats highly vulnerable to climate change (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>; Scanes et al. <xref rid="emi70152-bib-0049" ref-type="bibr">2017</xref>). Intertidal ecosystems are typically dominated by marine flora and fauna that can endure periods of emersion, creating an environment devoid of shade except behind boulders and in crevices (Bauer et al. <xref rid="emi70152-bib-0004" ref-type="bibr">2024</xref>). Sessile organisms like oysters and barnacles cannot move towards shade and therefore must endure direct solar radiation when low tides coincide with the hottest part of the day, raising their body temperature well above the air temperature (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>; White et al. <xref rid="emi70152-bib-0067" ref-type="bibr">2023</xref>). Living close to their physiological limits means that an increase in temperatures can have catastrophic outcomes for intertidal organisms (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>). For example, when an atmospheric heatwave coincided with low tides in the Pacific Northwest of America in 2021, up to 70% of sessile marine invertebrates died, with estimates of over 1 million dead mussels in a 100 m stretch of shoreline (White et al. <xref rid="emi70152-bib-0067" ref-type="bibr">2023</xref>). During this heatwave, surface temperatures of 50°C were recorded in the intertidal zone of the Salish Sea. It is anticipated that climate change and the resulting heatwaves will make life more challenging for sessile invertebrates in already hostile rocky intertidal habitats (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>; Hesketh and Harley <xref rid="emi70152-bib-0022" ref-type="bibr">2023</xref>).</p><p>Intertidal habitats are one of the few habitats exposed to both atmospheric and marine extreme events (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>). Marine heatwaves can impact marine communities across all trophic levels (Wernberg et al. <xref rid="emi70152-bib-0066" ref-type="bibr">2023</xref>, <xref rid="emi70152-bib-0065" ref-type="bibr">2013</xref>). Numerous studies have demonstrated the detrimental impacts of marine heatwaves, such as on the Western Australian coastline, where a marine heatwave altered the biodiversity of temperate seaweeds, sessile invertebrates, and demersal fish and led to a reduction in the abundance of habitat‐forming seaweeds (Wernberg et al. <xref rid="emi70152-bib-0065" ref-type="bibr">2013</xref>). The effects of marine and atmospheric heatwaves have been observed in the intertidal zone, where impacts on habitat‐forming organisms can have dramatic flow‐on effects throughout the ecosystem (Wernberg et al. <xref rid="emi70152-bib-0066" ref-type="bibr">2023</xref>). For example, heatwaves and low rainfall in 2015–2016 caused widespread mortality of habitat‐forming mangroves over 1000kms of Northern Australian coastline, resulting in immediate consequences for ecosystem services including multi‐million dollar (AUD) fisheries, carbon capture, and shoreline protection (Duke et al. <xref rid="emi70152-bib-0013" ref-type="bibr">2017</xref>; Sippo et al. <xref rid="emi70152-bib-0056" ref-type="bibr">2018</xref>).</p><p>There is also evidence that heatwave conditions can profoundly reshape the important interactions between marine animals and their microbiome (Tout et al. <xref rid="emi70152-bib-0060" ref-type="bibr">2015</xref>; Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). Evidence from coral reefs demonstrates that marine heatwaves can alter the microbiome of the coral hosts with negative consequences for coral fitness (Vompe et al. <xref rid="emi70152-bib-0061" ref-type="bibr">2024</xref>; Rubio‐Portillo et al. <xref rid="emi70152-bib-0047" ref-type="bibr">2016</xref>; Voolstra et al. <xref rid="emi70152-bib-0062" ref-type="bibr">2024</xref>). Similar observations have been made of habitat‐forming seaweeds, with heatwaves triggering disease and even increases in predation caused by changes in the microbiome (Qiu et al. <xref rid="emi70152-bib-0044" ref-type="bibr">2019</xref>; Castro et al. <xref rid="emi70152-bib-0007" ref-type="bibr">2024</xref>). Another habitat‐forming organism vulnerable to bacterial disease is oysters.</p><p>Oysters are important habitat forming organisms that inhabit intertidal and coastal zones around the world (Grabowski et al. <xref rid="emi70152-bib-0014" ref-type="bibr">2012</xref>; Grabowski and Peterson <xref rid="emi70152-bib-0015" ref-type="bibr">2007</xref>), but are vulnerable to both atmospheric and marine heatwaves (Siboni et al. <xref rid="emi70152-bib-0054" ref-type="bibr">2024</xref>; Scanes, Parker, et al. <xref rid="emi70152-bib-0048" ref-type="bibr">2020</xref>; Xu et al. <xref rid="emi70152-bib-0068" ref-type="bibr">2021</xref>; Scanes et al. <xref rid="emi70152-bib-0051" ref-type="bibr">2025</xref>), with bacterial disease a leading cause of mortality (Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>; Siboni et al. <xref rid="emi70152-bib-0054" ref-type="bibr">2024</xref>; Petton et al. <xref rid="emi70152-bib-0042" ref-type="bibr">2019</xref>). Research has demonstrated that a compromised immune system resulting from warming or viral infection permits bacteria, often from the <italic toggle="yes">Vibrio</italic> genus, to infect and kill oysters (Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>; Siboni et al. <xref rid="emi70152-bib-0054" ref-type="bibr">2024</xref>; De Lorgeril et al. <xref rid="emi70152-bib-0010" ref-type="bibr">2018</xref>; Wendling et al. <xref rid="emi70152-bib-0064" ref-type="bibr">2017</xref>; Montánchez and Kaberdin <xref rid="emi70152-bib-0034" ref-type="bibr">2020</xref>). Bacteria from the <italic toggle="yes">Vibrio</italic> genus are naturally occurring in marine and coastal habitats, with many members identified as potentially pathogenic to marine organisms and human seafood consumers (Ndraha et al. <xref rid="emi70152-bib-0037" ref-type="bibr">2020</xref>). <italic toggle="yes">Vibrio</italic> are also identified as a marine pathogen predicted to increase under climate change because they often proliferate in warmer conditions (Scanes et al. <xref rid="emi70152-bib-0051" ref-type="bibr">2025</xref>; Baker et al. <xref rid="emi70152-bib-0001" ref-type="bibr">2022</xref>; Baker‐Austin et al. <xref rid="emi70152-bib-0003" ref-type="bibr">2013</xref>; Mora et al. <xref rid="emi70152-bib-0035" ref-type="bibr">2022</xref>).</p><p>Following exposure to both atmospheric and marine heatwave conditions, multiple species of oysters have displayed significant microbiome shifts, which often involve substantial increases in <italic toggle="yes">Vibrio</italic>, most notably putative pathogens from the <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio harveyi</italic>
+</styled-content> clade (Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). These changes in the oyster microbiome were also accompanied by high levels of oyster mortality and a decrease in circulating white blood cells (Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). Oyster microbiomes are not only a source of disease, but are vital to providing immune processes to the host (King, Jenkins, Seymour, et al. <xref rid="emi70152-bib-0026" ref-type="bibr">2019</xref>) and aiding in digestion (Pimentel et al. <xref rid="emi70152-bib-0043" ref-type="bibr">2021</xref>). Oysters provide irreplaceable habitat in intertidal zones, but are also a valuable aquaculture commodity, with more than 6.2 million tonnes produced each year around the globe (Food and Agriculture Organization <xref rid="emi70152-bib-0041" ref-type="bibr">2020</xref>). Climate change, therefore, has the potential to disrupt global ecosystems and food security by altering oyster microbiomes and increasing disease.</p><p>The scale and complexity of the climate change process create challenges when designing experiments to simulate climate change processes (Boyd et al. <xref rid="emi70152-bib-0005" ref-type="bibr">2018</xref>; Hemraj and Russell <xref rid="emi70152-bib-0021" ref-type="bibr">2025</xref>). Laboratory‐based climate change experiments allow for a high degree of control (Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>; Petton et al. <xref rid="emi70152-bib-0042" ref-type="bibr">2019</xref>), but cannot account for natural variability and ecological interactions, providing constraints on their capacity to predict the responses of marine organisms to climate change (Boyd et al. <xref rid="emi70152-bib-0005" ref-type="bibr">2018</xref>). In contrast, an increasing number of experiments have made use of already warming habitats to observe responses by marine organisms (Wernberg et al. <xref rid="emi70152-bib-0065" ref-type="bibr">2013</xref>; Siboni et al. <xref rid="emi70152-bib-0054" ref-type="bibr">2024</xref>; King, Jenkins, Go, et al. <xref rid="emi70152-bib-0025" ref-type="bibr">2019</xref>), but this approach restricts the ability to compare precisely controlled treatments. In order to advance our understanding of climate change impacts on important marine species, experiments that incorporate natural variability in real‐world scenarios while also retaining control of experimental variables are needed (Boyd et al. <xref rid="emi70152-bib-0005" ref-type="bibr">2018</xref>).</p><p>Understating the effect heatwaves have on the interactions between intertidal aquatic organisms and their microbiome will be essential to inform how species will respond to climate change. Eastern Australia is an ocean warming hotspot, where sea‐surface temperatures are warming at twice the rate of the global average (Hobday and Pecl <xref rid="emi70152-bib-0023" ref-type="bibr">2014</xref>). However, Australia's land temperatures are warming 40% faster than the oceans (Bureau of Meteorology <xref rid="emi70152-bib-0033" ref-type="bibr">2018</xref>). This simultaneous warming from both land and sea is putting significant pressure on Australian intertidal rocky shore communities. This study aimed to use a simple, but novel manipulative field experiment to test the effects of intertidal warming on the microbiome and survival of oysters. We used a passive heating design with light and dark coloured tiles to manipulate temperatures in the field. We hypothesised that elevated temperatures would result in shifts in the oyster bacterial communities, underpinned by an increase in putative pathogens, and ultimately an increase in oyster mortality.</p></sec><sec id="emi70152-sec-0002"><label>2</label><title>Experimental Procedures</title><sec id="emi70152-sec-0003"><label>2.1</label><title>Experimental Design and Sampling Protocols</title><p>All experiments were conducted within the natural intertidal shoreline at a site on the east coast of Australia (Brisbane Water, NSW, −33.4773, 151.3221) between 30/1/24 and 6/2/24. This region is characterised by a warm temperate/subtropical climate and supports an oyster aquaculture industry, which primarily targets the Sydney rock oyster, <italic toggle="yes">Saccostrea glomerata</italic>. The catchment of Brisbane Water is approximately 45% urbanised. Adjacent to the study site was a community of seagrass (<italic toggle="yes">Zostera mulleri</italic>), and during the experiment, juvenile fish including <italic toggle="yes">
+<styled-content style="fixed-case" toggle="no">Acanthopagrus australis</styled-content>, <styled-content style="fixed-case" toggle="no">Mugil cephalus</styled-content>
+</italic>, and the estuary stingray <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Dasyatis fluviorum</italic>
+</styled-content> were observed to inhabit the study site when immersed.</p><p>To experimentally manipulate the temperatures experienced by oysters within the natural inter‐tidal setting, we used a novel approach involving attaching oysters to concrete tiles (400 × 400 × 40 mm) to generate a thermal gradient (McAfee et al. <xref rid="emi70152-bib-0032" ref-type="bibr">2017</xref>). For these experiments, two tile types were used, which were identical in composition but varied in colour, with dark grey/black and cream/white colour tiles used. Pilot studies demonstrated that when left in the direct sun, the surface of the darker tiles heated to temperatures 3°C–4°C greater than the white tiles.</p><p>To simulate a population of oysters inhabiting the intertidal shore, 16 Sydney rock oysters (<italic toggle="yes">Saccostrea glomerata</italic>) were glued to the upper side of each concrete tile. Oysters were obtained from existing farming stock of an oyster grower in Brisbane Waters (Empire Bay Oysters), were 13 months old and had a mean (±SE) shell length of 25 ± 6.2 mm. The experimental oysters were genetically “wild” and had previously been caught on sticks in an estuary 300 km north of our study location. Prior to collection from the farmer, oysters were kept on intertidal tray leases. Oysters were glued to the tiles using construction adhesive (Sika Co.) at an even spacing of 60 mm apart (Figure <xref rid="emi70152-fig-0001" ref-type="fig">1</xref>). To continuously log the temperature experienced by oysters during experiments, thermochron temperature loggers (ibutton DS1921G; ±0.5°C) were placed inside an empty oyster shell and glued onto each tile alongside the live oysters. To do this, an oyster from the same source as live oysters was shucked and the tissue was removed. The shell was then filled with epoxy resin (3 M Scotch‐cast) with thermal properties comparable to those of oyster tissue (McAfee et al. <xref rid="emi70152-bib-0032" ref-type="bibr">2017</xref>). The temperature logger was placed inside the shell, covered in resin and then the upper valve was replaced onto the shell. The logger and shell were then glued to the tile in the same way as live oysters. To understand how the temperatures on tiles related to the natural environment, three loggers in oyster shells were also glued imbedded among the natural <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S. glomerata</italic>
+</styled-content> aggregations at 0.5 m LAT.</p><fig position="float" fig-type="FIGURE" id="emi70152-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(A) Mean (±SE) oyster mortality (%) over the experimental period. Tile colours are indicated by colours whereas black tiles in red and white tiles in turquoise. Small points indicate raw data. (B) Mean oyster temperature (°C) recorded on the tiles, shaded area indicates 95% confidence intervals. Picture insert is a photo of the experimental setup. (C) Tidal heights (m) over the experimental period, grey shaded areas indicate night time and yellow shading indicates daytime, text indicates maximum daytime temperatures recorded by the Australian Bureau of Meteorology at the nearest weather station (10 km distance).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="EMI-27-e70152-g005.jpg"><?image-name EMI-27-e70152-g005.jpg?><?image-size 158814?><?image-md5 bd48041aa066ef38f26f06f2a9d524d5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1404?><?image-original-width 1064?><?image-scaled-height 936?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/bd48041aa066/EMI-27-e70152-g005.jpg?><?thumb-name EMI-27-e70152-g005.gif?><?thumb-size 6005?><?thumb-md5 409e9ab0a84d9f63769e400820ab3c73?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 132?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/409e9ab0a84d/EMI-27-e70152-g005.gif?></graphic></fig><p>Six tiles were then organised in alternating colours (white, black, white…) in a single row parallel to the shoreline. Tiles were organised on a patch of sand among sandstone boulders that were covered in natural aggregations of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">S. glomerata</italic>
+</styled-content> at heights on the shore from 0.2 to 0.8 m above Lowest Astronomical Tide (LAT). Tiles were placed at 0.5 m above LAT to ensure immersion during high tide. Tiles remained positioned there for 5 days, after which they were moved to 0.3 m below LAT following hot weather to allow for recovery and to monitor survival. The tiles then remained in place for six days, coinciding with low tides occurring around midday.</p><p>Tiles were checked daily for mortality, with oysters determined as dead when the upper valve no longer remained closed. After six days, tiles were collected and three live oysters from each tile were randomly sampled. Oysters were shucked while still attached to the tile and 0.2 mL of haemolymph was extracted from the pericardial cavity using a sterile needled syringe, placed into a cryovial and then frozen in liquid Nitrogen (LN<sub>2</sub>). Gill tissue was then excised using sterile scissors, placed in a cryovial and frozen in LN<sub>2</sub>. White tiles were re‐deployed at 0.3 m LAT for a further seven days to monitor oyster survival, but at this point of the experiment there were no remaining live oysters on the black tiles.</p><p>On the day oyster tissue was sampled, triplicate seawater samples were also taken from the surface seawater directly adjacent to the tiles on the shore. Seawater samples were collected at high tide in water of 1 m depth. Samples were collected in three 10 L pre‐cleaned containers (rinsed with 10% bleach, washed three times with water and washed three times with seawater prior to sampling) and filtered on site through 0.22 μm pore‐size membrane filters (Millipore, Durapore PVDF) using a peristaltic pump (100 rpm). Filter membranes were immediately placed into cryovials and frozen in LN<sub>2</sub>.</p></sec><sec id="emi70152-sec-0004"><label>2.2</label><title>Molecular Microbiological Analysis</title><p>DNA was extracted from oyster tissue samples using the QIAGEN DNeasy Blood and Tissue kit, while DNA from seawater was extracted using the QIAGEN DNeasy Power Water kit. DNA was stored at −80°C until further processing.</p><p>To characterise bacterial community composition, PacBio full length 16S rRNA amplicon sequencing was used. DNA was amplified using the 27F 5′‐AGRGTTYGATYMTGGCTCAG‐3′ and 1492R 5′‐RGYTACCTTGTTACGACTT‐3′ primer pairing, with sequencing performed at the Australian Genome Research Facility (AGRF, Melbourne, Australia). Raw data files in FASTQ format were deposited to the Sequence Read Archive (SRA) under Bioproject number [PRJNA1281817; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://url.au.m.mimecastprotect.com/s/hO4iC2xM9AUprBy0BS1hyh5Lq_F?domain=ncbi.nlm.nih.gov" ext-link-type="uri">http://www.ncbi.nlm.nih.gov/bioproject/1281817</ext-link>].</p><p>Raw demultiplexed 16S rRNA data was processed using the Quantitative Insights into Microbial Ecology (QIIME 2 version 2019.1.0) pipeline. Briefly, single‐end read sequences were imported, trimmed, and denoised using DADA2 (version 2019.1.0). Sequences were identified at the single nucleotide level (Amplicon Sequence Variants; ASV) and taxonomy was assigned using the classify‐sklearn qiime feature classifier against the Silva v138.1 database. Unassigned ASVs, or those assigned as mitochondria or chloroplast, as well as rare reads (below relative abundances of 0.001%) were filtered out. Rarefaction plots were used to check sequencing depth, and data were rarefied to 7000 sequences per sample, which excluded four samples (3 gills, 1 hemolymph) that were not used for further analysis.</p><p>Vibrio are known pathogens of oysters and other marine animals (King, Jenkins, Seymour, et al. <xref rid="emi70152-bib-0026" ref-type="bibr">2019</xref>), but are not well characterised by the 16S gene. To characterise the <italic toggle="yes">Vibrio</italic> community, we used a custom amplicon sequencing assay targeting the hsp60 gene (King, Siboni, et al. <xref rid="emi70152-bib-0027" ref-type="bibr">2019</xref>). Raw demultiplexed hsp60 data was processed as previously described (King, Siboni, et al. <xref rid="emi70152-bib-0027" ref-type="bibr">2019</xref>). Reads were joined using Flash (Magoč and Salzberg <xref rid="emi70152-bib-0031" ref-type="bibr">2011</xref>) and the resulting fragments were trimmed with Mothur (Schloss et al. <xref rid="emi70152-bib-0053" ref-type="bibr">2009</xref>). Fragments were clustered into operational taxonomic units (OTUs) at the 97% threshold and chimeric sequences were removed using vsearch (Rognes et al. <xref rid="emi70152-bib-0046" ref-type="bibr">2016</xref>). Taxonomy was assigned to fragments using QIIME (Caporaso et al. <xref rid="emi70152-bib-0006" ref-type="bibr">2010</xref>) and the RDP classifier (Wang et al. <xref rid="emi70152-bib-0063" ref-type="bibr">2007</xref>) according to a custom <italic toggle="yes">Vibrio</italic>‐hsp60 reference dataset (King et al. <xref rid="emi70152-bib-0027" ref-type="bibr">2019</xref>). OTUs with less than 25 total reads were removed and sequences were normalised to the number of sequences per sample to produce relative abundance.</p><p>Measurements of total bacterial, <italic toggle="yes">Vibrio</italic> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content> abundances were determined by quantitative PCR (qPCR). Abundances of total bacteria were quantified by targeting the bacterial 16S rRNA gene, using the BACT1369F and PROK1492R primer pair and the TM1389F probe (Suzuki et al. <xref rid="emi70152-bib-0057" ref-type="bibr">2000</xref>). Abundances of total <italic toggle="yes">Vibrio</italic> were quantified with the primer pair Vib1‐f and Vib2‐r (Thompson et al. <xref rid="emi70152-bib-0059" ref-type="bibr">2004</xref>; Siboni et al. <xref rid="emi70152-bib-0055" ref-type="bibr">2016</xref>), which targets the 16S rRNA gene specific to the <italic toggle="yes">Vibrio</italic> genus. The putative pathogen <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio harveyi</italic>
+</styled-content> has consistently been implicated in oyster mortality events, including in <italic toggle="yes">S. glomerata</italic>, following heatwaves (Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). To quantify the abundances of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content>, we used the primer pair of mreB11F and mreB9bisR (Mougin et al. <xref rid="emi70152-bib-0036" ref-type="bibr">2020</xref>), which targets the protein (MreB) that has previously been aligned to 171 <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio harveyi</italic>
+</styled-content> strains from NCBI. We then constructed a TaqMan probe 5′‐FAM‐AACTACGGCAGCTTGATCGGTGAA‐ZEN‐IBFQ‐3′ on a conserved area between the two primers.</p><p>Quantitative PCR (qPCR) assays were prepared with an epMotion 5075I Automated Liquid Handling System and performed on a Bio‐Rad CFX384 Touch Real‐Time PCR Detection System, with three technical replicates, a standard curve, and negative controls. qPCR protocols for the assays followed those used in Scanes et al. (<xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). The resulting data were normalised to gene copies per litre of seawater and per mg of haemolymph or gill tissue.</p></sec><sec id="emi70152-sec-0005"><label>2.3</label><title>Data Analysis</title><p>Comparison of oyster survival between tile type and days was performed using a two‐way ANOVA, with “Tile colour” and “Time” as the factors. Pairwise Tukey Tests were used to determine the source of significant variation (<italic toggle="yes">n</italic> = 9). Differences in bacterial alpha diversity metrics, derived from both 16S rRNA and hsp60 sequencing data, between tile colours were determined using a single factor ANOVA (<italic toggle="yes">n</italic> = 9), while differences in bacterial beta diversity were assessed using PERMOVA (Vegan package (Dixon <xref rid="emi70152-bib-0011" ref-type="bibr">2003</xref>; Oksanen et al. <xref rid="emi70152-bib-0038" ref-type="bibr">2007</xref>)) on Weighted‐unifrac (16S rRNA) or Bray–Curtis (hsp60) distance matrices with “Tile colour” and “Tissue type” (haemolymph vs. gill) as the factors. ANCOM‐<sc>bc</sc>2 analysis was used to determine significant differences in the relative abundance of ASVs between tile colours for both tissue types, using a Benjamin–Hochberg adjusted <italic toggle="yes">p</italic> value set at &lt; 0.05. Differences in bacterial abundance from qPCR were determined using two‐way ANOVA with “Tissue type” and “Tile colour” as the fixed factors and “Replicate tile” as a random factor. Differences in the relative abundance of vibrio OTUs assigned to the same species were determined using a generalised linear mixed model (GLMM; MASS package (Ripley et al. <xref rid="emi70152-bib-0045" ref-type="bibr">2013</xref>)) with a negative binomial distribution and the factors “Tissue type”, “Tile colour” as fixed factors and “Replicate tile” as a random factor. GLMM <italic toggle="yes">p</italic> values were adjusted for multiple comparisons using a Bonferroni correction.</p></sec></sec><sec sec-type="results" id="emi70152-sec-0006"><label>3</label><title>Results</title><sec id="emi70152-sec-0007"><label>3.1</label><title>Temperature Treatments</title><p>Oysters on the white tiles experienced a mean (±SE) temperature of 27.07°C ± 0.07°C and a maximum of 48.5°C, while oysters on black tiles experienced a mean (±SE) temperature of 27.4°C ± 0.08°C and a maximum of 51.5°C. The black tile treatment increased the mean temperature of oysters by 0.38°C ± 0.11°C (mean ± SE, <italic toggle="yes">n</italic> = 3) over the experimental period. The temperature of oysters on the black tiles exceeded that of the white tiles for 74 ± 24 h (mean ± SE, <italic toggle="yes">n</italic> = 3), which represented 51% of the experiment duration. These periods of elevated temperature on the black tiles all corresponded with emersion at low tide (Figure <xref rid="emi70152-fig-0001" ref-type="fig">1</xref>). The maximum temperature difference between white and black tile treatments in any replicate was 3°C, and the mean maximum difference in temperature across the three replicates was 2.8°C ± 0.16°C (mean ± SE, <italic toggle="yes">n</italic> = 3). The mean (±SE) temperature of wild oysters was 27.3°C ± 0.09°C, reaching a maximum temperature of 45°C.</p></sec><sec id="emi70152-sec-0008"><label>3.2</label><title>Oyster Survival</title><p>The elevated temperatures experienced on black tiles significantly increased the mortality of oysters (ANOVA Colour × Time; F<sub>1,14</sub> = 34.1, <italic toggle="yes">p</italic> &lt; 0.001). For the first three days of the experiment, there was no mortality recorded on either treatment type. On day four, there was no mortality recorded, but oysters on the black tiles began to show signs of shell gaping and a slowed response to close their shell. On day five, however, mortality was recorded on both white and black tiles, but mortality on black tiles was significantly (Pairwise test; <italic toggle="yes">p</italic> &lt; 0.001) greater, whereby mean mortality reached 51% ± 7.5% (±SE) compared to only 8.3% ± 4.1% on white tiles. On day 6, there were again significant differences between treatments (Pairwise test; <italic toggle="yes">p</italic> &lt; 0.001), with mean mortality reaching 86% ± 3.7% (±SE) on black tiles, compared to 26% ± 8.3% on white tiles (Figure <xref rid="emi70152-fig-0001" ref-type="fig">1</xref>).</p></sec><sec id="emi70152-sec-0009"><label>3.3</label><title>Bacterial Concentrations</title><p>While no significant differences in the total abundance of bacteria, defined using qPCR targeting the bacterial 16S rRNA gene, were observed between treatments, elevated temperatures on black tiles significantly increased the concentration of bacteria from the <italic toggle="yes">Vibrio</italic> genus (Figure <xref rid="emi70152-fig-0002" ref-type="fig">2</xref>). Both gill and haemolymph samples from oysters located on black tiles contained significantly more <italic toggle="yes">Vibrio</italic> than oysters on white tiles (ANOVA F<sub>1,27</sub> = 8.6, <italic toggle="yes">p</italic> &lt; 0.05). Furthermore, when the abundance of <italic toggle="yes">Vibrio</italic> was normalised to total bacterial abundance (% <italic toggle="yes">Vibrio</italic> / 16S), the oysters on black tiles had a significantly greater proportion of their population comprised of <italic toggle="yes">Vibrio</italic> in both gill (mean ± SE; Black = 0.9% ± 0.5%, White = 0.1% ± 0.08%) and haemolymph (mean ± SE; Black = 1.1% ± 0.5%, White = 0.07% ± 0.03%) tissues (ANOVA F<sub>1,26</sub> = 6.1, <italic toggle="yes">p</italic> &lt; 0.05). There were no significant differences in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content> abundance.</p><fig position="float" fig-type="FIGURE" id="emi70152-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>(A) Stacked bar plot indicating the relative abundance of bacteria at the family level in oyster gill and haemolymph tissue as well as seawater samples. (B) Constrained Analysis of Principal Coordinates (CAP) ordination plot. Oyster tissues and tile colour are indicated by shapes and line colour. (C) bacterial concentrations as determined by qPCR for (I) <italic toggle="yes">Vibrio</italic>, (II) 16S, (III) <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content> and (IV) the % of Vibrio within the bacterial community (vibrio/16S).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="EMI-27-e70152-g004.jpg"><?image-name EMI-27-e70152-g004.jpg?><?image-size 164156?><?image-md5 a3ac2f23b89aabddb99d8f4e5665bd51?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 978?><?image-original-width 1064?><?image-scaled-height 652?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/a3ac2f23b89a/EMI-27-e70152-g004.jpg?><?thumb-name EMI-27-e70152-g004.gif?><?thumb-size 4993?><?thumb-md5 1d20ad25f36fabcad0df654568807812?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 92?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/1d20ad25f36f/EMI-27-e70152-g004.gif?></graphic></fig><p>Seawater samples contained both <italic toggle="yes">Vibrio</italic> and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content>. The mean concentration of <italic toggle="yes">Vibrio</italic> in seawater was 7 × 10<sup>5</sup> ± 34,941 gene copies L<sup>−1</sup> (mean ± SE), while <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. harveyi</italic>
+</styled-content> was 3798 ± 1103 gene copies L<sup>−1</sup>.</p></sec><sec id="emi70152-sec-0010"><label>3.4</label><title>Bacterial Community Composition</title><p>Elevated temperatures on black tiles significantly altered the bacterial communities within oyster gills and haemolymph (Figure <xref rid="emi70152-fig-0002" ref-type="fig">2</xref>). Bacterial communities from the haemolymph of oysters on black tiles had a significantly greater Chao1 index of diversity (ANOVA, F<sub>1,13</sub> = 4.8, <italic toggle="yes">p</italic> &lt; 0.05) than those on white tiles. However, no significant difference in Chao1 occurred in bacterial communities in oyster gills (ANOVA <italic toggle="yes">p</italic> &gt; 0.05). There were no significant differences observed between tile colour treatments for the bacterial communities in either oyster haemolymph or gills for the Simpsons or Shannon's indices of diversity (<italic toggle="yes">p</italic> &lt; 0.05).</p><p>There were significantly different bacterial communities on black compared to white tiles for both oyster haemolymph and gill tissues (PERMAOVA tile colour × sample type; F<sub>1,28</sub> = 1.4, <italic toggle="yes">p</italic> &lt; 0.05). Ordination plots showed the bacterial communities from our two temperature treatments to be separated, although there was greater variability among oysters on white tiles. Bacterial communities in oyster gills on black tiles were characterised by a significant increase in relative abundance of 117 bacterial Amplicon Sequencing Variants (ASVs), and a decrease in 61 bacterial ASVs (ANCOM‐<sc>bc</sc>2 P<sub>adj</sub> &lt; 0.05; Figure <xref rid="emi70152-fig-0003" ref-type="fig">3</xref>). Notably, there was a significant increase in the relative abundance of 7 <italic toggle="yes">Vibrio</italic> ASVs when oysters were on the black tiles.</p><fig position="float" fig-type="FIGURE" id="emi70152-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Amplicon Sequence Variants (ASVs) from oyster tissue that were significantly different in abundance on black compared to white tiles. Positive log fold change values indicate a greater abundance on black tiles. Bacterial phylum are indicated by colour. ASVs with a log fold change value between −0.4 and 0.4 have been removed for clarity. Significance was determined using ANCOM‐BC2 analysis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="EMI-27-e70152-g002.jpg"><?image-name EMI-27-e70152-g002.jpg?><?image-size 171139?><?image-md5 61b6d3d329388144fdcea7a1740af790?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1153?><?image-original-width 1064?><?image-scaled-height 768?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/61b6d3d32938/EMI-27-e70152-g002.jpg?><?thumb-name EMI-27-e70152-g002.gif?><?thumb-size 3981?><?thumb-md5 6a08d325793414f75a71c6cd2d428e50?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 108?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/6a08d3257934/EMI-27-e70152-g002.gif?></graphic></fig><p>Bacterial communities in oyster haemolymph were characterised by an increase in 165 ASVs, and a decrease of 413 ASVs (ANCOM‐<sc>bc</sc>2 P<sub>adj</sub> &lt; 0.05; Figure <xref rid="emi70152-fig-0003" ref-type="fig">3</xref>). Again, <italic toggle="yes">Vibrio</italic> ASVs were conspicuous among those ASVs with increased abundance, with five out of the fifty twenty ASVs which increased in abundance assigned to the <italic toggle="yes">Vibrio</italic> genus. ASVs assigned to the genus <italic toggle="yes">Pseudoalteromonas</italic> also occurred in significantly greater abundance in haemolymph from oysters on black tiles (ANCOM‐<sc>bc</sc>2 P<sub>adj</sub> &lt; 0.05; Figure <xref rid="emi70152-fig-0003" ref-type="fig">3</xref>). ASVs from the genus <italic toggle="yes">Endozoicomonas</italic> decreased in abundance in oyster gill tissues on black tiles, but increased in abundance in oyster haemolymph (ANCOM‐<sc>bc</sc>2 P<sub>adj</sub> &lt; 0.05; Figure <xref rid="emi70152-fig-0003" ref-type="fig">3</xref>).</p><p>Seawater bacterial communities were comprised primarily of SAR 11 bacteria from Clade I, followed by the bacterial families Rhodobacteraceae and Cyanobacteraceae, and <italic toggle="yes">Vibrio</italic> was below 1% of seawater bacterial communities.</p></sec><sec id="emi70152-sec-0011"><label>3.5</label><title>Vibrio Community</title><p>Vibrio communities did not differ significantly between white and black tiles in either gill or haemolymph tissues (PERMANOVA <italic toggle="yes">p</italic> &gt; 0.05; Figure <xref rid="emi70152-fig-0004" ref-type="fig">4</xref>) when analysed at the OTU level. However, we did observe significant increases in the relative abundance of some <italic toggle="yes">Vibrio</italic> taxa at the species level (Figure <xref rid="emi70152-fig-0005" ref-type="fig">5</xref>). There were significantly greater relative abundances of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio alginolyticus</italic>
+</styled-content> (GLMM; Sample type × colour; χ<sup>2</sup> = 8.2, P<sub>adj</sub> &lt; 0.05) and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio diabolicus</italic>
+</styled-content> (GLMM; Sample type × colour; χ<sup>2</sup> = 45.9, P<sub>adj</sub> &lt; 0.05) on black tiles in oyster haemolymph. We also found significantly greater relative abundances of <italic toggle="yes">Vibrio antiquarius</italic> (GLMM; Colour; χ<sup>2</sup> = 90.5, P<sub>adj</sub> &lt; 0.05), <italic toggle="yes">Vibrio harveyii</italic> (GLMM; Colour; χ<sup>2</sup> = 6.8, P<sub>adj</sub> &lt; 0.05), <italic toggle="yes">Vibrio campbellii</italic> (GLMM; Colour; χ<sup>2</sup> = 16.9, P<sub>adj</sub> &lt; 0.05), and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio parahaemolyticus</italic>
+</styled-content> (GLMM; Colour; χ<sup>2</sup> = 68.9, P<sub>adj</sub> &lt; 0.05) on black tiles in both gill and haemolymph tissues (Figure <xref rid="emi70152-fig-0005" ref-type="fig">5</xref>).</p><fig position="float" fig-type="FIGURE" id="emi70152-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Stacked bar plot indicating the relative abundance of Vibrio bacteria at the species level in oyster gill and haemolymph tissue determined by sequencing of the HSP60 gene.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="EMI-27-e70152-g003.jpg"><?image-name EMI-27-e70152-g003.jpg?><?image-size 149060?><?image-md5 9058471264dac47d39b2a6fe9270737f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 879?><?image-original-width 1064?><?image-scaled-height 586?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/9058471264da/EMI-27-e70152-g003.jpg?><?thumb-name EMI-27-e70152-g003.gif?><?thumb-size 4631?><?thumb-md5 61633859944a56a78178dc7d3165da92?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 83?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/61633859944a/EMI-27-e70152-g003.gif?></graphic></fig><fig position="float" fig-type="FIGURE" id="emi70152-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Mean relative abundance of the 10 most abundant Vibrio species (including unassigned Vibrio OTUs) on black and white tiles, and from gill (red circles) and haemolymph (blue diamonds) tissues determined using HSP60 sequencing. Significance as determined by Generalised Linear Mixed Model (GLMM) is indicated with asterisks and text. Small points indicate raw data.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="EMI-27-e70152-g001.jpg"><?image-name EMI-27-e70152-g001.jpg?><?image-size 110653?><?image-md5 4a628b1dbff91421231d63a11ac76ab1?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 839?><?image-original-width 1064?><?image-scaled-height 559?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/4a628b1dbff9/EMI-27-e70152-g001.jpg?><?thumb-name EMI-27-e70152-g001.gif?><?thumb-size 3511?><?thumb-md5 c86e6e1a3336415008ecdfa8dd315293?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 101?><?thumb-cloudpmc-urn urn:cdn:blobs/b4a3/12274789/c86e6e1a3336/EMI-27-e70152-g001.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="emi70152-sec-0012"><label>4</label><title>Discussion</title><p>Marine and atmospheric heatwaves are potent forces that can reshape ecosystems (White et al. <xref rid="emi70152-bib-0067" ref-type="bibr">2023</xref>; Oliver et al. <xref rid="emi70152-bib-0039" ref-type="bibr">2017</xref>). Intertidal habitats are unique in that they are influenced by both marine and atmospheric heatwaves. There is evidence across a wide range of marine organisms that warming can alter host‐microbiome interactions, often reducing host survival and affecting the ecosystems they support (Wernberg et al. <xref rid="emi70152-bib-0065" ref-type="bibr">2013</xref>; Oliver et al. <xref rid="emi70152-bib-0039" ref-type="bibr">2017</xref>, <xref rid="emi70152-bib-0040" ref-type="bibr">2021</xref>). Our novel and simple warming experiment has shown that a small relative increase in temperature can have significant consequences for oyster survival in a real‐world intertidal environment. A modest maximum temperature increase of 3°C and an average of 0.38°C caused a 50% increase in oyster mortality. Accompanying these increases in mortality, we observed a significant shift in the oyster microbiome in both gill and haemolymph tissues. Notably, this microbiome shift involved an increase in both relative and absolute abundance of putative bacterial pathogens from the <italic toggle="yes">Vibrio</italic> genus.</p><p>Our results highlight the stresses experienced by sessile organisms in the intertidal zone. Oysters in our experiment experienced increases in temperature from 21.5°C (during emersion at night) to a maximum of 48.5°C on the white tiles over a period of less than 12 h, representing a temperature difference of 27°C. This kind of extreme temperature range has been previously demonstrated in intertidal bivalves (Helmuth, Broitman, et al. <xref rid="emi70152-bib-0018" ref-type="bibr">2006</xref>). However, our study demonstrated that a further increase in oyster temperature of 3°C was enough to elicit a significant mortality response, a shift in the microbiome and an increase in putative pathogenic microorganisms. Our findings underline the stress and subsequent disease that can occur from intertidal warming, something that was observed on an unprecedented scale in the Northern American heatwave of 2021, where millions of intertidal bivalves were estimated to have died (White et al. <xref rid="emi70152-bib-0067" ref-type="bibr">2023</xref>).</p><p>We observed an altered bacterial community and increased <italic toggle="yes">Vibrio</italic> abundance in the gills and haemolymph of oysters in the elevated temperature treatment. We also saw an increase in <italic toggle="yes">Pseudoalteromonas</italic> in oysters at elevated temperatures. <italic toggle="yes">Pseudoalteromonas</italic> are known to proliferate on dead seafood tissues, associated with seafood spoilage and the storage and transport of dead oysters (Madigan et al. <xref rid="emi70152-bib-0030" ref-type="bibr">2014</xref>; Chen et al. <xref rid="emi70152-bib-0008" ref-type="bibr">2019</xref>). We also observed a decrease in <italic toggle="yes">Endozoicomonas</italic> in oyster gills from oysters in the elevated temperature treatment. <italic toggle="yes">Endozoicomonas</italic> are well known to be associated with oyster gills and have previously been found to decrease in relative abundance during times of temperature stress on oysters (Dor‐Roterman et al. <xref rid="emi70152-bib-0012" ref-type="bibr">2024</xref>). <italic toggle="yes">Vibrio</italic>, however, are known pathogens of oysters and other marine organisms that can cause disease and kill their hosts (Montánchez and Kaberdin <xref rid="emi70152-bib-0034" ref-type="bibr">2020</xref>; Ina‐Salwany et al. <xref rid="emi70152-bib-0024" ref-type="bibr">2019</xref>; Zhang and Li <xref rid="emi70152-bib-0069" ref-type="bibr">2021</xref>). We saw significant increases in the abundance of <italic toggle="yes">
+<styled-content style="fixed-case" toggle="no">V. alginolyticus</styled-content>, <styled-content style="fixed-case" toggle="no">V. diabolicus</styled-content>
+</italic>, <italic toggle="yes">V. antiquarius, <styled-content style="fixed-case" toggle="no">V. harveyi</styled-content>i, <styled-content style="fixed-case" toggle="no">V. campbellii</styled-content>
+</italic>, and <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content> on black tiles. <italic toggle="yes">Vibrio</italic> are common bacteria in coastal environments but can infect marine organisms, especially when their immune system is compromised (De Lorgeril et al. <xref rid="emi70152-bib-0010" ref-type="bibr">2018</xref>). <italic toggle="yes">Vibrio</italic> produce serine proteases, metalloproteases, and cysteine proteases that cause disease and even mortality in the host when bacteria are in high abundance (Kumar et al. <xref rid="emi70152-bib-0028" ref-type="bibr">2021</xref>). Interestingly, we observed a significant increase (27 times greater) in the human pathogen <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content> in oysters from black tiles. <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content> has the ability to cause oyster industry‐wide shutdowns with multi‐million dollar consequences (Taylor et al. <xref rid="emi70152-bib-0058" ref-type="bibr">2018</xref>). The presence of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content> in these oysters is a concern given elevated <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content> abundance in oysters has previously been attributed to elevated seawater temperatures rather than atmospheric temperatures (Scanes et al. <xref rid="emi70152-bib-0051" ref-type="bibr">2025</xref>; Baker et al. <xref rid="emi70152-bib-0001" ref-type="bibr">2022</xref>; Baker‐Austin et al. <xref rid="emi70152-bib-0003" ref-type="bibr">2013</xref>). The ability for atmospheric warming to increase <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">V. parahaemolyticus</italic>
+</styled-content> highlights the potential for climate change to disrupt oyster producers around the globe, jeopardising financial and food security.</p><p>Our observation that elevated temperatures increased the abundance of putative pathogens from the <italic toggle="yes">Vibrio</italic> genus is consistent with previous studies investigating the microbiome of oysters exposed to elevated temperatures under a number of scenarios (Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Siboni et al. <xref rid="emi70152-bib-0054" ref-type="bibr">2024</xref>; Li et al. <xref rid="emi70152-bib-0029" ref-type="bibr">2023</xref>). For example, two separate experiments examining the impacts of heatwaves under laboratory conditions revealed increases in <italic toggle="yes">Vibrio</italic> abundance in oyster tissues and increased oyster mortality (Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). Notably, studies found that antibiotic treatments reduced or eliminated oyster mortality, pointing towards a definitive role of <italic toggle="yes">Vibrio</italic> in oyster mortality (Green et al. <xref rid="emi70152-bib-0017" ref-type="bibr">2019</xref>; Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). Similarly, studies focusing on natural marine heatwaves and seawater warming have demonstrated increased <italic toggle="yes">Vibrio</italic> abundances in oyster tissues (Siboni et al. <xref rid="emi70152-bib-0054" ref-type="bibr">2024</xref>; Li et al. <xref rid="emi70152-bib-0029" ref-type="bibr">2023</xref>). Oyster mortality under heat stress is likely caused by compounding physiological and immune factors that allow infection by pathogenic bacteria (Scanes et al. <xref rid="emi70152-bib-0052" ref-type="bibr">2023</xref>). Our study builds on this body of knowledge by demonstrating this effect in a realistic intertidal experiment.</p><p>Our study has highlighted the significance of substrate colour within intertidal shores under high temperature conditions. Naturally darker surfaces in intertidal zones around the globe are likely to become even hotter under climate change and reshape the communities that colonise them. Rocky shores possess microclimates and habitat refugia that will likely become even more valuable as climate warming continues and heatwaves become more frequent and intense (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>; Helmuth, Broitman, et al. <xref rid="emi70152-bib-0018" ref-type="bibr">2006</xref>). Indeed, we found that natural oyster aggregations reached a maximum temperature 3.5°C cooler than that reached on the white tiles, likely due to the tiles horizontal surface and the three‐dimensional shape of natural aggregations trapping water in the shell matrix (Helmuth and Hofmann <xref rid="emi70152-bib-0020" ref-type="bibr">2001</xref>).</p><p>Intertidal habitats are also vulnerable to stressors from the ocean as well as the atmosphere. The shallow nature of many estuaries in Australia and around the globe will lead to estuarine water temperatures rising faster than the open ocean (Scanes, Scanes, and Ross <xref rid="emi70152-bib-0050" ref-type="bibr">2020</xref>). Such extreme shallow water warming is likely to promote <italic toggle="yes">Vibrio</italic> growth (Baker‐Austin et al. <xref rid="emi70152-bib-0002" ref-type="bibr">2017</xref>). This has been observed during summer in shallow estuarine mudflats in Oregon, USA, where <italic toggle="yes">Vibrio</italic> reached concentrations 1000 times greater than local coastal seawater (Gradoville et al. <xref rid="emi70152-bib-0016" ref-type="bibr">2018</xref>). This indicates that intertidal organisms will be exposed to greater pathogen loads when immersed at high tide.</p><p>Our findings are relevant for intertidal habitats globally. Already, intertidal organisms are living close to their physiological limits (Helmuth, Mieszkowska, et al. <xref rid="emi70152-bib-0019" ref-type="bibr">2006</xref>). As a result, a relatively small increase in temperature can push them over a threshold of survival and alter host–microbiome interactions, with conditions often tipping in the favour of microbial pathogens. The Earth's climate is predicted to warm further in the coming decades regardless of global emissions reductions (Cooley et al. <xref rid="emi70152-bib-0009" ref-type="bibr">2022</xref>). Australia's atmosphere has already warmed by 1.47°C since 1910 and is expected to reach 3°C warming by 2040–2050 (Bureau of Meteorology <xref rid="emi70152-bib-0033" ref-type="bibr">2018</xref>). Our findings demonstrate that an increase of 3°C in a real‐world experiment can shift the oyster microbiome and significantly decrease oyster survival. Therefore, we posit that near‐future warming is likely to place further selective pressure on oyster populations around the globe, triggering them to adapt or alter their distribution. These changes will likely come with consequences for the ecosystems they support and aquaculture production.</p></sec><sec id="emi70152-sec-0013"><title>Author Contributions</title><p>
+<bold>Elliot Scanes:</bold> conceptualisation, methodology, investigation, writing – original draft, writing – review and editing, resources, supervision, formal analysis. <bold>Nachshon Siboni:</bold> methodology, investigation, writing – review and editing, resources, data curation. <bold>Maquel Brandimarti:</bold> conceptualisation, methodology, writing – original draft, writing – review and editing. <bold>Justin Seymour:</bold> methodology, writing – review and editing, resources.</p></sec><sec sec-type="COI-statement" id="emi70152-sec-0015"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="emi70152-sec-0014"><title>Acknowledgements</title><p>We thank and acknowledge Empire Bay Oysters for supplying the oysters used. This work was funded by the Australian Research Council DECRA DE240100272 awarded to ES. Open access publishing facilitated by University of Technology Sydney, as part of the Wiley ‐ University of Technology Sydney agreement via the Council of Australian University Librarians.</p></ack><sec sec-type="data-availability" id="emi70152-sec-0017"><title>Data Availability Statement</title><p>All genetic sequences will be available at the NCBI sequence archive (SRA). All other data is available on request.</p></sec><ref-list content-type="cited-references" id="emi70152-bibl-0001"><title>References</title><ref id="emi70152-bib-0001"><mixed-citation publication-type="journal" id="emi70152-cit-0001">
+<string-name name-style="western">
+<surname>Baker</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Mahmud</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. F.</given-names>
+<surname>Miller</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Infectious Disease in an Era of Global Change</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>20</volume>, no. <issue>4</issue>: <fpage>193</fpage>–<lpage>205</lpage>.<pub-id pub-id-type="pmid">34646006</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41579-021-00639-z</pub-id><pub-id pub-id-type="pmcid">PMC8513385</pub-id></mixed-citation></ref><ref id="emi70152-bib-0002"><mixed-citation publication-type="journal" id="emi70152-cit-0002">
+<string-name name-style="western">
+<surname>Baker‐Austin</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Trinanes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Gonzalez‐Escalona</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Martinez‐Urtaza</surname>
+</string-name>. <year>2017</year>. “<article-title>Non‐Cholera Vibrios: The Microbial Barometer of Climate Change</article-title>.” <source>Trends in Microbiology</source>
+<volume>25</volume>, no. <issue>1</issue>: <fpage>76</fpage>–<lpage>84</lpage>.<pub-id pub-id-type="pmid">27843109</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tim.2016.09.008</pub-id></mixed-citation></ref><ref id="emi70152-bib-0003"><mixed-citation publication-type="journal" id="emi70152-cit-0003">
+<string-name name-style="western">
+<surname>Baker‐Austin</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Trinanes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. G. H.</given-names>
+<surname>Taylor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Hartnell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Siitonen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Martinez‐Urtaza</surname>
+</string-name>. <year>2013</year>. “<article-title>Emerging Vibrio Risk at High Latitudes in Response to Ocean Warming</article-title>.” <source>Nature Climate Change</source>
+<volume>3</volume>, no. <issue>1</issue>: <fpage>73</fpage>–<lpage>77</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0004"><mixed-citation publication-type="journal" id="emi70152-cit-0004">
+<string-name name-style="western">
+<surname>Bauer</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Knights</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Hanley</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Topography‐Based Modulation of Environmental Factors as a Mechanism for Intertidal Microhabitat Formation: A Basis for Marine Ecological Design</article-title>.” <source>Marine Pollution Bulletin</source>
+<volume>202</volume>: <elocation-id>116358</elocation-id>.<pub-id pub-id-type="pmid">38643588</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.marpolbul.2024.116358</pub-id></mixed-citation></ref><ref id="emi70152-bib-0005"><mixed-citation publication-type="journal" id="emi70152-cit-0005">
+<string-name name-style="western">
+<surname>Boyd</surname>, <given-names>P. W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Collins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dupont</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Experimental Strategies to Assess the Biological Ramifications of Multiple Drivers of Global Ocean Change—A Review</article-title>.” <source>Global Change Biology</source>
+<volume>24</volume>, no. <issue>6</issue>: <fpage>2239</fpage>–<lpage>2261</lpage>.<pub-id pub-id-type="pmid">29476630</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.14102</pub-id></mixed-citation></ref><ref id="emi70152-bib-0033"><mixed-citation publication-type="miscellaneous" id="emi70152-cit-0033">
+<collab collab-type="authors">Bureau of Meteorology</collab>
+. <year>2018</year>. <article-title>“State of the Climate 2018.”</article-title>
+</mixed-citation></ref><ref id="emi70152-bib-0006"><mixed-citation publication-type="journal" id="emi70152-cit-0006">
+<string-name name-style="western">
+<surname>Caporaso</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Kuczynski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Stombaugh</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>QIIME Allows Analysis of High‐Throughput Community Sequencing Data</article-title>.” <source>Nature Methods</source>
+<volume>7</volume>, no. <issue>5</issue>: <fpage>335</fpage>–<lpage>336</lpage>.<pub-id pub-id-type="pmid">20383131</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.f.303</pub-id><pub-id pub-id-type="pmcid">PMC3156573</pub-id></mixed-citation></ref><ref id="emi70152-bib-0007"><mixed-citation publication-type="journal" id="emi70152-cit-0007">
+<string-name name-style="western">
+<surname>Castro</surname>, <given-names>L. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vergés</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Straub</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Effect of Marine Heatwaves and Warming on Kelp Microbiota Influence Trophic Interactions</article-title>.” <source>Molecular Ecology</source>
+<volume>33</volume>, no. <issue>5</issue>: <elocation-id>e17267</elocation-id>.<pub-id pub-id-type="pmid">38230446</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mec.17267</pub-id></mixed-citation></ref><ref id="emi70152-bib-0008"><mixed-citation publication-type="journal" id="emi70152-cit-0008">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Bacterial Spoilage Profiles in the Gills of Pacific Oysters (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Crassostrea gigas</italic>
+</styled-content>) and Eastern Oysters (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">C. virginica</italic>
+</styled-content>) During Refrigerated Storage</article-title>.” <source>Food Microbiology</source>
+<volume>82</volume>: <fpage>209</fpage>–<lpage>217</lpage>.<pub-id pub-id-type="pmid">31027776</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fm.2019.02.008</pub-id></mixed-citation></ref><ref id="emi70152-bib-0009"><mixed-citation publication-type="book" id="emi70152-cit-0009">
+<string-name name-style="western">
+<surname>Cooley</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Schoeman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Bopp</surname>
+</string-name>, et al. <year>2022</year>. “<part-title>Oceans and Coastal Ecosystems and Their Services</part-title>.” In <source>IPCC AR6 WGII</source>. <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="emi70152-bib-0010"><mixed-citation publication-type="journal" id="emi70152-cit-0010">
+<string-name name-style="western">
+<surname>De Lorgeril</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lucasson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Petton</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Immune‐Suppression by OsHV‐1 Viral Infection Causes Fatal Bacteraemia in Pacific Oysters</article-title>.” <source>Nature Communications</source>
+<volume>9</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>14</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-06659-3</pub-id><pub-id pub-id-type="pmcid">PMC6182001</pub-id><pub-id pub-id-type="pmid">30310074</pub-id></mixed-citation></ref><ref id="emi70152-bib-0011"><mixed-citation publication-type="journal" id="emi70152-cit-0011">
+<string-name name-style="western">
+<surname>Dixon</surname>, <given-names>P.</given-names>
+</string-name>
+<year>2003</year>. “<article-title>VEGAN, a Package of R Functions for Community Ecology</article-title>.” <source>Journal of Vegetation Science</source>
+<volume>14</volume>, no. <issue>6</issue>: <fpage>927</fpage>–<lpage>930</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0012"><mixed-citation publication-type="journal" id="emi70152-cit-0012">
+<string-name name-style="western">
+<surname>Dor‐Roterman</surname>, <given-names>Y. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Benayahu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Reshef</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Gophna</surname>
+</string-name>. <year>2024</year>. “<article-title>Host–Microbiome Interactions in a Changing Sea: The Gill Microbiome of an Invasive Oyster Under Drastic Temperature Changes</article-title>.” <source>Microorganisms</source>
+<volume>12</volume>, no. <issue>1</issue>: <fpage>197</fpage>.<pub-id pub-id-type="pmid">38258023</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/microorganisms12010197</pub-id><pub-id pub-id-type="pmcid">PMC10819450</pub-id></mixed-citation></ref><ref id="emi70152-bib-0013"><mixed-citation publication-type="journal" id="emi70152-cit-0013">
+<string-name name-style="western">
+<surname>Duke</surname>, <given-names>N. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Kovacs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. D.</given-names>
+<surname>Griffiths</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Large‐Scale Dieback of Mangroves in Australia's Gulf of Carpentaria: A Severe Ecosystem Response, Coincidental With an Unusually Extreme Weather Event</article-title>.” <source>Marine and Freshwater Research</source>
+<volume>68</volume>, no. <issue>10</issue>: <fpage>1816</fpage>–<lpage>1829</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0041"><mixed-citation publication-type="miscellaneous" id="emi70152-cit-0041">
+<collab collab-type="authors">Food and Agriculture Organization</collab>
+. <year>2020</year>. <article-title>“The State of World Fisheries and Aquaculture.”</article-title>
+</mixed-citation></ref><ref id="emi70152-bib-0014"><mixed-citation publication-type="journal" id="emi70152-cit-0014">
+<string-name name-style="western">
+<surname>Grabowski</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R. D.</given-names>
+<surname>Brumbaugh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. F.</given-names>
+<surname>Conrad</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Economic Valuation of Ecosystem Services Provided by Oyster Reefs</article-title>.” <source>Bioscience</source>
+<volume>62</volume>, no. <issue>10</issue>: <fpage>900</fpage>–<lpage>909</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0015"><mixed-citation publication-type="journal" id="emi70152-cit-0015">
+<string-name name-style="western">
+<surname>Grabowski</surname>, <given-names>J. H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. H.</given-names>
+<surname>Peterson</surname>
+</string-name>. <year>2007</year>. “<article-title>Restoring Oyster Reefs to Recover Ecosystem Services</article-title>.” <source>Theoretical Ecology Series</source>
+<volume>4</volume>, no. <issue>7</issue>: <fpage>281</fpage>–<lpage>298</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0016"><mixed-citation publication-type="journal" id="emi70152-cit-0016">
+<string-name name-style="western">
+<surname>Gradoville</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Crump</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. C.</given-names>
+<surname>Häse</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Environmental Controls of Oyster‐Pathogenic Vibrio spp. in Oregon Estuaries and a Shellfish Hatchery</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>84</volume>, no. <issue>9</issue>: <elocation-id>e02156</elocation-id>.<pub-id pub-id-type="pmid">29475863</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/AEM.02156-17</pub-id><pub-id pub-id-type="pmcid">PMC5930336</pub-id></mixed-citation></ref><ref id="emi70152-bib-0017"><mixed-citation publication-type="journal" id="emi70152-cit-0017">
+<string-name name-style="western">
+<surname>Green</surname>, <given-names>T. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. L.</given-names>
+<surname>King</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Labbate</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Raftos</surname>
+</string-name>. <year>2019</year>. “<article-title>Simulated Marine Heat Wave Alters Abundance and Structure of Vibrio Populations Associated With the Pacific Oyster Resulting in a Mass Mortality Event</article-title>.” <source>Microbial Ecology</source>
+<volume>77</volume>, no. <issue>3</issue>: <fpage>736</fpage>–<lpage>747</lpage>.<pub-id pub-id-type="pmid">30097682</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00248-018-1242-9</pub-id></mixed-citation></ref><ref id="emi70152-bib-0018"><mixed-citation publication-type="journal" id="emi70152-cit-0018">
+<string-name name-style="western">
+<surname>Helmuth</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. R.</given-names>
+<surname>Broitman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Blanchette</surname>
+</string-name>, et al. <year>2006</year>. “<article-title>Mosaic Patterns of Thermal Stress in the Rocky Intertidal Zone: Implications for Climate Change</article-title>.” <source>Ecological Monographs</source>
+<volume>76</volume>, no. <issue>4</issue>: <fpage>461</fpage>–<lpage>479</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0019"><mixed-citation publication-type="journal" id="emi70152-cit-0019">
+<string-name name-style="western">
+<surname>Helmuth</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mieszkowska</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Moore</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Hawkins</surname>
+</string-name>. <year>2006</year>. “<article-title>Living on the Edge of Two Changing Worlds: Forecasting the Responses of Rocky Intertidal Ecosystems to Climate Change</article-title>.” <source>Annual Review of Ecology, Evolution, and Systematics</source>
+<volume>37</volume>: <fpage>373</fpage>–<lpage>404</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0020"><mixed-citation publication-type="journal" id="emi70152-cit-0020">
+<string-name name-style="western">
+<surname>Helmuth</surname>, <given-names>B. S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G. E.</given-names>
+<surname>Hofmann</surname>
+</string-name>. <year>2001</year>. “<article-title>Microhabitats, Thermal Heterogeneity, and Patterns of Physiological Stress in the Rocky Intertidal Zone</article-title>.” <source>Biological Bulletin</source>
+<volume>201</volume>, no. <issue>3</issue>: <fpage>374</fpage>–<lpage>384</lpage>.<pub-id pub-id-type="pmid">11751249</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2307/1543615</pub-id></mixed-citation></ref><ref id="emi70152-bib-0021"><mixed-citation publication-type="journal" id="emi70152-cit-0021">
+<string-name name-style="western">
+<surname>Hemraj</surname>, <given-names>D. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Russell</surname>
+</string-name>. <year>2025</year>. “<article-title>Consistency in Marine Heatwave Experiments for Ecological Relevance and Application: Key Problems and Solutions</article-title>.” <source>Limnology and Oceanography Letters</source>
+<volume>10</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>4</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0022"><mixed-citation publication-type="journal" id="emi70152-cit-0022">
+<string-name name-style="western">
+<surname>Hesketh</surname>, <given-names>A. V.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. D.</given-names>
+<surname>Harley</surname>
+</string-name>. <year>2023</year>. “<article-title>Extreme Heatwave Drives Topography‐Dependent Patterns of Mortality in a Bed‐Forming Intertidal Barnacle, With Implications for Associated Community Structure</article-title>.” <source>Global Change Biology</source>
+<volume>29</volume>, no. <issue>1</issue>: <fpage>165</fpage>–<lpage>178</lpage>.<pub-id pub-id-type="pmid">36016505</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.16390</pub-id></mixed-citation></ref><ref id="emi70152-bib-0023"><mixed-citation publication-type="journal" id="emi70152-cit-0023">
+<string-name name-style="western">
+<surname>Hobday</surname>, <given-names>A. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G. T.</given-names>
+<surname>Pecl</surname>
+</string-name>. <year>2014</year>. “<article-title>Identification of Global Marine Hotspots: Sentinels for Change and Vanguards for Adaptation Action</article-title>.” <source>Reviews in Fish Biology and Fisheries</source>
+<volume>24</volume>, no. <issue>2</issue>: <fpage>415</fpage>–<lpage>425</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0024"><mixed-citation publication-type="journal" id="emi70152-cit-0024">
+<string-name name-style="western">
+<surname>Ina‐Salwany</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. Y.</given-names>
+<surname>Ina‐Salwany</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Al‐saari</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Vibriosis in Fish: A Review on Disease Development and Prevention</article-title>.” <source>Journal of Aquatic Animal Health</source>
+<volume>31</volume>, no. <issue>1</issue>: <fpage>3</fpage>–<lpage>22</lpage>.<pub-id pub-id-type="pmid">30246889</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/aah.10045</pub-id></mixed-citation></ref><ref id="emi70152-bib-0025"><mixed-citation publication-type="journal" id="emi70152-cit-0025">
+<string-name name-style="western">
+<surname>King</surname>, <given-names>W. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Jenkins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Go</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Labbate</surname>
+</string-name>. <year>2019</year>. “<article-title>Characterisation of the Pacific Oyster Microbiome During a Summer Mortality Event</article-title>.” <source>Microbial Ecology</source>
+<volume>77</volume>, no. <issue>2</issue>: <fpage>502</fpage>–<lpage>512</lpage>.<pub-id pub-id-type="pmid">29987529</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00248-018-1226-9</pub-id></mixed-citation></ref><ref id="emi70152-bib-0026"><mixed-citation publication-type="journal" id="emi70152-cit-0026">
+<string-name name-style="western">
+<surname>King</surname>, <given-names>W. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Jenkins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Labbate</surname>
+</string-name>. <year>2019</year>. “<article-title>Oyster Disease in a Changing Environment: Decrypting the Link Between Pathogen, Microbiome and Environment</article-title>.” <source>Marine Environmental Research</source>
+<volume>143</volume>: <fpage>124</fpage>–<lpage>140</lpage>.<pub-id pub-id-type="pmid">30482397</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.marenvres.2018.11.007</pub-id></mixed-citation></ref><ref id="emi70152-bib-0027"><mixed-citation publication-type="journal" id="emi70152-cit-0027">
+<string-name name-style="western">
+<surname>King</surname>, <given-names>W. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kahlke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Green</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Labbate</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>. <year>2019</year>. “<article-title>A New High Throughput Sequencing Assay for Characterizing the Diversity of Natural Vibrio Communities and Its Application to a Pacific Oyster Mortality Event</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>10</volume>: <fpage>2907</fpage>.<pub-id pub-id-type="pmid">31921078</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fmicb.2019.02907</pub-id><pub-id pub-id-type="pmcid">PMC6932961</pub-id></mixed-citation></ref><ref id="emi70152-bib-0028"><mixed-citation publication-type="journal" id="emi70152-cit-0028">
+<string-name name-style="western">
+<surname>Kumar</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. B.</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Rajendran</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Delineating Virulence of <italic toggle="yes">Vibrio Campbellii</italic>: A Predominant Luminescent Bacterial Pathogen in Indian Shrimp Hatcheries</article-title>.” <source>Scientific Reports</source>
+<volume>11</volume>, no. <issue>1</issue>: <fpage>1</fpage>–<lpage>16</lpage>.<pub-id pub-id-type="pmid">34349168</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-021-94961-4</pub-id><pub-id pub-id-type="pmcid">PMC8339124</pub-id></mixed-citation></ref><ref id="emi70152-bib-0029"><mixed-citation publication-type="journal" id="emi70152-cit-0029">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2023</year>. “<article-title>High Temperature Aggravates Mortalities of the Pacific Oyster (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Crassostrea gigas</italic>
+</styled-content>) Infected With Vibrio: A Perspective From Homeostasis of Digestive Microbiota and Immune Response</article-title>.” <source>Aquaculture</source>
+<volume>568</volume>: <elocation-id>739309</elocation-id>.</mixed-citation></ref><ref id="emi70152-bib-0030"><mixed-citation publication-type="journal" id="emi70152-cit-0030">
+<string-name name-style="western">
+<surname>Madigan</surname>, <given-names>T. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Bott</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. A.</given-names>
+<surname>Torok</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>A Microbial Spoilage Profile of Half Shell Pacific Oysters (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Crassostrea gigas</italic>
+</styled-content>) and Sydney Rock Oysters (Saccostrea Glomerata)</article-title>.” <source>Food Microbiology</source>
+<volume>38</volume>: <fpage>219</fpage>–<lpage>227</lpage>.<pub-id pub-id-type="pmid">24290646</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fm.2013.09.005</pub-id></mixed-citation></ref><ref id="emi70152-bib-0031"><mixed-citation publication-type="journal" id="emi70152-cit-0031">
+<string-name name-style="western">
+<surname>Magoč</surname>, <given-names>T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Salzberg</surname>
+</string-name>. <year>2011</year>. “<article-title>FLASH: Fast Length Adjustment of Short Reads to Improve Genome Assemblies</article-title>.” <source>Bioinformatics</source>
+<volume>27</volume>, no. <issue>21</issue>: <fpage>2957</fpage>–<lpage>2963</lpage>.<pub-id pub-id-type="pmid">21903629</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr507</pub-id><pub-id pub-id-type="pmcid">PMC3198573</pub-id></mixed-citation></ref><ref id="emi70152-bib-0032"><mixed-citation publication-type="journal" id="emi70152-cit-0032">
+<string-name name-style="western">
+<surname>McAfee</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>O'Connor</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Bishop</surname>
+</string-name>. <year>2017</year>. “<article-title>Fast‐Growing Oysters Show Reduced Capacity to Provide a Thermal Refuge to Intertidal Biodiversity at High Temperatures</article-title>.” <source>Journal of Animal Ecology</source>
+<volume>86</volume>, no. <issue>6</issue>: <fpage>1352</fpage>–<lpage>1362</lpage>.<pub-id pub-id-type="pmid">28913869</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1365-2656.12757</pub-id></mixed-citation></ref><ref id="emi70152-bib-0034"><mixed-citation publication-type="journal" id="emi70152-cit-0034">
+<string-name name-style="western">
+<surname>Montánchez</surname>, <given-names>I.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>V. R.</given-names>
+<surname>Kaberdin</surname>
+</string-name>. <year>2020</year>. “<article-title>
+<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio harveyi</italic>
+</styled-content>: A Brief Survey of General Characteristics and Recent Epidemiological Traits Associated With Climate Change</article-title>.” <source>Marine Environmental Research</source>
+<volume>154</volume>: <elocation-id>104850</elocation-id>.<pub-id pub-id-type="pmid">32056705</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.marenvres.2019.104850</pub-id></mixed-citation></ref><ref id="emi70152-bib-0035"><mixed-citation publication-type="journal" id="emi70152-cit-0035">
+<string-name name-style="western">
+<surname>Mora</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>McKenzie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. M.</given-names>
+<surname>Gaw</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Over Half of Known Human Pathogenic Diseases Can Be Aggravated by Climate Change</article-title>.” <source>Nature Climate Change</source>
+<volume>12</volume>, no. <issue>9</issue>: <fpage>869</fpage>–<lpage>875</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41558-022-01426-1</pub-id><pub-id pub-id-type="pmcid">PMC9362357</pub-id><pub-id pub-id-type="pmid">35968032</pub-id></mixed-citation></ref><ref id="emi70152-bib-0036"><mixed-citation publication-type="journal" id="emi70152-cit-0036">
+<string-name name-style="western">
+<surname>Mougin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Roquigny</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐A.</given-names>
+<surname>Travers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Grard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bonnin‐Jusserand</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Le Bris</surname>
+</string-name>. <year>2020</year>. “<article-title>Development of a mreB‐Targeted Real‐Time PCR Method for the Quantitative Detection of <italic toggle="yes">Vibrio Harveyi</italic> in Seawater and Biofilm From Aquaculture Systems</article-title>.” <source>Aquaculture</source>
+<volume>525</volume>: <elocation-id>735337</elocation-id>.</mixed-citation></ref><ref id="emi70152-bib-0037"><mixed-citation publication-type="journal" id="emi70152-cit-0037">
+<string-name name-style="western">
+<surname>Ndraha</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. C.</given-names>
+<surname>Wong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H. I.</given-names>
+<surname>Hsiao</surname>
+</string-name>. <year>2020</year>. “<article-title>Managing the Risk of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Vibrio parahaemolyticus</italic>
+</styled-content> Infections Associated With Oyster Consumption: A Review</article-title>.” <source>Comprehensive Reviews in Food Science and Food Safety</source>
+<volume>19</volume>, no. <issue>3</issue>: <fpage>1187</fpage>–<lpage>1217</lpage>.<pub-id pub-id-type="pmid">33331689</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/1541-4337.12557</pub-id></mixed-citation></ref><ref id="emi70152-bib-0038"><mixed-citation publication-type="journal" id="emi70152-cit-0038">
+<string-name name-style="western">
+<surname>Oksanen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kindt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Legendre</surname>
+</string-name>, et al. <year>2007</year>. “<article-title>The Vegan Package</article-title>.” <source>Community Ecology Package</source>
+<volume>10</volume>, no. <issue>631–637</issue>: <fpage>719</fpage>.</mixed-citation></ref><ref id="emi70152-bib-0040"><mixed-citation publication-type="journal" id="emi70152-cit-0040">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Darmaraki</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Marine Heatwaves</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>13</volume>: <fpage>313</fpage>–<lpage>342</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-marine-032720-095144</pub-id><pub-id pub-id-type="pmid">32976730</pub-id></mixed-citation></ref><ref id="emi70152-bib-0039"><mixed-citation publication-type="journal" id="emi70152-cit-0039">
+<string-name name-style="western">
+<surname>Oliver</surname>, <given-names>E. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E. C. J.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Benthuysen</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>The Unprecedented 2015/16 Tasman Sea Marine Heatwave</article-title>.” <source>Nature Communications</source>
+<volume>8</volume>: <elocation-id>16101</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms16101</pub-id><pub-id pub-id-type="pmcid">PMC5519980</pub-id><pub-id pub-id-type="pmid">28706247</pub-id></mixed-citation></ref><ref id="emi70152-bib-0042"><mixed-citation publication-type="journal" id="emi70152-cit-0042">
+<string-name name-style="western">
+<surname>Petton</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>de Lorgeril</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Mitta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Daigle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Pernet</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Alunno‐Bruscia</surname>
+</string-name>. <year>2019</year>. “<article-title>Fine‐Scale Temporal Dynamics of Herpes Virus and Vibrios in Seawater During a Polymicrobial Infection in the Pacific Oyster <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">Crassostrea gigas</italic>
+</styled-content>
+</article-title>.” <source>Diseases of Aquatic Organisms</source>
+<volume>135</volume>, no. <issue>2</issue>: <fpage>97</fpage>–<lpage>106</lpage>.<pub-id pub-id-type="pmid">31342911</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3354/dao03384</pub-id></mixed-citation></ref><ref id="emi70152-bib-0043"><mixed-citation publication-type="journal" id="emi70152-cit-0043">
+<string-name name-style="western">
+<surname>Pimentel</surname>, <given-names>Z. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Dufault‐Thompson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. T.</given-names>
+<surname>Russo</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Microbiome Analysis Reveals Diversity and Function of Mollicutes Associated With the Eastern Oyster, <italic toggle="yes">Crassostrea Virginica</italic>
+</article-title>.” <source>mSphere</source>
+<volume>6</volume>, no. <issue>3</issue>: <elocation-id>e00227</elocation-id>.<pub-id pub-id-type="pmid">33980678</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/mSphere.00227-21</pub-id><pub-id pub-id-type="pmcid">PMC8125052</pub-id></mixed-citation></ref><ref id="emi70152-bib-0044"><mixed-citation publication-type="journal" id="emi70152-cit-0044">
+<string-name name-style="western">
+<surname>Qiu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Coleman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Provost</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Future Climate Change Is Predicted to Affect the Microbiome and Condition of Habitat‐Forming Kelp</article-title>.” <source>Proceedings of the Royal Society B</source>
+<volume>1896</volume>, no. <issue>286</issue>: <elocation-id>20181887</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1098/rspb.2018.1887</pub-id><pub-id pub-id-type="pmcid">PMC6408609</pub-id><pub-id pub-id-type="pmid">30963929</pub-id></mixed-citation></ref><ref id="emi70152-bib-0045"><mixed-citation publication-type="journal" id="emi70152-cit-0045">
+<string-name name-style="western">
+<surname>Ripley</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Venables</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Bates</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Package ‘Mass’</article-title>.” <source>Cran r</source>
+<volume>538</volume>, no. <issue>113–120</issue>: <fpage>822</fpage>.</mixed-citation></ref><ref id="emi70152-bib-0046"><mixed-citation publication-type="journal" id="emi70152-cit-0046">
+<string-name name-style="western">
+<surname>Rognes</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Flouri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Nichols</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Quince</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Mahé</surname>
+</string-name>. <year>2016</year>. “<article-title>VSEARCH: A Versatile Open Source Tool for Metagenomics</article-title>.” <source>PeerJ</source>
+<volume>4</volume>: <elocation-id>e2584</elocation-id>.<pub-id pub-id-type="pmid">27781170</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.7717/peerj.2584</pub-id><pub-id pub-id-type="pmcid">PMC5075697</pub-id></mixed-citation></ref><ref id="emi70152-bib-0047"><mixed-citation publication-type="journal" id="emi70152-cit-0047">
+<string-name name-style="western">
+<surname>Rubio‐Portillo</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Izquierdo‐Muñoz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Gago</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Rosselló‐Mora</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Antón</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. A.</given-names>
+<surname>Ramos‐Esplá</surname>
+</string-name>. <year>2016</year>. “<article-title>Effects of the 2015 Heat Wave on Benthic Invertebrates in the Tabarca Marine Protected Area (Southeast Spain)</article-title>.” <source>Marine Environmental Research</source>
+<volume>122</volume>: <fpage>135</fpage>–<lpage>142</lpage>.<pub-id pub-id-type="pmid">27810225</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.marenvres.2016.10.004</pub-id></mixed-citation></ref><ref id="emi70152-bib-0048"><mixed-citation publication-type="journal" id="emi70152-cit-0048">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Parker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>O'Connor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Dove</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Ross</surname>
+</string-name>. <year>2020</year>. “<article-title>Heatwaves Alter Survival of the Sydney Rock Oyster, <italic toggle="yes">Saccostrea Glomerata</italic>
+</article-title>.” <source>Marine Pollution Bulletin</source>
+<volume>158</volume>: <elocation-id>111389</elocation-id>.<pub-id pub-id-type="pmid">32568086</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.marpolbul.2020.111389</pub-id></mixed-citation></ref><ref id="emi70152-bib-0049"><mixed-citation publication-type="journal" id="emi70152-cit-0049">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Parker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>O'Connor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. S.</given-names>
+<surname>Stapp</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Ross</surname>
+</string-name>. <year>2017</year>. “<article-title>Intertidal Oysters Reach Their Physiological Limit in a Future High‐CO2 World</article-title>.” <source>Journal of Experimental Biology</source>
+<volume>220</volume>, no. <issue>5</issue>: <fpage>765</fpage>–<lpage>774</lpage>.<pub-id pub-id-type="pmid">28250175</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1242/jeb.151365</pub-id></mixed-citation></ref><ref id="emi70152-bib-0050"><mixed-citation publication-type="journal" id="emi70152-cit-0050">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>P. R.</given-names>
+<surname>Scanes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Ross</surname>
+</string-name>. <year>2020</year>. “<article-title>Climate Change Rapidly Warms and Acidifies Australian Estuaries</article-title>.” <source>Nature Communications</source>
+<volume>11</volume>, no. <issue>1</issue>: <fpage>1803</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-020-15550-z</pub-id><pub-id pub-id-type="pmcid">PMC7156424</pub-id><pub-id pub-id-type="pmid">32286277</pub-id></mixed-citation></ref><ref id="emi70152-bib-0051"><mixed-citation publication-type="journal" id="emi70152-cit-0051">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Potts</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Labbate</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>. <year>2025</year>. “<article-title>Temporal and Spatial Co‐Occurrence of Pacific Oyster Mortality and Increased Planktonic Vibrio Abundance</article-title>.” <source>iScience</source>
+<volume>28</volume>, no. <issue>2</issue>: <elocation-id>111674</elocation-id>.<pub-id pub-id-type="pmid">39898048</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.isci.2024.111674</pub-id><pub-id pub-id-type="pmcid">PMC11787541</pub-id></mixed-citation></ref><ref id="emi70152-bib-0052"><mixed-citation publication-type="journal" id="emi70152-cit-0052">
+<string-name name-style="western">
+<surname>Scanes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Rees</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>. <year>2023</year>. “<article-title>Acclimation in Intertidal Animals Reduces Potential Pathogen Load and Increases Survival Following a Heatwave</article-title>.” <source>Iscience</source>
+<volume>26</volume>, no. <issue>6</issue>: <elocation-id>106813</elocation-id>.<pub-id pub-id-type="pmid">37213223</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.isci.2023.106813</pub-id><pub-id pub-id-type="pmcid">PMC10199257</pub-id></mixed-citation></ref><ref id="emi70152-bib-0053"><mixed-citation publication-type="journal" id="emi70152-cit-0053">
+<string-name name-style="western">
+<surname>Schloss</surname>, <given-names>P. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Westcott</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Ryabin</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>Introducing Mothur: Open‐Source, Platform‐Independent, Community‐Supported Software for Describing and Comparing Microbial Communities</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>75</volume>, no. <issue>23</issue>: <fpage>7537</fpage>–<lpage>7541</lpage>.<pub-id pub-id-type="pmid">19801464</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/AEM.01541-09</pub-id><pub-id pub-id-type="pmcid">PMC2786419</pub-id></mixed-citation></ref><ref id="emi70152-bib-0055"><mixed-citation publication-type="journal" id="emi70152-cit-0055">
+<string-name name-style="western">
+<surname>Siboni</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Balaraju</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Carney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Labbate</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Seymour</surname>
+</string-name>. <year>2016</year>. “<article-title>Spatiotemporal Dynamics of Vibrio spp. Within the Sydney Harbour Estuary</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>7</volume>: <fpage>460</fpage>.<pub-id pub-id-type="pmid">27148171</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fmicb.2016.00460</pub-id><pub-id pub-id-type="pmcid">PMC4829023</pub-id></mixed-citation></ref><ref id="emi70152-bib-0054"><mixed-citation publication-type="journal" id="emi70152-cit-0054">
+<string-name name-style="western">
+<surname>Siboni</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. L.</given-names>
+<surname>King</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. L. R.</given-names>
+<surname>Williams</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Increased Abundance of Potentially Pathogenic Vibrio and a Marine Heatwave Co‐Occur With a Pacific Oyster Summer Mortality Event</article-title>.” <source>Aquaculture</source>
+<volume>583</volume>: <elocation-id>740618</elocation-id>.</mixed-citation></ref><ref id="emi70152-bib-0056"><mixed-citation publication-type="journal" id="emi70152-cit-0056">
+<string-name name-style="western">
+<surname>Sippo</surname>, <given-names>J. Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. E.</given-names>
+<surname>Lovelock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. R.</given-names>
+<surname>Santos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Sanders</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Maher</surname>
+</string-name>. <year>2018</year>. “<article-title>Mangrove Mortality in a Changing Climate: An Overview</article-title>.” <source>Estuarine, Coastal and Shelf Science</source>
+<volume>215</volume>: <fpage>241</fpage>–<lpage>249</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0057"><mixed-citation publication-type="journal" id="emi70152-cit-0057">
+<string-name name-style="western">
+<surname>Suzuki</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L. T.</given-names>
+<surname>Taylor</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. F.</given-names>
+<surname>DeLong</surname>
+</string-name>. <year>2000</year>. “<article-title>Quantitative Analysis of Small‐Subunit rRNA Genes in Mixed Microbial Populations via 5′‐Nuclease Assays</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>66</volume>, no. <issue>11</issue>: <fpage>4605</fpage>–<lpage>4614</lpage>.<pub-id pub-id-type="pmid">11055900</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/aem.66.11.4605-4614.2000</pub-id><pub-id pub-id-type="pmcid">PMC92356</pub-id></mixed-citation></ref><ref id="emi70152-bib-0058"><mixed-citation publication-type="journal" id="emi70152-cit-0058">
+<string-name name-style="western">
+<surname>Taylor</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Sharma</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Outbreak of <italic toggle="yes">Vibrio Parahaemolyticus</italic> Associated With Consumption of Raw Oysters in Canada, 2015</article-title>.” <source>Foodborne Pathogens and Disease</source>
+<volume>15</volume>, no. <issue>9</issue>: <fpage>554</fpage>–<lpage>559</lpage>.<pub-id pub-id-type="pmid">29958009</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/fpd.2017.2415</pub-id></mixed-citation></ref><ref id="emi70152-bib-0059"><mixed-citation publication-type="journal" id="emi70152-cit-0059">
+<string-name name-style="western">
+<surname>Thompson</surname>, <given-names>F. L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Iida</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Swings</surname>
+</string-name>. <year>2004</year>. “<article-title>Biodiversity of Vibrios</article-title>.” <source>Microbiology and Molecular Biology Reviews</source>
+<volume>68</volume>, no. <issue>3</issue>: <fpage>403</fpage>–<lpage>431</lpage>.<pub-id pub-id-type="pmid">15353563</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/MMBR.68.3.403-431.2004</pub-id><pub-id pub-id-type="pmcid">PMC515257</pub-id></mixed-citation></ref><ref id="emi70152-bib-0060"><mixed-citation publication-type="journal" id="emi70152-cit-0060">
+<string-name name-style="western">
+<surname>Tout</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Siboni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. F.</given-names>
+<surname>Messer</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Increased Seawater Temperature Increases the Abundance and Alters the Structure of Natural Vibrio Populations Associated With the Coral <italic toggle="yes">Pocillopora Damicornis</italic>
+</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>6</volume>: <elocation-id>432</elocation-id>.<pub-id pub-id-type="pmid">26042096</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fmicb.2015.00432</pub-id><pub-id pub-id-type="pmcid">PMC4435422</pub-id></mixed-citation></ref><ref id="emi70152-bib-0061"><mixed-citation publication-type="journal" id="emi70152-cit-0061">
+<string-name name-style="western">
+<surname>Vompe</surname>, <given-names>A. D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H. E.</given-names>
+<surname>Epstein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Speare</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Microbiome Ecological Memory and Responses to Repeated Marine Heatwaves Clarify Variation in Coral Bleaching and Mortality</article-title>.” <source>Global Change Biology</source>
+<volume>30</volume>, no. <issue>1</issue>: <elocation-id>e17088</elocation-id>.<pub-id pub-id-type="pmid">38273492</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/gcb.17088</pub-id></mixed-citation></ref><ref id="emi70152-bib-0062"><mixed-citation publication-type="journal" id="emi70152-cit-0062">
+<string-name name-style="western">
+<surname>Voolstra</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. B.</given-names>
+<surname>Raina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Dörr</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>The Coral Microbiome in Sickness, in Health and in a Changing World</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>22</volume>: <fpage>1</fpage>–<lpage>475</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41579-024-01015-3</pub-id><pub-id pub-id-type="pmid">38438489</pub-id></mixed-citation></ref><ref id="emi70152-bib-0063"><mixed-citation publication-type="journal" id="emi70152-cit-0063">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. M.</given-names>
+<surname>Garrity</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Tiedje</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Cole</surname>
+</string-name>. <year>2007</year>. “<article-title>Naive Bayesian Classifier for Rapid Assignment of rRNA Sequences Into the New Bacterial Taxonomy</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>73</volume>, no. <issue>16</issue>: <fpage>5261</fpage>–<lpage>5267</lpage>.<pub-id pub-id-type="pmid">17586664</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/AEM.00062-07</pub-id><pub-id pub-id-type="pmcid">PMC1950982</pub-id></mixed-citation></ref><ref id="emi70152-bib-0064"><mixed-citation publication-type="journal" id="emi70152-cit-0064">
+<string-name name-style="western">
+<surname>Wendling</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Fabritzek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Wegner</surname>
+</string-name>. <year>2017</year>. “<article-title>Population‐Specific Genotype × Genotype × Environment Interactions in Bacterial Disease of Early Life Stages of Pacific Oyster Larvae</article-title>.” <source>Evolutionary Applications</source>
+<volume>10</volume>, no. <issue>4</issue>: <fpage>338</fpage>–<lpage>347</lpage>.<pub-id pub-id-type="pmid">28352294</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/eva.12452</pub-id><pub-id pub-id-type="pmcid">PMC5367073</pub-id></mixed-citation></ref><ref id="emi70152-bib-0065"><mixed-citation publication-type="journal" id="emi70152-cit-0065">
+<string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Smale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Tuya</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>An Extreme Climatic Event Alters Marine Ecosystem Structure in a Global Biodiversity Hotspot</article-title>.” <source>Nature Climate Change</source>
+<volume>3</volume>, no. <issue>1</issue>: <fpage>78</fpage>–<lpage>82</lpage>.</mixed-citation></ref><ref id="emi70152-bib-0066"><mixed-citation publication-type="journal" id="emi70152-cit-0066">
+<string-name name-style="western">
+<surname>Wernberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Baum</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Impacts of Climate Change on Marine Foundation Species</article-title>.” <source>Annual Review of Marine Science</source>
+<volume>16</volume>, no. <issue>1</issue>: <fpage>247</fpage>–<lpage>282</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-marine-042023-093037</pub-id><pub-id pub-id-type="pmid">37683273</pub-id></mixed-citation></ref><ref id="emi70152-bib-0067"><mixed-citation publication-type="journal" id="emi70152-cit-0067">
+<string-name name-style="western">
+<surname>White</surname>, <given-names>R. H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Booth</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>The Unprecedented Pacific Northwest Heatwave of June 2021</article-title>.” <source>Nature Communications</source>
+<volume>14</volume>, no. <issue>1</issue>: <fpage>727</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-023-36289-3</pub-id><pub-id pub-id-type="pmcid">PMC9910268</pub-id><pub-id pub-id-type="pmid">36759624</pub-id></mixed-citation></ref><ref id="emi70152-bib-0068"><mixed-citation publication-type="journal" id="emi70152-cit-0068">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liang</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Impacts of Marine Heatwaves on Pearl Oysters Are Alleviated Following Repeated Exposure</article-title>.” <source>Marine Pollution Bulletin</source>
+<volume>173</volume>: <elocation-id>112932</elocation-id>.<pub-id pub-id-type="pmid">34534933</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.marpolbul.2021.112932</pub-id></mixed-citation></ref><ref id="emi70152-bib-0069"><mixed-citation publication-type="journal" id="emi70152-cit-0069">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>W.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2021</year>. “<article-title>Virulence Mechanisms of Vibrios Belonging to the Splendidus Clade as Aquaculture Pathogens, From Case Studies and Genome Data</article-title>.” <source>Reviews in Aquaculture</source>
+<volume>13</volume>, no. <issue>4</issue>: <fpage>2004</fpage>–<lpage>2026</lpage>.</mixed-citation></ref></ref-list></back></article>

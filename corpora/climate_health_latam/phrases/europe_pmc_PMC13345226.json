@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13345226",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern oscillation",
+      "display": "Southern Oscillation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "climate prediction center",
+      "display": "Climate Prediction Center",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "andean and southern cone",
+      "display": "Andean and Southern Cone",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "precautionary principle",
+      "display": "Precautionary Principle",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "america",
+      "display": "America",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "enso",
+      "display": "ENSO",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin",
+      "display": "Latin",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el",
+      "score": 0.0741,
+      "channel": "tfidf",
+      "display": "El"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0692,
+      "channel": "tfidf",
+      "display": "health"
+    },
+    {
+      "phrase": "forecasting",
+      "score": 0.0528,
+      "channel": "tfidf",
+      "display": "Forecasting"
+    },
+    {
+      "phrase": "health impacts",
+      "score": 0.0525,
+      "channel": "tfidf",
+      "display": "health impacts"
+    },
+    {
+      "phrase": "impacts",
+      "score": 0.0508,
+      "channel": "tfidf",
+      "display": "impacts"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

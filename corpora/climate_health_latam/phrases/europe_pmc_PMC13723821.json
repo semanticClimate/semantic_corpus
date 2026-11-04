@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13723821",
+  "phrases": [
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sustainable development goals",
+      "display": "Sustainable Development Goals",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mexico and colombia",
+      "display": "Mexico and Colombia",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "poverty eradication",
+      "display": "Poverty Eradication",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mexico and peru",
+      "display": "Mexico and Peru",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world bank",
+      "display": "World Bank",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tb",
+      "display": "TB",
+      "score": 3.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ci",
+      "display": "CI",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peru",
+      "display": "Peru",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tb incidence",
+      "score": 0.0535,
+      "channel": "tfidf",
+      "display": "TB incidence"
+    },
+    {
+      "phrase": "poverty",
+      "score": 0.0503,
+      "channel": "tfidf",
+      "display": "Poverty"
+    },
+    {
+      "phrase": "notifications",
+      "score": 0.0477,
+      "channel": "tfidf",
+      "display": "notifications"
+    },
+    {
+      "phrase": "online supplemental",
+      "score": 0.0466,
+      "channel": "tfidf",
+      "display": "Online supplemental"
+    },
+    {
+      "phrase": "tb notifications",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "TB notifications"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

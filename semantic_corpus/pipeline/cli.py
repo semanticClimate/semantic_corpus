@@ -25,6 +25,7 @@ from semantic_corpus.pipeline.config import (
     DEFAULT_ENCYCLOPEDIA_MIN_SCORE,
     DEFAULT_ENCYCLOPEDIA_SOURCE,
     DEFAULT_KG_LINKS,
+    DEFAULT_KG_OPEN,
     ENCYCLOPEDIA_SOURCE_CHOICES,
     DEFAULT_KG_MAX_ISLAND,
     DEFAULT_KG_MAX_TERMS,
@@ -135,7 +136,7 @@ def _normalize_argv(argv: List[str]) -> List[str]:
             leading_opts.append(tok)
             i += 1
             continue
-        if tok in ("--always", "-a"):
+        if tok in ("--always", "-a", "--open", "--no-open"):
             leading_opts.append(tok)
             i += 1
             continue
@@ -197,6 +198,7 @@ def _options_from_args(args: argparse.Namespace) -> PipelineOptions:
             args, "kg_min_paper_count", DEFAULT_KG_MIN_PAPER_COUNT
         ),
         kg_links=getattr(args, "kg_links", DEFAULT_KG_LINKS),
+        kg_open=bool(getattr(args, "open", DEFAULT_KG_OPEN)),
     )
 
 
@@ -424,7 +426,7 @@ def cmd_kg(args: argparse.Namespace) -> int:
         return 2
 
     links = opts.kg_link_list()
-    open_browser = bool(getattr(args, "open", False))
+    open_browser = bool(getattr(args, "open", opts.kg_open))
     print(
         f"[pipeline] kg: workdir={workdir} links={','.join(links)} "
         f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
@@ -656,6 +658,15 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
             f"(default: {DEFAULT_KG_MIN_PAPER_COUNT})"
         ),
     )
+    parser.add_argument(
+        "--open",
+        action=argparse.BooleanOptionalAction,
+        default=DEFAULT_KG_OPEN,
+        help=(
+            "After kg, open knowledge_graph.html in the default browser "
+            f"(default: {'on' if DEFAULT_KG_OPEN else 'off'}; use --no-open to disable)"
+        ),
+    )
 
     parser.add_argument(
         "--from",
@@ -680,13 +691,13 @@ def build_parser() -> argparse.ArgumentParser:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 examples:
-  pipeline --workdir corpora/amoc --query "amoc AND insolation" --limit 50 --target clusters
+  pipeline --workdir corpora/amoc --query "amoc AND insolation" --target clusters
   pipeline --workdir corpora/amoc --source 'wg2/chapter[2-6]' --target clusters
   pipeline --workdir corpora/amoc --target clusters
   pipeline encyclopedia --workdir corpora/amoc_insolation_20 \\
       --min-paper-count 2 --max-entries 50 --force
-  pipeline kg --workdir corpora/amoc_insolation_20 \\
-      --kg-links clusters,wikipedia --kg-min-paper-count 2 --kg-max-terms 40 --open
+  pipeline --workdir corpora/amoc_demo --query "amoc AND insolation" --target kg
+  pipeline kg --workdir corpora/amoc_insolation_20 --kg-links clusters,wikipedia
   pipeline list
   pipeline graph --from query
 """,
@@ -772,11 +783,6 @@ examples:
         "kg",
         parents=[common],
         help="Build knowledge graph after clusters (+ optional HTML display)",
-    )
-    p_kg.add_argument(
-        "--open",
-        action="store_true",
-        help="Open knowledge_graph.html in the default browser",
     )
     p_kg.add_argument(
         "--html-title",

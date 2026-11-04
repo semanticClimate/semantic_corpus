@@ -1,0 +1,42 @@
+{
+  "pmcid": "PMC13580351",
+  "pmid": "42751262",
+  "title": "Climate Informed Dengue Prediction and Future Risk Under a Changing Monsoon Climate in Kerala, India.",
+  "abstract": "Dengue fever has emerged as a major public health threat in India, with its burden projected to rise under climate change. This study investigates the influence of climate variability on dengue incidence in Kerala, a dengue hotspot in southern India, using 14 years of climate and dengue data (2006-2019). Temperature, monsoon rainfall and its active-break phases, relative humidity (RH), and the El Niño-Southern Oscillation are identified as key climatic predictors of dengue transmission in the region. Dengue seasonality in Kerala closely follows its rainfall cycle, with cases rising in May and peaking during the southwest monsoon (June-September), reaching a maximum in June-July. To capture the nonlinear and combined relationships between climatic predictors and dengue incidence, several machine learning (ML) models were trained and evaluated, with the XGBoost regression model showing the best predictive performance (<i>R</i> <sup>2</sup> = 0.72, Normalized Root Mean Square Error = 0.53). Locally, warmer temperatures (30.5-32.5°C) and moderate humidity (66%-79%) during the pre-monsoon season, together with moderately high rainfall (180-450 mm/month) during the monsoon season, favor high dengue incidence. Remotely, El Niño-like conditions increase dengue incidence by shifting large-scale circulation toward warmer and drier pre-monsoon conditions over Kerala, while La Niña-like conditions have the opposite effect, providing about 3 months of potential predictability. Future simulations from Coupled Model Intercomparison Project Phase 6 models project an increase in dengue incidence by 16%-20% in the near future (2021-2040) and 46%-113% in the far future (2081-2100) under low-to-high emission pathways. These findings highlight the need for climate-informed dengue early warning and future risk planning in Kerala.",
+  "authors": [
+    "Sophia Y",
+    "Roxy MK",
+    "Vaisakh SB",
+    "Sreelakshmi PRN",
+    "Anish TS",
+    "Indu PS"
+  ],
+  "publication_date": "2026-09-16",
+  "journal": "",
+  "doi": "10.1029/2026gh001893",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1029/2026GH001893"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13580351"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13580351?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

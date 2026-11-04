@@ -1,0 +1,24 @@
+{
+  "step": 3,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/phrases",
+  "clusters_dir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/clusters",
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "paper_count": 13,
+  "term_count": 181,
+  "edge_count": 195,
+  "community_count": 12,
+  "cluster_count": 1,
+  "orphan_paper_count": 11,
+  "orphan_term_count": 157,
+  "elapsed_s": 0.1258,
+  "clusters_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/clusters/clusters.json",
+  "orphans_path": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon/clusters/orphans.json"
+}

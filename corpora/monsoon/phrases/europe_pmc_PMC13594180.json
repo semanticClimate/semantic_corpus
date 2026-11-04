@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13594180",
+  "phrases": [
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surface temperature",
+      "display": "Surface Temperature",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "foraminiferal mg",
+      "display": "Foraminiferal Mg",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bay of bengal",
+      "display": "Bay of Bengal",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south asian",
+      "display": "South Asian",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.82,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asian",
+      "display": "Asian",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lst",
+      "display": "LST",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kyr",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "Kyr"
+    },
+    {
+      "phrase": "mg ca",
+      "score": 0.0353,
+      "channel": "tfidf",
+      "display": "mg ca"
+    },
+    {
+      "phrase": "ca",
+      "score": 0.0353,
+      "channel": "tfidf",
+      "display": "Ca"
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.0352,
+      "channel": "tfidf",
+      "display": "Monsoon"
+    },
+    {
+      "phrase": "precipitation",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "Precipitation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

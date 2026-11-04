@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13508924",
+  "phrases": [
+    {
+      "phrase": "hong kong",
+      "display": "Hong Kong",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "candidatus hepatoplasma and marinifilum",
+      "display": "Candidatus Hepatoplasma and Marinifilum",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rhodococcus and morganella",
+      "display": "Rhodococcus and Morganella",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wiley online library",
+      "display": "Wiley Online Library",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google scholar",
+      "display": "Google Scholar",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "web of science",
+      "display": "Web of Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "activated akt",
+      "display": "Activated Akt",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mapk",
+      "display": "MAPK",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fxr",
+      "display": "FXR",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nf",
+      "display": "NF",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "signaling",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "signaling"
+    },
+    {
+      "phrase": "heat stress",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "Heat stress"
+    },
+    {
+      "phrase": "stress",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "stress"
+    },
+    {
+      "phrase": "heat",
+      "score": 0.0359,
+      "channel": "tfidf",
+      "display": "Heat"
+    },
+    {
+      "phrase": "activation",
+      "score": 0.0343,
+      "channel": "tfidf",
+      "display": "Activation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

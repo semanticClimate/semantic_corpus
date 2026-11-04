@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13688465",
+  "phrases": [
+    {
+      "phrase": "british columbia",
+      "display": "British Columbia",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fourier transform infrared spectroscopy",
+      "display": "Fourier Transform Infrared Spectroscopy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nuclear magnetic resonance spectroscopy",
+      "display": "Nuclear Magnetic Resonance Spectroscopy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern california and baja california",
+      "display": "Southern California and Baja California",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "british columbia and argentina",
+      "display": "British Columbia and Argentina",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "response surface methodology",
+      "display": "Response Surface Methodology",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "within the northeast pacific",
+      "display": "Within the Northeast Pacific",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fg",
+      "display": "FG",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mm",
+      "display": "MM",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific",
+      "display": "Pacific",
+      "score": 1.11,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "alginate",
+      "score": 0.0483,
+      "channel": "tfidf",
+      "display": "Alginate"
+    },
+    {
+      "phrase": "molar",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "Molar"
+    },
+    {
+      "phrase": "molar mass",
+      "score": 0.0421,
+      "channel": "tfidf",
+      "display": "Molar mass"
+    },
+    {
+      "phrase": "kelp",
+      "score": 0.04,
+      "channel": "tfidf",
+      "display": "Kelp"
+    },
+    {
+      "phrase": "luetkeana",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "luetkeana"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

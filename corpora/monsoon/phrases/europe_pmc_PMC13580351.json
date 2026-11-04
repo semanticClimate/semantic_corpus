@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13580351",
+  "phrases": [
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "support vector regression",
+      "display": "Support Vector Regression",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern oscillation",
+      "display": "Southern Oscillation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western ghats",
+      "display": "Western Ghats",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "which their pearson correlation with dengue incidence is maximum",
+      "display": "Which Their Pearson Correlation With Dengue Incidence Is Maximum",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kerala",
+      "display": "Kerala",
+      "score": 1.85,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "enso",
+      "display": "ENSO",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rh",
+      "display": "RH",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dengue",
+      "score": 0.0557,
+      "channel": "tfidf",
+      "display": "Dengue"
+    },
+    {
+      "phrase": "dengue incidence",
+      "score": 0.0454,
+      "channel": "tfidf",
+      "display": "Dengue Incidence"
+    },
+    {
+      "phrase": "incidence",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "Incidence"
+    },
+    {
+      "phrase": "optimal",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "Optimal"
+    },
+    {
+      "phrase": "projected",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "projected"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

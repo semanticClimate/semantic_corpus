@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13460890",
+  "phrases": [
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "health care state",
+      "display": "Health Care State",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "michael moran",
+      "display": "Michael Moran",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states and israel",
+      "display": "United States and Israel",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "middle east and africa",
+      "display": "Middle East and Africa",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin",
+      "display": "Latin",
+      "score": 1.13,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "states",
+      "display": "States",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united",
+      "display": "United",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "state",
+      "score": 0.0501,
+      "channel": "tfidf",
+      "display": "State"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0493,
+      "channel": "tfidf",
+      "display": "Health"
+    },
+    {
+      "phrase": "welfare",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "Welfare"
+    },
+    {
+      "phrase": "war",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "War"
+    },
+    {
+      "phrase": "conflicts",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "conflicts"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC7619672",
+  "phrases": [
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "model lists of essential",
+      "display": "Model Lists of Essential",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asia and latin america",
+      "display": "Asia and Latin America",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "medicines patent pool",
+      "display": "Medicines Patent Pool",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asia and latin",
+      "display": "Asia and Latin",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "who",
+      "display": "WHO",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tpp",
+      "display": "TPP",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tpps",
+      "display": "TPPs",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dengue",
+      "score": 0.0506,
+      "channel": "tfidf",
+      "display": "Dengue"
+    },
+    {
+      "phrase": "therapeutics",
+      "score": 0.0455,
+      "channel": "tfidf",
+      "display": "Therapeutics"
+    },
+    {
+      "phrase": "dengue therapeutics",
+      "score": 0.0417,
+      "channel": "tfidf",
+      "display": "dengue therapeutics"
+    },
+    {
+      "phrase": "drug",
+      "score": 0.0416,
+      "channel": "tfidf",
+      "display": "drug"
+    },
+    {
+      "phrase": "development",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "development"
+    },
+    {
+      "phrase": "efficacy",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "efficacy"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

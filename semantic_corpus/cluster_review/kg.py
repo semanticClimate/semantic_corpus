@@ -18,7 +18,7 @@ from semantic_corpus.core.exceptions import CorpusError
 
 DEFAULT_KG_LINKS = ("clusters",)
 DEFAULT_MAX_ISLAND = 20
-DEFAULT_KG_MAX_TERMS = 50
+DEFAULT_KG_MAX_TERMS = 40
 DEFAULT_KG_MIN_PAPER_COUNT = 2
 
 

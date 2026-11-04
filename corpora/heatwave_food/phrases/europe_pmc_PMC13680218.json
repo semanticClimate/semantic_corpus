@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13680218",
+  "phrases": [
+    {
+      "phrase": "use plastics directive",
+      "display": "Use Plastics Directive",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "combining equations",
+      "display": "Combining Equations",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shandong peninsula",
+      "display": "Shandong Peninsula",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "xiangshan bay",
+      "display": "Xiangshan Bay",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "by lyapunov",
+      "display": "By Lyapunov",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sanggou bay",
+      "display": "Sanggou Bay",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eps",
+      "display": "EPS",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.03,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bay",
+      "display": "Bay",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "microplastic",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "Microplastic"
+    },
+    {
+      "phrase": "payoff",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "Payoff"
+    },
+    {
+      "phrase": "marine ranching",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Marine ranching"
+    },
+    {
+      "phrase": "ranching",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "ranching"
+    },
+    {
+      "phrase": "enterprises",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "Enterprises"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

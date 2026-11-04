@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">3772</journal-id><journal-id journal-id-type="pmc-domain">geohealth</journal-id><journal-title-group><journal-title>GeoHealth</journal-title><abbrev-journal-title>Geohealth</abbrev-journal-title></journal-title-group><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13580351</article-id><article-id pub-id-type="pmcaid">13580351</article-id><article-id pub-id-type="pmcaiid">13580351</article-id><article-id pub-id-type="pmid">42751262</article-id><article-id pub-id-type="doi">10.1029/2026GH001893</article-id><title-group><article-title>Climate Informed Dengue Prediction and Future Risk Under a Changing Monsoon Climate in Kerala, India</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Sophia</surname><given-names initials="Y">Yacob</given-names></name><xref ref-type="aff" rid="gh270198-aff-0001">1</xref><xref ref-type="aff" rid="gh270198-aff-0002">2</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib><contrib><name name-style="western"><surname>Roxy</surname><given-names initials="MK">Mathew Koll</given-names></name><xref ref-type="aff" rid="gh270198-aff-0001">1</xref><xref ref-type="author-notes" rid="_fncrsp93pmc__">✉</xref></contrib><contrib><name name-style="western"><surname>Vaisakh</surname><given-names initials="SB">Surendranath Bindu</given-names></name><xref ref-type="aff" rid="gh270198-aff-0001">1</xref></contrib><contrib><name name-style="western"><surname>Sreelakshmi</surname><given-names initials="PRN">Pallipurathu Raghunathan Nair</given-names></name><xref ref-type="aff" rid="gh270198-aff-0003">3</xref></contrib><contrib><name name-style="western"><surname>Anish</surname><given-names initials="TS">Thekkumkara Surendran</given-names></name><xref ref-type="aff" rid="gh270198-aff-0004">4</xref></contrib><contrib><name name-style="western"><surname>Indu</surname><given-names initials="PS">Pillaveetil Sathyadas</given-names></name><xref ref-type="aff" rid="gh270198-aff-0005">5</xref><xref ref-type="aff" rid="gh270198-aff-0006">6</xref></contrib></contrib-group><aff id="gh270198-aff-0001"><label>
+<sup>1</sup>
+</label>Centre for Climate Change Research, Indian Institute of Tropical Meteorology, Ministry of Earth Sciences, Pune, India</aff><aff id="gh270198-aff-0002"><label>
+<sup>2</sup>
+</label>Department of Atmospheric and Space Sciences, Savitribai Phule Pune University, Pune, India</aff><aff id="gh270198-aff-0003"><label>
+<sup>3</sup>
+</label>ICMR‐National Institute of Translational Virology and AIDS Research, Pune, India</aff><aff id="gh270198-aff-0004"><label>
+<sup>4</sup>
+</label>School of Public Health, Kerala University of Health Sciences, Thiruvananthapuram, India</aff><aff id="gh270198-aff-0005"><label>
+<sup>5</sup>
+</label>Government Medical College, Thrissur, India</aff><aff id="gh270198-aff-0006"><label>
+<sup>6</sup>
+</label>Kerala University of Health Sciences, Thrissur, India</aff><author-notes><fn id="correspondenceTo"><label>*</label><p>
+
+<bold>Correspondence to:</bold>
+ 
+Y. Sophia and M. K. Roxy, 
+<email>sophiayacob123@gmail.com</email>; 
+<email>roxy@tropmet.res.in</email>
+
+</p></fn><fn id="_fncrsp93pmc__"><label>✉</label><p>Corresponding author.</p></fn></author-notes><pub-date><day>16</day><month>9</month><year>2026</year></pub-date><volume>10</volume><issue>9</issue><fpage>e2026GH001893</fpage><page-range>e2026GH001893</page-range><pub-history><event event-type="pmc-release"><date><day>17</day><month>9</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Author(s). GeoHealth published by Wiley Periodicals LLC on behalf of American Geophysical Union.</copyright-statement><license><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" ext-link-type="uri">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GH2-10-e2026GH001893.pdf" content-type="pmc-pdf"><?cloudpmc-path 9251/13580351/1ba808cf1f35/GH2-10-e2026GH001893.pdf?><?cloudpmc-bucket app?><?size 3050351?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Dengue fever has emerged as a major public health threat in India, with its burden projected to rise under climate change. This study investigates the influence of climate variability on dengue incidence in Kerala, a dengue hotspot in southern India, using 14 years of climate and dengue data (2006–2019). Temperature, monsoon rainfall and its active‐break phases, relative humidity (RH), and the El Niño–Southern Oscillation are identified as key climatic predictors of dengue transmission in the region. Dengue seasonality in Kerala closely follows its rainfall cycle, with cases rising in May and peaking during the southwest monsoon (June–September), reaching a maximum in June–July. To capture the nonlinear and combined relationships between climatic predictors and dengue incidence, several machine learning (ML) models were trained and evaluated, with the XGBoost regression model showing the best predictive performance (<italic>R</italic>
+<sup>2</sup> = 0.72, Normalized Root Mean Square Error = 0.53). Locally, warmer temperatures (30.5–32.5°C) and moderate humidity (66%–79%) during the pre‐monsoon season, together with moderately high rainfall (180–450 mm/month) during the monsoon season, favor high dengue incidence. Remotely, El Niño–like conditions increase dengue incidence by shifting large‐scale circulation toward warmer and drier pre‐monsoon conditions over Kerala, while La Niña–like conditions have the opposite effect, providing about 3 months of potential predictability. Future simulations from Coupled Model Intercomparison Project Phase 6 models project an increase in dengue incidence by 16%–20% in the near future (2021–2040) and 46%–113% in the far future (2081–2100) under low‐to‐high emission pathways. These findings highlight the need for climate‐informed dengue early warning and future risk planning in Kerala.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> dengue, climate change, El Niño, future projections, Kerala, machine learning</p></sec></abstract><abstract id="abstract2" abstract-type="plain-language-summary"><title>Plain Language Summary</title><p>Dengue fever is a growing public health problem in India and is strongly influenced by climatic conditions. This study examines how climate variability and climate change affect dengue incidence in Kerala, a hotspot in southern India, using 14 years of climate and disease data from 2006 to 2019. Temperature, rainfall, relative humidity (RH), and El Niño–Southern Oscillation play important roles in shaping dengue risk in Kerala. Dengue cases in Kerala peak during the southwest monsoon, with peaks in June–July. Using a machine learning approach, we developed a model that captures the complex relationship between climate and dengue incidence over Kerala. Warmer temperatures and moderate RH before the monsoon, and higher rainfall during the monsoon create favorable conditions for dengue transmission during the peak season. Large‐scale climate patterns in the Pacific Ocean also influence dengue incidence by affecting local weather and provide useful early signals for dengue prediction. El Niño events are associated with higher dengue risk by creating warmer and drier conditions, while La Niña events are linked to cooler and wetter conditions that reduce the risk. Future climate projections suggest dengue incidence in Kerala is likely to increase in the coming decades, highlighting the need for early warning systems and improved public health planning.</p></abstract><abstract id="abstract3" abstract-type="short"><title>Key Points</title>
+<list list-type="bullet"><list-item><p>Pre‐monsoon temperature, humidity and El Niño–Southern Oscillation, together with monsoon rainfall, are linked to the monsoon dengue risk in Kerala</p></list-item><list-item><p>An XGBoost model captures the climate‐dengue links with high skill, climatic predictors indicating dengue risk up to 5 months ahead</p></list-item><list-item><p>Future climate projections suggest that dengue risk in Kerala may rise by 16%–20% by 2021–2040 and up to 113% by the end of the 21st century</p></list-item></list>
+</abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Revised 2026 Jul 2; Received 2026 Mar 10; Accepted 2026 Jul 22; Collection date 2026 Sep.</p></sec></notes></front><body><sec id="gh270198-sec-0010" disp-level="1"><label>1.</label><title>Introduction</title><p>Dengue fever is a mosquito‐borne viral disease that has become a major public health concern in tropical and subtropical regions worldwide. The World Health Organisation (WHO) reports that the global dengue cases have increased tenfold over the past two decades, from half a million in 2000 to more than five million in 2019 (WHO, <xref rid="gh270198-bib-0074" ref-type="bibr">2024</xref>). India reports more than 250,000 dengue cases annually, making it a major contributor to this burden (NCVBDC, <xref rid="gh270198-bib-0052" ref-type="bibr">2026</xref>). Among Indian states, the southwestern state of Kerala—with its warm and humid climate—has experienced consistently high dengue cases, with annual reported cases exceeding 20,000 in recent years. While the long‐term annual average of reported dengue cases in Kerala is approximately 5,000, exceptional surges were recorded in 2017 (21,993 cases) and more recently during the post‐COVID period in 2023 (16,766 cases) and 2024 (20,088 cases). Dengue cases, including deaths, have been reported in Kerala since 1997, with the disease burden increasing over time. The state is now considered hyper‐endemic, with all four dengue virus serotypes (DENV‐1 to DENV‐4) co‐circulating and occasional co‐infections reported (Karunakaran et al., <xref rid="gh270198-bib-0039" ref-type="bibr">2014</xref>; Manakkadan et al., <xref rid="gh270198-bib-0046" ref-type="bibr">2010</xref>). Dengue transmission in Kerala is primarily driven by <italic>Aedes aegypti</italic>, with contributions from <italic>Aedes albopictus</italic> also reported in the region (Samuel et al., <xref rid="gh270198-bib-0062" ref-type="bibr">2014</xref>).</p><p>Dengue is a climate‐sensitive disease, with its transmission dynamics strongly influenced by environmental factors such as temperature, rainfall, and humidity (Focks et al., <xref rid="gh270198-bib-0027" ref-type="bibr">1993</xref>; Gagnon et al., <xref rid="gh270198-bib-0031" ref-type="bibr">2001</xref>; Hales et al., <xref rid="gh270198-bib-0032" ref-type="bibr">1996</xref>; Koopman et al., <xref rid="gh270198-bib-0041" ref-type="bibr">1991</xref>). These variables regulate the life cycle, reproduction, and biting behavior of mosquito vectors, as well as the replication of the dengue virus (DENV) within the mosquito (Brady et al., <xref rid="gh270198-bib-0012" ref-type="bibr">2013</xref>; Chan &amp; Johansson, <xref rid="gh270198-bib-0015" ref-type="bibr">2012</xref>; Rueda et al., <xref rid="gh270198-bib-0058" ref-type="bibr">1990</xref>; Russell, <xref rid="gh270198-bib-0059" ref-type="bibr">1998</xref>). Numerous studies have shown that favorable meteorological conditions, especially during the monsoon season, can lead to increased dengue risk and trigger spikes in dengue cases across India (Shil et al., <xref rid="gh270198-bib-0064" ref-type="bibr">2020</xref>; Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>). However, the relationship between climate and dengue is non‐linear, with a lag between favorable climatic conditions and dengue occurrence—driven by delays in mosquito breeding, viral incubation, and human transmission.</p><p>Temperature influences multiple components of the dengue transmission cycle, including mosquito development, survival, biting rate, and viral replication, all of which exhibit strong nonlinear responses to thermal conditions (Chan &amp; Johansson, <xref rid="gh270198-bib-0015" ref-type="bibr">2012</xref>; Christophers, <xref rid="gh270198-bib-0017" ref-type="bibr">1960</xref>; Reinhold et al., <xref rid="gh270198-bib-0057" ref-type="bibr">2018</xref>). Dengue transmission generally increases within a favorable temperature range but declines beyond critical thresholds due to adverse effects on mosquito survival and viral development. However, the optimal temperature range varies across regions, highlighting the complex and location‐specific nonlinear relationship between temperature and dengue transmission (Fan et al., <xref rid="gh270198-bib-0024" ref-type="bibr">2014</xref>; Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>; Xiang et al., <xref rid="gh270198-bib-0077" ref-type="bibr">2017</xref>). Rainfall also exhibits a complex relationship with dengue. Moderate rainfall can enhance breeding by increasing the availability of water‐filled containers, whereas excessive rainfall may flush out larvae and reduce vector populations (Benedum et al., <xref rid="gh270198-bib-0009" ref-type="bibr">2018</xref>; Koenraadt &amp; Harrington, <xref rid="gh270198-bib-0040" ref-type="bibr">2008</xref>). Conversely, low rainfall in urban settings may promote water storage practices, inadvertently creating breeding habitats. These interacting effects, further shaped by local infrastructure and human behavior, result in region‐specific and non‐linear rainfall–dengue relationships.</p><p>Climate change has emerged as a significant driver of vector‐borne diseases, including dengue, by altering ecological and climatic conditions that impact mosquito proliferation and virus transmission (Epstein, <xref rid="gh270198-bib-0022" ref-type="bibr">2000</xref>; Pörtner et al., <xref rid="gh270198-bib-0054" ref-type="bibr">2022</xref>). Rising global temperatures, shifting precipitation patterns, and increasing humidity are creating more favorable environments for <italic>Aedes</italic> mosquitoes, particularly in regions that were previously less conducive to dengue transmission (Bhattacharya et al., <xref rid="gh270198-bib-0011" ref-type="bibr">2006</xref>; Dhiman et al., <xref rid="gh270198-bib-0020" ref-type="bibr">2010</xref>). A recent study conducted in urban Pune using climate change projections from the Coupled Model Intercomparison Project Phase 6 (CMIP6) models found that dengue risk could increase by 12%–112% under low‐to‐high future emission scenarios, primarily due to the projected rise in mean temperature (Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>). Extending this perspective, a global analysis across 122 countries documented a significant rise in dengue incidence since 1990, with stronger temperature–dengue associations observed above 21°C, and projections under CMIP6 scenarios indicating a substantial expansion of year‐round endemic regions by 2100 under high‐emission pathways (Feng et al., <xref rid="gh270198-bib-0025" ref-type="bibr">2024</xref>). Consistent with these findings, another study in Guangdong, China, revealed that climate change is not only intensifying dengue outbreaks but also extending transmission periods, shifting them from seasonal to nearly year‐round in some regions (Xu et al., <xref rid="gh270198-bib-0078" ref-type="bibr">2024</xref>). In addition to global warming, large‐scale climate modes such as the El Niño–Southern Oscillation (ENSO) are also projected to intensify in the future (Fredriksen et al., <xref rid="gh270198-bib-0028" ref-type="bibr">2020</xref>; Heede &amp; Fedorov, <xref rid="gh270198-bib-0034" ref-type="bibr">2023</xref>). Evaluating how future changes in these climate modes will alter the local environmental conditions is crucial for anticipating shifts in dengue risk and informing public health preparedness.</p><p>Kerala's unique climatic conditions—characterized by the dual influence of the southwest and northeast monsoons, persistently high humidity, orographic effects from the Western Ghats, and proximity to the Arabian Sea—create ideal conditions for year‐round mosquito breeding and elevated dengue risk. Given the growing threat of climate change on human health and its potential to exacerbate vector‐borne diseases, it is critical to assess how future changes in temperature, rainfall, humidity, and ENSO variability may alter the burden of dengue in Kerala. While ENSO has been identified as a potential driver of dengue variability in many global studies (Andhikaputra et al., <xref rid="gh270198-bib-0005" ref-type="bibr">2023</xref>; Fuller et al., <xref rid="gh270198-bib-0030" ref-type="bibr">2009</xref>; Poveda et al., <xref rid="gh270198-bib-0055" ref-type="bibr">2000</xref>), its role in shaping dengue risk at the regional scale, particularly in Kerala, remains insufficiently explored.</p><p>In this study, we aim to (a) identify key climatic predictors of dengue incidence over Kerala along with their relative importance and optimal lag periods, (b) develop a predictive dengue model using machine learning (ML) techniques, (c) assess future dengue incidence using CMIP6 climate projections under three Shared Socioeconomic Pathways (SSP): SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5, and (d) investigate the role of long‐term climate trends and ENSO variability in shaping the future dengue incidence in the region. The results from the current study provide important insights that can enhance prevention strategies, inform policymaking, and support climate‐adaptive public health planning, aiding in the mitigation of dengue outbreaks in a warming climate.</p></sec><sec id="gh270198-sec-0020" disp-level="1"><label>2.</label><title>Data</title><p>Kerala is a state located in the southwestern part of India, bordered by the Arabian Sea to the west and the Western Ghats to the east. Covering an area of approximately 38,863 km<sup>2</sup>, the state has a population of about 35.5 million as of 2023 (Annual vital statistics report, <xref rid="gh270198-bib-0006" ref-type="bibr">2023</xref>). The state features diverse landscapes, including coastal plains, hilly regions, and highlands (H. C. Nair et al., <xref rid="gh270198-bib-0051" ref-type="bibr">2018</xref>). It receives the first spell of rainfall during the southwest monsoon season over India in early June (Ananthakrishnan &amp; Soman, <xref rid="gh270198-bib-0004" ref-type="bibr">1988</xref>) and acts as the “Gateway of Summer Monsoon.” The southwest monsoon typically sets in over Kerala in June and lasts until September, followed by the northeast monsoon from October to November.</p><sec id="gh270198-sec-0030" disp-level="2"><label>2.1.</label><title>Observed Climate and Health Data</title><p>The current study uses monthly dengue case data for 2006–2019 obtained from the annual reports of the State Surveillance Unit, Directorate of Health Services, Government of Kerala. Data from 2020 to 2022 were excluded because the surveillance and reporting during these years were affected by the COVID‐19 pandemic due to reduced case detection, underreporting, and altered mobility patterns (Mayilsamy et al., <xref rid="gh270198-bib-0082" ref-type="bibr">2023</xref>; Phadke et al., <xref rid="gh270198-bib-0083" ref-type="bibr">2021</xref>). To ensure consistency, the current study utilized only the continuous pre‐pandemic monthly state‐wise data set spanning 2006–2019. On average, Kerala reports around 5,000 dengue cases annually; however, 2017 recorded an anomalously high count of 21,993 cases. More recently, the post‐COVID years 2023 and 2024 also reported elevated case numbers of 16,766 and 20,088, respectively. For calculating dengue per lakh population which is the target variable in the dengue model developed for Kerala, the annual population data for Kerala was obtained from the Vital Statistics Department of Kerala.</p><p>To study the climate‐dengue associations in Kerala, the current study uses high‐resolution daily gridded rainfall (0.25° × 0.25° grid) (Pai et al., <xref rid="gh270198-bib-0053" ref-type="bibr">2014</xref>) and temperature (1° × 1° grid) data from the India Meteorological Department (IMD) (Srivastava et al., <xref rid="gh270198-bib-0066" ref-type="bibr">2009</xref>). Relative humidity (RH) data (0.25° × 0.25° grid) covering the same period as the health data (2006–2019), were obtained from the ERA5 reanalysis data set due to the unavailability of gridded observational RH data from IMD. While ERA5 provides spatially and temporally consistent estimates, it may contain regional biases, and the lack of independent ground‐based RH data has limited its bias‐correction. For each variable, values were spatially averaged over the state of Kerala (8°–12.5°N, 74.5°–77.5°E).</p><p>In addition to meteorological variables, the Niño 3.4 sea surface temperature (SST) and the extrinsic incubation period (EIP) were also included as input predictors while developing the dengue model for Kerala. The Niño 3.4 SST is calculated as the average SST over the central equatorial Pacific region (5°N–5°S, 170°W–120°W) and is widely used to monitor the ENSO and its influence on climate variability. Niño 3.4 SST anomalies were obtained from the HadISST data set (1870–2023) to assess the long‐term influence of ENSO on dengue‐related climatic predictors in Kerala, while for dengue modeling, values corresponding to the same period as the dengue data (2006–2019) were used.</p><p>The EIP refers to the time required for the dengue virus to complete its development inside the mosquito vector before it can be transmitted to humans. It is a temperature‐sensitive epidemiological parameter, with shorter incubation periods observed at higher temperatures. In this study, EIP was estimated for Kerala using the following empirical equation derived from controlled laboratory experiments on vector‐virus interactions (McLean et al., <xref rid="gh270198-bib-0047" ref-type="bibr">1974</xref>; Mutheneni et al., <xref rid="gh270198-bib-0049" ref-type="bibr">2017</xref>; Shil et al., <xref rid="gh270198-bib-0064" ref-type="bibr">2020</xref>):
+</p><disp-formula id="gh270198-disp-0001"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mtext>EIP</mml:mtext><mml:mrow><mml:mo>(</mml:mo><mml:mtext>days</mml:mtext><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>97.177</mml:mn><mml:mo>×</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.0795</mml:mn><mml:mo>×</mml:mo><mml:mi>T</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:math></disp-formula><p>where <italic>T</italic> denotes the mean ambient temperature in degrees Celsius.</p><p>For calculating the EIP, we used the mean temperature at a lag of 3 months, in correspondence with the optimal lag for mean temperature with respect to dengue incidence.</p></sec><sec id="gh270198-sec-0040" disp-level="2"><label>2.2.</label><title>Climate Change Projections From CMIP6</title><p>The current study utilizes historical simulations (1900–2014) and future projections (2015–2100) from Coupled Model Intercomparison Project Phase 6 (CMIP6) models to generate dengue future projections for the state of Kerala. Climate change projections from CMIP6 models provide multi‐scenario estimates of future climate under varying greenhouse gas emission pathways. Future dengue incidence is assessed under three distinct SSPs, which represent alternative scenarios of socioeconomic development and associated greenhouse gas emissions. These include: SSP1‐2.6, a sustainability‐focused low‐emission pathway where radiative forcing is limited to 2.6 W m<sup>−2</sup> by the end of the 21st century; SSP2‐4.5, a “middle‐of‐the‐road” scenario with moderate emissions and radiative forcing stabilizing at 4.5 W m<sup>−2</sup>; and SSP5‐8.5, a high‐emission scenario characterized by fossil fuel‐driven development and radiative forcing reaching 8.5 W m<sup>−2</sup> by 2100 (J.‐Y. Lee et al., <xref rid="gh270198-bib-0044" ref-type="bibr">2021</xref>). While SSP5‐8.5 may be considered as a low‐likelihood pathway and should not be interpreted as the most‐likely future emission scenario (Hausfather &amp; Peters, <xref rid="gh270198-bib-0033" ref-type="bibr">2020</xref>), its inclusion facilitates comparison with existing literature while also providing an upper‐bound estimate of potential future dengue risk (Feng et al., <xref rid="gh270198-bib-0026" ref-type="bibr">2025</xref>; Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>; Y. Wang et al., <xref rid="gh270198-bib-0072" ref-type="bibr">2024</xref>). Rather than relying on a simple multi‐model ensemble mean of all available models, a subset of CMIP6 models that demonstrated higher skill in simulating Indian summer monsoon rainfall was selected to ensure more robust and regionally relevant dengue projections for Kerala. Sophia et al. (<xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>) evaluated 15 CMIP6 models for their ability to spatially represent rainfall climatology and intraseasonal oscillations over the Indian region and identified eight models with relatively higher skill. However, two of these models were excluded in the current study due to missing daily maximum and minimum temperature data across all three emission scenarios (SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5). As a result, six models (listed in Table S1 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>) were selected for dengue projection analysis over Kerala under the three future emission scenarios.</p></sec></sec><sec id="gh270198-sec-0050" disp-level="1"><label>3.</label><title>Methodology</title><p>ML models have gained widespread use in disease modeling due to their ability to capture the non‐linear and cumulative effects of multiple predictor variables on disease incidence. Some of the most effective and widely used ML algorithms for health‐related applications include Random Forest Regression (RFR), eXtreme Gradient Boosting (XGBoost), Support Vector Regression (SVR), and Long Short‐Term Memory (LSTM) networks (An et al., <xref rid="gh270198-bib-0003" ref-type="bibr">2023</xref>; Kakarla et al., <xref rid="gh270198-bib-0038" ref-type="bibr">2023</xref>; Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>; Yanes et al., <xref rid="gh270198-bib-0080" ref-type="bibr">2024</xref>). RFR is an ensemble tree‐based method that builds multiple independent decision trees using random subsets of data and predictors, and averages their outputs to reduce variance and improve robustness (Breiman, <xref rid="gh270198-bib-0013" ref-type="bibr">2001</xref>; Segal, <xref rid="gh270198-bib-0063" ref-type="bibr">2004</xref>). XGBoost also relies on decision trees but differs by adopting a boosting strategy, where trees are built sequentially to correct errors from previous iterations, often achieving higher predictive accuracy at the cost of greater sensitivity to hyperparameter tuning (Bhati et al., <xref rid="gh270198-bib-0010" ref-type="bibr">2021</xref>; Friedman, <xref rid="gh270198-bib-0029" ref-type="bibr">2001</xref>; Sahin, <xref rid="gh270198-bib-0061" ref-type="bibr">2020</xref>). In contrast to these tree‐based models, LSTM networks are designed to explicitly capture temporal dependencies in sequential data through gated memory cells, making them particularly suitable for time‐series forecasting in climate–disease studies (Hewamalage et al., <xref rid="gh270198-bib-0036" ref-type="bibr">2021</xref>; Hochreiter &amp; Schmidhuber, <xref rid="gh270198-bib-0037" ref-type="bibr">1997</xref>). SVR takes a fundamentally different approach by constructing an optimal regression hyperplane within an ε‐insensitive margin, allowing it to model both linear and non‐linear relationships using kernel functions (Cortes &amp; Vapnik, <xref rid="gh270198-bib-0019" ref-type="bibr">1995</xref>; Drucker et al., <xref rid="gh270198-bib-0021" ref-type="bibr">1999</xref>).</p><p>In this study, we evaluated all four algorithms using three standard metrics—<italic>R</italic>
+<sup>2</sup> score, Normalized Root Mean Square Error (NRMSE), and Mean Absolute Error (MAE) and selected the one with the highest predictive skill as the final dengue model for Kerala. <italic>R</italic>
+<sup>2</sup> score indicates the proportion of variance in observations explained by the model while NRMSE provides a normalized measure of overall error, giving greater weight to larger deviations and enabling comparison across data sets. MAE quantifies the average magnitude of prediction errors. In this evaluation, higher <italic>R</italic>
+<sup>2</sup> values and lower values of NRMSE and MAE indicate superior predictive performance. While there is no universal threshold for what constitutes “good” performance, previous studies suggest that NRMSE values below 1 can be considered indicative of satisfactory model performance (Long et al., <xref rid="gh270198-bib-0045" ref-type="bibr">2025</xref>), while values less than 0.1 indicate excellent performance (Amin et al., <xref rid="gh270198-bib-0002" ref-type="bibr">2025</xref>).</p><p>The climate‐dengue modeling framework adopted in the current study is based on the approach described in Sophia et al. (<xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>) and involves multiple steps including the identification of potential dengue predictors using statistical analysis, model training, hyperparameter optimization, k‐fold cross‐validation, and model performance evaluation using test data. The model was trained using climate and health data from 2006 to 2016 (approximately 80% of the total data) and tested on data from 2017 to 2019 (20% of the total data). To account for the temporal changes in the population size, the target variable in the dengue model is dengue cases per lakh population, which was transformed using the natural logarithm to stabilize variance and minimize the influence of outliers. This transformation also helps approximate a normal distribution, thereby improving model performance (D. K. Lee, <xref rid="gh270198-bib-0043" ref-type="bibr">2020</xref>).</p><p>For the XGBoost model, hyperparameter optimization was performed using the Optuna framework. The tuned hyperparameters included the number of trees (n_estimators), maximum tree depth (max_depth), learning rate (learning_rate), minimum child weight (min_child_weight), subsampling ratio (subsample), column subsampling ratio (colsample_bytree), and gamma (minimum loss reduction required for a split). Since the dengue data set consisted of monthly time‐series observations, model evaluation during optimization was conducted using a time‐aware five‐fold cross‐validation approach implemented through an expanding‐window scheme. In this approach, the training set progressively increased with each fold, while the subsequent temporal block served as the validation set, thereby ensuring that training data always preceded validation data and preventing temporal information leakage. Model selection was based on minimizing cross‐validation error on the training data set. Random seeds were fixed during optimization and model fitting to ensure reproducibility.</p><p>Similarly, the hyperparameter optimization for the RFR and Support Vector Regression (SVR) models was performed using Optuna in conjunction with the same time‐aware five‐fold cross‐validation framework. For RFR, the tuned hyperparameters included the number of trees (n_estimators), maximum tree depth (max_depth), minimum number of samples required to split an internal node (min_samples_split), minimum number of samples required at a leaf node (min_samples_leaf), maximum number of features considered at each split (max_features), and the bootstrap sampling option (bootstrap). For SVR, the tuned hyperparameters included the regularization parameter (C), epsilon (epsilon), kernel type (kernel), and gamma parameter (gamma). The LSTM model was also optimized using the Optuna framework, with the number of units in the first and second LSTM layers (units_1 and units_2), dropout rates (dropout_1 and dropout_2), learning rate (learning_rate), and batch size (batch_size) treated as tunable parameters. Early stopping was employed during training to mitigate overfitting. Thus, all ML models considered in this study were systematically optimized to ensure a fair comparison of model performance.</p><p>To account for lagged effects between climate variables and dengue incidence, cross‐correlation analysis was performed using the training data set (2006–2016). For each predictor, we identified the lag at which its correlation with dengue incidence was maximum (termed the optimal lag). In the final model, predictor variables were provided at their optimal lag along with all preceding lags (i.e., from lag 0 up to the optimal lag). Further, following model development and evaluation, the finalized dengue model was applied to the complete observational data set (2006–2019), and the resulting predictions were analyzed to identify the climatic conditions associated with increased dengue incidence over Kerala. This approach enabled the interpretation of the model predictions and the identification of climatic ranges favorable for higher dengue incidence using the maximum available observational record. Based on the predicted dengue values, months were grouped into high dengue (above the 75th percentile) and low dengue (below the 25th percentile) categories and the climatic conditions corresponding to both categories were studied.</p><sec id="gh270198-sec-0060" disp-level="2"><label>3.1.</label><title>Future Dengue Projections</title><p>Historical simulations (1900–2014) and future projections (2015–2100) from the selected CMIP6 models were spatially averaged over the Kerala region (8°–12.5°N, 74.5°–77.5°E) and provided as inputs to the dengue model to obtain future dengue projections for Kerala. Specifically, climate variables from each selected CMIP6 model for the historical period (1900–2014), along with future scenario simulations (2015–2100), were used as inputs to the Kerala dengue model (XGBoost), and the resulting outputs represent historical and projected dengue incidence for each model. To evaluate the individual contributions of future trends in climate variables to projected dengue incidence, sensitivity experiments were performed by modifying the CMIP6 projections of key climatic predictors. In the first experiment, each predictor was detrended individually while keeping the others unchanged, thereby isolating the influence of long‐term trends in that variable. In the second experiment, extreme rainfall events above the 90th percentile (relative to the reference period 1995–2014) were removed to evaluate their influence on projected dengue incidence. The percentage change in projected dengue incidence resulting from each experiment was then computed relative to the unaltered future dengue projections, providing insights into how long‐term trends in individual climate variables and extreme rainfall influence the future dengue incidence in Kerala.</p></sec><sec id="gh270198-sec-0070" disp-level="2"><label>3.2.</label><title>Impacts of ENSO on Dengue in Kerala</title><p>ENSO is a major driver of large‐scale climate variability over India, and its teleconnection with the Indian summer monsoon has shown strong, time‐varying, and regionally distinct effects (Athira et al., <xref rid="gh270198-bib-0007" ref-type="bibr">2023</xref>). ENSO is found to modulate rainfall, temperature, and humidity patterns across India—key environmental factors governing dengue transmission (Athira et al., <xref rid="gh270198-bib-0007" ref-type="bibr">2023</xref>; Chowdary et al., <xref rid="gh270198-bib-0016" ref-type="bibr">2014</xref>; Kothawale et al., <xref rid="gh270198-bib-0042" ref-type="bibr">2010</xref>). ENSO acts as a large‐scale climatic modulator that can amplify or suppress local environmental conditions favorable for dengue transmission (Amarakoon et al., <xref rid="gh270198-bib-0001" ref-type="bibr">2008</xref>; Andhikaputra et al., <xref rid="gh270198-bib-0005" ref-type="bibr">2023</xref>; Fuller et al., <xref rid="gh270198-bib-0030" ref-type="bibr">2009</xref>; Tipayamongkholgul et al., <xref rid="gh270198-bib-0068" ref-type="bibr">2009</xref>; Vincenti‐Gonzalez et al., <xref rid="gh270198-bib-0069" ref-type="bibr">2018</xref>).</p><p>The current study investigates the influence of the ENSO on dengue transmission in Kerala using both observational data and outputs from selected CMIP6 models. A preliminary analysis was conducted using observed SST and dengue incidence data from 2006 to 2019. However, due to the limited length of the observed data set, which restricts robust statistical inference, we extended the analysis using historical simulations (1900–2014) from the six selected CMIP6 models. To isolate the impacts of ENSO on dengue incidence, all climatic input variables from the CMIP6 models were detrended (to remove the long‐term climate change signal) and provided as inputs to the dengue prediction model, and the resulting dengue projections were analyzed.</p><p>In addition, we examined the local weather conditions over Kerala—specifically temperature, rainfall, and RH—during El Niño and La Niña years. El Niño and La Niña years were identified based on the Niño 3.4 SST anomaly, calculated from the HadISST data set (1870–2023) for observational analysis and from the CMIP6 historical simulations (1900–2014) for model‐based analysis. In our analysis, a year is classified as an El Niño year if the 3‐month running mean of the Niño 3.4 SST anomaly exceeds +0.5°C for at least five consecutive overlapping seasons. Similarly, a year is classified as a La Niña year if the 3‐month running mean of the Niño 3.4 SST anomaly remains below −0.5°C for at least five consecutive overlapping seasons, following the NOAA Oceanic Niño Index (ONI) criteria.</p></sec></sec><sec id="gh270198-sec-0080" disp-level="1"><label>4.</label><title>Results</title><sec id="gh270198-sec-0090" disp-level="2"><label>4.1.</label><title>Seasonal Patterns and Climatic Predictors of Dengue in Kerala</title><p>Dengue occurrence in Kerala exhibits a distinct seasonal pattern, with most cases reported during the summer monsoon months from late May to September, peaking in June. These months account for approximately 60% of the total dengue cases reported in the state. Figure <xref rid="gh270198-fig-0001" ref-type="fig">1</xref> presents a comparison between monthly rainfall and dengue cases over the study period (2006–2019), showing that the seasonality of dengue closely aligns with the rainfall climatology of Kerala, with strong concurrence to the monsoon rainfall cycle.</p><fig id="gh270198-fig-0001" position="float"><?disp-level 3?><label>Figure 1</label><caption><p>Monthly cumulative rainfall (blue line) and dengue cases (black line) in Kerala from 2006 to 2019. Dengue cases show a clear seasonal pattern that corresponds with the rainfall cycle.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-1" xlink:href="GH2-10-e2026GH001893-g005.webp"><?cloudpmc-path blobs/9251/13580351/b4e311d493cb/GH2-10-e2026GH001893-g005.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 573?><?original-width 1064?><?scaled-height 573?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g005.gif"><?cloudpmc-path blobs/9251/13580351/ef62794f6cf9/GH2-10-e2026GH001893-g005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To identify the key predictors of dengue in Kerala, we considered a broad set of variables from previous studies and only those that improved the model skill were retained in the final dengue model. Selected climatic predictors included mean, maximum, and minimum temperature, diurnal temperature range, rainfall, RH, number of active and break days of monsoon rainfall, Niño 3.4 SST, EIP, and month of the year (Kakarla et al., <xref rid="gh270198-bib-0038" ref-type="bibr">2023</xref>; Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>). Field studies worldwide have identified varied lags from 0 to 6 months between different climatic variables and dengue incidence. Table <xref rid="gh270198-tbl-0001" ref-type="table">1</xref> presents the optimal lags identified between each predictor and dengue incidence in Kerala. These lags range from zero for rainfall to up to 5 months for variables such as diurnal temperature range and RH. Except for RH, all other variables show a positive correlation with dengue incidence in Kerala at their optimal lags, indicating that increases in these variables are associated with higher dengue incidence. In contrast, RH exhibits a negative relationship, with higher humidity reducing dengue incidence and lower humidity increasing it, and its influence on dengue incidence is strongest at a lag of 5 months. To further understand how the non‐linear and combined interactions of these predictors influence dengue transmission, we developed an ML‐based dengue model for Kerala.</p><table-wrap id="gh270198-tbl-0001" position="float"><?disp-level 3?><label>Table 1</label><caption><p>Climatic Predictors of Dengue in Kerala, Along With the Time Lag (in Months) at Which Their Pearson Correlation With Dengue Incidence Is Maximum (Denoted as Optimal Lag) and the Corresponding Correlation Value</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Climatic predictor</th><th align="center" valign="bottom" rowspan="1" colspan="1">Optimal time lag (months)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Correlation at optimal time lag</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Mean temperature (<italic>T</italic>
+<sub>mean</sub>)</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">0.63</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Maximum temperature (<italic>T</italic>
+<sub>max</sub>)</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">0.58</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Minimum temperature (<italic>T</italic>
+<sub>min</sub>)</td><td align="center" valign="top" rowspan="1" colspan="1">2</td><td align="center" valign="top" rowspan="1" colspan="1">0.59</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Diurnal range in temperature (DTR)</td><td align="center" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">0.46</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mean rainfall</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0.43</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Active days of monsoon rainfall</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0.3</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Break days of monsoon rainfall</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">0.26</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Relative humidity (RH)</td><td align="center" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">−0.52</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Niño 3.4 sea surface temperature (SST)</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">0.38</td></tr></tbody></table><table-wrap-foot><fn id="gh270198-note-0001"><p>
+<italic>Note.</italic> All correlations are statistically significant (<italic>p</italic> &lt; 0.05).</p></fn></table-wrap-foot></table-wrap></sec><sec id="gh270198-sec-0100" disp-level="2"><label>4.2.</label><title>Dengue Model for Kerala</title><p>For dengue prediction in Kerala, XGBoost emerged as the best‐performing model among the tested ML models, achieving the highest <italic>R</italic>
+<sup>2</sup> score (0.72), along with the lowest NRMSE (0.53) and MAE (0.19), indicating strong predictive accuracy. In comparison, SVR, RFR, and LSTM showed similar and comparatively lower performance, with <italic>R</italic>
+<sup>2</sup> scores ranging between 0.48 and 0.52 and NRMSE values around 1.0 (Table S2 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>). The optimal XGBoost configuration obtained through hyperparameter optimization consisted of n_estimators = 411, max_depth = 2, gamma = 0.0025, learning_rate = 0.1867, subsample = 0.5757, colsample_bytree = 0.6466, and min_child_weight = 10. Figure <xref rid="gh270198-fig-0002" ref-type="fig">2</xref> shows the comparison between actual dengue incidence and the dengue incidence predicted by the selected XGBoost model for the test period (2017–2019). The corresponding time series, along with the climatic predictors at their optimal lags, is presented in Figure S3 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>.</p><fig id="gh270198-fig-0002" position="float"><?disp-level 3?><label>Figure 2</label><caption><p>Comparison between actual dengue incidence (<italic>X</italic>‐axis) and the dengue incidence predicted by the XGBoost model (<italic>Y</italic>‐axis) for the test period from 2017 to 2019. The dotted red line represents the line of perfect agreement where predictions equal actual dengue incidence.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-3" xlink:href="GH2-10-e2026GH001893-g001.webp"><?cloudpmc-path blobs/9251/13580351/a338397c7785/GH2-10-e2026GH001893-g001.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1062?><?original-width 1064?><?scaled-height 1062?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g001.gif"><?cloudpmc-path blobs/9251/13580351/faf6d7dcdd87/GH2-10-e2026GH001893-g001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To explore alternative model formulations, we conducted supplementary experiments on the selected dengue model, including (a) incorporating R0 (basic reproduction number, defined as the average number of new infections generated by one infected individual in a fully susceptible population) as an additional predictor, calculated following Mordecai et al. (<xref rid="gh270198-bib-0048" ref-type="bibr">2017</xref>), (b) including previous dengue cases as an additional predictor, and (c) using only variables at their optimal lags. The results of these analyses are provided in Table S5 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>. The model incorporating R0 and the model using only variables at optimal lags showed lower predictive skill than the current dengue model. Although the inclusion of previous dengue cases substantially improved model performance, it also increased dependence on autoregressive terms, reducing the relative contribution of climatic variables and limiting the interpretability of climate–dengue relationships (Table S5 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>).</p><p>To interpret the contributions of individual predictors to the model predictions, we used the SHapley Additive exPlanations (SHAP) method. SHAP is a game‐theoretic approach that quantifies the contribution of each feature to a particular prediction by computing Shapley values, ensuring a consistent and locally accurate explanation of the model predictions. Variable importance represents the extent to which a predictor influences or contributes to the model's predictive performance. According to the variable importance calculated using the SHAP method, temperature and rainfall are the most influential predictors for the dengue model (Figure S1 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>). To account for delayed climatic effects, each predictor was included in the model at several time lags, ranging from lag 0 to its optimal lag. The resulting variable importance ranking therefore reflects the influence of individual lagged predictors (e.g., maximum temperature at lag 3 or rainfall at lag 0), rather than the overall contribution of a given variable. Figure S1 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref> shows the top 20 most influential lagged predictors.</p><p>Figure <xref rid="gh270198-fig-0003" ref-type="fig">3</xref> shows box‐and‐whisker plots comparing the climatic ranges at the optimal lags corresponding to high and low dengue months. For example, if July is identified as a high dengue month, the associated climatic predictors are examined at the optimal lag for each variable, such as maximum temperature at a 3‐month lag corresponding to April, minimum temperature at a 2‐month lag corresponding to May, and so on.</p><fig id="gh270198-fig-0003" position="float"><?disp-level 3?><label>Figure 3</label><caption><p>Box‐and‐whisker plots showing the distribution of climatic predictors at their respective optimal lags corresponding to low and high dengue months in Kerala. Boxes represent the interquartile range (25th–75th percentiles), the horizontal line denotes the median, whiskers extend to the 5th and 95th percentiles, and individual points indicate outliers. The plots compare the ranges of maximum temperature, minimum temperature, mean temperature, diurnal temperature range, mean rainfall, relative humidity, and Niño 3.4 sea surface temperature associated with high and low dengue incidence in Kerala.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-5" xlink:href="GH2-10-e2026GH001893-g006.webp"><?cloudpmc-path blobs/9251/13580351/d13a70b8150f/GH2-10-e2026GH001893-g006.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 690?><?original-width 1064?><?scaled-height 690?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g006.gif"><?cloudpmc-path blobs/9251/13580351/e0d549dfa9c2/GH2-10-e2026GH001893-g006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The high dengue months in Kerala are the monsoon months from June to August, whereas low dengue months include different months across years. Our results show that high dengue incidence during the monsoon season in Kerala is associated with higher monsoon rainfall, and moderate RH, warmer temperatures, and a warmer Niño 3.4 SST in the preceding months at the specific optimal lag periods identified for each climatic predictor (Figure <xref rid="gh270198-fig-0003" ref-type="fig">3</xref>). In contrast, lower dengue incidence is linked to reduced concurrent rainfall, along with comparatively cooler temperatures, higher RH, and a cooler Niño 3.4 SST at their respective lags. Warmer Niño 3.4 SSTs indicate El Niño–like conditions, while cooler Niño 3.4 SST values indicate La Niña–like conditions (Figure <xref rid="gh270198-fig-0003" ref-type="fig">3</xref>). For Kerala, the optimal lag for temperature variables (<italic>t</italic>
+<sub>mean</sub>, <italic>t</italic>
+<sub>max</sub>, <italic>t</italic>
+<sub>min</sub>, and DTR) ranges from 2 to 5 months, RH shows an optimal lag of 5 months, while rainfall and the Niño 3.4 SST are found to have their optimal influence on dengue incidence at lags of 0 and 3 months, respectively (Table <xref rid="gh270198-tbl-0001" ref-type="table">1</xref>).</p><p>Monthly mean rainfall during monsoon months in Kerala spans a wide range of 81–996 mm, within which a narrower range of 180–457 mm is associated with higher dengue incidence. Similarly, optimal ranges of climatic variables associated with higher dengue incidence in Kerala, along with the corresponding overall mean ranges observed during the monsoon season of the study period (2006–2019) are presented in Table S6 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>. Overall, the model interpretation suggests that increased dengue incidence over Kerala is associated with warmer temperatures and moderate RH during the pre‐monsoon months (March, April, and May), together with increased rainfall during the monsoon season (Figure <xref rid="gh270198-fig-0003" ref-type="fig">3</xref>). In addition, the results suggest the possible role of large‐scale climate variability in influencing regional climatic conditions that affect dengue transmission in Kerala, with El Niño conditions in the Pacific potentially contributing to favorable local weather conditions for increased dengue incidence over Kerala.</p></sec><sec id="gh270198-sec-0110" disp-level="2"><label>4.3.</label><title>Impacts of ENSO on Dengue Incidence in Kerala</title><p>Several studies have identified the El Niño–Southern Oscillation (ENSO) as a key climatic driver of dengue risk (Andhikaputra et al., <xref rid="gh270198-bib-0005" ref-type="bibr">2023</xref>; Fuller et al., <xref rid="gh270198-bib-0030" ref-type="bibr">2009</xref>). ENSO influences regional climate by altering variables such as temperature, rainfall, and RH, which in turn affect mosquito dynamics and dengue transmission. In the current study, we find a statistically significant positive correlation (<italic>r</italic> = 0.4) between monthly dengue incidence in Kerala and Niño 3.4 SST at an optimal lag of 3 months. However, the limited length of the observational data set (2006–2019) restricts our ability to draw robust and conclusive inferences. To strengthen the analysis, we leveraged the dengue model developed for Kerala along with historical climate change simulations (1900–2014) from the six selected CMIP6 models to further investigate the ENSO–dengue relationship in Kerala (sample size = 8,280).</p><p>Figure <xref rid="gh270198-fig-0004" ref-type="fig">4</xref> presents a scatter plot of normalized dengue predictions against the normalized Niño 3.4 index (representing ENSO variability) from all six selected CMIP6 models. Red and blue markers represent high and low dengue years, respectively. Normalization was applied to both variables to account for differences in the range of values across the individual models. El Niño and La Niña years were identified separately for each model rather than from the ensemble mean. The scatter plot shows that, in Kerala, most years with higher values of Niño 3.4 index correspond to high dengue incidence. However, not all high dengue years have high Niño 3.4 index values, suggesting that ENSO is an important—but not exclusive—driver of dengue variability. We also find that, on average, 40% of high dengue years coincide with El Niño conditions, whereas none of the high dengue years correspond to La Niña conditions. In contrast, 57% of low dengue years are associated with La Niña conditions, while none of the low dengue years coincide with El Niño (Table S3 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>). The lack of a one‐to‐one correspondence between ENSO and dengue incidence in Kerala may also reflect the potential role of other large‐scale climate modes, such as the Indian Ocean Dipole (IOD), Pacific Decadal Oscillation (PDO), and Atlantic Multidecadal Oscillation (AMO), which can modulate local weather conditions and potentially affect dengue dynamics in Kerala.</p><fig id="gh270198-fig-0004" position="float"><?disp-level 3?><label>Figure 4</label><caption><p>Scatter plot of normalized dengue predictions (<italic>X</italic>‐axis) versus the normalized Niño 3.4 index (<italic>Y</italic>‐axis) from six selected CMIP6 models. Red and blue markers indicate high and low dengue years, respectively, while gray markers represent all other years. The dotted horizontal line denotes a normalized Niño 3.4 index of 0.5 for reference.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-7" xlink:href="GH2-10-e2026GH001893-g004.webp"><?cloudpmc-path blobs/9251/13580351/45dd93ee132c/GH2-10-e2026GH001893-g004.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1066?><?original-width 1064?><?scaled-height 1066?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g004.gif"><?cloudpmc-path blobs/9251/13580351/202b55fde358/GH2-10-e2026GH001893-g004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To further understand how ENSO is linked to dengue incidence in Kerala, we examined the local climatic conditions in Kerala during El Niño and La Niña years. Figure <xref rid="gh270198-fig-0005" ref-type="fig">5</xref> shows composite anomalies of maximum temperature, mean temperature, rainfall, and RH over Kerala for El Niño years, La Niña years, and the difference between El Niño and La Niña years. Statistically significant regions (<italic>p</italic> &lt; 0.05), identified using the Monte Carlo method, are marked with black dots. Our results indicate that El Niño years are associated with higher mean and maximum temperatures and lower rainfall and RH across Kerala, according to the selected CMIP6 models. In contrast, La Niña years correspond to lower mean and maximum temperatures, higher RH, and increased rainfall over Kerala. Similar patterns have been reported in previous studies (Athira et al., <xref rid="gh270198-bib-0007" ref-type="bibr">2023</xref>; Chakravorty et al., <xref rid="gh270198-bib-0014" ref-type="bibr">2016</xref>; Chowdary et al., <xref rid="gh270198-bib-0016" ref-type="bibr">2014</xref>; Kothawale et al., <xref rid="gh270198-bib-0042" ref-type="bibr">2010</xref>).</p><fig id="gh270198-fig-0005" position="float"><?disp-level 3?><label>Figure 5</label><caption><p>Composites of anomalies of (a, e, i) maximum temperature, (b, f, j) mean temperature, (c, g, k) rainfall, and (d, h, l) relative humidity over Kerala during La Niña years (a–d), El Niño years (e–h), and the difference between El Niño and La Niña years (i–l). Statistically significant regions (<italic>p</italic> &lt; 0.05), indicating spatial consistency across the six selected CMIP6 models, identified using the Monte Carlo method, are marked with black dots.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-9" xlink:href="GH2-10-e2026GH001893-g003.webp"><?cloudpmc-path blobs/9251/13580351/793184f8ce3b/GH2-10-e2026GH001893-g003.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 800?><?original-width 1064?><?scaled-height 800?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g003.gif"><?cloudpmc-path blobs/9251/13580351/ad24a3c3f624/GH2-10-e2026GH001893-g003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We also compared these ENSO‐related climatic patterns over Kerala using observed SST, temperature, rainfall, and RH data from 1980 to 2020 (Figure S2 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>). The observed patterns mostly agree with the model results, although the ENSO impact on rainfall is not statistically significant throughout Kerala.</p></sec><sec id="gh270198-sec-0120" disp-level="2"><label>4.4.</label><title>Dengue Future Projections for Kerala</title><p>Climate change is projected to alter temperature, rainfall patterns, and large‐scale climate variabilities such as ENSO and IOD (Fredriksen et al., <xref rid="gh270198-bib-0028" ref-type="bibr">2020</xref>; B. Wang et al., <xref rid="gh270198-bib-0070" ref-type="bibr">2021</xref>; G. Wang et al., <xref rid="gh270198-bib-0071" ref-type="bibr">2024</xref>), with regionally diverse impacts on dengue transmission dynamics. We studied the future trends (2015–2100) in the key climatic predictors of dengue obtained from the CMIP6 models. The results indicate statistically significant warming trends (<italic>p</italic> &lt; 0.05) in both temperature and Niño 3.4 SST across all emission scenarios (Table <xref rid="gh270198-tbl-0002" ref-type="table">2</xref>). Mean temperature in Kerala is projected to rise by 0.91°C per century under SSP1‐2.6, 2°C per century under SSP2‐4.5, and 4.4°C per century under SSP5‐8.5, during 2015–2100. Similarly, the Niño 3.4 SST shows increasing trends of 1°C, 2.2°C, and 4.2°C per century under SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5, respectively. Rainfall shows a statistically significant positive trend only in the high emission scenario (SSP5‐8.5), with a trend of 31 mm per century, while RH does not exhibit a statistically significant (<italic>p</italic> &lt; 0.05) trend in any of the emission scenarios (Table <xref rid="gh270198-tbl-0002" ref-type="table">2</xref>).</p><table-wrap id="gh270198-tbl-0002" position="float"><?disp-level 3?><label>Table 2</label><caption><p>Future Trends (per Century) in Meteorological Predictors of Dengue in Kerala From 2015 to 2100 Under the Shared Socioeconomic Pathways (SSP), SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr><th rowspan="2" style="border-bottom:solid 1px #000000" align="left" valign="bottom" colspan="1">Variables</th><th style="border-bottom:solid 1px #000000" colspan="3" align="center" valign="bottom" rowspan="1">Trend/century during 2015–2100</th></tr><tr style="border-bottom:solid 1px #000000"><th align="center" valign="bottom" rowspan="1" colspan="1">SSP1‐2.6</th><th align="center" valign="bottom" rowspan="1" colspan="1">SSP2‐4.5</th><th align="center" valign="bottom" rowspan="1" colspan="1">SSP5‐8.5</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Temperature (°C/century)</td><td align="center" valign="top" rowspan="1" colspan="1">0.91*</td><td align="center" valign="top" rowspan="1" colspan="1">2*</td><td align="center" valign="top" rowspan="1" colspan="1">4.4*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Rainfall (mm/century)</td><td align="center" valign="top" rowspan="1" colspan="1">21</td><td align="center" valign="top" rowspan="1" colspan="1">24</td><td align="center" valign="top" rowspan="1" colspan="1">31*</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Relative humidity (%/century)</td><td align="center" valign="top" rowspan="1" colspan="1">0.4</td><td align="center" valign="top" rowspan="1" colspan="1">0.3</td><td align="center" valign="top" rowspan="1" colspan="1">−0.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Niño 3.4 SST (°C/century)</td><td align="center" valign="top" rowspan="1" colspan="1">0.99*</td><td align="center" valign="top" rowspan="1" colspan="1">2.2*</td><td align="center" valign="top" rowspan="1" colspan="1">4.2*</td></tr></tbody></table><table-wrap-foot><fn id="gh270198-note-0002"><p>
+<italic>Note.</italic> Trend values are based on the ensemble mean of six selected CMIP6 models. Statistically significant trends (<italic>p</italic> &lt; 0.05) are marked with an asterisk (*).</p></fn></table-wrap-foot></table-wrap><p>To understand how the projected changes in the climatic predictors may affect future dengue incidence in Kerala, we utilized the climate change projections from the selected six CMIP6 models along with the dengue model developed for Kerala. Historical simulations (1900–2014) and future projections (2015–2100) of the climatic predictors were provided at different lags from lag‐0 to the optimal lag of the climate predictors as inputs into the dengue model.</p><p>The resulting future projections of dengue from the dengue model developed for Kerala are presented in Figure <xref rid="gh270198-fig-0006" ref-type="fig">6a</xref>. The projections suggest a substantial increase in dengue incidence across all emission scenarios (SSPs) (Figure <xref rid="gh270198-fig-0006" ref-type="fig">6a</xref>). In the near future (2021–2040), dengue incidence in Kerala is projected to increase by 16%–20% relative to the reference period (1995–2014) (Figure <xref rid="gh270198-fig-0006" ref-type="fig">6b</xref>). This increase becomes more pronounced in the mid‐century (2041–2060), with projected rises of 32% under SSP1‐2.6, 33% under SSP2‐4.5, and 44% under SSP5‐8.5. By the late century (2081–2100), dengue is projected to rise by up to 113% under SSP5‐8.5, while the projected increases under SSP1‐2.6 and SSP2‐4.5 are 46% and 63%, respectively (Figure <xref rid="gh270198-fig-0006" ref-type="fig">6b</xref>). However, these projections represent changes in climate‐driven dengue incidence and do not account for other factors such as vector control interventions, population growth, or changes in immunity in the future, which may also influence future transmission.</p><fig id="gh270198-fig-0006" position="float"><?disp-level 3?><label>Figure 6</label><caption><p>(a) Dengue incidence anomaly projections for Kerala for the historical (1950–2014) and the future (2015–2100) under SSP1 (green line), SSP2 (blue line), and SSP5 (red line). The mean value for the reference period (1995–2014; light gray bar) was subtracted from the projected values. Multi‐model ensemble means were computed using a 20‐year smoothed time series. Shaded regions represent uncertainty as ±1 standard deviation across the selected six models, with the boundaries of model spread marked by circles of corresponding colors on the right side of the figure. (b) Box‐and‐whiskers plot of projected percentage changes in dengue incidence over Kerala for the near future (2021–2040), mid‐future (2041–2060), and far‐future (2081–2100) under each emission pathway (SSP1, SSP2, and SSP5), relative to the reference period (1995–2014). Boxes represent the interquartile range (25th–75th percentiles), the horizontal line indicates the median, whiskers show the 5th and 95th percentiles, and individual points are outliers. The mean percentage changes are annotated above the boxes.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-11" xlink:href="GH2-10-e2026GH001893-g007.webp"><?cloudpmc-path blobs/9251/13580351/a66b1c5a8d8f/GH2-10-e2026GH001893-g007.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1062?><?original-width 1064?><?scaled-height 1062?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g007.gif"><?cloudpmc-path blobs/9251/13580351/39079a659160/GH2-10-e2026GH001893-g007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Uncertainty in the dengue future projections arises from both inter‐model variability (differences among the six CMIP6 models; Figure <xref rid="gh270198-fig-0006" ref-type="fig">6a</xref> shading) and scenario uncertainty (differences between emission pathways; Figure <xref rid="gh270198-fig-0006" ref-type="fig">6b</xref>). In the near future (2021–2040), both sources of uncertainty are relatively low, resulting in higher confidence in projections. In the mid‐century (2041–2060), both inter‐model and scenario uncertainties increase compared to the near term, leading to a moderate spread. By the late century (2081–2100), both sources are highest, with scenario uncertainty becoming dominant due to strong divergence between emission pathways, and inter‐model spread also reaching its maximum, resulting in the largest overall uncertainty and reduced confidence in long‐term projections.</p><p>To investigate the contribution of trends in climatic predictors (Table <xref rid="gh270198-tbl-0002" ref-type="table">2</xref>) to the projected dengue incidence in Kerala, we conducted a series of sensitivity experiments. In these experiments, the future projections (2015–2100) of each climate variable were individually detrended, keeping the others unchanged, and the resulting changes in dengue projections were analyzed. The results indicate that increasing trends in mean temperature, maximum temperature, and Niño 3.4 SST contribute significantly to the projected rise in dengue incidence in Kerala (Figure <xref rid="gh270198-fig-0007" ref-type="fig">7</xref>). Specifically, the trend in mean temperature accounts for a 1%–4% increase, while the trend in Niño 3.4 SST contributes a 1%–5% increase in projected dengue incidence across the emission scenarios over the period 2021–2100. The trend in maximum temperature has the highest impact, contributing to a 4%–22% increase across low‐to‐high emission pathways (Figure <xref rid="gh270198-fig-0007" ref-type="fig">7</xref>).</p><fig id="gh270198-fig-0007" position="float"><?disp-level 3?><label>Figure 7</label><caption><p>Percentage change in dengue projections for Kerala under the emission scenarios (a) SSP1‐2.6, (b) SSP2‐4.5, and (c) SSP5‐8.5 for the near‐future (2021–2040), mid‐future (2041–2060), and far‐future (2081–2100). Changes were simulated by removing trends in mean temperature (red), rainfall (blue), Niño 3.4 sea surface temperature (yellow), maximum temperature (green), and by removing all extreme rainfall (maroon) from selected CMIP6 model outputs. Extreme rainfall refers to values above the 90th percentile of the reference period (1995–2014). Percentage changes are relative to projections using unaltered climatic predictors.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="jats-graphic-13" xlink:href="GH2-10-e2026GH001893-g002.webp"><?cloudpmc-path blobs/9251/13580351/6bcf4022279f/GH2-10-e2026GH001893-g002.webp?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 917?><?original-width 1064?><?scaled-height 917?><?scaled-width 1064?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="GH2-10-e2026GH001893-g002.gif"><?cloudpmc-path blobs/9251/13580351/98246b0c1ecd/GH2-10-e2026GH001893-g002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We also conducted an experiment to assess the influence of extreme rainfall events on future dengue incidence, as previous studies suggest that intense rainfall can flush out mosquito eggs and larvae, thereby reducing dengue risk (Benedum et al., <xref rid="gh270198-bib-0009" ref-type="bibr">2018</xref>; Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>). In this experiment, the rainfall projections from the selected CMIP6 models were modified by removing all extreme rainfall events—defined as rainfall exceeding the model‐specific 90th percentile of the reference period (1995–2014). The modified rainfall time series was then used as input to the dengue model, keeping other variables unchanged. The results indicate that eliminating extreme rainfall events leads to a 3%–7% increase in projected dengue incidence across 2021–2100 (Figure <xref rid="gh270198-fig-0007" ref-type="fig">7</xref>, maroon bar). These findings suggest that future extreme rainfall events can suppress dengue transmission to some extent, thereby potentially offsetting the projected increase in dengue incidence by 3%–7% for Kerala. In contrast, removing the long‐term rainfall trend had negligible impact, indicating that the rainfall–dengue relationship is nonlinear, where extreme rainfall influences dengue transmission differently from non‐extreme rainfall.</p><p>Recent studies suggest that ENSO is likely to intensify under future climate change scenarios (Fredriksen et al., <xref rid="gh270198-bib-0028" ref-type="bibr">2020</xref>; Heede &amp; Fedorov, <xref rid="gh270198-bib-0034" ref-type="bibr">2023</xref>). Using the six CMIP6 models selected in this study, we evaluated projected changes in the magnitude of the Niño 3.4 index relative to historical values across three emission scenarios: SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5. Our results indicate a consistent intensification of both El Niño and La Niña events in the future. During El Niño years, the Niño 3.4 SST anomaly increases from 0.80°C in the historical period to 0.85°C under SSP1‐2.6. This intensification continues under SSP2‐4.5 and SSP5‐8.5, with anomalies reaching 0.91°C and 0.95°C, respectively (Table S4 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>). Similarly, La Niña events also intensify. The mean Niño 3.4 index during La Niña years is −0.85°C in the historical period, which strengthens to −0.92°C, −0.98°C, and −1.10°C under SSP1‐2.6, SSP2‐4.5, and SSP5‐8.5, respectively (Table S4 in Supporting Information <xref rid="gh270198-sup-0001" ref-type="supplementary-material">S1</xref>). Given that ENSO has been identified as a significant predictor of dengue incidence in Kerala, these findings imply that the projected intensification of ENSO may lead to an increased risk of dengue in Kerala in the future.</p></sec></sec><sec id="gh270198-sec-0130" disp-level="1"><label>5.</label><title>Discussion and Conclusion</title><p>The present study provides a comprehensive assessment of dengue seasonality, climatic drivers, and future risk projections in Kerala under a changing climate. By integrating observational data with ML methods, we demonstrate that regionally tailored models can effectively capture the nonlinear and combined interactions between climatic variables and dengue transmission. Our analysis identifies temperature, rainfall, RH, and ENSO as key drivers of dengue in Kerala, highlighting the potential for climate change to elevate dengue incidence in the future.</p><p>Previous studies have emphasized the importance of location‐specific climate–dengue associations. For instance, dengue incidence in Delhi was positively correlated with temperatures of 30–39°C (Sahay, <xref rid="gh270198-bib-0060" ref-type="bibr">2018</xref>), whereas a meta‐analysis of 33 studies reported increased incidence at 23.2–27.7°C (Fan et al., <xref rid="gh270198-bib-0024" ref-type="bibr">2014</xref>). Other studies found wider optimal temperature ranges, such as 21.6–32.9°C in Guangzhou and 27–35°C in Pune (Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>; Wu et al., <xref rid="gh270198-bib-0075" ref-type="bibr">2018</xref>; Xiang et al., <xref rid="gh270198-bib-0077" ref-type="bibr">2017</xref>). These findings underscore the necessity of developing region‐specific dengue models for early warning and future projections.</p><p>Our results confirm strong seasonality of dengue in Kerala, with nearly 60% of cases occurring during the southwest monsoon (June–September), closely aligning with regional rainfall climatology. Post‐monsoon dengue shows marked interannual variability, likely reflecting spatial heterogeneity in monsoon rainfall: northern districts receive most precipitation during the southwest monsoon, whereas southern districts experience enhanced rainfall during the northeast monsoon (October–November), influencing localized mosquito breeding and dengue risk (A. Nair et al., <xref rid="gh270198-bib-0050" ref-type="bibr">2014</xref>). A comprehensive set of predictors—including temperature, rainfall, RH, monsoon active and break days, Niño 3.4 SST, and EIP—was included in the Kerala dengue model. These variables impact the dengue incidence of the state at different time lags ranging from 0 to 5 months. As dengue peaks in Kerala during the monsoon season, mean monsoon rainfall (lag 0), temperature conditions and Niño 3.4 SST during March–April (lag 2–3 months), and RH during January–February (lag 5 months) were found to be associated with dengue incidence during the peak period. Among the ML approaches evaluated (XGBoost, SVR, RFR, LSTM), XGBoost achieved the highest predictive performance, likely due to its capacity to model complex nonlinear relationships, handle correlated predictors, and robustly combine multiple lagged variables.</p><p>The Kerala dengue model developed in the current study can be further improved through enhanced surveillance, better representation of vector biology and socio‐demographic factors in the model, and continuous validation—essential steps to operationalize climate‐informed health decision‐making. SHAP analysis confirmed temperature and rainfall as the most influential drivers of dengue incidence. Further, our analysis using the dengue model finds that increased dengue incidence over Kerala is associated with warmer temperatures and moderate RH during the pre‐monsoon months, along with increased rainfall during the monsoon season, while El Niño conditions in the Pacific are associated with local weather conditions that favor increased dengue incidence over Kerala.</p><p>A notable contribution of this study is the incorporation of ENSO as a dengue predictor. Both El Niño and La Niña are found to enhance dengue risk depending on regional climate responses. El Niño has been associated with warmer and drier conditions in Venezuela and Thailand, increasing dengue incidence (Tipayamongkholgul et al., <xref rid="gh270198-bib-0068" ref-type="bibr">2009</xref>; Vincenti‐Gonzalez et al., <xref rid="gh270198-bib-0069" ref-type="bibr">2018</xref>), while La Niña elevated dengue risk in the Solomon Islands through warmer local temperatures (Andhikaputra et al., <xref rid="gh270198-bib-0005" ref-type="bibr">2023</xref>). In India, El Niño is positively correlated with higher surface temperatures (Chowdary et al., <xref rid="gh270198-bib-0016" ref-type="bibr">2014</xref>; Kothawale et al., <xref rid="gh270198-bib-0042" ref-type="bibr">2010</xref>), suggesting elevated dengue transmission during El Niño years (F. J. Colón‐González, <xref rid="gh270198-bib-0018" ref-type="bibr">2012</xref>; Thai et al., <xref rid="gh270198-bib-0067" ref-type="bibr">2010</xref>). ENSO composites for Kerala indicate that El Niño years are characterized by higher temperatures and reduced rainfall and RH, conditions favorable for dengue transmission. The predictive value of large‐scale oceanic indicators is further supported by a hydroclimate‐based forecasting study from Colombia, which demonstrated that incorporating SST as a predictor can improve dengue prediction skill at 3–6 months lead times (Beal et al., <xref rid="gh270198-bib-0008" ref-type="bibr">2025</xref>). Integrating ENSO monitoring into the dengue model can therefore provide actionable lead time for public health interventions.</p><p>Future dengue projections based on the Kerala model indicate substantial increases in dengue incidence across all emission scenarios, with higher incidence under high‐emission pathways (SSP5‐8.5). In the near future (2021–2040), dengue incidence is projected to increase by 16%–20% relative to the reference period (1995–2014), with mid‐century (2041–2060) increases ranging from 32% under SSP1‐2.6 to 44% under SSP5‐8.5. By the late century (2081–2100), projected rises are 46% under SSP1‐2.6, 63% under SSP2‐4.5, and up to 113% under SSP5‐8.5 (Figures <xref rid="gh270198-fig-0006" ref-type="fig">6a</xref> and <xref rid="gh270198-fig-0006" ref-type="fig">6b</xref>). These results emphasize that strong mitigation under low‐emission scenarios could substantially limit the negative impacts of climate change on dengue and public health.</p><p>This study has certain limitations. We used climatological factors as exposure variables; however dengue transmission is also influenced by socio‐economic, demographic, geographical, virological, entomological and immunological factors. Changes in the circulating DENV strains could trigger sudden surges in dengue incidence, independent of underlying climatic contributors. Similarly, future projections under SSP scenarios do not explicitly account for localized influences such as urbanization, socio‐economic conditions, or community adaptive capacity. These gaps, common in many CMIP‐based disease projection studies (Wyk et al., <xref rid="gh270198-bib-0076" ref-type="bibr">2023</xref>; Zheng et al., <xref rid="gh270198-bib-0081" ref-type="bibr">2024</xref>), need to be addressed in future work. Several dengue vaccines are currently in development, and their future deployment could substantially reduce dengue incidence. In addition, this analysis was conducted at the state scale. Given the spatial variability in monsoon characteristics and dengue distribution within Kerala, more localized studies using high‐resolution climate and epidemiological data could provide more detailed insights and improved predictive skill. Despite these constraints, the dengue model demonstrated reasonable forecasting accuracy, providing region‐specific insights that can support early warning systems and public health planning to control dengue in Kerala. To enhance the regional relevance of dengue future projections, the current study performed a model selection procedure and used six CMIP6 models that best represent monsoon variability and mean rainfall over India (Sophia et al., <xref rid="gh270198-bib-0065" ref-type="bibr">2025</xref>).</p><p>Finally, this study benefited greatly from the availability of monthly dengue data provided by the Kerala Directorate of Health Services. Their efforts in maintaining timely, open‐access data enabled the development of our predictive model. Such transparency is critical for research and public health preparedness, and other regions are encouraged to adopt similar practices to support the development of disease modeling and early warning systems. At the same time, it is important to acknowledge potential limitations in the case data, particularly the possibility of underreporting due to asymptomatic infections, variability in healthcare‐seeking behavior, and differences in diagnostic and reporting practices over time, which may influence the absolute magnitude of reported dengue cases. Once long‐term data is available, future work could further investigate the contribution of anthropogenic climate change to dengue risk by comparing observed climate with CMIP6 historical‐and‐natural simulations to assess the extent of climate‐driven changes in the observed dengue burden.</p></sec><sec id="gh270198-sec-0150" disp-level="1"><title>Conflict of Interest</title><p>The authors declare no conflicts of interest relevant to this study.</p></sec><sec id="sec15" disp-level="1"><title>Supporting information</title><supplementary-material id="gh270198-sup-0001" position="float"><caption><p>Supporting Information S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GH2-10-e2026GH001893-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 9251/13580351/46fc21910280/GH2-10-e2026GH001893-s001.docx?><?cloudpmc-bucket app?><?size 5597871?></media></supplementary-material></sec><sec id="gh270198-sec-0140" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>The authors acknowledge the Indian Institute of Tropical Meteorology (IITM), Pune, for providing institutional facilities and access to high‐performance computing (HPC) resources through the Pratyush and Arka HPC systems, which supported the computational analyses conducted in this study. The authors also acknowledge the Directorate of Health Services, Kerala, for making dengue surveillance data publicly available, which facilitated this research.</p></sec><sec id="_ci93_" xml:lang="en" sec-type="contrib-info" disp-level="1"><title>Contributor Information</title><p>Yacob Sophia, Email: sophiayacob123@gmail.com.</p><p>Mathew Koll Roxy, Email: roxy@tropmet.res.in.</p></sec><sec id="gh270198-sec-0170" disp-level="1"><title>Availability Statement</title><p>Dengue surveillance data used in this study are publicly available from the Integrated Disease Surveillance Programme (IDSP) portal of the Kerala Directorate of Health Services: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://dhs.kerala.gov.in/en/idsp-2/" ext-link-type="uri">https://dhs.kerala.gov.in/en/idsp‐2/</ext-link>.</p><p>Gridded temperature and rainfall data (Pai et al., <xref rid="gh270198-bib-0053" ref-type="bibr">2014</xref>; Srivastava et al., <xref rid="gh270198-bib-0066" ref-type="bibr">2009</xref>) were obtained from the India Meteorological Department high resolution gridded data set provided by the National Climate Centre: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html" ext-link-type="uri">https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html</ext-link>.</p><p>Relative humidity data were obtained from the ERA5 reanalysis data set (Hersbach et al., <xref rid="gh270198-bib-0035" ref-type="bibr">2020</xref>) produced by the European Centre for Medium Range Weather Forecasts and distributed through the Copernicus Climate Data Store: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels" ext-link-type="uri">https://cds.climate.copernicus.eu/datasets/reanalysis‐era5‐single‐levels</ext-link>.</p><p>Sea surface temperature data used to derive the Niño 3.4 index were obtained from the Hadley Centre Sea Ice and SST data set (HadISST; Rayner et al., <xref rid="gh270198-bib-0056" ref-type="bibr">2003</xref>) provided by the UK Met Office: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.metoffice.gov.uk/hadobs/hadisst/" ext-link-type="uri">https://www.metoffice.gov.uk/hadobs/hadisst/</ext-link>.</p><p>Future climate projections were derived from Coupled Model Intercomparison Project Phase 6 model outputs (Eyring et al., <xref rid="gh270198-bib-0023" ref-type="bibr">2016</xref>) obtained through the Earth System Grid Federation data portal: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://esgf-node.llnl.gov/search/cmip6/" ext-link-type="uri">https://esgf‐node.llnl.gov/search/cmip6/</ext-link>.</p><p>All data sources used in this study are publicly available from the links provided above. In addition, the observed climate and health data used in this study, along with details of CMIP6 data download and processing, and the codes required to reproduce the analyses and figures, are available at Zenodo (Yacob &amp; Roxy, <xref rid="gh270198-bib-0079" ref-type="bibr">2026</xref>) and can be accessed at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.20096919" ext-link-type="uri">https://doi.org/10.5281/zenodo.20096919</ext-link>.</p></sec><sec id="gh270198-bibl-0001" sec-type="ref-list" disp-level="1"><title>References</title><sec id="gh270198-bibl-0001_sec2" disp-level="2"><ref-list><ref id="gh270198-bib-0001"><mixed-citation id="gh270198-cit-0001"><named-content content-type="citation-string">
+
+Amarakoon, D.
+, 
+Chen, A.
+, 
+Rawlins, S.
+, 
+Chadee, D. D.
+, 
+Taylor, M.
+, &amp; 
+Stennett, R.
+ (2008). Dengue epidemics in the Caribbean‐temperature indices to gauge the potential for onset of dengue. Mitigation and Adaptation Strategies for Global Change, 13(4), 341–357. 10.1007/s11027-007-9114-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11027-007-9114-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mitigation and Adaptation Strategies for Global Change&amp;title=Dengue epidemics in the Caribbean‐temperature indices to gauge the potential for onset of dengue&amp;author=D. Amarakoon&amp;author=A. Chen&amp;author=S. Rawlins&amp;author=D. D. Chadee&amp;author=M. Taylor&amp;volume=13&amp;issue=4&amp;publication_year=2008&amp;pages=341-357&amp;doi=10.1007/s11027-007-9114-5&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0002"><mixed-citation id="gh270198-cit-0002"><named-content content-type="citation-string">
+
+Amin, N. U.
+, 
+Islam, F.
+, 
+Umar, M.
+, 
+Muhammad, W.
+, 
+Rahman, S. U.
+, 
+Gaafar, A.‐R. Z.
+, et al. (2025). Evaluation of crop phenology using remote sensing and decision support system for agrotechnology transfer. Scientific Reports, 15(1), 11582. 10.1038/s41598-025-95109-4
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-025-95109-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11971243"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40185844"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Evaluation of crop phenology using remote sensing and decision support system for agrotechnology transfer&amp;author=N. U. Amin&amp;author=F. Islam&amp;author=M. Umar&amp;author=W. Muhammad&amp;author=S. U. Rahman&amp;volume=15&amp;issue=1&amp;publication_year=2025&amp;pages=11582&amp;pmid=40185844&amp;doi=10.1038/s41598-025-95109-4&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0003"><mixed-citation id="gh270198-cit-0003"><named-content content-type="citation-string">
+
+An, Q.
+, 
+Rahman, S.
+, 
+Zhou, J.
+, &amp; 
+Kang, J. J.
+ (2023). A comprehensive review on machine learning in healthcare industry: Classification, restrictions, opportunities and challenges. Sensors, 23(9), 4178. 10.3390/s23094178
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/s23094178"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10180678"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37177382"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sensors&amp;title=A comprehensive review on machine learning in healthcare industry: Classification, restrictions, opportunities and challenges&amp;author=Q. An&amp;author=S. Rahman&amp;author=J. Zhou&amp;author=J. J. Kang&amp;volume=23&amp;issue=9&amp;publication_year=2023&amp;pages=4178&amp;pmid=37177382&amp;doi=10.3390/s23094178&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0004"><mixed-citation id="gh270198-cit-0004"><named-content content-type="citation-string">
+
+Ananthakrishnan, R.
+, &amp; 
+Soman, M. K.
+ (1988). The onset of the southwest monsoon over Kerala: 1901–1980. Journal of Climatology, 8(3), 283–296. 10.1002/joc.3370080305
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/joc.3370080305"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Climatology&amp;title=The onset of the southwest monsoon over Kerala: 1901–1980&amp;author=R. Ananthakrishnan&amp;author=M. K. Soman&amp;volume=8&amp;issue=3&amp;publication_year=1988&amp;pages=283-296&amp;doi=10.1002/joc.3370080305&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0005"><mixed-citation id="gh270198-cit-0005"><named-content content-type="citation-string">
+
+Andhikaputra, G.
+, 
+Lin, Y.‐H.
+, &amp; 
+Wang, Y.‐C.
+ (2023). Effects of temperature, rainfall, and El Niño Southern oscillations on dengue‐like‐illness incidence in Solomon Islands. BMC Infectious Diseases, 23(1), 206. 10.1186/s12879-023-08188-x
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12879-023-08188-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10080901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37024812"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Infectious Diseases&amp;title=Effects of temperature, rainfall, and El Niño Southern oscillations on dengue‐like‐illness incidence in Solomon Islands&amp;author=G. Andhikaputra&amp;author=Y.‐H. Lin&amp;author=Y.‐C. Wang&amp;volume=23&amp;issue=1&amp;publication_year=2023&amp;pages=206&amp;pmid=37024812&amp;doi=10.1186/s12879-023-08188-x&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0006"><mixed-citation id="gh270198-cit-0006"><named-content content-type="citation-string">
+Annual vital statistics report
+. (2023). Annual vital statistics report, 2023.</named-content></mixed-citation></ref><ref id="gh270198-bib-0007"><mixed-citation id="gh270198-cit-0007"><named-content content-type="citation-string">
+
+Athira, K. S.
+, 
+Roxy, M. K.
+, 
+Dasgupta, P.
+, 
+Saranya, J. S.
+, 
+Singh, V. K.
+, &amp; 
+Attada, R.
+ (2023). Regional and temporal variability of Indian summer monsoon rainfall in relation to El Niño southern oscillation. Scientific Reports, 13(1), 12643. 10.1038/s41598-023-38730-5
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-023-38730-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10403600"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37542113"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Regional and temporal variability of Indian summer monsoon rainfall in relation to El Niño southern oscillation&amp;author=K. S. Athira&amp;author=M. K. Roxy&amp;author=P. Dasgupta&amp;author=J. S. Saranya&amp;author=V. K. Singh&amp;volume=13&amp;issue=1&amp;publication_year=2023&amp;pages=12643&amp;pmid=37542113&amp;doi=10.1038/s41598-023-38730-5&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0008"><mixed-citation id="gh270198-cit-0008"><named-content content-type="citation-string">
+
+Beal, M. R. W.
+, 
+Osorio, J.
+, 
+Ciuoderis, K.
+, 
+Hernandez‐Ortiz, J. P.
+, &amp; 
+Block, P.
+ (2025). Forecasting dengue: Evaluating the role of hydroclimate information in subseasonal to seasonal prediction. GeoHealth, 9(9), e2024GH001325. 10.1029/2024GH001325
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2024GH001325"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12400830"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40901247"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=GeoHealth&amp;title=Forecasting dengue: Evaluating the role of hydroclimate information in subseasonal to seasonal prediction&amp;author=M. R. W. Beal&amp;author=J. Osorio&amp;author=K. Ciuoderis&amp;author=J. P. Hernandez‐Ortiz&amp;author=P. Block&amp;volume=9&amp;issue=9&amp;publication_year=2025&amp;pages=e2024GH001325&amp;pmid=40901247&amp;doi=10.1029/2024GH001325&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0009"><mixed-citation id="gh270198-cit-0009"><named-content content-type="citation-string">
+
+Benedum, C. M.
+, 
+Seidahmed, O. M.
+, 
+Eltahir, E. A.
+, &amp; 
+Markuzon, N.
+ (2018). Statistical modeling of the effect of rainfall flushing on dengue transmission in Singapore. PLoS Neglected Tropical Diseases, 12(12), e0006935. 10.1371/journal.pntd.0006935
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pntd.0006935"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6283346"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30521523"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Neglected Tropical Diseases&amp;title=Statistical modeling of the effect of rainfall flushing on dengue transmission in Singapore&amp;author=C. M. Benedum&amp;author=O. M. Seidahmed&amp;author=E. A. Eltahir&amp;author=N. Markuzon&amp;volume=12&amp;issue=12&amp;publication_year=2018&amp;pages=e0006935&amp;pmid=30521523&amp;doi=10.1371/journal.pntd.0006935&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0010"><mixed-citation id="gh270198-cit-0010"><named-content content-type="citation-string">
+
+Bhati, B. S.
+, 
+Chugh, G.
+, 
+Al‐Turjman, F.
+, &amp; 
+Bhati, N. S.
+ (2021). An improved ensemble based intrusion detection technique using XGBoost. Transactions on Emerging Telecommunications Technologies, 32(6), e4076. 10.1002/ett.4076
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ett.4076"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Transactions on Emerging Telecommunications Technologies&amp;title=An improved ensemble based intrusion detection technique using XGBoost&amp;author=B. S. Bhati&amp;author=G. Chugh&amp;author=F. Al‐Turjman&amp;author=N. S. Bhati&amp;volume=32&amp;issue=6&amp;publication_year=2021&amp;pages=e4076&amp;doi=10.1002/ett.4076&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0011"><mixed-citation id="gh270198-cit-0011"><named-content content-type="citation-string">
+
+Bhattacharya, S.
+, 
+Sharma, C.
+, 
+Dhiman, R. C.
+, &amp; 
+Mitra, A. P.
+ (2006). Climate change and malaria in India. Current Science, 90(3).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Current Science&amp;title=Climate change and malaria in India&amp;author=S. Bhattacharya&amp;author=C. Sharma&amp;author=R. C. Dhiman&amp;author=A. P. Mitra&amp;volume=90&amp;issue=3&amp;publication_year=2006&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0012"><mixed-citation id="gh270198-cit-0012"><named-content content-type="citation-string">
+
+Brady, O. J.
+, 
+Johansson, M. A.
+, 
+Guerra, C. A.
+, 
+Bhatt, S.
+, 
+Golding, N.
+, 
+Pigott, D. M.
+, et al. (2013). Modelling adult <italic>Aedes aegypti</italic> and <italic>Aedes albopictus</italic> survival at different temperatures in laboratory and field settings. Parasites &amp; Vectors, 6(1), 1–12. 10.1186/1756-3305-6-351
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/1756-3305-6-351"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3867219"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24330720"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Parasites &amp; Vectors&amp;title=Modelling adult Aedes aegypti and Aedes albopictus survival at different temperatures in laboratory and field settings&amp;author=O. J. Brady&amp;author=M. A. Johansson&amp;author=C. A. Guerra&amp;author=S. Bhatt&amp;author=N. Golding&amp;volume=6&amp;issue=1&amp;publication_year=2013&amp;pages=1-12&amp;pmid=24330720&amp;doi=10.1186/1756-3305-6-351&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0013"><mixed-citation id="gh270198-cit-0013"><named-content content-type="citation-string">
+
+Breiman, L.
+ (2001). Random forests. Machine Learning, 45(1), 5–32. 10.1023/a:1010933404324
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1023/a:1010933404324"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Machine Learning&amp;title=Random forests&amp;author=L. Breiman&amp;volume=45&amp;issue=1&amp;publication_year=2001&amp;pages=5-32&amp;doi=10.1023/a:1010933404324&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0014"><mixed-citation id="gh270198-cit-0014"><named-content content-type="citation-string">
+
+Chakravorty, S.
+, 
+Gnanaseelan, C.
+, &amp; 
+Pillai, P. A.
+ (2016). Combined influence of remote and local SST forcing on Indian Summer Monsoon Rainfall variability. Climate Dynamics, 47(9), 2817–2831. 10.1007/s00382-016-2999-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00382-016-2999-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Climate Dynamics&amp;title=Combined influence of remote and local SST forcing on Indian Summer Monsoon Rainfall variability&amp;author=S. Chakravorty&amp;author=C. Gnanaseelan&amp;author=P. A. Pillai&amp;volume=47&amp;issue=9&amp;publication_year=2016&amp;pages=2817-2831&amp;doi=10.1007/s00382-016-2999-5&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0015"><mixed-citation id="gh270198-cit-0015"><named-content content-type="citation-string">
+
+Chan, M.
+, &amp; 
+Johansson, M. A.
+ (2012). The incubation periods of dengue viruses. PLoS One, 7(11), e50972. 10.1371/journal.pone.0050972
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0050972"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3511440"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23226436"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=The incubation periods of dengue viruses&amp;author=M. Chan&amp;author=M. A. Johansson&amp;volume=7&amp;issue=11&amp;publication_year=2012&amp;pages=e50972&amp;pmid=23226436&amp;doi=10.1371/journal.pone.0050972&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0016"><mixed-citation id="gh270198-cit-0016"><named-content content-type="citation-string">
+
+Chowdary, J. S.
+, 
+John, N.
+, &amp; 
+Gnanaseelan, C.
+ (2014). Interannual variability of surface air‐temperature over India: Impact of ENSO and Indian Ocean Sea surface temperature. International Journal of Climatology, 34(2), 416–429. 10.1002/JOC.3695
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/JOC.3695"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal of Climatology&amp;title=Interannual variability of surface air‐temperature over India: Impact of ENSO and Indian Ocean Sea surface temperature&amp;author=J. S. Chowdary&amp;author=N. John&amp;author=C. Gnanaseelan&amp;volume=34&amp;issue=2&amp;publication_year=2014&amp;pages=416-429&amp;doi=10.1002/JOC.3695&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0017"><mixed-citation id="gh270198-cit-0017"><named-content content-type="citation-string">
+
+Christophers, S. R.
+ (1960). 
+<italic>Aëdes aegyptì</italic> (L.) the yellow fever mosquito; its life history, bionomics and structure. Cambridge University Press.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Aëdes aegyptì (L.) the yellow fever mosquito; its life history, bionomics and structure&amp;author=S. R. Christophers&amp;publication_year=1960&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0018"><mixed-citation id="gh270198-cit-0018"><named-content content-type="citation-string">
+
+Colón‐González, F. J.
+ (2012). Weather, climate change and dengue in Mexico (Doctoral dissertation). University of East Anglia.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Weather, climate change and dengue in Mexico (Doctoral dissertation)&amp;author=F. J. Colón‐González&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0019"><mixed-citation id="gh270198-cit-0019"><named-content content-type="citation-string">
+
+Cortes, C.
+, &amp; 
+Vapnik, V.
+ (1995). Support‐vector networks. Machine Learning, 20(3), 273–297. 10.1007/BF00994018
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/BF00994018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Machine Learning&amp;title=Support‐vector networks&amp;author=C. Cortes&amp;author=V. Vapnik&amp;volume=20&amp;issue=3&amp;publication_year=1995&amp;pages=273-297&amp;doi=10.1007/BF00994018&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0020"><mixed-citation id="gh270198-cit-0020"><named-content content-type="citation-string">
+
+Dhiman, R. C.
+, 
+Pahwa, S.
+, 
+Dhillon, G. P. S.
+, &amp; 
+Dash, A. P.
+ (2010). Climate change and threat of vector‐borne diseases in India: Are we prepared?
+Parasitology Research, 106(4), 763–773. 10.1007/s00436-010-1767-4
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00436-010-1767-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20155369"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Parasitology Research&amp;title=Climate change and threat of vector‐borne diseases in India: Are we prepared?&amp;author=R. C. Dhiman&amp;author=S. Pahwa&amp;author=G. P. S. Dhillon&amp;author=A. P. Dash&amp;volume=106&amp;issue=4&amp;publication_year=2010&amp;pages=763-773&amp;pmid=20155369&amp;doi=10.1007/s00436-010-1767-4&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0021"><mixed-citation id="gh270198-cit-0021"><named-content content-type="citation-string">
+
+Drucker, H.
+, 
+Wu, D.
+, &amp; 
+Vapnik, V. N.
+ (1999). Support vector machines for spam categorization. IEEE Transactions on Neural Networks, 10(5), 1048–1054. 10.1109/72.788645
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1109/72.788645"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18252607"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=IEEE Transactions on Neural Networks&amp;title=Support vector machines for spam categorization&amp;author=H. Drucker&amp;author=D. Wu&amp;author=V. N. Vapnik&amp;volume=10&amp;issue=5&amp;publication_year=1999&amp;pages=1048-1054&amp;pmid=18252607&amp;doi=10.1109/72.788645&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0022"><mixed-citation id="gh270198-cit-0022"><named-content content-type="citation-string">
+
+Epstein, P. R.
+ (2000). Is global warming harmful to health?
+Scientific American, 283(2), 50–57. 10.1038/scientificamerican0800-50
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/scientificamerican0800-50"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="10914399"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific American&amp;title=Is global warming harmful to health?&amp;author=P. R. Epstein&amp;volume=283&amp;issue=2&amp;publication_year=2000&amp;pages=50-57&amp;pmid=10914399&amp;doi=10.1038/scientificamerican0800-50&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0023"><mixed-citation id="gh270198-cit-0023"><named-content content-type="citation-string">
+
+Eyring, V.
+, 
+Bony, S.
+, 
+Meehl, G. A.
+, 
+Senior, C. A.
+, 
+Stevens, B.
+, 
+Stouffer, R. J.
+, &amp; 
+Taylor, K. E.
+ (2016). Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization [Dataset]. Geoscientific Model Development, 9(LLNL‐JRNL‐736881), 1937–1958. 10.5194/gmd-9-1937-2016
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5194/gmd-9-1937-2016"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Geoscientific Model Development&amp;author=V. Eyring&amp;author=S. Bony&amp;author=G. A. Meehl&amp;author=C. A. Senior&amp;author=B. Stevens&amp;volume=9&amp;issue=LLNL‐JRNL‐736881&amp;publication_year=2016&amp;pages=1937-1958&amp;doi=10.5194/gmd-9-1937-2016&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0024"><mixed-citation id="gh270198-cit-0024"><named-content content-type="citation-string">
+
+Fan, J.
+, 
+Lin, H.
+, 
+Wang, C.
+, 
+Bai, L.
+, 
+Yang, S.
+, 
+Chu, C.
+, et al. (2014). Identifying the high‐risk areas and associated meteorological factors of dengue transmission in Guangdong Province, China from 2005 to 2011. Epidemiology and Infection, 142(3), 634–643. 10.1017/s0950268813001519
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1017/s0950268813001519"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9161228"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23823182"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Epidemiology and Infection&amp;title=Identifying the high‐risk areas and associated meteorological factors of dengue transmission in Guangdong Province, China from 2005 to 2011&amp;author=J. Fan&amp;author=H. Lin&amp;author=C. Wang&amp;author=L. Bai&amp;author=S. Yang&amp;volume=142&amp;issue=3&amp;publication_year=2014&amp;pages=634-643&amp;pmid=23823182&amp;doi=10.1017/s0950268813001519&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0025"><mixed-citation id="gh270198-cit-0025"><named-content content-type="citation-string">
+
+Feng, F.
+, 
+Ma, Y.
+, 
+Qin, P.
+, 
+Zhao, Y.
+, 
+Liu, Z.
+, 
+Wang, W.
+, &amp; 
+Cheng, B.
+ (2024). Temperature‐driven dengue transmission in a changing climate: Patterns, trends, and future projections. GeoHealth, 8(10), e2024GH001059. 10.1029/2024GH001059
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2024GH001059"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11436633"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39347019"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=GeoHealth&amp;title=Temperature‐driven dengue transmission in a changing climate: Patterns, trends, and future projections&amp;author=F. Feng&amp;author=Y. Ma&amp;author=P. Qin&amp;author=Y. Zhao&amp;author=Z. Liu&amp;volume=8&amp;issue=10&amp;publication_year=2024&amp;pages=e2024GH001059&amp;pmid=39347019&amp;doi=10.1029/2024GH001059&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0026"><mixed-citation id="gh270198-cit-0026"><named-content content-type="citation-string">
+
+Feng, F.
+, 
+Ma, Y.
+, 
+Zhao, Y.
+, 
+Liu, Z.
+, 
+Zhang, R.
+, &amp; 
+Wan, Z.
+ (2025). Assessment of global dengue transmission risk under future climate scenarios. Earth's Future, 13(7), e2025EF006154. 10.1029/2025EF006154
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2025EF006154"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Earth's Future&amp;title=Assessment of global dengue transmission risk under future climate scenarios&amp;author=F. Feng&amp;author=Y. Ma&amp;author=Y. Zhao&amp;author=Z. Liu&amp;author=R. Zhang&amp;volume=13&amp;issue=7&amp;publication_year=2025&amp;pages=e2025EF006154&amp;doi=10.1029/2025EF006154&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0027"><mixed-citation id="gh270198-cit-0027"><named-content content-type="citation-string">
+
+Focks, D. A.
+, 
+Haile, D.
+, 
+Daniels, E.
+, &amp; 
+Mount, G. A.
+ (1993). Dynamic life table model for <italic>Aedes aegypti</italic> (Diptera: Culicidae): Analysis of the literature and model development. Journal of Medical Entomology, 30(6), 1003–1017. 10.1093/jmedent/30.6.1003
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/jmedent/30.6.1003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8271242"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Medical Entomology&amp;title=Dynamic life table model for Aedes aegypti (Diptera: Culicidae): Analysis of the literature and model development&amp;author=D. A. Focks&amp;author=D. Haile&amp;author=E. Daniels&amp;author=G. A. Mount&amp;volume=30&amp;issue=6&amp;publication_year=1993&amp;pages=1003-1017&amp;pmid=8271242&amp;doi=10.1093/jmedent/30.6.1003&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0028"><mixed-citation id="gh270198-cit-0028"><named-content content-type="citation-string">
+
+Fredriksen, H.‐B.
+, 
+Berner, J.
+, 
+Subramanian, A. C.
+, &amp; 
+Capotondi, A.
+ (2020). How does El Niño–Southern oscillation change under global warming—A first look at CMIP6. Geophysical Research Letters, 47(22), e2020GL090640. 10.1029/2020GL090640
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2020GL090640"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Geophysical Research Letters&amp;title=How does El Niño–Southern oscillation change under global warming—A first look at CMIP6&amp;author=H.‐B. Fredriksen&amp;author=J. Berner&amp;author=A. C. Subramanian&amp;author=A. Capotondi&amp;volume=47&amp;issue=22&amp;publication_year=2020&amp;pages=e2020GL090640&amp;doi=10.1029/2020GL090640&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0029"><mixed-citation id="gh270198-cit-0029"><named-content content-type="citation-string">
+
+Friedman, J. H.
+ (2001). Greedy function approximation: A gradient boosting machine. Annals of Statistics, 29(5), 1189–1232. 10.1214/aos/1013203451
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1214/aos/1013203451"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Annals of Statistics&amp;title=Greedy function approximation: A gradient boosting machine&amp;author=J. H. Friedman&amp;volume=29&amp;issue=5&amp;publication_year=2001&amp;pages=1189-1232&amp;doi=10.1214/aos/1013203451&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0030"><mixed-citation id="gh270198-cit-0030"><named-content content-type="citation-string">
+
+Fuller, D. O.
+, 
+Troyo, A.
+, &amp; 
+Beier, J. C.
+ (2009). El Niño southern oscillation and vegetation dynamics as predictors of dengue fever cases in Costa Rica. Environmental Research Letters, 4(1), 014011. 10.1088/1748-9326/4/1/014011
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/1748-9326/4/1/014011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2745182"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19763186"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research Letters&amp;title=El Niño southern oscillation and vegetation dynamics as predictors of dengue fever cases in Costa Rica&amp;author=D. O. Fuller&amp;author=A. Troyo&amp;author=J. C. Beier&amp;volume=4&amp;issue=1&amp;publication_year=2009&amp;pages=014011&amp;pmid=19763186&amp;doi=10.1088/1748-9326/4/1/014011&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0031"><mixed-citation id="gh270198-cit-0031"><named-content content-type="citation-string">
+
+Gagnon, A. S.
+, 
+Bush, A. B.
+, &amp; 
+Smoyer‐Tomic, K. E.
+ (2001). Dengue epidemics and the El Niño southern oscillation. Climate Research, 19(1), 35–43. 10.3354/cr019035
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/cr019035"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Climate Research&amp;title=Dengue epidemics and the El Niño southern oscillation&amp;author=A. S. Gagnon&amp;author=A. B. Bush&amp;author=K. E. Smoyer‐Tomic&amp;volume=19&amp;issue=1&amp;publication_year=2001&amp;pages=35-43&amp;doi=10.3354/cr019035&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0032"><mixed-citation id="gh270198-cit-0032"><named-content content-type="citation-string">
+
+Hales, S.
+, 
+Weinstein, P.
+, &amp; 
+Woodward, A.
+ (1996). Dengue fever epidemics in the South Pacific: Driven by El Niño southern oscillation?
+Lancet (London, England), 348(9042), 1664–1665. 10.1016/s0140-6736(05)65737-6
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/s0140-6736(05)65737-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8962017"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet (London, England)&amp;title=Dengue fever epidemics in the South Pacific: Driven by El Niño southern oscillation?&amp;author=S. Hales&amp;author=P. Weinstein&amp;author=A. Woodward&amp;volume=348&amp;issue=9042&amp;publication_year=1996&amp;pages=1664-1665&amp;pmid=8962017&amp;doi=10.1016/s0140-6736(05)65737-6&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0033"><mixed-citation id="gh270198-cit-0033"><named-content content-type="citation-string">
+
+Hausfather, Z.
+, &amp; 
+Peters, G. P.
+ (2020). Emissions – The ‘business as usual’ story is misleading. Nature, 577(7792), 618–620. 10.1038/d41586-020-00177-3
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/d41586-020-00177-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31996825"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Emissions – The ‘business as usual’ story is misleading&amp;author=Z. Hausfather&amp;author=G. P. Peters&amp;volume=577&amp;issue=7792&amp;publication_year=2020&amp;pages=618-620&amp;pmid=31996825&amp;doi=10.1038/d41586-020-00177-3&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0034"><mixed-citation id="gh270198-cit-0034"><named-content content-type="citation-string">
+
+Heede, U. K.
+, &amp; 
+Fedorov, A. V.
+ (2023). Colder Eastern equatorial Pacific and stronger walker circulation in the early 21st century: Separating the forced response to global warming from natural variability. Geophysical Research Letters, 50(3), e2022GL101020. 10.1029/2022GL101020
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2022GL101020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Geophysical Research Letters&amp;title=Colder Eastern equatorial Pacific and stronger walker circulation in the early 21st century: Separating the forced response to global warming from natural variability&amp;author=U. K. Heede&amp;author=A. V. Fedorov&amp;volume=50&amp;issue=3&amp;publication_year=2023&amp;pages=e2022GL101020&amp;doi=10.1029/2022GL101020&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0035"><mixed-citation id="gh270198-cit-0035"><named-content content-type="citation-string">
+
+Hersbach, H.
+, 
+Bell, B.
+, 
+Berrisford, P.
+, 
+Hirahara, S.
+, 
+Horányi, A.
+, 
+Muñoz‐Sabater, J.
+, et al. (2020). The ERA5 global reanalysis [Dataset]. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999–2049. 10.1002/qj.3803
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/qj.3803"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Quarterly Journal of the Royal Meteorological Society&amp;author=H. Hersbach&amp;author=B. Bell&amp;author=P. Berrisford&amp;author=S. Hirahara&amp;author=A. Horányi&amp;volume=146&amp;issue=730&amp;publication_year=2020&amp;pages=1999-2049&amp;doi=10.1002/qj.3803&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0036"><mixed-citation id="gh270198-cit-0036"><named-content content-type="citation-string">
+
+Hewamalage, H.
+, 
+Bergmeir, C.
+, &amp; 
+Bandara, K.
+ (2021). Recurrent neural networks for time series forecasting: Current status and future directions. International Journal of Forecasting, 37(1), 388–427. 10.1016/j.ijforecast.2020.06.008
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ijforecast.2020.06.008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal of Forecasting&amp;title=Recurrent neural networks for time series forecasting: Current status and future directions&amp;author=H. Hewamalage&amp;author=C. Bergmeir&amp;author=K. Bandara&amp;volume=37&amp;issue=1&amp;publication_year=2021&amp;pages=388-427&amp;doi=10.1016/j.ijforecast.2020.06.008&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0037"><mixed-citation id="gh270198-cit-0037"><named-content content-type="citation-string">
+
+Hochreiter, S.
+, &amp; 
+Schmidhuber, J.
+ (1997). Long short‐term memory. Neural Computation, 9(8), 1735–1780. 10.1162/neco.1997.9.8.1735
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1162/neco.1997.9.8.1735"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9377276"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Neural Computation&amp;title=Long short‐term memory&amp;author=S. Hochreiter&amp;author=J. Schmidhuber&amp;volume=9&amp;issue=8&amp;publication_year=1997&amp;pages=1735-1780&amp;pmid=9377276&amp;doi=10.1162/neco.1997.9.8.1735&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0038"><mixed-citation id="gh270198-cit-0038"><named-content content-type="citation-string">
+
+Kakarla, S. G.
+, 
+Kondeti, P. K.
+, 
+Vavilala, H. P.
+, 
+Boddeda, G. S. B.
+, 
+Mopuri, R.
+, 
+Kumaraswamy, S.
+, et al. (2023). Weather integrated multiple machine learning models for prediction of dengue prevalence in India. International Journal of Biometeorology, 67(2), 285–297. 10.1007/s00484-022-02405-z
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00484-022-02405-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9666965"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36380258"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal of Biometeorology&amp;title=Weather integrated multiple machine learning models for prediction of dengue prevalence in India&amp;author=S. G. Kakarla&amp;author=P. K. Kondeti&amp;author=H. P. Vavilala&amp;author=G. S. B. Boddeda&amp;author=R. Mopuri&amp;volume=67&amp;issue=2&amp;publication_year=2023&amp;pages=285-297&amp;pmid=36380258&amp;doi=10.1007/s00484-022-02405-z&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0039"><mixed-citation id="gh270198-cit-0039"><named-content content-type="citation-string">
+
+Karunakaran, A.
+, 
+Ilyas, W. M.
+, 
+Sheen, S. F.
+, 
+Jose, N. K.
+, &amp; 
+Nujum, Z. T.
+ (2014). Risk factors of mortality among dengue patients admitted to a tertiary care setting in Kerala, India. Journal of Infection and Public Health, 7(2), 114–120. 10.1016/j.jiph.2013.09.006
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jiph.2013.09.006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24290074"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Infection and Public Health&amp;title=Risk factors of mortality among dengue patients admitted to a tertiary care setting in Kerala, India&amp;author=A. Karunakaran&amp;author=W. M. Ilyas&amp;author=S. F. Sheen&amp;author=N. K. Jose&amp;author=Z. T. Nujum&amp;volume=7&amp;issue=2&amp;publication_year=2014&amp;pages=114-120&amp;pmid=24290074&amp;doi=10.1016/j.jiph.2013.09.006&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0040"><mixed-citation id="gh270198-cit-0040"><named-content content-type="citation-string">
+
+Koenraadt, C.
+, &amp; 
+Harrington, L.
+ (2008). Flushing effect of rain on container‐inhabiting mosquitoes <italic>Aedes aegypti</italic> and <italic>Culex pipiens</italic> (Diptera: Culicidae). Journal of Medical Entomology, 45(1), 28–35. 10.1093/jmedent/45.1.28
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/jmedent/45.1.28"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18283939"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Medical Entomology&amp;title=Flushing effect of rain on container‐inhabiting mosquitoes Aedes aegypti and Culex pipiens (Diptera: Culicidae)&amp;author=C. Koenraadt&amp;author=L. Harrington&amp;volume=45&amp;issue=1&amp;publication_year=2008&amp;pages=28-35&amp;pmid=18283939&amp;doi=10.1093/jmedent/45.1.28&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0041"><mixed-citation id="gh270198-cit-0041"><named-content content-type="citation-string">
+
+Koopman, J. S.
+, 
+Prevots, D. R.
+, 
+Mann, M. A. V.
+, 
+Dantes, H. G.
+, 
+Aquino, M. L. Z.
+, 
+Longinix
+Jr, I. M.
+, &amp; 
+Amor, J. S.
+ (1991). Determinants and predictors of dengue infection in Mexico. American Journal of Epidemiology, 133(11), 1168–1178. 10.1093/oxfordjournals.aje.a115829
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/oxfordjournals.aje.a115829"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2035520"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=American Journal of Epidemiology&amp;title=Determinants and predictors of dengue infection in Mexico&amp;author=J. S. Koopman&amp;author=D. R. Prevots&amp;author=M. A. V. Mann&amp;author=H. G. Dantes&amp;author=M. L. Z. Aquino&amp;volume=133&amp;issue=11&amp;publication_year=1991&amp;pages=1168-1178&amp;pmid=2035520&amp;doi=10.1093/oxfordjournals.aje.a115829&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0042"><mixed-citation id="gh270198-cit-0042"><named-content content-type="citation-string">
+
+Kothawale, D. R.
+, 
+Munot, A. A.
+, &amp; 
+Kumar, K. K.
+ (2010). Surface air temperature variability over India during 1901–2007, and its association with ENSO. Climate Research, 42(1), 89–104. 10.3354/cr00857
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3354/cr00857"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Climate Research&amp;title=Surface air temperature variability over India during 1901–2007, and its association with ENSO&amp;author=D. R. Kothawale&amp;author=A. A. Munot&amp;author=K. K. Kumar&amp;volume=42&amp;issue=1&amp;publication_year=2010&amp;pages=89-104&amp;doi=10.3354/cr00857&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0043"><mixed-citation id="gh270198-cit-0043"><named-content content-type="citation-string">
+
+Lee, D. K.
+ (2020). Data transformation: A focus on the interpretation. Korean Journal of Anesthesiology, 73(6), 503–508. 10.4097/kja.20137
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4097/kja.20137"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7714623"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33271009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Korean Journal of Anesthesiology&amp;title=Data transformation: A focus on the interpretation&amp;author=D. K. Lee&amp;volume=73&amp;issue=6&amp;publication_year=2020&amp;pages=503-508&amp;pmid=33271009&amp;doi=10.4097/kja.20137&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0044"><mixed-citation id="gh270198-cit-0044"><named-content content-type="citation-string">
+
+Lee, J.‐Y.
+, 
+Marotzke, J.
+, 
+Bala, G.
+, 
+Cao, L.
+, 
+Corti, S.
+, 
+Dunne, J. P.
+, et al. (2021). Future global climate: Scenario‐based projections and near‐term information. Masson‐Delmotte V., Zhai P., Pirani A., Connors S. L., Pean C., Berger S., Caud N., Chen Y., Goldfarb L., Gomis M. I., Huang M., Leitzell K., Lonnoy E., Matthews J. B. R., Maycock T. K., Waterfield T., Yelekçi O., Yu R., &amp; Zhou B., Eds., (pp. 1–195). IPCC. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://oceanrep.geomar.de/id/eprint/54713/" ext-link-type="uri">https://oceanrep.geomar.de/id/eprint/54713/</ext-link>
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="Lee, J.‐Y. , Marotzke, J. , Bala, G. , Cao, L. , Corti, S. , Dunne, J. P. , et al. (2021). Future global climate: Scenario‐based projections and near‐term information. Masson‐Delmotte V., Zhai P., Pirani A., Connors S. L., Pean C., Berger S., Caud N., Chen Y., Goldfarb L., Gomis M. I., Huang M., Leitzell K., Lonnoy E., Matthews J. B. R., Maycock T. K., Waterfield T., Yelekçi O., Yu R., &amp; Zhou B., Eds., (pp. 1–195). IPCC. Retrieved from https://oceanrep.geomar.de/id/eprint/54713/"/></mixed-citation></ref><ref id="gh270198-bib-0045"><mixed-citation id="gh270198-cit-0045"><named-content content-type="citation-string">
+
+Long, H.
+, 
+Chen, Y.
+, 
+Feng, J.
+, 
+Chen, J.
+, 
+Zhang, X.
+, 
+Han, W.
+, et al. (2025). Annual global dengue dynamics are related to multi‐source factors revealed by a machine learning prediction analysis. PLoS Neglected Tropical Diseases, 19(6), e0013232. 10.1371/journal.pntd.0013232
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pntd.0013232"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12221171"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40561184"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Neglected Tropical Diseases&amp;title=Annual global dengue dynamics are related to multi‐source factors revealed by a machine learning prediction analysis&amp;author=H. Long&amp;author=Y. Chen&amp;author=J. Feng&amp;author=J. Chen&amp;author=X. Zhang&amp;volume=19&amp;issue=6&amp;publication_year=2025&amp;pages=e0013232&amp;pmid=40561184&amp;doi=10.1371/journal.pntd.0013232&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0046"><mixed-citation id="gh270198-cit-0046"><named-content content-type="citation-string">
+
+Manakkadan, A.
+, 
+Issac, A.
+, 
+Mathew, T.
+, 
+Philip, S.
+, 
+Kareem, N.
+, 
+Unnikrishnan, R.
+, &amp; 
+Eswaran, S.
+ (2010). Genetic characterization of dengue virus serotypes causing concurrent infec‐tion in an outbreak in Ernakulam, Kerala, South India. Indian Journal of Experimental Biology, 48, 849–857.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21341545"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Indian Journal of Experimental Biology&amp;title=Genetic characterization of dengue virus serotypes causing concurrent infec‐tion in an outbreak in Ernakulam, Kerala, South India&amp;author=A. Manakkadan&amp;author=A. Issac&amp;author=T. Mathew&amp;author=S. Philip&amp;author=N. Kareem&amp;volume=48&amp;publication_year=2010&amp;pages=849-857&amp;pmid=21341545&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0082"><mixed-citation id="gh270198-cit-0082"><named-content content-type="citation-string">
+
+Mayilsamy, M.
+, 
+Vijayakumar, A.
+, 
+Veeramanoharan, R.
+, 
+Rajaiah, P.
+, 
+Balakrishnan, V.
+, &amp; 
+Kumar, A.
+ (2023). Impact of COVID‐19 lockdown during 2020 on the occurrence of vector‐borne diseases in India. Journal of Vector Borne Diseases, 60(2), 207. 10.4103/0972-9062.364762
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4103/0972-9062.364762"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37417171"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Vector Borne Diseases&amp;title=Impact of COVID‐19 lockdown during 2020 on the occurrence of vector‐borne diseases in India&amp;author=M. Mayilsamy&amp;author=A. Vijayakumar&amp;author=R. Veeramanoharan&amp;author=P. Rajaiah&amp;author=V. Balakrishnan&amp;volume=60&amp;issue=2&amp;publication_year=2023&amp;pages=207&amp;pmid=37417171&amp;doi=10.4103/0972-9062.364762&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0047"><mixed-citation id="gh270198-cit-0047"><named-content content-type="citation-string">
+
+McLean, D. M.
+, 
+Clarke, A. M.
+, 
+Coleman, J. C.
+, 
+Montalbetti, C. A.
+, 
+Skidmore, A. G.
+, 
+Walters, T. E.
+, &amp; 
+Wise, R.
+ (1974). Vector capability of <italic>Aedes aegypti</italic> mosquitoes for California encephalitis and dengue viruses at various temperatures. Canadian Journal of Microbiology, 20(2), 255–262. 10.1139/m74-040
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1139/m74-040"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="4132612"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Canadian Journal of Microbiology&amp;title=Vector capability of Aedes aegypti mosquitoes for California encephalitis and dengue viruses at various temperatures&amp;author=D. M. McLean&amp;author=A. M. Clarke&amp;author=J. C. Coleman&amp;author=C. A. Montalbetti&amp;author=A. G. Skidmore&amp;volume=20&amp;issue=2&amp;publication_year=1974&amp;pages=255-262&amp;pmid=4132612&amp;doi=10.1139/m74-040&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0048"><mixed-citation id="gh270198-cit-0048"><named-content content-type="citation-string">
+
+Mordecai, E. A.
+, 
+Cohen, J. M.
+, 
+Evans, M. V.
+, 
+Gudapati, P.
+, 
+Johnson, L. R.
+, 
+Lippi, C. A.
+, et al. (2017). Detecting the impact of temperature on transmission of Zika, dengue, and chikungunya using mechanistic models. PLoS Neglected Tropical Diseases, 11(4), e0005568. 10.1371/journal.pntd.0005568
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pntd.0005568"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5423694"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28448507"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Neglected Tropical Diseases&amp;title=Detecting the impact of temperature on transmission of Zika, dengue, and chikungunya using mechanistic models&amp;author=E. A. Mordecai&amp;author=J. M. Cohen&amp;author=M. V. Evans&amp;author=P. Gudapati&amp;author=L. R. Johnson&amp;volume=11&amp;issue=4&amp;publication_year=2017&amp;pages=e0005568&amp;pmid=28448507&amp;doi=10.1371/journal.pntd.0005568&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0049"><mixed-citation id="gh270198-cit-0049"><named-content content-type="citation-string">
+
+Mutheneni, S. R.
+, 
+Morse, A. P.
+, 
+Caminade, C.
+, &amp; 
+Upadhyayula, S. M.
+ (2017). Dengue burden in India: Recent trends and importance of climatic parameters. Emerging Microbes &amp; Infections, 6(1), 1–10. 10.1038/emi.2017.57
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/emi.2017.57"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5583666"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28790459"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Emerging Microbes &amp; Infections&amp;title=Dengue burden in India: Recent trends and importance of climatic parameters&amp;author=S. R. Mutheneni&amp;author=A. P. Morse&amp;author=C. Caminade&amp;author=S. M. Upadhyayula&amp;volume=6&amp;issue=1&amp;publication_year=2017&amp;pages=1-10&amp;pmid=28790459&amp;doi=10.1038/emi.2017.57&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0050"><mixed-citation id="gh270198-cit-0050"><named-content content-type="citation-string">
+
+Nair, A.
+, 
+Ajith Joseph, K.
+, &amp; 
+Nair, K. S.
+ (2014). Spatio‐temporal analysis of rainfall trends over a maritime state (Kerala) of India during the last 100 years. Atmospheric Environment, 88, 123–132. 10.1016/j.atmosenv.2014.01.061
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.atmosenv.2014.01.061"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Environment&amp;title=Spatio‐temporal analysis of rainfall trends over a maritime state (Kerala) of India during the last 100 years&amp;author=A. Nair&amp;author=K. Ajith Joseph&amp;author=K. S. Nair&amp;volume=88&amp;publication_year=2014&amp;pages=123-132&amp;doi=10.1016/j.atmosenv.2014.01.061&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0051"><mixed-citation id="gh270198-cit-0051"><named-content content-type="citation-string">
+
+Nair, H. C.
+, 
+Joseph, A.
+, &amp; 
+Padmakumari Gopinathan, V.
+ (2018). GIS based landform classification using digital elevation model: A case study from two river basins of Southern Western Ghats, Kerala, India. Modeling Earth Systems and Environment, 4(4), 1355–1363. 10.1007/s40808-018-0490-5
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s40808-018-0490-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Modeling Earth Systems and Environment&amp;title=GIS based landform classification using digital elevation model: A case study from two river basins of Southern Western Ghats, Kerala, India&amp;author=H. C. Nair&amp;author=A. Joseph&amp;author=V. Padmakumari Gopinathan&amp;volume=4&amp;issue=4&amp;publication_year=2018&amp;pages=1355-1363&amp;doi=10.1007/s40808-018-0490-5&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0052"><mixed-citation id="gh270198-cit-0052"><named-content content-type="citation-string">
+NCVBDC
+. (2026). Dengue cases and deaths in the country. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ncvbdc.mohfw.gov.in/Doc/Dengue-Cases-deaths-2021-2026-till-April.pdf" ext-link-type="uri">https://ncvbdc.mohfw.gov.in/Doc/Dengue‐Cases‐deaths‐2021‐2026‐till‐April.pdf</ext-link>
+</named-content></mixed-citation></ref><ref id="gh270198-bib-0053"><mixed-citation id="gh270198-cit-0053"><named-content content-type="citation-string">
+
+Pai, D. S.
+, 
+Rajeevan, M.
+, 
+Sreejith, O. P.
+, 
+Mukhopadhyay, B.
+, &amp; 
+Satbha, N. S.
+ (2014). Development of a new high spatial resolution (0.25° × 0.25°) long period (1901‐2010) daily gridded rainfall data set over India and its comparison with existing data sets over the region. Mausam, 65(1), 1–18. Article 1. 10.54302/mausam.v65i1.851
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.54302/mausam.v65i1.851"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mausam&amp;title=Development of a new high spatial resolution (0.25° × 0.25°) long period (1901‐2010) daily gridded rainfall data set over India and its comparison with existing data sets over the region&amp;author=D. S. Pai&amp;author=M. Rajeevan&amp;author=O. P. Sreejith&amp;author=B. Mukhopadhyay&amp;author=N. S. Satbha&amp;volume=65&amp;issue=1&amp;publication_year=2014&amp;pages=1-18&amp;doi=10.54302/mausam.v65i1.851&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0083"><mixed-citation id="gh270198-cit-0083"><named-content content-type="citation-string">
+
+Phadke, R.
+, 
+Mohan, A.
+, 
+Çavdaroğlu, S.
+, 
+Dapke, K.
+, 
+Costa, A. C. d. S.
+, 
+Riaz, M. M. A.
+, et al. (2021). Dengue amidst COVID‐19 in India: The mystery of plummeting cases. Journal of Medical Virology, 93(7), 4120–4121. 10.1002/jmv.26987
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jmv.26987"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8250513"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33788285"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Medical Virology&amp;title=Dengue amidst COVID‐19 in India: The mystery of plummeting cases&amp;author=R. Phadke&amp;author=A. Mohan&amp;author=S. Çavdaroğlu&amp;author=K. Dapke&amp;author=A. C. d. S. Costa&amp;volume=93&amp;issue=7&amp;publication_year=2021&amp;pages=4120-4121&amp;pmid=33788285&amp;doi=10.1002/jmv.26987&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0054"><mixed-citation id="gh270198-cit-0054"><named-content content-type="citation-string">
+
+Pörtner, H.‐O.
+, 
+Roberts, D. C.
+, 
+Tignor, M. M. B.
+, 
+Poloczanska, E. S.
+, 
+Mintenbeck, K.
+, 
+Alegría, A.
+, et al. (Eds.). (2022). Climate change 2022: Impacts, adaptation and vulnerability, contribution of working group II to the sixth assessment report of the Intergovernmental Panel on Climate Change.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Climate change 2022: Impacts, adaptation and vulnerability, contribution of working group II to the sixth assessment report of the Intergovernmental Panel on Climate Change&amp;publication_year=2022&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0055"><mixed-citation id="gh270198-cit-0055"><named-content content-type="citation-string">
+
+Poveda, G.
+, 
+Graham, N. E.
+, 
+Epstein, P. R.
+, 
+Rojas, W.
+, 
+Quiñones, M. L.
+, 
+Velez, I. D.
+, &amp; 
+Martens, W. J.
+ (2000). Climate and ENSO variability associated with vector‐borne diseases in Colombia. El Niño and the southern oscillation, multiscale variability and global and regional impacts. (Vol. 1, pp. 183–204).</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="Poveda, G. , Graham, N. E. , Epstein, P. R. , Rojas, W. , Quiñones, M. L. , Velez, I. D. , &amp; Martens, W. J. (2000). Climate and ENSO variability associated with vector‐borne diseases in Colombia. El Niño and the southern oscillation, multiscale variability and global and regional impacts. (Vol. 1, pp. 183–204)."/></mixed-citation></ref><ref id="gh270198-bib-0056"><mixed-citation id="gh270198-cit-0056"><named-content content-type="citation-string">
+
+Rayner, N. A.
+, 
+Parker, D. E.
+, 
+Horton, E. B.
+, 
+Folland, C. K.
+, 
+Alexander, L. V.
+, 
+Rowell, D. P.
+, et al. (2003). Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century [Dataset]. Journal of Geophysical Research, 108(D14), 4407. 10.1029/2002JD002670
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1029/2002JD002670"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Geophysical Research&amp;author=N. A. Rayner&amp;author=D. E. Parker&amp;author=E. B. Horton&amp;author=C. K. Folland&amp;author=L. V. Alexander&amp;volume=108&amp;issue=D14&amp;publication_year=2003&amp;pages=4407&amp;doi=10.1029/2002JD002670&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0057"><mixed-citation id="gh270198-cit-0057"><named-content content-type="citation-string">
+
+Reinhold, J. M.
+, 
+Lazzari, C. R.
+, &amp; 
+Lahondère, C.
+ (2018). Effects of the environmental temperature on <italic>Aedes aegypti</italic> and <italic>Aedes albopictus</italic> mosquitoes: A review. Insects, 9(4), E158. 10.3390/insects9040158
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/insects9040158"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6316560"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30404142"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Insects&amp;title=Effects of the environmental temperature on Aedes aegypti and Aedes albopictus mosquitoes: A review&amp;author=J. M. Reinhold&amp;author=C. R. Lazzari&amp;author=C. Lahondère&amp;volume=9&amp;issue=4&amp;publication_year=2018&amp;pages=E158&amp;pmid=30404142&amp;doi=10.3390/insects9040158&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0058"><mixed-citation id="gh270198-cit-0058"><named-content content-type="citation-string">
+
+Rueda, L.
+, 
+Patel, K.
+, 
+Axtell, R.
+, &amp; 
+Stinner, R.
+ (1990). Temperature‐dependent development and survival rates of Culex quinquefasciatus and Aedes aegypti (Diptera: Culicidae). Journal of Medical Entomology, 27(5), 892–898. 10.1093/jmedent/27.5.892
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/jmedent/27.5.892"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2231624"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Medical Entomology&amp;title=Temperature‐dependent development and survival rates of Culex quinquefasciatus and Aedes aegypti (Diptera: Culicidae)&amp;author=L. Rueda&amp;author=K. Patel&amp;author=R. Axtell&amp;author=R. Stinner&amp;volume=27&amp;issue=5&amp;publication_year=1990&amp;pages=892-898&amp;pmid=2231624&amp;doi=10.1093/jmedent/27.5.892&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0059"><mixed-citation id="gh270198-cit-0059"><named-content content-type="citation-string">
+
+Russell, R. C.
+ (1998). Mosquito‐borne arboviruses in Australia: The current scene and implications of climate change for human health. International Journal for Parasitology, 28(6), 955–969. 10.1016/s0020-7519(98)00053-8
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/s0020-7519(98)00053-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9673874"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=International Journal for Parasitology&amp;title=Mosquito‐borne arboviruses in Australia: The current scene and implications of climate change for human health&amp;author=R. C. Russell&amp;volume=28&amp;issue=6&amp;publication_year=1998&amp;pages=955-969&amp;pmid=9673874&amp;doi=10.1016/s0020-7519(98)00053-8&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0060"><mixed-citation id="gh270198-cit-0060"><named-content content-type="citation-string">
+
+Sahay, S.
+ (2018). Climatic variability and dengue risk in urban environment of Delhi (India). Urban Climate, 24, 863–874. 10.1016/j.uclim.2017.10.008
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.uclim.2017.10.008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Urban Climate&amp;title=Climatic variability and dengue risk in urban environment of Delhi (India)&amp;author=S. Sahay&amp;volume=24&amp;publication_year=2018&amp;pages=863-874&amp;doi=10.1016/j.uclim.2017.10.008&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0061"><mixed-citation id="gh270198-cit-0061"><named-content content-type="citation-string">
+
+Sahin, E. K.
+ (2020). Assessing the predictive capability of ensemble tree methods for landslide susceptibility mapping using XGBoost, gradient boosting machine, and random forest. SN Applied Sciences, 2(7), 1308. 10.1007/s42452-020-3060-1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s42452-020-3060-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=SN Applied Sciences&amp;title=Assessing the predictive capability of ensemble tree methods for landslide susceptibility mapping using XGBoost, gradient boosting machine, and random forest&amp;author=E. K. Sahin&amp;volume=2&amp;issue=7&amp;publication_year=2020&amp;pages=1308&amp;doi=10.1007/s42452-020-3060-1&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0062"><mixed-citation id="gh270198-cit-0062"><named-content content-type="citation-string">
+
+Samuel, P. P.
+, 
+Thenmozhi, V.
+, 
+Nagaraj, J.
+, 
+Kumar, T. D.
+, &amp; 
+Tyagi, B. K.
+ (2014). Dengue vectors prevalence and the related risk factors involved in the transmission of dengue in Thiruvananthapuram district, Kerala, South India. Journal of Vector Borne Diseases, 51(4), 313. 10.4103/0972-9062.147886
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4103/0972-9062.147886"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25540964"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Journal of Vector Borne Diseases&amp;title=Dengue vectors prevalence and the related risk factors involved in the transmission of dengue in Thiruvananthapuram district, Kerala, South India&amp;author=P. P. Samuel&amp;author=V. Thenmozhi&amp;author=J. Nagaraj&amp;author=T. D. Kumar&amp;author=B. K. Tyagi&amp;volume=51&amp;issue=4&amp;publication_year=2014&amp;pages=313&amp;pmid=25540964&amp;doi=10.4103/0972-9062.147886&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0063"><mixed-citation id="gh270198-cit-0063"><named-content content-type="citation-string">
+
+Segal, M. R.
+ (2004). Machine learning benchmarks and random forest regression. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://escholarship.org/uc/item/35x3v9t4" ext-link-type="uri">https://escholarship.org/uc/item/35x3v9t4</ext-link>
+</named-content></mixed-citation></ref><ref id="gh270198-bib-0064"><mixed-citation id="gh270198-cit-0064"><named-content content-type="citation-string">
+
+Shil, P.
+, 
+Jagtap, M.
+, 
+de Souza, C. R. H.
+, 
+Sudeep, A. B.
+, &amp; 
+Awateb, P.
+ (2020). Climate and dengue in the Pune region: Prospects for an early warning system. Dengue, 41, 49.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Dengue&amp;title=Climate and dengue in the Pune region: Prospects for an early warning system&amp;author=P. Shil&amp;author=M. Jagtap&amp;author=C. R. H. de Souza&amp;author=A. B. Sudeep&amp;author=P. Awateb&amp;volume=41&amp;publication_year=2020&amp;pages=49&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0065"><mixed-citation id="gh270198-cit-0065"><named-content content-type="citation-string">
+
+Sophia, Y.
+, 
+Roxy, M. K.
+, 
+Murtugudde, R.
+, 
+Karipot, A.
+, 
+Sapkota, A.
+, 
+Dasgupta, P.
+, et al. (2025). Dengue dynamics, predictions, and future increase under changing monsoon climate in India. Scientific Reports, 15(1), 1637. 10.1038/s41598-025-85437-w
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-025-85437-w"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11750985"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39837878"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=Dengue dynamics, predictions, and future increase under changing monsoon climate in India&amp;author=Y. Sophia&amp;author=M. K. Roxy&amp;author=R. Murtugudde&amp;author=A. Karipot&amp;author=A. Sapkota&amp;volume=15&amp;issue=1&amp;publication_year=2025&amp;pages=1637&amp;pmid=39837878&amp;doi=10.1038/s41598-025-85437-w&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0066"><mixed-citation id="gh270198-cit-0066"><named-content content-type="citation-string">
+
+Srivastava, A. K.
+, 
+Rajeevan, M.
+, &amp; 
+Kshirsagar, S. R.
+ (2009). Development of a high resolution daily gridded temperature data set (1969–2005) for the Indian region. Atmospheric Science Letters, 10(4), 249–254. 10.1002/asl.232
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/asl.232"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Atmospheric Science Letters&amp;title=Development of a high resolution daily gridded temperature data set (1969–2005) for the Indian region&amp;author=A. K. Srivastava&amp;author=M. Rajeevan&amp;author=S. R. Kshirsagar&amp;volume=10&amp;issue=4&amp;publication_year=2009&amp;pages=249-254&amp;doi=10.1002/asl.232&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0067"><mixed-citation id="gh270198-cit-0067"><named-content content-type="citation-string">
+
+Thai, K. T. D.
+, 
+Cazelles, B.
+, 
+Nguyen, N. V.
+, 
+Vo, L. T.
+, 
+Boni, M. F.
+, 
+Farrar, J.
+, et al. (2010). Dengue dynamics in Binh Thuan Province, Southern Vietnam: Periodicity, synchronicity and climate variability. PLoS Neglected Tropical Diseases, 4(7), e747. 10.1371/journal.pntd.0000747
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pntd.0000747"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2903474"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20644621"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Neglected Tropical Diseases&amp;title=Dengue dynamics in Binh Thuan Province, Southern Vietnam: Periodicity, synchronicity and climate variability&amp;author=K. T. D. Thai&amp;author=B. Cazelles&amp;author=N. V. Nguyen&amp;author=L. T. Vo&amp;author=M. F. Boni&amp;volume=4&amp;issue=7&amp;publication_year=2010&amp;pages=e747&amp;pmid=20644621&amp;doi=10.1371/journal.pntd.0000747&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0068"><mixed-citation id="gh270198-cit-0068"><named-content content-type="citation-string">
+
+Tipayamongkholgul, M.
+, 
+Fang, C.‐T.
+, 
+Klinchan, S.
+, 
+Liu, C.‐M.
+, &amp; 
+King, C.‐C.
+ (2009). Effects of the El Niño‐Southern Oscillation on dengue epidemics in Thailand, 1996‐2005. BMC Public Health, 9(1), 422. 10.1186/1471-2458-9-422
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/1471-2458-9-422"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2785791"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19930557"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Public Health&amp;title=Effects of the El Niño‐Southern Oscillation on dengue epidemics in Thailand, 1996‐2005&amp;author=M. Tipayamongkholgul&amp;author=C.‐T. Fang&amp;author=S. Klinchan&amp;author=C.‐M. Liu&amp;author=C.‐C. King&amp;volume=9&amp;issue=1&amp;publication_year=2009&amp;pages=422&amp;pmid=19930557&amp;doi=10.1186/1471-2458-9-422&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0069"><mixed-citation id="gh270198-cit-0069"><named-content content-type="citation-string">
+
+Vincenti‐Gonzalez, M. F.
+, 
+Tami, A.
+, 
+Lizarazo, E. F.
+, &amp; 
+Grillet, M. E.
+ (2018). ENSO‐driven climate variability promotes periodic major outbreaks of dengue in Venezuela. Scientific Reports, 8(1), 5727. 10.1038/s41598-018-24003-z
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-018-24003-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5893565"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29636483"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Scientific Reports&amp;title=ENSO‐driven climate variability promotes periodic major outbreaks of dengue in Venezuela&amp;author=M. F. Vincenti‐Gonzalez&amp;author=A. Tami&amp;author=E. F. Lizarazo&amp;author=M. E. Grillet&amp;volume=8&amp;issue=1&amp;publication_year=2018&amp;pages=5727&amp;pmid=29636483&amp;doi=10.1038/s41598-018-24003-z&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0070"><mixed-citation id="gh270198-cit-0070"><named-content content-type="citation-string">
+
+Wang, B.
+, 
+Biasutti, M.
+, 
+Byrne, M. P.
+, 
+Castro, C.
+, 
+Chang, C.‐P.
+, 
+Cook, K.
+, et al. (2021). Monsoons climate change assessment. Bulletin of the American Meteorological Society, 102(1), E1–E19. 10.1175/BAMS-D-19-0335.1
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1175/BAMS-D-19-0335.1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bulletin of the American Meteorological Society&amp;title=Monsoons climate change assessment&amp;author=B. Wang&amp;author=M. Biasutti&amp;author=M. P. Byrne&amp;author=C. Castro&amp;author=C.‐P. Chang&amp;volume=102&amp;issue=1&amp;publication_year=2021&amp;pages=E1-E19&amp;doi=10.1175/BAMS-D-19-0335.1&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0071"><mixed-citation id="gh270198-cit-0071"><named-content content-type="citation-string">
+
+Wang, G.
+, 
+Cai, W.
+, 
+Santoso, A.
+, 
+Abram, N.
+, 
+Ng, B.
+, 
+Yang, K.
+, et al. (2024). The Indian Ocean dipole in a warming world. Nature Reviews Earth &amp; Environment, 5(8), 588–604. 10.1038/s43017-024-00573-7
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s43017-024-00573-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Reviews Earth &amp; Environment&amp;title=The Indian Ocean dipole in a warming world&amp;author=G. Wang&amp;author=W. Cai&amp;author=A. Santoso&amp;author=N. Abram&amp;author=B. Ng&amp;volume=5&amp;issue=8&amp;publication_year=2024&amp;pages=588-604&amp;doi=10.1038/s43017-024-00573-7&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0072"><mixed-citation id="gh270198-cit-0072"><named-content content-type="citation-string">
+
+Wang, Y.
+, 
+Li, C.
+, 
+Zhao, S.
+, 
+Wei, Y.
+, 
+Li, K.
+, 
+Jiang, X.
+, et al. (2024). Projection of dengue fever transmissibility under climate change in South and Southeast Asian countries. PLoS Neglected Tropical Diseases, 18(4), e0012158. 10.1371/journal.pntd.0012158
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pntd.0012158"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11081495"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38683870"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Neglected Tropical Diseases&amp;title=Projection of dengue fever transmissibility under climate change in South and Southeast Asian countries&amp;author=Y. Wang&amp;author=C. Li&amp;author=S. Zhao&amp;author=Y. Wei&amp;author=K. Li&amp;volume=18&amp;issue=4&amp;publication_year=2024&amp;pages=e0012158&amp;pmid=38683870&amp;doi=10.1371/journal.pntd.0012158&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0074"><mixed-citation id="gh270198-cit-0074"><named-content content-type="citation-string">
+WHO
+. (2024). WHO: Dengue and severe dengue. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue" ext-link-type="uri">https://www.who.int/news‐room/fact‐sheets/detail/dengue‐and‐severe‐dengue</ext-link>
+</named-content></mixed-citation></ref><ref id="gh270198-bib-0075"><mixed-citation id="gh270198-cit-0075"><named-content content-type="citation-string">
+
+Wu, X.
+, 
+Lang, L.
+, 
+Ma, W.
+, 
+Song, T.
+, 
+Kang, M.
+, 
+He, J.
+, et al. (2018). Non‐linear effects of mean temperature and relative humidity on dengue incidence in Guangzhou, China. Science of the Total Environment, 628–629, 766–771. 10.1016/j.scitotenv.2018.02.136
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2018.02.136"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29454216"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science of the Total Environment&amp;title=Non‐linear effects of mean temperature and relative humidity on dengue incidence in Guangzhou, China&amp;author=X. Wu&amp;author=L. Lang&amp;author=W. Ma&amp;author=T. Song&amp;author=M. Kang&amp;volume=628–629&amp;publication_year=2018&amp;pages=766-771&amp;pmid=29454216&amp;doi=10.1016/j.scitotenv.2018.02.136&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0076"><mixed-citation id="gh270198-cit-0076"><named-content content-type="citation-string">
+
+Wyk, H. V.
+, 
+Eisenberg, J. N. S.
+, &amp; 
+Brouwer, A. F.
+ (2023). Long‐term projections of the impacts of warming temperatures on Zika and dengue risk in four Brazilian cities using a temperature‐dependent basic reproduction number. PLoS Neglected Tropical Diseases, 17(4), e0010839. 10.1371/journal.pntd.0010839
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pntd.0010839"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10138270"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37104296"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Neglected Tropical Diseases&amp;title=Long‐term projections of the impacts of warming temperatures on Zika and dengue risk in four Brazilian cities using a temperature‐dependent basic reproduction number&amp;author=H. V. Wyk&amp;author=J. N. S. Eisenberg&amp;author=A. F. Brouwer&amp;volume=17&amp;issue=4&amp;publication_year=2023&amp;pages=e0010839&amp;pmid=37104296&amp;doi=10.1371/journal.pntd.0010839&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0077"><mixed-citation id="gh270198-cit-0077"><named-content content-type="citation-string">
+
+Xiang, J.
+, 
+Hansen, A.
+, 
+Liu, Q.
+, 
+Liu, X.
+, 
+Tong, M. X.
+, 
+Sun, Y.
+, et al. (2017). Association between dengue fever incidence and meteorological factors in Guangzhou, China, 2005–2014. Environmental Research, 153, 17–26. 10.1016/j.envres.2016.11.009
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.envres.2016.11.009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27883970"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environmental Research&amp;title=Association between dengue fever incidence and meteorological factors in Guangzhou, China, 2005–2014&amp;author=J. Xiang&amp;author=A. Hansen&amp;author=Q. Liu&amp;author=X. Liu&amp;author=M. X. Tong&amp;volume=153&amp;publication_year=2017&amp;pages=17-26&amp;pmid=27883970&amp;doi=10.1016/j.envres.2016.11.009&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0078"><mixed-citation id="gh270198-cit-0078"><named-content content-type="citation-string">
+
+Xu, C.
+, 
+Xu, J.
+, &amp; 
+Wang, L.
+ (2024). Long‐term effects of climate factors on dengue fever over a 40‐year period. BMC Public Health, 24(1), 1451. 10.1186/s12889-024-18869-0
+
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12889-024-18869-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11141019"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38816722"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Public Health&amp;title=Long‐term effects of climate factors on dengue fever over a 40‐year period&amp;author=C. Xu&amp;author=J. Xu&amp;author=L. Wang&amp;volume=24&amp;issue=1&amp;publication_year=2024&amp;pages=1451&amp;pmid=38816722&amp;doi=10.1186/s12889-024-18869-0&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0079"><mixed-citation id="gh270198-cit-0079"><named-content content-type="citation-string">
+
+Yacob, S.
+, &amp; 
+Roxy, M. K.
+ (2026). Climate informed dengue prediction and future risk under a changing monsoon climate in Kerala, India [Software]. Zenodo. 10.5281/zenodo.20096919
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5281/zenodo.20096919"/></mixed-citation></ref><ref id="gh270198-bib-0080"><mixed-citation id="gh270198-cit-0080"><named-content content-type="citation-string">
+
+Yanes, N.
+, 
+Jamel, L.
+, 
+Alabdullah, B.
+, 
+Ezz, M.
+, 
+Mohamed Mostafa, A.
+, &amp; 
+Shabana, H.
+ (2024). Using machine learning for detection and prediction of chronic diseases. IEEE Access, 12, 177674–177691. 10.1109/ACCESS.2024.3494839
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1109/ACCESS.2024.3494839"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=IEEE Access&amp;title=Using machine learning for detection and prediction of chronic diseases&amp;author=N. Yanes&amp;author=L. Jamel&amp;author=B. Alabdullah&amp;author=M. Ezz&amp;author=A. Mohamed Mostafa&amp;volume=12&amp;publication_year=2024&amp;pages=177674-177691&amp;doi=10.1109/ACCESS.2024.3494839&amp;"/></mixed-citation></ref><ref id="gh270198-bib-0081"><mixed-citation id="gh270198-cit-0081"><named-content content-type="citation-string">
+
+Zheng, Z.
+, 
+Xu, N.
+, 
+Khan, M.
+, 
+Pedersen, M.
+, 
+Abdalgader, T.
+, &amp; 
+Zhang, L.
+ (2024). Nonlinear impacts of climate change on dengue transmission in mainland China: Underlying mechanisms and future projection. Ecological Modelling, 492, 110734. 10.1016/j.ecolmodel.2024.110734
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ecolmodel.2024.110734"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ecological Modelling&amp;title=Nonlinear impacts of climate change on dengue transmission in mainland China: Underlying mechanisms and future projection&amp;author=Z. Zheng&amp;author=N. Xu&amp;author=M. Khan&amp;author=M. Pedersen&amp;author=T. Abdalgader&amp;volume=492&amp;publication_year=2024&amp;pages=110734&amp;doi=10.1016/j.ecolmodel.2024.110734&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adc93_" xml:lang="en" sec-type="data-citations" disp-level="2"><title>Data Citations</title><ref-list><ref id="_dbx_ref_gh270198-cit-0079"><mixed-citation><named-content content-type="citation-string">
+
+Yacob, S.
+, &amp; 
+Roxy, M. K.
+ (2026). Climate informed dengue prediction and future risk under a changing monsoon climate in Kerala, India [Software]. Zenodo. 10.5281/zenodo.20096919
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.5281/zenodo.20096919"/></mixed-citation></ref></ref-list></sec><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><caption><p>Supporting Information S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="GH2-10-e2026GH001893-s001.docx" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.wordprocessingml.document"><?cloudpmc-path 9251/13580351/46fc21910280/GH2-10-e2026GH001893-s001.docx?><?cloudpmc-bucket app?><?size 5597871?></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>Dengue surveillance data used in this study are publicly available from the Integrated Disease Surveillance Programme (IDSP) portal of the Kerala Directorate of Health Services: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://dhs.kerala.gov.in/en/idsp-2/" ext-link-type="uri">https://dhs.kerala.gov.in/en/idsp‐2/</ext-link>.</p><p>Gridded temperature and rainfall data (Pai et al., <xref rid="gh270198-bib-0053" ref-type="bibr">2014</xref>; Srivastava et al., <xref rid="gh270198-bib-0066" ref-type="bibr">2009</xref>) were obtained from the India Meteorological Department high resolution gridded data set provided by the National Climate Centre: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html" ext-link-type="uri">https://www.imdpune.gov.in/cmpg/Griddata/Rainfall_25_NetCDF.html</ext-link>.</p><p>Relative humidity data were obtained from the ERA5 reanalysis data set (Hersbach et al., <xref rid="gh270198-bib-0035" ref-type="bibr">2020</xref>) produced by the European Centre for Medium Range Weather Forecasts and distributed through the Copernicus Climate Data Store: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels" ext-link-type="uri">https://cds.climate.copernicus.eu/datasets/reanalysis‐era5‐single‐levels</ext-link>.</p><p>Sea surface temperature data used to derive the Niño 3.4 index were obtained from the Hadley Centre Sea Ice and SST data set (HadISST; Rayner et al., <xref rid="gh270198-bib-0056" ref-type="bibr">2003</xref>) provided by the UK Met Office: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.metoffice.gov.uk/hadobs/hadisst/" ext-link-type="uri">https://www.metoffice.gov.uk/hadobs/hadisst/</ext-link>.</p><p>Future climate projections were derived from Coupled Model Intercomparison Project Phase 6 model outputs (Eyring et al., <xref rid="gh270198-bib-0023" ref-type="bibr">2016</xref>) obtained through the Earth System Grid Federation data portal: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://esgf-node.llnl.gov/search/cmip6/" ext-link-type="uri">https://esgf‐node.llnl.gov/search/cmip6/</ext-link>.</p><p>All data sources used in this study are publicly available from the links provided above. In addition, the observed climate and health data used in this study, along with details of CMIP6 data download and processing, and the codes required to reproduce the analyses and figures, are available at Zenodo (Yacob &amp; Roxy, <xref rid="gh270198-bib-0079" ref-type="bibr">2026</xref>) and can be accessed at: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.5281/zenodo.20096919" ext-link-type="uri">https://doi.org/10.5281/zenodo.20096919</ext-link>.</p></sec></sec></body></article>

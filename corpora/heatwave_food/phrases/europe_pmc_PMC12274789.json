@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12274789",
+  "phrases": [
+    {
+      "phrase": "amplicon sequence variants",
+      "display": "Amplicon Sequence Variants",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bureau of meteorology",
+      "display": "Bureau of Meteorology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brisbane water",
+      "display": "Brisbane Water",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "de lorgeril",
+      "display": "De Lorgeril",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "constrained analysis of principal coordinates",
+      "display": "Constrained Analysis of Principal Coordinates",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rhodobacteraceae and cyanobacteraceae",
+      "display": "Rhodobacteraceae and Cyanobacteraceae",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "australian genome research facility",
+      "display": "Australian Genome Research Facility",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vibrio",
+      "display": "Vibrio",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "se",
+      "display": "SE",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "glmm",
+      "display": "GLMM",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tiles",
+      "score": 0.0536,
+      "channel": "tfidf",
+      "display": "Tiles"
+    },
+    {
+      "phrase": "oyster",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "Oyster"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "oysters",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "Oysters"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

@@ -1,0 +1,41 @@
+{
+  "step": "kg",
+  "status": "ok",
+  "workdir": "corpora/climate_health_latam",
+  "written_at": "2026-11-04T15:37:57.573140+00:00",
+  "options": {
+    "workdir": "corpora/climate_health_latam",
+    "from_mode": "query",
+    "query": "health AND climate AND 'Latin America'",
+    "limit": 20,
+    "repository": "europe_pmc",
+    "source": null,
+    "phrase_method": "tfidf",
+    "phrase_n": 3,
+    "phrase_top": 15,
+    "cluster_resolution": 1.0,
+    "cluster_algorithm": "louvain",
+    "encyclopedia_lang": "en",
+    "max_entries": 100,
+    "min_score": 0.0,
+    "min_paper_count": 1,
+    "encyclopedia_source": "phrases",
+    "kg_max_island": 20,
+    "kg_max_terms": 40,
+    "kg_min_paper_count": 2,
+    "kg_links": "clusters",
+    "kg_open": true
+  },
+  "note": "Placeholder for pipeline step 'kg' \u2014 not yet wired to real work.",
+  "graph_path": "/Users/pm286/workspace/semantic_corpus/corpora/climate_health_latam/kg/graph.json",
+  "html_path": "/Users/pm286/workspace/semantic_corpus/corpora/climate_health_latam/kg/knowledge_graph.html",
+  "islands_path": "/Users/pm286/workspace/semantic_corpus/corpora/climate_health_latam/kg/islands.json",
+  "nodes": 26,
+  "edges": 50,
+  "islands": 4,
+  "kg_links_used": [
+    "clusters"
+  ],
+  "min_paper_count": 2,
+  "max_terms": 40
+}

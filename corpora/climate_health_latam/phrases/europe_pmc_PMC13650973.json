@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13650973",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "online supplementary document",
+      "display": "Online Supplementary Document",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american network of national programs for venomous animal accidents",
+      "display": "Latin American Network of National Programs for Venomous Animal Accidents",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american network of public antivenom manufacturing laboratories",
+      "display": "Latin American Network of Public Antivenom Manufacturing Laboratories",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brazilian notifiable diseases information system",
+      "display": "Brazilian Notifiable Diseases Information System",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lac",
+      "display": "LAC",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "evas",
+      "display": "EVAs",
+      "score": 1.27,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eva",
+      "display": "EVA",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antivenom",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "Antivenom"
+    },
+    {
+      "phrase": "antivenoms",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "Antivenoms"
+    },
+    {
+      "phrase": "scorpion",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "Scorpion"
+    },
+    {
+      "phrase": "envenomation",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "Envenomation"
+    },
+    {
+      "phrase": "procurement",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "Procurement"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

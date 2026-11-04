@@ -11,7 +11,11 @@ from typing import Any, Dict, Optional
 
 import os
 
-from semantic_corpus.pipeline.config import ENV_PLACEHOLDER, options_from_env
+from semantic_corpus.pipeline.config import (
+    DEFAULT_LIMIT,
+    ENV_PLACEHOLDER,
+    options_from_env,
+)
 from semantic_corpus.pipeline.placeholders import run_placeholder, stamp_path, write_stamp
 from semantic_corpus.utils import get_project_temp_dir
 
@@ -57,7 +61,7 @@ def run_query() -> Dict[str, Any]:
         query_name=query_name,
         query_dir=query_dir,
         repositories=opts.repository or "europe_pmc",
-        limit=int(opts.limit or 50),
+        limit=int(opts.limit or DEFAULT_LIMIT),
         formats=["xml"],
         corpus_dir=workdir,
         create_bagit=True,
@@ -250,7 +254,7 @@ def run_kg() -> Dict[str, Any]:
         min_paper_count=int(opts.kg_min_paper_count),
         max_terms=int(opts.kg_max_terms),
         write_html=True,
-        open_browser=False,
+        open_browser=bool(opts.kg_open),
     )
     counts = summary.get("counts") or {}
     params = summary.get("params") or {}

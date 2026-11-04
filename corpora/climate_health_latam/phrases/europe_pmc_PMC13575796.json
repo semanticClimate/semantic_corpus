@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13575796",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american and caribbean",
+      "display": "Latin American and Caribbean",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lancet regional health",
+      "display": "Lancet Regional Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lancet countdown",
+      "display": "Lancet Countdown",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "our commission",
+      "display": "Our Commission",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "covid",
+      "display": "COVID",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "americas",
+      "display": "Americas",
+      "score": 1.05,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indigenous",
+      "display": "Indigenous",
+      "score": 1.05,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "research",
+      "score": 0.0695,
+      "channel": "tfidf",
+      "display": "research"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0687,
+      "channel": "tfidf",
+      "display": "Health"
+    },
+    {
+      "phrase": "journal",
+      "score": 0.068,
+      "channel": "tfidf",
+      "display": "journal"
+    },
+    {
+      "phrase": "issue",
+      "score": 0.0636,
+      "channel": "tfidf",
+      "display": "issue"
+    },
+    {
+      "phrase": "voice",
+      "score": 0.0568,
+      "channel": "tfidf",
+      "display": "voice"
+    },
+    {
+      "phrase": "inequity",
+      "score": 0.0568,
+      "channel": "tfidf",
+      "display": "inequity"
+    },
+    {
+      "phrase": "researchers",
+      "score": 0.0561,
+      "channel": "tfidf",
+      "display": "researchers"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

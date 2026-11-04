@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (monsoon)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #mynetwork { width: 100%; height: calc(100vh - 64px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    /* Hide any leftover vis built-in tooltip */
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge graph (monsoon)</h1>
+    <p>6 nodes · 8 edges — drag, zoom, hover</p>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:east asian", "label": "East Asian", "tooltip": "East Asian (cluster weight 4.1; n_papers 3)", "value": 12.1, "group": "Term"}, {"id": "paper:europe_pmc_PMC13594180", "label": "PMC13594180", "tooltip": "Asian summer monsoon orbital variability directly paced by CO2 and precession, not eccentricity.<br>(PMC13594180)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13613981", "label": "PMC13613981", "tooltip": "What was the role of palaeogeography in East Asian monsoon evolution since the Cretaceous?<br>(PMC13613981)", "value": 12.0, "group": "Paper"}, {"id": "term:tibetan plateau", "label": "Tibetan Plateau", "tooltip": "Tibetan Plateau (cluster weight 2.9; n_papers 3)", "value": 10.9, "group": "Term"}, {"id": "term:easm", "label": "EASM", "tooltip": "EASM (cluster weight 2.24; n_papers 2)", "value": 10.24, "group": "Term"}, {"id": "term:precipitation", "label": "Precipitation", "tooltip": "Precipitation (cluster weight 0.0705; n_papers 2)", "value": 8.0705, "group": "Term"}], "edges": [{"from": "paper:europe_pmc_PMC13594180", "to": "term:east asian", "value": 4.1}, {"from": "paper:europe_pmc_PMC13613981", "to": "term:east asian", "value": 4.1}, {"from": "paper:europe_pmc_PMC13594180", "to": "term:tibetan plateau", "value": 2.9}, {"from": "paper:europe_pmc_PMC13613981", "to": "term:tibetan plateau", "value": 2.9}, {"from": "paper:europe_pmc_PMC13594180", "to": "term:easm", "value": 2.24}, {"from": "paper:europe_pmc_PMC13613981", "to": "term:easm", "value": 2.24}, {"from": "paper:europe_pmc_PMC13594180", "to": "term:precipitation", "value": 0.0705}, {"from": "paper:europe_pmc_PMC13613981", "to": "term:precipitation", "value": 0.0705}], "title": "Knowledge graph (monsoon)"};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () {
+      tip.style.display = 'none';
+    });
+    network.on('dragStart', function () {
+      tip.style.display = 'none';
+    });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') {
+        showTip(tip.innerHTML, evt);
+      }
+    });
+  </script>
+</body>
+</html>

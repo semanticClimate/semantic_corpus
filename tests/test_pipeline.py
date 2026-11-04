@@ -316,6 +316,9 @@ def test_cli_encyclopedia_max_entries_and_kg_links(tmp_path: Path):
     assert kg["options"]["encyclopedia_lang"] == "en"
     assert kg["options"]["kg_links"] == "clusters,wikipedia,wikidata"
     assert kg["options"]["kg_max_island"] == 15
+    assert kg["options"]["kg_max_terms"] == 40  # default
+    assert kg["options"]["kg_min_paper_count"] == 2  # default
+    assert kg["options"]["kg_open"] is True  # default
     assert kg["status"] == "placeholder"
 
 

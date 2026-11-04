@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13061210",
+  "phrases": [
+    {
+      "phrase": "indigenous peoples",
+      "display": "Indigenous Peoples",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peruvian amazon",
+      "display": "Peruvian Amazon",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "many indigenous",
+      "display": "Many Indigenous",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indigenous organisations in latin america",
+      "display": "Indigenous Organisations in Latin America",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shawi and ashaninka indigenous peoples",
+      "display": "Shawi and Ashaninka Indigenous Peoples",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indigenous",
+      "display": "Indigenous",
+      "score": 1.99,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin",
+      "display": "Latin",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peoples",
+      "display": "Peoples",
+      "score": 1.23,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0494,
+      "channel": "tfidf",
+      "display": "Health"
+    },
+    {
+      "phrase": "systems",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "systems"
+    },
+    {
+      "phrase": "knowledge",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "knowledge"
+    },
+    {
+      "phrase": "knowledges",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "knowledges"
+    },
+    {
+      "phrase": "practices",
+      "score": 0.041,
+      "channel": "tfidf",
+      "display": "practices"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

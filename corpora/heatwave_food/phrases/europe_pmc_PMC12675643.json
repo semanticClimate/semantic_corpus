@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12675643",
+  "phrases": [
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 3.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bering sea",
+      "display": "Bering Sea",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "okhotsk sea",
+      "display": "Okhotsk Sea",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf of alaska",
+      "display": "Gulf of Alaska",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "okhotsk sea and bering sea",
+      "display": "Okhotsk Sea and Bering Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific ocean",
+      "display": "North Pacific Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central bering sea",
+      "display": "Central Bering Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific",
+      "display": "Pacific",
+      "score": 1.53,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea",
+      "display": "Sea",
+      "score": 1.41,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.37,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chum",
+      "score": 0.0548,
+      "channel": "tfidf",
+      "display": "Chum"
+    },
+    {
+      "phrase": "chum salmon",
+      "score": 0.0545,
+      "channel": "tfidf",
+      "display": "Chum salmon"
+    },
+    {
+      "phrase": "salmon",
+      "score": 0.0452,
+      "channel": "tfidf",
+      "display": "Salmon"
+    },
+    {
+      "phrase": "salmon habitat",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "salmon habitat"
+    },
+    {
+      "phrase": "chum salmon habitat",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "chum salmon habitat"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

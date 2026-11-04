@@ -1,0 +1,317 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "One Health; AHPND; TDH; TRH; United States",
+      "paper_count": 2,
+      "term_count": 29,
+      "paper_ids": [
+        "europe_pmc_PMC12616928",
+        "europe_pmc_PMC13708365"
+      ],
+      "terms": [
+        {
+          "phrase": "one health",
+          "display": "One Health",
+          "weight": 3.2
+        },
+        {
+          "phrase": "ahpnd",
+          "display": "AHPND",
+          "weight": 1.36
+        },
+        {
+          "phrase": "tdh",
+          "display": "TDH",
+          "weight": 1.36
+        },
+        {
+          "phrase": "trh",
+          "display": "TRH",
+          "weight": 1.3
+        },
+        {
+          "phrase": "united states",
+          "display": "United States",
+          "weight": 1.3
+        },
+        {
+          "phrase": "west nile",
+          "display": "West Nile",
+          "weight": 1.3
+        },
+        {
+          "phrase": "amr",
+          "display": "AMR",
+          "weight": 1.28
+        },
+        {
+          "phrase": "pacific northwest",
+          "display": "Pacific Northwest",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ai",
+          "display": "AI",
+          "weight": 1.12
+        },
+        {
+          "phrase": "although the world organization for animal health",
+          "display": "Although the World Organization for Animal Health",
+          "weight": 1.1
+        },
+        {
+          "phrase": "aquaculture pathology laboratory",
+          "display": "Aquaculture Pathology Laboratory",
+          "weight": 1.1
+        },
+        {
+          "phrase": "embedding one health and planetary health",
+          "display": "Embedding One Health and Planetary Health",
+          "weight": 1.1
+        },
+        {
+          "phrase": "intergovernmental panel on climate change",
+          "display": "Intergovernmental Panel on Climate Change",
+          "weight": 1.1
+        },
+        {
+          "phrase": "lactobacillus and bifidobacteria",
+          "display": "Lactobacillus and Bifidobacteria",
+          "weight": 1.1
+        },
+        {
+          "phrase": "manual of bacteriological analysis",
+          "display": "Manual of Bacteriological Analysis",
+          "weight": 1.1
+        },
+        {
+          "phrase": "north america and scandinavia",
+          "display": "North America and Scandinavia",
+          "weight": 1.1
+        },
+        {
+          "phrase": "sustainable development goals",
+          "display": "Sustainable Development Goals",
+          "weight": 1.1
+        },
+        {
+          "phrase": "world health organization carbon",
+          "display": "World Health Organization Carbon",
+          "weight": 1.1
+        },
+        {
+          "phrase": "health",
+          "display": "Health",
+          "weight": 1.07
+        },
+        {
+          "phrase": "parahaemolyticus",
+          "display": "parahaemolyticus",
+          "weight": 0.0479
+        },
+        {
+          "phrase": "microbial",
+          "display": "Microbial",
+          "weight": 0.0426
+        },
+        {
+          "phrase": "shrimp",
+          "display": "Shrimp",
+          "weight": 0.0418
+        },
+        {
+          "phrase": "microbiome",
+          "display": "microbiome",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "isolates",
+          "display": "isolates",
+          "weight": 0.0371
+        },
+        {
+          "phrase": "diseases",
+          "display": "diseases",
+          "weight": 0.0347
+        },
+        {
+          "phrase": "climate",
+          "display": "Climate",
+          "weight": 0.0344
+        },
+        {
+          "phrase": "o3 k6",
+          "display": "o3 k6",
+          "weight": 0.0344
+        },
+        {
+          "phrase": "pathogen",
+          "display": "pathogen",
+          "weight": 0.0341
+        },
+        {
+          "phrase": "gut",
+          "display": "Gut",
+          "weight": 0.0339
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "British Columbia; BC; Supplemental Figure; Northeast Pacific; Phase Genomics",
+      "paper_count": 2,
+      "term_count": 27,
+      "paper_ids": [
+        "europe_pmc_PMC13219836",
+        "europe_pmc_PMC13688465"
+      ],
+      "terms": [
+        {
+          "phrase": "british columbia",
+          "display": "British Columbia",
+          "weight": 3.5
+        },
+        {
+          "phrase": "bc",
+          "display": "BC",
+          "weight": 1.4
+        },
+        {
+          "phrase": "supplemental figure",
+          "display": "Supplemental Figure",
+          "weight": 1.4
+        },
+        {
+          "phrase": "northeast pacific",
+          "display": "Northeast Pacific",
+          "weight": 1.3
+        },
+        {
+          "phrase": "phase genomics",
+          "display": "Phase Genomics",
+          "weight": 1.3
+        },
+        {
+          "phrase": "aleutian islands",
+          "display": "Aleutian Islands",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ks",
+          "display": "KS",
+          "weight": 1.2
+        },
+        {
+          "phrase": "proximo hi",
+          "display": "Proximo Hi",
+          "weight": 1.2
+        },
+        {
+          "phrase": "dna",
+          "display": "DNA",
+          "weight": 1.14
+        },
+        {
+          "phrase": "fg",
+          "display": "FG",
+          "weight": 1.12
+        },
+        {
+          "phrase": "mm",
+          "display": "MM",
+          "weight": 1.12
+        },
+        {
+          "phrase": "british columbia and argentina",
+          "display": "British Columbia and Argentina",
+          "weight": 1.1
+        },
+        {
+          "phrase": "fourier transform infrared spectroscopy",
+          "display": "Fourier Transform Infrared Spectroscopy",
+          "weight": 1.1
+        },
+        {
+          "phrase": "nuclear magnetic resonance spectroscopy",
+          "display": "Nuclear Magnetic Resonance Spectroscopy",
+          "weight": 1.1
+        },
+        {
+          "phrase": "response surface methodology",
+          "display": "Response Surface Methodology",
+          "weight": 1.1
+        },
+        {
+          "phrase": "southern california and baja california",
+          "display": "Southern California and Baja California",
+          "weight": 1.1
+        },
+        {
+          "phrase": "within the northeast pacific",
+          "display": "Within the Northeast Pacific",
+          "weight": 1.1
+        },
+        {
+          "phrase": "pallasii",
+          "display": "pallasii",
+          "weight": 0.0695
+        },
+        {
+          "phrase": "harengus",
+          "display": "harengus",
+          "weight": 0.062
+        },
+        {
+          "phrase": "assembly",
+          "display": "assembly",
+          "weight": 0.0602
+        },
+        {
+          "phrase": "genome",
+          "display": "Genome",
+          "weight": 0.058
+        },
+        {
+          "phrase": "clupea",
+          "display": "Clupea",
+          "weight": 0.0577
+        },
+        {
+          "phrase": "alginate",
+          "display": "Alginate",
+          "weight": 0.0483
+        },
+        {
+          "phrase": "molar",
+          "display": "Molar",
+          "weight": 0.0424
+        },
+        {
+          "phrase": "molar mass",
+          "display": "Molar mass",
+          "weight": 0.0421
+        },
+        {
+          "phrase": "kelp",
+          "display": "Kelp",
+          "weight": 0.04
+        },
+        {
+          "phrase": "luetkeana",
+          "display": "luetkeana",
+          "weight": 0.0393
+        }
+      ]
+    }
+  ]
+}

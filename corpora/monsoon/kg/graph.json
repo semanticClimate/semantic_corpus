@@ -1,0 +1,191 @@
+{
+  "step": "kg",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/monsoon",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 12,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "synonym_map": {},
+  "nodes": [
+    {
+      "id": "term:east asian",
+      "label": "East Asian",
+      "kind": "term",
+      "group": "Term",
+      "title": "East Asian (cluster weight 4.1; n_papers 3)",
+      "value": 12.1,
+      "phrase": "east asian",
+      "cluster_id": 1,
+      "n_papers": 3
+    },
+    {
+      "id": "paper:europe_pmc_PMC13594180",
+      "label": "PMC13594180",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Asian summer monsoon orbital variability directly paced by CO2 and precession, not eccentricity.\n(PMC13594180)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13594180",
+      "cluster_id": 1,
+      "paper_title": "Asian summer monsoon orbital variability directly paced by CO2 and precession, not eccentricity."
+    },
+    {
+      "id": "paper:europe_pmc_PMC13613981",
+      "label": "PMC13613981",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "What was the role of palaeogeography in East Asian monsoon evolution since the Cretaceous?\n(PMC13613981)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13613981",
+      "cluster_id": 1,
+      "paper_title": "What was the role of palaeogeography in East Asian monsoon evolution since the Cretaceous?"
+    },
+    {
+      "id": "term:tibetan plateau",
+      "label": "Tibetan Plateau",
+      "kind": "term",
+      "group": "Term",
+      "title": "Tibetan Plateau (cluster weight 2.9; n_papers 3)",
+      "value": 10.9,
+      "phrase": "tibetan plateau",
+      "cluster_id": 1,
+      "n_papers": 3
+    },
+    {
+      "id": "term:easm",
+      "label": "EASM",
+      "kind": "term",
+      "group": "Term",
+      "title": "EASM (cluster weight 2.24; n_papers 2)",
+      "value": 10.24,
+      "phrase": "easm",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "term:precipitation",
+      "label": "Precipitation",
+      "kind": "term",
+      "group": "Term",
+      "title": "Precipitation (cluster weight 0.0705; n_papers 2)",
+      "value": 8.0705,
+      "phrase": "precipitation",
+      "cluster_id": 1,
+      "n_papers": 2
+    }
+  ],
+  "edges": [
+    {
+      "id": "clusters:paper:europe_pmc_PMC13594180::term:east asian",
+      "from": "paper:europe_pmc_PMC13594180",
+      "to": "term:east asian",
+      "source": "paper:europe_pmc_PMC13594180",
+      "target": "term:east asian",
+      "weight": 4.1,
+      "value": 4.1,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔East Asian"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13613981::term:east asian",
+      "from": "paper:europe_pmc_PMC13613981",
+      "to": "term:east asian",
+      "source": "paper:europe_pmc_PMC13613981",
+      "target": "term:east asian",
+      "weight": 4.1,
+      "value": 4.1,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔East Asian"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13594180::term:tibetan plateau",
+      "from": "paper:europe_pmc_PMC13594180",
+      "to": "term:tibetan plateau",
+      "source": "paper:europe_pmc_PMC13594180",
+      "target": "term:tibetan plateau",
+      "weight": 2.9,
+      "value": 2.9,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Tibetan Plateau"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13613981::term:tibetan plateau",
+      "from": "paper:europe_pmc_PMC13613981",
+      "to": "term:tibetan plateau",
+      "source": "paper:europe_pmc_PMC13613981",
+      "target": "term:tibetan plateau",
+      "weight": 2.9,
+      "value": 2.9,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Tibetan Plateau"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13594180::term:easm",
+      "from": "paper:europe_pmc_PMC13594180",
+      "to": "term:easm",
+      "source": "paper:europe_pmc_PMC13594180",
+      "target": "term:easm",
+      "weight": 2.24,
+      "value": 2.24,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔EASM"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13613981::term:easm",
+      "from": "paper:europe_pmc_PMC13613981",
+      "to": "term:easm",
+      "source": "paper:europe_pmc_PMC13613981",
+      "target": "term:easm",
+      "weight": 2.24,
+      "value": 2.24,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔EASM"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13594180::term:precipitation",
+      "from": "paper:europe_pmc_PMC13594180",
+      "to": "term:precipitation",
+      "source": "paper:europe_pmc_PMC13594180",
+      "target": "term:precipitation",
+      "weight": 0.0705,
+      "value": 0.0705,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Precipitation"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13613981::term:precipitation",
+      "from": "paper:europe_pmc_PMC13613981",
+      "to": "term:precipitation",
+      "source": "paper:europe_pmc_PMC13613981",
+      "target": "term:precipitation",
+      "weight": 0.0705,
+      "value": 0.0705,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Precipitation"
+    }
+  ],
+  "counts": {
+    "nodes": 6,
+    "edges": 8,
+    "papers": 2,
+    "terms": 4,
+    "encyclopedia": 0,
+    "islands": 1,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-03T22:08:01.605027+00:00"
+}

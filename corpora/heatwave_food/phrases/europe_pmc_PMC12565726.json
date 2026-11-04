@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12565726",
+  "phrases": [
+    {
+      "phrase": "new south wales",
+      "display": "New South Wales",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "new zealand",
+      "display": "New Zealand",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south wales",
+      "display": "South Wales",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "environmental requirements of five native brown algae species",
+      "display": "Environmental Requirements of Five Native Brown Algae Species",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "monounsaturated fatty acids",
+      "display": "Monounsaturated Fatty Acids",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "polyunsaturated fatty acids",
+      "display": "Polyunsaturated Fatty Acids",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tasmanian and victorian",
+      "display": "Tasmanian and Victorian",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "australia",
+      "display": "Australia",
+      "score": 1.27,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "australian",
+      "display": "Australian",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pufa",
+      "display": "PUFA",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brown algae",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Brown Algae"
+    },
+    {
+      "phrase": "brown",
+      "score": 0.0407,
+      "channel": "tfidf",
+      "display": "Brown"
+    },
+    {
+      "phrase": "potatorum",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "potatorum"
+    },
+    {
+      "phrase": "radiata",
+      "score": 0.039,
+      "channel": "tfidf",
+      "display": "radiata"
+    },
+    {
+      "phrase": "seaweed",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "Seaweed"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

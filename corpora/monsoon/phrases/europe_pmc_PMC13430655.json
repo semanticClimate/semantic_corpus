@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13430655",
+  "phrases": [
+    {
+      "phrase": "benefits bangladesh",
+      "display": "Benefits Bangladesh",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "difference in giardia",
+      "display": "Difference in Giardia",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "prevalence of giardia",
+      "display": "Prevalence of Giardia",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ratio of giardia",
+      "display": "Ratio of Giardia",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "study characteristics and summary of effect modifiers between",
+      "display": "Study Characteristics and Summary of Effect Modifiers Between",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nutrition and control",
+      "display": "Nutrition and Control",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "prevalence difference",
+      "display": "Prevalence Difference",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wsh",
+      "display": "WSH",
+      "score": 2.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "giardia",
+      "display": "Giardia",
+      "score": 1.55,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ci",
+      "display": "CI",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "children",
+      "score": 0.0602,
+      "channel": "tfidf",
+      "display": "Children"
+    },
+    {
+      "phrase": "intervention",
+      "score": 0.0541,
+      "channel": "tfidf",
+      "display": "intervention"
+    },
+    {
+      "phrase": "giardia prevalence",
+      "score": 0.0526,
+      "channel": "tfidf",
+      "display": "Giardia prevalence"
+    },
+    {
+      "phrase": "infection",
+      "score": 0.0508,
+      "channel": "tfidf",
+      "display": "infection"
+    },
+    {
+      "phrase": "prevalence",
+      "score": 0.0508,
+      "channel": "tfidf",
+      "display": "Prevalence"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

@@ -1,0 +1,68 @@
+{
+  "max_island": 20,
+  "island_count": 4,
+  "islands": [
+    {
+      "size": 13,
+      "node_ids": [
+        "paper:europe_pmc_PMC13345226",
+        "paper:europe_pmc_PMC13421129",
+        "paper:europe_pmc_PMC13465641",
+        "paper:europe_pmc_PMC13555732",
+        "term:america",
+        "term:central america",
+        "term:el",
+        "term:health",
+        "term:one",
+        "term:one health",
+        "term:south america",
+        "term:southern oscillation",
+        "term:surveillance"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13460890",
+        "paper:europe_pmc_PMC13512877",
+        "term:latin",
+        "term:latin american",
+        "term:united states",
+        "term:world health organization"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC13307566",
+        "paper:europe_pmc_PMC7619672",
+        "term:dengue",
+        "term:who"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC13575796",
+        "paper:europe_pmc_PMC13602859",
+        "term:latin american and caribbean"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

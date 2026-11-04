@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13570586",
+  "phrases": [
+    {
+      "phrase": "south and east asian",
+      "display": "South and East Asian",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indonesian monsoon",
+      "display": "Indonesian Monsoon",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian and asian",
+      "display": "Indian and Asian",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north india sea",
+      "display": "North India Sea",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "xizang plateau",
+      "display": "Xizang Plateau",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aim",
+      "display": "AIM",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cenozoic",
+      "display": "Cenozoic",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "collision",
+      "score": 0.0874,
+      "channel": "tfidf",
+      "display": "collision"
+    },
+    {
+      "phrase": "tectonic",
+      "score": 0.0742,
+      "channel": "tfidf",
+      "display": "tectonic"
+    },
+    {
+      "phrase": "land",
+      "score": 0.0687,
+      "channel": "tfidf",
+      "display": "land"
+    },
+    {
+      "phrase": "continents",
+      "score": 0.0656,
+      "channel": "tfidf",
+      "display": "Continents"
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.0636,
+      "channel": "tfidf",
+      "display": "Monsoon"
+    },
+    {
+      "phrase": "monsoons",
+      "score": 0.0635,
+      "channel": "tfidf",
+      "display": "Monsoons"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

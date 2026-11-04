@@ -1,0 +1,167 @@
+{
+  "step": 2,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food",
+  "bag_root": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "paper_count": 20,
+  "papers_from_cache": 0,
+  "papers_extracted": 20,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 300,
+  "unique_phrases": 281,
+  "elapsed_s": 2.1215,
+  "paper_ids": [
+    "europe_pmc_PMC11328060",
+    "europe_pmc_PMC12274789",
+    "europe_pmc_PMC12565726",
+    "europe_pmc_PMC12616928",
+    "europe_pmc_PMC12675643",
+    "europe_pmc_PMC12775141",
+    "europe_pmc_PMC12822599",
+    "europe_pmc_PMC13170430",
+    "europe_pmc_PMC13219836",
+    "europe_pmc_PMC13223088",
+    "europe_pmc_PMC13345226",
+    "europe_pmc_PMC13447100",
+    "europe_pmc_PMC13487444",
+    "europe_pmc_PMC13508924",
+    "europe_pmc_PMC13534641",
+    "europe_pmc_PMC13536121",
+    "europe_pmc_PMC13680218",
+    "europe_pmc_PMC13688465",
+    "europe_pmc_PMC13701080",
+    "europe_pmc_PMC13708365"
+  ],
+  "papers": [
+    {
+      "paper_id": "europe_pmc_PMC11328060",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC11328060.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12274789",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC12274789.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12565726",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC12565726.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12616928",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC12616928.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12675643",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC12675643.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12775141",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC12775141.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12822599",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC12822599.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13170430",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13170430.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13219836",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13219836.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13223088",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13223088.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13345226",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13345226.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13447100",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13447100.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13487444",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13487444.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13508924",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13508924.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13534641",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13534641.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13536121",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13536121.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13680218",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13680218.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13688465",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13688465.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13701080",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13701080.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13708365",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/phrases/europe_pmc_PMC13708365.json"
+    }
+  ]
+}

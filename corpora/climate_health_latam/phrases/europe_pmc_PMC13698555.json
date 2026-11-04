@@ -1,0 +1,17 @@
+{
+  "paper_id": "europe_pmc_PMC13698555",
+  "phrases": [],
+  "phrase_count": 0,
+  "text_source": "empty",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

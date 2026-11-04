@@ -1,0 +1,50 @@
+{
+  "pmcid": "PMC13488029",
+  "pmid": "42585987",
+  "title": "Global, regional and national projections of heatwave-related death burdens under climate change, urbanisation, adaptation and population growth scenarios.",
+  "abstract": "<h4>Background</h4>Intensifying heatwaves driven by climate change pose a severe and disproportionate health burden, particularly for populations undergoing rapid demographic and environmental transitions, yet globally comparable projections of future mortality under varying scenarios remain limited.<h4>Methods</h4>We constructed a global, grid-based, and three-stage framework covering 176 countries, integrating climate projections from 20 CMIP6 models under four Shared Socioeconomic Pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5). Heatwaves were defined as ≥2 consecutive days with grid-specific daily mean temperatures exceeding the 95th percentile. Historical heatwave-mortality associations from 750 locations, together with future population distributions, urbanisation trajectories, and adaptation scenarios, were incorporated to estimate excess heatwave-attributable deaths during the 2030s, 2050s, and 2090s, with uncertainty quantified via Monte Carlo simulations.<h4>Findings</h4>Global heatwave-related deaths are projected to increase from 1,018,776 (95% UI: 935,188-1,106,785) in the 2000s to 5,289,925 (95% UI: 2,665,816-8,287,210), 8,814,669 (95% UI: 5,055,306-13,734,514), 13,690,238 (95% UI: 9,902,215-19,250,977), and 16,133,330 (95% UI: 11,559,920-21,300,978) in the 2090s under SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios, respectively. Sub-Saharan Africa will suffer from the largest heatwave-related deaths in the 2090s, contributing to the proportion of approximately 20.33%-24.92%. Projected slopes are steeper under low urbanisation level, SSP3 population scenario, and no adaptation scenario.<h4>Interpretation</h4>The projected heatwave mortality burden underscores the urgent need for targeted climate adaptation, urban planning, and public health strategies. The findings reveal differential vulnerability across populations and regions, offering guidance for resource allocation to strengthen resilience in a warming world.<h4>Funding</h4>National Natural Science Foundation of China (No. 42575195), China Postdoctoral Science Foundation (No. 2025M780707), and Guangdong Provincial General Colleges and Universities Innovation Team Project (Natural Science) (No. 2024KCXTD004).",
+  "authors": [
+    "Chen J",
+    "Zhu Q",
+    "Guo C",
+    "Wu S",
+    "Requia WJ",
+    "Chen K",
+    "Sun Z",
+    "Zare Sakhvidi MJ",
+    "Ballester J",
+    "Yang S",
+    "Yasushi H",
+    "Tong S",
+    "Wang X",
+    "Yang J"
+  ],
+  "publication_date": "2026-08-12",
+  "journal": "",
+  "doi": "10.1016/j.ebiom.2026.106419",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1016/j.ebiom.2026.106419"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13488029"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13488029?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

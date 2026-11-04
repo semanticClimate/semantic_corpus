@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13223088",
+  "phrases": [
+    {
+      "phrase": "ecological environment code",
+      "display": "Ecological Environment Code",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supreme people",
+      "display": "Supreme People",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "environmental protection law",
+      "display": "Environmental Protection Law",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sabin center climate change litigation database",
+      "display": "Sabin Center Climate Change Litigation Database",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lancet countdown",
+      "display": "Lancet Countdown",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "court interpretation on several issues concerning the application of law",
+      "display": "Court Interpretation on Several Issues Concerning the Application of Law",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "trial of environmental civil public interest litigation cases",
+      "display": "Trial of Environmental Civil Public Interest Litigation Cases",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.19,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "code",
+      "display": "Code",
+      "score": 1.19,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "environment",
+      "display": "Environment",
+      "score": 1.17,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "litigation",
+      "score": 0.0549,
+      "channel": "tfidf",
+      "display": "Litigation"
+    },
+    {
+      "phrase": "public litigation",
+      "score": 0.0523,
+      "channel": "tfidf",
+      "display": "public litigation"
+    },
+    {
+      "phrase": "civil public",
+      "score": 0.0509,
+      "channel": "tfidf",
+      "display": "Civil Public"
+    },
+    {
+      "phrase": "civil public litigation",
+      "score": 0.0509,
+      "channel": "tfidf",
+      "display": "civil public litigation"
+    },
+    {
+      "phrase": "climate civil",
+      "score": 0.0467,
+      "channel": "tfidf",
+      "display": "climate civil"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

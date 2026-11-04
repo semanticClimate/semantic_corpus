@@ -1,0 +1,35 @@
+{
+  "step": "kg",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food",
+  "graph_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/kg/graph.json",
+  "islands_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/kg/islands.json",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 17,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "counts": {
+    "nodes": 9,
+    "edges": 10,
+    "papers": 4,
+    "terms": 5,
+    "encyclopedia": 0,
+    "islands": 2,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-04T08:51:19.149157+00:00",
+  "html_path": "/Users/pm286/workspace/semantic_corpus/corpora/heatwave_food/kg/knowledge_graph.html"
+}

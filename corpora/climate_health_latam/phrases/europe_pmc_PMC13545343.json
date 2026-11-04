@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13545343",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ecuadorian amazon",
+      "display": "Ecuadorian Amazon",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coordinating body of indigenous organisations",
+      "display": "Coordinating Body of Indigenous Organisations",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amazonian ecclesial network in ecuador",
+      "display": "Amazonian Ecclesial Network in Ecuador",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united nations environment program",
+      "display": "United Nations Environment Program",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "human rights watch",
+      "display": "Human Rights Watch",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world gold council",
+      "display": "World Gold Council",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amazon",
+      "display": "Amazon",
+      "score": 1.09,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asgm",
+      "display": "ASGM",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "america",
+      "display": "America",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gold",
+      "score": 0.0954,
+      "channel": "tfidf",
+      "display": "Gold"
+    },
+    {
+      "phrase": "mercury",
+      "score": 0.0943,
+      "channel": "tfidf",
+      "display": "mercury"
+    },
+    {
+      "phrase": "mining",
+      "score": 0.088,
+      "channel": "tfidf",
+      "display": "mining"
+    },
+    {
+      "phrase": "illegal mining",
+      "score": 0.0754,
+      "channel": "tfidf",
+      "display": "illegal mining"
+    },
+    {
+      "phrase": "illegal",
+      "score": 0.0745,
+      "channel": "tfidf",
+      "display": "illegal"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

@@ -1,0 +1,196 @@
+phrase,display,n_papers,best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake,best_score,score_channel,paper_ids
+latin america,Latin America,15,2.6,15,,0,,0,2.6,uppercase,europe_pmc_PMC13061210;europe_pmc_PMC13307566;europe_pmc_PMC13345226;europe_pmc_PMC13460890;europe_pmc_PMC13465641;europe_pmc_PMC13512877;europe_pmc_PMC13545343;europe_pmc_PMC13555732;europe_pmc_PMC13575796;europe_pmc_PMC13602859;europe_pmc_PMC13650973;europe_pmc_PMC13678493;europe_pmc_PMC13722036;europe_pmc_PMC13723821;europe_pmc_PMC7619672
+health,Health,10,1.25,2,0.0692,8,,0,1.25,uppercase,europe_pmc_PMC13061210;europe_pmc_PMC13345226;europe_pmc_PMC13421129;europe_pmc_PMC13460890;europe_pmc_PMC13465641;europe_pmc_PMC13512877;europe_pmc_PMC13555732;europe_pmc_PMC13575796;europe_pmc_PMC13602859;europe_pmc_PMC13678493
+latin american,Latin American,6,2.7,6,,0,,0,2.7,uppercase,europe_pmc_PMC13061210;europe_pmc_PMC13307566;europe_pmc_PMC13460890;europe_pmc_PMC13512877;europe_pmc_PMC13650973;europe_pmc_PMC13723821
+america,America,6,1.14,6,,0,,0,1.14,uppercase,europe_pmc_PMC13345226;europe_pmc_PMC13421129;europe_pmc_PMC13545343;europe_pmc_PMC13555732;europe_pmc_PMC13602859;europe_pmc_PMC13722036
+latin,Latin,4,1.4,4,,0,,0,1.4,uppercase,europe_pmc_PMC13061210;europe_pmc_PMC13345226;europe_pmc_PMC13460890;europe_pmc_PMC13512877
+one health,One Health,3,3.2,3,,0,,0,3.2,uppercase,europe_pmc_PMC13465641;europe_pmc_PMC13555732;europe_pmc_PMC13650973
+united states,United States,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC13421129;europe_pmc_PMC13460890;europe_pmc_PMC13465641
+central america,Central America,3,1.6,3,,0,,0,1.6,uppercase,europe_pmc_PMC13345226;europe_pmc_PMC13421129;europe_pmc_PMC13465641
+south america,South America,3,1.4,3,,0,,0,1.4,uppercase,europe_pmc_PMC13345226;europe_pmc_PMC13421129;europe_pmc_PMC13465641
+el,El,3,,0,0.0741,3,,0,0.0741,tfidf,europe_pmc_PMC13345226;europe_pmc_PMC13421129;europe_pmc_PMC13678493
+indigenous,Indigenous,2,1.99,2,,0,,0,1.99,uppercase,europe_pmc_PMC13061210;europe_pmc_PMC13575796
+enso,ENSO,2,1.62,2,,0,,0,1.62,uppercase,europe_pmc_PMC13345226;europe_pmc_PMC13678493
+africa,Africa,2,1.32,2,,0,,0,1.32,uppercase,europe_pmc_PMC13488029;europe_pmc_PMC13512877
+lac,LAC,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC13602859;europe_pmc_PMC13650973
+mexico and peru,Mexico and Peru,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC13722036;europe_pmc_PMC13723821
+world health organization,World Health Organization,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC13512877;europe_pmc_PMC7619672
+who,WHO,2,1.28,2,,0,,0,1.28,uppercase,europe_pmc_PMC13307566;europe_pmc_PMC7619672
+one,One,2,1.25,2,,0,,0,1.25,uppercase,europe_pmc_PMC13465641;europe_pmc_PMC13555732
+peru,Peru,2,1.22,2,,0,,0,1.22,uppercase,europe_pmc_PMC13678493;europe_pmc_PMC13723821
+climate prediction center,Climate Prediction Center,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC13345226;europe_pmc_PMC13678493
+southern oscillation,Southern Oscillation,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC13345226;europe_pmc_PMC13555732
+latin american and caribbean,Latin American and Caribbean,2,1.1,2,,0,,0,1.1,uppercase,europe_pmc_PMC13575796;europe_pmc_PMC13602859
+dengue,Dengue,2,,0,0.0506,2,,0,0.0506,tfidf,europe_pmc_PMC13307566;europe_pmc_PMC7619672
+surveillance,Surveillance,2,,0,0.0413,2,,0,0.0413,tfidf,europe_pmc_PMC13307566;europe_pmc_PMC13555732
+tb,TB,1,3.2,1,,0,,0,3.2,uppercase,europe_pmc_PMC13723821
+indigenous peoples,Indigenous Peoples,1,2.9,1,,0,,0,2.9,uppercase,europe_pmc_PMC13061210
+saharan africa,Saharan Africa,1,2.7,1,,0,,0,2.7,uppercase,europe_pmc_PMC13488029
+latin america and africa,Latin America and Africa,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13512877
+coastal el,Coastal El,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC13678493
+south asia,South Asia,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13488029
+costa rica,Costa Rica,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13465641
+el salvador,El Salvador,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13465641
+western sub,Western Sub,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13488029
+eastern europe,Eastern Europe,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13488029
+middle east,Middle East,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13488029
+universal health coverage,Universal Health Coverage,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13512877
+western europe,Western Europe,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13488029
+north africa and middle east,North Africa and Middle East,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13488029
+online supplementary document,Online Supplementary Document,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13650973
+ui,UI,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13488029
+mesoamerica,Mesoamerica,1,1.41,1,,0,,0,1.41,uppercase,europe_pmc_PMC13465641
+review question,Review Question,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13722036
+ci,CI,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC13723821
+health care state,Health Care State,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13460890
+international organization for migration,International Organization for Migration,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13602859
+mexico and colombia,Mexico and Colombia,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13723821
+peru and ecuador,Peru and Ecuador,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13678493
+peruvian amazon,Peruvian Amazon,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13061210
+poverty eradication,Poverty Eradication,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13723821
+strong el,Strong El,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13678493
+sustainable development goals,Sustainable Development Goals,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13723821
+world bank,World Bank,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13723821
+denv,DENV,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC13307566
+african,African,1,1.27,1,,0,,0,1.27,uppercase,europe_pmc_PMC13512877
+evas,EVAs,1,1.27,1,,0,,0,1.27,uppercase,europe_pmc_PMC13650973
+asia,Asia,1,1.25,1,,0,,0,1.25,uppercase,europe_pmc_PMC13488029
+eva,EVA,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC13650973
+ivm,IVM,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC13307566
+peoples,Peoples,1,1.23,1,,0,,0,1.23,uppercase,europe_pmc_PMC13061210
+amazon basin,Amazon Basin,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13421129
+burgos moreno and parvic klijn,Burgos Moreno and Parvic Klijn,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13602859
+ecuadorian amazon,Ecuadorian Amazon,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13545343
+infodengue and argentina,Infodengue and Argentina,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13307566
+latin american and african,Latin American and African,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13512877
+many indigenous,Many Indigenous,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13061210
+michael moran,Michael Moran,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13460890
+relative oceanic,Relative Oceanic,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13678493
+sistema nacional,Sistema Nacional,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13307566
+south american,South American,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13555732
+stop dengue task force,Stop Dengue Task Force,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13307566
+virtual campus,Virtual Campus,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13307566
+web of science,Web of Science,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13602859
+world mosquito program in brazil and colombia,World Mosquito Program in Brazil and Colombia,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13307566
+sdh,SDH,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC13722036
+brazil,Brazil,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC13722036
+tpp,TPP,1,1.14,1,,0,,0,1.14,uppercase,europe_pmc_PMC7619672
+ecuador,Ecuador,1,1.13,1,,0,,0,1.13,uppercase,europe_pmc_PMC13678493
+states,States,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC13460890
+united,United,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC13460890
+although cabieses and huerta,Although Cabieses and Huerta,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13602859
+amazonian ecclesial network in ecuador,Amazonian Ecclesial Network in Ecuador,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13545343
+analyses extension for scoping reviews,Analyses Extension for Scoping Reviews,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13722036
+andean and southern cone,Andean and Southern Cone,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13345226
+asia and latin,Asia and Latin,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC7619672
+asia and latin america,Asia and Latin America,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC7619672
+brazilian notifiable diseases information system,Brazilian Notifiable Diseases Information System,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13650973
+committee on achieving sustainable global capacity for surveillance and response,Committee on Achieving Sustainable Global Capacity for Surveillance and Response,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13555732
+coordinating body of indigenous organisations,Coordinating Body of Indigenous Organisations,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13545343
+emerging diseases of zoonotic origin,Emerging Diseases of Zoonotic Origin,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13555732
+human rights watch,Human Rights Watch,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13545343
+indigenous organisations in latin america,Indigenous Organisations in Latin America,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13061210
+intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13678493
+lancet countdown,Lancet Countdown,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13575796
+lancet regional health,Lancet Regional Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13575796
+latin american network of national programs for venomous animal accidents,Latin American Network of National Programs for Venomous Animal Accidents,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13650973
+latin american network of public antivenom manufacturing laboratories,Latin American Network of Public Antivenom Manufacturing Laboratories,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13650973
+medicines patent pool,Medicines Patent Pool,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC7619672
+member states,Member States,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13421129
+mexico and south america,Mexico and South America,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13602859
+middle east and africa,Middle East and Africa,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13460890
+model lists of essential,Model Lists of Essential,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC7619672
+northern hemisphere,Northern Hemisphere,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13421129
+our commission,Our Commission,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13575796
+pan american health organization,Pan American Health Organization,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13555732
+precautionary principle,Precautionary Principle,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13345226
+preferred reporting items for systematic,Preferred Reporting Items for Systematic,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13722036
+shawi and ashaninka indigenous peoples,Shawi and Ashaninka Indigenous Peoples,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13061210
+social determinants of health,Social Determinants of Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13722036
+southern cone,Southern Cone,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13421129
+united nations declaration,United Nations Declaration,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13722036
+united nations environment program,United Nations Environment Program,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13545343
+united states and israel,United States and Israel,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13460890
+world gold council,World Gold Council,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13545343
+world health organization and global burden of disease,World Health Organization and Global Burden of Disease,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13512877
+amazon,Amazon,1,1.09,1,,0,,0,1.09,uppercase,europe_pmc_PMC13545343
+asgm,ASGM,1,1.06,1,,0,,0,1.06,uppercase,europe_pmc_PMC13545343
+covid,COVID,1,1.06,1,,0,,0,1.06,uppercase,europe_pmc_PMC13575796
+tpps,TPPs,1,1.06,1,,0,,0,1.06,uppercase,europe_pmc_PMC7619672
+americas,Americas,1,1.05,1,,0,,0,1.05,uppercase,europe_pmc_PMC13575796
+caribbean,Caribbean,1,1.05,1,,0,,0,1.05,uppercase,europe_pmc_PMC13602859
+wash,WASH,1,1.04,1,,0,,0,1.04,uppercase,europe_pmc_PMC13421129
+south,South,1,1.03,1,,0,,0,1.03,uppercase,europe_pmc_PMC13421129
+gold,Gold,1,,0,0.0954,1,,0,0.0954,tfidf,europe_pmc_PMC13545343
+mercury,mercury,1,,0,0.0943,1,,0,0.0943,tfidf,europe_pmc_PMC13545343
+mining,mining,1,,0,0.088,1,,0,0.088,tfidf,europe_pmc_PMC13545343
+illegal mining,illegal mining,1,,0,0.0754,1,,0,0.0754,tfidf,europe_pmc_PMC13545343
+illegal,illegal,1,,0,0.0745,1,,0,0.0745,tfidf,europe_pmc_PMC13545343
+research,research,1,,0,0.0695,1,,0,0.0695,tfidf,europe_pmc_PMC13575796
+journal,journal,1,,0,0.068,1,,0,0.068,tfidf,europe_pmc_PMC13575796
+issue,issue,1,,0,0.0636,1,,0,0.0636,tfidf,europe_pmc_PMC13575796
+water,water,1,,0,0.0602,1,,0,0.0602,tfidf,europe_pmc_PMC13421129
+displacement,displacement,1,,0,0.0579,1,,0,0.0579,tfidf,europe_pmc_PMC13421129
+inequity,inequity,1,,0,0.0568,1,,0,0.0568,tfidf,europe_pmc_PMC13575796
+voice,voice,1,,0,0.0568,1,,0,0.0568,tfidf,europe_pmc_PMC13575796
+arboviral,arboviral,1,,0,0.0567,1,,0,0.0567,tfidf,europe_pmc_PMC13421129
+researchers,researchers,1,,0,0.0561,1,,0,0.0561,tfidf,europe_pmc_PMC13575796
+tb incidence,TB incidence,1,,0,0.0535,1,,0,0.0535,tfidf,europe_pmc_PMC13723821
+forecasting,Forecasting,1,,0,0.0528,1,,0,0.0528,tfidf,europe_pmc_PMC13345226
+health impacts,health impacts,1,,0,0.0525,1,,0,0.0525,tfidf,europe_pmc_PMC13345226
+intimate,Intimate,1,,0,0.0522,1,,0,0.0522,tfidf,europe_pmc_PMC13722036
+intimate partner,Intimate partner,1,,0,0.052,1,,0,0.052,tfidf,europe_pmc_PMC13722036
+intimate partner violence,Intimate partner violence,1,,0,0.0519,1,,0,0.0519,tfidf,europe_pmc_PMC13722036
+partner violence,partner violence,1,,0,0.0519,1,,0,0.0519,tfidf,europe_pmc_PMC13722036
+violence,Violence,1,,0,0.0514,1,,0,0.0514,tfidf,europe_pmc_PMC13722036
+impacts,impacts,1,,0,0.0508,1,,0,0.0508,tfidf,europe_pmc_PMC13345226
+poverty,Poverty,1,,0,0.0503,1,,0,0.0503,tfidf,europe_pmc_PMC13723821
+state,State,1,,0,0.0501,1,,0,0.0501,tfidf,europe_pmc_PMC13460890
+migrant,migrant,1,,0,0.0477,1,,0,0.0477,tfidf,europe_pmc_PMC13602859
+notifications,notifications,1,,0,0.0477,1,,0,0.0477,tfidf,europe_pmc_PMC13723821
+policy documents,Policy documents,1,,0,0.0477,1,,0,0.0477,tfidf,europe_pmc_PMC13512877
+documents,documents,1,,0,0.0472,1,,0,0.0472,tfidf,europe_pmc_PMC13512877
+mobility,mobility,1,,0,0.0472,1,,0,0.0472,tfidf,europe_pmc_PMC13602859
+online supplemental,Online supplemental,1,,0,0.0466,1,,0,0.0466,tfidf,europe_pmc_PMC13723821
+heatwave-related deaths,Heatwave-related deaths,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC13488029
+heatwave-related,Heatwave-related,1,,0,0.0461,1,,0,0.0461,tfidf,europe_pmc_PMC13488029
+therapeutics,Therapeutics,1,,0,0.0455,1,,0,0.0455,tfidf,europe_pmc_PMC7619672
+human mobility,human mobility,1,,0,0.0453,1,,0,0.0453,tfidf,europe_pmc_PMC13602859
+spillover,Spillover,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC13555732
+tb notifications,TB notifications,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13723821
+war,War,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13460890
+welfare,Welfare,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13460890
+antivenom,Antivenom,1,,0,0.0441,1,,0,0.0441,tfidf,europe_pmc_PMC13650973
+publications,publications,1,,0,0.0436,1,,0,0.0436,tfidf,europe_pmc_PMC13602859
+conflicts,conflicts,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13460890
+knowledge,knowledge,1,,0,0.0429,1,,0,0.0429,tfidf,europe_pmc_PMC13061210
+systems,systems,1,,0,0.0429,1,,0,0.0429,tfidf,europe_pmc_PMC13061210
+knowledges,knowledges,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC13061210
+wildlife,Wildlife,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13555732
+dengue therapeutics,dengue therapeutics,1,,0,0.0417,1,,0,0.0417,tfidf,europe_pmc_PMC7619672
+drug,drug,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC7619672
+interfaces,interfaces,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC13555732
+practices,practices,1,,0,0.041,1,,0,0.041,tfidf,europe_pmc_PMC13061210
+reservoir,reservoir,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13555732
+antivenoms,Antivenoms,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC13650973
+reviewed,reviewed,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13512877
+scenarios,scenarios,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13488029
+policy,Policy,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC13512877
+heatwave,Heatwave,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC13488029
+development,development,1,,0,0.0392,1,,0,0.0392,tfidf,europe_pmc_PMC7619672
+efficacy,efficacy,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC7619672
+projections,Projections,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13488029
+coastal,Coastal,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC13678493
+scorpion,Scorpion,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC13650973
+envenomation,Envenomation,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC13650973
+procurement,Procurement,1,,0,0.0361,1,,0,0.0361,tfidf,europe_pmc_PMC13650973
+el related,el related,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC13678493
+disease,Disease,1,,0,0.0348,1,,0,0.0348,tfidf,europe_pmc_PMC13465641
+mesoamerican,Mesoamerican,1,,0,0.0345,1,,0,0.0345,tfidf,europe_pmc_PMC13465641
+enso-specific,ENSO-specific,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC13678493
+control,control,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC13307566
+transmission,Transmission,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC13465641
+zoonotic,Zoonotic,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC13465641
+mosquito,Mosquito,1,,0,0.0326,1,,0,0.0326,tfidf,europe_pmc_PMC13307566
+dengue control,Dengue control,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13307566
+animal,animal,1,,0,0.0316,1,,0,0.0316,tfidf,europe_pmc_PMC13465641

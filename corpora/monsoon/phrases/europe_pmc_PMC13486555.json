@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13486555",
+  "phrases": [
+    {
+      "phrase": "arabian sea",
+      "display": "Arabian Sea",
+      "score": 7.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south africa",
+      "display": "South Africa",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south african",
+      "display": "South African",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south asia",
+      "display": "South Asia",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south asian",
+      "display": "South Asian",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north africa",
+      "display": "North Africa",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sasm",
+      "display": "SASM",
+      "score": 1.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sh",
+      "display": "SH",
+      "score": 1.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nh",
+      "display": "NH",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "upwelling",
+      "score": 0.0501,
+      "channel": "tfidf",
+      "display": "upwelling"
+    },
+    {
+      "phrase": "si",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "SI"
+    },
+    {
+      "phrase": "si appendix",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "SI Appendix"
+    },
+    {
+      "phrase": "si appendix fig",
+      "score": 0.0449,
+      "channel": "tfidf",
+      "display": "si appendix fig"
+    },
+    {
+      "phrase": "western arabian",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "western Arabian"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.1049
+}

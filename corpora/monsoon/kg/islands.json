@@ -1,0 +1,21 @@
+{
+  "max_island": 20,
+  "island_count": 1,
+  "islands": [
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13594180",
+        "paper:europe_pmc_PMC13613981",
+        "term:easm",
+        "term:east asian",
+        "term:precipitation",
+        "term:tibetan plateau"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

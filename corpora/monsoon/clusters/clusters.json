@@ -1,0 +1,145 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "East Asian; Tibetan Plateau; EASM; East Asia; Scotese and Robertsons",
+      "paper_count": 2,
+      "term_count": 24,
+      "paper_ids": [
+        "europe_pmc_PMC13594180",
+        "europe_pmc_PMC13613981"
+      ],
+      "terms": [
+        {
+          "phrase": "east asian",
+          "display": "East Asian",
+          "weight": 4.1
+        },
+        {
+          "phrase": "tibetan plateau",
+          "display": "Tibetan Plateau",
+          "weight": 2.9
+        },
+        {
+          "phrase": "easm",
+          "display": "EASM",
+          "weight": 2.24
+        },
+        {
+          "phrase": "east asia",
+          "display": "East Asia",
+          "weight": 2.2
+        },
+        {
+          "phrase": "scotese and robertsons",
+          "display": "Scotese and Robertsons",
+          "weight": 2.1
+        },
+        {
+          "phrase": "sst",
+          "display": "SST",
+          "weight": 1.82
+        },
+        {
+          "phrase": "getech and robertsons",
+          "display": "Getech and Robertsons",
+          "weight": 1.8
+        },
+        {
+          "phrase": "asian",
+          "display": "Asian",
+          "weight": 1.58
+        },
+        {
+          "phrase": "early cretaceous",
+          "display": "Early Cretaceous",
+          "weight": 1.5
+        },
+        {
+          "phrase": "lst",
+          "display": "LST",
+          "weight": 1.5
+        },
+        {
+          "phrase": "mpi",
+          "display": "MPI",
+          "weight": 1.46
+        },
+        {
+          "phrase": "scotese",
+          "display": "Scotese",
+          "weight": 1.44
+        },
+        {
+          "phrase": "bay of bengal",
+          "display": "Bay of Bengal",
+          "weight": 1.4
+        },
+        {
+          "phrase": "foraminiferal mg",
+          "display": "Foraminiferal Mg",
+          "weight": 1.4
+        },
+        {
+          "phrase": "getech and scotese",
+          "display": "Getech and Scotese",
+          "weight": 1.4
+        },
+        {
+          "phrase": "surface temperature",
+          "display": "Surface Temperature",
+          "weight": 1.4
+        },
+        {
+          "phrase": "precipitation",
+          "display": "Precipitation",
+          "weight": 0.0705
+        },
+        {
+          "phrase": "kyr",
+          "display": "Kyr",
+          "weight": 0.0447
+        },
+        {
+          "phrase": "robertsons",
+          "display": "Robertsons",
+          "weight": 0.0432
+        },
+        {
+          "phrase": "getech",
+          "display": "Getech",
+          "weight": 0.042
+        },
+        {
+          "phrase": "palaeogeographic",
+          "display": "palaeogeographic",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "easm region",
+          "display": "EASM region",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "ca",
+          "display": "Ca",
+          "weight": 0.0353
+        },
+        {
+          "phrase": "mg ca",
+          "display": "mg ca",
+          "weight": 0.0353
+        }
+      ]
+    }
+  ]
+}

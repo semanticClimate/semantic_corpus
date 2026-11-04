@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13678493",
+  "phrases": [
+    {
+      "phrase": "coastal el",
+      "display": "Coastal El",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peru and ecuador",
+      "display": "Peru and Ecuador",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "strong el",
+      "display": "Strong El",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "climate prediction center",
+      "display": "Climate Prediction Center",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "relative oceanic",
+      "display": "Relative Oceanic",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "enso",
+      "display": "ENSO",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peru",
+      "display": "Peru",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ecuador",
+      "display": "Ecuador",
+      "score": 1.13,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "El"
+    },
+    {
+      "phrase": "coastal",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "Coastal"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Health"
+    },
+    {
+      "phrase": "el related",
+      "score": 0.0353,
+      "channel": "tfidf",
+      "display": "el related"
+    },
+    {
+      "phrase": "enso-specific",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "ENSO-specific"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

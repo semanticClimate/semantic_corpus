@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13555732",
+  "phrases": [
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern oscillation",
+      "display": "Southern Oscillation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south american",
+      "display": "South American",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "committee on achieving sustainable global capacity for surveillance and response",
+      "display": "Committee on Achieving Sustainable Global Capacity for Surveillance and Response",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "emerging diseases of zoonotic origin",
+      "display": "Emerging Diseases of Zoonotic Origin",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pan american health organization",
+      "display": "Pan American Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "health",
+      "display": "Health",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "one",
+      "display": "One",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "america",
+      "display": "America",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spillover",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "Spillover"
+    },
+    {
+      "phrase": "wildlife",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Wildlife"
+    },
+    {
+      "phrase": "interfaces",
+      "score": 0.0415,
+      "channel": "tfidf",
+      "display": "interfaces"
+    },
+    {
+      "phrase": "surveillance",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Surveillance"
+    },
+    {
+      "phrase": "reservoir",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "reservoir"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0712
+}

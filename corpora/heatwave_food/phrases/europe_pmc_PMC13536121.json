@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13536121",
+  "phrases": [
+    {
+      "phrase": "quality of life brief",
+      "display": "Quality of Life Brief",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "universal thermal climate index",
+      "display": "Universal Thermal Climate Index",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pashto and urdu",
+      "display": "Pashto and Urdu",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "structural heat adaptation and education in rural settings",
+      "display": "Structural Heat Adaptation and Education in Rural Settings",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "household dietary diversity and source assessment module",
+      "display": "Household Dietary Diversity and Source Assessment Module",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "household food insecurity experience scale section",
+      "display": "Household Food Insecurity Experience Scale Section",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ethical review committee of aga khan university",
+      "display": "Ethical Review Committee of Aga Khan University",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "section",
+      "display": "Section",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "icc",
+      "display": "ICC",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rehab",
+      "display": "ReHAB",
+      "score": 1.09,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intervention",
+      "score": 0.0415,
+      "channel": "tfidf",
+      "display": "Intervention"
+    },
+    {
+      "phrase": "devices",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "devices"
+    },
+    {
+      "phrase": "household",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Household"
+    },
+    {
+      "phrase": "cluster",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "cluster"
+    },
+    {
+      "phrase": "heat",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "Heat"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0928
+}

@@ -1,0 +1,182 @@
+phrase,display,n_papers,best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake,best_score,score_channel,paper_ids
+east asian,East Asian,3,2.1,3,,0,,0,2.1,uppercase,europe_pmc_PMC13570586;europe_pmc_PMC13594180;europe_pmc_PMC13613981
+tibetan plateau,Tibetan Plateau,3,1.6,3,,0,,0,1.6,uppercase,europe_pmc_PMC13594180;europe_pmc_PMC13613981;europe_pmc_PMC13721956
+arabian sea,Arabian Sea,2,7.2,2,,0,,0,7.2,uppercase,europe_pmc_PMC13486555;europe_pmc_PMC13580351
+north africa,North Africa,2,2.9,2,,0,,0,2.9,uppercase,europe_pmc_PMC13486555;europe_pmc_PMC13721956
+aim,AIM,2,2.46,2,,0,,0,2.46,uppercase,europe_pmc_PMC13570586;europe_pmc_PMC13639189
+easm,EASM,2,2.24,2,,0,,0,2.24,uppercase,europe_pmc_PMC13570586;europe_pmc_PMC13613981
+northern hemisphere,Northern Hemisphere,2,1.9,2,,0,,0,1.9,uppercase,europe_pmc_PMC13594180;europe_pmc_PMC13639189
+indian ocean,Indian Ocean,2,1.6,2,,0,,0,1.6,uppercase,europe_pmc_PMC13486555;europe_pmc_PMC13639189
+south asian,South Asian,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC13486555;europe_pmc_PMC13594180
+cenozoic,Cenozoic,2,1.04,1,0.0434,1,,0,1.04,uppercase,europe_pmc_PMC13570586;europe_pmc_PMC13721956
+monsoon,Monsoon,2,,0,0.0636,2,,0,0.0636,tfidf,europe_pmc_PMC13570586;europe_pmc_PMC13594180
+precipitation,Precipitation,2,,0,0.0354,2,,0,0.0354,tfidf,europe_pmc_PMC13594180;europe_pmc_PMC13613981
+maritime continent,Maritime Continent,1,3.1,1,,0,,0,3.1,uppercase,europe_pmc_PMC13639189
+north african,North African,1,3.1,1,,0,,0,3.1,uppercase,europe_pmc_PMC13721956
+nee,NEE,1,2.68,1,,0,,0,2.68,uppercase,europe_pmc_PMC13701812
+wsh,WSH,1,2.68,1,,0,,0,2.68,uppercase,europe_pmc_PMC13430655
+acclip,ACCLIP,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13558689
+del carmen,Del Carmen,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13701812
+orchha wildlife sanctuary,Orchha Wildlife Sanctuary,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13686517
+asan conservation reserve,Asan Conservation Reserve,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13533594
+east asia,East Asia,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13613981
+renuka ji,Renuka Ji,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13533594
+sam,SAM,1,2.12,1,,0,,0,2.12,uppercase,europe_pmc_PMC13721956
+scotese and robertsons,Scotese and Robertsons,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC13613981
+asm,ASM,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC13558689
+sasm,SASM,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC13486555
+sh,SH,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC13486555
+random forest,Random Forest,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13686517
+npf,NPF,1,1.88,1,,0,,0,1.88,uppercase,europe_pmc_PMC13558689
+nh,NH,1,1.86,1,,0,,0,1.86,uppercase,europe_pmc_PMC13486555
+kerala,Kerala,1,1.85,1,,0,,0,1.85,uppercase,europe_pmc_PMC13580351
+sst,SST,1,1.82,1,,0,,0,1.82,uppercase,europe_pmc_PMC13594180
+getech and robertsons,Getech and Robertsons,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13613981
+gpp,GPP,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13701812
+south africa,South Africa,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13486555
+re,RE,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC13701812
+south african,South African,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13486555
+sunda and sahul,Sunda and Sahul,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13639189
+amr,AMR,1,1.62,1,,0,,0,1.62,uppercase,europe_pmc_PMC13642211
+east asian summer monsoon,East Asian Summer Monsoon,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13558689
+one health,One Health,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13642211
+south asia,South Asia,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13486555
+south asian summer monsoon,South Asian Summer Monsoon,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13558689
+southern hemisphere,Southern Hemisphere,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13639189
+southwest monsoon,Southwest Monsoon,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13701812
+asian,Asian,1,1.58,1,,0,,0,1.58,uppercase,europe_pmc_PMC13594180
+giardia,Giardia,1,1.55,1,,0,,0,1.55,uppercase,europe_pmc_PMC13430655
+enso,ENSO,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC13580351
+early cretaceous,Early Cretaceous,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13613981
+lst,LST,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13594180
+supplementary discussion,Supplementary Discussion,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13558689
+ndvi,NDVI,1,1.48,1,,0,,0,1.48,uppercase,europe_pmc_PMC13686517
+north,North,1,1.48,1,,0,,0,1.48,uppercase,europe_pmc_PMC13721956
+mpi,MPI,1,1.46,1,,0,,0,1.46,uppercase,europe_pmc_PMC13613981
+rh,RH,1,1.46,1,,0,,0,1.46,uppercase,europe_pmc_PMC13580351
+scotese,Scotese,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13613981
+asian summer monsoon chemical climate impact project,Asian Summer Monsoon Chemical Climate Impact Project,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13558689
+bay of bengal,Bay of Bengal,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13594180
+benefits bangladesh,Benefits Bangladesh,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13430655
+del carmen mangrove reserve,Del Carmen Mangrove Reserve,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13701812
+foraminiferal mg,Foraminiferal Mg,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13594180
+getech and scotese,Getech and Scotese,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13613981
+himalayan ramsar,Himalayan Ramsar,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13533594
+northeast monsoon,Northeast Monsoon,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13701812
+renuka ji lake,Renuka Ji Lake,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13533594
+surface temperature,Surface Temperature,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13594180
+younger dryas,Younger Dryas,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13639189
+mdr,MDR,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC13642211
+ahemad and kibret,Ahemad and Kibret,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13533594
+asian summer monsoon chemical and climate impact project,Asian Summer Monsoon Chemical and Climate Impact Project,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13558689
+atmospheric chemistry,Atmospheric Chemistry,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13558689
+atmospheric tomography mission,Atmospheric Tomography Mission,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13558689
+campbell scientific,Campbell Scientific,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13701812
+google earth engine,Google Earth Engine,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13686517
+itcz,ITCZ,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13639189
+late miocene,Late Miocene,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13721956
+lbm,LBM,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13721956
+north africa and south asia,North Africa and South Asia,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13721956
+renuka ji and asan conservation reserve,Renuka Ji and Asan Conservation Reserve,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13533594
+south asian and north african,South Asian and North African,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13721956
+ci,CI,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC13430655
+ipwp,IPWP,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC13639189
+sentinel,Sentinel,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13686517
+cfu,CFU,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC13533594
+dna,DNA,1,1.22,1,,0,,0,1.22,uppercase,europe_pmc_PMC13533594
+ec,EC,1,1.22,1,,0,,0,1.22,uppercase,europe_pmc_PMC13533594
+campbell scientific inc,Campbell Scientific Inc,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13701812
+coupled model intercomparison project phase,Coupled Model Intercomparison Project Phase,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13580351
+difference in giardia,Difference in Giardia,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13430655
+earth system grid federation,Earth System Grid Federation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13639189
+esbl,ESBL,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13642211
+monte carlo,Monte Carlo,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13580351
+normalized difference moisture index,Normalized Difference Moisture Index,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13686517
+normalized difference vegetation index,Normalized Difference Vegetation Index,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13686517
+prevalence of giardia,Prevalence of Giardia,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13430655
+ratio of giardia,Ratio of Giardia,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13430655
+sahara desert,Sahara Desert,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13721956
+sanger sequencing,Sanger Sequencing,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13533594
+siargao island,Siargao Island,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13701812
+southern oscillation,Southern Oscillation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13580351
+support vector regression,Support Vector Regression,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13580351
+surface reflectance,Surface Reflectance,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13686517
+syzygiumcumini and terminalia,Syzygiumcumini and Terminalia,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13686517
+western ghats,Western Ghats,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13580351
+glcm,GLCM,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC13686517
+assisted laser desorption ionization time,Assisted Laser Desorption Ionization Time,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13642211
+central india institute of medical sciences,Central India Institute of Medical Sciences,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13642211
+clinical and laboratory standards institute,Clinical and Laboratory Standards Institute,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13642211
+indian and asian,Indian and Asian,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13570586
+indonesian monsoon,Indonesian Monsoon,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13570586
+institutional animal ethics committee,Institutional Animal Ethics Committee,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13642211
+institutional ethics committee,Institutional Ethics Committee,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13642211
+modified double disc synergy test,Modified Double Disc Synergy Test,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13642211
+north india sea,North India Sea,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13570586
+nutrition and control,Nutrition and Control,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13430655
+prevalence difference,Prevalence Difference,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13430655
+south and east asian,South and East Asian,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13570586
+study characteristics and summary of effect modifiers between,Study Characteristics and Summary of Effect Modifiers Between,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13430655
+which their pearson correlation with dengue incidence is maximum,Which Their Pearson Correlation With Dengue Incidence Is Maximum,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13580351
+xizang plateau,Xizang Plateau,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13570586
+collision,collision,1,,0,0.0874,1,,0,0.0874,tfidf,europe_pmc_PMC13570586
+tectonic,tectonic,1,,0,0.0742,1,,0,0.0742,tfidf,europe_pmc_PMC13570586
+land,land,1,,0,0.0687,1,,0,0.0687,tfidf,europe_pmc_PMC13570586
+continents,Continents,1,,0,0.0656,1,,0,0.0656,tfidf,europe_pmc_PMC13570586
+monsoons,Monsoons,1,,0,0.0635,1,,0,0.0635,tfidf,europe_pmc_PMC13570586
+children,Children,1,,0,0.0602,1,,0,0.0602,tfidf,europe_pmc_PMC13430655
+dengue,Dengue,1,,0,0.0557,1,,0,0.0557,tfidf,europe_pmc_PMC13580351
+intervention,intervention,1,,0,0.0541,1,,0,0.0541,tfidf,europe_pmc_PMC13430655
+giardia prevalence,Giardia prevalence,1,,0,0.0526,1,,0,0.0526,tfidf,europe_pmc_PMC13430655
+infection,infection,1,,0,0.0508,1,,0,0.0508,tfidf,europe_pmc_PMC13430655
+prevalence,Prevalence,1,,0,0.0508,1,,0,0.0508,tfidf,europe_pmc_PMC13430655
+monsoon-desert,monsoon-desert,1,,0,0.0502,1,,0,0.0502,tfidf,europe_pmc_PMC13721956
+upwelling,upwelling,1,,0,0.0501,1,,0,0.0501,tfidf,europe_pmc_PMC13486555
+canopy,Canopy,1,,0,0.0493,1,,0,0.0493,tfidf,europe_pmc_PMC13686517
+africa,Africa,1,,0,0.0479,1,,0,0.0479,tfidf,europe_pmc_PMC13721956
+coli,coli,1,,0,0.0476,1,,0,0.0476,tfidf,europe_pmc_PMC13642211
+dengue incidence,Dengue Incidence,1,,0,0.0454,1,,0,0.0454,tfidf,europe_pmc_PMC13580351
+african,African,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC13721956
+si,SI,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC13486555
+si appendix,SI Appendix,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC13486555
+si appendix fig,si appendix fig,1,,0,0.0449,1,,0,0.0449,tfidf,europe_pmc_PMC13486555
+monsoon-desert teleconnection,monsoon-desert teleconnection,1,,0,0.0448,1,,0,0.0448,tfidf,europe_pmc_PMC13721956
+kyr,Kyr,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13594180
+canopy-density,Canopy-density,1,,0,0.0446,1,,0,0.0446,tfidf,europe_pmc_PMC13686517
+nm,nm,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC13558689
+mangrove,Mangrove,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC13701812
+isolates,isolates,1,,0,0.0436,1,,0,0.0436,tfidf,europe_pmc_PMC13642211
+robertsons,Robertsons,1,,0,0.0432,1,,0,0.0432,tfidf,europe_pmc_PMC13613981
+western arabian,western Arabian,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC13486555
+incidence,Incidence,1,,0,0.0427,1,,0,0.0427,tfidf,europe_pmc_PMC13580351
+tower,Tower,1,,0,0.0426,1,,0,0.0426,tfidf,europe_pmc_PMC13701812
+genes,genes,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13642211
+class,Class,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC13686517
+getech,Getech,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC13613981
+bacterial,Bacterial,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC13533594
+particle,Particle,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC13558689
+ha,ha,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC13686517
+occurrence,Occurrence,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC13642211
+footprint,Footprint,1,,0,0.0412,1,,0,0.0412,tfidf,europe_pmc_PMC13701812
+pre-monsoon,pre-monsoon,1,,0,0.0412,1,,0,0.0412,tfidf,europe_pmc_PMC13686517
+particles,Particles,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13558689
+ji,Ji,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13533594
+renuka,Renuka,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13533594
+palaeogeographic,palaeogeographic,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC13613981
+resistance,Resistance,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC13642211
+daily,Daily,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC13701812
+culturable,culturable,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13533594
+himalayan,Himalayan,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13533594
+outflow,outflow,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13558689
+easm region,EASM region,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13613981
+optimal,Optimal,1,,0,0.0377,1,,0,0.0377,tfidf,europe_pmc_PMC13580351
+maritime,Maritime,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC13639189
+nucleation,Nucleation,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13558689
+del,Del,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC13701812
+projected,projected,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC13580351
+shelf,Shelf,1,,0,0.0359,1,,0,0.0359,tfidf,europe_pmc_PMC13639189
+rainfall,rainfall,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC13639189
+ca,Ca,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC13594180
+mg ca,mg ca,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC13594180
+glacial,Glacial,1,,0,0.0351,1,,0,0.0351,tfidf,europe_pmc_PMC13639189
+records,Records,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC13639189
