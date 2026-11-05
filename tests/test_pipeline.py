@@ -338,6 +338,20 @@ def test_cli_invalid_kg_links_rejected(tmp_path: Path):
     assert rc == 2
 
 
+def test_doit_db_lives_outside_bag_root(tmp_path: Path, monkeypatch):
+    """bagit.make_bag must not be able to swallow the doit dependency DB."""
+    from semantic_corpus.pipeline.config import apply_env, PipelineOptions
+    from semantic_corpus.pipeline.placeholders import doit_db_path
+
+    workdir = tmp_path / "corpora" / "agri"
+    workdir.mkdir(parents=True)
+    apply_env(PipelineOptions(workdir=workdir, from_mode="existing"))
+    db = doit_db_path(workdir)
+    assert db.parent.is_dir()
+    assert workdir not in db.parents and db.parent != workdir
+    assert not str(db).startswith(str(workdir))
+
+
 def test_cli_second_run_skips(tmp_path: Path, capsys):
     from semantic_corpus.pipeline.cli import main
 

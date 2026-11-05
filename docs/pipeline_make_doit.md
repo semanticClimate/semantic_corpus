@@ -83,7 +83,11 @@ None of these were already dependencies of `semantic_corpus` at the time of this
 - Avoid **`doit.run(globals())`** inside the app — it calls **`sys.exit()`** and would kill the Streamlit process.  
 - Trigger named targets from button callbacks, e.g. ensure `phrases` or `clusters`.  
 - Keep task **actions** as in-process library calls (`extract_phrases`, `build_clusters`, …), not subprocess launches of Streamlit.  
-- Store doit’s dependency DB **per corpus** (e.g. `corpora/<name>/.doit.db`) so corpora do not share stale state.  
+- Store doit’s dependency DB **per corpus but outside the BAGIT root**
+  (e.g. `temp/pipeline_doit/<name>_<hash>/doit.db`).  
+  `bagit.make_bag` moves every top-level file into `data/`; a DB under
+  `corpora/<name>/.doit.db` gets swept away mid-run and then fails on Windows
+  when doit tries to dump state (`FileNotFoundError: …\.doit.db.dat`).  
 - Be cautious with doit’s multiprocess `-n` from inside Streamlit; default to sequential runs from the UI.
 
 Streamlit does **not** need to embed a doit UI; it only needs to invoke the same tasks the CLI uses.

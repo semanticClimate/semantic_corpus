@@ -117,7 +117,7 @@ All tasks read a small **run context** (CLI flags / Streamlit session / env):
 | `phrase_method` | `tfidf` \| `yake` | `tfidf` |
 | `phrase_n` / `phrase_top` | n-gram / top-k | `3` / `15` |
 | `cluster_resolution` | Louvain resolution | `1.0` |
-| `doit_db` | Per-corpus dependency DB | `<corpus_dir>/.doit.db` |
+| `doit_db` | Per-corpus dependency DB | `temp/pipeline_doit/<name>_<hash>/doit.db` (outside BAGIT root) |
 
 Force semantics: `doit forget <task>` or task-specific `--force` / Streamlit “Force re-run” clears uptodate for that task (and optionally downstream).
 
@@ -373,8 +373,8 @@ temp/queries/<query_name>/          # query or documents staging
 
 corpora/<query_name>/
   bagit.txt
-  .doit.db                          # per-corpus doit dependency DB
   pipeline/                         # stamps (design)
+  # doit DB: temp/pipeline_doit/… (not inside bag — make_bag moves top-level files)
     corpus.stamp
     pdfs.stamp
     clean.stamp

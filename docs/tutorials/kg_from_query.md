@@ -112,5 +112,6 @@ open corpora/amoc_demo/kg/knowledge_graph.html   # macOS
 | Too many blue nodes | Raise `--kg-min-paper-count` or lower `--kg-max-terms` |
 | No hover titles | Hard-reload the HTML after rebuild |
 | Browser opens unwanted | Pass `--no-open` |
+| `FileNotFoundError: …\.doit.db.dat` (Windows) | Upgrade past the fix that stores the doit DB outside the bag; delete any stale `corpora/<name>/.doit.db*` and `data/.doit.db*` leftovers, then re-run |
 
 More detail: [pipeline.md](../pipeline.md) · [pipeline_next_encyclopedia_kg.md](../pipeline_next_encyclopedia_kg.md)

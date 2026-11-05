@@ -20,8 +20,14 @@ from semantic_corpus.pipeline.steps import (
     doit_deps_for,
 )
 
+def _dep_file() -> str:
+    path = doit_db_path()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return str(path)
+
+
 DOIT_CONFIG = {
-    "dep_file": str(doit_db_path()),
+    "dep_file": _dep_file(),
     "verbosity": 1,
 }
 

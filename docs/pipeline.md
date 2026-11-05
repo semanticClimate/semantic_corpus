@@ -96,14 +96,15 @@ corpora/amoc_insolation_20/          # --workdir (BAGIT corpus root)
     clusters.json
     orphans.json
     graph_summary.json
-  pipeline/                          # doit/pipeline stamps
+  pipeline/                          # pipeline stamps
     query.stamp
     corpus.stamp
     phrases.stamp
     clusters.stamp
-  .doit.db                           # per-workdir dependency DB
+  # NOTE: doit DB is NOT under the bag (bagit.make_bag would move it into data/)
 
-temp/queries/amoc_insolation_20/     # harvest dir (name = workdir basename)
+temp/pipeline_doit/<workdir>_<hash>/doit.db   # per-corpus doit dependency DB
+temp/queries/amoc_insolation_20/              # harvest dir (name = workdir basename)
   PMC….xml
   search_results.json
   review/
