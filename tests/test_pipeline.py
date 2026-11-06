@@ -36,26 +36,28 @@ def _pipeline_placeholder_mode(monkeypatch, request):
 
 
 def test_infer_from_mode():
-    assert infer_from_mode("amoc AND India", None) == "query"
-    assert infer_from_mode(None, "wg2/ch2") == "documents"
+    assert infer_from_mode("amoc AND India", None) == "collect"
+    assert infer_from_mode(None, "wg2/ch2") == "collect"
     assert infer_from_mode(None, None) == "existing"
     with pytest.raises(ValueError):
         infer_from_mode("q", "s")
 
 
 def test_deps_corpus_modes():
-    assert deps_for("corpus", "query") == ["query"]
-    assert deps_for("corpus", "documents") == ["documents"]
+    assert deps_for("corpus", "collect") == ["collect"]
     assert deps_for("corpus", "existing") == []
-    assert deps_for("phrases", "query") == ["corpus"]
-    assert deps_for("pdfs", "query") == ["corpus"]
-    assert deps_for("clusters", "query") == ["phrases"]
+    assert deps_for("phrases", "collect") == ["corpus"]
+    assert deps_for("pdfs", "collect") == ["corpus"]
+    assert deps_for("clusters", "collect") == ["phrases"]
+    assert deps_for("clean", "collect") == ["clusters"]
+    assert deps_for("encyclopedia", "collect") == ["clean"]
 
 
 def test_required_steps_clusters_via_query():
-    plan = required_steps(["clusters"], from_mode="query")
-    assert plan == ["query", "corpus", "phrases", "clusters"]
+    plan = required_steps(["clusters"], from_mode="collect")
+    assert plan == ["collect", "corpus", "phrases", "clusters"]
     assert "pdfs" not in plan
+    assert "encyclopedia" not in plan
     assert "bagit" not in plan
 
 
@@ -87,9 +89,9 @@ def test_cli_placeholder_query_to_clusters(tmp_path: Path):
         )
         == 0
     )
-    for step in ("query", "corpus", "phrases", "clusters"):
+    for step in ("collect", "corpus", "phrases", "clusters"):
         assert stamp_path(step, workdir).is_file(), step
-    data = json.loads(stamp_path("query", workdir).read_text(encoding="utf-8"))
+    data = json.loads(stamp_path("collect", workdir).read_text(encoding="utf-8"))
     assert data["options"]["limit"] == 20
     assert data["status"] == "placeholder"
 
@@ -139,8 +141,8 @@ def test_example_amoc_insolation_limit_20_to_clusters():
         "clusters",
     ]
 
-    assert required_steps(["clusters"], from_mode="query") == [
-        "query",
+    assert required_steps(["clusters"], from_mode="collect") == [
+        "collect",
         "corpus",
         "phrases",
         "clusters",
@@ -148,6 +150,7 @@ def test_example_amoc_insolation_limit_20_to_clusters():
     assert main(argv) == 0
 
     assert (workdir / "bagit.txt").is_file()
+    assert (workdir / "packets" / "manifest.json").is_file()
     assert (workdir / "phrases" / "index.json").is_file()
     assert (workdir / "clusters" / "graph_summary.json").is_file()
     assert (workdir / "clusters" / "clusters.json").is_file()
@@ -163,7 +166,7 @@ def test_example_amoc_insolation_limit_20_to_clusters():
     assert int(summary.get("cluster_count") or 0) >= 0
     assert summary.get("params", {}).get("resolution") == 0.8
 
-    query_stamp = json.loads(stamp_path("query", workdir).read_text(encoding="utf-8"))
+    query_stamp = json.loads(stamp_path("collect", workdir).read_text(encoding="utf-8"))
     assert query_stamp["status"] == "ok"
     assert query_stamp["options"]["query"] == "amoc AND insolation"
     assert query_stamp["options"]["limit"] == 20
@@ -187,15 +190,16 @@ def test_cli_query_also_stamps_corpus(tmp_path: Path):
         )
         == 0
     )
-    assert stamp_path("query", tmp_path).is_file()
+    assert stamp_path("collect", tmp_path).is_file()
     assert stamp_path("corpus", tmp_path).is_file()
     corpus = read_stamp("corpus", tmp_path)
     assert corpus is not None
-    assert corpus.get("produced_by") == "query"
+    assert corpus.get("produced_by") == "collect"
 
 
 def test_cli_source_to_clusters(tmp_path: Path):
     from semantic_corpus.pipeline.cli import main
+    from semantic_corpus.pipeline.placeholders import read_stamp
 
     assert (
         main(
@@ -210,9 +214,11 @@ def test_cli_source_to_clusters(tmp_path: Path):
         )
         == 0
     )
-    assert stamp_path("documents", tmp_path).is_file()
+    assert stamp_path("collect", tmp_path).is_file()
     assert stamp_path("corpus", tmp_path).is_file()
-    assert not stamp_path("query", tmp_path).is_file()
+    corpus = read_stamp("corpus", tmp_path)
+    assert corpus is not None
+    assert corpus.get("produced_by") == "collect"
 
 
 def test_cli_existing_target_clusters(tmp_path: Path):
@@ -222,7 +228,7 @@ def test_cli_existing_target_clusters(tmp_path: Path):
     assert stamp_path("corpus", tmp_path).is_file()
     assert stamp_path("phrases", tmp_path).is_file()
     assert stamp_path("clusters", tmp_path).is_file()
-    assert not stamp_path("query", tmp_path).is_file()
+    assert not stamp_path("collect", tmp_path).is_file()
 
 
 def test_cli_query_and_source_rejected(tmp_path: Path):
@@ -243,16 +249,27 @@ def test_cli_query_and_source_rejected(tmp_path: Path):
     assert rc == 2
 
 
-def test_kg_plan_after_clusters():
-    plan = required_steps(["kg"], from_mode="existing")
+def test_encyclopedia_plan_includes_clean():
+    plan = required_steps(["encyclopedia"], from_mode="existing")
     assert plan == [
         "corpus",
         "phrases",
         "clusters",
-        "kg",
+        "clean",
+        "encyclopedia",
+    ]
+
+
+def test_clean_plan_stops_before_encyclopedia():
+    plan = required_steps(["clean"], from_mode="collect")
+    assert plan == [
+        "collect",
+        "corpus",
+        "phrases",
+        "clusters",
+        "clean",
     ]
     assert "encyclopedia" not in plan
-    assert "clean" not in plan
 
 
 def test_options_max_entries_and_kg_links():
@@ -277,8 +294,8 @@ def test_options_max_entries_and_kg_links():
         )
 
 
-def test_cli_encyclopedia_max_entries_and_kg_links(tmp_path: Path):
-    """Stub encyclopedia/kg accept --max-entries and --kg-links (placeholder)."""
+def test_cli_encyclopedia_max_entries_and_kg_flag(tmp_path: Path):
+    """Encyclopedia accepts --max-entries / --kg-links; --kg is a flag not a step."""
     from semantic_corpus.pipeline.cli import main
 
     assert (
@@ -294,8 +311,9 @@ def test_cli_encyclopedia_max_entries_and_kg_links(tmp_path: Path):
                 "clusters,wikipedia,wikidata",
                 "--kg-max-island",
                 "15",
+                "--kg",
                 "--target",
-                "kg",
+                "encyclopedia",
             ]
         )
         == 0
@@ -304,22 +322,20 @@ def test_cli_encyclopedia_max_entries_and_kg_links(tmp_path: Path):
         "corpus",
         "phrases",
         "clusters",
-        "kg",
+        "clean",
+        "encyclopedia",
     ):
         assert stamp_path(step, tmp_path).is_file(), step
-    assert not stamp_path("clean", tmp_path).is_file()
-    # encyclopedia is optional for kg (soft-attach when entries exist)
-    assert not stamp_path("encyclopedia", tmp_path).is_file()
+    assert not stamp_path("kg", tmp_path).is_file()
 
-    kg = json.loads(stamp_path("kg", tmp_path).read_text(encoding="utf-8"))
-    assert kg["options"]["max_entries"] == 50
-    assert kg["options"]["encyclopedia_lang"] == "en"
-    assert kg["options"]["kg_links"] == "clusters,wikipedia,wikidata"
-    assert kg["options"]["kg_max_island"] == 15
-    assert kg["options"]["kg_max_terms"] == 40  # default
-    assert kg["options"]["kg_min_paper_count"] == 2  # default
-    assert kg["options"]["kg_open"] is True  # default
-    assert kg["status"] == "placeholder"
+    enc = json.loads(stamp_path("encyclopedia", tmp_path).read_text(encoding="utf-8"))
+    assert enc["options"]["max_entries"] == 50
+    assert enc["options"]["encyclopedia_lang"] == "en"
+    assert enc["options"]["kg_links"] == "clusters,wikipedia,wikidata"
+    assert enc["options"]["kg_max_island"] == 15
+    assert enc["options"]["write_kg"] is True
+    assert enc["options"]["kg_open"] is True
+    assert enc["status"] == "placeholder"
 
 
 def test_cli_invalid_kg_links_rejected(tmp_path: Path):
@@ -332,7 +348,7 @@ def test_cli_invalid_kg_links_rejected(tmp_path: Path):
             "--kg-links",
             "clusters,bogus",
             "--target",
-            "kg",
+            "encyclopedia",
         ]
     )
     assert rc == 2
@@ -366,11 +382,11 @@ def test_cli_second_run_skips(tmp_path: Path, capsys):
     assert main(args) == 0
     mtimes = {
         s: stamp_path(s, tmp_path).stat().st_mtime_ns
-        for s in ("query", "corpus", "phrases", "clusters")
+        for s in ("collect", "corpus", "phrases", "clusters")
     }
     capsys.readouterr()
     assert main(args) == 0
     out = capsys.readouterr().out
-    assert "[pipeline] query: placeholder" not in out
+    assert "[pipeline] collect: placeholder" not in out
     for step, prev in mtimes.items():
         assert stamp_path(step, tmp_path).stat().st_mtime_ns == prev

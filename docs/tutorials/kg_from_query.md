@@ -1,7 +1,8 @@
 # Tutorial: query → papers↔terms knowledge graph
 
-**Goal:** run a Europe PMC search and open an interactive **paper ↔ term** graph in one command.  
-**Time:** a few minutes for a small limit (network + phrase extraction).
+**Goal:** Europe PMC search → interactive **paper ↔ term** graph.  
+**Time:** a few minutes for a small limit (network + phrase extraction).  
+**Examples index:** [pipeline_examples.md](../pipeline_examples.md).
 
 ---
 
@@ -18,87 +19,76 @@ Console script: **`pipeline`** (or `./venv/bin/pipeline`).
 
 ---
 
-## 1. One command
+## 1. Example — AMOC, 30 papers (plain KG)
 
 ```bash
 ./venv/bin/pipeline \
-  --workdir corpora/amoc_demo \
-  --query "amoc AND insolation" \
-  --target kg
+  --workdir corpora/amoc_30 \
+  --query "AMOC" \
+  --limit 30 \
+  --target clusters \
+  --kg
 ```
 
-Defaults already do the rest:
-
-| Default | Value | Meaning |
-|---------|-------|---------|
-| `--limit` | `20` | Max Europe PMC hits |
-| `--kg-links` | `clusters` | Bipartite **paper ↔ term** edges |
-| `--kg-min-paper-count` | `2` | Drop rare terms |
-| `--kg-max-terms` | `40` | Cap blue term nodes |
-| `--open` | on | Open `kg/knowledge_graph.html` when done |
+| Flag | Value | Meaning |
+|------|-------|---------|
+| `--query` | `AMOC` | Live collect via EPMC |
+| `--limit` | `30` | Max hits |
+| `--target` | `clusters` | Through map |
+| `--kg` | on | **KG₁** — incidence graph, no Wikipedia yet |
+| `--open` | on | Open `kg/knowledge_graph.html` |
 
 **Colors:** orange = papers (hover for title), blue = terms.
-
-Override any of them explicitly when needed (`--limit 50`, `--kg-links clusters,wikipedia`, `--no-open`, …).
 
 ---
 
 ## 2. What you get
 
 ```text
-corpora/amoc_demo/
+corpora/amoc_30/
   bagit.txt
   data/…
   phrases/
   clusters/
   kg/
-    knowledge_graph.html   ← interactive graph
+    knowledge_graph.html   ← interactive graph (KG₁)
     graph.json
     islands.json
-    kg_summary.json
 ```
 
-Re-open later without rebuilding:
+Re-open later:
 
 ```bash
-open corpora/amoc_demo/kg/knowledge_graph.html   # macOS
-# or:
-./venv/bin/pipeline kg --workdir corpora/amoc_demo
+open corpora/amoc_30/kg/knowledge_graph.html   # macOS
+# or rebuild helper:
+./venv/bin/pipeline kg --workdir corpora/amoc_30
 ```
 
 ---
 
-## 3. Useful variants
+## 3. Continue: clean → encyclopedia + annotated KG
 
-**Fresh remake** (ignore skip-if-done stamps):
+```bash
+./venv/bin/pipeline --workdir corpora/amoc_30 --target clean
+./venv/bin/pipeline --workdir corpora/amoc_30 --target encyclopedia --kg
+```
+
+**KG₂** adds Wikipedia payloads (and can include Wikidata via `--kg-links`).
+
+**Fresh remake:**
 
 ```bash
 ./venv/bin/pipeline run --always \
-  --workdir corpora/amoc_demo \
-  --query "amoc AND insolation" \
-  --target kg
+  --workdir corpora/amoc_30 \
+  --query "AMOC" --limit 30 \
+  --target clusters --kg
 ```
 
-**Merge synonym terms** (needs a prior encyclopedia build with Wikipedia resolves):
+**Headless / CI:**
 
 ```bash
-./venv/bin/pipeline encyclopedia --workdir corpora/amoc_demo \
-  --min-paper-count 2 --max-entries 50 --force
-
-./venv/bin/pipeline kg --workdir corpora/amoc_demo \
-  --kg-links clusters,wikipedia
-```
-
-**Existing corpus only** (no new search):
-
-```bash
-./venv/bin/pipeline --workdir corpora/amoc_demo --target kg
-```
-
-**Headless / CI** (don’t open a browser):
-
-```bash
-./venv/bin/pipeline --workdir corpora/amoc_demo --query "…" --target kg --no-open
+./venv/bin/pipeline --workdir corpora/amoc_30 \
+  --query "AMOC" --limit 30 --target clusters --kg --no-open
 ```
 
 ---
@@ -112,6 +102,6 @@ open corpora/amoc_demo/kg/knowledge_graph.html   # macOS
 | Too many blue nodes | Raise `--kg-min-paper-count` or lower `--kg-max-terms` |
 | No hover titles | Hard-reload the HTML after rebuild |
 | Browser opens unwanted | Pass `--no-open` |
-| `FileNotFoundError: …\.doit.db.dat` (Windows) | Upgrade past the fix that stores the doit DB outside the bag; delete any stale `corpora/<name>/.doit.db*` and `data/.doit.db*` leftovers, then re-run |
+| `FileNotFoundError: …\.doit.db.dat` (Windows) | Store doit DB outside the bag (current pipeline); delete stale `corpora/<name>/.doit.db*` leftovers |
 
-More detail: [pipeline.md](../pipeline.md) · [pipeline_next_encyclopedia_kg.md](../pipeline_next_encyclopedia_kg.md)
+More: [pipeline.md](../pipeline.md) · [pipeline_examples.md](../pipeline_examples.md) · [pipeline_kg_mappers.md](../pipeline_kg_mappers.md)

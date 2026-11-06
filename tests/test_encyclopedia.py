@@ -283,16 +283,15 @@ def test_select_phrases_from_phrases_terms_min_paper_count(tmp_path: Path):
     assert "singleton" not in phrases
 
 
-def test_kg_plan_depends_on_clusters_not_encyclopedia():
+def test_encyclopedia_and_kg_plans_follow_design_spine():
     from semantic_corpus.pipeline.steps import required_steps
 
     plan = required_steps(["encyclopedia"], from_mode="existing")
-    assert plan == ["corpus", "phrases", "clusters", "encyclopedia"]
-    assert "clean" not in plan
+    assert plan == ["corpus", "phrases", "clusters", "clean", "encyclopedia"]
 
-    kg_plan = required_steps(["kg"], from_mode="existing")
-    assert kg_plan == ["corpus", "phrases", "clusters", "kg"]
-    assert "encyclopedia" not in kg_plan
+    clean_plan = required_steps(["clean"], from_mode="existing")
+    assert clean_plan == ["corpus", "phrases", "clusters", "clean"]
+    assert "encyclopedia" not in clean_plan
 
 
 @pytest.mark.live_api

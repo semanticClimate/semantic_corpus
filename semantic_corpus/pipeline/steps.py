@@ -1,63 +1,72 @@
 """Symbolic pipeline steps and dependency graph (source of truth).
 
-``query`` / ``documents`` **produce** a BAGIT **corpus** under ``--workdir``.
-``corpus`` is the gate later steps depend on (ensure / existing bag), not a
-separate packaging product beyond what those material steps already write.
+Design spine (docs/pipeline_kg_mappers.md §1.1):
 
-Step *actions* are placeholders until wired to cluster_review APIs.
+  Collect → Corpus (+indexes) → Terms → Clusters [--kg] → Clean
+       → Encyclopedia [--kg]
+
+Two knowledge graphs (display artifacts, not doit steps):
+  - after ``clusters``: incidence BKG without wiki annotations (``--kg``)
+  - after ``encyclopedia``: same graph + Wikipedia payloads / optional Wikidata
+    (``--kg``)
+
+``clean`` curates using the clusters-stage graph (FP terms/packets) before
+annotate effort.
 """
 
 from __future__ import annotations
 
 from typing import Dict, List, Sequence, Set
 
-# How the corpus is obtained (inferred from --query / --source / neither).
-FROM_MODES = ("query", "documents", "existing")
+# How material enters: collect (--query / --source) or use an existing bag.
+FROM_MODES = ("collect", "existing")
 
 STEP_NAMES: List[str] = [
-    "query",
-    "documents",
+    "collect",
     "corpus",
     "phrases",
     "pdfs",
     "clusters",
     "clean",
     "encyclopedia",
-    "kg",
 ]
 
 STEP_DOCS: Dict[str, str] = {
-    "query": "Live search + download + package BAGIT corpus at --workdir",
-    "documents": "Ingest --source files into BAGIT corpus at --workdir",
-    "corpus": "Ensure corpus exists under --workdir (gate for later steps)",
-    "phrases": "Keyphrase extract → phrases/ (method + params via flags)",
-    "pdfs": "Fill missing valid PDFs into the corpus (parallel with phrases)",
-    "clusters": "Bipartite KG (BKG) + communities → clusters/ (method flags)",
-    "clean": "FP paper/term cleaning loop (recompute clusters)",
-    "encyclopedia": (
-        "Resolve retained phrases to Wikipedia/Wikidata "
-        "(--encyclopedia-lang, --max-entries) → encyclopedia/"
+    "collect": (
+        "Collect documents into BAGIT at --workdir "
+        "(--query: EPMC/other remotes; --source: static documents)"
     ),
-    "kg": "Linked knowledge graph + islands (feedback to clean)",
+    "corpus": (
+        "Ensure corpus under --workdir and structural packet indexes "
+        "on text components → packets/"
+    ),
+    "phrases": "Traverse indexed packet texts → extract terms → phrases/",
+    "pdfs": "Fill missing valid PDFs into the corpus (parallel with phrases)",
+    "clusters": (
+        "Map: bipartite term↔packet BKG + communities → clusters/ "
+        "(optional --kg: unannotated display graph)"
+    ),
+    "clean": (
+        "Curate after clusters: remove FP packets/terms using BKG / islands "
+        "(before encyclopedia)"
+    ),
+    "encyclopedia": (
+        "Annotate retained terms with Wikipedia/Wikidata → encyclopedia/ "
+        "(optional --kg: annotated display graph)"
+    ),
 }
 
 # Steps that create the corpus artifact as part of their work.
-MATERIAL_STEPS = frozenset({"query", "documents"})
+MATERIAL_STEPS = frozenset({"collect"})
 
 _BASE_DEPS: Dict[str, List[str]] = {
-    "query": [],
-    "documents": [],
+    "collect": [],
     "corpus": [],  # filled by from_mode in deps_for
     "phrases": ["corpus"],
     "pdfs": ["corpus"],
     "clusters": ["phrases"],
     "clean": ["clusters"],
-    # Prefer clean decisions when present; graph only requires clusters so the
-    # step is runnable before/without a clean session (see pipeline_encyclopedia.md).
-    "encyclopedia": ["clusters"],
-    # KG can run after clusters (BKG edges); wikipedia/wikidata soft-attach
-    # encyclopedia nodes when entries.json exists.
-    "kg": ["clusters"],
+    "encyclopedia": ["clean"],
 }
 
 _DOIT_BASENAME: Dict[str, str] = {
@@ -78,7 +87,7 @@ def public_step_from_doit(basename: str) -> str:
     return basename
 
 
-def deps_for(step: str, from_mode: str = "query") -> List[str]:
+def deps_for(step: str, from_mode: str = "collect") -> List[str]:
     """Direct task dependencies under the inferred start mode."""
     if step not in _BASE_DEPS:
         raise KeyError(f"Unknown pipeline step: {step!r}")
@@ -87,23 +96,21 @@ def deps_for(step: str, from_mode: str = "query") -> List[str]:
             f"Unknown start mode {from_mode!r}; choose one of {FROM_MODES}"
         )
     if step == "corpus":
-        if from_mode == "query":
-            return ["query"]
-        if from_mode == "documents":
-            return ["documents"]
+        if from_mode == "collect":
+            return ["collect"]
         return []
     return list(_BASE_DEPS[step])
 
 
-def all_deps(from_mode: str = "query") -> Dict[str, List[str]]:
+def all_deps(from_mode: str = "collect") -> Dict[str, List[str]]:
     return {name: deps_for(name, from_mode) for name in STEP_NAMES}
 
 
-def doit_deps_for(step: str, from_mode: str = "query") -> List[str]:
+def doit_deps_for(step: str, from_mode: str = "collect") -> List[str]:
     return [doit_basename(d) for d in deps_for(step, from_mode)]
 
 
-def required_steps(targets: Sequence[str], from_mode: str = "query") -> List[str]:
+def required_steps(targets: Sequence[str], from_mode: str = "collect") -> List[str]:
     unknown = [t for t in targets if t not in _BASE_DEPS]
     if unknown:
         raise KeyError(f"Unknown pipeline step(s): {unknown}")
@@ -123,17 +130,23 @@ def required_steps(targets: Sequence[str], from_mode: str = "query") -> List[str
     return [n for n in STEP_NAMES if n in needed]
 
 
-def graph_text(from_mode: str = "query") -> str:
-    lines = [f"# pipeline graph (start={from_mode})", ""]
+def graph_text(from_mode: str = "collect") -> str:
+    lines = [
+        f"# pipeline graph (start={from_mode})",
+        "# design: collect → corpus(+indexes) → terms → clusters[--kg] → clean → encyclopedia[--kg]",
+        "",
+    ]
     for name in STEP_NAMES:
         deps = deps_for(name, from_mode)
         if deps:
             lines.append(f"{' + '.join(deps)}  →  {name}")
         elif name == "corpus":
-            lines.append(f"(existing --workdir)  →  corpus")
+            lines.append("(existing --workdir)  →  corpus")
         else:
             lines.append(f"{name}")
     lines.append("")
-    lines.append("# query/documents produce the corpus; phrases/pdfs need corpus")
-    lines.append("# pdfs is parallel to phrases/clusters")
+    lines.append("# collect options: --query (EPMC/remotes) | --source (static docs)")
+    lines.append("# two KGs (flags, not steps): clusters --kg (plain); encyclopedia --kg (annotated)")
+    lines.append("# clean curates after clusters; encyclopedia annotates retained terms")
+    lines.append("# pdfs is parallel to the terms/map chain")
     return "\n".join(lines)

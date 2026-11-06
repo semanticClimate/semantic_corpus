@@ -26,6 +26,7 @@ from semantic_corpus.pipeline.config import (
     DEFAULT_ENCYCLOPEDIA_SOURCE,
     DEFAULT_KG_LINKS,
     DEFAULT_KG_OPEN,
+    DEFAULT_WRITE_KG,
     ENCYCLOPEDIA_SOURCE_CHOICES,
     DEFAULT_KG_MAX_ISLAND,
     DEFAULT_KG_MAX_TERMS,
@@ -136,7 +137,14 @@ def _normalize_argv(argv: List[str]) -> List[str]:
             leading_opts.append(tok)
             i += 1
             continue
-        if tok in ("--always", "-a", "--open", "--no-open"):
+        if tok in (
+            "--always",
+            "-a",
+            "--open",
+            "--no-open",
+            "--kg",
+            "--no-kg",
+        ):
             leading_opts.append(tok)
             i += 1
             continue
@@ -159,19 +167,21 @@ def _options_from_args(args: argparse.Namespace) -> PipelineOptions:
     source = getattr(args, "source", None)
     explicit = getattr(args, "from_mode", None)
     from_mode = explicit if explicit else infer_from_mode(query, source)
+    # Remote-search defaults only apply when --query is set.
     limit = getattr(args, "limit", None)
-    if from_mode == "query" and limit is None:
-        limit = DEFAULT_LIMIT
     repository = getattr(args, "repository", None)
-    if from_mode == "query" and not repository:
-        repository = DEFAULT_REPOSITORY
+    if query:
+        if limit is None:
+            limit = DEFAULT_LIMIT
+        if not repository:
+            repository = DEFAULT_REPOSITORY
     return PipelineOptions(
         workdir=Path(args.workdir),
         from_mode=from_mode,
         query=query,
         source=source,
-        limit=limit if from_mode == "query" else None,
-        repository=repository if from_mode == "query" else None,
+        limit=limit if query else None,
+        repository=repository if query else None,
         phrase_method=getattr(args, "phrase_method", DEFAULT_PHRASE_METHOD),
         phrase_n=getattr(args, "phrase_n", DEFAULT_PHRASE_N),
         phrase_top=getattr(args, "phrase_top", DEFAULT_PHRASE_TOP),
@@ -192,6 +202,7 @@ def _options_from_args(args: argparse.Namespace) -> PipelineOptions:
         encyclopedia_source=getattr(
             args, "encyclopedia_source", DEFAULT_ENCYCLOPEDIA_SOURCE
         ),
+        write_kg=bool(getattr(args, "write_kg", DEFAULT_WRITE_KG)),
         kg_max_island=getattr(args, "kg_max_island", DEFAULT_KG_MAX_ISLAND),
         kg_max_terms=getattr(args, "kg_max_terms", DEFAULT_KG_MAX_TERMS),
         kg_min_paper_count=getattr(
@@ -265,16 +276,14 @@ def cmd_run(args: argparse.Namespace) -> int:
         return 2
 
     from_mode = get_from_mode()
-    if from_mode == "query" and not get_query():
+    if from_mode == "collect" and not get_query() and not get_source():
         print(
-            'Live search requires --query "…" '
-            "(plus optional --limit / --repository). "
-            "Omit --query/--source to use an existing corpus under --workdir.",
+            "Collect requires --query \"…\" (EPMC/other remotes; "
+            "optional --limit / --repository) or --source <path> "
+            "(static documents). "
+            "Omit both to use an existing corpus under --workdir.",
             file=sys.stderr,
         )
-        return 2
-    if from_mode == "documents" and not get_source():
-        print("Document start requires --source <path>.", file=sys.stderr)
         return 2
 
     opts = options_from_env()
@@ -411,24 +420,32 @@ def cmd_encyclopedia(args: argparse.Namespace) -> int:
 
 
 def cmd_kg(args: argparse.Namespace) -> int:
-    """Build + optionally open the knowledge-graph HTML after clusters."""
+    """Rebuild display KG HTML (helper; not a doit step).
+
+    Prefer ``pipeline --target clusters --kg`` (plain) or
+    ``pipeline --target encyclopedia --kg`` (annotated).
+    """
     from semantic_corpus.cluster_review.kg import build_kg
-    from semantic_corpus.pipeline.placeholders import write_stamp
 
     opts = options_from_env()
     workdir = opts.workdir
     if not (workdir / "clusters" / "clusters.json").is_file():
         print(
             f"missing clusters/clusters.json under {workdir}; "
-            "run: pipeline run --workdir … --target clusters",
+            "run: pipeline run --workdir … --target clusters --kg",
             file=sys.stderr,
         )
         return 2
 
     links = opts.kg_link_list()
+    enc = workdir / "encyclopedia" / "entries.json"
+    if enc.is_file() and "wikipedia" not in links and "wikidata" not in links:
+        links = tuple(list(links) + ["wikipedia"])
     open_browser = bool(getattr(args, "open", opts.kg_open))
+    stage = "encyclopedia" if enc.is_file() else "clusters"
     print(
-        f"[pipeline] kg: workdir={workdir} links={','.join(links)} "
+        f"[pipeline] kg (rebuild/{stage}): workdir={workdir} "
+        f"links={','.join(links)} "
         f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
         f"max_island={opts.kg_max_island} open={open_browser}"
     )
@@ -444,24 +461,6 @@ def cmd_kg(args: argparse.Namespace) -> int:
         or f"Knowledge graph ({workdir.name})",
     )
     counts = summary.get("counts") or {}
-    params = summary.get("params") or {}
-    write_stamp(
-        "kg",
-        workdir,
-        {
-            "status": "ok",
-            "graph_path": summary.get("graph_path"),
-            "html_path": summary.get("html_path"),
-            "islands_path": summary.get("islands_path"),
-            "nodes": counts.get("nodes"),
-            "edges": counts.get("edges"),
-            "islands": counts.get("islands"),
-            "kg_links_used": params.get("kg_links_used"),
-            "min_paper_count": params.get("min_paper_count"),
-            "max_terms": params.get("max_terms"),
-            "term_filter_source": params.get("term_filter_source"),
-        },
-    )
     print(
         f"[pipeline] kg: nodes={counts.get('nodes')} edges={counts.get('edges')} "
         f"papers={counts.get('papers')} terms={counts.get('terms')} "
@@ -516,12 +515,15 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
         help="Goal step to ensure (repeatable). Default for run: clusters",
     )
 
-    # --- query (required when using live search) ---
+    # --- collect options (mutually exclusive) ---
     parser.add_argument(
         "--query",
         "-q",
         default=None,
-        help='Live search string (required for search path), e.g. "amoc AND insolation"',
+        help=(
+            'Collect via remote search (EPMC / --repository), '
+            'e.g. "amoc AND insolation"'
+        ),
     )
     parser.add_argument(
         "--limit",
@@ -533,15 +535,13 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
     parser.add_argument(
         "--repository",
         default=None,
-        help=f"Repository adapter for --query (default: {DEFAULT_REPOSITORY})",
+        help=f"Remote adapter for --query (default: {DEFAULT_REPOSITORY})",
     )
-
-    # --- documents ---
     parser.add_argument(
         "--source",
         "-s",
         default=None,
-        help="Local documents path/glob (implies documents → corpus)",
+        help="Collect from static documents (path/glob); alternative to --query",
     )
 
     # --- phrases ---
@@ -624,12 +624,24 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
         ),
     )
     parser.add_argument(
+        "--kg",
+        dest="write_kg",
+        action=argparse.BooleanOptionalAction,
+        default=DEFAULT_WRITE_KG,
+        help=(
+            "After clusters or encyclopedia, also write/open the display KG "
+            f"(default: {'on' if DEFAULT_WRITE_KG else 'off'}; cheap view assembly, "
+            "not a pipeline step — two graphs: plain after clusters, annotated after encyclopedia)"
+        ),
+    )
+    parser.add_argument(
         "--kg-links",
         default=DEFAULT_KG_LINKS,
         metavar="SOURCES",
         help=(
-            "Comma-separated kg edge sources: clusters,wikipedia,wikidata "
-            f"(default: {DEFAULT_KG_LINKS})"
+            "Comma-separated kg edge sources for encyclopedia-stage KG: "
+            f"clusters,wikipedia,wikidata (default: {DEFAULT_KG_LINKS}; "
+            "clusters-stage KG always uses clusters only)"
         ),
     )
     parser.add_argument(
@@ -663,7 +675,7 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
         action=argparse.BooleanOptionalAction,
         default=DEFAULT_KG_OPEN,
         help=(
-            "After kg, open knowledge_graph.html in the default browser "
+            "When writing a display KG (--kg), open knowledge_graph.html "
             f"(default: {'on' if DEFAULT_KG_OPEN else 'off'}; use --no-open to disable)"
         ),
     )
@@ -692,14 +704,14 @@ def build_parser() -> argparse.ArgumentParser:
         epilog="""
 examples:
   pipeline --workdir corpora/amoc --query "amoc AND insolation" --target clusters
-  pipeline --workdir corpora/amoc --source 'wg2/chapter[2-6]' --target clusters
-  pipeline --workdir corpora/amoc --target clusters
+  pipeline --workdir corpora/amoc --target clusters --kg
+  pipeline --workdir corpora/amoc --target encyclopedia --kg
+  pipeline --workdir corpora/amoc --source 'wg2/chapter[2-6]' --target clean
   pipeline encyclopedia --workdir corpora/amoc_insolation_20 \\
       --min-paper-count 2 --max-entries 50 --force
-  pipeline --workdir corpora/amoc_demo --query "amoc AND insolation" --target kg
   pipeline kg --workdir corpora/amoc_insolation_20 --kg-links clusters,wikipedia
   pipeline list
-  pipeline graph --from query
+  pipeline graph --from collect
 """,
     )
 

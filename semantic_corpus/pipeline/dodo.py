@@ -51,12 +51,8 @@ def _task(step: str):
     }
 
 
-def task_query():
-    return _task("query")
-
-
-def task_documents():
-    return _task("documents")
+def task_collect():
+    return _task("collect")
 
 
 def task_corpus():
@@ -84,20 +80,14 @@ def task_encyclopedia():
     return _task("encyclopedia")
 
 
-def task_kg():
-    return _task("kg")
-
-
 assert set(STEP_NAMES) == {
-    "query",
-    "documents",
+    "collect",
     "corpus",
     "phrases",
     "pdfs",
     "clusters",
     "clean",
     "encyclopedia",
-    "kg",
 }
 
 _ = get_workdir

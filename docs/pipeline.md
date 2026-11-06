@@ -1,8 +1,8 @@
 # Pipeline CLI (`pipeline`)
 
 **Date:** 2026-11-03  
-**Status:** CLI + doit orchestration live; **`query` / `corpus` / `phrases` / `clusters` / `encyclopedia` / `kg` are real**; `pdfs` / `clean` / `--source` still placeholders or partial.  
-**Tutorial:** [tutorials/kg_from_query.md](tutorials/kg_from_query.md) — one command from search → papers↔terms graph.  
+**Status:** CLI + doit orchestration live; **`collect` / `corpus` / `phrases` / `clusters` / `encyclopedia` / `kg` are real**; `pdfs` / `clean` / `--source` still placeholders or partial.  
+**Examples:** [pipeline_examples.md](pipeline_examples.md) · **Tutorial:** [tutorials/kg_from_query.md](tutorials/kg_from_query.md)  
 **Next:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)  
 **Related:** [pipeline_design.md](pipeline_design.md) · [pipeline_make_doit.md](pipeline_make_doit.md) · [cluster_filtering_workflow.md](cluster_filtering_workflow.md)
 
@@ -39,8 +39,8 @@ pipeline --workdir corpora/amoc_insolation_20 \
 
 | Flags given | Start | What runs toward `--target clusters` |
 |-------------|-------|--------------------------------------|
-| `--query "…"` | `query` | `query` → `corpus` → `phrases` → `clusters` |
-| `--source PATH` | `documents` | `documents` → `corpus` → `phrases` → `clusters` |
+| `--query "…"` | `collect` | `collect` → `corpus` → `phrases` → `clusters` (remotes) |
+| `--source PATH` | `collect` | same plan; static documents via `--source` |
 | neither | `existing` | `corpus` → `phrases` → `clusters` |
 
 `--query` and `--source` are mutually exclusive.
@@ -50,31 +50,37 @@ pipeline --workdir corpora/amoc_insolation_20 \
 ## 2. Dependency graph
 
 ```text
---query  ──► query  ──┐
-                      ├──► corpus ──┬──► phrases ──► clusters ──► clean ──► encyclopedia ──► kg
---source ─► documents ┘             └──► pdfs
-(neither) ──────────────► corpus …
+--query (EPMC/remotes) ─┐
+                        ├──► collect ──► corpus (+indexes) ──► phrases ──► clusters [--kg→KG₁]
+--source (static docs) ─┘        │                                      │
+(neither) ──────────────────► corpus …                                  ▼
+                                     └──► pdfs                     clean
+                                                                        │
+                                                                        ▼
+                                                              encyclopedia [--kg→KG₂]
+# design: two display KGs via --kg flag (not a step); clean after clusters
+# detail: docs/pipeline_kg_mappers.md
 ```
 
-| Step | Role | Implementation today |
-|------|------|----------------------|
-| `query` | Search + download + **package BAGIT at `--workdir`** | Real (`cluster_review.step0`) |
-| `documents` | Ingest `--source` into corpus | Placeholder |
-| `corpus` | Ensure bag under `--workdir` (gate for later steps) | Real load if bag exists; also stamped by `query` |
-| `phrases` | Keyphrases → `phrases/` | Real (`step2`, TF-IDF/YAKE) |
-| `pdfs` | Fill PDFs into the bag | Placeholder (API exists: `update_bagit_formats`) |
-| `clusters` | BKG + Louvain → `clusters/` | Real (`step3`) |
-| `clean` | FP paper/term cleaning | Placeholder |
-| `encyclopedia` | Wiki / Wikidata pages | Real (`cluster_review.encyclopedia`) |
-| `kg` | Papers↔terms graph + HTML | Real (`cluster_review.kg`) |
+| Step | Design role | Implementation today |
+|------|-------------|----------------------|
+| `collect` | Collect documents | `--query`: real EPMC/remotes; `--source`: static (placeholder) |
+| `corpus` | Bag gate **+** packet indexes | Real load + `packets/manifest.json` |
+| `phrases` | Traverse indexed texts → terms | Real (`step2`) |
+| `pdfs` | Fill PDFs (parallel) | Placeholder |
+| `clusters` | Map (BKG); optional **KG₁** (`--kg`) | Real (`step3` + optional `build_kg`) |
+| `clean` | Curate graph FPs before annotate | Placeholder; depends on `clusters` |
+| `encyclopedia` | Annotate retained terms; optional **KG₂** (`--kg`) | Real; depends on `clean` |
 
-**`corpus` (not `bagit` as a step name).** BagIt remains the **on-disk format** (`bagit.txt`). The pipeline step is named `corpus` because `query` / `--source` must put material somewhere; packaging is part of producing that corpus, not a separate product idea.
+**Display KG is not a step** — use `--kg` / `--no-kg` on `clusters` (plain) or `encyclopedia` (Wikipedia-annotated; may add Wikidata). `pipeline kg` rebuilds the HTML helper.
+
+**`corpus` (not `bagit` as a step name).** BagIt remains the **on-disk format** (`bagit.txt`). **`collect`** is the single intake step: remotes (`--query`, `--repository`, …) or static documents (`--source`). Packaging into the bag is part of producing that corpus.
 
 Inspect:
 
 ```bash
 pipeline list
-pipeline graph --from query
+pipeline graph --from collect
 pipeline graph --from existing
 ```
 
@@ -97,7 +103,7 @@ corpora/amoc_insolation_20/          # --workdir (BAGIT corpus root)
     orphans.json
     graph_summary.json
   pipeline/                          # pipeline stamps
-    query.stamp
+    collect.stamp
     corpus.stamp
     phrases.stamp
     clusters.stamp
@@ -120,8 +126,8 @@ Like Make/doit: if stamps and key artifacts are already current, steps are **ski
 
 | Output | Meaning |
 |--------|---------|
-| `.  query` | Ran this time |
-| `-- query` | Skipped (up to date) |
+| `.  collect` | Ran this time |
+| `-- collect` | Skipped (up to date) |
 
 A second `pipeline … --target clusters` on the same `--workdir` will often finish in a few seconds and **not** re-query Europe PMC. That is intentional.
 
@@ -189,7 +195,22 @@ Detail: [pipeline_encyclopedia.md](pipeline_encyclopedia.md) · [pipeline_next_e
 
 ---
 
-## 6. Worked example (limit 20)
+## 6. Examples
+
+Numbered recipes: **[pipeline_examples.md](pipeline_examples.md)**.
+
+### 1. AMOC — 30 papers → clusters + plain KG
+
+```bash
+pipeline --workdir corpora/amoc_30 \
+  --query "AMOC" --limit 30 \
+  --target clusters --kg
+```
+
+**Plan:** `collect → corpus → phrases → clusters` (+ **KG₁**).  
+Detail / remake / next steps: [pipeline_examples.md §1](pipeline_examples.md#1-amoc--30-papers--clusters--plain-kg).
+
+### Older fixture (limit 20, insolation)
 
 ```bash
 pipeline --workdir corpora/amoc_insolation_20 \
@@ -199,22 +220,14 @@ pipeline --workdir corpora/amoc_insolation_20 \
   --target clusters
 ```
 
-**Plan:** `query` → `corpus` → `phrases` → `clusters`.
-
-**Results**
-
-- Corpus: `corpora/amoc_insolation_20/`
-- Harvest: `temp/queries/amoc_insolation_20/`
-
-**Live pytest** (same `--workdir`; uses `run --always` so it remakes instead of skipping):
+**Live pytest** (uses `run --always`):
 
 ```bash
 pytest tests/test_pipeline.py::test_example_amoc_insolation_limit_20_to_clusters -s
 ```
 
-Needs network + `doit` + `scikit-learn` + `networkx`. Marked `live_api` / `network` / `slow`.
-
-Unit tests for the CLI use `PIPELINE_PLACEHOLDER=1` (stamps only, no network).
+Needs network + `doit` + `scikit-learn` + `networkx`. Marked `live_api` / `network` / `slow`.  
+Unit tests use `PIPELINE_PLACEHOLDER=1` (stamps only).
 
 ---
 
@@ -249,20 +262,16 @@ Streamlit should call the same tasks via `DoitMain` + `ModuleTaskLoader` (not `d
 
 ---
 
-## 9. Next steps: encyclopedia + kg
+## 9. Encyclopedia + display KGs
 
-- **`encyclopedia` definition:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md)  
-- **With `kg`:** [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)
-
-Short version:
-
-1. **`encyclopedia`** — select/rank phrases → Wikipedia/Wikidata; `--max-entries`, `--encyclopedia-lang`; write `encyclopedia/entries.json`.  
-2. **`kg`** — edges from `--kg-links` (`clusters` \| `wikipedia` \| `wikidata`); display + islands → `clean`.
+- Examples: [pipeline_examples.md](pipeline_examples.md)  
+- **`encyclopedia`:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md)  
+- Design: [pipeline_kg_mappers.md](pipeline_kg_mappers.md)
 
 ```bash
-# From scratch → interactive papers↔terms graph (see tutorials/kg_from_query.md)
-pipeline --workdir corpora/amoc_demo \
-  --query "amoc AND insolation" --target kg
-# defaults: --limit 20 --kg-links clusters --kg-min-paper-count 2
-#           --kg-max-terms 40 --open
+# Plain KG after clusters (KG₁)
+pipeline --workdir corpora/amoc_30 --query "AMOC" --limit 30 --target clusters --kg
+
+# After clean: annotated KG (KG₂)
+pipeline --workdir corpora/amoc_30 --target encyclopedia --kg
 ```

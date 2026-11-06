@@ -1,6 +1,6 @@
-"""Real step actions for the pipeline (query → corpus → phrases → clusters).
+"""Real step actions for the pipeline.
 
-Other steps still use placeholders until wired.
+Design spine: collect → corpus → phrases → clusters[--kg] → clean → encyclopedia[--kg].
 Set ``PIPELINE_PLACEHOLDER=1`` to force stamp-only behaviour (unit tests).
 """
 
@@ -41,19 +41,30 @@ def _query_dirs():
     return workdir, query_name, query_dir
 
 
-def run_query() -> Dict[str, Any]:
+def run_collect() -> Dict[str, Any]:
+    """Collect via remotes (--query) or static documents (--source)."""
     if use_placeholders():
-        return run_placeholder("query")
+        return run_placeholder("collect")
+
+    opts = options_from_env()
+    if opts.query and opts.source:
+        raise ValueError("Use either --query or --source, not both")
+    if opts.source:
+        raise NotImplementedError(
+            "collect --source (static documents) is not wired yet; "
+            "use --query for remotes, or point --workdir at an existing bag"
+        )
+    if not opts.query:
+        raise ValueError(
+            "collect requires --query (EPMC/other remotes) or --source (static docs)"
+        )
 
     from semantic_corpus.cluster_review.step0 import create_corpus_from_query
 
-    opts = options_from_env()
-    if not opts.query:
-        raise ValueError("--query is required for the query step")
     workdir, query_name, query_dir = _query_dirs()
     workdir.mkdir(parents=True, exist_ok=True)
     print(
-        f"[pipeline] query: searching {opts.query!r} "
+        f"[pipeline] collect: searching {opts.query!r} "
         f"limit={opts.limit} repository={opts.repository!r}"
     )
     summary = create_corpus_from_query(
@@ -67,9 +78,12 @@ def run_query() -> Dict[str, Any]:
         create_bagit=True,
     )
     paper_count = summary.get("bagit_paper_count") or summary.get("result_count")
+    index_summary = _ensure_packet_indexes(workdir)
+    counts = index_summary.get("counts") or {}
     _stamp(
-        "query",
+        "collect",
         {
+            "mode": "remote",
             "query_dir": str(query_dir),
             "downloaded_count": summary.get("downloaded_count"),
             "paper_count": paper_count,
@@ -79,19 +93,26 @@ def run_query() -> Dict[str, Any]:
     _stamp(
         "corpus",
         {
-            "produced_by": "query",
+            "produced_by": "collect",
             "bagit": str(workdir / "bagit.txt"),
             "paper_count": paper_count,
+            "packets_manifest": index_summary.get("manifest_path"),
+            "containers": counts.get("containers"),
+            "packets": counts.get("packets"),
         },
     )
-    print(f"[pipeline] query: done ({paper_count} papers) → {workdir}")
+    print(
+        f"[pipeline] collect: done ({paper_count} papers; "
+        f"packets={counts.get('packets')}) → {workdir}"
+    )
     return summary
 
 
-def run_documents() -> Dict[str, Any]:
-    if use_placeholders():
-        return run_placeholder("documents")
-    return run_placeholder("documents")
+def _ensure_packet_indexes(workdir: Path) -> Dict[str, Any]:
+    """Structural indexes on text components (part of corpus, not a separate step)."""
+    from semantic_corpus.cluster_review.packets import build_packet_index
+
+    return build_packet_index(workdir)
 
 
 def run_corpus() -> Dict[str, Any]:
@@ -109,14 +130,25 @@ def run_corpus() -> Dict[str, Any]:
         )
     print(f"[pipeline] corpus: loading {workdir}")
     summary = load_bagit_corpus(workdir, write_review_if_missing=True)
+    print(f"[pipeline] corpus: ensuring packet indexes")
+    index_summary = _ensure_packet_indexes(workdir)
+    counts = index_summary.get("counts") or {}
     _stamp(
         "corpus",
         {
             "paper_count": summary.get("paper_count"),
             "bag_root": summary.get("bag_root") or str(workdir),
+            "packets_manifest": index_summary.get("manifest_path"),
+            "containers": counts.get("containers"),
+            "packets": counts.get("packets"),
         },
     )
-    print(f"[pipeline] corpus: {summary.get('paper_count')} papers")
+    print(
+        f"[pipeline] corpus: {summary.get('paper_count')} papers; "
+        f"packets={counts.get('packets')} → {index_summary.get('manifest_path')}"
+    )
+    summary = dict(summary)
+    summary["packet_index"] = index_summary
     return summary
 
 
@@ -128,8 +160,8 @@ def run_phrases() -> Dict[str, Any]:
 
     opts = options_from_env()
     print(
-        f"[pipeline] phrases: method={opts.phrase_method} "
-        f"n={opts.phrase_n} top={opts.phrase_top}"
+        f"[pipeline] phrases: traverse packet texts; "
+        f"method={opts.phrase_method} n={opts.phrase_n} top={opts.phrase_top}"
     )
     summary = extract_phrases(
         opts.workdir,
@@ -154,9 +186,64 @@ def run_pdfs() -> Dict[str, Any]:
     return run_placeholder("pdfs")
 
 
+def _emit_display_kg(stage: str) -> Optional[Dict[str, Any]]:
+    """Write/open display KG after clusters (plain) or encyclopedia (annotated).
+
+    Not a pipeline step — cheap view assembly controlled by ``--kg`` / ``--no-kg``.
+    """
+    opts = options_from_env()
+    if not opts.write_kg:
+        print(f"[pipeline] {stage}: --no-kg (skip display graph)")
+        return None
+    if use_placeholders():
+        print(f"[pipeline] {stage}: kg placeholder (stage={stage})")
+        return {"status": "placeholder", "stage": stage}
+
+    from semantic_corpus.cluster_review.kg import build_kg
+
+    if stage == "clusters":
+        # Unannotated incidence graph only.
+        links: tuple = ("clusters",)
+    else:
+        # Annotated: keep user --kg-links; default clusters, add wikipedia if present.
+        links = opts.kg_link_list()
+        enc = opts.workdir / "encyclopedia" / "entries.json"
+        if enc.is_file() and "wikipedia" not in links and "wikidata" not in links:
+            links = tuple(list(links) + ["wikipedia"])
+
+    print(
+        f"[pipeline] {stage}: kg links={','.join(links)} "
+        f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
+        f"max_island={opts.kg_max_island}"
+    )
+    summary = build_kg(
+        opts.workdir,
+        kg_links=links,
+        max_island=int(opts.kg_max_island),
+        min_paper_count=int(opts.kg_min_paper_count),
+        max_terms=int(opts.kg_max_terms),
+        write_html=True,
+        open_browser=bool(opts.kg_open),
+    )
+    counts = summary.get("counts") or {}
+    print(
+        f"[pipeline] {stage}: kg nodes={counts.get('nodes')} "
+        f"edges={counts.get('edges')} terms={counts.get('terms')} "
+        f"islands={counts.get('islands')} html={summary.get('html_path')}"
+    )
+    summary = dict(summary)
+    summary["kg_stage"] = stage
+    return summary
+
+
 def run_clusters() -> Dict[str, Any]:
     if use_placeholders():
-        return run_placeholder("clusters")
+        summary = run_placeholder("clusters")
+        kg = _emit_display_kg("clusters")
+        if kg:
+            summary = dict(summary)
+            summary["kg"] = kg
+        return summary
 
     from semantic_corpus.cluster_review.step3 import build_clusters
 
@@ -170,15 +257,21 @@ def run_clusters() -> Dict[str, Any]:
         algorithm=opts.cluster_algorithm,
         resolution=float(opts.cluster_resolution),
     )
-    _stamp(
-        "clusters",
-        {
-            "cluster_count": summary.get("cluster_count"),
-            "paper_count": summary.get("paper_count"),
-            "graph_summary": str(opts.workdir / "clusters" / "graph_summary.json"),
-        },
-    )
+    kg = _emit_display_kg("clusters")
+    extra: Dict[str, Any] = {
+        "cluster_count": summary.get("cluster_count"),
+        "paper_count": summary.get("paper_count"),
+        "graph_summary": str(opts.workdir / "clusters" / "graph_summary.json"),
+        "write_kg": bool(opts.write_kg),
+    }
+    if kg and kg.get("html_path"):
+        extra["kg_html"] = kg.get("html_path")
+        extra["kg_graph"] = kg.get("graph_path")
+    _stamp("clusters", extra)
     print(f"[pipeline] clusters: {summary.get('cluster_count')} clusters")
+    summary = dict(summary)
+    if kg:
+        summary["kg"] = kg
     return summary
 
 
@@ -188,7 +281,12 @@ def run_clean() -> Dict[str, Any]:
 
 def run_encyclopedia() -> Dict[str, Any]:
     if use_placeholders():
-        return run_placeholder("encyclopedia")
+        summary = run_placeholder("encyclopedia")
+        kg = _emit_display_kg("encyclopedia")
+        if kg:
+            summary = dict(summary)
+            summary["kg"] = kg
+        return summary
 
     from semantic_corpus.cluster_review.encyclopedia import build_encyclopedia
 
@@ -209,21 +307,24 @@ def run_encyclopedia() -> Dict[str, Any]:
         write_html=True,
         fetch_html_descriptions=True,
     )
+    kg = _emit_display_kg("encyclopedia")
     counts = summary.get("counts") or {}
-    _stamp(
-        "encyclopedia",
-        {
-            "entries_path": summary.get("entries_path"),
-            "html_path": summary.get("html_path"),
-            "selected": counts.get("selected"),
-            "resolved": counts.get("resolved"),
-            "ambiguous": counts.get("ambiguous"),
-            "missing": counts.get("missing"),
-            "error": counts.get("error"),
-            "disambiguated": counts.get("disambiguated"),
-            "phrase_source": (summary.get("params") or {}).get("phrase_source"),
-        },
-    )
+    extra = {
+        "entries_path": summary.get("entries_path"),
+        "html_path": summary.get("html_path"),
+        "selected": counts.get("selected"),
+        "resolved": counts.get("resolved"),
+        "ambiguous": counts.get("ambiguous"),
+        "missing": counts.get("missing"),
+        "error": counts.get("error"),
+        "disambiguated": counts.get("disambiguated"),
+        "phrase_source": (summary.get("params") or {}).get("phrase_source"),
+        "write_kg": bool(opts.write_kg),
+    }
+    if kg and kg.get("html_path"):
+        extra["kg_html"] = kg.get("html_path")
+        extra["kg_graph"] = kg.get("graph_path")
+    _stamp("encyclopedia", extra)
     html_note = f" html={summary.get('html_path')}" if summary.get("html_path") else ""
     print(
         f"[pipeline] encyclopedia: selected={counts.get('selected')} "
@@ -231,65 +332,20 @@ def run_encyclopedia() -> Dict[str, Any]:
         f"disambiguated={counts.get('disambiguated')} "
         f"error={counts.get('error')}{html_note}"
     )
-    return summary
-
-
-def run_kg() -> Dict[str, Any]:
-    if use_placeholders():
-        return run_placeholder("kg")
-
-    from semantic_corpus.cluster_review.kg import build_kg
-
-    opts = options_from_env()
-    links = opts.kg_link_list()
-    print(
-        f"[pipeline] kg: links={','.join(links)} "
-        f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
-        f"max_island={opts.kg_max_island}"
-    )
-    summary = build_kg(
-        opts.workdir,
-        kg_links=links,
-        max_island=int(opts.kg_max_island),
-        min_paper_count=int(opts.kg_min_paper_count),
-        max_terms=int(opts.kg_max_terms),
-        write_html=True,
-        open_browser=bool(opts.kg_open),
-    )
-    counts = summary.get("counts") or {}
-    params = summary.get("params") or {}
-    _stamp(
-        "kg",
-        {
-            "graph_path": summary.get("graph_path"),
-            "html_path": summary.get("html_path"),
-            "islands_path": summary.get("islands_path"),
-            "nodes": counts.get("nodes"),
-            "edges": counts.get("edges"),
-            "islands": counts.get("islands"),
-            "kg_links_used": params.get("kg_links_used"),
-            "min_paper_count": params.get("min_paper_count"),
-            "max_terms": params.get("max_terms"),
-        },
-    )
-    print(
-        f"[pipeline] kg: nodes={counts.get('nodes')} edges={counts.get('edges')} "
-        f"terms={counts.get('terms')} islands={counts.get('islands')} "
-        f"html={summary.get('html_path')}"
-    )
+    summary = dict(summary)
+    if kg:
+        summary["kg"] = kg
     return summary
 
 
 STEP_ACTIONS = {
-    "query": run_query,
-    "documents": run_documents,
+    "collect": run_collect,
     "corpus": run_corpus,
     "phrases": run_phrases,
     "pdfs": run_pdfs,
     "clusters": run_clusters,
     "clean": run_clean,
     "encyclopedia": run_encyclopedia,
-    "kg": run_kg,
 }
 
 
@@ -308,12 +364,16 @@ def is_step_current(step: str) -> bool:
         return False
     if use_placeholders():
         return True
-    if step in ("query", "corpus"):
+    if step == "collect":
         return (workdir / "bagit.txt").is_file()
+    if step == "corpus":
+        from semantic_corpus.cluster_review.packets import packet_index_is_current
+
+        return (workdir / "bagit.txt").is_file() and packet_index_is_current(
+            workdir
+        )
     if step == "phrases":
         return (workdir / "phrases" / "index.json").is_file()
-    if step == "clusters":
-        return (workdir / "clusters" / "graph_summary.json").is_file()
     if step == "encyclopedia":
         from semantic_corpus.cluster_review.encyclopedia import encyclopedia_is_current
 
@@ -325,14 +385,6 @@ def is_step_current(step: str) -> bool:
             min_paper_count=int(opts.min_paper_count),
             source=opts.encyclopedia_source,
         )
-    if step == "kg":
-        from semantic_corpus.cluster_review.kg import kg_is_current
-
-        return kg_is_current(
-            workdir,
-            kg_links=opts.kg_link_list(),
-            max_island=int(opts.kg_max_island),
-            min_paper_count=int(opts.kg_min_paper_count),
-            max_terms=int(opts.kg_max_terms),
-        )
+    if step == "clusters":
+        return (workdir / "clusters" / "graph_summary.json").is_file()
     return True

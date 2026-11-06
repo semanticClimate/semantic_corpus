@@ -2,13 +2,14 @@
 
 Flag groups (more will be added as steps are wired):
 
-- **query** — always needs flags when used (``--query`` required; ``--limit``,
-  ``--repository``, …)
-- **documents** — ``--source``
-- **corpus** — usually implied (produced by query/documents, or existing bag)
+- **collect** — one step; options: remotes via ``--query`` (``--limit``,
+  ``--repository``, …) *or* static docs via ``--source``
+- **corpus** — usually implied (produced by collect, or existing bag)
 - **phrases** — method + params (``--phrase-method``, ``--phrase-n``, …)
 - **clusters** — method + params (``--cluster-resolution``, …)
-- **encyclopedia** / **kg** — ``--max-entries``, ``--kg-links``, ``--open``, …
+- **encyclopedia** — ``--max-entries``, …
+- **display KG** — ``--kg`` / ``--no-kg`` on ``clusters`` or ``encyclopedia``;
+  ``--kg-links``, ``--open``, …
 """
 
 from __future__ import annotations
@@ -44,6 +45,7 @@ DEFAULT_KG_MAX_ISLAND = 20
 DEFAULT_KG_MAX_TERMS = 40
 DEFAULT_KG_MIN_PAPER_COUNT = 2
 DEFAULT_KG_LINKS = "clusters"
+DEFAULT_WRITE_KG = True
 DEFAULT_KG_OPEN = True
 KG_LINK_CHOICES: Tuple[str, ...] = ("clusters", "wikipedia", "wikidata")
 ENCYCLOPEDIA_SOURCE_CHOICES: Tuple[str, ...] = ("auto", "clusters", "phrases")
@@ -54,15 +56,13 @@ class PipelineOptions:
     """CLI / env snapshot passed into doit tasks."""
 
     workdir: Path
-    from_mode: str  # query | documents | existing
+    from_mode: str  # collect | existing
 
-    # --- query (required flags when start=query) ---
-    query: Optional[str] = None
+    # --- collect options (exactly one of --query / --source when start=collect) ---
+    query: Optional[str] = None  # remote search string (EPMC / other remotes)
     limit: Optional[int] = None
     repository: Optional[str] = None
-
-    # --- documents ---
-    source: Optional[str] = None
+    source: Optional[str] = None  # static documents path/glob
 
     # --- phrases ---
     phrase_method: str = DEFAULT_PHRASE_METHOD
@@ -79,6 +79,8 @@ class PipelineOptions:
     min_score: float = DEFAULT_ENCYCLOPEDIA_MIN_SCORE
     min_paper_count: int = DEFAULT_ENCYCLOPEDIA_MIN_PAPER_COUNT
     encyclopedia_source: str = DEFAULT_ENCYCLOPEDIA_SOURCE
+    # Display KG is a flag on clusters / encyclopedia (not a doit step).
+    write_kg: bool = DEFAULT_WRITE_KG
     kg_max_island: int = DEFAULT_KG_MAX_ISLAND
     kg_max_terms: int = DEFAULT_KG_MAX_TERMS
     kg_min_paper_count: int = DEFAULT_KG_MIN_PAPER_COUNT
@@ -125,10 +127,8 @@ class PipelineOptions:
 def infer_from_mode(query: Optional[str], source: Optional[str]) -> str:
     if query and source:
         raise ValueError("Use either --query or --source, not both")
-    if query:
-        return "query"
-    if source:
-        return "documents"
+    if query or source:
+        return "collect"
     return "existing"
 
 

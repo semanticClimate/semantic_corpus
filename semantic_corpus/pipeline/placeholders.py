@@ -65,8 +65,8 @@ def write_stamp(
 def run_placeholder(step: str) -> Dict[str, Any]:
     """Write a placeholder stamp for ``step`` and print a one-line status.
 
-    ``query`` / ``documents`` also stamp ``corpus`` — they produce the BAGIT
-    corpus at ``--workdir``.
+    ``collect`` also stamps ``corpus`` — it produces the BAGIT corpus at
+    ``--workdir`` (via ``--query`` remotes or ``--source`` static docs).
     """
     from semantic_corpus.pipeline.config import get_workdir
 
@@ -75,31 +75,35 @@ def run_placeholder(step: str) -> Dict[str, Any]:
     path = write_stamp(step, workdir)
 
     extra = ""
-    if step == "query" and opts.query:
-        extra = f" query={opts.query!r} limit={opts.limit} repository={opts.repository!r}"
-    elif step == "documents" and opts.source:
-        extra = f" source={opts.source!r}"
+    if step == "collect" and opts.query:
+        extra = (
+            f" mode=remote query={opts.query!r} "
+            f"limit={opts.limit} repository={opts.repository!r}"
+        )
+    elif step == "collect" and opts.source:
+        extra = f" mode=static source={opts.source!r}"
+    elif step == "corpus":
+        extra = " (+packet indexes)"
     elif step == "phrases":
         extra = (
-            f" method={opts.phrase_method} n={opts.phrase_n} top={opts.phrase_top}"
+            f" traverse texts; method={opts.phrase_method} "
+            f"n={opts.phrase_n} top={opts.phrase_top}"
         )
     elif step == "clusters":
         extra = (
             f" algorithm={opts.cluster_algorithm} "
-            f"resolution={opts.cluster_resolution}"
+            f"resolution={opts.cluster_resolution} "
+            f"kg={'on' if opts.write_kg else 'off'}"
         )
     elif step == "encyclopedia":
         extra = (
             f" lang={opts.encyclopedia_lang} max_entries={opts.max_entries} "
             f"min_score={opts.min_score} min_paper_count={opts.min_paper_count} "
-            f"from={opts.encyclopedia_source}"
+            f"from={opts.encyclopedia_source} "
+            f"kg={'on' if opts.write_kg else 'off'}"
         )
-    elif step == "kg":
-        extra = (
-            f" links={opts.kg_links!r} max_island={opts.kg_max_island} "
-            f"min_paper_count={opts.kg_min_paper_count} "
-            f"max_terms={opts.kg_max_terms}"
-        )
+    elif step == "clean":
+        extra = " (after clusters; before encyclopedia)"
 
     print(f"[pipeline] {step}: placeholder → {path}{extra}")
 

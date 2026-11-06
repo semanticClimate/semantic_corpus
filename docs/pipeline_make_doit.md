@@ -12,7 +12,7 @@ Cluster-review Steps 0–6 are evolving (BKG clean, encyclopedia KG; **no Step 7
 
 We need:
 
-1. **Stable symbolic targets** (`query`, `corpus`, `phrases`, `clusters`, …)  
+1. **Stable symbolic targets** (`collect`, `corpus`, `phrases`, `clusters`, …)  
 2. **Make-like skip-if-done** — if artifacts are already current, do not re-run  
 3. A tool that works from the **command line** and can be triggered from **Streamlit**
 
@@ -100,8 +100,8 @@ Stable IDs (independent of UI step numbers):
 
 | Task | Meaning | “Current” when (sketch) |
 |------|---------|-------------------------|
-| `query` | Harvest literature → query dir (+ optional BAGIT create) | `search_results.json` (and bag if requested) |
-| `corpus` | Ensure / load BAGIT corpus (produced by query/documents) | `bagit.txt` + ≥1 metadata paper |
+| `collect` | Harvest literature via `--query` → query dir (+ optional BAGIT create) | `search_results.json` (and bag if requested) |
+| `corpus` | Ensure / load BAGIT corpus (produced by collect) | `bagit.txt` + ≥1 metadata paper |
 | `phrases` | Keyphrase extract (TF-IDF default) | `phrases/index.json` matches paper set + params |
 | `clusters` | Bipartite KG (BKG) + Louvain | `clusters/graph_summary.json` ≥ phrases index |
 | `update_pdfs` | Fill missing PDFs into the bag | Per-file skip (existing `update_bagit_formats`) |
@@ -109,7 +109,7 @@ Stable IDs (independent of UI step numbers):
 | `orphans` | Orphan review + export *(planned)* | Export / decision stamps |
 | `encyclopedia` | Wikipedia/Wikidata KG *(optional partner to clean)* | Encyclopedia artifacts |
 
-Default chain: `query → bagit → phrases → clusters` (then planned `clean → orphans`; `encyclopedia` optional).
+Default chain: `collect → corpus → phrases → clusters → clean → encyclopedia` (display KGs via `--kg` on clusters / encyclopedia).
 
 Example CLI (placeholders; see [pipeline.md](pipeline.md)):
 
