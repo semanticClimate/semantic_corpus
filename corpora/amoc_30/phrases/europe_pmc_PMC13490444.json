@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13490444",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic circumpolar current",
+      "display": "Antarctic Circumpolar Current",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic oscillation",
+      "display": "North Atlantic Oscillation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern annular mode",
+      "display": "Southern Annular Mode",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cda",
+      "display": "CDA",
+      "score": 2.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmoc",
+      "display": "GMOC",
+      "score": 2.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nadw",
+      "display": "NADW",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acc-rc",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "ACC-RC"
+    },
+    {
+      "phrase": "cesm-cda",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "CESM-CDA"
+    },
+    {
+      "phrase": "timeseries",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "Timeseries"
+    },
+    {
+      "phrase": "multiscale",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "multiscale"
+    },
+    {
+      "phrase": "volcanic",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "volcanic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

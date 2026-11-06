@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13638462",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greenland ice sheet and west antarctic ice sheet",
+      "display": "Greenland Ice Sheet and West Antarctic Ice Sheet",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project",
+      "display": "Coupled Model Intercomparison Project",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fh",
+      "display": "FH",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pi",
+      "display": "PI",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ramp",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "ramp"
+    },
+    {
+      "phrase": "co2 ramp",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "CO2 ramp"
+    },
+    {
+      "phrase": "slow co2",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "slow CO2"
+    },
+    {
+      "phrase": "slow co2 ramp",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "slow CO2 ramp"
+    },
+    {
+      "phrase": "ppm yr",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "ppm yr"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

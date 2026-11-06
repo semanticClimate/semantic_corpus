@@ -1,0 +1,46 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "paper_ids": [
+    "europe_pmc_PMC13448930",
+    "europe_pmc_PMC13620149"
+  ],
+  "terms": [
+    "aa",
+    "acids",
+    "although peptide",
+    "amino",
+    "amoc method",
+    "except for his",
+    "fmoc",
+    "junfeng zhao",
+    "kounosuke oisaki",
+    "national institutes of health",
+    "peptide",
+    "peptide synthesis",
+    "stefan kolmar",
+    "synthesis",
+    "coupled model intercomparison project",
+    "labrador sea",
+    "moc",
+    "north atlantic deep water",
+    "o-east",
+    "o-full",
+    "o-west",
+    "osnap",
+    "ow",
+    "ow-out",
+    "sd",
+    "subpolar north atlantic program",
+    "supplementary information"
+  ],
+  "paper_count": 2,
+  "term_count": 27
+}

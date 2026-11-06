@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13319204",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "integrated ocean drilling program",
+      "display": "Integrated Ocean Drilling Program",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf of genoa",
+      "display": "Gulf of Genoa",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "red sea",
+      "display": "Red Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reconstructed atlantic meridional overturning circulation",
+      "display": "Reconstructed Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iv",
+      "display": "IV",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kyr",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "kyr"
+    },
+    {
+      "phrase": "site u1385",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "Site U1385"
+    },
+    {
+      "phrase": "t-iv",
+      "score": 0.0407,
+      "channel": "tfidf",
+      "display": "T-IV"
+    },
+    {
+      "phrase": "kyr bp",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "kyr BP"
+    },
+    {
+      "phrase": "terminations",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "Terminations"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

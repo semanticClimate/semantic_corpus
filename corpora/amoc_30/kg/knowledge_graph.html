@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (amoc_30)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #mynetwork { width: 100%; height: calc(100vh - 64px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    /* Hide any leftover vis built-in tooltip */
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge graph (amoc_30)</h1>
+    <p>53 nodes · 86 edges — drag, zoom, hover</p>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:amoc", "label": "AMOC", "tooltip": "AMOC (cluster weight 20.4; n_papers 25)", "value": 28.0, "group": "Term"}, {"id": "paper:europe_pmc_PMC12749622", "label": "PMC12749622", "tooltip": "Noise-induced tipping of Atlantic Meridional Overturning Circulation under climate mitigation scenarios.<br>(PMC12749622)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13082334", "label": "PMC13082334", "tooltip": "Observational constraints project a ~50% AMOC weakening by the end of this century.<br>(PMC13082334)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13478603", "label": "PMC13478603", "tooltip": "Volcanic eruptions caused weakening AMOC during the preindustrial past millennium.<br>(PMC13478603)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13538684", "label": "PMC13538684", "tooltip": "Regime shifts of AMOC-sea surface temperature relationship.<br>(PMC13538684)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13638462", "label": "PMC13638462", "tooltip": "Failure to track a stable AMOC state under rapid climate change<br>(PMC13638462)", "value": 12.0, "group": "Paper"}, {"id": "term:exp", "label": "EXP", "tooltip": "EXP (cluster weight 3.34; n_papers 2)", "value": 11.34, "group": "Term"}, {"id": "term:irminger sea", "label": "Irminger Sea", "tooltip": "Irminger Sea (cluster weight 2.5; n_papers 2)", "value": 10.5, "group": "Term"}, {"id": "term:community earth system model", "label": "Community Earth System Model", "tooltip": "Community Earth System Model (cluster weight 2.3; n_papers 3)", "value": 10.3, "group": "Term"}, {"id": "term:fh", "label": "FH", "tooltip": "FH (cluster weight 1.54; n_papers 2)", "value": 9.54, "group": "Term"}, {"id": "term:north atlantic", "label": "North Atlantic", "tooltip": "North Atlantic (cluster weight 21.7; n_papers 25)", "value": 28.0, "group": "Term"}, {"id": "paper:europe_pmc_PMC12871447", "label": "PMC12871447", "tooltip": "Volcanism-induced collapse and recovery of the Atlantic meridional overturning circulation under glacial conditions.<br>(PMC12871447)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13108545", "label": "PMC13108545", "tooltip": "The effects of a constructed closure of the Bering Strait on AMOC tipping behavior.<br>(PMC13108545)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13392445", "label": "PMC13392445", "tooltip": "AMOC slowdown amplifies North Atlantic salinity variability to unprecedented levels.<br>(PMC13392445)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13473526", "label": "PMC13473526", "tooltip": "North Pacific meltwater weakens the Atlantic Meridional Overturning Circulation and preconditions Heinrich Stadial 1.<br>(PMC13473526)", "value": 12.0, "group": "Paper"}, {"id": "term:north pacific", "label": "North Pacific", "tooltip": "North Pacific (cluster weight 4.7; n_papers 2)", "value": 12.7, "group": "Term"}, {"id": "term:north", "label": "North", "tooltip": "North (cluster weight 3.23; n_papers 3)", "value": 11.23, "group": "Term"}, {"id": "term:icelandic low", "label": "Icelandic Low", "tooltip": "Icelandic Low (cluster weight 1.2; n_papers 2)", "value": 9.2, "group": "Term"}, {"id": "term:volcanic", "label": "Volcanic", "tooltip": "Volcanic (cluster weight 0.0447; n_papers 3)", "value": 8.0447, "group": "Term"}, {"id": "term:northern hemisphere", "label": "Northern Hemisphere", "tooltip": "Northern Hemisphere (cluster weight 4.3; n_papers 6)", "value": 12.3, "group": "Term"}, {"id": "paper:europe_pmc_PMC13342563", "label": "PMC13342563", "tooltip": "Atlantic meridional overturning circulation slowdown modulates atmospheric rivers in a warmer climate.<br>(PMC13342563)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13377125", "label": "PMC13377125", "tooltip": "Migration of the intertropical convergence zone driven by ocean circulation changes.<br>(PMC13377125)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13598196", "label": "PMC13598196", "tooltip": "Patagonian Ice Sheet discharge enhanced by AMOC slowdown through thermal bipolar seesaw.<br>(PMC13598196)", "value": 12.0, "group": "Paper"}, {"id": "term:southern hemisphere", "label": "Southern Hemisphere", "tooltip": "Southern Hemisphere (cluster weight 4.2; n_papers 3)", "value": 12.2, "group": "Term"}, {"id": "term:south pacific", "label": "South Pacific", "tooltip": "South Pacific (cluster weight 3.6; n_papers 2)", "value": 11.6, "group": "Term"}, {"id": "term:north atlantic ocean", "label": "North Atlantic Ocean", "tooltip": "North Atlantic Ocean (cluster weight 3.1; n_papers 4)", "value": 11.1, "group": "Term"}, {"id": "paper:europe_pmc_PMC12945690", "label": "PMC12945690", "tooltip": "Abrupt Gulf Stream path changes are a precursor to a collapse of the Atlantic Meridional Overturning Circulation.<br>(PMC12945690)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13440228", "label": "PMC13440228", "tooltip": "Global biosphere productivity response to Atlantic Meridional Overturning Circulation collapse during Heinrich Stadial 4.<br>(PMC13440228)", "value": 12.0, "group": "Paper"}, {"id": "term:monte carlo", "label": "Monte Carlo", "tooltip": "Monte Carlo (cluster weight 3; n_papers 3)", "value": 11.0, "group": "Term"}, {"id": "paper:europe_pmc_PMC13319204", "label": "PMC13319204", "tooltip": "Protracted ocean circulation slowdown drove exceptional ice-sheet melting during ice age termination IV.<br>(PMC13319204)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13488926", "label": "PMC13488926", "tooltip": "Reconstruction and attribution of Late-Pleistocene changes in the Earth's energy imbalance.<br>(PMC13488926)", "value": 12.0, "group": "Paper"}, {"id": "term:indian ocean", "label": "Indian Ocean", "tooltip": "Indian Ocean (cluster weight 1.2; n_papers 2)", "value": 9.2, "group": "Term"}, {"id": "term:nordic seas", "label": "Nordic Seas", "tooltip": "Nordic Seas (cluster weight 8.3; n_papers 3)", "value": 16.3, "group": "Term"}, {"id": "paper:europe_pmc_PMC13201857", "label": "PMC13201857", "tooltip": "Rapid subsurface warming in the subpolar North Atlantic from freshening.<br>(PMC13201857)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13665990", "label": "PMC13665990", "tooltip": "Reversible Atlantic overturning despite continued Greenland ice sheet melt<br>(PMC13665990)", "value": 12.0, "group": "Paper"}, {"id": "term:labrador sea", "label": "Labrador Sea", "tooltip": "Labrador Sea (cluster weight 4.7; n_papers 6)", "value": 12.7, "group": "Term"}, {"id": "term:atlantic", "label": "Atlantic", "tooltip": "Atlantic (cluster weight 2.06; n_papers 5)", "value": 10.06, "group": "Term"}, {"id": "term:pi", "label": "PI", "tooltip": "PI (cluster weight 1.7; n_papers 2)", "value": 9.7, "group": "Term"}, {"id": "term:coupled model intercomparison project phase", "label": "Coupled Model Intercomparison Project Phase", "tooltip": "Coupled Model Intercomparison Project Phase (cluster weight 2.2; n_papers 3)", "value": 10.2, "group": "Term"}, {"id": "paper:europe_pmc_PMC13060603", "label": "PMC13060603", "tooltip": "Meridionally consistent decline in the observed western boundary contribution to the Atlantic Meridional Overturning Circulation.<br>(PMC13060603)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13376509", "label": "PMC13376509", "tooltip": "Permafrost carbon release scales linearly with overshoot warming mediated by AMOC tipping.<br>(PMC13376509)", "value": 12.0, "group": "Paper"}, {"id": "term:north atlantic deep water", "label": "North Atlantic Deep Water", "tooltip": "North Atlantic Deep Water (cluster weight 2.7; n_papers 2)", "value": 10.7, "group": "Term"}, {"id": "paper:europe_pmc_PMC13490444", "label": "PMC13490444", "tooltip": "The coupled reanalysis global meridional overturning circulation imprinted by historic volcanic eruptions.<br>(PMC13490444)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13620149", "label": "PMC13620149", "tooltip": "The Labrador Sea as a conduit for AMOC lower-limb transport anomalies on multiple timescales.<br>(PMC13620149)", "value": 12.0, "group": "Paper"}, {"id": "term:antarctic circumpolar current", "label": "Antarctic Circumpolar Current", "tooltip": "Antarctic Circumpolar Current (cluster weight 1.5; n_papers 2)", "value": 9.5, "group": "Term"}, {"id": "term:coupled model intercomparison project", "label": "Coupled Model Intercomparison Project", "tooltip": "Coupled Model Intercomparison Project (cluster weight 1.1; n_papers 3)", "value": 9.1, "group": "Term"}, {"id": "term:southern ocean", "label": "Southern Ocean", "tooltip": "Southern Ocean (cluster weight 3.3; n_papers 4)", "value": 11.3, "group": "Term"}, {"id": "paper:europe_pmc_PMC13381650", "label": "PMC13381650", "tooltip": "Centennial-scale intensifications of the Atlantic Meridional Overturning Circulation during Heinrich Stadial 1.<br>(PMC13381650)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13454564", "label": "PMC13454564", "tooltip": "Rapid warming in South America during the last deglaciation.<br>(PMC13454564)", "value": 12.0, "group": "Paper"}, {"id": "term:heinrich stadial", "label": "Heinrich Stadial", "tooltip": "Heinrich Stadial (cluster weight 3.2; n_papers 2)", "value": 11.2, "group": "Term"}, {"id": "term:last glacial maximum", "label": "Last Glacial Maximum", "tooltip": "Last Glacial Maximum (cluster weight 3.2; n_papers 2)", "value": 11.2, "group": "Term"}, {"id": "term:younger dryas", "label": "Younger Dryas", "tooltip": "Younger Dryas (cluster weight 2.9; n_papers 2)", "value": 10.9, "group": "Term"}, {"id": "term:atlantic meridional overturning circulation", "label": "Atlantic Meridional Overturning Circulation", "tooltip": "Atlantic Meridional Overturning Circulation (cluster weight 2.7; n_papers 14)", "value": 10.7, "group": "Term"}], "edges": [{"from": "paper:europe_pmc_PMC12749622", "to": "term:amoc", "value": 20.4}, {"from": "paper:europe_pmc_PMC13082334", "to": "term:amoc", "value": 20.4}, {"from": "paper:europe_pmc_PMC13478603", "to": "term:amoc", "value": 20.4}, {"from": "paper:europe_pmc_PMC13538684", "to": "term:amoc", "value": 20.4}, {"from": "paper:europe_pmc_PMC13638462", "to": "term:amoc", "value": 20.4}, {"from": "paper:europe_pmc_PMC12749622", "to": "term:exp", "value": 3.34}, {"from": "paper:europe_pmc_PMC13082334", "to": "term:exp", "value": 3.34}, {"from": "paper:europe_pmc_PMC13478603", "to": "term:exp", "value": 3.34}, {"from": "paper:europe_pmc_PMC13538684", "to": "term:exp", "value": 3.34}, {"from": "paper:europe_pmc_PMC13638462", "to": "term:exp", "value": 3.34}, {"from": "paper:europe_pmc_PMC12749622", "to": "term:irminger sea", "value": 2.5}, {"from": "paper:europe_pmc_PMC13082334", "to": "term:irminger sea", "value": 2.5}, {"from": "paper:europe_pmc_PMC13478603", "to": "term:irminger sea", "value": 2.5}, {"from": "paper:europe_pmc_PMC13538684", "to": "term:irminger sea", "value": 2.5}, {"from": "paper:europe_pmc_PMC13638462", "to": "term:irminger sea", "value": 2.5}, {"from": "paper:europe_pmc_PMC12749622", "to": "term:community earth system model", "value": 2.3}, {"from": "paper:europe_pmc_PMC13082334", "to": "term:community earth system model", "value": 2.3}, {"from": "paper:europe_pmc_PMC13478603", "to": "term:community earth system model", "value": 2.3}, {"from": "paper:europe_pmc_PMC13538684", "to": "term:community earth system model", "value": 2.3}, {"from": "paper:europe_pmc_PMC13638462", "to": "term:community earth system model", "value": 2.3}, {"from": "paper:europe_pmc_PMC12749622", "to": "term:fh", "value": 1.54}, {"from": "paper:europe_pmc_PMC13082334", "to": "term:fh", "value": 1.54}, {"from": "paper:europe_pmc_PMC13478603", "to": "term:fh", "value": 1.54}, {"from": "paper:europe_pmc_PMC13538684", "to": "term:fh", "value": 1.54}, {"from": "paper:europe_pmc_PMC13638462", "to": "term:fh", "value": 1.54}, {"from": "paper:europe_pmc_PMC12871447", "to": "term:north atlantic", "value": 21.7}, {"from": "paper:europe_pmc_PMC13108545", "to": "term:north atlantic", "value": 21.7}, {"from": "paper:europe_pmc_PMC13392445", "to": "term:north atlantic", "value": 21.7}, {"from": "paper:europe_pmc_PMC13473526", "to": "term:north atlantic", "value": 21.7}, {"from": "paper:europe_pmc_PMC12871447", "to": "term:north pacific", "value": 4.7}, {"from": "paper:europe_pmc_PMC13108545", "to": "term:north pacific", "value": 4.7}, {"from": "paper:europe_pmc_PMC13392445", "to": "term:north pacific", "value": 4.7}, {"from": "paper:europe_pmc_PMC13473526", "to": "term:north pacific", "value": 4.7}, {"from": "paper:europe_pmc_PMC12871447", "to": "term:north", "value": 3.23}, {"from": "paper:europe_pmc_PMC13108545", "to": "term:north", "value": 3.23}, {"from": "paper:europe_pmc_PMC13392445", "to": "term:north", "value": 3.23}, {"from": "paper:europe_pmc_PMC13473526", "to": "term:north", "value": 3.23}, {"from": "paper:europe_pmc_PMC12871447", "to": "term:icelandic low", "value": 1.2}, {"from": "paper:europe_pmc_PMC13108545", "to": "term:icelandic low", "value": 1.2}, {"from": "paper:europe_pmc_PMC13392445", "to": "term:icelandic low", "value": 1.2}, {"from": "paper:europe_pmc_PMC13473526", "to": "term:icelandic low", "value": 1.2}, {"from": "paper:europe_pmc_PMC12871447", "to": "term:volcanic", "value": 0.0447}, {"from": "paper:europe_pmc_PMC13108545", "to": "term:volcanic", "value": 0.0447}, {"from": "paper:europe_pmc_PMC13392445", "to": "term:volcanic", "value": 0.0447}, {"from": "paper:europe_pmc_PMC13473526", "to": "term:volcanic", "value": 0.0447}, {"from": "paper:europe_pmc_PMC13342563", "to": "term:northern hemisphere", "value": 4.3}, {"from": "paper:europe_pmc_PMC13377125", "to": "term:northern hemisphere", "value": 4.3}, {"from": "paper:europe_pmc_PMC13598196", "to": "term:northern hemisphere", "value": 4.3}, {"from": "paper:europe_pmc_PMC13342563", "to": "term:southern hemisphere", "value": 4.2}, {"from": "paper:europe_pmc_PMC13377125", "to": "term:southern hemisphere", "value": 4.2}, {"from": "paper:europe_pmc_PMC13598196", "to": "term:southern hemisphere", "value": 4.2}, {"from": "paper:europe_pmc_PMC13342563", "to": "term:south pacific", "value": 3.6}, {"from": "paper:europe_pmc_PMC13377125", "to": "term:south pacific", "value": 3.6}, {"from": "paper:europe_pmc_PMC13598196", "to": "term:south pacific", "value": 3.6}, {"from": "paper:europe_pmc_PMC12945690", "to": "term:north atlantic ocean", "value": 3.1}, {"from": "paper:europe_pmc_PMC13440228", "to": "term:north atlantic ocean", "value": 3.1}, {"from": "paper:europe_pmc_PMC13319204", "to": "term:monte carlo", "value": 3.0}, {"from": "paper:europe_pmc_PMC13488926", "to": "term:monte carlo", "value": 3.0}, {"from": "paper:europe_pmc_PMC13319204", "to": "term:indian ocean", "value": 1.2}, {"from": "paper:europe_pmc_PMC13488926", "to": "term:indian ocean", "value": 1.2}, {"from": "paper:europe_pmc_PMC13201857", "to": "term:nordic seas", "value": 8.3}, {"from": "paper:europe_pmc_PMC13665990", "to": "term:nordic seas", "value": 8.3}, {"from": "paper:europe_pmc_PMC13201857", "to": "term:labrador sea", "value": 4.7}, {"from": "paper:europe_pmc_PMC13665990", "to": "term:labrador sea", "value": 4.7}, {"from": "paper:europe_pmc_PMC13201857", "to": "term:atlantic", "value": 2.06}, {"from": "paper:europe_pmc_PMC13665990", "to": "term:atlantic", "value": 2.06}, {"from": "paper:europe_pmc_PMC13201857", "to": "term:pi", "value": 1.7}, {"from": "paper:europe_pmc_PMC13665990", "to": "term:pi", "value": 1.7}, {"from": "paper:europe_pmc_PMC13060603", "to": "term:coupled model intercomparison project phase", "value": 2.2}, {"from": "paper:europe_pmc_PMC13376509", "to": "term:coupled model intercomparison project phase", "value": 2.2}, {"from": "paper:europe_pmc_PMC13490444", "to": "term:north atlantic deep water", "value": 2.7}, {"from": "paper:europe_pmc_PMC13620149", "to": "term:north atlantic deep water", "value": 2.7}, {"from": "paper:europe_pmc_PMC13490444", "to": "term:antarctic circumpolar current", "value": 1.5}, {"from": "paper:europe_pmc_PMC13620149", "to": "term:antarctic circumpolar current", "value": 1.5}, {"from": "paper:europe_pmc_PMC13490444", "to": "term:coupled model intercomparison project", "value": 1.1}, {"from": "paper:europe_pmc_PMC13620149", "to": "term:coupled model intercomparison project", "value": 1.1}, {"from": "paper:europe_pmc_PMC13381650", "to": "term:southern ocean", "value": 3.3}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:southern ocean", "value": 3.3}, {"from": "paper:europe_pmc_PMC13381650", "to": "term:heinrich stadial", "value": 3.2}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:heinrich stadial", "value": 3.2}, {"from": "paper:europe_pmc_PMC13381650", "to": "term:last glacial maximum", "value": 3.2}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:last glacial maximum", "value": 3.2}, {"from": "paper:europe_pmc_PMC13381650", "to": "term:younger dryas", "value": 2.9}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:younger dryas", "value": 2.9}, {"from": "paper:europe_pmc_PMC13381650", "to": "term:atlantic meridional overturning circulation", "value": 2.7}, {"from": "paper:europe_pmc_PMC13454564", "to": "term:atlantic meridional overturning circulation", "value": 2.7}], "title": "Knowledge graph (amoc_30)"};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () {
+      tip.style.display = 'none';
+    });
+    network.on('dragStart', function () {
+      tip.style.display = 'none';
+    });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') {
+        showTip(tip.innerHTML, evt);
+      }
+    });
+  </script>
+</body>
+</html>

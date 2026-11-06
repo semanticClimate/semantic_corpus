@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13376509",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zero emissions commitment model intercomparison project",
+      "display": "Zero Emissions Commitment Model Intercomparison Project",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "land environment simulator",
+      "display": "Land Environment Simulator",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america and eurasia",
+      "display": "North America and Eurasia",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lm",
+      "display": "LM",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jules",
+      "display": "JULES",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "permafrost",
+      "score": 0.0518,
+      "channel": "tfidf",
+      "display": "Permafrost"
+    },
+    {
+      "phrase": "permafrost carbon",
+      "score": 0.0499,
+      "channel": "tfidf",
+      "display": "Permafrost carbon"
+    },
+    {
+      "phrase": "carbon loss",
+      "score": 0.0463,
+      "channel": "tfidf",
+      "display": "carbon loss"
+    },
+    {
+      "phrase": "permafrost carbon loss",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "Permafrost carbon loss"
+    },
+    {
+      "phrase": "noresm2-lm",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "NorESM2-LM"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0801
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13538684",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 5.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project",
+      "display": "Coupled Model Intercomparison Project",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador and irminger seas in regime",
+      "display": "Labrador and Irminger Seas in Regime",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "holocene and last interglacial",
+      "display": "Holocene and Last Interglacial",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "whsst",
+      "display": "WHSST",
+      "score": 1.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "regime",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "Regime"
+    },
+    {
+      "phrase": "regimes",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "regimes"
+    },
+    {
+      "phrase": "change points",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "change points"
+    },
+    {
+      "phrase": "lw",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "LW"
+    },
+    {
+      "phrase": "oht",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "OHT"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

@@ -1,0 +1,1407 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "AMOC; EXP; Irminger Sea; SST; Community Earth System Model",
+      "paper_count": 5,
+      "term_count": 46,
+      "paper_ids": [
+        "europe_pmc_PMC12749622",
+        "europe_pmc_PMC13082334",
+        "europe_pmc_PMC13478603",
+        "europe_pmc_PMC13538684",
+        "europe_pmc_PMC13638462"
+      ],
+      "terms": [
+        {
+          "phrase": "amoc",
+          "display": "AMOC",
+          "weight": 20.4
+        },
+        {
+          "phrase": "exp",
+          "display": "EXP",
+          "weight": 3.34
+        },
+        {
+          "phrase": "irminger sea",
+          "display": "Irminger Sea",
+          "weight": 2.5
+        },
+        {
+          "phrase": "sst",
+          "display": "SST",
+          "weight": 2.34
+        },
+        {
+          "phrase": "community earth system model",
+          "display": "Community Earth System Model",
+          "weight": 2.3
+        },
+        {
+          "phrase": "whsst",
+          "display": "WHSST",
+          "weight": 1.88
+        },
+        {
+          "phrase": "oc",
+          "display": "OC",
+          "weight": 1.84
+        },
+        {
+          "phrase": "south atlantic",
+          "display": "South Atlantic",
+          "weight": 1.8
+        },
+        {
+          "phrase": "mmm",
+          "display": "MMM",
+          "weight": 1.7
+        },
+        {
+          "phrase": "atlantic ocean",
+          "display": "Atlantic Ocean",
+          "weight": 1.6
+        },
+        {
+          "phrase": "fh",
+          "display": "FH",
+          "weight": 1.54
+        },
+        {
+          "phrase": "cesm",
+          "display": "CESM",
+          "weight": 1.46
+        },
+        {
+          "phrase": "little ice age",
+          "display": "Little Ice Age",
+          "weight": 1.3
+        },
+        {
+          "phrase": "medieval climate anomaly",
+          "display": "Medieval Climate Anomaly",
+          "weight": 1.3
+        },
+        {
+          "phrase": "tropical north",
+          "display": "Tropical North",
+          "weight": 1.3
+        },
+        {
+          "phrase": "laurentian channel",
+          "display": "Laurentian Channel",
+          "weight": 1.2
+        },
+        {
+          "phrase": "south greenland margin",
+          "display": "South Greenland Margin",
+          "weight": 1.2
+        },
+        {
+          "phrase": "df",
+          "display": "DF",
+          "weight": 1.16
+        },
+        {
+          "phrase": "greenland ice sheet and west antarctic ice sheet",
+          "display": "Greenland Ice Sheet and West Antarctic Ice Sheet",
+          "weight": 1.1
+        },
+        {
+          "phrase": "holocene and last interglacial",
+          "display": "Holocene and Last Interglacial",
+          "weight": 1.1
+        },
+        {
+          "phrase": "labrador and irminger seas in regime",
+          "display": "Labrador and Irminger Seas in Regime",
+          "weight": 1.1
+        },
+        {
+          "phrase": "meridional overturning circulation",
+          "display": "Meridional Overturning Circulation",
+          "weight": 1.1
+        },
+        {
+          "phrase": "ov",
+          "display": "ov",
+          "weight": 0.0512
+        },
+        {
+          "phrase": "observable",
+          "display": "observable",
+          "weight": 0.0451
+        },
+        {
+          "phrase": "leave-one-out",
+          "display": "Leave-one-out",
+          "weight": 0.0438
+        },
+        {
+          "phrase": "stochastic noise",
+          "display": "stochastic noise",
+          "weight": 0.0437
+        },
+        {
+          "phrase": "ramp",
+          "display": "ramp",
+          "weight": 0.0431
+        },
+        {
+          "phrase": "minimal",
+          "display": "minimal",
+          "weight": 0.043
+        },
+        {
+          "phrase": "amoc-sensitive",
+          "display": "AMOC-sensitive",
+          "weight": 0.0429
+        },
+        {
+          "phrase": "amoc-sensitive indicators",
+          "display": "AMOC-sensitive indicators",
+          "weight": 0.0424
+        },
+        {
+          "phrase": "co2 ramp",
+          "display": "CO2 ramp",
+          "weight": 0.042
+        },
+        {
+          "phrase": "oc methods",
+          "display": "OC methods",
+          "weight": 0.041
+        },
+        {
+          "phrase": "leave-one-out error",
+          "display": "Leave-one-out error",
+          "weight": 0.0407
+        },
+        {
+          "phrase": "ensemble",
+          "display": "ensemble",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "observable variables",
+          "display": "observable variables",
+          "weight": 0.0404
+        },
+        {
+          "phrase": "stochastic",
+          "display": "stochastic",
+          "weight": 0.0403
+        },
+        {
+          "phrase": "slow co2",
+          "display": "slow CO2",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "slow co2 ramp",
+          "display": "slow CO2 ramp",
+          "weight": 0.0401
+        },
+        {
+          "phrase": "ppm yr",
+          "display": "ppm yr",
+          "weight": 0.0397
+        },
+        {
+          "phrase": "collapse group",
+          "display": "Collapse group",
+          "weight": 0.0382
+        },
+        {
+          "phrase": "regime",
+          "display": "Regime",
+          "weight": 0.0382
+        },
+        {
+          "phrase": "regimes",
+          "display": "regimes",
+          "weight": 0.0375
+        },
+        {
+          "phrase": "line unit",
+          "display": "line unit",
+          "weight": 0.0372
+        },
+        {
+          "phrase": "indicators",
+          "display": "indicators",
+          "weight": 0.0353
+        },
+        {
+          "phrase": "change points",
+          "display": "change points",
+          "weight": 0.0346
+        },
+        {
+          "phrase": "oht",
+          "display": "OHT",
+          "weight": 0.0326
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "North Atlantic; North Pacific; North; Bering Strait; Gulf Stream",
+      "paper_count": 4,
+      "term_count": 42,
+      "paper_ids": [
+        "europe_pmc_PMC12871447",
+        "europe_pmc_PMC13108545",
+        "europe_pmc_PMC13392445",
+        "europe_pmc_PMC13473526"
+      ],
+      "terms": [
+        {
+          "phrase": "north atlantic",
+          "display": "North Atlantic",
+          "weight": 21.7
+        },
+        {
+          "phrase": "north pacific",
+          "display": "North Pacific",
+          "weight": 4.7
+        },
+        {
+          "phrase": "north",
+          "display": "North",
+          "weight": 3.23
+        },
+        {
+          "phrase": "bering strait",
+          "display": "Bering Strait",
+          "weight": 2.7
+        },
+        {
+          "phrase": "gulf stream",
+          "display": "Gulf Stream",
+          "weight": 2.6
+        },
+        {
+          "phrase": "laurentide ice sheet",
+          "display": "Laurentide Ice Sheet",
+          "weight": 2.2
+        },
+        {
+          "phrase": "cbs",
+          "display": "CBS",
+          "weight": 1.9
+        },
+        {
+          "phrase": "northeast pacific",
+          "display": "Northeast Pacific",
+          "weight": 1.9
+        },
+        {
+          "phrase": "obs",
+          "display": "OBS",
+          "weight": 1.86
+        },
+        {
+          "phrase": "agulhas leakage",
+          "display": "Agulhas Leakage",
+          "weight": 1.8
+        },
+        {
+          "phrase": "northeast atlantic",
+          "display": "Northeast Atlantic",
+          "weight": 1.7
+        },
+        {
+          "phrase": "european ice sheets",
+          "display": "European Ice Sheets",
+          "weight": 1.6
+        },
+        {
+          "phrase": "ssh",
+          "display": "SSH",
+          "weight": 1.44
+        },
+        {
+          "phrase": "big diomede island",
+          "display": "Big Diomede Island",
+          "weight": 1.3
+        },
+        {
+          "phrase": "little diomede island",
+          "display": "Little Diomede Island",
+          "weight": 1.3
+        },
+        {
+          "phrase": "arctic and north pacific ocean",
+          "display": "Arctic and North Pacific Ocean",
+          "weight": 1.2
+        },
+        {
+          "phrase": "azores high",
+          "display": "Azores High",
+          "weight": 1.2
+        },
+        {
+          "phrase": "icelandic low",
+          "display": "Icelandic Low",
+          "weight": 1.2
+        },
+        {
+          "phrase": "north american",
+          "display": "North American",
+          "weight": 1.2
+        },
+        {
+          "phrase": "norwegian sea",
+          "display": "Norwegian Sea",
+          "weight": 1.2
+        },
+        {
+          "phrase": "supplementary discussion",
+          "display": "Supplementary Discussion",
+          "weight": 1.2
+        },
+        {
+          "phrase": "north atlantic salinity oscillation",
+          "display": "North Atlantic Salinity Oscillation",
+          "weight": 1.1
+        },
+        {
+          "phrase": "younger dryas and heinrich",
+          "display": "Younger Dryas and Heinrich",
+          "weight": 1.1
+        },
+        {
+          "phrase": "closure",
+          "display": "closure",
+          "weight": 0.0489
+        },
+        {
+          "phrase": "volcanic",
+          "display": "Volcanic",
+          "weight": 0.0447
+        },
+        {
+          "phrase": "salinity variability",
+          "display": "salinity variability",
+          "weight": 0.0442
+        },
+        {
+          "phrase": "salinity",
+          "display": "Salinity",
+          "weight": 0.0423
+        },
+        {
+          "phrase": "upper-ocean salinity",
+          "display": "upper-ocean salinity",
+          "weight": 0.0402
+        },
+        {
+          "phrase": "biis",
+          "display": "BIIS",
+          "weight": 0.0393
+        },
+        {
+          "phrase": "central north",
+          "display": "central North",
+          "weight": 0.0393
+        },
+        {
+          "phrase": "central north atlantic",
+          "display": "central North Atlantic",
+          "weight": 0.0393
+        },
+        {
+          "phrase": "fh sverdrup",
+          "display": "fh sverdrup",
+          "weight": 0.0389
+        },
+        {
+          "phrase": "d-o",
+          "display": "D-O",
+          "weight": 0.0381
+        },
+        {
+          "phrase": "sverdrup",
+          "display": "sverdrup",
+          "weight": 0.0379
+        },
+        {
+          "phrase": "eruption",
+          "display": "eruption",
+          "weight": 0.0378
+        },
+        {
+          "phrase": "siku",
+          "display": "Siku",
+          "weight": 0.0377
+        },
+        {
+          "phrase": "hosing",
+          "display": "hosing",
+          "weight": 0.0376
+        },
+        {
+          "phrase": "laurentide ice",
+          "display": "Laurentide Ice",
+          "weight": 0.0368
+        },
+        {
+          "phrase": "northeast",
+          "display": "Northeast",
+          "weight": 0.0368
+        },
+        {
+          "phrase": "volcanic forcing",
+          "display": "volcanic forcing",
+          "weight": 0.0366
+        },
+        {
+          "phrase": "laurentide",
+          "display": "Laurentide",
+          "weight": 0.0365
+        },
+        {
+          "phrase": "climate",
+          "display": "Climate",
+          "weight": 0.0337
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "ITCZ; Northern Hemisphere; Southern Hemisphere; Northward Group; South Pacific",
+      "paper_count": 3,
+      "term_count": 32,
+      "paper_ids": [
+        "europe_pmc_PMC13342563",
+        "europe_pmc_PMC13377125",
+        "europe_pmc_PMC13598196"
+      ],
+      "terms": [
+        {
+          "phrase": "itcz",
+          "display": "ITCZ",
+          "weight": 5.18
+        },
+        {
+          "phrase": "northern hemisphere",
+          "display": "Northern Hemisphere",
+          "weight": 4.3
+        },
+        {
+          "phrase": "southern hemisphere",
+          "display": "Southern Hemisphere",
+          "weight": 4.2
+        },
+        {
+          "phrase": "northward group",
+          "display": "Northward Group",
+          "weight": 3.7
+        },
+        {
+          "phrase": "south pacific",
+          "display": "South Pacific",
+          "weight": 3.6
+        },
+        {
+          "phrase": "southward group",
+          "display": "Southward Group",
+          "weight": 3.4
+        },
+        {
+          "phrase": "ar",
+          "display": "AR",
+          "weight": 2.92
+        },
+        {
+          "phrase": "command language",
+          "display": "Command Language",
+          "weight": 2.2
+        },
+        {
+          "phrase": "pis",
+          "display": "PIS",
+          "weight": 2.04
+        },
+        {
+          "phrase": "si",
+          "display": "SI",
+          "weight": 2.02
+        },
+        {
+          "phrase": "hc",
+          "display": "HC",
+          "weight": 1.9
+        },
+        {
+          "phrase": "ivt",
+          "display": "IVT",
+          "weight": 1.52
+        },
+        {
+          "phrase": "neutral group",
+          "display": "Neutral Group",
+          "weight": 1.5
+        },
+        {
+          "phrase": "north america",
+          "display": "North America",
+          "weight": 1.5
+        },
+        {
+          "phrase": "cape horn current",
+          "display": "Cape Horn Current",
+          "weight": 1.3
+        },
+        {
+          "phrase": "northward and southward groups",
+          "display": "Northward and Southward Groups",
+          "weight": 1.3
+        },
+        {
+          "phrase": "supporting information text",
+          "display": "Supporting Information Text",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ar frequency",
+          "display": "AR frequency",
+          "weight": 0.0488
+        },
+        {
+          "phrase": "si appendix",
+          "display": "SI Appendix",
+          "weight": 0.0461
+        },
+        {
+          "phrase": "ahteq",
+          "display": "AHTeq",
+          "weight": 0.0454
+        },
+        {
+          "phrase": "ars",
+          "display": "ARs",
+          "weight": 0.0453
+        },
+        {
+          "phrase": "sww",
+          "display": "SWW",
+          "weight": 0.0438
+        },
+        {
+          "phrase": "fixed-amoc",
+          "display": "fixed-AMOC",
+          "weight": 0.0436
+        },
+        {
+          "phrase": "ohteq",
+          "display": "OHTeq",
+          "weight": 0.0435
+        },
+        {
+          "phrase": "si appendix fig",
+          "display": "si appendix fig",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "ts",
+          "display": "TS",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "group",
+          "display": "Group",
+          "weight": 0.0412
+        },
+        {
+          "phrase": "hc intensity",
+          "display": "HC intensity",
+          "weight": 0.0398
+        },
+        {
+          "phrase": "amoc slowdowns",
+          "display": "AMOC slowdowns",
+          "weight": 0.0387
+        },
+        {
+          "phrase": "detrital",
+          "display": "Detrital",
+          "weight": 0.038
+        },
+        {
+          "phrase": "frequency",
+          "display": "frequency",
+          "weight": 0.0376
+        },
+        {
+          "phrase": "cesm2",
+          "display": "CESM2",
+          "weight": 0.0363
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "GS; North Atlantic Ocean; GOP; Labrador Current; POP",
+      "paper_count": 2,
+      "term_count": 24,
+      "paper_ids": [
+        "europe_pmc_PMC12945690",
+        "europe_pmc_PMC13440228"
+      ],
+      "terms": [
+        {
+          "phrase": "gs",
+          "display": "GS",
+          "weight": 5.14
+        },
+        {
+          "phrase": "north atlantic ocean",
+          "display": "North Atlantic Ocean",
+          "weight": 3.1
+        },
+        {
+          "phrase": "gop",
+          "display": "GOP",
+          "weight": 2.84
+        },
+        {
+          "phrase": "labrador current",
+          "display": "Labrador Current",
+          "weight": 2.1
+        },
+        {
+          "phrase": "pop",
+          "display": "POP",
+          "weight": 1.76
+        },
+        {
+          "phrase": "florida current",
+          "display": "Florida Current",
+          "weight": 1.7
+        },
+        {
+          "phrase": "deep western boundary current",
+          "display": "Deep Western Boundary Current",
+          "weight": 1.5
+        },
+        {
+          "phrase": "neem",
+          "display": "NEEM",
+          "weight": 1.44
+        },
+        {
+          "phrase": "cape hatteras",
+          "display": "Cape Hatteras",
+          "weight": 1.3
+        },
+        {
+          "phrase": "gulf stream extension",
+          "display": "Gulf Stream Extension",
+          "weight": 1.3
+        },
+        {
+          "phrase": "south africa",
+          "display": "South Africa",
+          "weight": 1.3
+        },
+        {
+          "phrase": "bay of guinea",
+          "display": "Bay of Guinea",
+          "weight": 1.2
+        },
+        {
+          "phrase": "north greenland ice core project",
+          "display": "North Greenland Ice Core Project",
+          "weight": 1.2
+        },
+        {
+          "phrase": "nova scotia and newfoundland",
+          "display": "Nova Scotia and Newfoundland",
+          "weight": 1.2
+        },
+        {
+          "phrase": "gs path",
+          "display": "GS path",
+          "weight": 0.0531
+        },
+        {
+          "phrase": "path",
+          "display": "path",
+          "weight": 0.0458
+        },
+        {
+          "phrase": "model years",
+          "display": "model years",
+          "weight": 0.0455
+        },
+        {
+          "phrase": "dsl",
+          "display": "DSL",
+          "weight": 0.043
+        },
+        {
+          "phrase": "dwbc",
+          "display": "DWBC",
+          "weight": 0.0409
+        },
+        {
+          "phrase": "productivity",
+          "display": "productivity",
+          "weight": 0.0409
+        },
+        {
+          "phrase": "pmol",
+          "display": "pmol",
+          "weight": 0.0352
+        },
+        {
+          "phrase": "biosphere",
+          "display": "biosphere",
+          "weight": 0.0347
+        },
+        {
+          "phrase": "o2 year",
+          "display": "O2 year",
+          "weight": 0.0341
+        },
+        {
+          "phrase": "pmol o2",
+          "display": "pmol o2",
+          "weight": 0.0341
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "theme": "Monte Carlo; BP; EEI; IV; Lisiecki and Stern",
+      "paper_count": 2,
+      "term_count": 24,
+      "paper_ids": [
+        "europe_pmc_PMC13319204",
+        "europe_pmc_PMC13488926"
+      ],
+      "terms": [
+        {
+          "phrase": "monte carlo",
+          "display": "Monte Carlo",
+          "weight": 3.0
+        },
+        {
+          "phrase": "bp",
+          "display": "BP",
+          "weight": 1.9
+        },
+        {
+          "phrase": "eei",
+          "display": "EEI",
+          "weight": 1.88
+        },
+        {
+          "phrase": "iv",
+          "display": "IV",
+          "weight": 1.8
+        },
+        {
+          "phrase": "lisiecki and stern",
+          "display": "Lisiecki and Stern",
+          "weight": 1.5
+        },
+        {
+          "phrase": "mot",
+          "display": "MOT",
+          "weight": 1.42
+        },
+        {
+          "phrase": "gulf of genoa",
+          "display": "Gulf of Genoa",
+          "weight": 1.3
+        },
+        {
+          "phrase": "integrated ocean drilling program",
+          "display": "Integrated Ocean Drilling Program",
+          "weight": 1.3
+        },
+        {
+          "phrase": "red sea",
+          "display": "Red Sea",
+          "weight": 1.3
+        },
+        {
+          "phrase": "dome fuji",
+          "display": "Dome Fuji",
+          "weight": 1.2
+        },
+        {
+          "phrase": "dronning maud land",
+          "display": "Dronning Maud Land",
+          "weight": 1.2
+        },
+        {
+          "phrase": "indian ocean",
+          "display": "Indian Ocean",
+          "weight": 1.2
+        },
+        {
+          "phrase": "reconstructed atlantic meridional overturning circulation",
+          "display": "Reconstructed Atlantic Meridional Overturning Circulation",
+          "weight": 1.2
+        },
+        {
+          "phrase": "talos dome",
+          "display": "Talos Dome",
+          "weight": 1.2
+        },
+        {
+          "phrase": "eeiocean",
+          "display": "EEIocean",
+          "weight": 0.045
+        },
+        {
+          "phrase": "stack",
+          "display": "stack",
+          "weight": 0.0443
+        },
+        {
+          "phrase": "kyr",
+          "display": "kyr",
+          "weight": 0.0425
+        },
+        {
+          "phrase": "site u1385",
+          "display": "Site U1385",
+          "weight": 0.0423
+        },
+        {
+          "phrase": "ka",
+          "display": "ka",
+          "weight": 0.0422
+        },
+        {
+          "phrase": "t-iv",
+          "display": "T-IV",
+          "weight": 0.0407
+        },
+        {
+          "phrase": "kyr bp",
+          "display": "kyr BP",
+          "weight": 0.0405
+        },
+        {
+          "phrase": "eeiice",
+          "display": "EEIice",
+          "weight": 0.0396
+        },
+        {
+          "phrase": "energy",
+          "display": "Energy",
+          "weight": 0.0381
+        },
+        {
+          "phrase": "terminations",
+          "display": "Terminations",
+          "weight": 0.0378
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "theme": "Nordic Seas; Labrador Sea; Baffin Bay; Atlantic; ACCESS",
+      "paper_count": 2,
+      "term_count": 23,
+      "paper_ids": [
+        "europe_pmc_PMC13201857",
+        "europe_pmc_PMC13665990"
+      ],
+      "terms": [
+        {
+          "phrase": "nordic seas",
+          "display": "Nordic Seas",
+          "weight": 8.3
+        },
+        {
+          "phrase": "labrador sea",
+          "display": "Labrador Sea",
+          "weight": 4.7
+        },
+        {
+          "phrase": "baffin bay",
+          "display": "Baffin Bay",
+          "weight": 2.1
+        },
+        {
+          "phrase": "atlantic",
+          "display": "Atlantic",
+          "weight": 2.06
+        },
+        {
+          "phrase": "access",
+          "display": "ACCESS",
+          "weight": 1.98
+        },
+        {
+          "phrase": "pi",
+          "display": "PI",
+          "weight": 1.7
+        },
+        {
+          "phrase": "labrador and irminger seas",
+          "display": "Labrador and Irminger Seas",
+          "weight": 1.5
+        },
+        {
+          "phrase": "hudson strait",
+          "display": "Hudson Strait",
+          "weight": 1.4
+        },
+        {
+          "phrase": "nordic and barents seas",
+          "display": "Nordic and Barents Seas",
+          "weight": 1.4
+        },
+        {
+          "phrase": "north atlantic and nordic seas",
+          "display": "North Atlantic and Nordic Seas",
+          "weight": 1.4
+        },
+        {
+          "phrase": "gris",
+          "display": "GrIS",
+          "weight": 1.35
+        },
+        {
+          "phrase": "north atlantic hosing model intercomparison project",
+          "display": "North Atlantic Hosing Model Intercomparison Project",
+          "weight": 1.1
+        },
+        {
+          "phrase": "tipping points modeling intercomparison project",
+          "display": "Tipping Points Modeling Intercomparison Project",
+          "weight": 1.1
+        },
+        {
+          "phrase": "gwls",
+          "display": "GWLs",
+          "weight": 0.0422
+        },
+        {
+          "phrase": "hist-ssp585-fw",
+          "display": "Hist-SSP585-FW",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "access-esm1",
+          "display": "ACCESS-ESM1",
+          "weight": 0.0407
+        },
+        {
+          "phrase": "nordic",
+          "display": "Nordic",
+          "weight": 0.0394
+        },
+        {
+          "phrase": "hist-ssp585",
+          "display": "Hist-SSP585",
+          "weight": 0.0387
+        },
+        {
+          "phrase": "seas",
+          "display": "Seas",
+          "weight": 0.0386
+        },
+        {
+          "phrase": "ramp-up",
+          "display": "ramp-up",
+          "weight": 0.036
+        },
+        {
+          "phrase": "mlds",
+          "display": "MLDs",
+          "weight": 0.0352
+        },
+        {
+          "phrase": "warming",
+          "display": "warming",
+          "weight": 0.0343
+        },
+        {
+          "phrase": "ramp-downs",
+          "display": "ramp-downs",
+          "weight": 0.0329
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "theme": "Coupled Model Intercomparison Project Phase; LM; JULES; RAPID; OBP",
+      "paper_count": 2,
+      "term_count": 22,
+      "paper_ids": [
+        "europe_pmc_PMC13060603",
+        "europe_pmc_PMC13376509"
+      ],
+      "terms": [
+        {
+          "phrase": "coupled model intercomparison project phase",
+          "display": "Coupled Model Intercomparison Project Phase",
+          "weight": 2.2
+        },
+        {
+          "phrase": "lm",
+          "display": "LM",
+          "weight": 1.74
+        },
+        {
+          "phrase": "jules",
+          "display": "JULES",
+          "weight": 1.66
+        },
+        {
+          "phrase": "rapid",
+          "display": "RAPID",
+          "weight": 1.51
+        },
+        {
+          "phrase": "obp",
+          "display": "OBP",
+          "weight": 1.5
+        },
+        {
+          "phrase": "atlantic ridge",
+          "display": "Atlantic Ridge",
+          "weight": 1.3
+        },
+        {
+          "phrase": "woods hole line",
+          "display": "Woods Hole Line",
+          "weight": 1.2
+        },
+        {
+          "phrase": "zero emissions commitment model intercomparison project",
+          "display": "Zero Emissions Commitment Model Intercomparison Project",
+          "weight": 1.2
+        },
+        {
+          "phrase": "land environment simulator",
+          "display": "Land Environment Simulator",
+          "weight": 1.1
+        },
+        {
+          "phrase": "meridional overturning circulation and heatflux array",
+          "display": "Meridional Overturning Circulation and Heatflux Array",
+          "weight": 1.1
+        },
+        {
+          "phrase": "meridional overturning variability experiment",
+          "display": "Meridional Overturning Variability Experiment",
+          "weight": 1.1
+        },
+        {
+          "phrase": "north america and eurasia",
+          "display": "North America and Eurasia",
+          "weight": 1.1
+        },
+        {
+          "phrase": "permafrost",
+          "display": "Permafrost",
+          "weight": 0.0524
+        },
+        {
+          "phrase": "permafrost carbon",
+          "display": "Permafrost carbon",
+          "weight": 0.0502
+        },
+        {
+          "phrase": "carbon loss",
+          "display": "carbon loss",
+          "weight": 0.0466
+        },
+        {
+          "phrase": "permafrost carbon loss",
+          "display": "Permafrost carbon loss",
+          "weight": 0.0462
+        },
+        {
+          "phrase": "western overturning",
+          "display": "western overturning",
+          "weight": 0.0443
+        },
+        {
+          "phrase": "deep western overturning",
+          "display": "deep western overturning",
+          "weight": 0.0437
+        },
+        {
+          "phrase": "overturning transport",
+          "display": "Overturning transport",
+          "weight": 0.0435
+        },
+        {
+          "phrase": "mooring",
+          "display": "mooring",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "noresm2-lm",
+          "display": "NorESM2-LM",
+          "weight": 0.0432
+        },
+        {
+          "phrase": "western overturning transport",
+          "display": "western overturning transport",
+          "weight": 0.0419
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "theme": "North Atlantic Deep Water; CDA; SD; GMOC; OW",
+      "paper_count": 2,
+      "term_count": 22,
+      "paper_ids": [
+        "europe_pmc_PMC13490444",
+        "europe_pmc_PMC13620149"
+      ],
+      "terms": [
+        {
+          "phrase": "north atlantic deep water",
+          "display": "North Atlantic Deep Water",
+          "weight": 2.7
+        },
+        {
+          "phrase": "cda",
+          "display": "CDA",
+          "weight": 2.36
+        },
+        {
+          "phrase": "sd",
+          "display": "SD",
+          "weight": 2.3
+        },
+        {
+          "phrase": "gmoc",
+          "display": "GMOC",
+          "weight": 2.16
+        },
+        {
+          "phrase": "ow",
+          "display": "OW",
+          "weight": 2.0
+        },
+        {
+          "phrase": "nadw",
+          "display": "NADW",
+          "weight": 1.86
+        },
+        {
+          "phrase": "osnap",
+          "display": "OSNAP",
+          "weight": 1.66
+        },
+        {
+          "phrase": "antarctic circumpolar current",
+          "display": "Antarctic Circumpolar Current",
+          "weight": 1.5
+        },
+        {
+          "phrase": "north atlantic oscillation",
+          "display": "North Atlantic Oscillation",
+          "weight": 1.3
+        },
+        {
+          "phrase": "southern annular mode",
+          "display": "Southern Annular Mode",
+          "weight": 1.3
+        },
+        {
+          "phrase": "coupled model intercomparison project",
+          "display": "Coupled Model Intercomparison Project",
+          "weight": 1.1
+        },
+        {
+          "phrase": "subpolar north atlantic program",
+          "display": "Subpolar North Atlantic Program",
+          "weight": 1.1
+        },
+        {
+          "phrase": "supplementary information",
+          "display": "Supplementary Information",
+          "weight": 1.1
+        },
+        {
+          "phrase": "o-west",
+          "display": "O-West",
+          "weight": 0.0524
+        },
+        {
+          "phrase": "o-east",
+          "display": "O-East",
+          "weight": 0.0499
+        },
+        {
+          "phrase": "moc",
+          "display": "MOC",
+          "weight": 0.0492
+        },
+        {
+          "phrase": "ow-out",
+          "display": "OW-Out",
+          "weight": 0.048
+        },
+        {
+          "phrase": "o-full",
+          "display": "O-Full",
+          "weight": 0.0471
+        },
+        {
+          "phrase": "acc-rc",
+          "display": "ACC-RC",
+          "weight": 0.0428
+        },
+        {
+          "phrase": "cesm-cda",
+          "display": "CESM-CDA",
+          "weight": 0.037
+        },
+        {
+          "phrase": "timeseries",
+          "display": "Timeseries",
+          "weight": 0.0366
+        },
+        {
+          "phrase": "multiscale",
+          "display": "multiscale",
+          "weight": 0.0357
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "theme": "Southern Ocean; Heinrich Stadial; Last Glacial Maximum; Younger Dryas; Atlantic Meridional Overturning Circulation",
+      "paper_count": 2,
+      "term_count": 21,
+      "paper_ids": [
+        "europe_pmc_PMC13381650",
+        "europe_pmc_PMC13454564"
+      ],
+      "terms": [
+        {
+          "phrase": "southern ocean",
+          "display": "Southern Ocean",
+          "weight": 3.3
+        },
+        {
+          "phrase": "heinrich stadial",
+          "display": "Heinrich Stadial",
+          "weight": 3.2
+        },
+        {
+          "phrase": "last glacial maximum",
+          "display": "Last Glacial Maximum",
+          "weight": 3.2
+        },
+        {
+          "phrase": "younger dryas",
+          "display": "Younger Dryas",
+          "weight": 2.9
+        },
+        {
+          "phrase": "atlantic meridional overturning circulation",
+          "display": "Atlantic Meridional Overturning Circulation",
+          "weight": 2.7
+        },
+        {
+          "phrase": "south america",
+          "display": "South America",
+          "weight": 1.8
+        },
+        {
+          "phrase": "ba",
+          "display": "BA",
+          "weight": 1.44
+        },
+        {
+          "phrase": "north atlantic interstadial",
+          "display": "North Atlantic Interstadial",
+          "weight": 1.4
+        },
+        {
+          "phrase": "sete lagoas",
+          "display": "Sete Lagoas",
+          "weight": 1.4
+        },
+        {
+          "phrase": "yd",
+          "display": "YD",
+          "weight": 1.26
+        },
+        {
+          "phrase": "rei",
+          "display": "REI",
+          "weight": 1.19
+        },
+        {
+          "phrase": "b-p",
+          "display": "B-P",
+          "weight": 0.0494
+        },
+        {
+          "phrase": "ventilation ages",
+          "display": "Ventilation ages",
+          "weight": 0.0487
+        },
+        {
+          "phrase": "ventilation",
+          "display": "Ventilation",
+          "weight": 0.0461
+        },
+        {
+          "phrase": "b-p ventilation",
+          "display": "B-P ventilation",
+          "weight": 0.046
+        },
+        {
+          "phrase": "cave",
+          "display": "Cave",
+          "weight": 0.0456
+        },
+        {
+          "phrase": "ages",
+          "display": "ages",
+          "weight": 0.0437
+        },
+        {
+          "phrase": "th",
+          "display": "Th",
+          "weight": 0.0419
+        },
+        {
+          "phrase": "stalagmite",
+          "display": "stalagmite",
+          "weight": 0.0406
+        },
+        {
+          "phrase": "mato",
+          "display": "Mato",
+          "weight": 0.04
+        },
+        {
+          "phrase": "rei mato",
+          "display": "rei mato",
+          "weight": 0.04
+        }
+      ]
+    }
+  ]
+}

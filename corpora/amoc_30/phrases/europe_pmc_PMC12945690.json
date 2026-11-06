@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12945690",
+  "phrases": [
+    {
+      "phrase": "labrador current",
+      "display": "Labrador Current",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida current",
+      "display": "Florida Current",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "deep western boundary current",
+      "display": "Deep Western Boundary Current",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream extension",
+      "display": "Gulf Stream Extension",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cape hatteras",
+      "display": "Cape Hatteras",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nova scotia and newfoundland",
+      "display": "Nova Scotia and Newfoundland",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gs",
+      "display": "GS",
+      "score": 5.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pop",
+      "display": "POP",
+      "score": 1.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gs path",
+      "score": 0.0531,
+      "channel": "tfidf",
+      "display": "GS path"
+    },
+    {
+      "phrase": "path",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "path"
+    },
+    {
+      "phrase": "model years",
+      "score": 0.0455,
+      "channel": "tfidf",
+      "display": "model years"
+    },
+    {
+      "phrase": "dsl",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "DSL"
+    },
+    {
+      "phrase": "dwbc",
+      "score": 0.0409,
+      "channel": "tfidf",
+      "display": "DWBC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

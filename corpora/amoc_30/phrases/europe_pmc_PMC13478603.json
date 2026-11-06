@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13478603",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "medieval climate anomaly",
+      "display": "Medieval Climate Anomaly",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little ice age",
+      "display": "Little Ice Age",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south greenland margin",
+      "display": "South Greenland Margin",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laurentian channel",
+      "display": "Laurentian Channel",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exp",
+      "display": "EXP",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cesm",
+      "display": "CESM",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc-sensitive",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "AMOC-sensitive"
+    },
+    {
+      "phrase": "amoc-sensitive indicators",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "AMOC-sensitive indicators"
+    },
+    {
+      "phrase": "volcanic",
+      "score": 0.0402,
+      "channel": "tfidf",
+      "display": "volcanic"
+    },
+    {
+      "phrase": "line unit",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "line unit"
+    },
+    {
+      "phrase": "indicators",
+      "score": 0.0353,
+      "channel": "tfidf",
+      "display": "indicators"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

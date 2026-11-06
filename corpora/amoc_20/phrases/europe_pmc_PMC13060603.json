@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13060603",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ridge",
+      "display": "Atlantic Ridge",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "woods hole line",
+      "display": "Woods Hole Line",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "meridional overturning circulation and heatflux array",
+      "display": "Meridional Overturning Circulation and Heatflux Array",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "meridional overturning variability experiment",
+      "display": "Meridional Overturning Variability Experiment",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rapid",
+      "display": "RAPID",
+      "score": 1.51,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "obp",
+      "display": "OBP",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western overturning",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "western overturning"
+    },
+    {
+      "phrase": "deep western",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "Deep Western"
+    },
+    {
+      "phrase": "deep western overturning",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "deep western overturning"
+    },
+    {
+      "phrase": "mooring",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "mooring"
+    },
+    {
+      "phrase": "overturning transport",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "Overturning transport"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0801
+}

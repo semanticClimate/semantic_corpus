@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13598196",
+  "phrases": [
+    {
+      "phrase": "south pacific",
+      "display": "South Pacific",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cape horn current",
+      "display": "Cape Horn Current",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic circumpolar current",
+      "display": "Antarctic Circumpolar Current",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supporting information text",
+      "display": "Supporting Information Text",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pis",
+      "display": "PIS",
+      "score": 2.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "si",
+      "display": "SI",
+      "score": 2.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "si appendix",
+      "score": 0.0459,
+      "channel": "tfidf",
+      "display": "SI Appendix"
+    },
+    {
+      "phrase": "sww",
+      "score": 0.0436,
+      "channel": "tfidf",
+      "display": "SWW"
+    },
+    {
+      "phrase": "si appendix fig",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "si appendix fig"
+    },
+    {
+      "phrase": "amoc slowdowns",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "AMOC slowdowns"
+    },
+    {
+      "phrase": "detrital",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "Detrital"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0801
+}

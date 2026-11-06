@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13381650",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic interstadial",
+      "display": "North Atlantic Interstadial",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.69,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ba",
+      "display": "BA",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "b-p",
+      "score": 0.0494,
+      "channel": "tfidf",
+      "display": "B-P"
+    },
+    {
+      "phrase": "ventilation ages",
+      "score": 0.0487,
+      "channel": "tfidf",
+      "display": "Ventilation ages"
+    },
+    {
+      "phrase": "ventilation",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "Ventilation"
+    },
+    {
+      "phrase": "b-p ventilation",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "B-P ventilation"
+    },
+    {
+      "phrase": "ages",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "ages"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

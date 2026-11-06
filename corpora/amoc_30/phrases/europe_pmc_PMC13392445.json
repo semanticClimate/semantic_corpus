@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13392445",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary discussion",
+      "display": "Supplementary Discussion",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic salinity oscillation",
+      "display": "North Atlantic Salinity Oscillation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "younger dryas and heinrich",
+      "display": "Younger Dryas and Heinrich",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ssh",
+      "display": "SSH",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.43,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "salinity variability",
+      "score": 0.0442,
+      "channel": "tfidf",
+      "display": "salinity variability"
+    },
+    {
+      "phrase": "salinity",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "Salinity"
+    },
+    {
+      "phrase": "upper-ocean salinity",
+      "score": 0.0402,
+      "channel": "tfidf",
+      "display": "upper-ocean salinity"
+    },
+    {
+      "phrase": "central north",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "central North"
+    },
+    {
+      "phrase": "central north atlantic",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "central North Atlantic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

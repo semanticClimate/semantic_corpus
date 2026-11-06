@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12749622",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "meridional overturning circulation",
+      "display": "Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "icelandic low",
+      "display": "Icelandic Low",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exp",
+      "display": "EXP",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "df",
+      "display": "DF",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ov",
+      "score": 0.0512,
+      "channel": "tfidf",
+      "display": "ov"
+    },
+    {
+      "phrase": "stochastic noise",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "stochastic noise"
+    },
+    {
+      "phrase": "minimal",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "minimal"
+    },
+    {
+      "phrase": "ensemble",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "ensemble"
+    },
+    {
+      "phrase": "stochastic",
+      "score": 0.0403,
+      "channel": "tfidf",
+      "display": "stochastic"
+    },
+    {
+      "phrase": "collapse group",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "Collapse group"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

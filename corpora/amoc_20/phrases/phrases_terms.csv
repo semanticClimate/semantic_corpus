@@ -1,0 +1,231 @@
+phrase,display,n_papers,best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake,best_score,score_channel,paper_ids
+amoc,AMOC,19,4.78,19,,0,,0,4.78,uppercase,europe_pmc_PMC13060603;europe_pmc_PMC13082334;europe_pmc_PMC13108545;europe_pmc_PMC13281800;europe_pmc_PMC13319204;europe_pmc_PMC13342563;europe_pmc_PMC13376509;europe_pmc_PMC13377125;europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13440228;europe_pmc_PMC13448930;europe_pmc_PMC13454564;europe_pmc_PMC13473526;europe_pmc_PMC13478603;europe_pmc_PMC13488926;europe_pmc_PMC13538684;europe_pmc_PMC13598196;europe_pmc_PMC13665990
+north atlantic,North Atlantic,18,7.1,18,,0,,0,7.1,uppercase,europe_pmc_PMC13060603;europe_pmc_PMC13082334;europe_pmc_PMC13108545;europe_pmc_PMC13281800;europe_pmc_PMC13319204;europe_pmc_PMC13342563;europe_pmc_PMC13376509;europe_pmc_PMC13377125;europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13440228;europe_pmc_PMC13473526;europe_pmc_PMC13478603;europe_pmc_PMC13488926;europe_pmc_PMC13538684;europe_pmc_PMC13598196;europe_pmc_PMC13620149;europe_pmc_PMC13665990
+atlantic meridional overturning circulation,Atlantic Meridional Overturning Circulation,10,1.5,10,,0,,0,1.5,uppercase,europe_pmc_PMC13060603;europe_pmc_PMC13319204;europe_pmc_PMC13342563;europe_pmc_PMC13376509;europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13454564;europe_pmc_PMC13478603;europe_pmc_PMC13538684;europe_pmc_PMC13620149
+labrador sea,Labrador Sea,4,2.5,4,,0,,0,2.5,uppercase,europe_pmc_PMC13082334;europe_pmc_PMC13478603;europe_pmc_PMC13620149;europe_pmc_PMC13665990
+southern ocean,Southern Ocean,3,3.3,3,,0,,0,3.3,uppercase,europe_pmc_PMC13381650;europe_pmc_PMC13440228;europe_pmc_PMC13598196
+arctic ocean,Arctic Ocean,3,2.5,3,,0,,0,2.5,uppercase,europe_pmc_PMC13108545;europe_pmc_PMC13281800;europe_pmc_PMC13665990
+northern hemisphere,Northern Hemisphere,3,2.3,3,,0,,0,2.3,uppercase,europe_pmc_PMC13342563;europe_pmc_PMC13377125;europe_pmc_PMC13454564
+atlantic,Atlantic,3,1.86,3,,0,,0,1.86,uppercase,europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13473526
+monte carlo,Monte Carlo,3,1.8,3,,0,,0,1.8,uppercase,europe_pmc_PMC13319204;europe_pmc_PMC13440228;europe_pmc_PMC13488926
+southern hemisphere,Southern Hemisphere,3,1.5,3,,0,,0,1.5,uppercase,europe_pmc_PMC13342563;europe_pmc_PMC13377125;europe_pmc_PMC13598196
+coupled model intercomparison project phase,Coupled Model Intercomparison Project Phase,3,1.1,3,,0,,0,1.1,uppercase,europe_pmc_PMC13060603;europe_pmc_PMC13376509;europe_pmc_PMC13392445
+north pacific,North Pacific,2,3.4,2,,0,,0,3.4,uppercase,europe_pmc_PMC13108545;europe_pmc_PMC13473526
+nordic seas,Nordic Seas,2,2.2,2,,0,,0,2.2,uppercase,europe_pmc_PMC13082334;europe_pmc_PMC13665990
+heinrich stadial,Heinrich Stadial,2,1.8,2,,0,,0,1.8,uppercase,europe_pmc_PMC13381650;europe_pmc_PMC13454564
+south pacific,South Pacific,2,1.8,2,,0,,0,1.8,uppercase,europe_pmc_PMC13342563;europe_pmc_PMC13598196
+last glacial maximum,Last Glacial Maximum,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC13381650;europe_pmc_PMC13454564
+younger dryas,Younger Dryas,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC13381650;europe_pmc_PMC13454564
+indian ocean,Indian Ocean,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC13082334;europe_pmc_PMC13488926
+community earth system model,Community Earth System Model,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC13376509;europe_pmc_PMC13538684
+coupled model intercomparison project,Coupled Model Intercomparison Project,2,1.1,2,,0,,0,1.1,uppercase,europe_pmc_PMC13538684;europe_pmc_PMC13620149
+itcz,ITCZ,1,5.18,1,,0,,0,5.18,uppercase,europe_pmc_PMC13377125
+northward group,Northward Group,1,3.7,1,,0,,0,3.7,uppercase,europe_pmc_PMC13377125
+southward group,Southward Group,1,3.4,1,,0,,0,3.4,uppercase,europe_pmc_PMC13377125
+ar,AR,1,2.92,1,,0,,0,2.92,uppercase,europe_pmc_PMC13342563
+gop,GOP,1,2.84,1,,0,,0,2.84,uppercase,europe_pmc_PMC13440228
+bering strait,Bering Strait,1,2.7,1,,0,,0,2.7,uppercase,europe_pmc_PMC13108545
+gulf stream,Gulf Stream,1,2.6,1,,0,,0,2.6,uppercase,europe_pmc_PMC13392445
+sst,SST,1,2.34,1,,0,,0,2.34,uppercase,europe_pmc_PMC13538684
+sd,SD,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13620149
+command language,Command Language,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13342563
+laurentide ice sheet,Laurentide Ice Sheet,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13473526
+pis,PIS,1,2.04,1,,0,,0,2.04,uppercase,europe_pmc_PMC13598196
+si,SI,1,2.02,1,,0,,0,2.02,uppercase,europe_pmc_PMC13598196
+ow,OW,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13620149
+north,North,1,1.96,1,,0,,0,1.96,uppercase,europe_pmc_PMC13473526
+bp,BP,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13319204
+cbs,CBS,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13108545
+hc,HC,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13377125
+northeast pacific,Northeast Pacific,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13473526
+eei,EEI,1,1.88,1,,0,,0,1.88,uppercase,europe_pmc_PMC13488926
+whsst,WHSST,1,1.88,1,,0,,0,1.88,uppercase,europe_pmc_PMC13538684
+obs,OBS,1,1.86,1,,0,,0,1.86,uppercase,europe_pmc_PMC13108545
+oc,OC,1,1.84,1,,0,,0,1.84,uppercase,europe_pmc_PMC13082334
+agulhas leakage,Agulhas Leakage,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13473526
+iv,IV,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13319204
+south america,South America,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13454564
+south atlantic,South Atlantic,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13082334
+ec,EC,1,1.76,1,,0,,0,1.76,uppercase,europe_pmc_PMC13281800
+lm,LM,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC13376509
+mmm,MMM,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13082334
+north atlantic ocean,North Atlantic Ocean,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13440228
+northeast atlantic,Northeast Atlantic,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13473526
+pi,PI,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13665990
+jules,JULES,1,1.66,1,,0,,0,1.66,uppercase,europe_pmc_PMC13376509
+osnap,OSNAP,1,1.66,1,,0,,0,1.66,uppercase,europe_pmc_PMC13620149
+exp,EXP,1,1.64,1,,0,,0,1.64,uppercase,europe_pmc_PMC13478603
+european ice sheets,European Ice Sheets,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13473526
+ivt,IVT,1,1.52,1,,0,,0,1.52,uppercase,europe_pmc_PMC13342563
+rapid,RAPID,1,1.51,1,,0,,0,1.51,uppercase,europe_pmc_PMC13060603
+labrador and irminger seas,Labrador and Irminger Seas,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13665990
+lisiecki and stern,Lisiecki and Stern,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13488926
+neutral group,Neutral Group,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13377125
+north america,North America,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13342563
+obp,OBP,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13060603
+cesm,CESM,1,1.46,1,,0,,0,1.46,uppercase,europe_pmc_PMC13478603
+greenland,Greenland,1,1.46,1,,0,,0,1.46,uppercase,europe_pmc_PMC13281800
+ba,BA,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13381650
+neem,NEEM,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13440228
+ssh,SSH,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13392445
+mot,MOT,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC13488926
+aa,AA,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13448930
+fmoc,Fmoc,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13448930
+north atlantic interstadial,North Atlantic Interstadial,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13381650
+sete lagoas,Sete Lagoas,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13454564
+gris,GrIS,1,1.35,1,,0,,0,1.35,uppercase,europe_pmc_PMC13665990
+atlantic ridge,Atlantic Ridge,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13060603
+big diomede island,Big Diomede Island,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13108545
+cape horn current,Cape Horn Current,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13598196
+gulf of genoa,Gulf of Genoa,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13319204
+integrated ocean drilling program,Integrated Ocean Drilling Program,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13319204
+little diomede island,Little Diomede Island,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13108545
+little ice age,Little Ice Age,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13478603
+medieval climate anomaly,Medieval Climate Anomaly,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13478603
+northward and southward groups,Northward and Southward Groups,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13377125
+red sea,Red Sea,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13319204
+south africa,South Africa,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13440228
+tropical north,Tropical North,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13082334
+yd,YD,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13454564
+antarctic circumpolar current,Antarctic Circumpolar Current,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13598196
+arctic and north pacific ocean,Arctic and North Pacific Ocean,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13108545
+bay of guinea,Bay of Guinea,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13440228
+dome fuji,Dome Fuji,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13488926
+dronning maud land,Dronning Maud Land,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13488926
+global tipping points report,Global Tipping Points Report,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13082334
+irminger and nordic seas,Irminger and Nordic Seas,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+irminger sea,Irminger Sea,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13538684
+large ensemble,Large Ensemble,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+laurentian channel,Laurentian Channel,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13478603
+north greenland ice core project,North Greenland Ice Core Project,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13440228
+reconstructed atlantic meridional overturning circulation,Reconstructed Atlantic Meridional Overturning Circulation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13319204
+scotland ridge,Scotland Ridge,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+sixth assessment report,Sixth Assessment Report,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+south greenland margin,South Greenland Margin,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13478603
+supplementary discussion,Supplementary Discussion,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13392445
+supporting information text,Supporting Information Text,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13598196
+talos dome,Talos Dome,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13488926
+woods hole line,Woods Hole Line,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13060603
+zero emissions commitment model intercomparison project,Zero Emissions Commitment Model Intercomparison Project,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13376509
+rei,REI,1,1.19,1,,0,,0,1.19,uppercase,europe_pmc_PMC13454564
+although peptide,Although Peptide,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+amoc method,Amoc Method,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+except for his,Except for His,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+holocene and last interglacial,Holocene and Last Interglacial,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13538684
+junfeng zhao,Junfeng Zhao,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+kounosuke oisaki,Kounosuke Oisaki,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+labrador and irminger seas in regime,Labrador and Irminger Seas in Regime,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13538684
+land environment simulator,Land Environment Simulator,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13376509
+meridional overturning circulation and heatflux array,Meridional Overturning Circulation and Heatflux Array,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13060603
+meridional overturning variability experiment,Meridional Overturning Variability Experiment,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13060603
+national institutes of health,National Institutes of Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+north america and eurasia,North America and Eurasia,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13376509
+north atlantic deep water,North Atlantic Deep Water,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13620149
+north atlantic hosing model intercomparison project,North Atlantic Hosing Model Intercomparison Project,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13665990
+north atlantic salinity oscillation,North Atlantic Salinity Oscillation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13392445
+stefan kolmar,Stefan Kolmar,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+subpolar north atlantic program,Subpolar North Atlantic Program,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13620149
+supplementary information,Supplementary Information,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13620149
+tipping points modeling intercomparison project,Tipping Points Modeling Intercomparison Project,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13665990
+younger dryas and heinrich,Younger Dryas and Heinrich,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13392445
+peptide,Peptide,1,,0,0.0734,1,,0,0.0734,tfidf,europe_pmc_PMC13448930
+synthesis,synthesis,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC13448930
+peptide synthesis,peptide synthesis,1,,0,0.0579,1,,0,0.0579,tfidf,europe_pmc_PMC13448930
+amino,Amino,1,,0,0.0572,1,,0,0.0572,tfidf,europe_pmc_PMC13448930
+acids,acids,1,,0,0.0556,1,,0,0.0556,tfidf,europe_pmc_PMC13448930
+o-west,O-West,1,,0,0.052,1,,0,0.052,tfidf,europe_pmc_PMC13620149
+permafrost,Permafrost,1,,0,0.0518,1,,0,0.0518,tfidf,europe_pmc_PMC13376509
+moc,MOC,1,,0,0.0499,1,,0,0.0499,tfidf,europe_pmc_PMC13620149
+permafrost carbon,Permafrost carbon,1,,0,0.0499,1,,0,0.0499,tfidf,europe_pmc_PMC13376509
+o-east,O-East,1,,0,0.0495,1,,0,0.0495,tfidf,europe_pmc_PMC13620149
+b-p,B-P,1,,0,0.0492,1,,0,0.0492,tfidf,europe_pmc_PMC13381650
+closure,closure,1,,0,0.0486,1,,0,0.0486,tfidf,europe_pmc_PMC13108545
+ar frequency,AR frequency,1,,0,0.0485,1,,0,0.0485,tfidf,europe_pmc_PMC13342563
+ventilation ages,Ventilation ages,1,,0,0.0484,1,,0,0.0484,tfidf,europe_pmc_PMC13381650
+cave,Cave,1,,0,0.0477,1,,0,0.0477,tfidf,europe_pmc_PMC13454564
+ow-out,OW-Out,1,,0,0.0476,1,,0,0.0476,tfidf,europe_pmc_PMC13620149
+o-full,O-Full,1,,0,0.0467,1,,0,0.0467,tfidf,europe_pmc_PMC13620149
+carbon loss,carbon loss,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC13376509
+permafrost carbon loss,Permafrost carbon loss,1,,0,0.046,1,,0,0.046,tfidf,europe_pmc_PMC13376509
+si appendix,SI Appendix,1,,0,0.0459,1,,0,0.0459,tfidf,europe_pmc_PMC13598196
+b-p ventilation,B-P ventilation,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC13381650
+ahteq,AHTeq,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC13377125
+ventilation,Ventilation,1,,0,0.045,1,,0,0.045,tfidf,europe_pmc_PMC13381650
+ars,ARs,1,,0,0.0449,1,,0,0.0449,tfidf,europe_pmc_PMC13342563
+volcanic,volcanic,1,,0,0.0449,1,,0,0.0449,tfidf,europe_pmc_PMC13478603
+eeiocean,EEIocean,1,,0,0.0448,1,,0,0.0448,tfidf,europe_pmc_PMC13488926
+productivity,productivity,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13440228
+observable,observable,1,,0,0.0446,1,,0,0.0446,tfidf,europe_pmc_PMC13082334
+salinity,Salinity,1,,0,0.0441,1,,0,0.0441,tfidf,europe_pmc_PMC13392445
+western overturning,western overturning,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC13060603
+salinity variability,salinity variability,1,,0,0.0439,1,,0,0.0439,tfidf,europe_pmc_PMC13392445
+stack,stack,1,,0,0.0438,1,,0,0.0438,tfidf,europe_pmc_PMC13488926
+deep western,Deep Western,1,,0,0.0437,1,,0,0.0437,tfidf,europe_pmc_PMC13060603
+sverdrups,sverdrups,1,,0,0.0437,1,,0,0.0437,tfidf,europe_pmc_PMC13281800
+sww,SWW,1,,0,0.0436,1,,0,0.0436,tfidf,europe_pmc_PMC13598196
+fh,FH,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC13108545
+leave-one-out,Leave-one-out,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC13082334
+deep western overturning,deep western overturning,1,,0,0.0434,1,,0,0.0434,tfidf,europe_pmc_PMC13060603
+fixed-amoc,fixed-AMOC,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC13342563
+kyr,kyr,1,,0,0.0432,1,,0,0.0432,tfidf,europe_pmc_PMC13319204
+ohteq,OHTeq,1,,0,0.0432,1,,0,0.0432,tfidf,europe_pmc_PMC13377125
+ventilation age,ventilation age,1,,0,0.0432,1,,0,0.0432,tfidf,europe_pmc_PMC13381650
+ka,ka,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13488926
+mooring,mooring,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13060603
+si appendix fig,si appendix fig,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13598196
+noresm2-lm,NorESM2-LM,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC13376509
+overturning transport,Overturning transport,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC13060603
+ts,TS,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC13377125
+amoc-sensitive,AMOC-sensitive,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13478603
+group,Group,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13377125
+kyr bp,kyr BP,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13319204
+site u1385,Site U1385,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC13319204
+amoc-sensitive indicators,AMOC-sensitive indicators,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC13478603
+gwls,GWLs,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13665990
+th,Th,1,,0,0.0417,1,,0,0.0417,tfidf,europe_pmc_PMC13454564
+meltwater,meltwater,1,,0,0.0412,1,,0,0.0412,tfidf,europe_pmc_PMC13281800
+ec-earth3,EC-Earth3,1,,0,0.0411,1,,0,0.0411,tfidf,europe_pmc_PMC13281800
+regime,Regime,1,,0,0.041,1,,0,0.041,tfidf,europe_pmc_PMC13538684
+oc methods,OC methods,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13082334
+salinity anomaly,Salinity Anomaly,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13392445
+temperature,Temperature,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13454564
+t-iv,T-IV,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC13319204
+leave-one-out error,Leave-one-out error,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC13082334
+stalagmite,stalagmite,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC13454564
+eruptions,eruptions,1,,0,0.04,1,,0,0.04,tfidf,europe_pmc_PMC13478603
+greenland meltwater,Greenland meltwater,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13281800
+observable variables,observable variables,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13082334
+upper-ocean salinity,upper-ocean salinity,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13392445
+energy,Energy,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13488926
+frequency,frequency,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13342563
+rei mato,rei mato,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13454564
+movement,movement,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC13377125
+eeiice,EEIice,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC13488926
+volcanic eruptions,volcanic eruptions,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC13478603
+biis,BIIS,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC13473526
+central north,central North,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC13392445
+sea-level,sea-level,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC13319204
+fh sverdrup,fh sverdrup,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13108545
+regimes,regimes,1,,0,0.0385,1,,0,0.0385,tfidf,europe_pmc_PMC13538684
+amoc slowdowns,AMOC slowdowns,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13598196
+laurentide,Laurentide,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13473526
+hosing,hosing,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC13108545
+strait,Strait,1,,0,0.038,1,,0,0.038,tfidf,europe_pmc_PMC13108545
+siku,Siku,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC13473526
+detrital,Detrital,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC13598196
+runoff,runoff,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC13281800
+laurentide ice,Laurentide Ice,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC13473526
+northeast,Northeast,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC13473526
+biosphere,biosphere,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC13440228
+free,free,1,,0,0.0361,1,,0,0.0361,tfidf,europe_pmc_PMC13342563
+lw,LW,1,,0,0.0355,1,,0,0.0355,tfidf,europe_pmc_PMC13538684
+ramp-up,ramp-up,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC13665990
+pmol,pmol,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC13440228
+warming,warming,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC13665990
+mlds,MLDs,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC13665990
+stabilization,stabilization,1,,0,0.0348,1,,0,0.0348,tfidf,europe_pmc_PMC13665990
+ice-core,ice-core,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC13440228
+change points,change points,1,,0,0.0343,1,,0,0.0343,tfidf,europe_pmc_PMC13538684
+o2 year,O2 year,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC13440228
+clear-sky,Clear-sky,1,,0,0.0329,1,,0,0.0329,tfidf,europe_pmc_PMC13538684

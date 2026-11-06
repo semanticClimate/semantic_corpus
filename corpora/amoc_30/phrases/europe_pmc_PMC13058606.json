@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13058606",
+  "phrases": [
+    {
+      "phrase": "sergei winogradsky",
+      "display": "Sergei Winogradsky",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "by arrhenius",
+      "display": "By Arrhenius",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "initial cryo",
+      "display": "Initial Cryo",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "david stahl",
+      "display": "David Stahl",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amo",
+      "display": "AMO",
+      "score": 2.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aoa",
+      "display": "AOA",
+      "score": 1.82,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aob",
+      "display": "AOB",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cu",
+      "score": 0.0435,
+      "channel": "tfidf",
+      "display": "Cu"
+    },
+    {
+      "phrase": "pmmo",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "pMMO"
+    },
+    {
+      "phrase": "oxidation",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Oxidation"
+    },
+    {
+      "phrase": "protein",
+      "score": 0.0409,
+      "channel": "tfidf",
+      "display": "protein"
+    },
+    {
+      "phrase": "bamo",
+      "score": 0.039,
+      "channel": "tfidf",
+      "display": "bAMO"
+    },
+    {
+      "phrase": "cud",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "CuD"
+    },
+    {
+      "phrase": "amob",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "amoB"
+    },
+    {
+      "phrase": "site",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "site"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

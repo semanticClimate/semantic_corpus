@@ -1,0 +1,24 @@
+{
+  "step": 3,
+  "corpus_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20",
+  "phrases_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/phrases",
+  "clusters_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/clusters",
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "paper_count": 20,
+  "term_count": 230,
+  "edge_count": 300,
+  "community_count": 9,
+  "cluster_count": 7,
+  "orphan_paper_count": 2,
+  "orphan_term_count": 27,
+  "elapsed_s": 0.1569,
+  "clusters_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/clusters/clusters.json",
+  "orphans_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/clusters/orphans.json"
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13473526",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 6.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 3.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laurentide ice sheet",
+      "display": "Laurentide Ice Sheet",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northeast pacific",
+      "display": "Northeast Pacific",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agulhas leakage",
+      "display": "Agulhas Leakage",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northeast atlantic",
+      "display": "Northeast Atlantic",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european ice sheets",
+      "display": "European Ice Sheets",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "biis",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "BIIS"
+    },
+    {
+      "phrase": "siku",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "Siku"
+    },
+    {
+      "phrase": "laurentide ice",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "Laurentide Ice"
+    },
+    {
+      "phrase": "northeast",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "Northeast"
+    },
+    {
+      "phrase": "laurentide",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "Laurentide"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13201857",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 7.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 6.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 3.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "baffin bay",
+      "display": "Baffin Bay",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic and nordic seas",
+      "display": "North Atlantic and Nordic Seas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic and barents seas",
+      "display": "Nordic and Barents Seas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hudson strait",
+      "display": "Hudson Strait",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 2.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "access",
+      "display": "ACCESS",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.84,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hist-ssp585-fw",
+      "score": 0.0414,
+      "channel": "tfidf",
+      "display": "Hist-SSP585-FW"
+    },
+    {
+      "phrase": "access-esm1",
+      "score": 0.0407,
+      "channel": "tfidf",
+      "display": "ACCESS-ESM1"
+    },
+    {
+      "phrase": "nordic",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Nordic"
+    },
+    {
+      "phrase": "hist-ssp585",
+      "score": 0.0387,
+      "channel": "tfidf",
+      "display": "Hist-SSP585"
+    },
+    {
+      "phrase": "seas",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Seas"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.067
+}

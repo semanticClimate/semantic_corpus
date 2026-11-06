@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13620149",
+  "phrases": [
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project",
+      "display": "Coupled Model Intercomparison Project",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "subpolar north atlantic program",
+      "display": "Subpolar North Atlantic Program",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary information",
+      "display": "Supplementary Information",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sd",
+      "display": "SD",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ow",
+      "display": "OW",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "osnap",
+      "display": "OSNAP",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "o-west",
+      "score": 0.052,
+      "channel": "tfidf",
+      "display": "O-West"
+    },
+    {
+      "phrase": "moc",
+      "score": 0.0499,
+      "channel": "tfidf",
+      "display": "MOC"
+    },
+    {
+      "phrase": "o-east",
+      "score": 0.0495,
+      "channel": "tfidf",
+      "display": "O-East"
+    },
+    {
+      "phrase": "ow-out",
+      "score": 0.0476,
+      "channel": "tfidf",
+      "display": "OW-Out"
+    },
+    {
+      "phrase": "o-full",
+      "score": 0.0467,
+      "channel": "tfidf",
+      "display": "O-Full"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0801
+}

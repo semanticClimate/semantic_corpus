@@ -1,0 +1,140 @@
+{
+  "max_island": 20,
+  "island_count": 9,
+  "islands": [
+    {
+      "size": 10,
+      "node_ids": [
+        "paper:europe_pmc_PMC12749622",
+        "paper:europe_pmc_PMC13082334",
+        "paper:europe_pmc_PMC13478603",
+        "paper:europe_pmc_PMC13538684",
+        "paper:europe_pmc_PMC13638462",
+        "term:amoc",
+        "term:community earth system model",
+        "term:exp",
+        "term:fh",
+        "term:irminger sea"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 9,
+      "node_ids": [
+        "paper:europe_pmc_PMC12871447",
+        "paper:europe_pmc_PMC13108545",
+        "paper:europe_pmc_PMC13392445",
+        "paper:europe_pmc_PMC13473526",
+        "term:icelandic low",
+        "term:north",
+        "term:north atlantic",
+        "term:north pacific",
+        "term:volcanic"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 7,
+      "node_ids": [
+        "paper:europe_pmc_PMC13381650",
+        "paper:europe_pmc_PMC13454564",
+        "term:atlantic meridional overturning circulation",
+        "term:heinrich stadial",
+        "term:last glacial maximum",
+        "term:southern ocean",
+        "term:younger dryas"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13201857",
+        "paper:europe_pmc_PMC13665990",
+        "term:atlantic",
+        "term:labrador sea",
+        "term:nordic seas",
+        "term:pi"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13342563",
+        "paper:europe_pmc_PMC13377125",
+        "paper:europe_pmc_PMC13598196",
+        "term:northern hemisphere",
+        "term:south pacific",
+        "term:southern hemisphere"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC13490444",
+        "paper:europe_pmc_PMC13620149",
+        "term:antarctic circumpolar current",
+        "term:coupled model intercomparison project",
+        "term:north atlantic deep water"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC13319204",
+        "paper:europe_pmc_PMC13488926",
+        "term:indian ocean",
+        "term:monte carlo"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC12945690",
+        "paper:europe_pmc_PMC13440228",
+        "term:north atlantic ocean"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC13060603",
+        "paper:europe_pmc_PMC13376509",
+        "term:coupled model intercomparison project phase"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

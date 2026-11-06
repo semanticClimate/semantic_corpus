@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13281800",
+  "phrases": [
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "global tipping points report",
+      "display": "Global Tipping Points Report",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger and nordic seas",
+      "display": "Irminger and Nordic Seas",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sixth assessment report",
+      "display": "Sixth Assessment Report",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "large ensemble",
+      "display": "Large Ensemble",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotland ridge",
+      "display": "Scotland Ridge",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ec",
+      "display": "EC",
+      "score": 1.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greenland",
+      "display": "Greenland",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sverdrups",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "sverdrups"
+    },
+    {
+      "phrase": "meltwater",
+      "score": 0.0412,
+      "channel": "tfidf",
+      "display": "meltwater"
+    },
+    {
+      "phrase": "ec-earth3",
+      "score": 0.0411,
+      "channel": "tfidf",
+      "display": "EC-Earth3"
+    },
+    {
+      "phrase": "greenland meltwater",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "Greenland meltwater"
+    },
+    {
+      "phrase": "runoff",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "runoff"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0801
+}

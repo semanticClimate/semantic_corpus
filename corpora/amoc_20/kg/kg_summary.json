@@ -1,0 +1,37 @@
+{
+  "step": "kg",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20",
+  "graph_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/kg/graph.json",
+  "islands_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/kg/islands.json",
+  "params": {
+    "kg_links": [
+      "clusters",
+      "wikipedia"
+    ],
+    "kg_links_used": [
+      "clusters",
+      "wikipedia"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 20,
+    "synonym_groups": 3,
+    "terms_merged": 3,
+    "encyclopedia_dropped": 14
+  },
+  "counts": {
+    "nodes": 33,
+    "edges": 44,
+    "papers": 18,
+    "terms": 15,
+    "encyclopedia": 0,
+    "islands": 5,
+    "synonym_groups": 3,
+    "terms_merged": 3
+  },
+  "written_at": "2026-11-06T22:52:21.888887+00:00",
+  "html_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_20/kg/knowledge_graph.html"
+}
