@@ -4,11 +4,15 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence, Union
+from typing import Any, Callable, Dict, List, Optional, Sequence, Union
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
 from semantic_corpus.core.repository_factory import RepositoryFactory
+from semantic_corpus.corpus_review.collect_progress import (
+    CollectTitleScroller,
+    title_from_paper,
+)
 from semantic_corpus.corpus_review.query_run import (
     build_query_run_record,
     save_query_run_record,
@@ -22,6 +26,7 @@ from semantic_corpus.corpus_review.workflow import run_repository_search
 from semantic_corpus.ingestion.query_output_ingester import (
     ingest_query_output_directory,
 )
+from semantic_corpus.repositories._ids import get_result_paper_id
 
 
 def _as_repo_list(
@@ -55,6 +60,8 @@ def create_corpus_from_query(
     corpus_dir: Optional[Path] = None,
     create_bagit: bool = True,
     paper_id_prefix: Optional[str] = None,
+    show_title_feed: bool = True,
+    on_paper: Optional[Callable[[Dict[str, Any], str], None]] = None,
 ) -> Dict[str, Any]:
     """Search one or more repositories, download, build review table, optional BAGIT.
 
@@ -72,6 +79,8 @@ def create_corpus_from_query(
         corpus_dir: BAGIT corpus root when ``create_bagit`` is True.
         create_bagit: If True, ingest query_dir into a new/updated BAGIT at corpus_dir.
         paper_id_prefix: Optional prefix for corpus IDs (default derived from first repo).
+        show_title_feed: If True, show a scrolling title window while downloading.
+        on_paper: Optional callback ``(paper, status)`` in addition to the title feed.
 
     Returns:
         Summary dict with paths, counts, and review rows.
@@ -95,11 +104,31 @@ def create_corpus_from_query(
     remaining = int(limit)
     all_results: List[Dict[str, Any]] = []
     total_downloaded = 0
+    total_skipped = 0
     per_repo: List[Dict[str, Any]] = []
+
+    scroller: Optional[CollectTitleScroller] = None
+    if show_title_feed:
+        scroller = CollectTitleScroller(limit=int(limit))
+
+    def _handle_paper(paper: Dict[str, Any], status: str) -> None:
+        nonlocal total_skipped
+        if status == "skip":
+            total_skipped += 1
+        if scroller is not None:
+            scroller.add(
+                title=title_from_paper(paper),
+                paper_id=str(get_result_paper_id(paper) or ""),
+                status=status,
+            )
+        if on_paper is not None:
+            on_paper(paper, status)
 
     for repo_name in repo_names:
         if remaining <= 0:
             break
+        if scroller is not None:
+            scroller.start(query=query_string, repository=repo_name)
         results, downloaded_count = run_repository_search(
             query_string=query_string,
             repository=repo_name,
@@ -108,6 +137,7 @@ def create_corpus_from_query(
             formats=formats,
             start_date=start_date,
             end_date=end_date,
+            on_paper=_handle_paper if (scroller is not None or on_paper) else None,
         )
         all_results.extend(results)
         total_downloaded += downloaded_count
@@ -119,6 +149,9 @@ def create_corpus_from_query(
                 "downloaded_count": downloaded_count,
             }
         )
+
+    if scroller is not None:
+        scroller.finish(downloaded=total_downloaded, skipped=total_skipped)
 
     # Deduplicate by pmcid/pmid/paper_id while preserving order
     seen = set()

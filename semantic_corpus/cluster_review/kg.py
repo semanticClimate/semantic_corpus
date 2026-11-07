@@ -192,12 +192,14 @@ def links_from_clusters(
     workdir: Path,
     *,
     allowed_phrases: Optional[Set[str]] = None,
+    allowed_papers: Optional[Set[str]] = None,
     n_papers_map: Optional[Dict[str, int]] = None,
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     """Bipartite paper↔term edges from ``clusters/clusters.json``.
 
     When ``allowed_phrases`` is set, only those terms are kept (and papers with
-    no remaining term edges are dropped).
+    no remaining term edges are dropped). ``allowed_papers`` caps which
+    document nodes appear (``--document-limit``).
     """
     workdir = Path(workdir)
     doc = _load_json(workdir / "clusters" / "clusters.json")
@@ -214,6 +216,10 @@ def links_from_clusters(
     for cluster in doc["clusters"]:
         cid = cluster.get("cluster_id")
         papers = [str(p) for p in (cluster.get("paper_ids") or []) if p]
+        if allowed_papers is not None:
+            papers = [p for p in papers if p in allowed_papers]
+            if not papers:
+                continue
         terms = [
             t
             for t in (cluster.get("terms") or [])
@@ -612,14 +618,11 @@ def detect_islands(
     return islands
 
 
-def write_kg_html(
+def nodes_edges_to_vis(
     nodes: Sequence[Dict[str, Any]],
     edges: Sequence[Dict[str, Any]],
-    output: Path,
-    *,
-    title: str = "Knowledge graph",
-) -> Path:
-    """Write standalone vis-network HTML (CDN)."""
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """Convert KG graph.json nodes/edges to vis-network datasets."""
     vis_nodes = []
     for n in nodes:
         raw = str(n.get("title") or n.get("label") or n["id"])
@@ -638,14 +641,27 @@ def write_kg_html(
             "from": e.get("from") or e.get("source"),
             "to": e.get("to") or e.get("target"),
             "value": e.get("value") or e.get("weight") or 1,
-            # no `title` — use custom tooltip panel only
         }
         for e in edges
     ]
+    return vis_nodes, vis_edges
+
+
+def write_kg_html(
+    nodes: Sequence[Dict[str, Any]],
+    edges: Sequence[Dict[str, Any]],
+    output: Path,
+    *,
+    title: str = "Knowledge graph",
+    resolution: float = 1.0,
+) -> Path:
+    """Write vis-network HTML with Louvain resolution slider (needs ``pipeline kg --view``)."""
+    vis_nodes, vis_edges = nodes_edges_to_vis(nodes, edges)
     payload = {
         "nodes": vis_nodes,
         "edges": vis_edges,
         "title": title,
+        "resolution": float(resolution),
     }
 
     html = f"""<!DOCTYPE html>
@@ -656,10 +672,35 @@ def write_kg_html(
   <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
   <style>
     body {{ margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }}
-    header {{ padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }}
-    header h1 {{ margin: 0; font-size: 1.1rem; font-weight: 600; }}
-    header p {{ margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }}
-    #mynetwork {{ width: 100%; height: calc(100vh - 64px); position: relative; }}
+    header {{
+      padding: 10px 16px 12px;
+      border-bottom: 1px solid #e2e8f0;
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      align-items: flex-end;
+      justify-content: space-between;
+    }}
+    header .titles h1 {{ margin: 0; font-size: 1.1rem; font-weight: 600; }}
+    header .titles p {{ margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }}
+    #controls {{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: min(420px, 100%);
+    }}
+    #controls label {{
+      font-size: 0.8rem;
+      color: #334155;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }}
+    #controls input[type=range] {{ width: 100%; }}
+    #status {{ font-size: 0.75rem; color: #64748b; min-height: 1.1em; }}
+    #status.err {{ color: #b91c1c; }}
+    #mynetwork {{ width: 100%; height: calc(100vh - 96px); position: relative; }}
     #tooltip {{
       display: none;
       position: fixed;
@@ -676,14 +717,23 @@ def write_kg_html(
       pointer-events: none;
       white-space: normal;
     }}
-    /* Hide any leftover vis built-in tooltip */
     div.vis-tooltip {{ display: none !important; }}
   </style>
 </head>
 <body>
   <header>
-    <h1>{title}</h1>
-    <p>{len(vis_nodes)} nodes · {len(vis_edges)} edges — drag, zoom, hover</p>
+    <div class="titles">
+      <h1>{title}</h1>
+      <p id="stats">{len(vis_nodes)} nodes · {len(vis_edges)} edges — drag, zoom, hover</p>
+    </div>
+    <div id="controls">
+      <label>
+        <span>Louvain resolution (lower = aggregate)</span>
+        <span id="resValue">{resolution:g}</span>
+      </label>
+      <input id="resSlider" type="range" min="0.2" max="2.5" step="0.05" value="{resolution:g}"/>
+      <div id="status">Open via <code>pipeline kg --view</code> for live rebuild</div>
+    </div>
   </header>
   <div id="mynetwork"></div>
   <div id="tooltip"></div>
@@ -693,6 +743,12 @@ def write_kg_html(
     const edges = new vis.DataSet(payload.edges);
     const container = document.getElementById('mynetwork');
     const tip = document.getElementById('tooltip');
+    const stats = document.getElementById('stats');
+    const statusEl = document.getElementById('status');
+    const slider = document.getElementById('resSlider');
+    const resValue = document.getElementById('resValue');
+    const apiEnabled = location.protocol === 'http:' || location.protocol === 'https:';
+
     const network = new vis.Network(
       container,
       {{ nodes, edges }},
@@ -750,17 +806,77 @@ def write_kg_html(
       const html = (node && (node.tooltip || node.label)) || '';
       showTip(html, params.event && params.event.srcEvent);
     }});
-    network.on('blurNode', function () {{
-      tip.style.display = 'none';
-    }});
-    network.on('dragStart', function () {{
-      tip.style.display = 'none';
-    }});
+    network.on('blurNode', function () {{ tip.style.display = 'none'; }});
+    network.on('dragStart', function () {{ tip.style.display = 'none'; }});
     container.addEventListener('mousemove', function (evt) {{
-      if (tip.style.display === 'block') {{
-        showTip(tip.innerHTML, evt);
-      }}
+      if (tip.style.display === 'block') showTip(tip.innerHTML, evt);
     }});
+
+    function setStatus(msg, isErr) {{
+      statusEl.textContent = msg || '';
+      statusEl.className = isErr ? 'err' : '';
+    }}
+
+    function applyGraph(data) {{
+      nodes.clear();
+      edges.clear();
+      nodes.add(data.nodes || []);
+      edges.add(data.edges || []);
+      const c = data.counts || {{}};
+      const n = c.nodes != null ? c.nodes : (data.nodes || []).length;
+      const e = c.edges != null ? c.edges : (data.edges || []).length;
+      const extra = [];
+      if (c.clusters != null) extra.push(c.clusters + ' clusters');
+      if (c.islands != null) extra.push(c.islands + ' islands');
+      stats.textContent = n + ' nodes · ' + e + ' edges'
+        + (extra.length ? ' · ' + extra.join(' · ') : '')
+        + ' — drag, zoom, hover';
+      const t = data.timing_ms || {{}};
+      setStatus(
+        'resolution=' + data.resolution
+        + (t.total != null ? ' · rebuilt in ' + t.total + ' ms' : '')
+      );
+      network.fit({{ animation: false }});
+    }}
+
+    let debounceTimer = null;
+    let inflight = 0;
+    async function fetchResolution(res) {{
+      if (!apiEnabled) {{
+        setStatus('Slider needs pipeline kg --view (file:// has no API)', true);
+        return;
+      }}
+      const my = ++inflight;
+      setStatus('rebuilding at resolution=' + res + '…');
+      try {{
+        const resp = await fetch('/api/graph?resolution=' + encodeURIComponent(res));
+        const data = await resp.json();
+        if (my !== inflight) return;
+        if (!resp.ok || !data.ok) {{
+          setStatus((data && data.error) || ('HTTP ' + resp.status), true);
+          return;
+        }}
+        applyGraph(data);
+      }} catch (err) {{
+        if (my !== inflight) return;
+        setStatus(String(err), true);
+      }}
+    }}
+
+    slider.addEventListener('input', function () {{
+      resValue.textContent = slider.value;
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {{
+        fetchResolution(slider.value);
+      }}, 150);
+    }});
+
+    if (apiEnabled) {{
+      setStatus('Live API ready — drag the slider to re-cluster');
+    }} else {{
+      slider.disabled = true;
+      setStatus('Open via pipeline kg --view for live rebuild', true);
+    }}
   </script>
 </body>
 </html>
@@ -778,6 +894,7 @@ def build_kg(
     max_island: int = DEFAULT_MAX_ISLAND,
     min_paper_count: int = DEFAULT_KG_MIN_PAPER_COUNT,
     max_terms: int = DEFAULT_KG_MAX_TERMS,
+    document_limit: Optional[int] = None,
     title: Optional[str] = None,
     write_html: bool = True,
     open_browser: bool = False,
@@ -799,6 +916,13 @@ def build_kg(
     allowed: Optional[Set[str]] = None
     n_papers_map: Dict[str, int] = {}
     term_source = ""
+    allowed_papers: Optional[Set[str]] = None
+    if document_limit is not None:
+        from semantic_corpus.cluster_review.encyclopedia import (
+            _document_ids_capped,
+        )
+
+        allowed_papers = _document_ids_capped(workdir, document_limit)
 
     if "clusters" in links:
         allowed, n_papers_map, term_source = select_kg_terms(
@@ -807,7 +931,10 @@ def build_kg(
             max_terms=int(max_terms),
         )
         nodes, edges = links_from_clusters(
-            workdir, allowed_phrases=allowed, n_papers_map=n_papers_map
+            workdir,
+            allowed_phrases=allowed,
+            allowed_papers=allowed_papers,
+            n_papers_map=n_papers_map,
         )
         for n in nodes:
             all_nodes[n["id"]] = n
@@ -879,6 +1006,9 @@ def build_kg(
             "max_island": int(max_island),
             "min_paper_count": int(min_paper_count),
             "max_terms": int(max_terms),
+            "document_limit": (
+                int(document_limit) if document_limit is not None else None
+            ),
             "term_filter_source": term_source,
             "terms_selected": len(allowed) if allowed is not None else None,
             "synonym_groups": synonym_stats.get("synonym_groups"),
@@ -932,8 +1062,18 @@ def build_kg(
 
     html_out = None
     if write_html:
+        resolution = 1.0
+        csum = _load_json(workdir / "clusters" / "graph_summary.json") or {}
+        try:
+            resolution = float((csum.get("params") or {}).get("resolution") or 1.0)
+        except (TypeError, ValueError):
+            resolution = 1.0
         html_out = write_kg_html(
-            nodes_list, edges_list, html_path(workdir), title=enc_title
+            nodes_list,
+            edges_list,
+            html_path(workdir),
+            title=enc_title,
+            resolution=resolution,
         )
         summary["html_path"] = str(html_out.resolve())
         if open_browser:

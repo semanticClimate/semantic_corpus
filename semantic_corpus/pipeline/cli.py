@@ -87,6 +87,8 @@ _OPTS_WITH_VALUE = frozenset(
         "--cluster-algorithm",
         "--encyclopedia-lang",
         "--max-entries",
+        "--phrase-limit",
+        "--document-limit",
         "--min-score",
         "--min-paper-count",
         "--encyclopedia-from",
@@ -94,6 +96,8 @@ _OPTS_WITH_VALUE = frozenset(
         "--kg-max-terms",
         "--kg-min-paper-count",
         "--kg-links",
+        "--host",
+        "--port",
     }
 )
 
@@ -144,6 +148,8 @@ def _normalize_argv(argv: List[str]) -> List[str]:
             "--no-open",
             "--kg",
             "--no-kg",
+            "--serve",
+            "--view",
         ):
             leading_opts.append(tok)
             i += 1
@@ -202,6 +208,8 @@ def _options_from_args(args: argparse.Namespace) -> PipelineOptions:
         encyclopedia_source=getattr(
             args, "encyclopedia_source", DEFAULT_ENCYCLOPEDIA_SOURCE
         ),
+        phrase_limit=getattr(args, "phrase_limit", None),
+        document_limit=getattr(args, "document_limit", None),
         write_kg=bool(getattr(args, "write_kg", DEFAULT_WRITE_KG)),
         kg_max_island=getattr(args, "kg_max_island", DEFAULT_KG_MAX_ISLAND),
         kg_max_terms=getattr(args, "kg_max_terms", DEFAULT_KG_MAX_TERMS),
@@ -329,9 +337,11 @@ def cmd_encyclopedia(args: argparse.Namespace) -> int:
     no_html = bool(getattr(args, "no_html", False))
     no_disambiguate = bool(getattr(args, "no_disambiguate", False))
 
+    phrase_limit = opts.effective_phrase_limit()
     print(
         f"[pipeline] encyclopedia: workdir={workdir} from={source} "
-        f"max_entries={opts.max_entries} min_paper_count={opts.min_paper_count} "
+        f"phrase_limit={phrase_limit} document_limit={opts.document_limit} "
+        f"min_paper_count={opts.min_paper_count} "
         f"rebuild_phrases={rebuild_phrases} force={force}"
     )
 
@@ -374,10 +384,11 @@ def cmd_encyclopedia(args: argparse.Namespace) -> int:
     doc = build_encyclopedia(
         workdir,
         lang=opts.encyclopedia_lang,
-        max_entries=int(opts.max_entries),
+        max_entries=int(phrase_limit),
         min_score=float(opts.min_score),
         min_paper_count=int(opts.min_paper_count),
         source=source,
+        document_limit=opts.document_limit,
         force=force,
         write_html=not no_html,
         fetch_html_descriptions=not no_html,
@@ -424,6 +435,9 @@ def cmd_kg(args: argparse.Namespace) -> int:
 
     Prefer ``pipeline --target clusters --kg`` (plain) or
     ``pipeline --target encyclopedia --kg`` (annotated).
+
+    With ``--view``, open the interactive KG viewer (local page + API so the
+    Louvain resolution slider can rebuild the graph live).
     """
     from semantic_corpus.cluster_review.kg import build_kg
 
@@ -443,20 +457,24 @@ def cmd_kg(args: argparse.Namespace) -> int:
         links = tuple(list(links) + ["wikipedia"])
     open_browser = bool(getattr(args, "open", opts.kg_open))
     stage = "encyclopedia" if enc.is_file() else "clusters"
+    max_terms = opts.effective_kg_max_terms()
+    view = bool(getattr(args, "view", False) or getattr(args, "serve", False))
     print(
         f"[pipeline] kg (rebuild/{stage}): workdir={workdir} "
         f"links={','.join(links)} "
-        f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
-        f"max_island={opts.kg_max_island} open={open_browser}"
+        f"min_paper_count={opts.kg_min_paper_count} max_terms={max_terms} "
+        f"document_limit={opts.document_limit} "
+        f"max_island={opts.kg_max_island} open={open_browser} view={view}"
     )
     summary = build_kg(
         workdir,
         kg_links=links,
         max_island=int(opts.kg_max_island),
         min_paper_count=int(opts.kg_min_paper_count),
-        max_terms=int(opts.kg_max_terms),
+        max_terms=int(max_terms),
+        document_limit=opts.document_limit,
         write_html=True,
-        open_browser=open_browser,
+        open_browser=False if view else open_browser,
         title=getattr(args, "html_title", None)
         or f"Knowledge graph ({workdir.name})",
     )
@@ -465,10 +483,27 @@ def cmd_kg(args: argparse.Namespace) -> int:
         f"[pipeline] kg: nodes={counts.get('nodes')} edges={counts.get('edges')} "
         f"papers={counts.get('papers')} terms={counts.get('terms')} "
         f"islands={counts.get('islands')} "
-        f"(filter n_papers>={opts.kg_min_paper_count}, max_terms={opts.kg_max_terms})"
+        f"(filter n_papers>={opts.kg_min_paper_count}, max_terms={max_terms})"
     )
     if summary.get("html_path"):
         print(f"[pipeline] html: {summary['html_path']}")
+
+    if view:
+        from semantic_corpus.cluster_review.kg_server import serve_kg
+
+        host = getattr(args, "host", None) or "127.0.0.1"
+        port = int(getattr(args, "port", None) or 8765)
+        serve_kg(
+            workdir,
+            host=host,
+            port=port,
+            open_browser=open_browser,
+            min_paper_count=int(opts.kg_min_paper_count),
+            max_terms=int(max_terms),
+            max_island=int(opts.kg_max_island),
+            document_limit=opts.document_limit,
+            block=True,
+        )
     return 0
 
 
@@ -574,14 +609,40 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
         "--cluster-resolution",
         type=float,
         default=DEFAULT_CLUSTER_RESOLUTION,
-        help=f"Louvain resolution (default: {DEFAULT_CLUSTER_RESOLUTION})",
+        help=(
+            "Louvain resolution (default: "
+            f"{DEFAULT_CLUSTER_RESOLUTION}; "
+            "<1 fewer/larger communities, >1 more/smaller — use lower to aggregate)"
+        ),
     )
 
-    # --- encyclopedia / kg (stubs; see docs/pipeline_next_encyclopedia_kg.md) ---
+    # --- encyclopedia / display KG caps ---
     parser.add_argument(
         "--encyclopedia-lang",
         default=DEFAULT_ENCYCLOPEDIA_LANG,
         help=f"Wikipedia language code (default: {DEFAULT_ENCYCLOPEDIA_LANG})",
+    )
+    parser.add_argument(
+        "--phrase-limit",
+        type=int,
+        default=None,
+        metavar="N",
+        help=(
+            "Max phrases for encyclopedia resolve and display-KG term nodes "
+            f"(overrides --max-entries / --kg-max-terms; "
+            f"defaults: max-entries={DEFAULT_ENCYCLOPEDIA_MAX_ENTRIES}, "
+            f"kg-max-terms={DEFAULT_KG_MAX_TERMS})"
+        ),
+    )
+    parser.add_argument(
+        "--document-limit",
+        type=int,
+        default=None,
+        metavar="N",
+        help=(
+            "Max papers contributing to encyclopedia selection and display KG "
+            "(sorted bag ids; independent of collect --limit)"
+        ),
     )
     parser.add_argument(
         "--max-entries",
@@ -590,7 +651,7 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
         metavar="N",
         help=(
             "Max encyclopedia phrases to resolve "
-            f"(default: {DEFAULT_ENCYCLOPEDIA_MAX_ENTRIES})"
+            f"(default: {DEFAULT_ENCYCLOPEDIA_MAX_ENTRIES}; prefer --phrase-limit)"
         ),
     )
     parser.add_argument(
@@ -794,12 +855,37 @@ examples:
     p_kg = sub.add_parser(
         "kg",
         parents=[common],
-        help="Build knowledge graph after clusters (+ optional HTML display)",
+        help="Build knowledge graph after clusters (+ optional HTML / --view)",
     )
     p_kg.add_argument(
         "--html-title",
         default=None,
         help="Title for knowledge_graph.html",
+    )
+    p_kg.add_argument(
+        "--view",
+        action="store_true",
+        help=(
+            "Open interactive KG viewer: local page + API so the Louvain "
+            "resolution slider can rebuild the graph live"
+        ),
+    )
+    p_kg.add_argument(
+        "--serve",
+        dest="serve",
+        action="store_true",
+        help="Deprecated alias for --view",
+    )
+    p_kg.add_argument(
+        "--host",
+        default="127.0.0.1",
+        help="Bind host for --view (default: 127.0.0.1)",
+    )
+    p_kg.add_argument(
+        "--port",
+        type=int,
+        default=8765,
+        help="Bind port for --view (default: 8765)",
     )
     p_kg.set_defaults(func=cmd_kg)
 

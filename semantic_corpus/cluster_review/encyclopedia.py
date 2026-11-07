@@ -132,6 +132,32 @@ def _scores_from_phrase_caches(
     return scores, displays
 
 
+def _document_ids_capped(workdir: Path, document_limit: Optional[int]) -> Optional[set]:
+    """Return up to ``document_limit`` paper ids from the bag (sorted), or None."""
+    if document_limit is None:
+        return None
+    if int(document_limit) < 1:
+        raise CorpusError("document_limit must be >= 1")
+    from semantic_corpus.cluster_review.step1 import (
+        _paper_ids_from_metadata_dir,
+        resolve_bagit_root,
+    )
+
+    workdir = Path(workdir)
+    bag = resolve_bagit_root(workdir)
+    meta = Path(bag) / "data" / "metadata"
+    ids = sorted(_paper_ids_from_metadata_dir(meta))
+    if not ids:
+        clusters = _load_json(workdir / "clusters" / "clusters.json") or {}
+        seen: set = set()
+        for cluster in clusters.get("clusters") or []:
+            for pid in cluster.get("paper_ids") or []:
+                if pid:
+                    seen.add(str(pid))
+        ids = sorted(seen)
+    return set(ids[: int(document_limit)])
+
+
 def select_phrases(
     workdir: Path,
     *,
@@ -139,6 +165,7 @@ def select_phrases(
     min_score: float = 0.0,
     min_paper_count: int = 1,
     source: str = "auto",
+    document_limit: Optional[int] = None,
 ) -> Tuple[List[Dict[str, Any]], str]:
     """Select and rank phrases for encyclopedia resolution.
 
@@ -146,6 +173,8 @@ def select_phrases(
     or ``phrases`` (prefer ``phrases_terms.csv``, else per-paper caches).
 
     ``min_paper_count`` applies when reading ``phrases_terms.csv`` (``n_papers``).
+    ``max_entries`` / phrase_limit caps how many phrases are resolved.
+    ``document_limit`` restricts which papers contribute (first N bag ids).
 
     Returns ``(candidates, phrase_source)`` where each candidate is
     ``{phrase, display, score, n_papers?}`` and ``phrase_source`` is
@@ -167,7 +196,7 @@ def select_phrases(
         terms = raw.get("terms") or raw.get("demoted") or []
         demoted = {str(t).lower().strip() for t in terms if str(t).strip()}
 
-    keep_papers: Optional[set] = None
+    keep_papers: Optional[set] = _document_ids_capped(workdir, document_limit)
     review_path = workdir / "review" / "review_table.json"
     if review_path.is_file():
         review_raw = json.loads(review_path.read_text(encoding="utf-8"))
@@ -178,7 +207,7 @@ def select_phrases(
         else:
             rows = []
         if isinstance(rows, list) and rows:
-            keep_papers = set()
+            reviewed: set = set()
             saw_exclude_or_keep = False
             for row in rows:
                 if not isinstance(row, dict):
@@ -197,13 +226,17 @@ def select_phrases(
                 if decision in ("include", "keep", "yes"):
                     saw_exclude_or_keep = True
                     if pid:
-                        keep_papers.add(str(pid))
+                        reviewed.add(str(pid))
                 elif pid:
                     # review / unsure / empty: still a candidate paper
-                    keep_papers.add(str(pid))
+                    reviewed.add(str(pid))
             # If nothing was explicitly keep/exclude, don't filter by review table
-            if not saw_exclude_or_keep:
-                keep_papers = None
+            if saw_exclude_or_keep:
+                keep_papers = (
+                    reviewed
+                    if keep_papers is None
+                    else (keep_papers & reviewed)
+                )
 
     scores: Dict[str, float] = {}
     displays: Dict[str, str] = {}
@@ -424,6 +457,7 @@ def build_encyclopedia(
     min_score: float = 0.0,
     min_paper_count: int = 1,
     source: str = "auto",
+    document_limit: Optional[int] = None,
     force: bool = False,
     sleep_s: float = 0.2,
     write_html: bool = True,
@@ -449,6 +483,7 @@ def build_encyclopedia(
         min_score=min_score,
         min_paper_count=min_paper_count,
         source=source,
+        document_limit=document_limit,
     )
     selected_ids = [c["phrase"] for c in candidates]
     fingerprint = _phrase_fingerprint(selected_ids)
@@ -555,6 +590,9 @@ def build_encyclopedia(
         "max_entries": int(max_entries),
         "min_score": float(min_score),
         "min_paper_count": int(min_paper_count),
+        "document_limit": (
+            int(document_limit) if document_limit is not None else None
+        ),
         "source": source,
         "phrase_source": phrase_source,
         "selected_count": len(selected_ids),
@@ -612,6 +650,7 @@ def encyclopedia_is_current(
     min_score: float = 0.0,
     min_paper_count: int = 1,
     source: str = "auto",
+    document_limit: Optional[int] = None,
     require_html: bool = True,
 ) -> bool:
     """True when entries.json matches options and phrase fingerprint."""
@@ -630,6 +669,13 @@ def encyclopedia_is_current(
         return False
     if str(params.get("source") or "auto") != str(source):
         return False
+    stored_doc_limit = params.get("document_limit")
+    if (stored_doc_limit is None) != (document_limit is None):
+        return False
+    if document_limit is not None and int(stored_doc_limit or 0) != int(
+        document_limit
+    ):
+        return False
     if require_html:
         from semantic_corpus.cluster_review.encyclopedia_html import html_path
 
@@ -641,6 +687,7 @@ def encyclopedia_is_current(
         min_score=min_score,
         min_paper_count=min_paper_count,
         source=source,
+        document_limit=document_limit,
     )
     selected_ids = [c["phrase"] for c in candidates]
     expected = _phrase_fingerprint(selected_ids)

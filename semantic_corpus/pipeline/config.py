@@ -73,12 +73,15 @@ class PipelineOptions:
     cluster_resolution: float = DEFAULT_CLUSTER_RESOLUTION
     cluster_algorithm: str = DEFAULT_CLUSTER_ALGORITHM
 
-    # --- encyclopedia / kg (stubs until wired) ---
+    # --- encyclopedia / display KG ---
     encyclopedia_lang: str = DEFAULT_ENCYCLOPEDIA_LANG
     max_entries: int = DEFAULT_ENCYCLOPEDIA_MAX_ENTRIES
     min_score: float = DEFAULT_ENCYCLOPEDIA_MIN_SCORE
     min_paper_count: int = DEFAULT_ENCYCLOPEDIA_MIN_PAPER_COUNT
     encyclopedia_source: str = DEFAULT_ENCYCLOPEDIA_SOURCE
+    # Caps for annotate + display (phrase_limit preferred over max_entries / kg_max_terms).
+    phrase_limit: Optional[int] = None
+    document_limit: Optional[int] = None
     # Display KG is a flag on clusters / encyclopedia (not a doit step).
     write_kg: bool = DEFAULT_WRITE_KG
     kg_max_island: int = DEFAULT_KG_MAX_ISLAND
@@ -96,6 +99,10 @@ class PipelineOptions:
             raise ValueError("--max-entries must be >= 1")
         if self.min_paper_count < 1:
             raise ValueError("--min-paper-count must be >= 1")
+        if self.phrase_limit is not None and self.phrase_limit < 1:
+            raise ValueError("--phrase-limit must be >= 1")
+        if self.document_limit is not None and self.document_limit < 1:
+            raise ValueError("--document-limit must be >= 1")
         if self.kg_max_terms < 1:
             raise ValueError("--kg-max-terms must be >= 1")
         if self.kg_min_paper_count < 1:
@@ -117,10 +124,25 @@ class PipelineOptions:
         parts = [p.strip() for p in (self.kg_links or "").split(",")]
         return tuple(p for p in parts if p)
 
+    def effective_phrase_limit(self) -> int:
+        """Cap on phrases for encyclopedia (and default KG term cap)."""
+        if self.phrase_limit is not None:
+            return int(self.phrase_limit)
+        return int(self.max_entries)
+
+    def effective_kg_max_terms(self) -> int:
+        """Cap on term nodes in the display KG."""
+        if self.phrase_limit is not None:
+            return int(self.phrase_limit)
+        return int(self.kg_max_terms)
+
     def to_public_dict(self) -> Dict[str, Any]:
-        """JSON-serialisable view for stamps / debugging."""
+        """JSON-serialisable view for stamps / debugging / env reload."""
         d = asdict(self)
         d["workdir"] = str(self.workdir)
+        # Computed helpers for stamps only (stripped on env reload).
+        d["_effective_phrase_limit"] = self.effective_phrase_limit()
+        d["_effective_kg_max_terms"] = self.effective_kg_max_terms()
         return d
 
 
@@ -153,6 +175,8 @@ def options_from_env() -> PipelineOptions:
         return PipelineOptions(workdir=get_workdir(), from_mode=get_from_mode())
     data = json.loads(raw)
     data["workdir"] = Path(data["workdir"])
+    # Drop stamp-only computed keys from to_public_dict.
+    data = {k: v for k, v in data.items() if not str(k).startswith("_")}
     return PipelineOptions(**data)
 
 

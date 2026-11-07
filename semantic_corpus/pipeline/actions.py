@@ -211,17 +211,19 @@ def _emit_display_kg(stage: str) -> Optional[Dict[str, Any]]:
         if enc.is_file() and "wikipedia" not in links and "wikidata" not in links:
             links = tuple(list(links) + ["wikipedia"])
 
+    max_terms = opts.effective_kg_max_terms()
     print(
         f"[pipeline] {stage}: kg links={','.join(links)} "
-        f"min_paper_count={opts.kg_min_paper_count} max_terms={opts.kg_max_terms} "
-        f"max_island={opts.kg_max_island}"
+        f"min_paper_count={opts.kg_min_paper_count} max_terms={max_terms} "
+        f"document_limit={opts.document_limit} max_island={opts.kg_max_island}"
     )
     summary = build_kg(
         opts.workdir,
         kg_links=links,
         max_island=int(opts.kg_max_island),
         min_paper_count=int(opts.kg_min_paper_count),
-        max_terms=int(opts.kg_max_terms),
+        max_terms=int(max_terms),
+        document_limit=opts.document_limit,
         write_html=True,
         open_browser=bool(opts.kg_open),
     )
@@ -291,18 +293,21 @@ def run_encyclopedia() -> Dict[str, Any]:
     from semantic_corpus.cluster_review.encyclopedia import build_encyclopedia
 
     opts = options_from_env()
+    phrase_limit = opts.effective_phrase_limit()
     print(
         f"[pipeline] encyclopedia: lang={opts.encyclopedia_lang} "
-        f"max_entries={opts.max_entries} min_score={opts.min_score} "
-        f"min_paper_count={opts.min_paper_count} from={opts.encyclopedia_source}"
+        f"phrase_limit={phrase_limit} min_score={opts.min_score} "
+        f"min_paper_count={opts.min_paper_count} "
+        f"document_limit={opts.document_limit} from={opts.encyclopedia_source}"
     )
     summary = build_encyclopedia(
         opts.workdir,
         lang=opts.encyclopedia_lang,
-        max_entries=int(opts.max_entries),
+        max_entries=int(phrase_limit),
         min_score=float(opts.min_score),
         min_paper_count=int(opts.min_paper_count),
         source=opts.encyclopedia_source,
+        document_limit=opts.document_limit,
         force=False,
         write_html=True,
         fetch_html_descriptions=True,
@@ -380,10 +385,11 @@ def is_step_current(step: str) -> bool:
         return encyclopedia_is_current(
             workdir,
             lang=opts.encyclopedia_lang,
-            max_entries=int(opts.max_entries),
+            max_entries=int(opts.effective_phrase_limit()),
             min_score=float(opts.min_score),
             min_paper_count=int(opts.min_paper_count),
             source=opts.encyclopedia_source,
+            document_limit=opts.document_limit,
         )
     if step == "clusters":
         return (workdir / "clusters" / "graph_summary.json").is_file()

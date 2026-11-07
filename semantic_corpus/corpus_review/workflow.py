@@ -3,7 +3,7 @@
 import json
 import sys
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
@@ -25,6 +25,9 @@ from semantic_corpus.ingestion.pygetpapers_ingester import ingest_pygetpapers_di
 from semantic_corpus.repositories._ids import get_result_paper_id
 from semantic_corpus.utils import get_project_temp_dir
 
+# on_paper(paper, status) where status is "ok" | "skip" | "fail"
+OnPaperCallback = Callable[[Dict[str, Any], str], None]
+
 
 def run_repository_search(
     *,
@@ -36,11 +39,14 @@ def run_repository_search(
     start_date: str = None,
     end_date: str = None,
     report_ids: bool = True,
+    on_paper: Optional[OnPaperCallback] = None,
 ) -> Tuple[List[Dict[str, Any]], int]:
     """Search and download via semantic_corpus repository; return results and download count.
 
     When ``report_ids`` is True (default), prints a line-wrapped space-separated
     list of short ids (e.g. PMCIDs) instead of per-paper INFO lines.
+    When ``on_paper`` is set, it is called for each successful skip/download
+    (and ``report_ids`` id dump is suppressed).
     """
     from semantic_corpus.repositories._ids import (
         paper_documents_present,
@@ -83,6 +89,8 @@ def run_repository_search(
                 downloaded_count += 1
                 successful_results.append(paper)
                 skipped_labels.append(label)
+                if on_paper is not None:
+                    on_paper(paper, "skip")
                 if downloaded_count >= limit:
                     break
                 continue
@@ -92,17 +100,22 @@ def run_repository_search(
                 downloaded_count += 1
                 successful_results.append(paper)
                 downloaded_labels.append(label)
+                if on_paper is not None:
+                    on_paper(paper, "ok")
                 if downloaded_count >= limit:
                     break
         except Exception:
+            if on_paper is not None:
+                on_paper(paper, "fail")
             continue
 
-    if report_ids and skipped_labels:
-        print("skip (present):", file=sys.stderr)
-        print_id_list(skipped_labels)
-    if report_ids and downloaded_labels:
-        print("downloaded:", file=sys.stderr)
-        print_id_list(downloaded_labels)
+    if on_paper is None:
+        if report_ids and skipped_labels:
+            print("skip (present):", file=sys.stderr)
+            print_id_list(skipped_labels)
+        if report_ids and downloaded_labels:
+            print("downloaded:", file=sys.stderr)
+            print_id_list(downloaded_labels)
 
     final_results = successful_results if successful_results else results[:limit]
     return final_results, downloaded_count
