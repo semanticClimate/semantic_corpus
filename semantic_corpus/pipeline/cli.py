@@ -306,6 +306,19 @@ def cmd_run(args: argparse.Namespace) -> int:
     print(f"[pipeline] {' '.join(bits)}")
     print(f"[pipeline] ensure {targets} → plan {plan}")
 
+    # Novice-friendly EPMC check before doit, so failures are not buried in a traceback.
+    if "collect" in plan and (opts.repository or "europe_pmc") == "europe_pmc":
+        from semantic_corpus.repositories.epmc_diagnostic import (
+            EpmcUnavailable,
+            epmc_preflight,
+        )
+
+        try:
+            epmc_preflight(abort=True)
+        except EpmcUnavailable as exc:
+            print(f"[pipeline] {exc}", file=sys.stderr)
+            return 1
+
     doit_args: List[str] = ["run"]
     if args.always:
         doit_args.append("--always-execute")

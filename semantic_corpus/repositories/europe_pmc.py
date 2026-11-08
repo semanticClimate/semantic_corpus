@@ -1,6 +1,7 @@
 """Europe PMC repository implementation."""
 
 import io
+import json
 import re
 import zipfile
 from pathlib import Path
@@ -28,6 +29,40 @@ _EPMC_ERROR_HINTS = {
     503: "Europe PMC search is temporarily unavailable — retry later.",
     504: "Gateway timeout — retry later.",
 }
+
+
+def looks_like_fulltext_xml(content: bytes) -> bool:
+    """True if body looks like XML/JATS, not a JSON/HTML error stub.
+
+    Europe PMC ``fullTextXML`` sometimes returns a Spring Boot JSON error
+    body (e.g. ``{"status":500,...}``). Reject that before saving as XML.
+    """
+    if not content:
+        return False
+    head = content.lstrip()
+    if head.startswith(b"\xef\xbb\xbf"):
+        head = head[3:].lstrip()
+    if not head or head.startswith((b"{", b"[")):
+        return False
+    lower = head[:64].lower()
+    if lower.startswith((b"<!doctype", b"<!--", b"<html")):
+        return False
+    return head.startswith(b"<")
+
+
+def http_status_from_error_body(content: bytes) -> Optional[int]:
+    """Read ``status`` from a Spring Boot JSON error body, if present."""
+    try:
+        data = json.loads(content.decode("utf-8", errors="replace"))
+    except (UnicodeError, json.JSONDecodeError, ValueError):
+        return None
+    if not isinstance(data, dict) or "status" not in data:
+        return None
+    try:
+        code = int(data["status"])
+    except (TypeError, ValueError):
+        return None
+    return code if 100 <= code <= 599 else None
 
 
 def interpret_epmc_error(
@@ -408,20 +443,30 @@ class EuropePMCRepository(RepositoryInterface):
                 else:
                     download_id = paper_id
 
+            last_http: Optional[int] = None
             for format_type in formats_needed:
                 try:
                     if format_type == "xml":
                         xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
                         response = requests.get(xml_url)
                         response.raise_for_status()
+                        content = response.content or b""
+                        if not looks_like_fulltext_xml(content):
+                            stub = http_status_from_error_body(content)
+                            last_http = (
+                                stub
+                                if stub is not None
+                                else (response.status_code or 500)
+                            )
+                            continue
 
                         xml_file = Path(output_dir, "documents", f"{paper_id}.xml")
                         xml_file.parent.mkdir(parents=True, exist_ok=True)
-                        xml_file.write_bytes(response.content)
+                        xml_file.write_bytes(content)
                         # Keep flat copy for older ingest paths that expect query_dir/*.xml
                         flat = Path(output_dir, f"{paper_id}.xml")
                         if not flat.exists():
-                            flat.write_bytes(response.content)
+                            flat.write_bytes(content)
                         downloaded_files.append(str(xml_file))
 
                     elif format_type == "pdf":
@@ -436,16 +481,36 @@ class EuropePMCRepository(RepositoryInterface):
                         if not flat.exists():
                             flat.write_bytes(pdf)
                         downloaded_files.append(str(pdf_file))
+                except requests.HTTPError as e:
+                    if e.response is not None:
+                        last_http = e.response.status_code
+                    continue
                 except requests.RequestException:
                     continue
 
             if not downloaded_files:
+                if last_http is not None:
+                    raise RepositoryError(
+                        f"No files downloaded for {paper_id} (HTTP {last_http})",
+                        status_code=int(last_http),
+                    )
                 raise RepositoryError(f"No files downloaded for {paper_id}")
 
             return {"success": True, "paper_id": paper_id, "files": downloaded_files}
 
         except RepositoryError:
             raise
+        except requests.HTTPError as e:
+            code = (
+                e.response.status_code
+                if e.response is not None
+                else None
+            )
+            raise RepositoryError(
+                f"Failed to download {paper_id}"
+                + (f" (HTTP {code})" if code is not None else f": {e}"),
+                status_code=int(code) if code is not None else None,
+            ) from e
         except requests.RequestException as e:
             raise RepositoryError(f"Failed to download {paper_id}: {e}") from e
 

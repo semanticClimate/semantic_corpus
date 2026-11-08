@@ -61,6 +61,7 @@ def create_corpus_from_query(
     create_bagit: bool = True,
     paper_id_prefix: Optional[str] = None,
     show_title_feed: bool = True,
+    check_epmc: bool = True,
     on_paper: Optional[Callable[[Dict[str, Any], str], None]] = None,
 ) -> Dict[str, Any]:
     """Search one or more repositories, download, build review table, optional BAGIT.
@@ -80,6 +81,8 @@ def create_corpus_from_query(
         create_bagit: If True, ingest query_dir into a new/updated BAGIT at corpus_dir.
         paper_id_prefix: Optional prefix for corpus IDs (default derived from first repo).
         show_title_feed: If True, show a scrolling title window while downloading.
+        check_epmc: If True and Europe PMC is used, run a novice-friendly health
+            check before downloading (aborts on clear EPMC outages).
         on_paper: Optional callback ``(paper, status)`` in addition to the title feed.
 
     Returns:
@@ -101,6 +104,11 @@ def create_corpus_from_query(
             raise CorpusError("corpus_dir is required when create_bagit=True")
         corpus_dir = Path(corpus_dir)
 
+    if check_epmc and "europe_pmc" in repo_names:
+        from semantic_corpus.repositories.epmc_diagnostic import epmc_preflight
+
+        epmc_preflight(abort=True)
+
     remaining = int(limit)
     all_results: List[Dict[str, Any]] = []
     total_downloaded = 0
@@ -111,7 +119,9 @@ def create_corpus_from_query(
     if show_title_feed:
         scroller = CollectTitleScroller(limit=int(limit))
 
-    def _handle_paper(paper: Dict[str, Any], status: str) -> None:
+    def _handle_paper(
+        paper: Dict[str, Any], status: str, reason: str = ""
+    ) -> None:
         nonlocal total_skipped
         if status == "skip":
             total_skipped += 1
@@ -120,9 +130,13 @@ def create_corpus_from_query(
                 title=title_from_paper(paper),
                 paper_id=str(get_result_paper_id(paper) or ""),
                 status=status,
+                reason=reason,
             )
         if on_paper is not None:
-            on_paper(paper, status)
+            try:
+                on_paper(paper, status, reason)
+            except TypeError:
+                on_paper(paper, status)
 
     for repo_name in repo_names:
         if remaining <= 0:

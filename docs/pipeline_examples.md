@@ -30,6 +30,9 @@ Europe PMC search `AMOC`, cap **30** hits, build the bipartite graph and open **
 
 **Plan:** `collect → corpus → phrases → clusters` (+ KG₁).
 
+During **collect**, titles scroll in a live terminal window as each EPMC paper
+downloads (`+` new, `=` already on disk).
+
 **Artifacts**
 
 - Corpus: `corpora/amoc_30/`
@@ -49,7 +52,25 @@ Europe PMC search `AMOC`, cap **30** hits, build the bipartite graph and open **
 
 ```bash
 ./venv/bin/pipeline --workdir corpora/amoc_30 --target clean
-./venv/bin/pipeline --workdir corpora/amoc_30 --target encyclopedia --kg
+./venv/bin/pipeline --workdir corpora/amoc_30 \
+  --phrase-limit 40 --document-limit 30 --min-paper-count 2 \
+  --target encyclopedia --kg
+```
+
+**Caps**
+
+| Flag | Role |
+|------|------|
+| `--phrase-limit N` | Max phrases resolved / display-KG term nodes |
+| `--document-limit N` | Max papers contributing to encyclopedia + display KG |
+| `--min-paper-count N` | Drop rare terms (`n_papers`) |
+| `--cluster-resolution R` | Louvain: **`< 1` fewer/larger clusters** (aggregate); `> 1` more fragments |
+
+**Interactive viewer** (`--view`: local page + API; Louvain rebuild ~ms):
+
+```bash
+./venv/bin/pipeline kg --workdir corpora/amoc_30 --view
+# opens the KG; drag Louvain resolution to re-aggregate live
 ```
 
 ---

@@ -6,6 +6,23 @@ from typing import Generator
 
 import pytest
 
+from semantic_corpus.repositories.epmc_diagnostic import EpmcDiagnostic
+
+
+@pytest.fixture(autouse=True)
+def _mute_epmc_preflight(monkeypatch: pytest.MonkeyPatch, request: pytest.FixtureRequest):
+    """Avoid live Europe PMC probes in unit tests (except diagnostic tests)."""
+    if "test_epmc_diagnostic" in request.node.nodeid:
+        return
+
+    def _ok(**_kwargs):
+        return EpmcDiagnostic(probes=[], ok=True)
+
+    monkeypatch.setattr(
+        "semantic_corpus.repositories.epmc_diagnostic.epmc_preflight",
+        _ok,
+    )
+
 
 @pytest.fixture
 def temp_dir() -> Generator[Path, None, None]:

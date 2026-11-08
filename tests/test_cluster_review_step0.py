@@ -21,6 +21,8 @@ def _fake_search_download(
     formats: List[str],
     start_date: str = None,
     end_date: str = None,
+    on_paper=None,
+    **_kwargs,
 ):
     """Write tiny XML files and return synthetic search hits."""
     output_dir = Path(output_dir)
@@ -33,18 +35,19 @@ def _fake_search_download(
             f"<article><title>Paper {i} about {query_string}</title></article>",
             encoding="utf-8",
         )
-        results.append(
-            {
-                "pmcid": pmcid,
-                "pmid": str(1000 + i),
-                "title": f"Paper {i} about climate",
-                "abstract": f"Abstract {i} for testing Step 0.",
-                "doi": f"10.1000/test.{i}",
-                "authors": [{"fullName": f"Author {i}"}],
-                "publication_date": "2024-01-01",
-                "journal": "Test Journal",
-            }
-        )
+        paper = {
+            "pmcid": pmcid,
+            "pmid": str(1000 + i),
+            "title": f"Paper {i} about climate",
+            "abstract": f"Abstract {i} for testing Step 0.",
+            "doi": f"10.1000/test.{i}",
+            "authors": [{"fullName": f"Author {i}"}],
+            "publication_date": "2024-01-01",
+            "journal": "Test Journal",
+        }
+        results.append(paper)
+        if on_paper is not None:
+            on_paper(paper, "ok")
     return results, len(results)
 
 
@@ -142,6 +145,7 @@ class TestCreateCorpusFromQueryHappyPath:
             output_dir = Path(kwargs["output_dir"])
             output_dir.mkdir(parents=True, exist_ok=True)
             limit = int(kwargs["limit"])
+            on_paper = kwargs.get("on_paper")
             # Distinct PMCID namespaces per repo so merges do not collide
             base = 100000 if kwargs["repository"] == "europe_pmc" else 200000
             # First repo only contributes one paper so the second repo is used
@@ -153,14 +157,15 @@ class TestCreateCorpusFromQueryHappyPath:
                     f"<article><title>{pmcid}</title></article>",
                     encoding="utf-8",
                 )
-                results.append(
-                    {
-                        "pmcid": pmcid,
-                        "title": f"{kwargs['repository']} paper {i}",
-                        "abstract": "test",
-                        "authors": [],
-                    }
-                )
+                paper = {
+                    "pmcid": pmcid,
+                    "title": f"{kwargs['repository']} paper {i}",
+                    "abstract": "test",
+                    "authors": [],
+                }
+                results.append(paper)
+                if on_paper is not None:
+                    on_paper(paper, "ok")
             return results, len(results)
 
         monkeypatch.setattr(

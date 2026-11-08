@@ -5,11 +5,16 @@ from __future__ import annotations
 import re
 import shutil
 import sys
-from collections import deque
-from typing import Deque, List, Optional, TextIO
+from collections import Counter, deque
+from typing import Deque, List, Optional, TextIO, Union
 
 
 _TAG_RE = re.compile(r"<[^>]+>")
+_HTTP_CODE_RE = re.compile(
+    r"(?:HTTP\s+|status(?:\s+code)?\s*[:=]?\s*)(\d{3})\b"
+    r"|\b([45]\d{2})\s+(?:Client|Server)\s+Error\b",
+    re.IGNORECASE,
+)
 
 
 def clean_title(text: Optional[str], *, max_len: int = 96) -> str:
@@ -21,6 +26,65 @@ def clean_title(text: Optional[str], *, max_len: int = 96) -> str:
     if len(raw) > max_len:
         return raw[: max_len - 1] + "…"
     return raw
+
+
+def fail_reason_label(exc_or_msg: Union[BaseException, str, None] = None) -> str:
+    """Compact fail bucket for the status line (e.g. ``403``, ``no_pmcid``)."""
+    if isinstance(exc_or_msg, BaseException):
+        # Prefer an explicit status_code (RepositoryError) or requests response.
+        attached = getattr(exc_or_msg, "status_code", None)
+        if isinstance(attached, int) and 100 <= attached <= 599:
+            return str(attached)
+        resp = getattr(exc_or_msg, "response", None)
+        code = getattr(resp, "status_code", None) if resp is not None else None
+        if isinstance(code, int) and 100 <= code <= 599:
+            return str(code)
+        cause = getattr(exc_or_msg, "__cause__", None) or getattr(
+            exc_or_msg, "__context__", None
+        )
+        if cause is not None and cause is not exc_or_msg:
+            nested = fail_reason_label(cause)
+            if nested != "error":
+                return nested
+        text = str(exc_or_msg)
+    else:
+        text = str(exc_or_msg or "")
+
+    stripped = text.strip()
+    # Already a compact label from an earlier pass.
+    if re.fullmatch(r"[1-5]\d{2}", stripped):
+        return stripped
+    if re.fullmatch(r"[a-z][a-z0-9_]{0,31}", stripped):
+        return stripped
+
+    match = _HTTP_CODE_RE.search(text)
+    if match:
+        return match.group(1) or match.group(2)
+
+    lower = text.lower()
+    if "no pmcid" in lower:
+        return "no_pmcid"
+    if "not found" in lower:
+        return "404"
+    if "no files downloaded" in lower:
+        return "no_files"
+    if "timed out" in lower or "timeout" in lower:
+        return "timeout"
+    return "error"
+
+
+def format_fail_breakdown(counts: Counter) -> str:
+    """Format ``403: 5 404: 8`` (HTTP codes first, then other labels)."""
+    if not counts:
+        return ""
+
+    def sort_key(label: str):
+        if label.isdigit():
+            return (0, int(label))
+        return (1, label)
+
+    parts = [f"{label}: {counts[label]}" for label in sorted(counts, key=sort_key)]
+    return " ".join(parts)
 
 
 def _term_width(stream: TextIO, default: int = 88) -> int:
@@ -61,6 +125,7 @@ class CollectTitleScroller:
         self.n_ok = 0
         self.n_skip = 0
         self.n_fail = 0
+        self.fail_reasons: Counter = Counter()
         self._live = bool(getattr(self.stream, "isatty", lambda: False)())
         self._drawn = 0  # terminal rows currently occupied by the panel
         self._started = False
@@ -82,12 +147,15 @@ class CollectTitleScroller:
         title: str,
         paper_id: str = "",
         status: str = "ok",
+        reason: str = "",
     ) -> None:
         if not self._started:
             self.start(query="", repository="")
 
         if status == "fail":
             self.n_fail += 1
+            label = fail_reason_label(reason) if reason else "error"
+            self.fail_reasons[label] += 1
             if self._live:
                 self._redraw(status=self._status_line())
             # Do not count fails toward limit or scroll list.
@@ -118,12 +186,21 @@ class CollectTitleScroller:
         if self.kept:
             status = (
                 f"done · kept={self.kept}/{self.limit} "
-                f"(new={self.n_ok}, cached={self.n_skip}, failed={self.n_fail})"
+                f"(new={self.n_ok}, cached={self.n_skip}, failed={self.n_fail}"
             )
+            breakdown = format_fail_breakdown(self.fail_reasons)
+            if breakdown:
+                status += f" · {breakdown}"
+            status += ")"
         else:
             status = f"done · downloaded={downloaded}"
             if skipped:
                 status += f" · already present={skipped}"
+            if self.n_fail:
+                status += f" · failed={self.n_fail}"
+                breakdown = format_fail_breakdown(self.fail_reasons)
+                if breakdown:
+                    status += f" ({breakdown})"
         if self._live:
             self._redraw(status=status)
             print(file=self.stream, flush=True)
@@ -135,6 +212,9 @@ class CollectTitleScroller:
         bits = [f"kept {self.kept}/{self.limit}"]
         if self.n_fail:
             bits.append(f"failed={self.n_fail}")
+            breakdown = format_fail_breakdown(self.fail_reasons)
+            if breakdown:
+                bits.append(breakdown)
         return " · ".join(bits)
 
     def _redraw(self, *, status: str) -> None:

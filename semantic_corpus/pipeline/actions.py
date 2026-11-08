@@ -63,6 +63,7 @@ def run_collect() -> Dict[str, Any]:
 
     workdir, query_name, query_dir = _query_dirs()
     workdir.mkdir(parents=True, exist_ok=True)
+    # CLI already ran epmc_preflight when plan includes collect; skip a second probe.
     print(
         f"[pipeline] collect: searching {opts.query!r} "
         f"limit={opts.limit} repository={opts.repository!r}"
@@ -76,6 +77,7 @@ def run_collect() -> Dict[str, Any]:
         formats=["xml"],
         corpus_dir=workdir,
         create_bagit=True,
+        check_epmc=False,
     )
     paper_count = summary.get("bagit_paper_count") or summary.get("result_count")
     index_summary = _ensure_packet_indexes(workdir)
@@ -354,11 +356,24 @@ STEP_ACTIONS = {
 }
 
 
-def run_step(step: str) -> Dict[str, Any]:
+def run_step(step: str):
+    """Run one pipeline step; map expected user errors to a clean doit failure."""
     action = STEP_ACTIONS.get(step)
     if action is None:
         raise KeyError(f"No action for step {step!r}")
-    return action()
+    try:
+        return action()
+    except Exception as exc:
+        # Avoid Python tracebacks for known user-facing failures (e.g. EPMC down).
+        from semantic_corpus.core.exceptions import CorpusError, SemanticCorpusError
+
+        if isinstance(exc, (CorpusError, SemanticCorpusError)):
+            try:
+                from doit.exceptions import TaskFailed
+            except ImportError:
+                raise exc
+            return TaskFailed(str(exc))
+        raise
 
 
 def is_step_current(step: str) -> bool:

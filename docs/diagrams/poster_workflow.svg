@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 200" role="img" aria-labelledby="title desc">
+  <title id="title">Semantic corpus workflow</title>
+  <desc id="desc">Six-stage pipeline: collect, corpus, phrases, bipartite graph, interactive clustering, Wikipedia annotation.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1a1a1a"/>
+    </marker>
+    <style type="text/css"><![CDATA[
+      .stage { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2.5; }
+      .stage-accent { fill: #e8f1fb; stroke: #1a1a1a; stroke-width: 2.5; }
+      .stage-final { fill: #eaf6ea; stroke: #1a1a1a; stroke-width: 2.5; }
+      .num { font: 700 18px Helvetica, Arial, sans-serif; fill: #1a1a1a; }
+      .label { font: 700 15px Helvetica, Arial, sans-serif; fill: #1a1a1a; }
+      .sub { font: 400 12px Helvetica, Arial, sans-serif; fill: #333333; }
+      .flow { fill: none; stroke: #1a1a1a; stroke-width: 2.5; marker-end: url(#arrow); }
+    ]]></style>
+  </defs>
+
+  <!-- Compact horizontal spine for A0 poster strip / panel -->
+  <g id="s1">
+    <rect class="stage" x="20" y="48" width="150" height="104" rx="10"/>
+    <text class="num" x="95" y="78" text-anchor="middle">1</text>
+    <text class="label" x="95" y="104" text-anchor="middle">Collect</text>
+    <text class="sub" x="95" y="124" text-anchor="middle">ingest documents</text>
+  </g>
+
+  <path class="flow" d="M 170 100 H 190"/>
+
+  <g id="s2">
+    <rect class="stage" x="190" y="48" width="150" height="104" rx="10"/>
+    <text class="num" x="265" y="78" text-anchor="middle">2</text>
+    <text class="label" x="265" y="104" text-anchor="middle">Corpus</text>
+    <text class="sub" x="265" y="124" text-anchor="middle">bag + packets</text>
+  </g>
+
+  <path class="flow" d="M 340 100 H 360"/>
+
+  <g id="s3">
+    <rect class="stage" x="360" y="48" width="150" height="104" rx="10"/>
+    <text class="num" x="435" y="78" text-anchor="middle">3</text>
+    <text class="label" x="435" y="104" text-anchor="middle">Phrases</text>
+    <text class="sub" x="435" y="124" text-anchor="middle">extract terms</text>
+  </g>
+
+  <path class="flow" d="M 510 100 H 530"/>
+
+  <g id="s4">
+    <rect class="stage-accent" x="530" y="48" width="150" height="104" rx="10"/>
+    <text class="num" x="605" y="78" text-anchor="middle">4</text>
+    <text class="label" x="605" y="104" text-anchor="middle">Bipartite</text>
+    <text class="sub" x="605" y="124" text-anchor="middle">term - packet</text>
+  </g>
+
+  <path class="flow" d="M 680 100 H 700"/>
+
+  <g id="s5">
+    <rect class="stage-accent" x="700" y="48" width="160" height="104" rx="10"/>
+    <text class="num" x="780" y="78" text-anchor="middle">5</text>
+    <text class="label" x="780" y="104" text-anchor="middle">Clusters</text>
+    <text class="sub" x="780" y="124" text-anchor="middle">interactive view</text>
+  </g>
+
+  <path class="flow" d="M 860 100 H 880"/>
+
+  <g id="s6">
+    <rect class="stage-final" x="880" y="48" width="220" height="104" rx="10"/>
+    <text class="num" x="990" y="78" text-anchor="middle">6</text>
+    <text class="label" x="990" y="104" text-anchor="middle">Annotate</text>
+    <text class="sub" x="990" y="124" text-anchor="middle">Wikipedia / Wikidata</text>
+  </g>
+</svg>

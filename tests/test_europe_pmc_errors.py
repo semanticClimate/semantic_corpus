@@ -5,14 +5,73 @@ from __future__ import annotations
 from unittest.mock import MagicMock
 
 import pytest
+import requests
 
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.repositories.europe_pmc import (
     EuropePMCRepository,
+    http_status_from_error_body,
     interpret_epmc_error,
+    looks_like_fulltext_xml,
     normalize_epmc_search_payload,
     _parse_epmc_response,
 )
+
+
+class TestFulltextXmlGuards:
+    def test_rejects_spring_boot_500_json(self) -> None:
+        stub = (
+            b'{"timestamp":"2026-11-08T09:14:32.370+00:00","status":500,'
+            b'"error":"Internal Server Error",'
+            b'"path":"/europepmc/webservices/rest/PMC13538684/fullTextXML"}'
+        )
+        assert looks_like_fulltext_xml(stub) is False
+        assert http_status_from_error_body(stub) == 500
+
+    def test_accepts_jats_like_xml(self) -> None:
+        assert looks_like_fulltext_xml(b'<?xml version="1.0"?><article/>')
+        assert looks_like_fulltext_xml(b"  <article xmlns='http://x'>x</article>")
+
+    def test_download_refuses_json_stub(self, tmp_path, monkeypatch) -> None:
+        stub = (
+            b'{"timestamp":"2026-11-08T09:14:32.370+00:00","status":500,'
+            b'"error":"Internal Server Error","path":"/europepmc/webservices/rest/PMC1/fullTextXML"}'
+        )
+
+        class FakeResponse:
+            status_code = 200
+            content = stub
+
+            def raise_for_status(self) -> None:
+                return None
+
+        monkeypatch.setattr(
+            "semantic_corpus.repositories.europe_pmc.requests.get",
+            lambda *a, **k: FakeResponse(),
+        )
+        repo = EuropePMCRepository()
+        with pytest.raises(RepositoryError, match="HTTP 500") as ei:
+            repo.download_paper("PMC1", tmp_path, formats=["xml"])
+        assert ei.value.status_code == 500
+
+    def test_download_reports_http_500(self, tmp_path, monkeypatch) -> None:
+        class FakeResponse:
+            status_code = 500
+            content = b'{"status":500,"error":"Internal Server Error"}'
+
+            def raise_for_status(self) -> None:
+                err = requests.HTTPError("500 Server Error")
+                err.response = self
+                raise err
+
+        monkeypatch.setattr(
+            "semantic_corpus.repositories.europe_pmc.requests.get",
+            lambda *a, **k: FakeResponse(),
+        )
+        repo = EuropePMCRepository()
+        with pytest.raises(RepositoryError, match="HTTP 500") as ei:
+            repo.download_paper("PMC13538684", tmp_path, formats=["xml"])
+        assert ei.value.status_code == 500
 
 
 class TestInterpretEpmcError:

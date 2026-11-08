@@ -8,6 +8,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
 from semantic_corpus.core.repository_factory import RepositoryFactory
+from semantic_corpus.corpus_review.collect_progress import fail_reason_label
 from semantic_corpus.corpus_review.query_run import (
     build_query_run_record,
     load_pilot_config,
@@ -25,8 +26,23 @@ from semantic_corpus.ingestion.pygetpapers_ingester import ingest_pygetpapers_di
 from semantic_corpus.repositories._ids import get_result_paper_id
 from semantic_corpus.utils import get_project_temp_dir
 
-# on_paper(paper, status) where status is "ok" | "skip" | "fail"
-OnPaperCallback = Callable[[Dict[str, Any], str], None]
+# on_paper(paper, status, reason="") where status is "ok" | "skip" | "fail"
+OnPaperCallback = Callable[..., None]
+
+
+def _notify_paper(
+    on_paper: Optional[OnPaperCallback],
+    paper: Dict[str, Any],
+    status: str,
+    reason: str = "",
+) -> None:
+    """Call ``on_paper`` with optional reason; tolerate 2-arg callbacks."""
+    if on_paper is None:
+        return
+    try:
+        on_paper(paper, status, reason)
+    except TypeError:
+        on_paper(paper, status)
 
 
 def run_repository_search(
@@ -89,8 +105,7 @@ def run_repository_search(
                 downloaded_count += 1
                 successful_results.append(paper)
                 skipped_labels.append(label)
-                if on_paper is not None:
-                    on_paper(paper, "skip")
+                _notify_paper(on_paper, paper, "skip")
                 if downloaded_count >= limit:
                     break
                 continue
@@ -100,13 +115,16 @@ def run_repository_search(
                 downloaded_count += 1
                 successful_results.append(paper)
                 downloaded_labels.append(label)
-                if on_paper is not None:
-                    on_paper(paper, "ok")
+                _notify_paper(on_paper, paper, "ok")
                 if downloaded_count >= limit:
                     break
-        except Exception:
-            if on_paper is not None:
-                on_paper(paper, "fail")
+            else:
+                reason = fail_reason_label(
+                    dl.get("error") or dl.get("message") or "no_files"
+                )
+                _notify_paper(on_paper, paper, "fail", reason)
+        except Exception as exc:
+            _notify_paper(on_paper, paper, "fail", fail_reason_label(exc))
             continue
 
     if on_paper is None:
