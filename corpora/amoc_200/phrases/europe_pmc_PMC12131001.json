@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12131001",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese academy of sciences",
+      "display": "Chinese Academy of Sciences",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nanjing institute of geography and limnology",
+      "display": "Nanjing Institute of Geography and Limnology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "key laboratory of lake and watershed science for water security",
+      "display": "Key Laboratory of Lake and Watershed Science for Water Security",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "state key laboratory of soil and sustainable agriculture",
+      "display": "State Key Laboratory of Soil and Sustainable Agriculture",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tp",
+      "display": "TP",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nhsi",
+      "display": "NHSI",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "holocene",
+      "display": "Holocene",
+      "score": 1.11,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dust activity",
+      "score": 0.0814,
+      "channel": "tfidf",
+      "display": "Dust Activity"
+    },
+    {
+      "phrase": "dust",
+      "score": 0.0674,
+      "channel": "tfidf",
+      "display": "DUST"
+    },
+    {
+      "phrase": "dust activity tp",
+      "score": 0.0616,
+      "channel": "tfidf",
+      "display": "dust activity tp"
+    },
+    {
+      "phrase": "activity tp",
+      "score": 0.0593,
+      "channel": "tfidf",
+      "display": "activity tp"
+    },
+    {
+      "phrase": "activity",
+      "score": 0.0535,
+      "channel": "tfidf",
+      "display": "Activity"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

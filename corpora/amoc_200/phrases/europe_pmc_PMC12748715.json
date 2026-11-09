@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12748715",
+  "phrases": [
+    {
+      "phrase": "indonesian throughflow",
+      "display": "Indonesian Throughflow",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean and pacific ocean",
+      "display": "Indian Ocean and Pacific Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shared socioeconomic pathway",
+      "display": "Shared Socioeconomic Pathway",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hohai university",
+      "display": "Hohai University",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "itf",
+      "display": "ITF",
+      "score": 4.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.45,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indonesian",
+      "display": "Indonesian",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "itf transport",
+      "score": 0.0474,
+      "channel": "tfidf",
+      "display": "ITF transport"
+    },
+    {
+      "phrase": "hist",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "Hist"
+    },
+    {
+      "phrase": "hist runs",
+      "score": 0.0416,
+      "channel": "tfidf",
+      "display": "Hist runs"
+    },
+    {
+      "phrase": "halosteric",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "halosteric"
+    },
+    {
+      "phrase": "turning",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "turning"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

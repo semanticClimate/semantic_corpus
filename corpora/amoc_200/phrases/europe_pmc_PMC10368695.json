@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10368695",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "natl acad",
+      "display": "Natl Acad",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hadley centre sea ice and sea surface temperature",
+      "display": "Hadley Centre Sea Ice and Sea Surface Temperature",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of copenhagen",
+      "display": "University of Copenhagen",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "susanne ditlevsen",
+      "display": "Susanne Ditlevsen",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peter ditlevsen",
+      "display": "Peter Ditlevsen",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ews",
+      "display": "EWS",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ffiffiffiffiffiffiffiffiffiffiffi",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "ffiffiffiffiffiffiffiffiffiffiffi"
+    },
+    {
+      "phrase": "ewss",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "EWSs"
+    },
+    {
+      "phrase": "tw",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "Tw"
+    },
+    {
+      "phrase": "autocorrelation",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "autocorrelation"
+    },
+    {
+      "phrase": "control parameter",
+      "score": 0.0329,
+      "channel": "tfidf",
+      "display": "control parameter"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

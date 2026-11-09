@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12149303",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese loess plateau",
+      "display": "Chinese Loess Plateau",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern pacific",
+      "display": "Eastern Pacific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odp",
+      "display": "ODP",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pi",
+      "display": "PI",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kyr",
+      "score": 0.0333,
+      "channel": "tfidf",
+      "display": "kyr"
+    },
+    {
+      "phrase": "pi pi",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "PI PI"
+    },
+    {
+      "phrase": "orbital",
+      "score": 0.0318,
+      "channel": "tfidf",
+      "display": "Orbital"
+    },
+    {
+      "phrase": "full-forcing",
+      "score": 0.0313,
+      "channel": "tfidf",
+      "display": "full-forcing"
+    },
+    {
+      "phrase": "com scientificdata",
+      "score": 0.0307,
+      "channel": "tfidf",
+      "display": "com scientificdata"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11377814",
+  "phrases": [
+    {
+      "phrase": "florida current",
+      "display": "Florida Current",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida straits",
+      "display": "Florida Straits",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lowered acoustic doppler current profiler",
+      "display": "Lowered Acoustic Doppler Current Profiler",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida and grand bahama island",
+      "display": "Florida and Grand Bahama Island",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth magnetic field",
+      "display": "Earth Magnetic Field",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fc",
+      "display": "FC",
+      "score": 2.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "emf",
+      "display": "EMF",
+      "score": 1.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cable",
+      "score": 0.0471,
+      "channel": "tfidf",
+      "display": "Cable"
+    },
+    {
+      "phrase": "ladcp",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "LADCP"
+    },
+    {
+      "phrase": "cable record",
+      "score": 0.041,
+      "channel": "tfidf",
+      "display": "cable record"
+    },
+    {
+      "phrase": "ship section",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "ship section"
+    },
+    {
+      "phrase": "dropsonde",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "Dropsonde"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

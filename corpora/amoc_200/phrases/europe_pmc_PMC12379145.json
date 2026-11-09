@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12379145",
+  "phrases": [
+    {
+      "phrase": "southeast china",
+      "display": "Southeast China",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern westerlies",
+      "display": "Northern Westerlies",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greenland interstadials",
+      "display": "Greenland Interstadials",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western north pacific",
+      "display": "Western North Pacific",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "do",
+      "display": "DO",
+      "score": 3.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asm",
+      "display": "ASM",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "do-15",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "DO-15"
+    },
+    {
+      "phrase": "ism",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "ISM"
+    },
+    {
+      "phrase": "interstadials",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "Interstadials"
+    },
+    {
+      "phrase": "cave",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Cave"
+    },
+    {
+      "phrase": "oc records",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "Oc records"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

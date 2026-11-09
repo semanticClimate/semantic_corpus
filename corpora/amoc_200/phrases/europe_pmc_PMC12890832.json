@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12890832",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 4.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic ice sheet",
+      "display": "Antarctic Ice Sheet",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic ocean",
+      "display": "Antarctic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic polar front",
+      "display": "Antarctic Polar Front",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "polar antarctic zone",
+      "display": "Polar Antarctic Zone",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "az",
+      "display": "AZ",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paz",
+      "display": "PAZ",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.56,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "diatom-bound",
+      "score": 0.0435,
+      "channel": "tfidf",
+      "display": "Diatom-bound"
+    },
+    {
+      "phrase": "apf",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "APF"
+    },
+    {
+      "phrase": "ais",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "AIS"
+    },
+    {
+      "phrase": "open az",
+      "score": 0.0339,
+      "channel": "tfidf",
+      "display": "open AZ"
+    },
+    {
+      "phrase": "upper cell",
+      "score": 0.0334,
+      "channel": "tfidf",
+      "display": "upper cell"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

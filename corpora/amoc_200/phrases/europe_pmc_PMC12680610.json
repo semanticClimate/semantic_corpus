@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12680610",
+  "phrases": [
+    {
+      "phrase": "heqing basin",
+      "display": "Heqing Basin",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southwest china",
+      "display": "Southwest China",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southwestern china",
+      "display": "Southwestern China",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institute of earth environment",
+      "display": "Institute of Earth Environment",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese academy of sciences",
+      "display": "Chinese Academy of Sciences",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ism",
+      "display": "ISM",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arm",
+      "display": "ARM",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sirm",
+      "display": "SIRM",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "magnetic",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "Magnetic"
+    },
+    {
+      "phrase": "heqing",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "Heqing"
+    },
+    {
+      "phrase": "pt2 drill",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "PT2 drill"
+    },
+    {
+      "phrase": "pt2 drill core",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "PT2 drill core"
+    },
+    {
+      "phrase": "drill core",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "drill core"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

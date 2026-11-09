@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11101628",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 6.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 5.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "natl acad",
+      "display": "Natl Acad",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "large ensemble",
+      "display": "Large Ensemble",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pennsylvania state university",
+      "display": "Pennsylvania State University",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shared socioeconomic pathway",
+      "display": "Shared Socioeconomic Pathway",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.84,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.57,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cold group",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "cold group"
+    },
+    {
+      "phrase": "nnasst",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "NNASST"
+    },
+    {
+      "phrase": "warm group",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "warm group"
+    },
+    {
+      "phrase": "cesm2-le",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "CESM2-LE"
+    },
+    {
+      "phrase": "cold groups",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "cold groups"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

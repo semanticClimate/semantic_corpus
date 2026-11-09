@@ -43,7 +43,7 @@ def pmcid_from_paper_id(paper_id: str) -> Optional[str]:
 
 
 def documents_dir_for_format(bag_root: Path, fmt: str) -> Path:
-    """Prefer ``data/documents/{fmt}/``, tolerate nested ``data/data/documents``."""
+    """BAGIT ``data/documents/{fmt}/`` when present; else flat workdir root."""
     bag_root = Path(bag_root)
     fmt = fmt.strip().lower()
     candidates = [
@@ -53,12 +53,20 @@ def documents_dir_for_format(bag_root: Path, fmt: str) -> Path:
     for path in candidates:
         if path.is_dir():
             return path
+    # Flat corpus: files live at workdir root (no per-format directories)
+    if not Path(bag_root, "bagit.txt").is_file():
+        return bag_root
     preferred = candidates[0]
     preferred.mkdir(parents=True, exist_ok=True)
     return preferred
 
 
 def pdf_path_for_paper(bag_root: Path, paper_id: str) -> Path:
+    from semantic_corpus.pipeline.flat_corpus import path_pdf
+
+    bag_root = Path(bag_root)
+    if not Path(bag_root, "bagit.txt").is_file():
+        return path_pdf(bag_root, paper_id)
     return Path(documents_dir_for_format(bag_root, "pdf"), f"{paper_id}.pdf")
 
 
@@ -135,8 +143,13 @@ def _download_europe_pmc_pdf(pmcid: str, dest: Path) -> None:
                 f"Downloaded file for {pmcid} is not a valid PDF "
                 f"(size={src.stat().st_size if src.is_file() else 0})"
             )
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(src.read_bytes())
+        from semantic_corpus.repositories.document_content import safe_write_document
+
+        payload = src.read_bytes()
+        if not safe_write_document(dest, payload, fmt="pdf"):
+            raise RepositoryError(
+                f"Refusing to write non-PDF (or overwrite) for {pmcid}"
+            )
 
 
 def update_bagit_formats(

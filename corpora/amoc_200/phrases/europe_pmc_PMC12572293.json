@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12572293",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ross sea",
+      "display": "Ross Sea",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "natural earth",
+      "display": "Natural Earth",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of massachusetts amherst",
+      "display": "University of Massachusetts Amherst",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmst",
+      "display": "GMST",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic",
+      "display": "Antarctic",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmslr",
+      "display": "GMSLR",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eais",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "EAIS"
+    },
+    {
+      "phrase": "coupled simulation",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "coupled simulation"
+    },
+    {
+      "phrase": "ice",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "Ice"
+    },
+    {
+      "phrase": "ice sheet model",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "ice sheet model"
+    },
+    {
+      "phrase": "sheet model",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "sheet model"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

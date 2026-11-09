@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12801151",
+  "phrases": [
+    {
+      "phrase": "access and training",
+      "display": "Access and Training",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acta crystallogr",
+      "display": "Acta Crystallogr",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national center",
+      "display": "National Center",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "protein data bank and electron microscopy data bank",
+      "display": "Protein Data Bank and Electron Microscopy Data Bank",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "departments of molecular biosciences",
+      "display": "Departments of Molecular Biosciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "royal society of chemistry received",
+      "display": "Royal Society of Chemistry Received",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "new york structural biology center",
+      "display": "New York Structural Biology Center",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amo",
+      "display": "AMO",
+      "score": 2.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cud",
+      "display": "CuD",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cuc",
+      "display": "CuC",
+      "score": 1.51,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "briensis",
+      "score": 0.0436,
+      "channel": "tfidf",
+      "display": "briensis"
+    },
+    {
+      "phrase": "cuc cud",
+      "score": 0.0433,
+      "channel": "tfidf",
+      "display": "cuc cud"
+    },
+    {
+      "phrase": "pmmo",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "pMMO"
+    },
+    {
+      "phrase": "cryoem",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "cryoEM"
+    },
+    {
+      "phrase": "copper",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Copper"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

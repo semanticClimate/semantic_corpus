@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13376509",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zero emissions commitment model intercomparison project",
+      "display": "Zero Emissions Commitment Model Intercomparison Project",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international institute for applied systems analysis",
+      "display": "International Institute for Applied Systems Analysis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "norwegian university of science and technology",
+      "display": "Norwegian University of Science and Technology",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "school of earth and environmental sciences",
+      "display": "School of Earth and Environmental Sciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jules",
+      "display": "JULES",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lm",
+      "display": "LM",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "permafrost carbon",
+      "score": 0.0477,
+      "channel": "tfidf",
+      "display": "Permafrost carbon"
+    },
+    {
+      "phrase": "permafrost",
+      "score": 0.0462,
+      "channel": "tfidf",
+      "display": "Permafrost"
+    },
+    {
+      "phrase": "permafrost carbon loss",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "Permafrost carbon loss"
+    },
+    {
+      "phrase": "carbon loss",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "carbon loss"
+    },
+    {
+      "phrase": "tcre",
+      "score": 0.0387,
+      "channel": "tfidf",
+      "display": "TCRE"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

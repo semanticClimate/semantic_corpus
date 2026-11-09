@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13477475",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial inception",
+      "display": "Last Glacial Inception",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last interglacial",
+      "display": "Last Interglacial",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hoher list",
+      "display": "Hoher List",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "late eemian aridity pulse",
+      "display": "Late Eemian Aridity Pulse",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of bern",
+      "display": "University of Bern",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "leap",
+      "display": "LEAP",
+      "score": 2.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eemian",
+      "display": "Eemian",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "europe",
+      "display": "Europe",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "leap-i",
+      "score": 0.0438,
+      "channel": "tfidf",
+      "display": "LEAP-I"
+    },
+    {
+      "phrase": "sirocko",
+      "score": 0.0385,
+      "channel": "tfidf",
+      "display": "Sirocko"
+    },
+    {
+      "phrase": "charcoal",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "Charcoal"
+    },
+    {
+      "phrase": "eifel",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "Eifel"
+    },
+    {
+      "phrase": "abies",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "Abies"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

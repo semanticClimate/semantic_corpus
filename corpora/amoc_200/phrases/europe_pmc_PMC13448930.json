@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13448930",
+  "phrases": [
+    {
+      "phrase": "alpha biopharmaceuticals co",
+      "display": "Alpha Biopharmaceuticals Co",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "process res",
+      "display": "Process Res",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "green chem",
+      "display": "Green Chem",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pept sci",
+      "display": "Pept Sci",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "holistic analysis of current peptide manufacturing processes informs sustainability in peptide synthesis",
+      "display": "Holistic Analysis of Current Peptide Manufacturing Processes Informs Sustainability in Peptide Synthesis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "inverse peptide synthesis using transient protected amino acids",
+      "display": "Inverse Peptide Synthesis Using Transient Protected Amino Acids",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supporting information the supporting information",
+      "display": "Supporting Information The Supporting Information",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "Amoc",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fmoc",
+      "display": "Fmoc",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aa",
+      "display": "AA",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peptide",
+      "score": 0.0609,
+      "channel": "tfidf",
+      "display": "Peptide"
+    },
+    {
+      "phrase": "peptide synthesis",
+      "score": 0.057,
+      "channel": "tfidf",
+      "display": "Peptide Synthesis"
+    },
+    {
+      "phrase": "deprotection",
+      "score": 0.0471,
+      "channel": "tfidf",
+      "display": "deprotection"
+    },
+    {
+      "phrase": "synthesis",
+      "score": 0.0467,
+      "channel": "tfidf",
+      "display": "Synthesis"
+    },
+    {
+      "phrase": "polypeptide",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "polypeptide"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

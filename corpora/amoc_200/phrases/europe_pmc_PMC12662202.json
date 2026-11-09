@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12662202",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jiaotong university",
+      "display": "Jiaotong University",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central american",
+      "display": "Central American",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic subtropical high",
+      "display": "North Atlantic Subtropical High",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nash",
+      "display": "NASH",
+      "score": 2.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "awp",
+      "display": "AWP",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cust",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "CUST"
+    },
+    {
+      "phrase": "cuba",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "Cuba"
+    },
+    {
+      "phrase": "ka bp",
+      "score": 0.0331,
+      "channel": "tfidf",
+      "display": "ka BP"
+    },
+    {
+      "phrase": "speleothem",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "Speleothem"
+    },
+    {
+      "phrase": "insolation",
+      "score": 0.0316,
+      "channel": "tfidf",
+      "display": "Insolation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

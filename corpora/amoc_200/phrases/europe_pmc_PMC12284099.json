@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12284099",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bermuda rise",
+      "display": "Bermuda Rise",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of bern",
+      "display": "University of Bern",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "blake bahamas outer ridge",
+      "display": "Blake Bahamas Outer Ridge",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odp",
+      "display": "ODP",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pa th",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "pa th"
+    },
+    {
+      "phrase": "pa",
+      "score": 0.0407,
+      "channel": "tfidf",
+      "display": "Pa"
+    },
+    {
+      "phrase": "th",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Th"
+    },
+    {
+      "phrase": "holocene",
+      "score": 0.0338,
+      "channel": "tfidf",
+      "display": "Holocene"
+    },
+    {
+      "phrase": "bopal",
+      "score": 0.0329,
+      "channel": "tfidf",
+      "display": "bOpal"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

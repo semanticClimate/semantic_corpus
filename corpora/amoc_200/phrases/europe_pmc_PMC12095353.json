@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12095353",
+  "phrases": [
+    {
+      "phrase": "antarctic peninsula",
+      "display": "Antarctic Peninsula",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "global climate observing system",
+      "display": "Global Climate Observing System",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "essential climate variables",
+      "display": "Essential Climate Variables",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "copernicus sentinel",
+      "display": "Copernicus Sentinel",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greenland and antarctica",
+      "display": "Greenland and Antarctica",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tuinenburg and staal",
+      "display": "Tuinenburg and Staal",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gcos",
+      "display": "GCOS",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ecv",
+      "display": "ECV",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth",
+      "display": "Earth",
+      "score": 1.23,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tipping",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "Tipping"
+    },
+    {
+      "phrase": "ecvs",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "ECVS"
+    },
+    {
+      "phrase": "tipping systems",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "Tipping Systems"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0324,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0324,
+      "channel": "tfidf",
+      "display": "et"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

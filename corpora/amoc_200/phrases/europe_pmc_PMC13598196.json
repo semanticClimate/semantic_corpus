@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13598196",
+  "phrases": [
+    {
+      "phrase": "south pacific",
+      "display": "South Pacific",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "patagonian ice sheet",
+      "display": "Patagonian Ice Sheet",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cape horn current",
+      "display": "Cape Horn Current",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pis",
+      "display": "PIS",
+      "score": 2.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "si",
+      "display": "SI",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sww",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "SWW"
+    },
+    {
+      "phrase": "si appendix",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "SI Appendix"
+    },
+    {
+      "phrase": "amoc slowdowns",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "AMOC Slowdowns"
+    },
+    {
+      "phrase": "si appendix fig",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "si appendix fig"
+    },
+    {
+      "phrase": "slowdowns",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Slowdowns"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

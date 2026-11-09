@@ -1,0 +1,102 @@
+{
+  "pmcid": "PMC13515334",
+  "pmid": "42655052",
+  "title": "Interaction Mechanisms Among Soil Environmental Factors, Microbial Communities, and Nitrogen-Cycling Functional Genes in Cool-Climate Maize Fields.",
+  "abstract": "Cool-climate maize fields are characterized by low soil temperatures, strong seasonal hydrothermal fluctuations, and peat-influenced soil profiles, which may lead to patterns of nitrogen (N) cycling distinct from those in conventional agricultural soils. During maize growth, soils from three depths were characterized using physicochemical measurements, N-transformation and enzyme-activity assays, metagenomic sequencing, Mantel tests, variation partitioning analysis, and partial least squares path modeling (PLS-PM). Soil environmental factors varied significantly over time and with depth; soil organic matter (SOM) and total nitrogen (TN) increased with depth, while ammonium nitrogen (NH<sub>4</sub><sup>+</sup>-N) predominated early and nitrate nitrogen (NO<sub>3</sub><sup>-</sup>-N) predominated during the middle and late growth stages. The nitrogen fixation rate (NFR), nitrification rate (NitR), and denitrification rate (DNR) all peaked in August and showed a spatial pattern characterized by nitrogen fixation in the deepest layer and denitrification in the upper and middle layers. Bacterial communities varied less spatiotemporally than fungal communities. The genes <i>nifK</i>, <i>hao</i>, <i>nirS</i>/<i>nirK</i>, <i>NR</i>, <i>nrfC</i>, and <i>hzsA</i>/<i>hzsC</i> were identified as key nitrogen-cycling functional genes. Mantel tests and PLS-PM further characterized these relationships, with PLS-PM showing that soil physicochemical properties were positively associated with bacterial community composition (β = 0.87, <i>p</i> < 0.01), which, in turn, was negatively associated with N-cycling functional genes (β = -0.97, <i>p</i> < 0.001). Together, these pathways were associated with variation in N-cycling processes. Overall, this study advances an integrated understanding of N-cycling patterns and their potential controls in cool-climate maize fields and provides a scientific basis for optimizing N management strategies.",
+  "authors": [
+    {
+      "fullName": "Dai Q",
+      "lastName": "Dai",
+      "firstName": "Qingqing",
+      "initials": "Q",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Agriculture College, Yanbian University, Yanji 133002, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wang Y",
+      "lastName": "Wang",
+      "firstName": "Yuhang",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Agriculture College, Yanbian University, Yanji 133002, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jin M",
+      "lastName": "Jin",
+      "firstName": "Mingji",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Geography and Ocean Sciences, Yanbian University, Yanji 133002, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wang S",
+      "lastName": "Wang",
+      "firstName": "Shuo",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Agriculture College, Yanbian University, Yanji 133002, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Han M",
+      "lastName": "Han",
+      "firstName": "Mingji",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Agriculture College, Yanbian University, Yanji 133002, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-08-04",
+  "journal": "",
+  "doi": "10.3390/microorganisms14081705",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3390/microorganisms14081705"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13515334"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13515334?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13515334"
+}

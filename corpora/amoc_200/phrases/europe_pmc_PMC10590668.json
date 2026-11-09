@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590668",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic multidecadal variability",
+      "display": "Atlantic Multidecadal Variability",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jon robson",
+      "display": "Jon Robson",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national centre for atmospheric science",
+      "display": "National Centre for Atmospheric Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amv",
+      "display": "AMV",
+      "score": 5.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "famv",
+      "score": 0.0484,
+      "channel": "tfidf",
+      "display": "fAMV"
+    },
+    {
+      "phrase": "iamv",
+      "score": 0.0469,
+      "channel": "tfidf",
+      "display": "iAMV"
+    },
+    {
+      "phrase": "amv-glob",
+      "score": 0.0402,
+      "channel": "tfidf",
+      "display": "AMV-Glob"
+    },
+    {
+      "phrase": "observed amv",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "observed AMV"
+    },
+    {
+      "phrase": "mmm",
+      "score": 0.0385,
+      "channel": "tfidf",
+      "display": "MMM"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

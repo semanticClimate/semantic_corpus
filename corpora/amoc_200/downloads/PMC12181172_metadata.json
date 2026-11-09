@@ -1,0 +1,1209 @@
+{
+  "pmcid": "PMC12181172",
+  "pmid": "40546753",
+  "title": "Ten new insights in climate science 2024.",
+  "abstract": "The years 2023 and 2024 were characterized by unprecedented warming across the globe, underscoring the urgency of climate action. Robust science advice for decision makers on subjects as complex as climate change requires deep cross- and interdisciplinary understanding. However, navigating the ever-expanding and diverse peer-reviewed literature on climate change is enormously challenging for individual researchers. We elicited expert input through an online questionnaire (188 respondents from 45 countries) and prioritized 10 key advances in climate-change research with high policy relevance. The insights span a wide range of areas, from changes in methane and aerosol emissions to the factors shaping citizens' acceptance of climate policies. This synthesis and communications effort forms the basis for a science-policy report distributed to party delegations ahead of the 29th session of the Conference of the Parties (COP29) to inform their positions and arguments on critical issues, including heat-adaptation planning, comprehensive mitigation strategies, and strengthened governance in energy-transition minerals value chains.",
+  "authors": [
+    {
+      "fullName": "Schaeffer R",
+      "lastName": "Schaeffer",
+      "firstName": "Roberto",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3709-7323"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Federal University of Rio de Janeiro, Rio de Janeiro, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Schipper ELF",
+      "lastName": "Schipper",
+      "firstName": "E Lisa F",
+      "initials": "ELF",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Bonn, Bonn, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ospina D",
+      "lastName": "Ospina",
+      "firstName": "Daniel",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5115-0899"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Future Earth Secretariat, Stockholm, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mirazo P",
+      "lastName": "Mirazo",
+      "firstName": "Paula",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Arizona State University, Tempe, AZ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Alencar A",
+      "lastName": "Alencar",
+      "firstName": "Ane",
+      "initials": "A",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Amazon Environmental Research Institute (IPAM), Brasilia, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Anvari M",
+      "lastName": "Anvari",
+      "firstName": "Mehrnaz",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Fraunhofer Institute for Algorithms and Scientific Computing SCAI, St. Augustin, Germany."
+          },
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Artaxo P",
+      "lastName": "Artaxo",
+      "firstName": "Paulo",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of São Paulo, São Paulo, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Biresselioglu ME",
+      "lastName": "Biresselioglu",
+      "firstName": "Mehmet Efe",
+      "initials": "ME",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5961-4088"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "İzmir University of Economics, İzmir, Turkey."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Blome T",
+      "lastName": "Blome",
+      "firstName": "Tanja",
+      "initials": "T",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Service Center Germany (GERICS), Helmholtz-Zentrum Hereon, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Boeckmann M",
+      "lastName": "Boeckmann",
+      "firstName": "Melanie",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Bremen, Bremen, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Brink E",
+      "lastName": "Brink",
+      "firstName": "Ebba",
+      "initials": "E",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Lund University, Lund, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Broadgate W",
+      "lastName": "Broadgate",
+      "firstName": "Wendy",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4409-2800"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Future Earth Secretariat, Stockholm, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bustamante M",
+      "lastName": "Bustamante",
+      "firstName": "Mercedes",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Brasilia, Brasilia, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cai W",
+      "lastName": "Cai",
+      "firstName": "Wenju",
+      "initials": "W",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Ocean University of China, Qingdao, China."
+          },
+          {
+            "affiliation": "Xiamen University, Xiamen, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Canadell JG",
+      "lastName": "Canadell",
+      "firstName": "Josep G",
+      "initials": "JG",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Commonwealth Scientific and Industrial Research Organisation (CSIRO) Environment, Canberra, ACT, Australia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cardinale R",
+      "lastName": "Cardinale",
+      "firstName": "Roberto",
+      "initials": "R",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University College London, London, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Chidichimo MP",
+      "lastName": "Chidichimo",
+      "firstName": "Maria Paz",
+      "initials": "MP",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Scientific and Technical Research Council (CONICET), Buenos Aires, Argentina."
+          },
+          {
+            "affiliation": "National University of San Martin, Buenos Aires, Argentina."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ditlevsen P",
+      "lastName": "Ditlevsen",
+      "firstName": "Peter",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2120-7732"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Eicker U",
+      "lastName": "Eicker",
+      "firstName": "Ursula",
+      "initials": "U",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Concordia University, Montreal, QC, Canada."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Feron S",
+      "lastName": "Feron",
+      "firstName": "Sarah",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0572-5639"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Groningen, Groningen, the Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Fikru MG",
+      "lastName": "Fikru",
+      "firstName": "Mahelet G",
+      "initials": "MG",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Missouri University of Science and Technology, Rolla, MO, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Fuss S",
+      "lastName": "Fuss",
+      "firstName": "Sabine",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Mercator Research Institute on Global Commons and Climate Change (MCC), Berlin, Germany."
+          },
+          {
+            "affiliation": "Humboldt-University of Berlin, Berlin, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gaye AT",
+      "lastName": "Gaye",
+      "firstName": "Amadou T",
+      "initials": "AT",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Cheikh Anta Diop University, Dakar, Senegal."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gustafsson Ö",
+      "lastName": "Gustafsson",
+      "firstName": "Örjan",
+      "initials": "Ö",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Harring N",
+      "lastName": "Harring",
+      "firstName": "Niklas",
+      "initials": "N",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Gothenburg, Gothenburg, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "He C",
+      "lastName": "He",
+      "firstName": "Cheng",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Epidemiology, Helmholtz Zentrum München-German Research Center for Environmental Health (GmbH), Neuherberg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hebden S",
+      "lastName": "Hebden",
+      "firstName": "Sophie",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1787-1649"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Future Earth Secretariat, Stockholm, Sweden."
+          },
+          {
+            "affiliation": "European Space Agency (ESA) - European Centre for Space Applications and Telecommunications (ECSAT), Oxford, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Heilemann A",
+      "lastName": "Heilemann",
+      "firstName": "Adrian",
+      "initials": "A",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hirota M",
+      "lastName": "Hirota",
+      "firstName": "Marina",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Federal University of Santa Catarina, Florianopolis, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Janardhanan N",
+      "lastName": "Janardhanan",
+      "firstName": "Nandakumar",
+      "initials": "N",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute for Global Environmental Strategies (IGES), Hayama, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Juhola S",
+      "lastName": "Juhola",
+      "firstName": "Sirkku",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0095-2282"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Helsinki, Helsinki, Finland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jung TY",
+      "lastName": "Jung",
+      "firstName": "Tae Yong",
+      "initials": "TY",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Yonsei University Graduate, Seoul, Republic of Korea."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kejun J",
+      "lastName": "Kejun",
+      "firstName": "Jiang",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Chinese Academy of Macroeconomic Research, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kilkiș Ş",
+      "lastName": "Kilkiș",
+      "firstName": "Şiir",
+      "initials": "Ş",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-3466-3593"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Scientific and Technological Research Council of Turkey (TÜBİTAK), Ankara, Turkey."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kumarasinghe N",
+      "lastName": "Kumarasinghe",
+      "firstName": "Nilushi",
+      "initials": "N",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Future Earth Secretariat Canada Hub, Montreal, QC, Canada."
+          },
+          {
+            "affiliation": "Sustainability in the Digital Age, Montreal, QC, Canada."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lapola D",
+      "lastName": "Lapola",
+      "firstName": "David",
+      "initials": "D",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State University of Campinas, Campinas, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lee JY",
+      "lastName": "Lee",
+      "firstName": "June-Yi",
+      "initials": "JY",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Pusan National University, Busan, Republic of Korea."
+          },
+          {
+            "affiliation": "Center for Climate Physics, Institute for Basic Science, Busan, Republic of Korea."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Levis C",
+      "lastName": "Levis",
+      "firstName": "Carolina",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Federal University of Santa Catarina, Florianopolis, Brazil."
+          },
+          {
+            "affiliation": "Princeton University, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lusambili A",
+      "lastName": "Lusambili",
+      "firstName": "Adelaide",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8174-7963"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Africa International University, Nairobi, Kenya."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Maasakkers JD",
+      "lastName": "Maasakkers",
+      "firstName": "Joannes D",
+      "initials": "JD",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "SRON Netherlands Institute for Space Research, Leiden, the Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "MacIntosh C",
+      "lastName": "MacIntosh",
+      "firstName": "Claire",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "European Space Agency (ESA) - European Centre for Space Applications and Telecommunications (ECSAT), Oxford, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mahmood J",
+      "lastName": "Mahmood",
+      "firstName": "Jemilah",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Sunway Centre for Planetary Health, Kuala Lumpur, Malaysia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mankin JS",
+      "lastName": "Mankin",
+      "firstName": "Justin S",
+      "initials": "JS",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Dartmouth College, Hanover, NH, USA."
+          },
+          {
+            "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Marchegiani P",
+      "lastName": "Marchegiani",
+      "firstName": "Pía",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Facultad Latinoamericana de Ciencias Sociales (FLACSO), Buenos Aires, Argentina."
+          },
+          {
+            "affiliation": "Environment and Natural Resources Foundation (FARN), Buenos Aires, Argentina."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Martin M",
+      "lastName": "Martin",
+      "firstName": "Maria",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mukherji A",
+      "lastName": "Mukherji",
+      "firstName": "Aditi",
+      "initials": "A",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "CGIAR, Kolkata, India."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Muñoz-Erickson TA",
+      "lastName": "Muñoz-Erickson",
+      "firstName": "Tischa A",
+      "initials": "TA",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Arizona State University, Tempe, AZ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Niazi Z",
+      "lastName": "Niazi",
+      "firstName": "Zeenat",
+      "initials": "Z",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "TERI School of Advanced Studies, New Delhi, India."
+          },
+          {
+            "affiliation": "Society for Development Alternatives, New Delhi, India."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nyangon J",
+      "lastName": "Nyangon",
+      "firstName": "Joseph",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "US Department of Energy, Washington, DC, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pandipati S",
+      "lastName": "Pandipati",
+      "firstName": "Santosh",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Lōvu Health, Cupertino, CA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Perera ATD",
+      "lastName": "Perera",
+      "firstName": "Amarasinghage T D",
+      "initials": "ATD",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0461-8874"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Princeton University, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Persad G",
+      "lastName": "Persad",
+      "firstName": "Geeta",
+      "initials": "G",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Texas at Austin, Austin, TX, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Persson Å",
+      "lastName": "Persson",
+      "firstName": "Åsa",
+      "initials": "Å",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Stockholm Environment Institute, Stockholm, Sweden."
+          },
+          {
+            "affiliation": "Linköping University, Linköping, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Redman A",
+      "lastName": "Redman",
+      "firstName": "Aaron",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8893-569X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Arizona State University, Tempe, AZ, USA."
+          },
+          {
+            "affiliation": "Monitoring and Evaluating Climate Communication and Education Project (MECCE), Saskatoon, SK, Canada."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Riipinen I",
+      "lastName": "Riipinen",
+      "firstName": "Ilona",
+      "initials": "I",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Rockström J",
+      "lastName": "Rockström",
+      "firstName": "Johan",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8988-2983"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany."
+          },
+          {
+            "affiliation": "University of Potsdam, Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Roffe S",
+      "lastName": "Roffe",
+      "firstName": "Sarah",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Agricultural Research Council - Natural Resources and Engineering, Pretoria, South Africa."
+          },
+          {
+            "affiliation": "University of the Free State, Bloemfontein, South Africa."
+          },
+          {
+            "affiliation": "University of the Witwatersrand, Johannesburg, South Africa."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Roy J",
+      "lastName": "Roy",
+      "firstName": "Joyashree",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Asian Institute of Technology, Pathum Thani, Thailand."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sakschewski B",
+      "lastName": "Sakschewski",
+      "firstName": "Boris",
+      "initials": "B",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research (PIK), Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Samset BH",
+      "lastName": "Samset",
+      "firstName": "Bjørn H",
+      "initials": "BH",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "CICERO Center for International Climate Research, Oslo, Norway."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Schlosser P",
+      "lastName": "Schlosser",
+      "firstName": "Peter",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Arizona State University, Tempe, AZ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sharifi A",
+      "lastName": "Sharifi",
+      "firstName": "Ayyoob",
+      "initials": "A",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Hiroshima University, Higashi-Hiroshima, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Shih WY",
+      "lastName": "Shih",
+      "firstName": "Wan-Yu",
+      "initials": "WY",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4427-492X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Taiwan University, Taipei, Taiwan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sioen GB",
+      "lastName": "Sioen",
+      "firstName": "Giles B",
+      "initials": "GB",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Sustainable Society Design Center, Graduate School of Frontier Science, University of Tokyo, Kashiwa-no-ha, Japan."
+          },
+          {
+            "affiliation": "Future Earth Secretariat, Tsukuba, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sokona Y",
+      "lastName": "Sokona",
+      "firstName": "Youba",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "African Climate Policy Centre, Bamako, Mali."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Stammer D",
+      "lastName": "Stammer",
+      "firstName": "Detlef",
+      "initials": "D",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Hamburg, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Suk S",
+      "lastName": "Suk",
+      "firstName": "Sunhee",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Future Earth Secretariat, Tsukuba, Japan."
+          },
+          {
+            "affiliation": "Nagasaki University, Nagasaki, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Thiam D",
+      "lastName": "Thiam",
+      "firstName": "Djiby",
+      "initials": "D",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Cape Town, Cape Town, South Africa."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Thompson V",
+      "lastName": "Thompson",
+      "firstName": "Vikki",
+      "initials": "V",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Royal Netherlands Meteorological Institute (KNMI), De Bilt, the Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tullos E",
+      "lastName": "Tullos",
+      "firstName": "Erin",
+      "initials": "E",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Texas at Austin, Austin, TX, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "van Westen RM",
+      "lastName": "van Westen",
+      "firstName": "René M",
+      "initials": "RM",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8807-7269"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute for Marine and Atmospheric Research, Utrecht University, Utrecht, the Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Vargas Falla AM",
+      "lastName": "Vargas Falla",
+      "firstName": "Ana Maria",
+      "initials": "AM",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Lund University, Lund, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Vecellio DJ",
+      "lastName": "Vecellio",
+      "firstName": "Daniel J",
+      "initials": "DJ",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "George Mason University, Fairfax, VA, USA."
+          },
+          {
+            "affiliation": "University of Nebraska, Omaha, NE, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Worden J",
+      "lastName": "Worden",
+      "firstName": "John",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu HC",
+      "lastName": "Wu",
+      "firstName": "Henry C",
+      "initials": "HC",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8975-5917"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Service Center Germany (GERICS), Helmholtz-Zentrum Hereon, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Xu C",
+      "lastName": "Xu",
+      "firstName": "Chi",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Nanjing University, Nanjing, China."
+          },
+          {
+            "affiliation": "Ningxia University, Yinchuan, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang Y",
+      "lastName": "Yang",
+      "firstName": "Yang",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Nanjing University of Information Science and Technology, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zachariah M",
+      "lastName": "Zachariah",
+      "firstName": "Mariam",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Imperial College London, London, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang Z",
+      "lastName": "Zhang",
+      "firstName": "Zhen",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0899-1139"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ziervogel G",
+      "lastName": "Ziervogel",
+      "firstName": "Gina",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4219-6809"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Cape Town, Cape Town, South Africa."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-06-01",
+  "journal": "",
+  "doi": "10.1016/j.oneear.2025.101285",
+  "full_text_urls": [
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "pdf",
+      "site": "Unpaywall",
+      "url": "https://www.cell.com/action/showPdf?pii=S2590332225001113"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1016/j.oneear.2025.101285"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12181172"
+    }
+  ],
+  "has_pdf": "N",
+  "is_open_access": "Y",
+  "paper_id": "PMC12181172"
+}

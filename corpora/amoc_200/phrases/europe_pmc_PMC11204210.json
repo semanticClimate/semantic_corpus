@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11204210",
+  "phrases": [
+    {
+      "phrase": "climate dynam",
+      "display": "Climate Dynam",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bering strait",
+      "display": "Bering Strait",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "model dev",
+      "display": "Model Dev",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese academy of sciences",
+      "display": "Chinese Academy of Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmoc",
+      "display": "GMOC",
+      "score": 2.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sh",
+      "display": "SH",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paleozoic",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "Paleozoic"
+    },
+    {
+      "phrase": "strength gmoc",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "strength gmoc"
+    },
+    {
+      "phrase": "continental configuration",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "Continental configuration"
+    },
+    {
+      "phrase": "group ii",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "Group II"
+    },
+    {
+      "phrase": "gmoc strength",
+      "score": 0.0315,
+      "channel": "tfidf",
+      "display": "GMOC strength"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

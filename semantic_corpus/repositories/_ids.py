@@ -95,9 +95,23 @@ def existing_document_paths(
                 ]
             )
         for path in candidates:
-            if path.is_file() and path.stat().st_size > 0:
-                found[fmt] = path
-                break
+            if not path.is_file():
+                continue
+            try:
+                if path.stat().st_size <= 0:
+                    continue
+            except OSError:
+                continue
+            # Ignore error-JSON/HTML stubs saved with .xml/.pdf extensions so
+            # collect will retry instead of treating them as successful downloads.
+            from semantic_corpus.repositories.document_content import (
+                is_valid_document_file,
+            )
+
+            if fmt in ("xml", "pdf") and not is_valid_document_file(path, fmt):
+                continue
+            found[fmt] = path
+            break
     return found
 
 

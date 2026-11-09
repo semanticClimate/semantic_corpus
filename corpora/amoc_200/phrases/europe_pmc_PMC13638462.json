@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13638462",
+  "phrases": [
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "natl acad",
+      "display": "Natl Acad",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dijkstra the atlantic meridional overturning circulation",
+      "display": "Dijkstra The Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greenland ice sheet and west antarctic ice sheet",
+      "display": "Greenland Ice Sheet and West Antarctic Ice Sheet",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pi",
+      "display": "PI",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fh",
+      "display": "FH",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "slow co2 ramp",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "slow CO2 ramp"
+    },
+    {
+      "phrase": "ppm yr",
+      "score": 0.0412,
+      "channel": "tfidf",
+      "display": "ppm yr"
+    },
+    {
+      "phrase": "slow co2",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "slow CO2"
+    },
+    {
+      "phrase": "co2 ramp",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "CO2 ramp"
+    },
+    {
+      "phrase": "ramps",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "ramps"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

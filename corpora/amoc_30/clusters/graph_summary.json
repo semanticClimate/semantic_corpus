@@ -5,7 +5,7 @@
   "clusters_dir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_30/clusters",
   "params": {
     "algorithm": "louvain",
-    "resolution": 1.0,
+    "resolution": 0.35,
     "min_cluster_papers": 2,
     "seed": 42,
     "phrase_method": "tfidf",
@@ -14,11 +14,11 @@
   "paper_count": 30,
   "term_count": 336,
   "edge_count": 450,
-  "community_count": 15,
-  "cluster_count": 9,
-  "orphan_paper_count": 6,
-  "orphan_term_count": 80,
-  "elapsed_s": 0.1459,
+  "community_count": 7,
+  "cluster_count": 3,
+  "orphan_paper_count": 4,
+  "orphan_term_count": 55,
+  "elapsed_s": 0.0376,
   "clusters_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_30/clusters/clusters.json",
   "orphans_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_30/clusters/orphans.json"
 }

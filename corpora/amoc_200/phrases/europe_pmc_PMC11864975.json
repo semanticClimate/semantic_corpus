@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11864975",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "extended data figs",
+      "display": "Extended Data Figs",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic and indo",
+      "display": "Atlantic and Indo",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "so",
+      "display": "SO",
+      "score": 3.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pmoc",
+      "display": "PMOC",
+      "score": 2.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "upwelling pathways",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "upwelling pathways"
+    },
+    {
+      "phrase": "amoc upwelling",
+      "score": 0.045,
+      "channel": "tfidf",
+      "display": "AMOC upwelling"
+    },
+    {
+      "phrase": "upwelling pathway",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "Upwelling pathway"
+    },
+    {
+      "phrase": "upper cell",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "upper cell"
+    },
+    {
+      "phrase": "amoc upwelling pathways",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "AMOC upwelling pathways"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

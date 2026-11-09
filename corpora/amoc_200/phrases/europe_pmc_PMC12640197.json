@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12640197",
+  "phrases": [
+    {
+      "phrase": "federal aviation administration",
+      "display": "Federal Aviation Administration",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institutes for behavior resources",
+      "display": "Institutes for Behavior Resources",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "controlled rest",
+      "display": "Controlled Rest",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "oversight of fatigue management approaches",
+      "display": "Oversight of Fatigue Management Approaches",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international air transport association",
+      "display": "International Air Transport Association",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "operational fatigue and performance",
+      "display": "Operational Fatigue and Performance",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "csts",
+      "display": "CSTs",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cst",
+      "display": "CST",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "frms",
+      "display": "FRMS",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sleep",
+      "score": 0.0571,
+      "channel": "tfidf",
+      "display": "SLEEP"
+    },
+    {
+      "phrase": "aviation",
+      "score": 0.0464,
+      "channel": "tfidf",
+      "display": "Aviation"
+    },
+    {
+      "phrase": "in-flight",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "In-flight"
+    },
+    {
+      "phrase": "fatigue",
+      "score": 0.041,
+      "channel": "tfidf",
+      "display": "Fatigue"
+    },
+    {
+      "phrase": "flight",
+      "score": 0.04,
+      "channel": "tfidf",
+      "display": "Flight"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

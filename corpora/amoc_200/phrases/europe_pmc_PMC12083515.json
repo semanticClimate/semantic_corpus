@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12083515",
+  "phrases": [
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "geophysical fluid dynamics laboratory",
+      "display": "Geophysical Fluid Dynamics Laboratory",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northeast coast",
+      "display": "Northeast Coast",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "monte carlo",
+      "display": "Monte Carlo",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east coast",
+      "display": "East Coast",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "glacial isostatic adjustment",
+      "display": "Glacial Isostatic Adjustment",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "usnec",
+      "display": "USNEC",
+      "score": 2.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tg",
+      "display": "TG",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "flood",
+      "score": 0.0409,
+      "channel": "tfidf",
+      "display": "Flood"
+    },
+    {
+      "phrase": "flood days",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "flood days"
+    },
+    {
+      "phrase": "spear",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "SPEAR"
+    },
+    {
+      "phrase": "apt",
+      "score": 0.0364,
+      "channel": "tfidf",
+      "display": "APT"
+    },
+    {
+      "phrase": "esl",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "ESL"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

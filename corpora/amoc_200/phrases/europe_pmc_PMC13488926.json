@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13488926",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lisiecki and stern",
+      "display": "Lisiecki and Stern",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dronning maud land",
+      "display": "Dronning Maud Land",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "late pleistocene",
+      "display": "Late Pleistocene",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eei",
+      "display": "EEI",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mot",
+      "display": "MOT",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eeiocean",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "EEIocean"
+    },
+    {
+      "phrase": "eeiice",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "EEIice"
+    },
+    {
+      "phrase": "ka",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "ka"
+    },
+    {
+      "phrase": "energy",
+      "score": 0.0323,
+      "channel": "tfidf",
+      "display": "Energy"
+    },
+    {
+      "phrase": "stack",
+      "score": 0.0316,
+      "channel": "tfidf",
+      "display": "stack"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

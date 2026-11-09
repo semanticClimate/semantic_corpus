@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13715440",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "west antarctic ice sheet",
+      "display": "West Antarctic Ice Sheet",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "complex marine ecosystems and planetary boundary tipping",
+      "display": "Complex Marine Ecosystems and Planetary Boundary Tipping",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "potsdam institute for climate impact research",
+      "display": "Potsdam Institute for Climate Impact Research",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of complexity science",
+      "display": "Department of Complexity Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "humboldt university berlin",
+      "display": "Humboldt University Berlin",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ews",
+      "display": "EWS",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "csd",
+      "display": "CSD",
+      "score": 1.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth",
+      "display": "EARTH",
+      "score": 1.21,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tipping",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "Tipping"
+    },
+    {
+      "phrase": "r-tipping",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "R-tipping"
+    },
+    {
+      "phrase": "b-tipping",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "B-tipping"
+    },
+    {
+      "phrase": "tipping elements",
+      "score": 0.032,
+      "channel": "tfidf",
+      "display": "Tipping elements"
+    },
+    {
+      "phrase": "cascade",
+      "score": 0.0317,
+      "channel": "tfidf",
+      "display": "cascade"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

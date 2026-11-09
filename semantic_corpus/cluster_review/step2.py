@@ -1,7 +1,13 @@
 """Step 2: phrase extraction with disk cache.
 
-Default method: corpus TF-IDF on **XML body only** (no front matter, no references).
-YAKE remains available as ``method="yake"`` (same text policy).
+Packet text cascade (first non-empty wins):
+
+1. **XML** — publisher/JATS full text (optional section selector)
+2. **PDF** — Docling HTML/XML when present, or convert PDF → HTML/XML
+3. **JSON abstract** — title+abstract from ``{id}.json`` (or legacy ``*_metadata.json``)
+
+Default indexing prefers body text from (1)/(2); abstract is last-resort.
+YAKE remains available as ``method="yake"`` (same cascade).
 
 Stop / noise word lists are editable text files under
 ``semantic_corpus/cluster_review/lists/`` (see ``lists/README.md``).
@@ -35,6 +41,8 @@ DEFAULT_MAX_BODY_CHARS = 50_000
 DEFAULT_METHOD = "tfidf"
 DEFAULT_SCORE_DIGITS = 4
 VALID_METHODS = frozenset({"tfidf", "yake"})
+# Packet / phrase text source order (first non-empty wins).
+PACKET_TEXT_CASCADE = ("xml", "pdf", "json_abstract")
 # Phrase JSON shape: 4 uses channel ``uppercase`` (was ``proper`` in schema 3).
 PHRASE_SCHEMA = 4
 VALID_CHANNELS = frozenset({"uppercase", "tfidf", "yake"})
@@ -208,10 +216,20 @@ def paper_text_from_metadata(metadata: Dict[str, Any]) -> str:
 
 
 def find_paper_xml(bag_root: Path, paper_id: str) -> Optional[Path]:
-    """Locate full-text XML for a paper under BAGIT documents/."""
+    """Locate full-text XML: ``{id}.xml`` then ``{id}.pdf.xml``, then BAGIT paths."""
+    from semantic_corpus.pipeline.flat_corpus import find_best_xml, find_native_xml, find_pdf_xml
     from semantic_corpus.repositories._ids import paper_id_stems
+    from semantic_corpus.repositories.document_content import is_valid_document_file
 
     bag_root = Path(bag_root)
+    # Flat workdir cascade: publisher XML, then Docling PDF→XML
+    native = find_native_xml(bag_root, paper_id)
+    if native is not None:
+        return native
+    derived = find_pdf_xml(bag_root, paper_id)
+    if derived is not None:
+        return derived
+
     stems = paper_id_stems(paper_id)
     dirs = [
         Path(bag_root, "data", "documents", "xml"),
@@ -223,10 +241,142 @@ def find_paper_xml(bag_root: Path, paper_id: str) -> Optional[Path]:
         if not directory.is_dir():
             continue
         for stem in stems:
-            path = Path(directory, f"{stem}.xml")
-            if path.is_file() and path.stat().st_size > 0:
+            for name in (f"{stem}.xml", f"{stem}.pdf.xml"):
+                path = Path(directory, name)
+                if is_valid_document_file(path, "xml"):
+                    return path
+    return find_best_xml(bag_root, paper_id)
+
+
+def find_paper_pdf(bag_root: Path, paper_id: str) -> Optional[Path]:
+    """Locate a valid PDF: flat ``{id}.pdf`` then BAGIT documents/."""
+    from semantic_corpus.pipeline.flat_corpus import find_pdf
+    from semantic_corpus.repositories._ids import paper_id_stems
+    from semantic_corpus.repositories.document_content import is_valid_document_file
+
+    bag_root = Path(bag_root)
+    flat = find_pdf(bag_root, paper_id)
+    if flat is not None:
+        return flat
+
+    stems = paper_id_stems(paper_id)
+    dirs = [
+        Path(bag_root, "data", "documents", "pdf"),
+        Path(bag_root, "data", "data", "documents", "pdf"),
+        Path(bag_root, "documents", "pdf"),
+        Path(bag_root, "documents"),
+    ]
+    for directory in dirs:
+        if not directory.is_dir():
+            continue
+        for stem in stems:
+            path = Path(directory, f"{stem}.pdf")
+            if is_valid_document_file(path, "pdf"):
                 return path
     return None
+
+
+def find_paper_html(bag_root: Path, paper_id: str) -> Optional[Path]:
+    """Locate Docling/HTML sidecar: flat ``{id}.pdf.html`` then BAGIT html/."""
+    from semantic_corpus.pipeline.flat_corpus import path_pdf_html, paper_stem
+    from semantic_corpus.repositories._ids import paper_id_stems
+
+    bag_root = Path(bag_root)
+    flat = path_pdf_html(bag_root, paper_id)
+    if flat.is_file() and flat.stat().st_size > 0:
+        head = flat.read_bytes()[:64].lstrip().lower()
+        if not head.startswith((b"{", b"[")):
+            return flat
+    # Legacy flat ``{id}.html``
+    legacy = Path(bag_root, f"{paper_stem(paper_id)}.html")
+    if legacy.is_file() and legacy.stat().st_size > 0:
+        head = legacy.read_bytes()[:64].lstrip().lower()
+        if not head.startswith((b"{", b"[")):
+            return legacy
+
+    stems = paper_id_stems(paper_id)
+    dirs = [
+        Path(bag_root, "data", "documents", "html"),
+        Path(bag_root, "data", "data", "documents", "html"),
+        Path(bag_root, "documents", "html"),
+        Path(bag_root, "documents"),
+    ]
+    for directory in dirs:
+        if not directory.is_dir():
+            continue
+        for stem in stems:
+            for name in (f"{stem}.pdf.html", f"{stem}.html"):
+                path = Path(directory, name)
+                if path.is_file() and path.stat().st_size > 0:
+                    head = path.read_bytes()[:64].lstrip().lower()
+                    if head.startswith((b"{", b"[")):
+                        continue
+                    return path
+    return None
+
+
+def abstract_text_from_metadata(metadata: Dict[str, Any]) -> str:
+    """Plain abstract string from EPMC/OpenAlex-style metadata JSON fields."""
+    return str(
+        metadata.get("abstract")
+        or metadata.get("abstracttext")
+        or metadata.get("abstractText")
+        or ""
+    ).strip()
+
+
+def _plain_text_from_html(html_path: Path, *, max_chars: int) -> str:
+    """Best-effort HTML → plain text (Docling HTML sidecars)."""
+    raw = Path(html_path).read_text(encoding="utf-8", errors="replace")
+    # Drop script/style blocks, then tags.
+    raw = re.sub(
+        r"(?is)<(script|style)\b[^>]*>.*?</\1>", " ", raw
+    )
+    text = re.sub(r"(?s)<[^>]+>", " ", raw)
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) > max_chars:
+        text = text[:max_chars]
+    return text
+
+
+def _ensure_docling_html(
+    bag_root: Path,
+    paper_id: str,
+    pdf_path: Path,
+    *,
+    do_ocr: bool = False,
+) -> Optional[Path]:
+    """Convert PDF → HTML as flat ``{id}.pdf.html`` (or BAGIT html/ fallback)."""
+    existing = find_paper_html(bag_root, paper_id)
+    if existing is not None:
+        return existing
+    try:
+        from semantic_corpus.transformation.pdf_to_html import convert_pdf_to_html
+    except ImportError:
+        return None
+
+    from semantic_corpus.pipeline.flat_corpus import path_pdf_html
+
+    bag_root = Path(bag_root)
+    # Flat layout preferred when bagit.txt is absent
+    if not Path(bag_root, "bagit.txt").is_file():
+        html_path = path_pdf_html(bag_root, paper_id)
+    else:
+        html_dir = Path(bag_root, "data", "documents", "html")
+        html_dir.mkdir(parents=True, exist_ok=True)
+        from semantic_corpus.pipeline.flat_corpus import paper_stem
+
+        html_path = Path(html_dir, f"{paper_stem(paper_id)}.pdf.html")
+    try:
+        convert_pdf_to_html(
+            pdf_path,
+            html_path,
+            generate_xml=False,
+            do_ocr=do_ocr,
+        )
+    except Exception:
+        return None
+    return html_path if html_path.is_file() and html_path.stat().st_size > 0 else None
 
 
 # Body section titles (normalized) skipped when indexing — not content.
@@ -305,11 +455,15 @@ def extract_plain_text_from_xml(
     *,
     max_body_chars: int = DEFAULT_MAX_BODY_CHARS,
     max_paragraphs: int = 200,
+    xml_sections: Optional[Sequence[str]] = None,
 ) -> Dict[str, str]:
     """Pull title/abstract (for optional use) and indexable body from JATS/PMC XML.
 
     Body text excludes front matter, ``<back>``, ref-lists, and sections titled
     References / Bibliography / Acknowledgments / etc.
+
+    ``xml_sections``: optional allow-list of section titles (case-insensitive).
+    When set, only paragraphs under matching ``<sec>`` titles are kept.
     """
     from lxml import etree
 
@@ -324,6 +478,12 @@ def extract_plain_text_from_xml(
 
     def _el_text(element) -> str:
         return " ".join("".join(element.itertext()).split())
+
+    want_sections = None
+    if xml_sections:
+        want_sections = {
+            " ".join(str(s).lower().split()) for s in xml_sections if str(s).strip()
+        }
 
     title_el = root.find(".//{*}article-title")
     if title_el is not None:
@@ -346,6 +506,18 @@ def extract_plain_text_from_xml(
             break
     out["abstract"] = "\n".join(abstract_parts)
 
+    def _section_allowed(p) -> bool:
+        if want_sections is None:
+            return True
+        for ancestor in p.iterancestors():
+            if _local_tag(ancestor.tag) == "sec":
+                title = _section_title_text(ancestor)
+                if title in want_sections:
+                    return True
+                if any(title.startswith(t + " ") for t in want_sections):
+                    return True
+        return False
+
     body_parts: List[str] = []
     chars = 0
     # Prefer paragraphs under <body> only; never walk <front> / <back>
@@ -355,6 +527,8 @@ def extract_plain_text_from_xml(
     )
     for p in paragraphs:
         if _paragraph_in_skipped_context(p):
+            continue
+        if not _section_allowed(p):
             continue
         t = _el_text(p)
         if not t:
@@ -378,13 +552,23 @@ def build_phrase_input_text(
     include_xml_body: bool = True,
     include_front_matter: bool = False,
     max_body_chars: int = DEFAULT_MAX_BODY_CHARS,
+    xml_sections: Optional[Sequence[str]] = None,
+    use_docling: bool = True,
+    docling_ocr: bool = False,
 ) -> Dict[str, Any]:
-    """Assemble phrase text for indexing.
+    """Assemble phrase / packet text using the cascade XML → PDF → JSON abstract.
 
-    Default: **XML body only** (no title/abstract/front matter, no references).
-    Set ``include_front_matter=True`` to also use metadata title+abstract.
+    Cascade (``PACKET_TEXT_CASCADE``), first non-empty body wins:
 
-    Returns dict with ``text``, ``meta_text``, ``body_text``, ``text_source``, ``xml_path``.
+    1. ``{id}.xml`` then ``{id}.pdf.xml`` body (optional ``xml_sections``)
+    2. PDF via existing Docling HTML / ``{id}.pdf.html``, or convert when ``use_docling``
+    3. JSON abstract from ``{id}.json`` (legacy ``*_metadata.json``)
+
+    ``include_front_matter=True`` prepends title+abstract even when body comes
+    from XML/PDF (legacy option).
+
+    Returns dict with ``text``, ``meta_text``, ``body_text``, ``text_source``,
+    ``xml_path``, ``pdf_path``, ``html_path``.
     """
     meta_text = ""
     sources: List[str] = []
@@ -394,37 +578,88 @@ def build_phrase_input_text(
             sources.append("title+abstract")
 
     xml_path: Optional[Path] = None
-    xml_body = ""
-    if include_xml_body and bag_root is not None and paper_id:
-        xml_path = find_paper_xml(bag_root, paper_id)
-        if xml_path is not None:
-            xml_bits = extract_plain_text_from_xml(
-                xml_path, max_body_chars=max_body_chars
-            )
-            if include_front_matter and not meta_text and (
-                xml_bits.get("title") or xml_bits.get("abstract")
-            ):
-                meta_text = "\n\n".join(
-                    p for p in (xml_bits.get("title"), xml_bits.get("abstract")) if p
-                )
-                if meta_text and "title+abstract" not in sources:
-                    sources.append("xml-front")
-            xml_body = xml_bits.get("body") or ""
-            if xml_body:
-                sources.append("xml-body")
+    pdf_path: Optional[Path] = None
+    html_path: Optional[Path] = None
+    body_text = ""
+    cascade_source = ""
 
-    # Default indexing text is body-only; front matter is optional add-on
+    if bag_root is not None and paper_id:
+        bag_root = Path(bag_root)
+
+        # 1. XML
+        if include_xml_body:
+            xml_path = find_paper_xml(bag_root, paper_id)
+            if xml_path is not None:
+                xml_bits = extract_plain_text_from_xml(
+                    xml_path,
+                    max_body_chars=max_body_chars,
+                    xml_sections=xml_sections,
+                )
+                if include_front_matter and not meta_text and (
+                    xml_bits.get("title") or xml_bits.get("abstract")
+                ):
+                    meta_text = "\n\n".join(
+                        p
+                        for p in (xml_bits.get("title"), xml_bits.get("abstract"))
+                        if p
+                    )
+                    if meta_text and "title+abstract" not in sources:
+                        sources.append("xml-front")
+                body_text = xml_bits.get("body") or ""
+                if body_text:
+                    cascade_source = "xml"
+                    sources.append("xml-body")
+
+        # 2. PDF → Docling HTML/XML
+        if not body_text:
+            pdf_path = find_paper_pdf(bag_root, paper_id)
+            if pdf_path is not None:
+                html_path = find_paper_html(bag_root, paper_id)
+                if html_path is None and use_docling:
+                    html_path = _ensure_docling_html(
+                        bag_root,
+                        paper_id,
+                        pdf_path,
+                        do_ocr=docling_ocr,
+                    )
+                if html_path is not None:
+                    body_text = _plain_text_from_html(
+                        html_path, max_chars=max_body_chars
+                    )
+                    if body_text:
+                        cascade_source = "pdf"
+                        sources.append("pdf-docling")
+
+        # 3. JSON abstract (metadata)
+        if not body_text:
+            abstract = abstract_text_from_metadata(metadata)
+            if abstract:
+                body_text = abstract[:max_body_chars]
+                cascade_source = "json_abstract"
+                sources.append("json-abstract")
+
+    elif not body_text:
+        # No bag — still allow metadata abstract fallback
+        abstract = abstract_text_from_metadata(metadata)
+        if abstract:
+            body_text = abstract[:max_body_chars]
+            cascade_source = "json_abstract"
+            sources.append("json-abstract")
+
     if include_front_matter:
-        chunks = [c for c in (meta_text, xml_body) if c]
+        chunks = [c for c in (meta_text, body_text) if c]
     else:
-        chunks = [c for c in (xml_body,) if c]
+        chunks = [c for c in (body_text,) if c]
     text = "\n\n".join(chunks)
     return {
         "text": text,
         "meta_text": meta_text if include_front_matter else "",
-        "body_text": xml_body,
+        "body_text": body_text,
         "text_source": "+".join(sources) if sources else "empty",
+        "cascade_source": cascade_source or ("empty" if not body_text else cascade_source),
         "xml_path": str(xml_path.resolve()) if xml_path else "",
+        "pdf_path": str(pdf_path.resolve()) if pdf_path else "",
+        "html_path": str(html_path.resolve()) if html_path else "",
     }
 
 
@@ -540,11 +775,26 @@ def extract_phrases_from_text(
 
 
 def _load_metadata(metadata_dir: Path, paper_id: str) -> Dict[str, Any]:
-    path = Path(metadata_dir, f"{paper_id}_metadata.json")
-    if not path.is_file():
-        raise CorpusError(f"Missing metadata for {paper_id}: {path}")
-    with open(path, "r", encoding="utf-8") as handle:
-        return json.load(handle)
+    from semantic_corpus.pipeline.flat_corpus import load_paper_json, paper_stem
+
+    metadata_dir = Path(metadata_dir)
+    flat = load_paper_json(metadata_dir, paper_id)
+    if flat:
+        return flat
+    stem = paper_stem(paper_id)
+    for name in (
+        f"{paper_id}_metadata.json",
+        f"{stem}_metadata.json",
+        f"{stem}.json",
+        f"{paper_id}.json",
+    ):
+        path = Path(metadata_dir, name)
+        if path.is_file():
+            with open(path, "r", encoding="utf-8") as handle:
+                data = json.load(handle)
+            if isinstance(data, dict):
+                return data
+    raise CorpusError(f"Missing metadata for {paper_id} under {metadata_dir}")
 
 
 def load_cached_phrases(path: Path) -> Optional[Dict[str, Any]]:

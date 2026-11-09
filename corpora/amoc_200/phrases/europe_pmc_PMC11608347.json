@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11608347",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplemental fig",
+      "display": "Supplemental Fig",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "computational and information systems laboratory",
+      "display": "Computational and Information Systems Laboratory",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national center for atmospheric research",
+      "display": "National Center for Atmospheric Research",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of colorado boulder",
+      "display": "University of Colorado Boulder",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic warming hole",
+      "display": "North Atlantic Warming Hole",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "max planck institute",
+      "display": "Max Planck Institute",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nawh",
+      "display": "NAWH",
+      "score": 2.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.47,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nawh-s",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "NAWH-S"
+    },
+    {
+      "phrase": "karnauskas et",
+      "score": 0.0435,
+      "channel": "tfidf",
+      "display": "Karnauskas et"
+    },
+    {
+      "phrase": "karnauskas et al",
+      "score": 0.0435,
+      "channel": "tfidf",
+      "display": "Karnauskas et al"
+    },
+    {
+      "phrase": "karnauskas",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Karnauskas"
+    },
+    {
+      "phrase": "response nawh",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "response nawh"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

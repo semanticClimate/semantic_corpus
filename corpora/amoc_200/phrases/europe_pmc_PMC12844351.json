@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12844351",
+  "phrases": [
+    {
+      "phrase": "complex and robust",
+      "display": "Complex and Robust",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coral reefs",
+      "display": "Coral Reefs",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nanoarchaeota and thermoproteota",
+      "display": "Nanoarchaeota and Thermoproteota",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese academy of sciences",
+      "display": "Chinese Academy of Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "thermo fisher scientific",
+      "display": "Thermo Fisher Scientific",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "high metabolic turnover",
+      "display": "High Metabolic Turnover",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "diffusion limitation",
+      "display": "Diffusion Limitation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "robust",
+      "display": "Robust",
+      "score": 1.33,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "complex",
+      "display": "Complex",
+      "score": 1.31,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "skeletal",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "Skeletal"
+    },
+    {
+      "phrase": "clade",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "clade"
+    },
+    {
+      "phrase": "skeleton",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "Skeleton"
+    },
+    {
+      "phrase": "endolithic",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "Endolithic"
+    },
+    {
+      "phrase": "host",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "Host"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

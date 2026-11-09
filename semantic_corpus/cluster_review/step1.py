@@ -39,8 +39,23 @@ def resolve_bagit_root(corpus_dir: Path) -> Path:
     )
 
 
+def resolve_corpus_root(corpus_dir: Path) -> Path:
+    """BAGIT root when present; otherwise flat workdir root."""
+    corpus_dir = Path(corpus_dir)
+    if not corpus_dir.exists():
+        raise CorpusError(f"Corpus path not found: {corpus_dir}")
+    try:
+        return resolve_bagit_root(corpus_dir)
+    except CorpusError:
+        from semantic_corpus.pipeline.flat_corpus import is_flat_corpus
+
+        if is_flat_corpus(corpus_dir):
+            return corpus_dir
+        raise
+
+
 def find_metadata_dir(bag_root: Path) -> Path:
-    """Locate metadata directory, tolerating nested data/data/ payloads."""
+    """Locate metadata directory (BAGIT) or flat workdir with ``{id}.json``."""
     bag_root = Path(bag_root)
     candidates = [
         Path(bag_root, "data", "metadata"),
@@ -48,13 +63,20 @@ def find_metadata_dir(bag_root: Path) -> Path:
         Path(bag_root, "metadata"),
     ]
     for path in candidates:
-        if path.is_dir() and any(path.glob("*_metadata.json")):
+        if path.is_dir() and (
+            any(path.glob("*_metadata.json")) or any(path.glob("*.json"))
+        ):
             return path
+    # Flat layout: paper JSON lives at corpus root
+    from semantic_corpus.pipeline.flat_corpus import list_flat_paper_ids
+
+    if list_flat_paper_ids(bag_root) or any(bag_root.glob("*_metadata.json")):
+        return bag_root
     # Empty but correctly placed bag
     preferred = Path(bag_root, "data", "metadata")
     if preferred.is_dir():
         return preferred
-    raise CorpusError(f"No metadata directory with *_metadata.json under {bag_root}")
+    raise CorpusError(f"No metadata (*_metadata.json or {{id}}.json) under {bag_root}")
 
 
 def find_review_table(corpus_dir: Path, bag_root: Path) -> Optional[Path]:
@@ -73,21 +95,54 @@ def find_review_table(corpus_dir: Path, bag_root: Path) -> Optional[Path]:
 
 def _paper_ids_from_metadata_dir(metadata_dir: Path) -> List[str]:
     ids: List[str] = []
+    seen = set()
+    metadata_dir = Path(metadata_dir)
     for metadata_file in sorted(metadata_dir.glob("*_metadata.json")):
         stem = metadata_file.stem
         if stem.endswith("_metadata"):
-            ids.append(stem[: -len("_metadata")])
+            pid = stem[: -len("_metadata")]
         else:
-            ids.append(stem.replace("_metadata", ""))
+            pid = stem.replace("_metadata", "")
+        if pid and pid not in seen:
+            seen.add(pid)
+            ids.append(pid)
+    # Flat ``{id}.json`` (skip query/search sidecars)
+    skip = {"query", "search_results"}
+    for path in sorted(metadata_dir.glob("*.json")):
+        if path.name.endswith("_metadata.json"):
+            continue
+        stem = path.stem
+        if stem in skip or "." in stem:
+            continue
+        if stem and stem not in seen:
+            seen.add(stem)
+            ids.append(stem)
+    if not ids:
+        from semantic_corpus.pipeline.flat_corpus import list_flat_paper_ids
+
+        ids = list_flat_paper_ids(metadata_dir)
     return ids
 
 
 def _load_metadata(metadata_dir: Path, paper_id: str) -> Dict[str, Any]:
-    path = Path(metadata_dir, f"{paper_id}_metadata.json")
-    if not path.is_file():
-        raise CorpusError(f"Missing metadata for {paper_id}: {path}")
-    with open(path, "r", encoding="utf-8") as handle:
-        return json.load(handle)
+    metadata_dir = Path(metadata_dir)
+    candidates = [
+        Path(metadata_dir, f"{paper_id}_metadata.json"),
+        Path(metadata_dir, f"{paper_id}.json"),
+    ]
+    # Flat PMC stem when corpus id is prefixed
+    from semantic_corpus.pipeline.flat_corpus import paper_stem, path_json
+
+    stem = paper_stem(paper_id)
+    if stem != paper_id:
+        candidates.append(path_json(metadata_dir, stem))
+        candidates.append(Path(metadata_dir, f"{stem}_metadata.json"))
+    for path in candidates:
+        if path.is_file():
+            with open(path, "r", encoding="utf-8") as handle:
+                data = json.load(handle)
+            return data if isinstance(data, dict) else {}
+    raise CorpusError(f"Missing metadata for {paper_id} under {metadata_dir}")
 
 
 def _open_corpus_manager(bag_root: Path) -> CorpusManager:
@@ -104,6 +159,142 @@ def list_demo_corpora(project_root: Optional[Path] = None) -> Dict[str, Path]:
         if Path(path, "bagit.txt").is_file() or Path(path, "data", "bagit.txt").is_file():
             found[name] = path.resolve()
     return found
+
+
+def load_flat_corpus(
+    corpus_dir: Path,
+    *,
+    review_table_path: Optional[Path] = None,
+    query_name: str = "",
+    query_string: str = "",
+    write_review_if_missing: bool = True,
+) -> Dict[str, Any]:
+    """Load a flat workdir corpus (``{id}.json`` / ``.xml`` / ``.pdf`` at root)."""
+    from semantic_corpus.pipeline.flat_corpus import (
+        find_best_xml,
+        find_pdf,
+        list_flat_paper_ids,
+        load_paper_json,
+    )
+    from semantic_corpus.corpus_review.relevance_scorer import score_paper_relevance
+    from semantic_corpus.corpus_review.review_schema import make_review_row
+
+    corpus_dir = Path(corpus_dir)
+    paper_ids = list_flat_paper_ids(corpus_dir)
+    rows: List[Dict[str, Any]] = []
+    for paper_id in paper_ids:
+        metadata = load_paper_json(corpus_dir, paper_id)
+        has_xml = find_best_xml(corpus_dir, paper_id) is not None
+        has_pdf = find_pdf(corpus_dir, paper_id) is not None
+        score, matched = score_paper_relevance(
+            metadata, has_xml=has_xml, has_pdf=has_pdf
+        )
+        rows.append(
+            make_review_row(
+                paper_id=paper_id,
+                metadata=metadata,
+                score=score,
+                location_terms=matched["location_terms"],
+                pollutant_terms=matched["pollutant_terms"],
+                health_terms=matched["health_terms"],
+                has_xml=has_xml,
+                has_html=False,
+                has_pdf=has_pdf,
+                query_name=query_name,
+                query_string=query_string,
+            )
+        )
+    rows.sort(key=lambda r: (-int(r["score"]), r["paper_id"]))
+
+    existing_review = (
+        Path(review_table_path)
+        if review_table_path
+        else find_review_table(corpus_dir, corpus_dir)
+    )
+    review_source = "built_from_corpus"
+    if existing_review and existing_review.is_file():
+        with open(existing_review, "r", encoding="utf-8") as handle:
+            loaded = json.load(handle)
+        if isinstance(loaded, list) and loaded:
+            rows = loaded
+            review_source = str(existing_review.resolve())
+
+    review_paths: Dict[str, str] = {}
+    if write_review_if_missing and review_source == "built_from_corpus":
+        review_dir = Path(corpus_dir, "review")
+        review_dir.mkdir(parents=True, exist_ok=True)
+        paths = export_review_tables(rows, review_dir)
+        review_paths = {k: str(Path(v).resolve()) for k, v in paths.items()}
+    elif existing_review:
+        review_paths = {"json": str(Path(existing_review).resolve())}
+
+    papers_preview: List[Dict[str, Any]] = []
+    by_id = {r.get("paper_id"): r for r in rows}
+    for paper_id in sorted(paper_ids):
+        row = by_id.get(paper_id) or {}
+        meta = load_paper_json(corpus_dir, paper_id)
+        papers_preview.append(
+            {
+                "paper_id": paper_id,
+                "title": row.get("title") or meta.get("title") or "",
+                "review_status": row.get("review_status") or "review",
+                "has_xml": bool(row.get("has_xml")),
+                "has_pdf": bool(row.get("has_pdf")),
+                "publication_date": row.get("publication_date")
+                or meta.get("publication_date")
+                or "",
+            }
+        )
+
+    return {
+        "step": 1,
+        "layout": "flat",
+        "corpus_dir": str(corpus_dir.resolve()),
+        "bag_root": str(corpus_dir.resolve()),
+        "metadata_dir": str(corpus_dir.resolve()),
+        "paper_count": len(paper_ids),
+        "paper_ids": sorted(paper_ids),
+        "papers": papers_preview,
+        "row_count": len(rows),
+        "rows": rows,
+        "review_source": review_source,
+        "review_paths": review_paths,
+        "query_name": query_name,
+        "query_string": query_string,
+    }
+
+
+def load_corpus(
+    corpus_dir: Path,
+    *,
+    review_table_path: Optional[Path] = None,
+    query_name: str = "",
+    query_string: str = "",
+    write_review_if_missing: bool = True,
+) -> Dict[str, Any]:
+    """Load BAGIT or flat workdir corpus."""
+    corpus_dir = Path(corpus_dir)
+    try:
+        resolve_bagit_root(corpus_dir)
+    except CorpusError:
+        from semantic_corpus.pipeline.flat_corpus import is_flat_corpus
+
+        if is_flat_corpus(corpus_dir):
+            return load_flat_corpus(
+                corpus_dir,
+                review_table_path=review_table_path,
+                query_name=query_name,
+                query_string=query_string,
+                write_review_if_missing=write_review_if_missing,
+            )
+        raise
+    return load_bagit_corpus(
+        corpus_dir,
+        review_table_path=review_table_path,
+        query_name=query_name,
+        query_string=query_string,
+        write_review_if_missing=write_review_if_missing,
+    )
 
 
 def load_bagit_corpus(
@@ -132,8 +323,12 @@ def load_bagit_corpus(
     paper_ids = _paper_ids_from_metadata_dir(metadata_dir)
 
     # Prefer CorpusManager when metadata sits at the expected data/metadata path
-    corpus = _open_corpus_manager(bag_root)
-    manager_ids = corpus.list_papers()
+    try:
+        corpus = _open_corpus_manager(bag_root)
+        manager_ids = corpus.list_papers()
+    except Exception:
+        corpus = None
+        manager_ids = []
     if not manager_ids and paper_ids:
         # Nested payload: build rows from metadata files directly
         rows = []
@@ -179,11 +374,14 @@ def load_bagit_corpus(
             )
         rows.sort(key=lambda r: (-int(r["score"]), r["paper_id"]))
         effective_ids = paper_ids
-    else:
+    elif corpus is not None:
         rows = build_review_rows_from_corpus(
             corpus, query_name=query_name, query_string=query_string
         )
         effective_ids = manager_ids or paper_ids
+    else:
+        rows = []
+        effective_ids = paper_ids
 
     existing_review = (
         Path(review_table_path)
@@ -231,6 +429,7 @@ def load_bagit_corpus(
 
     return {
         "step": 1,
+        "layout": "bagit",
         "corpus_dir": str(corpus_dir.resolve()),
         "bag_root": str(bag_root.resolve()),
         "metadata_dir": str(metadata_dir.resolve()),

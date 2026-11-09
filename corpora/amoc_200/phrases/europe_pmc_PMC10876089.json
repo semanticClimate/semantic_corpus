@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10876089",
+  "phrases": [
+    {
+      "phrase": "total environ",
+      "display": "Total Environ",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north china",
+      "display": "North China",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "water res",
+      "display": "Water Res",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "isobe and ohte",
+      "display": "Isobe and Ohte",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "baiyangdian lake",
+      "display": "Baiyangdian Lake",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "junhong bai",
+      "display": "Junhong Bai",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "projects of international cooperation and references basu",
+      "display": "Projects of International Cooperation and References Basu",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dnra",
+      "display": "DNRA",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wang",
+      "display": "Wang",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "byd",
+      "display": "BYD",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "n-cycling",
+      "score": 0.0516,
+      "channel": "tfidf",
+      "display": "N-cycling"
+    },
+    {
+      "phrase": "denitrification",
+      "score": 0.0464,
+      "channel": "tfidf",
+      "display": "denitrification"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "genes"
+    },
+    {
+      "phrase": "functional genes",
+      "score": 0.0446,
+      "channel": "tfidf",
+      "display": "Functional genes"
+    },
+    {
+      "phrase": "nitrogen",
+      "score": 0.0421,
+      "channel": "tfidf",
+      "display": "Nitrogen"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

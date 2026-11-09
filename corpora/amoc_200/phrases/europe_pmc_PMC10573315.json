@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10573315",
+  "phrases": [
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "norwegian sea",
+      "display": "Norwegian Sea",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northeast atlantic ocean",
+      "display": "Northeast Atlantic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northwest atlantic ocean",
+      "display": "Northwest Atlantic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "doi",
+      "display": "DOI",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.61,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sound",
+      "score": 0.05,
+      "channel": "tfidf",
+      "display": "SOUND"
+    },
+    {
+      "phrase": "sound speed",
+      "score": 0.0453,
+      "channel": "tfidf",
+      "display": "Sound speed"
+    },
+    {
+      "phrase": "spltot",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "SPLtot"
+    },
+    {
+      "phrase": "db",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "dB"
+    },
+    {
+      "phrase": "sound propagation",
+      "score": 0.039,
+      "channel": "tfidf",
+      "display": "Sound propagation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

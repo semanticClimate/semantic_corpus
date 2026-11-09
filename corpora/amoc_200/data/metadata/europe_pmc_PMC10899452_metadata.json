@@ -1,0 +1,55 @@
+{
+  "pmcid": "PMC10899452",
+  "pmid": "38425751",
+  "title": "A new conceptual model of global ocean heat uptake.",
+  "abstract": "We formulate a new conceptual model, named \"<i>MT</i>2\", to describe global ocean heat uptake, as simulated by atmosphere-ocean general circulation models (AOGCMs) forced by increasing atmospheric CO<sub>2</sub>, as a function of global-mean surface temperature change <i>T</i> and the strength of the Atlantic meridional overturning circulation (AMOC, <i>M</i>). <i>MT</i>2 has two routes whereby heat reaches the deep ocean. On the basis of circumstantial evidence, we hypothetically identify these routes as low- and high-latitude. In low latitudes, which dominate the global-mean energy balance, heat uptake is temperature-driven and described by the two-layer model, with global-mean <i>T</i> as the temperature change of the upper layer. In high latitudes, a proportion <i>p</i> (about 14%) of the forcing is taken up along isopycnals, mostly in the Southern Ocean, nearly like a passive tracer, and unrelated to <i>T</i>. Because the proportion <i>p</i> depends linearly on the AMOC strength in the unperturbed climate, we hypothesise that high-latitude heat uptake and the AMOC are both affected by some characteristic of the unperturbed global ocean state, possibly related to stratification. <i>MT</i>2 can explain several relationships among AOGCM projections, some found in this work, others previously reported: ∙ Ocean heat uptake efficiency correlates strongly with the AMOC. ∙ Global ocean heat uptake is not correlated with the AMOC. ∙ Transient climate response (TCR) is anticorrelated with the AMOC. ∙ <i>T</i> projected for the late twenty-first century under high-forcing scenarios correlates more strongly with the effective climate sensitivity than with the TCR.",
+  "authors": [
+    "Gregory JM",
+    "Bloch-Johnson J",
+    "Couldrey MP",
+    "Exarchou E",
+    "Griffies SM",
+    "Kuhlbrodt T",
+    "Newsom E",
+    "Saenko OA",
+    "Suzuki T",
+    "Wu Q",
+    "Urakawa S",
+    "Zanna L"
+  ],
+  "publication_date": "2023-12-22",
+  "journal": "",
+  "doi": "10.1007/s00382-023-06989-z",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Unpaywall",
+      "url": "https://link.springer.com/content/pdf/10.1007/s00382-023-06989-z.pdf"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1007/s00382-023-06989-z"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10899452"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10899452?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

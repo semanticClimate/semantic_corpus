@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11747105",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "weddell sea",
+      "display": "Weddell Sea",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "drake passage",
+      "display": "Drake Passage",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic southern ocean",
+      "display": "Atlantic Southern Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "so",
+      "display": "SO",
+      "score": 2.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acc",
+      "display": "ACC",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.57,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "radiogenic",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "radiogenic"
+    },
+    {
+      "phrase": "nd",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "Nd"
+    },
+    {
+      "phrase": "benthic flux",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Benthic flux"
+    },
+    {
+      "phrase": "benthic isotope exchange",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "benthic isotope exchange"
+    },
+    {
+      "phrase": "isotope exchange",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "isotope exchange"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

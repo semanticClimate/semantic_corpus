@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10960852",
+  "phrases": [
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "andes mountains",
+      "display": "Andes Mountains",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rocky mountains",
+      "display": "Rocky Mountains",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tp",
+      "display": "TP",
+      "score": 2.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "at",
+      "display": "AT",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "flat",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Flat"
+    },
+    {
+      "phrase": "uplift",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Uplift"
+    },
+    {
+      "phrase": "pmoc",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "PMOC"
+    },
+    {
+      "phrase": "flat2real",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "Flat2Real"
+    },
+    {
+      "phrase": "tp uplift",
+      "score": 0.0367,
+      "channel": "tfidf",
+      "display": "TP uplift"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

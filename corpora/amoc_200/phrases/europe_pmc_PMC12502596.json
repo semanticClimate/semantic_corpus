@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12502596",
+  "phrases": [
+    {
+      "phrase": "jinchuan wetland",
+      "display": "Jinchuan Wetland",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kyoto encyclopedia of genes and genomes",
+      "display": "Kyoto Encyclopedia of Genes and Genomes",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "simpson and shannon",
+      "display": "Simpson and Shannon",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zhanhui tang",
+      "display": "Zhanhui Tang",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zhenxin li",
+      "display": "Zhenxin Li",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jilin longwan provincial nature reserve",
+      "display": "Jilin Longwan Provincial Nature Reserve",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jilin longwan national nature reserve",
+      "display": "Jilin Longwan National Nature Reserve",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tc",
+      "display": "TC",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mbc",
+      "display": "MBC",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shrub",
+      "score": 0.0502,
+      "channel": "tfidf",
+      "display": "Shrub"
+    },
+    {
+      "phrase": "encroachment",
+      "score": 0.0473,
+      "channel": "tfidf",
+      "display": "encroachment"
+    },
+    {
+      "phrase": "shrub encroachment",
+      "score": 0.0448,
+      "channel": "tfidf",
+      "display": "Shrub encroachment"
+    },
+    {
+      "phrase": "invasion",
+      "score": 0.0448,
+      "channel": "tfidf",
+      "display": "Invasion"
+    },
+    {
+      "phrase": "shrub invasion",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "shrub invasion"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

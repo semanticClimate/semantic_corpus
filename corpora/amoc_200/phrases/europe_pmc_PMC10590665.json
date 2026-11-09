@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590665",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "detlef stammer",
+      "display": "Detlef Stammer",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uwe send",
+      "display": "Uwe Send",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stuart cunningham",
+      "display": "Stuart Cunningham",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida straits",
+      "display": "Florida Straits",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jochem marotzke",
+      "display": "Jochem Marotzke",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "thc",
+      "display": "THC",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rapid",
+      "display": "RAPID",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "monitoring",
+      "score": 0.0311,
+      "channel": "tfidf",
+      "display": "monitoring"
+    },
+    {
+      "phrase": "scaling",
+      "score": 0.0291,
+      "channel": "tfidf",
+      "display": "scaling"
+    },
+    {
+      "phrase": "proposal",
+      "score": 0.0286,
+      "channel": "tfidf",
+      "display": "proposal"
+    },
+    {
+      "phrase": "density",
+      "score": 0.0286,
+      "channel": "tfidf",
+      "display": "Density"
+    },
+    {
+      "phrase": "boundary",
+      "score": 0.0285,
+      "channel": "tfidf",
+      "display": "Boundary"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13665990",
+  "phrases": [
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador and irminger seas",
+      "display": "Labrador and Irminger Seas",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic hosing model intercomparison project",
+      "display": "North Atlantic Hosing Model Intercomparison Project",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pi",
+      "display": "PI",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gris",
+      "display": "GrIS",
+      "score": 1.41,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gwls",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "GWLs"
+    },
+    {
+      "phrase": "ramp",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "Ramp"
+    },
+    {
+      "phrase": "mlds",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "MLDs"
+    },
+    {
+      "phrase": "ramp downs",
+      "score": 0.0319,
+      "channel": "tfidf",
+      "display": "ramp downs"
+    },
+    {
+      "phrase": "downs",
+      "score": 0.0319,
+      "channel": "tfidf",
+      "display": "downs"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

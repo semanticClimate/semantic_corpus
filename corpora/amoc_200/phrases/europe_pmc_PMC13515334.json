@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13515334",
+  "phrases": [
+    {
+      "phrase": "northeast china",
+      "display": "Northeast China",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "linked immunosorbent assay sandwich enzyme",
+      "display": "Linked Immunosorbent Assay Sandwich Enzyme",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "microbial communities",
+      "display": "Microbial Communities",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "september and october",
+      "display": "September and October",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yanbian university",
+      "display": "Yanbian University",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spatiotemporal response characteristics of microbial communities finn",
+      "display": "Spatiotemporal Response Characteristics of Microbial Communities Finn",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "article interaction mechanisms among soil environmental factors",
+      "display": "Article Interaction Mechanisms Among Soil Environmental Factors",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mbc",
+      "display": "MBC",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mbn",
+      "display": "MBN",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sw",
+      "display": "SW",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cool-climate",
+      "score": 0.0422,
+      "channel": "tfidf",
+      "display": "Cool-Climate"
+    },
+    {
+      "phrase": "cool-climate maize",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "Cool-Climate Maize"
+    },
+    {
+      "phrase": "n-cycling",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "N-cycling"
+    },
+    {
+      "phrase": "cool-climate maize fields",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "Cool-Climate Maize Fields"
+    },
+    {
+      "phrase": "maize",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Maize"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

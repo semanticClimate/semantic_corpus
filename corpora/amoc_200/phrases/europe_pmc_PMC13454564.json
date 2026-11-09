@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13454564",
+  "phrases": [
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paulo research foundation",
+      "display": "Paulo Research Foundation",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south",
+      "display": "South",
+      "score": 1.27,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rei",
+      "score": 0.0367,
+      "channel": "tfidf",
+      "display": "REI"
+    },
+    {
+      "phrase": "cave",
+      "score": 0.0348,
+      "channel": "tfidf",
+      "display": "Cave"
+    },
+    {
+      "phrase": "rei mato",
+      "score": 0.0334,
+      "channel": "tfidf",
+      "display": "rei mato"
+    },
+    {
+      "phrase": "trace21kii",
+      "score": 0.0325,
+      "channel": "tfidf",
+      "display": "TraCE21Kii"
+    },
+    {
+      "phrase": "mato",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "Mato"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

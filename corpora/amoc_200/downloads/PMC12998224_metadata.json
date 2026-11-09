@@ -1,0 +1,400 @@
+{
+  "pmcid": "PMC12998224",
+  "pmid": "41714186",
+  "title": "Elevated temperature simulating heatwaves restructures active nitrifying communities and associated viruses in tidal flats and agricultural soils.",
+  "abstract": "Global heatwave intensification under climate change will impact the nitrogen cycle; yet, its effect on active nitrifier groups or their interactions with viruses remains unclear. Using 13CO2-DNA-based stable-isotope probing coupled with metagenomics, we show that elevated temperatures under heatwave conditions fundamentally restructure active nitrifying communities and their associated viruses in Yangtze River estuary upper tidal flats and adjacent agricultural soils. In tidal flats, sustained high temperature constrained nitrification by reducing the abundance of active ammonia-oxidizing archaea and bacteria (AOA, AOB) and canonical nitrite-oxidizing bacteria (NOB). This was accompanied by a shift in the active community from marine to more thermotolerant but less salt-tolerant terrestrial ecotypes. Conversely, heatwave conditions in agricultural soils suppressed AOB but enhanced nitrification activity in thermotolerant terrestrial AOA ecotypes. Across both ecosystems, inferred virus-nitrifier interactions were temperature dependent. 13C-labeled nitrifier-infecting viruses exhibited coordinated shifts in virus-to-host abundance ratios and predicted lifestyles with their hosts, with sustained high temperatures reducing virus-to-host abundance ratios and favoring temperate infections, relative to higher abundance ratios and a greater proportion of predicted lytic cycles at lower temperatures. We identified AOA-infecting viruses that carry plastocyanin (pcy), encoding a key copper-dependent electron carrier in the AOA respiratory chain, with conserved active sites and a predicted protein fold that supports its capacity for electron transfer, potentially augmenting host energy metabolism. Together, our findings demonstrate that prolonged heatwaves drive coupled shifts in nitrifier community composition and virus-host interaction strategies in a land-use-dependent manner, with implications for nitrogen transformations and ecosystem feedbacks under climate extremes.",
+  "authors": [
+    {
+      "fullName": "Wang B",
+      "lastName": "Wang",
+      "firstName": "Baozhan",
+      "initials": "B",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5673-5730"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology, College of Life Sciences, Nanjing Agricultural University, Nanjing, Jiangsu 210014, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Agricultural and Environtal Microbiology, Ministry of Agriculture and Rural Affairs, Nanjing, Jiangsu, 210014, China."
+          },
+          {
+            "affiliation": "State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, Centre for Grassland Microbiome, College of Pastoral Agriculture Science and Technology, Lanzhou University, Lanzhou, Gansu 730020, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gao P",
+      "lastName": "Gao",
+      "firstName": "Ping",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology, College of Life Sciences, Nanjing Agricultural University, Nanjing, Jiangsu 210014, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Agricultural and Environtal Microbiology, Ministry of Agriculture and Rural Affairs, Nanjing, Jiangsu, 210014, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang P",
+      "lastName": "Zhang",
+      "firstName": "Ping",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology, College of Life Sciences, Nanjing Agricultural University, Nanjing, Jiangsu 210014, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Agricultural and Environtal Microbiology, Ministry of Agriculture and Rural Affairs, Nanjing, Jiangsu, 210014, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zheng Y",
+      "lastName": "Zheng",
+      "firstName": "Yue",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Marine Environmental Science, College of the Environment and Ecology, Xiamen University, Xiamen, Fujian 361005, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu X",
+      "lastName": "Liu",
+      "firstName": "Xu",
+      "initials": "X",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology, College of Life Sciences, Nanjing Agricultural University, Nanjing, Jiangsu 210014, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ling N",
+      "lastName": "Ling",
+      "firstName": "Ning",
+      "initials": "N",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Herbage Improvement and Grassland Agro-ecosystems, Centre for Grassland Microbiome, College of Pastoral Agriculture Science and Technology, Lanzhou University, Lanzhou, Gansu 730020, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Shan J",
+      "lastName": "Shan",
+      "firstName": "Jun",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, Jiangsu, 211135, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yao R",
+      "lastName": "Yao",
+      "firstName": "Rongjiang",
+      "initials": "R",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, Jiangsu, 211135, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhao S",
+      "lastName": "Zhao",
+      "firstName": "Shuai",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Desert and Oasis Ecology, Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences, Urumqi, Xinjiang, 830011, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang Z",
+      "lastName": "Zhang",
+      "firstName": "Zhiguo",
+      "initials": "Z",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology and Carl R. Woese Institute for Genomic Biology, University of Illinois Urbana-Champaign, Urbana, IL 61801, United States."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhu G",
+      "lastName": "Zhu",
+      "firstName": "Guibing",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7227-8157"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jung MY",
+      "lastName": "Jung",
+      "firstName": "Man-Young",
+      "initials": "MY",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Science Education, Jeju National University, Jeju, 63243, Republic of Korea."
+          },
+          {
+            "affiliation": "Interdisciplinary Graduate Program in Advanced Convergence Technology and Science, Jeju National University, Jeju, 63243, Republic of Korea."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zou J",
+      "lastName": "Zou",
+      "firstName": "Jianwen",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Low-carbon and Green Agriculture in Southeastern China, Ministry of Agriculture and Rural Affairs, College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, Jiangsu, 211800, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yan X",
+      "lastName": "Yan",
+      "firstName": "Xiaoyuan",
+      "initials": "X",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Soil and Sustainable Agriculture, Institute of Soil Science, Chinese Academy of Sciences, Nanjing, Jiangsu, 211135, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lee S",
+      "lastName": "Lee",
+      "firstName": "Sungeun",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Université Claude Bernard Lyon 1, CNRS, INRAE, VetAgro Sup, Laboratoire d'Ecologie Microbienne, Villeurbanne, Auvergne-Rhône-Alpes, 69622, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hazard C",
+      "lastName": "Hazard",
+      "firstName": "Christina",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Université Claude Bernard Lyon 1, CNRS, INRAE, VetAgro Sup, Laboratoire d'Ecologie Microbienne, Villeurbanne, Auvergne-Rhône-Alpes, 69622, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nicol GW",
+      "lastName": "Nicol",
+      "firstName": "Graeme W",
+      "initials": "GW",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Université Claude Bernard Lyon 1, CNRS, INRAE, VetAgro Sup, Laboratoire d'Ecologie Microbienne, Villeurbanne, Auvergne-Rhône-Alpes, 69622, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhou J",
+      "lastName": "Zhou",
+      "firstName": "Jizhong",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Biological Sciences and Institute for Environmental Genomics, University of Oklahoma, Norman, OK 73019, United States."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang Y",
+      "lastName": "Yang",
+      "firstName": "Yunfeng",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8274-6196"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Environment and Ecology, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, Guangdong, 518055, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhu Y",
+      "lastName": "Zhu",
+      "firstName": "Yongguan",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, Beijing 100085, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Stahl DA",
+      "lastName": "Stahl",
+      "firstName": "David A",
+      "initials": "DA",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Civil and Environmental Engineering, University of Washington, Seattle, WA 98195, United States."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wagner M",
+      "lastName": "Wagner",
+      "firstName": "Michael",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9778-7684"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Centre for Microbiology and Environmental Systems Science, Division of Microbial Ecology, University of Vienna, Vienna 1030, Austria."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gao Y",
+      "lastName": "Gao",
+      "firstName": "Yanzheng",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, Jiangsu, 211800, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jiang J",
+      "lastName": "Jiang",
+      "firstName": "Jiandong",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology, College of Life Sciences, Nanjing Agricultural University, Nanjing, Jiangsu 210014, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Agricultural and Environtal Microbiology, Ministry of Agriculture and Rural Affairs, Nanjing, Jiangsu, 210014, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Qin W",
+      "lastName": "Qin",
+      "firstName": "Wei",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0895-0126"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Microbiology and Carl R. Woese Institute for Genomic Biology, University of Illinois Urbana-Champaign, Urbana, IL 61801, United States."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-01-01",
+  "journal": "",
+  "doi": "10.1093/ismejo/wrag037",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1093/ismejo/wrag037"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12998224"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12998224?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12998224"
+}

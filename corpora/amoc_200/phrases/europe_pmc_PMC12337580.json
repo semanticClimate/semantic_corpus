@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12337580",
+  "phrases": [
+    {
+      "phrase": "van valkengoed",
+      "display": "Van Valkengoed",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brugge and de winter",
+      "display": "Brugge and De Winter",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic ice sheet",
+      "display": "Antarctic Ice Sheet",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "delft university of technology",
+      "display": "Delft University of Technology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tim henri josephus hermans",
+      "display": "Tim Henri Josephus Hermans",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "west antarctic ice sheet",
+      "display": "West Antarctic Ice Sheet",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of twente",
+      "display": "University of Twente",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "slr",
+      "display": "SLR",
+      "score": 2.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "netherlands",
+      "display": "Netherlands",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "the",
+      "display": "The",
+      "score": 1.15,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hazards impacts",
+      "score": 0.0433,
+      "channel": "tfidf",
+      "display": "hazards impacts"
+    },
+    {
+      "phrase": "sea-level projections",
+      "score": 0.0411,
+      "channel": "tfidf",
+      "display": "sea-level projections"
+    },
+    {
+      "phrase": "hazards",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "hazards"
+    },
+    {
+      "phrase": "adaptation",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "Adaptation"
+    },
+    {
+      "phrase": "haasnoot",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "Haasnoot"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,40 @@
+{
+  "pmcid": "PMC10724135",
+  "pmid": "38102135",
+  "title": "Uncertainties in critical slowing down indicators of observation-based fingerprints of the Atlantic Overturning Circulation.",
+  "abstract": "Observations are increasingly used to detect critical slowing down (CSD) to measure stability changes in key Earth system components. However, most datasets have non-stationary missing-data distributions, biases and uncertainties. Here we show that, together with the pre-processing steps used to deal with them, these can bias the CSD analysis. We present an uncertainty quantification method to address such issues. We show how to propagate uncertainties provided with the datasets to the CSD analysis and develop conservative, surrogate-based significance tests on the CSD indicators. We apply our method to three observational sea-surface temperature and salinity datasets and to fingerprints of the Atlantic Meridional Overturning Circulation derived from them. We find that the properties of these datasets and especially the specific gap filling procedures can in some cases indeed cause false indication of CSD. However, CSD indicators in the North Atlantic are still present and significant when accounting for dataset uncertainties and non-stationary observational coverage.",
+  "authors": [
+    "Ben-Yami M",
+    "Skiba V",
+    "Bathiany S",
+    "Boers N"
+  ],
+  "publication_date": "2023-12-15",
+  "journal": "",
+  "doi": "10.1038/s41467-023-44046-9",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-023-44046-9"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10724135"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10724135?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

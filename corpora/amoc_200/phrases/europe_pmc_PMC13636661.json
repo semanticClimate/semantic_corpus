@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13636661",
+  "phrases": [
+    {
+      "phrase": "thaumarchaeota and euryarchaeota",
+      "display": "Thaumarchaeota and Euryarchaeota",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "olubukola oluranti babalola",
+      "display": "Olubukola Oluranti Babalola",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "decipher soil and rhizosphere microbial communities and their functions for sustainable agriculture oluwaseun emmanuel shittu",
+      "display": "Decipher Soil and Rhizosphere Microbial Communities and Their Functions for Sustainable Agriculture Oluwaseun Emmanuel Shittu",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "factors influencing the choice between amplicon and shotgun sequencing in soil and rhizosphere metagenomic studies soil",
+      "display": "Factors Influencing the Choice Between Amplicon and Shotgun Sequencing in Soil and Rhizosphere Metagenomic Studies Soil",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cyclobacteriaceae and vicinamibacterales proteobacteria and actinobacteria firmicutes",
+      "display": "Cyclobacteriaceae and Vicinamibacterales Proteobacteria and Actinobacteria Firmicutes",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "metagenomic approaches for revealing microbiome functions and diversity the",
+      "display": "Metagenomic Approaches for Revealing Microbiome Functions and Diversity The",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "computational tools and pipelines for metagenomics analysis the",
+      "display": "Computational Tools and Pipelines for Metagenomics Analysis The",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "its",
+      "display": "ITS",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kegg",
+      "display": "KEGG",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shotgun",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "Shotgun"
+    },
+    {
+      "phrase": "sequencing",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "Sequencing"
+    },
+    {
+      "phrase": "rhizosphere",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "Rhizosphere"
+    },
+    {
+      "phrase": "metagenomics",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Metagenomics"
+    },
+    {
+      "phrase": "shotgun metagenomics",
+      "score": 0.0367,
+      "channel": "tfidf",
+      "display": "Shotgun metagenomics"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

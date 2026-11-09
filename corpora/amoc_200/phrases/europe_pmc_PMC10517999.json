@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10517999",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brazilian earth system model",
+      "display": "Brazilian Earth System Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world ocean atlas",
+      "display": "World Ocean Atlas",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cape farewell",
+      "display": "Cape Farewell",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "natl",
+      "display": "NATL",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.55,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "abrupt4xco2",
+      "score": 0.0421,
+      "channel": "tfidf",
+      "display": "Abrupt4xCO2"
+    },
+    {
+      "phrase": "picontrol",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "piControl"
+    },
+    {
+      "phrase": "ocean",
+      "score": 0.0311,
+      "channel": "tfidf",
+      "display": "Ocean"
+    },
+    {
+      "phrase": "besm2",
+      "score": 0.0308,
+      "channel": "tfidf",
+      "display": "BESM2"
+    },
+    {
+      "phrase": "contributed discussions",
+      "score": 0.0297,
+      "channel": "tfidf",
+      "display": "contributed discussions"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

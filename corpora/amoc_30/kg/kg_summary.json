@@ -14,6 +14,7 @@
     "max_island": 20,
     "min_paper_count": 2,
     "max_terms": 40,
+    "document_limit": null,
     "term_filter_source": "phrases_terms",
     "terms_selected": 32,
     "synonym_groups": 0,
@@ -21,15 +22,15 @@
     "encyclopedia_dropped": 0
   },
   "counts": {
-    "nodes": 53,
-    "edges": 86,
-    "papers": 24,
-    "terms": 29,
+    "nodes": 56,
+    "edges": 354,
+    "papers": 26,
+    "terms": 30,
     "encyclopedia": 0,
-    "islands": 9,
+    "islands": 2,
     "synonym_groups": 0,
     "terms_merged": 0
   },
-  "written_at": "2026-11-06T22:07:27.724246+00:00",
+  "written_at": "2026-11-07T15:21:54.629333+00:00",
   "html_path": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_30/kg/knowledge_graph.html"
 }

@@ -1,0 +1,232 @@
+{
+  "pmcid": "PMC11414737",
+  "pmid": "39303032",
+  "title": "Enhanced ocean heat storage efficiency during the last deglaciation.",
+  "abstract": "Proxy reconstructions suggest that increasing global mean sea surface temperature (GMSST) during the last deglaciation was accompanied by a comparable or greater increase in global mean ocean temperature (GMOT), corresponding to a large heat storage efficiency (HSE; ∆GMOT/∆GMSST). An increased GMOT is commonly attributed to surface warming at sites of deepwater formation, but winter sea ice covered much of these source areas during the last deglaciation, which would imply an HSE much less than 1. Here, we use climate model simulations and proxy-based reconstructions of ocean temperature changes to show that an increased deglacial HSE is achieved by warming of intermediate-depth waters forced by mid-latitude surface warming in response to greenhouse gas and ice sheet forcing as well as by reduced Atlantic meridional overturning circulation associated with meltwater forcing. These results, which highlight the role of surface warming and oceanic circulation changes, have implications for our understanding of long-term ocean heat storage change.",
+  "authors": [
+    {
+      "fullName": "Zhu C",
+      "lastName": "Zhu",
+      "firstName": "Chenyu",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9330-4294"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Numerical Simulation Science Center, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sanchez S",
+      "lastName": "Sanchez",
+      "firstName": "Saray",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7954-6932"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Earth, Ocean, and Atmospheric Sciences, Oregon State University, Corvallis, OR 97331, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Z",
+      "lastName": "Liu",
+      "firstName": "Zhengyu",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4554-2666"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geography, Ohio State University, Columbus, OH 43210, USA."
+          },
+          {
+            "affiliation": "School of Geography Science, Nanjing Normal University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Clark PU",
+      "lastName": "Clark",
+      "firstName": "Peter U",
+      "initials": "PU",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4752-6045"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Earth, Ocean, and Atmospheric Sciences, Oregon State University, Corvallis, OR 97331, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "He C",
+      "lastName": "He",
+      "firstName": "Chengfei",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1453-9691"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami, Miami, FL 33149, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wan L",
+      "lastName": "Wan",
+      "firstName": "Lingfeng",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7758-8629"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Frontier Science Center for Deep Ocean Multispheres and Earth System (DOMES), Institute for Advanced Ocean Study (IAOS) and Key Laboratory of Physical Oceanography, MOE (POL), Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lu J",
+      "lastName": "Lu",
+      "firstName": "Jiuyou",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laoshan Laboratory, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhu C",
+      "lastName": "Zhu",
+      "firstName": "Chenguang",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Ocean Sciences, China University of Geosciences (Beijing), Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li L",
+      "lastName": "Li",
+      "firstName": "Lingwei",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1818-6080"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geography, Ohio State University, Columbus, OH 43210, USA."
+          },
+          {
+            "affiliation": "Institute of Arctic and Alpine Research, University of Colorado Boulder, Boulder, CO 80303, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang S",
+      "lastName": "Zhang",
+      "firstName": "Shaoqing",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6569-9842"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Frontier Science Center for Deep Ocean Multispheres and Earth System (DOMES), Institute for Advanced Ocean Study (IAOS) and Key Laboratory of Physical Oceanography, MOE (POL), Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cheng L",
+      "lastName": "Cheng",
+      "firstName": "Lijing",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9854-0392"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Numerical Simulation Science Center, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "International Center for Climate and Environment Sciences, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2024-09-20",
+  "journal": "",
+  "doi": "10.1126/sciadv.adp5156",
+  "full_text_urls": [
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1126/sciadv.adp5156"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.adp5156"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11414737"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11414737?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC11414737"
+}

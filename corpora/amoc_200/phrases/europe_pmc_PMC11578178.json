@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11578178",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger basin",
+      "display": "Irminger Basin",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mht",
+      "display": "MHT",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "water hosing",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "water hosing"
+    },
+    {
+      "phrase": "water hosing experiments",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "water hosing experiments"
+    },
+    {
+      "phrase": "strongest decline period",
+      "score": 0.0339,
+      "channel": "tfidf",
+      "display": "strongest decline period"
+    },
+    {
+      "phrase": "hlb",
+      "score": 0.0331,
+      "channel": "tfidf",
+      "display": "HLB"
+    },
+    {
+      "phrase": "hosing",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "Hosing"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

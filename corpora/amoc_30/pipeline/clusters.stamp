@@ -2,7 +2,7 @@
   "step": "clusters",
   "status": "ok",
   "workdir": "corpora/amoc_30",
-  "written_at": "2026-11-06T22:07:27.879123+00:00",
+  "written_at": "2026-11-07T15:19:44.545128+00:00",
   "options": {
     "workdir": "corpora/amoc_30",
     "from_mode": "collect",
@@ -20,12 +20,16 @@
     "min_score": 0.0,
     "min_paper_count": 1,
     "encyclopedia_source": "phrases",
+    "phrase_limit": null,
+    "document_limit": null,
     "write_kg": true,
     "kg_max_island": 20,
     "kg_max_terms": 40,
     "kg_min_paper_count": 2,
     "kg_links": "clusters",
-    "kg_open": true
+    "kg_open": true,
+    "_effective_phrase_limit": 100,
+    "_effective_kg_max_terms": 40
   },
   "note": "Placeholder for pipeline step 'clusters' \u2014 not yet wired to real work.",
   "cluster_count": 9,

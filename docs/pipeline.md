@@ -51,21 +51,26 @@ pipeline --workdir corpora/amoc_insolation_20 \
 
 ```text
 --query (EPMC/remotes) ─┐
-                        ├──► collect ──► corpus (+indexes) ──► phrases ──► clusters [--kg→KG₁]
---source (static docs) ─┘        │                                      │
-(neither) ──────────────────► corpus …                                  ▼
-                                     └──► pdfs                     clean
-                                                                        │
-                                                                        ▼
-                                                              encyclopedia [--kg→KG₂]
+                        ├──► search ──► paper:* ──► collect ──► corpus (+indexes)
+--source (static docs) ─┘                                      │
+(neither) ──────────────────────────────────────────────► corpus …
+                                                               ▼
+                                                         phrases ──► clusters [--kg→KG₁]
+                                                           │              │
+                                                           └──► pdfs      ▼
+                                                                        clean
+                                                                          │
+                                                                          ▼
+                                                                encyclopedia [--kg→KG₂]
 # design: two display KGs via --kg flag (not a step); clean after clusters
 # detail: docs/pipeline_kg_mappers.md
 ```
 
 | Step | Design role | Implementation today |
 |------|-------------|----------------------|
-| `collect` | Collect documents | `--query`: real EPMC/remotes; `--source`: static (placeholder) |
-| `corpus` | Bag gate **+** packet indexes | Real load + `packets/manifest.json` |
+| `search` | Hit list only | `query.json` + `search_results.json` |
+| `collect` | Per-paper flat files | Dynamic `paper:{id}` + skip-if-exists; `--source` placeholder |
+| `corpus` | Corpus gate **+** packet indexes | Flat or BAGIT load + `packets/manifest.json` |
 | `phrases` | Traverse indexed texts → terms | Real (`step2`) |
 | `pdfs` | Fill PDFs (parallel) | Placeholder |
 | `clusters` | Map (BKG); optional **KG₁** (`--kg`) | Real (`step3` + optional `build_kg`) |
@@ -88,35 +93,59 @@ pipeline graph --from existing
 
 ## 3. `--workdir` layout (where results go)
 
+Everything lives **flat under ``--workdir``** (no ``downloads/``, no ``temp/queries/``,
+no ``data/documents/{fmt}/`` nesting for new collects). Filenames encode type and
+transform history (left → right):
+
+| Pattern | Meaning |
+|---------|---------|
+| `{id}.json` | Metadata / abstract (JSON stream) |
+| `{id}.xml` | Publisher / EPMC fullTextXML |
+| `{id}.pdf` | Native PDF |
+| `{id}.pdf.xml` | Docling: PDF → XML |
+| `{id}.pdf.html` | Docling: PDF → HTML (optional) |
+
 For `--workdir corpora/amoc_insolation_20`:
 
 ```text
-corpora/amoc_insolation_20/          # --workdir (BAGIT corpus root)
-  bagit.txt
-  data/documents/xml/ …
-  data/metadata/
+corpora/amoc_insolation_20/          # --workdir (flat corpus root)
+  query.json                         # query string, limit, repository
+  search_results.json                # EPMC hit list
+  PMC12345.json                      # paper metadata / abstract
+  PMC12345.pdf
+  PMC12345.xml                       # native EPMC XML when stream works
+  PMC12345.pdf.xml                   # Docling from PDF when XML stream fails
   phrases/                           # from --target phrases|clusters
     index.json
     …
-  clusters/                          # from --target clusters
+  clusters/
     clusters.json
     orphans.json
     graph_summary.json
-  pipeline/                          # pipeline stamps
+  packets/
+    manifest.json
+  pipeline/                          # step stamps + doit DB
+    search.stamp
     collect.stamp
     corpus.stamp
-    phrases.stamp
-    clusters.stamp
-  # NOTE: doit DB is NOT under the bag (bagit.make_bag would move it into data/)
-
-temp/pipeline_doit/<workdir>_<hash>/doit.db   # per-corpus doit dependency DB
-temp/queries/amoc_insolation_20/              # harvest dir (name = workdir basename)
-  PMC….xml
-  search_results.json
-  review/
+    …
+    doit.db
 ```
 
-The harvest directory is **`temp/queries/<workdir.name>/`**, not inside the bag. The bag is only under **`--workdir`**.
+Legacy BAGIT corpora (`bagit.txt` + `data/documents/…`) still load; new harvests are flat.
+
+**Packet text cascade:** prefer `{id}.xml`, else `{id}.pdf.xml`, else abstract in `{id}.json`.
+
+**Partial completion / resume**
+
+| Layer | Mechanism |
+|-------|-----------|
+| Per file | Valid target exists → skip that format (never overwrite) |
+| Per paper | `paper:{id}` uptodate when `{id}.json` + usable text (xml / pdf.xml / abstract) |
+| Per step | Stamp + artifact checks (`phrases/`, `clusters/`, …) |
+| Interrupt | Ctrl-C leaves written files; re-run regenerates only missing work |
+
+Doit graph: `search` → dynamic `paper:{id}` → `collect` → `corpus` → `phrases` → …
 
 ---
 
@@ -145,7 +174,8 @@ pipeline forget --workdir corpora/amoc_insolation_20 --target phrases
 pipeline --workdir corpora/amoc_insolation_20 --query "amoc AND insolation" --limit 20 --target clusters
 ```
 
-Note: even with `--always`, the downloader may still reuse XMLs already present under `temp/queries/<name>/` if the repository layer skips existing files.
+Note: even with `--always`, the downloader still reuses valid flat files
+(`{id}.json|.xml|.pdf|.pdf.xml`) already present under `--workdir`.
 
 ---
 

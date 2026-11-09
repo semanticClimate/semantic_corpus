@@ -1,0 +1,246 @@
+{
+  "pmcid": "PMC12167945",
+  "pmid": "40455989",
+  "title": "Multiple sources of atmospheric CO&lt;sub&gt;2&lt;/sub&gt; activated by AMOC recovery at the onset of interglacial MIS 9.",
+  "abstract": "Using high-precision ice core measurements of CO<sub>2</sub>, δ<sup>13</sup>C-CO<sub>2</sub>, CH<sub>4</sub>, and N<sub>2</sub>O, this study provides carbon isotope constraints on a sizeable, centennial-scale CO<sub>2</sub> jump at the onset of Marine Isotope Stage 9 (MIS 9). The very end of the Heinrich stadial (HS) characterizing Termination IV (T-IV, ca. 343 to 333 ka ago) shows a 250-y-long jump in greenhouse gas concentrations, followed by a 1.3 ka gradual decline back to the initial concentration. During this so-called overshoot, CO<sub>2</sub> and CH<sub>4</sub> reach their highest levels (about 303 ppm and 800 ppb, respectively) over the past 800 ka prior to industrialization. The jump in CO<sub>2</sub> is not accompanied by a change in δ<sup>13</sup>C-CO<sub>2,</sub> suggesting that multiple mechanisms contributed to the exceptionally elevated CO<sub>2</sub> values. Following the jump, a slow 0.2‰ enrichment in δ<sup>13</sup>C-CO<sub>2</sub> occurs. We propose that during the jump, the sudden resumption of deepwater formation in the North Atlantic (NA) triggered an amplified release of CO<sub>2</sub> from the Southern Ocean (SO) by a northward shift of the Intertropical Convergence Zone (ITCZ) and the SO westerlies, potentially in combination with a rapid land carbon release. The latter is expected from temporally enhanced wildfire activity related to higher fuel load and regionally changing weather conditions in connection to the ITCZ shift. A combination of marine proxy records and box model simulation suggests that the δ<sup>13</sup>C-CO<sub>2</sub> decrease expected from these processes is compensated by a net temperature increase in global sea surface temperature (SST) at the time of the AMOC resumption.",
+  "authors": [
+    {
+      "fullName": "Krauss F",
+      "lastName": "Krauss",
+      "firstName": "Florian",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0003-4267-2841"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Baggenstos D",
+      "lastName": "Baggenstos",
+      "firstName": "Daniel",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9756-6884"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Australian Antarctic Division, Kingston, TAS 7050, Australia."
+          },
+          {
+            "affiliation": "Australian Antarctic Program Partnership, Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, TAS 7004, Australia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Schmitt J",
+      "lastName": "Schmitt",
+      "firstName": "Jochen",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4695-3029"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tuzson B",
+      "lastName": "Tuzson",
+      "firstName": "Béla",
+      "initials": "B",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7442-5405"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Air Pollution/Environmental Technology, Empa-Swiss Federal Laboratory for Materials Science and Technology, Dubendorf 8600, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Menking JA",
+      "lastName": "Menking",
+      "firstName": "James A",
+      "initials": "JA",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5891-6711"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Australian Antarctic Program Partnership, Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, TAS 7004, Australia."
+          },
+          {
+            "affiliation": "Commonwealth Scientific and Industrial Research Organisation, Environment Research Unit, Aspendale, VIC 3195, Australia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mächler L",
+      "lastName": "Mächler",
+      "firstName": "Lars",
+      "initials": "L",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Silva L",
+      "lastName": "Silva",
+      "firstName": "Lucas",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-3623-213X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Grimmer M",
+      "lastName": "Grimmer",
+      "firstName": "Markus",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8750-0582"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Capron E",
+      "lastName": "Capron",
+      "firstName": "Emilie",
+      "initials": "E",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0784-1884"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Environmental Geoscience, Université Grenoble Alpes, Centre National de la Recherche Scientifique, Institut de Recherche pour le Développement, Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, Institut National Polytechnique de Grenoble, Grenoble 38000, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Stocker TF",
+      "lastName": "Stocker",
+      "firstName": "Thomas F",
+      "initials": "TF",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bauska TK",
+      "lastName": "Bauska",
+      "firstName": "Thomas K",
+      "initials": "TK",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1901-0367"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "British Antarctic Survey, Cambridge CB3 0ET, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Fischer H",
+      "lastName": "Fischer",
+      "firstName": "Hubertus",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2787-4221"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics, Physics Institute, and Oeschger Centre for Climate Research, University of Bern, Bern 3012, Switzerland."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-06-02",
+  "journal": "",
+  "doi": "10.1073/pnas.2423057122",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1073/pnas.2423057122"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1073/pnas.2423057122"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12167945"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12167945?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12167945"
+}

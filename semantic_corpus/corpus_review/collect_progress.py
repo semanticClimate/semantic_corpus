@@ -70,6 +70,12 @@ def fail_reason_label(exc_or_msg: Union[BaseException, str, None] = None) -> str
         return "no_files"
     if "timed out" in lower or "timeout" in lower:
         return "timeout"
+    if "pdf-miss" in lower or "no pdf" in lower:
+        return "pdf_miss"
+    if "docling" in lower:
+        return "docling"
+    if "typeerror" in lower:
+        return "type_error"
     return "error"
 
 

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12787522",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "saharan africa",
+      "display": "Saharan Africa",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south korea",
+      "display": "South Korea",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fwi",
+      "display": "FWI",
+      "score": 2.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zeroe",
+      "display": "ZeroE",
+      "score": 1.51,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nege",
+      "display": "NegE",
+      "score": 1.43,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "danger",
+      "score": 0.0433,
+      "channel": "tfidf",
+      "display": "danger"
+    },
+    {
+      "phrase": "zeroe scenario",
+      "score": 0.0409,
+      "channel": "tfidf",
+      "display": "ZeroE scenario"
+    },
+    {
+      "phrase": "nege scenario",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "NegE scenario"
+    },
+    {
+      "phrase": "dangers",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "dangers"
+    },
+    {
+      "phrase": "relative humidity",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "Relative humidity"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12612620",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "project administration",
+      "display": "Project Administration",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tipping calibration module",
+      "display": "Tipping Calibration Module",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "greenland ice sheet",
+      "display": "Greenland Ice Sheet",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "martinez monteiro",
+      "display": "Martinez Monteiro",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth system models of intermediate complexity",
+      "display": "Earth System Models of Intermediate Complexity",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atcm",
+      "display": "ATCM",
+      "score": 2.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gis",
+      "display": "GIS",
+      "score": 1.84,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cgenie",
+      "score": 0.0436,
+      "channel": "tfidf",
+      "display": "cGENIE"
+    },
+    {
+      "phrase": "emulator",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "Emulator"
+    },
+    {
+      "phrase": "surfer",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "SURFER"
+    },
+    {
+      "phrase": "complex model",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "complex model"
+    },
+    {
+      "phrase": "expa",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "EXPA"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

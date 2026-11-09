@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13002991",
+  "phrases": [
+    {
+      "phrase": "northern europe",
+      "display": "Northern Europe",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "berkeley earth",
+      "display": "Berkeley Earth",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "diss mere",
+      "display": "Diss Mere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "berkeley earth surface temperatures",
+      "display": "Berkeley Earth Surface Temperatures",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dynamically consistent",
+      "display": "Dynamically Consistent",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ipsl",
+      "display": "IPSL",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "europe",
+      "display": "Europe",
+      "score": 1.47,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "multi-centennial",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "Multi-centennial"
+    },
+    {
+      "phrase": "multi-centennial variability",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "multi-centennial variability"
+    },
+    {
+      "phrase": "variability",
+      "score": 0.0353,
+      "channel": "tfidf",
+      "display": "Variability"
+    },
+    {
+      "phrase": "internal variability",
+      "score": 0.0348,
+      "channel": "tfidf",
+      "display": "Internal variability"
+    },
+    {
+      "phrase": "internal",
+      "score": 0.0337,
+      "channel": "tfidf",
+      "display": "Internal"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

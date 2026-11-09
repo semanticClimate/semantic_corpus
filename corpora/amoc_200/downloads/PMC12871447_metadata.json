@@ -1,0 +1,222 @@
+{
+  "pmcid": "PMC12871447",
+  "pmid": "41637500",
+  "title": "Volcanism-induced collapse and recovery of the Atlantic meridional overturning circulation under glacial conditions.",
+  "abstract": "Volcanic eruptions have considerable impacts on climate across various timescales; however, it remains uncertain if, and how, volcanic activity could drive climate change over multiple millennia. Here we incorporate realistic volcanic forcing into a large ensemble of glacial era-coupled atmosphere-ocean model simulations. These simulations are constrained by sulfate records from ice cores, which help estimate the timing of past major eruptions. We investigate how volcanic eruptions may have occasionally triggered abrupt climate change during the last glacial period. Our results show that very large equatorial eruptions can induce large changes in the Atlantic Meridional Overturning Circulation via atmospheric and ocean circulation changes and air-sea buoyancy fluxes, potentially pushing the climate system between persistent warm and cold states lasting millennia. A simplified perspective of the dynamics shows how unforced natural climate variability may exert a stabilizing influence decades after an eruption, especially as the system nears a tipping point.",
+  "authors": [
+    {
+      "fullName": "Vettoretti G",
+      "lastName": "Vettoretti",
+      "firstName": "Guido",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0272-0488"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hu RJ",
+      "lastName": "Hu",
+      "firstName": "Ruei-Jia",
+      "initials": "RJ",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0007-8908-4499"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmospheric Sciences, National Taiwan University, Taipei, Taiwan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bethke I",
+      "lastName": "Bethke",
+      "firstName": "Ingo",
+      "initials": "I",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Geophysical Institute, University of Bergen, Bjerknes Centre for Climate Research, Bergen, Norway."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Krüger K",
+      "lastName": "Krüger",
+      "firstName": "Kirstin",
+      "initials": "K",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0636-9488"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, University of Oslo, Oslo, Norway."
+          },
+          {
+            "affiliation": "Centre for Advanced Study, University of Oslo, Oslo, Norway."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sigl M",
+      "lastName": "Sigl",
+      "firstName": "Michael",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9028-9703"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, University of Oslo, Oslo, Norway."
+          },
+          {
+            "affiliation": "Oeschger Centre for Climate Change Research, University of Bern, Bern, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Outten S",
+      "lastName": "Outten",
+      "firstName": "Stephen",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4883-611X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Nansen Environmental and Remote Sensing Center and Bjerknes Centre for Climate Research, Bergen, Norway."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lin J",
+      "lastName": "Lin",
+      "firstName": "Jaimei",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nuterman R",
+      "lastName": "Nuterman",
+      "firstName": "Roman",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1774-3460"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Svensson A",
+      "lastName": "Svensson",
+      "firstName": "Anders",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4364-6085"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ditlevsen P",
+      "lastName": "Ditlevsen",
+      "firstName": "Peter",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2120-7732"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jochum M",
+      "lastName": "Jochum",
+      "firstName": "Markus",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2690-3139"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-02-04",
+  "journal": "",
+  "doi": "10.1126/sciadv.adx2124",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.adx2124"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12871447"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12871447?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12871447"
+}

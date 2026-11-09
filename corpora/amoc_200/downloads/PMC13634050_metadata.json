@@ -1,0 +1,152 @@
+{
+  "pmcid": "PMC13634050",
+  "pmid": "42829382",
+  "title": "Global climate impact of land-surface change driven by radiative effects.",
+  "abstract": "A robust proportionality between radiative forcing and global-mean temperature has been established for most climate drivers. However, land-surface changes are considered an exception due to their potential to alter surface hydrology, introducing non-radiative effects that may rival those from surface albedo changes. Here, comparing Earth-system-model simulations with large-scale perturbations of surface albedo and water availability, we find that the spatially integrated biophysical climate impact is similarly dominated by radiative processes and scales approximately linearly with the resulting shifts in planetary albedo, implying a  ~ 0.4 K surface temperature response per W m<sup>-2</sup> change in top-of-atmosphere net short-wave radiation. Thus, while non-radiative effects strongly influence local temperatures, their net contribution to the global-mean signal is negligible. The planetary-albedo response is primarily governed by regional cloud-cover characteristics, resulting in a substantially stronger temperature response to land-surface change in mid- and high-latitude regions than in the tropics and subtropics.",
+  "authors": [
+    {
+      "fullName": "de Vrese P",
+      "lastName": "de Vrese",
+      "firstName": "Philipp",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8813-7436"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Dynamics, Max Planck Institute for Meteorology, Bundesstrasse 53, Hamburg, Germany. philipp.de-vrese@mpimet.mpg.de."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Brovkin V",
+      "lastName": "Brovkin",
+      "firstName": "Victor",
+      "initials": "V",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6420-3198"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Dynamics, Max Planck Institute for Meteorology, Bundesstrasse 53, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Günther M",
+      "lastName": "Günther",
+      "firstName": "Moritz",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2719-4821"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Dynamics, Max Planck Institute for Meteorology, Bundesstrasse 53, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kang SM",
+      "lastName": "Kang",
+      "firstName": "Sarah M",
+      "initials": "SM",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4635-275X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Dynamics, Max Planck Institute for Meteorology, Bundesstrasse 53, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Raddatz T",
+      "lastName": "Raddatz",
+      "firstName": "Thomas",
+      "initials": "T",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Dynamics, Max Planck Institute for Meteorology, Bundesstrasse 53, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Thiery W",
+      "lastName": "Thiery",
+      "firstName": "Wim",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5183-6145"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Water and Climate, Vrije Universiteit Brussel, Pleinlaan 2, Brussels, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yao Y",
+      "lastName": "Yao",
+      "firstName": "Yi",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2212-2394"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute for Atmospheric and Climate Science, ETH Zurich, Universitätstrasse 16, Zurich, Switzerland."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-10-03",
+  "journal": "",
+  "doi": "10.1038/s41467-026-77834-0",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-026-77834-0"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13634050"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13634050?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13634050"
+}

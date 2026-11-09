@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590660",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national center for atmospheric research",
+      "display": "National Center for Atmospheric Research",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "climate and global dynamics laboratory",
+      "display": "Climate and Global Dynamics Laboratory",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "creative commons attribution license",
+      "display": "Creative Commons Attribution License",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "woods hole oceanographic institution",
+      "display": "Woods Hole Oceanographic Institution",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surface water and ocean topography",
+      "display": "Surface Water and Ocean Topography",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national oceanography centre",
+      "display": "National Oceanography Centre",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rapid",
+      "display": "RAPID",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "moorings",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "Moorings"
+    },
+    {
+      "phrase": "reference level",
+      "score": 0.0327,
+      "channel": "tfidf",
+      "display": "Reference level"
+    },
+    {
+      "phrase": "velocity",
+      "score": 0.0313,
+      "channel": "tfidf",
+      "display": "velocity"
+    },
+    {
+      "phrase": "pressure",
+      "score": 0.0311,
+      "channel": "tfidf",
+      "display": "pressure"
+    },
+    {
+      "phrase": "unmeasured",
+      "score": 0.031,
+      "channel": "tfidf",
+      "display": "Unmeasured"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13109349",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary information",
+      "display": "Supplementary Information",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pleistocene transition",
+      "display": "Pleistocene Transition",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indiana university",
+      "display": "Indiana University",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mis",
+      "display": "MIS",
+      "score": 2.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bpwo",
+      "display": "BPWO",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "site u1314",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Site U1314"
+    },
+    {
+      "phrase": "mpt",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "MPT"
+    },
+    {
+      "phrase": "mn",
+      "score": 0.0364,
+      "channel": "tfidf",
+      "display": "Mn"
+    },
+    {
+      "phrase": "mn al",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "mn al"
+    },
+    {
+      "phrase": "mn ca",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "mn ca"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

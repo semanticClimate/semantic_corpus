@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12780181",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 6.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "model dev",
+      "display": "Model Dev",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "deep sea res",
+      "display": "Deep Sea Res",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic sea",
+      "display": "Nordic Sea",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "apparent oxygen utilization",
+      "display": "Apparent Oxygen Utilization",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea water",
+      "display": "Labrador Sea Water",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.73,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aou",
+      "display": "AOU",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.65,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "water age",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "Water age"
+    },
+    {
+      "phrase": "cfc-12",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "CFC-12"
+    },
+    {
+      "phrase": "ventilation",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "Ventilation"
+    },
+    {
+      "phrase": "cfc-12 sf6",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "cfc-12 sf6"
+    },
+    {
+      "phrase": "age",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "age"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

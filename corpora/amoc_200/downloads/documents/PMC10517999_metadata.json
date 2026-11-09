@@ -1,0 +1,262 @@
+{
+  "pmcid": "PMC10517999",
+  "pmid": "37741891",
+  "title": "AMOC decline and recovery in a warmer climate.",
+  "abstract": "This study presents novel insight into the mechanisms of Atlantic Meridional Overturning Circulation (AMOC) reduction and its recovery under a warmer climate scenario. An one-thousand-year-long numerical simulation of a global coupled ocean-ice-atmosphere climate model, subjected to a stationary atmospheric radiative forcing, depict a coherent picture of the Arctic sea ice melting as a trigger for the initial AMOC reduction, along with decreases in the northward fluxes of salt and heat. Further atmospheric-driven ocean processes contribute to an erosion of the stable stratification of the fresher, yet colder waters in the surface layers of the North Atlantic, contributing to the recovery of a permanently altered AMOC.",
+  "authors": [
+    {
+      "fullName": "Nobre P",
+      "lastName": "Nobre",
+      "firstName": "Paulo",
+      "initials": "P",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil. paulo.nobre@inpe.br."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Veiga SF",
+      "lastName": "Veiga",
+      "firstName": "Sandro F",
+      "initials": "SF",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Atmospheric Sciences and Key Laboratory of Mesoscale Severe Weather/Ministry of Education, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Giarolla E",
+      "lastName": "Giarolla",
+      "firstName": "Emanuel",
+      "initials": "E",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Marquez AL",
+      "lastName": "Marquez",
+      "firstName": "André L",
+      "initials": "AL",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "da Silva MB Jr",
+      "lastName": "da Silva",
+      "firstName": "Manoel B",
+      "initials": "MB",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Capistrano VB",
+      "lastName": "Capistrano",
+      "firstName": "Vinícius B",
+      "initials": "VB",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Physics, Federal University of Mato Grosso do Sul (UFMS), Campo Grande, Mato Grosso do Sul, 79070-900, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Malagutti M",
+      "lastName": "Malagutti",
+      "firstName": "Marta",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Fernandez JPR",
+      "lastName": "Fernandez",
+      "firstName": "Julio P R",
+      "initials": "JPR",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Soares HC",
+      "lastName": "Soares",
+      "firstName": "Helena C",
+      "initials": "HC",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bottino MJ",
+      "lastName": "Bottino",
+      "firstName": "Marcus J",
+      "initials": "MJ",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kubota PY",
+      "lastName": "Kubota",
+      "firstName": "Paulo Y",
+      "initials": "PY",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Figueroa SN",
+      "lastName": "Figueroa",
+      "firstName": "Silvio N",
+      "initials": "SN",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2969-1362"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bonatti JP",
+      "lastName": "Bonatti",
+      "firstName": "José P",
+      "initials": "JP",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sampaio G",
+      "lastName": "Sampaio",
+      "firstName": "Gilvan",
+      "initials": "G",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Casagrande F",
+      "lastName": "Casagrande",
+      "firstName": "Fernanda",
+      "initials": "F",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Costa MC",
+      "lastName": "Costa",
+      "firstName": "Mabel C",
+      "initials": "MC",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Weather Forecasting and Climate Studies (CPTEC), National Institute for Space Research (INPE), Cachoeira Paulista, São Paulo, 12630-000, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nobre CA",
+      "lastName": "Nobre",
+      "firstName": "Carlos A",
+      "initials": "CA",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute for Advanced Studies, University of São Paulo, São Paulo, São Paulo, 05508-050, Brazil."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2023-09-23",
+  "journal": "",
+  "doi": "10.1038/s41598-023-43143-5",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41598-023-43143-5"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10517999"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10517999?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC10517999"
+}

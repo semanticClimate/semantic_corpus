@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13408133",
+  "phrases": [
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yeongsan river",
+      "display": "Yeongsan River",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "analysis of regime shifts",
+      "display": "Analysis of Regime Shifts",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "korean peninsula",
+      "display": "Korean Peninsula",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "early iron age",
+      "display": "Early Iron Age",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "joseon dynasty",
+      "display": "Joseon Dynasty",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dca",
+      "display": "DCA",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "holocene",
+      "display": "Holocene",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "osl",
+      "display": "OSL",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wetland",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Wetland"
+    },
+    {
+      "phrase": "diatom",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "Diatom"
+    },
+    {
+      "phrase": "phytoliths",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "Phytoliths"
+    },
+    {
+      "phrase": "sinchang-dong",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "Sinchang-dong"
+    },
+    {
+      "phrase": "trench",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "trench"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

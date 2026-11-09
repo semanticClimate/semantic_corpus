@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11605065",
+  "phrases": [
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 12.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic sea",
+      "display": "Nordic Sea",
+      "score": 3.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "subpolar north atlantic program",
+      "display": "Subpolar North Atlantic Program",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotland overflow",
+      "display": "Scotland Overflow",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotland ridge",
+      "display": "Scotland Ridge",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea",
+      "display": "Sea",
+      "score": 2.55,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "osnap",
+      "display": "OSNAP",
+      "score": 2.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "open-ocean deep",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "open-ocean deep"
+    },
+    {
+      "phrase": "open-ocean deep convection",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "open-ocean deep convection"
+    },
+    {
+      "phrase": "fwf",
+      "score": 0.0445,
+      "channel": "tfidf",
+      "display": "FWF"
+    },
+    {
+      "phrase": "sea open-ocean",
+      "score": 0.0443,
+      "channel": "tfidf",
+      "display": "Sea open-ocean"
+    },
+    {
+      "phrase": "sea open-ocean deep",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "Sea open-ocean deep"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

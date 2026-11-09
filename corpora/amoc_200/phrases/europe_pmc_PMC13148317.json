@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13148317",
+  "phrases": [
+    {
+      "phrase": "taiping rebellion",
+      "display": "Taiping Rebellion",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yangtze river basin",
+      "display": "Yangtze River Basin",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china earth sci",
+      "display": "China Earth Sci",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little ice age",
+      "display": "Little Ice Age",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.59,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ce",
+      "display": "CE",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "taiping",
+      "score": 0.0358,
+      "channel": "tfidf",
+      "display": "Taiping"
+    },
+    {
+      "phrase": "rebellion",
+      "score": 0.0358,
+      "channel": "tfidf",
+      "display": "Rebellion"
+    },
+    {
+      "phrase": "dg7 record",
+      "score": 0.032,
+      "channel": "tfidf",
+      "display": "DG7 record"
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.0317,
+      "channel": "tfidf",
+      "display": "Monsoon"
+    },
+    {
+      "phrase": "northern china",
+      "score": 0.031,
+      "channel": "tfidf",
+      "display": "northern China"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

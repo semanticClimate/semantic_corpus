@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13478603",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida strait",
+      "display": "Florida Strait",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laurentian channel",
+      "display": "Laurentian Channel",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nanjing university",
+      "display": "Nanjing University",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little ice age",
+      "display": "Little Ice Age",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nanjing normal university",
+      "display": "Nanjing Normal University",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 5.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exp",
+      "display": "EXP",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cesm",
+      "display": "CESM",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc-sensitive",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "AMOC-sensitive"
+    },
+    {
+      "phrase": "amoc-sensitive indicators",
+      "score": 0.0444,
+      "channel": "tfidf",
+      "display": "AMOC-sensitive indicators"
+    },
+    {
+      "phrase": "volcanic",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "Volcanic"
+    },
+    {
+      "phrase": "lia",
+      "score": 0.0348,
+      "channel": "tfidf",
+      "display": "LIA"
+    },
+    {
+      "phrase": "paleo amoc-sensitive",
+      "score": 0.0336,
+      "channel": "tfidf",
+      "display": "paleo AMOC-sensitive"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10853552",
+  "phrases": [
+    {
+      "phrase": "black sea",
+      "display": "Black Sea",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sofular cave",
+      "display": "Sofular Cave",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "marine isotope stage",
+      "display": "Marine Isotope Stage",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sanbao cave",
+      "display": "Sanbao Cave",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern mediterranean",
+      "display": "Eastern Mediterranean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mis",
+      "display": "MIS",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sofular",
+      "display": "Sofular",
+      "score": 1.41,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea",
+      "display": "Sea",
+      "score": 1.29,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "d-o",
+      "score": 0.0535,
+      "channel": "tfidf",
+      "display": "D-O"
+    },
+    {
+      "phrase": "d-o cycles",
+      "score": 0.0494,
+      "channel": "tfidf",
+      "display": "D-O cycles"
+    },
+    {
+      "phrase": "penultimate",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "Penultimate"
+    },
+    {
+      "phrase": "so-4",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "So-4"
+    },
+    {
+      "phrase": "penultimate glacial",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Penultimate Glacial"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

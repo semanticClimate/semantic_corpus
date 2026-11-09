@@ -1,0 +1,310 @@
+{
+  "pmcid": "PMC12890832",
+  "pmid": "41628328",
+  "title": "Deglacial stratification of the polar Southern Ocean.",
+  "abstract": "It is widely accepted that meltwater from northern ice sheets drove changes in the Atlantic Meridional Overturning Circulation, impacting global climate. In contrast, data are lacking on the Antarctic Ice Sheet's (AIS) effect on Southern Ocean overturning, despite the Southern Ocean's central role in ventilating the ocean interior. Here, we present diatom-bound nitrogen isotope evidence indicating that during deglaciations, as wind-driven upwelling in the open Antarctic Ocean increased, AIS melting strengthened density stratification in the polar Antarctic Ocean. This change coincides with reconstructions of meltwater discharge and resembles model simulations of global warming including AIS meltwater forcing. The transient input of freshwater and, thus, buoyancy weakened Southern Ocean's \"lower cell\" that outcrops in the polar Antarctic Ocean even as open Antarctic Ocean's \"upper cell\" strengthened. Given evidence that deep-ocean ventilation and CO<sub>2</sub> release were ongoing early in deglaciation, our data suggest that the open Antarctic Ocean, and not solely the most polar Antarctic Ocean, can directly ventilate the deep ocean. During the last deglaciation, the strongest density stratification in the polar Antarctic Ocean occurred just before the Antarctic Cold Reversal, when southern hemisphere warming paused and the northern hemisphere warmed sharply (i.e., during the Bølling-Allerød period). We propose that when combined with stronger wind-driven upwelling, the freshwater-driven redirection of upwelled water away from deep water formation and toward the upper cell deepened the global pycnocline, working to restart North Atlantic deep water formation in the Bølling-Allerød period. If so, polar ocean freshening in both hemispheres drove the \"bipolar seesaw\" events of deglaciation.",
+  "authors": [
+    {
+      "fullName": "Fripiat F",
+      "lastName": "Fripiat",
+      "firstName": "François",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2591-6301"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, Environment and Society, Université Libre de Bruxelles, Brussels 1050, Belgium."
+          },
+          {
+            "affiliation": "Climate Geochemistry Department, Max Planck Institute for Chemistry, Mainz 55128, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sigman DM",
+      "lastName": "Sigman",
+      "firstName": "Daniel M",
+      "initials": "DM",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7923-1973"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, Princeton University, Princeton, NJ 08544."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ai XE",
+      "lastName": "Ai",
+      "firstName": "Xuyuan E",
+      "initials": "XE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1353-6114"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Geochemistry Department, Max Planck Institute for Chemistry, Mainz 55128, Germany."
+          },
+          {
+            "affiliation": "Department of Geosciences, Princeton University, Princeton, NJ 08544."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dumoulin C",
+      "lastName": "Dumoulin",
+      "firstName": "Cédric",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0004-9646-5247"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, Environment and Society, Université Libre de Bruxelles, Brussels 1050, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Moretti S",
+      "lastName": "Moretti",
+      "firstName": "Simone",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6772-7269"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Geochemistry Department, Max Planck Institute for Chemistry, Mainz 55128, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Studer AS",
+      "lastName": "Studer",
+      "firstName": "Anja S",
+      "initials": "AS",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7354-8497"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Environmental Sciences, University of Basel, Basel 4056, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Diekmann B",
+      "lastName": "Diekmann",
+      "firstName": "Bernhard",
+      "initials": "B",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Esper O",
+      "lastName": "Esper",
+      "firstName": "Oliver",
+      "initials": "O",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4342-3471"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Frederichs T",
+      "lastName": "Frederichs",
+      "firstName": "Thomas",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0976-0332"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Center for Marine Environmental Sciences, University of Bremen, Bremen 28334, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lamy F",
+      "lastName": "Lamy",
+      "firstName": "Frank",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5952-1765"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu L",
+      "lastName": "Liu",
+      "firstName": "Ling",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0006-8717-4469"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pattyn F",
+      "lastName": "Pattyn",
+      "firstName": "Frank",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4805-5636"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, Environment and Society, Université Libre de Bruxelles, Brussels 1050, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Schmitt M",
+      "lastName": "Schmitt",
+      "firstName": "Mareike",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Geochemistry Department, Max Planck Institute for Chemistry, Mainz 55128, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tiedemann R",
+      "lastName": "Tiedemann",
+      "firstName": "Ralf",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7211-8049"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Haug GH",
+      "lastName": "Haug",
+      "firstName": "Gerald H",
+      "initials": "GH",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7534-4420"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Geochemistry Department, Max Planck Institute for Chemistry, Mainz 55128, Germany."
+          },
+          {
+            "affiliation": "Department of Earth Sciences, ETH Zürich, Zürich 8092, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Martínez-García A",
+      "lastName": "Martínez-García",
+      "firstName": "Alfredo",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7206-5079"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate Geochemistry Department, Max Planck Institute for Chemistry, Mainz 55128, Germany."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-02-02",
+  "journal": "",
+  "doi": "10.1073/pnas.2502076123",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1073/pnas.2502076123"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12890832"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12890832?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12890832"
+}

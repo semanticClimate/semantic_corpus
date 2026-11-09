@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13342563",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south pacific",
+      "display": "South Pacific",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "command language",
+      "display": "Command Language",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ar",
+      "display": "AR",
+      "score": 2.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ivt",
+      "display": "IVT",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ar frequency",
+      "score": 0.0469,
+      "channel": "tfidf",
+      "display": "AR frequency"
+    },
+    {
+      "phrase": "ars",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "ARs"
+    },
+    {
+      "phrase": "atmospheric rivers",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "Atmospheric rivers"
+    },
+    {
+      "phrase": "fixed-amoc",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "fixed-AMOC"
+    },
+    {
+      "phrase": "atmospheric river",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "Atmospheric River"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

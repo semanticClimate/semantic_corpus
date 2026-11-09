@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12271382",
+  "phrases": [
+    {
+      "phrase": "antarctic circumpolar current",
+      "display": "Antarctic Circumpolar Current",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "drake passage",
+      "display": "Drake Passage",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south pacific",
+      "display": "South Pacific",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere glaciation",
+      "display": "Northern Hemisphere Glaciation",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern south pacific ocean",
+      "display": "Eastern South Pacific Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acc",
+      "display": "ACC",
+      "score": 2.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pacific",
+      "display": "Pacific",
+      "score": 1.83,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "esp",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "ESP"
+    },
+    {
+      "phrase": "sstuk",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "SSTUK"
+    },
+    {
+      "phrase": "caco3",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "CaCO3"
+    },
+    {
+      "phrase": "sst gradients",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "SST gradients"
+    },
+    {
+      "phrase": "site u1543",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "Site U1543"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

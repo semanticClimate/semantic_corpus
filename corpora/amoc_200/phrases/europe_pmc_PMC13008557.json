@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13008557",
+  "phrases": [
+    {
+      "phrase": "xiao zhijian",
+      "display": "Xiao Zhijian",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international consensus classification of myeloid neoplasms and acute leukemias",
+      "display": "International Consensus Classification of Myeloid Neoplasms and Acute Leukemias",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization classification of haematolymphoid tumours",
+      "display": "World Health Organization Classification of Haematolymphoid Tumours",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national clinical research center for blood diseases",
+      "display": "National Clinical Research Center for Blood Diseases",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mol risk models in chronic myelomonocytic leukemia",
+      "display": "Mol Risk Models in Chronic Myelomonocytic Leukemia",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "state key laboratory of experimental hematology",
+      "display": "State Key Laboratory of Experimental Hematology",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese journal of practical internal medicine",
+      "display": "Chinese Journal of Practical Internal Medicine",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cmml",
+      "display": "CMML",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "doi",
+      "display": "DOI",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cpss",
+      "display": "CPSS",
+      "score": 1.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "leukemia",
+      "score": 0.0791,
+      "channel": "tfidf",
+      "display": "Leukemia"
+    },
+    {
+      "phrase": "chronic myelomonocytic",
+      "score": 0.0763,
+      "channel": "tfidf",
+      "display": "Chronic Myelomonocytic"
+    },
+    {
+      "phrase": "myelomonocytic",
+      "score": 0.0763,
+      "channel": "tfidf",
+      "display": "Myelomonocytic"
+    },
+    {
+      "phrase": "chronic myelomonocytic leukemia",
+      "score": 0.0748,
+      "channel": "tfidf",
+      "display": "Chronic Myelomonocytic Leukemia"
+    },
+    {
+      "phrase": "myelomonocytic leukemia",
+      "score": 0.0748,
+      "channel": "tfidf",
+      "display": "Myelomonocytic Leukemia"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

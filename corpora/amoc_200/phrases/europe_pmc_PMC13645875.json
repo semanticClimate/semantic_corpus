@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13645875",
+  "phrases": [
+    {
+      "phrase": "toohey and sigl",
+      "display": "Toohey and Sigl",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "no model response",
+      "display": "No Model Response",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "davide zanchettin",
+      "display": "Davide Zanchettin",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth telescope",
+      "display": "Earth Telescope",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mount tambora",
+      "display": "Mount Tambora",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mpi",
+      "display": "MPI",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eva",
+      "display": "EVA",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "toa",
+      "display": "TOA",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "evolv2k",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "eVolv2k"
+    },
+    {
+      "phrase": "volcanic",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "Volcanic"
+    },
+    {
+      "phrase": "volcano-climate",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Volcano-Climate"
+    },
+    {
+      "phrase": "tambora",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "Tambora"
+    },
+    {
+      "phrase": "eruption",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "eruption"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

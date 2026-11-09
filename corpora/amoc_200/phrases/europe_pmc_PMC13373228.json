@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13373228",
+  "phrases": [
+    {
+      "phrase": "fram strait",
+      "display": "Fram Strait",
+      "score": 6.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 3.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "beaufort gyre",
+      "display": "Beaufort Gyre",
+      "score": 3.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "transpolar drift",
+      "display": "Transpolar Drift",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last ice area",
+      "display": "Last Ice Area",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eurasian arctic",
+      "display": "Eurasian Arctic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 2.29,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ssh",
+      "display": "SSH",
+      "score": 2.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lia",
+      "display": "LIA",
+      "score": 2.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern lia",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "eastern LIA"
+    },
+    {
+      "phrase": "arctic export",
+      "score": 0.0403,
+      "channel": "tfidf",
+      "display": "Arctic export"
+    },
+    {
+      "phrase": "fram",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "Fram"
+    },
+    {
+      "phrase": "strait export",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "Strait export"
+    },
+    {
+      "phrase": "ssh eastern",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "ssh eastern"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

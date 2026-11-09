@@ -105,9 +105,11 @@ def create_corpus_from_query(
         corpus_dir = Path(corpus_dir)
 
     if check_epmc and "europe_pmc" in repo_names:
+        from semantic_corpus.repositories import epmc_streams as streams_mod
         from semantic_corpus.repositories.epmc_diagnostic import epmc_preflight
 
-        epmc_preflight(abort=True)
+        _diag, board = epmc_preflight(abort=True)
+        streams_mod.PREFLIGHT_BOARD = board
 
     remaining = int(limit)
     all_results: List[Dict[str, Any]] = []

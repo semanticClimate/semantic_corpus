@@ -1,0 +1,247 @@
+{
+  "pmcid": "PMC13281819",
+  "pmid": "42319918",
+  "title": "Synergistic anion-cation descriptor for bidirectional electrocatalyst in Li-CO&lt;sub&gt;2&lt;/sub&gt; battery.",
+  "abstract": "The slow kinetics of lithium carbonate (Li<sub>2</sub>CO<sub>3</sub>) nucleation/decomposition hinder voltage gap minimization in lithium-carbon dioxide (Li-CO<sub>2</sub>) batteries. Although symmetry-broken cation motifs can enhance reactivity, designing optimal catalysts remains challenging. Moving beyond cation-centric views, we recognize anions as active participants that regulate charge and stabilize intermediates, yet their degradation worsens the activity-stability trade-off. To address this, we develop a dual Φ descriptor quantifying anion-cation orbital coupling and reconstruction energy. It establishes a volcano correlation with the voltage gap in metal sulfides, showing that symmetry-broken units optimally balance binding and stability. Guided by this, we synthesize oriented WS<sub>2</sub> rich in C<sub>4v</sub> configurations, achieving a record-low gap of 0.76 volts and superior cycling (>1268 hours) among dichalcogenides. This work shifts the paradigm from cation-only tuning to synergistic anion-cation design, repositioning anions as co-catalytic architects. By linking orbital insights to performance, we provide a universal descriptor for developing efficient, stable Li-CO<sub>2</sub> batteries.",
+  "authors": [
+    {
+      "fullName": "Zhai X",
+      "lastName": "Zhai",
+      "firstName": "Xingwu",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3591-7957"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Y",
+      "lastName": "Liu",
+      "firstName": "Yuchun",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0099-0887"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Luo M",
+      "lastName": "Luo",
+      "firstName": "Mi",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Particle Detection and Electronics, Department of Modern Physics, University of Science and Technology of China, Hefei 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wei T",
+      "lastName": "Wei",
+      "firstName": "Tianchen",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0009-7156-0770"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wang H",
+      "lastName": "Wang",
+      "firstName": "Hang",
+      "initials": "H",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang J",
+      "lastName": "Zhang",
+      "firstName": "Jing",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Su L",
+      "lastName": "Su",
+      "firstName": "Leyi",
+      "initials": "L",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Fan Z",
+      "lastName": "Fan",
+      "firstName": "Zhaodi",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0002-9633-1682"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sun Z",
+      "lastName": "Sun",
+      "firstName": "Zhixin",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0002-8899-6051"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang Z",
+      "lastName": "Zhang",
+      "firstName": "Zhuohui",
+      "initials": "Z",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu L",
+      "lastName": "Wu",
+      "firstName": "Liang",
+      "initials": "L",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang H",
+      "lastName": "Zhang",
+      "firstName": "Hongjun",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4714-8809"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Particle Detection and Electronics, Department of Modern Physics, University of Science and Technology of China, Hefei 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ye B",
+      "lastName": "Ye",
+      "firstName": "Bangjiao",
+      "initials": "B",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Particle Detection and Electronics, Department of Modern Physics, University of Science and Technology of China, Hefei 230026, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhou M",
+      "lastName": "Zhou",
+      "firstName": "Min",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2677-5472"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Radiology, The First Affiliated Hospital of USTC, Hefei National Research Center for Physical Sciences at the Microscale, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-06-19",
+  "journal": "",
+  "doi": "10.1126/sciadv.aee9103",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.aee9103"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13281819"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13281819?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13281819"
+}

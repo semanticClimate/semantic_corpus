@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13468015",
+  "phrases": [
+    {
+      "phrase": "henan university of science and technology",
+      "display": "Henan University of Science and Technology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "functional prediction of bacterial communities in oat rhizosphere soil under microplastic treatments this",
+      "display": "Functional Prediction of Bacterial Communities in Oat Rhizosphere Soil Under Microplastic Treatments This",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "analysis of differential bacterial taxa in oat rhizosphere soil under microplastic treatments the",
+      "display": "Analysis of Differential Bacterial Taxa in Oat Rhizosphere Soil Under Microplastic Treatments The",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "article differential effects of polyethylene and polystyrene microplastics",
+      "display": "Article Differential Effects of Polyethylene and Polystyrene Microplastics",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "effects of microplastic treatments on alpha and beta diversity for",
+      "display": "Effects of Microplastic Treatments on Alpha and Beta Diversity For",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pei mao and wenfeng ma college of animal science and technology",
+      "display": "Pei Mao and Wenfeng Ma College of Animal Science and Technology",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "composition of rhizosphere soil bacterial communities compared",
+      "display": "Composition of Rhizosphere Soil Bacterial Communities Compared",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pe",
+      "display": "PE",
+      "score": 2.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ps",
+      "display": "PS",
+      "score": 2.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ec",
+      "display": "EC",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "microplastic",
+      "score": 0.0463,
+      "channel": "tfidf",
+      "display": "Microplastic"
+    },
+    {
+      "phrase": "microplastics",
+      "score": 0.0444,
+      "channel": "tfidf",
+      "display": "Microplastics"
+    },
+    {
+      "phrase": "eb",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "EB"
+    },
+    {
+      "phrase": "treatments",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "Treatments"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "Soil"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

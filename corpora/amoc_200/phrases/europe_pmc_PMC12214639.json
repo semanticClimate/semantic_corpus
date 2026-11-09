@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12214639",
+  "phrases": [
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 4.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kuroshio extension",
+      "display": "Kuroshio Extension",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eddy kinetic energy",
+      "display": "Eddy Kinetic Energy",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "copernicus climate change service",
+      "display": "Copernicus Climate Change Service",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cambridge university press",
+      "display": "Cambridge University Press",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "copernicus marine service",
+      "display": "Copernicus Marine Service",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eke",
+      "display": "EKE",
+      "score": 3.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stream",
+      "display": "Stream",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf",
+      "display": "Gulf",
+      "score": 1.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "all-sat",
+      "score": 0.0468,
+      "channel": "tfidf",
+      "display": "all-sat"
+    },
+    {
+      "phrase": "altimetric",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "altimetric"
+    },
+    {
+      "phrase": "two-sat",
+      "score": 0.0446,
+      "channel": "tfidf",
+      "display": "two-sat"
+    },
+    {
+      "phrase": "eke trends",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "EKE trends"
+    },
+    {
+      "phrase": "high eke",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "high EKE"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

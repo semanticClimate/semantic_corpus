@@ -95,6 +95,7 @@ def export_corpus_for_chatbot(
         "paper_count": len(papers),
         "papers": papers,
         "chunking_hint": {
+            "text_cascade": ["xml", "pdf_docling", "json_abstract"],
             "primary_text_source": "xml_path",
             "fallback_text_source": "abstract",
             "metadata_fields_for_retrieval": [

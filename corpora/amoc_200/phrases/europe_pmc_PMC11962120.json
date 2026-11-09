@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11962120",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 10.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 5.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic and southern ocean",
+      "display": "Arctic and Southern Ocean",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic and southern oceans",
+      "display": "Arctic and Southern Oceans",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea surface temperatures",
+      "display": "Sea Surface Temperatures",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth environ",
+      "display": "Earth Environ",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 3.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 2.71,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern",
+      "display": "Southern",
+      "score": 2.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean warming",
+      "score": 0.0403,
+      "channel": "tfidf",
+      "display": "Southern Ocean warming"
+    },
+    {
+      "phrase": "warm southern",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "warm Southern"
+    },
+    {
+      "phrase": "warm southern ocean",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "warm Southern Ocean"
+    },
+    {
+      "phrase": "warm arctic",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "warm Arctic"
+    },
+    {
+      "phrase": "cross-equatorial sst",
+      "score": 0.0385,
+      "channel": "tfidf",
+      "display": "Cross-equatorial SST"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

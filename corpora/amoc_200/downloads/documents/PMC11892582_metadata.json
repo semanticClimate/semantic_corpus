@@ -1,0 +1,77 @@
+{
+  "pmcid": "PMC11892582",
+  "pmid": "39993189",
+  "title": "Weakening AMOC reduces ocean carbon uptake and increases the social cost of carbon.",
+  "abstract": "A weakening of the Atlantic Meridional Overturning Circulation (AMOC) has been found to be globally beneficial by economic assessments. This result emerges because AMOC weakening would cool the Northern Hemisphere, thereby reducing expected climate damages and decreasing estimates of the global social cost of carbon dioxide (SCC). There are, however, many other impacts of AMOC weakening that are not yet taken into account. Here, we add a second impact channel by quantifying the effects of AMOC weakening on ocean carbon uptake, using biogeochemically-only coupled freshwater hosing simulations in the Max Planck Institute Earth System Model. Our simulations reveal an approximately linear relationship between AMOC strength and carbon uptake reductions, constituting a carbon cycle feedback that leads to higher atmospheric CO<sub>2</sub> concentrations and stronger global warming. This AMOC carbon feedback, when incorporated into an integrated climate-economy model, leads to additional economic damages of several trillion US dollars and raises the SCC by about 1%. The SCC increase is similar in magnitude, but of opposite sign, to the SCC effect of Northern Hemisphere cooling. While there are many other potentially relevant economic impact channels, the AMOC carbon feedback alone could thus flip the consequences of AMOC weakening into a net cost to society.",
+  "authors": [
+    {
+      "fullName": "Schaumann F",
+      "lastName": "Schaumann",
+      "firstName": "Felix",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6826-0517"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Economics, Center for Earth System Research and Sustainability, University of Hamburg, Hamburg 20146, Germany."
+          },
+          {
+            "affiliation": "International Max Planck Research School on Earth System Modelling, Max Planck Institute for Meteorology, Hamburg 20146, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Alastrué de Asenjo E",
+      "lastName": "Alastrué de Asenjo",
+      "firstName": "Eduardo",
+      "initials": "E",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9720-0257"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "International Max Planck Research School on Earth System Modelling, Max Planck Institute for Meteorology, Hamburg 20146, Germany."
+          },
+          {
+            "affiliation": "Institute of Oceanography, Center for Earth System Research and Sustainability, University of Hamburg, Hamburg 20146, Germany."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-02-24",
+  "journal": "",
+  "doi": "10.1073/pnas.2419543122",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1073/pnas.2419543122"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11892582"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11892582?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC11892582"
+}

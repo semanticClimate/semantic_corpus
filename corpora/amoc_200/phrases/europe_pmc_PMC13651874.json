@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13651874",
+  "phrases": [
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south korea",
+      "display": "South Korea",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "characteristics of east asian",
+      "display": "Characteristics of East Asian",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paris agreement",
+      "display": "Paris Agreement",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east",
+      "display": "East",
+      "score": 1.35,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jja",
+      "display": "JJA",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asia",
+      "display": "Asia",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "extreme precipitation",
+      "score": 0.0495,
+      "channel": "tfidf",
+      "display": "Extreme precipitation"
+    },
+    {
+      "phrase": "net zero",
+      "score": 0.0421,
+      "channel": "tfidf",
+      "display": "net zero"
+    },
+    {
+      "phrase": "peak co2",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "peak CO2"
+    },
+    {
+      "phrase": "extreme precipitation events",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Extreme precipitation events"
+    },
+    {
+      "phrase": "precipitation events",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "precipitation events"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

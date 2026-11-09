@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12112331",
+  "phrases": [
+    {
+      "phrase": "department of obstetrics and gynecology",
+      "display": "Department of Obstetrics and Gynecology",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "honestly significant difference",
+      "display": "Honestly Significant Difference",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "seahorse bioanalyzer",
+      "display": "Seahorse Bioanalyzer",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cancer genome atlas",
+      "display": "Cancer Genome Atlas",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dimensional cell cultures of ovarian surface epithelium cell and ovarian carcinoma cell lines",
+      "display": "Dimensional Cell Cultures of Ovarian Surface Epithelium Cell and Ovarian Carcinoma Cell Lines",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "article fatty acid metabolism regulators have pivotal roles",
+      "display": "Article Fatty Acid Metabolism Regulators Have Pivotal Roles",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of cellular physiology and signal transduction",
+      "display": "Department of Cellular Physiology and Signal Transduction",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hose",
+      "display": "HOSE",
+      "score": 2.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocr",
+      "display": "OCR",
+      "score": 2.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc-2",
+      "score": 0.0465,
+      "channel": "tfidf",
+      "display": "AMOC-2"
+    },
+    {
+      "phrase": "spheroids",
+      "score": 0.0446,
+      "channel": "tfidf",
+      "display": "spheroids"
+    },
+    {
+      "phrase": "fabp4",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "FABP4"
+    },
+    {
+      "phrase": "fabp5",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "FABP5"
+    },
+    {
+      "phrase": "eoc",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "EOC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

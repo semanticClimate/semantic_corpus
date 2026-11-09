@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590664",
+  "phrases": [
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 4.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "beaufort gyre",
+      "display": "Beaufort Gyre",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fram strait",
+      "display": "Fram Strait",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spna",
+      "display": "SPNA",
+      "score": 3.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 2.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern spna",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "eastern SPNA"
+    },
+    {
+      "phrase": "anthropogenic freshening",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "anthropogenic freshening"
+    },
+    {
+      "phrase": "eccov4r4",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "ECCOv4r4"
+    },
+    {
+      "phrase": "spna salinity",
+      "score": 0.0332,
+      "channel": "tfidf",
+      "display": "SPNA salinity"
+    },
+    {
+      "phrase": "liquid freshwater",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "liquid freshwater"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

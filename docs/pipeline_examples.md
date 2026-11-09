@@ -28,15 +28,15 @@ Europe PMC search `AMOC`, cap **30** hits, build the bipartite graph and open **
 | `--target` | `clusters` | Plan through map |
 | `--kg` | on (default) | Write/open plain display KG |
 
-**Plan:** `collect → corpus → phrases → clusters` (+ KG₁).
+**Plan:** `search → collect (paper:*) → corpus → phrases → clusters` (+ KG₁).
 
 During **collect**, titles scroll in a live terminal window as each EPMC paper
-downloads (`+` new, `=` already on disk).
+downloads (`+` new, `=` already on disk). Files are flat under `--workdir`
+(`PMC….json|.xml|.pdf|.pdf.xml`).
 
 **Artifacts**
 
-- Corpus: `corpora/amoc_30/`
-- Harvest: `temp/queries/amoc_30/`
+- Corpus: `corpora/amoc_30/` (flat paper files + `search_results.json`)
 - Graph HTML: `corpora/amoc_30/kg/knowledge_graph.html`
 
 **Remake** (ignore skip-if-done):

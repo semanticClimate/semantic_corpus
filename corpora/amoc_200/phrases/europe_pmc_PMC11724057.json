@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11724057",
+  "phrases": [
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "source data",
+      "display": "Source Data",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "weather rev",
+      "display": "Weather Rev",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international best track archive for climate stewardship",
+      "display": "International Best Track Archive for Climate Stewardship",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "meridional overturning circulation and heatflux array",
+      "display": "Meridional Overturning Circulation and Heatflux Array",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gs",
+      "display": "GS",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gsr",
+      "display": "GSR",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pdi",
+      "display": "PDI",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hurricane",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "Hurricane"
+    },
+    {
+      "phrase": "hurricanes",
+      "score": 0.0445,
+      "channel": "tfidf",
+      "display": "Hurricanes"
+    },
+    {
+      "phrase": "eddy field",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "eddy field"
+    },
+    {
+      "phrase": "eddies",
+      "score": 0.0422,
+      "channel": "tfidf",
+      "display": "Eddies"
+    },
+    {
+      "phrase": "eddy",
+      "score": 0.0414,
+      "channel": "tfidf",
+      "display": "Eddy"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

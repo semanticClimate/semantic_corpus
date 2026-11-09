@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11441504",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states national science foundation award",
+      "display": "United States National Science Foundation Award",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of earth and planetary sciences",
+      "display": "Department of Earth and Planetary Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of california riverside",
+      "display": "University of California Riverside",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "beaufort sea and chukchi sea",
+      "display": "Beaufort Sea and Chukchi Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador and greenland seas",
+      "display": "Labrador and Greenland Seas",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 2.29,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic amplification",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "Arctic Amplification"
+    },
+    {
+      "phrase": "fixed amoc",
+      "score": 0.039,
+      "channel": "tfidf",
+      "display": "fixed AMOC"
+    },
+    {
+      "phrase": "aet",
+      "score": 0.0352,
+      "channel": "tfidf",
+      "display": "AET"
+    },
+    {
+      "phrase": "free fixed",
+      "score": 0.0352,
+      "channel": "tfidf",
+      "display": "free fixed"
+    },
+    {
+      "phrase": "arctic warming",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "Arctic warming"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

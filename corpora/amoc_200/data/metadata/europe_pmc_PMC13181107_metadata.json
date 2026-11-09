@@ -1,0 +1,42 @@
+{
+  "pmcid": "PMC13181107",
+  "pmid": "41922595",
+  "title": "An evaluation of a Bayesian method to track outbreaks of known and novel influenza-like illnesses.",
+  "abstract": "Tracking influenza and similar respiratory diseases is an important problem in public health and clinical medicine. The problem is complicated by the clinical similarity and co-occurrence of many of these illnesses. Additionally, recent history has shown that detecting new or reemergent diseases, such as COVID-19, is of paramount importance. This paper describes the design and testing of a system called ILI Tracker that is capable of tracking known influenza-like illnesses and early and accurately detecting the presence of a novel disease, such as COVID-19. We extracted clinical findings from 2.9M clinical records from five emergency departments using natural language processing. We constructed statistical models of six influenza-like illnesses for the first five years of the dataset and then used these models and a Bayesian filter to track the rates of these diseases in the five remaining years of data. We found significant daily correlation with the number of patients who were diagnosed with influenza and respiratory syncytial virus, but lower correlation with the other tracked diseases. We extended ILI Tracker to detect the presence of a novel, unmodeled disease, resulting in a strong signal near the beginning of the COVID-19 outbreak, and also in response to artificial injections of COVID-19 cases into case data streams, and known outbreaks of influenza and RSV treated as novel, unmodeled diseases. Our results suggest that ILI Tracker can detect the presence of a novel, unmodeled disease in a timely fashion with few false alarms. The ILI Tracker system is freely available.",
+  "authors": [
+    "Aronis JM",
+    "Ye Y",
+    "Espino J",
+    "Michaels MG",
+    "Hochheiser H",
+    "Cooper GF"
+  ],
+  "publication_date": "2026-04-01",
+  "journal": "",
+  "doi": "10.1038/s41598-026-45934-y",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41598-026-45934-y"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13181107"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13181107?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

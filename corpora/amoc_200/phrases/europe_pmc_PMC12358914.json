@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12358914",
+  "phrases": [
+    {
+      "phrase": "creative commons attribution",
+      "display": "Creative Commons Attribution",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "felix schaumann and eduardo",
+      "display": "Felix Schaumann and Eduardo",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "correction for schaumann",
+      "display": "Correction for Schaumann",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "published august",
+      "display": "Published August",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "carbon feedback",
+      "display": "Carbon Feedback",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asenjo",
+      "display": "Asenjo",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "by",
+      "display": "BY",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "value means",
+      "score": 0.1433,
+      "channel": "tfidf",
+      "display": "value means"
+    },
+    {
+      "phrase": "value means persistence",
+      "score": 0.1433,
+      "channel": "tfidf",
+      "display": "value means persistence"
+    },
+    {
+      "phrase": "means persistence",
+      "score": 0.1433,
+      "channel": "tfidf",
+      "display": "means persistence"
+    },
+    {
+      "phrase": "persistence",
+      "score": 0.11,
+      "channel": "tfidf",
+      "display": "persistence"
+    },
+    {
+      "phrase": "carbon uptake increases",
+      "score": 0.1017,
+      "channel": "tfidf",
+      "display": "carbon uptake increases"
+    },
+    {
+      "phrase": "increases social",
+      "score": 0.1017,
+      "channel": "tfidf",
+      "display": "increases social"
+    },
+    {
+      "phrase": "increases social cost",
+      "score": 0.1017,
+      "channel": "tfidf",
+      "display": "increases social cost"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

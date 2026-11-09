@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10857529",
+  "phrases": [
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemispheric",
+      "display": "Northern Hemispheric",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fovs",
+      "display": "FovS",
+      "score": 1.83,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fovs minimum",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "FovS minimum"
+    },
+    {
+      "phrase": "tipping",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "Tipping"
+    },
+    {
+      "phrase": "fh",
+      "score": 0.0333,
+      "channel": "tfidf",
+      "display": "FH"
+    },
+    {
+      "phrase": "freshwater",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "Freshwater"
+    },
+    {
+      "phrase": "amoc tipping",
+      "score": 0.0323,
+      "channel": "tfidf",
+      "display": "AMOC tipping"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

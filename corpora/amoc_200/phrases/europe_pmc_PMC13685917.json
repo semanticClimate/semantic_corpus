@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13685917",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 4.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ito and follows",
+      "display": "Ito and Follows",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "massachusetts institute of technology",
+      "display": "Massachusetts Institute of Technology",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "center for sustainability science and strategy",
+      "display": "Center for Sustainability Science and Strategy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "interglacial interglacial interglacial glacial",
+      "display": "Interglacial Interglacial Interglacial Glacial",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "interglacial glacial glacial changes in csol",
+      "display": "Interglacial Glacial Glacial Changes in Csol",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "glacial",
+      "display": "Glacial",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.35,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern",
+      "display": "Southern",
+      "score": 1.31,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "disequilibrium",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "disequilibrium"
+    },
+    {
+      "phrase": "cdisb",
+      "score": 0.0416,
+      "channel": "tfidf",
+      "display": "CdisB"
+    },
+    {
+      "phrase": "glacial reference",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "glacial reference"
+    },
+    {
+      "phrase": "biological disequilibrium",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Biological disequilibrium"
+    },
+    {
+      "phrase": "pco2 atm",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Pco2 atm"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

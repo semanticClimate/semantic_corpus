@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11736101",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 5.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "barents sea opening",
+      "display": "Barents Sea Opening",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean heat content",
+      "display": "Ocean Heat Content",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of bern",
+      "display": "University of Bern",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 5.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spg",
+      "display": "SPG",
+      "score": 1.84,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "air-sea heat flux",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "air-sea heat flux"
+    },
+    {
+      "phrase": "spg sst",
+      "score": 0.0451,
+      "channel": "tfidf",
+      "display": "SPG SST"
+    },
+    {
+      "phrase": "heat flux anomalies",
+      "score": 0.0444,
+      "channel": "tfidf",
+      "display": "heat flux anomalies"
+    },
+    {
+      "phrase": "air-sea heat",
+      "score": 0.0439,
+      "channel": "tfidf",
+      "display": "air-sea heat"
+    },
+    {
+      "phrase": "spg sst index",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "SPG SST index"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

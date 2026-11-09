@@ -1,0 +1,42 @@
+{
+  "pmcid": "PMC12988993",
+  "pmid": "41831088",
+  "title": "Improving coastal water level estimation by merging nadir-only satellite altimetry data into a hydrodynamic model.",
+  "abstract": "Providing robust real-time flood warnings is of paramount importance to coastal communities. Although state-of-the-art hydrodynamic models are capable of robustly predicting coastal water levels (CWL), unresolved drivers affecting water level fluctuations are often not represented by the model governing equations. This work evaluates a novel method to improve the performance of the ADvanced CIRCulation (ADCIRC) hydrodynamic model by assimilating observations from four nadir-only satellite altimetry missions with a set of National Oceanic and Atmospheric Administration (NOAA) gauge stations located across the entire U.S. East Coast. Two different types of simulations were performed - open loop (OL) and data assimilation (DA). Five different simulations were performed in which four different satellite altimetry observations were assimilated individually and under two different scenarios - with and without considering the data quality flags. Results indicate that, despite their limited spatial coverage, merging nadir-only observations into ADCIRC from thenadir altimeter of the Surface Water and Ocean Topography (SWOT) can improve the model performance at 76% of the gauge locations, whereas Sentinel-6 improves it at 73% of the total locations, Jason-3 at 74%, and SARAL at 21%. Furthermore, combining observations from SWOT-nadir, Jason-3, and Sentinel-6 can improve the ADCIRC performance at more than 80% of the gauge locations for a 107-day simulation. Nadir-only satellite altimetry observations can be useful for improving the model performance even if flagged as \"poor quality\" near the coast. When the flagged data are disregarded, SWOT can improve ADCIRC at 78% of the gauge locations, Sentinel-6 at 73%, Jason-3 at 53%, and SARAL at 21%. The ability to improve the model simulations largely depends on the availability of a nearby satellite overpass. Therefore, model performance can be further enhanced if satellite observations are available during a storm surge event, stressing the importance of frequent satellite overpasses. RESEARCH HIGHLIGHTS: Nadir-only satellite altimetry improves storm surge model performance. Model skill increases when overpasses capture surge events. Multi-mission altimetry assimilation yields the highest overall accuracy.",
+  "authors": [
+    "Bhuiyan SA",
+    "De Lima AS",
+    "Miesse T",
+    "Henke M",
+    "Ferreira C",
+    "Maggioni V"
+  ],
+  "publication_date": "2026-03-14",
+  "journal": "",
+  "doi": "10.1007/s10661-026-15166-8",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1007/s10661-026-15166-8"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12988993"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12988993?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

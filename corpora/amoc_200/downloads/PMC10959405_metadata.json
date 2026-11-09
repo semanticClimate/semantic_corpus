@@ -1,0 +1,125 @@
+{
+  "pmcid": "PMC10959405",
+  "pmid": "38517955",
+  "title": "Multistability and intermediate tipping of the Atlantic Ocean circulation.",
+  "abstract": "Tipping points (TP) in climate subsystems are usually thought to occur at a well-defined, critical forcing parameter threshold, via destabilization of the system state by a single, dominant positive feedback. However, coupling to other subsystems, additional feedbacks, and spatial heterogeneity may promote further small-amplitude, abrupt reorganizations of geophysical flows at forcing levels lower than the critical threshold. Using a primitive-equation ocean model, we simulate a collapse of the Atlantic Meridional Overturning Circulation (AMOC) due to increasing glacial melt. Considerably before the collapse, various abrupt, qualitative changes in AMOC variability occur. These intermediate tipping points (ITP) are transitions between multiple stable circulation states. Using 2.75 million years of model simulations, we uncover a very rugged stability landscape featuring parameter regions of up to nine coexisting stable states. The path to an AMOC collapse via a sequence of ITPs depends on the rate of change of the meltwater input. This challenges our ability to predict and define safe limits for TPs.",
+  "authors": [
+    {
+      "fullName": "Lohmann J",
+      "lastName": "Lohmann",
+      "firstName": "Johannes",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6323-6243"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dijkstra HA",
+      "lastName": "Dijkstra",
+      "firstName": "Henk A",
+      "initials": "HA",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute for Marine and Atmospheric research Utrecht, Utrecht University, Utrecht, Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jochum M",
+      "lastName": "Jochum",
+      "firstName": "Markus",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2690-3139"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lucarini V",
+      "lastName": "Lucarini",
+      "firstName": "Valerio",
+      "initials": "V",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9392-1471"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Centre for the Mathematics of Planet Earth, University of Reading, Reading, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ditlevsen PD",
+      "lastName": "Ditlevsen",
+      "firstName": "Peter D",
+      "initials": "PD",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2120-7732"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Denmark."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2024-03-22",
+  "journal": "",
+  "doi": "10.1126/sciadv.adi4253",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Unpaywall",
+      "url": "https://www.science.org/doi/pdf/10.1126/sciadv.adi4253?download=true"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.adi4253"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10959405"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10959405?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC10959405"
+}

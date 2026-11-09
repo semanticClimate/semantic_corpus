@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13645622",
+  "phrases": [
+    {
+      "phrase": "agulhas leakage",
+      "display": "Agulhas Leakage",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian ocean",
+      "display": "Indian Ocean",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "caribbean sea",
+      "display": "Caribbean Sea",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "al",
+      "display": "AL",
+      "score": 2.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stf",
+      "display": "STF",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mis m2",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "MIS M2"
+    },
+    {
+      "phrase": "mpwp",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "mPWP"
+    },
+    {
+      "phrase": "site u1475",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "Site U1475"
+    },
+    {
+      "phrase": "pliocene",
+      "score": 0.0358,
+      "channel": "tfidf",
+      "display": "Pliocene"
+    },
+    {
+      "phrase": "agulhas",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Agulhas"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

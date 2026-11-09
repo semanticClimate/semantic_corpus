@@ -1,0 +1,269 @@
+{
+  "pmcid": "PMC11707078",
+  "pmid": "39774637",
+  "title": "Tipping point-induced abrupt shifts in East Asian hydroclimate since the Last Glacial Maximum.",
+  "abstract": "Multiple tipping points in the Earth system could be triggered when global warming exceeds specific thresholds. However, the degree of their impact on the East Asian hydroclimate remains uncertain due to the lack of quantitative rainfall records. Here we present an ensemble reconstruction of East Asian summer monsoon (EASM) rainfall since the Last Glacial Maximum (LGM) using nine statistical and machine learning methods based on multi-proxy records from a maar lake in southern China. Our results define five tipping points in the EASM rainfall since the LGM, which are characterized by abrupt and irreversible regime shifts with a median amplitude of 387 ± 73 mm (24 ± 5 %). Combined with multi-model simulations and existing records, we attribute these tipping points to cascades of abrupt shifts in the Atlantic meridional overturning circulation (AMOC) and Saharan vegetation. Our findings underscore the nonlinear behavior of the EASM and its coupling with other tipping elements.",
+  "authors": [
+    {
+      "fullName": "Lu F",
+      "lastName": "Lu",
+      "firstName": "Fuzhi",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0939-9324"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lu H",
+      "lastName": "Lu",
+      "firstName": "Huayu",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6306-6985"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China. huayulu@nju.edu.cn."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gu Y",
+      "lastName": "Gu",
+      "firstName": "Yao",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lin P",
+      "lastName": "Lin",
+      "firstName": "Pengyu",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0003-6043-2913"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lu Z",
+      "lastName": "Lu",
+      "firstName": "Zhengyao",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5911-7110"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physical Geography and Ecosystem Science, Lund University, Lund, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang Q",
+      "lastName": "Zhang",
+      "firstName": "Qiong",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9137-2883"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physical Geography and Bolin Centre for Climate Research, Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang H",
+      "lastName": "Zhang",
+      "firstName": "Hongyan",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4656-5245"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang F",
+      "lastName": "Yang",
+      "firstName": "Fan",
+      "initials": "F",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dong X",
+      "lastName": "Dong",
+      "firstName": "Xiaoyi",
+      "initials": "X",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yi S",
+      "lastName": "Yi",
+      "firstName": "Shuangwen",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Chen D",
+      "lastName": "Chen",
+      "firstName": "Deliang",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0288-5618"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Regional Climate Group, Department of Earth Sciences, University of Gothenburg, Gothenburg, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pausata FSR",
+      "lastName": "Pausata",
+      "firstName": "Francesco S R",
+      "initials": "FSR",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5182-8420"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Atmospheric Sciences, University of Quebec in Montreal, Montreal, QC, Canada."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ben-Yami M",
+      "lastName": "Ben-Yami",
+      "firstName": "Maya",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7355-8318"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Modelling, School of Engineering and Design, Technical University of Munich, Munich, Germany."
+          },
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research, Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mecking JV",
+      "lastName": "Mecking",
+      "firstName": "Jennifer V",
+      "initials": "JV",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1834-1845"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Oceanography Centre, Southampton, UK."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-01-08",
+  "journal": "",
+  "doi": "10.1038/s41467-025-55888-w",
+  "full_text_urls": [
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "pdf",
+      "site": "Unpaywall",
+      "url": "https://www.nature.com/articles/s41467-025-55888-w.pdf"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-025-55888-w"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11707078"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11707078?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC11707078"
+}

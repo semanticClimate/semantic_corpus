@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11725785",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 5.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of washington",
+      "display": "University of Washington",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "significance the atlantic meridional overturning circulation",
+      "display": "Significance The Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation camille hankel",
+      "display": "Atlantic Meridional Overturning Circulation Camille Hankel",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of atmospheric and climate science",
+      "display": "Department of Atmospheric and Climate Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.47,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ramping",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "ramping"
+    },
+    {
+      "phrase": "rapid experiment",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "rapid experiment"
+    },
+    {
+      "phrase": "ramping experiment",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "ramping experiment"
+    },
+    {
+      "phrase": "rapid ramping",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "rapid ramping"
+    },
+    {
+      "phrase": "ramping experiments",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "ramping experiments"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

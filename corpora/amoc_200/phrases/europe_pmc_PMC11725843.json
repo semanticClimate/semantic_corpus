@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11725843",
+  "phrases": [
+    {
+      "phrase": "electron microscopy data bank",
+      "display": "Electron Microscopy Data Bank",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "protein data bank",
+      "display": "Protein Data Bank",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "native membranes",
+      "display": "Native Membranes",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "containing membranes",
+      "display": "Containing Membranes",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "access and training",
+      "display": "Access and Training",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national center",
+      "display": "National Center",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acta cryst",
+      "display": "Acta Cryst",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amo",
+      "display": "AMO",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "si",
+      "display": "SI",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "emd",
+      "display": "EMD",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pmmo",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "pMMO"
+    },
+    {
+      "phrase": "membranes",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "Membranes"
+    },
+    {
+      "phrase": "cryoem",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "cryoEM"
+    },
+    {
+      "phrase": "cu",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "Cu"
+    },
+    {
+      "phrase": "native",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "Native"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

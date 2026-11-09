@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13381650",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 3.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south american",
+      "display": "South American",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.79,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "b-p",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "B-P"
+    },
+    {
+      "phrase": "b-p ventilation",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "B-P ventilation"
+    },
+    {
+      "phrase": "ventilation ages",
+      "score": 0.0452,
+      "channel": "tfidf",
+      "display": "Ventilation ages"
+    },
+    {
+      "phrase": "b-p ventilation ages",
+      "score": 0.0417,
+      "channel": "tfidf",
+      "display": "B-P ventilation ages"
+    },
+    {
+      "phrase": "ventilation",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "Ventilation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

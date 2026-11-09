@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13121742",
+  "phrases": [
+    {
+      "phrase": "brazil current",
+      "display": "Brazil Current",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic circumpolar current",
+      "display": "Antarctic Circumpolar Current",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scripps institution of oceanography",
+      "display": "Scripps Institution of Oceanography",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atmos ocean tech",
+      "display": "Atmos Ocean Tech",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "front mar sci",
+      "display": "Front Mar Sci",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "geophys res",
+      "display": "Geophys Res",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "xbt",
+      "display": "XBT",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acc",
+      "display": "ACC",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eac",
+      "display": "EAC",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "transects",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "transects"
+    },
+    {
+      "phrase": "transect",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "Transect"
+    },
+    {
+      "phrase": "com scientificdata",
+      "score": 0.0317,
+      "channel": "tfidf",
+      "display": "com scientificdata"
+    },
+    {
+      "phrase": "nature com scientificdata",
+      "score": 0.0317,
+      "channel": "tfidf",
+      "display": "nature com scientificdata"
+    },
+    {
+      "phrase": "scientificdata",
+      "score": 0.0317,
+      "channel": "tfidf",
+      "display": "scientificdata"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

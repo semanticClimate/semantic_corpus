@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13674081",
+  "phrases": [
+    {
+      "phrase": "supporting information and methods",
+      "display": "Supporting Information and Methods",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "growth conditions and nitrification inhibitor preparation nitrososphaera",
+      "display": "Growth Conditions and Nitrification Inhibitor Preparation Nitrososphaera",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "article common nitrification inhibitors exhibit distinct mechanisms",
+      "display": "Article Common Nitrification Inhibitors Exhibit Distinct Mechanisms",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "addition shows immediate transcriptional responses the",
+      "display": "Addition Shows Immediate Transcriptional Responses The",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "comparative omics reveal differences in responses",
+      "display": "Comparative Omics Reveal Differences in Responses",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "models for inhibition and cellular responses",
+      "display": "Models for Inhibition and Cellular Responses",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "active site of ammonia monooxygenase the",
+      "display": "Active Site of Ammonia Monooxygenase The",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dmpp",
+      "display": "DMPP",
+      "score": 3.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atu",
+      "display": "ATU",
+      "score": 2.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aoa",
+      "display": "AOA",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dmpp atu",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "dmpp atu"
+    },
+    {
+      "phrase": "copper",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "Copper"
+    },
+    {
+      "phrase": "viennensis",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "viennensis"
+    },
+    {
+      "phrase": "cultures",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Cultures"
+    },
+    {
+      "phrase": "proteins",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "Proteins"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

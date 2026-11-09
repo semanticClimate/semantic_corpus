@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12303098",
+  "phrases": [
+    {
+      "phrase": "republic of china",
+      "display": "Republic of China",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "euler maruyama",
+      "display": "Euler Maruyama",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wei chen",
+      "display": "Wei Chen",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "creative commons attribution license",
+      "display": "Creative Commons Attribution License",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "informatics and behavioral semantics",
+      "display": "Informatics and Behavioral Semantics",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "school of artificial intelligence",
+      "display": "School of Artificial Intelligence",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dl",
+      "display": "DL",
+      "score": 2.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dev",
+      "display": "DEV",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lstm",
+      "display": "LSTM",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dl algorithm",
+      "score": 0.0505,
+      "channel": "tfidf",
+      "display": "DL algorithm"
+    },
+    {
+      "phrase": "bifurcation",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "Bifurcation"
+    },
+    {
+      "phrase": "bifurcation parameter",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "bifurcation parameter"
+    },
+    {
+      "phrase": "irregularly sampled",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "irregularly sampled"
+    },
+    {
+      "phrase": "tipping points prediction",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "tipping points prediction"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

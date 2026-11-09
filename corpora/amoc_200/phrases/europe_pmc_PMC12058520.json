@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12058520",
+  "phrases": [
+    {
+      "phrase": "creative commons attribution",
+      "display": "Creative Commons Attribution",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international license",
+      "display": "International License",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "continued atlantic",
+      "display": "Continued Atlantic",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "author correction",
+      "display": "Author Correction",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "open access this",
+      "display": "Open Access This",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bering strait",
+      "display": "Bering Strait",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wood in",
+      "display": "Wood In",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pmoc",
+      "display": "PMOC",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "commons",
+      "display": "Commons",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "licence",
+      "score": 0.0822,
+      "channel": "tfidf",
+      "display": "licence"
+    },
+    {
+      "phrase": "article",
+      "score": 0.078,
+      "channel": "tfidf",
+      "display": "article"
+    },
+    {
+      "phrase": "models pmoc",
+      "score": 0.0777,
+      "channel": "tfidf",
+      "display": "models pmoc"
+    },
+    {
+      "phrase": "models pmoc does",
+      "score": 0.0777,
+      "channel": "tfidf",
+      "display": "models pmoc does"
+    },
+    {
+      "phrase": "pmoc does",
+      "score": 0.0777,
+      "channel": "tfidf",
+      "display": "PMOC does"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,121 @@
+{
+  "pmcid": "PMC13284520",
+  "pmid": "40866482",
+  "title": "A call for caution in the biological interpretation of viral auxiliary metabolic genes.",
+  "abstract": "Virus-encoded auxiliary metabolic genes (AMGs) are non-essential genes that increase viral fitness by maintaining or manipulating host metabolism during infection. AMGs are intriguing from an evolutionary perspective, as most viral genomes are highly compact and have limited coding capacity for accessory genes. Advances in viral (meta)genomics have expanded the detection of putative AMGs from viruses in diverse environments. However, this has also led to many instances of misannotation due to the limitations of annotation tools, resulting in misinterpretations about the roles of some viral genes. Here, we highlight studies that support claims about AMGs with more than just function predictions for guidance on best practices. We then propose the adoption of an expanded, inclusive view of all genes auxiliary to core viral functions with the term 'auxiliary viral genes' (AVGs), alongside an associated eco-evolutionary framework for considering the types of analyses that can better support claims made about AVGs.",
+  "authors": [
+    {
+      "fullName": "Martin C",
+      "lastName": "Martin",
+      "firstName": "Cody",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7610-9537"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Bacteriology, University of Wisconsin-Madison, Madison, WI, USA."
+          },
+          {
+            "affiliation": "Microbiology Doctoral Training Program, University of Wisconsin-Madison, Madison, WI, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Emerson JB",
+      "lastName": "Emerson",
+      "firstName": "Joanne B",
+      "initials": "JB",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9983-5566"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Plant Pathology, University of California, Davis, Davis, CA, USA. jbemerson@ucdavis.edu."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Roux S",
+      "lastName": "Roux",
+      "firstName": "Simon",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5831-5895"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "DOE Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. sroux@lbl.gov."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Anantharaman K",
+      "lastName": "Anantharaman",
+      "firstName": "Karthik",
+      "initials": "K",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9584-2491"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Bacteriology, University of Wisconsin-Madison, Madison, WI, USA. karthik@bact.wisc.edu."
+          },
+          {
+            "affiliation": "Department of Integrative Biology, University of Wisconsin-Madison, Madison, WI, USA. karthik@bact.wisc.edu."
+          },
+          {
+            "affiliation": "Department of Data Science and AI, Indian Institute of Technology Madras, Chennai, India. karthik@bact.wisc.edu."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-08-27",
+  "journal": "",
+  "doi": "10.1038/s41564-025-02095-4",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41564-025-02095-4"
+    },
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13284520"
+    },
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13284520?pdf=render"
+    },
+    {
+      "availability": "Free",
+      "availabilityCode": "F",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41564-025-02095-4"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "N",
+  "paper_id": "PMC13284520"
+}

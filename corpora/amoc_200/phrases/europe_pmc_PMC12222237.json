@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12222237",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ditlevsen and ditlevsen",
+      "display": "Ditlevsen and Ditlevsen",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of miami",
+      "display": "University of Miami",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nat clim chang",
+      "display": "Nat Clim Chang",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sci adv",
+      "display": "Sci Adv",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pathways introduction the atlantic meridional overturning circulation",
+      "display": "Pathways Introduction The Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "leonard and jayne abess center for ecosystem science and policy",
+      "display": "Leonard and Jayne Abess Center for Ecosystem Science and Policy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.82,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "circulation",
+      "display": "Circulation",
+      "score": 1.05,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "adaptation",
+      "score": 0.0523,
+      "channel": "tfidf",
+      "display": "Adaptation"
+    },
+    {
+      "phrase": "adaptation planning",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "Adaptation planning"
+    },
+    {
+      "phrase": "planning",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "Planning"
+    },
+    {
+      "phrase": "solution space",
+      "score": 0.0422,
+      "channel": "tfidf",
+      "display": "solution space"
+    },
+    {
+      "phrase": "climate risks",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "climate risks"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

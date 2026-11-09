@@ -1,0 +1,150 @@
+{
+  "pmcid": "PMC12542656",
+  "pmid": "40990482",
+  "title": "Targeted assembly recovers high ammonia monooxygenase diversity in mudflat intertides.",
+  "abstract": "Microbial communities in the Earth's biosphere mediate various biogeochemical cycling processes that are essential to maintain ecosystem multi-functioning and stability via the functional genes they carry. Although progress is being made, obtaining high-quality sequence data sets for microbial functional genes in complex environments remains challenging, both technically and in terms of computational resources required. In this study, using the <i>amo</i> gene family encoding ammonia monooxygenase as an example, we aimed to recover important microbial functional genes from shotgun metagenomes via targeted assembly. Comparing to conventional assembly approaches such as single-sample and multi-sample assembly, targeted assembly recovered much higher <i>amo</i> gene diversity while requiring substantially less computational resource and shorter running time. In addition, <i>amo</i> genes recovered by targeted assembly were found with fewer chimeras. Meanwhile, more <i>amo</i> operons were recovered. Not only were the commonly known <i>amoABC</i> subunits observed, but also the less commonly found subunits, like <i>amoX</i> and <i>amoE</i>. Notably, the archaeal <i>amoA</i> subunits recovered by targeted assembly represented the most \"super-clades\" for ammonia monooxygenase, including NT-α, NT-γ, NP-γ, NP-ζ, and NP-η, demonstrating the advantage of targeted assembly over conventional approaches. Comparable spatial patterns, such as taxa-area and distance-decay relationships, were also observed for the recovered <i>amo</i> assemblages. This study demonstrated an efficient route to recover microbial functional genes from shotgun metagenomes with minimal computational resource and running time.IMPORTANCEMicrobial communities play critical roles in the Earth's biosphere by mediating various biogeochemical cycles of essential elements and maintaining ecosystem stability and multi-functioning through the functional genes they carry. However, recovering the key functional genes from such complex communities remains challenging. Both advantages and limitations exist for different technologies. In this study, using the <i>amo</i> gene family as an example, we show that targeted assembly enables accurate and rapid recovery of high-quality <i>amo</i> sequences from shotgun metagenomes, consuming minimal computational resources and running time. Compared to conventional full-assembly approaches, the <i>amo</i> sequences recovered by targeted assembly are found with more operons, higher (phylo)genetic diversity, and fewer chimeras. This study provides an efficient alternative route for recovering microbial functional genes, particularly when computational resources are limited.",
+  "authors": [
+    {
+      "fullName": "Wang M",
+      "lastName": "Wang",
+      "firstName": "Mengqi",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0003-5611-2634"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Song W",
+      "lastName": "Song",
+      "firstName": "Wen",
+      "initials": "W",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhou J",
+      "lastName": "Zhou",
+      "firstName": "Jiayin",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1365-6012"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ji M",
+      "lastName": "Ji",
+      "firstName": "Mengzhi",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4855-6441"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ma K",
+      "lastName": "Ma",
+      "firstName": "Kai",
+      "initials": "K",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li Y",
+      "lastName": "Li",
+      "firstName": "Yan",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tu Q",
+      "lastName": "Tu",
+      "firstName": "Qichao",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3245-7545"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Science and Technology, Shandong University, Qingdao, Shandong, China."
+          },
+          {
+            "affiliation": "Shandong Key Laboratory of Intelligent Marine Engineering Geology, Environment and Equipment, Qingdao, Shandong, China."
+          },
+          {
+            "affiliation": "Southern Marine Science and Engineering Guangdong Laboratory, Zhuhai, Guangdong, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-09-24",
+  "journal": "",
+  "doi": "10.1128/msystems.00620-25",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1128/msystems.00620-25"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12542656"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12542656?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12542656"
+}

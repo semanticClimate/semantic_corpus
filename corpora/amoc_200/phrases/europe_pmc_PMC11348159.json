@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11348159",
+  "phrases": [
+    {
+      "phrase": "laguna llaviucu",
+      "display": "Laguna Llaviucu",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic cold reversal",
+      "display": "Antarctic Cold Reversal",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tropical andes",
+      "display": "Tropical Andes",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acr",
+      "display": "ACR",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "llaviucu",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "Llaviucu"
+    },
+    {
+      "phrase": "andes",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Andes"
+    },
+    {
+      "phrase": "cal bp",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "cal BP"
+    },
+    {
+      "phrase": "laguna",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "Laguna"
+    },
+    {
+      "phrase": "alkanes",
+      "score": 0.0343,
+      "channel": "tfidf",
+      "display": "Alkanes"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

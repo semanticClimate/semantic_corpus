@@ -1,0 +1,155 @@
+{
+  "pmcid": "PMC10468057",
+  "pmid": "37647314",
+  "title": "Large-scale sea ice-Surface temperature variability linked to Atlantic meridional overturning circulation.",
+  "abstract": "Due to its involvement in numerous feedbacks, sea ice plays a crucial role not only for polar climate but also at global scale. We analyse state-of-the-art observed, reconstructed, and modelled sea-ice concentration (SIC) together with sea surface temperature (SST) to disentangle the influence of different forcing factors on the variability of these coupled fields. Canonical Correlation Analysis provides distinct pairs of coupled Arctic SIC-Atlantic SST variability which are linked to prominent oceanic and atmospheric modes of variability over the period 1854-2017. The first pair captures the behaviour of the Atlantic meridional overturning circulation (AMOC) while the third and can be associated with the North Atlantic Oscillation (NAO) in a physically consistent manner. The dominant global SIC-Atlantic SST coupled mode highlights the contrast between the responses of Arctic and Antarctic sea ice to changes in AMOC over the 1959-2021 period. Model results indicate that coupled SST-SIC patterns can be associated with changes in ocean circulation. We conclude that a correct representation of AMOC-induced coupled SST-SIC variability in climate models is essential to understand the past, present and future sea-ice evolution.",
+  "authors": [
+    {
+      "fullName": "Vaideanu P",
+      "lastName": "Vaideanu",
+      "firstName": "Petru",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1291-8383"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          },
+          {
+            "affiliation": "Faculty of Physics, University of Bucharest, Bucharest, Romania."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Stepanek C",
+      "lastName": "Stepanek",
+      "firstName": "Christian",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dima M",
+      "lastName": "Dima",
+      "firstName": "Mihai",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          },
+          {
+            "affiliation": "Faculty of Physics, University of Bucharest, Bucharest, Romania."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Schrepfer J",
+      "lastName": "Schrepfer",
+      "firstName": "Jule",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0004-5505-8899"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Matos F",
+      "lastName": "Matos",
+      "firstName": "Fernanda",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6355-7514"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ionita M",
+      "lastName": "Ionita",
+      "firstName": "Monica",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          },
+          {
+            "affiliation": "Emil Racovita Institute of Speleology, Romanian Academy, Cluj-Napoca, Romania."
+          },
+          {
+            "affiliation": "Faculty of Forestry,\" Stefan cel Mare\" University of Suceava, Suceava, Romania."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lohmann G",
+      "lastName": "Lohmann",
+      "firstName": "Gerrit",
+      "initials": "G",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          },
+          {
+            "affiliation": "MARUM & Department of Environmental Physics, University of Bremen, Bremen, Germany."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2023-08-30",
+  "journal": "",
+  "doi": "10.1371/journal.pone.0290437",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0290437"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10468057"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10468057?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC10468057"
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590659",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "royal society",
+      "display": "Royal Society",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "le bras",
+      "display": "Le Bras",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean sci",
+      "display": "Ocean Sci",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.95,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "doi rsta",
+      "score": 0.0385,
+      "channel": "tfidf",
+      "display": "doi rsta"
+    },
+    {
+      "phrase": "meeting",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "meeting"
+    },
+    {
+      "phrase": "trans soc doi",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "trans soc doi"
+    },
+    {
+      "phrase": "soc doi rsta",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "soc doi rsta"
+    },
+    {
+      "phrase": "soc doi",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "soc doi"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

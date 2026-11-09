@@ -22,13 +22,13 @@ The current `kg` step hard-codes document incidence (`clusters` / paper↔term).
 End-to-end flow of the components above:
 
 ```text
-1. Collect documents
-      bring document containers into the corpus
+1. Search + collect documents     [doit: search → paper:{id} → collect]
+      flat files under --workdir: {id}.json|.xml|.pdf|.pdf.xml
       (few large docs e.g. IPCC, or many papers e.g. EPMC)
         │
 2. Corpus (gate + indexes)
-      ensure BAGIT corpus; ensure text components have structural
-      packet indexes (if not already indexed in source)
+      ensure corpus (flat or legacy BAGIT); ensure text components have
+      structural packet indexes (if not already indexed in source)
         │
 3. Terms
       traverse indexed packet texts → extract if required  (extracted)
@@ -48,10 +48,12 @@ End-to-end flow of the components above:
       optional --kg → **KG₂** (annotated display; may add Wikidata links)
 ```
 
+Packet text cascade: `{id}.xml` → `{id}.pdf.xml` → abstract in `{id}.json`.
+
 | Design step | Inputs | Outputs |
 |-------------|--------|---------|
-| **Collect documents** | live search, local paths, … | document **containers** in the corpus |
-| **Corpus** (+ indexes) | containers (+ source structure) | valid bag **and** **packets** with stable addresses |
+| **Collect documents** | live search, local paths, … | flat document files / containers in the corpus |
+| **Corpus** (+ indexes) | containers (+ source structure) | corpus root **and** **packets** with stable addresses |
 | Terms | packets and/or authority lexicons | term set (`extracted` and/or `authority`) |
 | **Map** (`clusters`) | terms × packet texts | bipartite BKG + communities; optional **KG₁** via `--kg` |
 | **Curate** (`clean`) | clusters-stage graph | fewer FP terms/packets |
@@ -203,6 +205,22 @@ Mappers do **not** invent packet boundaries or own HTML.
 |--------|-------------|----------|
 | Europe PMC JATS/XML | section/paragraph ids from XML | whole-document packet (today) → later sequential paras |
 | IPCC | numbered paragraphs / figure captions in source | chapter containment + sequence |
+
+**EPMC content streams** (independent; a 500 disables **only** that stream):
+
+| Stream | Role | On 500 |
+|--------|------|--------|
+| **JSON** | search + `*_metadata.json` (title/abstract) | Job cannot collect — stop |
+| **XML** | publisher `fullTextXML` | Discontinue XML; keep JSON/PDF |
+| **PDF** | OA PDF mirrors | Discontinue PDF; keep JSON/XML |
+
+If **XML is blocked** but PDF is available → **Docling PDF → XML** (then phrase/packet text can use that XML).
+
+**Packet text payload cascade** (when resolving bytes for a body packet / phrases; first non-empty wins):
+
+1. **XML** — valid publisher/JATS or Docling-made XML (optional section selector)
+2. **PDF** — Docling HTML sidecar / convert when needed
+3. **JSON abstract** — from `*_metadata.json`
 
 ## 3. Mapper catalogue
 

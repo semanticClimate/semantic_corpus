@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12540930",
+  "phrases": [
+    {
+      "phrase": "sorghum rhizosphere the",
+      "display": "Sorghum Rhizosphere The",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "enagbonma and babalola",
+      "display": "Enagbonma and Babalola",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "west university",
+      "display": "West University",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "babalola and enagbonma",
+      "display": "Babalola and Enagbonma",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south africa",
+      "display": "South Africa",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "faculty of natural and agricultural sciences",
+      "display": "Faculty of Natural and Agricultural Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nocardioides and solirubrobacter",
+      "display": "Nocardioides and Solirubrobacter",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "oc",
+      "display": "OC",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nmds",
+      "display": "NMDS",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "anova",
+      "display": "ANOVA",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sorghum",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "Sorghum"
+    },
+    {
+      "phrase": "cowpea",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "Cowpea"
+    },
+    {
+      "phrase": "soybean",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "soybean"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0416,
+      "channel": "tfidf",
+      "display": "Soil"
+    },
+    {
+      "phrase": "cropping",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Cropping"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

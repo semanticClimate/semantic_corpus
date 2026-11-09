@@ -2,7 +2,7 @@
   "step": 3,
   "params": {
     "algorithm": "louvain",
-    "resolution": 1.0,
+    "resolution": 0.35,
     "min_cluster_papers": 2,
     "seed": 42,
     "phrase_method": "tfidf",
@@ -12,9 +12,7 @@
     "europe_pmc_PMC13058606",
     "europe_pmc_PMC13448930",
     "europe_pmc_PMC13398485",
-    "europe_pmc_PMC13634050",
-    "europe_pmc_PMC13281800",
-    "europe_pmc_PMC13002991"
+    "europe_pmc_PMC13634050"
   ],
   "terms": [
     "amo",
@@ -71,33 +69,8 @@
     "planck institute for meteorology",
     "srf",
     "sx",
-    "toa",
-    "arctic ocean",
-    "ec",
-    "ec-earth3",
-    "global tipping points report",
-    "greenland",
-    "greenland meltwater",
-    "irminger and nordic seas",
-    "large ensemble",
-    "meltwater",
-    "ramp-down",
-    "scotland ridge",
-    "sixth assessment report",
-    "sverdrups",
-    "berkeley earth",
-    "berkeley earth surface temperatures",
-    "diss mere",
-    "dynamically consistent",
-    "europe",
-    "internal",
-    "ipsl",
-    "multi-centennial",
-    "multi-centennial variability",
-    "northern europe",
-    "spectral",
-    "variability"
+    "toa"
   ],
-  "paper_count": 6,
-  "term_count": 80
+  "paper_count": 4,
+  "term_count": 55
 }

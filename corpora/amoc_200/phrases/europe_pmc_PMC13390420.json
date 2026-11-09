@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13390420",
+  "phrases": [
+    {
+      "phrase": "elbe estuary",
+      "display": "Elbe Estuary",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hamburg harbor",
+      "display": "Hamburg Harbor",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north sea",
+      "display": "North Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "megaviricetes and maverivicetes",
+      "display": "Megaviricetes and Maverivicetes",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peter grossart",
+      "display": "Peter Grossart",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "length text",
+      "display": "Length Text",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "elbe river",
+      "display": "Elbe River",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "elbe",
+      "display": "Elbe",
+      "score": 1.23,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "estuary",
+      "display": "Estuary",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "viral",
+      "score": 0.0472,
+      "channel": "tfidf",
+      "display": "Viral"
+    },
+    {
+      "phrase": "viruses",
+      "score": 0.0448,
+      "channel": "tfidf",
+      "display": "Viruses"
+    },
+    {
+      "phrase": "viral communities",
+      "score": 0.0359,
+      "channel": "tfidf",
+      "display": "viral communities"
+    },
+    {
+      "phrase": "host",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "Host"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "Genes"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

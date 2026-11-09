@@ -1,0 +1,1898 @@
+phrase,display,n_papers,best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake,best_score,score_channel,paper_ids
+north atlantic,North Atlantic,126,10.6,126,,0,,0,10.6,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10368695;europe_pmc_PMC10397207;europe_pmc_PMC10468057;europe_pmc_PMC10517999;europe_pmc_PMC10590659;europe_pmc_PMC10590660;europe_pmc_PMC10590661;europe_pmc_PMC10590662;europe_pmc_PMC10590663;europe_pmc_PMC10590664;europe_pmc_PMC10590665;europe_pmc_PMC10590667;europe_pmc_PMC10590668;europe_pmc_PMC10590669;europe_pmc_PMC10590670;europe_pmc_PMC10619932;europe_pmc_PMC10724135;europe_pmc_PMC10762259;europe_pmc_PMC10853552;europe_pmc_PMC10857529;europe_pmc_PMC10899452;europe_pmc_PMC10960852;europe_pmc_PMC11101628;europe_pmc_PMC11204210;europe_pmc_PMC11291662;europe_pmc_PMC11315899;europe_pmc_PMC11348159;europe_pmc_PMC11349912;europe_pmc_PMC11377814;europe_pmc_PMC11414737;europe_pmc_PMC11441504;europe_pmc_PMC11551322;europe_pmc_PMC11554733;europe_pmc_PMC11578178;europe_pmc_PMC11605065;europe_pmc_PMC11608347;europe_pmc_PMC11618512;europe_pmc_PMC11624277;europe_pmc_PMC11668834;europe_pmc_PMC11697416;europe_pmc_PMC11707078;europe_pmc_PMC11724057;europe_pmc_PMC11725785;europe_pmc_PMC11736101;europe_pmc_PMC11864975;europe_pmc_PMC11882673;europe_pmc_PMC11885369;europe_pmc_PMC11892582;europe_pmc_PMC11958772;europe_pmc_PMC11968791;europe_pmc_PMC12006024;europe_pmc_PMC12019781;europe_pmc_PMC12049274;europe_pmc_PMC12064605;europe_pmc_PMC12064707;europe_pmc_PMC12095383;europe_pmc_PMC12125170;europe_pmc_PMC12131001;europe_pmc_PMC12136024;europe_pmc_PMC12149303;europe_pmc_PMC12167945;europe_pmc_PMC12214639;europe_pmc_PMC12222509;europe_pmc_PMC12248306;europe_pmc_PMC12263849;europe_pmc_PMC12284099;europe_pmc_PMC12354891;europe_pmc_PMC12379145;europe_pmc_PMC12494007;europe_pmc_PMC12518680;europe_pmc_PMC12534462;europe_pmc_PMC12572293;europe_pmc_PMC12612620;europe_pmc_PMC12617517;europe_pmc_PMC12662202;europe_pmc_PMC12749622;europe_pmc_PMC12753843;europe_pmc_PMC12757042;europe_pmc_PMC12780181;europe_pmc_PMC12820267;europe_pmc_PMC12835000;europe_pmc_PMC12871447;europe_pmc_PMC12890832;europe_pmc_PMC12959411;europe_pmc_PMC12976318;europe_pmc_PMC13002991;europe_pmc_PMC13018559;europe_pmc_PMC13031658;europe_pmc_PMC13060603;europe_pmc_PMC13082334;europe_pmc_PMC13108545;europe_pmc_PMC13109349;europe_pmc_PMC13201857;europe_pmc_PMC13260390;europe_pmc_PMC13281800;europe_pmc_PMC13319204;europe_pmc_PMC13342563;europe_pmc_PMC13373228;europe_pmc_PMC13376509;europe_pmc_PMC13376600;europe_pmc_PMC13377125;europe_pmc_PMC13381650;europe_pmc_PMC13388704;europe_pmc_PMC13392445;europe_pmc_PMC13398485;europe_pmc_PMC13418535;europe_pmc_PMC13434758;europe_pmc_PMC13440228;europe_pmc_PMC13458837;europe_pmc_PMC13473526;europe_pmc_PMC13477475;europe_pmc_PMC13478603;europe_pmc_PMC13488926;europe_pmc_PMC13490444;europe_pmc_PMC13538684;europe_pmc_PMC13578706;europe_pmc_PMC13598196;europe_pmc_PMC13620149;europe_pmc_PMC13630551;europe_pmc_PMC13638462;europe_pmc_PMC13645622;europe_pmc_PMC13651883;europe_pmc_PMC13665990;europe_pmc_PMC13715440;europe_pmc_PMC9985640
+amoc,AMOC,94,5.9,94,,0,,0,5.9,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10368695;europe_pmc_PMC10397207;europe_pmc_PMC10468057;europe_pmc_PMC10517999;europe_pmc_PMC10590659;europe_pmc_PMC10590660;europe_pmc_PMC10590661;europe_pmc_PMC10590662;europe_pmc_PMC10590663;europe_pmc_PMC10590664;europe_pmc_PMC10590665;europe_pmc_PMC10590667;europe_pmc_PMC10590668;europe_pmc_PMC10590670;europe_pmc_PMC10619932;europe_pmc_PMC10724135;europe_pmc_PMC10762259;europe_pmc_PMC10857529;europe_pmc_PMC10899452;europe_pmc_PMC10959405;europe_pmc_PMC10960852;europe_pmc_PMC10999273;europe_pmc_PMC11204210;europe_pmc_PMC11291662;europe_pmc_PMC11294534;europe_pmc_PMC11296338;europe_pmc_PMC11347556;europe_pmc_PMC11349912;europe_pmc_PMC11377814;europe_pmc_PMC11441504;europe_pmc_PMC11551322;europe_pmc_PMC11554733;europe_pmc_PMC11578178;europe_pmc_PMC11605065;europe_pmc_PMC11618512;europe_pmc_PMC11624277;europe_pmc_PMC11668834;europe_pmc_PMC11697416;europe_pmc_PMC11707078;europe_pmc_PMC11725785;europe_pmc_PMC11736101;europe_pmc_PMC11818019;europe_pmc_PMC11864975;europe_pmc_PMC11885369;europe_pmc_PMC11892582;europe_pmc_PMC11968791;europe_pmc_PMC12019781;europe_pmc_PMC12049274;europe_pmc_PMC12058520;europe_pmc_PMC12064605;europe_pmc_PMC12083515;europe_pmc_PMC12095383;europe_pmc_PMC12112331;europe_pmc_PMC12136024;europe_pmc_PMC12167945;europe_pmc_PMC12222237;europe_pmc_PMC12263849;europe_pmc_PMC12284099;europe_pmc_PMC12354891;europe_pmc_PMC12358914;europe_pmc_PMC12534462;europe_pmc_PMC12612620;europe_pmc_PMC12617517;europe_pmc_PMC12749622;europe_pmc_PMC12757042;europe_pmc_PMC12871447;europe_pmc_PMC12945690;europe_pmc_PMC12959411;europe_pmc_PMC13002991;europe_pmc_PMC13060603;europe_pmc_PMC13082334;europe_pmc_PMC13108545;europe_pmc_PMC13281800;europe_pmc_PMC13281819;europe_pmc_PMC13319204;europe_pmc_PMC13342563;europe_pmc_PMC13376509;europe_pmc_PMC13377125;europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13440228;europe_pmc_PMC13448930;europe_pmc_PMC13454564;europe_pmc_PMC13473526;europe_pmc_PMC13478603;europe_pmc_PMC13488926;europe_pmc_PMC13538684;europe_pmc_PMC13598196;europe_pmc_PMC13634050;europe_pmc_PMC13638462;europe_pmc_PMC13645622;europe_pmc_PMC13665990;europe_pmc_PMC9985640
+atlantic meridional overturning circulation,Atlantic Meridional Overturning Circulation,72,2.9,72,,0,,0,2.9,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10517999;europe_pmc_PMC10573315;europe_pmc_PMC10590659;europe_pmc_PMC10590661;europe_pmc_PMC10590664;europe_pmc_PMC10590665;europe_pmc_PMC10590668;europe_pmc_PMC10590670;europe_pmc_PMC10724135;europe_pmc_PMC10762259;europe_pmc_PMC10853552;europe_pmc_PMC10959405;europe_pmc_PMC11294534;europe_pmc_PMC11296338;europe_pmc_PMC11347556;europe_pmc_PMC11349912;europe_pmc_PMC11375078;europe_pmc_PMC11551322;europe_pmc_PMC11605065;europe_pmc_PMC11618512;europe_pmc_PMC11624277;europe_pmc_PMC11668834;europe_pmc_PMC11697416;europe_pmc_PMC11725785;europe_pmc_PMC11736101;europe_pmc_PMC11864975;europe_pmc_PMC11892582;europe_pmc_PMC11968791;europe_pmc_PMC12006024;europe_pmc_PMC12019781;europe_pmc_PMC12064605;europe_pmc_PMC12095353;europe_pmc_PMC12095383;europe_pmc_PMC12167945;europe_pmc_PMC12222237;europe_pmc_PMC12248306;europe_pmc_PMC12284099;europe_pmc_PMC12303098;europe_pmc_PMC12309139;europe_pmc_PMC12354891;europe_pmc_PMC12494007;europe_pmc_PMC12534462;europe_pmc_PMC12612620;europe_pmc_PMC12748715;europe_pmc_PMC12749622;europe_pmc_PMC12871447;europe_pmc_PMC13002991;europe_pmc_PMC13031658;europe_pmc_PMC13060603;europe_pmc_PMC13082334;europe_pmc_PMC13281800;europe_pmc_PMC13319204;europe_pmc_PMC13342563;europe_pmc_PMC13376509;europe_pmc_PMC13377125;europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13440228;europe_pmc_PMC13454564;europe_pmc_PMC13477475;europe_pmc_PMC13478603;europe_pmc_PMC13488926;europe_pmc_PMC13538684;europe_pmc_PMC13598196;europe_pmc_PMC13634050;europe_pmc_PMC13645622;europe_pmc_PMC13651874;europe_pmc_PMC13665990;europe_pmc_PMC13685917;europe_pmc_PMC13715440;europe_pmc_PMC9985640
+atlantic,Atlantic,43,2.31,43,,0,,0,2.31,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10517999;europe_pmc_PMC10573315;europe_pmc_PMC10590659;europe_pmc_PMC10590660;europe_pmc_PMC10590661;europe_pmc_PMC10619932;europe_pmc_PMC10762259;europe_pmc_PMC10857529;europe_pmc_PMC11101628;europe_pmc_PMC11347556;europe_pmc_PMC11375078;europe_pmc_PMC11441504;europe_pmc_PMC11578178;europe_pmc_PMC11608347;europe_pmc_PMC11618512;europe_pmc_PMC11725785;europe_pmc_PMC11747105;europe_pmc_PMC11882673;europe_pmc_PMC11885369;europe_pmc_PMC12064707;europe_pmc_PMC12136024;europe_pmc_PMC12222237;europe_pmc_PMC12222509;europe_pmc_PMC12263849;europe_pmc_PMC12354891;europe_pmc_PMC12494007;europe_pmc_PMC12518680;europe_pmc_PMC12749622;europe_pmc_PMC12757042;europe_pmc_PMC12780181;europe_pmc_PMC12820267;europe_pmc_PMC12871447;europe_pmc_PMC12959411;europe_pmc_PMC13109349;europe_pmc_PMC13201857;europe_pmc_PMC13260390;europe_pmc_PMC13381650;europe_pmc_PMC13392445;europe_pmc_PMC13473526;europe_pmc_PMC13538684;europe_pmc_PMC13616910;europe_pmc_PMC9985640
+northern hemisphere,Northern Hemisphere,37,3.5,37,,0,,0,3.5,uppercase,europe_pmc_PMC10590668;europe_pmc_PMC10857529;europe_pmc_PMC10999273;europe_pmc_PMC11204210;europe_pmc_PMC11554733;europe_pmc_PMC11697416;europe_pmc_PMC11707078;europe_pmc_PMC11818019;europe_pmc_PMC11892582;europe_pmc_PMC11962120;europe_pmc_PMC12047422;europe_pmc_PMC12049274;europe_pmc_PMC12131001;europe_pmc_PMC12149303;europe_pmc_PMC12284099;europe_pmc_PMC12354891;europe_pmc_PMC12572293;europe_pmc_PMC12680610;europe_pmc_PMC12749622;europe_pmc_PMC12787522;europe_pmc_PMC12859089;europe_pmc_PMC12871447;europe_pmc_PMC12959411;europe_pmc_PMC13127594;europe_pmc_PMC13148317;europe_pmc_PMC13342563;europe_pmc_PMC13376600;europe_pmc_PMC13377125;europe_pmc_PMC13398485;europe_pmc_PMC13434758;europe_pmc_PMC13454564;europe_pmc_PMC13458837;europe_pmc_PMC13578706;europe_pmc_PMC13594180;europe_pmc_PMC13630551;europe_pmc_PMC13639189;europe_pmc_PMC13645875
+southern ocean,Southern Ocean,35,10.8,35,,0,,0,10.8,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10573315;europe_pmc_PMC10590669;europe_pmc_PMC10899452;europe_pmc_PMC10959405;europe_pmc_PMC10960852;europe_pmc_PMC11204210;europe_pmc_PMC11231327;europe_pmc_PMC11375078;europe_pmc_PMC11414737;europe_pmc_PMC11668834;europe_pmc_PMC11747105;europe_pmc_PMC11864975;europe_pmc_PMC11958772;europe_pmc_PMC11962120;europe_pmc_PMC11968791;europe_pmc_PMC12064605;europe_pmc_PMC12125170;europe_pmc_PMC12167945;europe_pmc_PMC12271382;europe_pmc_PMC12354891;europe_pmc_PMC12534462;europe_pmc_PMC12572293;europe_pmc_PMC12617517;europe_pmc_PMC12890832;europe_pmc_PMC12959411;europe_pmc_PMC12988150;europe_pmc_PMC13109349;europe_pmc_PMC13121742;europe_pmc_PMC13381650;europe_pmc_PMC13440228;europe_pmc_PMC13490444;europe_pmc_PMC13598196;europe_pmc_PMC13645622;europe_pmc_PMC13685917
+labrador sea,Labrador Sea,19,12.5,19,,0,,0,12.5,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10590659;europe_pmc_PMC10590662;europe_pmc_PMC10590667;europe_pmc_PMC10590669;europe_pmc_PMC10762259;europe_pmc_PMC10959405;europe_pmc_PMC11101628;europe_pmc_PMC11349912;europe_pmc_PMC11578178;europe_pmc_PMC11605065;europe_pmc_PMC12757042;europe_pmc_PMC12780181;europe_pmc_PMC12820267;europe_pmc_PMC13082334;europe_pmc_PMC13201857;europe_pmc_PMC13620149;europe_pmc_PMC13638462;europe_pmc_PMC13665990
+atlantic ocean,Atlantic Ocean,19,2.3,19,,0,,0,2.3,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10517999;europe_pmc_PMC10590663;europe_pmc_PMC10724135;europe_pmc_PMC10857529;europe_pmc_PMC10999273;europe_pmc_PMC11231327;europe_pmc_PMC11349912;europe_pmc_PMC11551322;europe_pmc_PMC11618512;europe_pmc_PMC11864975;europe_pmc_PMC12136024;europe_pmc_PMC12263849;europe_pmc_PMC12572293;europe_pmc_PMC12617517;europe_pmc_PMC12749622;europe_pmc_PMC12896705;europe_pmc_PMC13381650;europe_pmc_PMC13638462
+sst,SST,18,3.72,18,,0,,0,3.72,uppercase,europe_pmc_PMC10368695;europe_pmc_PMC10468057;europe_pmc_PMC10590668;europe_pmc_PMC10724135;europe_pmc_PMC11101628;europe_pmc_PMC11608347;europe_pmc_PMC11736101;europe_pmc_PMC11958772;europe_pmc_PMC11962120;europe_pmc_PMC12006024;europe_pmc_PMC12136024;europe_pmc_PMC12149303;europe_pmc_PMC12271382;europe_pmc_PMC12518680;europe_pmc_PMC13031658;europe_pmc_PMC13538684;europe_pmc_PMC13594180;europe_pmc_PMC13651883
+arctic ocean,Arctic Ocean,15,5.5,15,,0,,0,5.5,uppercase,europe_pmc_PMC10573315;europe_pmc_PMC10590664;europe_pmc_PMC10619932;europe_pmc_PMC11291662;europe_pmc_PMC11349912;europe_pmc_PMC11441504;europe_pmc_PMC11554733;europe_pmc_PMC11736101;europe_pmc_PMC11962120;europe_pmc_PMC12095383;europe_pmc_PMC12248306;europe_pmc_PMC13108545;europe_pmc_PMC13281800;europe_pmc_PMC13373228;europe_pmc_PMC13665990
+southern hemisphere,Southern Hemisphere,15,2.2,15,,0,,0,2.2,uppercase,europe_pmc_PMC10857529;europe_pmc_PMC11375078;europe_pmc_PMC11554733;europe_pmc_PMC11747105;europe_pmc_PMC12149303;europe_pmc_PMC12617517;europe_pmc_PMC12787522;europe_pmc_PMC12859089;europe_pmc_PMC12959411;europe_pmc_PMC13377125;europe_pmc_PMC13598196;europe_pmc_PMC13639189;europe_pmc_PMC13645622;europe_pmc_PMC13645875;europe_pmc_PMC9985640
+north,North,15,1.94,15,,0,,0,1.94,uppercase,europe_pmc_PMC10590659;europe_pmc_PMC10999273;europe_pmc_PMC11101628;europe_pmc_PMC11725785;europe_pmc_PMC11882673;europe_pmc_PMC11885369;europe_pmc_PMC12047422;europe_pmc_PMC12518680;europe_pmc_PMC12780181;europe_pmc_PMC12871447;europe_pmc_PMC12976318;europe_pmc_PMC13201857;europe_pmc_PMC13392445;europe_pmc_PMC13434758;europe_pmc_PMC13473526
+nordic seas,Nordic Seas,14,5.4,14,,0,,0,5.4,uppercase,europe_pmc_PMC10590664;europe_pmc_PMC10590667;europe_pmc_PMC10590669;europe_pmc_PMC11347556;europe_pmc_PMC11578178;europe_pmc_PMC12248306;europe_pmc_PMC12757042;europe_pmc_PMC12820267;europe_pmc_PMC13082334;europe_pmc_PMC13109349;europe_pmc_PMC13201857;europe_pmc_PMC13260390;europe_pmc_PMC13376600;europe_pmc_PMC13665990
+north atlantic ocean,North Atlantic Ocean,14,3.0,14,,0,,0,3.0,uppercase,europe_pmc_PMC10573315;europe_pmc_PMC10590664;europe_pmc_PMC11101628;europe_pmc_PMC11554733;europe_pmc_PMC11724057;europe_pmc_PMC11736101;europe_pmc_PMC12136024;europe_pmc_PMC12518680;europe_pmc_PMC12871447;europe_pmc_PMC12896705;europe_pmc_PMC12945690;europe_pmc_PMC13440228;europe_pmc_PMC13458837;europe_pmc_PMC13638462
+south atlantic,South Atlantic,14,2.9,14,,0,,0,2.9,uppercase,europe_pmc_PMC10468057;europe_pmc_PMC10590663;europe_pmc_PMC10590670;europe_pmc_PMC10857529;europe_pmc_PMC11668834;europe_pmc_PMC11725785;europe_pmc_PMC11747105;europe_pmc_PMC12149303;europe_pmc_PMC12222509;europe_pmc_PMC12749622;europe_pmc_PMC12926746;europe_pmc_PMC12959411;europe_pmc_PMC13082334;europe_pmc_PMC9985640
+gulf stream,Gulf Stream,13,5.7,13,,0,,0,5.7,uppercase,europe_pmc_PMC10590661;europe_pmc_PMC10590663;europe_pmc_PMC11315899;europe_pmc_PMC11377814;europe_pmc_PMC11724057;europe_pmc_PMC12006024;europe_pmc_PMC12083515;europe_pmc_PMC12214639;europe_pmc_PMC12222509;europe_pmc_PMC12945690;europe_pmc_PMC13031658;europe_pmc_PMC13260390;europe_pmc_PMC13392445
+last glacial maximum,Last Glacial Maximum,13,1.9,13,,0,,0,1.9,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10619932;europe_pmc_PMC10999273;europe_pmc_PMC11414737;europe_pmc_PMC11551322;europe_pmc_PMC11747105;europe_pmc_PMC12263849;europe_pmc_PMC12534462;europe_pmc_PMC12835000;europe_pmc_PMC12890832;europe_pmc_PMC13376600;europe_pmc_PMC13454564;europe_pmc_PMC13488926
+east asian,East Asian,11,2.3,11,,0,,0,2.3,uppercase,europe_pmc_PMC11707078;europe_pmc_PMC12149303;europe_pmc_PMC12379145;europe_pmc_PMC12753843;europe_pmc_PMC12835000;europe_pmc_PMC12859089;europe_pmc_PMC13148317;europe_pmc_PMC13408133;europe_pmc_PMC13565125;europe_pmc_PMC13594180;europe_pmc_PMC13651874
+yd,YD,10,2.96,8,0.0322,2,,0,2.96,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC11291662;europe_pmc_PMC11348159;europe_pmc_PMC11707078;europe_pmc_PMC12757042;europe_pmc_PMC12859089;europe_pmc_PMC12976318;europe_pmc_PMC13127594;europe_pmc_PMC13260390;europe_pmc_PMC13454564
+ocean,Ocean,10,2.71,8,0.0316,2,,0,2.71,uppercase,europe_pmc_PMC10517999;europe_pmc_PMC10573315;europe_pmc_PMC11231327;europe_pmc_PMC11375078;europe_pmc_PMC11414737;europe_pmc_PMC11962120;europe_pmc_PMC12748715;europe_pmc_PMC12890832;europe_pmc_PMC13381650;europe_pmc_PMC13685917
+earth planet,Earth Planet,10,2.0,10,,0,,0,2.0,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10960852;europe_pmc_PMC11348159;europe_pmc_PMC11551322;europe_pmc_PMC12354891;europe_pmc_PMC12662202;europe_pmc_PMC12753843;europe_pmc_PMC12859089;europe_pmc_PMC12959411;europe_pmc_PMC13341793
+tibetan plateau,Tibetan Plateau,9,4.1,9,,0,,0,4.1,uppercase,europe_pmc_PMC10960852;europe_pmc_PMC11697416;europe_pmc_PMC11707078;europe_pmc_PMC12047422;europe_pmc_PMC12131001;europe_pmc_PMC12379145;europe_pmc_PMC13565125;europe_pmc_PMC13578706;europe_pmc_PMC13594180
+younger dryas,Younger Dryas,9,3.8,9,,0,,0,3.8,uppercase,europe_pmc_PMC10999273;europe_pmc_PMC11291662;europe_pmc_PMC11348159;europe_pmc_PMC12263849;europe_pmc_PMC12757042;europe_pmc_PMC12976318;europe_pmc_PMC13127594;europe_pmc_PMC13454564;europe_pmc_PMC13639189
+chinese academy of sciences,Chinese Academy of Sciences,9,1.5,9,,0,,0,1.5,uppercase,europe_pmc_PMC11204210;europe_pmc_PMC11697416;europe_pmc_PMC12131001;europe_pmc_PMC12680610;europe_pmc_PMC12844351;europe_pmc_PMC12998224;europe_pmc_PMC13319204;europe_pmc_PMC13565125;europe_pmc_PMC13578706
+north america,North America,8,3.7,8,,0,,0,3.7,uppercase,europe_pmc_PMC10999273;europe_pmc_PMC12047422;europe_pmc_PMC12049274;europe_pmc_PMC12518680;europe_pmc_PMC12662202;europe_pmc_PMC12787522;europe_pmc_PMC13127594;europe_pmc_PMC13342563
+north pacific,North Pacific,8,3.4,8,,0,,0,3.4,uppercase,europe_pmc_PMC10590668;europe_pmc_PMC10960852;europe_pmc_PMC11375078;europe_pmc_PMC12976318;europe_pmc_PMC13031658;europe_pmc_PMC13108545;europe_pmc_PMC13473526;europe_pmc_PMC13651874
+lgm,LGM,8,2.5,7,0.0319,1,,0,2.5,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC10590670;europe_pmc_PMC10619932;europe_pmc_PMC11414737;europe_pmc_PMC11551322;europe_pmc_PMC11707078;europe_pmc_PMC12534462;europe_pmc_PMC13639189
+indian ocean,Indian Ocean,8,2.3,8,,0,,0,2.3,uppercase,europe_pmc_PMC11578178;europe_pmc_PMC11668834;europe_pmc_PMC12680610;europe_pmc_PMC12748715;europe_pmc_PMC13082334;europe_pmc_PMC13148317;europe_pmc_PMC13639189;europe_pmc_PMC13645622
+united states,United States,7,3.1,7,,0,,0,3.1,uppercase,europe_pmc_PMC10999273;europe_pmc_PMC12049274;europe_pmc_PMC12083515;europe_pmc_PMC12640197;europe_pmc_PMC12998224;europe_pmc_PMC13132864;europe_pmc_PMC13342563
+sea,Sea,7,2.55,6,0.0331,1,,0,2.55,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10590669;europe_pmc_PMC10853552;europe_pmc_PMC11349912;europe_pmc_PMC11605065;europe_pmc_PMC12757042;europe_pmc_PMC13418535
+irminger sea,Irminger Sea,7,2.0,7,,0,,0,2.0,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10590662;europe_pmc_PMC10590669;europe_pmc_PMC10619932;europe_pmc_PMC11291662;europe_pmc_PMC11578178;europe_pmc_PMC11885369
+supplementary information,Supplementary Information,7,1.8,7,,0,,0,1.8,uppercase,europe_pmc_PMC11231327;europe_pmc_PMC11315899;europe_pmc_PMC12263849;europe_pmc_PMC12518680;europe_pmc_PMC12988150;europe_pmc_PMC13109349;europe_pmc_PMC13620149
+north atlantic deep water,North Atlantic Deep Water,7,1.7,7,,0,,0,1.7,uppercase,europe_pmc_PMC10517999;europe_pmc_PMC11551322;europe_pmc_PMC12284099;europe_pmc_PMC12534462;europe_pmc_PMC13109349;europe_pmc_PMC13260390;europe_pmc_PMC13490444
+north atlantic oscillation,North Atlantic Oscillation,7,1.5,7,,0,,0,1.5,uppercase,europe_pmc_PMC10762259;europe_pmc_PMC11315899;europe_pmc_PMC11624277;europe_pmc_PMC12006024;europe_pmc_PMC12095383;europe_pmc_PMC12136024;europe_pmc_PMC13418535
+community earth system model,Community Earth System Model,7,1.4,7,,0,,0,1.4,uppercase,europe_pmc_PMC10857529;europe_pmc_PMC11414737;europe_pmc_PMC11624277;europe_pmc_PMC11668834;europe_pmc_PMC12945690;europe_pmc_PMC13490444;europe_pmc_PMC13538684
+monsoon,Monsoon,7,,0,0.048,7,,0,0.048,tfidf,europe_pmc_PMC11618512;europe_pmc_PMC12753843;europe_pmc_PMC12859089;europe_pmc_PMC13148317;europe_pmc_PMC13565125;europe_pmc_PMC13594180;europe_pmc_PMC13639189
+tipping,Tipping,7,,0,0.0418,7,,0,0.0418,tfidf,europe_pmc_PMC10857529;europe_pmc_PMC11294534;europe_pmc_PMC11296338;europe_pmc_PMC12095353;europe_pmc_PMC12095383;europe_pmc_PMC12749622;europe_pmc_PMC13715440
+south america,South America,6,2.5,6,,0,,0,2.5,uppercase,europe_pmc_PMC11348159;europe_pmc_PMC11618512;europe_pmc_PMC12047422;europe_pmc_PMC12787522;europe_pmc_PMC13381650;europe_pmc_PMC13454564
+arctic,Arctic,6,2.29,6,,0,,0,2.29,uppercase,europe_pmc_PMC10590664;europe_pmc_PMC11347556;europe_pmc_PMC11441504;europe_pmc_PMC12049274;europe_pmc_PMC12248306;europe_pmc_PMC13373228
+heinrich stadial,Heinrich Stadial,6,2.1,6,,0,,0,2.1,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC12263849;europe_pmc_PMC13381650;europe_pmc_PMC13440228;europe_pmc_PMC13454564;europe_pmc_PMC13488926
+holocene,Holocene,6,1.9,4,0.0338,2,,0,1.9,uppercase,europe_pmc_PMC12131001;europe_pmc_PMC12284099;europe_pmc_PMC12518680;europe_pmc_PMC12859089;europe_pmc_PMC13388704;europe_pmc_PMC13408133
+monte carlo,Monte Carlo,6,1.9,6,,0,,0,1.9,uppercase,europe_pmc_PMC11294534;europe_pmc_PMC11892582;europe_pmc_PMC12083515;europe_pmc_PMC13319204;europe_pmc_PMC13440228;europe_pmc_PMC13458837
+bp,BP,6,1.86,6,,0,,0,1.86,uppercase,europe_pmc_PMC11348159;europe_pmc_PMC12125170;europe_pmc_PMC12284099;europe_pmc_PMC12662202;europe_pmc_PMC12988150;europe_pmc_PMC13319204
+dna,DNA,6,1.52,6,,0,,0,1.52,uppercase,europe_pmc_PMC12502596;europe_pmc_PMC12844351;europe_pmc_PMC12998224;europe_pmc_PMC13132864;europe_pmc_PMC13390420;europe_pmc_PMC13636661
+earth syst,Earth Syst,6,1.5,6,,0,,0,1.5,uppercase,europe_pmc_PMC11375078;europe_pmc_PMC11818019;europe_pmc_PMC11968791;europe_pmc_PMC12617517;europe_pmc_PMC13538684;europe_pmc_PMC13630551
+intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,6,1.3,6,,0,,0,1.3,uppercase,europe_pmc_PMC10368695;europe_pmc_PMC10590659;europe_pmc_PMC11414737;europe_pmc_PMC13132864;europe_pmc_PMC13634050;europe_pmc_PMC9985640
+florida current,Florida Current,5,5.0,5,,0,,0,5.0,uppercase,europe_pmc_PMC10590663;europe_pmc_PMC10590670;europe_pmc_PMC11377814;europe_pmc_PMC12222509;europe_pmc_PMC12945690
+mis,MIS,5,2.6,5,,0,,0,2.6,uppercase,europe_pmc_PMC10853552;europe_pmc_PMC11697416;europe_pmc_PMC13109349;europe_pmc_PMC13458837;europe_pmc_PMC13578706
+south pacific,South Pacific,5,2.4,5,,0,,0,2.4,uppercase,europe_pmc_PMC11958772;europe_pmc_PMC12271382;europe_pmc_PMC12959411;europe_pmc_PMC13342563;europe_pmc_PMC13598196
+easm,EASM,5,2.3,5,,0,,0,2.3,uppercase,europe_pmc_PMC11707078;europe_pmc_PMC12379145;europe_pmc_PMC12753843;europe_pmc_PMC12835000;europe_pmc_PMC13148317
+pacific ocean,Pacific Ocean,5,2.3,5,,0,,0,2.3,uppercase,europe_pmc_PMC11578178;europe_pmc_PMC11864975;europe_pmc_PMC12271382;europe_pmc_PMC12748715;europe_pmc_PMC13341793
+al,AL,5,2.14,1,0.0372,4,,0,2.14,uppercase,europe_pmc_PMC11882673;europe_pmc_PMC11885369;europe_pmc_PMC12095353;europe_pmc_PMC12095383;europe_pmc_PMC13645622
+spg,SPG,5,2.1,5,,0,,0,2.1,uppercase,europe_pmc_PMC11296338;europe_pmc_PMC11736101;europe_pmc_PMC12095383;europe_pmc_PMC12494007;europe_pmc_PMC12820267
+soil,Soil,5,1.24,1,0.0416,4,,0,1.24,uppercase,europe_pmc_PMC12540930;europe_pmc_PMC12943728;europe_pmc_PMC13021576;europe_pmc_PMC13132864;europe_pmc_PMC13468015
+genes,Genes,5,,0,0.1446,5,,0,0.1446,tfidf,europe_pmc_PMC10876089;europe_pmc_PMC12542656;europe_pmc_PMC12943728;europe_pmc_PMC13284520;europe_pmc_PMC13390420
+fram strait,Fram Strait,4,6.6,4,,0,,0,6.6,uppercase,europe_pmc_PMC10590664;europe_pmc_PMC11347556;europe_pmc_PMC12248306;europe_pmc_PMC13373228
+amo,AMO,4,3.34,4,,0,,0,3.34,uppercase,europe_pmc_PMC11725843;europe_pmc_PMC12801151;europe_pmc_PMC12804982;europe_pmc_PMC13058606
+osnap,OSNAP,4,3.34,4,,0,,0,3.34,uppercase,europe_pmc_PMC10590667;europe_pmc_PMC10590669;europe_pmc_PMC11605065;europe_pmc_PMC13620149
+east asia,East Asia,4,3.3,4,,0,,0,3.3,uppercase,europe_pmc_PMC11707078;europe_pmc_PMC12047422;europe_pmc_PMC13408133;europe_pmc_PMC13651874
+tp,TP,4,2.98,4,,0,,0,2.98,uppercase,europe_pmc_PMC10960852;europe_pmc_PMC11697416;europe_pmc_PMC12131001;europe_pmc_PMC13021576
+acc,ACC,4,2.66,4,,0,,0,2.66,uppercase,europe_pmc_PMC11747105;europe_pmc_PMC11958772;europe_pmc_PMC12271382;europe_pmc_PMC13121742
+nadw,NADW,4,2.54,4,,0,,0,2.54,uppercase,europe_pmc_PMC10590669;europe_pmc_PMC12064707;europe_pmc_PMC13260390;europe_pmc_PMC13490444
+norwegian sea,Norwegian Sea,4,2.3,4,,0,,0,2.3,uppercase,europe_pmc_PMC10573315;europe_pmc_PMC12820267;europe_pmc_PMC13616910;europe_pmc_PMC13651883
+southern,Southern,4,2.24,4,,0,,0,2.24,uppercase,europe_pmc_PMC11231327;europe_pmc_PMC11375078;europe_pmc_PMC11962120;europe_pmc_PMC13685917
+paris agreement,Paris Agreement,4,2.2,4,,0,,0,2.2,uppercase,europe_pmc_PMC11294534;europe_pmc_PMC11818019;europe_pmc_PMC13630551;europe_pmc_PMC13651874
+antarctic circumpolar current,Antarctic Circumpolar Current,4,2.1,4,,0,,0,2.1,uppercase,europe_pmc_PMC11958772;europe_pmc_PMC12271382;europe_pmc_PMC13121742;europe_pmc_PMC13490444
+nordic,Nordic,4,1.64,2,0.036,2,,0,1.64,uppercase,europe_pmc_PMC12248306;europe_pmc_PMC12820267;europe_pmc_PMC13201857;europe_pmc_PMC13376600
+coupled model intercomparison project phase,Coupled Model Intercomparison Project Phase,4,1.5,4,,0,,0,1.5,uppercase,europe_pmc_PMC11624277;europe_pmc_PMC11968791;europe_pmc_PMC12534462;europe_pmc_PMC13376509
+europe,Europe,4,1.47,3,0.0321,1,,0,1.47,uppercase,europe_pmc_PMC12019781;europe_pmc_PMC12518680;europe_pmc_PMC13002991;europe_pmc_PMC13477475
+natl acad,Natl Acad,4,1.4,4,,0,,0,1.4,uppercase,europe_pmc_PMC10368695;europe_pmc_PMC11101628;europe_pmc_PMC12354891;europe_pmc_PMC13638462
+creative commons attribution,Creative Commons Attribution,4,1.1,4,,0,,0,1.1,uppercase,europe_pmc_PMC10959405;europe_pmc_PMC11296338;europe_pmc_PMC12058520;europe_pmc_PMC12358914
+climate,Climate,4,1.07,1,0.0917,3,,0,1.07,uppercase,europe_pmc_PMC10590661;europe_pmc_PMC12181172;europe_pmc_PMC12309139;europe_pmc_PMC12871447
+permafrost,Permafrost,4,,0,0.0462,4,,0,0.0462,tfidf,europe_pmc_PMC11697416;europe_pmc_PMC11818019;europe_pmc_PMC13376509;europe_pmc_PMC13630551
+pmmo,pMMO,4,,0,0.0458,4,,0,0.0458,tfidf,europe_pmc_PMC11725843;europe_pmc_PMC12801151;europe_pmc_PMC12804982;europe_pmc_PMC13058606
+volcanic,Volcanic,4,,0,0.0412,4,,0,0.0412,tfidf,europe_pmc_PMC12871447;europe_pmc_PMC13478603;europe_pmc_PMC13490444;europe_pmc_PMC13645875
+et,et,4,,0,0.0372,4,,0,0.0372,tfidf,europe_pmc_PMC11882673;europe_pmc_PMC11885369;europe_pmc_PMC12095353;europe_pmc_PMC12095383
+gs,GS,3,4.74,3,,0,,0,4.74,uppercase,europe_pmc_PMC11315899;europe_pmc_PMC11724057;europe_pmc_PMC12945690
+nordic sea,Nordic Sea,3,3.8,3,,0,,0,3.8,uppercase,europe_pmc_PMC10959405;europe_pmc_PMC11605065;europe_pmc_PMC12780181
+slr,SLR,3,3.62,3,,0,,0,3.62,uppercase,europe_pmc_PMC12337580;europe_pmc_PMC13274844;europe_pmc_PMC13630551
+labrador current,Labrador Current,3,3.6,3,,0,,0,3.6,uppercase,europe_pmc_PMC11349912;europe_pmc_PMC12945690;europe_pmc_PMC13260390
+beaufort gyre,Beaufort Gyre,3,3.5,3,,0,,0,3.5,uppercase,europe_pmc_PMC10590664;europe_pmc_PMC12095383;europe_pmc_PMC13373228
+central america,Central America,3,3.5,3,,0,,0,3.5,uppercase,europe_pmc_PMC11618512;europe_pmc_PMC12662202;europe_pmc_PMC12787522
+spna,SPNA,3,3.32,2,0.0357,1,,0,3.32,uppercase,europe_pmc_PMC10590664;europe_pmc_PMC11347556;europe_pmc_PMC11968791
+so,SO,3,3.2,3,,0,,0,3.2,uppercase,europe_pmc_PMC11747105;europe_pmc_PMC11864975;europe_pmc_PMC12167945
+bering strait,Bering Strait,3,2.9,3,,0,,0,2.9,uppercase,europe_pmc_PMC11204210;europe_pmc_PMC12058520;europe_pmc_PMC13108545
+pmoc,PMOC,3,2.54,2,0.0376,1,,0,2.54,uppercase,europe_pmc_PMC10960852;europe_pmc_PMC11864975;europe_pmc_PMC12058520
+aoa,AOA,3,2.28,3,,0,,0,2.28,uppercase,europe_pmc_PMC12998224;europe_pmc_PMC13058606;europe_pmc_PMC13674081
+moc,MOC,3,2.1,3,,0,,0,2.1,uppercase,europe_pmc_PMC10590667;europe_pmc_PMC11231327;europe_pmc_PMC13620149
+denmark strait,Denmark Strait,3,2.0,3,,0,,0,2.0,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC11347556;europe_pmc_PMC12820267
+scotland ridge,Scotland Ridge,3,2.0,3,,0,,0,2.0,uppercase,europe_pmc_PMC10590667;europe_pmc_PMC10590669;europe_pmc_PMC11605065
+mht,MHT,3,1.98,2,0.0336,1,,0,1.98,uppercase,europe_pmc_PMC10590663;europe_pmc_PMC10590667;europe_pmc_PMC11578178
+csd,CSD,3,1.96,2,0.0373,1,,0,1.96,uppercase,europe_pmc_PMC10724135;europe_pmc_PMC11296338;europe_pmc_PMC13715440
+labrador,Labrador,3,1.92,1,0.0357,2,,0,1.92,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10590662;europe_pmc_PMC11349912
+antarctic ice sheet,Antarctic Ice Sheet,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC12337580;europe_pmc_PMC12617517;europe_pmc_PMC12890832
+florida straits,Florida Straits,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC10590665;europe_pmc_PMC10590670;europe_pmc_PMC11377814
+labrador sea water,Labrador Sea Water,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10590662;europe_pmc_PMC12780181
+north sea,North Sea,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC12494007;europe_pmc_PMC13390420;europe_pmc_PMC13434758
+odp,ODP,3,1.9,3,,0,,0,1.9,uppercase,europe_pmc_PMC12149303;europe_pmc_PMC12284099;europe_pmc_PMC13341793
+mpt,MPT,3,1.88,2,0.0365,1,,0,1.88,uppercase,europe_pmc_PMC12959411;europe_pmc_PMC13109349;europe_pmc_PMC13458837
+ghg,GHG,3,1.86,2,0.0338,1,,0,1.86,uppercase,europe_pmc_PMC10619932;europe_pmc_PMC12309139;europe_pmc_PMC13132864
+oc,OC,3,1.86,2,0.0318,1,,0,1.86,uppercase,europe_pmc_PMC10590670;europe_pmc_PMC12540930;europe_pmc_PMC13082334
+drake passage,Drake Passage,3,1.8,3,,0,,0,1.8,uppercase,europe_pmc_PMC11747105;europe_pmc_PMC11958772;europe_pmc_PMC12271382
+subpolar north atlantic program,Subpolar North Atlantic Program,3,1.8,3,,0,,0,1.8,uppercase,europe_pmc_PMC11296338;europe_pmc_PMC11605065;europe_pmc_PMC13620149
+pi,PI,3,1.72,3,,0,,0,1.72,uppercase,europe_pmc_PMC12149303;europe_pmc_PMC13638462;europe_pmc_PMC13665990
+marine isotope stage,Marine Isotope Stage,3,1.7,3,,0,,0,1.7,uppercase,europe_pmc_PMC10853552;europe_pmc_PMC11958772;europe_pmc_PMC12167945
+rapid,RAPID,3,1.68,3,,0,,0,1.68,uppercase,europe_pmc_PMC10590660;europe_pmc_PMC10590665;europe_pmc_PMC13060603
+aob,AOB,3,1.64,3,,0,,0,1.64,uppercase,europe_pmc_PMC12804982;europe_pmc_PMC12998224;europe_pmc_PMC13058606
+cave,Cave,3,1.62,1,0.0354,2,,0,1.62,uppercase,europe_pmc_PMC12379145;europe_pmc_PMC12753843;europe_pmc_PMC13454564
+china,China,3,1.6,3,,0,,0,1.6,uppercase,europe_pmc_PMC12835000;europe_pmc_PMC13148317;europe_pmc_PMC13274844
+south korea,South Korea,3,1.6,3,,0,,0,1.6,uppercase,europe_pmc_PMC12787522;europe_pmc_PMC13392445;europe_pmc_PMC13651874
+ews,EWS,3,1.54,3,,0,,0,1.54,uppercase,europe_pmc_PMC10368695;europe_pmc_PMC10959405;europe_pmc_PMC13715440
+cud,CuD,3,1.52,1,0.0374,2,,0,1.52,uppercase,europe_pmc_PMC12801151;europe_pmc_PMC12804982;europe_pmc_PMC13058606
+earth environ,Earth Environ,3,1.5,3,,0,,0,1.5,uppercase,europe_pmc_PMC11818019;europe_pmc_PMC11962120;europe_pmc_PMC13031658
+source data,Source Data,3,1.5,3,,0,,0,1.5,uppercase,europe_pmc_PMC11375078;europe_pmc_PMC11724057;europe_pmc_PMC12125170
+west antarctic ice sheet,West Antarctic Ice Sheet,3,1.5,3,,0,,0,1.5,uppercase,europe_pmc_PMC11294534;europe_pmc_PMC12337580;europe_pmc_PMC13715440
+university of bern,University of Bern,3,1.4,3,,0,,0,1.4,uppercase,europe_pmc_PMC11736101;europe_pmc_PMC12284099;europe_pmc_PMC13477475
+cambridge university press,Cambridge University Press,3,1.3,3,,0,,0,1.3,uppercase,europe_pmc_PMC10590661;europe_pmc_PMC12214639;europe_pmc_PMC13634050
+little ice age,Little Ice Age,3,1.3,3,,0,,0,1.3,uppercase,europe_pmc_PMC12494007;europe_pmc_PMC13148317;europe_pmc_PMC13478603
+pennsylvania state university,Pennsylvania State University,3,1.3,3,,0,,0,1.3,uppercase,europe_pmc_PMC11101628;europe_pmc_PMC12136024;europe_pmc_PMC13538684
+world ocean atlas,World Ocean Atlas,3,1.3,3,,0,,0,1.3,uppercase,europe_pmc_PMC10517999;europe_pmc_PMC13341793;europe_pmc_PMC13490444
+meridional overturning circulation and heatflux array,Meridional Overturning Circulation and Heatflux Array,3,1.2,3,,0,,0,1.2,uppercase,europe_pmc_PMC11624277;europe_pmc_PMC11724057;europe_pmc_PMC13060603
+creative commons attribution license,Creative Commons Attribution License,3,1.1,3,,0,,0,1.1,uppercase,europe_pmc_PMC10590660;europe_pmc_PMC12303098;europe_pmc_PMC13281819
+viral,Viral,3,,0,0.1588,3,,0,0.1588,tfidf,europe_pmc_PMC12998224;europe_pmc_PMC13284520;europe_pmc_PMC13390420
+eruption,eruption,3,,0,0.0438,3,,0,0.0438,tfidf,europe_pmc_PMC12871447;europe_pmc_PMC13388704;europe_pmc_PMC13645875
+copper,Copper,3,,0,0.0434,3,,0,0.0434,tfidf,europe_pmc_PMC12801151;europe_pmc_PMC12804982;europe_pmc_PMC13674081
+pa th,pa th,3,,0,0.042,3,,0,0.042,tfidf,europe_pmc_PMC11551322;europe_pmc_PMC12284099;europe_pmc_PMC12354891
+pa,Pa,3,,0,0.0407,3,,0,0.0407,tfidf,europe_pmc_PMC11551322;europe_pmc_PMC12284099;europe_pmc_PMC12354891
+ka,Ka,3,,0,0.0358,3,,0,0.0358,tfidf,europe_pmc_PMC12518680;europe_pmc_PMC12835000;europe_pmc_PMC13488926
+barents sea,Barents Sea,2,6.4,2,,0,,0,6.4,uppercase,europe_pmc_PMC12248306;europe_pmc_PMC13418535
+nao,NAO,2,6.04,2,,0,,0,6.04,uppercase,europe_pmc_PMC11624277;europe_pmc_PMC12006024
+itcz,ITCZ,2,5.22,2,,0,,0,5.22,uppercase,europe_pmc_PMC13377125;europe_pmc_PMC13639189
+eastern mediterranean,Eastern Mediterranean,2,4.3,2,,0,,0,4.3,uppercase,europe_pmc_PMC10853552;europe_pmc_PMC13398485
+hudson strait,Hudson Strait,2,4.3,2,,0,,0,4.3,uppercase,europe_pmc_PMC13018559;europe_pmc_PMC13201857
+os,OS,2,3.62,1,0.0419,1,,0,3.62,uppercase,europe_pmc_PMC13127594;europe_pmc_PMC13630551
+central american,Central American,2,3.6,2,,0,,0,3.6,uppercase,europe_pmc_PMC11618512;europe_pmc_PMC12662202
+northwest atlantic,Northwest Atlantic,2,3.6,2,,0,,0,3.6,uppercase,europe_pmc_PMC10089918;europe_pmc_PMC13260390
+co,CO,2,3.58,2,,0,,0,3.58,uppercase,europe_pmc_PMC12167945;europe_pmc_PMC12309139
+lsw,LSW,2,3.52,1,0.0372,1,,0,3.52,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC10590662
+mco,MCO,2,3.16,2,,0,,0,3.16,uppercase,europe_pmc_PMC13341793;europe_pmc_PMC13651883
+maritime continent,Maritime Continent,2,3.0,2,,0,,0,3.0,uppercase,europe_pmc_PMC12859089;europe_pmc_PMC13639189
+ar,AR,2,2.98,2,,0,,0,2.98,uppercase,europe_pmc_PMC12494007;europe_pmc_PMC13342563
+kuroshio extension,Kuroshio Extension,2,2.8,2,,0,,0,2.8,uppercase,europe_pmc_PMC11315899;europe_pmc_PMC12214639
+cape hatteras,Cape Hatteras,2,2.7,2,,0,,0,2.7,uppercase,europe_pmc_PMC11315899;europe_pmc_PMC12945690
+gis,GIS,2,2.58,2,,0,,0,2.58,uppercase,europe_pmc_PMC12612620;europe_pmc_PMC12617517
+le bras,Le Bras,2,2.5,2,,0,,0,2.5,uppercase,europe_pmc_PMC10590659;europe_pmc_PMC10590662
+gmoc,GMOC,2,2.48,2,,0,,0,2.48,uppercase,europe_pmc_PMC11204210;europe_pmc_PMC13490444
+caribbean sea,Caribbean Sea,2,2.2,2,,0,,0,2.2,uppercase,europe_pmc_PMC12222509;europe_pmc_PMC13645622
+laurentide ice sheet,Laurentide Ice Sheet,2,2.2,2,,0,,0,2.2,uppercase,europe_pmc_PMC13388704;europe_pmc_PMC13473526
+hos,HOS,2,2.16,1,0.044,1,,0,2.16,uppercase,europe_pmc_PMC11554733;europe_pmc_PMC12617517
+agulhas leakage,Agulhas Leakage,2,2.1,2,,0,,0,2.1,uppercase,europe_pmc_PMC13473526;europe_pmc_PMC13645622
+baffin bay,Baffin Bay,2,2.1,2,,0,,0,2.1,uppercase,europe_pmc_PMC12757042;europe_pmc_PMC13201857
+lia,LIA,2,2.02,1,0.0348,1,,0,2.02,uppercase,europe_pmc_PMC13373228;europe_pmc_PMC13478603
+aabw,AABW,2,2.0,1,0.0348,1,,0,2.0,uppercase,europe_pmc_PMC10590670;europe_pmc_PMC12534462
+cape horn current,Cape Horn Current,2,2.0,2,,0,,0,2.0,uppercase,europe_pmc_PMC11958772;europe_pmc_PMC13598196
+si,SI,2,1.98,2,,0,,0,1.98,uppercase,europe_pmc_PMC11725843;europe_pmc_PMC13598196
+pd,PD,2,1.96,2,,0,,0,1.96,uppercase,europe_pmc_PMC10590670;europe_pmc_PMC11551322
+bpwo,BPWO,2,1.94,2,,0,,0,1.94,uppercase,europe_pmc_PMC12263849;europe_pmc_PMC13109349
+last interglacial,Last Interglacial,2,1.9,2,,0,,0,1.9,uppercase,europe_pmc_PMC12125170;europe_pmc_PMC13477475
+exp,EXP,2,1.86,2,,0,,0,1.86,uppercase,europe_pmc_PMC12749622;europe_pmc_PMC13478603
+dwbc,DWBC,2,1.82,1,0.0362,1,,0,1.82,uppercase,europe_pmc_PMC10590662;europe_pmc_PMC12945690
+climate dynam,Climate Dynam,2,1.8,2,,0,,0,1.8,uppercase,europe_pmc_PMC11204210;europe_pmc_PMC11818019
+irminger basin,Irminger Basin,2,1.8,2,,0,,0,1.8,uppercase,europe_pmc_PMC10397207;europe_pmc_PMC11578178
+ec,EC,2,1.78,2,,0,,0,1.78,uppercase,europe_pmc_PMC13281800;europe_pmc_PMC13468015
+eis,EIS,2,1.78,1,0.0354,1,,0,1.78,uppercase,europe_pmc_PMC13376600;europe_pmc_PMC13434758
+hse,HSE,2,1.78,2,,0,,0,1.78,uppercase,europe_pmc_PMC11414737;europe_pmc_PMC13127594
+mediterranean,Mediterranean,2,1.74,2,,0,,0,1.74,uppercase,europe_pmc_PMC13398485;europe_pmc_PMC13458837
+doi,DOI,2,1.72,2,,0,,0,1.72,uppercase,europe_pmc_PMC10573315;europe_pmc_PMC13008557
+ism,ISM,2,1.72,1,0.0408,1,,0,1.72,uppercase,europe_pmc_PMC12379145;europe_pmc_PMC12680610
+cariaco basin,Cariaco Basin,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC11618512;europe_pmc_PMC13388704
+command language,Command Language,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC13031658;europe_pmc_PMC13342563
+deep sea res,Deep Sea Res,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC10590662;europe_pmc_PMC12780181
+model dev,Model Dev,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC11204210;europe_pmc_PMC12780181
+republic of china,Republic of China,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC12303098;europe_pmc_PMC13274844
+sanbao cave,Sanbao Cave,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC10853552;europe_pmc_PMC12753843
+subpolar north atlantic,Subpolar North Atlantic,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC11968791;europe_pmc_PMC12136024
+total environ,Total Environ,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC10876089;europe_pmc_PMC12943728
+weddell sea,Weddell Sea,2,1.7,2,,0,,0,1.7,uppercase,europe_pmc_PMC11747105;europe_pmc_PMC12988150
+mbc,MBC,2,1.68,2,,0,,0,1.68,uppercase,europe_pmc_PMC12502596;europe_pmc_PMC13515334
+mmm,MMM,2,1.68,1,0.0385,1,,0,1.68,uppercase,europe_pmc_PMC10590668;europe_pmc_PMC13082334
+asian,Asian,2,1.66,2,,0,,0,1.66,uppercase,europe_pmc_PMC13565125;europe_pmc_PMC13594180
+asm,ASM,2,1.66,1,0.0367,1,,0,1.66,uppercase,europe_pmc_PMC12379145;europe_pmc_PMC12753843
+spear,SPEAR,2,1.64,1,0.0376,1,,0,1.64,uppercase,europe_pmc_PMC11624277;europe_pmc_PMC12083515
+seas,Seas,2,1.62,1,0.0314,1,,0,1.62,uppercase,europe_pmc_PMC12248306;europe_pmc_PMC12820267
+atlantic and indo,Atlantic and Indo,2,1.6,2,,0,,0,1.6,uppercase,europe_pmc_PMC11375078;europe_pmc_PMC11864975
+deep western boundary current,Deep Western Boundary Current,2,1.6,2,,0,,0,1.6,uppercase,europe_pmc_PMC10590662;europe_pmc_PMC10590663
+isow,ISOW,2,1.54,1,0.0342,1,,0,1.54,uppercase,europe_pmc_PMC10590667;europe_pmc_PMC12064707
+cuc,CuC,2,1.51,1,0.0344,1,,0,1.51,uppercase,europe_pmc_PMC12801151;europe_pmc_PMC12804982
+bermuda rise,Bermuda Rise,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC10590670;europe_pmc_PMC12284099
+east coast,East Coast,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC12083515;europe_pmc_PMC12988993
+glacial,Glacial,2,1.5,1,0.033,1,,0,1.5,uppercase,europe_pmc_PMC11958772;europe_pmc_PMC13685917
+greenland ice sheet,Greenland Ice Sheet,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC11294534;europe_pmc_PMC12612620
+iceland basin,Iceland Basin,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC11885369;europe_pmc_PMC13616910
+labrador and irminger seas,Labrador and Irminger Seas,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC12494007;europe_pmc_PMC13665990
+middle miocene,Middle Miocene,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC13341793;europe_pmc_PMC13651883
+nh,NH,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC11291662;europe_pmc_PMC12049274
+north american,North American,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC12518680;europe_pmc_PMC12871447
+south american,South American,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC10619932;europe_pmc_PMC13381650
+yangtze river,Yangtze River,2,1.5,2,,0,,0,1.5,uppercase,europe_pmc_PMC12998224;europe_pmc_PMC13274844
+caribbean,Caribbean,2,1.48,1,0.0354,1,,0,1.48,uppercase,europe_pmc_PMC11618512;europe_pmc_PMC12222509
+fh,FH,2,1.42,1,0.0333,1,,0,1.42,uppercase,europe_pmc_PMC10857529;europe_pmc_PMC13638462
+gsr,GSR,2,1.42,1,0.0371,1,,0,1.42,uppercase,europe_pmc_PMC11724057;europe_pmc_PMC12248306
+stream,Stream,2,1.42,2,,0,,0,1.42,uppercase,europe_pmc_PMC11315899;europe_pmc_PMC12214639
+chinese loess plateau,Chinese Loess Plateau,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC12149303;europe_pmc_PMC12859089
+mediterranean sea,Mediterranean Sea,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC13031658;europe_pmc_PMC13458837
+ocean sci,Ocean Sci,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC10590659;europe_pmc_PMC10590661
+pleistocene transition,Pleistocene Transition,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC13109349;europe_pmc_PMC13458837
+sixth assessment report,Sixth Assessment Report,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC11294534;europe_pmc_PMC13281800
+strait of gibraltar,Strait of Gibraltar,2,1.4,2,,0,,0,1.4,uppercase,europe_pmc_PMC12926746;europe_pmc_PMC13398485
+ipcc,IPCC,2,1.38,2,,0,,0,1.38,uppercase,europe_pmc_PMC10590661;europe_pmc_PMC13274844
+lagrangian,Lagrangian,2,1.34,1,0.0355,1,,0,1.34,uppercase,europe_pmc_PMC11347556;europe_pmc_PMC12926746
+tw,TW,2,1.34,1,0.0349,1,,0,1.34,uppercase,europe_pmc_PMC10368695;europe_pmc_PMC12064605
+sw,SW,2,1.32,2,,0,,0,1.32,uppercase,europe_pmc_PMC13515334;europe_pmc_PMC13634050
+atlantic multidecadal variability,Atlantic Multidecadal Variability,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC10590668;europe_pmc_PMC12494007
+detection and attribution model intercomparison project,Detection and Attribution Model Intercomparison Project,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC10762259;europe_pmc_PMC9985640
+ditlevsen and ditlevsen,Ditlevsen and Ditlevsen,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC12019781;europe_pmc_PMC12222237
+eastern pacific,Eastern Pacific,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC12149303;europe_pmc_PMC13341793
+geophysical fluid dynamics laboratory,Geophysical Fluid Dynamics Laboratory,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC10899452;europe_pmc_PMC12083515
+greenland and antarctica,Greenland and Antarctica,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC10590670;europe_pmc_PMC12095353
+nanjing normal university,Nanjing Normal University,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC13418535;europe_pmc_PMC13478603
+shared socioeconomic pathway,Shared Socioeconomic Pathway,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC11101628;europe_pmc_PMC12748715
+south africa,South Africa,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC12540930;europe_pmc_PMC13440228
+university park,University Park,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC12136024;europe_pmc_PMC13538684
+np,NP,2,1.26,1,0.0352,1,,0,1.26,uppercase,europe_pmc_PMC12542656;europe_pmc_PMC13260390
+ce,CE,2,1.24,2,,0,,0,1.24,uppercase,europe_pmc_PMC13148317;europe_pmc_PMC13388704
+toa,TOA,2,1.24,2,,0,,0,1.24,uppercase,europe_pmc_PMC13634050;europe_pmc_PMC13645875
+earth,EARTH,2,1.23,2,,0,,0,1.23,uppercase,europe_pmc_PMC12095353;europe_pmc_PMC13715440
+access and training,Access and Training,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC11725843;europe_pmc_PMC12801151
+climate change,Climate Change,2,1.2,1,0.0671,1,,0,1.2,uppercase,europe_pmc_PMC12181172;europe_pmc_PMC13634050
+contribution of working group,Contribution of Working Group,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC11414737;europe_pmc_PMC9985640
+german climate computing center,German Climate Computing Center,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC11892582;europe_pmc_PMC13634050
+national center,National Center,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC11725843;europe_pmc_PMC12801151
+national center for atmospheric research,National Center for Atmospheric Research,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC10590660;europe_pmc_PMC11608347
+north atlantic and arctic,North Atlantic and Arctic,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC11885369;europe_pmc_PMC12749622
+university of washington,University of Washington,2,1.2,2,,0,,0,1.2,uppercase,europe_pmc_PMC11697416;europe_pmc_PMC11725785
+carbon feedback,Carbon Feedback,2,1.1,1,0.0422,1,,0,1.1,uppercase,europe_pmc_PMC11892582;europe_pmc_PMC12358914
+potsdam institute for climate impact research,Potsdam Institute for Climate Impact Research,2,1.1,2,,0,,0,1.1,uppercase,europe_pmc_PMC11296338;europe_pmc_PMC13715440
+adaptation,Adaptation,2,,0,0.0523,2,,0,0.0523,tfidf,europe_pmc_PMC12222237;europe_pmc_PMC12337580
+n-cycling,N-cycling,2,,0,0.0516,2,,0,0.0516,tfidf,europe_pmc_PMC10876089;europe_pmc_PMC13515334
+gs path,GS path,2,,0,0.0478,2,,0,0.0478,tfidf,europe_pmc_PMC11315899;europe_pmc_PMC12945690
+b-p,B-P,2,,0,0.0461,2,,0,0.0461,tfidf,europe_pmc_PMC10089918;europe_pmc_PMC13381650
+viruses,Viruses,2,,0,0.0448,2,,0,0.0448,tfidf,europe_pmc_PMC12998224;europe_pmc_PMC13390420
+cryoem,cryoEM,2,,0,0.0431,2,,0,0.0431,tfidf,europe_pmc_PMC11725843;europe_pmc_PMC12801151
+eruptions,Eruptions,2,,0,0.0421,2,,0,0.0421,tfidf,europe_pmc_PMC12871447;europe_pmc_PMC13388704
+net zero,net zero,2,,0,0.0421,2,,0,0.0421,tfidf,europe_pmc_PMC11818019;europe_pmc_PMC13651874
+upper cell,upper cell,2,,0,0.0404,2,,0,0.0404,tfidf,europe_pmc_PMC11864975;europe_pmc_PMC12890832
+rainfall,rainfall,2,,0,0.04,2,,0,0.04,tfidf,europe_pmc_PMC11707078;europe_pmc_PMC13639189
+cropping,Cropping,2,,0,0.0396,2,,0,0.0396,tfidf,europe_pmc_PMC12540930;europe_pmc_PMC13021576
+th,Th,2,,0,0.0396,2,,0,0.0396,tfidf,europe_pmc_PMC12284099;europe_pmc_PMC12354891
+ventilation,Ventilation,2,,0,0.0395,2,,0,0.0395,tfidf,europe_pmc_PMC12780181;europe_pmc_PMC13381650
+cu,Cu,2,,0,0.0391,2,,0,0.0391,tfidf,europe_pmc_PMC11725843;europe_pmc_PMC13058606
+nd,Nd,2,,0,0.0389,2,,0,0.0389,tfidf,europe_pmc_PMC11747105;europe_pmc_PMC12959411
+si appendix,SI Appendix,2,,0,0.0383,2,,0,0.0383,tfidf,europe_pmc_PMC11551322;europe_pmc_PMC13598196
+ss,SS,2,,0,0.0383,2,,0,0.0383,tfidf,europe_pmc_PMC13260390;europe_pmc_PMC9985640
+salinity,Salinity,2,,0,0.0378,2,,0,0.0378,tfidf,europe_pmc_PMC11885369;europe_pmc_PMC13392445
+eastern spna,eastern SPNA,2,,0,0.0375,2,,0,0.0375,tfidf,europe_pmc_PMC10590664;europe_pmc_PMC11347556
+tipping elements,Tipping elements,2,,0,0.0373,2,,0,0.0373,tfidf,europe_pmc_PMC11294534;europe_pmc_PMC13715440
+host,Host,2,,0,0.0372,2,,0,0.0372,tfidf,europe_pmc_PMC12844351;europe_pmc_PMC13390420
+itrace,iTRACE,2,,0,0.0368,2,,0,0.0368,tfidf,europe_pmc_PMC11414737;europe_pmc_PMC11618512
+hosing,Hosing,2,,0,0.0366,2,,0,0.0366,tfidf,europe_pmc_PMC11578178;europe_pmc_PMC13108545
+si appendix fig,si appendix fig,2,,0,0.0366,2,,0,0.0366,tfidf,europe_pmc_PMC11551322;europe_pmc_PMC13598196
+speleothem,Speleothem,2,,0,0.0363,2,,0,0.0363,tfidf,europe_pmc_PMC12662202;europe_pmc_PMC12753843
+ka bp,ka BP,2,,0,0.036,2,,0,0.036,tfidf,europe_pmc_PMC12125170;europe_pmc_PMC12662202
+esl,ESL,2,,0,0.0352,2,,0,0.0352,tfidf,europe_pmc_PMC11291662;europe_pmc_PMC12083515
+kyr,Kyr,2,,0,0.0351,2,,0,0.0351,tfidf,europe_pmc_PMC12149303;europe_pmc_PMC13594180
+sss,SSS,2,,0,0.035,2,,0,0.035,tfidf,europe_pmc_PMC12095383;europe_pmc_PMC9985640
+com scientificdata,com scientificdata,2,,0,0.0317,2,,0,0.0317,tfidf,europe_pmc_PMC12149303;europe_pmc_PMC13121742
+otec,OTEC,1,5.5,1,,0,,0,5.5,uppercase,europe_pmc_PMC12064605
+amv,AMV,1,5.26,1,,0,,0,5.26,uppercase,europe_pmc_PMC10590668
+hudson bay,Hudson Bay,1,4.8,1,,0,,0,4.8,uppercase,europe_pmc_PMC13018559
+itf,ITF,1,4.04,1,,0,,0,4.04,uppercase,europe_pmc_PMC12748715
+dmpp,DMPP,1,3.88,1,,0,,0,3.88,uppercase,europe_pmc_PMC13674081
+northward group,Northward Group,1,3.7,1,,0,,0,3.7,uppercase,europe_pmc_PMC13377125
+eke,EKE,1,3.46,1,,0,,0,3.46,uppercase,europe_pmc_PMC12214639
+do,DO,1,3.42,1,,0,,0,3.42,uppercase,europe_pmc_PMC12379145
+southward group,Southward Group,1,3.4,1,,0,,0,3.4,uppercase,europe_pmc_PMC13377125
+sic,SIC,1,3.12,1,,0,,0,3.12,uppercase,europe_pmc_PMC10468057
+yucatan straits,Yucatan Straits,1,3.1,1,,0,,0,3.1,uppercase,europe_pmc_PMC12222509
+mcv,MCV,1,3.08,1,,0,,0,3.08,uppercase,europe_pmc_PMC13578706
+black sea,Black Sea,1,3.0,1,,0,,0,3.0,uppercase,europe_pmc_PMC10853552
+early pleistocene,Early Pleistocene,1,3.0,1,,0,,0,3.0,uppercase,europe_pmc_PMC13434758
+laguna llaviucu,Laguna Llaviucu,1,3.0,1,,0,,0,3.0,uppercase,europe_pmc_PMC11348159
+atu,ATU,1,2.94,1,,0,,0,2.94,uppercase,europe_pmc_PMC13674081
+gop,GOP,1,2.88,1,,0,,0,2.88,uppercase,europe_pmc_PMC13440228
+nawh,NAWH,1,2.88,1,,0,,0,2.88,uppercase,europe_pmc_PMC11608347
+dl,DL,1,2.86,1,,0,,0,2.86,uppercase,europe_pmc_PMC12303098
+arctic and southern ocean,Arctic and Southern Ocean,1,2.8,1,,0,,0,2.8,uppercase,europe_pmc_PMC11962120
+elbe estuary,Elbe Estuary,1,2.8,1,,0,,0,2.8,uppercase,europe_pmc_PMC13390420
+wais,WAIS,1,2.8,1,,0,,0,2.8,uppercase,europe_pmc_PMC12617517
+great weddell polynya,Great Weddell Polynya,1,2.7,1,,0,,0,2.7,uppercase,europe_pmc_PMC12988150
+fwi,FWI,1,2.66,1,,0,,0,2.66,uppercase,europe_pmc_PMC12787522
+chc,CHC,1,2.62,1,,0,,0,2.62,uppercase,europe_pmc_PMC11958772
+aim,AIM,1,2.6,1,,0,,0,2.6,uppercase,europe_pmc_PMC13639189
+green sahara,Green Sahara,1,2.5,1,,0,,0,2.5,uppercase,europe_pmc_PMC11707078
+labrador shelf,Labrador Shelf,1,2.5,1,,0,,0,2.5,uppercase,europe_pmc_PMC13018559
+taiping rebellion,Taiping Rebellion,1,2.5,1,,0,,0,2.5,uppercase,europe_pmc_PMC13148317
+pe,PE,1,2.44,1,,0,,0,2.44,uppercase,europe_pmc_PMC13468015
+fc,FC,1,2.42,1,,0,,0,2.42,uppercase,europe_pmc_PMC11377814
+faroe ridge,Faroe Ridge,1,2.4,1,,0,,0,2.4,uppercase,europe_pmc_PMC13616910
+northern europe,Northern Europe,1,2.4,1,,0,,0,2.4,uppercase,europe_pmc_PMC13002991
+leap,LEAP,1,2.34,1,,0,,0,2.34,uppercase,europe_pmc_PMC13477475
+odz,ODZ,1,2.34,1,,0,,0,2.34,uppercase,europe_pmc_PMC13341793
+aitc,AITC,1,2.32,1,,0,,0,2.32,uppercase,europe_pmc_PMC12943728
+ili,ILI,1,2.32,1,,0,,0,2.32,uppercase,europe_pmc_PMC13181107
+tna,TNA,1,2.32,1,,0,,0,2.32,uppercase,europe_pmc_PMC9985640
+appelscha fm,Appelscha Fm,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13434758
+cmml,CMML,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC13008557
+indonesian throughflow,Indonesian Throughflow,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC12748715
+nordic seas basin,Nordic Seas Basin,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC12820267
+ohu,OHU,1,2.3,1,,0,,0,2.3,uppercase,europe_pmc_PMC10899452
+hose,HOSE,1,2.26,1,,0,,0,2.26,uppercase,europe_pmc_PMC12112331
+ssh,SSH,1,2.26,1,,0,,0,2.26,uppercase,europe_pmc_PMC13373228
+ocr,OCR,1,2.24,1,,0,,0,2.24,uppercase,europe_pmc_PMC12112331
+ps,PS,1,2.24,1,,0,,0,2.24,uppercase,europe_pmc_PMC13468015
+usnec,USNEC,1,2.24,1,,0,,0,2.24,uppercase,europe_pmc_PMC12083515
+nzghg,NZGHG,1,2.22,1,,0,,0,2.22,uppercase,europe_pmc_PMC11294534
+heqing basin,Heqing Basin,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC12680610
+lake agassiz,Lake Agassiz,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC12757042
+northeast pacific,Northeast Pacific,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13473526
+xbt,XBT,1,2.2,1,,0,,0,2.2,uppercase,europe_pmc_PMC13121742
+cda,CDA,1,2.18,1,,0,,0,2.18,uppercase,europe_pmc_PMC13490444
+nash,NASH,1,2.16,1,,0,,0,2.16,uppercase,europe_pmc_PMC12662202
+mhw,MHW,1,2.14,1,,0,,0,2.14,uppercase,europe_pmc_PMC13031658
+dpss,DPSs,1,2.11,1,,0,,0,2.11,uppercase,europe_pmc_PMC12006024
+central europe,Central Europe,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC12019781
+finger lake,Finger Lake,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC12976318
+nordic seas and arctic ocean,Nordic Seas and Arctic Ocean,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC12248306
+north sea basin,North Sea Basin,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC13434758
+southeast china,Southeast China,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC12379145
+tr,TR,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC13021576
+zoige basin,Zoige Basin,1,2.1,1,,0,,0,2.1,uppercase,europe_pmc_PMC13578706
+ck,CK,1,2.08,1,,0,,0,2.08,uppercase,europe_pmc_PMC13021576
+ow,OW,1,2.08,1,,0,,0,2.08,uppercase,europe_pmc_PMC13620149
+soc,SOC,1,2.04,1,,0,,0,2.04,uppercase,europe_pmc_PMC13363821
+atcm,ATCM,1,2.02,1,,0,,0,2.02,uppercase,europe_pmc_PMC12612620
+pis,PIS,1,2.02,1,,0,,0,2.02,uppercase,europe_pmc_PMC13598196
+scc,SCC,1,2.02,1,,0,,0,2.02,uppercase,europe_pmc_PMC11892582
+aogcm,AOGCM,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC10899452
+atlantic and arctic,Atlantic and Arctic,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC11347556
+buras and menzel,Buras and Menzel,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC12019781
+ctl,CTL,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC11554733
+ctrl,CTRL,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC10397207
+eei,EEI,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13488926
+gilles ramstein,Gilles Ramstein,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13565125
+stf,STF,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13645622
+western valley,Western Valley,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13616910
+yangtze river delta,Yangtze River Delta,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC12835000
+zhangjia cave,Zhangjia Cave,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC12753843
+jules,JULES,1,1.98,1,,0,,0,1.98,uppercase,europe_pmc_PMC13376509
+awp,AWP,1,1.96,1,,0,,0,1.96,uppercase,europe_pmc_PMC12662202
+da,DA,1,1.94,1,,0,,0,1.94,uppercase,europe_pmc_PMC12988993
+hc,HC,1,1.94,1,,0,,0,1.94,uppercase,europe_pmc_PMC13377125
+maoc,MAOC,1,1.94,1,,0,,0,1.94,uppercase,europe_pmc_PMC13363821
+access,ACCESS,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC13201857
+cbs,CBS,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC13108545
+emf,EMF,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC11377814
+iv,IV,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC13319204
+antarctic cold reversal,Antarctic Cold Reversal,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC11348159
+ctf,CTF,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC12222509
+highly significant increase,Highly Significant Increase,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13274844
+hoher list,Hoher List,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13477475
+last glacial inception,Last Glacial Inception,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13477475
+last termination,Last Termination,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13376600
+petru vaideanu,Petru Vaideanu,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC10468057
+poc,POC,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13363821
+qingtongyang maar lake,Qingtongyang Maar Lake,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC11707078
+rajagopalan and nihous,Rajagopalan and Nihous,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC12064605
+reykjanes ridge,Reykjanes Ridge,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC10590667
+southern and pacific oceans,Southern and Pacific Oceans,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC11231327
+ti and ca,Ti and Ca,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC13018559
+weddell gyre,Weddell Gyre,1,1.9,1,,0,,0,1.9,uppercase,europe_pmc_PMC12988150
+obs,OBS,1,1.88,1,,0,,0,1.88,uppercase,europe_pmc_PMC13108545
+sasm,SASM,1,1.88,1,,0,,0,1.88,uppercase,europe_pmc_PMC12753843
+at,AT,1,1.86,1,,0,,0,1.86,uppercase,europe_pmc_PMC10960852
+lgbm,LGBM,1,1.86,1,,0,,0,1.86,uppercase,europe_pmc_PMC12947465
+tg,TG,1,1.86,1,,0,,0,1.86,uppercase,europe_pmc_PMC12083515
+miocene,Miocene,1,1.85,1,,0,,0,1.85,uppercase,europe_pmc_PMC12047422
+fovs,FovS,1,1.83,1,,0,,0,1.83,uppercase,europe_pmc_PMC10857529
+pacific,Pacific,1,1.83,1,,0,,0,1.83,uppercase,europe_pmc_PMC12271382
+hudson,Hudson,1,1.81,1,,0,,0,1.81,uppercase,europe_pmc_PMC13018559
+ad,AD,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC12820267
+adcp,ADCP,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13616910
+bungenstock plateau,Bungenstock Plateau,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC12988150
+dong and sutton,Dong and Sutton,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC11882673
+early holocene,Early Holocene,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13018559
+gerrit lohmann,Gerrit Lohmann,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC10468057
+lm,LM,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13376509
+maud rise,Maud Rise,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC12988150
+north africa,North Africa,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC12047422
+palaeogeogr palaeoclimatol palaeoecol,Palaeogeogr Palaeoclimatol Palaeoecol,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC12835000
+peize fm,Peize Fm,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13434758
+quat sci,Quat Sci,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC12835000
+sofular cave,Sofular Cave,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC10853552
+ird,IRD,1,1.78,1,,0,,0,1.78,uppercase,europe_pmc_PMC13018559
+pop,POP,1,1.78,1,,0,,0,1.78,uppercase,europe_pmc_PMC12945690
+gmot,GMOT,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC11414737
+gmsst,GMSST,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC11414737
+hbc,HBC,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC13434758
+ipsl,IPSL,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC13002991
+sirs,SIRS,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC12947465
+tii,TII,1,1.74,1,,0,,0,1.74,uppercase,europe_pmc_PMC12125170
+adcirc,ADCIRC,1,1.72,1,,0,,0,1.72,uppercase,europe_pmc_PMC12988993
+az,AZ,1,1.72,1,,0,,0,1.72,uppercase,europe_pmc_PMC12890832
+dic,DIC,1,1.72,1,,0,,0,1.72,uppercase,europe_pmc_PMC11968791
+ifr,IFR,1,1.72,1,,0,,0,1.72,uppercase,europe_pmc_PMC13616910
+paz,PAZ,1,1.72,1,,0,,0,1.72,uppercase,europe_pmc_PMC12890832
+acr,ACR,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC11348159
+alpha biopharmaceuticals co,Alpha Biopharmaceuticals Co,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13448930
+antarctic ocean,Antarctic Ocean,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12890832
+april fools lake,April Fools Lake,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12976318
+barnes and polvani,Barnes and Polvani,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC11882673
+bay of bengal,Bay of Bengal,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13594180
+christian stepanek,Christian Stepanek,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC10468057
+dongge cave,Dongge Cave,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12753843
+east africa,East Africa,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12047422
+eddy kinetic energy,Eddy Kinetic Energy,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12214639
+electron microscopy data bank,Electron Microscopy Data Bank,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC11725843
+irminger current,Irminger Current,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12757042
+last ice area,Last Ice Area,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13373228
+ministry of natural resources,Ministry of Natural Resources,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13274844
+north atlantic current,North Atlantic Current,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC10724135
+northeast atlantic ocean,Northeast Atlantic Ocean,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC10573315
+northern hemisphere glaciation,Northern Hemisphere Glaciation,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12271382
+northwest atlantic ocean,Northwest Atlantic Ocean,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC10573315
+royal society,Royal Society,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC10590659
+thc,THC,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC10590665
+transpolar drift,Transpolar Drift,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13373228
+vedde ash,Vedde Ash,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13260390
+west antarctic,West Antarctic,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC12617517
+yeongsan river,Yeongsan River,1,1.7,1,,0,,0,1.7,uppercase,europe_pmc_PMC13408133
+covid,COVID,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC13181107
+csts,CSTs,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12640197
+dml,DML,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12988150
+eo,EO,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12095383
+ml,ML,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12947465
+saral,SARAL,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12988993
+wdw,WDW,1,1.68,1,,0,,0,1.68,uppercase,europe_pmc_PMC12988150
+aou,AOU,1,1.66,1,,0,,0,1.66,uppercase,europe_pmc_PMC12780181
+enso,ENSO,1,1.66,1,,0,,0,1.66,uppercase,europe_pmc_PMC13031658
+pl,PL,1,1.66,1,,0,,0,1.66,uppercase,europe_pmc_PMC13127594
+barents,Barents,1,1.65,1,,0,,0,1.65,uppercase,europe_pmc_PMC13418535
+arm,ARM,1,1.64,1,,0,,0,1.64,uppercase,europe_pmc_PMC12680610
+pictl,Pictl,1,1.64,1,,0,,0,1.64,uppercase,europe_pmc_PMC11668834
+ts,TS,1,1.64,1,,0,,0,1.64,uppercase,europe_pmc_PMC11668834
+zb,ZB,1,1.64,1,,0,,0,1.64,uppercase,europe_pmc_PMC13578706
+aas,AAs,1,1.63,1,,0,,0,1.63,uppercase,europe_pmc_PMC10762259
+natl,NATL,1,1.62,1,,0,,0,1.62,uppercase,europe_pmc_PMC10517999
+subt,SubT,1,1.61,1,,0,,0,1.61,uppercase,europe_pmc_PMC13651883
+andes mountains,Andes Mountains,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC10960852
+atlantic meridional,Atlantic Meridional,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11349912
+aucilla river,Aucilla River,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13127594
+bce,BCE,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13398485
+blackport and fyfe,Blackport and Fyfe,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11882673
+brazil current,Brazil Current,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13121742
+cp,CP,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13281819
+deep atlantic,Deep Atlantic,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11231327
+east greenland current,East Greenland Current,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11347556
+eastern south pacific ocean,Eastern South Pacific Ocean,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12271382
+eirik drift,Eirik Drift,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12064707
+eurasian arctic,Eurasian Arctic,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13373228
+eurasian ice sheet,Eurasian Ice Sheet,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13376600
+european ice sheets,European Ice Sheets,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13473526
+federal aviation administration,Federal Aviation Administration,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12640197
+florida strait,Florida Strait,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13478603
+great plains,Great Plains,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12518680
+highly significant decrease,Highly Significant Decrease,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13274844
+hudson bay and strait,Hudson Bay and Strait,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13018559
+kuroshio current,Kuroshio Current,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13274844
+methods and supplementary fig,Methods and Supplementary Fig,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12976318
+neklason lake,Neklason Lake,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12976318
+northeast atlantic,Northeast Atlantic,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13473526
+northern westerlies,Northern Westerlies,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12379145
+ocean drilling program,Ocean Drilling Program,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12064707
+ord gi,Ord Gi,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13274844
+patagonian ice sheet,Patagonian Ice Sheet,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13598196
+pic,PIC,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13418535
+protein data bank,Protein Data Bank,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11725843
+rocky mountains,Rocky Mountains,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC10960852
+saharan africa,Saharan Africa,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12787522
+scotland overflow,Scotland Overflow,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11605065
+sepsis patients,Sepsis Patients,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12947465
+shima cave,Shima Cave,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12125170
+shona rise,Shona Rise,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12534462
+southwest china,Southwest China,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12680610
+subpolar north atlantic ocean,Subpolar North Atlantic Ocean,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11347556
+sunda and sahul,Sunda and Sahul,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13639189
+supporting information and methods,Supporting Information and Methods,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13674081
+surface atlantic,Surface Atlantic,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11231327
+surface pacific,Surface Pacific,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC11231327
+tethys seaway,Tethys Seaway,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13651883
+united kingdom,United Kingdom,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC12064707
+unit,Unit,1,1.59,1,,0,,0,1.59,uppercase,europe_pmc_PMC13018559
+ausm,AuSM,1,1.58,1,,0,,0,1.58,uppercase,europe_pmc_PMC12859089
+cst,CST,1,1.58,1,,0,,0,1.58,uppercase,europe_pmc_PMC12640197
+lgi,LGI,1,1.58,1,,0,,0,1.58,uppercase,europe_pmc_PMC12354891
+esm,ESM,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC11892582
+fmoc,Fmoc,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC13448930
+frms,FRMS,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC12640197
+gcos,GCOS,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC12095353
+greenland,Greenland,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC13281800
+mbn,MBN,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC13515334
+ti,TI,1,1.54,1,,0,,0,1.54,uppercase,europe_pmc_PMC12125170
+dca,DCA,1,1.52,1,,0,,0,1.52,uppercase,europe_pmc_PMC13408133
+fptd,FPTD,1,1.52,1,,0,,0,1.52,uppercase,europe_pmc_PMC12926746
+gmst,GMST,1,1.52,1,,0,,0,1.52,uppercase,europe_pmc_PMC12572293
+uk,UK,1,1.52,1,,0,,0,1.52,uppercase,europe_pmc_PMC11882673
+central,Central,1,1.51,1,,0,,0,1.51,uppercase,europe_pmc_PMC11618512
+zeroe,ZeroE,1,1.51,1,,0,,0,1.51,uppercase,europe_pmc_PMC12787522
+acidobacteriota and chloroflexota,Acidobacteriota and Chloroflexota,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13021576
+african humid period,African Humid Period,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12518680
+amazon rainforest,Amazon Rainforest,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11294534
+antarctic polar front,Antarctic Polar Front,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12890832
+arctic mediterranean,Arctic Mediterranean,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13616910
+aw,AW,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13376600
+berkeley earth,Berkeley Earth,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13002991
+bromfield swamp,Bromfield Swamp,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12859089
+brown and galbraith,Brown and Galbraith,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11885369
+cave and debra,Cave and Debra,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13127594
+college station,College Station,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12064707
+controlled rest,Controlled Rest,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12640197
+copernicus climate change service,Copernicus Climate Change Service,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12214639
+davis strait,Davis Strait,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC10590669
+earth sci,Earth Sci,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13127594
+extended data figs,Extended Data Figs,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11864975
+florida,Florida,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC10590663
+formal analysis,Formal Analysis,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12988993
+geophys res lett,Geophys Res Lett,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC10468057
+gulf of lions,Gulf of Lions,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12926746
+hulu cave,Hulu Cave,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12753843
+iles and hegerl,Iles and Hegerl,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11882673
+institutes for behavior resources,Institutes for Behavior Resources,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12640197
+ivt,IVT,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13342563
+kuhlbrodt and gregory,Kuhlbrodt and Gregory,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC10899452
+lisiecki and stern,Lisiecki and Stern,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13488926
+lowered acoustic doppler current profiler,Lowered Acoustic Doppler Current Profiler,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11377814
+nanjing agricultural university,Nanjing Agricultural University,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12998224
+neutral group,Neutral Group,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13377125
+north america and europe,North America and Europe,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC10762259
+north atlantic and barents sea,North Atlantic and Barents Sea,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13418535
+north atlantic and nordic seas,North Atlantic and Nordic Seas,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13201857
+northeast china,Northeast China,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13515334
+obp,OBP,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13060603
+paleolake zoige,Paleolake Zoige,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13578706
+penultimate glacial maximum,Penultimate Glacial Maximum,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12125170
+pet,PET,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13398485
+polar antarctic zone,Polar Antarctic Zone,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12890832
+review and editing,Review and Editing,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12988993
+snowball earth,Snowball Earth,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13565125
+southwestern china,Southwestern China,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12680610
+supplemental fig,Supplemental Fig,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11608347
+tropical andes,Tropical Andes,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11348159
+watanabe and tatebe,Watanabe and Tatebe,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11882673
+weather rev,Weather Rev,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC11724057
+weighted weighted,Weighted Weighted,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12835000
+west pacific,West Pacific,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12064605
+yangtze river basin,Yangtze River Basin,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13148317
+alaska,Alaska,1,1.49,1,,0,,0,1.49,uppercase,europe_pmc_PMC12976318
+itps,ITPs,1,1.48,1,,0,,0,1.48,uppercase,europe_pmc_PMC10959405
+mle,MLE,1,1.48,1,,0,,0,1.48,uppercase,europe_pmc_PMC11296338
+wsc,WSC,1,1.48,1,,0,,0,1.48,uppercase,europe_pmc_PMC11315899
+rsv,RSV,1,1.46,1,,0,,0,1.46,uppercase,europe_pmc_PMC13181107
+sirm,SIRM,1,1.46,1,,0,,0,1.46,uppercase,europe_pmc_PMC12680610
+is,IS,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13376600
+mot,MOT,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13488926
+neem,NEEM,1,1.44,1,,0,,0,1.44,uppercase,europe_pmc_PMC13440228
+nege,NegE,1,1.43,1,,0,,0,1.43,uppercase,europe_pmc_PMC12787522
+antarctic,Antarctic,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC12572293
+cesm,CESM,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC13478603
+dev,DEV,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC12303098
+gmslr,GMSLR,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC12572293
+mt,MT,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC12835000
+tc,TC,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC12502596
+gris,GrIS,1,1.41,1,,0,,0,1.41,uppercase,europe_pmc_PMC13665990
+sofular,Sofular,1,1.41,1,,0,,0,1.41,uppercase,europe_pmc_PMC10853552
+aa,AA,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13448930
+analysis of regime shifts,Analysis of Regime Shifts,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13408133
+antarctic peninsula,Antarctic Peninsula,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12095353
+apparent oxygen utilization,Apparent Oxygen Utilization,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12780181
+at site,At Site,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13651883
+atmos ocean tech,Atmos Ocean Tech,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13121742
+balkans and turkey,Balkans and Turkey,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13398485
+beaufort sea,Beaufort Sea,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11291662
+cambridge univ,Cambridge Univ,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11818019
+caribbean through,Caribbean Through,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12222509
+central labrador sea,Central Labrador Sea,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12820267
+charlie gibbs fracture zone,Charlie Gibbs Fracture Zone,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC10590667
+denmark strait overflow water,Denmark Strait Overflow Water,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12064707
+diss mere,Diss Mere,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13002991
+early iron age,Early Iron Age,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13408133
+earth system,Earth System,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11554733
+earth system model,Earth System Model,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11554733
+eastern tropical north atlantic oxygen minimum zone,Eastern Tropical North Atlantic Oxygen Minimum Zone,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12263849
+eemian,Eemian,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13477475
+enagbonma and babalola,Enagbonma and Babalola,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12540930
+faroe bank channel,Faroe Bank Channel,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13616910
+first floridians and last mastodons,First Floridians and Last Mastodons,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13127594
+florida and grand bahama island,Florida and Grand Bahama Island,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11377814
+front mar sci,Front Mar Sci,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13121742
+geophys res,Geophys Res,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13121742
+gulf stream extension,Gulf Stream Extension,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12945690
+hard and fast,Hard and Fast,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11291662
+iceland and norwegian seas,Iceland and Norwegian Seas,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC10724135
+indiana university,Indiana University,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13109349
+institute of earth environment,Institute of Earth Environment,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12680610
+international ocean discovery programme,International Ocean Discovery Programme,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12064707
+irminger seas,Irminger Seas,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11968791
+ito and follows,Ito and Follows,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13685917
+jiaotong university,Jiaotong University,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12662202
+joseon dynasty,Joseon Dynasty,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13408133
+jule schrepfer,Jule Schrepfer,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC10468057
+korean peninsula,Korean Peninsula,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13408133
+laurentian channel,Laurentian Channel,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13478603
+low and slow,Low and Slow,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11291662
+miocene climatic optimum,Miocene Climatic Optimum,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13651883
+netherlands,Netherlands,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12337580
+nordic and barents seas,Nordic and Barents Seas,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13201857
+north carolina,North Carolina,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12988993
+north china,North China,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC10876089
+norwegian basin,Norwegian Basin,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13616910
+paulo research foundation,Paulo Research Foundation,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13454564
+project administration,Project Administration,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12612620
+qichao tu,Qichao Tu,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12542656
+ross sea,Ross Sea,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12572293
+scripps institution of oceanography,Scripps Institution of Oceanography,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13121742
+sorghum rhizosphere the,Sorghum Rhizosphere The,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12540930
+south and east asia,South and East Asia,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC10762259
+sr and carb,Sr and Carb,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13578706
+time block,Time Block,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12947465
+toohey and sigl,Toohey and Sigl,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13645875
+van valkengoed,Van Valkengoed,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12337580
+vettoretti and peltier,Vettoretti and Peltier,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11885369
+water res,Water Res,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC10876089
+west university,West University,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12540930
+cpss,CPSS,1,1.38,1,,0,,0,1.38,uppercase,europe_pmc_PMC13008557
+gulf,Gulf,1,1.38,1,,0,,0,1.38,uppercase,europe_pmc_PMC12214639
+sd,SD,1,1.38,1,,0,,0,1.38,uppercase,europe_pmc_PMC12896705
+formula,Formula,1,1.37,1,,0,,0,1.37,uppercase,europe_pmc_PMC12926746
+amaz,AMAZ,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC11294534
+lst,LST,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC13594180
+lstm,LSTM,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC12303098
+pdi,PDI,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC11724057
+east,East,1,1.35,1,,0,,0,1.35,uppercase,europe_pmc_PMC13651874
+jja,JJA,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC13651874
+mpi,MPI,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC13645875
+nsr,NSR,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC13565125
+sh,SH,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC11204210
+amod,AmoD,1,1.33,1,,0,,0,1.33,uppercase,europe_pmc_PMC12804982
+robust,Robust,1,1.33,1,,0,,0,1.33,uppercase,europe_pmc_PMC12844351
+america,America,1,1.31,1,,0,,0,1.31,uppercase,europe_pmc_PMC10999273
+complex,Complex,1,1.31,1,,0,,0,1.31,uppercase,europe_pmc_PMC12844351
+american meteorological society,American Meteorological Society,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11882673
+arctic and southern oceans,Arctic and Southern Oceans,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11962120
+as in fig,As in Fig,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11668834
+atlantic and pacific,Atlantic and Pacific,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13341793
+atlantic ridge,Atlantic Ridge,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13060603
+atlantic southern ocean,Atlantic Southern Ocean,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11747105
+atlantic subpolar gyre,Atlantic Subpolar Gyre,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12095383
+babalola and enagbonma,Babalola and Enagbonma,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12540930
+berkeley earth surface temperatures,Berkeley Earth Surface Temperatures,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13002991
+big diomede island,Big Diomede Island,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13108545
+blake bahamas outer ridge,Blake Bahamas Outer Ridge,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12284099
+brugge and de winter,Brugge and De Winter,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12337580
+cancer genome atlas,Cancer Genome Atlas,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12112331
+china earth sci,China Earth Sci,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13148317
+common era,Common Era,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13388704
+complex and robust,Complex and Robust,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12844351
+copernicus marine service,Copernicus Marine Service,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12214639
+copernicus sentinel,Copernicus Sentinel,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12095353
+coral reefs,Coral Reefs,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12844351
+department of obstetrics and gynecology,Department of Obstetrics and Gynecology,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12112331
+detlef stammer,Detlef Stammer,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10590665
+doherty earth observatory of columbia university,Doherty Earth Observatory of Columbia University,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12354891
+dynamically consistent,Dynamically Consistent,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13002991
+earth magnetic field,Earth Magnetic Field,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11377814
+earth observation,Earth Observation,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12095383
+earths future,Earths Future,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13630551
+east and west,East and West,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10590667
+essential climate variables,Essential Climate Variables,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12095353
+eurasian basin,Eurasian Basin,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13376600
+funding acquisition,Funding Acquisition,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12988993
+george mason university,George Mason University,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12988993
+glacial north atlantic intermediate water,Glacial North Atlantic Intermediate Water,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11551322
+global climate observing system,Global Climate Observing System,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12095353
+green chem,Green Chem,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13448930
+greenland interstadials,Greenland Interstadials,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12379145
+gulf of genoa,Gulf of Genoa,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13319204
+hadley centre sea ice and sea surface temperature,Hadley Centre Sea Ice and Sea Surface Temperature,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10368695
+hamburg harbor,Hamburg Harbor,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13390420
+hohai university,Hohai University,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12748715
+honestly significant difference,Honestly Significant Difference,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12112331
+hunan provincial tobacco company,Hunan Provincial Tobacco Company,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13021576
+hurricane idalia,Hurricane Idalia,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12988993
+iberian margin,Iberian Margin,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12167945
+indian ocean and pacific ocean,Indian Ocean and Pacific Ocean,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12748715
+indonesian,Indonesian,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12748715
+integrated ocean drilling program,Integrated Ocean Drilling Program,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13319204
+isobe and ohte,Isobe and Ohte,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10876089
+jessi espino,Jessi Espino,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13181107
+jiayin zhou,Jiayin Zhou,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12542656
+jinchuan wetland,Jinchuan Wetland,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12502596
+kurile lake,Kurile Lake,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13388704
+land surface temperature,Land Surface Temperature,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13594180
+large ensemble,Large Ensemble,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11101628
+late bronze age,Late Bronze Age,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13398485
+late eemian aridity pulse,Late Eemian Aridity Pulse,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13477475
+little diomede island,Little Diomede Island,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13108545
+martinez monteiro,Martinez Monteiro,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12612620
+massachusetts institute of technology,Massachusetts Institute of Technology,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13685917
+mengqi wang,Mengqi Wang,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12542656
+nanjing university,Nanjing University,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13478603
+national oceanic and atmospheric administration,National Oceanic and Atmospheric Administration,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12167945
+native membranes,Native Membranes,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11725843
+natural earth,Natural Earth,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12572293
+no model response,No Model Response,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13645875
+north atlantic subtropical high,North Atlantic Subtropical High,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12662202
+north wall,North Wall,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11315899
+northeast coast,Northeast Coast,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12083515
+northern hemispheric,Northern Hemispheric,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10857529
+oversight of fatigue management approaches,Oversight of Fatigue Management Approaches,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12640197
+process res,Process Res,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13448930
+red sea,Red Sea,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13319204
+sea surface temperature,Sea Surface Temperature,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13594180
+sea surface temperatures,Sea Surface Temperatures,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11962120
+seahorse bioanalyzer,Seahorse Bioanalyzer,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12112331
+see appendix,See Appendix,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10899452
+see fig,See Fig,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12947465
+sepsis prediction for,Sepsis Prediction For,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12947465
+siberian high,Siberian High,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12049274
+south china sea,South China Sea,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13594180
+state college,State College,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13538684
+supplementary discussion,Supplementary Discussion,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13392445
+tianmen cave,Tianmen Cave,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11697416
+tipping calibration module,Tipping Calibration Module,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12612620
+tropical north,Tropical North,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13082334
+university of michigan,University of Michigan,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12125170
+uwe send,Uwe Send,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC10590665
+western europe,Western Europe,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12019781
+western mediterranean sea,Western Mediterranean Sea,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12926746
+western north america,Western North America,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12049274
+woods hole line,Woods Hole Line,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13060603
+ye ye,Ye Ye,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13181107
+zhangjiajie tobacco company,Zhangjiajie Tobacco Company,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13021576
+zhongshi zhang,Zhongshi Zhang,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13565125
+eac,EAC,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC13121742
+ecv,ECV,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC12095353
+emd,EMD,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC11725843
+stw,STW,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC12896705
+crossref,CrossRef,1,1.27,1,,0,,0,1.27,uppercase,europe_pmc_PMC12943728
+south,South,1,1.27,1,,0,,0,1.27,uppercase,europe_pmc_PMC13454564
+dnra,DNRA,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC10876089
+eva,EVA,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13645875
+sat,SAT,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC11818019
+wang,Wang,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC10876089
+asia,Asia,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC13651874
+baldaio,Baldaio,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC12896705
+nhsi,NHSI,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC12131001
+saod,SAOD,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC13388704
+elbe,Elbe,1,1.23,1,,0,,0,1.23,uppercase,europe_pmc_PMC13390420
+africa,Africa,1,1.22,1,,0,,0,1.22,uppercase,europe_pmc_PMC12047422
+byd,BYD,1,1.22,1,,0,,0,1.22,uppercase,europe_pmc_PMC10876089
+estuary,Estuary,1,1.22,1,,0,,0,1.22,uppercase,europe_pmc_PMC13390420
+acidobacteriota and pseudomonadota,Acidobacteriota and Pseudomonadota,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13021576
+acta cryst,Acta Cryst,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11725843
+acta crystallogr,Acta Crystallogr,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12801151
+alfred wegener institute,Alfred Wegener Institute,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13388704
+all non,All Non,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12947465
+all sepsis patients,All Sepsis Patients,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12947465
+allegheny county,Allegheny County,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13181107
+allyl isothiocyanate fumigation,Allyl Isothiocyanate Fumigation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12943728
+atlantic meriodional overturning circulation,Atlantic Meriodional Overturning Circulation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10959405
+atlantic multidecadal oscillation,Atlantic Multidecadal Oscillation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13418535
+atmosphere data set,Atmosphere Data Set,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10724135
+baiyangdian lake,Baiyangdian Lake,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10876089
+balkans and anatolia,Balkans and Anatolia,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13398485
+barents sea opening,Barents Sea Opening,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11736101
+bay of biscay,Bay of Biscay,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10619932
+beaufort sea and chukchi sea,Beaufort Sea and Chukchi Sea,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11441504
+beijing obo star biotechnology,Beijing Obo Star Biotechnology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12943728
+brazilian earth system model,Brazilian Earth System Model,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10517999
+cape farewell,Cape Farewell,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10517999
+caribbean sea and gulf of mexico,Caribbean Sea and Gulf of Mexico,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10590663
+characteristics of east asian,Characteristics of East Asian,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13651874
+china tobacco hunan industrial co,China Tobacco Hunan Industrial Co,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13021576
+chinese academy of agricultural sciences,Chinese Academy of Agricultural Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12943728
+chloroflexota and actinomycetota,Chloroflexota and Actinomycetota,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13021576
+college of ocean and earth sciences,College of Ocean and Earth Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13639189
+college of resources and environmental sciences,College of Resources and Environmental Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12998224
+community land model,Community Land Model,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11818019
+computational and information systems laboratory,Computational and Information Systems Laboratory,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11608347
+containing membranes,Containing Membranes,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11725843
+coordination center,Coordination Center,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13181107
+davide zanchettin,Davide Zanchettin,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13645875
+dazomet fumigation,Dazomet Fumigation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12943728
+delft university of technology,Delft University of Technology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12337580
+department of atmospheric sciences,Department of Atmospheric Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12749622
+department of earth and planetary sciences,Department of Earth and Planetary Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11441504
+department of earth sciences,Department of Earth Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13388704
+department of forest and wildlife ecology,Department of Forest and Wildlife Ecology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10999273
+department of geography,Department of Geography,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13630551
+diamond version,Diamond Version,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13132864
+diffusion limitation,Diffusion Limitation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12844351
+dronning maud land,Dronning Maud Land,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13488926
+earth system climate model,Earth System Climate Model,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13630551
+earth system models of intermediate complexity,Earth System Models of Intermediate Complexity,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12612620
+earth telescope,Earth Telescope,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13645875
+elbe river,Elbe River,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13390420
+environmental protection agency,Environmental Protection Agency,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11892582
+eocene thermal maximum,Eocene Thermal Maximum,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13651883
+escm,ESCM,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13630551
+euler maruyama,Euler Maruyama,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12303098
+european,European,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12019781
+faculty of natural and agricultural sciences,Faculty of Natural and Agricultural Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12540930
+frontiers science center for deep ocean multispheres and earth system,Frontiers Science Center for Deep Ocean Multispheres and Earth System,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13490444
+glacial isostatic adjustment,Glacial Isostatic Adjustment,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12083515
+global tipping points report,Global Tipping Points Report,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+great salinity anomaly,Great Salinity Anomaly,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13392445
+gregory and forster,Gregory and Forster,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10899452
+henan university of science and technology,Henan University of Science and Technology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13468015
+high metabolic turnover,High Metabolic Turnover,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12844351
+hugh montgomery,Hugh Montgomery,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12309139
+iceland and irminger,Iceland and Irminger,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13620149
+icelandic low,Icelandic Low,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12871447
+influence of subpolar,Influence of Subpolar,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12006024
+inner mongolia academy of agricultural and animal husbandry sciences,Inner Mongolia Academy of Agricultural and Animal Husbandry Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13132864
+institute and faculty of actuaries,Institute and Faculty of Actuaries,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12309139
+institute of atmospheric physics,Institute of Atmospheric Physics,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11414737
+institute of atmospheric sciences and climate,Institute of Atmospheric Sciences and Climate,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+institute of geology and geophysics,Institute of Geology and Geophysics,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13565125
+international air transport association,International Air Transport Association,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12640197
+international best track archive for climate stewardship,International Best Track Archive for Climate Stewardship,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11724057
+intertropical convergence zone,Intertropical Convergence Zone,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12167945
+irish government,Irish Government,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10590661
+irminger and nordic seas,Irminger and Nordic Seas,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281800
+jochem marotzke,Jochem Marotzke,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10590665
+jon robson,Jon Robson,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10590668
+journal of fluid mechanics figure,Journal of Fluid Mechanics Figure,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12926746
+junhong bai,Junhong Bai,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10876089
+kyoto encyclopedia of genes and genomes,Kyoto Encyclopedia of Genes and Genomes,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12502596
+labrador and greenland seas,Labrador and Greenland Seas,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11441504
+late pleistocene,Late Pleistocene,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13488926
+leica microsystems,Leica Microsystems,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12896705
+length text,Length Text,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13390420
+linked immunosorbent assay sandwich enzyme,Linked Immunosorbent Assay Sandwich Enzyme,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13515334
+max planck institute,Max Planck Institute,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11608347
+max planck institute earth system model,Max Planck Institute Earth System Model,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11892582
+megaviricetes and maverivicetes,Megaviricetes and Maverivicetes,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13390420
+mengzhi ji,Mengzhi Ji,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12542656
+met office hadley centre,Met Office Hadley Centre,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12494007
+michigan state university,Michigan State University,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13341793
+microbial communities,Microbial Communities,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13515334
+microbial strain linear regression equation coefficient of determination,Microbial Strain Linear Regression Equation Coefficient of Determination,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12943728
+ministry of agriculture and rural affairs,Ministry of Agriculture and Rural Affairs,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12998224
+model of intermediate complexity,Model of Intermediate Complexity,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13108545
+moderate resolution imaging spectroradiometer,Moderate Resolution Imaging Spectroradiometer,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12049274
+moss cover alters,Moss Cover Alters,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13363821
+mount tambora,Mount Tambora,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13645875
+nanjing institute of geography and limnology,Nanjing Institute of Geography and Limnology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12131001
+nanoarchaeota and thermoproteota,Nanoarchaeota and Thermoproteota,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12844351
+nat clim chang,Nat Clim Chang,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12222237
+national institutes of health,National Institutes of Health,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13181107
+national natural science foundation of china,National Natural Science Foundation of China,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12542656
+nocardioides and solirubrobacter,Nocardioides and Solirubrobacter,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12540930
+north atlantic meridional overturning circulation,North Atlantic Meridional Overturning Circulation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10590661
+north atlantic warming hole,North Atlantic Warming Hole,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11608347
+north greenland ice core project,North Greenland Ice Core Project,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10619932
+northern italy and southeastern europe,Northern Italy and Southeastern Europe,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12019781
+ocean heat content,Ocean Heat Content,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11736101
+olubukola oluranti babalola,Olubukola Oluranti Babalola,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13636661
+operational fatigue and performance,Operational Fatigue and Performance,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12640197
+osl,OSL,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13408133
+peltier and vettoretti,Peltier and Vettoretti,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11885369
+pept sci,Pept Sci,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13448930
+peter ditlevsen,Peter Ditlevsen,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10368695
+peter grossart,Peter Grossart,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13390420
+phylogenetic diversity,Phylogenetic Diversity,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13132864
+planck institute for meteorology,Planck Institute for Meteorology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13634050
+public health inform,Public Health Inform,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13181107
+qichao tu southern marine science and engineering guangdong laboratory,Qichao Tu Southern Marine Science and Engineering Guangdong Laboratory,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12542656
+rau and baird,Rau and Baird,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12064605
+san diego,San Diego,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12943728
+school of life sciences,School of Life Sciences,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12804982
+sci adv,Sci Adv,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12222237
+seamless system for prediction and earth system research,Seamless System for Prediction and Earth System Research,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11624277
+see nickoloff,See Nickoloff,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12064605
+september and october,September and October,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13515334
+simpson and shannon,Simpson and Shannon,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12502596
+south atlantic ocean,South Atlantic Ocean,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12926746
+southern marine science and engineering guangdong laboratory,Southern Marine Science and Engineering Guangdong Laboratory,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12542656
+southern oscillation,Southern Oscillation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13418535
+southern university of science and technology,Southern University of Science and Technology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12804982
+stuart cunningham,Stuart Cunningham,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10590665
+susanne ditlevsen,Susanne Ditlevsen,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10368695
+thaumarchaeota and euryarchaeota,Thaumarchaeota and Euryarchaeota,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13636661
+thermo fisher scientific,Thermo Fisher Scientific,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12844351
+tim henri josephus hermans,Tim Henri Josephus Hermans,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12337580
+tmds,TMDs,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281819
+tuinenburg and staal,Tuinenburg and Staal,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12095353
+united states national science foundation award,United States National Science Foundation Award,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11441504
+university of california riverside,University of California Riverside,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11441504
+university of colorado boulder,University of Colorado Boulder,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11608347
+university of copenhagen,University of Copenhagen,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC10368695
+university of massachusetts amherst,University of Massachusetts Amherst,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12572293
+university of miami,University of Miami,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12222237
+university of oslo,University of Oslo,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12871447
+university of pittsburgh,University of Pittsburgh,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13181107
+university of science and technology of china,University of Science and Technology of China,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13281819
+university of twente,University of Twente,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12337580
+utrecht university,Utrecht University,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13458837
+wei chen,Wei Chen,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12303098
+western mediterranean,Western Mediterranean,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12926746
+western north pacific,Western North Pacific,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12379145
+woese institute for genomic biology,Woese Institute for Genomic Biology,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12998224
+working group,Working Group,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13634050
+xiangqian zhang,Xiangqian Zhang,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13132864
+xiao zhijian,Xiao Zhijian,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13008557
+xiaoyun yang,Xiaoyun Yang,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12804982
+yanbian university,Yanbian University,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13515334
+zhangjiajie branch of hunan tobacco corporation,Zhangjiajie Branch of Hunan Tobacco Corporation,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13021576
+zhanhui tang,Zhanhui Tang,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12502596
+zhanyuan lu,Zhanyuan Lu,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13132864
+zhenxin li,Zhenxin Li,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12502596
+zongqiang li,Zongqiang Li,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12804982
+alt,ALT,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC11818019
+ddr,DDR,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC12542656
+ncycdb,NCycDB,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC12542656
+its,ITS,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC13636661
+nmds,NMDS,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC12540930
+tn,TN,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC13132864
+the,The,1,1.15,1,,0,,0,1.15,uppercase,europe_pmc_PMC12337580
+african,African,1,1.14,1,,0,,0,1.14,uppercase,europe_pmc_PMC13565125
+kegg,KEGG,1,1.14,1,,0,,0,1.14,uppercase,europe_pmc_PMC13636661
+anova,ANOVA,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC12540930
+active site of ammonia monooxygenase the,Active Site of Ammonia Monooxygenase The,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13674081
+addition shows immediate transcriptional responses the,Addition Shows Immediate Transcriptional Responses The,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13674081
+advancement of sciences,Advancement of Sciences,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+american association,American Association,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+analysis of differential bacterial taxa in oat rhizosphere soil under microplastic treatments the,Analysis of Differential Bacterial Taxa in Oat Rhizosphere Soil Under Microplastic Treatments The,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13468015
+arrival of new great salinity anomaly weakens convection,Arrival of New Great Salinity Anomaly Weakens Convection,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13392445
+article common nitrification inhibitors exhibit distinct mechanisms,Article Common Nitrification Inhibitors Exhibit Distinct Mechanisms,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13674081
+article differential effects of polyethylene and polystyrene microplastics,Article Differential Effects of Polyethylene and Polystyrene Microplastics,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13468015
+article fatty acid metabolism regulators have pivotal roles,Article Fatty Acid Metabolism Regulators Have Pivotal Roles,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12112331
+article interaction mechanisms among soil environmental factors,Article Interaction Mechanisms Among Soil Environmental Factors,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13515334
+article moss cover redirects soil organic carbon,Article Moss Cover Redirects Soil Organic Carbon,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13363821
+associated stabilization in subalpine forests jiahui huang,Associated Stabilization in Subalpine Forests Jiahui Huang,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13363821
+atlantic meridional overturning circulation and abrupt climate change,Atlantic Meridional Overturning Circulation and Abrupt Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13620149
+atlantic meridional overturning circulation camille hankel,Atlantic Meridional Overturning Circulation Camille Hankel,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11725785
+atlantic meridional overturning circulation in atlantic multidecadal variability and associated climate impacts,Atlantic Meridional Overturning Circulation in Atlantic Multidecadal Variability and Associated Climate Impacts,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13620149
+atlantic meridional overturning circulation qianjiang xing,Atlantic Meridional Overturning Circulation Qianjiang Xing,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13060603
+author correction,Author Correction,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12058520
+baker laboratory,Baker Laboratory,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+beijing frontier research center for biological structure,Beijing Frontier Research Center for Biological Structure,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12804982
+center for sustainability science and strategy,Center for Sustainability Science and Strategy,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13685917
+changes in soil physicochemical properties soil,Changes in Soil Physicochemical Properties Soil,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13363821
+chinese journal of practical internal medicine,Chinese Journal of Practical Internal Medicine,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13008557
+climate and global dynamics laboratory,Climate and Global Dynamics Laboratory,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10590660
+comparative omics reveal differences in responses,Comparative Omics Reveal Differences in Responses,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13674081
+complex marine ecosystems and planetary boundary tipping,Complex Marine Ecosystems and Planetary Boundary Tipping,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13715440
+composition of rhizosphere soil bacterial communities compared,Composition of Rhizosphere Soil Bacterial Communities Compared,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13468015
+computational tools and pipelines for metagenomics analysis the,Computational Tools and Pipelines for Metagenomics Analysis The,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13636661
+continued atlantic,Continued Atlantic,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12058520
+correction for schaumann,Correction for Schaumann,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12358914
+cyclobacteriaceae and vicinamibacterales proteobacteria and actinobacteria firmicutes,Cyclobacteriaceae and Vicinamibacterales Proteobacteria and Actinobacteria Firmicutes,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13636661
+decipher soil and rhizosphere microbial communities and their functions for sustainable agriculture oluwaseun emmanuel shittu,Decipher Soil and Rhizosphere Microbial Communities and Their Functions for Sustainable Agriculture Oluwaseun Emmanuel Shittu,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13636661
+decoupling of total and available nutrient pools moss,Decoupling of Total and Available Nutrient Pools Moss,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13363821
+department of atmospheric and climate science,Department of Atmospheric and Climate Science,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11725785
+department of biochemistry and molecular biology,Department of Biochemistry and Molecular Biology,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12896705
+department of cellular physiology and signal transduction,Department of Cellular Physiology and Signal Transduction,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12112331
+department of chemistry and chemical biology cornell university,Department of Chemistry and Chemical Biology Cornell University,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+department of complexity science,Department of Complexity Science,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13715440
+department of mathematics and global systems institute,Department of Mathematics and Global Systems Institute,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11296338
+department of modern physics,Department of Modern Physics,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13281819
+department ofmathematics andglobal systems institute,Department ofMathematics andGlobal Systems Institute,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10724135
+departments of molecular biosciences,Departments of Molecular Biosciences,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12801151
+dijkstra the atlantic meridional overturning circulation,Dijkstra The Atlantic Meridional Overturning Circulation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13638462
+dimensional cell cultures of ovarian surface epithelium cell and ovarian carcinoma cell lines,Dimensional Cell Cultures of Ovarian Surface Epithelium Cell and Ovarian Carcinoma Cell Lines,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12112331
+effects of microplastic treatments on alpha and beta diversity for,Effects of Microplastic Treatments on Alpha and Beta Diversity For,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13468015
+evolution of atlantic meridional overturning circulation,Evolution of Atlantic Meridional Overturning Circulation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12006024
+factors influencing the choice between amplicon and shotgun sequencing in soil and rhizosphere metagenomic studies soil,Factors Influencing the Choice Between Amplicon and Shotgun Sequencing in Soil and Rhizosphere Metagenomic Studies Soil,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13636661
+felix schaumann and eduardo,Felix Schaumann and Eduardo,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12358914
+first affiliated hospital,First Affiliated Hospital,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13281819
+functional prediction of bacterial communities in oat rhizosphere soil under microplastic treatments this,Functional Prediction of Bacterial Communities in Oat Rhizosphere Soil Under Microplastic Treatments This,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13468015
+gametogenic cycle and maturation scale distribution the,Gametogenic Cycle and Maturation Scale Distribution The,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12896705
+greenland ice sheet and west antarctic ice sheet,Greenland Ice Sheet and West Antarctic Ice Sheet,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13638462
+growth conditions and nitrification inhibitor preparation nitrososphaera,Growth Conditions and Nitrification Inhibitor Preparation Nitrososphaera,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13674081
+hefei national research center for physical sciences,Hefei National Research Center for Physical Sciences,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13281819
+holistic analysis of current peptide manufacturing processes informs sustainability in peptide synthesis,Holistic Analysis of Current Peptide Manufacturing Processes Informs Sustainability in Peptide Synthesis,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+humboldt university berlin,Humboldt University Berlin,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13715440
+informatics and behavioral semantics,Informatics and Behavioral Semantics,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12303098
+institute for biological electron microscopy,Institute for Biological Electron Microscopy,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12804982
+institute for marine and atmospheric,Institute for Marine and Atmospheric,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10959405
+institute of mountain hazards and environment,Institute of Mountain Hazards and Environment,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13363821
+interglacial glacial glacial changes in csol,Interglacial Glacial Glacial Changes in Csol,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13685917
+interglacial interglacial interglacial glacial,Interglacial Interglacial Interglacial Glacial,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13685917
+international consensus classification of myeloid neoplasms and acute leukemias,International Consensus Classification of Myeloid Neoplasms and Acute Leukemias,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13008557
+international institute for applied systems analysis,International Institute for Applied Systems Analysis,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13376509
+international license,International License,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12058520
+inverse peptide synthesis using transient protected amino acids,Inverse Peptide Synthesis Using Transient Protected Amino Acids,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+japan agency for marine earth science and technology,Japan Agency for Marine Earth Science and Technology,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10899452
+jilin longwan national nature reserve,Jilin Longwan National Nature Reserve,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12502596
+jilin longwan provincial nature reserve,Jilin Longwan Provincial Nature Reserve,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12502596
+key laboratory of lake and watershed science for water security,Key Laboratory of Lake and Watershed Science for Water Security,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12131001
+lancet countdown on health and climate change,Lancet Countdown on Health and Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12309139
+laughlin and kyle,Laughlin and Kyle,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+leonard and jayne abess center for ecosystem science and policy,Leonard and Jayne Abess Center for Ecosystem Science and Policy,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12222237
+mediterranean center on climate change,Mediterranean Center on Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12006024
+meridional overturning variability experiment,Meridional Overturning Variability Experiment,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13060603
+metagenomic approaches for revealing microbiome functions and diversity the,Metagenomic Approaches for Revealing Microbiome Functions and Diversity The,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13636661
+models for inhibition and cellular responses,Models for Inhibition and Cellular Responses,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13674081
+mol risk models in chronic myelomonocytic leukemia,Mol Risk Models in Chronic Myelomonocytic Leukemia,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13008557
+national academy of sciences,National Academy of Sciences,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+national centre for atmospheric science,National Centre for Atmospheric Science,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10590668
+national clinical research center for blood diseases,National Clinical Research Center for Blood Diseases,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13008557
+national oceanography centre,National Oceanography Centre,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10590660
+new climate scenarios limitations,New Climate Scenarios Limitations,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12309139
+new york structural biology center,New York Structural Biology Center,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12801151
+north atlantic hosing model intercomparison project,North Atlantic Hosing Model Intercomparison Project,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13665990
+norwegian university of science and technology,Norwegian University of Science and Technology,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13376509
+open access continuous evaluation frameworks for retrospective evaluation of clinical machine learning models annamalai natarajan,Open Access Continuous Evaluation Frameworks for Retrospective Evaluation of Clinical Machine Learning Models Annamalai Natarajan,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12947465
+open access this,Open Access This,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12058520
+pathways introduction the atlantic meridional overturning circulation,Pathways Introduction The Atlantic Meridional Overturning Circulation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12222237
+pei mao and wenfeng ma college of animal science and technology,Pei Mao and Wenfeng Ma College of Animal Science and Technology,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13468015
+phases characteristics microscopic elements phase,Phases Characteristics Microscopic Elements Phase,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12896705
+projects of international cooperation and references basu,Projects of International Cooperation and References Basu,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10876089
+protein data bank and electron microscopy data bank,Protein Data Bank and Electron Microscopy Data Bank,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12801151
+published august,Published August,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12358914
+references european commission,References European Commission,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12309139
+royal society of chemistry received,Royal Society of Chemistry Received,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12801151
+school of artificial intelligence,School of Artificial Intelligence,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12303098
+school of chemistry and materials science,School of Chemistry and Materials Science,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13281819
+school of earth and environmental sciences,School of Earth and Environmental Sciences,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13376509
+school of engineering and design,School of Engineering and Design,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11296338
+seasonal variations in gametogenic cycle gonadal,Seasonal Variations in Gametogenic Cycle Gonadal,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12896705
+sergei winogradsky,Sergei Winogradsky,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13058606
+significance the atlantic meridional overturning circulation,Significance The Atlantic Meridional Overturning Circulation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11725785
+spatiotemporal response characteristics of microbial communities finn,Spatiotemporal Response Characteristics of Microbial Communities Finn,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13515334
+state key laboratory of estuarine and coastal research,State Key Laboratory of Estuarine and Coastal Research,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12804982
+state key laboratory of experimental hematology,State Key Laboratory of Experimental Hematology,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13008557
+state key laboratory of particle detection and electronics,State Key Laboratory of Particle Detection and Electronics,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13281819
+state key laboratory of soil and sustainable agriculture,State Key Laboratory of Soil and Sustainable Agriculture,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12131001
+structural equation models link moss cover and elevation,Structural Equation Models Link Moss Cover and Elevation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13363821
+supporting information the supporting information,Supporting Information The Supporting Information,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13448930
+surface water and ocean topography,Surface Water and Ocean Topography,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10590660
+technical university of munich,Technical University of Munich,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11296338
+united nations climate change,United Nations Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12309139
+wood in,Wood In,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12058520
+woods hole oceanographic institution,Woods Hole Oceanographic Institution,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC10590660
+world health organization classification of haematolymphoid tumours,World Health Organization Classification of Haematolymphoid Tumours,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13008557
+zero emissions commitment model intercomparison project,Zero Emissions Commitment Model Intercomparison Project,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13376509
+circulation,Circulation,1,1.05,1,,0,,0,1.05,uppercase,europe_pmc_PMC12222237
+amgs,AMGs,1,1.04,1,,0,,0,1.04,uppercase,europe_pmc_PMC13284520
+commons,Commons,1,1.04,1,,0,,0,1.04,uppercase,europe_pmc_PMC12058520
+asenjo,Asenjo,1,1.02,1,,0,,0,1.02,uppercase,europe_pmc_PMC12358914
+avgs,AVGs,1,1.02,1,,0,,0,1.02,uppercase,europe_pmc_PMC13284520
+by,BY,1,1.02,1,,0,,0,1.02,uppercase,europe_pmc_PMC12358914
+means persistence,means persistence,1,,0,0.1433,1,,0,0.1433,tfidf,europe_pmc_PMC12358914
+value means,value means,1,,0,0.1433,1,,0,0.1433,tfidf,europe_pmc_PMC12358914
+value means persistence,value means persistence,1,,0,0.1433,1,,0,0.1433,tfidf,europe_pmc_PMC12358914
+auxiliary,auxiliary,1,,0,0.1209,1,,0,0.1209,tfidf,europe_pmc_PMC13284520
+persistence,persistence,1,,0,0.11,1,,0,0.11,tfidf,europe_pmc_PMC12358914
+support claims,support claims,1,,0,0.1093,1,,0,0.1093,tfidf,europe_pmc_PMC13284520
+viral genes,viral genes,1,,0,0.1028,1,,0,0.1028,tfidf,europe_pmc_PMC13284520
+carbon uptake increases,carbon uptake increases,1,,0,0.1017,1,,0,0.1017,tfidf,europe_pmc_PMC12358914
+increases social,increases social,1,,0,0.1017,1,,0,0.1017,tfidf,europe_pmc_PMC12358914
+increases social cost,increases social cost,1,,0,0.1017,1,,0,0.1017,tfidf,europe_pmc_PMC12358914
+expanded,expanded,1,,0,0.083,1,,0,0.083,tfidf,europe_pmc_PMC13284520
+claims,claims,1,,0,0.0827,1,,0,0.0827,tfidf,europe_pmc_PMC13284520
+licence,licence,1,,0,0.0822,1,,0,0.0822,tfidf,europe_pmc_PMC12058520
+dust activity,Dust Activity,1,,0,0.0814,1,,0,0.0814,tfidf,europe_pmc_PMC12131001
+leukemia,Leukemia,1,,0,0.0791,1,,0,0.0791,tfidf,europe_pmc_PMC13008557
+article,article,1,,0,0.078,1,,0,0.078,tfidf,europe_pmc_PMC12058520
+models pmoc,models pmoc,1,,0,0.0777,1,,0,0.0777,tfidf,europe_pmc_PMC12058520
+models pmoc does,models pmoc does,1,,0,0.0777,1,,0,0.0777,tfidf,europe_pmc_PMC12058520
+pmoc does,PMOC does,1,,0,0.0777,1,,0,0.0777,tfidf,europe_pmc_PMC12058520
+chronic myelomonocytic,Chronic Myelomonocytic,1,,0,0.0763,1,,0,0.0763,tfidf,europe_pmc_PMC13008557
+myelomonocytic,Myelomonocytic,1,,0,0.0763,1,,0,0.0763,tfidf,europe_pmc_PMC13008557
+chronic myelomonocytic leukemia,Chronic Myelomonocytic Leukemia,1,,0,0.0748,1,,0,0.0748,tfidf,europe_pmc_PMC13008557
+myelomonocytic leukemia,Myelomonocytic Leukemia,1,,0,0.0748,1,,0,0.0748,tfidf,europe_pmc_PMC13008557
+support,support,1,,0,0.0712,1,,0,0.0712,tfidf,europe_pmc_PMC13284520
+dust,DUST,1,,0,0.0674,1,,0,0.0674,tfidf,europe_pmc_PMC12131001
+change,change,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC12181172
+functions term,functions term,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC13284520
+genomes highly,genomes highly,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC13284520
+genomes highly compact,genomes highly compact,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC13284520
+maintaining manipulating,maintaining manipulating,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC13284520
+maintaining manipulating host,maintaining manipulating host,1,,0,0.0645,1,,0,0.0645,tfidf,europe_pmc_PMC13284520
+action robust,action robust,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+action robust science,action robust science,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+advances climate-change,advances climate-change,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+advances climate-change research,advances climate-change research,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+ahead session conference,ahead session conference,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+countries prioritized,countries prioritized,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+countries prioritized key,countries prioritized key,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+session conference parties,session conference parties,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+strategies strengthened,strategies strengthened,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+strategies strengthened governance,strategies strengthened governance,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+synthesis communications,synthesis communications,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+synthesis communications effort,synthesis communications effort,1,,0,0.063,1,,0,0.063,tfidf,europe_pmc_PMC12181172
+dust activity tp,dust activity tp,1,,0,0.0616,1,,0,0.0616,tfidf,europe_pmc_PMC12131001
+peptide,Peptide,1,,0,0.0609,1,,0,0.0609,tfidf,europe_pmc_PMC13448930
+activity tp,activity tp,1,,0,0.0593,1,,0,0.0593,tfidf,europe_pmc_PMC12131001
+sleep,SLEEP,1,,0,0.0571,1,,0,0.0571,tfidf,europe_pmc_PMC12640197
+peptide synthesis,Peptide Synthesis,1,,0,0.057,1,,0,0.057,tfidf,europe_pmc_PMC13448930
+coccolithophore,Coccolithophore,1,,0,0.0558,1,,0,0.0558,tfidf,europe_pmc_PMC13418535
+influenza,Influenza,1,,0,0.0552,1,,0,0.0552,tfidf,europe_pmc_PMC13181107
+residual amoc component,residual AMOC component,1,,0,0.0536,1,,0,0.0536,tfidf,europe_pmc_PMC11624277
+activity,Activity,1,,0,0.0535,1,,0,0.0535,tfidf,europe_pmc_PMC12131001
+d-o,D-O,1,,0,0.0535,1,,0,0.0535,tfidf,europe_pmc_PMC10853552
+aogcms,AOGCMs,1,,0,0.0532,1,,0,0.0532,tfidf,europe_pmc_PMC10899452
+sepsis,Sepsis,1,,0,0.0523,1,,0,0.0523,tfidf,europe_pmc_PMC12947465
+residual amoc,residual AMOC,1,,0,0.0517,1,,0,0.0517,tfidf,europe_pmc_PMC11624277
+fumigation,Fumigation,1,,0,0.051,1,,0,0.051,tfidf,europe_pmc_PMC12943728
+highres,HighRes,1,,0,0.051,1,,0,0.051,tfidf,europe_pmc_PMC11349912
+actuaries,Actuaries,1,,0,0.0507,1,,0,0.0507,tfidf,europe_pmc_PMC12309139
+amoc component,AMOC component,1,,0,0.0505,1,,0,0.0505,tfidf,europe_pmc_PMC11624277
+dl algorithm,DL algorithm,1,,0,0.0505,1,,0,0.0505,tfidf,europe_pmc_PMC12303098
+shrub,Shrub,1,,0,0.0502,1,,0,0.0502,tfidf,europe_pmc_PMC12502596
+sound,SOUND,1,,0,0.05,1,,0,0.05,tfidf,europe_pmc_PMC10573315
+extreme precipitation,Extreme precipitation,1,,0,0.0495,1,,0,0.0495,tfidf,europe_pmc_PMC13651874
+ramstein,Ramstein,1,,0,0.0495,1,,0,0.0495,tfidf,europe_pmc_PMC13565125
+d-o cycles,D-O cycles,1,,0,0.0494,1,,0,0.0494,tfidf,europe_pmc_PMC10853552
+blooms,Blooms,1,,0,0.0493,1,,0,0.0493,tfidf,europe_pmc_PMC13418535
+lowres,LowRes,1,,0,0.0492,1,,0,0.0492,tfidf,europe_pmc_PMC11349912
+ili tracker,ILI Tracker,1,,0,0.049,1,,0,0.049,tfidf,europe_pmc_PMC13181107
+bloom,Bloom,1,,0,0.0485,1,,0,0.0485,tfidf,europe_pmc_PMC13418535
+famv,fAMV,1,,0,0.0484,1,,0,0.0484,tfidf,europe_pmc_PMC10590668
+ohue,OHUE,1,,0,0.0484,1,,0,0.0484,tfidf,europe_pmc_PMC10899452
+blob,blob,1,,0,0.0481,1,,0,0.0481,tfidf,europe_pmc_PMC12136024
+coccolithophore blooms,Coccolithophore blooms,1,,0,0.0481,1,,0,0.0481,tfidf,europe_pmc_PMC13418535
+overflow,Overflow,1,,0,0.048,1,,0,0.048,tfidf,europe_pmc_PMC13616910
+accessed,Accessed,1,,0,0.0479,1,,0,0.0479,tfidf,europe_pmc_PMC12309139
+targeted assembly,Targeted assembly,1,,0,0.0478,1,,0,0.0478,tfidf,europe_pmc_PMC12542656
+thawing,thawing,1,,0,0.0478,1,,0,0.0478,tfidf,europe_pmc_PMC11697416
+permafrost carbon,Permafrost carbon,1,,0,0.0477,1,,0,0.0477,tfidf,europe_pmc_PMC13376509
+itf transport,ITF transport,1,,0,0.0474,1,,0,0.0474,tfidf,europe_pmc_PMC12748715
+encroachment,encroachment,1,,0,0.0473,1,,0,0.0473,tfidf,europe_pmc_PMC12502596
+moss,Moss,1,,0,0.0473,1,,0,0.0473,tfidf,europe_pmc_PMC13363821
+permafrost thawing,permafrost thawing,1,,0,0.0473,1,,0,0.0473,tfidf,europe_pmc_PMC11697416
+tracker,Tracker,1,,0,0.0473,1,,0,0.0473,tfidf,europe_pmc_PMC13181107
+cable,Cable,1,,0,0.0471,1,,0,0.0471,tfidf,europe_pmc_PMC11377814
+deprotection,deprotection,1,,0,0.0471,1,,0,0.0471,tfidf,europe_pmc_PMC13448930
+tipping time,Tipping time,1,,0,0.0471,1,,0,0.0471,tfidf,europe_pmc_PMC11296338
+ar frequency,AR frequency,1,,0,0.0469,1,,0,0.0469,tfidf,europe_pmc_PMC13342563
+iamv,iAMV,1,,0,0.0469,1,,0,0.0469,tfidf,europe_pmc_PMC10590668
+macro,Macro,1,,0,0.0469,1,,0,0.0469,tfidf,europe_pmc_PMC11668834
+all-sat,all-sat,1,,0,0.0468,1,,0,0.0468,tfidf,europe_pmc_PMC12214639
+lagoon,Lagoon,1,,0,0.0468,1,,0,0.0468,tfidf,europe_pmc_PMC12896705
+synthesis,Synthesis,1,,0,0.0467,1,,0,0.0467,tfidf,europe_pmc_PMC13448930
+moss-covered,Moss-Covered,1,,0,0.0466,1,,0,0.0466,tfidf,europe_pmc_PMC13363821
+amoc-2,AMOC-2,1,,0,0.0465,1,,0,0.0465,tfidf,europe_pmc_PMC12112331
+polynya,Polynya,1,,0,0.0465,1,,0,0.0465,tfidf,europe_pmc_PMC12988150
+sdmax,SDmax,1,,0,0.0465,1,,0,0.0465,tfidf,europe_pmc_PMC13620149
+tree species,Tree Species,1,,0,0.0465,1,,0,0.0465,tfidf,europe_pmc_PMC12019781
+aviation,Aviation,1,,0,0.0464,1,,0,0.0464,tfidf,europe_pmc_PMC12640197
+denitrification,denitrification,1,,0,0.0464,1,,0,0.0464,tfidf,europe_pmc_PMC10876089
+montgomery,Montgomery,1,,0,0.0464,1,,0,0.0464,tfidf,europe_pmc_PMC12309139
+ahteq,AHTeq,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC13377125
+assembly,Assembly,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC12542656
+coccolithophore bloom,Coccolithophore bloom,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC13418535
+microplastic,Microplastic,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC13468015
+b-p ventilation,B-P ventilation,1,,0,0.0461,1,,0,0.0461,tfidf,europe_pmc_PMC13381650
+hurricane,Hurricane,1,,0,0.0461,1,,0,0.0461,tfidf,europe_pmc_PMC11724057
+upwelling pathways,upwelling pathways,1,,0,0.0461,1,,0,0.0461,tfidf,europe_pmc_PMC11864975
+gonadal,Gonadal,1,,0,0.046,1,,0,0.046,tfidf,europe_pmc_PMC12896705
+permafrost carbon loss,Permafrost carbon loss,1,,0,0.046,1,,0,0.046,tfidf,europe_pmc_PMC13376509
+skeletal,Skeletal,1,,0,0.046,1,,0,0.046,tfidf,europe_pmc_PMC12844351
+action,action,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC12309139
+adaptation planning,Adaptation planning,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC12222237
+air-sea heat flux,air-sea heat flux,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC11736101
+otec0,OTEC0,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC12064605
+sorghum,Sorghum,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC12540930
+altimetric,altimetric,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC12214639
+easm rainfall,EASM rainfall,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC11707078
+planning,Planning,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC12222237
+voltage gap,Voltage gap,1,,0,0.0455,1,,0,0.0455,tfidf,europe_pmc_PMC13281819
+omip2,OMIP2,1,,0,0.0454,1,,0,0.0454,tfidf,europe_pmc_PMC11624277
+think,think,1,,0,0.0454,1,,0,0.0454,tfidf,europe_pmc_PMC13565125
+cold blob,cold blob,1,,0,0.0453,1,,0,0.0453,tfidf,europe_pmc_PMC12136024
+sound speed,Sound speed,1,,0,0.0453,1,,0,0.0453,tfidf,europe_pmc_PMC10573315
+zhangjia,Zhangjia,1,,0,0.0453,1,,0,0.0453,tfidf,europe_pmc_PMC12753843
+ligand,Ligand,1,,0,0.0452,1,,0,0.0452,tfidf,europe_pmc_PMC11231327
+ventilation ages,Ventilation ages,1,,0,0.0452,1,,0,0.0452,tfidf,europe_pmc_PMC13381650
+amoc-sensitive,AMOC-sensitive,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC13478603
+spg sst,SPG SST,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC11736101
+amoc upwelling,AMOC upwelling,1,,0,0.045,1,,0,0.045,tfidf,europe_pmc_PMC11864975
+deep western overturning,Deep western overturning,1,,0,0.0449,1,,0,0.0449,tfidf,europe_pmc_PMC13060603
+invasion,Invasion,1,,0,0.0448,1,,0,0.0448,tfidf,europe_pmc_PMC12502596
+shrub encroachment,Shrub encroachment,1,,0,0.0448,1,,0,0.0448,tfidf,europe_pmc_PMC12502596
+eastern lia,eastern LIA,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13373228
+membranes,Membranes,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC11725843
+open-ocean deep,open-ocean deep,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC11605065
+open-ocean deep convection,open-ocean deep convection,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC11605065
+polypeptide,polypeptide,1,,0,0.0447,1,,0,0.0447,tfidf,europe_pmc_PMC13448930
+functional genes,Functional genes,1,,0,0.0446,1,,0,0.0446,tfidf,europe_pmc_PMC10876089
+spheroids,spheroids,1,,0,0.0446,1,,0,0.0446,tfidf,europe_pmc_PMC12112331
+two-sat,two-sat,1,,0,0.0446,1,,0,0.0446,tfidf,europe_pmc_PMC12214639
+coexisting,Coexisting,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC10959405
+fwf,FWF,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC11605065
+hurricanes,Hurricanes,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC11724057
+o-west,O-West,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC13620149
+otec power,OTEC power,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC12064605
+sea ice snow,sea ice snow,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC12049274
+amoc-sensitive indicators,AMOC-sensitive indicators,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC13478603
+heat flux anomalies,heat flux anomalies,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC11736101
+microplastics,Microplastics,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC13468015
+ohteq,OHTeq,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC13377125
+outbreak,Outbreak,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC13181107
+slab,Slab,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC13031658
+wais meltwater,WAIS meltwater,1,,0,0.0444,1,,0,0.0444,tfidf,europe_pmc_PMC12617517
+disease,Disease,1,,0,0.0443,1,,0,0.0443,tfidf,europe_pmc_PMC13181107
+sea open-ocean,Sea open-ocean,1,,0,0.0443,1,,0,0.0443,tfidf,europe_pmc_PMC11605065
+parcels,Parcels,1,,0,0.0442,1,,0,0.0442,tfidf,europe_pmc_PMC12926746
+dmpp atu,dmpp atu,1,,0,0.0441,1,,0,0.0441,tfidf,europe_pmc_PMC13674081
+ladcp,LADCP,1,,0,0.0441,1,,0,0.0441,tfidf,europe_pmc_PMC11377814
+nawh-s,NAWH-S,1,,0,0.0441,1,,0,0.0441,tfidf,europe_pmc_PMC11608347
+ramping,ramping,1,,0,0.0441,1,,0,0.0441,tfidf,europe_pmc_PMC11725785
+bifurcation,Bifurcation,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC12303098
+circumarctic,circumarctic,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC11697416
+fabp4,FABP4,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC12112331
+gilles,Gilles,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC13565125
+mhws,MHWs,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC13031658
+sea open-ocean deep,Sea open-ocean deep,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC11605065
+water age,Water age,1,,0,0.044,1,,0,0.044,tfidf,europe_pmc_PMC12780181
+air-sea heat,air-sea heat,1,,0,0.0439,1,,0,0.0439,tfidf,europe_pmc_PMC11736101
+c-co,C-CO,1,,0,0.0439,1,,0,0.0439,tfidf,europe_pmc_PMC12167945
+leap-i,LEAP-I,1,,0,0.0438,1,,0,0.0438,tfidf,europe_pmc_PMC13477475
+patient,patient,1,,0,0.0438,1,,0,0.0438,tfidf,europe_pmc_PMC12947465
+ars,ARs,1,,0,0.0437,1,,0,0.0437,tfidf,europe_pmc_PMC13342563
+cowpea,Cowpea,1,,0,0.0437,1,,0,0.0437,tfidf,europe_pmc_PMC12540930
+immediate,immediate,1,,0,0.0437,1,,0,0.0437,tfidf,europe_pmc_PMC12309139
+western overturning,western overturning,1,,0,0.0437,1,,0,0.0437,tfidf,europe_pmc_PMC13060603
+briensis,briensis,1,,0,0.0436,1,,0,0.0436,tfidf,europe_pmc_PMC12801151
+cgenie,cGENIE,1,,0,0.0436,1,,0,0.0436,tfidf,europe_pmc_PMC12612620
+iodate,Iodate,1,,0,0.0436,1,,0,0.0436,tfidf,europe_pmc_PMC13341793
+diatom-bound,Diatom-bound,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC12890832
+karnauskas et,Karnauskas et,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC11608347
+karnauskas et al,Karnauskas et al,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC11608347
+non-moss-covered,Non-Moss-Covered,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC13363821
+tipping risk,Tipping risk,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC11294534
+bifurcation parameter,bifurcation parameter,1,,0,0.0434,1,,0,0.0434,tfidf,europe_pmc_PMC12303098
+eddy field,eddy field,1,,0,0.0434,1,,0,0.0434,tfidf,europe_pmc_PMC11724057
+cuc cud,cuc cud,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC12801151
+curl,Curl,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC11315899
+danger,danger,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC12787522
+hazards impacts,hazards impacts,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC12337580
+aitc fumigation,AITC Fumigation,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC12943728
+amoc carbon feedback,AMOC Carbon Feedback,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC11892582
+micro,micro,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC11668834
+power generation,Power generation,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC12064605
+surrogates,Surrogates,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC10724135
+u-nadw,u-NADW,1,,0,0.0431,1,,0,0.0431,tfidf,europe_pmc_PMC13260390
+bivalve,bivalve,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC12494007
+site u1542,Site U1542,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC11958772
+western overturning transport,western overturning transport,1,,0,0.043,1,,0,0.043,tfidf,europe_pmc_PMC13060603
+degree-years,degree-years,1,,0,0.0429,1,,0,0.0429,tfidf,europe_pmc_PMC13630551
+esp,ESP,1,,0,0.0429,1,,0,0.0429,tfidf,europe_pmc_PMC12271382
+ep,EP,1,,0,0.0428,1,,0,0.0428,tfidf,europe_pmc_PMC11551322
+moss cover,Moss Cover,1,,0,0.0428,1,,0,0.0428,tfidf,europe_pmc_PMC13363821
+spltot,SPLtot,1,,0,0.0428,1,,0,0.0428,tfidf,europe_pmc_PMC10573315
+upwelling pathway,Upwelling pathway,1,,0,0.0428,1,,0,0.0428,tfidf,europe_pmc_PMC11864975
+carbon loss,carbon loss,1,,0,0.0427,1,,0,0.0427,tfidf,europe_pmc_PMC13376509
+fabp5,FABP5,1,,0,0.0427,1,,0,0.0427,tfidf,europe_pmc_PMC12112331
+iron,Iron,1,,0,0.0427,1,,0,0.0427,tfidf,europe_pmc_PMC11231327
+snow,Snow,1,,0,0.0427,1,,0,0.0427,tfidf,europe_pmc_PMC12049274
+tcr,TCR,1,,0,0.0427,1,,0,0.0427,tfidf,europe_pmc_PMC10899452
+decussatus,decussatus,1,,0,0.0426,1,,0,0.0426,tfidf,europe_pmc_PMC12896705
+moss-covered soils,Moss-covered soils,1,,0,0.0426,1,,0,0.0426,tfidf,europe_pmc_PMC13363821
+vorticity pool,Vorticity Pool,1,,0,0.0426,1,,0,0.0426,tfidf,europe_pmc_PMC11315899
+amoc carbon,AMOC Carbon,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC11892582
+eke trends,EKE trends,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC12214639
+ice snow,ice snow,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC12049274
+initial-condition memory,Initial-condition memory,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC11668834
+mis m2,MIS M2,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13645622
+oc methods,OC methods,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13082334
+disequilibrium,disequilibrium,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC13685917
+hadcrut5,HadCRUT5,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC10724135
+hist,Hist,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC12748715
+mass transformation,mass transformation,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC10590669
+skill-less,Skill-less,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC12006024
+soybean,soybean,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC12540930
+spg sst index,SPG SST index,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC11736101
+water mass transformation,Water mass transformation,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC10590669
+asian aas,Asian AAs,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC10762259
+cmip5 amp,cmip5 amp,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC10899452
+do-15,DO-15,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC12379145
+hadsst4,HadSST4,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC10724135
+shrub invasion,shrub invasion,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC12502596
+slow co2 ramp,slow CO2 ramp,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC13638462
+viennensis,viennensis,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC13674081
+zero-layer,zero-layer,1,,0,0.0423,1,,0,0.0423,tfidf,europe_pmc_PMC10899452
+blob models,blob models,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC12136024
+chc strength,CHC Strength,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC11958772
+cool-climate,Cool-Climate,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC13515334
+eddies,Eddies,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC11724057
+late miocene,Late Miocene,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC12047422
+leave error,leave error,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC13082334
+o-east,O-East,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC13620149
+solution space,solution space,1,,0,0.0422,1,,0,0.0422,tfidf,europe_pmc_PMC12222237
+abrupt4xco2,Abrupt4xCO2,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC10517999
+nitrogen,Nitrogen,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC10876089
+positive vorticity,positive vorticity,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC11315899
+slab ocean,Slab ocean,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC13031658
+positive vorticity pool,positive vorticity pool,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC11315899
+reversibility,Reversibility,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC13630551
+sems,SEMs,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC10999273
+skillful,Skillful,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC12006024
+arctic overturning,Arctic overturning,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC12248306
+cold group,cold group,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC11101628
+in-flight,In-flight,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC12640197
+karnauskas,Karnauskas,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC11608347
+li co2,li co2,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13281819
+monsoons,Monsoons,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13565125
+overflow velocity,overflow velocity,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13616910
+site u1314,Site U1314,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13109349
+voltage,Voltage,1,,0,0.0419,1,,0,0.0419,tfidf,europe_pmc_PMC13281819
+co2 flux,CO2 flux,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC11968791
+dps,DPS,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC12006024
+eoc,EOC,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC12112331
+skillful dpss,skillful DPSs,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC12006024
+b-p ventilation ages,B-P ventilation ages,1,,0,0.0417,1,,0,0.0417,tfidf,europe_pmc_PMC13381650
+tissue,Tissue,1,,0,0.0417,1,,0,0.0417,tfidf,europe_pmc_PMC12896705
+cdisb,CdisB,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC13685917
+hc intensity,HC intensity,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC13377125
+hist runs,Hist runs,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC12748715
+initial-condition,Initial-condition,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC11668834
+mid yd,mid yd,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC12757042
+ow-out,OW-Out,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC13620149
+snow change,Snow change,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC12049274
+t-iv,T-IV,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC13319204
+targeted,Targeted,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC12542656
+c-labeled,C-labeled,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC12998224
+nutrient,Nutrient,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC11375078
+otec-induced,OTEC-induced,1,,0,0.0415,1,,0,0.0415,tfidf,europe_pmc_PMC12064605
+bivalve records,bivalve records,1,,0,0.0414,1,,0,0.0414,tfidf,europe_pmc_PMC12494007
+clams,clams,1,,0,0.0414,1,,0,0.0414,tfidf,europe_pmc_PMC12896705
+eddy,Eddy,1,,0,0.0414,1,,0,0.0414,tfidf,europe_pmc_PMC11724057
+ensemble spread,Ensemble spread,1,,0,0.0414,1,,0,0.0414,tfidf,europe_pmc_PMC11668834
+clade,clade,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12844351
+flat,Flat,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC10960852
+glorys12,GLORYS12,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12248306
+itcz migration,ITCZ migration,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC13377125
+nnasst,NNASST,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC11101628
+ov,ov,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12749622
+species,Species,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12019781
+yucatan,Yucatan,1,,0,0.0413,1,,0,0.0413,tfidf,europe_pmc_PMC12222509
+l-nadw,l-NADW,1,,0,0.0412,1,,0,0.0412,tfidf,europe_pmc_PMC13260390
+multi-sample,Multi-sample,1,,0,0.0412,1,,0,0.0412,tfidf,europe_pmc_PMC12542656
+ppm yr,ppm yr,1,,0,0.0412,1,,0,0.0412,tfidf,europe_pmc_PMC13638462
+access-esm1,ACCESS-ESM1,1,,0,0.0411,1,,0,0.0411,tfidf,europe_pmc_PMC13201857
+degree-years os,degree-years os,1,,0,0.0411,1,,0,0.0411,tfidf,europe_pmc_PMC13630551
+mediterranean forest,Mediterranean forest,1,,0,0.0411,1,,0,0.0411,tfidf,europe_pmc_PMC13458837
+sea-level projections,sea-level projections,1,,0,0.0411,1,,0,0.0411,tfidf,europe_pmc_PMC12337580
+skill-less dpss,Skill-less DPSs,1,,0,0.0411,1,,0,0.0411,tfidf,europe_pmc_PMC12006024
+cable record,cable record,1,,0,0.041,1,,0,0.041,tfidf,europe_pmc_PMC11377814
+fatigue,Fatigue,1,,0,0.041,1,,0,0.041,tfidf,europe_pmc_PMC12640197
+neutral nao,neutral NAO,1,,0,0.041,1,,0,0.041,tfidf,europe_pmc_PMC11624277
+flood,Flood,1,,0,0.0409,1,,0,0.0409,tfidf,europe_pmc_PMC12083515
+hos simulations,HOS simulations,1,,0,0.0409,1,,0,0.0409,tfidf,europe_pmc_PMC11554733
+ow-in,OW-In,1,,0,0.0409,1,,0,0.0409,tfidf,europe_pmc_PMC13620149
+zeroe scenario,ZeroE scenario,1,,0,0.0409,1,,0,0.0409,tfidf,europe_pmc_PMC12787522
+earth3,Earth3,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13281800
+ec earth3,ec earth3,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13281800
+llaviucu,Llaviucu,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC11348159
+richness,richness,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC10999273
+slow co2,slow CO2,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13638462
+sww,SWW,1,,0,0.0408,1,,0,0.0408,tfidf,europe_pmc_PMC13598196
+bamo,bAMO,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13058606
+cfc-12,CFC-12,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC12780181
+ctrace,CTRACE,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC10590670
+emulator,Emulator,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC12612620
+glacial reference,glacial reference,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13685917
+gwls,GWLs,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13665990
+balkans,Balkans,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC13398485
+ctl simulations,CTL simulations,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC11554733
+labrador sea overturning,Labrador Sea overturning,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC11349912
+otec-induced mixing,OTEC-induced mixing,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC12064605
+sea overturning,Sea overturning,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC11349912
+sentinel-6,Sentinel-6,1,,0,0.0405,1,,0,0.0405,tfidf,europe_pmc_PMC12988993
+amoc upwelling pathways,AMOC upwelling pathways,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC11864975
+circumarctic permafrost,circumarctic permafrost,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC11697416
+climate risks,climate risks,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC12222237
+closure,closure,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC13108545
+fovs minimum,FovS minimum,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC10857529
+nutrient redistribution,nutrient redistribution,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC11375078
+site u1541,Site U1541,1,,0,0.0404,1,,0,0.0404,tfidf,europe_pmc_PMC12959411
+ann,ann,1,,0,0.0403,1,,0,0.0403,tfidf,europe_pmc_PMC12835000
+arctic export,Arctic export,1,,0,0.0403,1,,0,0.0403,tfidf,europe_pmc_PMC13373228
+kcm,KCM,1,,0,0.0403,1,,0,0.0403,tfidf,europe_pmc_PMC12534462
+multicentennial,Multicentennial,1,,0,0.0403,1,,0,0.0403,tfidf,europe_pmc_PMC10619932
+observable variables,observable variables,1,,0,0.0403,1,,0,0.0403,tfidf,europe_pmc_PMC13082334
+southern ocean warming,Southern Ocean warming,1,,0,0.0403,1,,0,0.0403,tfidf,europe_pmc_PMC11962120
+amv-glob,AMV-Glob,1,,0,0.0402,1,,0,0.0402,tfidf,europe_pmc_PMC10590668
+shima,Shima,1,,0,0.0402,1,,0,0.0402,tfidf,europe_pmc_PMC12125170
+atmospheric rivers,Atmospheric rivers,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC13342563
+cool-climate maize,Cool-Climate Maize,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC13515334
+indo-pacific,Indo-Pacific,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC11375078
+magnetic,Magnetic,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC12680610
+palaeoclimate,Palaeoclimate,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC10999273
+sstuk,SSTUK,1,,0,0.0401,1,,0,0.0401,tfidf,europe_pmc_PMC12271382
+attractors,attractors,1,,0,0.04,1,,0,0.04,tfidf,europe_pmc_PMC10959405
+flight,Flight,1,,0,0.04,1,,0,0.04,tfidf,europe_pmc_PMC12640197
+itcz movement,ITCZ movement,1,,0,0.04,1,,0,0.04,tfidf,europe_pmc_PMC13377125
+contemporary,Contemporary,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC10999273
+csd indicators,CSD indicators,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC10724135
+db,dB,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC10573315
+fertilizer,fertilizer,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13132864
+observable,observable,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC13082334
+omz,OMZ,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC12263849
+tipping times,Tipping times,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC11296338
+uptake hole,uptake hole,1,,0,0.0399,1,,0,0.0399,tfidf,europe_pmc_PMC11968791
+access-om2-025,ACCESS-OM2-025,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13201857
+arctic amplification,Arctic Amplification,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC11441504
+co2 ramp,CO2 ramp,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13638462
+cool-climate maize fields,Cool-Climate Maize Fields,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13515334
+hist-ssp585-fw,Hist-SSP585-FW,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13201857
+jet speed,jet speed,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC11882673
+lgmref,LGMref,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC10619932
+return year,return year,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC13630551
+sens,SENS,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC10397207
+tolerant,Tolerant,1,,0,0.0398,1,,0,0.0398,tfidf,europe_pmc_PMC12943728
+clinical,Clinical,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12947465
+eeiocean,EEIocean,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC13488926
+fram,Fram,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC13373228
+heat salt freshwater,heat salt freshwater,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12222509
+heqing,Heqing,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12680610
+irregularly sampled,irregularly sampled,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12303098
+middle late miocene,middle late miocene,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12047422
+observable variable,observable variable,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC13082334
+observed amv,observed AMV,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC10590668
+palaeoprecipitation,Palaeoprecipitation,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC10999273
+salt freshwater,salt freshwater,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC12222509
+siku,Siku,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC13473526
+extreme precipitation events,Extreme precipitation events,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC13651874
+highres lowres,highres lowres,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC11349912
+jason-3,Jason-3,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC12988993
+overturning transport,Overturning transport,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC13060603
+peak co2,peak CO2,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC13651874
+rb sr,rb sr,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC13578706
+tree,Tree,1,,0,0.0396,1,,0,0.0396,tfidf,europe_pmc_PMC12019781
+ca vs,Ca vs,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC12988150
+model years,model years,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC12945690
+substmg,subSTMg,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC12988150
+substmg ca,substmg ca,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC12988150
+substmg ca vs,substmg ca vs,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC12988150
+biological disequilibrium,Biological disequilibrium,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC13685917
+geob9512-5,GeoB9512-5,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC12263849
+gis wais,gis wais,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC12617517
+maize,Maize,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC13515334
+ship section,ship section,1,,0,0.0394,1,,0,0.0394,tfidf,europe_pmc_PMC11377814
+bin-1,Bin-1,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC13616910
+precipitation events,precipitation events,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC13651874
+rapid experiment,rapid experiment,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC11725785
+surfer,SURFER,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC12612620
+tipping points prediction,tipping points prediction,1,,0,0.0393,1,,0,0.0393,tfidf,europe_pmc_PMC12303098
+cca,CCA,1,,0,0.0392,1,,0,0.0392,tfidf,europe_pmc_PMC10468057
+descriptor,descriptor,1,,0,0.0392,1,,0,0.0392,tfidf,europe_pmc_PMC13281819
+gis meltwater,GIS meltwater,1,,0,0.0392,1,,0,0.0392,tfidf,europe_pmc_PMC12617517
+os os,os os,1,,0,0.0392,1,,0,0.0392,tfidf,europe_pmc_PMC13127594
+radiogenic,radiogenic,1,,0,0.0392,1,,0,0.0392,tfidf,europe_pmc_PMC11747105
+a-aums,A-AuMS,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC12859089
+acc-rc,ACC-RC,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC13490444
+penultimate,Penultimate,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC10853552
+skeleton,Skeleton,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC12844351
+so-4,So-4,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC10853552
+tobacco,Tobacco,1,,0,0.0391,1,,0,0.0391,tfidf,europe_pmc_PMC13021576
+fixed amoc,fixed AMOC,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC11441504
+sound propagation,Sound propagation,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC10573315
+vegetation feedbacks,Vegetation feedbacks,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC12047422
+biis,BIIS,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13473526
+dropsonde,Dropsonde,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC11377814
+dsl,DSL,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC12945690
+greenland meltwater,Greenland meltwater,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13281800
+ice snow change,ice snow change,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC12049274
+pdip25,PDIP25,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC12757042
+ramping experiment,ramping experiment,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC11725785
+response nawh,response nawh,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC11608347
+trapid,TRAPID,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC13060603
+warm arctic,warm Arctic,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC11962120
+warm southern,warm Southern,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC11962120
+warm southern ocean,warm Southern Ocean,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC11962120
+cust,CUST,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC12662202
+fertilizer application,fertilizer application,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC13132864
+meta,META,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11892582
+native,Native,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11725843
+net zero negative,net zero negative,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11818019
+paleozoic,Paleozoic,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11204210
+shotgun,Shotgun,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC13636661
+surface water mass,Surface water mass,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC10590669
+tipping risks,Tipping risks,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11294534
+transient overturning,Transient overturning,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11375078
+anticipation time,anticipation time,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC12947465
+co2 uptake,CO2 uptake,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC11968791
+increased asian,Increased Asian,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC10762259
+jet,Jet,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC11882673
+ml models,ML models,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC12947465
+salinity variability,Salinity variability,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC13392445
+tcre,TCRE,1,,0,0.0387,1,,0,0.0387,tfidf,europe_pmc_PMC13376509
+andes,Andes,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC11348159
+benthic flux,Benthic flux,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC11747105
+gyres,Gyres,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC12926746
+halosteric,halosteric,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC12748715
+pco2 atm,Pco2 atm,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13685917
+penultimate glacial,Penultimate Glacial,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC10853552
+symmetry breaking,symmetry breaking,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13281819
+turning,turning,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC12748715
+uplift,Uplift,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC10960852
+water mass,Water mass,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC10590669
+cross-equatorial sst,Cross-equatorial SST,1,,0,0.0385,1,,0,0.0385,tfidf,europe_pmc_PMC11962120
+doi rsta,doi rsta,1,,0,0.0385,1,,0,0.0385,tfidf,europe_pmc_PMC10590659
+ghg emissions,GHG emissions,1,,0,0.0385,1,,0,0.0385,tfidf,europe_pmc_PMC13132864
+sirocko,Sirocko,1,,0,0.0385,1,,0,0.0385,tfidf,europe_pmc_PMC13477475
+clear sky,clear sky,1,,0,0.0384,1,,0,0.0384,tfidf,europe_pmc_PMC12136024
+evolv2k,eVolv2k,1,,0,0.0384,1,,0,0.0384,tfidf,europe_pmc_PMC13645875
+negative emissions,Negative emissions,1,,0,0.0384,1,,0,0.0384,tfidf,europe_pmc_PMC11818019
+rapid ramping,rapid ramping,1,,0,0.0384,1,,0,0.0384,tfidf,europe_pmc_PMC11725785
+sky,sky,1,,0,0.0384,1,,0,0.0384,tfidf,europe_pmc_PMC12136024
+eb,EB,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13468015
+flats,flats,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC12998224
+meltwater,Meltwater,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13281800
+ramp,Ramp,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13665990
+sst subt,sst subt,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13651883
+strait export,Strait export,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13373228
+tidal flats,tidal flats,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC12998224
+whsst,WHSST,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13538684
+fumigations,fumigations,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC12943728
+high eke,high EKE,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC12214639
+pt2 drill,PT2 drill,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC12680610
+pt2 drill core,PT2 drill core,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC12680610
+ramps,ramps,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC13638462
+salinity mode,salinity mode,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC13392445
+transformation,transformation,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC10590669
+benthic isotope exchange,benthic isotope exchange,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC11747105
+caco3,CaCO3,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC12271382
+dynamic slab,dynamic slab,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC13031658
+ersstv5,ERSSTv5,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC10724135
+particle flux,particle flux,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC12354891
+water hosing,water hosing,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC11578178
+interstadials,Interstadials,1,,0,0.038,1,,0,0.038,tfidf,europe_pmc_PMC12379145
+mpwp,mPWP,1,,0,0.038,1,,0,0.038,tfidf,europe_pmc_PMC13645622
+sequencing,Sequencing,1,,0,0.038,1,,0,0.038,tfidf,europe_pmc_PMC13636661
+site u1385,Site U1385,1,,0,0.038,1,,0,0.038,tfidf,europe_pmc_PMC13319204
+charcoal,Charcoal,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13477475
+ena,ENA,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC12518680
+lake,Lake,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC12976318
+mle method,MLE method,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC11296338
+multi-centennial,Multi-centennial,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13002991
+nastg,NASTG,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC12222509
+pollen,Pollen,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13458837
+rates sea-level,rates sea-level,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13319204
+rhizosphere,Rhizosphere,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13636661
+ssh eastern,ssh eastern,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13373228
+zero negative emissions,zero negative emissions,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC11818019
+drill core,drill core,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC12680610
+flood days,flood days,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC12083515
+is-1b,IS-1B,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC13376600
+path,Path,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC12945690
+sulphur,sulphur,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC13388704
+yangtze,Yangtze,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC12835000
+fm,Fm,1,,0,0.0377,1,,0,0.0377,tfidf,europe_pmc_PMC13434758
+global biosphere,Global biosphere,1,,0,0.0377,1,,0,0.0377,tfidf,europe_pmc_PMC13440228
+paleogeographic change,paleogeographic change,1,,0,0.0377,1,,0,0.0377,tfidf,europe_pmc_PMC12047422
+endolithic,Endolithic,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC12844351
+fixed-amoc,fixed-AMOC,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC13342563
+meeting,meeting,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC10590659
+nege scenario,NegE scenario,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC12787522
+op,Op,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC12976318
+soc doi rsta,soc doi rsta,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC10590659
+trans soc doi,trans soc doi,1,,0,0.0376,1,,0,0.0376,tfidf,europe_pmc_PMC10590659
+amoc slowdowns,AMOC Slowdowns,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC13598196
+atmospheric co2 decline,atmospheric CO2 decline,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC12047422
+carbon,Carbon,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC11892582
+increased asian aas,increased Asian AAs,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC10762259
+rates sea-level rise,rates sea-level rise,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC13319204
+treatments,Treatments,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC13468015
+water hosing experiments,water hosing experiments,1,,0,0.0375,1,,0,0.0375,tfidf,europe_pmc_PMC11578178
+arctic overturning circulation,Arctic overturning circulation,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC12248306
+csja6,CSJA6,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC12835000
+cultures,Cultures,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13674081
+dynamic ocean,dynamic ocean,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13031658
+hazards,hazards,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC12337580
+jump,jump,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC12167945
+lgm pd,lgm pd,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC10590670
+metagenomics,Metagenomics,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13636661
+pre mco,pre mco,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13651883
+sst gradients,SST gradients,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC12271382
+turkey,Turkey,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13398485
+wetland,Wetland,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13408133
+glacial amoc,glacial AMOC,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC12534462
+occurrence probability,occurrence probability,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC12019781
+proteins,Proteins,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC13674081
+zoige,Zoige,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC13578706
+amoe,AmoE,1,,0,0.0372,1,,0,0.0372,tfidf,europe_pmc_PMC12804982
+flat2real,Flat2Real,1,,0,0.0372,1,,0,0.0372,tfidf,europe_pmc_PMC10960852
+isotope exchange,isotope exchange,1,,0,0.0372,1,,0,0.0372,tfidf,europe_pmc_PMC11747105
+late yd,late YD,1,,0,0.0372,1,,0,0.0372,tfidf,europe_pmc_PMC12757042
+transects,transects,1,,0,0.0372,1,,0,0.0372,tfidf,europe_pmc_PMC13121742
+cryo-em,cryo-EM,1,,0,0.0371,1,,0,0.0371,tfidf,europe_pmc_PMC13058606
+hist-ssp585,Hist-SSP585,1,,0,0.0371,1,,0,0.0371,tfidf,europe_pmc_PMC13201857
+eifel,Eifel,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC13477475
+inverse gaussian,Inverse Gaussian,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC12926746
+lgmice6g,LGMICE6G,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC10619932
+ramping experiments,ramping experiments,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC11725785
+site u1475,Site U1475,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC13645622
+site u1543,Site U1543,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC12271382
+cal bp,cal BP,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC11348159
+etna,ETNA,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC12263849
+hos gw,hos gw,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC12617517
+inactive amoc,inactive AMOC,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC12019781
+levant,Levant,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC13398485
+ligand concentrations,ligand concentrations,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC11231327
+macronutrient,Macronutrient,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC11231327
+osnap east,OSNAP East,1,,0,0.0369,1,,0,0.0369,tfidf,europe_pmc_PMC10590667
+diatom,Diatom,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC13408133
+highly significant,Highly Significant,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC13274844
+ridge,Ridge,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC13616910
+soc doi,soc doi,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC10590659
+sose,SOSE,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC12926746
+warm group,warm group,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC11101628
+arctic waters,Arctic waters,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC11347556
+heinrich-like,Heinrich-like,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC13319204
+mt wa,MT wa,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC12835000
+rei,REI,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC13454564
+shotgun metagenomics,Shotgun metagenomics,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC13636661
+tp uplift,TP uplift,1,,0,0.0367,1,,0,0.0367,tfidf,europe_pmc_PMC10960852
+abies,Abies,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC13477475
+bsd,BSD,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC13108545
+dangers,dangers,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC12787522
+hf0 yes,hf0 yes,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC11291662
+sverdrup,sverdrup,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC13108545
+yd event,YD event,1,,0,0.0366,1,,0,0.0366,tfidf,europe_pmc_PMC12859089
+guatemala,Guatemala,1,,0,0.0365,1,,0,0.0365,tfidf,europe_pmc_PMC11618512
+lao,LAO,1,,0,0.0365,1,,0,0.0365,tfidf,europe_pmc_PMC13018559
+multi-centennial variability,multi-centennial variability,1,,0,0.0365,1,,0,0.0365,tfidf,europe_pmc_PMC13002991
+southern ocean upwelling,Southern Ocean upwelling,1,,0,0.0365,1,,0,0.0365,tfidf,europe_pmc_PMC11231327
+ta,ta,1,,0,0.0365,1,,0,0.0365,tfidf,europe_pmc_PMC12926746
+air-sea co2,Air-sea CO2,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC11968791
+apt,APT,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC12083515
+etna omz,ETNA OMZ,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC12263849
+meg,meg,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC12125170
+middle phase,middle phase,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC13458837
+mn,Mn,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC13109349
+pgm,PGM,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC12125170
+wmt,WMT,1,,0,0.0364,1,,0,0.0364,tfidf,europe_pmc_PMC10762259
+lsw formation,LSW formation,1,,0,0.0363,1,,0,0.0363,tfidf,europe_pmc_PMC10590662
+moorings,Moorings,1,,0,0.0363,1,,0,0.0363,tfidf,europe_pmc_PMC10590660
+odzs,ODZs,1,,0,0.0363,1,,0,0.0363,tfidf,europe_pmc_PMC13341793
+volcanic forcing,volcanic forcing,1,,0,0.0363,1,,0,0.0363,tfidf,europe_pmc_PMC12871447
+amoc-whsst,AMOC-WHSST,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC13538684
+bg,BG,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC12095383
+complex model,complex model,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC12612620
+haasnoot,Haasnoot,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC12337580
+pdip25 values,PDIP25 values,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC12757042
+phytoliths,Phytoliths,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC13408133
+stations,stations,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC12988993
+tm,TM,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC13021576
+transient overturning circulation,Transient overturning circulation,1,,0,0.0362,1,,0,0.0362,tfidf,europe_pmc_PMC11375078
+altimetry,Altimetry,1,,0,0.0361,1,,0,0.0361,tfidf,europe_pmc_PMC12988993
+laguna,Laguna,1,,0,0.0361,1,,0,0.0361,tfidf,europe_pmc_PMC11348159
+overflow sites,overflow sites,1,,0,0.0361,1,,0,0.0361,tfidf,europe_pmc_PMC13616910
+peak temperature,Peak temperature,1,,0,0.0361,1,,0,0.0361,tfidf,europe_pmc_PMC11294534
+air-sea co2 flux,Air-sea CO2 flux,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC11968791
+apf,APF,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC12890832
+case ii,case II,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC13108545
+expa,EXPA,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC12612620
+mft,MFT,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC10590667
+mn al,mn al,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC13109349
+sfc,sfc,1,,0,0.036,1,,0,0.036,tfidf,europe_pmc_PMC12248306
+albedo,albedo,1,,0,0.0359,1,,0,0.0359,tfidf,europe_pmc_PMC13634050
+ch,CH,1,,0,0.0359,1,,0,0.0359,tfidf,europe_pmc_PMC12167945
+mco ma,mco ma,1,,0,0.0359,1,,0,0.0359,tfidf,europe_pmc_PMC13651883
+uptake,uptake,1,,0,0.0359,1,,0,0.0359,tfidf,europe_pmc_PMC11554733
+viral communities,viral communities,1,,0,0.0359,1,,0,0.0359,tfidf,europe_pmc_PMC13390420
+core is-1b,core IS-1B,1,,0,0.0358,1,,0,0.0358,tfidf,europe_pmc_PMC13376600
+mae,MAE,1,,0,0.0358,1,,0,0.0358,tfidf,europe_pmc_PMC12988993
+pliocene,Pliocene,1,,0,0.0358,1,,0,0.0358,tfidf,europe_pmc_PMC13645622
+rb,Rb,1,,0,0.0358,1,,0,0.0358,tfidf,europe_pmc_PMC13578706
+rebellion,Rebellion,1,,0,0.0358,1,,0,0.0358,tfidf,europe_pmc_PMC13148317
+taiping,Taiping,1,,0,0.0358,1,,0,0.0358,tfidf,europe_pmc_PMC13148317
+ar trends,ar trends,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC12494007
+arctic outflow,Arctic outflow,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC11347556
+biosphere productivity,biosphere productivity,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC13440228
+cfc-12 sf6,cfc-12 sf6,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC12780181
+ewss,EWSs,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC10368695
+ffiffiffiffiffiffiffiffiffiffiffi,ffiffiffiffiffiffiffiffiffiffiffi,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC10368695
+glacial advance,glacial advance,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC13388704
+oatm,Oatm,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC13440228
+sinchang-dong,Sinchang-dong,1,,0,0.0357,1,,0,0.0357,tfidf,europe_pmc_PMC13408133
+agulhas,Agulhas,1,,0,0.0356,1,,0,0.0356,tfidf,europe_pmc_PMC13645622
+ais,AIS,1,,0,0.0356,1,,0,0.0356,tfidf,europe_pmc_PMC12890832
+ca ti,ca ti,1,,0,0.0356,1,,0,0.0356,tfidf,europe_pmc_PMC13018559
+hf0 yes hf0,hf0 yes hf0,1,,0,0.0356,1,,0,0.0356,tfidf,europe_pmc_PMC11291662
+slowdowns,Slowdowns,1,,0,0.0356,1,,0,0.0356,tfidf,europe_pmc_PMC13598196
+yes hf0,Yes HF0,1,,0,0.0356,1,,0,0.0356,tfidf,europe_pmc_PMC11291662
+mcv amplitude,MCV amplitude,1,,0,0.0355,1,,0,0.0355,tfidf,europe_pmc_PMC13578706
+spei,SPEI,1,,0,0.0355,1,,0,0.0355,tfidf,europe_pmc_PMC13398485
+appelscha,Appelscha,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC13434758
+coupled simulation,coupled simulation,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC12572293
+eais,EAIS,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC12572293
+edc,EDC,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC12167945
+iodine,Iodine,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC13341793
+pl site,PL site,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC13127594
+volcano-climate,Volcano-Climate,1,,0,0.0354,1,,0,0.0354,tfidf,europe_pmc_PMC13645875
+amoc resumption,AMOC resumption,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC12167945
+delta1,Delta1,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC10590670
+mco onset,MCO onset,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC13651883
+nsw,NSW,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC10089918
+variability,Variability,1,,0,0.0353,1,,0,0.0353,tfidf,europe_pmc_PMC13002991
+aet,AET,1,,0,0.0352,1,,0,0.0352,tfidf,europe_pmc_PMC11441504
+free fixed,free fixed,1,,0,0.0352,1,,0,0.0352,tfidf,europe_pmc_PMC11441504
+iodide,Iodide,1,,0,0.0351,1,,0,0.0351,tfidf,europe_pmc_PMC13341793
+microbial,microbial,1,,0,0.0351,1,,0,0.0351,tfidf,europe_pmc_PMC13132864
+sr,Sr,1,,0,0.0351,1,,0,0.0351,tfidf,europe_pmc_PMC13578706
+biosphere,biosphere,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC13440228
+harvey et,Harvey et,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC11882673
+heinrich,Heinrich,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC13473526
+mis mis,mis mis,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC13458837
+oc records,Oc records,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC12379145
+picontrol,piControl,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC10517999
+relative humidity,Relative humidity,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC12787522
+ti tii,ti tii,1,,0,0.035,1,,0,0.035,tfidf,europe_pmc_PMC12125170
+cesm2-le,CESM2-LE,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC11101628
+ctrl sens,ctrl sens,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC10397207
+eeiice,EEIice,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC13488926
+low oxygen,low oxygen,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC13341793
+mid-ocean,Mid-ocean,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC10590663
+pmip,PMIP,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC12534462
+tambora,Tambora,1,,0,0.0349,1,,0,0.0349,tfidf,europe_pmc_PMC13645875
+internal variability,Internal variability,1,,0,0.0348,1,,0,0.0348,tfidf,europe_pmc_PMC13002991
+summer monsoon,Summer Monsoon,1,,0,0.0348,1,,0,0.0348,tfidf,europe_pmc_PMC13594180
+anthropogenic freshening,anthropogenic freshening,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC10590664
+atmospheric river,Atmospheric River,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC13342563
+multicentennial oscillation,multicentennial oscillation,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC10619932
+phys oceanogr doi,phys oceanogr doi,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC10590662
+sst-sic,SST-SIC,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC10468057
+strength gmoc,strength gmoc,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC11204210
+subt changes,SubT changes,1,,0,0.0347,1,,0,0.0347,tfidf,europe_pmc_PMC13651883
+arctic warming,Arctic warming,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC11441504
+bay,Bay,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC13018559
+benthic foraminifera,Benthic Foraminifera,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC12263849
+circumglobal,Circumglobal,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC10762259
+holocene ausm,Holocene AuSM,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC12859089
+o2 year,O2 year,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC13440228
+oceanogr doi,oceanogr doi,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC10590662
+upper-ocean salinity,upper-ocean salinity,1,,0,0.0346,1,,0,0.0346,tfidf,europe_pmc_PMC13392445
+salinity-temperature,Salinity-temperature,1,,0,0.0345,1,,0,0.0345,tfidf,europe_pmc_PMC13392445
+seas basin,Seas Basin,1,,0,0.0345,1,,0,0.0345,tfidf,europe_pmc_PMC12820267
+sverdrups,sverdrups,1,,0,0.0345,1,,0,0.0345,tfidf,europe_pmc_PMC13281800
+attractor,attractor,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC10959405
+china coastal,china coastal,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC13274844
+coexisting states,Coexisting states,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC10959405
+diffusive pathway,diffusive pathway,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC12534462
+fingerprint,fingerprint,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC9985640
+forcing,Forcing,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC11291662
+indo-pacific diffusive,Indo-Pacific diffusive,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC12534462
+ipwp,IPWP,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC13639189
+salinity target,Salinity Target,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC11885369
+sst chc,sst chc,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC11958772
+stratum,Stratum,1,,0,0.0344,1,,0,0.0344,tfidf,europe_pmc_PMC13127594
+alkanes,Alkanes,1,,0,0.0343,1,,0,0.0343,tfidf,europe_pmc_PMC11348159
+mjjas,MJJAS,1,,0,0.0343,1,,0,0.0343,tfidf,europe_pmc_PMC13594180
+biis meltwater,BIIS meltwater,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC13473526
+ecvs,ECVS,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC12095353
+ice,Ice,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC12572293
+millennial-scale,Millennial-scale,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC11958772
+multistability,Multistability,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC10959405
+r-tipping,R-tipping,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC13715440
+stochastic noise,stochastic noise,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC12749622
+straits,Straits,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC12222509
+transect,Transect,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC13121742
+trench,trench,1,,0,0.0342,1,,0,0.0342,tfidf,europe_pmc_PMC13408133
+age,age,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC12780181
+arctic sic,Arctic SIC,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC10468057
+coupled sst-sic,coupled SST-SIC,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC10468057
+cuba,Cuba,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC12662202
+drought,drought,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC13398485
+eccov4r4,ECCOv4r4,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC10590664
+ice sheet model,ice sheet model,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC12572293
+sheet model,sheet model,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC12572293
+southern china,Southern China,1,,0,0.0341,1,,0,0.0341,tfidf,europe_pmc_PMC11707078
+cross-equatorial insolation,cross-equatorial insolation,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC12753843
+exp exp,exp exp,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC12749622
+glacial advances,glacial advances,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC13388704
+npp,NPP,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC11554733
+sss fingerprint,SSS fingerprint,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC9985640
+sss indices,SSS indices,1,,0,0.034,1,,0,0.034,tfidf,europe_pmc_PMC9985640
+asian summer monsoon,Asian Summer Monsoon,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC13594180
+extraterrestrial,extraterrestrial,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC13127594
+forest,forest,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC13458837
+open az,open AZ,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC12890832
+strongest decline period,strongest decline period,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC11578178
+ca sr,ca sr,1,,0,0.0338,1,,0,0.0338,tfidf,europe_pmc_PMC13018559
+oscillator,oscillator,1,,0,0.0338,1,,0,0.0338,tfidf,europe_pmc_PMC11885369
+sahara,Sahara,1,,0,0.0338,1,,0,0.0338,tfidf,europe_pmc_PMC11707078
+internal,Internal,1,,0,0.0337,1,,0,0.0337,tfidf,europe_pmc_PMC13002991
+temperature transport,temperature transport,1,,0,0.0337,1,,0,0.0337,tfidf,europe_pmc_PMC10590663
+endmember,endmember,1,,0,0.0336,1,,0,0.0336,tfidf,europe_pmc_PMC12959411
+opal,opal,1,,0,0.0336,1,,0,0.0336,tfidf,europe_pmc_PMC12354891
+paleo amoc-sensitive,paleo AMOC-sensitive,1,,0,0.0336,1,,0,0.0336,tfidf,europe_pmc_PMC13478603
+ssp1-2 ssp5-8,ssp1-2 ssp5-8,1,,0,0.0336,1,,0,0.0336,tfidf,europe_pmc_PMC11554733
+australian,Australian,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC12859089
+boundary current,Boundary Current,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC10590662
+cold groups,cold groups,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC11101628
+compared ck,compared ck,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC13021576
+heinrich events,Heinrich Events,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC13473526
+mlds,MLDs,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC13665990
+pair,pair,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC10468057
+records,Records,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC12494007
+regime,Regime,1,,0,0.0334,1,,0,0.0334,tfidf,europe_pmc_PMC13538684
+rei mato,rei mato,1,,0,0.0334,1,,0,0.0334,tfidf,europe_pmc_PMC13454564
+mixed benthic,Mixed benthic,1,,0,0.0333,1,,0,0.0333,tfidf,europe_pmc_PMC13018559
+moc variability,MOC variability,1,,0,0.0333,1,,0,0.0333,tfidf,europe_pmc_PMC10590667
+sen slope,sen slope,1,,0,0.0333,1,,0,0.0333,tfidf,europe_pmc_PMC13274844
+spna salinity,SPNA salinity,1,,0,0.0332,1,,0,0.0332,tfidf,europe_pmc_PMC10590664
+tuned age,Tuned age,1,,0,0.0332,1,,0,0.0332,tfidf,europe_pmc_PMC13260390
+collapse group,Collapse group,1,,0,0.0331,1,,0,0.0331,tfidf,europe_pmc_PMC12749622
+hlb,HLB,1,,0,0.0331,1,,0,0.0331,tfidf,europe_pmc_PMC11578178
+ocean hse,Ocean HSE,1,,0,0.0331,1,,0,0.0331,tfidf,europe_pmc_PMC11414737
+autocorrelation,autocorrelation,1,,0,0.033,1,,0,0.033,tfidf,europe_pmc_PMC10368695
+central american monsoon,Central American monsoon,1,,0,0.033,1,,0,0.033,tfidf,europe_pmc_PMC11618512
+inflow waters,inflow waters,1,,0,0.033,1,,0,0.033,tfidf,europe_pmc_PMC12820267
+liquid freshwater,liquid freshwater,1,,0,0.033,1,,0,0.033,tfidf,europe_pmc_PMC10590664
+owsm,OWSM,1,,0,0.033,1,,0,0.033,tfidf,europe_pmc_PMC12820267
+tipping systems,Tipping Systems,1,,0,0.033,1,,0,0.033,tfidf,europe_pmc_PMC12095353
+bandwidth,bandwidth,1,,0,0.0329,1,,0,0.0329,tfidf,europe_pmc_PMC12494007
+bopal,bOpal,1,,0,0.0329,1,,0,0.0329,tfidf,europe_pmc_PMC12284099
+control parameter,control parameter,1,,0,0.0329,1,,0,0.0329,tfidf,europe_pmc_PMC10368695
+cmip5,CMIP5,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC10590661
+mh,MH,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC11414737
+mn ca,mn ca,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC13109349
+pachyderma,pachyderma,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC13376600
+sea basin,Sea Basin,1,,0,0.0328,1,,0,0.0328,tfidf,europe_pmc_PMC13434758
+coastal seas,Coastal Seas,1,,0,0.0327,1,,0,0.0327,tfidf,europe_pmc_PMC13274844
+reference level,Reference level,1,,0,0.0327,1,,0,0.0327,tfidf,europe_pmc_PMC10590660
+transport,transport,1,,0,0.0327,1,,0,0.0327,tfidf,europe_pmc_PMC10590663
+continental configuration,Continental configuration,1,,0,0.0326,1,,0,0.0326,tfidf,europe_pmc_PMC11204210
+freshwater,Freshwater,1,,0,0.0326,1,,0,0.0326,tfidf,europe_pmc_PMC10857529
+group ii,Group II,1,,0,0.0326,1,,0,0.0326,tfidf,europe_pmc_PMC11204210
+gyre,gyre,1,,0,0.0326,1,,0,0.0326,tfidf,europe_pmc_PMC10590663
+pi pi,PI PI,1,,0,0.0326,1,,0,0.0326,tfidf,europe_pmc_PMC12149303
+mid pleistocene,mid pleistocene,1,,0,0.0325,1,,0,0.0325,tfidf,europe_pmc_PMC12959411
+models,Models,1,,0,0.0325,1,,0,0.0325,tfidf,europe_pmc_PMC10590661
+shallow subsurface,Shallow subsurface,1,,0,0.0325,1,,0,0.0325,tfidf,europe_pmc_PMC13376600
+trace21kii,TraCE21Kii,1,,0,0.0325,1,,0,0.0325,tfidf,europe_pmc_PMC13454564
+burial,Burial,1,,0,0.0324,1,,0,0.0324,tfidf,europe_pmc_PMC13434758
+surface,Surface,1,,0,0.0324,1,,0,0.0324,tfidf,europe_pmc_PMC13634050
+amoc tipping,AMOC tipping,1,,0,0.0323,1,,0,0.0323,tfidf,europe_pmc_PMC10857529
+energy,Energy,1,,0,0.0323,1,,0,0.0323,tfidf,europe_pmc_PMC13488926
+inhg,iNHG,1,,0,0.0323,1,,0,0.0323,tfidf,europe_pmc_PMC13434758
+aim rainfall,AIM rainfall,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13639189
+b-tipping,B-tipping,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13715440
+cesm-cda,CESM-CDA,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13490444
+maritime,Maritime,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13639189
+mato,Mato,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13454564
+shanghai,Shanghai,1,,0,0.0321,1,,0,0.0321,tfidf,europe_pmc_PMC13274844
+cloud,cloud,1,,0,0.032,1,,0,0.032,tfidf,europe_pmc_PMC13634050
+dg7 record,DG7 record,1,,0,0.032,1,,0,0.032,tfidf,europe_pmc_PMC13148317
+downs,downs,1,,0,0.0319,1,,0,0.0319,tfidf,europe_pmc_PMC13665990
+ramp downs,ramp downs,1,,0,0.0319,1,,0,0.0319,tfidf,europe_pmc_PMC13665990
+ncw,NCW,1,,0,0.0318,1,,0,0.0318,tfidf,europe_pmc_PMC12959411
+orbital,Orbital,1,,0,0.0318,1,,0,0.0318,tfidf,europe_pmc_PMC12149303
+cascade,cascade,1,,0,0.0317,1,,0,0.0317,tfidf,europe_pmc_PMC13715440
+evapotranspiration,evapotranspiration,1,,0,0.0317,1,,0,0.0317,tfidf,europe_pmc_PMC13634050
+nature com scientificdata,nature com scientificdata,1,,0,0.0317,1,,0,0.0317,tfidf,europe_pmc_PMC13121742
+oht,OHT,1,,0,0.0317,1,,0,0.0317,tfidf,europe_pmc_PMC13538684
+scientificdata,scientificdata,1,,0,0.0317,1,,0,0.0317,tfidf,europe_pmc_PMC13121742
+april fools,April Fools,1,,0,0.0316,1,,0,0.0316,tfidf,europe_pmc_PMC12976318
+fools,Fools,1,,0,0.0316,1,,0,0.0316,tfidf,europe_pmc_PMC12976318
+fools lake,Fools Lake,1,,0,0.0316,1,,0,0.0316,tfidf,europe_pmc_PMC12976318
+insolation,Insolation,1,,0,0.0316,1,,0,0.0316,tfidf,europe_pmc_PMC12662202
+stack,stack,1,,0,0.0316,1,,0,0.0316,tfidf,europe_pmc_PMC13488926
+cmip6,CMIP6,1,,0,0.0315,1,,0,0.0315,tfidf,europe_pmc_PMC10590661
+ekman,Ekman,1,,0,0.0315,1,,0,0.0315,tfidf,europe_pmc_PMC10590663
+gmoc strength,GMOC strength,1,,0,0.0315,1,,0,0.0315,tfidf,europe_pmc_PMC11204210
+land-surface,land-surface,1,,0,0.0315,1,,0,0.0315,tfidf,europe_pmc_PMC13634050
+full-forcing,full-forcing,1,,0,0.0313,1,,0,0.0313,tfidf,europe_pmc_PMC12149303
+velocity,velocity,1,,0,0.0313,1,,0,0.0313,tfidf,europe_pmc_PMC10590660
+multiscale,Multiscale,1,,0,0.0312,1,,0,0.0312,tfidf,europe_pmc_PMC13490444
+downwelling,downwelling,1,,0,0.0311,1,,0,0.0311,tfidf,europe_pmc_PMC10397207
+monitoring,monitoring,1,,0,0.0311,1,,0,0.0311,tfidf,europe_pmc_PMC10590665
+pressure,pressure,1,,0,0.0311,1,,0,0.0311,tfidf,europe_pmc_PMC10590660
+northern china,northern China,1,,0,0.031,1,,0,0.031,tfidf,europe_pmc_PMC13148317
+unmeasured,Unmeasured,1,,0,0.031,1,,0,0.031,tfidf,europe_pmc_PMC10590660
+ensemble,ensemble,1,,0,0.0309,1,,0,0.0309,tfidf,europe_pmc_PMC10590661
+shuman,Shuman,1,,0,0.0309,1,,0,0.0309,tfidf,europe_pmc_PMC12518680
+besm2,BESM2,1,,0,0.0308,1,,0,0.0308,tfidf,europe_pmc_PMC10517999
+clear-sky,Clear-sky,1,,0,0.0308,1,,0,0.0308,tfidf,europe_pmc_PMC13538684
+site u1602,Site U1602,1,,0,0.0306,1,,0,0.0306,tfidf,europe_pmc_PMC12064707
+energy dissipation,energy dissipation,1,,0,0.0302,1,,0,0.0302,tfidf,europe_pmc_PMC13490444
+proxy,proxy,1,,0,0.0298,1,,0,0.0298,tfidf,europe_pmc_PMC10089918
+contributed discussions,contributed discussions,1,,0,0.0297,1,,0,0.0297,tfidf,europe_pmc_PMC10517999
+deglaciation,deglaciation,1,,0,0.0295,1,,0,0.0295,tfidf,europe_pmc_PMC10089918
+drift,Drift,1,,0,0.0295,1,,0,0.0295,tfidf,europe_pmc_PMC12064707
+palaeomagnetic,Palaeomagnetic,1,,0,0.0295,1,,0,0.0295,tfidf,europe_pmc_PMC12064707
+scaling,scaling,1,,0,0.0291,1,,0,0.0291,tfidf,europe_pmc_PMC10590665
+sedimentation,Sedimentation,1,,0,0.029,1,,0,0.029,tfidf,europe_pmc_PMC12064707
+density,Density,1,,0,0.0286,1,,0,0.0286,tfidf,europe_pmc_PMC10590665
+proposal,proposal,1,,0,0.0286,1,,0,0.0286,tfidf,europe_pmc_PMC10590665
+boundary,Boundary,1,,0,0.0285,1,,0,0.0285,tfidf,europe_pmc_PMC10590665
+site u1564,Site U1564,1,,0,0.0285,1,,0,0.0285,tfidf,europe_pmc_PMC12064707

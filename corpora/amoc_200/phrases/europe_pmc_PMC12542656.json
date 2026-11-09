@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12542656",
+  "phrases": [
+    {
+      "phrase": "qichao tu",
+      "display": "Qichao Tu",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jiayin zhou",
+      "display": "Jiayin Zhou",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mengqi wang",
+      "display": "Mengqi Wang",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "qichao tu southern marine science and engineering guangdong laboratory",
+      "display": "Qichao Tu Southern Marine Science and Engineering Guangdong Laboratory",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern marine science and engineering guangdong laboratory",
+      "display": "Southern Marine Science and Engineering Guangdong Laboratory",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national natural science foundation of china",
+      "display": "National Natural Science Foundation of China",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mengzhi ji",
+      "display": "Mengzhi Ji",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "np",
+      "display": "NP",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ddr",
+      "display": "DDR",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ncycdb",
+      "display": "NCycDB",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "targeted assembly",
+      "score": 0.0478,
+      "channel": "tfidf",
+      "display": "Targeted assembly"
+    },
+    {
+      "phrase": "assembly",
+      "score": 0.0463,
+      "channel": "tfidf",
+      "display": "Assembly"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "genes"
+    },
+    {
+      "phrase": "targeted",
+      "score": 0.0416,
+      "channel": "tfidf",
+      "display": "Targeted"
+    },
+    {
+      "phrase": "multi-sample",
+      "score": 0.0412,
+      "channel": "tfidf",
+      "display": "Multi-sample"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

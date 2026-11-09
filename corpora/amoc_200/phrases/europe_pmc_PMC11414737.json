@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11414737",
+  "phrases": [
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institute of atmospheric physics",
+      "display": "Institute of Atmospheric Physics",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "contribution of working group",
+      "display": "Contribution of Working Group",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hse",
+      "display": "HSE",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmot",
+      "display": "GMOT",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmsst",
+      "display": "GMSST",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "itrace",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "iTRACE"
+    },
+    {
+      "phrase": "ocean hse",
+      "score": 0.0331,
+      "channel": "tfidf",
+      "display": "Ocean HSE"
+    },
+    {
+      "phrase": "mh",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "MH"
+    },
+    {
+      "phrase": "lgm",
+      "score": 0.0319,
+      "channel": "tfidf",
+      "display": "LGM"
+    },
+    {
+      "phrase": "ocean",
+      "score": 0.0316,
+      "channel": "tfidf",
+      "display": "Ocean"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

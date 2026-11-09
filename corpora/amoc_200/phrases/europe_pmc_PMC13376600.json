@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13376600",
+  "phrases": [
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 4.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last termination",
+      "display": "Last Termination",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eurasian ice sheet",
+      "display": "Eurasian Ice Sheet",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eurasian basin",
+      "display": "Eurasian Basin",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aw",
+      "display": "AW",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic",
+      "display": "Nordic",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "is",
+      "display": "IS",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "is-1b",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "IS-1B"
+    },
+    {
+      "phrase": "core is-1b",
+      "score": 0.0358,
+      "channel": "tfidf",
+      "display": "core IS-1B"
+    },
+    {
+      "phrase": "eis",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "EIS"
+    },
+    {
+      "phrase": "pachyderma",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "pachyderma"
+    },
+    {
+      "phrase": "shallow subsurface",
+      "score": 0.0325,
+      "channel": "tfidf",
+      "display": "Shallow subsurface"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

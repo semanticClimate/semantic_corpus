@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13398485",
+  "phrases": [
+    {
+      "phrase": "eastern mediterranean",
+      "display": "Eastern Mediterranean",
+      "score": 4.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "balkans and turkey",
+      "display": "Balkans and Turkey",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "late bronze age",
+      "display": "Late Bronze Age",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "balkans and anatolia",
+      "display": "Balkans and Anatolia",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "strait of gibraltar",
+      "display": "Strait of Gibraltar",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mediterranean",
+      "display": "Mediterranean",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bce",
+      "display": "BCE",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pet",
+      "display": "PET",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "balkans",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "Balkans"
+    },
+    {
+      "phrase": "turkey",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Turkey"
+    },
+    {
+      "phrase": "levant",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "Levant"
+    },
+    {
+      "phrase": "spei",
+      "score": 0.0355,
+      "channel": "tfidf",
+      "display": "SPEI"
+    },
+    {
+      "phrase": "drought",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "drought"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

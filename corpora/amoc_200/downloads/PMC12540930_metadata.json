@@ -1,0 +1,91 @@
+{
+  "pmcid": "PMC12540930",
+  "pmid": "41121668",
+  "title": "Effects of Legume‒Cereal Rotation on Sorghum Rhizosphere Microbial Community Structure and Nitrogen-Cycling Functions.",
+  "abstract": "Legumes form mutualistic interactions with specific soil microbiomes that fix atmospheric nitrogen and improve soil fertility. However, legume-based rotations influence on soil microorganisms and their correlations with soil physicochemical parameters during subsequent crop development are not yet clear. We examined the shifts in microbial community structure and nitrogen genes via shotgun sequencing across cowpea-sorghum, soybean-sorghum, maize-sorghum rotations, and sorghum without precrops. Precropping in rotation significantly affected N-NO<sub>3</sub>, clay, and silt, and caused a shift in the rhizosphere microbiome. Actinomycetota was the most predominant bacteria across all the cropping systems, followed by Pseudomonadota, whose composition differed across the cropping systems. Legume in rotation increased the relative abundance of Streptomyces and reduced the relative abundances of Pyxidicoccus, Microbacterium, and Microvirga. Nocardioides and Solirubrobacter predominated in the soil after the maize crops. Shannon index, non-metric multidimensional scaling, and permutational multivariate analysis of variance revealed that crop rotation caused significant differences in both the alpha and beta diversity of the microbial community and the nitrogen-cycling functional genes. The relative abundances of amoC, narH, gltB, glnA, ureC, napA, and napA significantly increased in legume monocrops in rotation. The relative abundances of glnA, gltB, narZ, and narH increased in the soil after maize cropping, whereas sorghum without precrops significantly increased the relative abundances of glnA, narZ, and ureC. Several soil physicochemical parameters drive microbial communities. *S, Na, N-NH<sub>4</sub>, N-NH<sub>3</sub>, and P were the most significant environmental variables regulating microbiome and nitrogen-cycling genes by crop rotation. This study supports sustainable agricultural practices and promotes sorghum development through rhizosphere microbiome optimization.",
+  "authors": [
+    {
+      "fullName": "Enagbonma BJ",
+      "lastName": "Enagbonma",
+      "firstName": "Ben Jesuorsemwen",
+      "initials": "BJ",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4699-5061"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Food Security and Safety Focus Area, Faculty of Natural and Agricultural Sciences, North‒West University, Mmabatho, South Africa."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Modise DM",
+      "lastName": "Modise",
+      "firstName": "David Mxolisi",
+      "initials": "DM",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5381-9472"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Faculty of Natural and Agricultural Sciences, North‒West University, Potchefstroom, South Africa."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Babalola OO",
+      "lastName": "Babalola",
+      "firstName": "Olubukola Oluranti",
+      "initials": "OO",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4344-1909"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Food Security and Safety Focus Area, Faculty of Natural and Agricultural Sciences, North‒West University, Mmabatho, South Africa."
+          },
+          {
+            "affiliation": "Department of Life Sciences, Imperial College London, Silwood Park Campus, Ascot, Berkshire, UK."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-10-01",
+  "journal": "",
+  "doi": "10.1002/mbo3.70085",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1002/mbo3.70085"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12540930"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12540930?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12540930"
+}

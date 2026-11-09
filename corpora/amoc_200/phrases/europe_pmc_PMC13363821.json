@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13363821",
+  "phrases": [
+    {
+      "phrase": "moss cover alters",
+      "display": "Moss Cover Alters",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "associated stabilization in subalpine forests jiahui huang",
+      "display": "Associated Stabilization in Subalpine Forests Jiahui Huang",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "structural equation models link moss cover and elevation",
+      "display": "Structural Equation Models Link Moss Cover and Elevation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "decoupling of total and available nutrient pools moss",
+      "display": "Decoupling of Total and Available Nutrient Pools Moss",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "article moss cover redirects soil organic carbon",
+      "display": "Article Moss Cover Redirects Soil Organic Carbon",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "changes in soil physicochemical properties soil",
+      "display": "Changes in Soil Physicochemical Properties Soil",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institute of mountain hazards and environment",
+      "display": "Institute of Mountain Hazards and Environment",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soc",
+      "display": "SOC",
+      "score": 2.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "maoc",
+      "display": "MAOC",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "poc",
+      "display": "POC",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "moss",
+      "score": 0.0473,
+      "channel": "tfidf",
+      "display": "Moss"
+    },
+    {
+      "phrase": "moss-covered",
+      "score": 0.0466,
+      "channel": "tfidf",
+      "display": "Moss-Covered"
+    },
+    {
+      "phrase": "non-moss-covered",
+      "score": 0.0435,
+      "channel": "tfidf",
+      "display": "Non-Moss-Covered"
+    },
+    {
+      "phrase": "moss cover",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "Moss Cover"
+    },
+    {
+      "phrase": "moss-covered soils",
+      "score": 0.0426,
+      "channel": "tfidf",
+      "display": "Moss-covered soils"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

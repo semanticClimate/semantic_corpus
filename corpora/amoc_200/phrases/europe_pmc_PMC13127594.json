@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13127594",
+  "phrases": [
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 3.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aucilla river",
+      "display": "Aucilla River",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cave and debra",
+      "display": "Cave and Debra",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth sci",
+      "display": "Earth Sci",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "first floridians and last mastodons",
+      "display": "First Floridians and Last Mastodons",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pl",
+      "display": "PL",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hse",
+      "display": "HSE",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "os",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Os"
+    },
+    {
+      "phrase": "os os",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "os os"
+    },
+    {
+      "phrase": "pl site",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "PL site"
+    },
+    {
+      "phrase": "stratum",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "Stratum"
+    },
+    {
+      "phrase": "extraterrestrial",
+      "score": 0.0339,
+      "channel": "tfidf",
+      "display": "extraterrestrial"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

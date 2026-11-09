@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11375078",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 5.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic and indo",
+      "display": "Atlantic and Indo",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "source data",
+      "display": "Source Data",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth syst",
+      "display": "Earth Syst",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern",
+      "display": "Southern",
+      "score": 1.57,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.56,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.39,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nutrient",
+      "score": 0.0415,
+      "channel": "tfidf",
+      "display": "Nutrient"
+    },
+    {
+      "phrase": "nutrient redistribution",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "nutrient redistribution"
+    },
+    {
+      "phrase": "indo-pacific",
+      "score": 0.0401,
+      "channel": "tfidf",
+      "display": "Indo-Pacific"
+    },
+    {
+      "phrase": "transient overturning",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "Transient overturning"
+    },
+    {
+      "phrase": "transient overturning circulation",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "Transient overturning circulation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

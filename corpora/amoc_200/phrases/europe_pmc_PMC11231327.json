@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11231327",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 7.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern and pacific oceans",
+      "display": "Southern and Pacific Oceans",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surface atlantic",
+      "display": "Surface Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surface pacific",
+      "display": "Surface Pacific",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "deep atlantic",
+      "display": "Deep Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary information",
+      "display": "Supplementary Information",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "moc",
+      "display": "MOC",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern",
+      "display": "Southern",
+      "score": 2.03,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocean",
+      "display": "Ocean",
+      "score": 1.87,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ligand",
+      "score": 0.0452,
+      "channel": "tfidf",
+      "display": "Ligand"
+    },
+    {
+      "phrase": "iron",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "Iron"
+    },
+    {
+      "phrase": "ligand concentrations",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "ligand concentrations"
+    },
+    {
+      "phrase": "macronutrient",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "Macronutrient"
+    },
+    {
+      "phrase": "southern ocean upwelling",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "Southern Ocean upwelling"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

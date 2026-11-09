@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13274844",
+  "phrases": [
+    {
+      "phrase": "highly significant increase",
+      "display": "Highly Significant Increase",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ministry of natural resources",
+      "display": "Ministry of Natural Resources",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "republic of china",
+      "display": "Republic of China",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "highly significant decrease",
+      "display": "Highly Significant Decrease",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kuroshio current",
+      "display": "Kuroshio Current",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ord gi",
+      "display": "Ord Gi",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yangtze river",
+      "display": "Yangtze River",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "slr",
+      "display": "SLR",
+      "score": 3.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china",
+      "display": "China",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ipcc",
+      "display": "IPCC",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "highly significant",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "Highly Significant"
+    },
+    {
+      "phrase": "china coastal",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "china coastal"
+    },
+    {
+      "phrase": "sen slope",
+      "score": 0.0333,
+      "channel": "tfidf",
+      "display": "sen slope"
+    },
+    {
+      "phrase": "coastal seas",
+      "score": 0.0327,
+      "channel": "tfidf",
+      "display": "Coastal Seas"
+    },
+    {
+      "phrase": "shanghai",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "Shanghai"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

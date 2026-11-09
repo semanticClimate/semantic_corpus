@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590663",
+  "phrases": [
+    {
+      "phrase": "florida current",
+      "display": "Florida Current",
+      "score": 5.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "caribbean sea and gulf of mexico",
+      "display": "Caribbean Sea and Gulf of Mexico",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "deep western boundary current",
+      "display": "Deep Western Boundary Current",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.84,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mht",
+      "display": "MHT",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida",
+      "display": "Florida",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mid-ocean",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "Mid-ocean"
+    },
+    {
+      "phrase": "temperature transport",
+      "score": 0.0337,
+      "channel": "tfidf",
+      "display": "temperature transport"
+    },
+    {
+      "phrase": "transport",
+      "score": 0.0327,
+      "channel": "tfidf",
+      "display": "transport"
+    },
+    {
+      "phrase": "gyre",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "gyre"
+    },
+    {
+      "phrase": "ekman",
+      "score": 0.0315,
+      "channel": "tfidf",
+      "display": "Ekman"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12959411",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south pacific",
+      "display": "South Pacific",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mpt",
+      "display": "MPT",
+      "score": 1.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "site u1541",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "Site U1541"
+    },
+    {
+      "phrase": "nd",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Nd"
+    },
+    {
+      "phrase": "endmember",
+      "score": 0.0336,
+      "channel": "tfidf",
+      "display": "endmember"
+    },
+    {
+      "phrase": "mid pleistocene",
+      "score": 0.0325,
+      "channel": "tfidf",
+      "display": "mid pleistocene"
+    },
+    {
+      "phrase": "ncw",
+      "score": 0.0318,
+      "channel": "tfidf",
+      "display": "NCW"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13434758",
+  "phrases": [
+    {
+      "phrase": "early pleistocene",
+      "display": "Early Pleistocene",
+      "score": 3.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "appelscha fm",
+      "display": "Appelscha Fm",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north sea basin",
+      "display": "North Sea Basin",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north sea",
+      "display": "North Sea",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peize fm",
+      "display": "Peize Fm",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eis",
+      "display": "EIS",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hbc",
+      "display": "HBC",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.47,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fm",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "Fm"
+    },
+    {
+      "phrase": "appelscha",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Appelscha"
+    },
+    {
+      "phrase": "sea basin",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "Sea Basin"
+    },
+    {
+      "phrase": "burial",
+      "score": 0.0324,
+      "channel": "tfidf",
+      "display": "Burial"
+    },
+    {
+      "phrase": "inhg",
+      "score": 0.0323,
+      "channel": "tfidf",
+      "display": "iNHG"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -306,15 +306,24 @@ def cmd_run(args: argparse.Namespace) -> int:
     print(f"[pipeline] {' '.join(bits)}")
     print(f"[pipeline] ensure {targets} → plan {plan}")
 
-    # Novice-friendly EPMC check before doit, so failures are not buried in a traceback.
-    if "collect" in plan and (opts.repository or "europe_pmc") == "europe_pmc":
+    # Per-stream EPMC check: JSON down → abort; XML/PDF 500 → continue without that stream.
+    if (
+        ("search" in plan or "collect" in plan)
+        and (opts.repository or "europe_pmc") == "europe_pmc"
+    ):
         from semantic_corpus.repositories.epmc_diagnostic import (
             EpmcUnavailable,
             epmc_preflight,
         )
+        import os
 
         try:
-            epmc_preflight(abort=True)
+            _diag, board = epmc_preflight(abort=True)
+            # Stash board for collect action (env marker + module attr).
+            os.environ["PIPELINE_EPMC_STREAMS"] = board.summary_line()
+            from semantic_corpus.repositories import epmc_streams as _streams_mod
+
+            _streams_mod.PREFLIGHT_BOARD = board
         except EpmcUnavailable as exc:
             print(f"[pipeline] {exc}", file=sys.stderr)
             return 1

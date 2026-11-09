@@ -1,0 +1,272 @@
+{
+  "pmcid": "PMC13490444",
+  "pmid": "42463681",
+  "title": "The coupled reanalysis global meridional overturning circulation imprinted by historic volcanic eruptions.",
+  "abstract": "The global ocean meridional overturning circulation (GMOC) is central for ocean transport and climate variations. However, a comprehensive picture of its historical mean state and variability remains vague due to limitations in modelling and observing systems. Incorporating observations into models offers a viable approach to reconstructing climate history, yet achieving coherent estimates of GMOC has proven challenging due to difficulties in harmonizing ocean stratification. Here, we demonstrate that multiscale data assimilation that integrates atmospheric and oceanic observations into two coupled models in a dynamically consistent way robustly retrieves the past 80-year GMOC. By diagnosing volcanic eruption-induced North Atlantic cooling and surface buoyancy loss, we show historic volcanic eruption events are imprinted in variability of the rebuilt GMOC. The Mt. Pinatubo (1991) volcanic eruption produces a multidecadal characteristic of the overturning evolution by the chain of enhancing diapycnal mixing - strengthening deep convection - mediated by eddy activities.",
+  "authors": [
+    {
+      "fullName": "Jiang Y",
+      "lastName": "Jiang",
+      "firstName": "Yingjing",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2419-2495"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine Sciences, College of Science, Shantou University, Shantou, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang S",
+      "lastName": "Zhang",
+      "firstName": "Shaoqing",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6569-9842"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China. szhang@ouc.edu.cn."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gao Y",
+      "lastName": "Gao",
+      "firstName": "Yang",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6444-6544"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Frontiers Science Center for Deep Ocean Multispheres and Earth System/Key Laboratory of Marine Environmental Science and Ecology, Ministry of Education, Ocean University of China, Qingdao, China. yanggao@ouc.edu.cn."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu L",
+      "lastName": "Wu",
+      "firstName": "Lixin",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4694-5531"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China. lxwu@ouc.edu.cn."
+          },
+          {
+            "affiliation": "Laoshan Laboratory, Qingdao, China. lxwu@ouc.edu.cn."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lu L",
+      "lastName": "Lu",
+      "firstName": "Lv",
+      "initials": "L",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Intelligent Systems Science and Engineering, Harbin Engineering University, Harbin, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lin Z",
+      "lastName": "Lin",
+      "firstName": "Zikuan",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3931-3210"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cai W",
+      "lastName": "Cai",
+      "firstName": "Wenju",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6520-0829"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China."
+          },
+          {
+            "affiliation": "Laoshan Laboratory, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Chen D",
+      "lastName": "Chen",
+      "firstName": "Deliang",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0288-5618"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth System Sciences, Tsinghua University, Beijing, China."
+          },
+          {
+            "affiliation": "Department of Earth Sciences, University of Gothenburg, Gothenburg, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Leung LR",
+      "lastName": "Leung",
+      "firstName": "L Ruby",
+      "initials": "LR",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3221-9467"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmospheric, Climate, & Earth Sciences Division, Pacific Northwest National Laboratory, Richland, WA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wang B",
+      "lastName": "Wang",
+      "firstName": "Bin",
+      "initials": "B",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5726-108X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmospheric Sciences and International Pacific Research Center, University of Hawaii at Manoa, Honolulu, HI, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Shen X",
+      "lastName": "Shen",
+      "firstName": "Xueshun",
+      "initials": "X",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "The Center of Earth System Modeling and Prediction, CMA, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li M",
+      "lastName": "Li",
+      "firstName": "Mingkui",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6957-0963"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yu X",
+      "lastName": "Yu",
+      "firstName": "Xiaolin",
+      "initials": "X",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lin X",
+      "lastName": "Lin",
+      "firstName": "Xiaopei",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6413-4479"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Physical Oceanography, Ministry of Education/Frontiers Science Center for Deep Ocean Multispheres and Earth System/College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-07-16",
+  "journal": "",
+  "doi": "10.1038/s41467-026-75651-z",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-026-75651-z"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13490444"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13490444?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13490444"
+}

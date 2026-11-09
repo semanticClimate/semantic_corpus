@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12804982",
+  "phrases": [
+    {
+      "phrase": "southern university of science and technology",
+      "display": "Southern University of Science and Technology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "school of life sciences",
+      "display": "School of Life Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "xiaoyun yang",
+      "display": "Xiaoyun Yang",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zongqiang li",
+      "display": "Zongqiang Li",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "beijing frontier research center for biological structure",
+      "display": "Beijing Frontier Research Center for Biological Structure",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "state key laboratory of estuarine and coastal research",
+      "display": "State Key Laboratory of Estuarine and Coastal Research",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institute for biological electron microscopy",
+      "display": "Institute for Biological Electron Microscopy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amo",
+      "display": "AMO",
+      "score": 3.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aob",
+      "display": "AOB",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amod",
+      "display": "AmoD",
+      "score": 1.33,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoe",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "AmoE"
+    },
+    {
+      "phrase": "pmmo",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "pMMO"
+    },
+    {
+      "phrase": "cud",
+      "score": 0.0367,
+      "channel": "tfidf",
+      "display": "CuD"
+    },
+    {
+      "phrase": "copper",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Copper"
+    },
+    {
+      "phrase": "cuc",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "CuC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12617517",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "west antarctic",
+      "display": "West Antarctic",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth syst",
+      "display": "Earth Syst",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic ice sheet",
+      "display": "Antarctic Ice Sheet",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wais",
+      "display": "WAIS",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gis",
+      "display": "GIS",
+      "score": 2.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wais meltwater",
+      "score": 0.0444,
+      "channel": "tfidf",
+      "display": "WAIS meltwater"
+    },
+    {
+      "phrase": "hos",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "Hos"
+    },
+    {
+      "phrase": "gis wais",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "gis wais"
+    },
+    {
+      "phrase": "gis meltwater",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "GIS meltwater"
+    },
+    {
+      "phrase": "hos gw",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "hos gw"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

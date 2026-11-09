@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13201857",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 8.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 5.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "baffin bay",
+      "display": "Baffin Bay",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic and nordic seas",
+      "display": "North Atlantic and Nordic Seas",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hudson strait",
+      "display": "Hudson Strait",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic and barents seas",
+      "display": "Nordic and Barents Seas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 2.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "access",
+      "display": "ACCESS",
+      "score": 1.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.89,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "access-esm1",
+      "score": 0.0411,
+      "channel": "tfidf",
+      "display": "ACCESS-ESM1"
+    },
+    {
+      "phrase": "hist-ssp585-fw",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "Hist-SSP585-FW"
+    },
+    {
+      "phrase": "access-om2-025",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "ACCESS-OM2-025"
+    },
+    {
+      "phrase": "hist-ssp585",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "Hist-SSP585"
+    },
+    {
+      "phrase": "nordic",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "Nordic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

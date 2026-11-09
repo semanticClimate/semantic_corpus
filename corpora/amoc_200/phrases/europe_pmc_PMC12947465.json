@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12947465",
+  "phrases": [
+    {
+      "phrase": "sepsis patients",
+      "display": "Sepsis Patients",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "time block",
+      "display": "Time Block",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sepsis prediction for",
+      "display": "Sepsis Prediction For",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "see fig",
+      "display": "See Fig",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "all sepsis patients",
+      "display": "All Sepsis Patients",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "all non",
+      "display": "All Non",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "open access continuous evaluation frameworks for retrospective evaluation of clinical machine learning models annamalai natarajan",
+      "display": "Open Access Continuous Evaluation Frameworks for Retrospective Evaluation of Clinical Machine Learning Models Annamalai Natarajan",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lgbm",
+      "display": "LGBM",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sirs",
+      "display": "SIRS",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ml",
+      "display": "ML",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sepsis",
+      "score": 0.0523,
+      "channel": "tfidf",
+      "display": "Sepsis"
+    },
+    {
+      "phrase": "patient",
+      "score": 0.0438,
+      "channel": "tfidf",
+      "display": "patient"
+    },
+    {
+      "phrase": "clinical",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "Clinical"
+    },
+    {
+      "phrase": "anticipation time",
+      "score": 0.0387,
+      "channel": "tfidf",
+      "display": "anticipation time"
+    },
+    {
+      "phrase": "ml models",
+      "score": 0.0387,
+      "channel": "tfidf",
+      "display": "ML models"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,16 @@
+{
+  "query_name": "amoc_200",
+  "query_string": "AMOC",
+  "repository": "europe_pmc",
+  "limit": 200,
+  "formats": [
+    "xml",
+    "pdf"
+  ],
+  "output_dir": "corpora/amoc_200/downloads",
+  "result_count": 200,
+  "downloaded_count": 200,
+  "run_timestamp": "2026-11-08T16:00:09.105152+00:00",
+  "notes": "cluster_review step0; per_repo=[{'repository': 'europe_pmc', 'result_count': 200, 'downloaded_count': 200}]",
+  "revision_of": null
+}

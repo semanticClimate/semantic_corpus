@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11707078",
+  "phrases": [
+    {
+      "phrase": "east asia",
+      "display": "East Asia",
+      "score": 3.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "green sahara",
+      "display": "Green Sahara",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "qingtongyang maar lake",
+      "display": "Qingtongyang Maar Lake",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "easm",
+      "display": "EASM",
+      "score": 2.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lgm",
+      "display": "LGM",
+      "score": 1.56,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "easm rainfall",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "EASM rainfall"
+    },
+    {
+      "phrase": "rainfall",
+      "score": 0.04,
+      "channel": "tfidf",
+      "display": "rainfall"
+    },
+    {
+      "phrase": "southern china",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "Southern China"
+    },
+    {
+      "phrase": "sahara",
+      "score": 0.0338,
+      "channel": "tfidf",
+      "display": "Sahara"
+    },
+    {
+      "phrase": "yd",
+      "score": 0.0322,
+      "channel": "tfidf",
+      "display": "YD"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

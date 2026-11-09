@@ -17,7 +17,6 @@ from semantic_corpus.pipeline.config import (
     options_from_env,
 )
 from semantic_corpus.pipeline.placeholders import run_placeholder, stamp_path, write_stamp
-from semantic_corpus.utils import get_project_temp_dir
 
 
 def use_placeholders() -> bool:
@@ -33,16 +32,129 @@ def _stamp(step: str, extra: Optional[Dict[str, Any]] = None) -> Path:
     return write_stamp(step, opts.workdir, extra={"status": "ok", **(extra or {})})
 
 
-def _query_dirs():
+def _workdir_paths():
+    """Flat corpus root: all paper files live directly under ``--workdir``."""
     opts = options_from_env()
     workdir = opts.workdir
-    query_name = workdir.name
-    query_dir = Path(get_project_temp_dir(), "queries", query_name)
-    return workdir, query_name, query_dir
+    return workdir, workdir.name
+
+
+def run_search() -> Dict[str, Any]:
+    """EPMC (etc.) search only → ``query.json`` + ``search_results.json``."""
+    if use_placeholders():
+        return run_placeholder("search")
+
+    opts = options_from_env()
+    if opts.query and opts.source:
+        raise ValueError("Use either --query or --source, not both")
+    if opts.source:
+        raise NotImplementedError(
+            "search --source (static documents) is not wired yet; use --query"
+        )
+    if not opts.query:
+        raise ValueError("search requires --query")
+
+    from semantic_corpus.core.repository_factory import RepositoryFactory
+    from semantic_corpus.pipeline.flat_corpus import (
+        path_query,
+        path_search_results,
+        write_json_atomic,
+    )
+
+    workdir, query_name = _workdir_paths()
+    workdir.mkdir(parents=True, exist_ok=True)
+    limit = int(opts.limit or DEFAULT_LIMIT)
+    repo_name = opts.repository or "europe_pmc"
+    print(
+        f"[pipeline] search: {opts.query!r} limit={limit} "
+        f"repository={repo_name!r} → {workdir}"
+    )
+
+    # Search only — no full-text download (papers are fine-grained tasks).
+    repo = RepositoryFactory.get_repository(repo_name)
+    results = list(
+        repo.search_papers(query=opts.query, limit=limit) or []
+    )[:limit]
+    write_json_atomic(
+        path_query(workdir),
+        {
+            "query": opts.query,
+            "query_name": query_name,
+            "limit": limit,
+            "repository": repo_name,
+            "result_count": len(results),
+        },
+    )
+    write_json_atomic(path_search_results(workdir), results)
+    _stamp(
+        "search",
+        {
+            "mode": "remote",
+            "result_count": len(results),
+            "search_results": str(path_search_results(workdir)),
+        },
+    )
+    print(f"[pipeline] search: {len(results)} hits → {path_search_results(workdir)}")
+    return {
+        "result_count": len(results),
+        "search_results_path": str(path_search_results(workdir)),
+        "results": results,
+    }
+
+
+def run_paper(paper_id: str) -> Dict[str, Any]:
+    """Fetch missing formats for one paper into flat workdir files."""
+    if use_placeholders():
+        return {"paper_id": paper_id, "status": "placeholder"}
+
+    from semantic_corpus.core.repository_factory import RepositoryFactory
+    from semantic_corpus.pipeline.flat_corpus import (
+        load_paper_json,
+        paper_done_enough,
+        paper_stem,
+        path_search_results,
+    )
+    from semantic_corpus.repositories.epmc_streams import EpmcStreamBoard
+
+    opts = options_from_env()
+    workdir = opts.workdir
+    stem = paper_stem(paper_id)
+    if paper_done_enough(workdir, stem):
+        # Still try missing natives if any, but treat as success when text exists
+        pass
+
+    # Locate hit metadata from search_results when local JSON missing
+    paper_meta = load_paper_json(workdir, stem)
+    if not paper_meta:
+        results_path = path_search_results(workdir)
+        if results_path.is_file():
+            import json
+
+            rows = json.loads(results_path.read_text(encoding="utf-8"))
+            for row in rows if isinstance(rows, list) else []:
+                if not isinstance(row, dict):
+                    continue
+                raw = str(row.get("pmcid") or row.get("paper_id") or "")
+                if paper_stem(raw) == stem:
+                    paper_meta = row
+                    break
+
+    repo_name = opts.repository or "europe_pmc"
+    repo = RepositoryFactory.get_repository(repo_name)
+    board = EpmcStreamBoard()
+    result = repo.download_paper(
+        stem,
+        workdir,
+        formats=["xml", "pdf"],
+        paper=paper_meta or None,
+        streams=board,
+        use_docling_xml=True,
+    )
+    return result
 
 
 def run_collect() -> Dict[str, Any]:
-    """Collect via remotes (--query) or static documents (--source)."""
+    """Search (if needed) then fetch each paper with skip-if-exists."""
     if use_placeholders():
         return run_placeholder("collect")
 
@@ -52,51 +164,109 @@ def run_collect() -> Dict[str, Any]:
     if opts.source:
         raise NotImplementedError(
             "collect --source (static documents) is not wired yet; "
-            "use --query for remotes, or point --workdir at an existing bag"
+            "use --query for remotes, or point --workdir at an existing corpus"
         )
     if not opts.query:
-        raise ValueError(
-            "collect requires --query (EPMC/other remotes) or --source (static docs)"
-        )
+        # Allow resume: search_results already on disk
+        from semantic_corpus.pipeline.flat_corpus import path_search_results
 
-    from semantic_corpus.cluster_review.step0 import create_corpus_from_query
+        if not path_search_results(opts.workdir).is_file():
+            raise ValueError(
+                "collect requires --query (EPMC/other remotes) or existing "
+                "search_results.json under --workdir"
+            )
 
-    workdir, query_name, query_dir = _query_dirs()
+    from semantic_corpus.pipeline.flat_corpus import (
+        list_paper_ids_from_search,
+        paper_done_enough,
+        path_search_results,
+    )
+
+    workdir, _query_name = _workdir_paths()
     workdir.mkdir(parents=True, exist_ok=True)
-    # CLI already ran epmc_preflight when plan includes collect; skip a second probe.
+
+    if opts.query:
+        # Reuse hit list when present (partial resume); else search.
+        if path_search_results(workdir).is_file():
+            if not stamp_path("search", workdir).is_file():
+                _stamp(
+                    "search",
+                    {
+                        "mode": "remote",
+                        "result_count": len(list_paper_ids_from_search(workdir)),
+                        "search_results": str(path_search_results(workdir)),
+                        "reused": True,
+                    },
+                )
+        else:
+            run_search()
+
+    paper_ids = list_paper_ids_from_search(workdir)
     print(
-        f"[pipeline] collect: searching {opts.query!r} "
-        f"limit={opts.limit} repository={opts.repository!r}"
+        f"[pipeline] collect: {len(paper_ids)} papers → flat files under {workdir}"
     )
-    summary = create_corpus_from_query(
-        query_string=opts.query,
-        query_name=query_name,
-        query_dir=query_dir,
-        repositories=opts.repository or "europe_pmc",
-        limit=int(opts.limit or DEFAULT_LIMIT),
-        formats=["xml"],
-        corpus_dir=workdir,
-        create_bagit=True,
-        check_epmc=False,
+
+    from semantic_corpus.corpus_review.collect_progress import (
+        CollectTitleScroller,
+        title_from_paper,
     )
-    paper_count = summary.get("bagit_paper_count") or summary.get("result_count")
+
+    scroller = CollectTitleScroller(limit=max(len(paper_ids), 1))
+    scroller.start(query=opts.query or "", repository=opts.repository or "europe_pmc")
+    ok = 0
+    skipped = 0
+    for pid in paper_ids:
+        if paper_done_enough(workdir, pid):
+            ok += 1
+            skipped += 1
+            scroller.add(title=pid, paper_id=pid, status="skip", reason="exists")
+            continue
+        try:
+            result = run_paper(pid)
+            meta = result if isinstance(result, dict) else {}
+            title = title_from_paper(meta) if meta else pid
+            if paper_done_enough(workdir, pid):
+                ok += 1
+                scroller.add(title=title or pid, paper_id=pid, status="ok")
+            else:
+                scroller.add(
+                    title=title or pid,
+                    paper_id=pid,
+                    status="fail",
+                    reason="incomplete",
+                )
+        except Exception as exc:
+            scroller.add(
+                title=pid, paper_id=pid, status="fail", reason=str(exc)[:80]
+            )
+            print(f"[pipeline] collect: paper {pid} failed: {exc}")
+    scroller.finish(downloaded=ok, skipped=skipped)
+
+    summary = {
+        "downloaded_count": ok,
+        "result_count": len(paper_ids),
+        "paper_ids": paper_ids,
+        "skipped_existing": skipped,
+    }
+    paper_count = ok
+
     index_summary = _ensure_packet_indexes(workdir)
     counts = index_summary.get("counts") or {}
     _stamp(
         "collect",
         {
             "mode": "remote",
-            "query_dir": str(query_dir),
+            "workdir": str(workdir),
             "downloaded_count": summary.get("downloaded_count"),
             "paper_count": paper_count,
-            "bagit_paper_ids": summary.get("bagit_paper_ids"),
+            "layout": "flat",
         },
     )
     _stamp(
         "corpus",
         {
             "produced_by": "collect",
-            "bagit": str(workdir / "bagit.txt"),
+            "layout": "flat",
             "paper_count": paper_count,
             "packets_manifest": index_summary.get("manifest_path"),
             "containers": counts.get("containers"),
@@ -121,32 +291,38 @@ def run_corpus() -> Dict[str, Any]:
     if use_placeholders():
         return run_placeholder("corpus")
 
-    from semantic_corpus.cluster_review.step1 import load_bagit_corpus
+    from semantic_corpus.cluster_review.step1 import load_corpus
+    from semantic_corpus.pipeline.flat_corpus import is_flat_corpus, list_flat_paper_ids
 
     opts = options_from_env()
     workdir = opts.workdir
-    if not (workdir / "bagit.txt").is_file():
+    has_bag = (workdir / "bagit.txt").is_file() or (
+        workdir / "data" / "bagit.txt"
+    ).is_file()
+    if not has_bag and not is_flat_corpus(workdir):
         raise FileNotFoundError(
-            f"No BAGIT corpus at {workdir}. "
-            "Run with --query or --source first, or point --workdir at an existing bag."
+            f"No corpus at {workdir}. "
+            "Run with --query or --source first, or point --workdir at an existing corpus."
         )
     print(f"[pipeline] corpus: loading {workdir}")
-    summary = load_bagit_corpus(workdir, write_review_if_missing=True)
+    summary = load_corpus(workdir, write_review_if_missing=True)
     print(f"[pipeline] corpus: ensuring packet indexes")
     index_summary = _ensure_packet_indexes(workdir)
     counts = index_summary.get("counts") or {}
+    paper_count = summary.get("paper_count") or len(list_flat_paper_ids(workdir))
     _stamp(
         "corpus",
         {
-            "paper_count": summary.get("paper_count"),
+            "paper_count": paper_count,
             "bag_root": summary.get("bag_root") or str(workdir),
+            "layout": summary.get("layout") or ("bagit" if has_bag else "flat"),
             "packets_manifest": index_summary.get("manifest_path"),
             "containers": counts.get("containers"),
             "packets": counts.get("packets"),
         },
     )
     print(
-        f"[pipeline] corpus: {summary.get('paper_count')} papers; "
+        f"[pipeline] corpus: {paper_count} papers; "
         f"packets={counts.get('packets')} → {index_summary.get('manifest_path')}"
     )
     summary = dict(summary)
@@ -346,6 +522,7 @@ def run_encyclopedia() -> Dict[str, Any]:
 
 
 STEP_ACTIONS = {
+    "search": run_search,
     "collect": run_collect,
     "corpus": run_corpus,
     "phrases": run_phrases,
@@ -384,14 +561,34 @@ def is_step_current(step: str) -> bool:
         return False
     if use_placeholders():
         return True
+    if step == "search":
+        from semantic_corpus.pipeline.flat_corpus import path_search_results
+
+        path = path_search_results(workdir)
+        return path.is_file() and path.stat().st_size > 2
     if step == "collect":
-        return (workdir / "bagit.txt").is_file()
+        from semantic_corpus.pipeline.flat_corpus import (
+            is_flat_corpus,
+            list_paper_ids_from_search,
+            paper_done_enough,
+        )
+
+        if (workdir / "bagit.txt").is_file():
+            return True
+        if not is_flat_corpus(workdir):
+            return False
+        ids = list_paper_ids_from_search(workdir)
+        if not ids:
+            return False
+        # Resume-friendly: enough papers done (not necessarily every fetch)
+        done = sum(1 for pid in ids if paper_done_enough(workdir, pid))
+        return done >= max(1, min(len(ids), int(opts.limit or len(ids))))
     if step == "corpus":
         from semantic_corpus.cluster_review.packets import packet_index_is_current
+        from semantic_corpus.pipeline.flat_corpus import is_flat_corpus
 
-        return (workdir / "bagit.txt").is_file() and packet_index_is_current(
-            workdir
-        )
+        has_docs = (workdir / "bagit.txt").is_file() or is_flat_corpus(workdir)
+        return has_docs and packet_index_is_current(workdir)
     if step == "phrases":
         return (workdir / "phrases" / "index.json").is_file()
     if step == "encyclopedia":

@@ -1,0 +1,260 @@
+{
+  "pmcid": "PMC11294534",
+  "pmid": "39090087",
+  "title": "Achieving net zero greenhouse gas emissions critical to limit climate tipping risks.",
+  "abstract": "Under current emission trajectories, temporarily overshooting the Paris global warming limit of 1.5 °C is a distinct possibility. Permanently exceeding this limit would substantially increase the probability of triggering climate tipping elements. Here, we investigate the tipping risks associated with several policy-relevant future emission scenarios, using a stylised Earth system model of four interconnected climate tipping elements. We show that following current policies this century would commit to a 45% tipping risk by 2300 (median, 10-90% range: 23-71%), even if temperatures are brought back to below 1.5 °C. We find that tipping risk by 2300 increases with every additional 0.1 °C of overshoot above 1.5 °C and strongly accelerates for peak warming above 2.0 °C. Achieving and maintaining at least net zero greenhouse gas emissions by 2100 is paramount to minimise tipping risk in the long term. Our results underscore that stringent emission reductions in the current decade are critical for planetary stability.",
+  "authors": [
+    {
+      "fullName": "Möller T",
+      "lastName": "Möller",
+      "firstName": "Tessa",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7757-1985"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Energy, Climate and Environment Program, International Institute for Applied Systems Analysis (IIASA), Laxenburg, Austria. moeller@iiasa.ac.at."
+          },
+          {
+            "affiliation": "Climate Analytics, Berlin, Germany. moeller@iiasa.ac.at."
+          },
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany. moeller@iiasa.ac.at."
+          },
+          {
+            "affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany. moeller@iiasa.ac.at."
+          },
+          {
+            "affiliation": "Institute of Environmental Science and Geography, University of Potsdam, Potsdam, Germany. moeller@iiasa.ac.at."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Högner AE",
+      "lastName": "Högner",
+      "firstName": "Annika Ernest",
+      "initials": "AE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4178-9664"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute of Environmental Science and Geography, University of Potsdam, Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Schleussner CF",
+      "lastName": "Schleussner",
+      "firstName": "Carl-Friedrich",
+      "initials": "CF",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8471-848X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Energy, Climate and Environment Program, International Institute for Applied Systems Analysis (IIASA), Laxenburg, Austria."
+          },
+          {
+            "affiliation": "Climate Analytics, Berlin, Germany."
+          },
+          {
+            "affiliation": "Geography Department & IRI THESys, Humboldt University of Berlin, Berlin, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bien S",
+      "lastName": "Bien",
+      "firstName": "Samuel",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7374-265X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute of Environmental Science and Geography, University of Potsdam, Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kitzmann NH",
+      "lastName": "Kitzmann",
+      "firstName": "Niklas H",
+      "initials": "NH",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4234-6336"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute of Physics and Astronomy, University of Potsdam, Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lamboll RD",
+      "lastName": "Lamboll",
+      "firstName": "Robin D",
+      "initials": "RD",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8410-037X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Centre for Environmental Policy, Imperial College London, London, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Rogelj J",
+      "lastName": "Rogelj",
+      "firstName": "Joeri",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2056-9061"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Energy, Climate and Environment Program, International Institute for Applied Systems Analysis (IIASA), Laxenburg, Austria."
+          },
+          {
+            "affiliation": "Centre for Environmental Policy, Imperial College London, London, UK."
+          },
+          {
+            "affiliation": "Grantham Institute for Climate Change and the Environment, Imperial College London, London, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Donges JF",
+      "lastName": "Donges",
+      "firstName": "Jonathan F",
+      "initials": "JF",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Stockholm Resilience Centre, Stockholm University, Stockholm, Sweden."
+          },
+          {
+            "affiliation": "High Meadows Environmental Institute, Princeton University, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Rockström J",
+      "lastName": "Rockström",
+      "firstName": "Johan",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8988-2983"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute of Environmental Science and Geography, University of Potsdam, Potsdam, Germany."
+          },
+          {
+            "affiliation": "Stockholm Resilience Centre, Stockholm University, Stockholm, Sweden."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wunderling N",
+      "lastName": "Wunderling",
+      "firstName": "Nico",
+      "initials": "N",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3566-323X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth System Analysis, Potsdam Institute for Climate Impact Research (PIK), Member of the Leibniz Association, Potsdam, Germany. nico.wunderling@pik-potsdam.de."
+          },
+          {
+            "affiliation": "High Meadows Environmental Institute, Princeton University, Princeton, NJ, USA. nico.wunderling@pik-potsdam.de."
+          },
+          {
+            "affiliation": "Center for Critical Computational Studies (C³S), Goethe University Frankfurt, Frankfurt am Main, Germany. nico.wunderling@pik-potsdam.de."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2024-08-01",
+  "journal": "",
+  "doi": "10.1038/s41467-024-49863-0",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-024-49863-0"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11294534"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11294534?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC11294534"
+}

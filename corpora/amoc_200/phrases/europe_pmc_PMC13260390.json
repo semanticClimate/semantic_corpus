@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13260390",
+  "phrases": [
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 5.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northwest atlantic",
+      "display": "Northwest Atlantic",
+      "score": 3.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador current",
+      "display": "Labrador Current",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vedde ash",
+      "display": "Vedde Ash",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nadw",
+      "display": "NADW",
+      "score": 2.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "u-nadw",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "u-NADW"
+    },
+    {
+      "phrase": "l-nadw",
+      "score": 0.0412,
+      "channel": "tfidf",
+      "display": "l-NADW"
+    },
+    {
+      "phrase": "ss",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "SS"
+    },
+    {
+      "phrase": "np",
+      "score": 0.0352,
+      "channel": "tfidf",
+      "display": "Np"
+    },
+    {
+      "phrase": "tuned age",
+      "score": 0.0332,
+      "channel": "tfidf",
+      "display": "Tuned age"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

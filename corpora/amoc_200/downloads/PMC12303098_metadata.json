@@ -1,0 +1,99 @@
+{
+  "pmcid": "PMC12303098",
+  "pmid": "40727414",
+  "title": "Deep learning for predicting the occurrence of tipping points.",
+  "abstract": "Tipping points occur in many real-world systems, at which the system shifts suddenly from one state to another. The ability to predict the occurrence of tipping points from time series data remains an outstanding challenge and a major interest in a broad range of research fields. Particularly, the widely used methods based on bifurcation theory are neither reliable in prediction accuracy nor applicable for irregularly sampled time series which are commonly observed from real-world systems. Here, we address this challenge by developing a deep learning algorithm for predicting the occurrence of tipping points in untrained systems, by exploiting information about normal forms. Our algorithm not only outperforms traditional methods for regularly sampled model time series but also achieves accurate predictions for irregularly sampled model time series and empirical time series. Our ability to predict tipping points for complex systems paves the way for mitigation risks, prevention of catastrophic failures and restoration of degraded systems, with broad applications in social science, engineering and biology.",
+  "authors": [
+    {
+      "fullName": "Zhuge C",
+      "lastName": "Zhuge",
+      "firstName": "Chengzuo",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0009-3552-5417"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Mathematical Sciences, Beihang University, Beijing 100191, People's Republic of China."
+          },
+          {
+            "affiliation": "Key Laboratory of Mathematics, Informatics and Behavioral Semantics (LMIB), Beihang University, Beijing 100191, People's Republic of China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li J",
+      "lastName": "Li",
+      "firstName": "Jiawei",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Mathematics, Informatics and Behavioral Semantics (LMIB), Beihang University, Beijing 100191, People's Republic of China."
+          },
+          {
+            "affiliation": "School of Artificial Intelligence, Beihang University, Beijing 100191, People's Republic of China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Chen W",
+      "lastName": "Chen",
+      "firstName": "Wei",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5136-403X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Mathematics, Informatics and Behavioral Semantics (LMIB), Beihang University, Beijing 100191, People's Republic of China."
+          },
+          {
+            "affiliation": "School of Artificial Intelligence, Beihang University, Beijing 100191, People's Republic of China."
+          },
+          {
+            "affiliation": "Zhongguancun Laboratory, Beijing 100194, People's Republic of China."
+          },
+          {
+            "affiliation": "School of Systems Science, Beijing Normal University, Beijing 100875, People's Republic of China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-07-16",
+  "journal": "",
+  "doi": "10.1098/rsos.242240",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1098/rsos.242240"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12303098"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12303098?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12303098"
+}

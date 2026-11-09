@@ -1,0 +1,144 @@
+{
+  "max_island": 20,
+  "island_count": 7,
+  "islands": [
+    {
+      "size": 18,
+      "node_ids": [
+        "paper:europe_pmc_PMC10960852",
+        "paper:europe_pmc_PMC11697416",
+        "paper:europe_pmc_PMC11707078",
+        "paper:europe_pmc_PMC12131001",
+        "paper:europe_pmc_PMC12379145",
+        "paper:europe_pmc_PMC12753843",
+        "paper:europe_pmc_PMC12835000",
+        "paper:europe_pmc_PMC13021576",
+        "paper:europe_pmc_PMC13148317",
+        "paper:europe_pmc_PMC13408133",
+        "paper:europe_pmc_PMC13565125",
+        "paper:europe_pmc_PMC13578706",
+        "paper:europe_pmc_PMC13594180",
+        "paper:europe_pmc_PMC13651874",
+        "term:chinese academy of sciences",
+        "term:east asian",
+        "term:monsoon",
+        "term:tibetan plateau"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 13,
+      "node_ids": [
+        "paper:europe_pmc_PMC10590664",
+        "paper:europe_pmc_PMC11347556",
+        "paper:europe_pmc_PMC11441504",
+        "paper:europe_pmc_PMC12095383",
+        "paper:europe_pmc_PMC12248306",
+        "paper:europe_pmc_PMC12820267",
+        "paper:europe_pmc_PMC13373228",
+        "paper:europe_pmc_PMC13376600",
+        "paper:europe_pmc_PMC13418535",
+        "term:arctic",
+        "term:arctic ocean",
+        "term:nordic seas",
+        "term:north atlantic oscillation"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 12,
+      "node_ids": [
+        "paper:europe_pmc_PMC10397207",
+        "paper:europe_pmc_PMC10590662",
+        "paper:europe_pmc_PMC10590667",
+        "paper:europe_pmc_PMC10590669",
+        "paper:europe_pmc_PMC10762259",
+        "paper:europe_pmc_PMC11349912",
+        "paper:europe_pmc_PMC11578178",
+        "paper:europe_pmc_PMC11605065",
+        "paper:europe_pmc_PMC13620149",
+        "term:irminger sea",
+        "term:labrador sea",
+        "term:sea"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 11,
+      "node_ids": [
+        "paper:europe_pmc_PMC10590663",
+        "paper:europe_pmc_PMC11315899",
+        "paper:europe_pmc_PMC11377814",
+        "paper:europe_pmc_PMC11724057",
+        "paper:europe_pmc_PMC12006024",
+        "paper:europe_pmc_PMC12064707",
+        "paper:europe_pmc_PMC12214639",
+        "paper:europe_pmc_PMC12222509",
+        "paper:europe_pmc_PMC12945690",
+        "paper:europe_pmc_PMC13260390",
+        "term:gulf stream"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 9,
+      "node_ids": [
+        "paper:europe_pmc_PMC10573315",
+        "paper:europe_pmc_PMC12540930",
+        "paper:europe_pmc_PMC12896705",
+        "paper:europe_pmc_PMC13008557",
+        "paper:europe_pmc_PMC13341793",
+        "paper:europe_pmc_PMC13440228",
+        "paper:europe_pmc_PMC13616910",
+        "paper:europe_pmc_PMC13651883",
+        "term:north atlantic ocean"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 8,
+      "node_ids": [
+        "paper:europe_pmc_PMC11294534",
+        "paper:europe_pmc_PMC11818019",
+        "paper:europe_pmc_PMC12303098",
+        "paper:europe_pmc_PMC12337580",
+        "paper:europe_pmc_PMC13031658",
+        "paper:europe_pmc_PMC13274844",
+        "paper:europe_pmc_PMC13630551",
+        "term:tipping"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC12680610",
+        "paper:europe_pmc_PMC12748715",
+        "paper:europe_pmc_PMC13645622",
+        "term:indian ocean"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

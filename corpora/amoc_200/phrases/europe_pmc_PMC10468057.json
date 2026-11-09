@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10468057",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "petru vaideanu",
+      "display": "Petru Vaideanu",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gerrit lohmann",
+      "display": "Gerrit Lohmann",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "christian stepanek",
+      "display": "Christian Stepanek",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "geophys res lett",
+      "display": "Geophys Res Lett",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jule schrepfer",
+      "display": "Jule Schrepfer",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sic",
+      "display": "SIC",
+      "score": 3.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cca",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "CCA"
+    },
+    {
+      "phrase": "sst-sic",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "SST-SIC"
+    },
+    {
+      "phrase": "coupled sst-sic",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "coupled SST-SIC"
+    },
+    {
+      "phrase": "arctic sic",
+      "score": 0.0341,
+      "channel": "tfidf",
+      "display": "Arctic SIC"
+    },
+    {
+      "phrase": "pair",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "pair"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

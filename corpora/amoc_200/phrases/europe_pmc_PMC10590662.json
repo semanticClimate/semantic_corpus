@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590662",
+  "phrases": [
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 5.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "le bras",
+      "display": "Le Bras",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea water",
+      "display": "Labrador Sea Water",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "deep sea res",
+      "display": "Deep Sea Res",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "deep western boundary current",
+      "display": "Deep Western Boundary Current",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lsw",
+      "display": "LSW",
+      "score": 3.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dwbc",
+      "display": "DWBC",
+      "score": 1.82,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lsw formation",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "LSW formation"
+    },
+    {
+      "phrase": "phys oceanogr doi",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "phys oceanogr doi"
+    },
+    {
+      "phrase": "oceanogr doi",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "oceanogr doi"
+    },
+    {
+      "phrase": "labrador",
+      "score": 0.0343,
+      "channel": "tfidf",
+      "display": "Labrador"
+    },
+    {
+      "phrase": "boundary current",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Boundary Current"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

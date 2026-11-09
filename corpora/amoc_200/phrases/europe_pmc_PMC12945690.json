@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12945690",
+  "phrases": [
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador current",
+      "display": "Labrador Current",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida current",
+      "display": "Florida Current",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cape hatteras",
+      "display": "Cape Hatteras",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream extension",
+      "display": "Gulf Stream Extension",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gs",
+      "display": "GS",
+      "score": 4.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pop",
+      "display": "POP",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gs path",
+      "score": 0.0478,
+      "channel": "tfidf",
+      "display": "GS path"
+    },
+    {
+      "phrase": "model years",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "model years"
+    },
+    {
+      "phrase": "dsl",
+      "score": 0.0389,
+      "channel": "tfidf",
+      "display": "DSL"
+    },
+    {
+      "phrase": "path",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "Path"
+    },
+    {
+      "phrase": "dwbc",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "DWBC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

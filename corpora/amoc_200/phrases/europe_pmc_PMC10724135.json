@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10724135",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic current",
+      "display": "North Atlantic Current",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iceland and norwegian seas",
+      "display": "Iceland and Norwegian Seas",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atmosphere data set",
+      "display": "Atmosphere Data Set",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department ofmathematics andglobal systems institute",
+      "display": "Department ofMathematics andGlobal Systems Institute",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.98,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "csd",
+      "display": "CSD",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 1.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "surrogates",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "Surrogates"
+    },
+    {
+      "phrase": "hadcrut5",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "HadCRUT5"
+    },
+    {
+      "phrase": "hadsst4",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "HadSST4"
+    },
+    {
+      "phrase": "csd indicators",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "CSD indicators"
+    },
+    {
+      "phrase": "ersstv5",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "ERSSTv5"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

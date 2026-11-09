@@ -1,0 +1,93 @@
+{
+  "pmcid": "PMC12617517",
+  "pmid": "41237239",
+  "title": "Meltwater from West Antarctic ice sheet tipping affects AMOC resilience.",
+  "abstract": "The Atlantic meridional overturning circulation (AMOC) and polar ice sheets are coupled tipping elements, allowing for potential cascading tipping events in which tipping is facilitated by their mutual interactions. However, while an AMOC destabilization driven by Greenland ice sheet (GIS) meltwater release is well documented, the consequences of a West Antarctic ice sheet (WAIS) tipping on the AMOC remain unclear. In the Earth system model of intermediate complexity CLIMBER-X, we perform experiments where meltwater fluxes representing plausible tipping trajectories of the GIS and WAIS are applied. We find that WAIS meltwater input can increase or decrease the AMOC resilience to GIS meltwater. Also, we find that it can completely prevent an AMOC collapse, confirming in a comprehensive model what was previously found in conceptual frameworks. Moreover, we find this stabilization to occur for ice sheet tipping trajectories that are relevant under high future greenhouse gas emission scenarios.",
+  "authors": [
+    {
+      "fullName": "Sinet S",
+      "lastName": "Sinet",
+      "firstName": "Sacha",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7588-2050"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physics, Institute for Marine and Atmospheric Research, Utrecht University, Utrecht, 3584 CC, Netherlands."
+          },
+          {
+            "affiliation": "Centre for Complex Systems Studies, Utrecht University, Utrecht, 3584 CC, Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "von der Heydt AS",
+      "lastName": "von der Heydt",
+      "firstName": "Anna S",
+      "initials": "AS",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5557-3282"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physics, Institute for Marine and Atmospheric Research, Utrecht University, Utrecht, 3584 CC, Netherlands."
+          },
+          {
+            "affiliation": "Centre for Complex Systems Studies, Utrecht University, Utrecht, 3584 CC, Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dijkstra HA",
+      "lastName": "Dijkstra",
+      "firstName": "Henk A",
+      "initials": "HA",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physics, Institute for Marine and Atmospheric Research, Utrecht University, Utrecht, 3584 CC, Netherlands."
+          },
+          {
+            "affiliation": "Centre for Complex Systems Studies, Utrecht University, Utrecht, 3584 CC, Netherlands."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-11-14",
+  "journal": "",
+  "doi": "10.1126/sciadv.adw3852",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.adw3852"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12617517"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12617517?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12617517"
+}

@@ -1,0 +1,5021 @@
+{
+  "step": "index",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_200",
+  "params": {
+    "mode": "degenerate_body_per_paper",
+    "priority": [
+      "source_numbers",
+      "containment",
+      "sequence"
+    ]
+  },
+  "counts": {
+    "containers": 200,
+    "packets": 200
+  },
+  "containers": [
+    {
+      "id": "paper:europe_pmc_PMC10089918",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10089918",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10089918:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10368695",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10368695",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10368695:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10397207",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10397207",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10397207:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10468057",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10468057",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10468057:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10517999",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10517999",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10517999:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10573315",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10573315",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10573315:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590659",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590659",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590659:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590660",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590660",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590660:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590661",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590661",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590661:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590662",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590662",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590662:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590663",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590663",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590663:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590664",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590664",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590664:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590665",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590665",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590665:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590667",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590667",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590667:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590668",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590668",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590668:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590669",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590669",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590669:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10590670",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10590670",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10590670:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10619932",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10619932",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10619932:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10724135",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10724135",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10724135:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10762259",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10762259",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10762259:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10853552",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10853552",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10853552:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10857529",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10857529",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10857529:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10876089",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10876089",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10876089:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10899452",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10899452",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10899452:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10959405",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10959405",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10959405:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10960852",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10960852",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10960852:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC10999273",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC10999273",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC10999273:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11101628",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11101628",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11101628:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11204210",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11204210",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11204210:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11231327",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11231327",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11231327:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11291662",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11291662",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11291662:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11294534",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11294534",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11294534:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11296338",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11296338",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11296338:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11315899",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11315899",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11315899:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11347556",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11347556",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11347556:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11348159",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11348159",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11348159:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11349912",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11349912",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11349912:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11375078",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11375078",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11375078:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11377814",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11377814",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11377814:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11414737",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11414737",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11414737:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11441504",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11441504",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11441504:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11441558",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11441558",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11441558:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11551322",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11551322",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11551322:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11554733",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11554733",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11554733:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11578178",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11578178",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11578178:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11605065",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11605065",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11605065:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11608347",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11608347",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11608347:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11618512",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11618512",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11618512:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11624277",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11624277",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11624277:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11668834",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11668834",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11668834:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11697416",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11697416",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11697416:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11707078",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11707078",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11707078:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11724057",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11724057",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11724057:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11725785",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11725785",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11725785:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11725843",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11725843",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11725843:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11736101",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11736101",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11736101:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11747105",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11747105",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11747105:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11818019",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11818019",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11818019:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11864975",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11864975",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11864975:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11882673",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11882673",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11882673:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11885369",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11885369",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11885369:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11892582",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11892582",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11892582:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11958772",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11958772",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11958772:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11962120",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11962120",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11962120:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC11968791",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC11968791",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC11968791:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12006024",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12006024",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12006024:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12019781",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12019781",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12019781:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12047422",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12047422",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12047422:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12049274",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12049274",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12049274:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12058520",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12058520",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12058520:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12064605",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12064605",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12064605:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12064707",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12064707",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12064707:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12083515",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12083515",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12083515:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12095353",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12095353",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12095353:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12095383",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12095383",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12095383:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12112331",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12112331",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12112331:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12125170",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12125170",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12125170:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12131001",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12131001",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12131001:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12136024",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12136024",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12136024:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12149303",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12149303",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12149303:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12167945",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12167945",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12167945:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12181172",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12181172",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12181172:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12214639",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12214639",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12214639:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12222237",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12222237",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12222237:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12222509",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12222509",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12222509:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12248306",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12248306",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12248306:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12263849",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12263849",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12263849:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12271382",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12271382",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12271382:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12284099",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12284099",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12284099:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12303098",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12303098",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12303098:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12309139",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12309139",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12309139:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12337580",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12337580",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12337580:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12354891",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12354891",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12354891:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12358914",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12358914",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12358914:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12379145",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12379145",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12379145:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12494007",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12494007",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12494007:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12502596",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12502596",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12502596:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12518680",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12518680",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12518680:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12534462",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12534462",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12534462:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12540930",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12540930",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12540930:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12542656",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12542656",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12542656:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12572293",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12572293",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12572293:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12612620",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12612620",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12612620:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12617517",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12617517",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12617517:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12640197",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12640197",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12640197:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12662202",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12662202",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12662202:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12680610",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12680610",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12680610:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12748715",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12748715",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12748715:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12749622",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12749622",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12749622:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12753843",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12753843",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12753843:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12757042",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12757042",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12757042:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12780181",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12780181",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12780181:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12787522",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12787522",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12787522:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12801151",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12801151",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12801151:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12804982",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12804982",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12804982:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12820267",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12820267",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12820267:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12835000",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12835000",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12835000:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12844351",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12844351",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12844351:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12859089",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12859089",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12859089:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12871447",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12871447",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12871447:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12890832",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12890832",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12890832:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12896705",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12896705",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12896705:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12926746",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12926746",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12926746:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12943728",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12943728",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12943728:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12945690",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12945690",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12945690:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12947465",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12947465",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12947465:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12959411",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12959411",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12959411:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12976318",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12976318",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12976318:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12988150",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12988150",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12988150:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12988993",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12988993",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12988993:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC12998224",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC12998224",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC12998224:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13002991",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13002991",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13002991:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13008557",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13008557",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13008557:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13018559",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13018559",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13018559:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13021576",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13021576",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13021576:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13031658",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13031658",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13031658:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13058606",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13058606",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13058606:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13060603",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13060603",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13060603:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13082334",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13082334",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13082334:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13108545",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13108545",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13108545:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13109349",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13109349",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13109349:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13121742",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13121742",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13121742:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13127594",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13127594",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13127594:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13132864",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13132864",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13132864:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13148317",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13148317",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13148317:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13181107",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13181107",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13181107:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13201857",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13201857",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13201857:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13260390",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13260390",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13260390:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13274844",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13274844",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13274844:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13281800",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13281800",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13281800:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13281819",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13281819",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13281819:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13284520",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13284520",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13284520:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13319204",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13319204",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13319204:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13341793",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13341793",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13341793:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13342563",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13342563",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13342563:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13363821",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13363821",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13363821:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13373228",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13373228",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13373228:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13376509",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13376509",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13376509:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13376600",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13376600",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13376600:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13377125",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13377125",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13377125:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13381650",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13381650",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13381650:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13388704",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13388704",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13388704:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13390420",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13390420",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13390420:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13392445",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13392445",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13392445:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13398485",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13398485",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13398485:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13408133",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13408133",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13408133:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13418535",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13418535",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13418535:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13434758",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13434758",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13434758:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13440228",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13440228",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13440228:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13448930",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13448930",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13448930:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13454564",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13454564",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13454564:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13458837",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13458837",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13458837:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13468015",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13468015",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13468015:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13473526",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13473526",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13473526:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13477475",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13477475",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13477475:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13478603",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13478603",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13478603:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13488926",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13488926",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13488926:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13490444",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13490444",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13490444:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13515334",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13515334",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13515334:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13538684",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13538684",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13538684:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13565125",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13565125",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13565125:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13578706",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13578706",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13578706:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13594180",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13594180",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13594180:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13598196",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13598196",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13598196:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13616910",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13616910",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13616910:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13620149",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13620149",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13620149:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13630551",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13630551",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13630551:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13634050",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13634050",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13634050:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13636661",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13636661",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13636661:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13638462",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13638462",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13638462:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13639189",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13639189",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13639189:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13645622",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13645622",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13645622:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13645875",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13645875",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13645875:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13651874",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13651874",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13651874:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13651883",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13651883",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13651883:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13665990",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13665990",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13665990:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13674081",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13674081",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13674081:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13685917",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13685917",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13685917:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC13715440",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC13715440",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC13715440:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:europe_pmc_PMC9985640",
+      "kind": "paper",
+      "paper_id": "europe_pmc_PMC9985640",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:europe_pmc_PMC9985640:body"
+        ],
+        "backmatter": []
+      }
+    }
+  ],
+  "packets": [
+    {
+      "id": "packet:europe_pmc_PMC10089918:body",
+      "packet_type": "body",
+      "label": "PMC10089918",
+      "parent_id": "paper:europe_pmc_PMC10089918",
+      "paper_id": "europe_pmc_PMC10089918",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10089918",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10368695:body",
+      "packet_type": "body",
+      "label": "PMC10368695",
+      "parent_id": "paper:europe_pmc_PMC10368695",
+      "paper_id": "europe_pmc_PMC10368695",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10368695",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10397207:body",
+      "packet_type": "body",
+      "label": "PMC10397207",
+      "parent_id": "paper:europe_pmc_PMC10397207",
+      "paper_id": "europe_pmc_PMC10397207",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10397207",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10468057:body",
+      "packet_type": "body",
+      "label": "PMC10468057",
+      "parent_id": "paper:europe_pmc_PMC10468057",
+      "paper_id": "europe_pmc_PMC10468057",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10468057",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10517999:body",
+      "packet_type": "body",
+      "label": "PMC10517999",
+      "parent_id": "paper:europe_pmc_PMC10517999",
+      "paper_id": "europe_pmc_PMC10517999",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10517999",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10573315:body",
+      "packet_type": "body",
+      "label": "PMC10573315",
+      "parent_id": "paper:europe_pmc_PMC10573315",
+      "paper_id": "europe_pmc_PMC10573315",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10573315",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590659:body",
+      "packet_type": "body",
+      "label": "PMC10590659",
+      "parent_id": "paper:europe_pmc_PMC10590659",
+      "paper_id": "europe_pmc_PMC10590659",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590659",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590660:body",
+      "packet_type": "body",
+      "label": "PMC10590660",
+      "parent_id": "paper:europe_pmc_PMC10590660",
+      "paper_id": "europe_pmc_PMC10590660",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590660",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590661:body",
+      "packet_type": "body",
+      "label": "PMC10590661",
+      "parent_id": "paper:europe_pmc_PMC10590661",
+      "paper_id": "europe_pmc_PMC10590661",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590661",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590662:body",
+      "packet_type": "body",
+      "label": "PMC10590662",
+      "parent_id": "paper:europe_pmc_PMC10590662",
+      "paper_id": "europe_pmc_PMC10590662",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590662",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590663:body",
+      "packet_type": "body",
+      "label": "PMC10590663",
+      "parent_id": "paper:europe_pmc_PMC10590663",
+      "paper_id": "europe_pmc_PMC10590663",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590663",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590664:body",
+      "packet_type": "body",
+      "label": "PMC10590664",
+      "parent_id": "paper:europe_pmc_PMC10590664",
+      "paper_id": "europe_pmc_PMC10590664",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590664",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590665:body",
+      "packet_type": "body",
+      "label": "PMC10590665",
+      "parent_id": "paper:europe_pmc_PMC10590665",
+      "paper_id": "europe_pmc_PMC10590665",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590665",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590667:body",
+      "packet_type": "body",
+      "label": "PMC10590667",
+      "parent_id": "paper:europe_pmc_PMC10590667",
+      "paper_id": "europe_pmc_PMC10590667",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590667",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590668:body",
+      "packet_type": "body",
+      "label": "PMC10590668",
+      "parent_id": "paper:europe_pmc_PMC10590668",
+      "paper_id": "europe_pmc_PMC10590668",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590668",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590669:body",
+      "packet_type": "body",
+      "label": "PMC10590669",
+      "parent_id": "paper:europe_pmc_PMC10590669",
+      "paper_id": "europe_pmc_PMC10590669",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590669",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10590670:body",
+      "packet_type": "body",
+      "label": "PMC10590670",
+      "parent_id": "paper:europe_pmc_PMC10590670",
+      "paper_id": "europe_pmc_PMC10590670",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10590670",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10619932:body",
+      "packet_type": "body",
+      "label": "PMC10619932",
+      "parent_id": "paper:europe_pmc_PMC10619932",
+      "paper_id": "europe_pmc_PMC10619932",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10619932",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10724135:body",
+      "packet_type": "body",
+      "label": "PMC10724135",
+      "parent_id": "paper:europe_pmc_PMC10724135",
+      "paper_id": "europe_pmc_PMC10724135",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10724135",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10762259:body",
+      "packet_type": "body",
+      "label": "PMC10762259",
+      "parent_id": "paper:europe_pmc_PMC10762259",
+      "paper_id": "europe_pmc_PMC10762259",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10762259",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10853552:body",
+      "packet_type": "body",
+      "label": "PMC10853552",
+      "parent_id": "paper:europe_pmc_PMC10853552",
+      "paper_id": "europe_pmc_PMC10853552",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10853552",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10857529:body",
+      "packet_type": "body",
+      "label": "PMC10857529",
+      "parent_id": "paper:europe_pmc_PMC10857529",
+      "paper_id": "europe_pmc_PMC10857529",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10857529",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10876089:body",
+      "packet_type": "body",
+      "label": "PMC10876089",
+      "parent_id": "paper:europe_pmc_PMC10876089",
+      "paper_id": "europe_pmc_PMC10876089",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10876089",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10899452:body",
+      "packet_type": "body",
+      "label": "PMC10899452",
+      "parent_id": "paper:europe_pmc_PMC10899452",
+      "paper_id": "europe_pmc_PMC10899452",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10899452",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10959405:body",
+      "packet_type": "body",
+      "label": "PMC10959405",
+      "parent_id": "paper:europe_pmc_PMC10959405",
+      "paper_id": "europe_pmc_PMC10959405",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10959405",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10960852:body",
+      "packet_type": "body",
+      "label": "PMC10960852",
+      "parent_id": "paper:europe_pmc_PMC10960852",
+      "paper_id": "europe_pmc_PMC10960852",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10960852",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC10999273:body",
+      "packet_type": "body",
+      "label": "PMC10999273",
+      "parent_id": "paper:europe_pmc_PMC10999273",
+      "paper_id": "europe_pmc_PMC10999273",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC10999273",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11101628:body",
+      "packet_type": "body",
+      "label": "PMC11101628",
+      "parent_id": "paper:europe_pmc_PMC11101628",
+      "paper_id": "europe_pmc_PMC11101628",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11101628",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11204210:body",
+      "packet_type": "body",
+      "label": "PMC11204210",
+      "parent_id": "paper:europe_pmc_PMC11204210",
+      "paper_id": "europe_pmc_PMC11204210",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11204210",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11231327:body",
+      "packet_type": "body",
+      "label": "PMC11231327",
+      "parent_id": "paper:europe_pmc_PMC11231327",
+      "paper_id": "europe_pmc_PMC11231327",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11231327",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11291662:body",
+      "packet_type": "body",
+      "label": "PMC11291662",
+      "parent_id": "paper:europe_pmc_PMC11291662",
+      "paper_id": "europe_pmc_PMC11291662",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11291662",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11294534:body",
+      "packet_type": "body",
+      "label": "PMC11294534",
+      "parent_id": "paper:europe_pmc_PMC11294534",
+      "paper_id": "europe_pmc_PMC11294534",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11294534",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11296338:body",
+      "packet_type": "body",
+      "label": "PMC11296338",
+      "parent_id": "paper:europe_pmc_PMC11296338",
+      "paper_id": "europe_pmc_PMC11296338",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11296338",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11315899:body",
+      "packet_type": "body",
+      "label": "PMC11315899",
+      "parent_id": "paper:europe_pmc_PMC11315899",
+      "paper_id": "europe_pmc_PMC11315899",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11315899",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11347556:body",
+      "packet_type": "body",
+      "label": "PMC11347556",
+      "parent_id": "paper:europe_pmc_PMC11347556",
+      "paper_id": "europe_pmc_PMC11347556",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11347556",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11348159:body",
+      "packet_type": "body",
+      "label": "PMC11348159",
+      "parent_id": "paper:europe_pmc_PMC11348159",
+      "paper_id": "europe_pmc_PMC11348159",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11348159",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11349912:body",
+      "packet_type": "body",
+      "label": "PMC11349912",
+      "parent_id": "paper:europe_pmc_PMC11349912",
+      "paper_id": "europe_pmc_PMC11349912",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11349912",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11375078:body",
+      "packet_type": "body",
+      "label": "PMC11375078",
+      "parent_id": "paper:europe_pmc_PMC11375078",
+      "paper_id": "europe_pmc_PMC11375078",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11375078",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11377814:body",
+      "packet_type": "body",
+      "label": "PMC11377814",
+      "parent_id": "paper:europe_pmc_PMC11377814",
+      "paper_id": "europe_pmc_PMC11377814",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11377814",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11414737:body",
+      "packet_type": "body",
+      "label": "PMC11414737",
+      "parent_id": "paper:europe_pmc_PMC11414737",
+      "paper_id": "europe_pmc_PMC11414737",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11414737",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11441504:body",
+      "packet_type": "body",
+      "label": "PMC11441504",
+      "parent_id": "paper:europe_pmc_PMC11441504",
+      "paper_id": "europe_pmc_PMC11441504",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11441504",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11441558:body",
+      "packet_type": "body",
+      "label": "PMC11441558",
+      "parent_id": "paper:europe_pmc_PMC11441558",
+      "paper_id": "europe_pmc_PMC11441558",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11441558",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11551322:body",
+      "packet_type": "body",
+      "label": "PMC11551322",
+      "parent_id": "paper:europe_pmc_PMC11551322",
+      "paper_id": "europe_pmc_PMC11551322",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11551322",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11554733:body",
+      "packet_type": "body",
+      "label": "PMC11554733",
+      "parent_id": "paper:europe_pmc_PMC11554733",
+      "paper_id": "europe_pmc_PMC11554733",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11554733",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11578178:body",
+      "packet_type": "body",
+      "label": "PMC11578178",
+      "parent_id": "paper:europe_pmc_PMC11578178",
+      "paper_id": "europe_pmc_PMC11578178",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11578178",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11605065:body",
+      "packet_type": "body",
+      "label": "PMC11605065",
+      "parent_id": "paper:europe_pmc_PMC11605065",
+      "paper_id": "europe_pmc_PMC11605065",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11605065",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11608347:body",
+      "packet_type": "body",
+      "label": "PMC11608347",
+      "parent_id": "paper:europe_pmc_PMC11608347",
+      "paper_id": "europe_pmc_PMC11608347",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11608347",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11618512:body",
+      "packet_type": "body",
+      "label": "PMC11618512",
+      "parent_id": "paper:europe_pmc_PMC11618512",
+      "paper_id": "europe_pmc_PMC11618512",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11618512",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11624277:body",
+      "packet_type": "body",
+      "label": "PMC11624277",
+      "parent_id": "paper:europe_pmc_PMC11624277",
+      "paper_id": "europe_pmc_PMC11624277",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11624277",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11668834:body",
+      "packet_type": "body",
+      "label": "PMC11668834",
+      "parent_id": "paper:europe_pmc_PMC11668834",
+      "paper_id": "europe_pmc_PMC11668834",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11668834",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11697416:body",
+      "packet_type": "body",
+      "label": "PMC11697416",
+      "parent_id": "paper:europe_pmc_PMC11697416",
+      "paper_id": "europe_pmc_PMC11697416",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11697416",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11707078:body",
+      "packet_type": "body",
+      "label": "PMC11707078",
+      "parent_id": "paper:europe_pmc_PMC11707078",
+      "paper_id": "europe_pmc_PMC11707078",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11707078",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11724057:body",
+      "packet_type": "body",
+      "label": "PMC11724057",
+      "parent_id": "paper:europe_pmc_PMC11724057",
+      "paper_id": "europe_pmc_PMC11724057",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11724057",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11725785:body",
+      "packet_type": "body",
+      "label": "PMC11725785",
+      "parent_id": "paper:europe_pmc_PMC11725785",
+      "paper_id": "europe_pmc_PMC11725785",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11725785",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11725843:body",
+      "packet_type": "body",
+      "label": "PMC11725843",
+      "parent_id": "paper:europe_pmc_PMC11725843",
+      "paper_id": "europe_pmc_PMC11725843",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11725843",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11736101:body",
+      "packet_type": "body",
+      "label": "PMC11736101",
+      "parent_id": "paper:europe_pmc_PMC11736101",
+      "paper_id": "europe_pmc_PMC11736101",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11736101",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11747105:body",
+      "packet_type": "body",
+      "label": "PMC11747105",
+      "parent_id": "paper:europe_pmc_PMC11747105",
+      "paper_id": "europe_pmc_PMC11747105",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11747105",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11818019:body",
+      "packet_type": "body",
+      "label": "PMC11818019",
+      "parent_id": "paper:europe_pmc_PMC11818019",
+      "paper_id": "europe_pmc_PMC11818019",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11818019",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11864975:body",
+      "packet_type": "body",
+      "label": "PMC11864975",
+      "parent_id": "paper:europe_pmc_PMC11864975",
+      "paper_id": "europe_pmc_PMC11864975",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11864975",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11882673:body",
+      "packet_type": "body",
+      "label": "PMC11882673",
+      "parent_id": "paper:europe_pmc_PMC11882673",
+      "paper_id": "europe_pmc_PMC11882673",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11882673",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11885369:body",
+      "packet_type": "body",
+      "label": "PMC11885369",
+      "parent_id": "paper:europe_pmc_PMC11885369",
+      "paper_id": "europe_pmc_PMC11885369",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11885369",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11892582:body",
+      "packet_type": "body",
+      "label": "PMC11892582",
+      "parent_id": "paper:europe_pmc_PMC11892582",
+      "paper_id": "europe_pmc_PMC11892582",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11892582",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11958772:body",
+      "packet_type": "body",
+      "label": "PMC11958772",
+      "parent_id": "paper:europe_pmc_PMC11958772",
+      "paper_id": "europe_pmc_PMC11958772",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11958772",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11962120:body",
+      "packet_type": "body",
+      "label": "PMC11962120",
+      "parent_id": "paper:europe_pmc_PMC11962120",
+      "paper_id": "europe_pmc_PMC11962120",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11962120",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC11968791:body",
+      "packet_type": "body",
+      "label": "PMC11968791",
+      "parent_id": "paper:europe_pmc_PMC11968791",
+      "paper_id": "europe_pmc_PMC11968791",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC11968791",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12006024:body",
+      "packet_type": "body",
+      "label": "PMC12006024",
+      "parent_id": "paper:europe_pmc_PMC12006024",
+      "paper_id": "europe_pmc_PMC12006024",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12006024",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12019781:body",
+      "packet_type": "body",
+      "label": "PMC12019781",
+      "parent_id": "paper:europe_pmc_PMC12019781",
+      "paper_id": "europe_pmc_PMC12019781",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12019781",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12047422:body",
+      "packet_type": "body",
+      "label": "PMC12047422",
+      "parent_id": "paper:europe_pmc_PMC12047422",
+      "paper_id": "europe_pmc_PMC12047422",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12047422",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12049274:body",
+      "packet_type": "body",
+      "label": "PMC12049274",
+      "parent_id": "paper:europe_pmc_PMC12049274",
+      "paper_id": "europe_pmc_PMC12049274",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12049274",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12058520:body",
+      "packet_type": "body",
+      "label": "PMC12058520",
+      "parent_id": "paper:europe_pmc_PMC12058520",
+      "paper_id": "europe_pmc_PMC12058520",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12058520",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12064605:body",
+      "packet_type": "body",
+      "label": "PMC12064605",
+      "parent_id": "paper:europe_pmc_PMC12064605",
+      "paper_id": "europe_pmc_PMC12064605",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12064605",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12064707:body",
+      "packet_type": "body",
+      "label": "PMC12064707",
+      "parent_id": "paper:europe_pmc_PMC12064707",
+      "paper_id": "europe_pmc_PMC12064707",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12064707",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12083515:body",
+      "packet_type": "body",
+      "label": "PMC12083515",
+      "parent_id": "paper:europe_pmc_PMC12083515",
+      "paper_id": "europe_pmc_PMC12083515",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12083515",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12095353:body",
+      "packet_type": "body",
+      "label": "PMC12095353",
+      "parent_id": "paper:europe_pmc_PMC12095353",
+      "paper_id": "europe_pmc_PMC12095353",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12095353",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12095383:body",
+      "packet_type": "body",
+      "label": "PMC12095383",
+      "parent_id": "paper:europe_pmc_PMC12095383",
+      "paper_id": "europe_pmc_PMC12095383",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12095383",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12112331:body",
+      "packet_type": "body",
+      "label": "PMC12112331",
+      "parent_id": "paper:europe_pmc_PMC12112331",
+      "paper_id": "europe_pmc_PMC12112331",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12112331",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12125170:body",
+      "packet_type": "body",
+      "label": "PMC12125170",
+      "parent_id": "paper:europe_pmc_PMC12125170",
+      "paper_id": "europe_pmc_PMC12125170",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12125170",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12131001:body",
+      "packet_type": "body",
+      "label": "PMC12131001",
+      "parent_id": "paper:europe_pmc_PMC12131001",
+      "paper_id": "europe_pmc_PMC12131001",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12131001",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12136024:body",
+      "packet_type": "body",
+      "label": "PMC12136024",
+      "parent_id": "paper:europe_pmc_PMC12136024",
+      "paper_id": "europe_pmc_PMC12136024",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12136024",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12149303:body",
+      "packet_type": "body",
+      "label": "PMC12149303",
+      "parent_id": "paper:europe_pmc_PMC12149303",
+      "paper_id": "europe_pmc_PMC12149303",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12149303",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12167945:body",
+      "packet_type": "body",
+      "label": "PMC12167945",
+      "parent_id": "paper:europe_pmc_PMC12167945",
+      "paper_id": "europe_pmc_PMC12167945",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12167945",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12181172:body",
+      "packet_type": "body",
+      "label": "PMC12181172",
+      "parent_id": "paper:europe_pmc_PMC12181172",
+      "paper_id": "europe_pmc_PMC12181172",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12181172",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12214639:body",
+      "packet_type": "body",
+      "label": "PMC12214639",
+      "parent_id": "paper:europe_pmc_PMC12214639",
+      "paper_id": "europe_pmc_PMC12214639",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12214639",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12222237:body",
+      "packet_type": "body",
+      "label": "PMC12222237",
+      "parent_id": "paper:europe_pmc_PMC12222237",
+      "paper_id": "europe_pmc_PMC12222237",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12222237",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12222509:body",
+      "packet_type": "body",
+      "label": "PMC12222509",
+      "parent_id": "paper:europe_pmc_PMC12222509",
+      "paper_id": "europe_pmc_PMC12222509",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12222509",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12248306:body",
+      "packet_type": "body",
+      "label": "PMC12248306",
+      "parent_id": "paper:europe_pmc_PMC12248306",
+      "paper_id": "europe_pmc_PMC12248306",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12248306",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12263849:body",
+      "packet_type": "body",
+      "label": "PMC12263849",
+      "parent_id": "paper:europe_pmc_PMC12263849",
+      "paper_id": "europe_pmc_PMC12263849",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12263849",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12271382:body",
+      "packet_type": "body",
+      "label": "PMC12271382",
+      "parent_id": "paper:europe_pmc_PMC12271382",
+      "paper_id": "europe_pmc_PMC12271382",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12271382",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12284099:body",
+      "packet_type": "body",
+      "label": "PMC12284099",
+      "parent_id": "paper:europe_pmc_PMC12284099",
+      "paper_id": "europe_pmc_PMC12284099",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12284099",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12303098:body",
+      "packet_type": "body",
+      "label": "PMC12303098",
+      "parent_id": "paper:europe_pmc_PMC12303098",
+      "paper_id": "europe_pmc_PMC12303098",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12303098",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12309139:body",
+      "packet_type": "body",
+      "label": "PMC12309139",
+      "parent_id": "paper:europe_pmc_PMC12309139",
+      "paper_id": "europe_pmc_PMC12309139",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12309139",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12337580:body",
+      "packet_type": "body",
+      "label": "PMC12337580",
+      "parent_id": "paper:europe_pmc_PMC12337580",
+      "paper_id": "europe_pmc_PMC12337580",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12337580",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12354891:body",
+      "packet_type": "body",
+      "label": "PMC12354891",
+      "parent_id": "paper:europe_pmc_PMC12354891",
+      "paper_id": "europe_pmc_PMC12354891",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12354891",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12358914:body",
+      "packet_type": "body",
+      "label": "PMC12358914",
+      "parent_id": "paper:europe_pmc_PMC12358914",
+      "paper_id": "europe_pmc_PMC12358914",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12358914",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12379145:body",
+      "packet_type": "body",
+      "label": "PMC12379145",
+      "parent_id": "paper:europe_pmc_PMC12379145",
+      "paper_id": "europe_pmc_PMC12379145",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12379145",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12494007:body",
+      "packet_type": "body",
+      "label": "PMC12494007",
+      "parent_id": "paper:europe_pmc_PMC12494007",
+      "paper_id": "europe_pmc_PMC12494007",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12494007",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12502596:body",
+      "packet_type": "body",
+      "label": "PMC12502596",
+      "parent_id": "paper:europe_pmc_PMC12502596",
+      "paper_id": "europe_pmc_PMC12502596",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12502596",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12518680:body",
+      "packet_type": "body",
+      "label": "PMC12518680",
+      "parent_id": "paper:europe_pmc_PMC12518680",
+      "paper_id": "europe_pmc_PMC12518680",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12518680",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12534462:body",
+      "packet_type": "body",
+      "label": "PMC12534462",
+      "parent_id": "paper:europe_pmc_PMC12534462",
+      "paper_id": "europe_pmc_PMC12534462",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12534462",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12540930:body",
+      "packet_type": "body",
+      "label": "PMC12540930",
+      "parent_id": "paper:europe_pmc_PMC12540930",
+      "paper_id": "europe_pmc_PMC12540930",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12540930",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12542656:body",
+      "packet_type": "body",
+      "label": "PMC12542656",
+      "parent_id": "paper:europe_pmc_PMC12542656",
+      "paper_id": "europe_pmc_PMC12542656",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12542656",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12572293:body",
+      "packet_type": "body",
+      "label": "PMC12572293",
+      "parent_id": "paper:europe_pmc_PMC12572293",
+      "paper_id": "europe_pmc_PMC12572293",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12572293",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12612620:body",
+      "packet_type": "body",
+      "label": "PMC12612620",
+      "parent_id": "paper:europe_pmc_PMC12612620",
+      "paper_id": "europe_pmc_PMC12612620",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12612620",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12617517:body",
+      "packet_type": "body",
+      "label": "PMC12617517",
+      "parent_id": "paper:europe_pmc_PMC12617517",
+      "paper_id": "europe_pmc_PMC12617517",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12617517",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12640197:body",
+      "packet_type": "body",
+      "label": "PMC12640197",
+      "parent_id": "paper:europe_pmc_PMC12640197",
+      "paper_id": "europe_pmc_PMC12640197",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12640197",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12662202:body",
+      "packet_type": "body",
+      "label": "PMC12662202",
+      "parent_id": "paper:europe_pmc_PMC12662202",
+      "paper_id": "europe_pmc_PMC12662202",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12662202",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12680610:body",
+      "packet_type": "body",
+      "label": "PMC12680610",
+      "parent_id": "paper:europe_pmc_PMC12680610",
+      "paper_id": "europe_pmc_PMC12680610",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12680610",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12748715:body",
+      "packet_type": "body",
+      "label": "PMC12748715",
+      "parent_id": "paper:europe_pmc_PMC12748715",
+      "paper_id": "europe_pmc_PMC12748715",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12748715",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12749622:body",
+      "packet_type": "body",
+      "label": "PMC12749622",
+      "parent_id": "paper:europe_pmc_PMC12749622",
+      "paper_id": "europe_pmc_PMC12749622",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12749622",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12753843:body",
+      "packet_type": "body",
+      "label": "PMC12753843",
+      "parent_id": "paper:europe_pmc_PMC12753843",
+      "paper_id": "europe_pmc_PMC12753843",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12753843",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12757042:body",
+      "packet_type": "body",
+      "label": "PMC12757042",
+      "parent_id": "paper:europe_pmc_PMC12757042",
+      "paper_id": "europe_pmc_PMC12757042",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12757042",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12780181:body",
+      "packet_type": "body",
+      "label": "PMC12780181",
+      "parent_id": "paper:europe_pmc_PMC12780181",
+      "paper_id": "europe_pmc_PMC12780181",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12780181",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12787522:body",
+      "packet_type": "body",
+      "label": "PMC12787522",
+      "parent_id": "paper:europe_pmc_PMC12787522",
+      "paper_id": "europe_pmc_PMC12787522",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12787522",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12801151:body",
+      "packet_type": "body",
+      "label": "PMC12801151",
+      "parent_id": "paper:europe_pmc_PMC12801151",
+      "paper_id": "europe_pmc_PMC12801151",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12801151",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12804982:body",
+      "packet_type": "body",
+      "label": "PMC12804982",
+      "parent_id": "paper:europe_pmc_PMC12804982",
+      "paper_id": "europe_pmc_PMC12804982",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12804982",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12820267:body",
+      "packet_type": "body",
+      "label": "PMC12820267",
+      "parent_id": "paper:europe_pmc_PMC12820267",
+      "paper_id": "europe_pmc_PMC12820267",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12820267",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12835000:body",
+      "packet_type": "body",
+      "label": "PMC12835000",
+      "parent_id": "paper:europe_pmc_PMC12835000",
+      "paper_id": "europe_pmc_PMC12835000",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12835000",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12844351:body",
+      "packet_type": "body",
+      "label": "PMC12844351",
+      "parent_id": "paper:europe_pmc_PMC12844351",
+      "paper_id": "europe_pmc_PMC12844351",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12844351",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12859089:body",
+      "packet_type": "body",
+      "label": "PMC12859089",
+      "parent_id": "paper:europe_pmc_PMC12859089",
+      "paper_id": "europe_pmc_PMC12859089",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12859089",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12871447:body",
+      "packet_type": "body",
+      "label": "PMC12871447",
+      "parent_id": "paper:europe_pmc_PMC12871447",
+      "paper_id": "europe_pmc_PMC12871447",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12871447",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12890832:body",
+      "packet_type": "body",
+      "label": "PMC12890832",
+      "parent_id": "paper:europe_pmc_PMC12890832",
+      "paper_id": "europe_pmc_PMC12890832",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12890832",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12896705:body",
+      "packet_type": "body",
+      "label": "PMC12896705",
+      "parent_id": "paper:europe_pmc_PMC12896705",
+      "paper_id": "europe_pmc_PMC12896705",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12896705",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12926746:body",
+      "packet_type": "body",
+      "label": "PMC12926746",
+      "parent_id": "paper:europe_pmc_PMC12926746",
+      "paper_id": "europe_pmc_PMC12926746",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12926746",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12943728:body",
+      "packet_type": "body",
+      "label": "PMC12943728",
+      "parent_id": "paper:europe_pmc_PMC12943728",
+      "paper_id": "europe_pmc_PMC12943728",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12943728",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12945690:body",
+      "packet_type": "body",
+      "label": "PMC12945690",
+      "parent_id": "paper:europe_pmc_PMC12945690",
+      "paper_id": "europe_pmc_PMC12945690",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12945690",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12947465:body",
+      "packet_type": "body",
+      "label": "PMC12947465",
+      "parent_id": "paper:europe_pmc_PMC12947465",
+      "paper_id": "europe_pmc_PMC12947465",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12947465",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12959411:body",
+      "packet_type": "body",
+      "label": "PMC12959411",
+      "parent_id": "paper:europe_pmc_PMC12959411",
+      "paper_id": "europe_pmc_PMC12959411",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12959411",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12976318:body",
+      "packet_type": "body",
+      "label": "PMC12976318",
+      "parent_id": "paper:europe_pmc_PMC12976318",
+      "paper_id": "europe_pmc_PMC12976318",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12976318",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12988150:body",
+      "packet_type": "body",
+      "label": "PMC12988150",
+      "parent_id": "paper:europe_pmc_PMC12988150",
+      "paper_id": "europe_pmc_PMC12988150",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12988150",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12988993:body",
+      "packet_type": "body",
+      "label": "PMC12988993",
+      "parent_id": "paper:europe_pmc_PMC12988993",
+      "paper_id": "europe_pmc_PMC12988993",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12988993",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC12998224:body",
+      "packet_type": "body",
+      "label": "PMC12998224",
+      "parent_id": "paper:europe_pmc_PMC12998224",
+      "paper_id": "europe_pmc_PMC12998224",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC12998224",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13002991:body",
+      "packet_type": "body",
+      "label": "PMC13002991",
+      "parent_id": "paper:europe_pmc_PMC13002991",
+      "paper_id": "europe_pmc_PMC13002991",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13002991",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13008557:body",
+      "packet_type": "body",
+      "label": "PMC13008557",
+      "parent_id": "paper:europe_pmc_PMC13008557",
+      "paper_id": "europe_pmc_PMC13008557",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13008557",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13018559:body",
+      "packet_type": "body",
+      "label": "PMC13018559",
+      "parent_id": "paper:europe_pmc_PMC13018559",
+      "paper_id": "europe_pmc_PMC13018559",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13018559",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13021576:body",
+      "packet_type": "body",
+      "label": "PMC13021576",
+      "parent_id": "paper:europe_pmc_PMC13021576",
+      "paper_id": "europe_pmc_PMC13021576",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13021576",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13031658:body",
+      "packet_type": "body",
+      "label": "PMC13031658",
+      "parent_id": "paper:europe_pmc_PMC13031658",
+      "paper_id": "europe_pmc_PMC13031658",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13031658",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13058606:body",
+      "packet_type": "body",
+      "label": "PMC13058606",
+      "parent_id": "paper:europe_pmc_PMC13058606",
+      "paper_id": "europe_pmc_PMC13058606",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13058606",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13060603:body",
+      "packet_type": "body",
+      "label": "PMC13060603",
+      "parent_id": "paper:europe_pmc_PMC13060603",
+      "paper_id": "europe_pmc_PMC13060603",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13060603",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13082334:body",
+      "packet_type": "body",
+      "label": "PMC13082334",
+      "parent_id": "paper:europe_pmc_PMC13082334",
+      "paper_id": "europe_pmc_PMC13082334",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13082334",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13108545:body",
+      "packet_type": "body",
+      "label": "PMC13108545",
+      "parent_id": "paper:europe_pmc_PMC13108545",
+      "paper_id": "europe_pmc_PMC13108545",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13108545",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13109349:body",
+      "packet_type": "body",
+      "label": "PMC13109349",
+      "parent_id": "paper:europe_pmc_PMC13109349",
+      "paper_id": "europe_pmc_PMC13109349",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13109349",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13121742:body",
+      "packet_type": "body",
+      "label": "PMC13121742",
+      "parent_id": "paper:europe_pmc_PMC13121742",
+      "paper_id": "europe_pmc_PMC13121742",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13121742",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13127594:body",
+      "packet_type": "body",
+      "label": "PMC13127594",
+      "parent_id": "paper:europe_pmc_PMC13127594",
+      "paper_id": "europe_pmc_PMC13127594",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13127594",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13132864:body",
+      "packet_type": "body",
+      "label": "PMC13132864",
+      "parent_id": "paper:europe_pmc_PMC13132864",
+      "paper_id": "europe_pmc_PMC13132864",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13132864",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13148317:body",
+      "packet_type": "body",
+      "label": "PMC13148317",
+      "parent_id": "paper:europe_pmc_PMC13148317",
+      "paper_id": "europe_pmc_PMC13148317",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13148317",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13181107:body",
+      "packet_type": "body",
+      "label": "PMC13181107",
+      "parent_id": "paper:europe_pmc_PMC13181107",
+      "paper_id": "europe_pmc_PMC13181107",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13181107",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13201857:body",
+      "packet_type": "body",
+      "label": "PMC13201857",
+      "parent_id": "paper:europe_pmc_PMC13201857",
+      "paper_id": "europe_pmc_PMC13201857",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13201857",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13260390:body",
+      "packet_type": "body",
+      "label": "PMC13260390",
+      "parent_id": "paper:europe_pmc_PMC13260390",
+      "paper_id": "europe_pmc_PMC13260390",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13260390",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13274844:body",
+      "packet_type": "body",
+      "label": "PMC13274844",
+      "parent_id": "paper:europe_pmc_PMC13274844",
+      "paper_id": "europe_pmc_PMC13274844",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13274844",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13281800:body",
+      "packet_type": "body",
+      "label": "PMC13281800",
+      "parent_id": "paper:europe_pmc_PMC13281800",
+      "paper_id": "europe_pmc_PMC13281800",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13281800",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13281819:body",
+      "packet_type": "body",
+      "label": "PMC13281819",
+      "parent_id": "paper:europe_pmc_PMC13281819",
+      "paper_id": "europe_pmc_PMC13281819",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13281819",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13284520:body",
+      "packet_type": "body",
+      "label": "PMC13284520",
+      "parent_id": "paper:europe_pmc_PMC13284520",
+      "paper_id": "europe_pmc_PMC13284520",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13284520",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13319204:body",
+      "packet_type": "body",
+      "label": "PMC13319204",
+      "parent_id": "paper:europe_pmc_PMC13319204",
+      "paper_id": "europe_pmc_PMC13319204",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13319204",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13341793:body",
+      "packet_type": "body",
+      "label": "PMC13341793",
+      "parent_id": "paper:europe_pmc_PMC13341793",
+      "paper_id": "europe_pmc_PMC13341793",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13341793",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13342563:body",
+      "packet_type": "body",
+      "label": "PMC13342563",
+      "parent_id": "paper:europe_pmc_PMC13342563",
+      "paper_id": "europe_pmc_PMC13342563",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13342563",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13363821:body",
+      "packet_type": "body",
+      "label": "PMC13363821",
+      "parent_id": "paper:europe_pmc_PMC13363821",
+      "paper_id": "europe_pmc_PMC13363821",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13363821",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13373228:body",
+      "packet_type": "body",
+      "label": "PMC13373228",
+      "parent_id": "paper:europe_pmc_PMC13373228",
+      "paper_id": "europe_pmc_PMC13373228",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13373228",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13376509:body",
+      "packet_type": "body",
+      "label": "PMC13376509",
+      "parent_id": "paper:europe_pmc_PMC13376509",
+      "paper_id": "europe_pmc_PMC13376509",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13376509",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13376600:body",
+      "packet_type": "body",
+      "label": "PMC13376600",
+      "parent_id": "paper:europe_pmc_PMC13376600",
+      "paper_id": "europe_pmc_PMC13376600",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13376600",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13377125:body",
+      "packet_type": "body",
+      "label": "PMC13377125",
+      "parent_id": "paper:europe_pmc_PMC13377125",
+      "paper_id": "europe_pmc_PMC13377125",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13377125",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13381650:body",
+      "packet_type": "body",
+      "label": "PMC13381650",
+      "parent_id": "paper:europe_pmc_PMC13381650",
+      "paper_id": "europe_pmc_PMC13381650",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13381650",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13388704:body",
+      "packet_type": "body",
+      "label": "PMC13388704",
+      "parent_id": "paper:europe_pmc_PMC13388704",
+      "paper_id": "europe_pmc_PMC13388704",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13388704",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13390420:body",
+      "packet_type": "body",
+      "label": "PMC13390420",
+      "parent_id": "paper:europe_pmc_PMC13390420",
+      "paper_id": "europe_pmc_PMC13390420",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13390420",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13392445:body",
+      "packet_type": "body",
+      "label": "PMC13392445",
+      "parent_id": "paper:europe_pmc_PMC13392445",
+      "paper_id": "europe_pmc_PMC13392445",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13392445",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13398485:body",
+      "packet_type": "body",
+      "label": "PMC13398485",
+      "parent_id": "paper:europe_pmc_PMC13398485",
+      "paper_id": "europe_pmc_PMC13398485",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13398485",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13408133:body",
+      "packet_type": "body",
+      "label": "PMC13408133",
+      "parent_id": "paper:europe_pmc_PMC13408133",
+      "paper_id": "europe_pmc_PMC13408133",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13408133",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13418535:body",
+      "packet_type": "body",
+      "label": "PMC13418535",
+      "parent_id": "paper:europe_pmc_PMC13418535",
+      "paper_id": "europe_pmc_PMC13418535",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13418535",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13434758:body",
+      "packet_type": "body",
+      "label": "PMC13434758",
+      "parent_id": "paper:europe_pmc_PMC13434758",
+      "paper_id": "europe_pmc_PMC13434758",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13434758",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13440228:body",
+      "packet_type": "body",
+      "label": "PMC13440228",
+      "parent_id": "paper:europe_pmc_PMC13440228",
+      "paper_id": "europe_pmc_PMC13440228",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13440228",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13448930:body",
+      "packet_type": "body",
+      "label": "PMC13448930",
+      "parent_id": "paper:europe_pmc_PMC13448930",
+      "paper_id": "europe_pmc_PMC13448930",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13448930",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13454564:body",
+      "packet_type": "body",
+      "label": "PMC13454564",
+      "parent_id": "paper:europe_pmc_PMC13454564",
+      "paper_id": "europe_pmc_PMC13454564",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13454564",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13458837:body",
+      "packet_type": "body",
+      "label": "PMC13458837",
+      "parent_id": "paper:europe_pmc_PMC13458837",
+      "paper_id": "europe_pmc_PMC13458837",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13458837",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13468015:body",
+      "packet_type": "body",
+      "label": "PMC13468015",
+      "parent_id": "paper:europe_pmc_PMC13468015",
+      "paper_id": "europe_pmc_PMC13468015",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13468015",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13473526:body",
+      "packet_type": "body",
+      "label": "PMC13473526",
+      "parent_id": "paper:europe_pmc_PMC13473526",
+      "paper_id": "europe_pmc_PMC13473526",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13473526",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13477475:body",
+      "packet_type": "body",
+      "label": "PMC13477475",
+      "parent_id": "paper:europe_pmc_PMC13477475",
+      "paper_id": "europe_pmc_PMC13477475",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13477475",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13478603:body",
+      "packet_type": "body",
+      "label": "PMC13478603",
+      "parent_id": "paper:europe_pmc_PMC13478603",
+      "paper_id": "europe_pmc_PMC13478603",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13478603",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13488926:body",
+      "packet_type": "body",
+      "label": "PMC13488926",
+      "parent_id": "paper:europe_pmc_PMC13488926",
+      "paper_id": "europe_pmc_PMC13488926",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13488926",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13490444:body",
+      "packet_type": "body",
+      "label": "PMC13490444",
+      "parent_id": "paper:europe_pmc_PMC13490444",
+      "paper_id": "europe_pmc_PMC13490444",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13490444",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13515334:body",
+      "packet_type": "body",
+      "label": "PMC13515334",
+      "parent_id": "paper:europe_pmc_PMC13515334",
+      "paper_id": "europe_pmc_PMC13515334",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13515334",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13538684:body",
+      "packet_type": "body",
+      "label": "PMC13538684",
+      "parent_id": "paper:europe_pmc_PMC13538684",
+      "paper_id": "europe_pmc_PMC13538684",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13538684",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13565125:body",
+      "packet_type": "body",
+      "label": "PMC13565125",
+      "parent_id": "paper:europe_pmc_PMC13565125",
+      "paper_id": "europe_pmc_PMC13565125",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13565125",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13578706:body",
+      "packet_type": "body",
+      "label": "PMC13578706",
+      "parent_id": "paper:europe_pmc_PMC13578706",
+      "paper_id": "europe_pmc_PMC13578706",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13578706",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13594180:body",
+      "packet_type": "body",
+      "label": "PMC13594180",
+      "parent_id": "paper:europe_pmc_PMC13594180",
+      "paper_id": "europe_pmc_PMC13594180",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13594180",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13598196:body",
+      "packet_type": "body",
+      "label": "PMC13598196",
+      "parent_id": "paper:europe_pmc_PMC13598196",
+      "paper_id": "europe_pmc_PMC13598196",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13598196",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13616910:body",
+      "packet_type": "body",
+      "label": "PMC13616910",
+      "parent_id": "paper:europe_pmc_PMC13616910",
+      "paper_id": "europe_pmc_PMC13616910",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13616910",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13620149:body",
+      "packet_type": "body",
+      "label": "PMC13620149",
+      "parent_id": "paper:europe_pmc_PMC13620149",
+      "paper_id": "europe_pmc_PMC13620149",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13620149",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13630551:body",
+      "packet_type": "body",
+      "label": "PMC13630551",
+      "parent_id": "paper:europe_pmc_PMC13630551",
+      "paper_id": "europe_pmc_PMC13630551",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13630551",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13634050:body",
+      "packet_type": "body",
+      "label": "PMC13634050",
+      "parent_id": "paper:europe_pmc_PMC13634050",
+      "paper_id": "europe_pmc_PMC13634050",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13634050",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13636661:body",
+      "packet_type": "body",
+      "label": "PMC13636661",
+      "parent_id": "paper:europe_pmc_PMC13636661",
+      "paper_id": "europe_pmc_PMC13636661",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13636661",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13638462:body",
+      "packet_type": "body",
+      "label": "PMC13638462",
+      "parent_id": "paper:europe_pmc_PMC13638462",
+      "paper_id": "europe_pmc_PMC13638462",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13638462",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13639189:body",
+      "packet_type": "body",
+      "label": "PMC13639189",
+      "parent_id": "paper:europe_pmc_PMC13639189",
+      "paper_id": "europe_pmc_PMC13639189",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13639189",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13645622:body",
+      "packet_type": "body",
+      "label": "PMC13645622",
+      "parent_id": "paper:europe_pmc_PMC13645622",
+      "paper_id": "europe_pmc_PMC13645622",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13645622",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13645875:body",
+      "packet_type": "body",
+      "label": "PMC13645875",
+      "parent_id": "paper:europe_pmc_PMC13645875",
+      "paper_id": "europe_pmc_PMC13645875",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13645875",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13651874:body",
+      "packet_type": "body",
+      "label": "PMC13651874",
+      "parent_id": "paper:europe_pmc_PMC13651874",
+      "paper_id": "europe_pmc_PMC13651874",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13651874",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13651883:body",
+      "packet_type": "body",
+      "label": "PMC13651883",
+      "parent_id": "paper:europe_pmc_PMC13651883",
+      "paper_id": "europe_pmc_PMC13651883",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13651883",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13665990:body",
+      "packet_type": "body",
+      "label": "PMC13665990",
+      "parent_id": "paper:europe_pmc_PMC13665990",
+      "paper_id": "europe_pmc_PMC13665990",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13665990",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13674081:body",
+      "packet_type": "body",
+      "label": "PMC13674081",
+      "parent_id": "paper:europe_pmc_PMC13674081",
+      "paper_id": "europe_pmc_PMC13674081",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13674081",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13685917:body",
+      "packet_type": "body",
+      "label": "PMC13685917",
+      "parent_id": "paper:europe_pmc_PMC13685917",
+      "paper_id": "europe_pmc_PMC13685917",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13685917",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC13715440:body",
+      "packet_type": "body",
+      "label": "PMC13715440",
+      "parent_id": "paper:europe_pmc_PMC13715440",
+      "paper_id": "europe_pmc_PMC13715440",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC13715440",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:europe_pmc_PMC9985640:body",
+      "packet_type": "body",
+      "label": "PMC9985640",
+      "parent_id": "paper:europe_pmc_PMC9985640",
+      "paper_id": "europe_pmc_PMC9985640",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "europe_pmc_PMC9985640",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    }
+  ],
+  "written_at": "2026-11-08T16:22:53.043852+00:00"
+}

@@ -41,6 +41,7 @@ class TestFulltextXmlGuards:
         class FakeResponse:
             status_code = 200
             content = stub
+            text = stub.decode()
 
             def raise_for_status(self) -> None:
                 return None
@@ -48,6 +49,11 @@ class TestFulltextXmlGuards:
         monkeypatch.setattr(
             "semantic_corpus.repositories.europe_pmc.requests.get",
             lambda *a, **k: FakeResponse(),
+        )
+        monkeypatch.setattr(
+            EuropePMCRepository,
+            "_download_pdf",
+            lambda self, *a, **k: None,
         )
         repo = EuropePMCRepository()
         with pytest.raises(RepositoryError, match="HTTP 500") as ei:
@@ -58,6 +64,7 @@ class TestFulltextXmlGuards:
         class FakeResponse:
             status_code = 500
             content = b'{"status":500,"error":"Internal Server Error"}'
+            text = '{"status":500,"error":"Internal Server Error"}'
 
             def raise_for_status(self) -> None:
                 err = requests.HTTPError("500 Server Error")
@@ -67,6 +74,11 @@ class TestFulltextXmlGuards:
         monkeypatch.setattr(
             "semantic_corpus.repositories.europe_pmc.requests.get",
             lambda *a, **k: FakeResponse(),
+        )
+        monkeypatch.setattr(
+            EuropePMCRepository,
+            "_download_pdf",
+            lambda self, *a, **k: None,
         )
         repo = EuropePMCRepository()
         with pytest.raises(RepositoryError, match="HTTP 500") as ei:

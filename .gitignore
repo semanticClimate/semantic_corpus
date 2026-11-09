@@ -4,4 +4,8 @@ venv/
 temp/
 .idea/
 *.pyc
+semantic_corpus.egg-info/
 __pycache__/
+
+# Harvested PDFs are large; keep local under corpora/, do not push
+corpora/**/*.pdf

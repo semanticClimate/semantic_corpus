@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12263849",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "younger dryas",
+      "display": "Younger Dryas",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary information",
+      "display": "Supplementary Information",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern tropical north atlantic oxygen minimum zone",
+      "display": "Eastern Tropical North Atlantic Oxygen Minimum Zone",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bpwo",
+      "display": "BPWO",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "omz",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "OMZ"
+    },
+    {
+      "phrase": "geob9512-5",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "GeoB9512-5"
+    },
+    {
+      "phrase": "etna",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "ETNA"
+    },
+    {
+      "phrase": "etna omz",
+      "score": 0.0364,
+      "channel": "tfidf",
+      "display": "ETNA OMZ"
+    },
+    {
+      "phrase": "benthic foraminifera",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "Benthic Foraminifera"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

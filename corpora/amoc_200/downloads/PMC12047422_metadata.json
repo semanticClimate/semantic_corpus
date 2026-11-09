@@ -1,0 +1,287 @@
+{
+  "pmcid": "PMC12047422",
+  "pmid": "40315310",
+  "title": "Vegetation feedbacks accelerated the late Miocene climate transition.",
+  "abstract": "The late Miocene was an important stage for the formation of modern-like ecological and environmental patterns. Proxy data from the middle to late Miocene reveal that large-scale cooling and drying occurred; however, the reasons for this climate transition remain unclear. Through a compilation of proxy data and climate simulations, our results indicate that atmospheric CO<sub>2</sub> decline markedly decreased the temperature and reduced the precipitation in most of the land area, while the paleogeographic changes enhanced cooling at northern high latitudes and increased precipitation in East Asia, East Africa, and South America. In comparison, vegetation changes accelerated cooling at northern high latitudes (the maximum cooling exceeded 10°C) and modulated precipitation at low- and mid-latitude continents (the maximum decrease was close to 30%). This deepens the understanding of the mechanism of the late Miocene climate transition and highlights the importance of vegetation feedbacks during global climate change.",
+  "authors": [
+    {
+      "fullName": "Zhang R",
+      "lastName": "Zhang",
+      "firstName": "Ran",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7248-1291"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Earth System Numerical Modeling and Application, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters (CIC-FEMD), Nanjing University of Information Science and Technology, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Guo J",
+      "lastName": "Guo",
+      "firstName": "Jiaqi",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0140-6550"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmosphere and Ocean Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bradshaw CD",
+      "lastName": "Bradshaw",
+      "firstName": "Catherine D",
+      "initials": "CD",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4305-380X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "The Global Systems Institute, University of Exeter, Exeter, UK."
+          },
+          {
+            "affiliation": "Met Office Hadley Centre, Exeter, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Xu X",
+      "lastName": "Xu",
+      "firstName": "Xiyan",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2732-1325"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Earth System Numerical Modeling and Application, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Shen T",
+      "lastName": "Shen",
+      "firstName": "Tiantian",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0007-2496-4049"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Earth and Environmental Science, Lanzhou University, Lanzhou, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li S",
+      "lastName": "Li",
+      "firstName": "Shufeng",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5144-4432"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "CAS Key Laboratory of Tropical Forest Ecology, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, Mengla, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nie J",
+      "lastName": "Nie",
+      "firstName": "Junsheng",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Earth and Environmental Science, Lanzhou University, Lanzhou, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang C",
+      "lastName": "Zhang",
+      "firstName": "Chunxia",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4805-1109"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li X",
+      "lastName": "Li",
+      "firstName": "Xiangyu",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7724-4025"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmospheric Science, School of Environmental Studies, China University of Geosciences, Wuhan, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Z",
+      "lastName": "Liu",
+      "firstName": "Ze",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8512-5408"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Frontiers Science Center for Deep Ocean Multispheres and Earth System, Key Lab of Submarine Geosciences and Prospecting Techniques, MOE and College of Marine Geosciences, Ocean University of China, Qingdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang J",
+      "lastName": "Zhang",
+      "firstName": "Jian",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5728-9066"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmosphere and Ocean Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jiang D",
+      "lastName": "Jiang",
+      "firstName": "Dabang",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0756-0169"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Earth System Numerical Modeling and Application, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hu Y",
+      "lastName": "Hu",
+      "firstName": "Yongyun",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4003-4630"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmosphere and Ocean Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sun J",
+      "lastName": "Sun",
+      "firstName": "Jimin",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5312-5235"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-05-02",
+  "journal": "",
+  "doi": "10.1126/sciadv.ads4268",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1126/sciadv.ads4268"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.ads4268"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12047422"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12047422?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12047422"
+}

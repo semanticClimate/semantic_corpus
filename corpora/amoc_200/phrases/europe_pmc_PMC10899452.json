@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10899452",
+  "phrases": [
+    {
+      "phrase": "kuhlbrodt and gregory",
+      "display": "Kuhlbrodt and Gregory",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "geophysical fluid dynamics laboratory",
+      "display": "Geophysical Fluid Dynamics Laboratory",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "see appendix",
+      "display": "See Appendix",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gregory and forster",
+      "display": "Gregory and Forster",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "japan agency for marine earth science and technology",
+      "display": "Japan Agency for Marine Earth Science and Technology",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ohu",
+      "display": "OHU",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aogcm",
+      "display": "AOGCM",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aogcms",
+      "score": 0.0532,
+      "channel": "tfidf",
+      "display": "AOGCMs"
+    },
+    {
+      "phrase": "ohue",
+      "score": 0.0484,
+      "channel": "tfidf",
+      "display": "OHUE"
+    },
+    {
+      "phrase": "tcr",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "TCR"
+    },
+    {
+      "phrase": "zero-layer",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "zero-layer"
+    },
+    {
+      "phrase": "cmip5 amp",
+      "score": 0.0423,
+      "channel": "tfidf",
+      "display": "cmip5 amp"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

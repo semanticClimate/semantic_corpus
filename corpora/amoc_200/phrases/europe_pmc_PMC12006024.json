@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12006024",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic oscillation",
+      "display": "North Atlantic Oscillation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "influence of subpolar",
+      "display": "Influence of Subpolar",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "evolution of atlantic meridional overturning circulation",
+      "display": "Evolution of Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mediterranean center on climate change",
+      "display": "Mediterranean Center on Climate Change",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nao",
+      "display": "NAO",
+      "score": 6.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dpss",
+      "display": "DPSs",
+      "score": 2.11,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "skill-less",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "Skill-less"
+    },
+    {
+      "phrase": "skillful",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "Skillful"
+    },
+    {
+      "phrase": "dps",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "DPS"
+    },
+    {
+      "phrase": "skillful dpss",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "skillful DPSs"
+    },
+    {
+      "phrase": "skill-less dpss",
+      "score": 0.0411,
+      "channel": "tfidf",
+      "display": "Skill-less DPSs"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

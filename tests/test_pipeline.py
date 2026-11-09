@@ -44,6 +44,8 @@ def test_infer_from_mode():
 
 
 def test_deps_corpus_modes():
+    assert deps_for("search", "collect") == []
+    assert deps_for("collect", "collect") == ["search"]
     assert deps_for("corpus", "collect") == ["collect"]
     assert deps_for("corpus", "existing") == []
     assert deps_for("phrases", "collect") == ["corpus"]
@@ -55,7 +57,7 @@ def test_deps_corpus_modes():
 
 def test_required_steps_clusters_via_query():
     plan = required_steps(["clusters"], from_mode="collect")
-    assert plan == ["collect", "corpus", "phrases", "clusters"]
+    assert plan == ["search", "collect", "corpus", "phrases", "clusters"]
     assert "pdfs" not in plan
     assert "encyclopedia" not in plan
     assert "bagit" not in plan
@@ -108,8 +110,8 @@ def test_example_amoc_insolation_limit_20_to_clusters():
           --cluster-resolution 0.8 \\
           --target clusters
 
-    Results stay in that corpus (not pytest tmp). Harvest XMLs also land in
-    ``temp/queries/amoc_insolation_20/``.
+    Results stay in that corpus (not pytest tmp). Harvest files are flat under
+    ``corpora/amoc_insolation_20/`` (``PMC….json|.xml|.pdf|.pdf.xml``).
     """
     pytest.importorskip("sklearn")
     pytest.importorskip("networkx")
@@ -142,6 +144,7 @@ def test_example_amoc_insolation_limit_20_to_clusters():
     ]
 
     assert required_steps(["clusters"], from_mode="collect") == [
+        "search",
         "collect",
         "corpus",
         "phrases",
@@ -149,11 +152,12 @@ def test_example_amoc_insolation_limit_20_to_clusters():
     ]
     assert main(argv) == 0
 
-    assert (workdir / "bagit.txt").is_file()
+    assert (workdir / "search_results.json").is_file()
     assert (workdir / "packets" / "manifest.json").is_file()
     assert (workdir / "phrases" / "index.json").is_file()
     assert (workdir / "clusters" / "graph_summary.json").is_file()
     assert (workdir / "clusters" / "clusters.json").is_file()
+    assert list(workdir.glob("PMC*.json")) or list(workdir.glob("PMC*.xml"))
 
     index = json.loads((workdir / "phrases" / "index.json").read_text(encoding="utf-8"))
     paper_count = int(index.get("paper_count") or 0)
@@ -263,6 +267,7 @@ def test_encyclopedia_plan_includes_clean():
 def test_clean_plan_stops_before_encyclopedia():
     plan = required_steps(["clean"], from_mode="collect")
     assert plan == [
+        "search",
         "collect",
         "corpus",
         "phrases",
@@ -354,8 +359,8 @@ def test_cli_invalid_kg_links_rejected(tmp_path: Path):
     assert rc == 2
 
 
-def test_doit_db_lives_outside_bag_root(tmp_path: Path, monkeypatch):
-    """bagit.make_bag must not be able to swallow the doit dependency DB."""
+def test_doit_db_lives_in_pipeline_dir(tmp_path: Path, monkeypatch):
+    """Flat corpora keep the doit DB beside step stamps under pipeline/."""
     from semantic_corpus.pipeline.config import apply_env, PipelineOptions
     from semantic_corpus.pipeline.placeholders import doit_db_path
 
@@ -363,9 +368,8 @@ def test_doit_db_lives_outside_bag_root(tmp_path: Path, monkeypatch):
     workdir.mkdir(parents=True)
     apply_env(PipelineOptions(workdir=workdir, from_mode="existing"))
     db = doit_db_path(workdir)
+    assert db == workdir / "pipeline" / "doit.db"
     assert db.parent.is_dir()
-    assert workdir not in db.parents and db.parent != workdir
-    assert not str(db).startswith(str(workdir))
 
 
 def test_cli_second_run_skips(tmp_path: Path, capsys):

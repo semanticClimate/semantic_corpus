@@ -1,0 +1,78 @@
+{
+  "pmcid": "PMC10368695",
+  "pmid": "37491344",
+  "title": "Warning of a forthcoming collapse of the Atlantic meridional overturning circulation.",
+  "abstract": "The Atlantic meridional overturning circulation (AMOC) is a major tipping element in the climate system and a future collapse would have severe impacts on the climate in the North Atlantic region. In recent years weakening in circulation has been reported, but assessments by the Intergovernmental Panel on Climate Change (IPCC), based on the Climate Model Intercomparison Project (CMIP) model simulations suggest that a full collapse is unlikely within the 21st century. Tipping to an undesired state in the climate is, however, a growing concern with increasing greenhouse gas concentrations. Predictions based on observations rely on detecting early-warning signals, primarily an increase in variance (loss of resilience) and increased autocorrelation (critical slowing down), which have recently been reported for the AMOC. Here we provide statistical significance and data-driven estimators for the time of tipping. We estimate a collapse of the AMOC to occur around mid-century under the current scenario of future emissions.",
+  "authors": [
+    {
+      "fullName": "Ditlevsen P",
+      "lastName": "Ditlevsen",
+      "firstName": "Peter",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2120-7732"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark. pditlev@nbi.ku.dk."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ditlevsen S",
+      "lastName": "Ditlevsen",
+      "firstName": "Susanne",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1998-2783"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Mathematical Sciences, University of Copenhagen, Copenhagen, Denmark. susanne@math.ku.dk."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2023-07-25",
+  "journal": "",
+  "doi": "10.1038/s41467-023-39810-w",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Unpaywall",
+      "url": "https://www.nature.com/articles/s41467-023-39810-w.pdf"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-023-39810-w"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10368695"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10368695?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC10368695"
+}

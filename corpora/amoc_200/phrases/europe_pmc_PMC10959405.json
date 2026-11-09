@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10959405",
+  "phrases": [
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic sea",
+      "display": "Nordic Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meriodional overturning circulation",
+      "display": "Atlantic Meriodional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institute for marine and atmospheric",
+      "display": "Institute for Marine and Atmospheric",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "creative commons attribution",
+      "display": "Creative Commons Attribution",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ews",
+      "display": "EWS",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "itps",
+      "display": "ITPs",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coexisting",
+      "score": 0.0445,
+      "channel": "tfidf",
+      "display": "Coexisting"
+    },
+    {
+      "phrase": "attractors",
+      "score": 0.04,
+      "channel": "tfidf",
+      "display": "attractors"
+    },
+    {
+      "phrase": "coexisting states",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "Coexisting states"
+    },
+    {
+      "phrase": "attractor",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "attractor"
+    },
+    {
+      "phrase": "multistability",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "Multistability"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13578706",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zoige basin",
+      "display": "Zoige Basin",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tibetan plateau",
+      "display": "Tibetan Plateau",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese academy of sciences",
+      "display": "Chinese Academy of Sciences",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paleolake zoige",
+      "display": "Paleolake Zoige",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sr and carb",
+      "display": "Sr and Carb",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mcv",
+      "display": "MCV",
+      "score": 3.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zb",
+      "display": "ZB",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mis",
+      "display": "MIS",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rb sr",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "rb sr"
+    },
+    {
+      "phrase": "zoige",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "Zoige"
+    },
+    {
+      "phrase": "rb",
+      "score": 0.0358,
+      "channel": "tfidf",
+      "display": "Rb"
+    },
+    {
+      "phrase": "mcv amplitude",
+      "score": 0.0355,
+      "channel": "tfidf",
+      "display": "MCV amplitude"
+    },
+    {
+      "phrase": "sr",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "Sr"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

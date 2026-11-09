@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11624277",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic oscillation",
+      "display": "North Atlantic Oscillation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "seamless system for prediction and earth system research",
+      "display": "Seamless System for Prediction and Earth System Research",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "meridional overturning circulation and heatflux array",
+      "display": "Meridional Overturning Circulation and Heatflux Array",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coupled model intercomparison project phase",
+      "display": "Coupled Model Intercomparison Project Phase",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 5.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nao",
+      "display": "NAO",
+      "score": 3.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spear",
+      "display": "SPEAR",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "residual amoc component",
+      "score": 0.0536,
+      "channel": "tfidf",
+      "display": "residual AMOC component"
+    },
+    {
+      "phrase": "residual amoc",
+      "score": 0.0517,
+      "channel": "tfidf",
+      "display": "residual AMOC"
+    },
+    {
+      "phrase": "amoc component",
+      "score": 0.0505,
+      "channel": "tfidf",
+      "display": "AMOC component"
+    },
+    {
+      "phrase": "omip2",
+      "score": 0.0454,
+      "channel": "tfidf",
+      "display": "OMIP2"
+    },
+    {
+      "phrase": "neutral nao",
+      "score": 0.041,
+      "channel": "tfidf",
+      "display": "neutral NAO"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13108545",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 6.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bering strait",
+      "display": "Bering Strait",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little diomede island",
+      "display": "Little Diomede Island",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "big diomede island",
+      "display": "Big Diomede Island",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north pacific",
+      "display": "North Pacific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "model of intermediate complexity",
+      "display": "Model of Intermediate Complexity",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cbs",
+      "display": "CBS",
+      "score": 1.92,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "obs",
+      "display": "OBS",
+      "score": 1.88,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "closure",
+      "score": 0.0404,
+      "channel": "tfidf",
+      "display": "closure"
+    },
+    {
+      "phrase": "bsd",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "BSD"
+    },
+    {
+      "phrase": "sverdrup",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "sverdrup"
+    },
+    {
+      "phrase": "hosing",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "hosing"
+    },
+    {
+      "phrase": "case ii",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "case II"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

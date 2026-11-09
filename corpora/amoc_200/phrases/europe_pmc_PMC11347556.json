@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11347556",
+  "phrases": [
+    {
+      "phrase": "fram strait",
+      "display": "Fram Strait",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic and arctic",
+      "display": "Atlantic and Arctic",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "denmark strait",
+      "display": "Denmark Strait",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "subpolar north atlantic ocean",
+      "display": "Subpolar North Atlantic Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east greenland current",
+      "display": "East Greenland Current",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.97,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 1.63,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern spna",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "eastern SPNA"
+    },
+    {
+      "phrase": "arctic waters",
+      "score": 0.0367,
+      "channel": "tfidf",
+      "display": "Arctic waters"
+    },
+    {
+      "phrase": "arctic outflow",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "Arctic outflow"
+    },
+    {
+      "phrase": "spna",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "SPNA"
+    },
+    {
+      "phrase": "lagrangian",
+      "score": 0.0355,
+      "channel": "tfidf",
+      "display": "Lagrangian"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12896705",
+  "phrases": [
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "leica microsystems",
+      "display": "Leica Microsystems",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gametogenic cycle and maturation scale distribution the",
+      "display": "Gametogenic Cycle and Maturation Scale Distribution The",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "phases characteristics microscopic elements phase",
+      "display": "Phases Characteristics Microscopic Elements Phase",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of biochemistry and molecular biology",
+      "display": "Department of Biochemistry and Molecular Biology",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "seasonal variations in gametogenic cycle gonadal",
+      "display": "Seasonal Variations in Gametogenic Cycle Gonadal",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sd",
+      "display": "SD",
+      "score": 1.38,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stw",
+      "display": "STW",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "baldaio",
+      "display": "Baldaio",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lagoon",
+      "score": 0.0468,
+      "channel": "tfidf",
+      "display": "Lagoon"
+    },
+    {
+      "phrase": "gonadal",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "Gonadal"
+    },
+    {
+      "phrase": "decussatus",
+      "score": 0.0426,
+      "channel": "tfidf",
+      "display": "decussatus"
+    },
+    {
+      "phrase": "tissue",
+      "score": 0.0417,
+      "channel": "tfidf",
+      "display": "Tissue"
+    },
+    {
+      "phrase": "clams",
+      "score": 0.0414,
+      "channel": "tfidf",
+      "display": "clams"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

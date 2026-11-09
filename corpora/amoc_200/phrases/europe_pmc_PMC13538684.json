@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13538684",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 6.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pennsylvania state university",
+      "display": "Pennsylvania State University",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university park",
+      "display": "University Park",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "state college",
+      "display": "State College",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth syst",
+      "display": "Earth Syst",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.79,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "whsst",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "WHSST"
+    },
+    {
+      "phrase": "amoc-whsst",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "AMOC-WHSST"
+    },
+    {
+      "phrase": "regime",
+      "score": 0.0334,
+      "channel": "tfidf",
+      "display": "Regime"
+    },
+    {
+      "phrase": "oht",
+      "score": 0.0317,
+      "channel": "tfidf",
+      "display": "OHT"
+    },
+    {
+      "phrase": "clear-sky",
+      "score": 0.0308,
+      "channel": "tfidf",
+      "display": "Clear-sky"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

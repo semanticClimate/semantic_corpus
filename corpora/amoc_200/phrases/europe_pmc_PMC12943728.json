@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12943728",
+  "phrases": [
+    {
+      "phrase": "microbial strain linear regression equation coefficient of determination",
+      "display": "Microbial Strain Linear Regression Equation Coefficient of Determination",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese academy of agricultural sciences",
+      "display": "Chinese Academy of Agricultural Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "allyl isothiocyanate fumigation",
+      "display": "Allyl Isothiocyanate Fumigation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "beijing obo star biotechnology",
+      "display": "Beijing Obo Star Biotechnology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dazomet fumigation",
+      "display": "Dazomet Fumigation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "total environ",
+      "display": "Total Environ",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "san diego",
+      "display": "San Diego",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aitc",
+      "display": "AITC",
+      "score": 2.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "crossref",
+      "display": "CrossRef",
+      "score": 1.27,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soil",
+      "display": "Soil",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fumigation",
+      "score": 0.051,
+      "channel": "tfidf",
+      "display": "Fumigation"
+    },
+    {
+      "phrase": "aitc fumigation",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "AITC Fumigation"
+    },
+    {
+      "phrase": "tolerant",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "Tolerant"
+    },
+    {
+      "phrase": "fumigations",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "fumigations"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "Genes"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

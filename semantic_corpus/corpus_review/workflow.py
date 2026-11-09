@@ -73,7 +73,6 @@ def run_repository_search(
     repo = RepositoryFactory.get_repository(repository)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    Path(output_dir, "documents").mkdir(parents=True, exist_ok=True)
 
     # When requesting downloadable formats (e.g. PDF), search for extra candidates
     # so we can collect up to `limit` papers that actually download the requested formats.
@@ -82,6 +81,19 @@ def run_repository_search(
         if formats and any(f in ("pdf", "xml", "html") for f in formats)
         else limit
     )
+
+    from semantic_corpus.repositories.epmc_streams import (
+        EpmcStreamBoard,
+        print_stream_board,
+    )
+
+    stream_board: Optional[EpmcStreamBoard] = None
+    if str(repository).strip().lower() == "europe_pmc":
+        from semantic_corpus.repositories import epmc_streams as streams_mod
+
+        stream_board = getattr(streams_mod, "PREFLIGHT_BOARD", None)
+        if not isinstance(stream_board, EpmcStreamBoard):
+            stream_board = EpmcStreamBoard()
 
     results = repo.search_papers(
         query=query_string,
@@ -100,8 +112,8 @@ def run_repository_search(
             continue
         label = short_display_id(paper) or short_display_id(paper_id)
         try:
+            # Halt/restart: if every requested format is already on disk, skip network.
             if paper_documents_present(output_dir, paper_id, formats):
-                # Already on disk (./documents, flat query dir, or BAGIT data/documents)
                 downloaded_count += 1
                 successful_results.append(paper)
                 skipped_labels.append(label)
@@ -110,7 +122,25 @@ def run_repository_search(
                     break
                 continue
 
-            dl = repo.download_paper(paper_id, output_dir, formats)
+            dl_kwargs: Dict[str, Any] = {}
+            if stream_board is not None:
+                dl_kwargs["streams"] = stream_board
+                dl_kwargs["paper"] = paper
+            try:
+                dl = repo.download_paper(
+                    paper_id, output_dir, formats, **dl_kwargs
+                )
+            except TypeError as te:
+                # Only fall back when the adapter rejects stream kwargs — not when
+                # Docling/internal code raises TypeError mid-download.
+                msg = str(te)
+                if dl_kwargs and (
+                    "unexpected keyword" in msg
+                    or "got an unexpected keyword argument" in msg
+                ):
+                    dl = repo.download_paper(paper_id, output_dir, formats)
+                else:
+                    raise
             if dl.get("success"):
                 downloaded_count += 1
                 successful_results.append(paper)
@@ -126,6 +156,9 @@ def run_repository_search(
         except Exception as exc:
             _notify_paper(on_paper, paper, "fail", fail_reason_label(exc))
             continue
+
+    if stream_board is not None:
+        print_stream_board(stream_board)
 
     if on_paper is None:
         if report_ids and skipped_labels:

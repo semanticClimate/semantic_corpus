@@ -7,6 +7,7 @@ from typing import Generator
 import pytest
 
 from semantic_corpus.repositories.epmc_diagnostic import EpmcDiagnostic
+from semantic_corpus.repositories.epmc_streams import EpmcStreamBoard
 
 
 @pytest.fixture(autouse=True)
@@ -14,9 +15,12 @@ def _mute_epmc_preflight(monkeypatch: pytest.MonkeyPatch, request: pytest.Fixtur
     """Avoid live Europe PMC probes in unit tests (except diagnostic tests)."""
     if "test_epmc_diagnostic" in request.node.nodeid:
         return
+    if "test_epmc_streams" in request.node.nodeid:
+        return
 
     def _ok(**_kwargs):
-        return EpmcDiagnostic(probes=[], ok=True)
+        board = EpmcStreamBoard()
+        return EpmcDiagnostic(probes=[], board=board), board
 
     monkeypatch.setattr(
         "semantic_corpus.repositories.epmc_diagnostic.epmc_preflight",

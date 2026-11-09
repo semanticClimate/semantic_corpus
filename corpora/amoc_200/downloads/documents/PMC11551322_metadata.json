@@ -1,0 +1,235 @@
+{
+  "pmcid": "PMC11551322",
+  "pmid": "39471224",
+  "title": "Open ocean convection drives enhanced eastern pathway of the Glacial Atlantic Meridional Overturning Circulation.",
+  "abstract": "Abundant proxy records suggest a profound reorganization of the Atlantic Meridional Overturning Circulation (AMOC) during the Last Glacial Maximum (LGM, ~21,000 y ago), with the North Atlantic Deep Water (NADW) shoaling significantly relative to the present-day (PD) and forming Glacial North Atlantic Intermediate Water (GNAIW). However, almost all previous observational and modeling studies have focused on the zonal mean two-dimensional AMOC feature, while recent progress in the understanding of modern AMOC reveals a more complicated three-dimensional structure, with NADW penetrating from the subpolar North Atlantic to lower latitude through different pathways. Here, combining <sup>231</sup>Pa/<sup>230</sup>Th reconstructions and model simulations, we uncover a significant change in the three-dimensional structure of the glacial AMOC. Specifically, the mid-latitude eastern pathway (EP), located east of the Mid-Atlantic Ridge and transporting about half of the PD NADW from the subpolar gyre to the subtropical gyre, experienced substantial intensification during the LGM. A greater portion of the GNAIW was transported in the eastern basin during the LGM compared to NADW at the PD, resulting in opposite <sup>231</sup>Pa/<sup>230</sup>Th changes between eastern and western basins during the LGM. Furthermore, in contrast to the wind-steering mechanism of EP at PD, the intensified LGM EP was caused primarily by the rim current forced by the basin-scale open-ocean convection over the subpolar North Atlantic. Our results underscore the importance of accounting for three-dimensional oceanographic changes to achieve more accurate reconstructions of past AMOC.",
+  "authors": [
+    {
+      "fullName": "Gu S",
+      "lastName": "Gu",
+      "firstName": "Sifan",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7605-5353"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Polar Ecosystem and Climate Change, Ministry of Education and School of Oceanography, Shanghai Jiao Tong University, Shanghai 200030, China."
+          },
+          {
+            "affiliation": "Shanghai Key Laboratory of Polar Life and Environment Sciences, Shanghai Jiao Tong University, Shanghai 200030, China."
+          },
+          {
+            "affiliation": "Shanghai Frontiers Science Center of Polar Science, Shanghai Jiao Tong University, Shanghai 200030, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Z",
+      "lastName": "Liu",
+      "firstName": "Zhengyu",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4554-2666"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmospheric Science Program, Department of Geography, The Ohio State University, Columbus 43210, OH."
+          },
+          {
+            "affiliation": "School of Geography Science, Nanjing Normal University, Nanjing 210097, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ng HC",
+      "lastName": "Ng",
+      "firstName": "Hong Chin",
+      "initials": "HC",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2707-8372"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Earth Sciences, University of Bristol, Bristol BS81RJ, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lynch-Stieglitz J",
+      "lastName": "Lynch-Stieglitz",
+      "firstName": "Jean",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9353-1972"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Earth and Atmospheric Sciences, Georgia Institute of Technology, Atlanta 30332, Georgia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "McManus JF",
+      "lastName": "McManus",
+      "firstName": "Jerry F",
+      "initials": "JF",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7365-1600"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Sciences, Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY 10964."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Spall M",
+      "lastName": "Spall",
+      "firstName": "Michael",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1966-3122"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physical Oceanography, Woods Hole Oceanographic Institution, Woods Hole, MA 02543."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jahn A",
+      "lastName": "Jahn",
+      "firstName": "Alexandra",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6580-2579"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department for Atmospheric and Oceanic Sciences and Institute of Arctic and Alpine Research, University of Colorado Boulder, Boulder, CO 80309."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "He C",
+      "lastName": "He",
+      "firstName": "Chengfei",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Physical Oceanography, Woods Hole Oceanographic Institution, Woods Hole, MA 02543."
+          },
+          {
+            "affiliation": "Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami, Miami, FL 33149."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li L",
+      "lastName": "Li",
+      "firstName": "Lingwei",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1818-6080"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmospheric Science Program, Department of Geography, The Ohio State University, Columbus 43210, OH."
+          },
+          {
+            "affiliation": "Department for Atmospheric and Oceanic Sciences and Institute of Arctic and Alpine Research, University of Colorado Boulder, Boulder, CO 80309."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yan M",
+      "lastName": "Yan",
+      "firstName": "Mi",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4730-3781"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography Science, Nanjing Normal University, Nanjing 210097, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu L",
+      "lastName": "Wu",
+      "firstName": "Lixin",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4694-5531"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physical Oceanography Laboratory, Ocean University of China, Qingdao 266100, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2024-10-29",
+  "journal": "",
+  "doi": "10.1073/pnas.2405051121",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1073/pnas.2405051121"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11551322"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11551322?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC11551322"
+}

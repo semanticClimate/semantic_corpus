@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13281819",
+  "phrases": [
+    {
+      "phrase": "university of science and technology of china",
+      "display": "University of Science and Technology of China",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "state key laboratory of particle detection and electronics",
+      "display": "State Key Laboratory of Particle Detection and Electronics",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hefei national research center for physical sciences",
+      "display": "Hefei National Research Center for Physical Sciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "school of chemistry and materials science",
+      "display": "School of Chemistry and Materials Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "creative commons attribution license",
+      "display": "Creative Commons Attribution License",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of modern physics",
+      "display": "Department of Modern Physics",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "first affiliated hospital",
+      "display": "First Affiliated Hospital",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cp",
+      "display": "CP",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tmds",
+      "display": "TMDs",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "voltage gap",
+      "score": 0.0455,
+      "channel": "tfidf",
+      "display": "Voltage gap"
+    },
+    {
+      "phrase": "li co2",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "li co2"
+    },
+    {
+      "phrase": "voltage",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Voltage"
+    },
+    {
+      "phrase": "descriptor",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "descriptor"
+    },
+    {
+      "phrase": "symmetry breaking",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "symmetry breaking"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,168 @@
+{
+  "pmcid": "PMC12112331",
+  "pmid": "40429934",
+  "title": "Fatty Acid Metabolism Regulators Have Pivotal Roles in the Pathogenesis of Ovarian Carcinoma.",
+  "abstract": "To study the pathological contribution of fatty acid (FA) metabolism regulators including fatty acid binding protein 4 (FABP4), FABP5, peroxisome proliferator-activated receptor alpha (PPARα), and PPARγ in ovarian carcinoma, non-cancerous human ovarian surface epithelium (HOSE) cells and two epithelial ovarian carcinoma (EOC) cell lines, AMOC-2 and ES2 established from ovarian serous adenocarcinoma and ovarian clear cell carcinoma, respectively, were subjected to (1) an analysis of the physical properties of spheroids, (2) qPCR analysis, (3) cellular metabolic analysis, and (4) multiomic pan-cancer analysis using the Cancer Genome Atlas (TCGA). In contrast to globe-shaped spheroids of HOSE cells, AMOC-2 and ES2 cells formed non-globe-shaped spheroids and ES2 spheroids were much more fragile than AMOC-2 spheroids. Gene expression levels of FABP4 and FABP5 in AMOC-2 cells and those of PPARγ in AMOC-2 cells were significantly higher than those in HOSE cells. Metabolic phenotypes and the effectiveness against antagonists for regulators were significantly different in the two types of cancerous cells. Those regulators were identified by a multiomic pan-cancer analysis as novel factors for the prediction of the prognosis of ovarian serous adenocarcinoma. The results show that dysregulated FA metabolism in AMOC-2 and ES2 suggests that the regulation of FA metabolism may be a critical factor in the pathogenesis of EOC.",
+  "authors": [
+    {
+      "fullName": "Watanabe M",
+      "lastName": "Watanabe",
+      "firstName": "Megumi",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8026-6532"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Ophthalmology, School of Medicine, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Matsuura M",
+      "lastName": "Matsuura",
+      "firstName": "Motoki",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6589-6480"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Obstetrics and Gynecology, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sato T",
+      "lastName": "Sato",
+      "firstName": "Tatsuya",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7876-1772"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Cardiovascular, Renal and Metabolic Medicine, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          },
+          {
+            "affiliation": "Department of Cellular Physiology and Signal Transduction, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Usami M",
+      "lastName": "Usami",
+      "firstName": "Makoto",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0004-2570-1011"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Medical Oncology, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Saito T",
+      "lastName": "Saito",
+      "firstName": "Tsuyoshi",
+      "initials": "T",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Obstetrics and Gynecology, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Furuhashi M",
+      "lastName": "Furuhashi",
+      "firstName": "Masato",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0145-3541"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Cardiovascular, Renal and Metabolic Medicine, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Takada K",
+      "lastName": "Takada",
+      "firstName": "Kohichi",
+      "initials": "K",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1393-9442"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Medical Oncology, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ohguro H",
+      "lastName": "Ohguro",
+      "firstName": "Hiroshi",
+      "initials": "H",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Ophthalmology, School of Medicine, Sapporo Medical University, S1W17, Chuo-ku, Sapporo 060-8556, Japan."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-05-16",
+  "journal": "",
+  "doi": "10.3390/ijms26104794",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3390/ijms26104794"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12112331"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12112331?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12112331"
+}

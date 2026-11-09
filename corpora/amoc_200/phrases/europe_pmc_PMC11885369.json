@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11885369",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 8.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brown and galbraith",
+      "display": "Brown and Galbraith",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vettoretti and peltier",
+      "display": "Vettoretti and Peltier",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iceland basin",
+      "display": "Iceland Basin",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic and arctic",
+      "display": "North Atlantic and Arctic",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peltier and vettoretti",
+      "display": "Peltier and Vettoretti",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 2.05,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "salinity target",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "Salinity Target"
+    },
+    {
+      "phrase": "oscillator",
+      "score": 0.0338,
+      "channel": "tfidf",
+      "display": "oscillator"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0328,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "salinity",
+      "score": 0.0325,
+      "channel": "tfidf",
+      "display": "Salinity"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

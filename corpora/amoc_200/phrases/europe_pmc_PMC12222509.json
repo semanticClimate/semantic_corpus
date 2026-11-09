@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12222509",
+  "phrases": [
+    {
+      "phrase": "yucatan straits",
+      "display": "Yucatan Straits",
+      "score": 3.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florida current",
+      "display": "Florida Current",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "caribbean sea",
+      "display": "Caribbean Sea",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gulf stream",
+      "display": "Gulf Stream",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "caribbean through",
+      "display": "Caribbean Through",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ctf",
+      "display": "CTF",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.65,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "caribbean",
+      "display": "Caribbean",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yucatan",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Yucatan"
+    },
+    {
+      "phrase": "salt freshwater",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "salt freshwater"
+    },
+    {
+      "phrase": "heat salt freshwater",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "heat salt freshwater"
+    },
+    {
+      "phrase": "nastg",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "NASTG"
+    },
+    {
+      "phrase": "straits",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "Straits"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

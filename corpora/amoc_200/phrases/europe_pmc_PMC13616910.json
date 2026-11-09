@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13616910",
+  "phrases": [
+    {
+      "phrase": "faroe ridge",
+      "display": "Faroe Ridge",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western valley",
+      "display": "Western Valley",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic mediterranean",
+      "display": "Arctic Mediterranean",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iceland basin",
+      "display": "Iceland Basin",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "faroe bank channel",
+      "display": "Faroe Bank Channel",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "norwegian basin",
+      "display": "Norwegian Basin",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "norwegian sea",
+      "display": "Norwegian Sea",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "adcp",
+      "display": "ADCP",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ifr",
+      "display": "IFR",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.29,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "overflow",
+      "score": 0.048,
+      "channel": "tfidf",
+      "display": "Overflow"
+    },
+    {
+      "phrase": "overflow velocity",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "overflow velocity"
+    },
+    {
+      "phrase": "bin-1",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "Bin-1"
+    },
+    {
+      "phrase": "ridge",
+      "score": 0.0368,
+      "channel": "tfidf",
+      "display": "Ridge"
+    },
+    {
+      "phrase": "overflow sites",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "overflow sites"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

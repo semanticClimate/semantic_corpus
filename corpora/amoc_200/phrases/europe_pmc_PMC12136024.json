@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12136024",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 10.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "subpolar north atlantic",
+      "display": "Subpolar North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pennsylvania state university",
+      "display": "Pennsylvania State University",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic oscillation",
+      "display": "North Atlantic Oscillation",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university park",
+      "display": "University Park",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sst",
+      "display": "SST",
+      "score": 2.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 2.31,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "blob",
+      "score": 0.0481,
+      "channel": "tfidf",
+      "display": "blob"
+    },
+    {
+      "phrase": "cold blob",
+      "score": 0.0453,
+      "channel": "tfidf",
+      "display": "cold blob"
+    },
+    {
+      "phrase": "blob models",
+      "score": 0.0422,
+      "channel": "tfidf",
+      "display": "blob models"
+    },
+    {
+      "phrase": "clear sky",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "clear sky"
+    },
+    {
+      "phrase": "sky",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "sky"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

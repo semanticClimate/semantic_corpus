@@ -1,0 +1,298 @@
+{
+  "pmcid": "PMC12095353",
+  "pmid": "40417377",
+  "title": "Monitoring the Multiple Stages of Climate Tipping Systems from Space: Do the GCOS Essential Climate Variables Meet the Needs?",
+  "abstract": "Many components of the Earth system feature self-reinforcing feedback processes that can potentially scale up a small initial change to a fundamental state change of the underlying system in a sometimes abrupt or irreversible manner beyond a critical threshold. Such tipping points can be found across a wide range of spatial and temporal scales and are expressed in very different observable variables. For example, early-warning signals of approaching critical transitions may manifest in localised spatial pattern formation of vegetation within years as observed for the Amazon rainforest. In contrast, the susceptibility of ice sheets to tipping dynamics can unfold at basin to sub-continental scales, over centuries to even millennia. Accordingly, to improve the understanding of the underlying processes, to capture present-day system states and to monitor early-warning signals, tipping point science relies on diverse data products. To that end, Earth observation has proven indispensable as it provides a broad range of data products with varying spatio-temporal scales and resolutions. Here we review the observable characteristics of selected potential climate tipping systems associated with the multiple stages of a tipping process: This includes i) gaining system and process understanding, ii) detecting early-warning signals for resilience loss when approaching potential tipping points and iii) monitoring progressing tipping dynamics across scales in space and time. By assessing how well the observational requirements are met by the Essential Climate Variables (ECVs) defined by the Global Climate Observing System (GCOS), we identify gaps in the portfolio and what is needed to better characterise potential candidate tipping elements. Gaps have been identified for the Amazon forest system (vegetation water content), permafrost (ground subsidence), Atlantic Meridional Overturning Circulation, AMOC (section mass, heat and fresh water transports and freshwater input from ice sheet edges) and ice sheets (e.g. surface melt). For many of the ECVs, issues in specifications have been identified. Of main concern are spatial resolution and missing variables, calling for an update of the ECVS or a separate, dedicated catalogue of tipping variables.",
+  "authors": [
+    {
+      "fullName": "Loriani S",
+      "lastName": "Loriani",
+      "firstName": "S",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6660-960X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth Resilience Science Unit and Earth System Analysis, Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Telegrafenberg 31A, 14473 Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bartsch A",
+      "lastName": "Bartsch",
+      "firstName": "A",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3737-7931"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "b.geos, Industriestrasse 1A, 2100 Korneuburg, Austria."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Calamita E",
+      "lastName": "Calamita",
+      "firstName": "E",
+      "initials": "E",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2614-2942"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Swiss Federal Institute of Aquatic Science and Technology, 8600 Dubendorf, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Donges JF",
+      "lastName": "Donges",
+      "firstName": "J F",
+      "initials": "JF",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5233-7703"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth Resilience Science Unit and Earth System Analysis, Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Telegrafenberg 31A, 14473 Potsdam, Germany."
+          },
+          {
+            "affiliation": "Stockholm Resilience Centre, Stockholm University, Albanovägen 28, 106 91 Stockholm, Sweden."
+          },
+          {
+            "affiliation": "High Meadows Environmental Institute, Princeton University, Princeton, NJ 08544 USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hebden S",
+      "lastName": "Hebden",
+      "firstName": "S",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1787-1649"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Future Earth Secretariat, 11418 Stockholm, Sweden."
+          },
+          {
+            "affiliation": "ECSAT, European Space Agency, Harwell, Didcot OX11 0FD UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hirota M",
+      "lastName": "Hirota",
+      "firstName": "M",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Group IpES, Department of Physics, Federal University of Santa Catarina, Florianópolis, 88034-102 Brazil."
+          },
+          {
+            "affiliation": "Department of Plant Biology, University of Campinas, Campinas, 13083-970 Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Landolfi A",
+      "lastName": "Landolfi",
+      "firstName": "A",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5000-7863"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Research Council of Italy, CNR-ISMAR-Roma, 00133 Rome, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nagler T",
+      "lastName": "Nagler",
+      "firstName": "T",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1298-8469"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "ENVEO Environmental Earth Observation Information Technology GmbH, Fürstenweg 176, 6020 Innsbruck, Austria."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sakschewski B",
+      "lastName": "Sakschewski",
+      "firstName": "B",
+      "initials": "B",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7230-9723"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth Resilience Science Unit and Earth System Analysis, Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Telegrafenberg 31A, 14473 Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Staal A",
+      "lastName": "Staal",
+      "firstName": "A",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5409-1436"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Copernicus Institute of Sustainable Development, Utrecht University, Princetonlaan 8a, 3584 CB Utrecht, the Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Verbesselt J",
+      "lastName": "Verbesselt",
+      "firstName": "J",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7923-4309"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Belgian Science Policy Office (BELSPO), Simon Bolivarlaan 30 Bus 7 Boulevard Simon Bolivar 30 Bte 7, 1000 Brussels, Belgium."
+          },
+          {
+            "affiliation": "Laboratory of Geo-Information Science and Remote Sensing, Wageningen University and Research, Droevendaalsesteeg 4, 6708 PB Wageningen, The Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Winkelmann R",
+      "lastName": "Winkelmann",
+      "firstName": "R",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1248-3217"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth Resilience Science Unit and Earth System Analysis, Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Telegrafenberg 31A, 14473 Potsdam, Germany."
+          },
+          {
+            "affiliation": "Institute for Physics and Astronomy, University of Potsdam, Potsdam, 14476 Germany."
+          },
+          {
+            "affiliation": "Integrative Earth System Science, Max Planck Institute of Geoanthropology, Jena, 07745 Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wood R",
+      "lastName": "Wood",
+      "firstName": "R",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3960-9513"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Met Office Hadley Centre, FitzRoy Road, Exeter, EX1 3PB UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wunderling N",
+      "lastName": "Wunderling",
+      "firstName": "N",
+      "initials": "N",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3566-323X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth Resilience Science Unit and Earth System Analysis, Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Telegrafenberg 31A, 14473 Potsdam, Germany."
+          },
+          {
+            "affiliation": "High Meadows Environmental Institute, Princeton University, Princeton, NJ 08544 USA."
+          },
+          {
+            "affiliation": "Center for Critical Computational Studies, Goethe University, Theodor-W.-Adorno-Platz 1, Frankfurt am Main, 60629 Germany."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-02-18",
+  "journal": "",
+  "doi": "10.1007/s10712-024-09866-4",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1007/s10712-024-09866-4"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12095353"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12095353?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12095353"
+}

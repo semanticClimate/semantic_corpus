@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12309139",
+  "phrases": [
+    {
+      "phrase": "institute and faculty of actuaries",
+      "display": "Institute and Faculty of Actuaries",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hugh montgomery",
+      "display": "Hugh Montgomery",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lancet countdown on health and climate change",
+      "display": "Lancet Countdown on Health and Climate Change",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "new climate scenarios limitations",
+      "display": "New Climate Scenarios Limitations",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "references european commission",
+      "display": "References European Commission",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united nations climate change",
+      "display": "United Nations Climate Change",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "co",
+      "display": "CO",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ghg",
+      "display": "GHG",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "climate",
+      "display": "Climate",
+      "score": 1.07,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "actuaries",
+      "score": 0.0507,
+      "channel": "tfidf",
+      "display": "Actuaries"
+    },
+    {
+      "phrase": "accessed",
+      "score": 0.0479,
+      "channel": "tfidf",
+      "display": "Accessed"
+    },
+    {
+      "phrase": "montgomery",
+      "score": 0.0464,
+      "channel": "tfidf",
+      "display": "Montgomery"
+    },
+    {
+      "phrase": "action",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "action"
+    },
+    {
+      "phrase": "immediate",
+      "score": 0.0437,
+      "channel": "tfidf",
+      "display": "immediate"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

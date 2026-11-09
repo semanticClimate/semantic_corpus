@@ -1,0 +1,45 @@
+{
+  "pmcid": "PMC10573315",
+  "pmid": "37842042",
+  "title": "Predicting the contribution of climate change on North Atlantic underwater sound propagation.",
+  "abstract": "Since the industrial revolution, oceans have become substantially noisier. The noise increase is mainly caused by increased shipping, resource exploration, and infrastructure development affecting marine life at multiple levels, including behavior and physiology. Together with increasing anthropogenic noise, climate change is altering the thermal structure of the oceans, which in turn might affect noise propagation. During this century, we are witnessing an increase in seawater temperature and a decrease in ocean pH. Ocean acidification will decrease sound absorption at low frequencies (<10 kHz), enhancing long-range sound propagation. At the same time, temperature changes can modify the sound speed profile, leading to the creation or disappearance of sound ducts in which sound can propagate over large distances. The worldwide effect of climate change was explored for the winter and summer seasons using the (2018 to 2022) and (2094 to 2098, projected) atmospheric and seawater temperature, salinity, pH and wind speed as input. Using numerical modelling, we here explore the impact of climate change on underwater sound propagation. The future climate variables were taken from a Community Earth System Model v2 (CESM2) simulations forced under the concentration-driven SSP2-4.5 and SSP5-8.5 scenarios. The sound modeling results show, for future climate change scenarios, a global increase of sound speed at different depths (5, 125, 300, and 640 m) except for the North Atlantic Ocean and the Norwegian Sea, where in the upper 125 m sound speed will decrease by as much as 40 m s<sup>-1</sup>. This decrease in sound speed results in a new sub-surface duct in the upper 200 m of the water column allowing ship noise to propagate over large distances (>500 km). In the case of the Northeast Atlantic Ocean, this sub-surface duct will only be present during winter, leading to similar total mean square pressure level (SPL<sub>tot</sub>) values in the summer for both (2018 to 2022) and (2094 to 2098). We observed a strong and similar correlation for the two climate change scenarios, with an increase of the top 200 m SPL<sub>tot</sub> and a slowdown of Atlantic Meridional Overturning Circulation (AMOC) leading to an increase of SPL<sub>tot</sub> at the end of the century by 7 dB.",
+  "authors": [
+    "Possenti L",
+    "Reichart GJ",
+    "de Nooijer L",
+    "Lam FP",
+    "de Jong C",
+    "Colin M",
+    "Binnerts B",
+    "Boot A",
+    "von der Heydt A"
+  ],
+  "publication_date": "2023-10-10",
+  "journal": "",
+  "doi": "10.7717/peerj.16208",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.7717/peerj.16208"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10573315"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC10573315?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

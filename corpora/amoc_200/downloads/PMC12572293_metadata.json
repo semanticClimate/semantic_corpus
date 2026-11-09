@@ -1,0 +1,169 @@
+{
+  "pmcid": "PMC12572293",
+  "pmid": "41162350",
+  "title": "Antarctic meltwater alters future projections of climate and sea level.",
+  "abstract": "Imperfect understanding of ice sheet-climate interactions poses challenges for projecting the impacts of ice sheet mass loss on future climate and sea level. Here we couple a dynamic Antarctic ice sheet model and global climate model to simulate ice sheet-climate interactions. In our single-model, single-member modeling framework, we find sea level and climate projections are significantly modified from uncoupled simulations neglecting Antarctic meltwater under RCP8.5 and RCP4.5. Antarctic meltwater yields surface air temperatures up to 1.5 °C higher in parts of the Northern Hemisphere, while broadly dampening temperature rise in the Southern Hemisphere. Due to radiative feedback changes, both emissions scenarios have global mean surface temperature warming ~0.3 °C lower in the coupled scenario than the control by 2100, with a maximum anomaly of ~1 °C at 2200 under RCP8.5. This slows Antarctica's contribution to global mean sea level rise. Total Antarctic sea level contributions under RCP8.5 (2100: ~0.3 m, 2200: >3 m) include substantial contributions from East Antarctica, though not under RCP4.5 (2100: ~0.1 m, 2200: >1 m). Regionally, projected sea level is up to 0.9 m higher in the Pacific than the global mean Antarctic contribution under RCP8.5 at 2200.",
+  "authors": [
+    {
+      "fullName": "Sadai S",
+      "lastName": "Sadai",
+      "firstName": "Shaina",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6723-6531"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Five College Associate, Amherst, MA, USA. srogstad@umass.edu."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Karmalkar AV",
+      "lastName": "Karmalkar",
+      "firstName": "Ambarish V",
+      "initials": "AV",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2940-0417"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geosciences, University of Rhode Island, Kingston, RI, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pollard D",
+      "lastName": "Pollard",
+      "firstName": "David",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2665-362X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth, Geographic, and Climate Sciences, University of Massachusetts Amherst, Amherst, MA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dong Y",
+      "lastName": "Dong",
+      "firstName": "Yue",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6404-3446"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Atmospheric and Oceanic Sciences, University of California Los Angeles, Los Angeles, CA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lucas E",
+      "lastName": "Lucas",
+      "firstName": "Erica",
+      "initials": "E",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Planetary Sciences, McGill University, Montreal, Canada."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gomez N",
+      "lastName": "Gomez",
+      "firstName": "Natalya",
+      "initials": "N",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2463-7917"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Planetary Sciences, McGill University, Montreal, Canada."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "DeConto R",
+      "lastName": "DeConto",
+      "firstName": "Robert",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2800-6466"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth, Geographic, and Climate Sciences, University of Massachusetts Amherst, Amherst, MA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Condron A",
+      "lastName": "Condron",
+      "firstName": "Alan",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7337-1713"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geology and Geophysics, Woods Hole Oceanographic Institution, Woods Hole, MA, USA. acondron@whoi.edu."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-10-29",
+  "journal": "",
+  "doi": "10.1038/s41467-025-64438-3",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-025-64438-3"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12572293"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12572293?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12572293"
+}

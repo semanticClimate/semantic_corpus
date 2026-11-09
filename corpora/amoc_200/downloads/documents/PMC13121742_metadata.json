@@ -1,0 +1,260 @@
+{
+  "pmcid": "PMC13121742",
+  "pmid": "41794878",
+  "title": "A high-resolution boundary current product from Gridded Observations of eXpendable BathyThermograph (XBT) transects.",
+  "abstract": "The Ship Of Opportunity Expendable BathyThermograph (SOOP-XBT) Network has been measuring upper ocean temperature aboard volunteer vessels over multiple decades in key locations of the global ocean. Through international collaboration, these data are systematically collected, quality-controlled and made available to the scientific and operational communities. The network's strengths: its low cost, high spatial resolution, and long-term repeatability, have made it a key asset for advancing ocean state estimation and climate studies. Here, we introduce a synthesis of formatted XBT data from selected transects across the global ocean, and provide a high-quality gridded product of temperature and derived salinity and absolute geostrophic velocity across five major boundary currents: the Gulf Stream, Kuroshio, East Australian Current, Brazil Current and the Antarctic Circumpolar Current. The Gridded Observations of XBT transects (GOXBT) product offers a unique temporal coverage and spatial resolution, providing a critical resource for ocean model and reanalysis validation, and supporting future studies on the variability and dynamics of major ocean currents.",
+  "authors": [
+    {
+      "fullName": "Goes M",
+      "lastName": "Goes",
+      "firstName": "Marlos",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Cooperative Institute for Marine and Atmospheric Studies, University of Miami, Miami, USA. marlos.goes@noaa.gov."
+          },
+          {
+            "affiliation": "NOAA Atlantic Oceanographic and Meteorological Laboratory, Miami, USA. marlos.goes@noaa.gov."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dong S",
+      "lastName": "Dong",
+      "firstName": "Shenfu",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8247-8072"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA Atlantic Oceanographic and Meteorological Laboratory, Miami, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cowley R",
+      "lastName": "Cowley",
+      "firstName": "Rebecca",
+      "initials": "R",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "CSIRO Environment, Hobart, Tasmania, Australia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cotroneo Y",
+      "lastName": "Cotroneo",
+      "firstName": "Yuri",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Naples Parthenope, Napoli, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sprintall J",
+      "lastName": "Sprintall",
+      "firstName": "Janet",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Scripps Institution of Oceanography, U.C, San Diego, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cirano M",
+      "lastName": "Cirano",
+      "firstName": "Mauro",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Universidade Federal do Rio de Janeiro, Instituto de Geociências, Rio de Janeiro, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ferola AI",
+      "lastName": "Ferola",
+      "firstName": "Antonino Ian",
+      "initials": "AI",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "European Space Agency, Frascati, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ferreira T",
+      "lastName": "Ferreira",
+      "firstName": "Tayanne",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2980-7866"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Universidade Federal do Rio de Janeiro, Instituto de Geociências, Rio de Janeiro, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Barros W",
+      "lastName": "Barros",
+      "firstName": "Werner",
+      "initials": "W",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Universidade Federal do Rio de Janeiro, Instituto de Geociências, Rio de Janeiro, Brazil."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tan Z",
+      "lastName": "Tan",
+      "firstName": "Zhetao",
+      "initials": "Z",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratoire de Météorologie Dynamique, Institut Pierre Simon Laplace, Ecole Normale Supérieure - Université PSL, Paris, 75005, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Aulicino G",
+      "lastName": "Aulicino",
+      "firstName": "Giuseppe",
+      "initials": "G",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Naples Parthenope, Napoli, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ridgway K",
+      "lastName": "Ridgway",
+      "firstName": "Ken",
+      "initials": "K",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "CSIRO Environment, Hobart, Tasmania, Australia."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Parks J",
+      "lastName": "Parks",
+      "firstName": "Justine",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Scripps Institution of Oceanography, U.C, San Diego, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Brzenski J",
+      "lastName": "Brzenski",
+      "firstName": "Jared",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3178-5352"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Scripps Institution of Oceanography, U.C, San Diego, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Forget G",
+      "lastName": "Forget",
+      "firstName": "Gael",
+      "initials": "G",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Massachusetts Institute of Technology, Cambridge, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Fratianni C",
+      "lastName": "Fratianni",
+      "firstName": "Claudia",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia, Sezione di Bologna, Italy."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-03-07",
+  "journal": "",
+  "doi": "10.1038/s41597-026-06883-3",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41597-026-06883-3"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13121742"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13121742?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13121742"
+}

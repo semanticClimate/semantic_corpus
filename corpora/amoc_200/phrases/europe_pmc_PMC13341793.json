@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13341793",
+  "phrases": [
+    {
+      "phrase": "pacific ocean",
+      "display": "Pacific Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic and pacific",
+      "display": "Atlantic and Pacific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world ocean atlas",
+      "display": "World Ocean Atlas",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eastern pacific",
+      "display": "Eastern Pacific",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "middle miocene",
+      "display": "Middle Miocene",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "michigan state university",
+      "display": "Michigan State University",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odz",
+      "display": "ODZ",
+      "score": 2.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odp",
+      "display": "ODP",
+      "score": 1.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mco",
+      "display": "MCO",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iodate",
+      "score": 0.0436,
+      "channel": "tfidf",
+      "display": "Iodate"
+    },
+    {
+      "phrase": "odzs",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "ODZs"
+    },
+    {
+      "phrase": "iodine",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Iodine"
+    },
+    {
+      "phrase": "iodide",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "Iodide"
+    },
+    {
+      "phrase": "low oxygen",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "low oxygen"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13388704",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kurile lake",
+      "display": "Kurile Lake",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "common era",
+      "display": "Common Era",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of earth sciences",
+      "display": "Department of Earth Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "alfred wegener institute",
+      "display": "Alfred Wegener Institute",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laurentide ice sheet",
+      "display": "Laurentide Ice Sheet",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cariaco basin",
+      "display": "Cariaco Basin",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "holocene",
+      "display": "Holocene",
+      "score": 1.39,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ce",
+      "display": "CE",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "saod",
+      "display": "SAOD",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eruption",
+      "score": 0.0438,
+      "channel": "tfidf",
+      "display": "eruption"
+    },
+    {
+      "phrase": "eruptions",
+      "score": 0.0421,
+      "channel": "tfidf",
+      "display": "Eruptions"
+    },
+    {
+      "phrase": "sulphur",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "sulphur"
+    },
+    {
+      "phrase": "glacial advance",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "glacial advance"
+    },
+    {
+      "phrase": "glacial advances",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "glacial advances"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

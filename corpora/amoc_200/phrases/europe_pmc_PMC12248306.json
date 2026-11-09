@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12248306",
+  "phrases": [
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 5.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 4.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fram strait",
+      "display": "Fram Strait",
+      "score": 3.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "barents sea",
+      "display": "Barents Sea",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas and arctic ocean",
+      "display": "Nordic Seas and Arctic Ocean",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic",
+      "display": "Arctic",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic",
+      "display": "Nordic",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "seas",
+      "display": "Seas",
+      "score": 1.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic overturning",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "Arctic overturning"
+    },
+    {
+      "phrase": "glorys12",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "GLORYS12"
+    },
+    {
+      "phrase": "arctic overturning circulation",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Arctic overturning circulation"
+    },
+    {
+      "phrase": "gsr",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "GSR"
+    },
+    {
+      "phrase": "sfc",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "sfc"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

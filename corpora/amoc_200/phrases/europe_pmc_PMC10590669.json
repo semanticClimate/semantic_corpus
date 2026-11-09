@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590669",
+  "phrases": [
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 4.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotland ridge",
+      "display": "Scotland Ridge",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "irminger sea",
+      "display": "Irminger Sea",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "davis strait",
+      "display": "Davis Strait",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nadw",
+      "display": "NADW",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "osnap",
+      "display": "OSNAP",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sea",
+      "display": "Sea",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mass transformation",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "mass transformation"
+    },
+    {
+      "phrase": "water mass transformation",
+      "score": 0.0424,
+      "channel": "tfidf",
+      "display": "Water mass transformation"
+    },
+    {
+      "phrase": "surface water mass",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "Surface water mass"
+    },
+    {
+      "phrase": "water mass",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Water mass"
+    },
+    {
+      "phrase": "transformation",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "transformation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,459 @@
+{
+  "pmcid": "PMC13578706",
+  "pmid": "42744808",
+  "title": "Pervasive tropical-forced millennial monsoon variability over the past 3.5 million years.",
+  "abstract": "Earth's climate has experienced abrupt millennial-scale climate variability (MCV) at least since the early Pleistocene, yet their evolution and drivers remain elusive. A 3.5-million-year decadal-to-centennial-resolved lake sediment sequence from the monsoonal Tibetan Plateau reveals a stepped evolution of MCV that differs in detail from that of North Atlantic records. Lithological and pollen changes show precursor millennial events during the interval ~ 3.5-2.7 million years ago (Ma), with the onset of multiple events at ~ 2.8 Ma. From ~ 2.7 Ma, MCV became a permanent feature of glacial periods, intensifying after ~ 1.5 Ma and extending over both glacial and interglacial periods. The embedded astronomical frequencies of MCV and their persistent linkage with precession indicate a tropical insolation origin, driven by changes in the latitudinal temperature gradient and propagated to the Tibetan Plateau via monsoonal circulation. These findings highlight that both tropical forcing and high-latitude ice-dynamic mechanisms should be considered as \"dual engines\" of MCV.",
+  "authors": [
+    {
+      "fullName": "Zhao Y",
+      "lastName": "Zhao",
+      "firstName": "Yan",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1693-9795"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China. zhaoyan@igsnrr.ac.cn."
+          },
+          {
+            "affiliation": "University of Chinese Academy of Sciences, Beijing, China. zhaoyan@igsnrr.ac.cn."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Qin F",
+      "lastName": "Qin",
+      "firstName": "Feng",
+      "initials": "F",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li Q",
+      "lastName": "Li",
+      "firstName": "Quan",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8621-6467"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cui Q",
+      "lastName": "Cui",
+      "firstName": "Qiaoyu",
+      "initials": "Q",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tzedakis PC",
+      "lastName": "Tzedakis",
+      "firstName": "Polychronis C",
+      "initials": "PC",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6072-1166"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Environmental Change Research Centre, Department of Geography, University College London, London, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liang C",
+      "lastName": "Liang",
+      "firstName": "Chen",
+      "initials": "C",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "School of Land Science and Space Planning, Hebei GEO University, Shijiazhuang, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Deng C",
+      "lastName": "Deng",
+      "firstName": "Chenglong",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1848-3170"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Cenozoic Geology and Environment, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cui Y",
+      "lastName": "Cui",
+      "firstName": "Yifan",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhao W",
+      "lastName": "Zhao",
+      "firstName": "Wenwei",
+      "initials": "W",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geographical Science, Nantong University, Nantong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ren W",
+      "lastName": "Ren",
+      "firstName": "Weihe",
+      "initials": "W",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Geography and Tourism, Hengyang Normal University, Hengyang, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ge J",
+      "lastName": "Ge",
+      "firstName": "Junyi",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4569-2915"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Vertebrate Evolution and Human Origins, Institute of Vertebrate Paleontology and Paleoanthropology, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yin Q",
+      "lastName": "Yin",
+      "firstName": "Qiuzhen",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7189-8335"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth and Climate Research Center, Earth and Life Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu Z",
+      "lastName": "Wu",
+      "firstName": "Zhipeng",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4542-9949"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth and Climate Research Center, Earth and Life Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liang M",
+      "lastName": "Liang",
+      "firstName": "Mingqiang",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth and Climate Research Center, Earth and Life Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Y",
+      "lastName": "Liu",
+      "firstName": "Yaoliang",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "Heibei Normal University of Science & Technology, Qinhuangdao, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang Z",
+      "lastName": "Zhang",
+      "firstName": "Zhiyong",
+      "initials": "Z",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "Jiangxi Provincial Key Laboratory of Wetland Plant Resources Conservation and Utilization, Lushan Botanical Garden, Jiangxi Province and Chinese Academy of Sciences, Jiujiang, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cai M",
+      "lastName": "Cai",
+      "firstName": "Maotang",
+      "initials": "M",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "Institute of Geomechanics, Chinese Academy of Geological Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wei H",
+      "lastName": "Wei",
+      "firstName": "Haicheng",
+      "initials": "H",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Qinghai Institute of Salt Lakes, Chinese Academy of Sciences, Xining, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kong Y",
+      "lastName": "Kong",
+      "firstName": "Yanfen",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li H",
+      "lastName": "Li",
+      "firstName": "Huan",
+      "initials": "H",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geographical Science, Nantong University, Nantong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Qiu H",
+      "lastName": "Qiu",
+      "firstName": "Hongyi",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0004-7560-2548"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Xu H",
+      "lastName": "Xu",
+      "firstName": "Haitao",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0007-6267-6654"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang H",
+      "lastName": "Yang",
+      "firstName": "Hanfei",
+      "initials": "H",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "School of Geography and Remote Sensing, Guangzhou University, Guangzhou, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Han H",
+      "lastName": "Han",
+      "firstName": "Haoshuang",
+      "initials": "H",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hodell DA",
+      "lastName": "Hodell",
+      "firstName": "David A",
+      "initials": "DA",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8537-1588"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Godwin Laboratory for Palaeoclimate Research, Department of Earth Sciences, University of Cambridge, Cambridge, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Birks HJB",
+      "lastName": "Birks",
+      "firstName": "H John B",
+      "initials": "HJB",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Environmental Change Research Centre, Department of Geography, University College London, London, UK."
+          },
+          {
+            "affiliation": "Department of Biological Sciences and Bjerknes Centre for Climate Research, University of Bergen, Bergen, Norway."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Guo Z",
+      "lastName": "Guo",
+      "firstName": "Zhengtang",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2259-9715"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Cenozoic Geology and Environment, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-08-15",
+  "journal": "",
+  "doi": "10.1038/s41467-026-76706-x",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-026-76706-x"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13578706"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13578706?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13578706"
+}

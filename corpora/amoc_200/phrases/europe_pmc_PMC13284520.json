@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13284520",
+  "phrases": [
+    {
+      "phrase": "amgs",
+      "display": "AMGs",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "avgs",
+      "display": "AVGs",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "viral",
+      "score": 0.1588,
+      "channel": "tfidf",
+      "display": "viral"
+    },
+    {
+      "phrase": "genes",
+      "score": 0.1446,
+      "channel": "tfidf",
+      "display": "genes"
+    },
+    {
+      "phrase": "auxiliary",
+      "score": 0.1209,
+      "channel": "tfidf",
+      "display": "auxiliary"
+    },
+    {
+      "phrase": "support claims",
+      "score": 0.1093,
+      "channel": "tfidf",
+      "display": "support claims"
+    },
+    {
+      "phrase": "viral genes",
+      "score": 0.1028,
+      "channel": "tfidf",
+      "display": "viral genes"
+    },
+    {
+      "phrase": "expanded",
+      "score": 0.083,
+      "channel": "tfidf",
+      "display": "expanded"
+    },
+    {
+      "phrase": "claims",
+      "score": 0.0827,
+      "channel": "tfidf",
+      "display": "claims"
+    },
+    {
+      "phrase": "support",
+      "score": 0.0712,
+      "channel": "tfidf",
+      "display": "support"
+    },
+    {
+      "phrase": "genomes highly",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "genomes highly"
+    },
+    {
+      "phrase": "genomes highly compact",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "genomes highly compact"
+    },
+    {
+      "phrase": "functions term",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "functions term"
+    },
+    {
+      "phrase": "maintaining manipulating",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "maintaining manipulating"
+    },
+    {
+      "phrase": "maintaining manipulating host",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "maintaining manipulating host"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "json-abstract",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

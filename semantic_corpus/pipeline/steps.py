@@ -22,6 +22,7 @@ from typing import Dict, List, Sequence, Set
 FROM_MODES = ("collect", "existing")
 
 STEP_NAMES: List[str] = [
+    "search",
     "collect",
     "corpus",
     "phrases",
@@ -32,9 +33,12 @@ STEP_NAMES: List[str] = [
 ]
 
 STEP_DOCS: Dict[str, str] = {
+    "search": (
+        "EPMC/other search only → query.json + search_results.json under --workdir"
+    ),
     "collect": (
-        "Collect documents into BAGIT at --workdir "
-        "(--query: EPMC/other remotes; --source: static documents)"
+        "Fetch per-paper flat files under --workdir "
+        "({id}.json/.xml/.pdf/.pdf.xml); --query remotes or resume existing hits"
     ),
     "corpus": (
         "Ensure corpus under --workdir and structural packet indexes "
@@ -57,10 +61,11 @@ STEP_DOCS: Dict[str, str] = {
 }
 
 # Steps that create the corpus artifact as part of their work.
-MATERIAL_STEPS = frozenset({"collect"})
+MATERIAL_STEPS = frozenset({"search", "collect"})
 
 _BASE_DEPS: Dict[str, List[str]] = {
-    "collect": [],
+    "search": [],
+    "collect": ["search"],
     "corpus": [],  # filled by from_mode in deps_for
     "phrases": ["corpus"],
     "pdfs": ["corpus"],
@@ -95,6 +100,15 @@ def deps_for(step: str, from_mode: str = "collect") -> List[str]:
         raise ValueError(
             f"Unknown start mode {from_mode!r}; choose one of {FROM_MODES}"
         )
+    if step == "search":
+        if from_mode == "collect":
+            return []
+        # existing corpus: search is not required
+        return []
+    if step == "collect":
+        if from_mode == "collect":
+            return ["search"]
+        return []
     if step == "corpus":
         if from_mode == "collect":
             return ["collect"]
@@ -133,7 +147,8 @@ def required_steps(targets: Sequence[str], from_mode: str = "collect") -> List[s
 def graph_text(from_mode: str = "collect") -> str:
     lines = [
         f"# pipeline graph (start={from_mode})",
-        "# design: collect → corpus(+indexes) → terms → clusters[--kg] → clean → encyclopedia[--kg]",
+        "# design: search → collect(paper:*) → corpus(+indexes) → terms → "
+        "clusters[--kg] → clean → encyclopedia[--kg]",
         "",
     ]
     for name in STEP_NAMES:
@@ -142,9 +157,14 @@ def graph_text(from_mode: str = "collect") -> str:
             lines.append(f"{' + '.join(deps)}  →  {name}")
         elif name == "corpus":
             lines.append("(existing --workdir)  →  corpus")
+        elif name == "search" and from_mode != "collect":
+            continue
+        elif name == "collect" and from_mode != "collect":
+            continue
         else:
             lines.append(f"{name}")
     lines.append("")
+    lines.append("# flat workdir: {id}.json|.xml|.pdf|.pdf.xml (no downloads/ nesting)")
     lines.append("# collect options: --query (EPMC/remotes) | --source (static docs)")
     lines.append("# two KGs (flags, not steps): clusters --kg (plain); encyclopedia --kg (annotated)")
     lines.append("# clean curates after clusters; encyclopedia annotates retained terms")

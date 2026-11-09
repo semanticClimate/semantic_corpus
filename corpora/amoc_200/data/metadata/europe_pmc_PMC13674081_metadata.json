@@ -1,0 +1,45 @@
+{
+  "pmcid": "PMC13674081",
+  "pmid": "42915994",
+  "title": "Common Nitrification Inhibitors Exhibit Distinct Mechanisms on the Ammonia-Oxidizing Archaeon Nitrososphaera viennensis.",
+  "abstract": "Microbial ammonia oxidation, the first and rate-limiting step of nitrification, plays a central role in soil nitrogen cycling. It is most relevant in agricultural soils as nitrifiers compete with crops for ammonia-based fertilizers. Therefore, synthetic nitrification inhibitors are widely used alongside fertilizers to reduce the activities of dominant drivers of this process, i.e., ammonia-oxidizing archaea (AOA) and bacteria (AOB). However, the physiological responses of ammonia oxidizers remain poorly resolved. Here, the response of the AOA Nitrososphaera viennensis to the nitrification inhibitors 3,4-dimethylpyrazole phosphate (DMPP) and allylthiourea (ATU) was investigated using a combination of functional genomics, physiological assays, and relief experiments. The results overturn earlier assumptions that DMPP and ATU act by chelating free copper. Both compounds affected ammonia oxidation and triggered broader shifts in energy metabolism and stress-response pathways, which diverged markedly between the two inhibitors. We propose a competitive inhibition of the ammonia monooxygenase complex with DMPP as it can be alleviated by additional ammonia and elicits activation of urea acquisition, while ATU acted as a noncompetitive inhibitor generally inducing quiescence. Both modes of inhibition were associated with clear transcriptomic and proteomic signals that will be advantageous for the identification of mechanisms of other nitrification inhibitors in the future.",
+  "authors": [
+    "Dalkidis D",
+    "Malits A",
+    "Kerou M",
+    "Sajedi H",
+    "Afjehi-Sadat L",
+    "Schleper C",
+    "Karpouzas DG",
+    "Papadopoulou ES",
+    "Hodgskiss LH"
+  ],
+  "publication_date": "2026-10-01",
+  "journal": "",
+  "doi": "10.1021/acs.est.6c08773",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1021/acs.est.6c08773"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13674081"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13674081?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

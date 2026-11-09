@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13490444",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic circumpolar current",
+      "display": "Antarctic Circumpolar Current",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic deep water",
+      "display": "North Atlantic Deep Water",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world ocean atlas",
+      "display": "World Ocean Atlas",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "frontiers science center for deep ocean multispheres and earth system",
+      "display": "Frontiers Science Center for Deep Ocean Multispheres and Earth System",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "community earth system model",
+      "display": "Community Earth System Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gmoc",
+      "display": "GMOC",
+      "score": 2.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cda",
+      "display": "CDA",
+      "score": 2.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nadw",
+      "display": "NADW",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acc-rc",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "ACC-RC"
+    },
+    {
+      "phrase": "cesm-cda",
+      "score": 0.0321,
+      "channel": "tfidf",
+      "display": "CESM-CDA"
+    },
+    {
+      "phrase": "multiscale",
+      "score": 0.0312,
+      "channel": "tfidf",
+      "display": "Multiscale"
+    },
+    {
+      "phrase": "volcanic",
+      "score": 0.0308,
+      "channel": "tfidf",
+      "display": "volcanic"
+    },
+    {
+      "phrase": "energy dissipation",
+      "score": 0.0302,
+      "channel": "tfidf",
+      "display": "energy dissipation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

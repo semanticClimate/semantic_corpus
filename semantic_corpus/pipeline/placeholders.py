@@ -23,23 +23,14 @@ def stamp_path(step: str, workdir: Optional[Path] = None) -> Path:
 
 
 def doit_db_path(workdir: Optional[Path] = None) -> Path:
-    """Per-corpus doit dependency DB path (outside the BAGIT root).
+    """Per-corpus doit DB at ``{workdir}/pipeline/doit.db``.
 
-    ``bagit.make_bag`` moves *all* top-level files under the corpus into
-    ``data/``. Keeping ``.doit.db`` inside ``workdir`` therefore breaks Windows
-    (and other) runs that create a fresh bag mid-pipeline: the DB files vanish
-    before doit can dump them on exit.
+    Flat corpora keep document bytes at the workdir root and do not run
+    ``bagit.make_bag`` over them, so the DB can live beside step stamps.
     """
-    import hashlib
-
-    from semantic_corpus.pipeline.config import get_workdir
-    from semantic_corpus.utils import get_project_temp_dir
-
-    root = (workdir if workdir is not None else get_workdir()).resolve()
-    digest = hashlib.sha1(str(root).encode("utf-8")).hexdigest()[:16]
-    db_dir = get_project_temp_dir() / "pipeline_doit" / f"{root.name}_{digest}"
-    db_dir.mkdir(parents=True, exist_ok=True)
-    return db_dir / "doit.db"
+    path = pipeline_dir(workdir) / "doit.db"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return path
 
 
 def write_stamp(

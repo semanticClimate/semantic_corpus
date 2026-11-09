@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12181172",
+  "phrases": [
+    {
+      "phrase": "climate",
+      "score": 0.0917,
+      "channel": "tfidf",
+      "display": "climate"
+    },
+    {
+      "phrase": "climate change",
+      "score": 0.0671,
+      "channel": "tfidf",
+      "display": "climate change"
+    },
+    {
+      "phrase": "change",
+      "score": 0.0645,
+      "channel": "tfidf",
+      "display": "change"
+    },
+    {
+      "phrase": "advances climate-change",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "advances climate-change"
+    },
+    {
+      "phrase": "advances climate-change research",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "advances climate-change research"
+    },
+    {
+      "phrase": "session conference parties",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "session conference parties"
+    },
+    {
+      "phrase": "synthesis communications",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "synthesis communications"
+    },
+    {
+      "phrase": "synthesis communications effort",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "synthesis communications effort"
+    },
+    {
+      "phrase": "strategies strengthened",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "strategies strengthened"
+    },
+    {
+      "phrase": "strategies strengthened governance",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "strategies strengthened governance"
+    },
+    {
+      "phrase": "ahead session conference",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "ahead session conference"
+    },
+    {
+      "phrase": "countries prioritized",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "countries prioritized"
+    },
+    {
+      "phrase": "countries prioritized key",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "countries prioritized key"
+    },
+    {
+      "phrase": "action robust",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "action robust"
+    },
+    {
+      "phrase": "action robust science",
+      "score": 0.063,
+      "channel": "tfidf",
+      "display": "action robust science"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "json-abstract",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

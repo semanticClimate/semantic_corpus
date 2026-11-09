@@ -70,6 +70,8 @@ def _fake_search_download(
     formats,
     start_date: str = None,
     end_date: str = None,
+    on_paper=None,
+    **_kwargs,
 ):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -102,15 +104,16 @@ def _fake_search_download(
             """,
             encoding="utf-8",
         )
-        results.append(
-            {
-                "pmcid": pmcid,
-                "title": f"Marine heatwaves and coral reefs study {i}",
-                "abstract": abstract,
-                "authors": [{"fullName": "Tester"}],
-                "publication_date": "2024-06-01",
-            }
-        )
+        paper = {
+            "pmcid": pmcid,
+            "title": f"Marine heatwaves and coral reefs study {i}",
+            "abstract": abstract,
+            "authors": [{"fullName": "Tester"}],
+            "publication_date": "2024-06-01",
+        }
+        results.append(paper)
+        if on_paper is not None:
+            on_paper(paper, "ok")
     return results, len(results)
 
 
@@ -355,6 +358,88 @@ class TestHelpers:
         assert "Abstract India" not in built["text"]
         assert "Front Title" not in built["text"]
         assert built["text_source"] == "xml-body"
+        assert built["cascade_source"] == "xml"
+
+    def test_cascade_prefers_xml_over_abstract(self, temp_dir: Path) -> None:
+        from semantic_corpus.cluster_review.step2 import build_phrase_input_text
+
+        bag = Path(temp_dir, "bag")
+        xml_dir = Path(bag, "data", "documents", "xml")
+        xml_dir.mkdir(parents=True)
+        Path(xml_dir, "PMC1.xml").write_text(
+            """<?xml version="1.0"?>
+            <article><body><sec><p>XML body cascade wins.</p></sec></body></article>
+            """,
+            encoding="utf-8",
+        )
+        built = build_phrase_input_text(
+            {"title": "T", "abstract": "Abstract must not win."},
+            bag_root=bag,
+            paper_id="PMC1",
+        )
+        assert "XML body cascade wins" in built["text"]
+        assert "Abstract must not" not in built["text"]
+        assert built["cascade_source"] == "xml"
+
+    def test_cascade_falls_back_to_pdf_html(self, temp_dir: Path) -> None:
+        from semantic_corpus.cluster_review.step2 import build_phrase_input_text
+
+        bag = Path(temp_dir, "bag")
+        pdf_dir = Path(bag, "data", "documents", "pdf")
+        html_dir = Path(bag, "data", "documents", "html")
+        pdf_dir.mkdir(parents=True)
+        html_dir.mkdir(parents=True)
+        Path(pdf_dir, "PMC2.pdf").write_bytes(b"%PDF-1.4\n" + (b"0" * 80))
+        Path(html_dir, "PMC2.html").write_text(
+            "<html><body><p>Docling HTML from PDF.</p></body></html>",
+            encoding="utf-8",
+        )
+        built = build_phrase_input_text(
+            {"abstract": "Abstract fallback."},
+            bag_root=bag,
+            paper_id="PMC2",
+            use_docling=False,
+        )
+        assert "Docling HTML from PDF" in built["text"]
+        assert built["cascade_source"] == "pdf"
+        assert "pdf-docling" in built["text_source"]
+
+    def test_cascade_falls_back_to_json_abstract(self, temp_dir: Path) -> None:
+        from semantic_corpus.cluster_review.step2 import build_phrase_input_text
+
+        bag = Path(temp_dir, "bag")
+        Path(bag, "data", "documents").mkdir(parents=True)
+        built = build_phrase_input_text(
+            {"abstract": "Only the JSON abstract is available."},
+            bag_root=bag,
+            paper_id="PMC3",
+        )
+        assert built["text"] == "Only the JSON abstract is available."
+        assert built["cascade_source"] == "json_abstract"
+
+    def test_xml_section_selector(self, temp_dir: Path) -> None:
+        from semantic_corpus.cluster_review.step2 import build_phrase_input_text
+
+        bag = Path(temp_dir, "bag")
+        xml_dir = Path(bag, "data", "documents", "xml")
+        xml_dir.mkdir(parents=True)
+        Path(xml_dir, "PMC4.xml").write_text(
+            """<?xml version="1.0"?>
+            <article><body>
+              <sec><title>Methods</title><p>Keep methods text.</p></sec>
+              <sec><title>Results</title><p>Drop results text.</p></sec>
+            </body></article>
+            """,
+            encoding="utf-8",
+        )
+        built = build_phrase_input_text(
+            {},
+            bag_root=bag,
+            paper_id="PMC4",
+            xml_sections=["Methods"],
+        )
+        assert "Keep methods text" in built["text"]
+        assert "Drop results text" not in built["text"]
 
 
 class TestExtractYakePhrases:
@@ -497,6 +582,8 @@ class TestExtractTfidfPhrases:
             formats,
             start_date: str = None,
             end_date: str = None,
+            on_paper=None,
+            **_kwargs,
         ):
             output_dir = Path(output_dir)
             output_dir.mkdir(parents=True, exist_ok=True)
@@ -534,15 +621,16 @@ class TestExtractTfidfPhrases:
                     """,
                     encoding="utf-8",
                 )
-                results.append(
-                    {
-                        "pmcid": pmcid,
-                        "title": title,
-                        "abstract": abstract,
-                        "authors": [{"fullName": "Tester"}],
-                        "publication_date": "2024-01-01",
-                    }
-                )
+                paper = {
+                    "pmcid": pmcid,
+                    "title": title,
+                    "abstract": abstract,
+                    "authors": [{"fullName": "Tester"}],
+                    "publication_date": "2024-01-01",
+                }
+                results.append(paper)
+                if on_paper is not None:
+                    on_paper(paper, "ok")
             return results, len(results)
 
         monkeypatch.setattr(

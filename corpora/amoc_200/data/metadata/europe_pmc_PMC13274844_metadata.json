@@ -1,0 +1,41 @@
+{
+  "pmcid": "PMC13274844",
+  "pmid": "42308206",
+  "title": "Rising tides: Unveiling the spatial and temporal evolution of sea level rise under climate change.",
+  "abstract": "This study systematically investigates the spatiotemporal evolution of sea level rise under climate change, employing a tri-scale quantitative framework (global, China's coastal waters, and Shanghai municipality) to elucidate its underlying drivers and regional disparities. By synthesizing IPCC AR6 datasets and NASA sea level projection models, we integrate the Theil-Sen Median Method with Mann-Kendall Test to analyze trajectory patterns from 2030 to 2100. Spatial clustering effects are further identified through hotspot analysis (Getis-Ord Gi*) implemented in ArcGIS Pro. The findings reveal a statistically significant upward trend in global sea levels, primarily attributed to thermal expansion and cryospheric melt (glaciers and polar ice sheets), with localized subsidence observed in certain high-latitude regions. China's coastal waters exhibit accelerated sea level rise, particularly in the South China Sea and East China Sea, where rates surpass the global mean-a phenomenon driven by coupled effects of monsoon circulation, Kuroshio Current dynamics, and freshwater discharge from major rivers (e.g., Yangtze and Yellow Rivers). At the urban scale, Shanghai's coastal zone demonstrates exacerbated relative sea level rise due to superimposed land subsidence and localized hydrodynamic processes, manifesting distinct spatiotemporal clustering patterns. By integrating global-scale thermodynamic baselines, regional oceanic drivers, and local land subsidence patterns, this study provides a quantitative foundation for place-based adaptation strategies in delta cities. The findings enable evidence-based risk assessment and inform anticipatory governance measures-such as targeted infrastructure reinforcement and land-use planning adjustments-to address the compound sea level risks identified at each scale.",
+  "authors": [
+    "Liang B",
+    "Shi G",
+    "Zhu Y",
+    "Wu Y",
+    "Wang M"
+  ],
+  "publication_date": "2026-06-17",
+  "journal": "",
+  "doi": "10.1371/journal.pone.0347855",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0347855"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13274844"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13274844?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

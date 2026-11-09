@@ -1,0 +1,50 @@
+{
+  "pmcid": "PMC13021576",
+  "pmid": "41909251",
+  "title": "Optimizing flue-cured tobacco planting patterns: enhanced rhizosphere nutrient availability and microbial community dynamics.",
+  "abstract": "<h4>Introduction</h4>Continuous monoculture of flue-cured tobacco causes soil degradation and microbial dysbiosis. While crop rotation can alleviate these obstacles, how different cropping patterns regulate soil carbon (C) and nitrogen (N) metabolic functions remains unclear.<h4>Methods</h4>A four-year field experiment compared tobacco monoculture (CK), tobacco-maize rotation (TM), tobacco-rice rotation (TR), and tobacco-sweet potato intercropping (TP). Soil physicochemical properties, enzyme activities, metagenomic sequencing, and microbial network analysis were integrated.<h4>Results</h4>TR significantly improved soil health: pH (+6.6%), organic matter (+22.1%), and urease activity (+12.5%). It enriched beneficial microbes (<i>Pseudomonadota</i> +16.4%, <i>Mucoromycota</i> +327%) and upregulated C-cycle (<i>korA</i> +42.3%) and N-assimilation genes (<i>amoC</i> +460%), while suppressing denitrification (<i>nirK</i>). TM increased available P/K but enriched oligotrophic taxa and reduced sucrase activity. TP triggered pathogenic fungi (<i>Olpidium</i> +160%), depleted beneficial microbes, and broadly suppressed C/N metabolic genes (<i>cbbL</i> -94.5%, <i>nirS</i> -21.8%).<h4>Discussion</h4>Cropping patterns differentially reshape microbial communities and metabolic functions, determining their efficacy against continuous cropping obstacles. TR establishes efficient C/N cycling with \"high assimilation, low denitrification,\" whereas TP induces pathogenic proliferation and metabolic suppression. This provides a functional framework for designing cropping systems to enhance soil health and tobacco productivity.",
+  "authors": [
+    "Sun F",
+    "Yuan M",
+    "Liao C",
+    "Sun Y",
+    "Yu L",
+    "Zhuo Y",
+    "Peng Y",
+    "Tang X",
+    "Zeng Q",
+    "Song J",
+    "Tao X",
+    "Li Q",
+    "Chen M",
+    "Zhang Y"
+  ],
+  "publication_date": "2026-03-13",
+  "journal": "",
+  "doi": "10.3389/fmicb.2026.1735540",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3389/fmicb.2026.1735540"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13021576"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13021576?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

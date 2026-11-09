@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12749622",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of atmospheric sciences",
+      "display": "Department of Atmospheric Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic and arctic",
+      "display": "North Atlantic and Arctic",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 4.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exp",
+      "display": "EXP",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ov",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "ov"
+    },
+    {
+      "phrase": "tipping",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "Tipping"
+    },
+    {
+      "phrase": "stochastic noise",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "stochastic noise"
+    },
+    {
+      "phrase": "exp exp",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "exp exp"
+    },
+    {
+      "phrase": "collapse group",
+      "score": 0.0331,
+      "channel": "tfidf",
+      "display": "Collapse group"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

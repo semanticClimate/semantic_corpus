@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12859089",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 3.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east asian",
+      "display": "East Asian",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "maritime continent",
+      "display": "Maritime Continent",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bromfield swamp",
+      "display": "Bromfield Swamp",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chinese loess plateau",
+      "display": "Chinese Loess Plateau",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "holocene",
+      "display": "Holocene",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ausm",
+      "display": "AuSM",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yd",
+      "display": "YD",
+      "score": 1.56,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "a-aums",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "A-AuMS"
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "Monsoon"
+    },
+    {
+      "phrase": "yd event",
+      "score": 0.0366,
+      "channel": "tfidf",
+      "display": "YD event"
+    },
+    {
+      "phrase": "holocene ausm",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "Holocene AuSM"
+    },
+    {
+      "phrase": "australian",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Australian"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

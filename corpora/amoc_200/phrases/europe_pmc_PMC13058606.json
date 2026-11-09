@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13058606",
+  "phrases": [
+    {
+      "phrase": "department of chemistry and chemical biology cornell university",
+      "display": "Department of Chemistry and Chemical Biology Cornell University",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national academy of sciences",
+      "display": "National Academy of Sciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "advancement of sciences",
+      "display": "Advancement of Sciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "american association",
+      "display": "American Association",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sergei winogradsky",
+      "display": "Sergei Winogradsky",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "laughlin and kyle",
+      "display": "Laughlin and Kyle",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "baker laboratory",
+      "display": "Baker Laboratory",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amo",
+      "display": "AMO",
+      "score": 2.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aoa",
+      "display": "AOA",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aob",
+      "display": "AOB",
+      "score": 1.64,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pmmo",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "pMMO"
+    },
+    {
+      "phrase": "bamo",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "bAMO"
+    },
+    {
+      "phrase": "cu",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "Cu"
+    },
+    {
+      "phrase": "cud",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "CuD"
+    },
+    {
+      "phrase": "cryo-em",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "cryo-EM"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

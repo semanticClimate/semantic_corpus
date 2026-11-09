@@ -1,0 +1,353 @@
+{
+  "pmcid": "PMC12095383",
+  "pmid": "40417380",
+  "title": "Opportunities for Earth Observation to Inform Risk Management for Ocean Tipping Points.",
+  "abstract": "As climate change continues, the likelihood of passing critical thresholds or tipping points increases. Hence, there is a need to advance the science for detecting such thresholds. In this paper, we assess the needs and opportunities for Earth Observation (EO, here understood to refer to satellite observations) to inform society in responding to the risks associated with ten potential large-scale ocean tipping elements: Atlantic Meridional Overturning Circulation; Atlantic Subpolar Gyre; Beaufort Gyre; Arctic halocline; Kuroshio Large Meander; deoxygenation; phytoplankton; zooplankton; higher level ecosystems (including fisheries); and marine biodiversity. We review current scientific understanding and identify specific EO and related modelling needs for each of these tipping elements. We draw out some generic points that apply across several of the elements. These common points include the importance of maintaining long-term, consistent time series; the need to combine EO data consistently with in situ data types (including subsurface), for example through data assimilation; and the need to reduce or work with current mismatches in resolution (in both directions) between climate models and EO datasets. Our analysis shows that developing EO, modelling and prediction systems together, with understanding of the strengths and limitations of each, provides many promising paths towards monitoring and early warning systems for tipping, and towards the development of the next generation of climate models.",
+  "authors": [
+    {
+      "fullName": "Wood RA",
+      "lastName": "Wood",
+      "firstName": "Richard A",
+      "initials": "RA",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3960-9513"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Met Office Hadley Centre, Exeter, EX1 3PB UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Baker JA",
+      "lastName": "Baker",
+      "firstName": "Jonathan A",
+      "initials": "JA",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5695-6341"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Met Office Hadley Centre, Exeter, EX1 3PB UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Beaugrand G",
+      "lastName": "Beaugrand",
+      "firstName": "Grégory",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0712-5223"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratoire d'Océanologie Et de Géosciences UMR 8187, LOG, CNRS, University of Lille, University of Littoral Côte d'Opale, 62930 Wimereux, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Boutin J",
+      "lastName": "Boutin",
+      "firstName": "Jacqueline",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2845-4912"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Sorbonne Université, CNRS, IRD, MNHN, Laboratoire d'Océanographie et du Climat: Expérimentations et Approches Numériques, LOCEAN/IPSL, Paris, France F-75005."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Conversi A",
+      "lastName": "Conversi",
+      "firstName": "Alessandra",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8566-8282"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Research Council of Italy, CNR-ISMAR, Forte Santa Teresa, Loc. Pozzuolo, 19032 Lerici, SP Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Donner RV",
+      "lastName": "Donner",
+      "firstName": "Reik V",
+      "initials": "RV",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7023-6375"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Magdeburg-Stendal University of Applied Sciences, 39114 Magdeburg, Germany."
+          },
+          {
+            "affiliation": "Potsdam Institute for Climate Impact Research (PIK)-Member of the Leibniz Association, 14473 Potsdam, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Frenger I",
+      "lastName": "Frenger",
+      "firstName": "Ivy",
+      "initials": "I",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3490-7239"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "GEOMAR Helmholtz Centre for Ocean Research Kiel, 24148 Kiel, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Goberville E",
+      "lastName": "Goberville",
+      "firstName": "Eric",
+      "initials": "E",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1843-7855"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Unité Biologie Des Organismes Et Ecosystèmes Aquatiques (BOREA), Muséu Unité Biologie des Organismes et Ecosystèmes Aquatiques (BOREA), Muséum National d'Histoire Naturelle, CNRS, IRD, Sorbonne Université, Université de Caen Normandie, Université des Antilles, Sorbonne Université, 75006 Paris, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hayashida H",
+      "lastName": "Hayashida",
+      "firstName": "Hakase",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6349-4947"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Application Laboratory, Japan Agency for Marine-Earth Science and Technology, Yokohama, 236-0001 Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Koeve W",
+      "lastName": "Koeve",
+      "firstName": "Wolfgang",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2298-9230"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "GEOMAR Helmholtz Centre for Ocean Research Kiel, 24148 Kiel, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kvale K",
+      "lastName": "Kvale",
+      "firstName": "Karin",
+      "initials": "K",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8043-5431"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "GNS Science, 1 Fairway Ave, Lower Hutt, 5013 New Zealand."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Landolfi A",
+      "lastName": "Landolfi",
+      "firstName": "Angela",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5000-7863"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Research Council of Italy, CNR-ISMAR, 00133 Rome, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Maslowski W",
+      "lastName": "Maslowski",
+      "firstName": "Wieslaw",
+      "initials": "W",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5790-9229"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Naval Postgraduate School, Monterey, CA 93943 USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Oschlies A",
+      "lastName": "Oschlies",
+      "firstName": "Andreas",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8295-4013"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "GEOMAR Helmholtz Centre for Ocean Research Kiel, 24148 Kiel, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Romanou A",
+      "lastName": "Romanou",
+      "firstName": "Anastasia",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5241-4772"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Dept of Applied Physics and Applied Mathematics, NASA Goddard Institute for Space Studies, Columbia University, New York, NY 10027 USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Somes CJ",
+      "lastName": "Somes",
+      "firstName": "Christopher J",
+      "initials": "CJ",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2635-7617"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "GEOMAR Helmholtz Centre for Ocean Research Kiel, 24148 Kiel, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Stocker TF",
+      "lastName": "Stocker",
+      "firstName": "Thomas F",
+      "initials": "TF",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1245-2728"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Climate and Environmental Physics and Oeschger Centre for Climate Change Research, University of Bern, 3012 Bern, Switzerland."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Swingedouw D",
+      "lastName": "Swingedouw",
+      "firstName": "Didier",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0583-0850"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "EPOC, UMR 5805, Bordeaux INP, University of Bordeaux, CNRS, 33600 Pessac, France."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2024-11-06",
+  "journal": "",
+  "doi": "10.1007/s10712-024-09859-3",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1007/s10712-024-09859-3"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1007/s10712-024-09859-3"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12095383"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12095383?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12095383"
+}

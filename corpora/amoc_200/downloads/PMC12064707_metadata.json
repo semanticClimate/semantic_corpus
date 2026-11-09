@@ -1,0 +1,647 @@
+{
+  "pmcid": "PMC12064707",
+  "pmid": "40346050",
+  "title": "Onset of strong Iceland-Scotland overflow water 3.6 million years ago.",
+  "abstract": "North Atlantic Deep Water (NADW), the return flow component of the Atlantic Meridional Overturning Circulation (AMOC), is a major inter-hemispheric ocean water mass with strong climate effects but the evolution of its source components on million-year timescales is poorly known. Today, two major NADW components that flow southward over volcanic ridges to the east and west of Iceland are associated with distinct contourite drift systems that are forming off the coast of Greenland and on the eastern flank of the Reykjanes (mid-Atlantic) Ridge. Here we provide direct records of the early history of this drift sedimentation based on cores collected during International Ocean Discovery Programme (IODP) Expeditions 395C and 395. We find rapid acceleration of drift deposition linked to the eastern component of NADW, known as Iceland-Scotland Overflow Water at 3.6 million years ago (Ma). In contrast, the Denmark Strait Overflow Water feeding the western Eirik Drift has been persistent since the Late Miocene. These observations constrain the long-term evolution of the two NADW components, revealing their contrasting independent histories and allowing their links with climatic events such as Northern Hemisphere cooling at 3.6 Ma, to be assessed.",
+  "authors": [
+    {
+      "fullName": "Sinnesael M",
+      "lastName": "Sinnesael",
+      "firstName": "Matthias",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0354-8250"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "IMCCE, Observatoire de Paris, 77 avenue Denfert-Rochereau, Paris, France. sinnesam@tcd.ie."
+          },
+          {
+            "affiliation": "Geology, School of Natural Sciences, Trinity College Dublin, The University of Dublin, College Green, Dublin, Ireland. sinnesam@tcd.ie."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Karatsolis BT",
+      "lastName": "Karatsolis",
+      "firstName": "Boris-Theofanis",
+      "initials": "BT",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6248-2151"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth Sciences, Uppsala University, Villavägen 16, 752 36, Uppsala, Sweden."
+          },
+          {
+            "affiliation": "Archaeology, Environmental changes & Geo-Chemistry, Vrije Universiteit Brussel, Pleinlaan 2, Brussels, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pearson PN",
+      "lastName": "Pearson",
+      "firstName": "Paul N",
+      "initials": "PN",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4628-9818"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth Sciences, University College London, Gower Street, London, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Briais A",
+      "lastName": "Briais",
+      "firstName": "Anne",
+      "initials": "A",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Geo-Ocean, Centre National de la Recherche Scientifique (CNRS), Institut Universitaire Européen de la Mer, Rue Dumont d'Urville, Plouzané, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hemming SR",
+      "lastName": "Hemming",
+      "firstName": "Sidney R",
+      "initials": "SR",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8117-2303"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Sciences, Columbia University, New York, NY, USA."
+          },
+          {
+            "affiliation": "Lamont-Doherty Earth Observatory, Columbia University, Palisades, NY, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "LeVay LJ",
+      "lastName": "LeVay",
+      "firstName": "Leah J",
+      "initials": "LJ",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-3031-7079"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "International Ocean Discovery Program, Texas A&M University, 1000 Discovery Drive, College Station, TX, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dunkley Jones T",
+      "lastName": "Dunkley Jones",
+      "firstName": "Tom",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9518-8143"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography, Earth and Environmental Sciences, University of Birmingham, Birmingham, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cui Y",
+      "lastName": "Cui",
+      "firstName": "Ying",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1057-4369"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Studies, Montclair State University, 1 Normal Ave., Montclair, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Di Chiara A",
+      "lastName": "Di Chiara",
+      "firstName": "Anita",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9106-9796"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia, Via di Vigna Murata 605, Roma, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dodd JP",
+      "lastName": "Dodd",
+      "firstName": "Justin P",
+      "initials": "JP",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Earth, Atmosphere and Environment, Northern Illinois University, 180 Stadium Drive, DeKalb, IL, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Dwyer D",
+      "lastName": "Dwyer",
+      "firstName": "Deepa",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7089-5351"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Earth Ocean and Atmospheric Sciences, Oregon State University, 1500 SW, Jefferson Way, Corvallis, OR, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Eason DE",
+      "lastName": "Eason",
+      "firstName": "Deborah E",
+      "initials": "DE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0563-450X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth Sciences, School of Ocean & Earth Science & Technology, University of Hawai'i at Mānoa, 1680 East-West Road, Honolulu, HI, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Friedman SA",
+      "lastName": "Friedman",
+      "firstName": "Sarah A",
+      "initials": "SA",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2984-6299"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Earth, Environment & Sustainability, Georgia Southern University, Statesboro, GA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hanson E",
+      "lastName": "Hanson",
+      "firstName": "Emma",
+      "initials": "E",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7812-7269"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography, Earth and Environmental Sciences, University of Birmingham, Birmingham, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hochmuth K",
+      "lastName": "Hochmuth",
+      "firstName": "Katharina",
+      "initials": "K",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2789-2179"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Marine and Antarctic Studies (IMAS), College of Science and Engineering, University of Tasmania, Hobart, Australia."
+          },
+          {
+            "affiliation": "School of Geography, Geology and the Environment, University of Leicester, Leicester, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ibrahim HE",
+      "lastName": "Ibrahim",
+      "firstName": "Halima E",
+      "initials": "HE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0006-0067-5202"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth Sciences Binghamton University, Binghamton, NY, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Jasper CE",
+      "lastName": "Jasper",
+      "firstName": "Claire E",
+      "initials": "CE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4630-3552"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Sciences, Columbia University, New York, NY, USA."
+          },
+          {
+            "affiliation": "Lamont-Doherty Earth Observatory, Columbia University, Palisades, NY, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lee-Takeda S",
+      "lastName": "Lee-Takeda",
+      "firstName": "Saran",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0000-0515-3653"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa, Chiba, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "LeBlanc DE",
+      "lastName": "LeBlanc",
+      "firstName": "Danielle E",
+      "initials": "DE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0185-2398"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Sciences, Boston College, 140 Commonwealth Avenue, Chestnut Hill, MA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lindsay MR",
+      "lastName": "Lindsay",
+      "firstName": "Melody R",
+      "initials": "MR",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1609-6831"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Bigelow Laboratory for Ocean Sciences, 60 Bigelow Drive, East Boothbay, ME, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "McNamara DD",
+      "lastName": "McNamara",
+      "firstName": "David D",
+      "initials": "DD",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9789-2436"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth, Ocean and Ecological Sciences, University of Liverpool, 4 Brownlow Street, Liverpool, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Modestou SE",
+      "lastName": "Modestou",
+      "firstName": "Sevasti E",
+      "initials": "SE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9820-5551"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Geography and Environmental Sciences, Northumbria University, Newcastle upon Tyne, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Morris MA",
+      "lastName": "Morris",
+      "firstName": "Margaret A",
+      "initials": "MA",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-2399-6552"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Geophysics & Planetary Physics, Scripps Institution of Oceanography, University of California, San Diego, La Jolla, CA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Murton BJ",
+      "lastName": "Murton",
+      "firstName": "Bramley J",
+      "initials": "BJ",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1522-1191"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Ocean Bio-Geoscience Group, National Oceanography Centre, Southampton, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "OConnell S",
+      "lastName": "OConnell",
+      "firstName": "Suzanne",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8214-6219"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Sciences, Wesleyan University, 265 Church Street, Middletown, CT, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pasquet G",
+      "lastName": "Pasquet",
+      "firstName": "Gabriel",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5285-728X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Complex Fluids and Reservoirs Laboratory, University of Pau and Pays de l'Adour, Avenue De l'Université, Pau, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Qian SP",
+      "lastName": "Qian",
+      "firstName": "Sheng-Ping",
+      "initials": "SP",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Southern Marine Science and Engineering Guangdong Laboratory (Guangzhou), Guangzhou, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Rosenthal Y",
+      "lastName": "Rosenthal",
+      "firstName": "Yair",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7546-6011"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Marine and Coastal Sciences, Rutgers, The State University of New Jersey, 71 Dudley Road, New Brunswick, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Satolli S",
+      "lastName": "Satolli",
+      "firstName": "Sara",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9848-9745"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Engineering and Geology, University of Chieti-Pescara, Via dei Vestini 31, Chieti, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Suzuki T",
+      "lastName": "Suzuki",
+      "firstName": "Takuma",
+      "initials": "T",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "SUGAR, X-star, Japan Agency for Marine-Earth Science and Technology (JAMSTEC), Yokosuka, Japan."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Thulasi T",
+      "lastName": "Thulasi",
+      "firstName": "Thena",
+      "initials": "T",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9304-8665"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Geosciences Division, National Centre for Polar and Ocean Research (NCPOR), Vasco-da-Gama, Goa, India."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wade BS",
+      "lastName": "Wade",
+      "firstName": "Bridget S",
+      "initials": "BS",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7245-8614"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth Sciences, University College London, Gower Street, London, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "White NJ",
+      "lastName": "White",
+      "firstName": "Nicholas J",
+      "initials": "NJ",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Bullard Laboratories, Department of Earth Sciences, University of Cambridge, Madingley Road, Cambridge, United Kingdom."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu T",
+      "lastName": "Wu",
+      "firstName": "Tao",
+      "initials": "T",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Ocean College, Zhejiang University, Zhoushan, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang AY",
+      "lastName": "Yang",
+      "firstName": "Alexandra Y",
+      "initials": "AY",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5729-1588"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Guangzhou Institute of Geochemistry, Chinese Academy of Sciences, 511 Kehua Street Tianhe District, Guangzhou, Guangdong, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Parnell-Turner RE",
+      "lastName": "Parnell-Turner",
+      "firstName": "Ross E",
+      "initials": "RE",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-0641-3634"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Geophysics & Planetary Physics, Scripps Institution of Oceanography, University of California, San Diego, La Jolla, CA, USA."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-05-09",
+  "journal": "",
+  "doi": "10.1038/s41467-025-59265-5",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Unpaywall",
+      "url": "https://www.nature.com/articles/s41467-025-59265-5.pdf"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-025-59265-5"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12064707"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12064707?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12064707"
+}

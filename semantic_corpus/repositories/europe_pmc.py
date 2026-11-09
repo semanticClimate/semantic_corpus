@@ -1,7 +1,6 @@
 """Europe PMC repository implementation."""
 
 import io
-import json
 import re
 import zipfile
 from pathlib import Path
@@ -11,6 +10,22 @@ import requests
 
 from semantic_corpus.core.exceptions import RepositoryError
 from semantic_corpus.core.repository_interface import RepositoryInterface
+from semantic_corpus.repositories.document_content import (
+    http_status_from_error_body,
+    is_valid_document_file,
+    looks_like_fulltext_xml,
+    looks_like_pdf,
+    safe_write_document,
+)
+
+# Re-export validators used by diagnostics / tests.
+__all__ = [
+    "EuropePMCRepository",
+    "http_status_from_error_body",
+    "interpret_epmc_error",
+    "looks_like_fulltext_xml",
+    "normalize_epmc_search_payload",
+]
 
 # PMC Article Datasets on AWS Open Data: updated daily, one folder per
 # article version, e.g. PMC13380480.1/PMC13380480.1.pdf
@@ -29,40 +44,6 @@ _EPMC_ERROR_HINTS = {
     503: "Europe PMC search is temporarily unavailable — retry later.",
     504: "Gateway timeout — retry later.",
 }
-
-
-def looks_like_fulltext_xml(content: bytes) -> bool:
-    """True if body looks like XML/JATS, not a JSON/HTML error stub.
-
-    Europe PMC ``fullTextXML`` sometimes returns a Spring Boot JSON error
-    body (e.g. ``{"status":500,...}``). Reject that before saving as XML.
-    """
-    if not content:
-        return False
-    head = content.lstrip()
-    if head.startswith(b"\xef\xbb\xbf"):
-        head = head[3:].lstrip()
-    if not head or head.startswith((b"{", b"[")):
-        return False
-    lower = head[:64].lower()
-    if lower.startswith((b"<!doctype", b"<!--", b"<html")):
-        return False
-    return head.startswith(b"<")
-
-
-def http_status_from_error_body(content: bytes) -> Optional[int]:
-    """Read ``status`` from a Spring Boot JSON error body, if present."""
-    try:
-        data = json.loads(content.decode("utf-8", errors="replace"))
-    except (UnicodeError, json.JSONDecodeError, ValueError):
-        return None
-    if not isinstance(data, dict) or "status" not in data:
-        return None
-    try:
-        code = int(data["status"])
-    except (TypeError, ValueError):
-        return None
-    return code if 100 <= code <= 599 else None
 
 
 def interpret_epmc_error(
@@ -311,8 +292,8 @@ class EuropePMCRepository(RepositoryInterface):
             except zipfile.BadZipFile:
                 return None
 
-        # Cloudflare challenges and reCAPTCHA pages come back as HTML
-        return content if content.startswith(b"%PDF") else None
+        # Cloudflare challenges / JSON error pages are not PDFs
+        return content if looks_like_pdf(content) else None
 
     def _download_pdf(
         self, paper_id: str, paper: Optional[Dict[str, Any]], pmcid: str
@@ -397,106 +378,240 @@ class EuropePMCRepository(RepositoryInterface):
             raise RepositoryError(f"Failed to get metadata for {paper_id}: {e}") from e
 
     def download_paper(
-        self, paper_id: str, output_dir: Path, formats: List[str] = None
+        self,
+        paper_id: str,
+        output_dir: Path,
+        formats: List[str] = None,
+        *,
+        paper: Optional[Dict[str, Any]] = None,
+        streams: Optional[Any] = None,
+        use_docling_xml: bool = True,
     ) -> Dict[str, Any]:
-        """Download a paper from Europe PMC."""
+        """Download a paper from Europe PMC using independent JSON/XML/PDF streams.
+
+        A 500 on one stream disables only that stream (via ``streams``). If XML
+        is blocked/missing but PDF is available, Docling can create XML.
+        """
+        from semantic_corpus.pipeline.flat_corpus import (
+            find_native_xml,
+            find_paper_json,
+            find_pdf,
+            find_pdf_xml,
+            paper_stem,
+            path_pdf,
+            path_pdf_xml,
+            path_xml,
+        )
         from semantic_corpus.repositories._ids import existing_document_paths
+        from semantic_corpus.repositories.document_content import is_valid_document_file
+        from semantic_corpus.repositories.epmc_streams import (
+            STREAM_JSON,
+            STREAM_PDF,
+            STREAM_XML,
+            EpmcStreamBoard,
+            maybe_docling_pdf_to_xml,
+            write_paper_metadata_json,
+        )
 
         if formats is None:
             formats = ["xml"]
+        formats = [f.strip().lower() for f in formats if f and str(f).strip()]
+        board: EpmcStreamBoard = streams or EpmcStreamBoard()
+        stem = paper_stem(paper_id)
 
         try:
             output_dir = Path(output_dir)
             output_dir.mkdir(parents=True, exist_ok=True)
-            Path(output_dir, "documents").mkdir(parents=True, exist_ok=True)
-            downloaded_files = []
+            downloaded_files: List[str] = []
+            stream_notes: List[str] = []
 
-            # Skip network fetch for formats already on disk
-            already = existing_document_paths(output_dir, paper_id, formats)
+            want_xml = "xml" in formats
+            want_pdf = "pdf" in formats or want_xml  # PDF also feeds Docling→XML
+            track_formats = [
+                f for f in ("xml", "pdf") if f in formats or (f == "pdf" and want_pdf)
+            ]
+
+            # Drop error stubs only; never delete valid documents.
+            self._purge_invalid_stubs(output_dir, stem, track_formats)
+
+            # Halt/restart: reuse anything already on disk (valid XML/PDF only).
+            already = existing_document_paths(output_dir, stem, track_formats)
             for fmt, path in already.items():
                 downloaded_files.append(str(path))
-            formats_needed = [f for f in formats if f not in already]
-            if not formats_needed:
+                stream_notes.append(f"skip-{fmt}")
+
+            # JSON stream — flat ``{id}.json``; skip if present.
+            if board.is_active(STREAM_JSON) and paper:
+                meta_path = write_paper_metadata_json(output_dir, stem, paper)
+                downloaded_files.append(str(meta_path))
+                stream_notes.append("json")
+
+            xml_path = path_xml(output_dir, stem)
+            pdf_path = path_pdf(output_dir, stem)
+            pdf_xml_path = path_pdf_xml(output_dir, stem)
+            have_native_xml = find_native_xml(output_dir, stem) is not None
+            have_pdf_xml = find_pdf_xml(output_dir, stem) is not None
+            if have_pdf_xml:
+                downloaded_files.append(str(pdf_xml_path))
+                stream_notes.append("skip-pdf.xml")
+
+            requested = [f for f in formats if f in ("xml", "pdf")]
+            # Done enough: requested natives present, or XML need satisfied via .pdf.xml
+            xml_satisfied = (not want_xml) or have_native_xml or have_pdf_xml
+            pdf_satisfied = (not want_pdf) or ("pdf" in already)
+            if requested and xml_satisfied and pdf_satisfied and find_paper_json(
+                output_dir, stem
+            ):
                 return {
                     "success": True,
-                    "paper_id": paper_id,
+                    "paper_id": stem,
                     "files": downloaded_files,
                     "skipped": True,
+                    "streams": stream_notes,
+                    "xml": have_native_xml or have_pdf_xml,
+                    "pdf": "pdf" in already,
+                    "json": True,
                 }
 
-            paper = None
-            pmcid = paper_id if paper_id.startswith("PMC") else ""
+            pmcid = stem if stem.startswith("PMC") else ""
+            download_id = ""
+            local_paper = paper
 
-            # Get PMCID for download - if paper_id is PMID, search for PMCID
-            if not paper_id.startswith("PMC") and not paper_id.startswith("PPR"):
-                paper = self._search_one_paper(paper_id)
-                pmcid = paper.get("pmcid", "")
+            def _ensure_pmcid() -> str:
+                nonlocal local_paper, pmcid, download_id
+                if download_id:
+                    return download_id
+                if stem.startswith("PMC"):
+                    pmcid = stem
+                    download_id = stem.replace("PMC", "")
+                    return download_id
+                if paper_id.startswith("PPR"):
+                    download_id = paper_id
+                    return download_id
+                if local_paper is None:
+                    local_paper = self._search_one_paper(paper_id)
+                pmcid = str(local_paper.get("pmcid") or "")
                 if not pmcid:
                     raise RepositoryError(f"No PMCID found for {paper_id}")
-
-                # Extract number from PMCID (remove PMC prefix)
                 download_id = pmcid.replace("PMC", "")
-            else:
-                # Use paper_id directly for PMC or PPR IDs, but remove PMC prefix if present
-                if paper_id.startswith("PMC"):
-                    download_id = paper_id.replace("PMC", "")
-                else:
-                    download_id = paper_id
+                return download_id
 
             last_http: Optional[int] = None
-            for format_type in formats_needed:
+
+            # --- XML stream → ``{id}.xml`` only (never Docling here) ---
+            if want_xml and not have_native_xml and board.is_active(STREAM_XML):
                 try:
-                    if format_type == "xml":
-                        xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
-                        response = requests.get(xml_url)
-                        response.raise_for_status()
-                        content = response.content or b""
-                        if not looks_like_fulltext_xml(content):
-                            stub = http_status_from_error_body(content)
-                            last_http = (
-                                stub
-                                if stub is not None
-                                else (response.status_code or 500)
+                    _ensure_pmcid()
+                    xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
+                    response = requests.get(xml_url)
+                    response.raise_for_status()
+                    content = response.content or b""
+                    if not looks_like_fulltext_xml(content):
+                        stub = http_status_from_error_body(content)
+                        code = stub if stub is not None else (response.status_code or 500)
+                        last_http = code
+                        if code >= 500:
+                            board.disable(
+                                STREAM_XML,
+                                reason="server error on fullTextXML",
+                                status_code=code,
                             )
-                            continue
-
-                        xml_file = Path(output_dir, "documents", f"{paper_id}.xml")
-                        xml_file.parent.mkdir(parents=True, exist_ok=True)
-                        xml_file.write_bytes(content)
-                        # Keep flat copy for older ingest paths that expect query_dir/*.xml
-                        flat = Path(output_dir, f"{paper_id}.xml")
-                        if not flat.exists():
-                            flat.write_bytes(content)
-                        downloaded_files.append(str(xml_file))
-
-                    elif format_type == "pdf":
-                        pdf = self._download_pdf(paper_id, paper, pmcid)
-                        if not pdf:
-                            continue
-
-                        pdf_file = Path(output_dir, "documents", f"{paper_id}.pdf")
-                        pdf_file.parent.mkdir(parents=True, exist_ok=True)
-                        pdf_file.write_bytes(pdf)
-                        flat = Path(output_dir, f"{paper_id}.pdf")
-                        if not flat.exists():
-                            flat.write_bytes(pdf)
-                        downloaded_files.append(str(pdf_file))
+                            stream_notes.append(f"xml-off:{code}")
+                    else:
+                        wrote = safe_write_document(xml_path, content, fmt="xml")
+                        if wrote or is_valid_document_file(xml_path, "xml"):
+                            downloaded_files.append(str(xml_path))
+                            stream_notes.append("xml")
+                            have_native_xml = True
                 except requests.HTTPError as e:
-                    if e.response is not None:
-                        last_http = e.response.status_code
-                    continue
+                    code = e.response.status_code if e.response is not None else 500
+                    last_http = code
+                    if code >= 500 or code in (403, 429):
+                        board.disable(
+                            STREAM_XML,
+                            reason=f"HTTP {code} on fullTextXML",
+                            status_code=code,
+                        )
+                        stream_notes.append(f"xml-off:{code}")
                 except requests.RequestException:
-                    continue
+                    stream_notes.append("xml-error")
 
-            if not downloaded_files:
+            # --- PDF stream → ``{id}.pdf`` ---
+            need_pdf = want_pdf or (
+                want_xml and not have_native_xml and not have_pdf_xml
+            )
+            pmcid_error: Optional[str] = None
+            if (
+                need_pdf
+                and "pdf" not in already
+                and board.is_active(STREAM_PDF)
+            ):
+                try:
+                    _ensure_pmcid()
+                    pdf = self._download_pdf(stem, local_paper, pmcid)
+                    if pdf and looks_like_pdf(pdf):
+                        wrote = safe_write_document(pdf_path, pdf, fmt="pdf")
+                        if wrote or is_valid_document_file(pdf_path, "pdf"):
+                            downloaded_files.append(str(pdf_path))
+                            stream_notes.append("pdf")
+                    else:
+                        stream_notes.append("pdf-miss")
+                except RepositoryError as e:
+                    pmcid_error = str(e)
+                    stream_notes.append("no_pmcid")
+                except requests.HTTPError as e:
+                    code = e.response.status_code if e.response is not None else 500
+                    last_http = code
+                    if code >= 500 or code in (403, 429):
+                        board.disable(
+                            STREAM_PDF,
+                            reason=f"HTTP {code} on PDF",
+                            status_code=code,
+                        )
+                        stream_notes.append(f"pdf-off:{code}")
+                except requests.RequestException:
+                    stream_notes.append("pdf-error")
+
+            # --- Docling PDF → ``{id}.pdf.xml`` (never overwrite ``{id}.xml``) ---
+            have_native_xml = find_native_xml(output_dir, stem) is not None
+            have_pdf = find_pdf(output_dir, stem) is not None
+            have_pdf_xml = find_pdf_xml(output_dir, stem) is not None
+            if (
+                want_xml
+                and not have_native_xml
+                and not have_pdf_xml
+                and have_pdf
+                and use_docling_xml
+            ):
+                made = maybe_docling_pdf_to_xml(pdf_path, pdf_xml_path)
+                if made is not None:
+                    downloaded_files.append(str(made))
+                    stream_notes.append("xml-from-pdf")
+                    have_pdf_xml = True
+                else:
+                    stream_notes.append("docling-miss")
+
+            have_xml = have_native_xml or have_pdf_xml
+            have_json = find_paper_json(output_dir, stem) is not None
+            if not (have_xml or have_pdf or have_json or downloaded_files):
                 if last_http is not None:
                     raise RepositoryError(
-                        f"No files downloaded for {paper_id} (HTTP {last_http})",
+                        f"No files downloaded for {stem} (HTTP {last_http})",
                         status_code=int(last_http),
                     )
-                raise RepositoryError(f"No files downloaded for {paper_id}")
+                if pmcid_error:
+                    raise RepositoryError(pmcid_error)
+                raise RepositoryError(f"No files downloaded for {stem}")
 
-            return {"success": True, "paper_id": paper_id, "files": downloaded_files}
+            return {
+                "success": True,
+                "paper_id": stem,
+                "files": downloaded_files,
+                "streams": stream_notes,
+                "xml": have_xml,
+                "pdf": have_pdf,
+                "json": have_json,
+            }
 
         except RepositoryError:
             raise
@@ -513,6 +628,35 @@ class EuropePMCRepository(RepositoryInterface):
             ) from e
         except requests.RequestException as e:
             raise RepositoryError(f"Failed to download {paper_id}: {e}") from e
+
+    @staticmethod
+    def _purge_invalid_stubs(
+        output_dir: Path, paper_id: str, formats: List[str]
+    ) -> None:
+        """Remove non-document error stubs saved under XML/PDF names."""
+        from semantic_corpus.repositories._ids import paper_id_stems
+
+        output_dir = Path(output_dir)
+        stems = paper_id_stems(paper_id)
+        for fmt in formats:
+            kind = str(fmt).strip().lower()
+            if kind not in ("xml", "pdf"):
+                continue
+            for stem in stems:
+                candidates = [
+                    Path(output_dir, f"{stem}.{kind}"),
+                    Path(output_dir, "documents", f"{stem}.{kind}"),
+                    Path(output_dir, "documents", kind, f"{stem}.{kind}"),
+                ]
+                if kind == "xml":
+                    # Docling sidecar may also be an error stub
+                    candidates.append(Path(output_dir, f"{stem}.pdf.xml"))
+                for path in candidates:
+                    if path.is_file() and not is_valid_document_file(path, kind):
+                        try:
+                            path.unlink()
+                        except OSError:
+                            pass
 
     def get_repository_info(self) -> Dict[str, Any]:
         """Get information about Europe PMC repository."""

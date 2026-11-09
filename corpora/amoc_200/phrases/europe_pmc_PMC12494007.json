@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12494007",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 4.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "little ice age",
+      "display": "Little Ice Age",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north sea",
+      "display": "North Sea",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic multidecadal variability",
+      "display": "Atlantic Multidecadal Variability",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador and irminger seas",
+      "display": "Labrador and Irminger Seas",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "met office hadley centre",
+      "display": "Met Office Hadley Centre",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ar",
+      "display": "AR",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spg",
+      "display": "SPG",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bivalve",
+      "score": 0.043,
+      "channel": "tfidf",
+      "display": "bivalve"
+    },
+    {
+      "phrase": "bivalve records",
+      "score": 0.0414,
+      "channel": "tfidf",
+      "display": "bivalve records"
+    },
+    {
+      "phrase": "ar trends",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "ar trends"
+    },
+    {
+      "phrase": "records",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Records"
+    },
+    {
+      "phrase": "bandwidth",
+      "score": 0.0329,
+      "channel": "tfidf",
+      "display": "bandwidth"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

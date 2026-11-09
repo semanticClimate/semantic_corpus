@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10590667",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 5.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reykjanes ridge",
+      "display": "Reykjanes Ridge",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scotland ridge",
+      "display": "Scotland Ridge",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "charlie gibbs fracture zone",
+      "display": "Charlie Gibbs Fracture Zone",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east and west",
+      "display": "East and West",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "osnap",
+      "display": "OSNAP",
+      "score": 3.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "moc",
+      "display": "MOC",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "osnap east",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "OSNAP East"
+    },
+    {
+      "phrase": "mft",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "MFT"
+    },
+    {
+      "phrase": "isow",
+      "score": 0.0342,
+      "channel": "tfidf",
+      "display": "ISOW"
+    },
+    {
+      "phrase": "mht",
+      "score": 0.0336,
+      "channel": "tfidf",
+      "display": "MHT"
+    },
+    {
+      "phrase": "moc variability",
+      "score": 0.0333,
+      "channel": "tfidf",
+      "display": "MOC variability"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

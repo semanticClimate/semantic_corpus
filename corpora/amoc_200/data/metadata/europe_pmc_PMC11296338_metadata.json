@@ -1,0 +1,40 @@
+{
+  "pmcid": "PMC11296338",
+  "pmid": "39093979",
+  "title": "Uncertainties too large to predict tipping times of major Earth system components from historical data.",
+  "abstract": "One way to warn of forthcoming critical transitions in Earth system components is using observations to detect declining system stability. It has also been suggested to extrapolate such stability changes into the future and predict tipping times. Here, we argue that the involved uncertainties are too high to robustly predict tipping times. We raise concerns regarding (i) the modeling assumptions underlying any extrapolation of historical results into the future, (ii) the representativeness of individual Earth system component time series, and (iii) the impact of uncertainties and preprocessing of used observational datasets, with focus on nonstationary observational coverage and gap filling. We explore these uncertainties in general and specifically for the example of the Atlantic Meridional Overturning Circulation. We argue that even under the assumption that a given Earth system component has an approaching tipping point, the uncertainties are too large to reliably estimate tipping times by extrapolating historical information.",
+  "authors": [
+    "Ben-Yami M",
+    "Morr A",
+    "Bathiany S",
+    "Boers N"
+  ],
+  "publication_date": "2024-08-02",
+  "journal": "",
+  "doi": "10.1126/sciadv.adl4841",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.adl4841"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11296338"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11296338?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

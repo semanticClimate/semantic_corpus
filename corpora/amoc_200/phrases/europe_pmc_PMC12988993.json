@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12988993",
+  "phrases": [
+    {
+      "phrase": "review and editing",
+      "display": "Review and Editing",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "formal analysis",
+      "display": "Formal Analysis",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "east coast",
+      "display": "East Coast",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north carolina",
+      "display": "North Carolina",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "george mason university",
+      "display": "George Mason University",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "funding acquisition",
+      "display": "Funding Acquisition",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hurricane idalia",
+      "display": "Hurricane Idalia",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "da",
+      "display": "DA",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "adcirc",
+      "display": "ADCIRC",
+      "score": 1.72,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "saral",
+      "display": "SARAL",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sentinel-6",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "Sentinel-6"
+    },
+    {
+      "phrase": "jason-3",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Jason-3"
+    },
+    {
+      "phrase": "stations",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "stations"
+    },
+    {
+      "phrase": "altimetry",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "Altimetry"
+    },
+    {
+      "phrase": "mae",
+      "score": 0.0358,
+      "channel": "tfidf",
+      "display": "MAE"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

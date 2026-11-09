@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13021576",
+  "phrases": [
+    {
+      "phrase": "acidobacteriota and chloroflexota",
+      "display": "Acidobacteriota and Chloroflexota",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hunan provincial tobacco company",
+      "display": "Hunan Provincial Tobacco Company",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zhangjiajie tobacco company",
+      "display": "Zhangjiajie Tobacco Company",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zhangjiajie branch of hunan tobacco corporation",
+      "display": "Zhangjiajie Branch of Hunan Tobacco Corporation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "acidobacteriota and pseudomonadota",
+      "display": "Acidobacteriota and Pseudomonadota",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "china tobacco hunan industrial co",
+      "display": "China Tobacco Hunan Industrial Co",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chloroflexota and actinomycetota",
+      "display": "Chloroflexota and Actinomycetota",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tr",
+      "display": "TR",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ck",
+      "display": "CK",
+      "score": 2.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tp",
+      "display": "TP",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tobacco",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "Tobacco"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.037,
+      "channel": "tfidf",
+      "display": "Soil"
+    },
+    {
+      "phrase": "tm",
+      "score": 0.0362,
+      "channel": "tfidf",
+      "display": "TM"
+    },
+    {
+      "phrase": "cropping",
+      "score": 0.0348,
+      "channel": "tfidf",
+      "display": "Cropping"
+    },
+    {
+      "phrase": "compared ck",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "compared ck"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

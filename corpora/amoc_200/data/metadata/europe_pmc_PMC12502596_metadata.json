@@ -1,0 +1,40 @@
+{
+  "pmcid": "PMC12502596",
+  "pmid": "40862625",
+  "title": "Shrub encroachment alters microbial community composition and soil carbon and nitrogen cycling functional genes in northern peatlands.",
+  "abstract": "Changes in vegetation, such as shrub encroachment in grassland and wetland ecosystems, significantly influence soil microbial communities and biogeochemical processes. However, the specific impact of shrub encroachment on peatland ecosystems remains poorly understood. This study used a \"space-for-time\" approach, collecting soil samples from three encroachment stages-uninvaded, shrub invasion, and shrub invasion expansion-at two depths (0-30 cm and 30-60 cm). Metagenomic sequencing was used to assess the microbial community composition and functional gene dynamics. Shrub encroachment significantly alters soil physicochemical properties, nutrient availability, and microbial communities. Alpha diversity of bacteria and fungi was influenced by shrub encroachment and depth, whereas beta diversity varied mainly with depth. Functional carbon fixation genes (<i>korA</i> and <i>pps</i>) increased during shrub encroachment, while methane oxidation (<i>hdrA2</i>) and carbon degradation genes (<i>GH31 and GH51</i>) decreased before increasing. In addition, functional genes linked to nitrogen cycling (<i>nifD</i>, <i>nifH</i>, <i>amoA</i>, and <i>amoC</i>) declined, indicating a reduction in nitrogen fixation and nitrification pathways. Correlation and Mantel tests revealed that the total soil carbon content was the primary driver of these functional changes. These findings highlight the dynamic microbial responses to shrub encroachment and offer insights into the soil carbon and nitrogen-cycling mechanisms in peatlands.IMPORTANCEShrub encroachment is transforming peatlands and altering their ecological and biogeochemical functions. This study provides critical insights into how shrub invasion affects microbial communities and functional genes responsible for carbon and nitrogen cycling in peatland soils. By revealing the underlying genetic mechanisms, this study enhances our understanding of the consequences of vegetation shifts on ecosystem processes. These findings are essential for predicting and managing peatland responses to environmental changes, helping to preserve their role as vital carbon and nutrient reservoirs.",
+  "authors": [
+    "Ao J",
+    "Tang X",
+    "Li Z",
+    "Tang Z"
+  ],
+  "publication_date": "2025-08-27",
+  "journal": "",
+  "doi": "10.1128/spectrum.00542-25",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1128/spectrum.00542-25"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12502596"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12502596?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

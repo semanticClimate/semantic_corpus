@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11618512",
+  "phrases": [
+    {
+      "phrase": "central american",
+      "display": "Central American",
+      "score": 3.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 3.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cariaco basin",
+      "display": "Cariaco Basin",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.61,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central",
+      "display": "Central",
+      "score": 1.51,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "guatemala",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "Guatemala"
+    },
+    {
+      "phrase": "caribbean",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Caribbean"
+    },
+    {
+      "phrase": "monsoon",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "Monsoon"
+    },
+    {
+      "phrase": "itrace",
+      "score": 0.0339,
+      "channel": "tfidf",
+      "display": "iTRACE"
+    },
+    {
+      "phrase": "central american monsoon",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "Central American monsoon"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC10089918",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "last glacial maximum",
+      "display": "Last Glacial Maximum",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic ocean",
+      "display": "Atlantic Ocean",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth planet",
+      "display": "Earth Planet",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "heinrich stadial",
+      "display": "Heinrich Stadial",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northwest atlantic",
+      "display": "Northwest Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lgm",
+      "display": "LGM",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.71,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nsw",
+      "score": 0.0353,
+      "channel": "tfidf",
+      "display": "NSW"
+    },
+    {
+      "phrase": "b-p",
+      "score": 0.03,
+      "channel": "tfidf",
+      "display": "B-P"
+    },
+    {
+      "phrase": "proxy",
+      "score": 0.0298,
+      "channel": "tfidf",
+      "display": "proxy"
+    },
+    {
+      "phrase": "deglaciation",
+      "score": 0.0295,
+      "channel": "tfidf",
+      "display": "deglaciation"
+    },
+    {
+      "phrase": "yd",
+      "score": 0.0294,
+      "channel": "tfidf",
+      "display": "YD"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

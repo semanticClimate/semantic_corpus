@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12820267",
+  "phrases": [
+    {
+      "phrase": "nordic seas",
+      "display": "Nordic Seas",
+      "score": 3.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 3.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nordic seas basin",
+      "display": "Nordic Seas Basin",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "denmark strait",
+      "display": "Denmark Strait",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador sea",
+      "display": "Labrador Sea",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "norwegian sea",
+      "display": "Norwegian Sea",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central labrador sea",
+      "display": "Central Labrador Sea",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spg",
+      "display": "SPG",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ad",
+      "display": "AD",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "seas basin",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "Seas Basin"
+    },
+    {
+      "phrase": "nordic",
+      "score": 0.0337,
+      "channel": "tfidf",
+      "display": "Nordic"
+    },
+    {
+      "phrase": "inflow waters",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "inflow waters"
+    },
+    {
+      "phrase": "owsm",
+      "score": 0.033,
+      "channel": "tfidf",
+      "display": "OWSM"
+    },
+    {
+      "phrase": "seas",
+      "score": 0.0314,
+      "channel": "tfidf",
+      "display": "Seas"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

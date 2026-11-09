@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11554733",
+  "phrases": [
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic ocean",
+      "display": "North Atlantic Ocean",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth system model",
+      "display": "Earth System Model",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arctic ocean",
+      "display": "Arctic Ocean",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth system",
+      "display": "Earth System",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hos",
+      "display": "HOS",
+      "score": 2.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ctl",
+      "display": "CTL",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hos simulations",
+      "score": 0.0409,
+      "channel": "tfidf",
+      "display": "HOS simulations"
+    },
+    {
+      "phrase": "ctl simulations",
+      "score": 0.0405,
+      "channel": "tfidf",
+      "display": "CTL simulations"
+    },
+    {
+      "phrase": "uptake",
+      "score": 0.0359,
+      "channel": "tfidf",
+      "display": "uptake"
+    },
+    {
+      "phrase": "npp",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "NPP"
+    },
+    {
+      "phrase": "ssp1-2 ssp5-8",
+      "score": 0.0336,
+      "channel": "tfidf",
+      "display": "ssp1-2 ssp5-8"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

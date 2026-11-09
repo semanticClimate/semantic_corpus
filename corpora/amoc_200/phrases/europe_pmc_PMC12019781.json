@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12019781",
+  "phrases": [
+    {
+      "phrase": "central europe",
+      "display": "Central Europe",
+      "score": 2.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "buras and menzel",
+      "display": "Buras and Menzel",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ditlevsen and ditlevsen",
+      "display": "Ditlevsen and Ditlevsen",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "western europe",
+      "display": "Western Europe",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern italy and southeastern europe",
+      "display": "Northern Italy and Southeastern Europe",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "europe",
+      "display": "Europe",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european",
+      "display": "European",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tree species",
+      "score": 0.0465,
+      "channel": "tfidf",
+      "display": "Tree Species"
+    },
+    {
+      "phrase": "species",
+      "score": 0.0413,
+      "channel": "tfidf",
+      "display": "Species"
+    },
+    {
+      "phrase": "tree",
+      "score": 0.0396,
+      "channel": "tfidf",
+      "display": "Tree"
+    },
+    {
+      "phrase": "occurrence probability",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "occurrence probability"
+    },
+    {
+      "phrase": "inactive amoc",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "inactive AMOC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

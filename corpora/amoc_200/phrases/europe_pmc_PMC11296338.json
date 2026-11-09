@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11296338",
+  "phrases": [
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of mathematics and global systems institute",
+      "display": "Department of Mathematics and Global Systems Institute",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "potsdam institute for climate impact research",
+      "display": "Potsdam Institute for Climate Impact Research",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "school of engineering and design",
+      "display": "School of Engineering and Design",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "subpolar north atlantic program",
+      "display": "Subpolar North Atlantic Program",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "technical university of munich",
+      "display": "Technical University of Munich",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "creative commons attribution",
+      "display": "Creative Commons Attribution",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 2.76,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "spg",
+      "display": "SPG",
+      "score": 1.54,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mle",
+      "display": "MLE",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tipping time",
+      "score": 0.0471,
+      "channel": "tfidf",
+      "display": "Tipping time"
+    },
+    {
+      "phrase": "tipping times",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "Tipping times"
+    },
+    {
+      "phrase": "tipping",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Tipping"
+    },
+    {
+      "phrase": "mle method",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "MLE method"
+    },
+    {
+      "phrase": "csd",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "CSD"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

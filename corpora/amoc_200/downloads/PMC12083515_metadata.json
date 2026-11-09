@@ -1,0 +1,230 @@
+{
+  "pmcid": "PMC12083515",
+  "pmid": "40378208",
+  "title": "Skillful multiyear prediction of flood frequency along the US Northeast Coast using a high-resolution modeling system.",
+  "abstract": "Using tide gauge (TG) observations, we identify pronounced multidecadal fluctuations in sea level along the US Northeast Coast (USNEC) superimposed on a long-term increasing trend. This multidecadal sea level variability, largely arising from fluctuations in the buoyancy-driven Atlantic meridional overturning circulation (AMOC), substantially modulates the frequency of flood occurrences along the USNEC and serves as a source of multiyear predictability. Using an initialized dynamical downscaling decadal prediction system with a <sup>1</sup>/<sub>12</sub>° ocean resolution, we demonstrate that flood frequency along the USNEC can be predicted on multiyear to decadal timescales. The long-term increasing trend in flood frequency, mainly driven by increasing greenhouse gases and associated radiative forcing changes, can be predicted a decade ahead. Furthermore, detrended flood frequency along the USNEC exhibits prediction skill for up to 3 years, as verified by TG observation. This multiyear prediction skill is achieved using prediction models that are initialized from our best estimate of observed AMOC.",
+  "authors": [
+    {
+      "fullName": "Zhang L",
+      "lastName": "Zhang",
+      "firstName": "Liping",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1122-8927"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          },
+          {
+            "affiliation": "University Corporation for Atmospheric Research, Boulder, CO, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Delworth TL",
+      "lastName": "Delworth",
+      "firstName": "Thomas L",
+      "initials": "TL",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4865-5391"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Koul V",
+      "lastName": "Koul",
+      "firstName": "Vimal",
+      "initials": "V",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5623-5584"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmospheric and Oceanic Science, Princeton University, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ross A",
+      "lastName": "Ross",
+      "firstName": "Andrew",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1770-893X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Stock C",
+      "lastName": "Stock",
+      "firstName": "Charles",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9549-8013"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang X",
+      "lastName": "Yang",
+      "firstName": "Xiaosong",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5601-9710"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zeng F",
+      "lastName": "Zeng",
+      "firstName": "Fanrong",
+      "initials": "F",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6212-7187"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wittenberg A",
+      "lastName": "Wittenberg",
+      "firstName": "Andrew",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1680-8963"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "NOAA/Geophysical Fluid Dynamics Laboratory, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhao J",
+      "lastName": "Zhao",
+      "firstName": "Jian",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6458-5146"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Horn Point Laboratory, University of Maryland Center for Environmental Science, Cambridge, MD, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Gu Q",
+      "lastName": "Gu",
+      "firstName": "Qinxue",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8057-3268"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmospheric and Oceanic Science, Princeton University, Princeton, NJ, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li S",
+      "lastName": "Li",
+      "firstName": "Shouwei",
+      "initials": "S",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Atmospheric and Oceanic Science, Princeton University, Princeton, NJ, USA."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2025-05-16",
+  "journal": "",
+  "doi": "10.1126/sciadv.ads4419",
+  "full_text_urls": [
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "doi",
+      "site": "Unpaywall",
+      "url": "https://doi.org/10.1126/sciadv.ads4419"
+    },
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.ads4419"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12083515"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12083515?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC12083515"
+}

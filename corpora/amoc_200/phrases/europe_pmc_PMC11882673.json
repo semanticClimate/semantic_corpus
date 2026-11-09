@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11882673",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 7.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dong and sutton",
+      "display": "Dong and Sutton",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "barnes and polvani",
+      "display": "Barnes and Polvani",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "blackport and fyfe",
+      "display": "Blackport and Fyfe",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "watanabe and tatebe",
+      "display": "Watanabe and Tatebe",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iles and hegerl",
+      "display": "Iles and Hegerl",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "american meteorological society",
+      "display": "American Meteorological Society",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.77,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.71,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uk",
+      "display": "UK",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jet speed",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "jet speed"
+    },
+    {
+      "phrase": "jet",
+      "score": 0.0387,
+      "channel": "tfidf",
+      "display": "Jet"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0372,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "harvey et",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "Harvey et"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

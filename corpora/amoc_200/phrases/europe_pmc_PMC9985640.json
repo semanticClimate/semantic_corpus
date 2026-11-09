@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC9985640",
+  "phrases": [
+    {
+      "phrase": "south atlantic",
+      "display": "South Atlantic",
+      "score": 2.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 2.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern hemisphere",
+      "display": "Southern Hemisphere",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "detection and attribution model intercomparison project",
+      "display": "Detection and Attribution Model Intercomparison Project",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic meridional overturning circulation",
+      "display": "Atlantic Meridional Overturning Circulation",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "contribution of working group",
+      "display": "Contribution of Working Group",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amoc",
+      "display": "AMOC",
+      "score": 3.74,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tna",
+      "display": "TNA",
+      "score": 2.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atlantic",
+      "display": "Atlantic",
+      "score": 1.71,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sss",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "SSS"
+    },
+    {
+      "phrase": "ss",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "SS"
+    },
+    {
+      "phrase": "fingerprint",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "fingerprint"
+    },
+    {
+      "phrase": "sss fingerprint",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "SSS fingerprint"
+    },
+    {
+      "phrase": "sss indices",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "SSS indices"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

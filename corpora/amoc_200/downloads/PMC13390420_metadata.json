@@ -1,0 +1,113 @@
+{
+  "pmcid": "PMC13390420",
+  "pmid": "42267811",
+  "title": "Salinity-driven niche partitioning of aquatic viruses in one of Europe's largest estuaries.",
+  "abstract": "Viruses are a vital part of the aquatic food web and hold a profound role in carbon and energy cycling at different trophic levels. Despite the rising interest in aquatic viruses, very few studies were conducted in estuaries, where freshwater and marine communities meet along the salinity gradient. We present a paired analysis of metagenomic and metatranscriptomic data focusing on the viral fraction derived from seasonal sampling between May 2021 and November 2022 in one of Europe's largest estuaries, the temperate mesotidal Elbe River downstream of Hamburg. Our results reveal a sharp delineation of viral communities along specific salinity niches and provide evidence for their adaptation. This implicates viruses as a structural component of microbial and phytoplankton ecology across the estuary. We provide a detailed overview of the spatiotemporal distribution of viruses, including taxonomy and hosts, which emphasizes the role of giant viruses (Megaviricetes) in waters of lower salinity and RNA viruses in marine environments. We identify, besides salinity, total dissolved phosphate and temperature as the main drivers of estuarine viral communities. We find a broad spectrum of metabolic pathways, potentially altered by viruses via auxiliary metabolic genes. Potential metabolisms impacted included the underlying carbon processes like photosynthesis or methane metabolism, but may also extend to some xenobiotics and antibiotics metabolisms in this anthropogenically altered estuary. This is the first detailed molecular study of viruses in the Elbe Estuary, shedding light on viral communities and their ecological roles in controlling microbial populations at the base of the estuarine food web.<h4>Importance</h4>Estuaries are the interfaces between marine and limnic waters, with their own specific hydrological and biochemical processes due to, e.g., salinity gradients, tides, and terrestrial inflows. In particular, they are sites of intensive carbon cycling. Their often high economic importance causes substantial anthropogenic pressure on the ecosystem. All of these result in extremely complex factors interacting and influencing microbial populations. Our study provides a first comprehensive overview of the viral communities in Europe's largest estuary. We made an attempt to disentangle the numerous environmental parameters, and we highlight salinity as the most important factor, providing evidence of its multidimensional influence on the estuarine virome. Our findings deepen our understanding of viral communities and their interactions with microbes and bring us a step closer to their role in aquatic food webs, particularly in carbon turnover in estuaries.",
+  "authors": [
+    {
+      "fullName": "Gołębiowska J",
+      "lastName": "Gołębiowska",
+      "firstName": "Julia",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0008-6007-3785"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Plankton and Microbial Ecology, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Stechlin, Germany."
+          },
+          {
+            "affiliation": "Department of Microbiology and Biotechnology, Institute for Plant Sciences and Microbiology, University of Hamburg, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Woodhouse JN",
+      "lastName": "Woodhouse",
+      "firstName": "Jason N",
+      "initials": "JN",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1129-5396"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Plankton and Microbial Ecology, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Stechlin, Germany."
+          },
+          {
+            "affiliation": "Department of Molecular Animal Physiology, Institute for Animal Cell and Systems Biology, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tobias-Hünefeldt SP",
+      "lastName": "Tobias-Hünefeldt",
+      "firstName": "Sven P",
+      "initials": "SP",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Plankton and Microbial Ecology, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Stechlin, Germany."
+          },
+          {
+            "affiliation": "Department of Microbiology and Biotechnology, Institute for Plant Sciences and Microbiology, University of Hamburg, Hamburg, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Grossart H-P",
+      "lastName": "Grossart",
+      "firstName": "Hans-Peter",
+      "initials": "H-P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9141-0325"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Plankton and Microbial Ecology, Leibniz Institute of Freshwater Ecology and Inland Fisheries (IGB), Stechlin, Germany."
+          },
+          {
+            "affiliation": "Institute of Biochemistry and Biology, Potsdam University, Potsdam, Germany."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-06-10",
+  "journal": "",
+  "doi": "10.1128/aem.00807-26",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1128/aem.00807-26"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13390420"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13390420?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13390420"
+}

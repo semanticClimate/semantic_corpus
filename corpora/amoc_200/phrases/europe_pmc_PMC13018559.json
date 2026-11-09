@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13018559",
+  "phrases": [
+    {
+      "phrase": "hudson bay",
+      "display": "Hudson Bay",
+      "score": 4.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hudson strait",
+      "display": "Hudson Strait",
+      "score": 4.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "labrador shelf",
+      "display": "Labrador Shelf",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ti and ca",
+      "display": "Ti and Ca",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "early holocene",
+      "display": "Early Holocene",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hudson bay and strait",
+      "display": "Hudson Bay and Strait",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hudson",
+      "display": "Hudson",
+      "score": 1.81,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ird",
+      "display": "IRD",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "unit",
+      "display": "Unit",
+      "score": 1.59,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lao",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "LAO"
+    },
+    {
+      "phrase": "ca ti",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "ca ti"
+    },
+    {
+      "phrase": "bay",
+      "score": 0.0346,
+      "channel": "tfidf",
+      "display": "Bay"
+    },
+    {
+      "phrase": "ca sr",
+      "score": 0.0338,
+      "channel": "tfidf",
+      "display": "ca sr"
+    },
+    {
+      "phrase": "mixed benthic",
+      "score": 0.0333,
+      "channel": "tfidf",
+      "display": "Mixed benthic"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

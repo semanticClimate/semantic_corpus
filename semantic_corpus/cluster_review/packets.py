@@ -3,6 +3,12 @@
 ``corpus`` ensures text components are indexed. v1 writes a degenerate
 manifest: one ``body`` packet per paper container. Does not depend on
 matching/search. See docs/pipeline_kg_mappers.md §1.1 / §2.
+
+Packet **text** resolution cascade (first non-empty wins; see step2):
+
+1. ``{id}.xml`` (publisher/JATS)
+2. ``{id}.pdf.xml`` (Docling from PDF)
+3. JSON abstract from ``{id}.json``
 """
 
 from __future__ import annotations
@@ -27,24 +33,28 @@ def build_packet_index(workdir: Path) -> Dict[str, Any]:
     """Index packets under paper containers (whole-paper body packet each)."""
     from semantic_corpus.cluster_review.step1 import (
         _paper_ids_from_metadata_dir,
-        load_bagit_corpus,
-        resolve_bagit_root,
+        load_corpus,
     )
+    from semantic_corpus.pipeline.flat_corpus import is_flat_corpus, list_flat_paper_ids
 
     workdir = Path(workdir)
-    if not (workdir / "bagit.txt").is_file() and not (
+    has_bag = (workdir / "bagit.txt").is_file() or (
         workdir / "data" / "bagit.txt"
-    ).is_file():
+    ).is_file()
+    if not has_bag and not is_flat_corpus(workdir):
         raise CorpusError(
-            f"No BAGIT corpus at {workdir}; collect documents first"
+            f"No corpus at {workdir}; collect documents first"
         )
 
-    summary = load_bagit_corpus(workdir, write_review_if_missing=False)
-    bag_root = Path(summary.get("bag_root") or resolve_bagit_root(workdir))
+    summary = load_corpus(workdir, write_review_if_missing=False)
+    bag_root = Path(summary.get("bag_root") or workdir)
     paper_ids: List[str] = list(summary.get("paper_ids") or [])
     if not paper_ids:
+        paper_ids = list_flat_paper_ids(workdir)
+    if not paper_ids:
         meta = bag_root / "data" / "metadata"
-        paper_ids = _paper_ids_from_metadata_dir(meta)
+        if meta.is_dir():
+            paper_ids = _paper_ids_from_metadata_dir(meta)
 
     containers: List[Dict[str, Any]] = []
     packets: List[Dict[str, Any]] = []

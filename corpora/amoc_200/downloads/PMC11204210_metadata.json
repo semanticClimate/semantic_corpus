@@ -1,0 +1,385 @@
+{
+  "pmcid": "PMC11204210",
+  "pmid": "38924401",
+  "title": "Controlling factors for the global meridional overturning circulation: A lesson from the Paleozoic.",
+  "abstract": "The global meridional overturning circulation (GMOC) is important for redistributing heat and, thus, determining global climate, but what determines its strength over Earth's history remains unclear. On the basis of two sets of climate simulations for the Paleozoic characterized by a stable GMOC direction, our research reveals that GMOC strength primarily depends on continental configuration while climate variations have a minor impact. In the mid- to high latitudes, the volume of continents largely dictates the speed of westerly winds, which in turn controls upwelling and the strength of the GMOC. At low latitudes, open seaways also play an important role in the strength of the GMOC. An open seaway in one hemisphere allows stronger westward ocean currents, which support higher sea surface heights (SSH) in this hemisphere than that in the other. The meridional SSH gradient drives a stronger cross-equatorial flow in the upper ocean, resulting in a stronger GMOC. This latter finding enriches the current theory for GMOC.",
+  "authors": [
+    {
+      "fullName": "Yuan S",
+      "lastName": "Yuan",
+      "firstName": "Shuai",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8154-4899"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Y",
+      "lastName": "Liu",
+      "firstName": "Yonggang",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8844-2185"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          },
+          {
+            "affiliation": "Institute of Ocean Research, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Hu Y",
+      "lastName": "Hu",
+      "firstName": "Yongyun",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4003-4630"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          },
+          {
+            "affiliation": "Institute of Ocean Research, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mei J",
+      "lastName": "Mei",
+      "firstName": "Jie",
+      "initials": "J",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Han J",
+      "lastName": "Han",
+      "firstName": "Jing",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3717-0199"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bao X",
+      "lastName": "Bao",
+      "firstName": "Xiujuan",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-3681-2089"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          },
+          {
+            "affiliation": "Key Laboratory of Cenozoic Geology and Environment, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing 100029, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li X",
+      "lastName": "Li",
+      "firstName": "Xiang",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8670-9499"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lin Q",
+      "lastName": "Lin",
+      "firstName": "Qifan",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6698-4984"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wei M",
+      "lastName": "Wei",
+      "firstName": "Mengyu",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0588-6600"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li Z",
+      "lastName": "Li",
+      "firstName": "Zhibo",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9135-1583"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yin Z",
+      "lastName": "Yin",
+      "firstName": "Zihan",
+      "initials": "Z",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1876-938X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Man K",
+      "lastName": "Man",
+      "firstName": "Kai",
+      "initials": "K",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7026-1714"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Guo J",
+      "lastName": "Guo",
+      "firstName": "Jiaqi",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0140-6550"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Liu Y",
+      "lastName": "Liu",
+      "firstName": "Yue",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0000-5430-5967"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sun Y",
+      "lastName": "Sun",
+      "firstName": "Yudong",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0009-5312-6778"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wu J",
+      "lastName": "Wu",
+      "firstName": "Jiacheng",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-3630-9590"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang J",
+      "lastName": "Zhang",
+      "firstName": "Jian",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5728-9066"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wei Q",
+      "lastName": "Wei",
+      "firstName": "Qiang",
+      "initials": "Q",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5625-477X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          },
+          {
+            "affiliation": "State Key Laboratory of Tibetan Plateau Earth System, Environment and Resources (TPESER), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Yang J",
+      "lastName": "Yang",
+      "firstName": "Jun",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6031-2485"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Nie J",
+      "lastName": "Nie",
+      "firstName": "Ji",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9829-8604"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratory for Climate and Ocean-Atmosphere Studies, Department of Atmospheric and Oceanic Sciences, School of Physics, Peking University, Beijing, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2024-06-26",
+  "journal": "",
+  "doi": "10.1126/sciadv.adm7813",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.adm7813"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11204210"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC11204210?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC11204210"
+}

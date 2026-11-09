@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13630551",
+  "phrases": [
+    {
+      "phrase": "north atlantic",
+      "display": "North Atlantic",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth syst",
+      "display": "Earth Syst",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paris agreement",
+      "display": "Paris Agreement",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earths future",
+      "display": "Earths Future",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "earth system climate model",
+      "display": "Earth System Climate Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of geography",
+      "display": "Department of Geography",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "northern hemisphere",
+      "display": "Northern Hemisphere",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "os",
+      "display": "OS",
+      "score": 3.62,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "escm",
+      "display": "ESCM",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "slr",
+      "display": "SLR",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "degree-years",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "degree-years"
+    },
+    {
+      "phrase": "reversibility",
+      "score": 0.042,
+      "channel": "tfidf",
+      "display": "Reversibility"
+    },
+    {
+      "phrase": "degree-years os",
+      "score": 0.0411,
+      "channel": "tfidf",
+      "display": "degree-years os"
+    },
+    {
+      "phrase": "return year",
+      "score": 0.0398,
+      "channel": "tfidf",
+      "display": "return year"
+    },
+    {
+      "phrase": "permafrost",
+      "score": 0.0369,
+      "channel": "tfidf",
+      "display": "Permafrost"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}

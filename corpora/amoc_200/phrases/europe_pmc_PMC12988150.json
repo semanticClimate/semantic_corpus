@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12988150",
+  "phrases": [
+    {
+      "phrase": "great weddell polynya",
+      "display": "Great Weddell Polynya",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "southern ocean",
+      "display": "Southern Ocean",
+      "score": 2.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "weddell gyre",
+      "display": "Weddell Gyre",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bungenstock plateau",
+      "display": "Bungenstock Plateau",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "maud rise",
+      "display": "Maud Rise",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "weddell sea",
+      "display": "Weddell Sea",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary information",
+      "display": "Supplementary Information",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dml",
+      "display": "DML",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wdw",
+      "display": "WDW",
+      "score": 1.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bp",
+      "display": "BP",
+      "score": 1.44,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "polynya",
+      "score": 0.0465,
+      "channel": "tfidf",
+      "display": "Polynya"
+    },
+    {
+      "phrase": "substmg",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "subSTMg"
+    },
+    {
+      "phrase": "substmg ca",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "substmg ca"
+    },
+    {
+      "phrase": "substmg ca vs",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "substmg ca vs"
+    },
+    {
+      "phrase": "ca vs",
+      "score": 0.0395,
+      "channel": "tfidf",
+      "display": "Ca vs"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "pdf-docling",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.0946
+}
