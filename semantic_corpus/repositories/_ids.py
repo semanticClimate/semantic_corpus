@@ -19,10 +19,21 @@ def sanitize_paper_id(paper_id: str) -> str:
 
 
 def get_result_paper_id(paper: Dict[str, Any]) -> Optional[str]:
-    """Pick the best download identifier from a search result record."""
-    if paper.get("paper_id"):
-        return str(paper["paper_id"])
-    for key in ("pmcid", "arxiv_id", "openalex_id", "doi", "pmid", "pid", "url"):
+    """Pick the best download identifier from a search result record.
+
+    Prefer ``pmcid`` (needed for EPMC fullTextXML / OA PDF). PMID-only hits
+    are still returned so metadata/abstract can be saved.
+    """
+    for key in (
+        "pmcid",
+        "paper_id",
+        "arxiv_id",
+        "openalex_id",
+        "doi",
+        "pmid",
+        "pid",
+        "url",
+    ):
         value = paper.get(key)
         if value:
             return str(value)
@@ -74,6 +85,7 @@ def existing_document_paths(
 
     Checks (per format)::
 
+        {output_dir}/data/packets/{stem}.{fmt}
         {output_dir}/{stem}.{fmt}
         {output_dir}/documents/{stem}.{fmt}
         {output_dir}/documents/{fmt}/{stem}.{fmt}
@@ -88,6 +100,7 @@ def existing_document_paths(
         for stem in stems:
             candidates.extend(
                 [
+                    Path(output_dir, "data", "packets", f"{stem}.{fmt}"),
                     Path(output_dir, f"{stem}.{fmt}"),
                     Path(output_dir, "documents", f"{stem}.{fmt}"),
                     Path(output_dir, "documents", fmt, f"{stem}.{fmt}"),

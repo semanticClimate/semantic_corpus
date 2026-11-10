@@ -389,8 +389,9 @@ class EuropePMCRepository(RepositoryInterface):
     ) -> Dict[str, Any]:
         """Download a paper from Europe PMC using independent JSON/XML/PDF streams.
 
-        A 500 on one stream disables only that stream (via ``streams``). If XML
-        is blocked/missing but PDF is available, Docling can create XML.
+        HTTP 5xx on XML/PDF is logged on ``streams`` (per paper) without
+        disabling that stream, so later papers are still probed. If XML fails
+        but PDF is available and ``use_docling_xml``, Docling can create XML.
         """
         from semantic_corpus.pipeline.flat_corpus import (
             find_native_xml,
@@ -426,10 +427,9 @@ class EuropePMCRepository(RepositoryInterface):
             stream_notes: List[str] = []
 
             want_xml = "xml" in formats
-            want_pdf = "pdf" in formats or want_xml  # PDF also feeds Docling→XML
-            track_formats = [
-                f for f in ("xml", "pdf") if f in formats or (f == "pdf" and want_pdf)
-            ]
+            # PDF is opt-in only (lazy ``pdfs`` step). Collect uses formats=["xml"].
+            want_pdf = "pdf" in formats
+            track_formats = [f for f in ("xml", "pdf") if f in formats]
 
             # Drop error stubs only; never delete valid documents.
             self._purge_invalid_stubs(output_dir, stem, track_formats)
@@ -477,22 +477,32 @@ class EuropePMCRepository(RepositoryInterface):
             download_id = ""
             local_paper = paper
 
-            def _ensure_pmcid() -> str:
-                nonlocal local_paper, pmcid, download_id
+            pmcid_error: Optional[str] = None
+
+            def _ensure_pmcid() -> Optional[str]:
+                """Resolve PMC numeric id, or set ``pmcid_error`` and return None."""
+                nonlocal local_paper, pmcid, download_id, pmcid_error
                 if download_id:
                     return download_id
                 if stem.startswith("PMC"):
                     pmcid = stem
                     download_id = stem.replace("PMC", "")
                     return download_id
-                if paper_id.startswith("PPR"):
-                    download_id = paper_id
+                if str(paper_id).startswith("PPR"):
+                    download_id = str(paper_id)
                     return download_id
-                if local_paper is None:
-                    local_paper = self._search_one_paper(paper_id)
-                pmcid = str(local_paper.get("pmcid") or "")
+                try:
+                    if local_paper is None:
+                        local_paper = self._search_one_paper(paper_id)
+                    pmcid = str(local_paper.get("pmcid") or "")
+                except RepositoryError as e:
+                    pmcid_error = str(e)
+                    stream_notes.append("no_pmcid")
+                    return None
                 if not pmcid:
-                    raise RepositoryError(f"No PMCID found for {paper_id}")
+                    pmcid_error = f"No PMCID found for {paper_id}"
+                    stream_notes.append("no_pmcid")
+                    return None
                 download_id = pmcid.replace("PMC", "")
                 return download_id
 
@@ -500,76 +510,111 @@ class EuropePMCRepository(RepositoryInterface):
 
             # --- XML stream → ``{id}.xml`` only (never Docling here) ---
             if want_xml and not have_native_xml and board.is_active(STREAM_XML):
+                xml_url = ""
                 try:
-                    _ensure_pmcid()
-                    xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
-                    response = requests.get(xml_url)
-                    response.raise_for_status()
-                    content = response.content or b""
-                    if not looks_like_fulltext_xml(content):
-                        stub = http_status_from_error_body(content)
-                        code = stub if stub is not None else (response.status_code or 500)
-                        last_http = code
-                        if code >= 500:
-                            board.disable(
-                                STREAM_XML,
-                                reason="server error on fullTextXML",
-                                status_code=code,
-                            )
-                            stream_notes.append(f"xml-off:{code}")
+                    if _ensure_pmcid() is None:
+                        pass  # soft skip — no PMCID (e.g. PMID-only hit)
                     else:
-                        wrote = safe_write_document(xml_path, content, fmt="xml")
-                        if wrote or is_valid_document_file(xml_path, "xml"):
-                            downloaded_files.append(str(xml_path))
-                            stream_notes.append("xml")
-                            have_native_xml = True
+                        xml_url = f"{self.base_url}/PMC{download_id}/fullTextXML"
+                        response = requests.get(xml_url)
+                        response.raise_for_status()
+                        content = response.content or b""
+                        if not looks_like_fulltext_xml(content):
+                            # Real HTTP/API failures only — do not tally HTTP 200
+                            # as an "error" when the body was merely unusable.
+                            stub = http_status_from_error_body(content)
+                            http_code = int(response.status_code or 0)
+                            if stub is not None:
+                                code = int(stub)
+                                last_http = code
+                                board.record_http_error(
+                                    STREAM_XML,
+                                    status_code=code,
+                                    paper_id=stem,
+                                    url=xml_url,
+                                    detail="server error JSON on fullTextXML",
+                                )
+                                stream_notes.append(f"xml-http:{code}")
+                            elif http_code >= 400:
+                                last_http = http_code
+                                board.record_http_error(
+                                    STREAM_XML,
+                                    status_code=http_code,
+                                    paper_id=stem,
+                                    url=xml_url,
+                                    detail="HTTP error status on fullTextXML",
+                                )
+                                stream_notes.append(f"xml-http:{http_code}")
+                            else:
+                                stream_notes.append(
+                                    f"xml-not-fulltext:{http_code or 200}"
+                                )
+                        else:
+                            wrote = safe_write_document(xml_path, content, fmt="xml")
+                            if wrote or is_valid_document_file(xml_path, "xml"):
+                                downloaded_files.append(str(xml_path))
+                                stream_notes.append("xml")
+                                have_native_xml = True
                 except requests.HTTPError as e:
                     code = e.response.status_code if e.response is not None else 500
                     last_http = code
-                    if code >= 500 or code in (403, 429):
-                        board.disable(
-                            STREAM_XML,
-                            reason=f"HTTP {code} on fullTextXML",
-                            status_code=code,
-                        )
-                        stream_notes.append(f"xml-off:{code}")
-                except requests.RequestException:
+                    board.record_http_error(
+                        STREAM_XML,
+                        status_code=int(code),
+                        paper_id=stem,
+                        url=xml_url
+                        or f"{self.base_url}/PMC…/fullTextXML",
+                        detail="HTTPError on fullTextXML",
+                    )
+                    stream_notes.append(f"xml-http:{code}")
+                except requests.RequestException as e:
+                    board.record_http_error(
+                        STREAM_XML,
+                        status_code=0,
+                        paper_id=stem,
+                        url=xml_url,
+                        detail=f"RequestException: {e}",
+                    )
                     stream_notes.append("xml-error")
 
-            # --- PDF stream → ``{id}.pdf`` ---
-            need_pdf = want_pdf or (
-                want_xml and not have_native_xml and not have_pdf_xml
-            )
-            pmcid_error: Optional[str] = None
+            # --- PDF stream → ``{id}.pdf`` (only when formats includes pdf) ---
             if (
-                need_pdf
+                want_pdf
                 and "pdf" not in already
                 and board.is_active(STREAM_PDF)
             ):
                 try:
-                    _ensure_pmcid()
-                    pdf = self._download_pdf(stem, local_paper, pmcid)
-                    if pdf and looks_like_pdf(pdf):
-                        wrote = safe_write_document(pdf_path, pdf, fmt="pdf")
-                        if wrote or is_valid_document_file(pdf_path, "pdf"):
-                            downloaded_files.append(str(pdf_path))
-                            stream_notes.append("pdf")
+                    if _ensure_pmcid() is None:
+                        pass
                     else:
-                        stream_notes.append("pdf-miss")
+                        pdf = self._download_pdf(stem, local_paper, pmcid)
+                        if pdf and looks_like_pdf(pdf):
+                            wrote = safe_write_document(pdf_path, pdf, fmt="pdf")
+                            if wrote or is_valid_document_file(pdf_path, "pdf"):
+                                downloaded_files.append(str(pdf_path))
+                                stream_notes.append("pdf")
+                        else:
+                            stream_notes.append("pdf-miss")
                 except RepositoryError as e:
                     pmcid_error = str(e)
                     stream_notes.append("no_pmcid")
                 except requests.HTTPError as e:
                     code = e.response.status_code if e.response is not None else 500
                     last_http = code
-                    if code >= 500 or code in (403, 429):
-                        board.disable(
-                            STREAM_PDF,
-                            reason=f"HTTP {code} on PDF",
-                            status_code=code,
-                        )
-                        stream_notes.append(f"pdf-off:{code}")
-                except requests.RequestException:
+                    board.record_http_error(
+                        STREAM_PDF,
+                        status_code=int(code),
+                        paper_id=stem,
+                        detail="HTTPError on PDF fetch",
+                    )
+                    stream_notes.append(f"pdf-http:{code}")
+                except requests.RequestException as e:
+                    board.record_http_error(
+                        STREAM_PDF,
+                        status_code=0,
+                        paper_id=stem,
+                        detail=f"RequestException: {e}",
+                    )
                     stream_notes.append("pdf-error")
 
             # --- Docling PDF → ``{id}.pdf.xml`` (never overwrite ``{id}.xml``) ---
@@ -577,11 +622,10 @@ class EuropePMCRepository(RepositoryInterface):
             have_pdf = find_pdf(output_dir, stem) is not None
             have_pdf_xml = find_pdf_xml(output_dir, stem) is not None
             if (
-                want_xml
+                use_docling_xml
                 and not have_native_xml
                 and not have_pdf_xml
                 and have_pdf
-                and use_docling_xml
             ):
                 made = maybe_docling_pdf_to_xml(pdf_path, pdf_xml_path)
                 if made is not None:
@@ -594,14 +638,40 @@ class EuropePMCRepository(RepositoryInterface):
             have_xml = have_native_xml or have_pdf_xml
             have_json = find_paper_json(output_dir, stem) is not None
             if not (have_xml or have_pdf or have_json or downloaded_files):
-                if last_http is not None:
-                    raise RepositoryError(
-                        f"No files downloaded for {stem} (HTTP {last_http})",
-                        status_code=int(last_http),
-                    )
+                # Soft outcomes — callers (pipeline) must not abort the job.
                 if pmcid_error:
-                    raise RepositoryError(pmcid_error)
-                raise RepositoryError(f"No files downloaded for {stem}")
+                    return {
+                        "success": False,
+                        "paper_id": stem,
+                        "files": downloaded_files,
+                        "streams": stream_notes or ["no_pmcid"],
+                        "xml": False,
+                        "pdf": False,
+                        "json": False,
+                        "error": pmcid_error,
+                    }
+                if last_http is not None:
+                    return {
+                        "success": False,
+                        "paper_id": stem,
+                        "files": downloaded_files,
+                        "streams": stream_notes,
+                        "xml": False,
+                        "pdf": False,
+                        "json": False,
+                        "error": f"No files downloaded for {stem} (HTTP {last_http})",
+                        "status_code": int(last_http),
+                    }
+                return {
+                    "success": False,
+                    "paper_id": stem,
+                    "files": downloaded_files,
+                    "streams": stream_notes or ["no_files"],
+                    "xml": False,
+                    "pdf": False,
+                    "json": False,
+                    "error": f"No files downloaded for {stem}",
+                }
 
             return {
                 "success": True,

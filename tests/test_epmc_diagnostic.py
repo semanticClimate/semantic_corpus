@@ -61,7 +61,7 @@ def test_diagnostic_all_ok(monkeypatch):
     assert "all streams active" in text.lower() or "Ready" in text
 
 
-def test_xml_500_disables_xml_only_and_continues(monkeypatch):
+def test_xml_500_preflight_keeps_xml_active_and_logs(monkeypatch):
     class SearchOK:
         status_code = 200
 
@@ -88,12 +88,16 @@ def test_xml_500_disables_xml_only_and_continues(monkeypatch):
     diag, board = epmc_preflight(stream=buf, abort=True)
     assert diag.ok  # JSON still up
     assert board.is_active(STREAM_JSON)
-    assert not board.is_active(STREAM_XML)
+    assert board.is_active(STREAM_XML)  # stay on — probe every paper
     assert board.is_active(STREAM_PDF)
+    assert len(board.errors_for(STREAM_XML)) >= 1
     out = buf.getvalue()
-    assert "XML" in out or "xml" in out.lower()
-    assert "Continuing" in out or "PDF" in out
+    assert "XML full text" in out
+    assert "active" in out
+    # Not an alarming "probe 500 — server error" line when stream stays on
+    assert "probe 500" not in out
     assert "Stopped — JSON" not in out
+    assert "sample check" in out.lower() or "Ready" in out
 
 
 def test_json_down_aborts(monkeypatch):

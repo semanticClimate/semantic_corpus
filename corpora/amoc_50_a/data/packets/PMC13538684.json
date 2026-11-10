@@ -1,0 +1,142 @@
+{
+  "pmcid": "PMC13538684",
+  "pmid": "42686766",
+  "title": "Regime shifts of AMOC-sea surface temperature relationship.",
+  "abstract": "The Atlantic Meridional Overturning Circulation (AMOC) plays critical roles in regulating climate, and subpolar North Atlantic sea-surface temperature (SST) patterns are widely used to infer changes in its strength. Yet the stationarity of their relationship remains unclear. Here, using Community Earth System Model simulations spanning various climate states and a multi-model ensemble, we show that this relationship is state-dependent. We identify three distinct regimes: strong AMOC with the typical dipole fingerprint; intermediate AMOC with amplified subpolar SST anomalies; and weak AMOC with muted North Atlantic signals. These regimes arise primarily from changes in atmospheric radiative processes, while ocean processes contribute indirectly through air-sea interactions. The year of peak AMOC-SST sensitivity emerges as a predictor of the transition into the weak-AMOC regime and associated decay of the North Atlantic warming hole, offering a physically-based constraint on model uncertainties in climate projections. Our findings also imply that SST-based AMOC indicators must account for state dependence.",
+  "authors": [
+    {
+      "fullName": "Fan Y",
+      "lastName": "Fan",
+      "firstName": "Yifei",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Meteorology and Atmospheric Science, Pennsylvania State University, University Park, State College, PA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Chan D",
+      "lastName": "Chan",
+      "firstName": "Duo",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8573-5115"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Ocean and Earth Science, University of Southampton, Southampton, Hampshire, UK. Duo.Chan@soton.ac.uk."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Danabasoglu G",
+      "lastName": "Danabasoglu",
+      "firstName": "Gokhan",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4676-2732"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Science Foundation National Center for Atmospheric Research, Boulder, CO, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kim WM",
+      "lastName": "Kim",
+      "firstName": "Who M",
+      "initials": "WM",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5754-9852"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "National Science Foundation National Center for Atmospheric Research, Boulder, CO, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang P",
+      "lastName": "Zhang",
+      "firstName": "Pengfei",
+      "initials": "P",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-3562-9717"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Physical Oceanography/College of Oceanic and Atmospheric Science, Ocean University of China, Qingdao, China. zpengfei1006@gmail.com."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li L",
+      "lastName": "Li",
+      "firstName": "Laifang",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6721-9002"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Meteorology and Atmospheric Science, Pennsylvania State University, University Park, State College, PA, USA. lfl5240@psu.edu."
+          },
+          {
+            "affiliation": "Institute of Computational and Data Sciences, Pennsylvania State University, University Park, State College, PA, USA. lfl5240@psu.edu."
+          },
+          {
+            "affiliation": "Earth and Environmental Systems Institute, Pennsylvania State University, University Park, State College, PA, USA. lfl5240@psu.edu."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-08-05",
+  "journal": "",
+  "doi": "10.1038/s41467-026-76149-4",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41467-026-76149-4"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13538684"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13538684?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13538684",
+  "_collect_xml": "ok"
+}

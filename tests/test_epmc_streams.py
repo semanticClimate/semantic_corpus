@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from unittest.mock import MagicMock
 
@@ -21,7 +22,7 @@ _GOOD_PDF = b"%PDF-1.4\n" + (b"0" * 80)
 _GOOD_XML = b'<?xml version="1.0"?><article><body><p>ok</p></body></article>'
 
 
-def test_xml_500_disables_xml_stream_only(tmp_path: Path, monkeypatch):
+def test_xml_500_is_logged_stream_stays_active(tmp_path: Path, monkeypatch):
     board = EpmcStreamBoard()
     paper = {"pmcid": "PMC1", "title": "T", "abstract": "Abs"}
 
@@ -63,20 +64,79 @@ def test_xml_500_disables_xml_stream_only(tmp_path: Path, monkeypatch):
         use_docling_xml=True,
     )
     assert result["success"] is True
-    assert not board.is_active(STREAM_XML)
+    # Stream stays on so later papers are still probed; error is logged.
+    assert board.is_active(STREAM_XML)
     assert board.is_active(STREAM_PDF)
-    assert (tmp_path / "PMC1.pdf").is_file()
-    assert (tmp_path / "PMC1.json").is_file()
-    # Docling synthesized XML after XML stream died → ``{id}.pdf.xml``
-    assert (tmp_path / "PMC1.pdf.xml").is_file()
-    assert not (tmp_path / "PMC1.xml").is_file()
+    assert len(board.errors_for(STREAM_XML)) == 1
+    assert board.errors_for(STREAM_XML)[0].status_code == 500
+    assert board.errors_for(STREAM_XML)[0].paper_id == "PMC1"
+    pkt = tmp_path / "data" / "packets"
+    assert (pkt / "PMC1.pdf").is_file()
+    assert (pkt / "PMC1.json").is_file()
+    assert (pkt / "PMC1.pdf.xml").is_file()
+    assert not (pkt / "PMC1.xml").is_file()
     assert "xml-from-pdf" in (result.get("streams") or [])
 
 
+def test_xml_500s_accumulate_across_papers(tmp_path: Path, monkeypatch):
+    board = EpmcStreamBoard()
+
+    class FakeResponse:
+        status_code = 500
+        content = _ERROR_JSON
+
+        def raise_for_status(self) -> None:
+            err = requests.HTTPError("500 Server Error")
+            err.response = self
+            raise err
+
+    monkeypatch.setattr(
+        "semantic_corpus.repositories.europe_pmc.requests.get",
+        lambda *a, **k: FakeResponse(),
+    )
+    repo = EuropePMCRepository()
+    for pmc in ("PMC1", "PMC2", "PMC3"):
+        repo.download_paper(
+            pmc,
+            tmp_path,
+            formats=["xml"],
+            paper={"pmcid": pmc, "abstract": "a"},
+            streams=board,
+            use_docling_xml=False,
+        )
+    assert board.is_active(STREAM_XML)
+    assert len(board.errors_for(STREAM_XML)) == 3
+    assert board.format_status_counts() == "500(3)"
+    assert board.format_status_counts(STREAM_XML) == "500(3)"
+    panel = board.format_panel(final=True)
+    assert "Finished" in panel
+    assert "500(3)" in panel
+    assert "Continuing" not in panel
+    report = board.write_error_report(tmp_path / "pipeline" / "epmc_http_errors.json")
+    data = json.loads(report.read_text(encoding="utf-8"))
+    assert data["error_counts"]["xml"] == 3
+    assert data["error_counts_by_status"] == {"500": 3}
+    assert {e["paper_id"] for e in data["http_errors"]} == {"PMC1", "PMC2", "PMC3"}
+
+
+def test_format_status_counts_mixed():
+    board = EpmcStreamBoard()
+    board.record_http_error(STREAM_XML, status_code=500, paper_id="a")
+    board.record_http_error(STREAM_XML, status_code=500, paper_id="b")
+    board.record_http_error(STREAM_XML, status_code=403, paper_id="c")
+    board.record_http_error(STREAM_PDF, status_code=403, paper_id="d")
+    board.record_http_error(STREAM_PDF, status_code=404, paper_id="e")
+    assert board.format_status_counts() == "403(2), 404(1), 500(2)"
+    assert board.format_status_counts(STREAM_XML) == "403(1), 500(2)"
+    assert "HTTP 403(1), 500(2)" in board.format_panel(final=True)
+
+
 def test_skip_existing_xml_and_pdf_no_network(tmp_path: Path, monkeypatch):
-    (tmp_path / "PMC9.xml").write_bytes(_GOOD_XML)
-    (tmp_path / "PMC9.pdf").write_bytes(_GOOD_PDF)
-    (tmp_path / "PMC9.json").write_text(
+    pkt = tmp_path / "data" / "packets"
+    pkt.mkdir(parents=True)
+    (pkt / "PMC9.xml").write_bytes(_GOOD_XML)
+    (pkt / "PMC9.pdf").write_bytes(_GOOD_PDF)
+    (pkt / "PMC9.json").write_text(
         '{"pmcid":"PMC9","abstract":"x"}', encoding="utf-8"
     )
 

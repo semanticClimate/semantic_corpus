@@ -1,0 +1,263 @@
+{
+  "written_at": "2026-11-09T18:29:43.559527+00:00",
+  "streams": {
+    "json": {
+      "active": true,
+      "reason": "",
+      "status_code": null
+    },
+    "xml": {
+      "active": true,
+      "reason": "",
+      "status_code": null
+    },
+    "pdf": {
+      "active": true,
+      "reason": "",
+      "status_code": null
+    }
+  },
+  "error_counts": {
+    "json": 0,
+    "xml": 29,
+    "pdf": 0
+  },
+  "error_counts_by_status": {
+    "200": 28,
+    "500": 1
+  },
+  "http_errors": [
+    {
+      "stream": "xml",
+      "status_code": 500,
+      "paper_id": "(preflight)",
+      "url": "",
+      "detail": "server error on Europe PMC (not your query)",
+      "at": "2026-11-09T18:26:23.713892+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13598196",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13598196/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:26:26.998496+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13538684",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13538684/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:26:51.325653+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13620149",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13620149/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:26:59.748101+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13448930",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448930/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:00.620002+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13478603",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13478603/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:01.705934+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13473526",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13473526/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:10.596513+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13488926",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13488926/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:20.949236+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13381650",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13381650/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:24.361893+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13342563",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13342563/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:37.946071+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13319204",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13319204/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:38.685490+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13392445",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13392445/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:53.001568+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13060603",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13060603/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:27:54.411645+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13398485",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13398485/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:04.481697+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC12945690",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12945690/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:06.528344+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13598196",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13598196/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:07.178465+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13538684",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13538684/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:07.650943+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13620149",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13620149/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:12.238253+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13448930",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13448930/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:23.356606+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13478603",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13478603/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:31.331424+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13473526",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13473526/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:28:44.842288+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13488926",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13488926/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:05.072641+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13381650",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13381650/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:05.553720+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13342563",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13342563/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:25.906256+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13319204",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13319204/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:32.575796+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13392445",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13392445/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:33.049032+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13060603",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13060603/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:33.594587+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC13398485",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13398485/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:42.774581+00:00"
+    },
+    {
+      "stream": "xml",
+      "status_code": 200,
+      "paper_id": "PMC12945690",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12945690/fullTextXML",
+      "detail": "non-XML body / server error JSON on fullTextXML",
+      "at": "2026-11-09T18:29:43.552632+00:00"
+    }
+  ]
+}

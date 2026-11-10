@@ -56,9 +56,10 @@ class TestFulltextXmlGuards:
             lambda self, *a, **k: None,
         )
         repo = EuropePMCRepository()
-        with pytest.raises(RepositoryError, match="HTTP 500") as ei:
-            repo.download_paper("PMC1", tmp_path, formats=["xml"])
-        assert ei.value.status_code == 500
+        result = repo.download_paper("PMC1", tmp_path, formats=["xml"])
+        assert result.get("success") is False
+        assert result.get("status_code") == 500
+        assert list(tmp_path.rglob("*.xml")) == []
 
     def test_download_reports_http_500(self, tmp_path, monkeypatch) -> None:
         class FakeResponse:
@@ -81,9 +82,11 @@ class TestFulltextXmlGuards:
             lambda self, *a, **k: None,
         )
         repo = EuropePMCRepository()
-        with pytest.raises(RepositoryError, match="HTTP 500") as ei:
-            repo.download_paper("PMC13538684", tmp_path, formats=["xml"])
-        assert ei.value.status_code == 500
+        result = repo.download_paper("PMC13538684", tmp_path, formats=["xml"])
+        assert result.get("success") is False
+        assert result.get("status_code") == 500
+        assert "500" in str(result.get("error") or "")
+        assert list(tmp_path.rglob("*.xml")) == []
 
 
 class TestInterpretEpmcError:

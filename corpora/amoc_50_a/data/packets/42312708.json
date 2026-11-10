@@ -1,0 +1,101 @@
+{
+  "pmcid": "",
+  "pmid": "42312708",
+  "title": "Global stability of the Atlantic overturning circulation: edge state, long transients and boundary crisis under CO2 forcing.",
+  "abstract": "The Atlantic Meridional Overturning Circulation (AMOC), a major ocean current system, could transition to a weak state. Despite severe associated climate impacts, assessing the AMOC's response under global warming and its proximity to possible critical thresholds remains difficult. To understand future Earth system stability, a global dynamical view is needed beyond the local stability analysis associated with classical early-warning methods. Using an intermediate-complexity climate model, we explore the stability landscape of the AMOC for different atmospheric CO2 concentrations. We explicitly compute the edge state (or Melancholia state), a chaotic saddle on the basin boundary separating the strong and weak AMOC attractors found in the model. Despite being unstable, the edge state can govern the transient climate for centuries, supporting centennial AMOC oscillations driven by atmosphere-ice-ocean interactions in the North Atlantic. At increased CO2 levels projected for the near future, we reveal a boundary crisis where the current AMOC attractor disappears by colliding with the edge state. Under crisis overshoot, long chaotic transients owing to a 'ghost state' lead to ensemble splitting under time-varying forcing. Rooted in dynamical systems theory, our results offer an explanation of large ensemble variance and apparent 'stochastic bifurcations' observed in earth system models under intermediate forcing scenarios. This article is part of the theme issue 'Critical transitions and intelligent control in complex systems'.",
+  "authors": [
+    {
+      "fullName": "Börner R",
+      "lastName": "Börner",
+      "firstName": "Reyk",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-4593-7721"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Mathematics and Statistics, University of Reading, Reading, UK."
+          },
+          {
+            "affiliation": "Institute for Marine and Atmospheric Research Utrecht, Utrecht University , Utrecht, The Netherlands."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Mehling O",
+      "lastName": "Mehling",
+      "firstName": "Oliver",
+      "initials": "O",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4338-218X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute for Marine and Atmospheric Research Utrecht, Utrecht University , Utrecht, The Netherlands."
+          },
+          {
+            "affiliation": "Department of Environment, Land and Infrastructure Engineering, Politecnico di Torino, Torino, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "von Hardenberg J",
+      "lastName": "von Hardenberg",
+      "firstName": "Jost",
+      "initials": "J",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5312-8070"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Environment, Land and Infrastructure Engineering, Politecnico di Torino, Torino, Italy."
+          },
+          {
+            "affiliation": "Institute of Atmospheric Sciences and Climate, Consiglio Nazionale delle Ricerche , Torino, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Lucarini V",
+      "lastName": "Lucarini",
+      "firstName": "Valerio",
+      "initials": "V",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9392-1471"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Computing and Mathematical Sciences, University of Leicester , Leicester, UK."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-06-01",
+  "journal": "",
+  "doi": "10.1098/rsta.2025.0087",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1098/rsta.2025.0087"
+    }
+  ],
+  "has_pdf": "N",
+  "is_open_access": "N",
+  "paper_id": "42312708",
+  "_collect_xml": "no_pmcid"
+}

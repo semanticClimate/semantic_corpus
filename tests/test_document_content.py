@@ -36,6 +36,19 @@ def test_looks_like_rejects_error_json():
     assert looks_like_fulltext_xml(_GOOD_XML) is True
 
 
+def test_looks_like_accepts_jats_doctype_article():
+    """EPMC often omits <?xml …?> and leads with <!DOCTYPE article …>."""
+    jats = (
+        b"\n<!DOCTYPE article\n  PUBLIC \"-//NLM//DTD JATS "
+        b"(Z39.96) Journal Archiving and Interchange DTD with MathML3 "
+        b'v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">\n'
+        b'<article article-type="research-article"><body><p>x</p></body></article>'
+    )
+    assert looks_like_fulltext_xml(jats) is True
+    assert looks_like_fulltext_xml(b"<!DOCTYPE html><html><body>x</body></html>") is False
+    assert looks_like_fulltext_xml(b"<html><body>x</body></html>") is False
+
+
 def test_safe_write_refuses_error_stub(tmp_path: Path):
     dest = tmp_path / "PMC1.xml"
     assert safe_write_document(dest, _ERROR_JSON, fmt="xml") is False
@@ -98,8 +111,10 @@ def test_download_does_not_create_files_on_500(tmp_path: Path, monkeypatch):
         lambda self, *a, **k: None,
     )
     repo = EuropePMCRepository()
-    with pytest.raises(RepositoryError, match="HTTP 500"):
-        repo.download_paper("PMC1", tmp_path, formats=["xml"])
+    result = repo.download_paper("PMC1", tmp_path, formats=["xml"])
+    assert result.get("success") is False
+    assert result.get("status_code") == 500
+    assert "500" in str(result.get("error") or "")
     assert list(tmp_path.rglob("*.xml")) == []
     assert list(tmp_path.rglob("*.pdf")) == []
 
@@ -145,7 +160,44 @@ def test_download_purges_stub_and_does_not_rewrite_error(tmp_path: Path, monkeyp
         lambda self, *a, **k: None,
     )
     repo = EuropePMCRepository()
-    with pytest.raises(RepositoryError, match="HTTP 500"):
-        repo.download_paper("PMC1", tmp_path, formats=["xml"])
+    result = repo.download_paper("PMC1", tmp_path, formats=["xml"])
+    assert result.get("success") is False
+    assert result.get("status_code") == 500
     assert not stub.exists()
     assert list(tmp_path.rglob("*.xml")) == []
+
+
+def test_download_saves_jats_doctype_article(tmp_path: Path, monkeypatch):
+    jats = (
+        b'<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96)//EN" "JATS.dtd">\n'
+        b'<article><body><p>full text</p></body></article>'
+    )
+
+    class FakeResponse:
+        status_code = 200
+        content = jats
+
+        def raise_for_status(self) -> None:
+            return None
+
+    monkeypatch.setattr(
+        "semantic_corpus.repositories.europe_pmc.requests.get",
+        lambda *a, **k: FakeResponse(),
+    )
+    from semantic_corpus.repositories.epmc_streams import EpmcStreamBoard
+
+    board = EpmcStreamBoard()
+    repo = EuropePMCRepository()
+    result = repo.download_paper(
+        "PMC9",
+        tmp_path,
+        formats=["xml"],
+        paper={"pmcid": "PMC9", "abstract": "a"},
+        streams=board,
+        use_docling_xml=False,
+    )
+    assert result.get("success") is True
+    assert board.http_errors == []
+    saved = list(tmp_path.rglob("PMC9.xml"))
+    assert len(saved) == 1
+    assert b"<!DOCTYPE article" in saved[0].read_bytes()

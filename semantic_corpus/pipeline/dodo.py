@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from semantic_corpus.pipeline.actions import is_step_current, run_paper, run_step
 from semantic_corpus.pipeline.config import get_from_mode, get_workdir
+from semantic_corpus.pipeline.doit_reporter import PipelineReporter
 from semantic_corpus.pipeline.placeholders import doit_db_path, stamp_path
 from semantic_corpus.pipeline.steps import (
     STEP_DOCS,
@@ -29,6 +30,8 @@ def _dep_file() -> str:
 DOIT_CONFIG = {
     "dep_file": _dep_file(),
     "verbosity": 1,
+    # . = ran · -- = skipped; paper lines include [ok] / [xml=500] / [no_pmcid]
+    "reporter": PipelineReporter,
 }
 
 
@@ -99,13 +102,15 @@ def task_paper():
 
         yield {
             "name": paper_id,
-            "doc": f"Fetch missing formats for {paper_id} (flat workdir)",
+            "doc": f"Fetch missing formats for {paper_id} (data/packets/)",
             "actions": [(run_paper, [paper_id])],
             "file_dep": [str(results)],
             "task_dep": ["search"],
+            # Soft targets: action may skip (no PMCID) without writing XML
             "targets": targets,
             "uptodate": [_paper_uptodate()],
-            # Keep optional paths discoverable in task meta (not hard targets)
+            # Do not abort the whole pipeline if one paper soft-fails mid-action;
+            # run_paper itself catches RepositoryError. Keep continue on other errors.
             "meta": {"optional_targets": [str(p) for p in optional]},
         }
 

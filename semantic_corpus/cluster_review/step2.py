@@ -668,8 +668,13 @@ build_yake_input_text = build_phrase_input_text
 
 
 def phrases_dir_for_corpus(corpus_dir: Path) -> Path:
-    """Cache directory beside the corpus: ``<corpus_dir>/phrases/``."""
-    return Path(corpus_dir, "phrases")
+    """Phrase caches: prefer ``data/indexes/phrases/``, else legacy ``phrases/``."""
+    corpus_dir = Path(corpus_dir)
+    preferred = Path(corpus_dir, "data", "indexes", "phrases")
+    legacy = Path(corpus_dir, "phrases")
+    if preferred.is_dir() or not legacy.is_dir():
+        return preferred
+    return legacy
 
 
 def phrase_cache_path(phrases_dir: Path, paper_id: str) -> Path:

@@ -28,7 +28,13 @@ TERM_PREFIX = "t:"
 
 
 def clusters_dir_for_corpus(corpus_dir: Path) -> Path:
-    return Path(corpus_dir, "clusters")
+    """Prefer ``data/indexes/clusters/``, else legacy ``clusters/``."""
+    corpus_dir = Path(corpus_dir)
+    preferred = Path(corpus_dir, "data", "indexes", "clusters")
+    legacy = Path(corpus_dir, "clusters")
+    if preferred.is_dir() or not legacy.is_dir():
+        return preferred
+    return legacy
 
 
 def _require_networkx():

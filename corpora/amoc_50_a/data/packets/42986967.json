@@ -1,0 +1,442 @@
+{
+  "pmcid": "",
+  "pmid": "42986967",
+  "title": "Glacial abrupt transitions in ocean circulation were much slower than ice-core records imply.",
+  "abstract": "Dansgaard-Oeschger (DO) events during the last ice age are thought to reflect rapid shifts in the Atlantic Meridional Overturning Circulation (AMOC). Greenland ice cores suggest warming transitions within only a few decades-or even just over 10 years. Using precisely dated speleothem oxygen-isotope records from the Asian monsoon region, we have shown that the same DO warmings unfolded over more than a century. Isotope modeling revealed that Greenland records primarily capture a rapid atmospheric reorganization triggered by the initial sea-ice retreat in the northeastern North Atlantic, whereas the parallel AMOC recovery and hemispheric thermal adjustment proceeded much more slowly. These findings reveal that natural AMOC transitions evolved more slowly than the rapid North Greenland oxygen-isotope shifts would imply, thereby refining our understanding of \"abruptness\" during DO events.",
+  "authors": [
+    {
+      "fullName": "Dong X",
+      "lastName": "Dong",
+      "firstName": "Xiyu",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7611-0244"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang X",
+      "lastName": "Zhang",
+      "firstName": "Xu",
+      "initials": "X",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1833-9689"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Ice Dynamics and Palaeoclimate, British Antarctic Survey, Cambridge, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sun Y",
+      "lastName": "Sun",
+      "firstName": "Yuchen",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2449-8718"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kathayat G",
+      "lastName": "Kathayat",
+      "firstName": "Gayatri",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-9333-9385"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li Y",
+      "lastName": "Li",
+      "firstName": "Youwei",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-9446-1371"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Mountain Resources, Guizhou Academy of Sciences, Guiyang, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Rasmussen SO",
+      "lastName": "Rasmussen",
+      "firstName": "Sune O",
+      "initials": "SO",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4177-3611"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Svensson A",
+      "lastName": "Svensson",
+      "firstName": "Anders",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4364-6085"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Buizert C",
+      "lastName": "Buizert",
+      "firstName": "Christo",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2227-1747"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "College of Earth, Ocean and Atmospheric Sciences, Oregon State University, Corvallis, OR, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Sinha A",
+      "lastName": "Sinha",
+      "firstName": "Ashish",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-5700-2451"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          },
+          {
+            "affiliation": "Department of Earth Science, California State University, Carson, CA, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Barker S",
+      "lastName": "Barker",
+      "firstName": "Stephen",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-7870-6431"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Earth and Environmental Sciences, Cardiff University, Cardiff, UK."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Pérez-Mejías C",
+      "lastName": "Pérez-Mejías",
+      "firstName": "Carlos",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8370-9271"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Knorr G",
+      "lastName": "Knorr",
+      "firstName": "Gregor",
+      "initials": "G",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-8317-5046"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Chen R",
+      "lastName": "Chen",
+      "firstName": "Rishui",
+      "initials": "R",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0008-2951-7018"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhao K",
+      "lastName": "Zhao",
+      "firstName": "Kan",
+      "initials": "K",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography, Nanjing Normal University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Du W",
+      "lastName": "Du",
+      "firstName": "Wenjing",
+      "initials": "W",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang H",
+      "lastName": "Zhang",
+      "firstName": "Haiwei",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0855-1283"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Li H",
+      "lastName": "Li",
+      "firstName": "Hanying",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7915-9828"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Columbu A",
+      "lastName": "Columbu",
+      "firstName": "Andrea",
+      "initials": "A",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "University of Pisa, Department of Earth Sciences, Pisa, Italy."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Tan L",
+      "lastName": "Tan",
+      "firstName": "Liangcheng",
+      "initials": "L",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0003-1932-7102"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Zhang Y",
+      "lastName": "Zhang",
+      "firstName": "Yuao",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0009-0001-1637-634X"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESRE), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Ning Y",
+      "lastName": "Ning",
+      "firstName": "Youfeng",
+      "initials": "Y",
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Werner M",
+      "lastName": "Werner",
+      "firstName": "Martin",
+      "initials": "M",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-6473-0243"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Bremerhaven, Germany."
+          },
+          {
+            "affiliation": "Faculty of Physics and Electrical Engineering, University of Bremen, Bremen, Germany."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Wang Y",
+      "lastName": "Wang",
+      "firstName": "Yongjin",
+      "initials": "Y",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-6021-2724"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "School of Geography, Nanjing Normal University, Nanjing, China."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Edwards RL",
+      "lastName": "Edwards",
+      "firstName": "R Lawrence",
+      "initials": "RL",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7027-5881"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Department of Earth and Environmental Sciences, University of Minnesota, Minneapolis, MN, USA."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Cheng H",
+      "lastName": "Cheng",
+      "firstName": "Hai",
+      "initials": "H",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-5305-9458"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+          },
+          {
+            "affiliation": "Yunnan Key Laboratory of Plateau Geographical Processes & Environmental Changes, Faculty of Geography, Yunnan Normal University, Kunming, China."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-11-05",
+  "journal": "",
+  "doi": "10.1126/science.aed4270",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/science.aed4270"
+    }
+  ],
+  "has_pdf": "N",
+  "is_open_access": "N",
+  "paper_id": "42986967",
+  "_collect_xml": "no_pmcid"
+}

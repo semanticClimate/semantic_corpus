@@ -237,31 +237,65 @@ def _probe_pdf(pmcid: str = _PROBE_PMCID) -> ProbeResult:
 
 
 def run_epmc_diagnostic() -> EpmcDiagnostic:
-    """Probe JSON / XML / PDF streams independently."""
+    """Probe JSON / XML / PDF streams independently.
+
+    Only **JSON/search** failures disable that stream for the job. XML/PDF
+    probe failures are logged on the board but those streams stay **active**
+    so collect can still probe every paper and accumulate 5xx evidence.
+    """
     probes = [_probe_json_search(), _probe_xml(), _probe_pdf()]
     board = EpmcStreamBoard()
     for probe in probes:
-        if not probe.ok:
+        if probe.ok:
+            continue
+        if probe.name == STREAM_JSON:
             board.disable(
                 probe.name,
                 reason=probe.guide.meaning,
                 status_code=probe.status_code,
             )
+        else:
+            board.record_http_error(
+                probe.name,
+                status_code=int(probe.status_code or 0),
+                paper_id="(preflight)",
+                detail=probe.guide.meaning,
+            )
     return EpmcDiagnostic(probes=probes, board=board)
 
 
 def format_epmc_diagnostic(diag: EpmcDiagnostic) -> str:
-    """Compact multi-line report for terminals."""
+    """Compact multi-line report for terminals.
+
+    XML/PDF stay **active** for the job even if a one-shot preflight sample
+    returned 5xx (EPMC can be intermittent per PMCID). Only JSON down is fatal.
+    """
     labels = {
         STREAM_JSON: "JSON search",
         STREAM_XML: "XML full text",
         STREAM_PDF: "PDF",
     }
     lines: List[str] = ["┌─ Europe PMC streams"]
+    sample_notes: List[str] = []
     for probe in diag.probes:
         label = labels.get(probe.name, probe.name)
-        if probe.ok:
+        if probe.name == STREAM_JSON:
+            if probe.ok:
+                lines.append(f"│ {label:<14} active")
+            else:
+                g = probe.guide
+                lines.append(f"│ {label:<14} off {g.code_label} — {g.meaning}")
+                lines.append(f"│                → {g.advice}")
+            continue
+
+        # XML / PDF: show active if the job will still use the stream.
+        if diag.board.is_active(probe.name):
             lines.append(f"│ {label:<14} active")
+            if not probe.ok and probe.status_code:
+                sample_notes.append(
+                    f"{label} sample check HTTP {probe.status_code} "
+                    f"(intermittent; each paper still tried)"
+                )
         else:
             g = probe.guide
             lines.append(f"│ {label:<14} off {g.code_label} — {g.meaning}")
@@ -270,12 +304,13 @@ def format_epmc_diagnostic(diag: EpmcDiagnostic) -> str:
     lines.append("│")
     if not diag.board.is_active(STREAM_JSON):
         lines.append("│ Stopped — JSON/search is required to collect.")
-    elif diag.all_streams_ok:
-        lines.append("│ Ready — all streams active.")
     else:
-        lines.append("│ Continuing with active streams only.")
-        if not diag.board.is_active(STREAM_XML) and diag.board.is_active(STREAM_PDF):
-            lines.append("│ XML off → PDF (+ Docling → XML) when possible.")
+        lines.append(
+            "│ Ready — collect will try each paper; "
+            "HTTP status tallies (e.g. 500(3)) are logged."
+        )
+        for note in sample_notes:
+            lines.append(f"│ Note: {note}")
     lines.append("└─")
     return "\n".join(lines)
 
@@ -300,8 +335,8 @@ def epmc_preflight(
 ) -> Tuple[EpmcDiagnostic, EpmcStreamBoard]:
     """Run stream diagnostic before a job.
 
-    Aborts only when the **JSON/search** stream is down. XML/PDF 500s disable
-    those streams and the job continues.
+    Aborts only when the **JSON/search** stream is down. XML/PDF probe failures
+    are logged but those streams stay active for per-paper probing.
     """
     diag = print_epmc_diagnostic(stream=stream)
     if abort and not diag.board.is_active(STREAM_JSON):

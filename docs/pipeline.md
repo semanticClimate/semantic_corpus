@@ -1,8 +1,9 @@
 # Pipeline CLI (`pipeline`)
 
 **Date:** 2026-11-03  
-**Status:** CLI + doit orchestration live; **`collect` / `corpus` / `phrases` / `clusters` / `encyclopedia` / `kg` are real**; `pdfs` / `clean` / `--source` still placeholders or partial.  
-**Examples:** [pipeline_examples.md](pipeline_examples.md) · **Tutorial:** [tutorials/kg_from_query.md](tutorials/kg_from_query.md)  
+**Status:** CLI + doit orchestration live; **`search` / `collect` / `corpus` / `phrases` / `pdfs` / `clusters` / `encyclopedia` / `kg` are real**; `clean` / `--source` still placeholders or partial.  
+**Layout:** [bagit_structure.md](bagit_structure.md) · **Examples:** [pipeline_examples.md](pipeline_examples.md)  
+**Tutorials:** [resume + lazy PDFs](tutorials/pipeline_epmc_resume.md) · [lazy PDFs](tutorials/lazy_pdfs.md) · [KG from query](tutorials/kg_from_query.md)  
 **Next:** [pipeline_encyclopedia.md](pipeline_encyclopedia.md) · [pipeline_next_encyclopedia_kg.md](pipeline_next_encyclopedia_kg.md)  
 **Related:** [pipeline_design.md](pipeline_design.md) · [pipeline_make_doit.md](pipeline_make_doit.md) · [cluster_filtering_workflow.md](cluster_filtering_workflow.md)
 
@@ -69,10 +70,10 @@ pipeline --workdir corpora/amoc_insolation_20 \
 | Step | Design role | Implementation today |
 |------|-------------|----------------------|
 | `search` | Hit list only | `query.json` + `search_results.json` |
-| `collect` | Per-paper flat files | Dynamic `paper:{id}` + skip-if-exists; `--source` placeholder |
-| `corpus` | Corpus gate **+** packet indexes | Flat or BAGIT load + `packets/manifest.json` |
-| `phrases` | Traverse indexed texts → terms | Real (`step2`) |
-| `pdfs` | Fill PDFs (parallel) | Placeholder |
+| `collect` | Per-paper JSON+XML | `data/packets/`; resume; no PDF; `--source` placeholder |
+| `corpus` | Corpus gate **+** packet indexes | BagIt/packets load + `data/indexes/packets.json` |
+| `phrases` | Traverse indexed texts → terms | Real (`step2` → `data/indexes/phrases/`) |
+| `pdfs` | Lazy PDF fill | Real; `--paper-id` for one paper; optional Docling |
 | `clusters` | Map (BKG); optional **KG₁** (`--kg`) | Real (`step3` + optional `build_kg`) |
 | `clean` | Curate graph FPs before annotate | Placeholder; depends on `clusters` |
 | `encyclopedia` | Annotate retained terms; optional **KG₂** (`--kg`) | Real; depends on `clean` |
@@ -93,46 +94,40 @@ pipeline graph --from existing
 
 ## 3. `--workdir` layout (where results go)
 
-Everything lives **flat under ``--workdir``** (no ``downloads/``, no ``temp/queries/``,
-no ``data/documents/{fmt}/`` nesting for new collects). Filenames encode type and
-transform history (left → right):
+`--workdir` is a **BagIt bag root**. Packet bytes live under ``data/packets/``;
+reduce products under ``data/indexes/``. Filenames encode type and transform
+history (left → right). Full contract: [bagit_structure.md](bagit_structure.md).
 
 | Pattern | Meaning |
 |---------|---------|
 | `{id}.json` | Metadata / abstract (JSON stream) |
 | `{id}.xml` | Publisher / EPMC fullTextXML |
-| `{id}.pdf` | Native PDF |
+| `{id}.pdf` | Native PDF (**lazy**; usually gitignored) |
 | `{id}.pdf.xml` | Docling: PDF → XML |
 | `{id}.pdf.html` | Docling: PDF → HTML (optional) |
 
 For `--workdir corpora/amoc_insolation_20`:
 
 ```text
-corpora/amoc_insolation_20/          # --workdir (flat corpus root)
-  query.json                         # query string, limit, repository
-  search_results.json                # EPMC hit list
-  PMC12345.json                      # paper metadata / abstract
-  PMC12345.pdf
-  PMC12345.xml                       # native EPMC XML when stream works
-  PMC12345.pdf.xml                   # Docling from PDF when XML stream fails
-  phrases/                           # from --target phrases|clusters
-    index.json
-    …
-  clusters/
-    clusters.json
-    orphans.json
-    graph_summary.json
-  packets/
-    manifest.json
-  pipeline/                          # step stamps + doit DB
-    search.stamp
-    collect.stamp
-    corpus.stamp
-    …
-    doit.db
+corpora/amoc_insolation_20/          # --workdir = bag root
+  bagit.txt
+  query.json
+  search_results.json
+  corpus.json
+  pipeline/                          # stamps + doit.db
+  data/
+    packets/                         # MAP
+      PMC12345.json
+      PMC12345.xml
+      PMC12345.pdf                   # optional / lazy
+      PMC12345.pdf.xml
+    indexes/                         # REDUCE
+      packets.json
+      phrases/
+      clusters/
 ```
 
-Legacy BAGIT corpora (`bagit.txt` + `data/documents/…`) still load; new harvests are flat.
+**Collect** fetches JSON+XML only. **`pdfs`** fills PDFs later (`--paper-id` for one paper).
 
 **Packet text cascade:** prefer `{id}.xml`, else `{id}.pdf.xml`, else abstract in `{id}.json`.
 
@@ -141,11 +136,11 @@ Legacy BAGIT corpora (`bagit.txt` + `data/documents/…`) still load; new harves
 | Layer | Mechanism |
 |-------|-----------|
 | Per file | Valid target exists → skip that format (never overwrite) |
-| Per paper | `paper:{id}` uptodate when `{id}.json` + usable text (xml / pdf.xml / abstract) |
-| Per step | Stamp + artifact checks (`phrases/`, `clusters/`, …) |
-| Interrupt | Ctrl-C leaves written files; re-run regenerates only missing work |
+| Per paper (collect) | Done when `{id}.json` + XML/pdf.xml, or recorded `_collect_xml` miss |
+| Per paper (pdfs) | Skip if valid `{id}.pdf` exists |
+| Interrupt | Ctrl-C leaves written files; re-run continues from the next incomplete paper |
 
-Doit graph: `search` → dynamic `paper:{id}` → `collect` → `corpus` → `phrases` → …
+Doit graph: `search` → `paper:{id}` → `collect` → `corpus` → `phrases` → …; `pdfs` parallel after `corpus`.
 
 ---
 
@@ -157,6 +152,9 @@ Like Make/doit: if stamps and key artifacts are already current, steps are **ski
 |--------|---------|
 | `.  collect` | Ran this time |
 | `-- collect` | Skipped (up to date) |
+| `.  paper:PMC…  [ok]` | Fetched this run (XML ok) |
+| `.  paper:PMC…  [xml=500]` | Tried this run; Europe PMC returned HTTP 500 |
+| `-- paper:4287…  [no_pmcid]` | Skipped; PMID-only (metadata already saved) |
 
 A second `pipeline … --target clusters` on the same `--workdir` will often finish in a few seconds and **not** re-query Europe PMC. That is intentional.
 

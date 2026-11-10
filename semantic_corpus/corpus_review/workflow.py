@@ -158,7 +158,20 @@ def run_repository_search(
             continue
 
     if stream_board is not None:
-        print_stream_board(stream_board)
+        print_stream_board(stream_board, final=True)
+        try:
+            report = stream_board.write_error_report(
+                Path(output_dir) / "pipeline" / "epmc_http_errors.json"
+            )
+            tally = stream_board.format_status_counts() or "none"
+            print(
+                f"[epmc] HTTP errors {tally} → {report} "
+                f"(total={len(stream_board.http_errors)})",
+                file=sys.stderr,
+                flush=True,
+            )
+        except Exception:
+            pass
 
     if on_paper is None:
         if report_ids and skipped_labels:

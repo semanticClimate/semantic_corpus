@@ -33,10 +33,135 @@ def _stamp(step: str, extra: Optional[Dict[str, Any]] = None) -> Path:
 
 
 def _workdir_paths():
-    """Flat corpus root: all paper files live directly under ``--workdir``."""
+    """Corpus bag root (``--workdir``); packet bytes under ``data/packets/``."""
     opts = options_from_env()
     workdir = opts.workdir
     return workdir, workdir.name
+
+
+def _paper_meta_from_search(workdir: Path, stem: str) -> Dict[str, Any]:
+    from semantic_corpus.pipeline.flat_corpus import (
+        load_paper_json,
+        paper_stem,
+        path_search_results,
+    )
+
+    paper_meta = load_paper_json(workdir, stem)
+    if paper_meta:
+        return paper_meta
+    results_path = path_search_results(workdir)
+    if not results_path.is_file():
+        return {}
+    import json
+
+    rows = json.loads(results_path.read_text(encoding="utf-8"))
+    stem_u = str(stem).strip().upper()
+    for row in rows if isinstance(rows, list) else []:
+        if not isinstance(row, dict):
+            continue
+        candidates = (
+            row.get("pmcid"),
+            row.get("paper_id"),
+            row.get("pmid"),
+            row.get("id"),
+        )
+        for raw in candidates:
+            if not raw:
+                continue
+            if paper_stem(str(raw)) == stem or str(raw).strip().upper() == stem_u:
+                return row
+    return {}
+
+
+def _mark_xml_status(
+    workdir: Path,
+    stem: str,
+    status: str,
+    *,
+    http_status: Optional[int] = None,
+) -> None:
+    """Record XML outcome on ``{id}.json`` so resume can stop retrying forever."""
+    import json
+
+    from semantic_corpus.pipeline.flat_corpus import find_paper_json, path_json
+
+    path = find_paper_json(workdir, stem) or path_json(workdir, stem)
+    if not path.is_file():
+        return
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return
+    if not isinstance(data, dict):
+        return
+    changed = False
+    if data.get("_collect_xml") != status:
+        data["_collect_xml"] = status
+        changed = True
+    if http_status is not None and data.get("_collect_xml_http") != int(http_status):
+        data["_collect_xml_http"] = int(http_status)
+        changed = True
+    if not changed:
+        return
+    path.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+
+
+def _status_label_for_paper_result(result: Dict[str, Any]) -> str:
+    from semantic_corpus.pipeline.doit_reporter import status_label_from_streams
+
+    label = status_label_from_streams(result.get("streams"))
+    if label:
+        return label
+    if result.get("success") and result.get("xml"):
+        return "ok"
+    if result.get("status_code"):
+        return f"xml={result['status_code']}"
+    err = str(result.get("error") or "")
+    if "No PMCID" in err:
+        return "no_pmcid"
+    return "ok" if result.get("success") else "miss"
+
+
+def _record_xml_http(workdir: Path, stem: str, http_status: int) -> None:
+    """Remember last XML HTTP code without marking the paper collect-done."""
+    import json
+
+    from semantic_corpus.pipeline.flat_corpus import find_paper_json, path_json
+
+    path = find_paper_json(workdir, stem) or path_json(workdir, stem)
+    if not path.is_file():
+        return
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return
+    if not isinstance(data, dict):
+        return
+    if data.get("_collect_xml_http") == int(http_status):
+        return
+    data["_collect_xml_http"] = int(http_status)
+    path.write_text(
+        json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+
+
+def _http_code_from_result(result: Dict[str, Any]) -> Optional[int]:
+    code = result.get("status_code")
+    if code is not None:
+        try:
+            return int(code)
+        except (TypeError, ValueError):
+            pass
+    for note in result.get("streams") or []:
+        text = str(note)
+        if text.startswith("xml-http:"):
+            try:
+                return int(text.split(":", 1)[1])
+            except ValueError:
+                return None
+    return None
 
 
 def run_search() -> Dict[str, Any]:
@@ -56,13 +181,15 @@ def run_search() -> Dict[str, Any]:
 
     from semantic_corpus.core.repository_factory import RepositoryFactory
     from semantic_corpus.pipeline.flat_corpus import (
+        ensure_light_bagit,
         path_query,
         path_search_results,
+        write_corpus_json,
         write_json_atomic,
     )
 
     workdir, query_name = _workdir_paths()
-    workdir.mkdir(parents=True, exist_ok=True)
+    ensure_light_bagit(workdir)
     limit = int(opts.limit or DEFAULT_LIMIT)
     repo_name = opts.repository or "europe_pmc"
     print(
@@ -72,9 +199,7 @@ def run_search() -> Dict[str, Any]:
 
     # Search only — no full-text download (papers are fine-grained tasks).
     repo = RepositoryFactory.get_repository(repo_name)
-    results = list(
-        repo.search_papers(query=opts.query, limit=limit) or []
-    )[:limit]
+    results = list(repo.search_papers(query=opts.query, limit=limit) or [])[:limit]
     write_json_atomic(
         path_query(workdir),
         {
@@ -86,6 +211,9 @@ def run_search() -> Dict[str, Any]:
         },
     )
     write_json_atomic(path_search_results(workdir), results)
+    write_corpus_json(
+        workdir, query=opts.query, limit=limit, repository=repo_name
+    )
     _stamp(
         "search",
         {
@@ -102,59 +230,144 @@ def run_search() -> Dict[str, Any]:
     }
 
 
-def run_paper(paper_id: str) -> Dict[str, Any]:
-    """Fetch missing formats for one paper into flat workdir files."""
+def run_paper(
+    paper_id: str,
+    *,
+    formats: Optional[list] = None,
+    use_docling_xml: bool = False,
+    streams: Optional[Any] = None,
+) -> Dict[str, Any]:
+    """Fetch missing formats for one paper into ``data/packets/``.
+
+    Default collect formats are JSON+XML only (no PDF). Pass ``formats=["pdf"]``
+    from the lazy ``pdfs`` step. Pass a shared ``streams`` board from collect so
+    HTTP 5xx are accumulated across papers.
+    """
     if use_placeholders():
         return {"paper_id": paper_id, "status": "placeholder"}
 
     from semantic_corpus.core.repository_factory import RepositoryFactory
     from semantic_corpus.pipeline.flat_corpus import (
-        load_paper_json,
-        paper_done_enough,
+        ensure_light_bagit,
+        find_best_xml,
+        paper_collect_done,
         paper_stem,
-        path_search_results,
     )
-    from semantic_corpus.repositories.epmc_streams import EpmcStreamBoard
+    from semantic_corpus.repositories.epmc_streams import (
+        EpmcStreamBoard,
+        PREFLIGHT_BOARD,
+    )
 
     opts = options_from_env()
     workdir = opts.workdir
+    ensure_light_bagit(workdir)
     stem = paper_stem(paper_id)
-    if paper_done_enough(workdir, stem):
-        # Still try missing natives if any, but treat as success when text exists
-        pass
+    fmt_list = list(formats) if formats is not None else ["xml"]
 
-    # Locate hit metadata from search_results when local JSON missing
-    paper_meta = load_paper_json(workdir, stem)
-    if not paper_meta:
-        results_path = path_search_results(workdir)
-        if results_path.is_file():
-            import json
+    if fmt_list == ["xml"] and paper_collect_done(workdir, stem):
+        return {
+            "success": True,
+            "paper_id": stem,
+            "skipped": True,
+            "streams": ["skip-collect-done"],
+            "status_label": "ok",
+        }
 
-            rows = json.loads(results_path.read_text(encoding="utf-8"))
-            for row in rows if isinstance(rows, list) else []:
-                if not isinstance(row, dict):
-                    continue
-                raw = str(row.get("pmcid") or row.get("paper_id") or "")
-                if paper_stem(raw) == stem:
-                    paper_meta = row
-                    break
-
+    paper_meta = _paper_meta_from_search(workdir, stem)
     repo_name = opts.repository or "europe_pmc"
     repo = RepositoryFactory.get_repository(repo_name)
-    board = EpmcStreamBoard()
-    result = repo.download_paper(
-        stem,
-        workdir,
-        formats=["xml", "pdf"],
-        paper=paper_meta or None,
-        streams=board,
-        use_docling_xml=True,
-    )
+    board = streams
+    if board is None:
+        board = PREFLIGHT_BOARD if isinstance(PREFLIGHT_BOARD, EpmcStreamBoard) else None
+    if board is None:
+        board = EpmcStreamBoard()
+
+    from semantic_corpus.core.exceptions import RepositoryError, SemanticCorpusError
+    from semantic_corpus.repositories.epmc_streams import write_paper_metadata_json
+
+    try:
+        result = repo.download_paper(
+            stem,
+            workdir,
+            formats=fmt_list,
+            paper=paper_meta or None,
+            streams=board,
+            use_docling_xml=use_docling_xml,
+        )
+    except Exception as exc:
+        # Soft-fail: never abort the doit graph for one paper (e.g. PMID-only).
+        meta = dict(paper_meta) if paper_meta else {"paper_id": stem}
+        try:
+            write_paper_metadata_json(workdir, stem, meta)
+        except OSError:
+            pass
+        msg = str(exc)
+        if "No PMCID" in msg or "pmcid" in msg.lower():
+            _mark_xml_status(workdir, stem, "no_pmcid")
+            note = "no_pmcid"
+        else:
+            _mark_xml_status(workdir, stem, "unavailable")
+            note = "error"
+        print(f"[pipeline] paper {stem}: skip — {msg}")
+        return {
+            "success": False,
+            "paper_id": stem,
+            "skipped": True,
+            "error": msg,
+            "streams": [note],
+            "status_label": note,
+        }
+
+    notes = " ".join(str(x) for x in (result.get("streams") or []))
+    # Soft miss: no PMCID (PMID-only) or explicit failure — do not fail the doit task.
+    if (not result.get("success", True)) or ("no_pmcid" in notes):
+        meta = dict(paper_meta) if paper_meta else {"paper_id": stem}
+        try:
+            write_paper_metadata_json(workdir, stem, meta)
+        except OSError:
+            pass
+        err = str(result.get("error") or "no_pmcid" if "no_pmcid" in notes else notes)
+        http_code = _http_code_from_result(result)
+        if "no_pmcid" in notes or "No PMCID" in str(err):
+            _mark_xml_status(workdir, stem, "no_pmcid")
+            err = result.get("error") or "No PMCID (metadata only)"
+            label = "no_pmcid"
+        else:
+            if http_code is not None:
+                _record_xml_http(workdir, stem, int(http_code))
+                label = f"xml={http_code}"
+            else:
+                label = _status_label_for_paper_result(result)
+        print(f"[pipeline] paper {stem}: skip — {err}")
+        out = {
+            "success": False,
+            "paper_id": stem,
+            "skipped": True,
+            "error": err,
+            "streams": result.get("streams") or ["skip"],
+            "status_label": label,
+        }
+        if http_code is not None:
+            out["status_code"] = int(http_code)
+        return out
+
+    if find_best_xml(workdir, stem) is not None:
+        _mark_xml_status(workdir, stem, "ok")
+        result = dict(result)
+        result["status_label"] = "ok"
+        result["xml"] = True
+    else:
+        result = dict(result)
+        http_code = _http_code_from_result(result)
+        if http_code is not None:
+            _record_xml_http(workdir, stem, int(http_code))
+        result.setdefault("status_label", _status_label_for_paper_result(result))
+    # HTTP XML misses stay unmarked as done so resume can retry later.
     return result
 
 
 def run_collect() -> Dict[str, Any]:
-    """Search (if needed) then fetch each paper with skip-if-exists."""
+    """Search (if needed) then fetch JSON+XML per paper (no PDF); resume-friendly."""
     if use_placeholders():
         return run_placeholder("collect")
 
@@ -167,7 +380,6 @@ def run_collect() -> Dict[str, Any]:
             "use --query for remotes, or point --workdir at an existing corpus"
         )
     if not opts.query:
-        # Allow resume: search_results already on disk
         from semantic_corpus.pipeline.flat_corpus import path_search_results
 
         if not path_search_results(opts.workdir).is_file():
@@ -177,16 +389,17 @@ def run_collect() -> Dict[str, Any]:
             )
 
     from semantic_corpus.pipeline.flat_corpus import (
+        ensure_light_bagit,
         list_paper_ids_from_search,
-        paper_done_enough,
+        packets_dir,
+        paper_collect_done,
         path_search_results,
     )
 
     workdir, _query_name = _workdir_paths()
-    workdir.mkdir(parents=True, exist_ok=True)
+    ensure_light_bagit(workdir)
 
     if opts.query:
-        # Reuse hit list when present (partial resume); else search.
         if path_search_results(workdir).is_file():
             if not stamp_path("search", workdir).is_file():
                 _stamp(
@@ -202,30 +415,47 @@ def run_collect() -> Dict[str, Any]:
             run_search()
 
     paper_ids = list_paper_ids_from_search(workdir)
+    pkt = packets_dir(workdir)
     print(
-        f"[pipeline] collect: {len(paper_ids)} papers → flat files under {workdir}"
+        f"[pipeline] collect: {len(paper_ids)} papers → JSON+XML under {pkt} "
+        f"(PDFs deferred to --target pdfs)"
     )
 
     from semantic_corpus.corpus_review.collect_progress import (
         CollectTitleScroller,
         title_from_paper,
     )
+    from semantic_corpus.repositories import epmc_streams as streams_mod
+    from semantic_corpus.repositories.epmc_streams import (
+        EpmcStreamBoard,
+        print_stream_board,
+    )
+
+    board = streams_mod.PREFLIGHT_BOARD
+    if not isinstance(board, EpmcStreamBoard):
+        board = EpmcStreamBoard()
+        streams_mod.PREFLIGHT_BOARD = board
 
     scroller = CollectTitleScroller(limit=max(len(paper_ids), 1))
     scroller.start(query=opts.query or "", repository=opts.repository or "europe_pmc")
     ok = 0
     skipped = 0
     for pid in paper_ids:
-        if paper_done_enough(workdir, pid):
+        if paper_collect_done(workdir, pid):
             ok += 1
             skipped += 1
             scroller.add(title=pid, paper_id=pid, status="skip", reason="exists")
             continue
         try:
-            result = run_paper(pid)
+            result = run_paper(
+                pid,
+                formats=["xml"],
+                use_docling_xml=False,
+                streams=board,
+            )
             meta = result if isinstance(result, dict) else {}
             title = title_from_paper(meta) if meta else pid
-            if paper_done_enough(workdir, pid):
+            if paper_collect_done(workdir, pid):
                 ok += 1
                 scroller.add(title=title or pid, paper_id=pid, status="ok")
             else:
@@ -242,11 +472,26 @@ def run_collect() -> Dict[str, Any]:
             print(f"[pipeline] collect: paper {pid} failed: {exc}")
     scroller.finish(downloaded=ok, skipped=skipped)
 
+    print_stream_board(board, final=True)
+    report_path = board.write_error_report(
+        workdir / "pipeline" / "epmc_http_errors.json"
+    )
+    xml_errs = board.errors_for("xml")
+    status_tally = board.format_status_counts() or "none"
+    print(
+        f"[pipeline] collect: EPMC HTTP errors {status_tally} → {report_path} "
+        f"(total={len(board.http_errors)}, XML={len(xml_errs)})"
+    )
+
     summary = {
         "downloaded_count": ok,
         "result_count": len(paper_ids),
         "paper_ids": paper_ids,
         "skipped_existing": skipped,
+        "epmc_http_errors": str(report_path),
+        "epmc_http_error_count": len(board.http_errors),
+        "epmc_xml_http_error_count": len(xml_errs),
+        "epmc_http_by_status": board.error_counts_by_status(),
     }
     paper_count = ok
 
@@ -259,14 +504,20 @@ def run_collect() -> Dict[str, Any]:
             "workdir": str(workdir),
             "downloaded_count": summary.get("downloaded_count"),
             "paper_count": paper_count,
-            "layout": "flat",
+            "layout": "bagit_packets",
+            "packets_dir": str(pkt),
+            "epmc_http_errors": str(report_path),
+            "epmc_xml_http_error_count": len(xml_errs),
+            "epmc_http_by_status": {
+                str(k): v for k, v in sorted(board.error_counts_by_status().items())
+            },
         },
     )
     _stamp(
         "corpus",
         {
             "produced_by": "collect",
-            "layout": "flat",
+            "layout": "bagit_packets",
             "paper_count": paper_count,
             "packets_manifest": index_summary.get("manifest_path"),
             "containers": counts.get("containers"),
@@ -274,8 +525,9 @@ def run_collect() -> Dict[str, Any]:
         },
     )
     print(
-        f"[pipeline] collect: done ({paper_count} papers; "
-        f"packets={counts.get('packets')}) → {workdir}"
+        f"[pipeline] collect: finished "
+        f"({paper_count}/{len(paper_ids)} papers; "
+        f"packets={counts.get('packets')}; HTTP {status_tally}) → {pkt}"
     )
     return summary
 
@@ -361,7 +613,77 @@ def run_phrases() -> Dict[str, Any]:
 
 
 def run_pdfs() -> Dict[str, Any]:
-    return run_placeholder("pdfs")
+    """Lazy PDF fill: fetch missing ``data/packets/{id}.pdf`` (optional Docling).
+
+    Use after collect. Respects ``PIPELINE_PAPER_ID`` for a single-paper download.
+    """
+    if use_placeholders():
+        return run_placeholder("pdfs")
+
+    from semantic_corpus.pipeline.flat_corpus import (
+        ensure_light_bagit,
+        find_best_xml,
+        find_pdf,
+        list_flat_paper_ids,
+        list_paper_ids_from_search,
+        packets_dir,
+        paper_stem,
+    )
+
+    opts = options_from_env()
+    workdir = opts.workdir
+    ensure_light_bagit(workdir)
+
+    only = os.environ.get("PIPELINE_PAPER_ID", "").strip()
+    if only:
+        paper_ids = [paper_stem(only)]
+    else:
+        paper_ids = list_paper_ids_from_search(workdir) or list_flat_paper_ids(workdir)
+
+    print(
+        f"[pipeline] pdfs: {len(paper_ids)} paper(s) → {packets_dir(workdir)} "
+        f"(skip existing PDFs)"
+    )
+    fetched = 0
+    skipped = 0
+    failed = 0
+    docling = 0
+    for pid in paper_ids:
+        if find_pdf(workdir, pid) is not None:
+            skipped += 1
+            continue
+        try:
+            result = run_paper(
+                pid,
+                formats=["pdf"],
+                use_docling_xml=find_best_xml(workdir, pid) is None,
+            )
+            if find_pdf(workdir, pid) is not None:
+                fetched += 1
+            else:
+                failed += 1
+            notes = result.get("streams") or []
+            if any("xml-from-pdf" in str(n) for n in notes):
+                docling += 1
+        except Exception as exc:
+            failed += 1
+            print(f"[pipeline] pdfs: {pid} failed: {exc}")
+
+    summary = {
+        "paper_count": len(paper_ids),
+        "fetched": fetched,
+        "skipped_existing": skipped,
+        "failed": failed,
+        "docling_xml": docling,
+        "paper_id": only or None,
+    }
+    _stamp("pdfs", summary)
+    print(
+        f"[pipeline] pdfs: fetched={fetched} skipped={skipped} "
+        f"failed={failed} docling_xml={docling}"
+    )
+    return summary
+
 
 
 def _emit_display_kg(stage: str) -> Optional[Dict[str, Any]]:
@@ -570,27 +892,43 @@ def is_step_current(step: str) -> bool:
         from semantic_corpus.pipeline.flat_corpus import (
             is_flat_corpus,
             list_paper_ids_from_search,
-            paper_done_enough,
+            paper_collect_done,
         )
 
-        if (workdir / "bagit.txt").is_file():
-            return True
         if not is_flat_corpus(workdir):
             return False
         ids = list_paper_ids_from_search(workdir)
         if not ids:
             return False
-        # Resume-friendly: enough papers done (not necessarily every fetch)
-        done = sum(1 for pid in ids if paper_done_enough(workdir, pid))
-        return done >= max(1, min(len(ids), int(opts.limit or len(ids))))
+        # All hit-list papers must be collect-done (JSON + XML or recorded miss)
+        return all(paper_collect_done(workdir, pid) for pid in ids)
     if step == "corpus":
         from semantic_corpus.cluster_review.packets import packet_index_is_current
-        from semantic_corpus.pipeline.flat_corpus import is_flat_corpus
+        from semantic_corpus.pipeline.flat_corpus import is_bagit_or_packets_corpus
 
-        has_docs = (workdir / "bagit.txt").is_file() or is_flat_corpus(workdir)
-        return has_docs and packet_index_is_current(workdir)
+        return is_bagit_or_packets_corpus(workdir) and packet_index_is_current(
+            workdir
+        )
     if step == "phrases":
-        return (workdir / "phrases" / "index.json").is_file()
+        from semantic_corpus.cluster_review.step2 import phrases_dir_for_corpus
+
+        return (phrases_dir_for_corpus(workdir) / "index.json").is_file()
+    if step == "pdfs":
+        from semantic_corpus.pipeline.flat_corpus import (
+            find_pdf,
+            list_flat_paper_ids,
+            list_paper_ids_from_search,
+        )
+
+        only = os.environ.get("PIPELINE_PAPER_ID", "").strip()
+        ids = (
+            [only]
+            if only
+            else (list_paper_ids_from_search(workdir) or list_flat_paper_ids(workdir))
+        )
+        if not ids:
+            return False
+        return all(find_pdf(workdir, pid) is not None for pid in ids)
     if step == "encyclopedia":
         from semantic_corpus.cluster_review.encyclopedia import encyclopedia_is_current
 
@@ -604,5 +942,9 @@ def is_step_current(step: str) -> bool:
             document_limit=opts.document_limit,
         )
     if step == "clusters":
-        return (workdir / "clusters" / "graph_summary.json").is_file()
+        from semantic_corpus.pipeline.flat_corpus import indexes_dir
+
+        legacy = workdir / "clusters" / "graph_summary.json"
+        indexed = indexes_dir(workdir) / "clusters" / "graph_summary.json"
+        return legacy.is_file() or indexed.is_file()
     return True

@@ -206,15 +206,15 @@ Mappers do **not** invent packet boundaries or own HTML.
 | Europe PMC JATS/XML | section/paragraph ids from XML | whole-document packet (today) → later sequential paras |
 | IPCC | numbered paragraphs / figure captions in source | chapter containment + sequence |
 
-**EPMC content streams** (independent; a 500 disables **only** that stream):
+**EPMC content streams** (independent failure domains):
 
 | Stream | Role | On 500 |
 |--------|------|--------|
-| **JSON** | search + `*_metadata.json` (title/abstract) | Job cannot collect — stop |
-| **XML** | publisher `fullTextXML` | Discontinue XML; keep JSON/PDF |
-| **PDF** | OA PDF mirrors | Discontinue PDF; keep JSON/XML |
+| **JSON** | search + `{id}.json` (title/abstract) | Job cannot collect — stop |
+| **XML** | publisher `fullTextXML` | Log per-paper error; **keep probing** later papers |
+| **PDF** | OA PDF mirrors | Log per-paper error; **keep probing** later papers |
 
-If **XML is blocked** but PDF is available → **Docling PDF → XML** (then phrase/packet text can use that XML).
+Collect writes `{workdir}/pipeline/epmc_http_errors.json` with every logged HTTP failure (for EPMC evidence). If XML fails for a paper but PDF is fetched later → **Docling PDF → XML** when enabled.
 
 **Packet text payload cascade** (when resolving bytes for a body packet / phrases; first non-empty wins):
 

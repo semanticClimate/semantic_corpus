@@ -1,0 +1,46 @@
+{
+  "step": "index",
+  "workdir": "/Users/pm286/workspace/semantic_corpus/corpora/amoc_50_a",
+  "params": {
+    "mode": "degenerate_body_per_paper",
+    "priority": [
+      "source_numbers",
+      "containment",
+      "sequence"
+    ]
+  },
+  "counts": {
+    "containers": 1,
+    "packets": 1
+  },
+  "containers": [
+    {
+      "id": "paper:corpus",
+      "kind": "paper",
+      "paper_id": "corpus",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:corpus:body"
+        ],
+        "backmatter": []
+      }
+    }
+  ],
+  "packets": [
+    {
+      "id": "packet:corpus:body",
+      "packet_type": "body",
+      "label": "corpus",
+      "parent_id": "paper:corpus",
+      "paper_id": "corpus",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "corpus",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    }
+  ],
+  "written_at": "2026-11-09T18:29:43.624937+00:00"
+}

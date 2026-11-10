@@ -1,0 +1,8 @@
+{
+  "layout": "bagit_packets",
+  "packets": "data/packets",
+  "indexes": "data/indexes",
+  "query": "AMOC",
+  "limit": 50,
+  "repository": "europe_pmc"
+}

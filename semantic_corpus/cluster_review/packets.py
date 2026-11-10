@@ -22,11 +22,17 @@ from semantic_corpus.core.exceptions import CorpusError
 
 
 def packets_dir(workdir: Path) -> Path:
+    """Legacy inventory dir ``packets/`` (prefer ``data/indexes/``)."""
     return Path(workdir) / "packets"
 
 
 def packets_manifest_path(workdir: Path) -> Path:
-    return packets_dir(workdir) / "manifest.json"
+    """Prefer ``data/indexes/packets.json``; fall back to ``packets/manifest.json``."""
+    preferred = Path(workdir) / "data" / "indexes" / "packets.json"
+    legacy = packets_dir(workdir) / "manifest.json"
+    if preferred.is_file() or not legacy.is_file():
+        return preferred
+    return legacy
 
 
 def build_packet_index(workdir: Path) -> Dict[str, Any]:
@@ -88,8 +94,8 @@ def build_packet_index(workdir: Path) -> Dict[str, Any]:
             }
         )
 
-    out_dir = packets_dir(workdir)
-    out_dir.mkdir(parents=True, exist_ok=True)
+    path = packets_manifest_path(workdir)
+    path.parent.mkdir(parents=True, exist_ok=True)
     doc = {
         "step": "index",
         "workdir": str(workdir.resolve()),
@@ -105,7 +111,6 @@ def build_packet_index(workdir: Path) -> Dict[str, Any]:
         "packets": packets,
         "written_at": datetime.now(timezone.utc).isoformat(),
     }
-    path = packets_manifest_path(workdir)
     path.write_text(
         json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )

@@ -122,7 +122,15 @@ def _doit_main(doit_args: List[str]) -> int:
         return 2
 
     dodo = _load_dodo()
-    return DoitMain(ModuleTaskLoader(dodo)).run(doit_args)
+    try:
+        return DoitMain(ModuleTaskLoader(dodo)).run(doit_args)
+    except KeyboardInterrupt:
+        print(
+            "\n[pipeline] Interrupted (Ctrl-C). "
+            "Progress on disk is kept — re-run the same command to resume.",
+            file=sys.stderr,
+        )
+        return 130
 
 
 def _normalize_argv(argv: List[str]) -> List[str]:
@@ -306,16 +314,28 @@ def cmd_run(args: argparse.Namespace) -> int:
     print(f"[pipeline] {' '.join(bits)}")
     print(f"[pipeline] ensure {targets} → plan {plan}")
 
+    import os
+
+    paper_id = getattr(args, "paper_id", None)
+    if paper_id:
+        os.environ["PIPELINE_PAPER_ID"] = str(paper_id).strip()
+        print(f"[pipeline] paper-id={paper_id!r}")
+    else:
+        os.environ.pop("PIPELINE_PAPER_ID", None)
+
     # Per-stream EPMC check: JSON down → abort; XML/PDF 500 → continue without that stream.
     if (
-        ("search" in plan or "collect" in plan)
+        (
+            "search" in plan
+            or "collect" in plan
+            or "pdfs" in plan
+        )
         and (opts.repository or "europe_pmc") == "europe_pmc"
     ):
         from semantic_corpus.repositories.epmc_diagnostic import (
             EpmcUnavailable,
             epmc_preflight,
         )
-        import os
 
         try:
             _diag, board = epmc_preflight(abort=True)
@@ -332,7 +352,20 @@ def cmd_run(args: argparse.Namespace) -> int:
     if args.always:
         doit_args.append("--always-execute")
     doit_args.extend(doit_basename(t) for t in targets)
-    return _doit_main(doit_args)
+    rc = _doit_main(doit_args)
+    if rc == 0:
+        print(
+            f"[pipeline] finished — ensured {targets} under {get_workdir()}",
+            flush=True,
+        )
+    elif rc not in (130,):
+        print(
+            f"[pipeline] stopped with exit code {rc} "
+            f"(target={targets}; workdir={get_workdir()})",
+            file=sys.stderr,
+            flush=True,
+        )
+    return rc
 
 
 def cmd_encyclopedia(args: argparse.Namespace) -> int:
@@ -599,6 +632,15 @@ def _add_common_flags(parser: argparse.ArgumentParser) -> None:
         "-s",
         default=None,
         help="Collect from static documents (path/glob); alternative to --query",
+    )
+    parser.add_argument(
+        "--paper-id",
+        default=None,
+        metavar="PMCID",
+        help=(
+            "Restrict lazy PDF fetch to one paper "
+            "(with --target pdfs), e.g. PMC12345"
+        ),
     )
 
     # --- phrases ---
@@ -936,8 +978,24 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     if func is None:
         parser.print_help()
         return 0
-    return int(func(args))
+    try:
+        return int(func(args))
+    except KeyboardInterrupt:
+        print(
+            "\n[pipeline] Interrupted (Ctrl-C). "
+            "Progress on disk is kept — re-run the same command to resume.",
+            file=sys.stderr,
+        )
+        return 130
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except KeyboardInterrupt:
+        print(
+            "\n[pipeline] Interrupted (Ctrl-C). "
+            "Progress on disk is kept — re-run the same command to resume.",
+            file=sys.stderr,
+        )
+        sys.exit(130)

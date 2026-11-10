@@ -1,0 +1,146 @@
+{
+  "pmcid": "PMC13733807",
+  "pmid": "42981388",
+  "title": "Persistent bistability of Nordic Seas overflow waters over 800,000 years.",
+  "abstract": "The stability of the Atlantic Meridional Overturning Circulation (AMOC) is a major uncertainty in projections of future climate. However, direct evidence for AMOC tipping behavior on orbital timescales remains scarce. Here, we reconstruct the strength of Iceland-Scotland Overflow Water, a key lower branch of the deep Atlantic circulation, over the past 800,000 years by combining 12 current-speed records from North Atlantic sediment cores with a data-driven hybrid model. The resulting reconstruction reveals persistent alternation between weak (glacial) and strong (interglacial) circulation modes, pervasive millennial-scale variability within both regimes, and systematic asymmetry between weak-to-strong recoveries and strong-to-weak collapses. Threshold and phase-space analyses show that regime shifts occur within a narrow window of atmospheric carbon dioxide and sea level and often follow hysteresis-like loops. Although bistability persists throughout the last 800,000 years, its sensitivity and timing evolve through time. These findings provide long-term, high-resolution, data-driven constraints on the bistability of Nordic Seas overflow waters and its implications for AMOC resilience in a warming world.",
+  "authors": [
+    {
+      "fullName": "Stevenard N",
+      "lastName": "Stevenard",
+      "firstName": "Nathan",
+      "initials": "N",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-1838-9291"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France."
+          },
+          {
+            "affiliation": "Institut des Géosciences de l'Environnement, IGE, Université Grenoble Alpes, Saint-Martin d'Hères, France."
+          },
+          {
+            "affiliation": "Earth and Life Institute, Université catholique de Louvain, Louvain-la-Neuve, Belgium."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Govin A",
+      "lastName": "Govin",
+      "firstName": "Aline",
+      "initials": "A",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0001-8512-5571"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Kissel C",
+      "lastName": "Kissel",
+      "firstName": "Catherine",
+      "initials": "C",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-2572-2742"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Swingedouw D",
+      "lastName": "Swingedouw",
+      "firstName": "Didier",
+      "initials": "D",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-0583-0850"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Université de Bordeaux EPOC, UMR 5805, Pessac, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Toucanne S",
+      "lastName": "Toucanne",
+      "firstName": "Samuel",
+      "initials": "S",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-4858-8953"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Geo-Ocean, Université de Brest, CNRS, Ifremer, UMR 6538, Plouzané, France."
+          }
+        ]
+      }
+    },
+    {
+      "fullName": "Bouttes N",
+      "lastName": "Bouttes",
+      "firstName": "Nathaëlle",
+      "initials": "N",
+      "authorId": {
+        "type": "ORCID",
+        "value": "0000-0002-7111-2048"
+      },
+      "authorAffiliationDetailsList": {
+        "authorAffiliation": [
+          {
+            "affiliation": "Laboratoire des Sciences du Climat et de l'Environnement, LSCE, CEA-CNRS-UVSQ, Université Paris-Saclay, Gif-sur-Yvette, France."
+          }
+        ]
+      }
+    }
+  ],
+  "publication_date": "2026-11-04",
+  "journal": "",
+  "doi": "10.1126/sciadv.aee7886",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1126/sciadv.aee7886"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13733807"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13733807?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y",
+  "paper_id": "PMC13733807",
+  "_collect_xml": "ok"
+}

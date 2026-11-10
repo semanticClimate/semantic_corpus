@@ -132,8 +132,20 @@ Python `bagit.make_bag()` expects a real bag: payload under `data/`, manifests a
 - Very large flat `packets/` directories can stress some filesystems (shard later only as an operational escape hatch).
 - Legacy corpora using `data/documents/{fmt}/` need resolvers or migration.
 
+## Collect vs lazy PDFs
+
+| Step | Writes | Skips |
+|------|--------|-------|
+| `search` | `search_results.json`, light `bagit.txt` | — |
+| `collect` | `{id}.json`, `{id}.xml` under `data/packets/` | Papers with JSON + XML (or recorded XML miss) |
+| `pdfs` | `{id}.pdf` (optional `{id}.pdf.xml` via Docling) | Existing valid PDFs; use `--paper-id` for one paper |
+
+PDFs are typically **gitignored** (`corpora/**/*.pdf`). Indexing does not require them.
+
+Tutorials: [pipeline_epmc_resume.md](tutorials/pipeline_epmc_resume.md) · [lazy_pdfs.md](tutorials/lazy_pdfs.md).
+
 ## Implementation notes
 
 - Doit / pipeline stamps and `doit.db` belong under **`pipeline/`** (tag directory), not under `data/`.
 - New harvests write packet bytes to **`data/packets/`** with history suffixes; reduce artifacts to **`data/indexes/`**.
-- Legacy BAGIT layouts (`data/documents/…`, nested `data/data/…`) remain readable via resolvers until migrated.
+- Legacy BAGIT layouts (`data/documents/…`, nested `data/data/…`) and flat workdir roots remain readable via resolvers until migrated.

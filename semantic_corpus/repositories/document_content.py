@@ -24,7 +24,12 @@ def looks_like_pdf(content: bytes) -> bool:
 
 
 def looks_like_fulltext_xml(content: bytes) -> bool:
-    """True if body looks like XML/JATS, not a JSON/HTML error stub."""
+    """True if body looks like XML/JATS, not a JSON/HTML error stub.
+
+    Europe PMC often returns JATS with a leading ``<!DOCTYPE article …>``
+    (no ``<?xml …?>``). That is valid full text — only reject HTML doctypes /
+    ``<html>`` and JSON/array stubs.
+    """
     if not content or len(content) < MIN_XML_BYTES:
         return False
     head = content.lstrip()
@@ -32,9 +37,13 @@ def looks_like_fulltext_xml(content: bytes) -> bool:
         head = head[3:].lstrip()
     if not head or head.startswith((b"{", b"[")):
         return False
-    lower = head[:64].lower()
-    if lower.startswith((b"<!doctype", b"<!--", b"<html")):
+    lower = head[:96].lower()
+    # HTML error pages — not JATS (``<!DOCTYPE article`` is fine).
+    if lower.startswith((b"<!doctype html", b"<html")):
         return False
+    if lower.startswith(b"<!--"):
+        # Rare; allow XML that begins with a comment.
+        return b"<" in head[4:512]
     return head.startswith(b"<")
 
 
