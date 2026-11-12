@@ -11,7 +11,7 @@
 Encode **this page** (not the repo root) in the poster QR:
 
 ```text
-https://github.com/semanticClimate/semantic_corpus/blob/main/docs/uk_kg_poster_2026.md
+https://github.com/semanticClimate/semantic_corpus/blob/pmr202610/docs/uk_kg_poster_2026.md
 ```
 
 | Asset | Path |
@@ -28,7 +28,7 @@ Regenerate the PNG after URL changes:
 ```bash
 pip install 'qrcode[pil]'
 python -c "import qrcode; qrcode.make(
-  'https://github.com/semanticClimate/semantic_corpus/blob/main/docs/uk_kg_poster_2026.md'
+  'https://github.com/semanticClimate/semantic_corpus/blob/pmr202610/docs/uk_kg_poster_2026.md'
 ).save('docs/uk_kg_poster_2026_qr.png')"
 ```
 
