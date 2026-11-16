@@ -23,13 +23,13 @@ from semantic_corpus.core.exceptions import CorpusError
 
 def packets_dir(workdir: Path) -> Path:
     """Legacy inventory dir ``packets/`` (prefer ``data/indexes/``)."""
-    return Path(workdir) / "packets"
+    return Path(workdir, "packets")
 
 
 def packets_manifest_path(workdir: Path) -> Path:
     """Prefer ``data/indexes/packets.json``; fall back to ``packets/manifest.json``."""
-    preferred = Path(workdir) / "data" / "indexes" / "packets.json"
-    legacy = packets_dir(workdir) / "manifest.json"
+    preferred = Path(workdir, "data", "indexes", "packets.json")
+    legacy = Path(packets_dir(workdir), "manifest.json")
     if preferred.is_file() or not legacy.is_file():
         return preferred
     return legacy
@@ -133,7 +133,7 @@ def packet_index_is_current(workdir: Path) -> bool:
         return False
     if not isinstance(doc.get("packets"), list):
         return False
-    bag = Path(workdir) / "bagit.txt"
+    bag = Path(workdir, "bagit.txt")
     if bag.is_file() and bag.stat().st_mtime > path.stat().st_mtime:
         return False
     return True

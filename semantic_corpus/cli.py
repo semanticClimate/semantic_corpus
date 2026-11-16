@@ -172,7 +172,7 @@ def create_corpus_command(args) -> None:
     """Handle create corpus command."""
     try:
         if args.path:
-            corpus_dir = Path(args.path) / args.name
+            corpus_dir = Path(args.path, args.name)
         else:
             # Use project temp directory as default
             corpus_dir = get_corpus_dir() / args.name
@@ -352,7 +352,7 @@ def import_pdfs_command(args) -> None:
 
     try:
         if args.path:
-            corpus_dir = Path(args.path) / args.name
+            corpus_dir = Path(args.path, args.name)
         else:
             corpus_dir = get_corpus_dir() / args.name
 

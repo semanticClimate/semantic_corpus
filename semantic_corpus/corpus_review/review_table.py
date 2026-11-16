@@ -8,7 +8,12 @@ from typing import Any, Dict, List, Optional
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
-from semantic_corpus.corpus_review.constants import REVIEW_TABLE_COLUMNS
+from semantic_corpus.corpus_review.constants import (
+    REVIEW_STATUS_EXCLUDE,
+    REVIEW_STATUS_INCLUDE,
+    REVIEW_STATUS_REVIEW,
+    REVIEW_TABLE_COLUMNS,
+)
 from semantic_corpus.corpus_review.query_run import load_query_run_record
 from semantic_corpus.corpus_review.relevance_scorer import score_paper_relevance
 from semantic_corpus.corpus_review.review_schema import make_review_row
@@ -324,9 +329,9 @@ def export_review_table_html(
     path.parent.mkdir(parents=True, exist_ok=True)
     ensure_review_table_css(path.parent, path.stem)
 
-    include = sum(1 for row in rows if row.get("review_status") == "include")
-    review = sum(1 for row in rows if row.get("review_status") == "review")
-    exclude = sum(1 for row in rows if row.get("review_status") == "exclude")
+    include = sum(1 for row in rows if row.get("review_status") == REVIEW_STATUS_INCLUDE)
+    review = sum(1 for row in rows if row.get("review_status") == REVIEW_STATUS_REVIEW)
+    exclude = sum(1 for row in rows if row.get("review_status") == REVIEW_STATUS_EXCLUDE)
 
     review_json = path.with_suffix(".json")
     query_dir = path.parent.parent

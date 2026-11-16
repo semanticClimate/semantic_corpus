@@ -22,7 +22,7 @@ STATUSES = frozenset({"resolved", "ambiguous", "missing", "error"})
 
 
 def encyclopedia_dir(workdir: Path) -> Path:
-    return Path(workdir) / "encyclopedia"
+    return Path(workdir, "encyclopedia")
 
 
 def entries_path(workdir: Path) -> Path:
@@ -145,7 +145,7 @@ def _document_ids_capped(workdir: Path, document_limit: Optional[int]) -> Option
 
     workdir = Path(workdir)
     bag = resolve_bagit_root(workdir)
-    meta = Path(bag) / "data" / "metadata"
+    meta = Path(bag, "data", "metadata")
     ids = sorted(_paper_ids_from_metadata_dir(meta))
     if not ids:
         clusters = _load_json(workdir / "clusters" / "clusters.json") or {}

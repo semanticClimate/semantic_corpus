@@ -90,7 +90,7 @@ def _make_handler(
     max_island: int,
     document_limit: Optional[int],
 ):
-    root = (Path(workdir) / "kg").resolve()
+    root = (Path(workdir, "kg")).resolve()
     workdir = Path(workdir).resolve()
 
     class Handler(BaseHTTPRequestHandler):

@@ -944,7 +944,7 @@ def is_step_current(step: str) -> bool:
     if step == "clusters":
         from semantic_corpus.pipeline.flat_corpus import indexes_dir
 
-        legacy = workdir / "clusters" / "graph_summary.json"
-        indexed = indexes_dir(workdir) / "clusters" / "graph_summary.json"
+        legacy = Path(workdir, "clusters", "graph_summary.json")
+        indexed = Path(indexes_dir(workdir), "clusters", "graph_summary.json")
         return legacy.is_file() or indexed.is_file()
     return True

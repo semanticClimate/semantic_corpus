@@ -23,7 +23,7 @@ DEFAULT_KG_MIN_PAPER_COUNT = 2
 
 
 def kg_dir(workdir: Path) -> Path:
-    return Path(workdir) / "kg"
+    return Path(workdir, "kg")
 
 
 def graph_path(workdir: Path) -> Path:
@@ -1110,7 +1110,7 @@ def kg_is_current(
         return False
     if int(params.get("max_terms") or 0) != int(max_terms):
         return False
-    clusters = Path(workdir) / "clusters" / "clusters.json"
+    clusters = Path(workdir, "clusters", "clusters.json")
     if clusters.is_file() and clusters.stat().st_mtime > summary_path(workdir).stat().st_mtime:
         return False
     return True

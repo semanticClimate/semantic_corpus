@@ -17,7 +17,7 @@ DEFAULT_HTML_NAME = "encyclopedia.html"
 
 
 def html_path(workdir: Path, name: str = DEFAULT_HTML_NAME) -> Path:
-    return Path(workdir) / "encyclopedia" / name
+    return Path(workdir, "encyclopedia", name)
 
 
 def ensure_encyclopedia_on_path() -> None:
@@ -37,9 +37,10 @@ def ensure_encyclopedia_on_path() -> None:
         here.parents[2] / "encyclopedia",
     ]
     for cand in candidates:
-        if cand.is_dir() and (cand / "encyclopedia").is_dir():
+        if cand.is_dir() and Path(cand, "encyclopedia").is_dir():
             path = str(cand.resolve())
             if path not in sys.path:
+                # style-exception: sys-path — sibling encyclopedia checkout fallback
                 sys.path.insert(0, path)
             try:
                 import encyclopedia  # noqa: F401

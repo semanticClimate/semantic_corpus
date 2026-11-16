@@ -40,12 +40,12 @@ def paper_stem(paper_id: str) -> str:
 
 def packets_dir(workdir: Path) -> Path:
     """Map directory for packet bytes (``data/packets/``)."""
-    return Path(workdir) / "data" / "packets"
+    return Path(workdir, "data", "packets")
 
 
 def indexes_dir(workdir: Path) -> Path:
     """Reduce directory (``data/indexes/``)."""
-    return Path(workdir) / "data" / "indexes"
+    return Path(workdir, "data", "indexes")
 
 
 def ensure_packets_dir(workdir: Path) -> Path:
@@ -61,35 +61,35 @@ def ensure_indexes_dir(workdir: Path) -> Path:
 
 
 def path_query(workdir: Path) -> Path:
-    return Path(workdir) / "query.json"
+    return Path(workdir, "query.json")
 
 
 def path_search_results(workdir: Path) -> Path:
-    return Path(workdir) / "search_results.json"
+    return Path(workdir, "search_results.json")
 
 
 def path_corpus_json(workdir: Path) -> Path:
-    return Path(workdir) / "corpus.json"
+    return Path(workdir, "corpus.json")
 
 
 def path_json(workdir: Path, paper_id: str) -> Path:
-    return packets_dir(workdir) / f"{paper_stem(paper_id)}.json"
+    return Path(packets_dir(workdir), f"{paper_stem(paper_id)}.json")
 
 
 def path_xml(workdir: Path, paper_id: str) -> Path:
-    return packets_dir(workdir) / f"{paper_stem(paper_id)}.xml"
+    return Path(packets_dir(workdir), f"{paper_stem(paper_id)}.xml")
 
 
 def path_pdf(workdir: Path, paper_id: str) -> Path:
-    return packets_dir(workdir) / f"{paper_stem(paper_id)}.pdf"
+    return Path(packets_dir(workdir), f"{paper_stem(paper_id)}.pdf")
 
 
 def path_pdf_xml(workdir: Path, paper_id: str) -> Path:
-    return packets_dir(workdir) / f"{paper_stem(paper_id)}.pdf.xml"
+    return Path(packets_dir(workdir), f"{paper_stem(paper_id)}.pdf.xml")
 
 
 def path_pdf_html(workdir: Path, paper_id: str) -> Path:
-    return packets_dir(workdir) / f"{paper_stem(paper_id)}.pdf.html"
+    return Path(packets_dir(workdir), f"{paper_stem(paper_id)}.pdf.html")
 
 
 def _candidate_packet_files(workdir: Path, paper_id: str, suffix: str) -> List[Path]:
@@ -104,23 +104,25 @@ def _candidate_packet_files(workdir: Path, paper_id: str, suffix: str) -> List[P
     for name in names:
         out.extend(
             [
-                packets_dir(workdir) / name,
-                workdir / name,
-                workdir / "documents" / name,
-                workdir / "data" / "documents" / name,
-                workdir
-                / "data"
-                / "documents"
-                / suffix.lstrip(".").split(".")[0]
-                / name,
+                Path(packets_dir(workdir), name),
+                Path(workdir, name),
+                Path(workdir, "documents", name),
+                Path(workdir, "data", "documents", name),
+                Path(
+                    workdir,
+                    "data",
+                    "documents",
+                    suffix.lstrip(".").split(".")[0],
+                    name,
+                ),
             ]
         )
     # Legacy per-format dirs for .xml / .pdf / .html
     kind = suffix.lstrip(".").split(".")[0]
     if kind in {"xml", "pdf", "html", "json"}:
         for name in names:
-            out.append(workdir / "data" / "documents" / kind / name)
-            out.append(workdir / "data" / "data" / "documents" / kind / name)
+            out.append(Path(workdir, "data", "documents", kind, name))
+            out.append(Path(workdir, "data", "data", "documents", kind, name))
     return out
 
 
@@ -171,10 +173,10 @@ def find_paper_json(workdir: Path, paper_id: str) -> Optional[Path]:
     # Legacy ``*_metadata.json``
     stem = paper_stem(paper_id)
     for path in (
-        packets_dir(workdir) / f"{stem}_metadata.json",
-        Path(workdir) / f"{stem}_metadata.json",
-        Path(workdir) / "data" / "metadata" / f"{stem}_metadata.json",
-        Path(workdir) / "data" / "metadata" / f"europe_pmc_{stem}_metadata.json",
+        Path(packets_dir(workdir), f"{stem}_metadata.json"),
+        Path(workdir, f"{stem}_metadata.json"),
+        Path(workdir, "data", "metadata", f"{stem}_metadata.json"),
+        Path(workdir, "data", "metadata", f"europe_pmc_{stem}_metadata.json"),
     ):
         if path.is_file() and path.stat().st_size > 0:
             return path

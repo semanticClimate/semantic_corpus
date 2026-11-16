@@ -15,11 +15,11 @@ def pipeline_dir(workdir: Optional[Path] = None) -> Path:
     from semantic_corpus.pipeline.config import get_workdir
 
     root = workdir if workdir is not None else get_workdir()
-    return root / "pipeline"
+    return Path(root, "pipeline")
 
 
 def stamp_path(step: str, workdir: Optional[Path] = None) -> Path:
-    return pipeline_dir(workdir) / f"{step}.stamp"
+    return Path(pipeline_dir(workdir), f"{step}.stamp")
 
 
 def doit_db_path(workdir: Optional[Path] = None) -> Path:

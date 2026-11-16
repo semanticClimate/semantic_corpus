@@ -161,7 +161,7 @@ def run_repository_search(
         print_stream_board(stream_board, final=True)
         try:
             report = stream_board.write_error_report(
-                Path(output_dir) / "pipeline" / "epmc_http_errors.json"
+                Path(output_dir, "pipeline", "epmc_http_errors.json")
             )
             tally = stream_board.format_status_counts() or "none"
             print(
