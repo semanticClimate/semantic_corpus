@@ -95,7 +95,9 @@ semantic_corpus = [
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q --strict-markers --strict-config -m 'not arxiv'"
+# Skip live/network by default (e.g. aqi_india EPMC pilot can hang on proxy).
+# Opt in: pytest -m live_api   or   pytest -m 'network or live_api'
+addopts = "-ra -q --strict-markers --strict-config -m 'not arxiv and not live_api and not network'"
 testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
 python_classes = ["Test*"]
