@@ -20,9 +20,13 @@ from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_pape
 from semantic_corpus.tools.metadata_processor import MetadataProcessor
 
 
-def _paper_has_file(corpus_dir: Path, paper_id: str, ext: str) -> bool:
+def _paper_file_path(corpus_dir: Path, paper_id: str, ext: str) -> Path:
     sub = ext
-    path = Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{ext}")
+    return Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{ext}")
+
+
+def _paper_has_file(corpus_dir: Path, paper_id: str, ext: str) -> bool:
+    path = _paper_file_path(corpus_dir, paper_id, ext)
     return path.is_file() and path.stat().st_size > 0
 
 
@@ -42,6 +46,11 @@ def build_review_rows_from_corpus(
         has_xml = _paper_has_file(corpus.corpus_dir, paper_id, "xml")
         has_html = _paper_has_file(corpus.corpus_dir, paper_id, "html")
         has_pdf = _paper_has_file(corpus.corpus_dir, paper_id, "pdf")
+        pdf_path = (
+            str(_paper_file_path(corpus.corpus_dir, paper_id, "pdf"))
+            if has_pdf
+            else ""
+        )
         score, matched = score_paper_relevance(
             metadata, has_xml=(has_xml or has_html), has_pdf=has_pdf
         )
@@ -56,6 +65,7 @@ def build_review_rows_from_corpus(
                 has_xml=has_xml,
                 has_html=has_html,
                 has_pdf=has_pdf,
+                pdf_path=pdf_path,
                 query_name=query_name,
                 query_string=query_string,
             )
@@ -84,7 +94,9 @@ def build_review_rows_from_pygetpapers(
         paper_id = f"europe_pmc_{folder.name}"
         has_xml = Path(folder, "fulltext.xml").is_file()
         has_html = Path(folder, "fulltext.html").is_file()
-        has_pdf = Path(folder, "fulltext.pdf").is_file()
+        pdf_file = Path(folder, "fulltext.pdf")
+        has_pdf = pdf_file.is_file()
+        pdf_path = str(pdf_file) if has_pdf else ""
         score, matched = score_paper_relevance(
             metadata, has_xml=(has_xml or has_html), has_pdf=has_pdf
         )
@@ -99,6 +111,7 @@ def build_review_rows_from_pygetpapers(
                 has_xml=has_xml,
                 has_html=has_html,
                 has_pdf=has_pdf,
+                pdf_path=pdf_path,
                 query_name=query_name,
                 query_string=query_string,
             )
@@ -182,7 +195,10 @@ def build_review_rows_from_search_results(
         file_stems = [s for s in (paper_id, file_id, pmcid, pmid, identifier) if s]
         has_xml = any(Path(xml_dir, f"{stem}.xml").is_file() for stem in file_stems)
         has_html = any(Path(xml_dir, f"{stem}.html").is_file() for stem in file_stems)
-        has_pdf = any(Path(xml_dir, f"{stem}.pdf").is_file() for stem in file_stems)
+        pdf_candidates = [Path(xml_dir, f"{stem}.pdf") for stem in file_stems]
+        pdf_file = next((p for p in pdf_candidates if p.is_file()), None)
+        has_pdf = pdf_file is not None
+        pdf_path = str(pdf_file) if pdf_file is not None else ""
         has_fulltext = has_xml or has_html
 
         metadata = dict(paper)
@@ -202,6 +218,7 @@ def build_review_rows_from_search_results(
                 has_xml=has_xml,
                 has_html=has_html,
                 has_pdf=has_pdf,
+                pdf_path=pdf_path,
                 query_name=query_name,
                 query_string=query_string,
             )
@@ -240,14 +257,19 @@ def export_review_table_markdown(rows: List[Dict[str, Any]], path: Path) -> Path
     lines = [
         "# Corpus review table",
         "",
-        "| review_status | score | title | paper_id | has_xml | has_html | has_pdf |",
+        "| review_status | score | title | paper_id | cluster | encyclopedia | pdf |",
         "| --- | ---: | --- | --- | --- | --- | --- |",
     ]
     for row in rows:
         title = (row["title"] or "").replace("|", "\\|")[:80]
+        pdf_path = row.get("pdf_path") or ""
+        pdf_cell = f"[PDF]({pdf_path})" if pdf_path else ""
+        cluster = row.get("cluster_id", "")
+        encyclopedia = row.get("encyclopedia_category", "")
         lines.append(
             f"| {row['review_status']} | {row['score']} | {title} | "
-            f"{row.get('paper_id') or row.get('pmcid', '')} | {row.get('has_xml', False)} | {row.get('has_html', False)} | {row.get('has_pdf', False)} |"
+            f"{row.get('paper_id') or row.get('pmcid', '')} | {cluster} | "
+            f"{encyclopedia} | {pdf_cell} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
