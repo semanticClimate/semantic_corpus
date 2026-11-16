@@ -1,5 +1,6 @@
 """Pytest configuration and fixtures for semantic_corpus tests."""
 
+import os
 import tempfile
 from pathlib import Path
 from typing import Generator
@@ -8,6 +9,19 @@ import pytest
 
 from semantic_corpus.repositories.epmc_diagnostic import EpmcDiagnostic
 from semantic_corpus.repositories.epmc_streams import EpmcStreamBoard
+
+
+@pytest.fixture(autouse=True)
+def _require_sc_live_api_for_network_tests(request: pytest.FixtureRequest):
+    """Skip live/network tests unless SC_LIVE_API=1.
+
+    Default ``pytest`` already deselects these via ``-m``. If someone runs
+    ``pytest -m live_api`` without intending a real network call (e.g. aqi_india
+    pilot), fail fast with a skip instead of hanging on proxy/EPMC timeouts.
+    """
+    markers = {m.name for m in request.node.iter_markers()}
+    if markers & {"live_api", "network"} and os.environ.get("SC_LIVE_API") != "1":
+        pytest.skip("Set SC_LIVE_API=1 to run live/network API tests")
 
 
 @pytest.fixture(autouse=True)
