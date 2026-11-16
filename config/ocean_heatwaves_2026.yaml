@@ -1,0 +1,14 @@
+# Ocean heatwaves & ocean currents demo corpus (full text required)
+# Date: 2026-07-16 (system date)
+
+query_name: ocean_heatwaves_2026
+query_string: '("marine heatwave" OR "ocean heat wave" OR "ocean heatwave") AND ("ocean current" OR "ocean circulation" OR "Gulf Stream" OR "AMOC") AND (HAS_FT:Y)'
+repository: europe_pmc
+limit: 50
+start_date: "2020-01-01"
+end_date: "2026-12-31"
+formats:
+  - xml
+  - pdf
+corpus_name: ocean_heatwaves_2026
+output_subdir: ocean_heatwaves_2026
