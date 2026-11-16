@@ -1,18 +1,20 @@
 # In-repo responsibilities (one repo, logical separation)
 
 **Date:** 2026-11-16  
-**Policy:** Do **not** split into separate GitHub projects for each JOSS paper unless leads decide later. Keep themes separable by **package + docs ownership**.
+**Policy:** Do **not** split into separate GitHub projects for each JOSS theme unless leads later decide. Keep themes separable by **module docs + ownership**.  
+
+**Authoritative module docs:** [modules/README.md](modules/README.md)
 
 Co-authors on all papers: **Renu Kumari**, **Peter Murray-Rust**.
 
-| Theme | Owner focus | Primary paths in this repo |
-|-------|-------------|----------------------------|
-| **semantic_corpus** (ingest + BagIt) | Renu Kumari | `ingestion/`, `storage/`, `core/`, EPMC (+ shared CLI), BagIt docs |
-| **Global South harvesting** | Larisa Beni | `repositories/` SciELO, Redalyc, CONICET, LA university adapters; non-EN notes |
-| **Phrases + bipartite KG** | Neel Kumar | `cluster_review/` (esp. step2–3, kg), lightweight phrase docs |
-| **Encyclopedia** | TBD | Hooks: `cluster_review/encyclopedia*.py`, pipeline encyclopedia step; sibling `encyclopedia` package |
-| **Chatbot** | Aleena Harold Peter + Anusha | `export/chatbot_export.py` + export contract docs; UI lives in chatbot/ClimateInsight |
+| Theme | Owner focus | Module doc | Primary paths |
+|-------|-------------|------------|---------------|
+| **Ingest + BagIt** | Renu Kumari | [modules/ingest_bagit.md](modules/ingest_bagit.md) | `ingestion/`, `storage/`, `core/`, EPMC/OpenAlex, CLI |
+| **Global South harvesting** | Larisa Beni | [modules/global_south.md](modules/global_south.md) | SciELO, Redalyc, CONICET, LA adapters |
+| **Phrases + bipartite KG** | Neel Kumar | [modules/phrases_kg.md](modules/phrases_kg.md) | `cluster_review/` step2–3, `kg*` |
+| **Encyclopedia** (bridge) | TBD | [modules/README.md](modules/README.md) | `encyclopedia*.py` + sibling package |
+| **Chatbot** (bridge) | Aleena + Anusha | [modules/README.md](modules/README.md) | `export/`; UI elsewhere |
 
-Shared: `corpus_review/` (table as corpus QA), `pipeline/` orchestration, `tests/`, coding style.
+Shared: `corpus_review/` (QA), `pipeline/`, `tests/`, [coding_style.md](coding_style.md).
 
-See also [joss_cleanup_plan.md](joss_cleanup_plan.md).
+Cleanup: [joss_cleanup_plan.md](joss_cleanup_plan.md).
