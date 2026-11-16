@@ -1,11 +1,13 @@
 # JOSS cleanup plan — `semantic_corpus` (draft)
 
 **Date:** 2026-11-16 (system date)  
-**Status:** draft — lead thinking will change; do not mass-delete until leads agree  
+**Status:** in progress on `nov2026` — data/trial trees removed 2026-11-16  
 **Primary JOSS target (this repo):** **semantic_corpus** — ingest + BagIt  
 **Lead authors on all five papers:** Renu Kumari, Peter Murray-Rust  
 
-This plan separates **what belongs in a clean `semantic_corpus` JOSS package** from material that is trial noise, or that belongs in sibling papers / other repos.
+**In-repo, not new projects:** Global South adapters, phrase/KG, encyclopedia hooks, and chatbot export stay in **this** repository but must remain **logically separate** (packages + docs ownership). Do not split into five GitHub projects unless leads later decide otherwise.
+
+This plan separates **what belongs in a clean JOSS software tree** from trial noise.
 
 ---
 
@@ -58,31 +60,10 @@ This plan separates **what belongs in a clean `semantic_corpus` JOSS package** f
 
 ## 3. Delete or untrack (little/no value for JOSS)
 
-### A. Data dumps (remove from git; optional Zenodo later)
+### A–B. Data dumps and trial artefacts — **DONE** (2026-11-16, `nov2026`)
 
-| Path | Approx. | Action |
-|------|---------|--------|
-| **`corpora/`** entire tree | ~3 GB; ~3100 tracked files | **`git rm -r corpora/`**; gitignore `corpora/` except maybe `corpora/.gitkeep` |
-| Especially `corpora/amoc_200/` | ~2.9 GB | Never belongs in a software paper repo |
-| Other topic bags (climate_anxiety, monsoon_*, heatwave_*, amoc_*, akalya_project, …) | | Same — trial harvests |
-| **`temp/`** | ~2.1 GB | Ensure fully gitignored; delete local scratch freely |
-| **`junk/`** | scrap PMC pulls | Delete; gitignore if it returns |
-| **`tool_research/`** | loose XML samples | Delete from repo |
-| **`agrochemicals/`** | ~106 MB PDFs | Delete from repo (Larisa topic reading ≠ software) |
-| **`build/`** | setuptools artefact | Delete + gitignore |
-| **`roger/`** | empty | Delete |
-| **`results.json/`** | one-off search dump | Delete |
-
-### B. Root / docs trial artefacts
-
-| Path | Action |
-|------|--------|
-| `apply_climate_anxiety_review.py` | Remove or move to `docs/archive/` — one-off decisions script |
-| `rebuild_html_only.py` | Remove or archive |
-| `my_first_query.py` | Remove or fold into one tutorial |
-| `error.log`, `.DS_Store` | Delete; gitignore |
-| `docs/Neel_kumar1.mp4`, large poster JPG | Out of software repo (or release asset) |
-| Tracked `__pycache__/` under examples/tests/package | `git rm -r` + ensure gitignore |
+Removed from git (and disk where present): `corpora/`, `agrochemicals/`, `tool_research/`, `build/`, `results.json/`, `junk/`, `roger/`, root trial scripts (`apply_climate_anxiety_review.py`, `rebuild_html_only.py`, `my_first_query.py`), `docs/Neel_kumar1.mp4`, `docs/aukget-poster-a0-sketch.jpg`, tracked `__pycache__` trees.  
+`.gitignore` updated so harvests/`temp`/`junk`/… do not return. Tag **`pre-joss-cleanup`** marks the pre-delete tip.
 
 ### C. Excessive examples / duplicate tutorials
 

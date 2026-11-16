@@ -6,6 +6,18 @@ temp/
 *.pyc
 semantic_corpus.egg-info/
 __pycache__/
+*.egg-info/
+build/
+dist/
+error.log
 
-# Harvested PDFs are large; keep local under corpora/, do not push
-corpora/**/*.pdf
+# Local harvests and trial dumps — not part of the software package
+corpora/
+junk/
+agrochemicals/
+tool_research/
+roger/
+results.json/
+
+# Large media (keep out of git)
+*.mp4
