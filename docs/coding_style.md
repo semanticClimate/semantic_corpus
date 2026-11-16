@@ -2,9 +2,24 @@
 
 **Status:** draft for agreement (2026-11-16, system date)  
 **Applies to:** `semantic_corpus` and sibling AMI / semanticClimate Python repos unless a repo overrides  
-**Inherits:** [pygetpapers styleguide](../../pygetpapers/docs/styleguide.md) and [amilib style_guide_compliance](../../amilib/docs/style_guide_compliance.md) (absolute imports, empty `__init__.py`, no `sys.path`/PYTHONPATH, Path construction, climate examples, dates, development protocol)
+**Inherits:** [pygetpapers styleguide](../../pygetpapers/docs/styleguide.md) and [amilib style_guide_compliance](../../amilib/docs/style_guide_compliance.md) (absolute imports, empty `__init__.py`, no `sys.path`/PYTHONPATH, Path construction, climate examples, dates, **no mocks**, development protocol)
 
 After we agree this text, we will walk the codebase (optionally with the team watching) and note deviations for fix or explicit exception.
+
+---
+
+## 0. No mocks
+
+**Do not use mocks, patches, fakes, or `monkeypatch.setattr` on production collaborators in tests.** Prefer real implementations, real files under `tests/resources` / temp dirs, and — for remote services — either a **live** call gated by `SC_LIVE_API=1` or a **recorded fixture on disk** (JSON/XML/PDF bytes), not a pretend `requests.get`.
+
+- ❌ `unittest.mock`, `pytest-mock`, `@patch`, MagicMock, stubbing `EuropePMCRepository.search`, muting `epmc_preflight` in conftest  
+- ✅ Call the real code path; assert on returned structures and files  
+- ✅ Live EPMC/OpenAlex checks: mark `live_api` / `network`, require `SC_LIVE_API=1`, fail or skip clearly on outage — do not fake success  
+- ✅ Offline unit tests: use small **real** sample files; if the network is required, skip with an explicit message rather than mock  
+
+**Rationale (amilib):** mocks hide integration bugs and teach a false green. ECRs should see the same failures they will see on a laptop (including “EPMC is down”).
+
+**Known debt:** some existing tests/conftest still mock or mute EPMC; treat that as violation to remove, not as precedent.
 
 ---
 
@@ -64,7 +79,7 @@ Short projects produce lots of scratch data; treating that like product code mak
 
 ### 5.2 Fail loudly and specifically
 
-Silent failures teach the wrong lesson in weekly review: people cannot tell whether the pipeline skipped, broke, or succeeded. Errors and tests should name the artefact and stage so mentors can diagnose quickly.
+Silent failures teach the wrong lesson in weekly review: people cannot tell whether the pipeline skipped, broke, or succeeded. Errors and tests should name the artefact and stage so mentors can diagnose quickly. Combined with **§0 No mocks**, a live outage must surface as skip/fail, not a green mock.
 
 - Prefer clear exceptions / logged errors with **context** (path, PMCID, stage) over silent `pass` or bare `except:`.
 - Tests use **`assert` with descriptive messages** (amilib rule) — not `return False`.
@@ -128,10 +143,11 @@ On branch workflows, run:
 ./venv/bin/python scripts/check_coding_style.py --fix-path --fix-status   # safe rewrites
 ./venv/bin/python scripts/check_coding_style.py --check-markup              # report only
 ./venv/bin/python scripts/check_coding_style.py --check-long-functions      # report only
+./venv/bin/python scripts/check_coding_style.py --check-mocks               # §0 mock/patch debt
 ./venv/bin/python scripts/check_coding_style.py --git-diff origin/main      # new corpora/temp
 ```
 
-Default gate: Path comma-style, `sys.path` (unless marked), review-status constants. Markup extract and long-function splits stay manual.
+Default gate: Path comma-style, `sys.path` (unless marked), review-status constants. Markup extract, long-function splits, and mock sweep stay opt-in until debt is cleared.
 
 ---
 
@@ -144,6 +160,7 @@ Default gate: Path comma-style, `sys.path` (unless marked), review-status consta
 
 ### Review checklist (print / share in session)
 
+- [ ] **No mocks / patches / fake HTTP** in tests?  
 - [ ] Could an OSS library do this?  
 - [ ] Are JS / CSS / JSON / XML / templates external when humans edit them?  
 - [ ] Are near-duplicate blocks consolidated?  

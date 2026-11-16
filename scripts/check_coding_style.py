@@ -41,6 +41,13 @@ PATH_CHAIN_RE = re.compile(
 EXCEPTION_SYS = re.compile(r"style-exception:\s*sys-path")
 EXCEPTION_LONG = re.compile(r"style-exception:\s*long-function")
 FORBIDDEN_PREFIXES = ("corpora/", "temp/")
+MOCK_IMPORT_RE = re.compile(
+    r"^\s*(from\s+unittest\.mock\s+import|import\s+unittest\.mock|"
+    r"from\s+mock\s+import|import\s+mock\b|"
+    r"from\s+pytest_mock\s+import)",
+    re.M,
+)
+PATCH_DECORATOR_RE = re.compile(r"@patch\b|@mock\.patch\b")
 
 
 def _iter_py_files(root: Path) -> Iterable[Path]:
@@ -151,6 +158,31 @@ def check_inline_markup(path: Path, tree: ast.AST, min_chars: int) -> List[str]:
             findings.append(
                 f"{path}:{node.lineno}: large inline HTML/CSS/JS string "
                 f"({len(text)} chars) — prefer external .html/.css/.js"
+            )
+    return findings
+
+
+def check_no_mocks(path: Path, source: str) -> List[str]:
+    """Flag mock/patch usage (docs/coding_style.md §0)."""
+    if "tests" not in path.parts and path.suffix == ".py":
+        # still flag mocks in package code
+        pass
+    findings: List[str] = []
+    if MOCK_IMPORT_RE.search(source) or PATCH_DECORATOR_RE.search(source):
+        line_no = 1
+        for i, line in enumerate(source.splitlines(), start=1):
+            if "unittest.mock" in line or "pytest_mock" in line or "@patch" in line:
+                if "style-exception: mock" in line:
+                    continue
+                line_no = i
+                findings.append(
+                    f"{path}:{line_no}: mock/patch forbidden "
+                    f"(§0 No mocks; use real I/O or SC_LIVE_API=1)"
+                )
+                break
+        if not findings:
+            findings.append(
+                f"{path}:1: mock/patch forbidden (§0 No mocks)"
             )
     return findings
 
@@ -299,10 +331,13 @@ def analyze_file(
     markup_min_chars: int,
     check_long: bool,
     check_markup: bool,
+    check_mocks: bool = True,
 ) -> List[str]:
     source = path.read_text(encoding="utf-8")
     lines = source.splitlines()
     findings: List[str] = []
+    if check_mocks:
+        findings.extend(check_no_mocks(path, source))
     findings.extend(check_path_slash(path, source))
     try:
         tree = ast.parse(source, filename=str(path))
@@ -346,6 +381,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "--check-markup",
         action="store_true",
         help="Emit findings for large inline HTML/CSS/JS strings (manual extract)",
+    )
+    parser.add_argument(
+        "--check-mocks",
+        action="store_true",
+        help="Fail on unittest.mock / @patch (§0; many tests still violate — opt-in)",
     )
     parser.add_argument(
         "--fix-path",
@@ -395,16 +435,22 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         print(f"autofix complete: {fixed_files} files changed")
 
     findings: List[str] = []
-    for path in _iter_py_files(root):
-        findings.extend(
-            analyze_file(
-                path,
-                max_function_lines=args.max_function_lines,
-                markup_min_chars=args.markup_min_chars,
-                check_long=args.check_long_functions,
-                check_markup=args.check_markup,
+    scan_roots = [root]
+    tests_root = ROOT / "tests"
+    if args.check_mocks and tests_root.is_dir() and tests_root.resolve() != root.resolve():
+        scan_roots.append(tests_root)
+    for scan_root in scan_roots:
+        for path in _iter_py_files(scan_root):
+            findings.extend(
+                analyze_file(
+                    path,
+                    max_function_lines=args.max_function_lines,
+                    markup_min_chars=args.markup_min_chars,
+                    check_long=args.check_long_functions,
+                    check_markup=args.check_markup,
+                    check_mocks=args.check_mocks,
+                )
             )
-        )
 
     if args.git_diff:
         findings.extend(check_git_diff_forbidden(args.git_diff))
