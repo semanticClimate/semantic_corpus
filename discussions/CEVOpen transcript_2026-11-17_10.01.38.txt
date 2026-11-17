@@ -1,0 +1,1716 @@
+[Peter Murray-Rust] 09:02:31
+Transcript. Fine. Okay. So, first of all.
+
+[Renu Kumari] 09:02:34
+Hmm. Okay.
+
+[Peter Murray-Rust] 09:02:38
+I hope you're happy with publishing this in JOSS. We publish PyGet papers there, and the point is that the overhead of publishing is much less, uh, than it is with, um.
+
+[Peter Murray-Rust] 09:02:53
+Uh, normal publication.
+
+[Renu Kumari] 09:02:54
+Yes, other… yeah, yes, yes, I have read that. There are many, like, publications that charge too much.
+
+[Renu Kumari] 09:03:01
+The costing is too much. Mm-hmm.
+
+[Peter Murray-Rust] 09:03:01
+Absolutely. Yeah.
+
+[Peter Murray-Rust] 09:03:04
+Uh, so, um…
+
+[Peter Murray-Rust] 09:03:07
+Let me see if I can give a good overview here. I must say the, um, machine is now, uh…
+
+[Peter Murray-Rust] 09:03:17
+I use Cursor, but you get the same thing from any chatbot now, I think.
+
+[Renu Kumari] 09:03:22
+Hmm.
+
+[Peter Murray-Rust] 09:03:26
+I'll try and give some idea of the, um, structure. Now.
+
+[Peter Murray-Rust] 09:03:33
+The thing is that, uh, and I'll share the screen.
+
+[Peter Murray-Rust] 09:03:52
+Okay, so…
+
+[Peter Murray-Rust] 09:04:00
+This is my cursor, um…
+
+[Peter Murray-Rust] 09:04:04
+hierarchy, um, roughly each project maps onto a repository, but that's not, uh, completely true. Um…
+
+[Peter Murray-Rust] 09:04:16
+This is. So the point is, it's mainly for. Mainly been for me to develop things, but it actually.
+
+[Peter Murray-Rust] 09:04:24
+Works.
+
+[Peter Murray-Rust] 09:04:27
+For communal projects, so long as I, um, manage, um.
+
+[Peter Murray-Rust] 09:04:36
+The submissions and so on. So
+
+[Renu Kumari] 09:04:37
+Okay.
+
+[Peter Murray-Rust] 09:04:41
+Uh, let me…
+
+[Peter Murray-Rust] 09:04:45
+Come on.
+
+[Renu Kumari] 09:04:47
+It's a PF286, hmm.
+
+[Peter Murray-Rust] 09:04:48
+Oh, that's…
+
+[Peter Murray-Rust] 09:04:51
+Uh, no, it's, um…
+
+[Peter Murray-Rust] 09:04:54
+Uh, I'm not in cursor file. Open recent.
+
+[Peter Murray-Rust] 09:04:59
+Right. So this is my.
+
+[Renu Kumari] 09:05:04
+Yes.
+
+[Peter Murray-Rust] 09:05:05
+Oh yeah, some of them might exist.
+
+[Renu Kumari] 09:05:07
+Yes. Mm-hmm.
+
+[Peter Murray-Rust] 09:05:23
+Right. So…
+
+[Peter Murray-Rust] 09:05:24
+I'll try and give an overview of this.
+
+[Peter Murray-Rust] 09:05:40
+What's we in here with?
+
+[Peter Murray-Rust] 09:05:44
+We're in semantic corpus, uh, the corpus, so…
+
+[Peter Murray-Rust] 09:05:49
+Um, I've set up 3 repositories, we'll see them. Um, Corpus, Repositories, and Ingest.
+
+[Renu Kumari] 09:05:58
+Okay.
+
+[Peter Murray-Rust] 09:05:59
+I'm sorry.
+
+[Renu Kumari] 09:06:01
+Bag it.
+
+[Peter Murray-Rust] 09:06:02
+Uh, Corpus…
+
+[Peter Murray-Rust] 09:06:04
+Baggage and ingest have been turned into corpus, I think.
+
+[Peter Murray-Rust] 09:06:09
+This is very recent, so we're changing a lot here. There's one on phrases and knowledge graph, and there's one on repositories.
+
+[Renu Kumari] 09:06:12
+Okay.
+
+[Renu Kumari] 09:06:20
+Mm-hmm.
+
+[Peter Murray-Rust] 09:06:22
+And all of this is going to come under the, um…
+
+[Peter Murray-Rust] 09:06:34
+say, open folder.
+
+[Peter Murray-Rust] 09:06:48
+So I've got ingest baguettes, uh, I've, I've, obviously all these have been, um.
+
+[Peter Murray-Rust] 09:06:54
+Uh, renamed.
+
+[Peter Murray-Rust] 09:07:01
+And I'm not even sure which files exist at the moment. Um…
+
+[Renu Kumari] 09:07:05
+Okay.
+
+[Peter Murray-Rust] 09:07:11
+Right, so…
+
+[Peter Murray-Rust] 09:07:13
+Um, what we have to do is to convince Josh, first of all, that it makes sense to split these things up.
+
+[Peter Murray-Rust] 09:07:25
+And, um, uh, we may have a little bit of a discussion with the editors, I don't know, but we'll try and make the case that these are sufficiently, um, single-purpose and stand-alone.
+
+[Peter Murray-Rust] 09:07:39
+um, that it makes sense to split it in this way. They may, uh, say, no, you have to put it all into a single, um.
+
+[Peter Murray-Rust] 09:07:50
+publication, in which case we will have about, you know, 20 authors, something of that sort.
+
+[Peter Murray-Rust] 09:07:57
+They, um…
+
+[Peter Murray-Rust] 09:07:59
+Uh, they say that authors have to have a, um…
+
+[Peter Murray-Rust] 09:08:04
+Something like, uh, you know, a history of commits on, um…
+
+[Renu Kumari] 09:08:08
+GitHub.
+
+[Peter Murray-Rust] 09:08:10
+GitHub, I'm going to argue that to the editors that, um, uh, what we do is we have regular discussions, um, uh, once a week, um, and that, uh.
+
+[Renu Kumari] 09:08:10
+Hmm.
+
+[Peter Murray-Rust] 09:08:25
+Uh, because these are 3-month internships, uh, I look after the commit, but the work is done by, um, the group as a whole, so I'll make those… I think… I think they'll be… they'll be sympathetic to this, and I have…
+
+[Renu Kumari] 09:08:34
+Mm-hmm. Yes. Yeah. Yes.
+
+[Peter Murray-Rust] 09:08:40
+Friends at.
+
+[Renu Kumari] 09:08:41
+Yes.
+
+[Peter Murray-Rust] 09:08:43
+Uh, at Josh, so I'm, um, uh…
+
+[Renu Kumari] 09:08:45
+Yes.
+
+[Renu Kumari] 09:08:46
+Yes, that would be nice. Hmm.
+
+[Peter Murray-Rust] 09:08:47
+And they don't…
+
+[Peter Murray-Rust] 09:08:49
+They don't reject anything, um, because it, uh, uh, isn't interesting. They reject it because it's not well prepared, or it's out of scope.
+
+[Renu Kumari] 09:09:00
+Okay. Mm-hmm.
+
+[Peter Murray-Rust] 09:09:01
+And they define my gyroscope.
+
+[Peter Murray-Rust] 09:09:03
+So, um…
+
+[Peter Murray-Rust] 09:09:07
+What?
+
+[Peter Murray-Rust] 09:09:09
+So…
+
+[Peter Murray-Rust] 09:09:11
+Let me see if, um…
+
+[Peter Murray-Rust] 09:09:27
+Right, modules…
+
+[Peter Murray-Rust] 09:09:29
+We have these modules, Corpus.
+
+[Peter Murray-Rust] 09:09:32
+phrases and repositories.
+
+[Renu Kumari] 09:09:35
+Hmm. Okay.
+
+[Peter Murray-Rust] 09:09:35
+Um, and so, Corpus is going to deal with, um.
+
+[Peter Murray-Rust] 09:09:41
+the structure of the repository, so that's Backit, the ingest of the repository, which is both from.
+
+[Peter Murray-Rust] 09:09:51
+searching the literature and from ingesting static resources. And the third thing I think we will put in is the Do It pipeline. So we'll put all those into.
+
+[Peter Murray-Rust] 09:10:06
+corpus. And that's the core module. In other words, it describes getting information in, making it semantic, and to make it semantic, we have to have.
+
+[Renu Kumari] 09:10:07
+Okay.
+
+[Peter Murray-Rust] 09:10:23
+Um, defined chunks of information, uh, which can be, um.
+
+[Peter Murray-Rust] 09:10:30
+Uh, which can be paragraphs, uh, it can be, um.
+
+[Peter Murray-Rust] 09:10:36
+figures. It can be, um…
+
+[Peter Murray-Rust] 09:10:40
+Those are the… it can be tables, um, so it's things which are meaningful semantic chunks.
+
+[Peter Murray-Rust] 09:10:48
+Um, in the document.
+
+[Peter Murray-Rust] 09:10:55
+So, then, um…
+
+[Peter Murray-Rust] 09:10:58
+So, somebody using just that paper will be able to build a repository. The repository, um, will…
+
+[Peter Murray-Rust] 09:11:09
+Apply the do it philosophy whereby, um.
+
+[Peter Murray-Rust] 09:11:14
+If there's new information, it'll update the repository. If information is incomplete, it will carry out processing to bring it up to date.
+
+[Peter Murray-Rust] 09:11:30
+All, um, information must be semantic in that it should have, uh, a clear type, um, and it should, um, have a clear.
+
+[Peter Murray-Rust] 09:11:41
+I-D-A-I-D.
+
+[Peter Murray-Rust] 09:11:44
+Uh, and ideally, um, some form of, uh, search mechanism, uh, which will be, um, textual at the moment.
+
+[Peter Murray-Rust] 09:11:54
+Where possible, all…
+
+[Peter Murray-Rust] 09:11:58
+Uh, sizable chunks of code, where possible, should be made declarative, in other words, available in JSON files, or YAML files, or, um, uh, things of this sort. Um…
+
+[Peter Murray-Rust] 09:12:12
+And code such as, HTML scripts or, JavaScript, should be externalized from the program. So we try and keep the program itself.
+
+[Peter Murray-Rust] 09:12:27
+as, um, neat as possible. And the point of these other things is that people are then able to, um, edit them from, um, outside, uh, without, um.
+
+[Peter Murray-Rust] 09:12:41
+uh, having to go in and, um, edit the main program. So this means that if somebody wants, um, uh.
+
+[Renu Kumari] 09:12:46
+Good.
+
+[Peter Murray-Rust] 09:12:50
+to edit a YAML template, they can do this locally without having to get permission and build a new, um…
+
+[Peter Murray-Rust] 09:13:00
+I think. Does that make sense, Renu?
+
+[Renu Kumari] 09:13:02
+Yes, yes, Peter, yes.
+
+[Peter Murray-Rust] 09:13:04
+Right.
+
+[Peter Murray-Rust] 09:13:05
+Uh, good. Uh…
+
+[Peter Murray-Rust] 09:13:07
+One of the, um, values of this session here is that the, um.
+
+[Peter Murray-Rust] 09:13:13
+uh, IDE, the cursor IDE, will be able to read this, um, transcript, and, um.
+
+[Peter Murray-Rust] 09:13:22
+use that to come up with its own, um, set of, uh, principles. So, I will feed the result of this discussion.
+
+[Renu Kumari] 09:13:30
+Okay.
+
+[Peter Murray-Rust] 09:13:32
+So, then we have this central module, uh, called Corpus at the moment. The names may change, and, uh, we see probably, um, four.
+
+[Peter Murray-Rust] 09:13:48
+or five additional ones. So we see one which deals with repositories. I called it Global South, but actually it should just be called repositories. But the emphasis will be on Global South repositories.
+
+[Renu Kumari] 09:14:04
+So the corpus and the repositories are the different things.
+
+[Peter Murray-Rust] 09:14:07
+Yes, that's right. Um, uh, so…
+
+[Renu Kumari] 09:14:08
+Okay.
+
+[Peter Murray-Rust] 09:14:11
+Corpus is, um…
+
+[Peter Murray-Rust] 09:14:15
+Corpus is not, you might call it a repository, it will be published, but it's more than just a repository because it's semantic and intelligent. By repositories I mean things like.
+
+[Renu Kumari] 09:14:28
+Okay.
+
+[Peter Murray-Rust] 09:14:33
+Um, you're at PubMed Central, um.
+
+[Peter Murray-Rust] 09:14:38
+Uh, OpenAlex…
+
+[Renu Kumari] 09:14:39
+Connie's head. Connie's head.
+
+[Peter Murray-Rust] 09:14:40
+Connie said, um…
+
+[Renu Kumari] 09:14:43
+Say hello.
+
+[Peter Murray-Rust] 09:14:43
+There's a competitor to Archive, I can't remember what it's called, um, and…
+
+[Renu Kumari] 09:14:48
+Buy or buy? Uh, but, um…
+
+[Peter Murray-Rust] 09:14:49
+No, um, uh, I saw it this morning, I hadn't heard of it before.
+
+[Renu Kumari] 09:14:55
+Okay.
+
+[Peter Murray-Rust] 09:14:57
+But we'll find it. And each of these will have a declarative template so that the idea here is that we expose all of the download logic for these things.
+
+[Peter Murray-Rust] 09:15:11
+as much as possible, so we don't edit the core, uh, we can edit these external files. Um…
+
+[Peter Murray-Rust] 09:15:25
+Then, um, so that's, uh, repositories, and, um, are you aware of, um.
+
+[Peter Murray-Rust] 09:15:34
+Uh, others, uh, which we should include.
+
+[Renu Kumari] 09:15:38
+No, I think the one who have listed in the Slack is sufficient enough, because the others are not connected yet.
+
+[Peter Murray-Rust] 09:15:46
+Well, I'm going to, uh… no, um…
+
+[Peter Murray-Rust] 09:15:51
+Uh, I'm… I'm probably going to reach out to other people who have repositories. I will, um…
+
+[Peter Murray-Rust] 09:15:59
+reach out again to Rederlich, um, though I don't know whether Arianna is still, uh, in business. Um…
+
+[Renu Kumari] 09:16:08
+Yes.
+
+[Renu Kumari] 09:16:09
+So, we have not… we have not completely implemented the OpenLX also, so we can…
+
+[Peter Murray-Rust] 09:16:09
+I will re…
+
+[Renu Kumari] 09:16:15
+That also open a leg.
+
+[Peter Murray-Rust] 09:16:16
+We can absolutely do that one, yes. Um…
+
+[Renu Kumari] 09:16:17
+Mm-hmm. Mm-hmm.
+
+[Peter Murray-Rust] 09:16:20
+we will, um, uh, I'm going to, uh, contact, um.
+
+[Renu Kumari] 09:16:26
+Cyello? Cyello?
+
+[Peter Murray-Rust] 09:16:29
+We'll certainly contact Sayel, though.
+
+[Renu Kumari] 09:16:30
+Mm-hmm.
+
+[Peter Murray-Rust] 09:16:33
+And I will contact, um, the SAPTA, uh…
+
+[Peter Murray-Rust] 09:16:38
+uh, Erewhon from Indonesia. I don't… they've got an archive, I don't know what state it's in at the moment. Are you aware of anything in India which corresponds to an open repository?
+
+[Renu Kumari] 09:16:40
+Mm-hmm.
+
+[Renu Kumari] 09:16:44
+Okay.
+
+[Renu Kumari] 09:16:54
+Um… no, I think…
+
+[Renu Kumari] 09:16:57
+It's only the bio archive and med archive and all this are already.
+
+[Peter Murray-Rust] 09:17:01
+Well, we have, in principle, um, it can do, um.
+
+[Peter Murray-Rust] 09:17:08
+collections of theses in universities, and this would be very powerful. So, um…
+
+[Renu Kumari] 09:17:14
+Hmm.
+
+[Peter Murray-Rust] 09:17:16
+Uh, I don't know whether we can reach out to, uh, JANU, for example.
+
+[Renu Kumari] 09:17:21
+Very difficult, very difficult. We tried last time, but we are not able to do that, so…
+
+[Peter Murray-Rust] 09:17:27
+Okay. Um, well, I might, um, uh, I might write to Aaron Sub, um, uh.
+
+[Renu Kumari] 09:17:27
+Hmm.
+
+[Peter Murray-Rust] 09:17:35
+Arantzalam Sabaya, he's one of my friends, and he might give us a repository to include. What he has to do also is give us a.
+
+[Renu Kumari] 09:17:47
+Okay.
+
+[Peter Murray-Rust] 09:17:49
+volunteer. So the thing is, if we go, uh, to people like him, uh, and get a repository, uh, we'll get a volunteer with it. That's the criterion. Um, and, uh, they can join us, uh, and that will build up our critical mass.
+
+[Renu Kumari] 09:18:00
+Okay.
+
+[Renu Kumari] 09:18:08
+Mm-hmm. Yes.
+
+[Peter Murray-Rust] 09:18:11
+So… so, actually, we're… we're in a… I will… I will write to him, because I think that's a real, uh, opportunity.
+
+[Peter Murray-Rust] 09:18:21
+And we'll see who else has got active, uh, repositories. Um…
+
+[Peter Murray-Rust] 09:18:30
+Good. So that we put down tentatively to Larissa. Now, Larissa is keen, and this is a good way for her to learn things. So what I plan, Renu, is that we have.
+
+[Peter Murray-Rust] 09:18:48
+three or four sub projects like this. And it doesn't involve everybody. It involves the owner of that particular sub module. And you can come along if you want. I will certainly come along.
+
+[Renu Kumari] 09:18:56
+Hmm?
+
+[Renu Kumari] 09:18:59
+Yes.
+
+[Renu Kumari] 09:19:02
+Hmm.
+
+[Peter Murray-Rust] 09:19:03
+Um, because I'll be, um, running it, um, and we'll see how that goes. So that's the repositories. And that could…
+
+[Renu Kumari] 09:19:07
+Hmm.
+
+[Renu Kumari] 09:19:09
+Yes.
+
+[Peter Murray-Rust] 09:19:14
+Um, I, uh, that could, uh, get people's interest, um, in the library community, and get people doing this, so I, I despair of libraries, but, um, you never know.
+
+[Renu Kumari] 09:19:26
+Hmm.
+
+[Peter Murray-Rust] 09:19:29
+So that's repositories. The next one is, um…
+
+[Peter Murray-Rust] 09:19:35
+the central one, which is Corpus, um, Baggett Do It, um, and, uh…
+
+[Peter Murray-Rust] 09:19:45
+That we'll do on a regular ba- um…
+
+[Peter Murray-Rust] 09:19:50
+A regular… we'll do that every time, um…
+
+[Peter Murray-Rust] 09:19:54
+Uh, every week, um, to get that right, because that will form a template for these other ones.
+
+[Peter Murray-Rust] 09:20:02
+Then we have one which is phrases and knowledge graph. Now, um, Alina, uh, not Alina, Anusha was keen to be involved.
+
+[Renu Kumari] 09:20:12
+Hmm.
+
+[Peter Murray-Rust] 09:20:12
+Uh, with that, so if we have Anusha and Neil on that one as owners.
+
+[Renu Kumari] 09:20:18
+Okay.
+
+[Peter Murray-Rust] 09:20:20
+um… let's see how that goes. And of course, I shall go… I shall go along to those meetings as well.
+
+[Renu Kumari] 09:20:25
+Okay.
+
+[Peter Murray-Rust] 09:20:28
+And so forth. And then, then we've got.
+
+[Peter Murray-Rust] 09:20:36
+Then we're going to have to have one on encyclopedia. We don't have a name for that at the moment.
+
+[Renu Kumari] 09:20:42
+Yeah.
+
+[Renu Kumari] 09:20:44
+Or what about the chatbot?
+
+[Peter Murray-Rust] 09:20:46
+Uh, and, uh, we've got the chatbot. Yes. Uh, so, um.
+
+[Peter Murray-Rust] 09:20:52
+So we've actually got about five different papers.
+
+[Renu Kumari] 09:20:57
+Yes.
+
+[Peter Murray-Rust] 09:21:00
+And we have to convince Josh that, um, it makes sense to, uh, do this, um, sequentially like this, and I'll write.
+
+[Renu Kumari] 09:21:00
+Hmm.
+
+[Renu Kumari] 09:21:09
+So, uh, after writing to them, then we will start working on, according to their instructions or guidelines, or…
+
+[Peter Murray-Rust] 09:21:21
+Their guidelines are very generic. The guidelines are that so let's go back and look at the guidelines.
+
+[Renu Kumari] 09:21:25
+Okay.
+
+[Renu Kumari] 09:21:34
+So what I mean is that we start working on that, and then in the meantime, uh, we will also communicate with them together.
+
+[Peter Murray-Rust] 09:21:44
+Uh, yes, we'll start working on it anyway, because these are good guidelines. Um…
+
+[Renu Kumari] 09:21:47
+Okay.
+
+[Peter Murray-Rust] 09:21:59
+Right, so…
+
+[Peter Murray-Rust] 09:22:01
+First of all, um, just to refresh… refresh our, um…
+
+[Peter Murray-Rust] 09:22:07
+Knowledge, so let's, um…
+
+[Peter Murray-Rust] 09:22:09
+look at this one, I have nothing… no idea what, uh…
+
+[Peter Murray-Rust] 09:22:16
+So…
+
+[Peter Murray-Rust] 09:22:17
+It's got a title, it's got authors, uh, with affiliations. This is a summary, what it does.
+
+[Peter Murray-Rust] 09:22:28
+Statement of need is very important.
+
+[Renu Kumari] 09:22:31
+Okay.
+
+[Peter Murray-Rust] 09:22:33
+That's a statement of need.
+
+[Peter Murray-Rust] 09:22:36
+state of the field. Now, this is actually where the, um…
+
+[Peter Murray-Rust] 09:22:41
+AI is actually very helpful. So if you say who has done things which are similar, uh, then, um, the AI does a very good literature review.
+
+[Renu Kumari] 09:22:50
+Is… yeah… is it the review of literature?
+
+[Peter Murray-Rust] 09:22:54
+Is it what?
+
+[Renu Kumari] 09:22:56
+Review of literature.
+
+[Peter Murray-Rust] 09:22:59
+Uh, it's review of literature about, um, the subject of, um, uh, of the paper. So, uh, if we do something like, um, let's just say we did something on, um.
+
+[Renu Kumari] 09:23:03
+Software.
+
+[Renu Kumari] 09:23:07
+Okay.
+
+[Peter Murray-Rust] 09:23:14
+chatbots, uh, we would ask the AI to review the literature on chatbots. If we do something on repositories, we'd ask the, um.
+
+[Renu Kumari] 09:23:15
+Mm-hmm.
+
+[Renu Kumari] 09:23:23
+Okay.
+
+[Renu Kumari] 09:23:25
+Mm-hmm.
+
+[Peter Murray-Rust] 09:23:30
+AI to do a review on repositories, and so on.
+
+[Renu Kumari] 09:23:35
+Hmm.
+
+[Peter Murray-Rust] 09:23:35
+Right, so this is state of the field.
+
+[Peter Murray-Rust] 09:23:38
+And that's, you know, so…
+
+[Peter Murray-Rust] 09:23:40
+They don't want a lot, right?
+
+[Renu Kumari] 09:23:43
+Mm, mm.
+
+[Peter Murray-Rust] 09:23:45
+And then software design will definitely have quite a lot in that.
+
+[Peter Murray-Rust] 09:23:52
+Research impact is where our… where we're weakest, in a sense.
+
+[Renu Kumari] 09:23:58
+Hmm?
+
+[Peter Murray-Rust] 09:23:58
+And that's the end of the paper. So, you know, it's not.
+
+[Renu Kumari] 09:24:01
+Yes, it's a very small…
+
+[Peter Murray-Rust] 09:24:04
+Right, but…
+
+[Peter Murray-Rust] 09:24:06
+Uh, what you have to do is, uh, here, you've got to satisfy them that your software works.
+
+[Renu Kumari] 09:24:14
+Okay.
+
+[Peter Murray-Rust] 09:24:19
+So let's see what there is in paper review.
+
+[Renu Kumari] 09:24:22
+Mm-hmm.
+
+[Peter Murray-Rust] 09:24:24
+Right.
+
+[Peter Murray-Rust] 09:24:27
+So they submitted on, um.
+
+[Peter Murray-Rust] 09:24:31
+July the 2nd…
+
+[Peter Murray-Rust] 09:24:44
+Right, so these are the two reviewers.
+
+[Peter Murray-Rust] 09:24:47
+So you know who the reviewers are.
+
+[Peter Murray-Rust] 09:24:51
+Reviewer guidelines, we'll come back and look at that.
+
+[Peter Murray-Rust] 09:24:55
+Uh, so each of them has got a…
+
+[Peter Murray-Rust] 09:24:59
+sets of…
+
+[Peter Murray-Rust] 09:25:01
+Right, that's mainly for him, or her.
+
+[Peter Murray-Rust] 09:25:07
+Is the software available? Right? Yes. Does it contain a license? Yes.
+
+[Peter Murray-Rust] 09:25:15
+Has the submitting author made major contributions?
+
+[Peter Murray-Rust] 09:25:20
+Um, does this submission demonstrate clear research impact?
+
+[Peter Murray-Rust] 09:25:23
+that's where we're weakest, right? But I think the fact that we've given lots of talks.
+
+[Peter Murray-Rust] 09:25:31
+um, uh, will, um, guide us through on that. I think that, you know, the fact that we've done talks with Fiske, uh, we've done, um, uh, talks.
+
+[Renu Kumari] 09:25:39
+Hmm.
+
+[Renu Kumari] 09:25:41
+In Cobb.
+
+[Peter Murray-Rust] 09:25:42
+All of these things, yes.
+
+[Renu Kumari] 09:25:44
+Hmm.
+
+[Peter Murray-Rust] 09:25:47
+Uh, data, it doesn't contain original data. If it's got results, are they reproducible?
+
+[Peter Murray-Rust] 09:25:57
+Does the project show evidence of sustained development over time? The answer is yes. I mean, we go back several years. Was it developed openly from early stages? Yes.
+
+[Renu Kumari] 09:26:02
+Hmm.
+
+[Peter Murray-Rust] 09:26:12
+Is it, uh… does it have community engagement? Absolutely. Um…
+
+[Renu Kumari] 09:26:15
+Yes. Mm.
+
+[Peter Murray-Rust] 09:26:18
+Does it look like a reusable non-throwaway? Hopefully.
+
+[Peter Murray-Rust] 09:26:24
+Can it be installed?
+
+[Peter Murray-Rust] 09:26:26
+Have the functional claims been confirmed? Well, we will do that by giving them examples.
+
+[Renu Kumari] 09:26:33
+Hmmm.
+
+[Peter Murray-Rust] 09:26:35
+Are there performance claims? No, we're not claiming any performance particularly.
+
+[Peter Murray-Rust] 09:26:41
+statement of need, uh, installation, examples, functionality, uh, and the AI helps us to do all this lot, right?
+
+[Peter Murray-Rust] 09:26:53
+has a clear description. That's going to be, uh, quite challenging. Um…
+
+[Peter Murray-Rust] 09:27:00
+Uh, because it's complicated. Statement of need.
+
+[Peter Murray-Rust] 09:27:05
+Statement of the field, um.
+
+[Peter Murray-Rust] 09:27:16
+We've got to show the unique scholarly contribution. Um, software design, yes.
+
+[Renu Kumari] 09:27:20
+Hmm.
+
+[Peter Murray-Rust] 09:27:25
+I'm quite pleased about this research impact.
+
+[Peter Murray-Rust] 09:27:37
+I think so. AI usage, we've got to say what we've used the AI for. Well, I'm keeping a record, and I think everyone should keep a record of.
+
+[Renu Kumari] 09:27:44
+Yes. Mm-hmm.
+
+[Peter Murray-Rust] 09:27:51
+anything they ask the AI, and then get that put into the, um, docs section of, um, the program. So, in other words, uh.
+
+[Peter Murray-Rust] 09:28:04
+What I do is, every time… let me show you…
+
+[Peter Murray-Rust] 09:28:28
+Oh, it's probably here. Uh…
+
+[Peter Murray-Rust] 09:28:38
+If I go to…
+
+[Peter Murray-Rust] 09:28:43
+Sure.
+
+[Peter Murray-Rust] 09:28:48
+So, for example, here.
+
+[Peter Murray-Rust] 09:28:52
+Um, here, for example, uh, you know.
+
+[Peter Murray-Rust] 09:28:55
+This is written by an AI, um, and I shall… we'll probably ask the AI, um.
+
+[Peter Murray-Rust] 09:29:09
+put in the author's, uh, requests and so on. Uh, so I've tried to keep this. So, there should be a full history in Docs for this, and then we can just ask the, um…
+
+[Peter Murray-Rust] 09:29:22
+AI to summarize all this, and again, it will do a very good job of that.
+
+[Peter Murray-Rust] 09:29:28
+Quality of writing, is it well written? Uh…
+
+[Peter Murray-Rust] 09:29:31
+I hope we can manage that. Isn't that right?
+
+[Peter Murray-Rust] 09:29:38
+Uh, and the machine can manage the citations, syntax, and so on.
+
+[Peter Murray-Rust] 09:29:44
+So.
+
+[Peter Murray-Rust] 09:29:50
+This is Bissaloo.
+
+[Peter Murray-Rust] 09:30:07
+Right. So they're using pull requests. I'm, um, going to justify to, um.
+
+[Peter Murray-Rust] 09:30:16
+And I wrote a section on this, um, for the chatbot, why we use branches rather than pull requests, right?
+
+[Renu Kumari] 09:30:25
+Mm, yes.
+
+[Peter Murray-Rust] 09:30:25
+And that's being committed to docs, right?
+
+[Peter Murray-Rust] 09:30:32
+Okay.
+
+[Peter Murray-Rust] 09:30:36
+And so here's the review.
+
+[Peter Murray-Rust] 09:30:51
+Right, could you confirm that Florence Pugh.
+
+[Peter Murray-Rust] 09:30:54
+contributed significantly. The Git history doesn't make it very clear. So you see, they want authors to appear on Git, which is perfectly reasonable. What I.
+
+[Peter Murray-Rust] 09:31:11
+Um, so the fact that people have got branches on Git is, um, valuable.
+
+[Renu Kumari] 09:31:17
+Okay.
+
+[Renu Kumari] 09:31:20
+So they will consider the branches, uh, and uh, is it not required to be merged into the main? It's only… branches can work.
+
+[Peter Murray-Rust] 09:31:27
+Yes, but the branches are there in the history.
+
+[Renu Kumari] 09:31:30
+Yes, yes, hmm, fine.
+
+[Peter Murray-Rust] 09:31:32
+So, if I said, for example, uh, you know, has Renu contributed to, um, Semantic Corpus, you can go to GitHub and find that Renu had a branch.
+
+[Renu Kumari] 09:31:42
+Okay, hmm, fine.
+
+[Peter Murray-Rust] 09:31:47
+But you can't do that for Simon, uh, for example.
+
+[Peter Murray-Rust] 09:31:54
+Right, what are your future plans? I'm concerned by the long-term maintainability.
+
+[Peter Murray-Rust] 09:32:01
+Its architecture was still not completely clear, and it's got duplicated code.
+
+[Renu Kumari] 09:32:06
+Mm-hmm.
+
+[Peter Murray-Rust] 09:32:15
+That's a reviewer.
+
+[Peter Murray-Rust] 09:32:22
+AI might only use for non-substantive assistance.
+
+[Renu Kumari] 09:32:27
+So the issue they have created is…
+
+[Peter Murray-Rust] 09:32:28
+Oh, that's for the reviewer, sorry.
+
+[Renu Kumari] 09:32:32
+The issue… this is the issue they have created in their JOSS journal only. This is the part of journal.
+
+[Renu Kumari] 09:32:40
+Or it is a part of a software repository, the page you are looking.
+
+[Peter Murray-Rust] 09:32:46
+Sorry, you're, you're, um, uh, slightly breaking up. Um, this…
+
+[Renu Kumari] 09:32:49
+Okay.
+
+[Peter Murray-Rust] 09:32:52
+is Josh's policy on software, right?
+
+[Renu Kumari] 09:32:55
+Uh-huh, okay.
+
+[Peter Murray-Rust] 09:32:57
+Uh, but this is for the reviewer.
+
+[Renu Kumari] 09:32:59
+Mm-hmm.
+
+[Renu Kumari] 09:33:00
+Okay.
+
+[Peter Murray-Rust] 09:33:00
+Right? Uh, so in other words, the reviewer has to, uh, be, um, human, um, and.
+
+[Peter Murray-Rust] 09:33:07
+You can check grammar, uh, and so on.
+
+[Peter Murray-Rust] 09:33:13
+But…
+
+[Peter Murray-Rust] 09:33:16
+Evaluation must be made by humans.
+
+[Renu Kumari] 09:33:20
+Okay.
+
+[Peter Murray-Rust] 09:33:22
+And then…
+
+[Renu Kumari] 09:33:22
+Hmm. Hmm.
+
+[Peter Murray-Rust] 09:33:24
+This is what the reviewer has to check.
+
+[Renu Kumari] 09:33:27
+Mm-hmm.
+
+[Peter Murray-Rust] 09:33:30
+Does it show evidence of sustained development over time? Preferably months or years. So they… they don't want, you know, um…
+
+[Peter Murray-Rust] 09:33:40
+They don't want somebody to hack up a project in…
+
+[Peter Murray-Rust] 09:33:45
+You know, a day or two and publish it.
+
+[Renu Kumari] 09:33:46
+Yes. Yes.
+
+[Renu Kumari] 09:33:48
+I think they require a 6-month history.
+
+[Peter Murray-Rust] 09:33:51
+Yeah.
+
+[Peter Murray-Rust] 09:33:53
+Well, we can do that for all of this, right?
+
+[Renu Kumari] 09:33:56
+Mm-hmm.
+
+[Peter Murray-Rust] 09:33:58
+And the good thing about this is that the machine will summarize it for us.
+
+[Renu Kumari] 09:34:02
+Yes.
+
+[Peter Murray-Rust] 09:34:05
+So this is all, um…
+
+[Peter Murray-Rust] 09:34:08
+Well, let's try it.
+
+[Peter Murray-Rust] 09:34:14
+I finished my review. This is impressive work. I find it well documented with a lot of features.
+
+[Peter Murray-Rust] 09:34:26
+I'd… in the README, I want to see installation and citation.
+
+[Renu Kumari] 09:34:29
+Mm-hmm.
+
+[Peter Murray-Rust] 09:34:34
+very strange.
+
+[Peter Murray-Rust] 09:34:36
+continuous integration and continuous development. Um…
+
+[Peter Murray-Rust] 09:34:42
+So this is a possibility.
+
+[Peter Murray-Rust] 09:34:47
+Um, that we may want to think about. These are tools for helping manage projects.
+
+[Peter Murray-Rust] 09:34:57
+We can add other people in the contributing file.
+
+[Renu Kumari] 09:35:00
+Okay.
+
+[Peter Murray-Rust] 09:35:16
+repository metadata.
+
+[Peter Murray-Rust] 09:35:18
+All functions are well documented.
+
+[Peter Murray-Rust] 09:35:27
+I'm not sure what language this is…
+
+[Peter Murray-Rust] 09:35:32
+Um, R, I think it is.
+
+[Peter Murray-Rust] 09:35:46
+You see, this is very helpful, you see. Uh, this is not like a one-off review, you send it off to, I don't know, Journal of Chem Informatics.
+
+[Renu Kumari] 09:35:48
+Yes.
+
+[Peter Murray-Rust] 09:35:55
+Um, and it comes back and says, yes, we accept, or no, revise these things, and you send it in again. Uh, this is, uh, this is… they…
+
+[Renu Kumari] 09:36:04
+Yes.
+
+[Peter Murray-Rust] 09:36:08
+The assumption here is that the reviewer wants you to publish the, paper, if they think it's got enough good features in it.
+
+[Renu Kumari] 09:36:14
+Hmm. Hmm.
+
+[Renu Kumari] 09:36:19
+Yes.
+
+[Peter Murray-Rust] 09:36:19
+Oh, sorry.
+
+[Renu Kumari] 09:36:22
+Hmm.
+
+[Peter Murray-Rust] 09:36:27
+And then, um, the author has replied.
+
+[Renu Kumari] 09:36:32
+Hmm…
+
+[Peter Murray-Rust] 09:36:37
+And the thing is that this can take… this happens, you know, on days, um…
+
+[Peter Murray-Rust] 09:36:43
+On a day scale, not on a sort of month scale of other, um, reviewers.
+
+[Renu Kumari] 09:36:51
+Hmm. Okay.
+
+[Peter Murray-Rust] 09:36:51
+Church.
+
+[Peter Murray-Rust] 09:36:54
+Code coverage is…
+
+[Peter Murray-Rust] 09:36:57
+To search, right?
+
+[Renu Kumari] 09:37:01
+Meaning?
+
+[Peter Murray-Rust] 09:37:02
+It means that, uh, of the lines of code, two-thirds of them have tests, which test that bit of code.
+
+[Renu Kumari] 09:37:10
+Okay.
+
+[Peter Murray-Rust] 09:37:13
+Um, so this is very important. If you write code which isn't tested, you can't rely on it. If you write code which is tested, um, at least you know that some of what it does works, right?
+
+[Renu Kumari] 09:37:26
+Mm, mm, mm.
+
+[Peter Murray-Rust] 09:37:40
+Right, so here
+
+[Renu Kumari] 09:37:42
+Yes.
+
+[Peter Murray-Rust] 09:37:43
+Right.
+
+[Peter Murray-Rust] 09:37:44
+this person works, uh, with the main author, um, I write most of the code, so I can copy this, um, uh, you know, so…
+
+[Renu Kumari] 09:37:53
+Yes.
+
+[Peter Murray-Rust] 09:38:00
+So, this would… I would put a statement in like this, that we meet every
+
+[Renu Kumari] 09:38:04
+Hmm.
+
+[Renu Kumari] 09:38:08
+Thursday or something, like, one day in a week.
+
+[Peter Murray-Rust] 09:38:10
+Yes, exactly, yes.
+
+[Renu Kumari] 09:38:11
+Yeah.
+
+[Peter Murray-Rust] 09:38:13
+Long-term thoughts
+
+[Peter Murray-Rust] 09:38:17
+Thanks for your review
+
+[Peter Murray-Rust] 09:38:32
+Now, what this will be particularly good for, um…
+
+[Peter Murray-Rust] 09:38:37
+Renu is the learning process for, uh, Anusha and, um, uh, for Neil and, uh, possibly, um, Alina, um, and certain…
+
+[Renu Kumari] 09:38:50
+Hmm.
+
+[Peter Murray-Rust] 09:38:53
+So, they're software developers, right, but…
+
+[Renu Kumari] 09:38:56
+Yes.
+
+[Peter Murray-Rust] 09:38:57
+Um, they probably don't adhere to good standards because nobody has taught them, right?
+
+[Renu Kumari] 09:39:03
+Mm-hmm. Yes, yes, and that will be very beneficial for them to do.
+
+[Peter Murray-Rust] 09:39:07
+Absolutely, so it's a learning process, um…
+
+[Renu Kumari] 09:39:10
+Yes.
+
+[Peter Murray-Rust] 09:39:27
+Right, so this is all technical about the paper.
+
+[Renu Kumari] 09:39:31
+Mm-hmm.
+
+[Peter Murray-Rust] 09:39:35
+This is a reviewer.
+
+[Peter Murray-Rust] 09:39:44
+Uh, we may have to put in… do you know what CICD is?
+
+[Renu Kumari] 09:39:49
+Uh, no, no.
+
+[Peter Murray-Rust] 09:39:51
+That's when you write some software, uh, and you want to make sure it works.
+
+[Peter Murray-Rust] 09:39:56
+When you commit it to, um.
+
+[Peter Murray-Rust] 09:40:00
+the repository, the GitHub repository, it will actually, um…
+
+[Peter Murray-Rust] 09:40:07
+Compile the code, and run the tests.
+
+[Peter Murray-Rust] 09:40:09
+And we should do that, right?
+
+[Renu Kumari] 09:40:11
+Okay.
+
+[Peter Murray-Rust] 09:40:13
+It's really valuable.
+
+[Renu Kumari] 09:40:14
+Mm-hmm.
+
+[Peter Murray-Rust] 09:40:16
+Uh, we did it with one of the repositories, um…
+
+[Peter Murray-Rust] 09:40:20
+Uh, so…
+
+[Peter Murray-Rust] 09:40:22
+And it also, you know, checks for cleanliness of code and things of that sort.
+
+[Peter Murray-Rust] 09:40:38
+This is an impressive work.
+
+[Peter Murray-Rust] 09:40:47
+Right.
+
+[Peter Murray-Rust] 09:40:51
+So, we probably, uh, will need…
+
+[Peter Murray-Rust] 09:40:59
+There may be quite a lot of detailed work here, but it will be valuable for, um.
+
+[Peter Murray-Rust] 09:41:05
+all of the people, and they will be able to follow this, right? I mean, I've done all this stuff, so I know this sort of thing.
+
+[Renu Kumari] 09:41:12
+Okay.
+
+[Peter Murray-Rust] 09:41:14
+Then you've got also tasks.
+
+[Renu Kumari] 09:41:16
+Mm-hmm.
+
+[Peter Murray-Rust] 09:41:27
+Editorial bot.
+
+[Peter Murray-Rust] 09:41:35
+It checks that the references actually exist.
+
+[Peter Murray-Rust] 09:41:40
+Invalid DOIs.
+
+[Peter Murray-Rust] 09:41:49
+Yeah, so there's some other file…
+
+[Peter Murray-Rust] 09:41:55
+And you can see, you know, one week ago, one week ago.
+
+[Peter Murray-Rust] 09:42:00
+Um, this is a conversation.
+
+[Peter Murray-Rust] 09:42:07
+And I, I, I mean, it will be very good, uh, learning for, um, all of the teams.
+
+[Renu Kumari] 09:42:16
+Yes, definitely, because we have no experience regarding this.
+
+[Peter Murray-Rust] 09:42:20
+Yes.
+
+[Peter Murray-Rust] 09:42:26
+Then we've got some comments…
+
+[Peter Murray-Rust] 09:42:34
+about the language.
+
+[Peter Murray-Rust] 09:42:44
+Corrections are done.
+
+[Peter Murray-Rust] 09:42:47
+And all of this, the paper, I think, is publicly viewable.
+
+[Renu Kumari] 09:42:51
+Hmm.
+
+[Peter Murray-Rust] 09:42:54
+Editorial bot does a lot for this.
+
+[Peter Murray-Rust] 09:43:00
+Right. You have just accepted the paper.
+
+[Peter Murray-Rust] 09:43:06
+See that you can find it.
+
+[Renu Kumari] 09:43:09
+No.
+
+[Peter Murray-Rust] 09:43:20
+Right, okay,
+
+[Peter Murray-Rust] 09:43:27
+So, we'll go through that process, um, we'll check that the, um.
+
+[Peter Murray-Rust] 09:43:37
+particular leads for the project are, uh, are happy to do that.
+
+[Peter Murray-Rust] 09:43:43
+Um, now…
+
+[Peter Murray-Rust] 09:43:45
+Let me then go back to the
+
+[Peter Murray-Rust] 09:43:55
+design here, um…
+
+[Peter Murray-Rust] 09:43:57
+of this. Um…
+
+[Peter Murray-Rust] 09:44:03
+Which are we in here?
+
+[Peter Murray-Rust] 09:44:05
+Actually, chatbot, um…
+
+[Renu Kumari] 09:44:11
+Yes.
+
+[Renu Kumari] 09:44:12
+Yes, this is… Mm-hmm.
+
+[Peter Murray-Rust] 09:44:14
+This is Semantic Corpus.
+
+[Peter Murray-Rust] 09:44:16
+Overview. Um…
+
+[Renu Kumari] 09:44:16
+Okay.
+
+[Peter Murray-Rust] 09:44:20
+I'm going to ask the machine now, um…
+
+[Peter Murray-Rust] 09:44:30
+To make a justification here.
+
+[Peter Murray-Rust] 09:45:23
+Okay, uh…
+
+[Peter Murray-Rust] 09:45:35
+Uh, this one is called…
+
+[Renu Kumari] 09:45:46
+Phrases, phrases, phrases.
+
+[Peter Murray-Rust] 09:45:48
+Phrase is, phrase is catchy.
+
+[Renu Kumari] 09:45:50
+Hmm.
+
+[Renu Kumari] 09:45:58
+Encyclopedia.
+
+[Peter Murray-Rust] 09:46:05
+Cool.
+
+[Renu Kumari] 09:46:06
+Chatbot.
+
+[Peter Murray-Rust] 09:46:08
+Sample, yes.
+
+[Peter Murray-Rust] 09:46:17
+I think that's right, um…
+
+[Renu Kumari] 09:46:20
+Yes.
+
+[Peter Murray-Rust] 09:46:38
+Oh, can you use the corpus?
+
+[Peter Murray-Rust] 09:46:40
+Um, as…
+
+[Peter Murray-Rust] 09:47:11
+Right, um…
+
+[Peter Murray-Rust] 09:50:58
+What else? Uh…
+
+[Renu Kumari] 09:51:03
+Yes, I will look for it.
+
+[Peter Murray-Rust] 09:51:03
+I think that's… let's try that. Um…
+
+[Peter Murray-Rust] 09:51:11
+And it will…
+
+[Peter Murray-Rust] 09:51:20
+So this is, I think, the modern way to write this type of paper. You know, we are telling the machine what to do. It is not capable of.
+
+[Renu Kumari] 09:51:27
+Hmm.
+
+[Peter Murray-Rust] 09:51:33
+doing what we want, um, and what Josh wants, because this is too complex.
+
+[Renu Kumari] 09:51:35
+Yes.
+
+[Renu Kumari] 09:51:39
+Hmm.
+
+[Peter Murray-Rust] 09:52:08
+Right, so let's see what it said…
+
+[Peter Murray-Rust] 09:52:13
+With the scope you described, declarative ingest, logistic, semantic.
+
+[Peter Murray-Rust] 09:52:18
+Indexing.
+
+[Peter Murray-Rust] 09:52:20
+incremental do-it corpus is comfortably enough for a standalone JOSS paper, and it's the right first paper in the series. A thinner.
+
+[Peter Murray-Rust] 09:52:32
+Yes.
+
+[Peter Murray-Rust] 09:52:35
+Okay.
+
+[Peter Murray-Rust] 09:52:37
+Josh wants three things. Problem, audience, problem.
+
+[Peter Murray-Rust] 09:52:46
+Yes.
+
+[Peter Murray-Rust] 09:52:52
+I mean, this is very good. Um…
+
+[Peter Murray-Rust] 09:53:05
+Yep.
+
+[Peter Murray-Rust] 09:53:14
+NLP, Natural Language Processing.
+
+[Peter Murray-Rust] 09:53:20
+Two tools combined, declarative, multi-source, ingest some…
+
+[Peter Murray-Rust] 09:53:25
+Okay
+
+[Peter Murray-Rust] 09:53:29
+Open, scriptable substrate for building an incrementally extending personal scholarly corp. Oh, yes, and it is personal, from declarative ingest.
+
+[Peter Murray-Rust] 09:53:39
+And right.
+
+[Peter Murray-Rust] 09:53:41
+Well, that's okay. One sentence is a fairly, uh.
+
+[Peter Murray-Rust] 09:53:45
+chilly sentence.
+
+[Peter Murray-Rust] 09:53:48
+Yes, so we're not putting in CyEllo.
+
+[Peter Murray-Rust] 09:53:51
+And what's GS? Adapters.
+
+[Peter Murray-Rust] 09:53:55
+No idea.
+
+[Peter Murray-Rust] 09:53:59
+Yes.
+
+[Peter Murray-Rust] 09:54:01
+Because it's enough!
+
+[Peter Murray-Rust] 09:54:09
+Multi-month. You see, it knows more about JOS than we do.
+
+[Renu Kumari] 09:54:14
+Yes.
+
+[Peter Murray-Rust] 09:54:27
+tutorial with real, right?
+
+[Peter Murray-Rust] 09:54:41
+Right, in every sibling paper, so the siblings will be the, um…
+
+[Peter Murray-Rust] 09:54:48
+uh, chatbot and, uh, repository and so on, may consume a semantic corpus, BagIt index, or operate on a standalone work directory.
+
+[Peter Murray-Rust] 09:54:59
+Uh, right, so this… these are contracts.
+
+[Peter Murray-Rust] 09:55:02
+that protects corpus as a core citation while keeping repositories independently reviewable. Okay, this is very good, so…
+
+[Renu Kumari] 09:55:10
+Yes.
+
+[Peter Murray-Rust] 09:55:12
+Um, I'm going to commit that now, um…
+
+[Peter Murray-Rust] 09:55:43
+Right, so he's going to commit this discussion there and
+
+[Peter Murray-Rust] 09:55:48
+Uh, one of the good things about, um, the AI now is that you can get it, for example, to review everything in Docs, and later, if we say, well, there's, you know, 50 different MD files in Docs.
+
+[Renu Kumari] 09:56:00
+Hmm, location, yes.
+
+[Peter Murray-Rust] 09:56:03
+It can review them and say, well, these relate to software, these relate to, need, etcetera.
+
+[Renu Kumari] 09:56:08
+Yes.
+
+[Renu Kumari] 09:56:12
+Yes.
+
+[Peter Murray-Rust] 09:56:13
+So, I've done all the talking, Reno. Are you happy about this?
+
+[Renu Kumari] 09:56:18
+Yes, Peter, yes, Peter, definitely.
+
+[Peter Murray-Rust] 09:56:20
+Right. So you you and I will be coauthors of the corporate paper. There will be, lots of other people in that paper. So that might have, twenty authors. Right?
+
+[Renu Kumari] 09:56:25
+Mm-hmm.
+
+[Renu Kumari] 09:56:33
+Yes, okay. It's good.
+
+[Renu Kumari] 09:56:36
+At least we should publish the work we are doing since long.
+
+[Peter Murray-Rust] 09:56:41
+We, we have to publish it, yes, um, uh, because, um.
+
+[Peter Murray-Rust] 09:56:47
+It also means that people, and now machines, can use what we've done.
+
+[Renu Kumari] 09:56:51
+So, yeah.
+
+[Peter Murray-Rust] 09:56:55
+Okay, so that's committed. I will…
+
+[Peter Murray-Rust] 09:57:10
+Right. I've… there's a new branch here in November 2026.
+
+[Renu Kumari] 09:57:15
+Yes.
+
+[Renu Kumari] 09:57:58
+Mm-hmm.
+
+[Peter Murray-Rust] 09:58:29
+Uh, so this is, um…
+
+[Renu Kumari] 09:58:32
+Guidelines.
+
+[Renu Kumari] 09:58:37
+Hmm.
+
+[Peter Murray-Rust] 09:59:02
+I… by the way, I've merged everything in Semantic Corpus, so, uh, the main, uh… we need to test that out, there may be bugs in the main.
+
+[Renu Kumari] 09:59:06
+Okay.
+
+[Renu Kumari] 09:59:16
+I'll test it, the cemented corpus, yeah.
+
+[Peter Murray-Rust] 09:59:17
+Yes.
+
+[Peter Murray-Rust] 09:59:21
+Okay, uh, any comments? Uh, so that's me for this session. Um, I have…
+
+[Renu Kumari] 09:59:27
+Hmm.
+
+[Peter Murray-Rust] 09:59:29
+I have an appointment in half an hour, so if there are things you want to discuss, I'm happy.
+
+[Renu Kumari] 09:59:36
+Uh, no, I think the, uh, how we are going to manage this different, different, uh, project, like, the people, uh, so we are meeting once in a week, so that is the question, so how we are managing those.
+
+[Peter Murray-Rust] 09:59:44
+Yes.
+
+[Peter Murray-Rust] 09:59:48
+Well, we will… we'll probably… the sub-projects will meet once a week, so I will try and find a day for, uh, uh, uh, for…
+
+[Renu Kumari] 09:59:49
+All this part.
+
+[Peter Murray-Rust] 10:00:05
+um… Larisha, okay, for, um…
+
+[Renu Kumari] 10:00:09
+Hmm.
+
+[Peter Murray-Rust] 10:00:09
+Anusha and, um, Neil a day for, um, uh, the others and, and so on. Um, and that will be, you know, uh.
+
+[Peter Murray-Rust] 10:00:19
+If we do that, then, you know, uh, they will become better authors, uh, because they're fine at the moment. I think Neil's done a very good job, but, um…
+
+[Renu Kumari] 10:00:29
+Hmm, yes.
+
+[Peter Murray-Rust] 10:00:32
+Uh, he probably doesn't know how to publish in, um…
+
+[Renu Kumari] 10:00:34
+Yes, yes. Nobody knows it out of the group, because we have not done this according to the software publishing, so they will learn the guidelines. So maybe we can manage someday in the afternoon, and sometime we can manage in the.
+
+[Peter Murray-Rust] 10:00:38
+Yep.
+
+[Peter Murray-Rust] 10:00:40
+Yeah.
+
+[Renu Kumari] 10:00:50
+Evening time, something.
+
+[Peter Murray-Rust] 10:00:52
+Yeah, and it will depend also on whether they have exams and things of that sort, so we'll discuss all this on Thursday.
+
+[Renu Kumari] 10:00:56
+Oh, yes.
+
+[Renu Kumari] 10:00:58
+Yes, definitely.
+
+[Peter Murray-Rust] 10:01:00
+Yeah.
+
+[Renu Kumari] 10:01:02
+Okay, Peter. Thank you so much.
+
+[Peter Murray-Rust] 10:01:03
+Good, okay. It's wonderful to work with you, Renu.
+
+[Renu Kumari] 10:01:07
+Thank you so much, Peter. We are missing you for the daily meetings and all this.
+
+[Renu Kumari] 10:01:14
+But we require a…
+
+[Peter Murray-Rust] 10:01:14
+Oh, you mean that, uh, that, that, um…
+
+[Renu Kumari] 10:01:17
+But the time schedule does not match with the other, so that is why we have to focus on the once in a week and all this. Okay, Peter, bye!
+
+[Peter Murray-Rust] 10:01:26
+I we're moving as fast as we can, and, of course, we have a, you know, a more informed community, than we had before.
+
+[Renu Kumari] 10:01:29
+Yes.
+
+[Renu Kumari] 10:01:34
+Mmm.
+
+[Renu Kumari] 10:01:37
+Yes.
+
+[Peter Murray-Rust] 10:01:38
+Uh, so…
+
+[Peter Murray-Rust] 10:01:40
+Save transcript
+

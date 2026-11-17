@@ -82,6 +82,8 @@ JOSS also expects (current paper format): Summary, Statement of need, State of t
 ## Related docs
 
 - Module overview: [overview.md](overview.md)  
+- Series strategy (owners, meetings, JOSS community evidence): [../../joss_series_strategy.md](../../joss_series_strategy.md)  
+- Source discussion (2026-11-17): [../../../discussions/CEVOpen transcript_2026-11-17_10.01.38.txt](../../../discussions/CEVOpen%20transcript_2026-11-17_10.01.38.txt)  
 - One-repo module policy: [../README.md](../README.md)  
 - Ownership table: [../../repo_responsibilities.md](../../repo_responsibilities.md)  
 - Cleanup / keep list: [../../joss_cleanup_plan.md](../../joss_cleanup_plan.md)  

@@ -3,7 +3,7 @@
 **Logical module:** `phrases_kg`  
 **Package:** `semantic_corpus.phrases_kg`  
 **JOSS focus:** separate paper theme; code stays **in this repo**  
-**Owner focus:** Neel Kumar  
+**Owner focus:** Neel Kumar + Anusha  
 **Co-authors (all papers):** Renu Kumari, Peter Murray-Rust  
 **Spec:** [`MODULE_SPEC.md`](../../../semantic_corpus/MODULE_SPEC.md) · **Metadata:** `semantic_corpus/phrases_kg/module.yaml`
 

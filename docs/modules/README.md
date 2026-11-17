@@ -20,7 +20,8 @@ Separation is by **named functionality + ownership + docs**, not by remotes. Eac
 
 **Split out a theme later only when** it has a stable public API, its own tests/docs, and an owner who can cut a release without breaking ingest.
 
-Full keep/delete context: [joss_cleanup_plan.md](../joss_cleanup_plan.md). Short ownership table: [repo_responsibilities.md](../repo_responsibilities.md).
+Full keep/delete context: [joss_cleanup_plan.md](../joss_cleanup_plan.md). Short ownership table: [repo_responsibilities.md](../repo_responsibilities.md).  
+**JOSS series strategy** (five papers, owners, weekly meetings, using `discussions/` transcripts for community evidence): [joss_series_strategy.md](../joss_series_strategy.md).
 
 ---
 
@@ -30,7 +31,7 @@ Full keep/delete context: [joss_cleanup_plan.md](../joss_cleanup_plan.md). Short
 |---|----------|---------|-------------|-----------|
 | 1 | [corpus/overview.md](corpus/overview.md) | `semantic_corpus.corpus` | Renu Kumari | **Primary** software paper for this repo: ingest + BagIt |
 | 2 | [repositories/overview.md](repositories/overview.md) | `semantic_corpus.repositories` | Larisa Beni | Repository adapters (EPMC, SciELO, Redalyc, CONICET, …); non-EN |
-| 3 | [phrases_kg/overview.md](phrases_kg/overview.md) | `semantic_corpus.phrases_kg` | Neel Kumar | Phrase extraction, bipartite clusters/KG, lightweight methods |
+| 3 | [phrases_kg/overview.md](phrases_kg/overview.md) | `semantic_corpus.phrases_kg` | Neel Kumar + Anusha | Phrase extraction, bipartite clusters/KG, lightweight methods |
 
 **Encyclopedia** and **chatbot** stay **logically separate** bridges (boundary + export), so they do not get a fourth/fifth product repo. They may adopt the same `module.yaml` layout later.
 
