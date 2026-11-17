@@ -1,0 +1,40 @@
+name: corpus
+title: Corpus ingest and BagIt
+summary: >
+  Build personal scientific corpora from open repositories into BagIt-compatible
+  trees with transparent review metadata.
+owner: Renu Kumari
+co_authors:
+  - Renu Kumari
+  - Peter Murray-Rust
+status: primary
+python_extra: null
+depends_on: []
+docs: docs/modules/corpus/overview.md
+legacy_paths:
+  - semantic_corpus/core
+  - semantic_corpus/ingestion
+  - semantic_corpus/storage
+  - semantic_corpus/corpus_review
+  - semantic_corpus/cli.py
+facilities:
+  - id: corpus_manager
+    title: Corpus manager
+    summary: Create and open corpora on disk.
+    entry: semantic_corpus.core.corpus_manager.CorpusManager
+  - id: ingest
+    title: Ingest
+    summary: Ingest pygetpapers dirs, query outputs, and local PDFs.
+    entry: semantic_corpus.ingestion
+  - id: bagit
+    title: BagIt storage
+    summary: Pack and manage BagIt layouts for preservation.
+    entry: semantic_corpus.storage
+  - id: review_qa
+    title: Review table QA
+    summary: Build review tables as a quality gate on ingest.
+    entry: semantic_corpus.corpus_review
+  - id: epmc
+    title: Europe PMC intake
+    summary: Search and download via Europe PMC (primary OA path).
+    entry: semantic_corpus.repositories.europe_pmc

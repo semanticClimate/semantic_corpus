@@ -5,7 +5,7 @@
 **Primary JOSS target (this repo):** **semantic_corpus** — ingest + BagIt  
 **Lead authors on all five papers:** Renu Kumari, Peter Murray-Rust  
 
-**In-repo, not new projects:** Global South adapters, phrase/KG, encyclopedia hooks, and chatbot export stay in **this** repository but must remain **logically separate** (packages + docs ownership). Do not split into five GitHub projects unless leads later decide otherwise.
+**In-repo, not new projects:** `repositories`, `phrases_kg`, encyclopedia hooks, and chatbot export stay in **this** repository but must remain **logically separate** (packages + docs + `module.yaml` ownership). Do not split into five GitHub projects unless leads later decide otherwise. See [modules/README.md](modules/README.md) and `semantic_corpus/MODULE_SPEC.md`.
 
 This plan separates **what belongs in a clean JOSS software tree** from trial noise.
 
@@ -15,9 +15,9 @@ This plan separates **what belongs in a clean JOSS software tree** from trial no
 
 | Paper / theme | Leads (plus Renu & PMR on all) | Likely home | Notes for this cleanup |
 |---------------|------------------------------|-------------|-------------------------|
-| **semantic_corpus** | Renu Kumari | **this repo** | Ingest mechanisms, BagIt structure, EPMC/OpenAlex-style OA intake, review table as *corpus QA* |
-| **Harvesting Global South repos** | Larisa Beni | this repo *adapters* now; maybe split later | non-EN, Redalyc, SciELO, CONICET (+ other LA scrapers) |
-| **Phrase extraction & bipartite KG** | Neel Kumar | `cluster_review/` / pipeline KG *or* sibling | figure captions, txt2phrases, lightweight approaches |
+| **corpus** (ingest + BagIt) | Renu Kumari | **this repo** — `semantic_corpus.corpus` | Ingest mechanisms, BagIt structure, EPMC/OpenAlex-style OA intake, review table as *corpus QA* |
+| **repositories** | Larisa Beni | this repo — `semantic_corpus.repositories` | non-EN + GS adapters: Redalyc, SciELO, CONICET (+ other LA scrapers); shared repo face |
+| **phrases_kg** | Neel Kumar | this repo — `semantic_corpus.phrases_kg` (impl in `cluster_review/`) | figure captions, txt2phrases, lightweight approaches |
 | **Encyclopedia** | TBD | sibling `encyclopedia` + hooks here | Wikipedia/Wikidata resolution; keep thin API boundary in this repo |
 | **Chatbot** | Aleena Harold Peter + Anusha | ClimateInsight / chatbot repos | export contract / manifest only here |
 
@@ -49,7 +49,7 @@ This plan separates **what belongs in a clean JOSS software tree** from trial no
 
 | Path | Sibling paper |
 |------|----------------|
-| `semantic_corpus/repositories/{scielo,redalyc,conicet,*_colombia,*uba,usp,uchile,unam,kerwa,…}` | Global South harvesting (Larisa) |
+| `semantic_corpus/repositories/{scielo,redalyc,conicet,*_colombia,*uba,usp,uchile,unam,kerwa,…}` | `repositories` module (Larisa) |
 | `semantic_corpus/cluster_review/` (phrases, clusters, kg) | Phrase + bipartite KG (Neel) |
 | `semantic_corpus/pipeline/` encyclopedia/kg steps | Neel + encyclopedia TBD |
 | `semantic_corpus/classification/` | Optional; review-table labelling — decide if in corpus JOSS or later |

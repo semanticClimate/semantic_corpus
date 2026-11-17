@@ -1,27 +1,30 @@
-# Module 2 — Global South harvesting
+# Module — Literature repositories
 
-**Logical module:** `global_south`  
+**Logical module:** `repositories`  
+**Package:** `semantic_corpus.repositories`  
 **JOSS focus:** separate paper theme; code stays **in this repo**  
 **Owner focus:** Larisa Beni  
 **Co-authors (all papers):** Renu Kumari, Peter Murray-Rust  
+**Spec:** [`MODULE_SPEC.md`](../../../semantic_corpus/MODULE_SPEC.md) · **Metadata:** `semantic_corpus/repositories/module.yaml`
 
 ---
 
 ## Purpose
 
-Harvest scholarly literature from **Global South and non-EN-centric** open sources into the **same corpus contracts** as Module 1 (IDs, documents, review rows, BagIt/flat layout)—without forking a second corpus product.
+Harvest scholarly literature from **open repositories**—including **Global South and non-EN-centric** sources—into the **same corpus contracts** as the `corpus` module (IDs, documents, review rows, BagIt/flat layout)—without forking a second corpus product.
 
 ---
 
 ## In scope
 
 - Repository adapters under `semantic_corpus/repositories/`:  
+  - **Europe PMC**, **OpenAlex** (shared with the corpus primary path)  
   - **SciELO**, **Redalyc**, **CONICET**  
   - Latin American university / IR scrapers (e.g. UBA, USP, UNAL, UNAM, UChile, Kerwa, …)  
-  - Shared scraping helpers (`_scraper.py`) where used  
+  - Shared scraping helpers (`_scraper.py`) and paper-ID helpers (`_ids.py`) where used  
 - Non-English metadata and full-text quirks (encoding, landing pages, PDF-only)  
 - Tests for adapters (real fixtures or `SC_LIVE_API=1`; **no mocks**)  
-- Tutorials that show GS sources feeding the **same** review/BagIt path as EPMC  
+- Tutorials that show repository sources feeding the **same** review/BagIt path  
 
 ---
 
@@ -29,8 +32,8 @@ Harvest scholarly literature from **Global South and non-EN-centric** open sourc
 
 | Belongs elsewhere | Module |
 |-------------------|--------|
-| BagIt packing, EPMC-first CLI story | [ingest_bagit.md](ingest_bagit.md) |
-| Phrase/KG science on top of bags | [phrases_kg.md](phrases_kg.md) |
+| BagIt packing, EPMC-first CLI story | [corpus](../corpus/overview.md) |
+| Phrase/KG science on top of bags | [phrases_kg](../phrases_kg/overview.md) |
 | Topic PDF reading piles | Not software — do not commit (`agrochemicals/` removed) |
 
 ---
@@ -39,7 +42,7 @@ Harvest scholarly literature from **Global South and non-EN-centric** open sourc
 
 - Adapters implement the **shared repository interface**; they must not invent a parallel corpus layout.  
 - Prefer declarative config (YAML query pilots) for demos.  
-- Optional install extra `[gs]` if heavy deps appear; default JOSS ingest install need not pull scraper stacks.  
+- Optional install extra `[repositories]` if heavy deps appear; default JOSS ingest install need not pull scraper stacks.  
 
 ---
 

@@ -1,9 +1,11 @@
-# Module 3 — Phrase extraction and bipartite knowledge graphs
+# Module — Phrase extraction and bipartite knowledge graphs
 
 **Logical module:** `phrases_kg`  
+**Package:** `semantic_corpus.phrases_kg`  
 **JOSS focus:** separate paper theme; code stays **in this repo**  
 **Owner focus:** Neel Kumar  
 **Co-authors (all papers):** Renu Kumari, Peter Murray-Rust  
+**Spec:** [`MODULE_SPEC.md`](../../../semantic_corpus/MODULE_SPEC.md) · **Metadata:** `semantic_corpus/phrases_kg/module.yaml`
 
 ---
 
@@ -21,7 +23,7 @@ From an **already ingested** corpus (BagIt or flat workdir), extract **lightweig
   - **KG** assembly and HTML/server (`kg.py`, `kg_server.py`)  
 - Lightweight approaches (YAKE/TF-IDF and successors); figure-caption and txt2phrases directions as they land  
 - Pipeline steps that orchestrate phrases → clusters → kg  
-- Optional UI (`apps/cluster_review/`) as a *demo*, not Module 1’s JOSS core  
+- Optional UI (`apps/cluster_review/`) as a *demo*, not the corpus module’s JOSS core  
 - Tests with real mini fixtures; network encyclopedia calls gated like other live tests  
 
 ---
@@ -30,8 +32,8 @@ From an **already ingested** corpus (BagIt or flat workdir), extract **lightweig
 
 | Belongs elsewhere | Module |
 |-------------------|--------|
-| Search/download/BagIt | [ingest_bagit.md](ingest_bagit.md) |
-| GS repository scrapers | [global_south.md](global_south.md) |
+| Search/download/BagIt | [corpus](../corpus/overview.md) |
+| Repository scrapers (GS and others) | [repositories](../repositories/overview.md) |
 | Full encyclopedia content system | Sibling `encyclopedia` + bridge hooks |
 | Chatbot / RAG product | Export bridge + external apps |
 
@@ -39,7 +41,7 @@ From an **already ingested** corpus (BagIt or flat workdir), extract **lightweig
 
 ## Boundaries
 
-- **Input:** corpus workdir + review table / packets produced by Module 1 (or GS via the same contracts).  
+- **Input:** corpus workdir + review table / packets produced by `corpus` (or repositories via the same contracts).  
 - **Output:** phrase indexes, cluster graphs, `kg/` artefacts—not a second bag format.  
 - Must not reimplement EPMC download inside phrase code.  
 - Optional install extra `[kg]` / `[cluster]` for sklearn, networkx, yake, streamlit.  

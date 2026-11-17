@@ -91,6 +91,10 @@ include = ["semantic_corpus*"]
 semantic_corpus = [
     "cluster_review/lists/*.txt",
     "cluster_review/lists/*.md",
+    "*/module.yaml",
+    "*/README.md",
+    "MODULE_SPEC.md",
+    "module_template/*",
 ]
 
 [tool.pytest.ini_options]
