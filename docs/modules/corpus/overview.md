@@ -56,6 +56,7 @@ Downstream modules should consume bags/review tables / semantic HTML via these c
 ## Docs
 
 - **Design + user scenarios:** [design.md](design.md)  
+- **User narratives (Statement of need):** [user_narratives.md](user_narratives.md)  
 - **JOSS framing:** [joss_presentation.md](joss_presentation.md)  
 - Tutorials under `docs/` and `docs/tutorials/` (trim excess over time)  
 - Config: one or two YAML pilots (not every topic harvest)
