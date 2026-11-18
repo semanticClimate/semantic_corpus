@@ -6,6 +6,7 @@ This example demonstrates how to process metadata from different file formats.
 """
 
 from pathlib import Path
+
 from semantic_corpus.tools.metadata_processor import MetadataProcessor
 
 processor = MetadataProcessor()
@@ -21,9 +22,11 @@ xml_path = Path("temp", "downloads", "paper.xml")
 if xml_path.exists():
     xml_metadata = processor.process_xml_metadata(xml_path)
     print(f"XML metadata: {xml_metadata}")
-    
+
     # Normalize metadata
     normalized = processor.normalize_metadata(xml_metadata)
     print(f"Normalized metadata: {normalized}")
 else:
-    print("Note: No XML file found. Run example 03_repository_search_download.py first to download a paper.")
+    print(
+        "Note: No XML file found. Run example 03_repository_search_download.py first to download a paper."
+    )

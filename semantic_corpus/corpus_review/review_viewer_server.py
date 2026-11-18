@@ -8,9 +8,16 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import parse_qs, unquote, urlparse
 
-from semantic_corpus.corpus_review.interactive_review import ReviewSession, ReviewSessionConfig
+from semantic_corpus.corpus_review.interactive_review import (
+    ReviewSession,
+    ReviewSessionConfig,
+)
 from semantic_corpus.corpus_review.review_table import export_review_tables
-from semantic_corpus.corpus_review.text_preview import build_paper_preview, resolve_document_paths
+from semantic_corpus.corpus_review.text_preview import (
+    build_paper_preview,
+    render_jats_to_html,
+    resolve_document_paths,
+)
 
 _PAPER_FILENAME = re.compile(r"^[A-Za-z0-9._-]+\.(pdf|html)$")
 
@@ -55,31 +62,12 @@ class ReviewViewerServer:
         self._server: Optional[ThreadingHTTPServer] = None
         self._session: Optional[ReviewSession] = None
 
-    def _session_config(self) -> ReviewSessionConfig:
-        config = self.session_config or ReviewSessionConfig(
-            review_table_path=self.review_table_path
-        )
-        if config.corpus_dir is None and config.query_dir:
-            inferred = infer_corpus_dir(config.query_dir)
-            if inferred:
-                config = ReviewSessionConfig(
-                    review_table_path=config.review_table_path,
-                    query_dir=config.query_dir,
-                    xml_dir=config.xml_dir,
-                    corpus_dir=inferred,
-                    search_results_path=config.search_results_path,
-                    min_score=config.min_score,
-                    max_score=config.max_score,
-                    status_filter=config.status_filter,
-                    topic_filter=config.topic_filter,
-                    redo=config.redo,
-                    intro_max_chars=config.intro_max_chars,
-                )
-        return config
-
     def _get_session(self) -> ReviewSession:
         if self._session is None:
-            self._session = ReviewSession.load(self._session_config())
+            config = self.session_config or ReviewSessionConfig(
+                review_table_path=self.review_table_path
+            )
+            self._session = ReviewSession.load(config)
         return self._session
 
     def _reload_session(self) -> ReviewSession:
@@ -91,12 +79,12 @@ class ReviewViewerServer:
             return None
 
         stem = Path(filename).stem
-        config = self._session_config()
+        config = self.session_config
         session = self._get_session()
 
-        row: Dict[str, Any] = {"pmcid": stem, "paper_id": f"europe_pmc_{stem}"}
+        row: Dict[str, Any] = {"paper_id": stem, "pmcid": stem}
         for candidate in session.rows:
-            if candidate.get("pmcid") == stem or candidate.get("paper_id") == stem:
+            if candidate.get("paper_id") == stem or candidate.get("pmcid") == stem:
                 row = candidate
                 break
             if candidate.get("paper_id") == f"europe_pmc_{stem}":
@@ -105,9 +93,9 @@ class ReviewViewerServer:
 
         paths = resolve_document_paths(
             row,
-            query_dir=config.query_dir,
-            xml_dir=config.xml_dir,
-            corpus_dir=config.corpus_dir,
+            query_dir=config.query_dir if config else None,
+            xml_dir=config.xml_dir if config else None,
+            corpus_dir=config.corpus_dir if config else None,
         )
         ext = Path(filename).suffix.lower().lstrip(".")
         path = paths.get("pdf_path" if ext == "pdf" else "html_path")
@@ -132,7 +120,14 @@ class ReviewViewerServer:
                 self.end_headers()
                 self.wfile.write(body)
 
-            def _send_bytes(self, content: bytes, content_type: str, *, status: int = 200, extra_headers: Optional[Dict[str, str]] = None) -> None:
+            def _send_bytes(
+                self,
+                content: bytes,
+                content_type: str,
+                *,
+                status: int = 200,
+                extra_headers: Optional[Dict[str, str]] = None,
+            ) -> None:
                 self.send_response(status)
                 self.send_header("Content-Type", content_type)
                 self.send_header("Content-Length", str(len(content)))
@@ -143,7 +138,10 @@ class ReviewViewerServer:
                 self.wfile.write(content)
 
             def _send_file(self, file_path: Path) -> None:
-                content_type = mimetypes.guess_type(str(file_path))[0] or "application/octet-stream"
+                content_type = (
+                    mimetypes.guess_type(str(file_path))[0]
+                    or "application/octet-stream"
+                )
                 data = file_path.read_bytes()
                 size = len(data)
                 range_header = self.headers.get("Range")
@@ -193,7 +191,9 @@ class ReviewViewerServer:
                     return
 
                 row = session.rows[index]
-                config = server._session_config()
+                config = server.session_config or ReviewSessionConfig(
+                    review_table_path=review_table_path
+                )
                 preview = build_paper_preview(
                     row,
                     search_metadata=session._lookup_search_metadata(row),
@@ -202,21 +202,35 @@ class ReviewViewerServer:
                     corpus_dir=config.corpus_dir,
                     intro_max_chars=config.intro_max_chars,
                 )
-                pmcid = row.get("pmcid") or ""
                 paths = resolve_document_paths(
                     row,
                     query_dir=config.query_dir,
                     xml_dir=config.xml_dir,
                     corpus_dir=config.corpus_dir,
                 )
+                html_url = None
+                if paths.get("html_path"):
+                    html_url = f"/papers/{paths['html_path'].name}"
+                elif paths.get("xml_path"):
+                    html_url = f"/papers/{paths['xml_path'].name}"
+
+                pdf_url = (
+                    f"/papers/{paths['pdf_path'].name}"
+                    if paths.get("pdf_path")
+                    else None
+                )
+
                 payload: Dict[str, Any] = {
-                    "abstract": preview.get("abstract") or row.get("abstract_snippet") or "",
+                    "abstract": preview.get("abstract")
+                    or row.get("abstract_snippet")
+                    or "",
                     "intro": preview.get("intro") or "",
-                    "pdf_url": f"/papers/{pmcid}.pdf" if paths.get("pdf_path") and pmcid else None,
-                    "html_url": f"/papers/{pmcid}.html" if paths.get("html_path") and pmcid else None,
+                    "pdf_url": pdf_url,
+                    "html_url": html_url,
                     "formats": {
                         "pdf": bool(paths.get("pdf_path")),
                         "html": bool(paths.get("html_path")),
+                        "xml": bool(paths.get("xml_path")),
                     },
                 }
                 self._send_json(200, payload)
@@ -235,6 +249,42 @@ class ReviewViewerServer:
 
                 if path.startswith("/papers/"):
                     filename = path.split("/papers/", 1)[-1]
+                    # Serve rendered HTML for JATS XML files.
+                    if filename.lower().endswith(".xml"):
+                        stem = Path(filename).stem
+                        config = server.session_config
+                        session = server._get_session()
+                        row: Dict[str, Any] = {"paper_id": stem, "pmcid": stem}
+                        for candidate in session.rows:
+                            if (
+                                candidate.get("paper_id") == stem
+                                or candidate.get("pmcid") == stem
+                            ):
+                                row = candidate
+                                break
+                            if candidate.get("paper_id") == f"europe_pmc_{stem}":
+                                row = candidate
+                                break
+
+                        paths = resolve_document_paths(
+                            row,
+                            query_dir=config.query_dir if config else None,
+                            xml_dir=config.xml_dir if config else None,
+                            corpus_dir=config.corpus_dir if config else None,
+                        )
+                        xml_path = paths.get("xml_path")
+                        if not xml_path:
+                            self.send_error(404)
+                            return
+                        rendered = render_jats_to_html(Path(xml_path))
+                        if not rendered:
+                            self.send_error(500)
+                            return
+                        self._send_bytes(
+                            rendered.encode("utf-8"), "text/html; charset=utf-8"
+                        )
+                        return
+
                     document = server._resolve_document(filename)
                     if not document:
                         self.send_error(404)

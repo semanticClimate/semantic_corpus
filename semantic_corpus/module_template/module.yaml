@@ -1,0 +1,22 @@
+# Template for a semantic_corpus extension module.
+# Copy this directory to semantic_corpus/<name>/ and fill in every field.
+# Schema: see ../MODULE_SPEC.md
+
+name: example_module
+title: Human-readable module title
+summary: >
+  One or two sentences stating what this module does for users.
+owner: Name of focus owner
+co_authors:
+  - Renu Kumari
+  - Peter Murray-Rust
+status: extension   # primary | extension | bridge
+python_extra: null  # pip extra name, e.g. kg — or null if in default install
+depends_on: []      # other module names, e.g. [corpus]
+docs: docs/modules/example_module/overview.md
+legacy_paths: []    # existing packages this module fronts until fully moved
+facilities:
+  - id: example_facility
+    title: Example facility
+    summary: One line describing a capability users invoke.
+    entry: semantic_corpus.example_module.api

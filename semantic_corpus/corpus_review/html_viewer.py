@@ -1,14 +1,11 @@
 """HTML review viewer for interactive corpus paper selection."""
 
-import html
 import json
 from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, List
 
 from semantic_corpus.corpus_review.constants import (
-    REVIEW_STATUS_EXCLUDE,
-    REVIEW_STATUS_INCLUDE,
     REVIEW_STATUS_REVIEW,
     REVIEW_TABLE_COLUMNS,
 )
@@ -24,7 +21,9 @@ def build_filter_summary(
 ) -> Dict[str, Any]:
     """Summarise how many papers match filters and score thresholds."""
     total = len(rows)
-    score_distribution = dict(sorted(Counter(int(r.get("score") or 0) for r in rows).items()))
+    score_distribution = dict(
+        sorted(Counter(int(r.get("score") or 0) for r in rows).items())
+    )
     status_counts = Counter(r.get("review_status", REVIEW_STATUS_REVIEW) for r in rows)
 
     messages: List[str] = [f"{total} papers in review table"]
@@ -471,7 +470,7 @@ _VIEWER_HTML = """<!DOCTYPE html>
           <div class="title">${escapeHtml(paper.title_plain || paper.title || "(no title)")}</div>
           <div class="meta">
             <span class="${statusClass(paper.review_status)}">${paper.review_status}</span>
-            · ${escapeHtml(paper.pmcid || paper.paper_id)}
+            · ${escapeHtml(paper.paper_id || paper.pmcid)}
           </div>`;
         btn.onclick = () => {
           currentIndex = index;
@@ -502,14 +501,19 @@ _VIEWER_HTML = """<!DOCTYPE html>
       const badges = [
         paper.review_status,
         paper.has_xml ? "XML" : null,
+        paper.has_html ? "HTML" : null,
         paper.has_pdf ? "PDF" : null,
-        paper.pmcid || null,
+        paper.paper_id || paper.pmcid || null,
         paper.doi || null,
       ].filter(Boolean).map(text => `<span class="badge">${escapeHtml(text)}</span>`).join("");
 
       const paperLinks = [];
-      if (paper.pmcid && paper.has_pdf) {
-        paperLinks.push(`<a href="/papers/${encodeURIComponent(paper.pmcid)}.pdf" target="_blank" rel="noopener">Open PDF</a>`);
+      const pdfId = paper.paper_id || paper.pmcid;
+      if (pdfId && paper.has_pdf) {
+        paperLinks.push(`<a href="/papers/${encodeURIComponent(pdfId)}.pdf" target="_blank" rel="noopener">Open PDF</a>`);
+      }
+      if (pdfId && paper.has_html) {
+        paperLinks.push(`<a href="/papers/${encodeURIComponent(pdfId)}.html" target="_blank" rel="noopener">Open HTML</a>`);
       }
 
       document.getElementById("paper-body").innerHTML = `

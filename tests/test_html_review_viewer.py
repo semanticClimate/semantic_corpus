@@ -67,7 +67,9 @@ class TestHtmlReviewViewer:
         )
         summary = build_filter_summary(rows, config, queue_indices=[0])
         assert summary["queue_count"] == 1
-        assert any("only 1 paper reaches min_score >= 1" in msg for msg in summary["messages"])
+        assert any(
+            "only 1 paper reaches min_score >= 1" in msg for msg in summary["messages"]
+        )
         assert "min_score >= 1" in summary["headline"]
 
     def test_write_review_viewer_html(self, tmp_path: Path) -> None:
@@ -93,7 +95,9 @@ class TestHtmlReviewViewer:
         review_dir.mkdir()
         review_table = review_dir / "review_table.json"
         review_table.write_text(json.dumps(_sample_rows()), encoding="utf-8")
-        session = ReviewSession.load(ReviewSessionConfig(review_table_path=review_table))
+        session = ReviewSession.load(
+            ReviewSessionConfig(review_table_path=review_table)
+        )
         payload = build_viewer_payload(session)
         paper = payload["papers"][0]
         assert "abstract" not in paper

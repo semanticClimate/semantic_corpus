@@ -5,9 +5,7 @@ from pathlib import Path
 
 import pytest
 
-from semantic_corpus.core.exceptions import CorpusError
 from semantic_corpus.corpus_review.constants import (
-    REVIEW_STATUS_EXCLUDE,
     REVIEW_STATUS_INCLUDE,
     REVIEW_STATUS_REVIEW,
 )
@@ -20,7 +18,6 @@ from semantic_corpus.corpus_review.text_preview import (
     extract_intro_from_xml,
     strip_markup,
 )
-
 
 SAMPLE_JATS = """<?xml version="1.0" encoding="UTF-8"?>
 <article>

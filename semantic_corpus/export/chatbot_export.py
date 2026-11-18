@@ -99,9 +99,7 @@ def export_corpus_for_chatbot(
     papers: List[Dict[str, Any]] = []
     for paper_id in paper_ids:
         metadata = corpus.get_paper_metadata(paper_id)
-        papers.append(
-            build_paper_export_record(paper_id, metadata, corpus.corpus_dir)
-        )
+        papers.append(build_paper_export_record(paper_id, metadata, corpus.corpus_dir))
 
     manifest: Dict[str, Any] = {
         "export_version": "1.0",
@@ -109,6 +107,7 @@ def export_corpus_for_chatbot(
         "paper_count": len(papers),
         "papers": papers,
         "chunking_hint": {
+            "text_cascade": ["xml", "pdf_docling", "json_abstract"],
             "primary_text_source": "xml_path",
             "fallback_text_source": "abstract",
             "metadata_fields_for_retrieval": [

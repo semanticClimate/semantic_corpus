@@ -3,10 +3,11 @@
 import json
 from pathlib import Path
 
-import pytest
-
 from semantic_corpus.corpus_review.interactive_review import ReviewSessionConfig
-from semantic_corpus.corpus_review.review_viewer_server import ReviewViewerServer, infer_corpus_dir
+from semantic_corpus.corpus_review.review_viewer_server import (
+    ReviewViewerServer,
+    infer_corpus_dir,
+)
 
 
 def _sample_row(**overrides):
@@ -137,7 +138,9 @@ class TestReviewViewerServer:
             ),
             encoding="utf-8",
         )
-        config = ReviewSessionConfig(review_table_path=review_table, query_dir=query_dir)
+        config = ReviewSessionConfig(
+            review_table_path=review_table, query_dir=query_dir
+        )
         server = ReviewViewerServer(
             review_dir=review_dir,
             review_table_path=review_table,

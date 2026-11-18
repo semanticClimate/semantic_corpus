@@ -1,0 +1,100 @@
+# Scientific discourse / manuscript furniture (lowercase).
+# Dropped from phrase indexes — not topical content.
+# Edit freely; re-run Step 2 with force=True to apply.
+
+# Figures / tables / equations
+figure
+figures
+fig
+figs
+fig.
+figs.
+table
+tables
+equation
+equations
+eq
+eqs
+panel
+panels
+caption
+captions
+legend
+legends
+figure legend
+figure legends
+table legend
+schematic
+schematics
+
+# Supplementary / supporting
+supplement
+supplements
+supplemental
+supplementary
+supplementary data
+supplementary dataset
+supplementary datasets
+supplementary fig
+supplementary figs
+supplementary figure
+supplementary figures
+supplementary table
+supplementary tables
+supplementary note
+supplementary notes
+supplementary text
+supplementary material
+supplementary materials
+supplemental material
+supplemental materials
+supplemental data
+supporting information
+supporting material
+supporting materials
+extended data
+extended data fig
+extended data figure
+extended data table
+additional file
+additional files
+appendix
+appendices
+
+# Cross-refs / discourse glue
+shown in
+see also
+as shown
+as described
+described above
+described below
+see text
+see methods
+see figure
+see table
+this study
+this work
+this paper
+this article
+present study
+current study
+our results
+our findings
+
+# Section / structure labels (when extracted as phrases)
+introduction
+methods
+materials and methods
+results
+discussion
+conclusion
+conclusions
+references
+acknowledgments
+acknowledgements
+author contributions
+data availability
+conflict of interest
+competing interests
+funding
+ethics statement

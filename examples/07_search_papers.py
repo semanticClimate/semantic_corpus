@@ -6,6 +6,7 @@ This example demonstrates how to search for papers by title or abstract.
 """
 
 from pathlib import Path
+
 from semantic_corpus.core.corpus_manager import CorpusManager
 
 corpus_dir = Path("corpora", "my_research")

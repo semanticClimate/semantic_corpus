@@ -30,6 +30,11 @@ Output is written to `temp/queries/aqi_india_pilot/review/`:
 | `review_table.html` | **Human editing** in any browser; styled via `review_table.css` |
 | `review_table.css` | Edit layout/colours (platform-independent) |
 | `review_table.md` | Quick read-only overview |
+| `review_table.json` | Source of truth for tools |
+| `review_table.csv` | Machine export (spreadsheet interchange; not for editing) |
+| `review_table.html` | **Human editing** in any browser; styled via `review_table.css` |
+| `review_table.css` | Edit layout/colours (platform-independent) |
+| `review_table.md` | Quick read-only overview |
 
 ## Script options
 
@@ -62,11 +67,66 @@ Each row includes:
 - **review_status** — starts as `review`; set to `include` or `exclude` after human review
 - **title, abstract, pmcid, pmid, doi** — from search metadata
 - **has_xml / has_pdf** — whether fulltext files were downloaded
+- **pdf_path** — filesystem path to the downloaded PDF (link target for display)
 - **location_terms, pollutant_terms, health_terms** — keyword matches used in scoring
+- **cluster_id, cluster_terms** — unsupervised classification (populated by `classify_review_table.py`)
+- **encyclopedia_category, encyclopedia_score, encyclopedia_terms** — supervised classification against climate encyclopedias
 - **query_name, query_string** — from `query_run.json` when present
 
 Rows are sorted by descending score, then `paper_id`.
 
+## Edit in HTML (recommended)
+
+**Any-query tutorial:** [../tutorials/generation_of_review_table.md](../tutorials/generation_of_review_table.md)  
+**New team member (5 min):** [tutorials/new_member_review_quickstart.md](tutorials/new_member_review_quickstart.md)  
+**Full tutorial:** [tutorials/html_review_table_tutorial.md](tutorials/html_review_table_tutorial.md)  
+**Discussion summary:** [summary/2026-07-06_review_workflow.md](summary/2026-07-06_review_workflow.md)  
+**Feature record:** [records/2026-07-04_html_review_table.md](records/2026-07-04_html_review_table.md)
+
+Papers load only through the local server (http:// URL). Do not open `review_table.html` as a saved file.
+
+```bash
+./venv/bin/python scripts/review_viewer.py serve \
+  --review-table temp/queries/climate_anxiety_2026/review/review_table.json \
+  --query-dir temp/queries/climate_anxiety_2026
+```
+
+Then open **http://127.0.0.1:8765/review_table.html** (the script may open this for you).
+
+- **Green banner** at top = connected; **Read** opens PDF/HTML in a side panel
+- Change **Status** (`review` / `include` / `exclude`) and **Notes** in the table
+- Click **Save review table** — updates `.json`, `.csv`, `.html`, and `.md`
+- Customise appearance by editing `review_table.css` in the same folder (reload the page)
+
+CSV is still exported for pipelines, but you do not need Excel to edit.
+
+## Classify papers (optional)
+
+After building the table you can add unsupervised clusters and supervised
+climate-encyclopedia categories:
+
+```bash
+# Unsupervised clustering only
+./venv/bin/python scripts/classify_review_table.py \
+    --review-json temp/queries/aqi_india_pilot/review/review_table.json \
+    --clusters 5
+
+# Add supervised classification using ../encyclopedia curated wordlists
+./venv/bin/python scripts/classify_review_table.py \
+    --review-json temp/queries/aqi_india_pilot/review/review_table.json \
+    --search-results temp/queries/aqi_india_pilot/search_results.json \
+    --clusters 5 \
+    --encyclopedia-dir ../encyclopedia
+```
+
+- **Unsupervised** clustering groups papers by TF-IDF cosine similarity using scikit-learn (`TfidfVectorizer` + `KMeans`), seeded for reproducibility.
+- **Supervised** classification is a TF-IDF nearest-centroid classifier (scikit-learn): each curated encyclopedia wordlist is a category, and each paper is assigned to the most similar category.
+
+Requires the `classification` extra: `pip install "semantic_corpus[classification]"` (installs scikit-learn).
+
+Passing `--search-results` uses full abstracts (better signal than the truncated snippet).
+
+## After building the table (JSON / programmatic)
 ## Edit in HTML (recommended)
 
 **New team member (5 min):** [tutorials/new_member_review_quickstart.md](tutorials/new_member_review_quickstart.md)  

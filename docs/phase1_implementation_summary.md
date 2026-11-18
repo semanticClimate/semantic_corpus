@@ -207,7 +207,7 @@ corpus_manager.create_structured_directories()
 metadata = {
     "title": "Example Paper",
     "authors": ["Author 1", "Author 2"],
-    "doi": "10.1000/example"
+    "doi": "10.1000/example",
 }
 corpus_manager.add_paper("paper_001", metadata)
 
@@ -231,10 +231,12 @@ from semantic_corpus.storage.bagit_manager import BagitManager
 
 # Create and manage BAGIT bag directly
 bagit_manager = BagitManager(corpus_dir)
-bagit_manager.create_bag(metadata={
-    "Source-Organization": "Research Lab",
-    "Contact-Email": "contact@example.com"
-})
+bagit_manager.create_bag(
+    metadata={
+        "Source-Organization": "Research Lab",
+        "Contact-Email": "contact@example.com",
+    }
+)
 
 # Validate bag
 if bagit_manager.validate_bag():

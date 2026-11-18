@@ -1,5 +1,7 @@
 """Custom exceptions for semantic_corpus."""
 
+from typing import Optional
+
 
 class SemanticCorpusError(Exception):
     """Base exception for semantic_corpus."""
@@ -18,7 +20,11 @@ class CorpusError(SemanticCorpusError):
 class RepositoryError(SemanticCorpusError):
     """Exception raised for repository-related errors."""
 
-    pass
+    def __init__(
+        self, message: str, *, status_code: Optional[int] = None
+    ) -> None:
+        self.status_code = status_code
+        super().__init__(message)
 
 
 class MetadataError(SemanticCorpusError):

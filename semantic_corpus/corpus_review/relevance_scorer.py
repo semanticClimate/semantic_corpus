@@ -49,9 +49,15 @@ def score_paper_relevance(
 
     score = 0
 
-    if "air quality index" in title_lower or " aqi" in title_lower or title_lower.startswith("aqi"):
+    if (
+        "air quality index" in title_lower
+        or " aqi" in title_lower
+        or title_lower.startswith("aqi")
+    ):
         score += 3
-    elif any(t in title_lower for t in ("air pollution", "pm2.5", "pm10", "particulate")):
+    elif any(
+        t in title_lower for t in ("air pollution", "pm2.5", "pm10", "particulate")
+    ):
         score += 2
 
     if location_terms:

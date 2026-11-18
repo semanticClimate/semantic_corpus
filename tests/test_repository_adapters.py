@@ -116,15 +116,21 @@ class TestOpenAlexRepository:
                         "display_name": "Climate anxiety paper",
                         "publication_date": "2024-01-01",
                         "authorships": [{"author": {"display_name": "A Author"}}],
-                        "primary_location": {"source": {"display_name": "Test Journal"}},
-                        "best_oa_location": {"pdf_url": "https://example.org/paper.pdf"},
+                        "primary_location": {
+                            "source": {"display_name": "Test Journal"}
+                        },
+                        "best_oa_location": {
+                            "pdf_url": "https://example.org/paper.pdf"
+                        },
                         "open_access": {"is_oa": True},
                         "cited_by_count": 3,
                     }
                 )
             return FakeResponse(b"%PDF-1.5")
 
-        monkeypatch.setattr("semantic_corpus.repositories.openalex.requests.get", fake_get)
+        monkeypatch.setattr(
+            "semantic_corpus.repositories.openalex.requests.get", fake_get
+        )
 
         results = repo.search_papers("climate anxiety", limit=1)
         assert len(results) == 1

@@ -1,0 +1,34 @@
+name: phrases_kg
+title: Phrases and bipartite knowledge graphs
+summary: >
+  Extract lightweight phrases from an ingested corpus, build bipartite
+  paper–term clusters, and emit inspectable KG artefacts.
+owner: Neel Kumar
+co_authors:
+  - Renu Kumari
+  - Peter Murray-Rust
+status: extension
+python_extra: kg
+depends_on:
+  - corpus
+docs: docs/modules/phrases_kg/overview.md
+legacy_paths:
+  - semantic_corpus/cluster_review
+  - apps/cluster_review
+facilities:
+  - id: phrases
+    title: Phrase extraction
+    summary: YAKE/TF-IDF (and related) phrase extraction with editable stop lists.
+    entry: semantic_corpus.cluster_review.step2
+  - id: clusters
+    title: Bipartite clusters
+    summary: Paper↔term bipartite clustering from phrase indexes.
+    entry: semantic_corpus.cluster_review.step3
+  - id: kg
+    title: Knowledge graph
+    summary: Assemble and serve inspectable KG HTML from clusters.
+    entry: semantic_corpus.cluster_review.kg
+  - id: packets
+    title: Packet index
+    summary: Build packet indexes that feed phrase and cluster steps.
+    entry: semantic_corpus.cluster_review.packets

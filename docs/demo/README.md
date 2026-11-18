@@ -16,3 +16,5 @@ Documents for the **semantic_corpus end-to-end demo** (ocean currents & marine h
 | [../summary/2026-07-16_ocean_heatwaves_demo.md](../summary/2026-07-16_ocean_heatwaves_demo.md) | Session summary (2026-07-16) |
 
 **Config:** [config/ocean_heatwaves_2026.yaml](../../config/ocean_heatwaves_2026.yaml)
+
+**Citizen outreach:** [Citizen Science Climate Knowledge prospectus](../outreach/citizen_science_climate_knowledge_prospectus.md) — engagement document for councils, voluntary groups, and community partners.

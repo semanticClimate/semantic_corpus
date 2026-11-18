@@ -20,9 +20,7 @@ def _eupmc_json_to_raw_metadata(data: Dict[str, Any]) -> Dict[str, Any]:
     raw["pmid"] = data.get("pmid") or ""
     author_string = data.get("authorString") or ""
     raw["authors"] = [
-        a.strip().rstrip(".").strip()
-        for a in author_string.split(",")
-        if a.strip()
+        a.strip().rstrip(".").strip() for a in author_string.split(",") if a.strip()
     ]
     raw["publication_date"] = (
         data.get("firstPublicationDate")
@@ -30,7 +28,11 @@ def _eupmc_json_to_raw_metadata(data: Dict[str, Any]) -> Dict[str, Any]:
         or (str(data.get("pubYear", "")) if data.get("pubYear") else "")
     )
     journal_info = data.get("journalInfo") or {}
-    journal = journal_info.get("journal") if isinstance(journal_info.get("journal"), dict) else None
+    journal = (
+        journal_info.get("journal")
+        if isinstance(journal_info.get("journal"), dict)
+        else None
+    )
     raw["journal"] = journal.get("title", "") if journal else ""
     return raw
 
@@ -77,7 +79,9 @@ def ingest_pygetpapers_directory(
         raise CorpusError(f"Not a directory: {pygetpapers_dir}")
 
     if not corpus.use_bagit:
-        raise CorpusError("Pygetpapers ingestion requires a BAGIT corpus (use_bagit=True)")
+        raise CorpusError(
+            "Pygetpapers ingestion requires a BAGIT corpus (use_bagit=True)"
+        )
 
     processor = MetadataProcessor()
     added: List[str] = []

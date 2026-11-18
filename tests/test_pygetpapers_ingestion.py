@@ -8,8 +8,9 @@ Test data: ../amilib/test/resources/pygetpapers/wildlife/
   path resolves. If the wildlife directory is missing, ingestion tests are skipped.
 """
 
-import pytest
 from pathlib import Path
+
+import pytest
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
@@ -24,7 +25,9 @@ def _wildlife_dir() -> Path:
     """Path to amilib pygetpapers wildlife fixture (sibling repo)."""
     # semantic_corpus repo root is parent of tests/
     repo_root = Path(__file__).resolve().parent.parent
-    return Path(repo_root, "..", "amilib", "test", "resources", "pygetpapers", "wildlife").resolve()
+    return Path(
+        repo_root, "..", "amilib", "test", "resources", "pygetpapers", "wildlife"
+    ).resolve()
 
 
 @pytest.fixture
@@ -68,25 +71,18 @@ class TestPygetpapersIngestion:
         ingest_pygetpapers_directory(pygetpapers_wildlife_dir, corpus)
         paper_id = "europe_pmc_PMC12124168"
         metadata = corpus.get_paper_metadata(paper_id)
-        assert metadata.get("title"), (
-            f"Metadata for {paper_id} should have title"
-        )
-        assert "wildlife" in (metadata.get("title") or "").lower() or "urbanization" in (metadata.get("title") or "").lower(), (
-            f"Expected wildlife/urbanization-related title for {paper_id}"
-        )
-        assert metadata.get("abstract"), (
-            f"Metadata for {paper_id} should have abstract"
-        )
+        assert metadata.get("title"), f"Metadata for {paper_id} should have title"
+        assert (
+            "wildlife" in (metadata.get("title") or "").lower()
+            or "urbanization" in (metadata.get("title") or "").lower()
+        ), f"Expected wildlife/urbanization-related title for {paper_id}"
+        assert metadata.get("abstract"), f"Metadata for {paper_id} should have abstract"
         assert metadata.get("doi") == "10.1111/cobi.70049", (
             f"DOI for {paper_id} should match source"
         )
         xml_path = Path(temp_dir, "data", "documents", "xml", f"{paper_id}.xml")
-        assert xml_path.exists(), (
-            f"XML file should exist at {xml_path} after ingest"
-        )
-        assert xml_path.stat().st_size > 0, (
-            f"XML file {xml_path} should be non-empty"
-        )
+        assert xml_path.exists(), f"XML file should exist at {xml_path} after ingest"
+        assert xml_path.stat().st_size > 0, f"XML file {xml_path} should be non-empty"
 
     def test_ingest_wildlife_search_after_ingest(
         self, temp_dir: Path, pygetpapers_wildlife_dir: Path
@@ -115,20 +111,22 @@ class TestPygetpapersIngestion:
             "Error message should mention directory does not exist"
         )
 
-    def test_ingest_requires_bagit(self, temp_dir: Path, pygetpapers_wildlife_dir: Path) -> None:
+    def test_ingest_requires_bagit(
+        self, temp_dir: Path, pygetpapers_wildlife_dir: Path
+    ) -> None:
         """Ingestion requires BAGIT corpus; non-BAGIT raises CorpusError."""
         corpus = CorpusManager(temp_dir, use_bagit=False)
         with pytest.raises(CorpusError) as exc_info:
             ingest_pygetpapers_directory(pygetpapers_wildlife_dir, corpus)
-        assert "BAGIT" in str(exc_info.value), (
-            "Error message should require BAGIT"
-        )
+        assert "BAGIT" in str(exc_info.value), "Error message should require BAGIT"
 
 
 class TestPygetpapersIngestionHelpers:
     """Unit-style tests for ingester helpers."""
 
-    def test_discover_paper_folders_wildlife(self, pygetpapers_wildlife_dir: Path) -> None:
+    def test_discover_paper_folders_wildlife(
+        self, pygetpapers_wildlife_dir: Path
+    ) -> None:
         """_discover_paper_folders finds all PMC folders in wildlife (e.g. 10)."""
         folders = _discover_paper_folders(pygetpapers_wildlife_dir)
         assert len(folders) >= 9, (

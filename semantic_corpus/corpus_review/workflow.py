@@ -1,15 +1,14 @@
 """End-to-end AQI corpus review workflow helpers."""
 
 import json
+import sys
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
 from semantic_corpus.core.repository_factory import RepositoryFactory
-from semantic_corpus.corpus_review.download_completeness import (
-    check_download_completeness,
-)
+from semantic_corpus.corpus_review.collect_progress import fail_reason_label
 from semantic_corpus.corpus_review.query_run import (
     build_query_run_record,
     load_pilot_config,
@@ -18,15 +17,32 @@ from semantic_corpus.corpus_review.query_run import (
 )
 from semantic_corpus.corpus_review.review_table import (
     build_review_rows_from_corpus,
-    build_review_rows_from_pygetpapers,
     build_review_rows_from_search_results,
     export_review_tables,
     load_query_context,
 )
 from semantic_corpus.export.chatbot_export import export_corpus_for_chatbot
 from semantic_corpus.ingestion.pygetpapers_ingester import ingest_pygetpapers_directory
-from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
+from semantic_corpus.repositories._ids import get_result_paper_id
 from semantic_corpus.utils import get_project_temp_dir
+
+# on_paper(paper, status, reason="") where status is "ok" | "skip" | "fail"
+OnPaperCallback = Callable[..., None]
+
+
+def _notify_paper(
+    on_paper: Optional[OnPaperCallback],
+    paper: Dict[str, Any],
+    status: str,
+    reason: str = "",
+) -> None:
+    """Call ``on_paper`` with optional reason; tolerate 2-arg callbacks."""
+    if on_paper is None:
+        return
+    try:
+        on_paper(paper, status, reason)
+    except TypeError:
+        on_paper(paper, status)
 
 
 def run_repository_search(
@@ -38,40 +54,135 @@ def run_repository_search(
     formats: List[str],
     start_date: str = None,
     end_date: str = None,
+    report_ids: bool = True,
+    on_paper: Optional[OnPaperCallback] = None,
 ) -> Tuple[List[Dict[str, Any]], int]:
-    """Search and download via semantic_corpus repository; return results and download count."""
+    """Search and download via semantic_corpus repository; return results and download count.
+
+    When ``report_ids`` is True (default), prints a line-wrapped space-separated
+    list of short ids (e.g. PMCIDs) instead of per-paper INFO lines.
+    When ``on_paper`` is set, it is called for each successful skip/download
+    (and ``report_ids`` id dump is suppressed).
+    """
+    from semantic_corpus.repositories._ids import (
+        paper_documents_present,
+        short_display_id,
+    )
+    from semantic_corpus.utils import print_id_list
+
     repo = RepositoryFactory.get_repository(repository)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # When requesting downloadable formats (e.g. PDF), search for extra candidates
+    # so we can collect up to `limit` papers that actually download the requested formats.
+    candidate_limit = (
+        limit * 3
+        if formats and any(f in ("pdf", "xml", "html") for f in formats)
+        else limit
+    )
+
+    from semantic_corpus.repositories.epmc_streams import (
+        EpmcStreamBoard,
+        print_stream_board,
+    )
+
+    stream_board: Optional[EpmcStreamBoard] = None
+    if str(repository).strip().lower() == "europe_pmc":
+        from semantic_corpus.repositories import epmc_streams as streams_mod
+
+        stream_board = getattr(streams_mod, "PREFLIGHT_BOARD", None)
+        if not isinstance(stream_board, EpmcStreamBoard):
+            stream_board = EpmcStreamBoard()
+
     results = repo.search_papers(
         query=query_string,
-        limit=limit,
+        limit=candidate_limit,
         start_date=start_date,
         end_date=end_date,
     )
     downloaded_count = 0
+    successful_results: List[Dict[str, Any]] = []
+    downloaded_labels: List[str] = []
+    skipped_labels: List[str] = []
+
     for paper in results:
         paper_id = get_result_paper_id(paper)
         if not paper_id:
             continue
+        label = short_display_id(paper) or short_display_id(paper_id)
         try:
-            dl = repo.download_paper(paper_id, output_dir, formats)
+            # Halt/restart: if every requested format is already on disk, skip network.
+            if paper_documents_present(output_dir, paper_id, formats):
+                downloaded_count += 1
+                successful_results.append(paper)
+                skipped_labels.append(label)
+                _notify_paper(on_paper, paper, "skip")
+                if downloaded_count >= limit:
+                    break
+                continue
+
+            dl_kwargs: Dict[str, Any] = {}
+            if stream_board is not None:
+                dl_kwargs["streams"] = stream_board
+                dl_kwargs["paper"] = paper
+            try:
+                dl = repo.download_paper(
+                    paper_id, output_dir, formats, **dl_kwargs
+                )
+            except TypeError as te:
+                # Only fall back when the adapter rejects stream kwargs — not when
+                # Docling/internal code raises TypeError mid-download.
+                msg = str(te)
+                if dl_kwargs and (
+                    "unexpected keyword" in msg
+                    or "got an unexpected keyword argument" in msg
+                ):
+                    dl = repo.download_paper(paper_id, output_dir, formats)
+                else:
+                    raise
             if dl.get("success"):
                 downloaded_count += 1
-        except Exception:
+                successful_results.append(paper)
+                downloaded_labels.append(label)
+                _notify_paper(on_paper, paper, "ok")
+                if downloaded_count >= limit:
+                    break
+            else:
+                reason = fail_reason_label(
+                    dl.get("error") or dl.get("message") or "no_files"
+                )
+                _notify_paper(on_paper, paper, "fail", reason)
+        except Exception as exc:
+            _notify_paper(on_paper, paper, "fail", fail_reason_label(exc))
             continue
 
-    download_check = check_download_completeness(
-        query_dir=output_dir,
-        papers=results,
-        formats=formats,
-        downloaded_count=downloaded_count,
-    )
-    if not download_check.get("complete"):
-        print(download_check.get("message") or "DOWNLOAD INCOMPLETE")
+    if stream_board is not None:
+        print_stream_board(stream_board, final=True)
+        try:
+            report = stream_board.write_error_report(
+                Path(output_dir, "pipeline", "epmc_http_errors.json")
+            )
+            tally = stream_board.format_status_counts() or "none"
+            print(
+                f"[epmc] HTTP errors {tally} → {report} "
+                f"(total={len(stream_board.http_errors)})",
+                file=sys.stderr,
+                flush=True,
+            )
+        except Exception:
+            pass
 
-    return results, downloaded_count
+    if on_paper is None:
+        if report_ids and skipped_labels:
+            print("skip (present):", file=sys.stderr)
+            print_id_list(skipped_labels)
+        if report_ids and downloaded_labels:
+            print("downloaded:", file=sys.stderr)
+            print_id_list(downloaded_labels)
+
+    final_results = successful_results if successful_results else results[:limit]
+    return final_results, downloaded_count
 
 
 def run_query_and_build_review_table(
@@ -82,8 +193,13 @@ def run_query_and_build_review_table(
     repository: str = "europe_pmc",
     limit: int = 25,
     formats: List[str] = None,
+    convert_pdfs: bool = False,
+    do_ocr: bool = False,
     notes: str = "",
     revision_of: str = None,
+    classify_unsupervised: bool = False,
+    n_clusters: int = 5,
+    encyclopedia_dir: Path = None,
 ) -> Dict[str, Any]:
     """Search, download, and build review table under an explicit output directory.
 
@@ -97,8 +213,14 @@ def run_query_and_build_review_table(
         repository: Repository key (default europe_pmc).
         limit: Maximum papers to retrieve.
         formats: Download formats (default xml).
+        convert_pdfs: If True, convert downloaded PDFs to HTML and XML with Docling.
+        do_ocr: If True, enable OCR when converting PDFs.
         notes: Optional free-text notes stored in query_run.json.
         revision_of: Optional prior query_name when refining a query.
+        classify_unsupervised: Cluster papers by content when True.
+        n_clusters: Number of clusters for unsupervised classification.
+        encyclopedia_dir: Optional path to ../encyclopedia for supervised
+            classification against curated climate wordlists.
 
     Returns:
         Summary dict with counts, paths, rows, and query run record.
@@ -114,6 +236,11 @@ def run_query_and_build_review_table(
         output_dir=output_dir,
         formats=formats,
     )
+
+    if convert_pdfs:
+        from semantic_corpus.transformation import convert_query_directory_pdfs
+
+        convert_query_directory_pdfs(output_dir, do_ocr=do_ocr)
 
     results_path = Path(output_dir, "search_results.json")
     with open(results_path, "w", encoding="utf-8") as handle:
@@ -139,10 +266,21 @@ def run_query_and_build_review_table(
         query_name=query_name,
         query_string=query_string,
     )
+
+    classification = apply_classification(
+        rows,
+        search_results_path=results_path,
+        classify_unsupervised=classify_unsupervised,
+        n_clusters=n_clusters,
+        encyclopedia_dir=encyclopedia_dir,
+    )
+
     review_paths = export_review_tables(rows, Path(output_dir, "review"))
 
     high_score_count = sum(1 for row in rows if int(row["score"]) >= 5)
-    xml_count = sum(1 for row in rows if row["has_xml"])
+    xml_count = sum(1 for row in rows if row.get("has_xml"))
+    html_count = sum(1 for row in rows if row.get("has_html"))
+    pdf_count = sum(1 for row in rows if row.get("has_pdf"))
 
     return {
         "query_name": query_name,
@@ -152,14 +290,77 @@ def run_query_and_build_review_table(
         "row_count": len(rows),
         "high_score_count": high_score_count,
         "xml_count": xml_count,
+        "html_count": html_count,
+        "pdf_count": pdf_count,
         "output_dir": str(output_dir),
         "search_results_path": str(results_path),
         "query_run_path": str(query_run_path),
         "review_paths": {k: str(v) for k, v in review_paths.items()},
         "rows": rows,
+        "classification": classification,
         "query_run": record,
         "summary": summarize_query_run(record),
     }
+
+
+def apply_classification(
+    rows: List[Dict[str, Any]],
+    *,
+    search_results_path: Path = None,
+    classify_unsupervised: bool = False,
+    n_clusters: int = 5,
+    encyclopedia_dir: Path = None,
+) -> Dict[str, Any]:
+    """Annotate review rows in place with clusters and/or encyclopedia categories.
+
+    Args:
+        rows: Review rows to annotate.
+        search_results_path: Optional search_results.json for full-abstract text.
+        classify_unsupervised: Run clustering when True.
+        n_clusters: Number of clusters.
+        encyclopedia_dir: Optional ../encyclopedia path for supervised labels.
+
+    Returns:
+        Summary of classification performed (clusters and categories).
+    """
+    from semantic_corpus.classification.annotate import (
+        annotate_rows_with_clusters,
+        annotate_rows_with_encyclopedia,
+        documents_from_review_rows,
+        documents_from_search_results,
+    )
+    from semantic_corpus.classification.encyclopedia_labels import (
+        load_encyclopedia_categories,
+    )
+
+    if search_results_path and Path(search_results_path).is_file():
+        documents = documents_from_search_results(search_results_path)
+    else:
+        documents = documents_from_review_rows(rows)
+
+    summary: Dict[str, Any] = {
+        "unsupervised": None,
+        "supervised": None,
+    }
+
+    if classify_unsupervised:
+        cluster_terms = annotate_rows_with_clusters(
+            rows, documents=documents, n_clusters=n_clusters
+        )
+        summary["unsupervised"] = {
+            "n_clusters": len(cluster_terms),
+            "cluster_terms": {str(k): v for k, v in cluster_terms.items()},
+        }
+
+    if encyclopedia_dir:
+        categories = load_encyclopedia_categories(Path(encyclopedia_dir))
+        annotate_rows_with_encyclopedia(rows, categories, documents=documents)
+        summary["supervised"] = {
+            "categories": sorted(categories.keys()),
+            "encyclopedia_dir": str(encyclopedia_dir),
+        }
+
+    return summary
 
 
 def review_rows_to_dataframe(rows: List[Dict[str, Any]]):

@@ -1,0 +1,543 @@
+# Python source map
+
+**Date:** 2026-11-16 (system date of generation)  
+**Scope:** `semantic_corpus/` package and `scripts/`  
+**Rule:** one line per module; listed callables are the main public entry points (first docstring line).
+
+## `semantic_corpus/`
+
+### `semantic_corpus/`
+
+- **`__init__.py`** — Package root for semantic_corpus..
+- **`cli.py`** — Command-line interface for semantic_corpus.
+  - `create_parser` — Create the command-line argument parser.
+  - `create_corpus_command` — Handle create corpus command.
+  - `search_papers_command` — Handle search papers command.
+  - `download_papers_command` — Handle download papers command.
+  - `convert_command` — Handle convert documents command.
+  - `import_pdfs_command` — Handle import local PDFs command.
+  - `main` — Main CLI entry point.
+- **`cli_pygetpapers.py`** — Translate pygetpapers-style CLI args into semantic_corpus search/download.
+  - `TranslatedPygetpapers` — Result of translating a pygetpapers argv into semantic_corpus actions.
+  - `TranslatedPygetpapers.to_semantic_corpus_argv` — Build argv for the native semantic_corpus search/download parsers.
+  - `parse_pygetpapers_argv` — Parse pygetpapers-style argv into a :class:`TranslatedPygetpapers`.
+  - `run_pygetpapers_translation` — Parse pygetpapers argv, print translation, run search/download. Return exit code.
+- **`utils.py`** — Utility functions for semantic_corpus.
+  - `wrap_space_separated` — Join names with spaces and wrap to ``width`` (no INFO prefixes).
+  - `print_id_list` — Print a line-wrapped, space-separated id list; return the cleaned names.
+  - `get_project_temp_dir` — Get the project temp directory.
+  - `get_downloads_dir` — Get the downloads directory within project temp.
+  - `get_corpus_dir` — Get the corpus directory within project temp.
+  - `get_logs_dir` — Get the logs directory within project temp.
+  - `get_test_results_dir` — Get the test results directory within project temp.
+
+### `semantic_corpus/classification/`
+
+- **`__init__.py`** — Review-table classification (clusters + encyclopedia labels)..
+- **`annotate.py`** — Annotate review rows with unsupervised clusters and encyclopedia categories.
+  - `documents_from_review_rows` — Build id -> text mapping from review rows (title + abstract snippet).
+  - `documents_from_search_results` — Build id -> text mapping from search_results.json (full abstracts).
+  - `annotate_rows_with_clusters` — Add cluster_id and cluster_terms to review rows in place.
+  - `annotate_rows_with_encyclopedia` — Add encyclopedia_category, encyclopedia_score, encyclopedia_terms in place.
+- **`encyclopedia_labels.py`** — Load climate encyclopedia wordlists as labeled category vocabularies.
+  - `load_wordlist_terms` — Load non-deleted terms from a curated wordlist CSV.
+  - `load_encyclopedia_categories` — Discover encyclopedia wordlists and return category -> terms.
+  - `classify_by_vocabularies` — Assign each document to its nearest category by TF-IDF cosine similarity.
+- **`unsupervised.py`** — Unsupervised clustering of papers using scikit-learn (TF-IDF + KMeans).
+  - `cluster_documents` — Cluster documents into groups by TF-IDF cosine similarity.
+  - `top_terms_per_cluster` — Return the most representative terms for each cluster.
+
+### `semantic_corpus/cluster_review/`
+
+- **`__init__.py`** — Cluster-review pipeline: query → corpus → phrases → bipartite clusters → curation.
+- **`encyclopedia.py`** — Encyclopedia step: resolve retained phrases to Wikipedia / Wikidata.
+  - `load_entries` — (see source).
+  - `select_phrases` — Select and rank phrases for encyclopedia resolution.
+  - `resolve_phrase_wikipedia` — Resolve one phrase via MediaWiki search + pageprops (Wikidata id).
+  - `build_encyclopedia` — Select phrases and resolve encyclopedia entries under ``workdir``.
+  - `encyclopedia_is_current` — True when entries.json matches options and phrase fingerprint.
+- **`encyclopedia_disambiguation.py`** — Automatic Wikipedia disambiguation via the sibling ``encyclopedia`` package.
+  - `collect_phrase_context_sentences` — Collect paper sentences that mention each phrase (case-insensitive).
+  - `needs_disambiguation` — True when search was ambiguous or the hit is a dab page.
+  - `apply_encyclopedia_disambiguation` — Run encyclopedia ``resolve_disambiguation`` and update the entry.
+- **`encyclopedia_html.py`** — Build encyclopedia HTML via the sibling ``encyclopedia`` package.
+  - `ensure_encyclopedia_on_path` — Make ``encyclopedia`` importable (installed package or sibling checkout).
+  - `entries_to_ami_dicts` — Map pipeline ``entries.json`` rows to AmiEncyclopedia entry dicts.
+  - `write_encyclopedia_html` — Write ``encyclopedia/encyclopedia.html`` from ``entries.json``.
+- **`kg.py`** — Knowledge graph assembly + HTML display (post-clusters).
+  - `select_kg_terms` — Pick retained phrases for the KG via ``n_papers`` + max-terms cap.
+  - `load_paper_titles` — Map ``paper_id`` → title from review table and/or ``data/metadata``.
+  - `links_from_clusters` — Bipartite paper↔term edges from ``clusters/clusters.json``.
+  - `links_from_encyclopedia` — Attach resolved encyclopedia entities to matching term nodes.
+  - `collapse_encyclopedia_synonyms` — Merge term synonyms linked through the same wiki entity; drop lone greens.
+  - `detect_islands` — Connected components (undirected) smaller than or equal to ``max_island``.
+  - `nodes_edges_to_vis` — Convert KG graph.json nodes/edges to vis-network datasets.
+  - `write_kg_html` — Write vis-network HTML with Louvain resolution slider (needs ``pipeline kg --view``).
+  - `build_kg` — Assemble KG artifacts under ``workdir/kg/``.
+- **`kg_server.py`** — Tiny local HTTP server for interactive KG resolution slider.
+  - `rebuild_graph_payload` — Re-run Louvain at ``resolution`` and assemble display KG payload.
+  - `serve_kg` — Start the KG viewer server. Blocks if ``block`` is True.
+- **`lists_loader.py`** — Load editable stop / noise lists for cluster-review Step 2.
+  - `load_word_list` — Load a stop/noise list from ``lists/<filename>``.
+  - `scientific_discourse` — Manuscript / discourse furniture (figures, supplementary data, …).
+  - `clear_list_cache` — Clear cached lists (e.g. after editing files in the same process).
+- **`packets.py`** — Structural packet indexes under document containers (part of ``corpus``).
+  - `packets_dir` — Legacy inventory dir ``packets/`` (prefer ``data/indexes/``).
+  - `packets_manifest_path` — Prefer ``data/indexes/packets.json``; fall back to ``packets/manifest.json``.
+  - `build_packet_index` — Index packets under paper containers (whole-paper body packet each).
+- **`step0.py`** — Step 0: search repositories, download, review table, optional BAGIT corpus.
+  - `create_corpus_from_query` — Search one or more repositories, download, build review table, optional BAGIT.
+- **`step1.py`** — Step 1: load an existing BAGIT corpus for cluster review.
+  - `resolve_bagit_root` — Return the directory that contains bagit.txt (may be corpus_dir itself).
+  - `resolve_corpus_root` — BAGIT root when present; otherwise flat workdir root.
+  - `find_metadata_dir` — Locate metadata directory (BAGIT) or flat workdir with ``{id}.json``.
+  - `find_review_table` — Find an existing review_table.json near the corpus, if any.
+  - `list_demo_corpora` — Return demo name → absolute path for presets that exist on disk.
+  - `load_flat_corpus` — Load a flat workdir corpus (``{id}.json`` / ``.xml`` / ``.pdf`` at root).
+  - `load_corpus` — Load BAGIT or flat workdir corpus.
+  - `load_bagit_corpus` — Load an existing BAGIT corpus for cluster-review Step 1.
+- **`step2.py`** — Step 2: phrase extraction with disk cache.
+  - `normalize_phrase` — Lowercase and collapse whitespace.
+  - `prefer_phrase_display` — Pick the better capitalization between two surface forms.
+  - `select_phrase_display` — Recover usual capitalization of ``phrase`` from ``text`` when possible.
+  - `attach_phrase_displays` — Ensure each phrase dict has a ``display`` capitalization hint.
+  - `round_score` — Round phrase scores for compact JSON/CSV (default 4 decimal places).
+  - `phrase_channel` — Return ``uppercase`` | ``tfidf`` | ``yake`` for a phrase dict.
+  - `paper_text_from_metadata` — Build input text from title + abstract (abstract-only OK if no title).
+  - `find_paper_xml` — Locate full-text XML: ``{id}.xml`` then ``{id}.pdf.xml``, then BAGIT paths.
+  - `find_paper_pdf` — Locate a valid PDF: flat ``{id}.pdf`` then BAGIT documents/.
+  - `find_paper_html` — Locate Docling/HTML sidecar: flat ``{id}.pdf.html`` then BAGIT html/.
+  - `abstract_text_from_metadata` — Plain abstract string from EPMC/OpenAlex-style metadata JSON fields.
+  - `extract_plain_text_from_xml` — Pull title/abstract (for optional use) and indexable body from JATS/PMC XML.
+  - `build_phrase_input_text` — Assemble phrase / packet text using the cascade XML → PDF → JSON abstract.
+  - `phrases_dir_for_corpus` — Phrase caches: prefer ``data/indexes/phrases/``, else legacy ``phrases/``.
+  - `clear_all_caches` — Delete all phrase cache files for a corpus (clean slate for retesting).
+  - `extract_phrases_from_text` — Run YAKE on ``text``; return ``[{phrase, score}, ...]`` (lower scores = better).
+  - `load_cached_phrases` — Load one paper's phrase JSON if present and valid.
+  - `write_phrases_csv` — Write long-form ``phrases.csv``: one row per (paper, phrase).
+  - `write_phrases_summary_csv` — Write inspection CSVs beside the phrase cache.
+  - `find_phrase_cache` — Summarize which papers already have phrase cache files.
+  - `proper_phrases_from_text` — Extract uppercase / titlecase phrases from document text.
+  - `merge_tfidf_and_proper` — Reserve slots for uppercase phrases, fill the rest from TF-IDF.
+  - `tfidf_phrases_for_corpus` — Fit corpus-aware n-gram weights and return top phrases per document.
+  - `extract_phrases` — Extract phrases for all papers in a BAGIT corpus (Step 2).
+  - `extract_yake_phrases` — Extract YAKE phrases (Step 2 fallback). Prefer ``extract_phrases(method='tfidf')``.
+  - `extract_tfidf_phrases` — Extract corpus TF-IDF phrases (Step 2 default).
+  - `load_phrase_index` — Load ``phrases/index.json`` if present.
+- **`step3.py`** — Step 3: bipartite paper–phrase clusters (read-only view artifacts).
+  - `clusters_dir_for_corpus` — Prefer ``data/indexes/clusters/``, else legacy ``clusters/``.
+  - `load_phrase_records` — Load per-paper phrase JSON caches (skips index/CSV).
+  - `build_bipartite_graph` — Build an undirected bipartite NetworkX graph (paper ↔ term).
+  - `partition_clusters` — Split communities into multi-paper clusters vs orphans.
+  - `build_clusters` — Step 3: build bipartite clusters from cached phrases.
+  - `load_clusters` — Load ``clusters/clusters.json`` if present.
+  - `load_orphans` — Load ``clusters/orphans.json`` if present.
+  - `load_graph_summary` — Load ``clusters/graph_summary.json`` if present.
+- **`update_corpus.py`** — Update an existing BAGIT corpus with additional document files (e.g. PDFs).
+  - `pmcid_from_paper_id` — Extract ``PMC123`` from corpus ids like ``europe_pmc_PMC123`` or ``PMC123``.
+  - `documents_dir_for_format` — BAGIT ``data/documents/{fmt}/`` when present; else flat workdir root.
+  - `is_valid_pdf` — True if ``path`` is a non-tiny file starting with ``%PDF``.
+  - `update_bagit_formats` — Download missing document formats into an existing BAGIT corpus.
+
+### `semantic_corpus/core/`
+
+- **`__init__.py`** — Core corpus types, factory, and exceptions..
+- **`corpus_manager.py`** — Core corpus management functionality.
+  - `CorpusManager` — Manages scientific paper corpora.
+  - `CorpusManager.create_structured_directories` — Create structured directories for corpus organization.
+  - `CorpusManager.add_paper` — Add a paper to the corpus.
+  - `CorpusManager.get_paper_metadata` — Get metadata for a paper.
+  - `CorpusManager.list_papers` — List all papers in the corpus.
+  - `CorpusManager.search_papers` — Search papers in the corpus.
+  - `CorpusManager.get_statistics` — Get corpus statistics.
+- **`exceptions.py`** — Custom exceptions for semantic_corpus.
+  - `SemanticCorpusError` — Base exception for semantic_corpus.
+  - `CorpusError` — Exception raised for corpus-related errors.
+  - `RepositoryError` — Exception raised for repository-related errors.
+  - `MetadataError` — Exception raised for metadata-related errors.
+  - `DownloadError` — Exception raised for download-related errors.
+  - `ValidationError` — Exception raised for validation-related errors.
+- **`repository_factory.py`** — Factory for creating repository instances.
+  - `RepositoryFactory` — Factory class for creating repository instances.
+  - `RepositoryFactory.get_repository` — Get a repository instance by name.
+  - `RepositoryFactory.list_repositories` — List all available repository names.
+  - `RepositoryFactory.register_repository` — Register a new repository class.
+- **`repository_interface.py`** — Repository interface for different paper sources.
+  - `RepositoryInterface` — Abstract base class for paper repositories.
+  - `RepositoryInterface.search_papers` — Search for papers in the repository.
+  - `RepositoryInterface.get_paper_metadata` — Get metadata for a specific paper.
+  - `RepositoryInterface.download_paper` — Download a paper and its associated files.
+  - `RepositoryInterface.get_repository_info` — Get information about the repository.
+
+### `semantic_corpus/corpus_review/`
+
+- **`__init__.py`** — Corpus review, relevance scoring, and browsing tables.
+- **`collect_progress.py`** — Live scrolling title feed while collecting / downloading papers.
+  - `clean_title` — Strip light markup and compress whitespace for one-line display.
+  - `fail_reason_label` — Compact fail bucket for the status line (e.g. ``403``, ``no_pmcid``).
+  - `format_fail_breakdown` — Format ``403: 5 404: 8`` (HTTP codes first, then other labels).
+  - `CollectTitleScroller` — Fixed-height scrolling window of recent paper titles (ANSI terminal).
+- **`constants.py`** — Constants for corpus review workflow (no magic strings).
+- **`download_completeness.py`** — Hard check that requested full-text downloads are present on disk.
+  - `paper_filename_stems` — Candidate stems for flat query-dir downloads (PMCID, PMID, paper_id).
+  - `paper_has_format` — True if any known stem has a non-empty file for this format.
+  - `check_download_completeness` — Verify each retrieved paper has each requested format on disk.
+- **`html_viewer.py`** — HTML review viewer for interactive corpus paper selection.
+  - `build_filter_summary` — Summarise how many papers match filters and score thresholds.
+  - `build_viewer_payload` — Build JSON payload embedded in the HTML viewer.
+  - `render_review_viewer_html` — Render standalone HTML with embedded JSON payload.
+  - `write_review_viewer` — Build and write the HTML review viewer.
+- **`interactive_review.py`** — Interactive Y/N review session for corpus selection.
+  - `ReviewSessionConfig` — Configuration for an interactive review session.
+  - `ReviewDecision` — One reviewer decision.
+  - `ReviewSession` — In-memory interactive review session.
+  - `ReviewSession.apply_decision` — Apply one Y/N/S/U/Q decision to the current paper.
+  - `ReviewSession.save` — Write updated review tables next to the source JSON.
+  - `run_interactive_review` — Run an interactive terminal review loop.
+- **`prisma_diagram.py`** — Render PRISMA-like diagrams (Mermaid and Graphviz DOT) from prisma_flow.
+  - `render_prisma_mermaid` — Return Mermaid flowchart text for docs and previews.
+  - `render_prisma_dot` — Return Graphviz DOT for manuscript-friendly SVG/PNG via `dot`.
+  - `write_prisma_diagrams` — Write prisma_flow.mmd and prisma_flow.dot under output_dir.
+- **`prisma_flow.py`** — Build PRISMA-like screening flow counts from query run and review table.
+  - `load_review_table_rows` — Load review_table.json as a list of row dicts.
+  - `load_prisma_overrides` — Load optional prisma_overrides.yaml (n_identified and notes).
+  - `resolve_review_table_path` — Prefer explicit path, then corpus analysis review, then query review.
+  - `default_prisma_output_dir` — Corpora layout: data/analysis/prisma/.
+  - `count_fulltext_on_disk` — Count XML/PDF/HTML files in query dir and corpus document folders.
+  - `build_prisma_flow` — Assemble prisma_flow dict from query provenance and review decisions.
+  - `validate_prisma_flow` — Raise CorpusError if count invariants fail.
+  - `write_prisma_flow_json` — Write prisma_flow.json under output_dir.
+- **`query_run.py`** — Query run record format for reproducible search/download iterations.
+  - `load_pilot_config` — Load a YAML pilot query configuration file.
+  - `build_query_run_record` — Build a query run record dict (ISO timestamp, system date of generation).
+  - `save_query_run_record` — Write query_run.json under output_dir.
+  - `load_query_run_record` — Load query_run.json.
+  - `summarize_query_run` — One-line summary for immediate reaction after a query run.
+- **`relevance_scorer.py`** — Relevance scoring for corpus paper selection (metadata-first).
+  - `score_paper_relevance` — Score paper relevance for AQI-in-India corpora.
+- **`review_schema.py`** — Review table schema and row validation.
+  - `make_review_row` — Build one review table row conforming to REVIEW_TABLE_COLUMNS.
+  - `validate_review_row` — Validate a review row has required keys and valid review_status.
+  - `filter_rows_by_status` — Return rows matching review_status.
+- **`review_table.py`** — Build and export corpus review tables for browsing.
+  - `build_review_rows_from_corpus` — Build review rows from an ingested BAGIT corpus.
+  - `build_review_rows_from_pygetpapers` — Build review rows from raw pygetpapers output (before or without corpus ingest).
+  - `build_review_rows_from_search_results` — Build review rows from a flat semantic_corpus search_results.json.
+  - `export_review_table_json` — (see source).
+  - `export_review_table_csv` — (see source).
+  - `export_review_table_markdown` — (see source).
+  - `ensure_review_table_css` — Copy default CSS beside the HTML table if the user has not created one yet.
+  - `export_review_table_html` — Export an editable HTML review table (styled via external CSS).
+  - `export_review_tables` — Export JSON, CSV, Markdown, and editable HTML review tables.
+  - `load_query_context` — (see source).
+- **`review_viewer_server.py`** — Local HTTP server for HTML review tools.
+  - `infer_corpus_dir` — Guess BAGIT corpus directory from query folder name (e.g. corpora/climate_anxiety_2026).
+  - `ReviewViewerServer` — Serve review HTML files, paper documents, and persist review decisions.
+- **`text_preview.py`** — Plain-text previews for interactive paper review.
+  - `strip_markup` — Remove HTML/XML markup and collapse whitespace.
+  - `extract_intro_from_xml` — Extract an introduction excerpt from JATS/PMC XML.
+  - `resolve_document_paths` — Locate downloaded files for a review row.
+  - `build_paper_preview` — Build display fields for one review row.
+  - `render_jats_to_html` — Render a JATS/PMC XML file to a simple, readable HTML string.
+- **`workflow.py`** — End-to-end AQI corpus review workflow helpers.
+  - `run_repository_search` — Search and download via semantic_corpus repository; return results and download count.
+  - `run_query_and_build_review_table` — Search, download, and build review table under an explicit output directory.
+  - `apply_classification` — Annotate review rows in place with clusters and/or encyclopedia categories.
+  - `review_rows_to_dataframe` — Convert review rows to a pandas DataFrame (requires pandas).
+  - `run_pilot_from_config` — Run pilot query from YAML config; write query_run.json and search_results.json.
+  - `ingest_and_review_pygetpapers` — Ingest pygetpapers dir into BAGIT corpus and export review tables.
+  - `export_reviewed_corpus_for_chatbot` — Export chatbot manifest using review table include status when provided.
+
+### `semantic_corpus/export/`
+
+- **`__init__.py`** — Export corpus data for downstream chatbot ingestion.
+- **`chatbot_export.py`** — Export semantic_corpus to chatbot-ready manifest (contract implementation).
+  - `build_citation_label` — Human-readable citation label for chatbot source display.
+  - `build_paper_export_record` — One paper entry in the chatbot export manifest.
+  - `export_corpus_for_chatbot` — Export corpus manifest for ../chatbot ingestion.
+
+### `semantic_corpus/ingestion/`
+
+- **`__init__.py`** — Document ingestion for semantic corpus.
+- **`local_pdf_ingester.py`** — Ingest a local directory of PDF files into a semantic_corpus.
+  - `ingest_local_pdf_directory` — Ingest a directory of local PDF files into a corpus.
+- **`pygetpapers_ingester.py`** — Ingest classic pygetpapers output directories into a semantic_corpus.
+  - `ingest_pygetpapers_directory` — Ingest a classic pygetpapers output directory into a corpus.
+- **`query_output_ingester.py`** — Ingest flat query output (search_results.json + downloaded files) into a corpus.
+  - `ingest_query_output_directory` — Ingest a flat query directory into a BAGIT corpus.
+
+### `semantic_corpus/pipeline/`
+
+- **`__init__.py`** — Symbolic ``pipeline`` command: ``--query``/``--source`` → corpus → … → kg.
+- **`__main__.py`** — ``python -m semantic_corpus.pipeline`` → same as the ``pipeline`` console script.
+- **`actions.py`** — Real step actions for the pipeline.
+  - `run_search` — EPMC (etc.) search only → ``query.json`` + ``search_results.json``.
+  - `run_paper` — Fetch missing formats for one paper into ``data/packets/``.
+  - `run_collect` — Search (if needed) then fetch JSON+XML per paper (no PDF); resume-friendly.
+  - `run_corpus` — (see source).
+  - `run_phrases` — (see source).
+  - `run_pdfs` — Lazy PDF fill: fetch missing ``data/packets/{id}.pdf`` (optional Docling).
+  - `run_clusters` — (see source).
+  - `run_clean` — (see source).
+  - `run_encyclopedia` — (see source).
+  - `run_step` — Run one pipeline step; map expected user errors to a clean doit failure.
+  - `is_step_current` — Uptodate: stamp exists; real mode also requires key artifacts.
+- **`cli.py`** — Command-line entry for the symbolic pipeline (``pipeline``).
+  - `cmd_encyclopedia` — Rebuild phrases → encyclopedia (Wikipedia + disambiguation + HTML).
+  - `cmd_kg` — Rebuild display KG HTML (helper; not a doit step).
+  - `build_parser` — (see source).
+  - `main` — (see source).
+- **`config.py`** — Runtime pipeline options (workdir, query/source, step parameters, …).
+  - `PipelineOptions` — CLI / env snapshot passed into doit tasks.
+  - `PipelineOptions.effective_phrase_limit` — Cap on phrases for encyclopedia (and default KG term cap).
+  - `PipelineOptions.effective_kg_max_terms` — Cap on term nodes in the display KG.
+  - `PipelineOptions.to_public_dict` — JSON-serialisable view for stamps / debugging / env reload.
+  - `apply_env` — Publish options for doit tasks (reloaded dodo reads these).
+- **`dodo.py`** — doit task definitions for the symbolic ``pipeline`` steps.
+  - `task_paper` — Dynamic per-PMC tasks with flat file targets (skip-if-exists).
+  - `task_collect` — Facade: depends on search + paper:* when hits are known.
+  - `task_clean_fp` — Public step name is ``clean``; doit forbids basename ``clean``.
+- **`doit_reporter.py`** — Custom doit reporter: legend + per-paper outcome suffixes.
+  - `status_label_from_streams` — Compact label from download ``streams`` notes.
+  - `status_label_from_disk` — Status for an up-to-date paper from packets on disk.
+  - `PipelineReporter` — Console reporter with deferred paper lines + status suffixes.
+- **`flat_corpus.py`** — BagIt-friendly corpus paths: ``data/packets/`` map + tag files at workdir root.
+  - `paper_stem` — Stable filename stem, preferring ``PMC123`` over prefixed ids.
+  - `packets_dir` — Map directory for packet bytes (``data/packets/``).
+  - `indexes_dir` — Reduce directory (``data/indexes/``).
+  - `find_best_xml` — Prefer publisher XML, then Docling ``.pdf.xml``.
+  - `load_paper_json` — (see source).
+  - `paper_has_text` — True if XML / pdf.xml / abstract can supply phrase text.
+  - `paper_collect_done` — Collect resume: JSON present and XML resolved or definitively unavailable.
+  - `paper_done_enough` — Alias used by doit ``paper:{id}`` uptodate — same as collect done.
+  - `is_flat_corpus` — True when workdir has search hits or packet-like files (flat or BagIt).
+  - `list_paper_ids_from_search` — Ids for collect tasks: prefer ``pmcid``; fall back to pmid/paper_id.
+  - `list_flat_paper_ids` — Paper ids from search_results or packet ``{id}.json`` files.
+  - `write_json_atomic` — (see source).
+  - `write_corpus_json` — (see source).
+  - `ensure_light_bagit` — Ensure minimal BagIt tag files exist (payload under ``data/``).
+- **`placeholders.py`** — Placeholder step actions: write stamp files under ``<workdir>/pipeline/``.
+  - `doit_db_path` — Per-corpus doit DB at ``{workdir}/pipeline/doit.db``.
+  - `write_stamp` — (see source).
+  - `run_placeholder` — Write a placeholder stamp for ``step`` and print a one-line status.
+- **`steps.py`** — Symbolic pipeline steps and dependency graph (source of truth).
+  - `deps_for` — Direct task dependencies under the inferred start mode.
+
+### `semantic_corpus/repositories/`
+
+- **`__init__.py`** — Literature repository adapters (EPMC, arXiv, LA sources, …)..
+- **`_ids.py`** — Helpers for stable repository paper identifiers and filenames.
+  - `sanitize_paper_id` — Return a filesystem-safe identifier.
+  - `get_result_paper_id` — Pick the best download identifier from a search result record.
+  - `short_display_id` — Compact label for download progress (prefer PMCID over repo-prefixed ids).
+  - `paper_id_stems` — Filename stems that may already exist for a paper on disk.
+  - `existing_document_paths` — Find non-empty document files already on disk for ``paper_id``.
+  - `paper_documents_present` — True if every requested format already exists (flat, documents/, or BAGIT).
+  - `openalex_short_id` — Normalize OpenAlex work IDs to W1234567890 form.
+  - `pid_from_scielo_url` — Extract SciELO pid query parameter from an article URL.
+  - `id_from_redalyc_url` — Extract Redalyc numeric article id from an article URL.
+  - `handle_from_conicet_url` — Extracts the handle linked to each item Ipermanente identifier in DSpace) and evaluates it. / replaced by _ to.
+  - `id_from_uba_url` — Extracts id and collection from a document in UBA repositories (Exactas, FAUBA).
+  - `id_from_usp_url` — Extracts id from a document in USP repository (BDPI / ReP USP).
+  - `id_from_uchile_url` — Extracts handle identifier from a document in Universidad de Chile repository.
+  - `handle_from_uchile_url` — Alias for id_from_uchile_url.
+  - `id_from_kerwa_url` — Extracts handle identifier from a document in Kerwa (Universidad de Costa Rica) repository.
+  - `handle_from_kerwa_url` — Alias for id_from_kerwa_url.
+  - `id_from_unam_url` — Extracts identifier from a document in UNAM repository (repositorio.unam.mx).
+  - `handle_from_unam_url` — Alias for id_from_unam_url.
+  - `id_from_unal_colombia_url` — Extracts identifier from a document in Universidad Nacional de Colombia repository (repositorio.unal.edu.co).
+  - `handle_from_unal_colombia_url` — Alias for id_from_unal_colombia_url.
+  - `id_from_unal_url` — Alias for id_from_unal_colombia_url.
+  - `handle_from_unal_url` — Alias for id_from_unal_colombia_url.
+- **`_scraper.py`** — Shared HTTP scraping helpers for repository adapters.
+  - `RateLimitedSession` — Simple rate-limited requests session for polite scraping.
+  - `RateLimitedSession.get` — GET with rate limiting; return None on failure.
+- **`arxiv.py`** — arXiv repository implementation.
+  - `ArxivRepository` — arXiv repository implementation.
+  - `ArxivRepository.search_papers` — Search for papers in arXiv.
+  - `ArxivRepository.get_paper_metadata` — Get metadata for a specific paper from arXiv.
+  - `ArxivRepository.download_paper` — Download a paper from arXiv.
+  - `ArxivRepository.get_repository_info` — Get information about arXiv repository.
+- **`conicet.py`** — RI CONICET repository implementation (DSpace HTML scraping).
+  - `ConicetRepository` — Adapter applies web scraping to RI CONICET Digital.
+  - `ConicetRepository.search_papers` — Looks for docuemnts in RI CONICET and extracts metadata.
+  - `ConicetRepository.get_paper_metadata` — Gets metadata via URL or Handle.
+  - `ConicetRepository.download_paper` — Downloads PDF and stores metadata as JSON.
+- **`document_content.py`** — Validate document bytes before writing XML/PDF to disk.
+  - `looks_like_pdf` — True if body starts with PDF magic (rejects HTML/JSON error pages).
+  - `looks_like_fulltext_xml` — True if body looks like XML/JATS, not a JSON/HTML error stub.
+  - `http_status_from_error_body` — Read ``status`` from a Spring Boot JSON error body, if present.
+  - `is_valid_document_bytes` — True if ``content`` is acceptable to save as ``fmt`` (xml/pdf/…).
+  - `is_valid_document_file` — True if ``path`` exists and its contents look like a real ``fmt`` document.
+  - `safe_write_document` — Write ``content`` only if valid; never replace a valid file with bad bytes.
+- **`epmc_diagnostic.py`** — Novice-friendly Europe PMC preflight — per-stream (JSON / XML / PDF).
+  - `StatusGuide` — Plain-language explanation of an HTTP / probe outcome.
+  - `ProbeResult` — class.
+  - `EpmcDiagnostic` — class.
+  - `EpmcDiagnostic.ok` — True when at least the JSON/search stream works (job can start).
+  - `EpmcUnavailable` — Europe PMC JSON/search stream failed; cannot collect.
+  - `explain_status` — Explain a status code in language suitable for novices.
+  - `run_epmc_diagnostic` — Probe JSON / XML / PDF streams independently.
+  - `format_epmc_diagnostic` — Compact multi-line report for terminals.
+  - `print_epmc_diagnostic` — Run (unless provided) and print the diagnostic report.
+  - `epmc_preflight` — Run stream diagnostic before a job.
+  - `short_status_blurb` — One-line blurb for status lines (e.g. fail breakdown help).
+- **`epmc_streams.py`** — Independent Europe PMC content streams: JSON, XML, PDF.
+  - `StreamState` — class.
+  - `StreamHttpError` — One HTTP failure on a stream for a specific paper (or probe).
+  - `EpmcStreamBoard` — Mutable board of EPMC stream health + per-call HTTP error log.
+  - `EpmcStreamBoard.disable` — Disable a stream for the rest of the job (use mainly for JSON/search).
+  - `EpmcStreamBoard.record_http_error` — Log a per-paper HTTP failure; does **not** disable the stream.
+  - `EpmcStreamBoard.error_counts_by_status` — Map HTTP status → count (optionally for one stream).
+  - `EpmcStreamBoard.format_status_counts` — Compact status tallies, e.g. ``500(3), 403(5)``.
+  - `EpmcStreamBoard.format_panel` — Live or end-of-job stream panel.
+  - `EpmcStreamBoard.write_error_report` — Write JSON report of all logged HTTP errors (for EPMC / debugging).
+  - `write_paper_metadata_json` — Persist search/metadata JSON as flat ``{id}.json`` (skip if present).
+  - `maybe_docling_pdf_to_xml` — Convert PDF → XML with Docling. Returns xml_path on success.
+  - `print_stream_board` — (see source).
+- **`europe_pmc.py`** — Europe PMC repository implementation.
+  - `interpret_epmc_error` — Build a clear RepositoryError message for Europe PMC failures.
+  - `normalize_epmc_search_payload` — Validate and unwrap an Europe PMC search JSON body.
+  - `EuropePMCRepository` — Europe PMC repository implementation.
+  - `EuropePMCRepository.search_papers` — Search for papers in Europe PMC.
+  - `EuropePMCRepository.get_paper_metadata` — Get metadata for a specific paper from Europe PMC.
+  - `EuropePMCRepository.download_paper` — Download a paper from Europe PMC using independent JSON/XML/PDF streams.
+  - `EuropePMCRepository.get_repository_info` — Get information about Europe PMC repository.
+- **`kerwa.py`** — Kerwa (Universidad de Costa Rica) repository implementation (DSpace HTML scraping).
+  - `KerwaRepository` — Adapter applies web scraping to Repositorio Institucional Kérwá (Universidad de Costa Rica).
+  - `KerwaRepository.search_papers` — Looks for documents in Repositorio Kérwá and extracts metadata.
+  - `KerwaRepository.get_paper_metadata` — Gets metadata via URL or Handle.
+  - `KerwaRepository.download_paper` — Downloads PDF and stores metadata as JSON.
+- **`openalex.py`** — OpenAlex repository implementation.
+  - `OpenAlexRepository` — OpenAlex scholarly catalog adapter.
+  - `OpenAlexRepository.search_papers` — Search OpenAlex works.
+  - `OpenAlexRepository.get_paper_metadata` — Get metadata for one OpenAlex work.
+  - `OpenAlexRepository.download_paper` — Download OpenAlex work metadata and optional OA PDF.
+  - `OpenAlexRepository.get_repository_info` — Return OpenAlex repository metadata.
+- **`redalyc.py`** — Redalyc repository implementation (HTML scraping).
+  - `RedalycRepository` — Redalyc adapter using article pages and homepage discovery.
+  - `RedalycRepository.search_papers` — Search Redalyc and return article metadata.
+  - `RedalycRepository.get_paper_metadata` — Fetch Redalyc metadata by article id or URL.
+  - `RedalycRepository.download_paper` — Download Redalyc HTML, metadata, and optional PDF.
+  - `RedalycRepository.get_repository_info` — Return Redalyc repository metadata.
+- **`scielo.py`** — SciELO repository implementation (search.scielo.org scraping).
+  - `SciELORepository` — SciELO adapter using the public search portal and article pages.
+  - `SciELORepository.search_papers` — Search SciELO and fetch metadata for matched articles.
+  - `SciELORepository.get_paper_metadata` — Fetch SciELO metadata by pid or article URL.
+  - `SciELORepository.download_paper` — Download SciELO HTML and optional PDF.
+  - `SciELORepository.get_repository_info` — Return SciELO repository metadata.
+- **`uba.py`** — uba module.
+  - `UbaRepository` — class.
+  - `UbaRepository.get_paper_metadata` — URL or ID as metadata source.
+  - `UbaRepository.download_paper` — Descarga el PDF (si está disponible abiertamente) y guarda los metadatos en JSON.
+- **`uchile.py`** — uchile module.
+  - `UchileRepository` — Adapter applies web scraping to Repositorio Académico Universidad de Chile.
+  - `UchileRepository.search_papers` — Looks for documents in Repositorio Académico Uchile and extracts metadata.
+  - `UchileRepository.get_paper_metadata` — Gets metadata via URL or Handle.
+  - `UchileRepository.download_paper` — Downloads PDF and stores metadata as JSON.
+- **`unal_colombia.py`** — UNAL (Universidad Nacional de Colombia) repository implementation (DSpace 7 HTML/REST scraping).
+  - `UnalRepository` — Adapter applies web scraping and REST discovery to Repositorio Institucional UNAL (Universidad Nacional de Colombia).
+  - `UnalRepository.search_papers` — Looks for documents in Repositorio UNAL and extracts metadata.
+  - `UnalRepository.get_paper_metadata` — Gets metadata via URL, UUID, or Handle.
+  - `UnalRepository.download_paper` — Downloads PDF and stores metadata as JSON.
+- **`unam_mexico.py`** — UNAM repository implementation (repositorio.unam.mx HTML scraping).
+  - `UnamRepository` — Adapter applies web scraping to Repositorio Institucional UNAM (repositorio.unam.mx).
+  - `UnamRepository.search_papers` — Looks for documents in Repositorio Institucional UNAM and extracts metadata.
+  - `UnamRepository.get_paper_metadata` — Gets metadata via URL or ID.
+  - `UnamRepository.download_paper` — Downloads PDF and stores metadata as JSON.
+- **`usp.py`** — USP repository implementation (repositorio.usp.br HTML scraping).
+  - `UspRepository` — Adapter for Universidade de São Paulo (USP) Intellectual Production Repository.
+  - `UspRepository.search_papers` — Search papers in the USP repository and extract metadata.
+  - `UspRepository.get_paper_metadata` — Fetch metadata for a paper given its ID or URL.
+  - `UspRepository.download_paper` — Download paper PDF if available and save metadata JSON.
+  - `UspRepository.get_repository_info` — Return basic repository metadata.
+
+### `semantic_corpus/storage/`
+
+- **`__init__.py`** — Storage management for semantic corpus.
+- **`bagit_manager.py`** — BAGIT bag management for semantic corpus.
+  - `BagitManager` — Manages BAGIT-compliant bags for corpus storage.
+  - `BagitManager.create_bag` — Create a BAGIT-compliant bag structure.
+  - `BagitManager.validate_bag` — Validate that the directory is a valid BAGIT bag.
+  - `BagitManager.update_manifest` — Update the bag manifest after adding/modifying files.
+  - `BagitManager.get_bag_info` — Get bag information from bag-info.txt.
+  - `BagitManager.create_structured_directories` — Create structured directories for corpus organization.
+
+### `semantic_corpus/tools/`
+
+- **`__init__.py`** — Metadata extraction/processing utilities..
+- **`metadata_extractor.py`** — Metadata extraction functionality.
+  - `MetadataExtractor` — Extracts metadata from various file formats.
+  - `MetadataExtractor.extract_from_xml` — Extract metadata from XML file.
+  - `MetadataExtractor.extract_from_pdf` — Extract metadata from PDF file.
+  - `MetadataExtractor.extract_from_json` — Extract metadata from JSON file.
+  - `MetadataExtractor.extract_from_file` — Extract metadata from file based on extension.
+- **`metadata_processor.py`** — Metadata processing functionality.
+  - `MetadataProcessor` — Processes and normalizes metadata from different sources.
+  - `MetadataProcessor.process_xml_metadata` — Process metadata from XML file.
+  - `MetadataProcessor.process_pdf_metadata` — Process metadata from PDF file.
+  - `MetadataProcessor.normalize_metadata` — Normalize metadata from different sources.
+  - `MetadataProcessor.validate_metadata` — Validate metadata completeness.
+  - `MetadataProcessor.extract_keywords` — Extract keywords from text using simple frequency analysis.
+- **`metadata_validator.py`** — Metadata validation functionality.
+  - `MetadataValidator` — Validates metadata fields and formats.
+  - `MetadataValidator.validate_doi` — Validate DOI format.
+  - `MetadataValidator.validate_publication_date` — Validate publication date format.
+  - `MetadataValidator.validate_required_fields` — Validate that all required fields are present and non-empty.
+  - `MetadataValidator.validate_authors` — Validate authors list.
+  - `MetadataValidator.validate_title` — Validate title.
+  - `MetadataValidator.validate_abstract` — Validate abstract.
+  - _+1 more public methods_
+
+### `semantic_corpus/transformation/`
+
+- **`__init__.py`** — Document transformation utilities for semantic_corpus.
+- **`pdf_to_html.py`** — Convert PDF documents to HTML (and XML) using Docling.
+  - `get_docling_converter` — Get or create a cached Docling DocumentConverter instance.
+  - `convert_pdf_to_html` — Convert a PDF document to HTML (and optionally XML) using Docling.
+  - `convert_pdf_to_xml` — Convert a PDF document to DocTags XML using Docling.
+  - `convert_corpus_pdf_to_html` — Convert all PDF files in a BAGIT corpus to HTML (and XML) under data/documents/.
+  - `ensure_corpus_formats` — Ensure both HTML and XML formats are available for all papers regardless of origin.
+  - `convert_query_directory_pdfs` — Convert all PDF files directly under a query directory to HTML and/or XML using Docling.
+- **`xml_to_html.py`** — Convert JATS/PMC fulltext XML to HTML for browsing tables and figures.
+  - `convert_xml_to_html` — Convert a PMC/JATS XML file to HTML preserving tables and figures.
+  - `convert_corpus_xml_to_html` — Convert all XML files in a BAGIT corpus to HTML under data/documents/html/.
+
+## `scripts/`
+
+### `scripts/`
+
+- **`build_example_corpus.py`** — Build an example corpus: query, download, ingest, and convert XML to HTML.
+  - `parse_args` — (see source).
+  - `main` — (see source).
+- **`build_review_table.py`** — Build a corpus review table from a semantic_corpus query output directory.
+  - `parse_args` — (see source).
+  - `build_from_corpus` — (see source).
+  - `main` — (see source).
+- **`build_shreya_review_table.py`** — Build review table for Shreya's global warming and temperature rise query.
+  - `main` — (see source).
+- **`check_coding_style.py`** — Automatable coding-style checks for semantic_corpus (docs/coding_style.md).
+  - `check_sys_path` — (see source).
+  - `check_status_literals` — (see source).
+  - `check_long_functions` — (see source).
+  - `check_inline_markup` — (see source).
+  - `check_no_mocks` — Flag mock/patch usage (docs/coding_style.md §0).
+  - `check_path_slash` — (see source).
+  - `fix_path_slash` — Rewrite simple ``Path(args) / "a" / "b"`` chains to comma form.
+  - `fix_status_literals_in_source` — Replace review_status == "include" style compares with constants.
+  - `check_git_diff_forbidden` — (see source).
+  - `main` — (see source).
+- **`classify_review_table.py`** — Classify papers in an existing review table.
+  - `parse_args` — (see source).
+  - `main` — (see source).
+- **`interactive_review.py`** — Interactive Y/N review tool for corpus paper selection.
+  - `parse_args` — (see source).
+  - `main` — (see source).
+- **`pytest_progress.py`** — Run pytest printing one START/PASS/FAIL line per test (find hangs).
+  - `ProgressPlugin` — Flush a one-line status as each test starts and finishes.
+  - `main` — (see source).
+- **`review_viewer.py`** — Build and serve an HTML corpus review viewer.
+  - `build_config` — (see source).
+  - `parse_args` — (see source).
+  - `main` — (see source).
+

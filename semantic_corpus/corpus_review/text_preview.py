@@ -2,6 +2,7 @@
 
 import html
 import re
+from html import escape
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -69,35 +70,6 @@ def extract_intro_from_xml(xml_path: Path, max_chars: int = 800) -> str:
     return intro
 
 
-def _corpus_document_roots(corpus_dir: Path) -> list[Path]:
-    """Return candidate document roots (handles nested data/data/ BAGIT layouts)."""
-    roots: list[Path] = []
-    for candidate in (corpus_dir / "data", corpus_dir / "data" / "data"):
-        if candidate.is_dir():
-            roots.append(candidate)
-    return roots
-
-
-def _corpus_file(
-    corpus_dir: Path, paper_id: str, pmcid: str, sub: str, ext: str
-) -> Optional[Path]:
-    """Find a document under corpus data/documents/{sub}/."""
-    names: list[str] = []
-    if paper_id:
-        names.append(paper_id)
-    if pmcid:
-        names.append(pmcid)
-        prefixed = f"europe_pmc_{pmcid}"
-        if prefixed not in names:
-            names.append(prefixed)
-    for root in _corpus_document_roots(corpus_dir):
-        for name in names:
-            candidate = root / "documents" / sub / f"{name}.{ext}"
-            if candidate.is_file():
-                return candidate
-    return None
-
-
 def resolve_document_paths(
     row: Dict[str, Any],
     *,
@@ -113,14 +85,13 @@ def resolve_document_paths(
     pmcid = row.get("pmcid") or ""
     paper_id = row.get("paper_id") or ""
     file_stems: list[str] = []
-    if pmcid:
-        file_stems.append(pmcid)
     if paper_id:
-        if paper_id not in file_stems:
-            file_stems.append(paper_id)
+        file_stems.append(paper_id)
         short_id = paper_id.replace("europe_pmc_", "")
         if short_id and short_id not in file_stems:
             file_stems.append(short_id)
+    if pmcid and pmcid not in file_stems:
+        file_stems.append(pmcid)
 
     xml_path = None
     pdf_path = None
@@ -140,15 +111,21 @@ def resolve_document_paths(
                     else:
                         html_path = candidate
         if corpus_dir:
-            found = _corpus_file(corpus_dir, paper_id, pmcid, "xml", "xml")
-            if found:
-                xml_path = found
-            found = _corpus_file(corpus_dir, paper_id, pmcid, "pdf", "pdf")
-            if found:
-                pdf_path = found
-            found = _corpus_file(corpus_dir, paper_id, pmcid, "html", "html")
-            if found:
-                html_path = found
+            for sub, attr in (
+                ("xml", "xml_path"),
+                ("pdf", "pdf_path"),
+                ("html", "html_path"),
+            ):
+                candidate = Path(
+                    corpus_dir, "data", "documents", sub, f"{paper_id}.{sub}"
+                )
+                if candidate.is_file():
+                    if attr == "xml_path":
+                        xml_path = candidate
+                    elif attr == "pdf_path":
+                        pdf_path = candidate
+                    else:
+                        html_path = candidate
 
     return {
         "xml_path": xml_path,
@@ -207,3 +184,86 @@ def build_paper_preview(
         "xml_path": str(paths["xml_path"] or ""),
         "pdf_path": str(paths["pdf_path"] or ""),
     }
+
+
+def render_jats_to_html(xml_path: Path) -> str:
+    """Render a JATS/PMC XML file to a simple, readable HTML string.
+
+    The output includes the title, a simple author list, the abstract,
+    and body paragraphs. This is intentionally minimal and focuses on
+    readability rather than faithful conversion.
+    """
+    xml_path = Path(xml_path)
+    if not xml_path.is_file():
+        return ""
+
+    try:
+        root = etree.parse(str(xml_path)).getroot()
+    except etree.XMLSyntaxError:
+        return ""
+
+    def find_text(elem, tag):
+        e = elem.find(f".//{{*}}{tag}")
+        return _element_text(e) if e is not None else ""
+
+    title = find_text(root, "article-title")
+
+    # Authors: collect contrib/name blocks
+    authors = []
+    for contrib in root.findall(".//{*}contrib"):
+        # only author-type contribs
+        ctype = contrib.get("contrib-type")
+        if ctype and ctype.lower() != "author":
+            continue
+        name_el = contrib.find(".//{*}name")
+        if name_el is not None:
+            authors.append(_element_text(name_el))
+        else:
+            # fallback to raw contribut text
+            text = _element_text(contrib)
+            if text:
+                authors.append(text)
+
+    # Abstract: may contain multiple paragraphs
+    abstract_parts: list[str] = []
+    for abstract in root.findall(".//{*}abstract"):
+        for p in abstract.findall(".//{*}p"):
+            t = _element_text(p)
+            if t:
+                abstract_parts.append(t)
+        if not abstract_parts:
+            # direct text fallback
+            t = _element_text(abstract)
+            if t:
+                abstract_parts.append(t)
+        if abstract_parts:
+            break
+
+    # Body paragraphs
+    body_paragraphs: list[str] = []
+    for p in root.findall(".//{*}body//{*}p"):
+        t = _element_text(p)
+        if t:
+            body_paragraphs.append(t)
+        if len(body_paragraphs) >= 200:
+            break
+
+    parts: list[str] = ["<!doctype html>", "<html><head>", '<meta charset="utf-8"/>']
+    if title:
+        parts.append(f"<title>{escape(title)}</title>")
+    parts.append("</head><body>")
+    if title:
+        parts.append(f"<h1>{escape(title)}</h1>")
+    if authors:
+        parts.append(f"<p><strong>Authors:</strong> {escape(', '.join(authors))}</p>")
+    if abstract_parts:
+        parts.append("<h2>Abstract</h2>")
+        for p in abstract_parts:
+            parts.append(f"<p>{escape(p)}</p>")
+    if body_paragraphs:
+        parts.append("<h2>Body</h2>")
+        for p in body_paragraphs:
+            parts.append(f"<p>{escape(p)}</p>")
+
+    parts.append("</body></html>")
+    return "\n".join(parts)

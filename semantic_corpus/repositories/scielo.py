@@ -50,7 +50,11 @@ class SciELORepository(RepositoryInterface):
             element = soup.select_one(selector)
             if not element:
                 continue
-            title = element.get("content") if element.name == "meta" else element.get_text(strip=True)
+            title = (
+                element.get("content")
+                if element.name == "meta"
+                else element.get_text(strip=True)
+            )
             if title:
                 break
 
@@ -69,7 +73,11 @@ class SciELORepository(RepositoryInterface):
             element = soup.select_one(selector)
             if not element:
                 continue
-            abstract = element.get("content") if element.name == "meta" else element.get_text(strip=True)
+            abstract = (
+                element.get("content")
+                if element.name == "meta"
+                else element.get_text(strip=True)
+            )
             if abstract:
                 break
 
@@ -207,7 +215,10 @@ class SciELORepository(RepositoryInterface):
                 if not pdf_response:
                     continue
                 content_type = pdf_response.headers.get("content-type", "")
-                if pdf_response.content.startswith(b"%PDF") or "pdf" in content_type.lower():
+                if (
+                    pdf_response.content.startswith(b"%PDF")
+                    or "pdf" in content_type.lower()
+                ):
                     pdf_path = output_dir / f"{safe_id}.pdf"
                     pdf_path.write_bytes(pdf_response.content)
                     downloaded_files.append(str(pdf_path))

@@ -1,0 +1,10 @@
+# See https://pre-commit.com for more information
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.9.10
+    hooks:
+      # Linter con corrección automática (imports, errores de sintaxis, reglas PEP 8)
+      - id: ruff
+        args: [--fix]
+      # Formateador de código
+      - id: ruff-format

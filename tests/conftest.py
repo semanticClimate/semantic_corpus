@@ -1,9 +1,45 @@
 """Pytest configuration and fixtures for semantic_corpus tests."""
 
-import pytest
+import os
 import tempfile
 from pathlib import Path
 from typing import Generator
+
+import pytest
+
+from semantic_corpus.repositories.epmc_diagnostic import EpmcDiagnostic
+from semantic_corpus.repositories.epmc_streams import EpmcStreamBoard
+
+
+@pytest.fixture(autouse=True)
+def _require_sc_live_api_for_network_tests(request: pytest.FixtureRequest):
+    """Skip live/network tests unless SC_LIVE_API=1.
+
+    Default ``pytest`` already deselects these via ``-m``. If someone runs
+    ``pytest -m live_api`` without intending a real network call (e.g. aqi_india
+    pilot), fail fast with a skip instead of hanging on proxy/EPMC timeouts.
+    """
+    markers = {m.name for m in request.node.iter_markers()}
+    if markers & {"live_api", "network"} and os.environ.get("SC_LIVE_API") != "1":
+        pytest.skip("Set SC_LIVE_API=1 to run live/network API tests")
+
+
+@pytest.fixture(autouse=True)
+def _mute_epmc_preflight(monkeypatch: pytest.MonkeyPatch, request: pytest.FixtureRequest):
+    """Avoid live Europe PMC probes in unit tests (except diagnostic tests)."""
+    if "test_epmc_diagnostic" in request.node.nodeid:
+        return
+    if "test_epmc_streams" in request.node.nodeid:
+        return
+
+    def _ok(**_kwargs):
+        board = EpmcStreamBoard()
+        return EpmcDiagnostic(probes=[], board=board), board
+
+    monkeypatch.setattr(
+        "semantic_corpus.repositories.epmc_diagnostic.epmc_preflight",
+        _ok,
+    )
 
 
 @pytest.fixture
@@ -12,7 +48,7 @@ def temp_dir() -> Generator[Path, None, None]:
     # Use project corpora directory for all test files and directories
     project_corpora = Path(Path(__file__).parent.parent, "corpora")
     project_corpora.mkdir(parents=True, exist_ok=True)
-    
+
     with tempfile.TemporaryDirectory(dir=project_corpora) as tmp_dir:
         yield Path(tmp_dir)
 

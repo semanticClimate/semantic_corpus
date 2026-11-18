@@ -37,9 +37,13 @@ dependencies = [
     "configargparse>=1.5.0",
     "pyyaml>=6.0.0",
     "pathlib2>=2.3.0; python_version < '3.4'",
+    "docling>=2.0.0",
 ]
 
 [project.optional-dependencies]
+classification = [
+    "scikit-learn>=1.0",
+]
 dev = [
     "pytest>=7.0.0",
     "pytest-cov>=4.0.0",
@@ -48,11 +52,25 @@ dev = [
     "isort>=5.10.0",
     "flake8>=4.0.0",
     "mypy>=0.950",
+    "ruff>=0.4.0",
+    "pre-commit>=3.0.0",
 ]
 test = [
     "pytest>=7.0.0",
     "pytest-cov>=4.0.0",
     "pytest-mock>=3.10.0",
+    "doit>=0.36.0",
+]
+cluster_review = [
+    "streamlit>=1.28.0",
+    "yake>=0.4.8",
+    "scikit-learn>=1.0.0",
+    "networkx>=3.0",
+    "doit>=0.36.0",
+]
+encyclopedia_html = [
+    "amilib>=1.0.0",
+    # Install sibling checkout: pip install -e ../encyclopedia
 ]
 
 [project.urls]
@@ -63,14 +81,28 @@ Documentation = "https://semanticclimate.github.io/semantic_corpus"
 
 [project.scripts]
 semantic_corpus = "semantic_corpus.cli:main"
+pipeline = "semantic_corpus.pipeline.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["semantic_corpus*"]
 
+[tool.setuptools.package-data]
+semantic_corpus = [
+    "cluster_review/lists/*.txt",
+    "cluster_review/lists/*.md",
+    "*/module.yaml",
+    "*/README.md",
+    "MODULE_SPEC.md",
+    "module_template/*",
+]
+
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q --strict-markers --strict-config -m 'not arxiv'"
+# Skip live/network by default (e.g. aqi_india EPMC pilot can hang on proxy).
+# Even with ``-m live_api``, tests skip unless SC_LIVE_API=1 (see tests/conftest.py).
+# Opt in:  SC_LIVE_API=1 ./venv/bin/python -m pytest -m live_api
+addopts = "-ra -q --strict-markers --strict-config -m 'not arxiv and not live_api and not network'"
 testpaths = ["tests"]
 python_files = ["test_*.py", "*_test.py"]
 python_classes = ["Test*"]
@@ -133,3 +165,44 @@ module = [
     "configargparse.*",
 ]
 ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py38"
+line-length = 88
+exclude = [
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".tox",
+    ".venv",
+    "venv",
+    "build",
+    "dist",
+    "corpora",
+    "temp",
+    "agrochemicals",
+    "notebooks",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+]
+ignore = [
+    "E501",  # line length handled by formatter
+    "B008",  # do not perform function calls in argument defaults
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["semantic_corpus"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

@@ -3,27 +3,35 @@
 import csv
 import html
 import json
-import shutil
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from semantic_corpus.core.corpus_manager import CorpusManager
 from semantic_corpus.core.exceptions import CorpusError
-from semantic_corpus.corpus_review.constants import REVIEW_TABLE_COLUMNS
+from semantic_corpus.corpus_review.constants import (
+    REVIEW_STATUS_EXCLUDE,
+    REVIEW_STATUS_INCLUDE,
+    REVIEW_STATUS_REVIEW,
+    REVIEW_TABLE_COLUMNS,
+)
 from semantic_corpus.corpus_review.query_run import load_query_run_record
 from semantic_corpus.corpus_review.relevance_scorer import score_paper_relevance
 from semantic_corpus.corpus_review.review_schema import make_review_row
-from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
 from semantic_corpus.ingestion.pygetpapers_ingester import (
     _discover_paper_folders,
     _eupmc_json_to_raw_metadata,
 )
+from semantic_corpus.repositories._ids import get_result_paper_id, sanitize_paper_id
 from semantic_corpus.tools.metadata_processor import MetadataProcessor
 
 
+def _paper_file_path(corpus_dir: Path, paper_id: str, ext: str) -> Path:
+    sub = ext
+    return Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{ext}")
+
+
 def _paper_has_file(corpus_dir: Path, paper_id: str, ext: str) -> bool:
-    sub = "xml" if ext == "xml" else "pdf"
-    path = Path(corpus_dir, "data", "documents", sub, f"{paper_id}.{ext}")
+    path = _paper_file_path(corpus_dir, paper_id, ext)
     return path.is_file() and path.stat().st_size > 0
 
 
@@ -41,9 +49,15 @@ def build_review_rows_from_corpus(
     for paper_id in sorted(corpus.list_papers()):
         metadata = corpus.get_paper_metadata(paper_id)
         has_xml = _paper_has_file(corpus.corpus_dir, paper_id, "xml")
+        has_html = _paper_has_file(corpus.corpus_dir, paper_id, "html")
         has_pdf = _paper_has_file(corpus.corpus_dir, paper_id, "pdf")
+        pdf_path = (
+            str(_paper_file_path(corpus.corpus_dir, paper_id, "pdf"))
+            if has_pdf
+            else ""
+        )
         score, matched = score_paper_relevance(
-            metadata, has_xml=has_xml, has_pdf=has_pdf
+            metadata, has_xml=(has_xml or has_html), has_pdf=has_pdf
         )
         rows.append(
             make_review_row(
@@ -54,7 +68,9 @@ def build_review_rows_from_corpus(
                 pollutant_terms=matched["pollutant_terms"],
                 health_terms=matched["health_terms"],
                 has_xml=has_xml,
+                has_html=has_html,
                 has_pdf=has_pdf,
+                pdf_path=pdf_path,
                 query_name=query_name,
                 query_string=query_string,
             )
@@ -82,9 +98,12 @@ def build_review_rows_from_pygetpapers(
         metadata = processor.normalize_metadata(raw)
         paper_id = f"europe_pmc_{folder.name}"
         has_xml = Path(folder, "fulltext.xml").is_file()
-        has_pdf = Path(folder, "fulltext.pdf").is_file()
+        has_html = Path(folder, "fulltext.html").is_file()
+        pdf_file = Path(folder, "fulltext.pdf")
+        has_pdf = pdf_file.is_file()
+        pdf_path = str(pdf_file) if has_pdf else ""
         score, matched = score_paper_relevance(
-            metadata, has_xml=has_xml, has_pdf=has_pdf
+            metadata, has_xml=(has_xml or has_html), has_pdf=has_pdf
         )
         rows.append(
             make_review_row(
@@ -95,7 +114,9 @@ def build_review_rows_from_pygetpapers(
                 pollutant_terms=matched["pollutant_terms"],
                 health_terms=matched["health_terms"],
                 has_xml=has_xml,
+                has_html=has_html,
                 has_pdf=has_pdf,
+                pdf_path=pdf_path,
                 query_name=query_name,
                 query_string=query_string,
             )
@@ -164,15 +185,25 @@ def build_review_rows_from_search_results(
 
     rows: List[Dict[str, Any]] = []
     for paper in results:
+        paper_id = paper.get("paper_id") or ""
         pmcid = paper.get("pmcid") or ""
         pmid = paper.get("pmid") or ""
         file_id = sanitize_paper_id(get_result_paper_id(paper) or "")
-        identifier = pmcid or pmid or file_id
-        paper_id = f"europe_pmc_{identifier}" if pmcid else f"{paper.get('source_repository', 'paper')}_{identifier}"
+        identifier = paper_id or pmcid or pmid or file_id
+        if not paper_id:
+            paper_id = (
+                f"europe_pmc_{identifier}"
+                if pmcid
+                else f"{paper.get('source_repository', 'paper')}_{identifier}"
+            )
 
-        has_xml = bool(file_id) and Path(xml_dir, f"{file_id}.xml").is_file()
-        has_html = bool(file_id) and Path(xml_dir, f"{file_id}.html").is_file()
-        has_pdf = bool(file_id) and Path(xml_dir, f"{file_id}.pdf").is_file()
+        file_stems = [s for s in (paper_id, file_id, pmcid, pmid, identifier) if s]
+        has_xml = any(Path(xml_dir, f"{stem}.xml").is_file() for stem in file_stems)
+        has_html = any(Path(xml_dir, f"{stem}.html").is_file() for stem in file_stems)
+        pdf_candidates = [Path(xml_dir, f"{stem}.pdf") for stem in file_stems]
+        pdf_file = next((p for p in pdf_candidates if p.is_file()), None)
+        has_pdf = pdf_file is not None
+        pdf_path = str(pdf_file) if pdf_file is not None else ""
         has_fulltext = has_xml or has_html
 
         metadata = dict(paper)
@@ -189,8 +220,10 @@ def build_review_rows_from_search_results(
                 location_terms=matched["location_terms"],
                 pollutant_terms=matched["pollutant_terms"],
                 health_terms=matched["health_terms"],
-                has_xml=has_fulltext,
+                has_xml=has_xml,
+                has_html=has_html,
                 has_pdf=has_pdf,
+                pdf_path=pdf_path,
                 query_name=query_name,
                 query_string=query_string,
             )
@@ -214,7 +247,12 @@ def export_review_table_csv(rows: List[Dict[str, Any]], path: Path) -> Path:
         writer = csv.DictWriter(handle, fieldnames=list(REVIEW_TABLE_COLUMNS))
         writer.writeheader()
         for row in rows:
-            writer.writerow({k: row[k] for k in REVIEW_TABLE_COLUMNS})
+            writer.writerow(
+                {
+                    k: row.get(k, False if k.startswith("has_") else "")
+                    for k in REVIEW_TABLE_COLUMNS
+                }
+            )
     return path
 
 
@@ -224,14 +262,19 @@ def export_review_table_markdown(rows: List[Dict[str, Any]], path: Path) -> Path
     lines = [
         "# Corpus review table",
         "",
-        "| review_status | score | title | pmcid | has_xml | has_pdf |",
-        "| --- | ---: | --- | --- | --- | --- |",
+        "| review_status | score | title | paper_id | cluster | encyclopedia | pdf |",
+        "| --- | ---: | --- | --- | --- | --- | --- |",
     ]
     for row in rows:
         title = (row["title"] or "").replace("|", "\\|")[:80]
+        pdf_path = row.get("pdf_path") or ""
+        pdf_cell = f"[PDF]({pdf_path})" if pdf_path else ""
+        cluster = row.get("cluster_id", "")
+        encyclopedia = row.get("encyclopedia_category", "")
         lines.append(
             f"| {row['review_status']} | {row['score']} | {title} | "
-            f"{row['pmcid']} | {row['has_xml']} | {row['has_pdf']} |"
+            f"{row.get('paper_id') or row.get('pmcid', '')} | {cluster} | "
+            f"{encyclopedia} | {pdf_cell} |"
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path
@@ -258,13 +301,14 @@ def ensure_review_table_css(output_dir: Path, basename: str = "review_table") ->
         return css_path
 
     text = css_path.read_text(encoding="utf-8")
-    if "/* reader panel *//* reader panel */" in text or text.count("/* reader panel */") > 1:
+    if (
+        "/* reader panel *//* reader panel */" in text
+        or text.count("/* reader panel */") > 1
+    ):
         css_path.write_text(default_css, encoding="utf-8")
         return css_path
 
-    sections = (
-        (".reader-body", "/* reader body */"),
-    )
+    sections = ((".reader-body", "/* reader body */"),)
     appended = False
     for needle, marker in sections:
         if needle not in text and marker in default_css:
@@ -285,9 +329,9 @@ def export_review_table_html(
     path.parent.mkdir(parents=True, exist_ok=True)
     ensure_review_table_css(path.parent, path.stem)
 
-    include = sum(1 for row in rows if row.get("review_status") == "include")
-    review = sum(1 for row in rows if row.get("review_status") == "review")
-    exclude = sum(1 for row in rows if row.get("review_status") == "exclude")
+    include = sum(1 for row in rows if row.get("review_status") == REVIEW_STATUS_INCLUDE)
+    review = sum(1 for row in rows if row.get("review_status") == REVIEW_STATUS_REVIEW)
+    exclude = sum(1 for row in rows if row.get("review_status") == REVIEW_STATUS_EXCLUDE)
 
     review_json = path.with_suffix(".json")
     query_dir = path.parent.parent
@@ -328,14 +372,13 @@ def export_review_table_html(
       display: flex;
       flex-direction: column;
     }}
-    #paper-reader .reader-body iframe {{
+    #paper-reader .reader-body iframe,
+    #paper-reader .reader-body embed {{
       flex: 1 1 0;
       min-height: 0;
       width: 100%;
       border: 0;
     }}
-    .read-links {{ display: inline-flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }}
-    .paper-link {{ color: #2563eb; font-size: 0.85rem; }}
   </style>
 </head>
 <body>
@@ -359,6 +402,7 @@ def export_review_table_html(
           <th>Authors</th>
           <th>Date</th>
           <th>XML</th>
+          <th>HTML</th>
           <th>PDF</th>
           <th>Read</th>
           <th>Abstract</th>
@@ -382,7 +426,8 @@ def export_review_table_html(
         <button type="button" id="reader-close">Close</button>
       </div>
       <div class="reader-body">
-        <iframe id="paper-frame" title="Full paper"></iframe>
+        <iframe id="paper-frame" title="Full paper (HTML)" hidden></iframe>
+        <embed id="paper-embed" type="application/pdf" title="Full paper (PDF)" hidden />
         <p id="reader-status" class="reader-status" hidden></p>
       </div>
     </aside>
@@ -457,28 +502,6 @@ def export_review_table_html(
         .replaceAll('"', "&quot;");
     }}
 
-    function paperUrlsForRow(row) {{
-      if (!row || !row.pmcid) return {{ pdf_url: null, html_url: null }};
-      const pmcid = encodeURIComponent(row.pmcid);
-      return {{
-        pdf_url: row.has_pdf ? `/papers/${{pmcid}}.pdf` : null,
-        html_url: row.has_xml ? `/papers/${{pmcid}}.html` : null,
-      }};
-    }}
-
-    function paperLinksHtml(row, index) {{
-      const urls = paperUrlsForRow(row);
-      const parts = [];
-      if (urls.pdf_url) {{
-        parts.push(`<a class="paper-link" href="${{urls.pdf_url}}" target="_blank" rel="noopener">PDF</a>`);
-      }}
-      if (urls.html_url) {{
-        parts.push(`<a class="paper-link" href="${{urls.html_url}}" target="_blank" rel="noopener">HTML</a>`);
-      }}
-      parts.push(`<button type="button" class="btn-read" data-index="${{index}}" aria-label="Read in panel">Read</button>`);
-      return `<span class="read-links">${{parts.join(" ")}}</span>`;
-    }}
-
     function renderTable() {{
       const body = document.getElementById("review-body");
       body.innerHTML = rows.map((row, index) => `
@@ -491,12 +514,18 @@ def export_review_table_html(
             </select>
           </td>
           <td class="col-title">${{escapeHtml(row.title)}}</td>
-          <td>${{escapeHtml(row.pmcid)}}</td>
+          <td>${{escapeHtml(row.paper_id || row.pmcid)}}</td>
           <td>${{escapeHtml(row.authors)}}</td>
           <td>${{escapeHtml(row.publication_date)}}</td>
           <td>${{row.has_xml ? "yes" : "no"}}</td>
+          <td>${{row.has_html ? "yes" : "no"}}</td>
           <td>${{row.has_pdf ? "yes" : "no"}}</td>
-          <td class="col-read">${{paperLinksHtml(row, index)}}</td>
+          <td>
+            <button type="button" class="btn-read" data-index="${{index}}"
+              ${{(row.has_pdf || row.has_xml || row.has_html || row.paper_id || row.pmcid) ? "" : "disabled"}} aria-label="Read full paper">
+              Read
+            </button>
+          </td>
           <td class="col-abstract">${{escapeHtml(row.abstract_snippet)}}</td>
           <td class="col-notes"><textarea class="review-notes" rows="3">${{escapeHtml(row.review_notes || "")}}</textarea></td>
         </tr>`).join("");
@@ -560,30 +589,29 @@ def export_review_table_html(
       formatsEl.hidden = !paperFormats.pdf_url && !paperFormats.html_url;
     }}
 
-    function hidePaperContent() {{
-      const frame = document.getElementById("paper-frame");
-      frame.hidden = true;
-      frame.removeAttribute("srcdoc");
-      frame.src = "about:blank";
-      revokePdfBlob();
-    }}
-
-    function showReaderStatus(message, isError = false) {{
-      hidePaperContent();
-      const status = document.getElementById("reader-status");
-      status.textContent = message;
-      status.className = "reader-status" + (isError ? " reader-status--error" : "");
-      status.hidden = false;
-    }}
-
     function hideReaderStatus() {{
       const status = document.getElementById("reader-status");
       status.hidden = true;
       status.textContent = "";
     }}
 
+    function showReaderStatus(message, isError = false) {{
+      clearPaperViews();
+      const status = document.getElementById("reader-status");
+      status.textContent = message;
+      status.className = "reader-status" + (isError ? " reader-status--error" : "");
+      status.hidden = false;
+    }}
+
     function clearPaperViews() {{
-      hidePaperContent();
+      const frame = document.getElementById("paper-frame");
+      const embed = document.getElementById("paper-embed");
+      frame.hidden = true;
+      embed.hidden = true;
+      frame.removeAttribute("srcdoc");
+      frame.src = "about:blank";
+      embed.removeAttribute("src");
+      revokePdfBlob();
       hideReaderStatus();
     }}
 
@@ -595,6 +623,7 @@ def export_review_table_html(
         return;
       }}
       const frame = document.getElementById("paper-frame");
+      const embed = document.getElementById("paper-embed");
       hideReaderStatus();
       revokePdfBlob();
       document.querySelectorAll(".format-btn").forEach((button) => {{
@@ -604,16 +633,20 @@ def export_review_table_html(
       try {{
         const response = await fetch(url);
         if (!response.ok) throw new Error("HTTP " + response.status);
-        frame.hidden = false;
         if (format === "html") {{
-          frame.removeAttribute("src");
+          embed.hidden = true;
+          embed.removeAttribute("src");
+          frame.hidden = false;
           frame.src = "about:blank";
           frame.srcdoc = await response.text();
         }} else {{
+          frame.hidden = true;
           frame.removeAttribute("srcdoc");
+          frame.src = "about:blank";
           const blob = await response.blob();
           pdfBlobUrl = URL.createObjectURL(blob);
-          frame.src = pdfBlobUrl;
+          embed.hidden = false;
+          embed.src = pdfBlobUrl;
         }}
       }} catch (err) {{
         showReaderStatus("Failed to load " + format.toUpperCase() + ": " + err.message, true);
@@ -624,23 +657,15 @@ def export_review_table_html(
       showReaderStatus(message, isError);
     }}
 
-    function mergePaperFormats(row, preview) {{
-      const defaults = paperUrlsForRow(row);
-      return {{
-        pdf_url: preview?.pdf_url || defaults.pdf_url,
-        html_url: preview?.html_url || defaults.html_url,
-      }};
-    }}
-
     async function openPaper(index) {{
       const row = rows[index];
-      if (!row || !row.pmcid) return;
+      if (!row || !(row.paper_id || row.pmcid)) return;
 
       highlightRow(index);
       activePaperIndex = index;
 
       const reader = document.getElementById("paper-reader");
-      document.getElementById("reader-title").textContent = row.title || row.pmcid;
+      document.getElementById("reader-title").textContent = row.title || row.paper_id || row.pmcid;
       clearPaperViews();
       reader.classList.add("open");
       reader.setAttribute("aria-hidden", "false");
@@ -659,18 +684,22 @@ def export_review_table_html(
 
       try {{
         const response = await fetch(`/api/paper-preview?index=${{index}}`);
-        const preview = response.ok ? await response.json() : null;
-        paperFormats = mergePaperFormats(row, preview);
+        if (!response.ok) throw new Error("preview unavailable");
+        const preview = await response.json();
+        paperFormats = {{
+          pdf_url: preview.pdf_url || null,
+          html_url: preview.html_url || null,
+        }};
+        updateFormatButtons();
+        if (paperFormats.pdf_url) {{
+          await setPaperFormat("pdf");
+        }} else if (paperFormats.html_url) {{
+          await setPaperFormat("html");
+        }} else {{
+          showFrameMessage("No HTML or PDF available for this paper.", true);
+        }}
       }} catch (err) {{
-        paperFormats = paperUrlsForRow(row);
-      }}
-      updateFormatButtons();
-      if (paperFormats.pdf_url) {{
-        await setPaperFormat("pdf");
-      }} else if (paperFormats.html_url) {{
-        await setPaperFormat("html");
-      }} else {{
-        showFrameMessage("No HTML or PDF file found for this paper.", true);
+        showFrameMessage("Could not load paper: " + err.message, true);
       }}
     }}
 
@@ -718,9 +747,7 @@ def export_review_tables(
     output_dir = Path(output_dir)
     html_path = Path(output_dir, f"{basename}.html")
     return {
-        "json": export_review_table_json(
-            rows, Path(output_dir, f"{basename}.json")
-        ),
+        "json": export_review_table_json(rows, Path(output_dir, f"{basename}.json")),
         "csv": export_review_table_csv(rows, Path(output_dir, f"{basename}.csv")),
         "markdown": export_review_table_markdown(
             rows, Path(output_dir, f"{basename}.md")
