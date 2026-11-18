@@ -11,20 +11,22 @@
 
 ## Purpose
 
-Turn an open-literature **query** (and related intakes) into a **user-owned, preservation-ready corpus**: search → download → metadata → optional **BagIt** layout, with a **review table** as a quality gate—not as the full science product.
+Provide a **standalone personal/project corpus substrate**: a BagIt filestore-as-database with declarative, human-limited ingest, skip-satisfied incremental processing (`doit`-like), cleaning/semanticisation to structured HTML (sections, paragraphs, figures/tables + captions), and an HTML review table for Browse / Read / Delete / regex search.
+
+Full functionality and usage scenarios: **[design.md](design.md)**.
 
 ---
 
 ## In scope
 
-- Corpus create / open (`core/`, `CorpusManager`)  
-- Ingest from pygetpapers-style dirs, query outputs, local PDFs (`ingestion/`)  
-- BagIt packing and path contracts (`storage/`)  
-- Primary OA repositories: Europe PMC (+ diagnostic/preflight), optionally OpenAlex  
-- CLI: `cli.py`, `cli_pygetpapers.py`  
-- Review table build/export as **ingest QA** (`corpus_review/` workflow/table)  
-- Thin export toward chatbot (`export/` is a *bridge*; see modules README)  
-- Offline tests with **real** fixture files; live EPMC only with `SC_LIVE_API=1`  
+- Corpus create / open and BagIt (or flat→BagIt) layout contracts  
+- Schema-light ingest (queries, closed sets, local files; optional Zotero as source)  
+- Incremental Create / Rerun with skip-satisfied entries  
+- Declarative cleaners → semantic HTML with stable chunk IDs  
+- Ingest hooks + EPMC example for `repositories` adapters  
+- HTML review table as ingest QA / curation  
+- Thin export bridge toward chatbot (not chat UX)  
+- Offline tests with **real** fixtures; live network only with `SC_LIVE_API=1`  
 
 ---
 
@@ -36,24 +38,26 @@ Turn an open-literature **query** (and related intakes) into a **user-owned, pre
 | YAKE/TF-IDF phrases, bipartite clusters, KG HTML | [phrases_kg](../phrases_kg/overview.md) |
 | Wikipedia encyclopedia HTML content | Encyclopedia bridge + sibling package |
 | Chat UI / RAG | Chatbot bridge + external apps |
+| Bibliographic discovery UX | Zotero (interop only; see [design.md](design.md) §8.4) |
 
 ---
 
 ## Public contracts to protect
 
-1. **Stable paper IDs** and filename stems (`repositories/_ids.py`).  
-2. **BagIt / flat workdir layout** documented for resume and demos.  
+1. **Stable paper IDs** and filename stems.  
+2. **BagIt / workdir layout** documented for resume and demos.  
 3. **Review-table columns** vocabulary (`corpus_review/constants.py`).  
 4. **No mocks** in tests that claim ingest behaviour ([coding_style.md](../../coding_style.md) §0).  
 
-Downstream modules should consume bags/review tables via these contracts, not by scraping EPMC internals.
+Downstream modules should consume bags/review tables / semantic HTML via these contracts.
 
 ---
 
-## Docs and examples that serve this module
+## Docs
 
-- BagIt / ingest / EPMC resume tutorials under `docs/` and `docs/tutorials/`  
-- Minimal examples: create corpus; search+download; validate bag (trim excess examples over time)  
+- **Design + user scenarios:** [design.md](design.md)  
+- **JOSS framing:** [joss_presentation.md](joss_presentation.md)  
+- Tutorials under `docs/` and `docs/tutorials/` (trim excess over time)  
 - Config: one or two YAML pilots (not every topic harvest)
 
 ---
@@ -61,5 +65,3 @@ Downstream modules should consume bags/review tables via these contracts, not by
 ## JOSS claim (draft one-liner)
 
 *semantic_corpus* (`corpus`) is an open, scriptable substrate for building and incrementally extending personal scholarly corpora—from declarative ingest and legacy-to-semantic conversion through BagIt packaging and para/caption indexing—so downstream research software can share one input/output contract.
-
-Full JOSS framing (statement of need, complexity, series): [joss_presentation.md](joss_presentation.md).
