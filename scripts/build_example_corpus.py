@@ -107,6 +107,8 @@ def main() -> None:
     review_paths = export_review_tables(rows, Path(output_dir, "review"))
     print(f"Review table: {review_paths['markdown']}")
 
+    # Ensure default parent exists (e.g. ./corpora/) before CorpusManager validates.
+    corpus_dir.parent.mkdir(parents=True, exist_ok=True)
     corpus = CorpusManager(corpus_dir, use_bagit=True)
     corpus.create_structured_directories()
     added = ingest_query_output_directory(output_dir, corpus)
