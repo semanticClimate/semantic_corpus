@@ -74,11 +74,15 @@ def run_repository_search(
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    # When requesting downloadable formats (e.g. PDF), search for extra candidates
-    # so we can collect up to `limit` papers that actually download the requested formats.
+    # ``limit`` = max *new* downloads this run. Over-fetch so already-present
+    # hits can be skipped without starving the new quota.
+    existing_stems = _count_existing_download_stems(output_dir)
+    want_formats = bool(
+        formats and any(f in ("pdf", "xml", "html") for f in formats)
+    )
     candidate_limit = (
-        limit * 3
-        if formats and any(f in ("pdf", "xml", "html") for f in formats)
+        min(1000, max(limit * 3, existing_stems + limit * 3))
+        if want_formats
         else limit
     )
 
@@ -101,7 +105,7 @@ def run_repository_search(
         start_date=start_date,
         end_date=end_date,
     )
-    downloaded_count = 0
+    new_downloaded_count = 0
     successful_results: List[Dict[str, Any]] = []
     downloaded_labels: List[str] = []
     skipped_labels: List[str] = []
@@ -112,14 +116,12 @@ def run_repository_search(
             continue
         label = short_display_id(paper) or short_display_id(paper_id)
         try:
-            # Halt/restart: if every requested format is already on disk, skip network.
+            # Halt/restart: if every requested format is already on disk, skip
+            # network. Skips do *not* count toward ``limit`` (reruns add N new).
             if paper_documents_present(output_dir, paper_id, formats):
-                downloaded_count += 1
                 successful_results.append(paper)
                 skipped_labels.append(label)
                 _notify_paper(on_paper, paper, "skip")
-                if downloaded_count >= limit:
-                    break
                 continue
 
             dl_kwargs: Dict[str, Any] = {}
@@ -142,11 +144,17 @@ def run_repository_search(
                 else:
                     raise
             if dl.get("success"):
-                downloaded_count += 1
+                # Treat pure skip-on-disk adapter responses as skips, not new.
+                if dl.get("skipped"):
+                    successful_results.append(paper)
+                    skipped_labels.append(label)
+                    _notify_paper(on_paper, paper, "skip")
+                    continue
+                new_downloaded_count += 1
                 successful_results.append(paper)
                 downloaded_labels.append(label)
                 _notify_paper(on_paper, paper, "ok")
-                if downloaded_count >= limit:
+                if new_downloaded_count >= limit:
                     break
             else:
                 reason = fail_reason_label(
@@ -182,7 +190,21 @@ def run_repository_search(
             print_id_list(downloaded_labels)
 
     final_results = successful_results if successful_results else results[:limit]
-    return final_results, downloaded_count
+    return final_results, new_downloaded_count
+
+
+def _count_existing_download_stems(output_dir: Path) -> int:
+    """How many paper stems already have packet/flat downloads (for over-fetch)."""
+    stems: set[str] = set()
+    packets = Path(output_dir, "data", "packets")
+    if packets.is_dir():
+        for path in packets.iterdir():
+            if path.is_file() and path.suffix.lower() in {".pdf", ".xml", ".json"}:
+                stems.add(path.stem)
+    for path in Path(output_dir).glob("PMC*"):
+        if path.is_file() and path.suffix.lower() in {".pdf", ".xml", ".json"}:
+            stems.add(path.stem)
+    return len(stems)
 
 
 def run_query_and_build_review_table(

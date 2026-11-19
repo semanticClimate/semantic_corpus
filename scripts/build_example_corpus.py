@@ -52,7 +52,8 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help=(
             "Skip live repository search when search_results.json already exists "
-            "under the query output dir (useful when Europe PMC returns 503)."
+            "under the query output dir (useful when Europe PMC returns 503). "
+            "Does not fetch new papers — omit this flag to add ``limit`` more."
         ),
     )
     return parser.parse_args()
@@ -99,6 +100,14 @@ def main() -> None:
             start_date=config.get("start_date"),
             end_date=config.get("end_date"),
         )
+        # Merge with prior hits so the query dir keeps a growing record.
+        prior: list = []
+        if results_path.is_file():
+            with open(results_path, encoding="utf-8") as handle:
+                loaded = json.load(handle)
+            if isinstance(loaded, list):
+                prior = loaded
+        results = _merge_paper_results(prior, results)
         with open(results_path, "w", encoding="utf-8") as handle:
             json.dump(results, handle, indent=2, ensure_ascii=False)
 
@@ -141,6 +150,21 @@ def main() -> None:
     if corpus.bagit_manager:
         corpus.bagit_manager.update_manifest()
     print("Done.")
+
+
+def _merge_paper_results(prior: list, new: list) -> list:
+    """Union paper dicts by paper_id / pmcid / pmid, preferring newer entries."""
+    from semantic_corpus.repositories._ids import get_result_paper_id
+
+    merged: dict = {}
+    for paper in list(prior) + list(new):
+        if not isinstance(paper, dict):
+            continue
+        key = get_result_paper_id(paper) or paper.get("pmcid") or paper.get("pmid")
+        if not key:
+            continue
+        merged[str(key)] = paper
+    return list(merged.values())
 
 
 if __name__ == "__main__":

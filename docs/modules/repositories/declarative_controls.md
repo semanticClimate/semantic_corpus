@@ -85,7 +85,9 @@ corpus_name: epmc_limit2_demo
   --config config/epmc_limit2_demo.yaml
 ```
 
-If Europe PMC returns **503** (temporary nginx outage), wait and retry, or reuse the last successful query dir:
+**Rerun:** the same command with `limit: 2` skips papers already on disk and downloads **2 new** ones (then ingests them). Do **not** pass `--reuse-existing` if you want new papers.
+
+If Europe PMC returns **503** (temporary nginx outage), wait and retry, or reuse the last successful query dir (no new downloads):
 
 ```bash
 ./venv/bin/python scripts/build_example_corpus.py \
