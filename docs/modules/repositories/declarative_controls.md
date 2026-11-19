@@ -196,4 +196,5 @@ corpus_name: shodhganga_climate_theses
 - Three targets: [target_examples.md](target_examples.md)  
 - Strategy (engine, 403, timing): [strategy.md](strategy.md)  
 - Tiny EPMC pilot (`limit: 2`): [`config/epmc_limit2_demo.yaml`](../../../config/epmc_limit2_demo.yaml)  
+- Team demo write-up (Q&A + CLI): [epmc_declarative_demo.md](epmc_declarative_demo.md)  
 - Larger EPMC pilot: [`config/ocean_heatwaves_2026.yaml`](../../../config/ocean_heatwaves_2026.yaml)
