@@ -57,6 +57,7 @@ Dotted edges: harvest into shared **`corpus` contracts** (not a parallel filesto
 
 ## Related
 
+- **Declarative controls** (pilot + per-site profile): [declarative_controls.md](declarative_controls.md)  
 - South Asia / Shodhganga detail: [south_asia.md](south_asia.md)  
 - Full strategy: [strategy.md](strategy.md)  
 - Sibling schematic: [../corpus/siblings.md](../corpus/siblings.md)

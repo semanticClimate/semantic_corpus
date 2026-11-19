@@ -50,6 +50,7 @@ Harvest scholarly literature from **open repositories**—including **Global Sou
 
 - **Strategy** (declarative search, pygetpapers, HTTP states, timing): [strategy.md](strategy.md)  
 - **Three target examples** (EPMC, CONICET, Shodhganga): [target_examples.md](target_examples.md)  
+- **Declarative controls** for those three: [declarative_controls.md](declarative_controls.md)  
 - South Asia sources / Shodhganga: [south_asia.md](south_asia.md)
 
 ---
