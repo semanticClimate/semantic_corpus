@@ -85,6 +85,14 @@ corpus_name: epmc_limit2_demo
   --config config/epmc_limit2_demo.yaml
 ```
 
+If Europe PMC returns **503** (temporary nginx outage), wait and retry, or reuse the last successful query dir:
+
+```bash
+./venv/bin/python scripts/build_example_corpus.py \
+  --config config/epmc_limit2_demo.yaml \
+  --reuse-existing
+```
+
 (Aligned with `config/ocean_heatwaves_2026.yaml` for larger runs.)
 
 ---

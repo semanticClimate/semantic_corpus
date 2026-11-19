@@ -2,6 +2,7 @@
 
 import io
 import re
+import time
 import zipfile
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -35,6 +36,9 @@ PMC_OA_S3 = "https://pmc-oa-opendata.s3.amazonaws.com"
 EUROPE_PMC_OA_PDF_FTP = "https://ftp.ebi.ac.uk/pub/databases/pmc/pdf/OA"
 PDF_TIMEOUT_SECONDS = 60
 SEARCH_TIMEOUT_SECONDS = 60
+SEARCH_TRANSIENT_RETRIES = 3
+SEARCH_RETRY_SLEEP_SECONDS = 2.0
+_SEARCH_RETRY_STATUSES = frozenset({429, 502, 503, 504})
 
 # Human-oriented hints for known Europe PMC errCode / HTTP statuses
 _EPMC_ERROR_HINTS = {
@@ -350,14 +354,38 @@ class EuropePMCRepository(RepositoryInterface):
         elif end_date:
             params["query"] = f"({query}) AND (FIRST_PDATE:[TO {end_date}])"
 
-        try:
-            response = requests.get(
-                f"{self.base_url}/search",
-                params=params,
-                timeout=SEARCH_TIMEOUT_SECONDS,
-            )
-        except requests.RequestException as e:
-            raise RepositoryError(f"Europe PMC search failed: {e}") from e
+        last_error: Optional[Exception] = None
+        response: Optional[requests.Response] = None
+        for attempt in range(1, SEARCH_TRANSIENT_RETRIES + 1):
+            try:
+                response = requests.get(
+                    f"{self.base_url}/search",
+                    params=params,
+                    timeout=SEARCH_TIMEOUT_SECONDS,
+                )
+            except requests.RequestException as e:
+                last_error = RepositoryError(f"Europe PMC search failed: {e}")
+                if attempt < SEARCH_TRANSIENT_RETRIES:
+                    time.sleep(SEARCH_RETRY_SLEEP_SECONDS * attempt)
+                    continue
+                raise last_error from e
+
+            if (
+                response.status_code in _SEARCH_RETRY_STATUSES
+                and attempt < SEARCH_TRANSIENT_RETRIES
+            ):
+                last_error = RepositoryError(
+                    interpret_epmc_error(
+                        status_code=response.status_code,
+                        body_preview=(response.text or "")[:200],
+                    )
+                )
+                time.sleep(SEARCH_RETRY_SLEEP_SECONDS * attempt)
+                continue
+            break
+
+        if response is None:
+            raise last_error or RepositoryError("Europe PMC search failed")
 
         data = _parse_epmc_response(response)
         raw_results = data.get("resultList", {}).get("result") or []

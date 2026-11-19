@@ -47,6 +47,14 @@ def parse_args() -> argparse.Namespace:
         type=str,
         help="Corpus output directory (default: corpora/<corpus_name>).",
     )
+    parser.add_argument(
+        "--reuse-existing",
+        action="store_true",
+        help=(
+            "Skip live repository search when search_results.json already exists "
+            "under the query output dir (useful when Europe PMC returns 503)."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -66,24 +74,33 @@ def main() -> None:
         else Path("corpora", config["corpus_name"])
     )
     formats = config.get("formats") or ["xml", "pdf"]
+    results_path = Path(output_dir, "search_results.json")
 
     print(f"Query: {config['query_string']}")
     print(f"Dates: {config.get('start_date')} to {config.get('end_date')}")
     print(f"Limit: {config.get('limit', 50)} | Formats: {formats}")
 
-    results, downloaded_count = run_repository_search(
-        query_string=config["query_string"],
-        repository=config.get("repository") or "europe_pmc",
-        limit=int(config.get("limit") or 50),
-        output_dir=output_dir,
-        formats=formats,
-        start_date=config.get("start_date"),
-        end_date=config.get("end_date"),
-    )
-
-    results_path = Path(output_dir, "search_results.json")
-    with open(results_path, "w", encoding="utf-8") as handle:
-        json.dump(results, handle, indent=2, ensure_ascii=False)
+    if args.reuse_existing and results_path.is_file():
+        with open(results_path, encoding="utf-8") as handle:
+            results = json.load(handle)
+        if not isinstance(results, list):
+            raise SystemExit(f"Expected a list in {results_path}")
+        downloaded_count = len(results)
+        print(
+            f"Reusing existing search results ({downloaded_count}) from {results_path}"
+        )
+    else:
+        results, downloaded_count = run_repository_search(
+            query_string=config["query_string"],
+            repository=config.get("repository") or "europe_pmc",
+            limit=int(config.get("limit") or 50),
+            output_dir=output_dir,
+            formats=formats,
+            start_date=config.get("start_date"),
+            end_date=config.get("end_date"),
+        )
+        with open(results_path, "w", encoding="utf-8") as handle:
+            json.dump(results, handle, indent=2, ensure_ascii=False)
 
     record = build_query_run_record(
         query_name=query_name,
