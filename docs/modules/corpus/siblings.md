@@ -13,30 +13,30 @@
 ```mermaid
 flowchart TB
   subgraph core["JOSS core"]
-    C["corpus<br/>BagIt · declarative ingest · doit<br/>clean / semanticise · review UI"]
+    C["corpus<br>BagIt, declarative ingest, doit<br>clean, semanticise, review UI"]
   end
 
   subgraph sib_repositories["repositories"]
-    R["EPMC · SciELO · Redalyc · …"]
+    R["EPMC, SciELO, Redalyc, ..."]
   end
 
   subgraph sib_phrases_kg["phrases_kg"]
-    P["phrases · bipartite KG"]
+    P["phrases, bipartite KG"]
   end
 
   subgraph sib_encyclopedia["encyclopedia"]
-    E["wiki / Wikidata enrichment"]
+    E["wiki and Wikidata enrichment"]
   end
 
   subgraph sib_chatbot["chatbot"]
-    H["export / RAG-facing UX"]
+    H["export and RAG-facing UX"]
   end
 
-  Z["Zotero<br/>bibliographic discovery<br/>(interop neighbour, not a JOSS sibling paper)"]
+  Z["Zotero<br>bibliographic discovery<br>interop neighbour, not a JOSS sibling paper"]
 
-  R -.->|ingest hooks / harvest into bag| C
-  C -.->|BagIt · semantic HTML · review table| P
-  C -.->|optional enrichment after bag| E
+  R -.->|ingest hooks into bag| C
+  C -.->|BagIt and semantic HTML| P
+  C -.->|optional enrichment| E
   C -.->|stable export contract| H
   P -.->|phrase labels| E
   Z -.->|optional source| C
