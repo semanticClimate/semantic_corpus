@@ -52,7 +52,7 @@ Existing EPMC-style pilots in `config/*.yaml` already use most of the query/limi
 | `http_states` | map 403/429/5xx → policy | UA / rate-limit classes; no tight retry on 403 |
 | `timing_hooks` | search vs download phases | For `timing: summary` |
 
-**Pilot sketch:**
+**Pilot sketch (normal):**
 
 ```yaml
 query_name: epmc_heatwaves_demo
@@ -66,7 +66,26 @@ timing: summary
 corpus_name: epmc_heatwaves_demo
 ```
 
-(Aligned with `config/ocean_heatwaves_2026.yaml`.)
+**Smoke / slow-network example (`limit: 2`):** [`config/epmc_limit2_demo.yaml`](../../../config/epmc_limit2_demo.yaml)
+
+```yaml
+query_name: epmc_limit2_demo
+repository: europe_pmc
+query_string: '("marine heatwave" OR "ocean heatwave") AND (HAS_FT:Y)'
+limit: 2
+start_date: "2020-01-01"
+end_date: "2026-12-31"
+formats: [xml, pdf]
+timing: summary
+corpus_name: epmc_limit2_demo
+```
+
+```bash
+./venv/bin/python scripts/build_example_corpus.py \
+  --config config/epmc_limit2_demo.yaml
+```
+
+(Aligned with `config/ocean_heatwaves_2026.yaml` for larger runs.)
 
 ---
 
@@ -166,4 +185,5 @@ corpus_name: shodhganga_climate_theses
 
 - Three targets: [target_examples.md](target_examples.md)  
 - Strategy (engine, 403, timing): [strategy.md](strategy.md)  
-- Example live EPMC pilot: [`config/ocean_heatwaves_2026.yaml`](../../../config/ocean_heatwaves_2026.yaml)
+- Tiny EPMC pilot (`limit: 2`): [`config/epmc_limit2_demo.yaml`](../../../config/epmc_limit2_demo.yaml)  
+- Larger EPMC pilot: [`config/ocean_heatwaves_2026.yaml`](../../../config/ocean_heatwaves_2026.yaml)

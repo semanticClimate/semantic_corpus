@@ -1,0 +1,15 @@
+# Tiny Europe PMC pilot — limit 2 (for slow network / smoke tests)
+# Date: 2026-11-19
+
+query_name: epmc_limit2_demo
+query_string: '("marine heatwave" OR "ocean heatwave") AND (HAS_FT:Y)'
+repository: europe_pmc
+limit: 2
+start_date: "2020-01-01"
+end_date: "2026-12-31"
+formats:
+  - xml
+  - pdf
+corpus_name: epmc_limit2_demo
+output_subdir: epmc_limit2_demo
+timing: summary
