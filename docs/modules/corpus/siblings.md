@@ -16,11 +16,20 @@ flowchart TB
     C["corpus<br/>BagIt · declarative ingest · doit<br/>clean / semanticise · review UI"]
   end
 
-  subgraph siblings["Sibling JOSS themes"]
-    R["repositories<br/>EPMC · SciELO · Redalyc · …"]
-    P["phrases_kg<br/>phrases · bipartite KG"]
-    E["encyclopedia<br/>wiki / Wikidata enrichment"]
-    H["chatbot<br/>export / RAG-facing UX"]
+  subgraph sib_repositories["repositories"]
+    R["EPMC · SciELO · Redalyc · …"]
+  end
+
+  subgraph sib_phrases_kg["phrases_kg"]
+    P["phrases · bipartite KG"]
+  end
+
+  subgraph sib_encyclopedia["encyclopedia"]
+    E["wiki / Wikidata enrichment"]
+  end
+
+  subgraph sib_chatbot["chatbot"]
+    H["export / RAG-facing UX"]
   end
 
   Z["Zotero<br/>bibliographic discovery<br/>(interop neighbour, not a JOSS sibling paper)"]
@@ -33,7 +42,7 @@ flowchart TB
   Z -.->|optional source| C
 
   classDef core fill:#f5f5f5,stroke:#333,stroke-width:2px;
-  classDef sib fill:#fff,stroke:#666,stroke-width:1px,stroke-dasharray: 5 5;
+  classDef sib fill:#fff,stroke:#666,stroke-width:1px;
   classDef neigh fill:#fafafa,stroke:#999,stroke-width:1px,stroke-dasharray: 2 2;
   class C core;
   class R,P,E,H sib;
