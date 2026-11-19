@@ -46,6 +46,12 @@ Harvest scholarly literature from **open repositories**—including **Global Sou
 
 ---
 
+## Docs
+
+- South Asia sources / **possible Shodhganga** work: [south_asia.md](south_asia.md)
+
+---
+
 ## JOSS claim (draft one-liner)
 
 Open adapters bring SciELO, Redalyc, CONICET and related Global South sources into the same personal-corpus / BagIt workflow used for Europe PMC.
