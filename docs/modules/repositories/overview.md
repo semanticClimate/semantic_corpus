@@ -49,7 +49,8 @@ Harvest scholarly literature from **open repositories**—including **Global Sou
 ## Docs
 
 - **Strategy** (declarative search, pygetpapers, HTTP states, timing): [strategy.md](strategy.md)  
-- South Asia sources / **possible Shodhganga** work: [south_asia.md](south_asia.md)
+- **Three target examples** (EPMC, CONICET, Shodhganga): [target_examples.md](target_examples.md)  
+- South Asia sources / Shodhganga: [south_asia.md](south_asia.md)
 
 ---
 

@@ -9,6 +9,8 @@ There is **no single SciELO-style regional portal** for South Asia. Coverage is 
 
 ---
 
+Shodhganga is one of the module’s **three target examples** (with Europe PMC and CONICET)—see [target_examples.md](target_examples.md).
+
 ## Candidate focus: Shodhganga
 
 | | |

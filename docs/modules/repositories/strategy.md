@@ -146,7 +146,7 @@ Strategy: a **declarative switch** on the pilot (e.g. timing verbosity: off / su
 
 ### 5.3 Examples as documentation artefacts
 
-Ship **recorded example timing summaries** (anonymised / fixture-based where possible) for EPMC and one slower GS or thesis source—so authors can cite “this is what a bounded run looks like” without implying SLA guarantees.
+Ship **recorded example timing summaries** (anonymised / fixture-based where possible) for the three targets—**EPMC**, **CONICET**, and **Shodhganga** (when piloted)—so authors can cite “this is what a bounded run looks like” without implying SLA guarantees.
 
 ---
 
@@ -160,16 +160,27 @@ Ship **recorded example timing summaries** (anonymised / fixture-based where pos
 
 ---
 
-## 7. Coverage roadmap (declarative profiles, not a claim of done)
+## 7. Three target examples (+ wider roadmap)
+
+**Primary teaching / JOSS set:** **Europe PMC**, **CONICET**, **Shodhganga**.  
+Detail table and schematic: [target_examples.md](target_examples.md).
+
+| Target | Role in the set |
+|--------|-----------------|
+| **Europe PMC** | API-friendly OA articles; pygetpapers-strong; reference declarative profile |
+| **CONICET** | Latin America IR / DSpace-style; in-tree adapter; GS institutional contrast to EPMC |
+| **Shodhganga** | South Asia PhD theses; planned profile; thesis-shaped corpora ([south_asia.md](south_asia.md)) |
+
+### Wider coverage (not the primary three)
 
 | Tier | Examples | Notes |
 |------|----------|--------|
-| **A — pygetpapers-strong / already in tree** | Europe PMC, OpenAlex, arXiv | First profiles; timing examples; 403/UA lessons |
-| **B — Latin America / GS (existing adapters)** | SciELO, Redalyc, CONICET, selected IRs | Migrate toward profiles; keep LA ownership narrative |
-| **C — South Asia expansion** | **Shodhganga** (candidate), HEC PRR, JOL portals | See [south_asia.md](south_asia.md); volunteer + limits |
-| **D — Bibliographic neighbour** | Zotero as *source*, not a remote search API twin | Interop via `corpus`; optional “export library” recipe |
+| **A — pygetpapers-strong / already in tree** | Europe PMC (**target**), OpenAlex, arXiv | EPMC first; timing / 403 lessons |
+| **B — Latin America / GS** | **CONICET (target)**, SciELO, Redalyc, selected IRs | CONICET is the LA exemplar for docs/JOSS; others follow |
+| **C — South Asia** | **Shodhganga (target)**, HEC PRR, JOL portals | Shodhganga first among SA sources |
+| **D — Bibliographic neighbour** | Zotero as *source* | Via `corpus` interop |
 
-JOSS text for this module should claim **declarative multi-repo search + resilient harvest into corpus**, with EPMC (and selected GS) as evidence—not an unbounded list of every IR on Earth.
+JOSS text should claim **declarative multi-repo search + resilient harvest into corpus**, evidenced by these **three** targets—not an unbounded list of every IR on Earth.
 
 ---
 
@@ -211,15 +222,15 @@ JOSS text for this module should claim **declarative multi-repo search + resilie
 | Phase | Outcome |
 |-------|---------|
 | **0** | This strategy + inventory of current Python adapters vs pygetpapers coverage |
-| **1** | Canonical query model + profile schema (documented); EPMC as reference profile |
+| **1** | Canonical query model + profile schema; **EPMC** as reference profile |
 | **2** | Engine behaviours: status classes, backoff, multi-repo partial success, timing summary |
 | **3** | Hand-off to `corpus` ingest hooks + skip-satisfied IDs |
-| **4** | Migrate 1–2 existing GS adapters to profiles; docs “add a repository without Python” |
-| **5** | Optional Shodhganga / South Asia pilot profile if access and volunteer allow |
-| **6** | JOSS paper draft for `repositories` citing declarative design + resilience + corpus interop |
+| **4** | **CONICET** as second target profile (migrate in-tree adapter); docs “add a repository without Python” |
+| **5** | **Shodhganga** as third target profile if access and volunteer allow |
+| **6** | JOSS paper draft citing the **EPMC · CONICET · Shodhganga** trio + declarative design |
 
 ---
 
 ## 12. One-sentence strategy claim
 
-**`repositories` becomes a declarative, pygetpapers-informed multi-source search/harvest layer—Boolean and date-aware, resilient to HTTP realities such as 403, optionally timed, and always ending in `corpus` contracts—so new repositories are added as data, not as new Python modules.**
+**`repositories` becomes a declarative, pygetpapers-informed multi-source search/harvest layer—Boolean and date-aware, resilient to HTTP realities such as 403, optionally timed, and always ending in `corpus` contracts—so new repositories are added as data, not as new Python modules. Flagship evidence: Europe PMC, CONICET, and Shodhganga.**
