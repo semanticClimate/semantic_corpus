@@ -15,10 +15,13 @@ semantic_corpus/<module_name>/
   __init__.py      # MODULE_NAME, load metadata, re-export public API
   module.yaml      # declarative properties (required)
   README.md        # short human summary (required)
+  docs/            # module-specific *.md (required; lists, notes, local design)
   facilities/      # optional: one file or subpackage per facility
 ```
 
 Copy from `semantic_corpus/module_template/` when adding a new module.
+
+**Docs split:** `semantic_corpus/<name>/docs/` holds material **specific to that module** (e.g. repository source lists). Top-level `docs/modules/<name>/` holds JOSS/series-facing overviews that may cross modules. Prefer adding new module-only notes under the package `docs/` folder.
 
 ---
 
@@ -34,7 +37,7 @@ Copy from `semantic_corpus/module_template/` when adding a new module.
 | `status` | yes | `primary` \| `extension` \| `bridge` |
 | `python_extra` | yes | Extra name or `null` |
 | `depends_on` | yes | List of other module `name`s |
-| `docs` | yes | Path to `docs/modules/<name>/overview.md` |
+| `docs` | yes | Path to JOSS overview, usually `docs/modules/<name>/overview.md` (package also has `docs/`) |
 | `legacy_paths` | no | Paths this module fronts |
 | `facilities` | yes | List of capabilities (may be empty only while scaffolding) |
 

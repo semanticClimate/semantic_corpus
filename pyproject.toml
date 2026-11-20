@@ -93,8 +93,10 @@ semantic_corpus = [
     "cluster_review/lists/*.md",
     "*/module.yaml",
     "*/README.md",
+    "*/docs/*.md",
     "MODULE_SPEC.md",
     "module_template/*",
+    "module_template/docs/*",
 ]
 
 [tool.pytest.ini_options]

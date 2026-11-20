@@ -52,7 +52,7 @@ Harvest scholarly literature from **open repositories**—including **Global Sou
 - **Three target examples** (EPMC, CONICET, Shodhganga): [target_examples.md](target_examples.md)  
 - **Declarative controls** for those three: [declarative_controls.md](declarative_controls.md)  
 - **Team demo** (EPMC limit-2 CLI): [epmc_declarative_demo.md](epmc_declarative_demo.md)  
-- South Asia sources / Shodhganga: [south_asia.md](south_asia.md)
+- **Module docs** (source lists): [`semantic_corpus/repositories/docs/`](../../../semantic_corpus/repositories/docs/) — [latin_america.md](../../../semantic_corpus/repositories/docs/latin_america.md), [south_asia.md](../../../semantic_corpus/repositories/docs/south_asia.md)
 
 ---
 
