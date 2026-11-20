@@ -36,6 +36,8 @@ Researchers building personal or project corpora from open literature lack a **r
 
 Domain scientists and research software engineers who need **citable, inspectable corpora**—not another black-box search UI—especially open-science / climate groups who already use pygetpapers-style harvests and want BagIt-ready trees with transparent QA.
 
+Concrete user-facing justifications: [user_narratives.md](user_narratives.md) (sampled EPMC pilot; closed IPCC set; Zotero discovery → corpus artefact).
+
 ### Gap / related work
 
 Downloaders and search APIs (Europe PMC, OpenAlex, pygetpapers, Zotero, …) get documents onto disk; NLP/KG stacks assume clean text already. Few tools combine **declarative multi-source ingest**, **semantification of legacy formats**, **stable IDs + BagIt**, **paragraph/caption-level indexing**, and **incremental task orchestration** so other modules can plug in without owning corpus layout.

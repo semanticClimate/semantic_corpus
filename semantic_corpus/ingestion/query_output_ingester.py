@@ -42,7 +42,7 @@ def ingest_query_output_directory(
 
     Expects:
       - search_results.json (list of paper metadata dicts)
-      - {pmcid}.xml and/or {pmcid}.pdf alongside the JSON
+      - {pmcid}.xml and/or {pmcid}.pdf in the query dir, documents/, or data/packets/
 
     Args:
         query_dir: Directory containing search results and downloads.
@@ -100,9 +100,11 @@ def ingest_query_output_directory(
         def _find_src(fmt: str) -> Path:
             for stem in file_stems:
                 for candidate in (
+                    Path(query_dir, "data", "packets", f"{stem}.{fmt}"),
                     Path(query_dir, f"{stem}.{fmt}"),
                     Path(query_dir, "documents", f"{stem}.{fmt}"),
                     Path(query_dir, "documents", fmt, f"{stem}.{fmt}"),
+                    Path(query_dir, "data", "documents", fmt, f"{stem}.{fmt}"),
                 ):
                     if candidate.is_file():
                         return candidate

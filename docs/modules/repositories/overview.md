@@ -46,6 +46,16 @@ Harvest scholarly literature from **open repositories**—including **Global Sou
 
 ---
 
+## Docs
+
+- **Strategy** (declarative search, pygetpapers, HTTP states, timing): [strategy.md](strategy.md)  
+- **Three target examples** (EPMC, CONICET, Shodhganga): [target_examples.md](target_examples.md)  
+- **Declarative controls** for those three: [declarative_controls.md](declarative_controls.md)  
+- **Team demo** (EPMC limit-2 CLI): [epmc_declarative_demo.md](epmc_declarative_demo.md)  
+- South Asia sources / Shodhganga: [south_asia.md](south_asia.md)
+
+---
+
 ## JOSS claim (draft one-liner)
 
 Open adapters bring SciELO, Redalyc, CONICET and related Global South sources into the same personal-corpus / BagIt workflow used for Europe PMC.

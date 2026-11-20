@@ -47,6 +47,15 @@ def parse_args() -> argparse.Namespace:
         type=str,
         help="Corpus output directory (default: corpora/<corpus_name>).",
     )
+    parser.add_argument(
+        "--reuse-existing",
+        action="store_true",
+        help=(
+            "Skip live repository search when search_results.json already exists "
+            "under the query output dir (useful when Europe PMC returns 503). "
+            "Does not fetch new papers — omit this flag to add ``limit`` more."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -66,24 +75,41 @@ def main() -> None:
         else Path("corpora", config["corpus_name"])
     )
     formats = config.get("formats") or ["xml", "pdf"]
+    results_path = Path(output_dir, "search_results.json")
 
     print(f"Query: {config['query_string']}")
     print(f"Dates: {config.get('start_date')} to {config.get('end_date')}")
     print(f"Limit: {config.get('limit', 50)} | Formats: {formats}")
 
-    results, downloaded_count = run_repository_search(
-        query_string=config["query_string"],
-        repository=config.get("repository") or "europe_pmc",
-        limit=int(config.get("limit") or 50),
-        output_dir=output_dir,
-        formats=formats,
-        start_date=config.get("start_date"),
-        end_date=config.get("end_date"),
-    )
-
-    results_path = Path(output_dir, "search_results.json")
-    with open(results_path, "w", encoding="utf-8") as handle:
-        json.dump(results, handle, indent=2, ensure_ascii=False)
+    if args.reuse_existing and results_path.is_file():
+        with open(results_path, encoding="utf-8") as handle:
+            results = json.load(handle)
+        if not isinstance(results, list):
+            raise SystemExit(f"Expected a list in {results_path}")
+        downloaded_count = len(results)
+        print(
+            f"Reusing existing search results ({downloaded_count}) from {results_path}"
+        )
+    else:
+        results, downloaded_count = run_repository_search(
+            query_string=config["query_string"],
+            repository=config.get("repository") or "europe_pmc",
+            limit=int(config.get("limit") or 50),
+            output_dir=output_dir,
+            formats=formats,
+            start_date=config.get("start_date"),
+            end_date=config.get("end_date"),
+        )
+        # Merge with prior hits so the query dir keeps a growing record.
+        prior: list = []
+        if results_path.is_file():
+            with open(results_path, encoding="utf-8") as handle:
+                loaded = json.load(handle)
+            if isinstance(loaded, list):
+                prior = loaded
+        results = _merge_paper_results(prior, results)
+        with open(results_path, "w", encoding="utf-8") as handle:
+            json.dump(results, handle, indent=2, ensure_ascii=False)
 
     record = build_query_run_record(
         query_name=query_name,
@@ -107,6 +133,8 @@ def main() -> None:
     review_paths = export_review_tables(rows, Path(output_dir, "review"))
     print(f"Review table: {review_paths['markdown']}")
 
+    # Ensure default parent exists (e.g. ./corpora/) before CorpusManager validates.
+    corpus_dir.parent.mkdir(parents=True, exist_ok=True)
     corpus = CorpusManager(corpus_dir, use_bagit=True)
     corpus.create_structured_directories()
     added = ingest_query_output_directory(output_dir, corpus)
@@ -122,6 +150,21 @@ def main() -> None:
     if corpus.bagit_manager:
         corpus.bagit_manager.update_manifest()
     print("Done.")
+
+
+def _merge_paper_results(prior: list, new: list) -> list:
+    """Union paper dicts by paper_id / pmcid / pmid, preferring newer entries."""
+    from semantic_corpus.repositories._ids import get_result_paper_id
+
+    merged: dict = {}
+    for paper in list(prior) + list(new):
+        if not isinstance(paper, dict):
+            continue
+        key = get_result_paper_id(paper) or paper.get("pmcid") or paper.get("pmid")
+        if not key:
+            continue
+        merged[str(key)] = paper
+    return list(merged.values())
 
 
 if __name__ == "__main__":

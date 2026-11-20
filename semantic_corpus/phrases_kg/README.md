@@ -1,7 +1,7 @@
 # Module `phrases_kg` — phrases and bipartite KGs
 
 **Status:** extension  
-**Owner:** Neel Kumar  
+**Owner:** Neel Kumar + Anusha  
 **Spec:** [`MODULE_SPEC.md`](../MODULE_SPEC.md) · **Docs:** [`docs/modules/phrases_kg/overview.md`](../../docs/modules/phrases_kg/overview.md)
 
 ## Role
