@@ -21,7 +21,8 @@ Separation is by **named functionality + ownership + docs**, not by remotes. Eac
 **Split out a theme later only when** it has a stable public API, its own tests/docs, and an owner who can cut a release without breaking ingest.
 
 Full keep/delete context: [joss_cleanup_plan.md](../joss_cleanup_plan.md). Short ownership table: [repo_responsibilities.md](../repo_responsibilities.md).  
-**JOSS series strategy** (five papers, owners, weekly meetings, using `discussions/` transcripts for community evidence): [joss_series_strategy.md](../joss_series_strategy.md).
+**JOSS series strategy** (five papers, owners, weekly meetings, using `discussions/` transcripts for community evidence): [joss_series_strategy.md](../joss_series_strategy.md).  
+**Team interop** (`corpus/` interfaces; “guidelines then harvest”; FORCE11 / CODATA): [`corpus/docs/team_interop_governance.md`](../../semantic_corpus/corpus/docs/team_interop_governance.md).
 
 ---
 

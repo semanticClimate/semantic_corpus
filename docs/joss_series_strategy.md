@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-17  
 **Source discussion:** [discussions/CEVOpen transcript_2026-11-17_10.01.38.txt](../discussions/CEVOpen%20transcript_2026-11-17_10.01.38.txt) (Peter Murray-Rust + Renu Kumari)  
-**Related:** [modules/README.md](modules/README.md) · [modules/corpus/joss_presentation.md](modules/corpus/joss_presentation.md) · [repo_responsibilities.md](repo_responsibilities.md) · [authors_202611.md](authors_202611.md)
+**Related:** [modules/README.md](modules/README.md) · [modules/corpus/joss_presentation.md](modules/corpus/joss_presentation.md) · [repo_responsibilities.md](repo_responsibilities.md) · [authors_202611.md](authors_202611.md) · [corpus interop governance](../semantic_corpus/corpus/docs/team_interop_governance.md)
 
 This document outlines the agreed strategy for publishing **semantic_corpus** work as a **series of JOSS papers**, with **corpus** as the core substrate and sibling modules that can consume corpus contracts **or** stand alone.
 

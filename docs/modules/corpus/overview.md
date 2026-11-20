@@ -59,6 +59,8 @@ Downstream modules should consume bags/review tables / semantic HTML via these c
 - **User narratives (Statement of need):** [user_narratives.md](user_narratives.md)  
 - **Sibling schematic:** [siblings.md](siblings.md)  
 - **JOSS framing:** [joss_presentation.md](joss_presentation.md)  
+- **Interfaces / team governance** (`corpus/` as hub): [`corpus/docs/team_interop_governance.md`](../../../semantic_corpus/corpus/docs/team_interop_governance.md)  
+- Package docs index: [`corpus/docs/README.md`](../../../semantic_corpus/corpus/docs/README.md)  
 - Tutorials under `docs/` and `docs/tutorials/` (trim excess over time)  
 - Config: one or two YAML pilots (not every topic harvest)
 
