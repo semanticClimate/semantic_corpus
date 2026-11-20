@@ -61,3 +61,5 @@ For `repositories` → `corpus`:
 | Pipeline pattern | Search LA Referencia → resolve landing/bitstream at home repo → download into BagIt |
 
 Do **not** assume a single LA Referencia bulk full-text API like Europe PMC.
+
+**Team governance parallel** (guidelines → validate → harvest; FORCE11 / CODATA; interfaces owned by `corpus/`): [`corpus/docs/team_interop_governance.md`](../../corpus/docs/team_interop_governance.md).
