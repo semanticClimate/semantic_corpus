@@ -41,10 +41,13 @@ From an **already ingested** corpus (BagIt or flat workdir), extract **lightweig
 
 ## Boundaries
 
-- **Input:** corpus workdir + review table / packets produced by `corpus` (or repositories via the same contracts).  
+- **Input:** corpus workdir **or** flat documents; optionally a **glossary / term list** (skips Goal 1).  
+- **Goals:** (1) extract term-phrases; (2) bipartite term↔document_component KG, optionally projected to term↔term.  
 - **Output:** phrase indexes, cluster graphs, `kg/` artefacts—not a second bag format.  
 - Must not reimplement EPMC download inside phrase code.  
 - Optional install extra `[kg]` / `[cluster]` for sklearn, networkx, yake, streamlit.  
+
+**Declarative controls (pilots):** [controls.md](controls.md).
 
 ---
 

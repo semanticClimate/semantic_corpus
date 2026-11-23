@@ -2,11 +2,11 @@
 
 **Status:** extension  
 **Owner:** Neel Kumar + Anusha  
-**Spec:** [`MODULE_SPEC.md`](../MODULE_SPEC.md) · **Docs:** [`docs/modules/phrases_kg/overview.md`](../../docs/modules/phrases_kg/overview.md)
+**Spec:** [`MODULE_SPEC.md`](../MODULE_SPEC.md) · **Docs:** [`docs/modules/phrases_kg/overview.md`](../../docs/modules/phrases_kg/overview.md) · **Controls:** [`docs/modules/phrases_kg/controls.md`](../../docs/modules/phrases_kg/controls.md)
 
 ## Role
 
-From an already ingested corpus, extract lightweight phrases, build bipartite paper↔term structure, and support transparent KG views.
+From a corpus **or** flat documents—optionally with a glossary (skip extraction)—extract term-phrases and build a bipartite term↔document_component graph, or a term↔term projection.
 
 ## Facilities
 

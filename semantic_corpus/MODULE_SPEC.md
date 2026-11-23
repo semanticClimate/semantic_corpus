@@ -81,4 +81,5 @@ for meta in list_modules():
 2. Extensions **depend on** `corpus` contracts unless they *are* `corpus`.  
 3. Docs in `docs/modules/<name>/overview.md` must match `module.yaml` names.  
 4. New facilities are declared in `module.yaml` before being advertised in JOSS text.  
-5. Follow [coding_style.md](../docs/coding_style.md) (including **no mocks**).
+5. Follow [coding_style.md](../docs/coding_style.md) (including **no mocks**).  
+6. Follow the full submodule norms in [`corpus/docs/submodule_guidelines.md`](corpus/docs/submodule_guidelines.md) (docs, tests, CLI/GUI launchers, YAML, CI, branches, interfaces).

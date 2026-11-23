@@ -4,7 +4,7 @@
 **Home:** `corpus/` (core module / shorthand for this repository’s interface surface)  
 **Audience:** dispersed volunteer owners of submodules (`repositories`, `phrases_kg`, encyclopedia, chatbot)  
 **Prompt:** [discussions/prompt_2026-11-20_coar_force11_codata_parallel.md](../../../discussions/prompt_2026-11-20_coar_force11_codata_parallel.md)  
-**Related:** [design.md](../../../docs/modules/corpus/design.md) · [siblings.md](../../../docs/modules/corpus/siblings.md) · [`MODULE_SPEC.md`](../../MODULE_SPEC.md) · [joss_series_strategy.md](../../../docs/joss_series_strategy.md)
+**Related:** [submodule_guidelines.md](submodule_guidelines.md) · [design.md](../../../docs/modules/corpus/design.md) · [siblings.md](../../../docs/modules/corpus/siblings.md) · [`MODULE_SPEC.md`](../../MODULE_SPEC.md) · [joss_series_strategy.md](../../../docs/joss_series_strategy.md)
 
 **Role of `corpus/`:** this core defines the **interfaces** submodules must honour (BagIt layout, paper IDs, review-table vocabulary, ingest hooks, semantic HTML contracts). Submodules implement against those interfaces; they do not invent parallel dialects.
 
@@ -62,7 +62,7 @@ FORCE11 leans **communication & objects**; CODATA leans **data policy & stewards
 
 | Network practice | Our practice |
 |------------------|--------------|
-| OpenAIRE / COAR **guidelines** | Interfaces owned by **`corpus/`**: BagIt layout, paper IDs, review columns, ingest hooks, semantic HTML; plus `MODULE_SPEC` / `module.yaml` / coding_style §0 |
+| OpenAIRE / COAR **guidelines** | Interfaces owned by **`corpus/`**: BagIt layout, paper IDs, review columns, ingest hooks, semantic HTML; plus `MODULE_SPEC` / `module.yaml` / coding_style §0 / [submodule_guidelines.md](submodule_guidelines.md) |
 | **Validator** before aggregation | pytest + CI on real fixtures; import/boundary checks; schema validation of pilots and review rows |
 | **Harvest** only compliant sources | `repositories` adapters / profiles that emit **corpus** contracts; reject parallel BagIt dialects |
 | Federated search, full text at source | LA Referencia-style discovery vs CONICET/USP bitstreams; EPMC as API-full-text exception |
@@ -97,7 +97,7 @@ FORCE11 leans **communication & objects**; CODATA leans **data policy & stewards
 
 | Artefact | Role |
 |----------|------|
-| Accepted ADRs + `corpus/` design docs | Our “guidelines” / interface surface |
+| Accepted ADRs + `corpus/` design docs + [submodule_guidelines.md](submodule_guidelines.md) | Our “guidelines” / interface surface |
 | Schemas for pilots / review rows / search hits | Machine-checkable profiles |
 | Contract pytest + CI | Validator |
 | `import-linter` (or similar) | Submodules must not bypass `corpus/` contracts |
