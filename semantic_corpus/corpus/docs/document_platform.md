@@ -3,7 +3,7 @@
 **Date:** 2026-11-20  
 **Owner:** `corpus/` (definitions + typed components; usable **without** BagIt ingest)  
 **Prompt:** [discussions/prompt_2026-11-20_document_platform.md](../../../discussions/prompt_2026-11-20_document_platform.md)  
-**Related:** [definitions_text_block.md](definitions_text_block.md) · [types_io_storage.md](types_io_storage.md) · [stream_tools.md](stream_tools.md) · [submodule_guidelines.md](submodule_guidelines.md) · [design.md](../../../docs/modules/corpus/design.md) · legacy [`transformation/`](../../transformation/)
+**Related:** [definitions_text_block.md](definitions_text_block.md) · [types_io_storage.md](types_io_storage.md) · [stream_tools.md](stream_tools.md) · [input_adapters.md](input_adapters.md) · [submodule_guidelines.md](submodule_guidelines.md) · [design.md](../../../docs/modules/corpus/design.md) · legacy [`transformation/`](../../transformation/)
 
 **Intent:** import and semantify documents **independently** of corpus ingest. BagIt ingest becomes one *consumer* of the platform, not the only entry point. Think **typed components on a small platform**, not a full dataflow engine (Airflow/Prefect/Luigi are overkill for personal corpora and ECR laptops).
 

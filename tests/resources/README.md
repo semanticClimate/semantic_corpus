@@ -16,6 +16,7 @@ Test input files are stored here to ensure:
 - `sample.xml` - Sample XML file for testing XML metadata extraction
 - `sample.json` - Sample JSON file for testing JSON metadata extraction
 - `sample.txt` - Sample text file for testing unsupported format error handling
+- `input_adapters/` - Layout specimen (HTML/JATS/TXT/MD/hOCR/PDF) for Stage A/B conversion tests; see `SPECIMEN_MARKERS.md`
 
 ## Usage
 

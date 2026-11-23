@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Layout specimen — climate notes</title>
+  <style>
+    .page { position: relative; width: 40em; margin: 1em auto; border: 1px solid #ccc; padding: 2.5em 1.5em; }
+    .recto { margin-left: 3em; }
+    .verso { margin-right: 3em; }
+    .running-header, .running-footer {
+      position: absolute; left: 1.5em; right: 1.5em; font-size: 0.75em; color: #444;
+    }
+    .running-header { top: 0.4em; }
+    .running-footer { bottom: 0.4em; }
+    .float-figure, .float-table, .float-textbox {
+      border: 1px dashed #888; margin: 0.8em 0; padding: 0.5em; background: #fafafa;
+    }
+    .font-large { font-size: 1.4em; }
+  </style>
+</head>
+<body>
+  <!-- Page 1: start + recto -->
+  <section class="page recto" data-page="1" data-side="recto" id="page-1">
+    <div class="running-header">RUNNING_TITLE_CLIMATE — HEADER_PAGE_1</div>
+    <h1>Layout specimen</h1>
+    <p id="p-start">SPECIMEN_START_PAGE on recto. Marker SPECIMEN_RECTO.</p>
+    <p>Diacritics: café, naïve, Zürich, São Paulo.</p>
+    <p>Greek: αβγ and ΔΩθ in running prose.</p>
+    <p>Devanagari: नमस्ते for climate readers.</p>
+    <p><strong>FONT_BOLD</strong> and <em>FONT_ITALIC</em> and
+      <span class="font-large">FONT_LARGE</span> in one block.</p>
+    <figure class="float-figure">
+      <div class="img-placeholder" role="img" aria-label="synthetic figure">[image omitted]</div>
+      <figcaption>FLOAT_FIGURE_CAP Wave height schematic.</figcaption>
+    </figure>
+    <div class="running-footer">FOOTER_PAGE_1</div>
+  </section>
+
+  <!-- Page 2: verso -->
+  <section class="page verso" data-page="2" data-side="verso" id="page-2">
+    <div class="running-header">RUNNING_TITLE_CLIMATE — HEADER_PAGE_2</div>
+    <p>SPECIMEN_VERSO body continues the discussion of heatwaves.</p>
+    <aside class="float-textbox">FLOAT_TEXTBOX Sidebar note on marine heatwaves.</aside>
+    <table class="float-table">
+      <caption>FLOAT_TABLE_CAP Example SST anomalies.</caption>
+      <tr><th>Region</th><th>ΔT</th></tr>
+      <tr><td>Pacific</td><td>+1.2</td></tr>
+    </table>
+    <div class="running-footer">FOOTER_PAGE_2</div>
+  </section>
+
+  <!-- Page 3: end + recto -->
+  <section class="page recto" data-page="3" data-side="recto" id="page-3">
+    <div class="running-header">RUNNING_TITLE_CLIMATE — HEADER_PAGE_3</div>
+    <p>Closing remarks. SPECIMEN_END_PAGE on final recto.</p>
+    <div class="running-footer">FOOTER_PAGE_3</div>
+  </section>
+</body>
+</html>

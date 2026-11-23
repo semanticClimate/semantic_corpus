@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-title>Specimen Journal</journal-title>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1000/layout-specimen</article-id>
+      <title-group>
+        <article-title>Layout specimen — climate notes</article-title>
+      </title-group>
+      <abstract>
+        <p>Markers for conversion tests including café and αβγ.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Start recto</title>
+      <p>SPECIMEN_START_PAGE on recto. Marker SPECIMEN_RECTO. RUNNING_TITLE_CLIMATE. HEADER_PAGE_1. FOOTER_PAGE_1.</p>
+      <p>Diacritics: café, Zürich, São. Greek: αβγ ΔΩθ. Devanagari: नमस्ते.</p>
+      <p><bold>FONT_BOLD</bold> and <italic>FONT_ITALIC</italic> and FONT_LARGE.</p>
+      <fig>
+        <label>1</label>
+        <caption><p>FLOAT_FIGURE_CAP Wave height schematic.</p></caption>
+        <graphic xlink:href="omit.png"/>
+      </fig>
+    </sec>
+    <sec>
+      <title>Verso</title>
+      <p>SPECIMEN_VERSO body continues. HEADER_PAGE_2. FOOTER_PAGE_2.</p>
+      <p>FLOAT_TEXTBOX Sidebar note on marine heatwaves.</p>
+      <table-wrap>
+        <label>1</label>
+        <caption><p>FLOAT_TABLE_CAP Example SST anomalies.</p></caption>
+        <table>
+          <tr><th>Region</th><th>ΔT</th></tr>
+          <tr><td>Pacific</td><td>+1.2</td></tr>
+        </table>
+      </table-wrap>
+    </sec>
+    <sec>
+      <title>End recto</title>
+      <p>Closing remarks. SPECIMEN_END_PAGE on final recto. HEADER_PAGE_3. FOOTER_PAGE_3.</p>
+    </sec>
+  </body>
+</article>
