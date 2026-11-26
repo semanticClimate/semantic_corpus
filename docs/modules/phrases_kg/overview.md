@@ -47,7 +47,8 @@ From an **already ingested** corpus (BagIt or flat workdir), extract **lightweig
 - Must not reimplement EPMC download inside phrase code.  
 - Optional install extra `[kg]` / `[cluster]` for sklearn, networkx, yake, streamlit.  
 
-**Declarative controls (pilots):** [controls.md](controls.md).
+**Declarative controls (pilots):** [controls.md](controls.md).  
+**Input handoff (`indexed_text`):** [indexed_text_handoff.md](indexed_text_handoff.md) · [JSON Schema](../../../semantic_corpus/corpus/schemas/indexed_text.schema.json).
 
 ---
 

@@ -3,9 +3,9 @@
 **Module:** [`corpus`](overview.md) (core)  
 **Series strategy:** [../../joss_series_strategy.md](../../joss_series_strategy.md)  
 **Prompt:** [discussions/prompt_2026-11-18_corpus_sibling_schematic.md](../../../discussions/prompt_2026-11-18_corpus_sibling_schematic.md) · [chatbot input + session](../../../discussions/prompt_2026-11-23_chatbot_input_and_session.md)  
-**Types:** [`text_block`](../../../semantic_corpus/corpus/docs/definitions_text_block.md) · [I/O + storage](../../../semantic_corpus/corpus/docs/types_io_storage.md) · [legacy converter](../../../semantic_corpus/corpus/docs/input_adapters.md)
+**Types:** [`indexed_text` spec](../../../semantic_corpus/corpus/docs/indexed_text.md) · [`text_block`](../../../semantic_corpus/corpus/docs/definitions_text_block.md) · [I/O + storage](../../../semantic_corpus/corpus/docs/types_io_storage.md) · [legacy converter](../../../semantic_corpus/corpus/docs/input_adapters.md)
 
-Downstream consumers share one data product: **`indexed_text`** (indexed semantic text, including metadata / `text_block`s). It may come from a BagIt corpus **or** (alternative) from the **`legacy` converter**.
+Downstream consumers share one data product: **`indexed_text`** (indexed semantic text, including metadata / `text_block`s) — **[full specification](../../../semantic_corpus/corpus/docs/indexed_text.md)**. It may come from a BagIt corpus **or** (alternative) from the **`legacy` converter**.
 
 **`phrases_kg` and `chatbot` are independent** — same input type; no dependency on each other.
 

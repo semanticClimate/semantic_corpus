@@ -10,6 +10,9 @@ These examples are extracted from the documentation (`docs/overview.md`) and mad
 
 Open [`pdf_html_compare/compare.html`](pdf_html_compare/compare.html) to view **PDF input**, **HTML from PDF**, and **original PMC HTML** side by side (ClimateEU / PMC7719169). See [`pdf_html_compare/README.md`](pdf_html_compare/README.md).
 
+### IPCC figure captions → bipartite KG (`phrases_kg` sample)
+
+[`phrases_kg_ipcc_captions/`](phrases_kg_ipcc_captions/) — two chapters of `indexed_text` figcaptions + `terms.json` → bipartite term↔caption graph (Neel/Anusha demo path).
 ## Prerequisites
 
 1. **Install the package**:

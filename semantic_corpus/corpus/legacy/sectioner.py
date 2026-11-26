@@ -113,5 +113,5 @@ def section_to_indexed_text(
         working, paper_id=paper_id, id_scheme=id_scheme
     )
     indexed["warnings"] = warnings
-    indexed["type"] = "indexed_text"
+    # mint_text_block_ids_in_html already sets type=indexed_text
     return indexed

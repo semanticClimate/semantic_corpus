@@ -3,7 +3,7 @@
 **Date:** 2026-11-23  
 **Owner:** `corpus/` (stateless stream tools; shared by all submodules)  
 **Prompt:** [discussions/prompt_2026-11-23_input_adapters.md](../../../discussions/prompt_2026-11-23_input_adapters.md)  
-**Related:** [document_platform.md](document_platform.md) · [types_io_storage.md](types_io_storage.md) · [stream_tools.md](stream_tools.md) · [definitions_text_block.md](definitions_text_block.md) · [siblings.md](../../../docs/modules/corpus/siblings.md)
+**Related:** [indexed_text.md](indexed_text.md) · [document_platform.md](document_platform.md) · [types_io_storage.md](types_io_storage.md) · [stream_tools.md](stream_tools.md) · [definitions_text_block.md](definitions_text_block.md) · [siblings.md](../../../docs/modules/corpus/siblings.md)
 
 **Position:** Most submodules consume a stream of **indexed semantic HTML** (`semantic_text`: sections + id’d [`text_block`](definitions_text_block.md)s). When input is less structured, a **common, stateless input adapter** (one or more stages) converts common formats into that contract. Adapters do **not** require BagIt; they are stream tools ([stream_tools.md](stream_tools.md)).
 

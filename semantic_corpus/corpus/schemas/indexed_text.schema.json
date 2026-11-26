@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://semanticclimate.github.io/semantic_corpus/schemas/indexed_text.schema.json",
+  "title": "indexed_text",
+  "description": "Sectioned, id-indexed document (text_blocks + metadata). Shared intermediate for phrases_kg, chatbot, and other consumers. Prose: semantic_corpus/corpus/docs/indexed_text.md",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["type", "paper_id", "id_scheme", "blocks", "metadata"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "indexed_text"
+    },
+    "paper_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable document id in corpus vocabulary"
+    },
+    "id_scheme": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Id-minting scheme stamp (e.g. v1) for skip-satisfied"
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Ordered text_block leaf units",
+      "items": { "$ref": "#/$defs/text_block" }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Bibliographic / citation fields; additional keys allowed",
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "authors": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array" }
+          ]
+        },
+        "publication_date": { "type": "string" },
+        "journal": { "type": "string" },
+        "publisher": { "type": "string" },
+        "doi": { "type": "string" },
+        "pmcid": { "type": "string" },
+        "pmid": { "type": "string" },
+        "license": { "type": "string" },
+        "language": { "type": "string" },
+        "abstract": { "type": "string" },
+        "citation_label": { "type": "string" },
+        "repository": { "type": "string" },
+        "landing_url": { "type": "string" },
+        "chapter": { "type": "string" },
+        "report": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "extractor": { "type": "string" },
+        "content_format": { "type": "string" },
+        "content_path": { "type": "string" },
+        "metadata_path": { "type": "string" },
+        "uri": { "type": "string" },
+        "retrieved_at": { "type": "string" }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/section" }
+    },
+    "html": {
+      "type": "string",
+      "description": "Indexed HTML with id= on block elements when present"
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "text_block": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "kind", "text", "order"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Prefer {paper_id}#{kind}-{local}"
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Corpus text_block kind slug",
+          "enum": [
+            "paragraph",
+            "figcaption",
+            "tablecaption",
+            "listitem",
+            "heading",
+            "blockquote",
+            "footnote",
+            "title",
+            "abstract_block",
+            "boxed_text",
+            "alt_text",
+            "definition",
+            "preformatted"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "parent_id": { "type": "string" },
+        "bbox": {
+          "description": "Optional layout box; shape not fixed yet",
+          "type": ["object", "array", "null"]
+        }
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["section_id", "child_ids"],
+      "properties": {
+        "section_id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "child_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

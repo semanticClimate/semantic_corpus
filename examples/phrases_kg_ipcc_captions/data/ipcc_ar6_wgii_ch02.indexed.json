@@ -1,0 +1,58 @@
+{
+  "type": "indexed_text",
+  "paper_id": "ipcc_ar6_wgii_ch02",
+  "id_scheme": "v1",
+  "metadata": {
+    "title": "Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services",
+    "citation_label": "IPCC AR6 WGII Chapter 2 (2022)",
+    "publisher": "IPCC",
+    "publication_date": "2022",
+    "license": "IPCC materials — sample captions for demo; verify redistribution terms for production packs",
+    "repository": "ipcc",
+    "chapter": "2",
+    "report": "AR6 WGII"
+  },
+  "source": {
+    "extractor": "manual_sample",
+    "content_format": "html",
+    "uri": "https://www.ipcc.ch/report/ar6/wg2/"
+  },
+  "sections": [
+    {
+      "section_id": "ch02-figures",
+      "title": "Selected figure captions",
+      "child_ids": [
+        "ipcc_ar6_wgii_ch02#figcaption-001",
+        "ipcc_ar6_wgii_ch02#figcaption-002",
+        "ipcc_ar6_wgii_ch02#figcaption-003"
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "ipcc_ar6_wgii_ch02#figcaption-001",
+      "kind": "figcaption",
+      "text": "Figure 2.1 | Overview of observed impacts of climate change on terrestrial and freshwater ecosystems, including species range shifts, phenology changes, and risks to ecosystem services that people depend on.",
+      "order": 1,
+      "parent_id": "ch02-figures"
+    },
+    {
+      "id": "ipcc_ar6_wgii_ch02#figcaption-002",
+      "kind": "figcaption",
+      "text": "Figure 2.3 | Changes in freshwater ecosystems and river flow under warming, with implications for aquatic biodiversity, wetland integrity, and water-related ecosystem services.",
+      "order": 2,
+      "parent_id": "ch02-figures"
+    },
+    {
+      "id": "ipcc_ar6_wgii_ch02#figcaption-003",
+      "kind": "figcaption",
+      "text": "Figure 2.x (adaptation summary) | Ecosystem-based adaptation and protection of climate refugia can increase resilience of biodiversity and ecosystem services; restoration and habitat connectivity reduce fragmentation risks but cannot substitute for greenhouse gas emission reductions.",
+      "order": 3,
+      "parent_id": "ch02-figures"
+    }
+  ],
+  "html": "<section id=\"ch02-figures\"><figcaption id=\"ipcc_ar6_wgii_ch02#figcaption-001\" data-tb-kind=\"figcaption\">Figure 2.1 | Overview of observed impacts of climate change on terrestrial and freshwater ecosystems, including species range shifts, phenology changes, and risks to ecosystem services that people depend on.</figcaption><figcaption id=\"ipcc_ar6_wgii_ch02#figcaption-002\" data-tb-kind=\"figcaption\">Figure 2.3 | Changes in freshwater ecosystems and river flow under warming, with implications for aquatic biodiversity, wetland integrity, and water-related ecosystem services.</figcaption><figcaption id=\"ipcc_ar6_wgii_ch02#figcaption-003\" data-tb-kind=\"figcaption\">Figure 2.x (adaptation summary) | Ecosystem-based adaptation and protection of climate refugia can increase resilience of biodiversity and ecosystem services; restoration and habitat connectivity reduce fragmentation risks but cannot substitute for greenhouse gas emission reductions.</figcaption></section>",
+  "warnings": [
+    "Demo fixture: captions paraphrased/summarised from AR6 WGII Ch2 themes for pipeline testing; replace with verbatim figure captions for research use."
+  ]
+}

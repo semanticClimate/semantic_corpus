@@ -7,30 +7,32 @@ from typing import Any, Dict, List, Union
 
 from bs4 import BeautifulSoup, Tag
 
+from semantic_corpus.corpus.types import BlockKind, IndexedDocType, IndexedTextFields
+
 # Elements treated as text_block candidates (see definitions_text_block.md)
 _BLOCK_TAGS = {
-    "p": "paragraph",
-    "figcaption": "figcaption",
-    "caption": "tablecaption",
-    "li": "listitem",
-    "h1": "heading",
-    "h2": "heading",
-    "h3": "heading",
-    "h4": "heading",
-    "h5": "heading",
-    "h6": "heading",
-    "blockquote": "blockquote",
-    "dd": "definition",
+    "p": BlockKind.PARAGRAPH.value,
+    "figcaption": BlockKind.FIGCAPTION.value,
+    "caption": BlockKind.TABLECAPTION.value,
+    "li": BlockKind.LISTITEM.value,
+    "h1": BlockKind.HEADING.value,
+    "h2": BlockKind.HEADING.value,
+    "h3": BlockKind.HEADING.value,
+    "h4": BlockKind.HEADING.value,
+    "h5": BlockKind.HEADING.value,
+    "h6": BlockKind.HEADING.value,
+    "blockquote": BlockKind.BLOCKQUOTE.value,
+    "dd": BlockKind.DEFINITION.value,
 }
 
 _KIND_PREFIX = {
-    "paragraph": "p",
-    "figcaption": "figcaption",
-    "tablecaption": "tablecaption",
-    "listitem": "li",
-    "heading": "h",
-    "blockquote": "bq",
-    "definition": "dd",
+    BlockKind.PARAGRAPH.value: "p",
+    BlockKind.FIGCAPTION.value: "figcaption",
+    BlockKind.TABLECAPTION.value: "tablecaption",
+    BlockKind.LISTITEM.value: "li",
+    BlockKind.HEADING.value: "h",
+    BlockKind.BLOCKQUOTE.value: "bq",
+    BlockKind.DEFINITION.value: "dd",
 }
 
 
@@ -80,10 +82,12 @@ def mint_text_block_ids_in_html(
         )
 
     return {
-        "paper_id": paper_id,
-        "html": str(soup),
-        "blocks": blocks,
-        "id_scheme": id_scheme,
+        IndexedTextFields.TYPE: IndexedDocType.INDEXED_TEXT.value,
+        IndexedTextFields.PAPER_ID: paper_id,
+        IndexedTextFields.HTML: str(soup),
+        IndexedTextFields.BLOCKS: blocks,
+        IndexedTextFields.ID_SCHEME: id_scheme,
+        IndexedTextFields.METADATA: {},
     }
 
 

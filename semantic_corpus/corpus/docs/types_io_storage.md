@@ -49,12 +49,13 @@ Names are stable slugs for YAML, Python, and stamps. Python classes live under a
 | `raw_text` | Plain or lightly structured text **without** corpus `text_block` ids | `paper_id?`, `text` or `path`, `format` (`plain`, `html_messy`, `markdown`, `jats_xml`, …) |
 | `html_document` | Parseable HTML, not yet fully sectioned/id-minted | `paper_id?`, `html`, `path?` |
 | `semantic_text` | Semantified document: sections + **`text_block`s with ids** | `paper_id`, `html` and/or block index, `blocks: list[text_block]`, `sections?`, `id_scheme` |
+| **`indexed_text`** | **Consumer intermediate** (normative): same family as `semantic_text` + document **metadata** + provenance | See **[indexed_text.md](indexed_text.md)** — prefer this slug for `phrases_kg` / `chatbot` I/O |
 | `text_block` | Leaf unit ([definition](definitions_text_block.md)) | `id`, `kind`, `text`, `parent_id?`, `order` |
 | `section` | Ordered region | `section_id`, `title?`, `child_ids` |
 
-**Your example:** `raw_text` → (semantifier/sectioner) → `semantic_text` (contains `text_block`s with IDs).
+**Your example:** `raw_text` → (semantifier/sectioner) → `semantic_text` / **`indexed_text`** (contains `text_block`s with IDs).
 
-`SemanticDocument` in [document_platform.md](document_platform.md) **is** the document-scoped carrier of `semantic_text` (same type family; prefer slug `semantic_text` in pilots).
+`SemanticDocument` in [document_platform.md](document_platform.md) **is** the document-scoped carrier of `semantic_text`. For submodule hand-off, use **`indexed_text`** ([spec](indexed_text.md)).
 
 ### 2.2 Bibliographic / corpus membership
 
@@ -172,10 +173,11 @@ Target package layout (normative sketch; migrate legacy into these faces):
 
 ```text
 semantic_corpus/corpus/
-  types/                 # dataclasses / protocols for type slugs
-    text.py              # RawText, SemanticText, TextBlock, Section
-    graph.py             # Term, TermSet, KnowledgeGraph, ...
-    biblio.py            # HitRecord, MetadataRecord, ReviewRow
+  types/                 # shared type slugs + light I/O (all submodules import here)
+    indexed_text.py      # IndexedDocType, BlockKind, loaders (LIVE)
+    text.py              # RawText, SemanticText, TextBlock, Section (future)
+    graph.py             # Term, TermSet, KnowledgeGraph, ... (future)
+    biblio.py            # HitRecord, MetadataRecord, ReviewRow (future)
   store/                 # Store protocol + corpus / filestore backends
     base.py
     corpus_bagit.py

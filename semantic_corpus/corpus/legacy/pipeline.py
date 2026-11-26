@@ -8,6 +8,7 @@ from typing import Any, Dict, Optional, Union
 
 from semantic_corpus.corpus.legacy.extractors import ExtractResult, get_extractor
 from semantic_corpus.corpus.legacy.sectioner import section_to_indexed_text
+from semantic_corpus.corpus.types import IndexedDocType, IndexedTextFields
 
 
 def legacy_to_indexed_text(
@@ -59,7 +60,7 @@ def legacy_to_indexed_text(
     indexed["extract_meta"] = extract.meta
     indexed.setdefault("warnings", [])
     indexed["warnings"] = list(extract.warnings) + list(indexed.get("warnings") or [])
-    indexed["type"] = "indexed_text"
+    indexed[IndexedTextFields.TYPE] = IndexedDocType.INDEXED_TEXT.value
 
     if write_html and work is not None:
         work.mkdir(parents=True, exist_ok=True)
