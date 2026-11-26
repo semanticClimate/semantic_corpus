@@ -6,6 +6,10 @@ This directory contains executable example scripts demonstrating how to use Sema
 
 These examples are extracted from the documentation (`docs/overview.md`) and made into standalone, executable scripts. Each example demonstrates a specific feature or workflow.
 
+### PDF ↔ HTML comparison (browser)
+
+Open [`pdf_html_compare/compare.html`](pdf_html_compare/compare.html) to view **PDF input**, **HTML from PDF**, and **original PMC HTML** side by side (ClimateEU / PMC7719169). See [`pdf_html_compare/README.md`](pdf_html_compare/README.md).
+
 ## Prerequisites
 
 1. **Install the package**:

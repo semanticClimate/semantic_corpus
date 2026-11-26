@@ -1,4 +1,4 @@
-"""Tests for input-adapter layout specimen fixtures and Stage B conversions."""
+"""Tests for input-adapter layout specimen fixtures and sectioner conversions."""
 
 from __future__ import annotations
 
@@ -125,7 +125,7 @@ def test_jats_specimen_converts_with_xml_to_html(tmp_path: Path) -> None:
         "FONT_BOLD",
     ):
         assert marker in text
-    # Stage B on converted HTML
+    # Sectioner on converted HTML
     semantic = html_file_to_semantic(html_path, paper_id="layout_specimen")
     assert any("SPECIMEN_START_PAGE" in b["text"] for b in semantic["blocks"])
 

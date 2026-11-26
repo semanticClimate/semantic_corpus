@@ -1,6 +1,6 @@
 # Layout specimen — markers and omissions
 
-**Purpose:** Small multi-format fixtures that encode conversion hard cases for Stage A/B input adapters.  
+**Purpose:** Small multi-format fixtures that encode conversion hard cases for the `legacy` extractor + sectioner.  
 **Dir:** `tests/resources/input_adapters/`  
 **Design:** [`semantic_corpus/corpus/docs/input_adapters.md`](../../../semantic_corpus/corpus/docs/input_adapters.md)  
 **Priority review:** 2026-11-23 (team comments)
@@ -87,7 +87,7 @@ PDFs and some HTML do not store text in the order a human reads.
 
 Adapters must prefer **geometry-aware order** (top→bottom, left→right within columns) or tagged PDF/structure trees when present—not raw paint/DOM order. Multi-column makes this acute (hence critical).
 
-**Fixture idea later:** two-column page where stream order is right-column-first; assert Stage A emits left column then right.
+**Fixture idea later:** two-column page where stream order is right-column-first; assert extractor/sectioner emits left column then right.
 
 #### PDF crop box vs media box
 
@@ -123,9 +123,9 @@ Your earlier finding still largely holds: **no single open library cleanly solve
 | **Multi-column / reading order** | Yes, partial | **Docling** (layout + reading-order post-process; already in repo); **MinerU**; **pdfminer.six** LAParams; **pdfplumber** column-crop recipes; **pdftotext++** (Freiburg) natural reading order; **paperlayer** (claims column-first) |
 | **Hyphenation / ligatures** | Yes, some | **pdftotext++** (explicit hyphen merge + ligature split); custom post-rules still common; Docling/MinerU help unevenly |
 | **Footnotes as footnotes** | Still weak | 2025 parser benchmarks: tools either **drop** notes, or emit them as **normal body text** — almost none keep footnote/footer *roles*. **pdftotext++** advertises semantic roles including footnote; **paperlayer** claims reattach-to-anchor. Treat as **evaluate**, not solved |
-| **Crop vs media box** | Yes (plumbing) | **pdfplumber** exposes mediabox/cropbox/trimbox and crop helpers; **PyMuPDF** page cropbox APIs. Easy to adopt in Stage A |
+| **Crop vs media box** | Yes (plumbing) | **pdfplumber** exposes mediabox/cropbox/trimbox and crop helpers; **PyMuPDF** page cropbox APIs. Easy to adopt in the extractor |
 | **Rotated text** | Partial | PyMuPDF / pdfminer expose transform matrices; layout models may still mangle vertical/rotated runs — need targeted tests |
 | **Drop caps / nested lists / caption side / colour emphasis / cross-page floats** | Mostly DIY | List nesting OK in HTML/JATS paths; PDF→structure still heuristic. Colour-only emphasis rarely preserved as “emphasis”. Cross-page floats remain hard |
 | **Math / complex tables** | Improved but deferred OK | Docling TableFormer; MinerU tables — good enough to revisit when we un-defer |
 
-**Recommendation for us:** keep **Docling** as default structured PDF→HTML; add **pdfplumber** (or PyMuPDF) for **cropbox-normalised coords** and column experiments; trial **pdftotext++** / **paperlayer** on footnote+hyphen fixtures before writing our own. Expect to own Stage B rules for footnote kinds, de-hyphenation fallbacks, and caption/float linking — libraries assist, they do not replace the contract.
+**Recommendation for us:** keep **Docling** as default structured PDF→HTML extractor; add **pdfplumber** (or PyMuPDF) for **cropbox-normalised coords** and column experiments; trial **pdftotext++** / **paperlayer** on footnote+hyphen fixtures before writing our own. Expect to own **sectioner** rules for footnote kinds, de-hyphenation fallbacks, id minting, and caption/float linking — libraries assist, they do not replace the contract.

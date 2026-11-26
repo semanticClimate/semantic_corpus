@@ -18,6 +18,6 @@ JOSS / design overviews currently also under [`docs/modules/corpus/`](../../../d
 - [document_platform.md](document_platform.md) — standalone semantifier/sectioner as typed components (BagIt ingest optional)  
 - [types_io_storage.md](types_io_storage.md) — I/O type catalog, converters/annotators, corpus vs filestore Store  
 - [stream_tools.md](stream_tools.md) — corpus-independent stream in→out tools; CLI; temp/permanent filestore  
-- [input_adapters.md](input_adapters.md) — Stage A/B adapters: PDF/DOCX/OCR/… → indexed semantic HTML  
+- [input_adapters.md](input_adapters.md) — `legacy` converter: extractor + sectioner (ids) → `indexed_text`  
 
 New corpus-only notes should be added in this folder going forward.

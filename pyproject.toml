@@ -72,6 +72,12 @@ encyclopedia_html = [
     "amilib>=1.0.0",
     # Install sibling checkout: pip install -e ../encyclopedia
 ]
+legacy = [
+    "amilib>=1.0.0",
+    "pdfplumber>=0.10.0",
+    "pymupdf>=1.23.0",
+    # Docling is already a core dependency; Marker/MinerU reserved as future extras
+]
 
 [project.urls]
 Homepage = "https://github.com/semanticClimate/semantic_corpus"

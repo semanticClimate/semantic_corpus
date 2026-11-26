@@ -1,4 +1,4 @@
-"""Stage B for raw text: split into paragraph text_blocks with heuristic ids."""
+"""Sectioner for raw text: split into paragraph text_blocks with heuristic ids."""
 
 from __future__ import annotations
 

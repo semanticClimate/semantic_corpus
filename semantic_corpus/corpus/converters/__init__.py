@@ -1,4 +1,4 @@
-"""Corpus converters (Stage A/B faces)."""
+"""Corpus converters (extractor / sectioner faces)."""
 
 from semantic_corpus.corpus.converters.html_to_semantic import (
     html_file_to_semantic,

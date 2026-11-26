@@ -1,0 +1,26 @@
+{
+  "pmcid": "PMC7719169",
+  "doi": "10.1038/s41597-020-00763-0",
+  "title": "ClimateEU, scale-free climate normals, historical time series, and future projections for Europe",
+  "license": "CC-BY-4.0",
+  "pdf_pages": 9,
+  "roles": {
+    "pdf": "extractor input",
+    "html": "ground truth (PMC HTML)",
+    "jats_xml": "structured OA full text (optional reference)"
+  },
+  "core_phrases": [
+    "ClimateEU, scale-free climate normals, historical time series, and future projections for Europe",
+    "Interpolated climate data have become essential for regional or local climate change",
+    "Interpolated climate data have become an essential tool for researchers, natural resource",
+    "We have previously developed databases with software front-ends for North America that",
+    "Here, we aggregate and enhance several high-quality, publicly available databases that are",
+    "Another unique characteristic of our software solution is that the size of",
+    "For continental-scale studies that cover Europe, we also provide a useful subset",
+    "ClimateEU uses climate data for the normal period 1961–1990 as a baseline",
+    "The original data sources were developed at different resolutions for different time",
+    "For the European Alps region, we used precipitation layers developed with PRISM"
+  ],
+  "min_pdf_recall": 0.7,
+  "notes": "Core phrases appear in both PMC HTML and the PDF after whitespace normalization. Adverts/chrome may still differ; tolerate false negatives above the recall floor."
+}

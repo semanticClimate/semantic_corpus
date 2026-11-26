@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ClimateEU — PDF vs output HTML vs original HTML</title>
+  <style>
+    :root {
+      --border: #ccc;
+      --muted: #555;
+      --bg: #f7f7f5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: #222;
+    }
+    header {
+      padding: 0.75rem 1rem;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      font-size: 1.15rem;
+      margin: 0 0 0.35rem;
+    }
+    header p {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+      max-width: 70rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      height: calc(100vh - 7.5rem);
+      min-height: 28rem;
+    }
+    .pane {
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid var(--border);
+      background: #fff;
+      min-width: 0;
+    }
+    .pane:last-child { border-right: none; }
+    .pane h2 {
+      margin: 0;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+      background: #eee;
+    }
+    .pane .meta {
+      font-size: 0.75rem;
+      font-weight: normal;
+      color: var(--muted);
+    }
+    .pane iframe, .pane embed, .pane object {
+      flex: 1;
+      width: 100%;
+      border: 0;
+      background: #fff;
+    }
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+        height: auto;
+      }
+      .pane { height: 70vh; border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PDF → output HTML vs original HTML</h1>
+    <p>
+      <strong>Marchi et al. (2020) ClimateEU</strong> —
+      Scientific Data 7:428 ·
+      <a href="https://doi.org/10.1038/s41597-020-00763-0">doi:10.1038/s41597-020-00763-0</a> ·
+      PMCID <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7719169/">PMC7719169</a> ·
+      CC-BY-4.0
+    </p>
+    <p>
+      Left: published PDF (extractor input).
+      Middle: HTML produced from that PDF (this example’s conversion preview).
+      Right: original OA HTML from PMC (ground truth).
+      Core scholarly text should largely agree; chrome/adverts may differ.
+    </p>
+  </header>
+  <div class="grid">
+    <section class="pane">
+      <h2>1. PDF input <span class="meta">ClimateEU_PMC7719169.pdf</span></h2>
+      <embed
+        src="../../tests/resources/input_adapters/oa_pdf_html_pair/ClimateEU_PMC7719169.pdf"
+        type="application/pdf"
+        title="ClimateEU PDF"/>
+    </section>
+    <section class="pane">
+      <h2>2. Output HTML from PDF <span class="meta">output_from_pdf.html</span></h2>
+      <iframe
+        src="output_from_pdf.html"
+        title="HTML converted from PDF"></iframe>
+    </section>
+    <section class="pane">
+      <h2>3. Original HTML <span class="meta">PMC ground truth</span></h2>
+      <iframe
+        src="../../tests/resources/input_adapters/oa_pdf_html_pair/ClimateEU_PMC7719169.html"
+        title="Original PMC HTML"></iframe>
+    </section>
+  </div>
+</body>
+</html>

@@ -3,50 +3,134 @@
 **Module:** [`corpus`](overview.md) (core)  
 **Series strategy:** [../../joss_series_strategy.md](../../joss_series_strategy.md)  
 **Prompt:** [discussions/prompt_2026-11-18_corpus_sibling_schematic.md](../../../discussions/prompt_2026-11-18_corpus_sibling_schematic.md) · [chatbot input + session](../../../discussions/prompt_2026-11-23_chatbot_input_and_session.md)  
-**Types:** [`text_block`](../../../semantic_corpus/corpus/docs/definitions_text_block.md) · [I/O + storage](../../../semantic_corpus/corpus/docs/types_io_storage.md)
+**Types:** [`text_block`](../../../semantic_corpus/corpus/docs/definitions_text_block.md) · [I/O + storage](../../../semantic_corpus/corpus/docs/types_io_storage.md) · [legacy converter](../../../semantic_corpus/corpus/docs/input_adapters.md)
 
-`corpus` is the **standalone core** (BagIt + metadata + review). Downstream modules share one product: **indexed `text_block`s + metadata**. That product may come from the bag or from adapters on raw text. Dotted edges = optional interop.
+Downstream consumers share one data product: **`indexed_text`** (indexed semantic text, including metadata / `text_block`s). It may come from a BagIt corpus **or** (alternative) from the **`legacy` converter**.
 
-**Chatbot input (agreed):** indexed `text_block`s + metadata. Other downstream modules may consume the same.
+**`phrases_kg` and `chatbot` are independent** — same input type; no dependency on each other.
+
+`indexed_text` may optionally carry page coordinates; that is an adapter concern and is **not** shown on downstream diagrams.
 
 ---
 
-## Schematic
+## Notation
+
+| Shape | Meaning |
+|-------|---------|
+| Cylinder `[(…)]` | **Data** |
+| Rectangle `[…]` | **Process / program** |
+| Arrow title | **Type or role** of the edge |
+| **alt** | Exactly one path / format (XOR) — text label on the arrow |  
+| **and** | All listed inputs required together — text label on the arrow |
+
+---
+
+## How `indexed_text` is obtained
 
 ```mermaid
 flowchart TB
   R["repositories"]
   Z["Zotero"]
-  C["corpus / BagIt"]
+  Bag[("BagIt corpus")]
+  Legacy["legacy"]
+  IDX[("indexed_text")]
 
-  R -.->|ingest| C
-  Z -.->|optional source| C
+  R -->|"hit_list / raw_bytes"| Bag
+  Z -.->|"optional source"| Bag
 
-  C --> Fork{"after BagIt"}
-
-  Fork -->|from bag| Prod["indexed text_blocks + metadata"]
-  Fork -->|or adapters on raw_text| Prod
-
-  Prod --> P["phrases_kg"]
-  Prod --> E["encyclopedia"]
-  Prod --> H["chatbot input"]
-
-  P -.->|phrase labels| E
+  Bag -->|"alt: indexed_text"| IDX
+  Legacy -->|"alt: indexed_text"| IDX
 ```
 
-Read top → bottom: intake into **BagIt**, then a **single fork** (bag vs adapters) into the shared product, then a **second fork** to consumers.
+**`legacy`** is a **converter** (process), not a data store. Its sole typed output is **`indexed_text`**.  
+**`alt`:** obtain `indexed_text` from BagIt **or** from `legacy` — not both required.  
+**Code:** [`semantic_corpus/corpus/legacy/`](../../../semantic_corpus/corpus/legacy/) — extractors (`pymupdf` / `docling` / `amilib`) → sectioner (ids; optional amilib refine) → `legacy_to_indexed_text`.
+
+---
+
+## Downstream — `phrases_kg` (independent)
+
+```mermaid
+flowchart LR
+  IDX[("indexed_text")]
+  P["phrases_kg"]
+  Terms[("term list")]
+
+  IDX -->|"indexed_text"| P
+  P -->|"term list"| Terms
+```
+
+---
+
+## Downstream — `chatbot` (independent)
+
+```mermaid
+flowchart LR
+  IDX[("indexed_text")]
+  H["chatbot"]
+
+  IDX -->|"indexed_text"| H
+```
+
+Chatbot **input** only here; chat answers out of scope.
+
+---
+
+## Downstream — `encyclopedia` (independent of chatbot)
+
+Input is a **term list**: **alt** either from `phrases_kg` **or** a manual list.
+
+```mermaid
+flowchart TB
+  P["phrases_kg"]
+  Manual[("manual term list")]
+  Terms[("term list")]
+  E["encyclopedia"]
+
+  P -->|"alt: term list"| Terms
+  Manual -->|"alt: term list"| Terms
+  Terms -->|"term list"| E
+```
+
+---
+
+## `legacy` converter — input formats (`alt`)
+
+Accepted source formats are **alternatives** (one document → one format). Detail: [`input_adapters.md`](../../../semantic_corpus/corpus/docs/input_adapters.md).
+
+```mermaid
+flowchart LR
+  PDF[("PDF")]
+  OCR[("OCR / scan")]
+  DOCX[("DOCX")]
+  XML[("JATS / TEI")]
+  HTML[("messy HTML")]
+  TXT[("raw / Markdown")]
+  Legacy["legacy"]
+  IDX[("indexed_text")]
+
+  PDF -->|"alt"| Legacy
+  OCR -->|"alt"| Legacy
+  DOCX -->|"alt"| Legacy
+  XML -->|"alt"| Legacy
+  HTML -->|"alt"| Legacy
+  TXT -->|"alt"| Legacy
+  Legacy -->|"indexed_text"| IDX
+```
 
 ---
 
 ## Reading the edges
 
-| From → to | Meaning |
-|-----------|---------|
-| `repositories` / Zotero -.-> `corpus` | Ingest into BagIt (optional for Zotero) |
-| after BagIt → product | Either read blocks/metadata from the bag, **or** build them via adapters on `raw_text` |
-| product → `phrases_kg` / `encyclopedia` / `chatbot` | Shared downstream input: indexed `text_block`s + metadata |
-| `phrases_kg` -.-> `encyclopedia` | Optional label/disambiguation |
-| chatbot | Consumes blocks + metadata as **input**; chat answers out of scope here |
+| Edge | Kind | Meaning |
+|------|------|---------|
+| `repositories` → BagIt | data | ingest `hit_list` / `raw_bytes` |
+| BagIt → `indexed_text` | **alt** | already indexed in the bag |
+| `legacy` → `indexed_text` | **alt** | converter output (sole product) |
+| format → `legacy` | **alt** | one source format per document |
+| `indexed_text` → `phrases_kg` → term list | process I/O | independent of chatbot |
+| `indexed_text` → `chatbot` | process I/O | independent of phrases_kg |
+| term list → `encyclopedia` | **alt** | from `phrases_kg` **or** manual list |
 
 ---
 

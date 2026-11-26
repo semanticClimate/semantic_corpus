@@ -1,4 +1,4 @@
-"""Stage B (partial): mint heuristic text_block ids on HTML."""
+"""Sectioner (partial): mint heuristic text_block ids on HTML."""
 
 from __future__ import annotations
 
