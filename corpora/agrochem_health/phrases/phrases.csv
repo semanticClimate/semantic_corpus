@@ -1,0 +1,301 @@
+paper_id,rank,phrase,display,score,channel,source
+europe_pmc_PMC12596878,1,google earth pro,Google Earth Pro,1.3,uppercase,extracted
+europe_pmc_PMC12596878,2,center for research in environmental geography,Center for Research in Environmental Geography,1.2,uppercase,extracted
+europe_pmc_PMC12596878,3,standardized incidence ratio,Standardized Incidence Ratio,1.2,uppercase,extracted
+europe_pmc_PMC12596878,4,university drone laboratory,University Drone Laboratory,1.2,uppercase,extracted
+europe_pmc_PMC12596878,5,health intelligence center,Health Intelligence Center,1.2,uppercase,extracted
+europe_pmc_PMC12596878,6,secretariat of agriculture,Secretariat of Agriculture,1.2,uppercase,extracted
+europe_pmc_PMC12596878,7,salvador escalante,Salvador Escalante,1.2,uppercase,extracted
+europe_pmc_PMC12596878,8,sir,SIR,1.24,uppercase,extracted
+europe_pmc_PMC12596878,9,all,ALL,1.22,uppercase,extracted
+europe_pmc_PMC12596878,10,ci,CI,1.22,uppercase,extracted
+europe_pmc_PMC12596878,11,leukemia,Leukemia,0.049,tfidf,extracted
+europe_pmc_PMC12596878,12,children,Children,0.0432,tfidf,extracted
+europe_pmc_PMC12596878,13,avocado,Avocado,0.0428,tfidf,extracted
+europe_pmc_PMC12596878,14,avocado-growing,avocado-growing,0.0418,tfidf,extracted
+europe_pmc_PMC12596878,15,medical records,Medical records,0.0415,tfidf,extracted
+europe_pmc_PMC12827762,1,late embryogenesis abundant,Late Embryogenesis Abundant,1.1,uppercase,extracted
+europe_pmc_PMC12827762,2,dynactin and suppressor,Dynactin and Suppressor,1.1,uppercase,extracted
+europe_pmc_PMC12827762,3,vashishtha and sabari,Vashishtha and Sabari,1.1,uppercase,extracted
+europe_pmc_PMC12827762,4,wheeler and von braun,Wheeler and Von Braun,1.1,uppercase,extracted
+europe_pmc_PMC12827762,5,stintzi and schaller,Stintzi and Schaller,1.1,uppercase,extracted
+europe_pmc_PMC12827762,6,boothby and pielak,Boothby and Pielak,1.1,uppercase,extracted
+europe_pmc_PMC12827762,7,mughal and caetano,Mughal and Caetano,1.1,uppercase,extracted
+europe_pmc_PMC12827762,8,rna,RNA,1.24,uppercase,extracted
+europe_pmc_PMC12827762,9,llps,LLPS,1.14,uppercase,extracted
+europe_pmc_PMC12827762,10,idps,IDPs,1.13,uppercase,extracted
+europe_pmc_PMC12827762,11,et,et,0.0519,tfidf,extracted
+europe_pmc_PMC12827762,12,al,al,0.0519,tfidf,extracted
+europe_pmc_PMC12827762,13,condensates,condensates,0.0431,tfidf,extracted
+europe_pmc_PMC12827762,14,small technologies,small technologies,0.0431,tfidf,extracted
+europe_pmc_PMC12827762,15,protein disorder,Protein disorder,0.0421,tfidf,extracted
+europe_pmc_PMC13010156,1,environmental and nutritional sciences,Environmental and Nutritional Sciences,1.4,uppercase,extracted
+europe_pmc_PMC13010156,2,simona pizzi,Simona Pizzi,1.4,uppercase,extracted
+europe_pmc_PMC13010156,3,african grape and wine research institute,African Grape and Wine Research Institute,1.2,uppercase,extracted
+europe_pmc_PMC13010156,4,institute of biosciences and bioresources,Institute of Biosciences and Bioresources,1.2,uppercase,extracted
+europe_pmc_PMC13010156,5,agricultural and environmental sciences,Agricultural and Environmental Sciences,1.2,uppercase,extracted
+europe_pmc_PMC13010156,6,biotechnology and public health,Biotechnology and Public Health,1.2,uppercase,extracted
+europe_pmc_PMC13010156,7,carmen cris de oliveira nobre,Carmen Cris De Oliveira Nobre,1.2,uppercase,extracted
+europe_pmc_PMC13010156,8,sciences,Sciences,1.1,uppercase,extracted
+europe_pmc_PMC13010156,9,italy,Italy,1.09,uppercase,extracted
+europe_pmc_PMC13010156,10,milan,Milan,1.07,uppercase,extracted
+europe_pmc_PMC13010156,11,di,Di,0.1047,tfidf,extracted
+europe_pmc_PMC13010156,12,di milano,di Milano,0.0965,tfidf,extracted
+europe_pmc_PMC13010156,13,di milano milan,di milano milan,0.0965,tfidf,extracted
+europe_pmc_PMC13010156,14,milan italy,milan italy,0.0965,tfidf,extracted
+europe_pmc_PMC13010156,15,milano,Milano,0.0965,tfidf,extracted
+europe_pmc_PMC13106253,1,meio ambiente,Meio Ambiente,1.5,uppercase,extracted
+europe_pmc_PMC13106253,2,brazilian institute of environment and renewable natural resources,Brazilian Institute of Environment and Renewable Natural Resources,1.3,uppercase,extracted
+europe_pmc_PMC13106253,3,ministry of agriculture and livestock,Ministry of Agriculture and Livestock,1.3,uppercase,extracted
+europe_pmc_PMC13106253,4,food and agriculture organization,Food and Agriculture Organization,1.3,uppercase,extracted
+europe_pmc_PMC13106253,5,international initiative,International Initiative,1.3,uppercase,extracted
+europe_pmc_PMC13106253,6,instituto brasileiro,Instituto Brasileiro,1.3,uppercase,extracted
+europe_pmc_PMC13106253,7,ecosystem approach,Ecosystem Approach,1.3,uppercase,extracted
+europe_pmc_PMC13106253,8,brazil,Brazil,1.35,uppercase,extracted
+europe_pmc_PMC13106253,9,fao,FAO,1.26,uppercase,extracted
+europe_pmc_PMC13106253,10,brazilian,Brazilian,1.18,uppercase,extracted
+europe_pmc_PMC13106253,11,pollinator,Pollinator,0.0404,tfidf,extracted
+europe_pmc_PMC13106253,12,pollinators,Pollinators,0.04,tfidf,extracted
+europe_pmc_PMC13106253,13,bees,Bees,0.0395,tfidf,extracted
+europe_pmc_PMC13106253,14,et,et,0.0391,tfidf,extracted
+europe_pmc_PMC13106253,15,al,al,0.0391,tfidf,extracted
+europe_pmc_PMC13226431,1,water framework directive,Water Framework Directive,1.3,uppercase,extracted
+europe_pmc_PMC13226431,2,national primary drinking water regulations,National Primary Drinking Water Regulations,1.2,uppercase,extracted
+europe_pmc_PMC13226431,3,unregulated contaminant monitoring rule,Unregulated Contaminant Monitoring Rule,1.2,uppercase,extracted
+europe_pmc_PMC13226431,4,drinking water state revolving fund,Drinking Water State Revolving Fund,1.2,uppercase,extracted
+europe_pmc_PMC13226431,5,emerging contaminants in small,Emerging Contaminants in Small,1.2,uppercase,extracted
+europe_pmc_PMC13226431,6,food and drug administration,Food and Drug Administration,1.2,uppercase,extracted
+europe_pmc_PMC13226431,7,toxic substances control act,Toxic Substances Control Act,1.2,uppercase,extracted
+europe_pmc_PMC13226431,8,pfas,PFAS,1.86,uppercase,extracted
+europe_pmc_PMC13226431,9,usepa,USEPA,1.82,uppercase,extracted
+europe_pmc_PMC13226431,10,us,US,1.52,uppercase,extracted
+europe_pmc_PMC13226431,11,cecs,CECs,0.0393,tfidf,extracted
+europe_pmc_PMC13226431,12,et,et,0.0365,tfidf,extracted
+europe_pmc_PMC13226431,13,al,al,0.0365,tfidf,extracted
+europe_pmc_PMC13226431,14,drinking water,Drinking Water,0.0351,tfidf,extracted
+europe_pmc_PMC13226431,15,policy,policy,0.0347,tfidf,extracted
+europe_pmc_PMC13368653,1,epidemic of nephropathy in central america and mexico,Epidemic of Nephropathy in Central America and Mexico,1.2,uppercase,extracted
+europe_pmc_PMC13368653,2,pan american health organization,Pan American Health Organization,1.2,uppercase,extracted
+europe_pmc_PMC13368653,3,el salvador and nicaragua,El Salvador and Nicaragua,1.2,uppercase,extracted
+europe_pmc_PMC13368653,4,el salvador,El Salvador,1.2,uppercase,extracted
+europe_pmc_PMC13368653,5,costa rica,Costa Rica,1.2,uppercase,extracted
+europe_pmc_PMC13368653,6,aspergillus and penicillium,Aspergillus and Penicillium,1.1,uppercase,extracted
+europe_pmc_PMC13368653,7,biomonitoring in nicaraguan,Biomonitoring in Nicaraguan,1.1,uppercase,extracted
+europe_pmc_PMC13368653,8,ckd,CKD,1.36,uppercase,extracted
+europe_pmc_PMC13368653,9,men,MeN,1.36,uppercase,extracted
+europe_pmc_PMC13368653,10,ota,OTA,1.12,uppercase,extracted
+europe_pmc_PMC13368653,11,kidney,kidney,0.0467,tfidf,extracted
+europe_pmc_PMC13368653,12,renal,renal,0.0462,tfidf,extracted
+europe_pmc_PMC13368653,13,heat,heat,0.0461,tfidf,extracted
+europe_pmc_PMC13368653,14,nephropathy,Nephropathy,0.0448,tfidf,extracted
+europe_pmc_PMC13368653,15,occupational,occupational,0.0445,tfidf,extracted
+europe_pmc_PMC13372867,1,emscher river,Emscher River,1.2,uppercase,extracted
+europe_pmc_PMC13372867,2,asymmetric recovery concept,Asymmetric Recovery Concept,1.1,uppercase,extracted
+europe_pmc_PMC13372867,3,three gorges dam in china,Three Gorges Dam in China,1.1,uppercase,extracted
+europe_pmc_PMC13372867,4,pietrock and marcogliese,Pietrock and Marcogliese,1.1,uppercase,extracted
+europe_pmc_PMC13372867,5,koprivnikar and redfern,Koprivnikar and Redfern,1.1,uppercase,extracted
+europe_pmc_PMC13372867,6,koprivnikar and walker,Koprivnikar and Walker,1.1,uppercase,extracted
+europe_pmc_PMC13372867,7,johnson and carpenter,Johnson and Carpenter,1.1,uppercase,extracted
+europe_pmc_PMC13372867,8,marcogliese,Marcogliese,1.06,uppercase,extracted
+europe_pmc_PMC13372867,9,river,River,1.06,uppercase,extracted
+europe_pmc_PMC13372867,10,arc,ARC,1.04,uppercase,extracted
+europe_pmc_PMC13372867,11,parasite,parasite,0.0585,tfidf,extracted
+europe_pmc_PMC13372867,12,transmission,transmission,0.0534,tfidf,extracted
+europe_pmc_PMC13372867,13,et,et,0.0532,tfidf,extracted
+europe_pmc_PMC13372867,14,al,al,0.0532,tfidf,extracted
+europe_pmc_PMC13372867,15,parasites,Parasites,0.0495,tfidf,extracted
+europe_pmc_PMC13455386,1,harvard university,Harvard University,1.2,uppercase,extracted
+europe_pmc_PMC13455386,2,george washington university milken institute school of public health,George Washington University Milken Institute School of Public Health,1.1,uppercase,extracted
+europe_pmc_PMC13455386,3,organization for economic cooperation and development,Organization for Economic Cooperation and Development,1.1,uppercase,extracted
+europe_pmc_PMC13455386,4,department of environmental and occupational health,Department of Environmental and Occupational Health,1.1,uppercase,extracted
+europe_pmc_PMC13455386,5,fifth unregulated contaminant monitoring rule,Fifth Unregulated Contaminant Monitoring Rule,1.1,uppercase,extracted
+europe_pmc_PMC13455386,6,environmental protection agency,Environmental Protection Agency,1.1,uppercase,extracted
+europe_pmc_PMC13455386,7,between may and august,Between May and August,1.1,uppercase,extracted
+europe_pmc_PMC13455386,8,eof,EOF,1.96,uppercase,extracted
+europe_pmc_PMC13455386,9,pfas,PFAS,1.94,uppercase,extracted
+europe_pmc_PMC13455386,10,tfa,TFA,1.58,uppercase,extracted
+europe_pmc_PMC13455386,11,drinking water,drinking water,0.0567,tfidf,extracted
+europe_pmc_PMC13455386,12,drinking,drinking,0.055,tfidf,extracted
+europe_pmc_PMC13455386,13,targeted pfas,Targeted PFAS,0.055,tfidf,extracted
+europe_pmc_PMC13455386,14,drinking water samples,drinking water samples,0.055,tfidf,extracted
+europe_pmc_PMC13455386,15,gac,GAC,0.0535,tfidf,extracted
+europe_pmc_PMC13458456,1,bristol myers squibb,Bristol Myers Squibb,1.2,uppercase,extracted
+europe_pmc_PMC13458456,2,daiichi sankyo,Daiichi Sankyo,1.2,uppercase,extracted
+europe_pmc_PMC13458456,3,stockholm convention on persistent organic pollutants,Stockholm Convention on Persistent Organic Pollutants,1.1,uppercase,extracted
+europe_pmc_PMC13458456,4,european chemicals agency,European Chemicals Agency,1.1,uppercase,extracted
+europe_pmc_PMC13458456,5,eli lilly and centessa,Eli Lilly and Centessa,1.1,uppercase,extracted
+europe_pmc_PMC13458456,6,pierre fabre institute,Pierre Fabre Institute,1.1,uppercase,extracted
+europe_pmc_PMC13458456,7,reata pharmaceuticals,Reata Pharmaceuticals,1.1,uppercase,extracted
+europe_pmc_PMC13458456,8,the,The,1.3,uppercase,extracted
+europe_pmc_PMC13458456,9,hiv,HIV,1.14,uppercase,extracted
+europe_pmc_PMC13458456,10,cns,CNS,1.12,uppercase,extracted
+europe_pmc_PMC13458456,11,moiety,moiety,0.0425,tfidf,extracted
+europe_pmc_PMC13458456,12,inhibitor,inhibitor,0.0384,tfidf,extracted
+europe_pmc_PMC13458456,13,substance,substance,0.0373,tfidf,extracted
+europe_pmc_PMC13458456,14,clinical trials,clinical trials,0.0363,tfidf,extracted
+europe_pmc_PMC13458456,15,fragment,fragment,0.0357,tfidf,extracted
+europe_pmc_PMC13510588,1,wei river,Wei River,1.7,uppercase,extracted
+europe_pmc_PMC13510588,2,yellow river in china,Yellow River in China,1.1,uppercase,extracted
+europe_pmc_PMC13510588,3,united states,United States,1.1,uppercase,extracted
+europe_pmc_PMC13510588,4,nps,NPs,1.81,uppercase,extracted
+europe_pmc_PMC13510588,5,prnps,PrNPs,1.42,uppercase,extracted
+europe_pmc_PMC13510588,6,np,NP,1.34,uppercase,extracted
+europe_pmc_PMC13510588,7,prnp,PrNP,0.0491,tfidf,extracted
+europe_pmc_PMC13510588,8,original nps,original NPs,0.0459,tfidf,extracted
+europe_pmc_PMC13510588,9,ester-based,ester-based,0.0428,tfidf,extracted
+europe_pmc_PMC13510588,10,original,original,0.0385,tfidf,extracted
+europe_pmc_PMC13510588,11,ester-based prnps,ester-based PrNPs,0.0375,tfidf,extracted
+europe_pmc_PMC13510588,12,alcohols,alcohols,0.0363,tfidf,extracted
+europe_pmc_PMC13510588,13,occurring nps,occurring NPs,0.0349,tfidf,extracted
+europe_pmc_PMC13510588,14,naturally occurring nps,naturally occurring NPs,0.0349,tfidf,extracted
+europe_pmc_PMC13510588,15,river water,River water,0.0349,tfidf,extracted
+europe_pmc_PMC13520464,1,sri lanka,Sri Lanka,2.4,uppercase,extracted
+europe_pmc_PMC13520464,2,sri lankan,Sri Lankan,1.7,uppercase,extracted
+europe_pmc_PMC13520464,3,kandy national hospital,Kandy National Hospital,1.3,uppercase,extracted
+europe_pmc_PMC13520464,4,world health organization,World Health Organization,1.2,uppercase,extracted
+europe_pmc_PMC13520464,5,university of peradeniya,University of Peradeniya,1.2,uppercase,extracted
+europe_pmc_PMC13520464,6,badulla district,Badulla District,1.2,uppercase,extracted
+europe_pmc_PMC13520464,7,central america,Central America,1.2,uppercase,extracted
+europe_pmc_PMC13520464,8,ckd,CKD,1.72,uppercase,extracted
+europe_pmc_PMC13520464,9,ppe,PPE,1.42,uppercase,extracted
+europe_pmc_PMC13520464,10,ckdu,CKDu,1.4,uppercase,extracted
+europe_pmc_PMC13520464,11,villages,Villages,0.0506,tfidf,extracted
+europe_pmc_PMC13520464,12,village,Village,0.0481,tfidf,extracted
+europe_pmc_PMC13520464,13,conversations,conversations,0.0427,tfidf,extracted
+europe_pmc_PMC13520464,14,villagers,Villagers,0.0427,tfidf,extracted
+europe_pmc_PMC13520464,15,sri,Sri,0.0411,tfidf,extracted
+europe_pmc_PMC13541246,1,europe and north america,Europe and North America,1.1,uppercase,extracted
+europe_pmc_PMC13541246,2,arthropod initiative,Arthropod Initiative,1.1,uppercase,extracted
+europe_pmc_PMC13541246,3,german malaise,German Malaise,1.1,uppercase,extracted
+europe_pmc_PMC13541246,4,pesticides use,Pesticides Use,1.1,uppercase,extracted
+europe_pmc_PMC13541246,5,natural earth,Natural Earth,1.1,uppercase,extracted
+europe_pmc_PMC13541246,6,north america,North America,1.1,uppercase,extracted
+europe_pmc_PMC13541246,7,rachel carson,Rachel Carson,1.1,uppercase,extracted
+europe_pmc_PMC13541246,8,dna,DNA,1.06,uppercase,extracted
+europe_pmc_PMC13541246,9,north,North,1.04,uppercase,extracted
+europe_pmc_PMC13541246,10,ai,AI,1.02,uppercase,extracted
+europe_pmc_PMC13541246,11,insect,Insect,0.0658,tfidf,extracted
+europe_pmc_PMC13541246,12,decline,Decline,0.0577,tfidf,extracted
+europe_pmc_PMC13541246,13,monitoring,monitoring,0.0568,tfidf,extracted
+europe_pmc_PMC13541246,14,tropical,Tropical,0.052,tfidf,extracted
+europe_pmc_PMC13541246,15,attribution,attribution,0.0493,tfidf,extracted
+europe_pmc_PMC13567823,1,wolmera choke,Wolmera Choke,1.3,uppercase,extracted
+europe_pmc_PMC13567823,2,geresu seda,Geresu Seda,1.3,uppercase,extracted
+europe_pmc_PMC13567823,3,geba robi,Geba Robi,1.3,uppercase,extracted
+europe_pmc_PMC13567823,4,nano suba,Nano Suba,1.3,uppercase,extracted
+europe_pmc_PMC13567823,5,kore odo,Kore Odo,1.3,uppercase,extracted
+europe_pmc_PMC13567823,6,scientific ethical review committee,Scientific Ethical Review Committee,1.1,uppercase,extracted
+europe_pmc_PMC13567823,7,wolmera woreda agriculture office,Wolmera Woreda Agriculture Office,1.1,uppercase,extracted
+europe_pmc_PMC13567823,8,das,DAs,1.17,uppercase,extracted
+europe_pmc_PMC13567823,9,wolmera,Wolmera,1.07,uppercase,extracted
+europe_pmc_PMC13567823,10,asgori,Asgori,1.03,uppercase,extracted
+europe_pmc_PMC13567823,11,adulteration,Adulteration,0.0616,tfidf,extracted
+europe_pmc_PMC13567823,12,adulterated,adulterated,0.0594,tfidf,extracted
+europe_pmc_PMC13567823,13,respondents,Respondents,0.0594,tfidf,extracted
+europe_pmc_PMC13567823,14,adulterated products,adulterated products,0.0536,tfidf,extracted
+europe_pmc_PMC13567823,15,agrochemical adulteration,Agrochemical adulteration,0.0511,tfidf,extracted
+europe_pmc_PMC13569969,1,supporting information and table,Supporting Information and Table,1.3,uppercase,extracted
+europe_pmc_PMC13569969,2,increased energy efficiency,Increased Energy Efficiency,1.2,uppercase,extracted
+europe_pmc_PMC13569969,3,improved resource use,Improved Resource Use,1.2,uppercase,extracted
+europe_pmc_PMC13569969,4,guiding principles of responsible chemistry,Guiding Principles of Responsible Chemistry,1.1,uppercase,extracted
+europe_pmc_PMC13569969,5,authorization and restriction of chemicals,Authorization and Restriction of Chemicals,1.1,uppercase,extracted
+europe_pmc_PMC13569969,6,reduced human and environmental hazards,Reduced Human and Environmental Hazards,1.1,uppercase,extracted
+europe_pmc_PMC13569969,7,reduced human and environmental hazard,Reduced Human and Environmental Hazard,1.1,uppercase,extracted
+europe_pmc_PMC13569969,8,cdi,CDI,2.56,uppercase,extracted
+europe_pmc_PMC13569969,9,odi,ODI,2.4,uppercase,extracted
+europe_pmc_PMC13569969,10,nmi,NMI,1.4,uppercase,extracted
+europe_pmc_PMC13569969,11,mechanochemical,Mechanochemical,0.047,tfidf,extracted
+europe_pmc_PMC13569969,12,reaction,Reaction,0.0432,tfidf,extracted
+europe_pmc_PMC13569969,13,milling,milling,0.0418,tfidf,extracted
+europe_pmc_PMC13569969,14,ball,ball,0.0418,tfidf,extracted
+europe_pmc_PMC13569969,15,odi mediated,odi mediated,0.0386,tfidf,extracted
+europe_pmc_PMC13593900,1,junagadh agricultural university,Junagadh Agricultural University,1.2,uppercase,extracted
+europe_pmc_PMC13593900,2,main oilseeds research station,Main Oilseeds Research Station,1.2,uppercase,extracted
+europe_pmc_PMC13593900,3,sclerotium and fusarium,Sclerotium and Fusarium,1.2,uppercase,extracted
+europe_pmc_PMC13593900,4,jaklitsch and voglmayr,Jaklitsch and Voglmayr,1.2,uppercase,extracted
+europe_pmc_PMC13593900,5,scanning electron microscopy,Scanning Electron Microscopy,1.1,uppercase,extracted
+europe_pmc_PMC13593900,6,groundnut field photographs,Groundnut Field Photographs,1.1,uppercase,extracted
+europe_pmc_PMC13593900,7,carbofuran and pyripoxyfen,Carbofuran and Pyripoxyfen,1.1,uppercase,extracted
+europe_pmc_PMC13593900,8,trichoderma,Trichoderma,1.44,uppercase,extracted
+europe_pmc_PMC13593900,9,mp,MP,1.12,uppercase,extracted
+europe_pmc_PMC13593900,10,pda,PDA,1.12,uppercase,extracted
+europe_pmc_PMC13593900,11,isolates,Isolates,0.0542,tfidf,extracted
+europe_pmc_PMC13593900,12,antagonistic,Antagonistic,0.0431,tfidf,extracted
+europe_pmc_PMC13593900,13,trichoderma isolates,Trichoderma isolates,0.0414,tfidf,extracted
+europe_pmc_PMC13593900,14,inhibition,Inhibition,0.0398,tfidf,extracted
+europe_pmc_PMC13593900,15,groundnut,Groundnut,0.038,tfidf,extracted
+europe_pmc_PMC13606739,1,interpenetrating polymer networks,Interpenetrating Polymer Networks,1.2,uppercase,extracted
+europe_pmc_PMC13606739,2,preferred reporting items for systematic reviews and meta,Preferred Reporting Items for Systematic Reviews and Meta,1.1,uppercase,extracted
+europe_pmc_PMC13606739,3,intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1.1,uppercase,extracted
+europe_pmc_PMC13606739,4,indian agricultural research institute,Indian Agricultural Research Institute,1.1,uppercase,extracted
+europe_pmc_PMC13606739,5,food and agriculture organization,Food and Agriculture Organization,1.1,uppercase,extracted
+europe_pmc_PMC13606739,6,haripriya and vijayakrishna,Haripriya and Vijayakrishna,1.1,uppercase,extracted
+europe_pmc_PMC13606739,7,green revolution in asia,Green Revolution in Asia,1.1,uppercase,extracted
+europe_pmc_PMC13606739,8,hg,HG,2.0,uppercase,extracted
+europe_pmc_PMC13606739,9,hgs,HGs,1.59,uppercase,extracted
+europe_pmc_PMC13606739,10,trl,TRL,1.1,uppercase,extracted
+europe_pmc_PMC13606739,11,hydrogels,Hydrogels,0.0354,tfidf,extracted
+europe_pmc_PMC13606739,12,soil,Soil,0.0335,tfidf,extracted
+europe_pmc_PMC13606739,13,encapsulation,encapsulation,0.0322,tfidf,extracted
+europe_pmc_PMC13606739,14,water,water,0.032,tfidf,extracted
+europe_pmc_PMC13606739,15,release,release,0.0306,tfidf,extracted
+europe_pmc_PMC13628626,1,united states environmental protection agency,United States Environmental Protection Agency,1.1,uppercase,extracted
+europe_pmc_PMC13628626,2,clinical laboratory standards institute,Clinical Laboratory Standards Institute,1.1,uppercase,extracted
+europe_pmc_PMC13628626,3,sovol technology,Sovol Technology,1.1,uppercase,extracted
+europe_pmc_PMC13628626,4,green chemistry,Green Chemistry,1.1,uppercase,extracted
+europe_pmc_PMC13628626,5,acros organics,Acros Organics,1.1,uppercase,extracted
+europe_pmc_PMC13628626,6,belo horizonte,Belo Horizonte,1.1,uppercase,extracted
+europe_pmc_PMC13628626,7,campo grande,Campo Grande,1.1,uppercase,extracted
+europe_pmc_PMC13628626,8,sft,SFT,2.28,uppercase,extracted
+europe_pmc_PMC13628626,9,pla,PLA,1.32,uppercase,extracted
+europe_pmc_PMC13628626,10,cb,CB,1.3,uppercase,extracted
+europe_pmc_PMC13628626,11,electrochemical,electrochemical,0.0482,tfidf,extracted
+europe_pmc_PMC13628626,12,printed,printed,0.0405,tfidf,extracted
+europe_pmc_PMC13628626,13,electrode,electrode,0.0385,tfidf,extracted
+europe_pmc_PMC13628626,14,cb pla,cb pla,0.0385,tfidf,extracted
+europe_pmc_PMC13628626,15,glove,glove,0.0377,tfidf,extracted
+europe_pmc_PMC13652793,1,sathiyabama and manikandan,Sathiyabama and Manikandan,1.1,uppercase,extracted
+europe_pmc_PMC13652793,2,dos santos silva,Dos Santos Silva,1.1,uppercase,extracted
+europe_pmc_PMC13652793,3,google scholar,Google Scholar,1.1,uppercase,extracted
+europe_pmc_PMC13652793,4,web of science,Web of Science,1.1,uppercase,extracted
+europe_pmc_PMC13652793,5,santos silva,Santos Silva,1.1,uppercase,extracted
+europe_pmc_PMC13652793,6,unlike sect,Unlike Sect,1.1,uppercase,extracted
+europe_pmc_PMC13652793,7,csnps,CSNPs,1.51,uppercase,extracted
+europe_pmc_PMC13652793,8,npk,NPK,1.5,uppercase,extracted
+europe_pmc_PMC13652793,9,npss,NPSs,1.48,uppercase,extracted
+europe_pmc_PMC13652793,10,et,et,0.0359,tfidf,extracted
+europe_pmc_PMC13652793,11,al,al,0.0359,tfidf,extracted
+europe_pmc_PMC13652793,12,nc,NC,0.0354,tfidf,extracted
+europe_pmc_PMC13652793,13,delivery,Delivery,0.0326,tfidf,extracted
+europe_pmc_PMC13652793,14,antifungalcsnps,AntifungalCSNPs,0.0319,tfidf,extracted
+europe_pmc_PMC13652793,15,chitosan,Chitosan,0.0319,tfidf,extracted
+europe_pmc_PMC13679550,1,controlled release systems,Controlled Release Systems,1.2,uppercase,extracted
+europe_pmc_PMC13679550,2,delivery systems and agricultural functions nano,Delivery Systems and Agricultural Functions Nano,1.1,uppercase,extracted
+europe_pmc_PMC13679550,3,framework used for literature selection table,Framework Used for Literature Selection Table,1.1,uppercase,extracted
+europe_pmc_PMC13679550,4,applications of green nanoparticles in crop,Applications of Green Nanoparticles in Crop,1.1,uppercase,extracted
+europe_pmc_PMC13679550,5,green synthesis routes and sustainability,Green Synthesis Routes and Sustainability,1.1,uppercase,extracted
+europe_pmc_PMC13679550,6,satellites and unmanned aerial vehicles,Satellites and Unmanned Aerial Vehicles,1.1,uppercase,extracted
+europe_pmc_PMC13679550,7,keyword development strategy based,Keyword Development Strategy Based,1.1,uppercase,extracted
+europe_pmc_PMC13679550,8,nps,NPs,1.79,uppercase,extracted
+europe_pmc_PMC13679550,9,or,OR,1.46,uppercase,extracted
+europe_pmc_PMC13679550,10,pa,PA,1.34,uppercase,extracted
+europe_pmc_PMC13679550,11,delivery,Delivery,0.0385,tfidf,extracted
+europe_pmc_PMC13679550,12,green nps,Green NPs,0.0362,tfidf,extracted
+europe_pmc_PMC13679550,13,nanoparticle,Nanoparticle,0.0361,tfidf,extracted
+europe_pmc_PMC13679550,14,nano-enabled,Nano-enabled,0.0357,tfidf,extracted
+europe_pmc_PMC13679550,15,nutrient,nutrient,0.035,tfidf,extracted
+europe_pmc_PMC13707259,1,european pesticide regulation,European Pesticide Regulation,1.1,uppercase,extracted
+europe_pmc_PMC13707259,2,scopus and google scholar,Scopus and Google Scholar,1.1,uppercase,extracted
+europe_pmc_PMC13707259,3,graphical abstract,Graphical Abstract,1.1,uppercase,extracted
+europe_pmc_PMC13707259,4,under regulation,Under Regulation,1.1,uppercase,extracted
+europe_pmc_PMC13707259,5,delta and sigma,Delta and Sigma,1.1,uppercase,extracted
+europe_pmc_PMC13707259,6,european union,European Union,1.1,uppercase,extracted
+europe_pmc_PMC13707259,7,web of science,Web of Science,1.1,uppercase,extracted
+europe_pmc_PMC13707259,8,phaeophyceae,Phaeophyceae,1.27,uppercase,extracted
+europe_pmc_PMC13707259,9,sar,SAR,1.1,uppercase,extracted
+europe_pmc_PMC13707259,10,or,OR,1.08,uppercase,extracted
+europe_pmc_PMC13707259,11,phlorotannins,Phlorotannins,0.0444,tfidf,extracted
+europe_pmc_PMC13707259,12,marine,Marine,0.0369,tfidf,extracted
+europe_pmc_PMC13707259,13,metabolites,metabolites,0.035,tfidf,extracted
+europe_pmc_PMC13707259,14,brown,Brown,0.0344,tfidf,extracted
+europe_pmc_PMC13707259,15,brown algae,Brown algae,0.0344,tfidf,extracted

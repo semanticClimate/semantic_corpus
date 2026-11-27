@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13351106",
+  "phrases": [
+    {
+      "phrase": "national university",
+      "display": "National University",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "buenos aires",
+      "display": "Buenos Aires",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "law on decentralization and citizen participation",
+      "display": "Law on Decentralization and Citizen Participation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "perceived health risks and main characteristics",
+      "display": "Perceived Health Risks and Main Characteristics",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sergio arouca national school of public health",
+      "display": "Sergio Arouca National School of Public Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national institute of agricultural research",
+      "display": "National Institute of Agricultural Research",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of community health",
+      "display": "Department of Community Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uruguay",
+      "display": "Uruguay",
+      "score": 1.07,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "the",
+      "display": "The",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uruguayan",
+      "display": "Uruguayan",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "discourses",
+      "score": 0.0519,
+      "channel": "tfidf",
+      "display": "discourses"
+    },
+    {
+      "phrase": "interview",
+      "score": 0.048,
+      "channel": "tfidf",
+      "display": "Interview"
+    },
+    {
+      "phrase": "perceptions",
+      "score": 0.0416,
+      "channel": "tfidf",
+      "display": "Perceptions"
+    },
+    {
+      "phrase": "pesticides",
+      "score": 0.0388,
+      "channel": "tfidf",
+      "display": "pesticides"
+    },
+    {
+      "phrase": "risks",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "Risks"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

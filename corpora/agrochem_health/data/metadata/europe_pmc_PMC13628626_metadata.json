@@ -1,0 +1,43 @@
+{
+  "pmcid": "PMC13628626",
+  "pmid": "42825003",
+  "title": "On-Site Electrochemical Detection of Sulfentrazone Using a Fully 3D-Printed Portable Sensing Platform.",
+  "abstract": "The widespread use of pesticides in agricultural activities has increased concerns regarding environmental contamination and occupational exposure, particularly through dermal contact. In this work, we report a portable and low-cost electrochemical sensing platform for on-site monitoring of sulfentrazone (SFT), a herbicide extensively used in eucalyptus cultivation. The proposed device consists of a fully 3D-printed miniaturized electrochemical system fabricated by multi-material printing using conductive and non-conductive filaments, enabling accessible and decentralized analysis. SFT detection was performed by square-wave voltammetry (SWV), exhibiting a single irreversible oxidation peak at +0.86 V (pH 6.5). Under optimized conditions, the platform showed a linear response from 1.1 to 101.1 μmol L<sup>-1</sup>, with a limit of detection of 0.50 μmol L<sup>-1</sup> (obtained through IUPAC recommendations). The proposed approach demonstrated satisfactory accuracy and precision in spiked tap water samples, with recoveries ranging from 100 to 103% and RSD values ≤ 2.9% (n = 3). Additionally, the platform was successfully applied to porcine skin samples as a model for detecting dermal contamination, yielding recoveries between 81 and 111%. The combination of additive manufacturing and electrochemical sensing provides a simple, reliable, and field-deployable strategy for SFT monitoring in environmental and biological matrices, highlighting the potential of fully 3D-printed analytical platforms for occupational and environmental applications.",
+  "authors": [
+    "Petroni JM",
+    "Balbinoti JR",
+    "Jorge E",
+    "Neto OCDC",
+    "Amorim Bezerra da Silva R",
+    "Trindade MAG",
+    "Lucca BG"
+  ],
+  "publication_date": "2026-09-15",
+  "journal": "",
+  "doi": "10.1021/acsomega.6c05449",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1021/acsomega.6c05449"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13628626"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13628626?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

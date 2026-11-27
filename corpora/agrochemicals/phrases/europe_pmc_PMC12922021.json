@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12922021",
+  "phrases": [
+    {
+      "phrase": "department of biological and environmental sciences and technologies",
+      "display": "Department of Biological and Environmental Sciences and Technologies",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "examination and processing of human semen",
+      "display": "Examination and Processing of Human Semen",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institutional review board",
+      "display": "Institutional Review Board",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "good laboratory practice",
+      "display": "Good Laboratory Practice",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "declaration of helsinki",
+      "display": "Declaration of Helsinki",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of salento",
+      "display": "University of Salento",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rcr",
+      "display": "RCR",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "edcs",
+      "display": "EDCs",
+      "score": 1.23,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bic",
+      "display": "BIC",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mitochondrial",
+      "score": 0.0629,
+      "channel": "tfidf",
+      "display": "Mitochondrial"
+    },
+    {
+      "phrase": "sperm",
+      "score": 0.0614,
+      "channel": "tfidf",
+      "display": "Sperm"
+    },
+    {
+      "phrase": "spermatozoa",
+      "score": 0.0494,
+      "channel": "tfidf",
+      "display": "Spermatozoa"
+    },
+    {
+      "phrase": "respiration",
+      "score": 0.0494,
+      "channel": "tfidf",
+      "display": "respiration"
+    },
+    {
+      "phrase": "fta",
+      "score": 0.0482,
+      "channel": "tfidf",
+      "display": "FTA"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

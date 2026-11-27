@@ -1,0 +1,254 @@
+phrase,display,n_papers,best_uppercase,n_uppercase,best_tfidf,n_tfidf,best_yake,n_yake,best_score,score_channel,paper_ids
+latin america,Latin America,11,1.8,11,,0,,0,1.8,uppercase,europe_pmc_PMC11090615;europe_pmc_PMC11643924;europe_pmc_PMC11996790;europe_pmc_PMC12591810;europe_pmc_PMC12818217;europe_pmc_PMC12940714;europe_pmc_PMC13008687;europe_pmc_PMC13054996;europe_pmc_PMC13415142;europe_pmc_PMC13465641;europe_pmc_PMC13722186
+south america,South America,5,2.4,5,,0,,0,2.4,uppercase,europe_pmc_PMC11996790;europe_pmc_PMC12591810;europe_pmc_PMC13054996;europe_pmc_PMC13465641;europe_pmc_PMC13722186
+food and agriculture organization,Food and Agriculture Organization,5,1.3,5,,0,,0,1.3,uppercase,europe_pmc_PMC11643924;europe_pmc_PMC11947944;europe_pmc_PMC13106253;europe_pmc_PMC13415142;europe_pmc_PMC13606739
+latin american,Latin American,4,1.6,4,,0,,0,1.6,uppercase,europe_pmc_PMC11090615;europe_pmc_PMC12940714;europe_pmc_PMC13054996;europe_pmc_PMC13415142
+pesticides,Pesticides,4,,0,0.0472,4,,0,0.0472,tfidf,europe_pmc_PMC11090615;europe_pmc_PMC11947944;europe_pmc_PMC11996790;europe_pmc_PMC13351106
+central america,Central America,3,1.7,3,,0,,0,1.7,uppercase,europe_pmc_PMC12591810;europe_pmc_PMC12818217;europe_pmc_PMC13465641
+united nations,United Nations,3,1.3,3,,0,,0,1.3,uppercase,europe_pmc_PMC11643924;europe_pmc_PMC13415142;europe_pmc_PMC13447651
+america,America,3,1.18,3,,0,,0,1.18,uppercase,europe_pmc_PMC11643924;europe_pmc_PMC12591810;europe_pmc_PMC13722186
+pesticide,Pesticide,3,,0,0.0474,3,,0,0.0474,tfidf,europe_pmc_PMC11947944;europe_pmc_PMC11996790;europe_pmc_PMC13206163
+al,al,3,,0,0.0435,3,,0,0.0435,tfidf,europe_pmc_PMC11947944;europe_pmc_PMC13106253;europe_pmc_PMC13653337
+et,et,3,,0,0.0435,3,,0,0.0435,tfidf,europe_pmc_PMC11947944;europe_pmc_PMC13106253;europe_pmc_PMC13653337
+one health,One Health,2,3.2,2,,0,,0,3.2,uppercase,europe_pmc_PMC13447651;europe_pmc_PMC13465641
+saharan africa,Saharan Africa,2,2.3,2,,0,,0,2.3,uppercase,europe_pmc_PMC12331598;europe_pmc_PMC12818217
+soc,SOC,2,1.44,2,,0,,0,1.44,uppercase,europe_pmc_PMC13447651;europe_pmc_PMC13653337
+brazil,Brazil,2,1.35,2,,0,,0,1.35,uppercase,europe_pmc_PMC11947944;europe_pmc_PMC13106253
+united states,United States,2,1.3,2,,0,,0,1.3,uppercase,europe_pmc_PMC11947944;europe_pmc_PMC13465641
+health,Health,2,1.25,1,0.0394,1,,0,1.25,uppercase,europe_pmc_PMC13447651;europe_pmc_PMC13465641
+brazilian,Brazilian,2,1.18,2,,0,,0,1.18,uppercase,europe_pmc_PMC11947944;europe_pmc_PMC13106253
+ddt,DDT,2,1.14,2,,0,,0,1.14,uppercase,europe_pmc_PMC11090615;europe_pmc_PMC12822919
+foundation for statistical computing,Foundation for Statistical Computing,2,1.1,2,,0,,0,1.1,uppercase,europe_pmc_PMC12822919;europe_pmc_PMC12940714
+vector,Vector,2,,0,0.0577,2,,0,0.0577,tfidf,europe_pmc_PMC12822919;europe_pmc_PMC13722186
+studies,Studies,2,,0,0.0382,2,,0,0.0382,tfidf,europe_pmc_PMC11996790;europe_pmc_PMC12591810
+ckd,CKD,1,2.48,1,,0,,0,2.48,uppercase,europe_pmc_PMC12818217
+ch,CH,1,2.28,1,,0,,0,2.28,uppercase,europe_pmc_PMC13447651
+hg,HG,1,2.0,1,,0,,0,2.0,uppercase,europe_pmc_PMC13606739
+co,CO,1,1.92,1,,0,,0,1.92,uppercase,europe_pmc_PMC12331598
+costa rica,Costa Rica,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13465641
+el salvador,El Salvador,1,1.8,1,,0,,0,1.8,uppercase,europe_pmc_PMC13465641
+bcaa,BCAA,1,1.78,1,,0,,0,1.78,uppercase,europe_pmc_PMC13054996
+el mentidero,El Mentidero,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13206163
+logit and probit,Logit and Probit,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13415142
+march and december,March and December,1,1.6,1,,0,,0,1.6,uppercase,europe_pmc_PMC13206163
+hgs,HGs,1,1.59,1,,0,,0,1.59,uppercase,europe_pmc_PMC13606739
+sdi,SDI,1,1.56,1,,0,,0,1.56,uppercase,europe_pmc_PMC12331598
+eastern europe,Eastern Europe,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12818217
+meio ambiente,Meio Ambiente,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC13106253
+southern sub,Southern Sub,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12331598
+sri lanka,Sri Lanka,1,1.5,1,,0,,0,1.5,uppercase,europe_pmc_PMC12818217
+daly,DALY,1,1.48,1,,0,,0,1.48,uppercase,europe_pmc_PMC12331598
+lac,LAC,1,1.42,1,,0,,0,1.42,uppercase,europe_pmc_PMC12591810
+mesoamerica,Mesoamerica,1,1.41,1,,0,,0,1.41,uppercase,europe_pmc_PMC13465641
+central europe,Central Europe,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12331598
+central sub,Central Sub,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12331598
+chile,Chile,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC11996790
+demographic index,Demographic Index,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12331598
+pin viso,Pin Viso,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC13653337
+south asia,South Asia,1,1.4,1,,0,,0,1.4,uppercase,europe_pmc_PMC12818217
+iarc,IARC,1,1.36,1,,0,,0,1.36,uppercase,europe_pmc_PMC11996790
+ci,CI,1,1.34,1,,0,,0,1.34,uppercase,europe_pmc_PMC13054996
+cc,CC,1,1.32,1,,0,,0,1.32,uppercase,europe_pmc_PMC13653337
+brazilian institute of environment and renewable natural resources,Brazilian Institute of Environment and Renewable Natural Resources,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13106253
+ecosystem approach,Ecosystem Approach,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13106253
+european and asian,European and Asian,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13054996
+european union,European Union,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC11996790
+french guiana,French Guiana,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13722186
+frontiers in plant science,Frontiers in Plant Science,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13008687
+global burden of disease,Global Burden of Disease,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12331598
+instituto brasileiro,Instituto Brasileiro,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13106253
+international initiative,International Initiative,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13106253
+ministry of agriculture and livestock,Ministry of Agriculture and Livestock,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13106253
+north africa,North Africa,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12331598
+north america,North America,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC12818217
+puerto rican,Puerto Rican,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13054996
+rapa nui,Rapa Nui,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13722186
+university of guadalajara,University of Guadalajara,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13206163
+women in plant abiotic stress,Women in Plant Abiotic Stress,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13008687
+women in plant science,Women in Plant Science,1,1.3,1,,0,,0,1.3,uppercase,europe_pmc_PMC13008687
+mapuche,Mapuche,1,1.29,1,,0,,0,1.29,uppercase,europe_pmc_PMC11643924
+mauco,MAUCO,1,1.28,1,,0,,0,1.28,uppercase,europe_pmc_PMC13054996
+elcsa,ELCSA,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13415142
+fao,FAO,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13106253
+nt,NT,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13653337
+sabe,SABE,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC12940714
+winsa,WINSA,1,1.26,1,,0,,0,1.26,uppercase,europe_pmc_PMC13722186
+chilean,Chilean,1,1.25,1,,0,,0,1.25,uppercase,europe_pmc_PMC11996790
+one,One,1,1.25,1,,0,,0,1.25,uppercase,europe_pmc_PMC13465641
+ca,CA,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC13447651
+kf,KF,1,1.24,1,,0,,0,1.24,uppercase,europe_pmc_PMC12818217
+plant,Plant,1,1.21,1,,0,,0,1.21,uppercase,europe_pmc_PMC13008687
+after bonferroni,After Bonferroni,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13054996
+agilent technologies,Agilent Technologies,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13206163
+american society of plant biologists,American Society of Plant Biologists,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13008687
+argentinean pampas,Argentinean Pampas,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13653337
+buenos aires,Buenos Aires,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13351106
+candidatus solibacter,Candidatus Solibacter,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13653337
+canqui and lal,Canqui and Lal,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13653337
+chilean ministry of health,Chilean Ministry of Health,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11996790
+codex alimentarius,Codex Alimentarius,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11996790
+core team,Core Team,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13653337
+department of public health,Department of Public Health,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13206163
+ethics committee,Ethics Committee,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13206163
+global north and south,Global North and South,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11947944
+human health nexus,Human Health Nexus,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13447651
+institut pasteur of french guiana,Institut Pasteur of French Guiana,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13722186
+instituto nacional,Instituto Nacional,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13722186
+international agency for research on cancer,International Agency for Research on Cancer,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11996790
+interpenetrating polymer networks,Interpenetrating Polymer Networks,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13606739
+law of return,Law of Return,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13447651
+maule cohort,Maule Cohort,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13054996
+national institute of statistics and census,National Institute of Statistics and Census,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12940714
+national university,National University,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13351106
+pd,PD,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC12818217
+redox biology of plant abiotic stress,Redox Biology of Plant Abiotic Stress,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13008687
+scientific ethics committee,Scientific Ethics Committee,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11643924
+statistical supplementary materials,Statistical Supplementary Materials,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13206163
+universidad nacional,Universidad Nacional,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13722186
+web of science,Web of Science,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC11996790
+women in plant biology committee,Women in Plant Biology Committee,1,1.2,1,,0,,0,1.2,uppercase,europe_pmc_PMC13008687
+ms,MS,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC13206163
+or,OR,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC12591810
+ros,ROS,1,1.18,1,,0,,0,1.18,uppercase,europe_pmc_PMC13008687
+south,South,1,1.16,1,,0,,0,1.16,uppercase,europe_pmc_PMC13722186
+december,December,1,1.15,1,,0,,0,1.15,uppercase,europe_pmc_PMC13206163
+probit,Probit,1,1.15,1,,0,,0,1.15,uppercase,europe_pmc_PMC13415142
+riobamba,Riobamba,1,1.15,1,,0,,0,1.15,uppercase,europe_pmc_PMC13415142
+aspb,ASPB,1,1.14,1,,0,,0,1.14,uppercase,europe_pmc_PMC13008687
+indigenous,Indigenous,1,1.13,1,,0,,0,1.13,uppercase,europe_pmc_PMC11643924
+anvisa,ANVISA,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC11947944
+ecuador,Ecuador,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC12940714
+iqr,IQR,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC13206163
+latin,Latin,1,1.12,1,,0,,0,1.12,uppercase,europe_pmc_PMC11090615
+analysis of compositions of microbiomes,Analysis of Compositions of Microbiomes,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13653337
+boyeco territorial roundtable,Boyeco Territorial Roundtable,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11643924
+brazilian consumer defense institute,Brazilian Consumer Defense Institute,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11090615
+brazilian health regulatory agency,Brazilian Health Regulatory Agency,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11947944
+central american,Central American,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12591810
+checklist for prevalence studies,Checklist for Prevalence Studies,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11090615
+china national chemical corporation,China National Chemical Corporation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11947944
+colombia and uruguay,Colombia and Uruguay,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12591810
+dde,DDE,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11090615
+department of community health,Department of Community Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13351106
+federal commission for protection,Federal Commission for Protection,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11090615
+federal university,Federal University,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12822919
+formoso river,Formoso River,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12591810
+global plant clinic,Global Plant Clinic,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447651
+green revolution in asia,Green Revolution in Asia,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13606739
+haripriya and vijayakrishna,Haripriya and Vijayakrishna,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13606739
+human rights of older persons,Human Rights of Older Persons,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11643924
+indian agricultural research institute,Indian Agricultural Research Institute,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13606739
+inec,INEC,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12940714
+intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13606739
+international standard industrial classification,International Standard Industrial Classification,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12940714
+international year of millets,International Year of Millets,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447651
+latin america and ecuador,Latin America and Ecuador,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12940714
+latin american and caribbean food security scale,Latin American and Caribbean Food Security Scale,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13415142
+law on decentralization and citizen participation,Law on Decentralization and Citizen Participation,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13351106
+medical subject headings,Medical Subject Headings,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12591810
+national institute of agricultural research,National Institute of Agricultural Research,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13351106
+panorama of food and nutritional security,Panorama of Food and Nutritional Security,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11643924
+perceived health risks and main characteristics,Perceived Health Risks and Main Characteristics,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13351106
+planctomycetota and solibacteraceae,Planctomycetota and Solibacteraceae,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13653337
+preferred reporting items for systematic reviews and meta,Preferred Reporting Items for Systematic Reviews and Meta,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13606739
+principal component analysis,Principal Component Analysis,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11947944
+program for analyzing pesticide residues in foods,Program for Analyzing Pesticide Residues in Foods,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11090615
+prospective register of systematic reviews,Prospective Register of Systematic Reviews,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11090615
+reports on pesticide residue analysis in food,Reports on Pesticide Residue Analysis in Food,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC11947944
+sergio arouca national school of public health,Sergio Arouca National School of Public Health,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13351106
+sigma aldrich,Sigma Aldrich,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12822919
+st louis,St Louis,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12822919
+territorial development and land use plan,Territorial Development and Land Use Plan,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13415142
+trl,TRL,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13606739
+wellbeing and aging survey,Wellbeing and Aging Survey,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC12940714
+world health organization,World Health Organization,1,1.1,1,,0,,0,1.1,uppercase,europe_pmc_PMC13447651
+hppd,HPPD,1,1.08,1,,0,,0,1.08,uppercase,europe_pmc_PMC12822919
+uruguay,Uruguay,1,1.07,1,,0,,0,1.07,uppercase,europe_pmc_PMC13351106
+the,The,1,1.06,1,,0,,0,1.06,uppercase,europe_pmc_PMC13351106
+uruguayan,Uruguayan,1,1.06,1,,0,,0,1.06,uppercase,europe_pmc_PMC13351106
+anopheles,Anopheles,1,1.04,1,,0,,0,1.04,uppercase,europe_pmc_PMC12822919
+nitisinone,Nitisinone,1,,0,0.0749,1,,0,0.0749,tfidf,europe_pmc_PMC12822919
+longipalpis,longipalpis,1,,0,0.0664,1,,0,0.0664,tfidf,europe_pmc_PMC12822919
+lu longipalpis,lu longipalpis,1,,0,0.0664,1,,0,0.0664,tfidf,europe_pmc_PMC12822919
+sand,Sand,1,,0,0.0649,1,,0,0.0649,tfidf,europe_pmc_PMC12822919
+flies,flies,1,,0,0.0625,1,,0,0.0625,tfidf,europe_pmc_PMC12822919
+lu,Lu,1,,0,0.0625,1,,0,0.0625,tfidf,europe_pmc_PMC12822919
+sand flies,sand flies,1,,0,0.0625,1,,0,0.0625,tfidf,europe_pmc_PMC12822919
+breast milk,Breast milk,1,,0,0.0603,1,,0,0.0603,tfidf,europe_pmc_PMC11090615
+breast,Breast,1,,0,0.0596,1,,0,0.0596,tfidf,europe_pmc_PMC11090615
+milk,milk,1,,0,0.0596,1,,0,0.0596,tfidf,europe_pmc_PMC11090615
+poisoning,Poisoning,1,,0,0.0541,1,,0,0.0541,tfidf,europe_pmc_PMC12331598
+non-co,non-CO,1,,0,0.0532,1,,0,0.0532,tfidf,europe_pmc_PMC12331598
+non-co poisoning,non-CO poisoning,1,,0,0.0532,1,,0,0.0532,tfidf,europe_pmc_PMC12331598
+discourses,discourses,1,,0,0.0519,1,,0,0.0519,tfidf,europe_pmc_PMC13351106
+amino,Amino,1,,0,0.0506,1,,0,0.0506,tfidf,europe_pmc_PMC13054996
+amino acids,amino acids,1,,0,0.0499,1,,0,0.0499,tfidf,europe_pmc_PMC13054996
+plasma,Plasma,1,,0,0.0488,1,,0,0.0488,tfidf,europe_pmc_PMC13054996
+food access,Food Access,1,,0,0.0483,1,,0,0.0483,tfidf,europe_pmc_PMC13415142
+acids,acids,1,,0,0.0481,1,,0,0.0481,tfidf,europe_pmc_PMC13054996
+interview,Interview,1,,0,0.048,1,,0,0.048,tfidf,europe_pmc_PMC13351106
+cm,cm,1,,0,0.047,1,,0,0.047,tfidf,europe_pmc_PMC13653337
+self-rated,Self-rated,1,,0,0.047,1,,0,0.047,tfidf,europe_pmc_PMC12940714
+self-rated health,Self-rated health,1,,0,0.047,1,,0,0.047,tfidf,europe_pmc_PMC12940714
+resistance,Resistance,1,,0,0.0466,1,,0,0.0466,tfidf,europe_pmc_PMC13722186
+access consumption,access consumption,1,,0,0.0463,1,,0,0.0463,tfidf,europe_pmc_PMC13415142
+risk bias,risk bias,1,,0,0.0462,1,,0,0.0462,tfidf,europe_pmc_PMC11090615
+food access consumption,food access consumption,1,,0,0.0459,1,,0,0.0459,tfidf,europe_pmc_PMC13415142
+older,Older,1,,0,0.0459,1,,0,0.0459,tfidf,europe_pmc_PMC12940714
+household food,Household food,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC13415142
+ternary,ternary,1,,0,0.0458,1,,0,0.0458,tfidf,europe_pmc_PMC11947944
+elderly,elderly,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC11643924
+fungal,Fungal,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC13653337
+insecticide resistance,Insecticide Resistance,1,,0,0.0456,1,,0,0.0456,tfidf,europe_pmc_PMC13722186
+dalys,DALYs,1,,0,0.0451,1,,0,0.0451,tfidf,europe_pmc_PMC12331598
+soil health,Soil health,1,,0,0.0448,1,,0,0.0448,tfidf,europe_pmc_PMC13447651
+insecticide,Insecticide,1,,0,0.0445,1,,0,0.0445,tfidf,europe_pmc_PMC13722186
+household,Household,1,,0,0.0435,1,,0,0.0435,tfidf,europe_pmc_PMC13415142
+isoleucine,Isoleucine,1,,0,0.0434,1,,0,0.0434,tfidf,europe_pmc_PMC13054996
+ae,Ae,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC13722186
+asr,ASR,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC12331598
+soil,Soil,1,,0,0.0433,1,,0,0.0433,tfidf,europe_pmc_PMC13447651
+food security,Food security,1,,0,0.0426,1,,0,0.0426,tfidf,europe_pmc_PMC11643924
+layer,layer,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13653337
+pollinators,Pollinators,1,,0,0.0425,1,,0,0.0425,tfidf,europe_pmc_PMC13106253
+pollution,pollution,1,,0,0.0424,1,,0,0.0424,tfidf,europe_pmc_PMC12591810
+occupational,Occupational,1,,0,0.0421,1,,0,0.0421,tfidf,europe_pmc_PMC12940714
+security,Security,1,,0,0.042,1,,0,0.042,tfidf,europe_pmc_PMC11643924
+food,Food,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC11643924
+older adults,Older adults,1,,0,0.0418,1,,0,0.0418,tfidf,europe_pmc_PMC12940714
+perceptions,Perceptions,1,,0,0.0416,1,,0,0.0416,tfidf,europe_pmc_PMC13351106
+bees,Bees,1,,0,0.0414,1,,0,0.0414,tfidf,europe_pmc_PMC13106253
+pollinator,Pollinator,1,,0,0.0406,1,,0,0.0406,tfidf,europe_pmc_PMC13106253
+crop,Crop,1,,0,0.0397,1,,0,0.0397,tfidf,europe_pmc_PMC13447651
+dialysis,Dialysis,1,,0,0.0395,1,,0,0.0395,tfidf,europe_pmc_PMC12818217
+health care,Health care,1,,0,0.039,1,,0,0.039,tfidf,europe_pmc_PMC12818217
+subclinical,subclinical,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC12591810
+water pollution,water pollution,1,,0,0.0389,1,,0,0.0389,tfidf,europe_pmc_PMC12591810
+quote,quote,1,,0,0.0388,1,,0,0.0388,tfidf,europe_pmc_PMC11643924
+grown,grown,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13447651
+risks,Risks,1,,0,0.0386,1,,0,0.0386,tfidf,europe_pmc_PMC13351106
+migrants,Migrants,1,,0,0.0385,1,,0,0.0385,tfidf,europe_pmc_PMC12818217
+abiotic,Abiotic,1,,0,0.0384,1,,0,0.0384,tfidf,europe_pmc_PMC13008687
+care,care,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC12818217
+transmission,Transmission,1,,0,0.0383,1,,0,0.0383,tfidf,europe_pmc_PMC13465641
+abiotic stress,Abiotic Stress,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC13008687
+exposure,Exposure,1,,0,0.0382,1,,0,0.0382,tfidf,europe_pmc_PMC13206163
+kidney,Kidney,1,,0,0.0381,1,,0,0.0381,tfidf,europe_pmc_PMC12818217
+children,Children,1,,0,0.0379,1,,0,0.0379,tfidf,europe_pmc_PMC13206163
+aquatic,aquatic,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC12591810
+authorship,authorship,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC13008687
+women scientists,Women Scientists,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC13008687
+zoonotic,Zoonotic,1,,0,0.0378,1,,0,0.0378,tfidf,europe_pmc_PMC13465641
+stress,Stress,1,,0,0.0374,1,,0,0.0374,tfidf,europe_pmc_PMC13008687
+bioactive,bioactive,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC13606739
+hydrogels,Hydrogels,1,,0,0.0373,1,,0,0.0373,tfidf,europe_pmc_PMC13606739
+biomonitoring,Biomonitoring,1,,0,0.0371,1,,0,0.0371,tfidf,europe_pmc_PMC13206163
+cancer,Cancer,1,,0,0.037,1,,0,0.037,tfidf,europe_pmc_PMC11996790
+encapsulation,encapsulation,1,,0,0.0368,1,,0,0.0368,tfidf,europe_pmc_PMC13606739
+carcinogenic,carcinogenic,1,,0,0.0351,1,,0,0.0351,tfidf,europe_pmc_PMC11996790
+polymeric,polymeric,1,,0,0.0348,1,,0,0.0348,tfidf,europe_pmc_PMC13606739
+disease,Disease,1,,0,0.0339,1,,0,0.0339,tfidf,europe_pmc_PMC13465641
+release,release,1,,0,0.0336,1,,0,0.0336,tfidf,europe_pmc_PMC13606739
+paired,Paired,1,,0,0.0335,1,,0,0.0335,tfidf,europe_pmc_PMC13206163
+mesoamerican,Mesoamerican,1,,0,0.0324,1,,0,0.0324,tfidf,europe_pmc_PMC13465641
+animal,animal,1,,0,0.0309,1,,0,0.0309,tfidf,europe_pmc_PMC13465641

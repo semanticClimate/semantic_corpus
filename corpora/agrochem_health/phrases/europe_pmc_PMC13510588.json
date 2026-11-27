@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13510588",
+  "phrases": [
+    {
+      "phrase": "wei river",
+      "display": "Wei River",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "yellow river in china",
+      "display": "Yellow River in China",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nps",
+      "display": "NPs",
+      "score": 1.81,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "prnps",
+      "display": "PrNPs",
+      "score": 1.42,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "np",
+      "display": "NP",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "prnp",
+      "score": 0.0491,
+      "channel": "tfidf",
+      "display": "PrNP"
+    },
+    {
+      "phrase": "original nps",
+      "score": 0.0459,
+      "channel": "tfidf",
+      "display": "original NPs"
+    },
+    {
+      "phrase": "ester-based",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "ester-based"
+    },
+    {
+      "phrase": "original",
+      "score": 0.0385,
+      "channel": "tfidf",
+      "display": "original"
+    },
+    {
+      "phrase": "ester-based prnps",
+      "score": 0.0375,
+      "channel": "tfidf",
+      "display": "ester-based PrNPs"
+    },
+    {
+      "phrase": "alcohols",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "alcohols"
+    },
+    {
+      "phrase": "occurring nps",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "occurring NPs"
+    },
+    {
+      "phrase": "naturally occurring nps",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "naturally occurring NPs"
+    },
+    {
+      "phrase": "river water",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "River water"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

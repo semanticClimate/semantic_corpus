@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_295757",
+  "phrases": [
+    {
+      "phrase": "luján",
+      "display": "Luján",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "inundaciones",
+      "score": 0.1273,
+      "channel": "tfidf",
+      "display": "inundaciones"
+    },
+    {
+      "phrase": "organizaciones",
+      "score": 0.1229,
+      "channel": "tfidf",
+      "display": "organizaciones"
+    },
+    {
+      "phrase": "partido",
+      "score": 0.0991,
+      "channel": "tfidf",
+      "display": "partido"
+    },
+    {
+      "phrase": "políticas",
+      "score": 0.0957,
+      "channel": "tfidf",
+      "display": "políticas"
+    },
+    {
+      "phrase": "proceso",
+      "score": 0.088,
+      "channel": "tfidf",
+      "display": "proceso"
+    },
+    {
+      "phrase": "relacionadas decisiones",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "relacionadas decisiones"
+    },
+    {
+      "phrase": "relacionadas decisiones políticas",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "relacionadas decisiones políticas"
+    },
+    {
+      "phrase": "colectiva partido",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "colectiva partido"
+    },
+    {
+      "phrase": "colectiva partido luján",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "colectiva partido luján"
+    },
+    {
+      "phrase": "inundación significa",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "inundación significa"
+    },
+    {
+      "phrase": "inundación significa bisagra",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "inundación significa bisagra"
+    },
+    {
+      "phrase": "solo cuestiones",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "solo cuestiones"
+    },
+    {
+      "phrase": "solo cuestiones naturales",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "solo cuestiones naturales"
+    },
+    {
+      "phrase": "colectivo cuestionaron",
+      "score": 0.0726,
+      "channel": "tfidf",
+      "display": "colectivo cuestionaron"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "json-abstract",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

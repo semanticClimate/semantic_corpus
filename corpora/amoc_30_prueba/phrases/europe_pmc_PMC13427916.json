@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13427916",
+  "phrases": [
+    {
+      "phrase": "hopkins and bennett",
+      "display": "Hopkins and Bennett",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "alsohaili and bani",
+      "display": "Alsohaili and Bani",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nonzom and sumbali",
+      "display": "Nonzom and Sumbali",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "larsemann hills",
+      "display": "Larsemann Hills",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "atacama desert",
+      "display": "Atacama Desert",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lin and xu",
+      "display": "Lin and Xu",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rhodosporidiobolus and sporobolomyces",
+      "display": "Rhodosporidiobolus and Sporobolomyces",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uv",
+      "display": "UV",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dhn",
+      "display": "DHN",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "antarctic",
+      "display": "Antarctic",
+      "score": 1.13,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pigments",
+      "score": 0.044,
+      "channel": "tfidf",
+      "display": "Pigments"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "Al"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "pigment",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "pigment"
+    },
+    {
+      "phrase": "pigmented",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "Pigmented"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13600945",
+  "phrases": [
+    {
+      "phrase": "supplementary information",
+      "display": "Supplementary Information",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "supplementary sections",
+      "display": "Supplementary Sections",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nature portfolio",
+      "display": "Nature Portfolio",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "jesus jover",
+      "display": "Jesus Jover",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ts",
+      "display": "TS",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iii",
+      "display": "III",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dbu",
+      "display": "DBU",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reaction",
+      "score": 0.0511,
+      "channel": "tfidf",
+      "display": "reaction"
+    },
+    {
+      "phrase": "pyridone",
+      "score": 0.0494,
+      "channel": "tfidf",
+      "display": "Pyridone"
+    },
+    {
+      "phrase": "phosphonium",
+      "score": 0.0484,
+      "channel": "tfidf",
+      "display": "phosphonium"
+    },
+    {
+      "phrase": "amination",
+      "score": 0.0473,
+      "channel": "tfidf",
+      "display": "amination"
+    },
+    {
+      "phrase": "equiv",
+      "score": 0.0473,
+      "channel": "tfidf",
+      "display": "equiv"
+    },
+    {
+      "phrase": "pyridines",
+      "score": 0.0462,
+      "channel": "tfidf",
+      "display": "pyridines"
+    },
+    {
+      "phrase": "hydroxylation",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "Hydroxylation"
+    },
+    {
+      "phrase": "ligand-coupling",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "ligand-coupling"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

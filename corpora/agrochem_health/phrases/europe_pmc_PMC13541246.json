@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13541246",
+  "phrases": [
+    {
+      "phrase": "europe and north america",
+      "display": "Europe and North America",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arthropod initiative",
+      "display": "Arthropod Initiative",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "german malaise",
+      "display": "German Malaise",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pesticides use",
+      "display": "Pesticides Use",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "natural earth",
+      "display": "Natural Earth",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north america",
+      "display": "North America",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rachel carson",
+      "display": "Rachel Carson",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dna",
+      "display": "DNA",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "north",
+      "display": "North",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ai",
+      "display": "AI",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "insect",
+      "score": 0.0658,
+      "channel": "tfidf",
+      "display": "Insect"
+    },
+    {
+      "phrase": "decline",
+      "score": 0.0577,
+      "channel": "tfidf",
+      "display": "Decline"
+    },
+    {
+      "phrase": "monitoring",
+      "score": 0.0568,
+      "channel": "tfidf",
+      "display": "monitoring"
+    },
+    {
+      "phrase": "tropical",
+      "score": 0.052,
+      "channel": "tfidf",
+      "display": "Tropical"
+    },
+    {
+      "phrase": "attribution",
+      "score": 0.0493,
+      "channel": "tfidf",
+      "display": "attribution"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

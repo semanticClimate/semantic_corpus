@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13567823",
+  "phrases": [
+    {
+      "phrase": "wolmera choke",
+      "display": "Wolmera Choke",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "geresu seda",
+      "display": "Geresu Seda",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "geba robi",
+      "display": "Geba Robi",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nano suba",
+      "display": "Nano Suba",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kore odo",
+      "display": "Kore Odo",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scientific ethical review committee",
+      "display": "Scientific Ethical Review Committee",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wolmera woreda agriculture office",
+      "display": "Wolmera Woreda Agriculture Office",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "das",
+      "display": "DAs",
+      "score": 1.17,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wolmera",
+      "display": "Wolmera",
+      "score": 1.07,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asgori",
+      "display": "Asgori",
+      "score": 1.03,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "adulteration",
+      "score": 0.0621,
+      "channel": "tfidf",
+      "display": "Adulteration"
+    },
+    {
+      "phrase": "adulterated",
+      "score": 0.0599,
+      "channel": "tfidf",
+      "display": "adulterated"
+    },
+    {
+      "phrase": "adulterated products",
+      "score": 0.0541,
+      "channel": "tfidf",
+      "display": "adulterated products"
+    },
+    {
+      "phrase": "respondents",
+      "score": 0.0529,
+      "channel": "tfidf",
+      "display": "Respondents"
+    },
+    {
+      "phrase": "agrochemical adulteration",
+      "score": 0.0515,
+      "channel": "tfidf",
+      "display": "Agrochemical adulteration"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

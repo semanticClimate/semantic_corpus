@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (conicet_inundaciones_10)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header {
+      padding: 10px 16px 12px;
+      border-bottom: 1px solid #e2e8f0;
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    header .titles h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header .titles p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #controls {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: min(420px, 100%);
+    }
+    #controls label {
+      font-size: 0.8rem;
+      color: #334155;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    #controls input[type=range] { width: 100%; }
+    #status { font-size: 0.75rem; color: #64748b; min-height: 1.1em; }
+    #status.err { color: #b91c1c; }
+    #mynetwork { width: 100%; height: calc(100vh - 96px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="titles">
+      <h1>Knowledge graph (conicet_inundaciones_10)</h1>
+      <p id="stats">44 nodes · 80 edges — drag, zoom, hover</p>
+    </div>
+    <div id="controls">
+      <label>
+        <span>Louvain resolution (lower = aggregate)</span>
+        <span id="resValue">1</span>
+      </label>
+      <input id="resSlider" type="range" min="0.2" max="2.5" step="0.05" value="1"/>
+      <div id="status">Open via <code>pipeline kg --view</code> for live rebuild</div>
+    </div>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:luján", "label": "LUJÁN", "tooltip": "LUJÁN (cluster weight 2.68; n_papers 2)", "value": 10.68, "group": "Term"}, {"id": "paper:conicet_11336_231590", "label": "conicet_11336_231590", "tooltip": "Simulación del nivel de agua para escenarios de inundación: Aplicación a Luján (Buenos Aires, Argentina)<br>(conicet_11336_231590)", "value": 12.0, "group": "Paper"}, {"id": "paper:conicet_11336_295757", "label": "conicet_11336_295757", "tooltip": "Políticas públicas y participación ciudadana en las inundaciones del partido de Luján (Buenos Aires, 2012-2015)<br>(conicet_11336_295757)", "value": 12.0, "group": "Paper"}, {"id": "term:el civismo", "label": "El Civismo", "tooltip": "El Civismo (cluster weight 1.8; n_papers 2)", "value": 9.8, "group": "Term"}, {"id": "term:buenos aires", "label": "Buenos Aires", "tooltip": "Buenos Aires (cluster weight 1.6; n_papers 2)", "value": 9.6, "group": "Term"}, {"id": "term:subdirección de emergencia y defensa civil", "label": "Subdirección de Emergencia y Defensa Civil", "tooltip": "Subdirección de Emergencia y Defensa Civil (cluster weight 1.5; n_papers 2)", "value": 9.5, "group": "Term"}, {"id": "term:mde", "label": "MDE", "tooltip": "MDE (cluster weight 1.26; n_papers 2)", "value": 9.26, "group": "Term"}, {"id": "term:ign", "label": "IGN", "tooltip": "IGN (cluster weight 1.22; n_papers 2)", "value": 9.22, "group": "Term"}, {"id": "term:bomberos voluntarios de luján", "label": "Bomberos Voluntarios de Luján", "tooltip": "Bomberos Voluntarios de Luján (cluster weight 1.2; n_papers 2)", "value": 9.2, "group": "Term"}, {"id": "term:modelo de elevación digital", "label": "Modelo de Elevación Digital", "tooltip": "Modelo de Elevación Digital (cluster weight 1.2; n_papers 2)", "value": 9.2, "group": "Term"}, {"id": "term:modelo de elevación digital aerofotogramétrico", "label": "Modelo de Elevación Digital Aerofotogramétrico", "tooltip": "Modelo de Elevación Digital Aerofotogramétrico (cluster weight 1.2; n_papers 2)", "value": 9.2, "group": "Term"}, {"id": "term:inundaciones", "label": "inundaciones", "tooltip": "inundaciones (cluster weight 0.1273; n_papers 2)", "value": 8.1273, "group": "Term"}, {"id": "term:organizaciones", "label": "organizaciones", "tooltip": "organizaciones (cluster weight 0.1229; n_papers 2)", "value": 8.1229, "group": "Term"}, {"id": "term:partido", "label": "partido", "tooltip": "partido (cluster weight 0.0991; n_papers 2)", "value": 8.0991, "group": "Term"}, {"id": "term:políticas", "label": "políticas", "tooltip": "políticas (cluster weight 0.0957; n_papers 2)", "value": 8.0957, "group": "Term"}, {"id": "term:proceso", "label": "proceso", "tooltip": "proceso (cluster weight 0.088; n_papers 2)", "value": 8.088, "group": "Term"}, {"id": "term:colectiva partido", "label": "colectiva partido", "tooltip": "colectiva partido (cluster weight 0.0726; n_papers 2)", "value": 8.0726, "group": "Term"}, {"id": "term:colectiva partido luján", "label": "colectiva partido luján", "tooltip": "colectiva partido luján (cluster weight 0.0726; n_papers 2)", "value": 8.0726, "group": "Term"}, {"id": "term:colectivo cuestionaron", "label": "colectivo cuestionaron", "tooltip": "colectivo cuestionaron (cluster weight 0.0726; n_papers 2)", "value": 8.0726, "group": "Term"}, {"id": "term:inundación significa", "label": "inundación significa", "tooltip": "inundación significa (cluster weight 0.0726; n_papers 2)", "value": 8.0726, "group": "Term"}, {"id": "term:inundación significa bisagra", "label": "inundación significa bisagra", "tooltip": "inundación significa bisagra (cluster weight 0.0726; n_papers 2)", "value": 8.0726, "group": "Term"}, {"id": "term:gran la plata", "label": "Gran La Plata", "tooltip": "Gran La Plata (cluster weight 2.6; n_papers 2)", "value": 10.6, "group": "Term"}, {"id": "paper:conicet_11336_191495", "label": "conicet_11336_191495", "tooltip": "Territorios vulnerables y paisajes emergentes. Medidas no estructurales para la reducción del riesgo por inundación. Caso: Gran La Plata<br>(conicet_11336_191495)", "value": 12.0, "group": "Paper"}, {"id": "paper:conicet_11336_84188", "label": "conicet_11336_84188", "tooltip": "Cambio climático, inundaciones y “lagunas” de información: Análisis de inundaciones\r<br>a través del rastreo de artículos periodísticos en el Gran La Plata (Buenos Aires, Argentina)<br>(conicet_11336_84188)", "value": 12.0, "group": "Paper"}, {"id": "term:plata", "label": "Plata", "tooltip": "Plata (cluster weight 2.31; n_papers 2)", "value": 10.31, "group": "Term"}, {"id": "term:la plata", "label": "La Plata", "tooltip": "La Plata (cluster weight 2.2; n_papers 2)", "value": 10.2, "group": "Term"}, {"id": "term:glp", "label": "GLP", "tooltip": "GLP (cluster weight 2.16; n_papers 2)", "value": 10.16, "group": "Term"}, {"id": "term:río de la plata", "label": "Río de La Plata", "tooltip": "Río de La Plata (cluster weight 1.5; n_papers 2)", "value": 9.5, "group": "Term"}, {"id": "term:berisso y ensenada", "label": "Berisso y Ensenada", "tooltip": "Berisso y Ensenada (cluster weight 1.4; n_papers 2)", "value": 9.4, "group": "Term"}, {"id": "term:el día", "label": "El Día", "tooltip": "El Día (cluster weight 1.4; n_papers 2)", "value": 9.4, "group": "Term"}, {"id": "term:ensenada y la plata fuente", "label": "Ensenada y La Plata Fuente", "tooltip": "Ensenada y La Plata Fuente (cluster weight 1.2; n_papers 2)", "value": 9.2, "group": "Term"}, {"id": "term:paulo", "label": "Paulo", "tooltip": "Paulo (cluster weight 1.13; n_papers 2)", "value": 9.129999999999999, "group": "Term"}, {"id": "term:universidad nacional de la plata", "label": "Universidad Nacional de La Plata", "tooltip": "Universidad Nacional de La Plata (cluster weight 1.1; n_papers 2)", "value": 9.1, "group": "Term"}, {"id": "term:investigación", "label": "investigación", "tooltip": "investigación (cluster weight 0.1622; n_papers 2)", "value": 8.1622, "group": "Term"}, {"id": "term:acreditados", "label": "acreditados", "tooltip": "acreditados (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:acreditados naturaleza", "label": "acreditados naturaleza", "tooltip": "acreditados naturaleza (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:acreditados naturaleza interdisciplinaria", "label": "acreditados naturaleza interdisciplinaria", "tooltip": "acreditados naturaleza interdisciplinaria (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:catástrofe inundaciones", "label": "catástrofe inundaciones", "tooltip": "catástrofe inundaciones (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:catástrofe inundaciones urbanas", "label": "catástrofe inundaciones urbanas", "tooltip": "catástrofe inundaciones urbanas (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:glp materializado", "label": "glp materializado", "tooltip": "glp materializado (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:glp materializado distintos", "label": "glp materializado distintos", "tooltip": "glp materializado distintos (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:materializado", "label": "materializado", "tooltip": "materializado (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:materializado distintos", "label": "materializado distintos", "tooltip": "materializado distintos (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}, {"id": "term:materializado distintos proyectos", "label": "materializado distintos proyectos", "tooltip": "materializado distintos proyectos (cluster weight 0.1144; n_papers 2)", "value": 8.1144, "group": "Term"}], "edges": [{"from": "paper:conicet_11336_231590", "to": "term:luján", "value": 2.68}, {"from": "paper:conicet_11336_295757", "to": "term:luján", "value": 2.68}, {"from": "paper:conicet_11336_231590", "to": "term:el civismo", "value": 1.8}, {"from": "paper:conicet_11336_295757", "to": "term:el civismo", "value": 1.8}, {"from": "paper:conicet_11336_231590", "to": "term:buenos aires", "value": 1.6}, {"from": "paper:conicet_11336_295757", "to": "term:buenos aires", "value": 1.6}, {"from": "paper:conicet_11336_231590", "to": "term:subdirección de emergencia y defensa civil", "value": 1.5}, {"from": "paper:conicet_11336_295757", "to": "term:subdirección de emergencia y defensa civil", "value": 1.5}, {"from": "paper:conicet_11336_231590", "to": "term:mde", "value": 1.26}, {"from": "paper:conicet_11336_295757", "to": "term:mde", "value": 1.26}, {"from": "paper:conicet_11336_231590", "to": "term:ign", "value": 1.22}, {"from": "paper:conicet_11336_295757", "to": "term:ign", "value": 1.22}, {"from": "paper:conicet_11336_231590", "to": "term:bomberos voluntarios de luján", "value": 1.2}, {"from": "paper:conicet_11336_295757", "to": "term:bomberos voluntarios de luján", "value": 1.2}, {"from": "paper:conicet_11336_231590", "to": "term:modelo de elevación digital", "value": 1.2}, {"from": "paper:conicet_11336_295757", "to": "term:modelo de elevación digital", "value": 1.2}, {"from": "paper:conicet_11336_231590", "to": "term:modelo de elevación digital aerofotogramétrico", "value": 1.2}, {"from": "paper:conicet_11336_295757", "to": "term:modelo de elevación digital aerofotogramétrico", "value": 1.2}, {"from": "paper:conicet_11336_231590", "to": "term:inundaciones", "value": 0.1273}, {"from": "paper:conicet_11336_295757", "to": "term:inundaciones", "value": 0.1273}, {"from": "paper:conicet_11336_231590", "to": "term:organizaciones", "value": 0.1229}, {"from": "paper:conicet_11336_295757", "to": "term:organizaciones", "value": 0.1229}, {"from": "paper:conicet_11336_231590", "to": "term:partido", "value": 0.0991}, {"from": "paper:conicet_11336_295757", "to": "term:partido", "value": 0.0991}, {"from": "paper:conicet_11336_231590", "to": "term:políticas", "value": 0.0957}, {"from": "paper:conicet_11336_295757", "to": "term:políticas", "value": 0.0957}, {"from": "paper:conicet_11336_231590", "to": "term:proceso", "value": 0.088}, {"from": "paper:conicet_11336_295757", "to": "term:proceso", "value": 0.088}, {"from": "paper:conicet_11336_231590", "to": "term:colectiva partido", "value": 0.0726}, {"from": "paper:conicet_11336_295757", "to": "term:colectiva partido", "value": 0.0726}, {"from": "paper:conicet_11336_231590", "to": "term:colectiva partido luján", "value": 0.0726}, {"from": "paper:conicet_11336_295757", "to": "term:colectiva partido luján", "value": 0.0726}, {"from": "paper:conicet_11336_231590", "to": "term:colectivo cuestionaron", "value": 0.0726}, {"from": "paper:conicet_11336_295757", "to": "term:colectivo cuestionaron", "value": 0.0726}, {"from": "paper:conicet_11336_231590", "to": "term:inundación significa", "value": 0.0726}, {"from": "paper:conicet_11336_295757", "to": "term:inundación significa", "value": 0.0726}, {"from": "paper:conicet_11336_231590", "to": "term:inundación significa bisagra", "value": 0.0726}, {"from": "paper:conicet_11336_295757", "to": "term:inundación significa bisagra", "value": 0.0726}, {"from": "paper:conicet_11336_191495", "to": "term:gran la plata", "value": 2.6}, {"from": "paper:conicet_11336_84188", "to": "term:gran la plata", "value": 2.6}, {"from": "paper:conicet_11336_191495", "to": "term:plata", "value": 2.31}, {"from": "paper:conicet_11336_84188", "to": "term:plata", "value": 2.31}, {"from": "paper:conicet_11336_191495", "to": "term:la plata", "value": 2.2}, {"from": "paper:conicet_11336_84188", "to": "term:la plata", "value": 2.2}, {"from": "paper:conicet_11336_191495", "to": "term:glp", "value": 2.16}, {"from": "paper:conicet_11336_84188", "to": "term:glp", "value": 2.16}, {"from": "paper:conicet_11336_191495", "to": "term:río de la plata", "value": 1.5}, {"from": "paper:conicet_11336_84188", "to": "term:río de la plata", "value": 1.5}, {"from": "paper:conicet_11336_191495", "to": "term:berisso y ensenada", "value": 1.4}, {"from": "paper:conicet_11336_84188", "to": "term:berisso y ensenada", "value": 1.4}, {"from": "paper:conicet_11336_191495", "to": "term:el día", "value": 1.4}, {"from": "paper:conicet_11336_84188", "to": "term:el día", "value": 1.4}, {"from": "paper:conicet_11336_191495", "to": "term:ensenada y la plata fuente", "value": 1.2}, {"from": "paper:conicet_11336_84188", "to": "term:ensenada y la plata fuente", "value": 1.2}, {"from": "paper:conicet_11336_191495", "to": "term:paulo", "value": 1.13}, {"from": "paper:conicet_11336_84188", "to": "term:paulo", "value": 1.13}, {"from": "paper:conicet_11336_191495", "to": "term:universidad nacional de la plata", "value": 1.1}, {"from": "paper:conicet_11336_84188", "to": "term:universidad nacional de la plata", "value": 1.1}, {"from": "paper:conicet_11336_191495", "to": "term:investigación", "value": 0.1622}, {"from": "paper:conicet_11336_84188", "to": "term:investigación", "value": 0.1622}, {"from": "paper:conicet_11336_191495", "to": "term:acreditados", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:acreditados", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:acreditados naturaleza", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:acreditados naturaleza", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:acreditados naturaleza interdisciplinaria", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:acreditados naturaleza interdisciplinaria", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:catástrofe inundaciones", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:catástrofe inundaciones", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:catástrofe inundaciones urbanas", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:catástrofe inundaciones urbanas", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:glp materializado", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:glp materializado", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:glp materializado distintos", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:glp materializado distintos", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:materializado", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:materializado", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:materializado distintos", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:materializado distintos", "value": 0.1144}, {"from": "paper:conicet_11336_191495", "to": "term:materializado distintos proyectos", "value": 0.1144}, {"from": "paper:conicet_11336_84188", "to": "term:materializado distintos proyectos", "value": 0.1144}], "title": "Knowledge graph (conicet_inundaciones_10)", "resolution": 1.0};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const stats = document.getElementById('stats');
+    const statusEl = document.getElementById('status');
+    const slider = document.getElementById('resSlider');
+    const resValue = document.getElementById('resValue');
+    const apiEnabled = location.protocol === 'http:' || location.protocol === 'https:';
+
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () { tip.style.display = 'none'; });
+    network.on('dragStart', function () { tip.style.display = 'none'; });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') showTip(tip.innerHTML, evt);
+    });
+
+    function setStatus(msg, isErr) {
+      statusEl.textContent = msg || '';
+      statusEl.className = isErr ? 'err' : '';
+    }
+
+    function applyGraph(data) {
+      nodes.clear();
+      edges.clear();
+      nodes.add(data.nodes || []);
+      edges.add(data.edges || []);
+      const c = data.counts || {};
+      const n = c.nodes != null ? c.nodes : (data.nodes || []).length;
+      const e = c.edges != null ? c.edges : (data.edges || []).length;
+      const extra = [];
+      if (c.clusters != null) extra.push(c.clusters + ' clusters');
+      if (c.islands != null) extra.push(c.islands + ' islands');
+      stats.textContent = n + ' nodes · ' + e + ' edges'
+        + (extra.length ? ' · ' + extra.join(' · ') : '')
+        + ' — drag, zoom, hover';
+      const t = data.timing_ms || {};
+      setStatus(
+        'resolution=' + data.resolution
+        + (t.total != null ? ' · rebuilt in ' + t.total + ' ms' : '')
+      );
+      network.fit({ animation: false });
+    }
+
+    let debounceTimer = null;
+    let inflight = 0;
+    async function fetchResolution(res) {
+      if (!apiEnabled) {
+        setStatus('Slider needs pipeline kg --view (file:// has no API)', true);
+        return;
+      }
+      const my = ++inflight;
+      setStatus('rebuilding at resolution=' + res + '…');
+      try {
+        const resp = await fetch('/api/graph?resolution=' + encodeURIComponent(res));
+        const data = await resp.json();
+        if (my !== inflight) return;
+        if (!resp.ok || !data.ok) {
+          setStatus((data && data.error) || ('HTTP ' + resp.status), true);
+          return;
+        }
+        applyGraph(data);
+      } catch (err) {
+        if (my !== inflight) return;
+        setStatus(String(err), true);
+      }
+    }
+
+    slider.addEventListener('input', function () {
+      resValue.textContent = slider.value;
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        fetchResolution(slider.value);
+      }, 150);
+    });
+
+    if (apiEnabled) {
+      setStatus('Live API ready — drag the slider to re-cluster');
+    } else {
+      slider.disabled = true;
+      setStatus('Open via pipeline kg --view for live rebuild', true);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_138814",
+  "phrases": [
+    {
+      "phrase": "coronel suárez",
+      "display": "Coronel Suárez",
+      "score": 4.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "universidad nacional del sur",
+      "display": "Universidad Nacional del Sur",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "buenos aires",
+      "display": "Buenos Aires",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "santa trinidad",
+      "display": "Santa Trinidad",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "san josé",
+      "display": "San José",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united nations general assembly",
+      "display": "United Nations General Assembly",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "san josé y santa maría",
+      "display": "San José y Santa María",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "coronel",
+      "display": "Coronel",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "suárez",
+      "display": "Suárez",
+      "score": 1.33,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peu",
+      "display": "PEU",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "inundación anegamiento",
+      "score": 0.0442,
+      "channel": "tfidf",
+      "display": "inundación anegamiento"
+    },
+    {
+      "phrase": "riesgo",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "Riesgo"
+    },
+    {
+      "phrase": "riesgo inundación anegamiento",
+      "score": 0.0419,
+      "channel": "tfidf",
+      "display": "riesgo inundación anegamiento"
+    },
+    {
+      "phrase": "extensión universitaria",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "Extensión Universitaria"
+    },
+    {
+      "phrase": "talleres",
+      "score": 0.0402,
+      "channel": "tfidf",
+      "display": "talleres"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

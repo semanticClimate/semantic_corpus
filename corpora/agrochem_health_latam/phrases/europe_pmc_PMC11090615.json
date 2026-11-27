@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC11090615",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "program for analyzing pesticide residues in foods",
+      "display": "Program for Analyzing Pesticide Residues in Foods",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "prospective register of systematic reviews",
+      "display": "Prospective Register of Systematic Reviews",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brazilian consumer defense institute",
+      "display": "Brazilian Consumer Defense Institute",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "federal commission for protection",
+      "display": "Federal Commission for Protection",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "checklist for prevalence studies",
+      "display": "Checklist for Prevalence Studies",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ddt",
+      "display": "DDT",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin",
+      "display": "Latin",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dde",
+      "display": "DDE",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "breast milk",
+      "score": 0.0603,
+      "channel": "tfidf",
+      "display": "Breast milk"
+    },
+    {
+      "phrase": "milk",
+      "score": 0.0596,
+      "channel": "tfidf",
+      "display": "milk"
+    },
+    {
+      "phrase": "breast",
+      "score": 0.0596,
+      "channel": "tfidf",
+      "display": "Breast"
+    },
+    {
+      "phrase": "pesticides",
+      "score": 0.0472,
+      "channel": "tfidf",
+      "display": "Pesticides"
+    },
+    {
+      "phrase": "risk bias",
+      "score": 0.0462,
+      "channel": "tfidf",
+      "display": "risk bias"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

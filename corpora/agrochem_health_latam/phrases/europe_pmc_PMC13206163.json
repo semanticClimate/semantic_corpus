@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13206163",
+  "phrases": [
+    {
+      "phrase": "march and december",
+      "display": "March and December",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el mentidero",
+      "display": "El Mentidero",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of guadalajara",
+      "display": "University of Guadalajara",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "statistical supplementary materials",
+      "display": "Statistical Supplementary Materials",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of public health",
+      "display": "Department of Public Health",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agilent technologies",
+      "display": "Agilent Technologies",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ethics committee",
+      "display": "Ethics Committee",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ms",
+      "display": "MS",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "december",
+      "display": "December",
+      "score": 1.15,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "iqr",
+      "display": "IQR",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exposure",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "Exposure"
+    },
+    {
+      "phrase": "children",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "Children"
+    },
+    {
+      "phrase": "biomonitoring",
+      "score": 0.0371,
+      "channel": "tfidf",
+      "display": "Biomonitoring"
+    },
+    {
+      "phrase": "pesticide",
+      "score": 0.0361,
+      "channel": "tfidf",
+      "display": "pesticide"
+    },
+    {
+      "phrase": "paired",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Paired"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

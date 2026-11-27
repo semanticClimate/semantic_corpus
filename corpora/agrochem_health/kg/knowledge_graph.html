@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (agrochem_health)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #mynetwork { width: 100%; height: calc(100vh - 64px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    /* Hide any leftover vis built-in tooltip */
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge graph (agrochem_health)</h1>
+    <p>12 nodes · 12 edges — drag, zoom, hover</p>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:nps", "label": "NPs", "tooltip": "NPs (cluster weight 3.6; n_papers 2)", "value": 11.6, "group": "Term"}, {"id": "paper:europe_pmc_PMC13510588", "label": "PMC13510588", "tooltip": "A pro-natural product design strategy affords ester-based green fungicide candidates.<br>(PMC13510588)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13679550", "label": "PMC13679550", "tooltip": "Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming.<br>(PMC13679550)", "value": 12.0, "group": "Paper"}, {"id": "term:or", "label": "OR", "tooltip": "OR (cluster weight 1.46; n_papers 2)", "value": 9.46, "group": "Term"}, {"id": "term:delivery", "label": "Delivery", "tooltip": "Delivery (cluster weight 0.0385; n_papers 2)", "value": 8.0385, "group": "Term"}, {"id": "term:pfas", "label": "PFAS", "tooltip": "PFAS (cluster weight 3.8; n_papers 2)", "value": 11.8, "group": "Term"}, {"id": "paper:europe_pmc_PMC13226431", "label": "PMC13226431", "tooltip": "Addressing contaminants of emerging concern in the United States public water systems.<br>(PMC13226431)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13455386", "label": "PMC13455386", "tooltip": "Trifluoroacetic Acid (TFA) Exceeds All Other Extractable Organofluorine in Drinking Water from Eastern Massachusetts, United States.<br>(PMC13455386)", "value": 12.0, "group": "Paper"}, {"id": "term:drinking water", "label": "Drinking Water", "tooltip": "Drinking Water (cluster weight 0.0918; n_papers 2)", "value": 8.0918, "group": "Term"}, {"id": "term:web of science", "label": "Web of Science", "tooltip": "Web of Science (cluster weight 2.2; n_papers 2)", "value": 10.2, "group": "Term"}, {"id": "paper:europe_pmc_PMC13652793", "label": "PMC13652793", "tooltip": "Nanopolysaccharides in agriculture. Advances, applications, and future prospects: a review<br>(PMC13652793)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13707259", "label": "PMC13707259", "tooltip": "Phlorotannins and Fucans from Phaeophyceae as Phaeophyceae Agrochemical Leads: Structural Diversity, Molecular Mechanisms, and Delivery Systems.<br>(PMC13707259)", "value": 12.0, "group": "Paper"}], "edges": [{"from": "paper:europe_pmc_PMC13510588", "to": "term:nps", "value": 3.6}, {"from": "paper:europe_pmc_PMC13679550", "to": "term:nps", "value": 3.6}, {"from": "paper:europe_pmc_PMC13510588", "to": "term:or", "value": 1.46}, {"from": "paper:europe_pmc_PMC13679550", "to": "term:or", "value": 1.46}, {"from": "paper:europe_pmc_PMC13510588", "to": "term:delivery", "value": 0.0385}, {"from": "paper:europe_pmc_PMC13679550", "to": "term:delivery", "value": 0.0385}, {"from": "paper:europe_pmc_PMC13226431", "to": "term:pfas", "value": 3.8}, {"from": "paper:europe_pmc_PMC13455386", "to": "term:pfas", "value": 3.8}, {"from": "paper:europe_pmc_PMC13226431", "to": "term:drinking water", "value": 0.0918}, {"from": "paper:europe_pmc_PMC13455386", "to": "term:drinking water", "value": 0.0918}, {"from": "paper:europe_pmc_PMC13652793", "to": "term:web of science", "value": 2.2}, {"from": "paper:europe_pmc_PMC13707259", "to": "term:web of science", "value": 2.2}], "title": "Knowledge graph (agrochem_health)"};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () {
+      tip.style.display = 'none';
+    });
+    network.on('dragStart', function () {
+      tip.style.display = 'none';
+    });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') {
+        showTip(tip.innerHTML, evt);
+      }
+    });
+  </script>
+</body>
+</html>

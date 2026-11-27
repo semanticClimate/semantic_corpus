@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13325368",
+  "phrases": [
+    {
+      "phrase": "instruments universal analysis",
+      "display": "Instruments Universal Analysis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sustainable development goals",
+      "display": "Sustainable Development Goals",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fisher scientific chemicals",
+      "display": "Fisher Scientific Chemicals",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "clean water and sanitation",
+      "display": "Clean Water and Sanitation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "thermo fisher scientific",
+      "display": "Thermo Fisher Scientific",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "good health and well",
+      "display": "Good Health and Well",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "harding and reynolds",
+      "display": "Harding and Reynolds",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pcl",
+      "display": "PCL",
+      "score": 2.68,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mof",
+      "display": "MOF",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uio",
+      "display": "UiO",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mofs",
+      "score": 0.0582,
+      "channel": "tfidf",
+      "display": "MOFs"
+    },
+    {
+      "phrase": "uio-66",
+      "score": 0.0526,
+      "channel": "tfidf",
+      "display": "UiO-66"
+    },
+    {
+      "phrase": "uio-66-nh2",
+      "score": 0.0522,
+      "channel": "tfidf",
+      "display": "UiO-66-NH2"
+    },
+    {
+      "phrase": "composites",
+      "score": 0.0498,
+      "channel": "tfidf",
+      "display": "composites"
+    },
+    {
+      "phrase": "mcpa",
+      "score": 0.0493,
+      "channel": "tfidf",
+      "display": "MCPA"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

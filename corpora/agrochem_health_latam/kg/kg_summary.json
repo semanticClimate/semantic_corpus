@@ -1,0 +1,35 @@
+{
+  "step": "kg",
+  "workdir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam",
+  "graph_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\kg\\graph.json",
+  "islands_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\kg\\islands.json",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 22,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "counts": {
+    "nodes": 35,
+    "edges": 42,
+    "papers": 14,
+    "terms": 21,
+    "encyclopedia": 0,
+    "islands": 7,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-05T14:36:32.912717+00:00",
+  "html_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\kg\\knowledge_graph.html"
+}

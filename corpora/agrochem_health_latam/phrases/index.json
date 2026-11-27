@@ -1,0 +1,167 @@
+{
+  "step": 2,
+  "corpus_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam",
+  "bag_root": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam",
+  "phrases_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "paper_count": 20,
+  "papers_from_cache": 0,
+  "papers_extracted": 20,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 300,
+  "unique_phrases": 253,
+  "elapsed_s": 36.4064,
+  "paper_ids": [
+    "europe_pmc_PMC11090615",
+    "europe_pmc_PMC11643924",
+    "europe_pmc_PMC11947944",
+    "europe_pmc_PMC11996790",
+    "europe_pmc_PMC12331598",
+    "europe_pmc_PMC12591810",
+    "europe_pmc_PMC12818217",
+    "europe_pmc_PMC12822919",
+    "europe_pmc_PMC12940714",
+    "europe_pmc_PMC13008687",
+    "europe_pmc_PMC13054996",
+    "europe_pmc_PMC13106253",
+    "europe_pmc_PMC13206163",
+    "europe_pmc_PMC13351106",
+    "europe_pmc_PMC13415142",
+    "europe_pmc_PMC13447651",
+    "europe_pmc_PMC13465641",
+    "europe_pmc_PMC13606739",
+    "europe_pmc_PMC13653337",
+    "europe_pmc_PMC13722186"
+  ],
+  "papers": [
+    {
+      "paper_id": "europe_pmc_PMC11090615",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC11090615.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11643924",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC11643924.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11947944",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC11947944.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC11996790",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC11996790.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12331598",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC12331598.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12591810",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC12591810.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12818217",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC12818217.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12822919",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC12822919.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC12940714",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC12940714.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13008687",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13008687.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13054996",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13054996.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13106253",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13106253.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13206163",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13206163.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13351106",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13351106.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13415142",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13415142.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13447651",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13447651.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13465641",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13465641.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13606739",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13606739.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13653337",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13653337.json"
+    },
+    {
+      "paper_id": "europe_pmc_PMC13722186",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases\\europe_pmc_PMC13722186.json"
+    }
+  ]
+}

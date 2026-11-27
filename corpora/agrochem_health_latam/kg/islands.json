@@ -1,0 +1,104 @@
+{
+  "max_island": 20,
+  "island_count": 7,
+  "islands": [
+    {
+      "size": 9,
+      "node_ids": [
+        "paper:europe_pmc_PMC11947944",
+        "paper:europe_pmc_PMC13106253",
+        "term:al",
+        "term:brazil",
+        "term:brazilian",
+        "term:et",
+        "term:pesticide",
+        "term:pesticides",
+        "term:united states"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC12591810",
+        "paper:europe_pmc_PMC13722186",
+        "term:america",
+        "term:central america",
+        "term:south america",
+        "term:studies"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC11090615",
+        "paper:europe_pmc_PMC13054996",
+        "term:ddt",
+        "term:latin america",
+        "term:latin american"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC11643924",
+        "paper:europe_pmc_PMC13415142",
+        "term:food and agriculture organization",
+        "term:united nations"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC12822919",
+        "paper:europe_pmc_PMC12940714",
+        "term:foundation for statistical computing",
+        "term:vector"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC13447651",
+        "paper:europe_pmc_PMC13465641",
+        "term:health",
+        "term:one health"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC12331598",
+        "paper:europe_pmc_PMC12818217",
+        "term:saharan africa"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

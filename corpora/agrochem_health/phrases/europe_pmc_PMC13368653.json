@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13368653",
+  "phrases": [
+    {
+      "phrase": "epidemic of nephropathy in central america and mexico",
+      "display": "Epidemic of Nephropathy in Central America and Mexico",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pan american health organization",
+      "display": "Pan American Health Organization",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el salvador and nicaragua",
+      "display": "El Salvador and Nicaragua",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el salvador",
+      "display": "El Salvador",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "costa rica",
+      "display": "Costa Rica",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aspergillus and penicillium",
+      "display": "Aspergillus and Penicillium",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "biomonitoring in nicaraguan",
+      "display": "Biomonitoring in Nicaraguan",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ckd",
+      "display": "CKD",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "men",
+      "display": "MeN",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ota",
+      "display": "OTA",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kidney",
+      "score": 0.0467,
+      "channel": "tfidf",
+      "display": "kidney"
+    },
+    {
+      "phrase": "renal",
+      "score": 0.0462,
+      "channel": "tfidf",
+      "display": "renal"
+    },
+    {
+      "phrase": "heat",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "heat"
+    },
+    {
+      "phrase": "nephropathy",
+      "score": 0.0448,
+      "channel": "tfidf",
+      "display": "Nephropathy"
+    },
+    {
+      "phrase": "occupational",
+      "score": 0.0445,
+      "channel": "tfidf",
+      "display": "occupational"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

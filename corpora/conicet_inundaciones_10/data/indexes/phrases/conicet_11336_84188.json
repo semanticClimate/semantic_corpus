@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_84188",
+  "phrases": [
+    {
+      "phrase": "la plata",
+      "display": "La Plata",
+      "score": 2.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "río de la plata",
+      "display": "Río de La Plata",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gran la plata",
+      "display": "Gran La Plata",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "berisso y ensenada",
+      "display": "Berisso y Ensenada",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el día",
+      "display": "El Día",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "buenos aires",
+      "display": "Buenos Aires",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ensenada y la plata fuente",
+      "display": "Ensenada y La Plata Fuente",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "plata",
+      "display": "Plata",
+      "score": 1.29,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "glp",
+      "display": "GLP",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "paulo",
+      "display": "Paulo",
+      "score": 1.13,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "riesgo",
+      "score": 0.0465,
+      "channel": "tfidf",
+      "display": "riesgo"
+    },
+    {
+      "phrase": "cad",
+      "score": 0.045,
+      "channel": "tfidf",
+      "display": "Cad"
+    },
+    {
+      "phrase": "cad metrop",
+      "score": 0.045,
+      "channel": "tfidf",
+      "display": "cad metrop"
+    },
+    {
+      "phrase": "cad metrop paulo",
+      "score": 0.045,
+      "channel": "tfidf",
+      "display": "cad metrop paulo"
+    },
+    {
+      "phrase": "metrop",
+      "score": 0.045,
+      "channel": "tfidf",
+      "display": "Metrop"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

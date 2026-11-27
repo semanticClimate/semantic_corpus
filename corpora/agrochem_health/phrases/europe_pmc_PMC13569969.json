@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13569969",
+  "phrases": [
+    {
+      "phrase": "supporting information and table",
+      "display": "Supporting Information and Table",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "increased energy efficiency",
+      "display": "Increased Energy Efficiency",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "improved resource use",
+      "display": "Improved Resource Use",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "guiding principles of responsible chemistry",
+      "display": "Guiding Principles of Responsible Chemistry",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "authorization and restriction of chemicals",
+      "display": "Authorization and Restriction of Chemicals",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reduced human and environmental hazards",
+      "display": "Reduced Human and Environmental Hazards",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reduced human and environmental hazard",
+      "display": "Reduced Human and Environmental Hazard",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cdi",
+      "display": "CDI",
+      "score": 2.56,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odi",
+      "display": "ODI",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nmi",
+      "display": "NMI",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mechanochemical",
+      "score": 0.047,
+      "channel": "tfidf",
+      "display": "Mechanochemical"
+    },
+    {
+      "phrase": "reaction",
+      "score": 0.0432,
+      "channel": "tfidf",
+      "display": "Reaction"
+    },
+    {
+      "phrase": "milling",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "milling"
+    },
+    {
+      "phrase": "ball",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "ball"
+    },
+    {
+      "phrase": "odi mediated",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "odi mediated"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

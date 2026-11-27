@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_117125",
+  "phrases": [
+    {
+      "phrase": "provincia de buenos aires",
+      "display": "Provincia de Buenos Aires",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "florentino ameghino",
+      "display": "Florentino Ameghino",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "xix",
+      "display": "XIX",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sequías",
+      "score": 0.1158,
+      "channel": "tfidf",
+      "display": "sequías"
+    },
+    {
+      "phrase": "secas",
+      "score": 0.1158,
+      "channel": "tfidf",
+      "display": "secas"
+    },
+    {
+      "phrase": "periódicas",
+      "score": 0.1076,
+      "channel": "tfidf",
+      "display": "periódicas"
+    },
+    {
+      "phrase": "períodos",
+      "score": 0.1076,
+      "channel": "tfidf",
+      "display": "períodos"
+    },
+    {
+      "phrase": "consonancia",
+      "score": 0.1076,
+      "channel": "tfidf",
+      "display": "consonancia"
+    },
+    {
+      "phrase": "inundaciones",
+      "score": 0.1059,
+      "channel": "tfidf",
+      "display": "inundaciones"
+    },
+    {
+      "phrase": "hídricos",
+      "score": 0.0973,
+      "channel": "tfidf",
+      "display": "hídricos"
+    },
+    {
+      "phrase": "ocurrencia",
+      "score": 0.0936,
+      "channel": "tfidf",
+      "display": "ocurrencia"
+    },
+    {
+      "phrase": "tema",
+      "score": 0.0878,
+      "channel": "tfidf",
+      "display": "tema"
+    },
+    {
+      "phrase": "vez",
+      "score": 0.0855,
+      "channel": "tfidf",
+      "display": "vez"
+    },
+    {
+      "phrase": "sequías forman",
+      "score": 0.0684,
+      "channel": "tfidf",
+      "display": "sequías forman"
+    },
+    {
+      "phrase": "sequías forman proceso",
+      "score": 0.0684,
+      "channel": "tfidf",
+      "display": "sequías forman proceso"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "json-abstract",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

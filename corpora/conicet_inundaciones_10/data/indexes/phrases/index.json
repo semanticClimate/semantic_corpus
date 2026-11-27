@@ -1,0 +1,97 @@
+{
+  "step": 2,
+  "corpus_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10",
+  "bag_root": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10",
+  "phrases_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "paper_count": 10,
+  "papers_from_cache": 0,
+  "papers_extracted": 10,
+  "papers_empty_text": 0,
+  "total_phrase_mentions": 150,
+  "unique_phrases": 138,
+  "elapsed_s": 5.679,
+  "paper_ids": [
+    "conicet_11336_117125",
+    "conicet_11336_138814",
+    "conicet_11336_191495",
+    "conicet_11336_203647",
+    "conicet_11336_231590",
+    "conicet_11336_247996",
+    "conicet_11336_272192",
+    "conicet_11336_295757",
+    "conicet_11336_77492",
+    "conicet_11336_84188"
+  ],
+  "papers": [
+    {
+      "paper_id": "conicet_11336_117125",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_117125.json"
+    },
+    {
+      "paper_id": "conicet_11336_138814",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_138814.json"
+    },
+    {
+      "paper_id": "conicet_11336_191495",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_191495.json"
+    },
+    {
+      "paper_id": "conicet_11336_203647",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_203647.json"
+    },
+    {
+      "paper_id": "conicet_11336_231590",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_231590.json"
+    },
+    {
+      "paper_id": "conicet_11336_247996",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_247996.json"
+    },
+    {
+      "paper_id": "conicet_11336_272192",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_272192.json"
+    },
+    {
+      "paper_id": "conicet_11336_295757",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_295757.json"
+    },
+    {
+      "paper_id": "conicet_11336_77492",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_77492.json"
+    },
+    {
+      "paper_id": "conicet_11336_84188",
+      "phrase_count": 15,
+      "source": "extracted",
+      "cache_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\data\\indexes\\phrases\\conicet_11336_84188.json"
+    }
+  ]
+}

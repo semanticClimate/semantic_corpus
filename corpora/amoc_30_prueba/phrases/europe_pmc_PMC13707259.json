@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13707259",
+  "phrases": [
+    {
+      "phrase": "european pesticide regulation",
+      "display": "European Pesticide Regulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "scopus and google scholar",
+      "display": "Scopus and Google Scholar",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "graphical abstract",
+      "display": "Graphical Abstract",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "under regulation",
+      "display": "Under Regulation",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "delta and sigma",
+      "display": "Delta and Sigma",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european union",
+      "display": "European Union",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "web of science",
+      "display": "Web of Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "phaeophyceae",
+      "display": "Phaeophyceae",
+      "score": 1.27,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sar",
+      "display": "SAR",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "or",
+      "display": "OR",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "phlorotannins",
+      "score": 0.0447,
+      "channel": "tfidf",
+      "display": "Phlorotannins"
+    },
+    {
+      "phrase": "metabolites",
+      "score": 0.036,
+      "channel": "tfidf",
+      "display": "metabolites"
+    },
+    {
+      "phrase": "marine",
+      "score": 0.0352,
+      "channel": "tfidf",
+      "display": "Marine"
+    },
+    {
+      "phrase": "brown algae",
+      "score": 0.0345,
+      "channel": "tfidf",
+      "display": "Brown algae"
+    },
+    {
+      "phrase": "aryl",
+      "score": 0.034,
+      "channel": "tfidf",
+      "display": "aryl"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

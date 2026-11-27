@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13025618",
+  "phrases": [
+    {
+      "phrase": "biodegradability environmentally",
+      "display": "Biodegradability Environmentally",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "affordability mechanical",
+      "display": "Affordability Mechanical",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "renewability adequate",
+      "display": "Renewability Adequate",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "biostimulant water",
+      "display": "Biostimulant Water",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "durability tunable",
+      "display": "Durability Tunable",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "inexpensive non",
+      "display": "Inexpensive Non",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "benignity poor",
+      "display": "Benignity Poor",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "peg",
+      "display": "PEG",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "crf",
+      "display": "CRF",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nmba",
+      "display": "NMBA",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hydrogels",
+      "score": 0.0524,
+      "channel": "tfidf",
+      "display": "Hydrogels"
+    },
+    {
+      "phrase": "hydrogel",
+      "score": 0.0403,
+      "channel": "tfidf",
+      "display": "hydrogel"
+    },
+    {
+      "phrase": "crosslinking",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "Crosslinking"
+    },
+    {
+      "phrase": "swelling",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "swelling"
+    },
+    {
+      "phrase": "gelation",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Gelation"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

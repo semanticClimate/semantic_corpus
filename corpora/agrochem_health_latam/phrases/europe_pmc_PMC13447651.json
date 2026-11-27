@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13447651",
+  "phrases": [
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "human health nexus",
+      "display": "Human Health Nexus",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "united nations",
+      "display": "United Nations",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "law of return",
+      "display": "Law of Return",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international year of millets",
+      "display": "International Year of Millets",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "global plant clinic",
+      "display": "Global Plant Clinic",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ch",
+      "display": "CH",
+      "score": 2.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soc",
+      "display": "SOC",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ca",
+      "display": "CA",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "soil health",
+      "score": 0.0448,
+      "channel": "tfidf",
+      "display": "Soil health"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0433,
+      "channel": "tfidf",
+      "display": "Soil"
+    },
+    {
+      "phrase": "crop",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "Crop"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Health"
+    },
+    {
+      "phrase": "grown",
+      "score": 0.0386,
+      "channel": "tfidf",
+      "display": "grown"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

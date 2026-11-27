@@ -1,0 +1,43 @@
+{
+  "pmcid": "PMC13600945",
+  "pmid": "42742168",
+  "title": "Phosphine-mediated azine C-H couplings with water and ammonia.",
+  "abstract": "The unique reactivity of transition metals has advanced C-H functionalization chemistry, enabling practitioners to directly modify drug and agrochemical compounds during structure-activity relationship (SAR) studies. These metals are particularly adept at transforming the C-H bonds of arenes and aromatic heterocycles, generating new reactions that form C-C and C-heteroatom bonds. However, among the many potential coupling partners, (hetero)arene C-H coupling reactions with water and ammonia are rare<sup>1-5</sup>. Despite being two of the most abundant chemicals on Earth, their reactivity can be at odds with transition metal complexes and the elementary steps associated with C-O/C-N bond formation<sup>6</sup>. We suspected that elements outside of the transition metal block might instead facilitate these reactions. Here we show that simple triarylphosphines enable selective azine C-H coupling with water and ammonia. The reactions proceed by a distinct mechanism, in which pendant aldehyde and imine functional groups interconvert to acetal- and aminal-type forms, studied here both experimentally and computationally. This unusual example of neighbouring group participation effectively delivers water and ammonia molecules into a phosphorus(V) coordination environment, promoting C-O and C-N bond formation through ligand-coupling reactions<sup>7</sup>. A broad range of pyridines are compatible, as well as quinolines and diazines, and the chemistry functions as a late-stage tactic for hydroxylation and amination of complex pharmaceuticals and agrochemicals.",
+  "authors": [
+    "Nottingham KG",
+    "Brunner DA",
+    "Dalmau D",
+    "Melanese AK",
+    "Alegre-Requena JV",
+    "Paton RS",
+    "McNally A"
+  ],
+  "publication_date": "2026-08-11",
+  "journal": "",
+  "doi": "10.1038/s41586-026-10991-w",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41586-026-10991-w"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13600945"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13600945?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

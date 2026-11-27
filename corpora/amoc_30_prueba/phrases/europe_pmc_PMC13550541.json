@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13550541",
+  "phrases": [
+    {
+      "phrase": "elaboration likelihood model",
+      "display": "Elaboration Likelihood Model",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "kerman and fars",
+      "display": "Kerman and Fars",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "partial least squares structural equation modeling",
+      "display": "Partial Least Squares Structural Equation Modeling",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "unified theory of acceptance and use of technology",
+      "display": "Unified Theory of Acceptance and Use of Technology",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ministry of jihad agriculture of iran",
+      "display": "Ministry of Jihad Agriculture of Iran",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "average variance extracted",
+      "display": "Average Variance Extracted",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "perceived attributes model",
+      "display": "Perceived Attributes Model",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "elm",
+      "display": "ELM",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "api",
+      "display": "API",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ast",
+      "display": "AST",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "safety technologies",
+      "score": 0.046,
+      "channel": "tfidf",
+      "display": "Safety technologies"
+    },
+    {
+      "phrase": "perceived",
+      "score": 0.0408,
+      "channel": "tfidf",
+      "display": "Perceived"
+    },
+    {
+      "phrase": "perceived risk",
+      "score": 0.0407,
+      "channel": "tfidf",
+      "display": "Perceived risk"
+    },
+    {
+      "phrase": "greenhouse",
+      "score": 0.0391,
+      "channel": "tfidf",
+      "display": "Greenhouse"
+    },
+    {
+      "phrase": "attitude",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "Attitude"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

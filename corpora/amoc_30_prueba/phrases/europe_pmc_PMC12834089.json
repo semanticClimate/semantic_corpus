@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12834089",
+  "phrases": [
+    {
+      "phrase": "preferred reporting items for systematic review and meta",
+      "display": "Preferred Reporting Items for Systematic Review and Meta",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "commission on social determinants of health",
+      "display": "Commission on Social Determinants of Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "randomized studies of interventions",
+      "display": "Randomized Studies of Interventions",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cochrane bias methods group",
+      "display": "Cochrane Bias Methods Group",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "development and evaluations",
+      "display": "Development and Evaluations",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "grading of recommendations",
+      "display": "Grading of Recommendations",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hnc",
+      "display": "HNC",
+      "score": 1.36,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "who",
+      "display": "WHO",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "grade",
+      "display": "GRADE",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "determinants",
+      "score": 0.0541,
+      "channel": "tfidf",
+      "display": "Determinants"
+    },
+    {
+      "phrase": "exposure",
+      "score": 0.0467,
+      "channel": "tfidf",
+      "display": "Exposure"
+    },
+    {
+      "phrase": "review",
+      "score": 0.0454,
+      "channel": "tfidf",
+      "display": "Review"
+    },
+    {
+      "phrase": "pesticide exposure",
+      "score": 0.0445,
+      "channel": "tfidf",
+      "display": "pesticide exposure"
+    },
+    {
+      "phrase": "cancer",
+      "score": 0.0439,
+      "channel": "tfidf",
+      "display": "cancer"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

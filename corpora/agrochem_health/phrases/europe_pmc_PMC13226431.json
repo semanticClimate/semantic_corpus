@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13226431",
+  "phrases": [
+    {
+      "phrase": "water framework directive",
+      "display": "Water Framework Directive",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national primary drinking water regulations",
+      "display": "National Primary Drinking Water Regulations",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "unregulated contaminant monitoring rule",
+      "display": "Unregulated Contaminant Monitoring Rule",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "drinking water state revolving fund",
+      "display": "Drinking Water State Revolving Fund",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "emerging contaminants in small",
+      "display": "Emerging Contaminants in Small",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "food and drug administration",
+      "display": "Food and Drug Administration",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "toxic substances control act",
+      "display": "Toxic Substances Control Act",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pfas",
+      "display": "PFAS",
+      "score": 1.86,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "usepa",
+      "display": "USEPA",
+      "score": 1.82,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "us",
+      "display": "US",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cecs",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "CECs"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0365,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "drinking water",
+      "score": 0.0351,
+      "channel": "tfidf",
+      "display": "Drinking Water"
+    },
+    {
+      "phrase": "policy",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "policy"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

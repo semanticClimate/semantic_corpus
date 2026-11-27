@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13722186",
+  "phrases": [
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 2.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "french guiana",
+      "display": "French Guiana",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rapa nui",
+      "display": "Rapa Nui",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institut pasteur of french guiana",
+      "display": "Institut Pasteur of French Guiana",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "universidad nacional",
+      "display": "Universidad Nacional",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "instituto nacional",
+      "display": "Instituto Nacional",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "winsa",
+      "display": "WINSA",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "america",
+      "display": "America",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south",
+      "display": "South",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vector",
+      "score": 0.0471,
+      "channel": "tfidf",
+      "display": "Vector"
+    },
+    {
+      "phrase": "resistance",
+      "score": 0.0466,
+      "channel": "tfidf",
+      "display": "Resistance"
+    },
+    {
+      "phrase": "insecticide resistance",
+      "score": 0.0456,
+      "channel": "tfidf",
+      "display": "Insecticide Resistance"
+    },
+    {
+      "phrase": "insecticide",
+      "score": 0.0445,
+      "channel": "tfidf",
+      "display": "Insecticide"
+    },
+    {
+      "phrase": "ae",
+      "score": 0.0433,
+      "channel": "tfidf",
+      "display": "Ae"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

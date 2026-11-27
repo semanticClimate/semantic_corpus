@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_203647",
+  "phrases": [
+    {
+      "phrase": "periódico la nación",
+      "display": "Periódico La Nación",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "buenos aires",
+      "display": "Buenos Aires",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "esteban echeverría",
+      "display": "Esteban Echeverría",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "periódico página",
+      "display": "Periódico Página",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "diario popular",
+      "display": "Diario Popular",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "info región",
+      "display": "Info Región",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "la nación",
+      "display": "La Nación",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "matanza",
+      "display": "Matanza",
+      "score": 1.31,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "abril",
+      "display": "Abril",
+      "score": 1.29,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agba",
+      "display": "AGBA",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "río matanza",
+      "score": 0.0397,
+      "channel": "tfidf",
+      "display": "río Matanza"
+    },
+    {
+      "phrase": "localidad abril",
+      "score": 0.0364,
+      "channel": "tfidf",
+      "display": "localidad abril"
+    },
+    {
+      "phrase": "periódico",
+      "score": 0.0356,
+      "channel": "tfidf",
+      "display": "Periódico"
+    },
+    {
+      "phrase": "prensa",
+      "score": 0.0349,
+      "channel": "tfidf",
+      "display": "Prensa"
+    },
+    {
+      "phrase": "natenzon",
+      "score": 0.0344,
+      "channel": "tfidf",
+      "display": "Natenzon"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

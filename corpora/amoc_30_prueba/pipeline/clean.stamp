@@ -1,0 +1,31 @@
+{
+  "step": "clean",
+  "status": "placeholder",
+  "workdir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\amoc_30_prueba",
+  "written_at": "2026-11-07T04:17:10.129607+00:00",
+  "options": {
+    "workdir": "corpora\\amoc_30_prueba",
+    "from_mode": "existing",
+    "query": null,
+    "limit": null,
+    "repository": null,
+    "source": null,
+    "phrase_method": "tfidf",
+    "phrase_n": 3,
+    "phrase_top": 15,
+    "cluster_resolution": 1.0,
+    "cluster_algorithm": "louvain",
+    "encyclopedia_lang": "en",
+    "max_entries": 100,
+    "min_score": 0.0,
+    "min_paper_count": 1,
+    "encyclopedia_source": "phrases",
+    "write_kg": true,
+    "kg_max_island": 20,
+    "kg_max_terms": 40,
+    "kg_min_paper_count": 2,
+    "kg_links": "clusters",
+    "kg_open": true
+  },
+  "note": "Placeholder for pipeline step 'clean' \u2014 not yet wired to real work."
+}

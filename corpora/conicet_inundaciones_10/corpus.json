@@ -1,0 +1,8 @@
+{
+  "layout": "bagit_packets",
+  "packets": "data/packets",
+  "indexes": "data/indexes",
+  "query": "inundaciones",
+  "limit": 10,
+  "repository": "conicet"
+}

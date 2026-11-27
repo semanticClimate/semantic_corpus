@@ -1,0 +1,44 @@
+{
+  "pmcid": "PMC13415142",
+  "pmid": "42514318",
+  "title": "Associations of Agricultural Practices, Food Handling, and Socioeconomic Conditions with Household Food Security Among Urban Households in Riobamba, Ecuador.",
+  "abstract": "<h4>Background</h4>Food insecurity remains a major public health challenge in many low- and middle-income countries, where environmental and socioeconomic conditions influence household access to adequate, safe, and nutritious food.<h4>Objectives</h4>This study aimed to evaluate the associations between environmental and socioeconomic factors and household food security in Riobamba, Ecuador.<h4>Methods</h4>A cross-sectional survey was conducted among 382 households using the Latin American and Caribbean Food Security Scale (ELCSA), complemented by structured and Likert-scale questions addressing agricultural production practices, food handling, waste management, and food choice and dietary diversity. Household food security status was classified according to the standard ELCSA scoring procedure and subsequently grouped into categories representing adequate or inadequate household food access and consumption. Binary Logit and Probit models were estimated to identify factors associated with household food security.<h4>Results</h4>The Probit model showed slightly better predictive performance (classification accuracy = 73.56%; Pseudo R<sup>2</sup> = 0.2729; LR χ<sup>2</sup> = 143.94; <i>p</i> < 0.01). Household income was the strongest predictor of food security status (Logit coefficient = 1.1977; <i>p</i> < 0.01). Among the environmental variables, agricultural production practices (β = 0.8649; <i>p</i> < 0.01), food handling practices (β = 0.3714; <i>p</i> < 0.05), and food choice and dietary diversity (β = 0.6479; <i>p</i> < 0.01) were positively associated with adequate household food access and consumption, whereas waste management practices were not significantly associated. Household size and gender were also significantly associated with food security outcomes.<h4>Conclusions</h4>These findings indicate that household food security in urban Ecuadorian settings is associated with both environmental and socioeconomic conditions. Policies promoting sustainable agricultural practices, safe food handling, dietary diversity, and socioeconomic well-being may contribute to strengthening household food security and nutrition.",
+  "authors": [
+    "Ayaviri-Nina VD",
+    "Mariño KC",
+    "Fernández GMQ",
+    "Giner-Pérez JM",
+    "Saraiva A",
+    "Alturki HA",
+    "Alslamah T",
+    "Raposo A"
+  ],
+  "publication_date": "2026-07-09",
+  "journal": "",
+  "doi": "10.3390/nu18142247",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.3390/nu18142247"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13415142"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13415142?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

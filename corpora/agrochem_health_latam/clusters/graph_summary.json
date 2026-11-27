@@ -1,0 +1,24 @@
+{
+  "step": 3,
+  "corpus_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam",
+  "phrases_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\phrases",
+  "clusters_dir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\clusters",
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "paper_count": 20,
+  "term_count": 253,
+  "edge_count": 300,
+  "community_count": 13,
+  "cluster_count": 7,
+  "orphan_paper_count": 6,
+  "orphan_term_count": 79,
+  "elapsed_s": 1.0143,
+  "clusters_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\clusters\\clusters.json",
+  "orphans_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health_latam\\clusters\\orphans.json"
+}

@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13054996",
+  "phrases": [
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european and asian",
+      "display": "European and Asian",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "puerto rican",
+      "display": "Puerto Rican",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "after bonferroni",
+      "display": "After Bonferroni",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "south america",
+      "display": "South America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "maule cohort",
+      "display": "Maule Cohort",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bcaa",
+      "display": "BCAA",
+      "score": 1.78,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ci",
+      "display": "CI",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mauco",
+      "display": "MAUCO",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amino",
+      "score": 0.0506,
+      "channel": "tfidf",
+      "display": "Amino"
+    },
+    {
+      "phrase": "amino acids",
+      "score": 0.0499,
+      "channel": "tfidf",
+      "display": "amino acids"
+    },
+    {
+      "phrase": "plasma",
+      "score": 0.0488,
+      "channel": "tfidf",
+      "display": "Plasma"
+    },
+    {
+      "phrase": "acids",
+      "score": 0.0481,
+      "channel": "tfidf",
+      "display": "acids"
+    },
+    {
+      "phrase": "isoleucine",
+      "score": 0.0434,
+      "channel": "tfidf",
+      "display": "Isoleucine"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

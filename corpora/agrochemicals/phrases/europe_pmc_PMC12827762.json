@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12827762",
+  "phrases": [
+    {
+      "phrase": "late embryogenesis abundant",
+      "display": "Late Embryogenesis Abundant",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dynactin and suppressor",
+      "display": "Dynactin and Suppressor",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "vashishtha and sabari",
+      "display": "Vashishtha and Sabari",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wheeler and von braun",
+      "display": "Wheeler and Von Braun",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stintzi and schaller",
+      "display": "Stintzi and Schaller",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "boothby and pielak",
+      "display": "Boothby and Pielak",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mughal and caetano",
+      "display": "Mughal and Caetano",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rna",
+      "display": "RNA",
+      "score": 1.24,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "llps",
+      "display": "LLPS",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "idps",
+      "display": "IDPs",
+      "score": 1.13,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0497,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0489,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "peptides",
+      "score": 0.0441,
+      "channel": "tfidf",
+      "display": "Peptides"
+    },
+    {
+      "phrase": "condensates",
+      "score": 0.0432,
+      "channel": "tfidf",
+      "display": "condensates"
+    },
+    {
+      "phrase": "small technologies",
+      "score": 0.0432,
+      "channel": "tfidf",
+      "display": "small technologies"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

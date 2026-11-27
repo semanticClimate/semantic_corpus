@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13208927",
+  "phrases": [
+    {
+      "phrase": "dry eye questionnaire",
+      "display": "Dry Eye Questionnaire",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "universidad santo",
+      "display": "Universidad Santo",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ethics committee of saint thomas university",
+      "display": "Ethics Committee of Saint Thomas University",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "declaration of helsinki",
+      "display": "Declaration of Helsinki",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "faculty of optometry",
+      "display": "Faculty of Optometry",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "obstructed meibomian",
+      "display": "Obstructed Meibomian",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "india and indonesia",
+      "display": "India and Indonesia",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ded",
+      "display": "DED",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "group",
+      "display": "Group",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ppe",
+      "display": "PPE",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ocular",
+      "score": 0.0578,
+      "channel": "tfidf",
+      "display": "Ocular"
+    },
+    {
+      "phrase": "ocular surface",
+      "score": 0.0565,
+      "channel": "tfidf",
+      "display": "Ocular surface"
+    },
+    {
+      "phrase": "tear",
+      "score": 0.0525,
+      "channel": "tfidf",
+      "display": "Tear"
+    },
+    {
+      "phrase": "dry eye",
+      "score": 0.0469,
+      "channel": "tfidf",
+      "display": "Dry Eye"
+    },
+    {
+      "phrase": "eye",
+      "score": 0.0463,
+      "channel": "tfidf",
+      "display": "Eye"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

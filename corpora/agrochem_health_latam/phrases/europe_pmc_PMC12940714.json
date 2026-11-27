@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12940714",
+  "phrases": [
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "national institute of statistics and census",
+      "display": "National Institute of Statistics and Census",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin american",
+      "display": "Latin American",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "international standard industrial classification",
+      "display": "International Standard Industrial Classification",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "foundation for statistical computing",
+      "display": "Foundation for Statistical Computing",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wellbeing and aging survey",
+      "display": "Wellbeing and Aging Survey",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america and ecuador",
+      "display": "Latin America and Ecuador",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sabe",
+      "display": "SABE",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ecuador",
+      "display": "Ecuador",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "inec",
+      "display": "INEC",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "self-rated",
+      "score": 0.047,
+      "channel": "tfidf",
+      "display": "Self-rated"
+    },
+    {
+      "phrase": "self-rated health",
+      "score": 0.047,
+      "channel": "tfidf",
+      "display": "Self-rated health"
+    },
+    {
+      "phrase": "older",
+      "score": 0.0459,
+      "channel": "tfidf",
+      "display": "Older"
+    },
+    {
+      "phrase": "occupational",
+      "score": 0.0421,
+      "channel": "tfidf",
+      "display": "Occupational"
+    },
+    {
+      "phrase": "older adults",
+      "score": 0.0418,
+      "channel": "tfidf",
+      "display": "Older adults"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

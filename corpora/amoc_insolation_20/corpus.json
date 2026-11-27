@@ -1,0 +1,8 @@
+{
+  "layout": "bagit_packets",
+  "packets": "data/packets",
+  "indexes": "data/indexes",
+  "query": "amoc AND insolation",
+  "limit": 20,
+  "repository": "europe_pmc"
+}

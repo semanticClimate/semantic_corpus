@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Knowledge graph (amoc_30_prueba)</title>
+  <script src="https://unpkg.com/vis-network@9.1.2/dist/vis-network.min.js"></script>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+    header { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; background: #fff; }
+    header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+    header p { margin: 4px 0 0; font-size: 0.85rem; color: #64748b; }
+    #mynetwork { width: 100%; height: calc(100vh - 64px); position: relative; }
+    #tooltip {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      max-width: min(420px, 80vw);
+      padding: 8px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.25);
+      pointer-events: none;
+      white-space: normal;
+    }
+    /* Hide any leftover vis built-in tooltip */
+    div.vis-tooltip { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge graph (amoc_30_prueba)</h1>
+    <p>25 nodes · 31 edges — drag, zoom, hover</p>
+  </header>
+  <div id="mynetwork"></div>
+  <div id="tooltip"></div>
+  <script>
+    const payload = {"nodes": [{"id": "term:ppe", "label": "PPE", "tooltip": "PPE (cluster weight 2.54; n_papers 2)", "value": 10.54, "group": "Term"}, {"id": "paper:europe_pmc_PMC12922021", "label": "PMC12922021", "tooltip": "Effects of Pharmacological and Agrochemical Endocrine Disruptors on Human Sperm Mitochondrial Respiration: Evidence from Ex Vivo Bioenergetic Profiling.<br>(PMC12922021)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13208927", "label": "PMC13208927", "tooltip": "Dry Eye in Colombian Tomato Farmers: An Exploratory Cross-Sectional Study of Occupational Exposure Duration.<br>(PMC13208927)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13520464", "label": "PMC13520464", "tooltip": "Environmental and occupational exposures for chronic kidney disease of unknown aetiology (CKDu): field investigations in rural Sri Lanka.<br>(PMC13520464)", "value": 12.0, "group": "Paper"}, {"id": "term:world health organization", "label": "World Health Organization", "tooltip": "World Health Organization (cluster weight 2.3; n_papers 5)", "value": 10.3, "group": "Term"}, {"id": "term:declaration of helsinki", "label": "Declaration of Helsinki", "tooltip": "Declaration of Helsinki (cluster weight 2.2; n_papers 2)", "value": 10.2, "group": "Term"}, {"id": "term:nps", "label": "NPs", "tooltip": "NPs (cluster weight 5.26; n_papers 3)", "value": 13.26, "group": "Term"}, {"id": "paper:europe_pmc_PMC13510588", "label": "PMC13510588", "tooltip": "A pro-natural product design strategy affords ester-based green fungicide candidates.<br>(PMC13510588)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13679550", "label": "PMC13679550", "tooltip": "Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming.<br>(PMC13679550)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13707692", "label": "PMC13707692", "tooltip": "Nanomaterials in Agriculture and Their Potential Hazards: A Review.<br>(PMC13707692)", "value": 12.0, "group": "Paper"}, {"id": "term:or", "label": "OR", "tooltip": "OR (cluster weight 2.64; n_papers 3)", "value": 10.64, "group": "Term"}, {"id": "term:ci", "label": "CI", "tooltip": "CI (cluster weight 2.5; n_papers 2)", "value": 10.5, "group": "Term"}, {"id": "paper:europe_pmc_PMC12596878", "label": "PMC12596878", "tooltip": "Retrospective study on the association between paternal occupational exposure to agrochemicals and childhood leukemia in Michoacán de Ocampo, México.<br>(PMC12596878)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13387539", "label": "PMC13387539", "tooltip": "Khat consumers exposure to toxicity: Agrochemical toxicity awareness, protective practice and self-reported health ailments among khat consumers in Ethiopia.<br>(PMC13387539)", "value": 12.0, "group": "Paper"}, {"id": "term:uv", "label": "UV", "tooltip": "UV (cluster weight 2.58; n_papers 2)", "value": 10.58, "group": "Term"}, {"id": "paper:europe_pmc_PMC13427916", "label": "PMC13427916", "tooltip": "Pigmented fungi derived from hot and cold deserts ecosystems: taxonomy, genomic and biotechnological approach.<br>(PMC13427916)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13676021", "label": "PMC13676021", "tooltip": "Occupational Pesticide Exposure and Risk of Non-melanoma Skin Cancer Among U.S. Adults: A Systematic Review<br>(PMC13676021)", "value": 12.0, "group": "Paper"}, {"id": "term:united states", "label": "United States", "tooltip": "United States (cluster weight 1.5; n_papers 3)", "value": 9.5, "group": "Term"}, {"id": "term:cancer", "label": "cancer", "tooltip": "cancer (cluster weight 0.052; n_papers 2)", "value": 8.052, "group": "Term"}, {"id": "term:exposure", "label": "Exposure", "tooltip": "Exposure (cluster weight 0.0498; n_papers 2)", "value": 8.0498, "group": "Term"}, {"id": "term:supplementary information", "label": "Supplementary Information", "tooltip": "Supplementary Information (cluster weight 2.7; n_papers 2)", "value": 10.7, "group": "Term"}, {"id": "paper:europe_pmc_PMC13428007", "label": "PMC13428007", "tooltip": "Agrochemical residues and food safety: In-depth in silico assessment of the degradation mechanism of chlorpyrifos-oxon by niobium dioxide (NbO₂), a naturally occurring and cost-effective mineral.<br>(PMC13428007)", "value": 12.0, "group": "Paper"}, {"id": "paper:europe_pmc_PMC13600945", "label": "PMC13600945", "tooltip": "Phosphine-mediated azine C-H couplings with water and ammonia.<br>(PMC13600945)", "value": 12.0, "group": "Paper"}, {"id": "term:ts", "label": "TS", "tooltip": "TS (cluster weight 2.32; n_papers 2)", "value": 10.32, "group": "Term"}, {"id": "term:reaction", "label": "Reaction", "tooltip": "Reaction (cluster weight 0.0968; n_papers 2)", "value": 8.0968, "group": "Term"}], "edges": [{"from": "paper:europe_pmc_PMC12922021", "to": "term:ppe", "value": 2.54}, {"from": "paper:europe_pmc_PMC13208927", "to": "term:ppe", "value": 2.54}, {"from": "paper:europe_pmc_PMC13520464", "to": "term:ppe", "value": 2.54}, {"from": "paper:europe_pmc_PMC12922021", "to": "term:world health organization", "value": 2.3}, {"from": "paper:europe_pmc_PMC13208927", "to": "term:world health organization", "value": 2.3}, {"from": "paper:europe_pmc_PMC13520464", "to": "term:world health organization", "value": 2.3}, {"from": "paper:europe_pmc_PMC12922021", "to": "term:declaration of helsinki", "value": 2.2}, {"from": "paper:europe_pmc_PMC13208927", "to": "term:declaration of helsinki", "value": 2.2}, {"from": "paper:europe_pmc_PMC13520464", "to": "term:declaration of helsinki", "value": 2.2}, {"from": "paper:europe_pmc_PMC13510588", "to": "term:nps", "value": 5.26}, {"from": "paper:europe_pmc_PMC13679550", "to": "term:nps", "value": 5.26}, {"from": "paper:europe_pmc_PMC13707692", "to": "term:nps", "value": 5.26}, {"from": "paper:europe_pmc_PMC13510588", "to": "term:or", "value": 2.64}, {"from": "paper:europe_pmc_PMC13679550", "to": "term:or", "value": 2.64}, {"from": "paper:europe_pmc_PMC13707692", "to": "term:or", "value": 2.64}, {"from": "paper:europe_pmc_PMC12596878", "to": "term:ci", "value": 2.5}, {"from": "paper:europe_pmc_PMC13387539", "to": "term:ci", "value": 2.5}, {"from": "paper:europe_pmc_PMC13427916", "to": "term:uv", "value": 2.58}, {"from": "paper:europe_pmc_PMC13676021", "to": "term:uv", "value": 2.58}, {"from": "paper:europe_pmc_PMC13427916", "to": "term:united states", "value": 1.5}, {"from": "paper:europe_pmc_PMC13676021", "to": "term:united states", "value": 1.5}, {"from": "paper:europe_pmc_PMC13427916", "to": "term:cancer", "value": 0.052}, {"from": "paper:europe_pmc_PMC13676021", "to": "term:cancer", "value": 0.052}, {"from": "paper:europe_pmc_PMC13427916", "to": "term:exposure", "value": 0.0498}, {"from": "paper:europe_pmc_PMC13676021", "to": "term:exposure", "value": 0.0498}, {"from": "paper:europe_pmc_PMC13428007", "to": "term:supplementary information", "value": 2.7}, {"from": "paper:europe_pmc_PMC13600945", "to": "term:supplementary information", "value": 2.7}, {"from": "paper:europe_pmc_PMC13428007", "to": "term:ts", "value": 2.32}, {"from": "paper:europe_pmc_PMC13600945", "to": "term:ts", "value": 2.32}, {"from": "paper:europe_pmc_PMC13428007", "to": "term:reaction", "value": 0.0968}, {"from": "paper:europe_pmc_PMC13600945", "to": "term:reaction", "value": 0.0968}], "title": "Knowledge graph (amoc_30_prueba)"};
+    const nodes = new vis.DataSet(payload.nodes);
+    const edges = new vis.DataSet(payload.edges);
+    const container = document.getElementById('mynetwork');
+    const tip = document.getElementById('tooltip');
+    const network = new vis.Network(
+      container,
+      { nodes, edges },
+      {
+        nodes: {
+          shape: 'dot',
+          font: { size: 14, color: '#0f172a' },
+          borderWidth: 2,
+          scaling: { min: 8, max: 36 }
+        },
+        edges: {
+          color: { color: '#94a3b8', highlight: '#2563eb' },
+          smooth: { type: 'continuous' }
+        },
+        groups: {
+          Paper: { color: { background: '#fdba74', border: '#c2410c' } },
+          Term: { color: { background: '#93c5fd', border: '#1d4ed8' } },
+          Encyclopedia: { color: { background: '#86efac', border: '#15803d' } }
+        },
+        physics: {
+          stabilization: true,
+          barnesHut: {
+            gravitationalConstant: -2500,
+            springLength: 95,
+            springConstant: 0.04
+          }
+        },
+        interaction: { hover: true, navigationButtons: true }
+      }
+    );
+
+    function showTip(html, evt) {
+      if (!html) {
+        tip.style.display = 'none';
+        return;
+      }
+      tip.innerHTML = html;
+      tip.style.display = 'block';
+      const pad = 14;
+      let x = (evt && evt.clientX != null ? evt.clientX : 0) + pad;
+      let y = (evt && evt.clientY != null ? evt.clientY : 0) + pad;
+      tip.style.left = x + 'px';
+      tip.style.top = y + 'px';
+      const rect = tip.getBoundingClientRect();
+      if (rect.right > window.innerWidth - 8) {
+        tip.style.left = Math.max(8, window.innerWidth - rect.width - 8) + 'px';
+      }
+      if (rect.bottom > window.innerHeight - 8) {
+        tip.style.top = Math.max(8, window.innerHeight - rect.height - 8) + 'px';
+      }
+    }
+
+    network.on('hoverNode', function (params) {
+      const node = nodes.get(params.node);
+      const html = (node && (node.tooltip || node.label)) || '';
+      showTip(html, params.event && params.event.srcEvent);
+    });
+    network.on('blurNode', function () {
+      tip.style.display = 'none';
+    });
+    network.on('dragStart', function () {
+      tip.style.display = 'none';
+    });
+    container.addEventListener('mousemove', function (evt) {
+      if (tip.style.display === 'block') {
+        showTip(tip.innerHTML, evt);
+      }
+    });
+  </script>
+</body>
+</html>

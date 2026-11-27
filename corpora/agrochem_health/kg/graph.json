@@ -1,0 +1,301 @@
+{
+  "step": "kg",
+  "workdir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\agrochem_health",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 10,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "synonym_map": {},
+  "nodes": [
+    {
+      "id": "term:nps",
+      "label": "NPs",
+      "kind": "term",
+      "group": "Term",
+      "title": "NPs (cluster weight 3.6; n_papers 2)",
+      "value": 11.6,
+      "phrase": "nps",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "paper:europe_pmc_PMC13510588",
+      "label": "PMC13510588",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "A pro-natural product design strategy affords ester-based green fungicide candidates.\n(PMC13510588)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13510588",
+      "cluster_id": 1,
+      "paper_title": "A pro-natural product design strategy affords ester-based green fungicide candidates."
+    },
+    {
+      "id": "paper:europe_pmc_PMC13679550",
+      "label": "PMC13679550",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming.\n(PMC13679550)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13679550",
+      "cluster_id": 1,
+      "paper_title": "Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming."
+    },
+    {
+      "id": "term:or",
+      "label": "OR",
+      "kind": "term",
+      "group": "Term",
+      "title": "OR (cluster weight 1.46; n_papers 2)",
+      "value": 9.46,
+      "phrase": "or",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "term:delivery",
+      "label": "Delivery",
+      "kind": "term",
+      "group": "Term",
+      "title": "Delivery (cluster weight 0.0385; n_papers 2)",
+      "value": 8.0385,
+      "phrase": "delivery",
+      "cluster_id": 1,
+      "n_papers": 2
+    },
+    {
+      "id": "term:pfas",
+      "label": "PFAS",
+      "kind": "term",
+      "group": "Term",
+      "title": "PFAS (cluster weight 3.8; n_papers 2)",
+      "value": 11.8,
+      "phrase": "pfas",
+      "cluster_id": 2,
+      "n_papers": 2
+    },
+    {
+      "id": "paper:europe_pmc_PMC13226431",
+      "label": "PMC13226431",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Addressing contaminants of emerging concern in the United States public water systems.\n(PMC13226431)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13226431",
+      "cluster_id": 2,
+      "paper_title": "Addressing contaminants of emerging concern in the United States public water systems."
+    },
+    {
+      "id": "paper:europe_pmc_PMC13455386",
+      "label": "PMC13455386",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Trifluoroacetic Acid (TFA) Exceeds All Other Extractable Organofluorine in Drinking Water from Eastern Massachusetts, United States.\n(PMC13455386)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13455386",
+      "cluster_id": 2,
+      "paper_title": "Trifluoroacetic Acid (TFA) Exceeds All Other Extractable Organofluorine in Drinking Water from Eastern Massachusetts, United States."
+    },
+    {
+      "id": "term:drinking water",
+      "label": "Drinking Water",
+      "kind": "term",
+      "group": "Term",
+      "title": "Drinking Water (cluster weight 0.0918; n_papers 2)",
+      "value": 8.0918,
+      "phrase": "drinking water",
+      "cluster_id": 2,
+      "n_papers": 2
+    },
+    {
+      "id": "term:web of science",
+      "label": "Web of Science",
+      "kind": "term",
+      "group": "Term",
+      "title": "Web of Science (cluster weight 2.2; n_papers 2)",
+      "value": 10.2,
+      "phrase": "web of science",
+      "cluster_id": 3,
+      "n_papers": 2
+    },
+    {
+      "id": "paper:europe_pmc_PMC13652793",
+      "label": "PMC13652793",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Nanopolysaccharides in agriculture. Advances, applications, and future prospects: a review\n(PMC13652793)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13652793",
+      "cluster_id": 3,
+      "paper_title": "Nanopolysaccharides in agriculture. Advances, applications, and future prospects: a review"
+    },
+    {
+      "id": "paper:europe_pmc_PMC13707259",
+      "label": "PMC13707259",
+      "kind": "paper",
+      "group": "Paper",
+      "title": "Phlorotannins and Fucans from Phaeophyceae as Phaeophyceae Agrochemical Leads: Structural Diversity, Molecular Mechanisms, and Delivery Systems.\n(PMC13707259)",
+      "value": 12.0,
+      "paper_id": "europe_pmc_PMC13707259",
+      "cluster_id": 3,
+      "paper_title": "Phlorotannins and Fucans from Phaeophyceae as Phaeophyceae Agrochemical Leads: Structural Diversity, Molecular Mechanisms, and Delivery Systems."
+    }
+  ],
+  "edges": [
+    {
+      "id": "clusters:paper:europe_pmc_PMC13510588::term:nps",
+      "from": "paper:europe_pmc_PMC13510588",
+      "to": "term:nps",
+      "source": "paper:europe_pmc_PMC13510588",
+      "target": "term:nps",
+      "weight": 3.6,
+      "value": 3.6,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔NPs"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13679550::term:nps",
+      "from": "paper:europe_pmc_PMC13679550",
+      "to": "term:nps",
+      "source": "paper:europe_pmc_PMC13679550",
+      "target": "term:nps",
+      "weight": 3.6,
+      "value": 3.6,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔NPs"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13510588::term:or",
+      "from": "paper:europe_pmc_PMC13510588",
+      "to": "term:or",
+      "source": "paper:europe_pmc_PMC13510588",
+      "target": "term:or",
+      "weight": 1.46,
+      "value": 1.46,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔OR"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13679550::term:or",
+      "from": "paper:europe_pmc_PMC13679550",
+      "to": "term:or",
+      "source": "paper:europe_pmc_PMC13679550",
+      "target": "term:or",
+      "weight": 1.46,
+      "value": 1.46,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔OR"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13510588::term:delivery",
+      "from": "paper:europe_pmc_PMC13510588",
+      "to": "term:delivery",
+      "source": "paper:europe_pmc_PMC13510588",
+      "target": "term:delivery",
+      "weight": 0.0385,
+      "value": 0.0385,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Delivery"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13679550::term:delivery",
+      "from": "paper:europe_pmc_PMC13679550",
+      "to": "term:delivery",
+      "source": "paper:europe_pmc_PMC13679550",
+      "target": "term:delivery",
+      "weight": 0.0385,
+      "value": 0.0385,
+      "link_source": "clusters",
+      "title": "cluster 1: paper↔Delivery"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13226431::term:pfas",
+      "from": "paper:europe_pmc_PMC13226431",
+      "to": "term:pfas",
+      "source": "paper:europe_pmc_PMC13226431",
+      "target": "term:pfas",
+      "weight": 3.8,
+      "value": 3.8,
+      "link_source": "clusters",
+      "title": "cluster 2: paper↔PFAS"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13455386::term:pfas",
+      "from": "paper:europe_pmc_PMC13455386",
+      "to": "term:pfas",
+      "source": "paper:europe_pmc_PMC13455386",
+      "target": "term:pfas",
+      "weight": 3.8,
+      "value": 3.8,
+      "link_source": "clusters",
+      "title": "cluster 2: paper↔PFAS"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13226431::term:drinking water",
+      "from": "paper:europe_pmc_PMC13226431",
+      "to": "term:drinking water",
+      "source": "paper:europe_pmc_PMC13226431",
+      "target": "term:drinking water",
+      "weight": 0.0918,
+      "value": 0.0918,
+      "link_source": "clusters",
+      "title": "cluster 2: paper↔Drinking Water"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13455386::term:drinking water",
+      "from": "paper:europe_pmc_PMC13455386",
+      "to": "term:drinking water",
+      "source": "paper:europe_pmc_PMC13455386",
+      "target": "term:drinking water",
+      "weight": 0.0918,
+      "value": 0.0918,
+      "link_source": "clusters",
+      "title": "cluster 2: paper↔Drinking Water"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13652793::term:web of science",
+      "from": "paper:europe_pmc_PMC13652793",
+      "to": "term:web of science",
+      "source": "paper:europe_pmc_PMC13652793",
+      "target": "term:web of science",
+      "weight": 2.2,
+      "value": 2.2,
+      "link_source": "clusters",
+      "title": "cluster 3: paper↔Web of Science"
+    },
+    {
+      "id": "clusters:paper:europe_pmc_PMC13707259::term:web of science",
+      "from": "paper:europe_pmc_PMC13707259",
+      "to": "term:web of science",
+      "source": "paper:europe_pmc_PMC13707259",
+      "target": "term:web of science",
+      "weight": 2.2,
+      "value": 2.2,
+      "link_source": "clusters",
+      "title": "cluster 3: paper↔Web of Science"
+    }
+  ],
+  "counts": {
+    "nodes": 12,
+    "edges": 12,
+    "papers": 6,
+    "terms": 6,
+    "encyclopedia": 0,
+    "islands": 3,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-05T14:48:29.078720+00:00"
+}

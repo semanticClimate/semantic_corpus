@@ -1,0 +1,301 @@
+paper_id,rank,phrase,display,score,channel,source
+europe_pmc_PMC11090615,1,latin america,Latin America,1.8,uppercase,extracted
+europe_pmc_PMC11090615,2,latin american,Latin American,1.4,uppercase,extracted
+europe_pmc_PMC11090615,3,program for analyzing pesticide residues in foods,Program for Analyzing Pesticide Residues in Foods,1.1,uppercase,extracted
+europe_pmc_PMC11090615,4,prospective register of systematic reviews,Prospective Register of Systematic Reviews,1.1,uppercase,extracted
+europe_pmc_PMC11090615,5,brazilian consumer defense institute,Brazilian Consumer Defense Institute,1.1,uppercase,extracted
+europe_pmc_PMC11090615,6,federal commission for protection,Federal Commission for Protection,1.1,uppercase,extracted
+europe_pmc_PMC11090615,7,checklist for prevalence studies,Checklist for Prevalence Studies,1.1,uppercase,extracted
+europe_pmc_PMC11090615,8,ddt,DDT,1.14,uppercase,extracted
+europe_pmc_PMC11090615,9,latin,Latin,1.12,uppercase,extracted
+europe_pmc_PMC11090615,10,dde,DDE,1.1,uppercase,extracted
+europe_pmc_PMC11090615,11,breast milk,Breast milk,0.0603,tfidf,extracted
+europe_pmc_PMC11090615,12,milk,milk,0.0596,tfidf,extracted
+europe_pmc_PMC11090615,13,breast,Breast,0.0596,tfidf,extracted
+europe_pmc_PMC11090615,14,pesticides,Pesticides,0.0472,tfidf,extracted
+europe_pmc_PMC11090615,15,risk bias,risk bias,0.0462,tfidf,extracted
+europe_pmc_PMC11643924,1,latin america,Latin America,1.5,uppercase,extracted
+europe_pmc_PMC11643924,2,united nations,United Nations,1.3,uppercase,extracted
+europe_pmc_PMC11643924,3,scientific ethics committee,Scientific Ethics Committee,1.2,uppercase,extracted
+europe_pmc_PMC11643924,4,panorama of food and nutritional security,Panorama of Food and Nutritional Security,1.1,uppercase,extracted
+europe_pmc_PMC11643924,5,food and agriculture organization,Food and Agriculture Organization,1.1,uppercase,extracted
+europe_pmc_PMC11643924,6,boyeco territorial roundtable,Boyeco Territorial Roundtable,1.1,uppercase,extracted
+europe_pmc_PMC11643924,7,human rights of older persons,Human Rights of Older Persons,1.1,uppercase,extracted
+europe_pmc_PMC11643924,8,mapuche,Mapuche,1.29,uppercase,extracted
+europe_pmc_PMC11643924,9,indigenous,Indigenous,1.13,uppercase,extracted
+europe_pmc_PMC11643924,10,america,America,1.09,uppercase,extracted
+europe_pmc_PMC11643924,11,elderly,elderly,0.0456,tfidf,extracted
+europe_pmc_PMC11643924,12,food security,Food security,0.0426,tfidf,extracted
+europe_pmc_PMC11643924,13,security,Security,0.042,tfidf,extracted
+europe_pmc_PMC11643924,14,food,Food,0.0418,tfidf,extracted
+europe_pmc_PMC11643924,15,quote,quote,0.0388,tfidf,extracted
+europe_pmc_PMC11947944,1,united states,United States,1.3,uppercase,extracted
+europe_pmc_PMC11947944,2,global north and south,Global North and South,1.2,uppercase,extracted
+europe_pmc_PMC11947944,3,reports on pesticide residue analysis in food,Reports on Pesticide Residue Analysis in Food,1.1,uppercase,extracted
+europe_pmc_PMC11947944,4,china national chemical corporation,China National Chemical Corporation,1.1,uppercase,extracted
+europe_pmc_PMC11947944,5,brazilian health regulatory agency,Brazilian Health Regulatory Agency,1.1,uppercase,extracted
+europe_pmc_PMC11947944,6,food and agriculture organization,Food and Agriculture Organization,1.1,uppercase,extracted
+europe_pmc_PMC11947944,7,principal component analysis,Principal Component Analysis,1.1,uppercase,extracted
+europe_pmc_PMC11947944,8,brazil,Brazil,1.16,uppercase,extracted
+europe_pmc_PMC11947944,9,anvisa,ANVISA,1.12,uppercase,extracted
+europe_pmc_PMC11947944,10,brazilian,Brazilian,1.12,uppercase,extracted
+europe_pmc_PMC11947944,11,pesticide,Pesticide,0.0474,tfidf,extracted
+europe_pmc_PMC11947944,12,pesticides,Pesticides,0.0469,tfidf,extracted
+europe_pmc_PMC11947944,13,ternary,ternary,0.0458,tfidf,extracted
+europe_pmc_PMC11947944,14,al,al,0.0435,tfidf,extracted
+europe_pmc_PMC11947944,15,et,et,0.0435,tfidf,extracted
+europe_pmc_PMC11996790,1,european union,European Union,1.3,uppercase,extracted
+europe_pmc_PMC11996790,2,latin america,Latin America,1.3,uppercase,extracted
+europe_pmc_PMC11996790,3,international agency for research on cancer,International Agency for Research on Cancer,1.2,uppercase,extracted
+europe_pmc_PMC11996790,4,chilean ministry of health,Chilean Ministry of Health,1.2,uppercase,extracted
+europe_pmc_PMC11996790,5,codex alimentarius,Codex Alimentarius,1.2,uppercase,extracted
+europe_pmc_PMC11996790,6,web of science,Web of Science,1.2,uppercase,extracted
+europe_pmc_PMC11996790,7,south america,South America,1.2,uppercase,extracted
+europe_pmc_PMC11996790,8,chile,Chile,1.4,uppercase,extracted
+europe_pmc_PMC11996790,9,iarc,IARC,1.36,uppercase,extracted
+europe_pmc_PMC11996790,10,chilean,Chilean,1.25,uppercase,extracted
+europe_pmc_PMC11996790,11,cancer,Cancer,0.037,tfidf,extracted
+europe_pmc_PMC11996790,12,pesticide,Pesticide,0.036,tfidf,extracted
+europe_pmc_PMC11996790,13,pesticides,Pesticides,0.036,tfidf,extracted
+europe_pmc_PMC11996790,14,studies,Studies,0.0358,tfidf,extracted
+europe_pmc_PMC11996790,15,carcinogenic,carcinogenic,0.0351,tfidf,extracted
+europe_pmc_PMC12331598,1,saharan africa,Saharan Africa,2.3,uppercase,extracted
+europe_pmc_PMC12331598,2,southern sub,Southern Sub,1.5,uppercase,extracted
+europe_pmc_PMC12331598,3,demographic index,Demographic Index,1.4,uppercase,extracted
+europe_pmc_PMC12331598,4,central europe,Central Europe,1.4,uppercase,extracted
+europe_pmc_PMC12331598,5,central sub,Central Sub,1.4,uppercase,extracted
+europe_pmc_PMC12331598,6,global burden of disease,Global Burden of Disease,1.3,uppercase,extracted
+europe_pmc_PMC12331598,7,north africa,North Africa,1.3,uppercase,extracted
+europe_pmc_PMC12331598,8,co,CO,1.92,uppercase,extracted
+europe_pmc_PMC12331598,9,sdi,SDI,1.56,uppercase,extracted
+europe_pmc_PMC12331598,10,daly,DALY,1.48,uppercase,extracted
+europe_pmc_PMC12331598,11,poisoning,Poisoning,0.0541,tfidf,extracted
+europe_pmc_PMC12331598,12,non-co,non-CO,0.0532,tfidf,extracted
+europe_pmc_PMC12331598,13,non-co poisoning,non-CO poisoning,0.0532,tfidf,extracted
+europe_pmc_PMC12331598,14,dalys,DALYs,0.0451,tfidf,extracted
+europe_pmc_PMC12331598,15,asr,ASR,0.0433,tfidf,extracted
+europe_pmc_PMC12591810,1,central america,Central America,1.7,uppercase,extracted
+europe_pmc_PMC12591810,2,latin america,Latin America,1.2,uppercase,extracted
+europe_pmc_PMC12591810,3,medical subject headings,Medical Subject Headings,1.1,uppercase,extracted
+europe_pmc_PMC12591810,4,colombia and uruguay,Colombia and Uruguay,1.1,uppercase,extracted
+europe_pmc_PMC12591810,5,central american,Central American,1.1,uppercase,extracted
+europe_pmc_PMC12591810,6,formoso river,Formoso River,1.1,uppercase,extracted
+europe_pmc_PMC12591810,7,south america,South America,1.1,uppercase,extracted
+europe_pmc_PMC12591810,8,lac,LAC,1.42,uppercase,extracted
+europe_pmc_PMC12591810,9,or,OR,1.18,uppercase,extracted
+europe_pmc_PMC12591810,10,america,America,1.1,uppercase,extracted
+europe_pmc_PMC12591810,11,pollution,pollution,0.0424,tfidf,extracted
+europe_pmc_PMC12591810,12,water pollution,water pollution,0.0389,tfidf,extracted
+europe_pmc_PMC12591810,13,subclinical,subclinical,0.0389,tfidf,extracted
+europe_pmc_PMC12591810,14,studies,Studies,0.0382,tfidf,extracted
+europe_pmc_PMC12591810,15,aquatic,aquatic,0.0378,tfidf,extracted
+europe_pmc_PMC12818217,1,saharan africa,Saharan Africa,1.8,uppercase,extracted
+europe_pmc_PMC12818217,2,central america,Central America,1.5,uppercase,extracted
+europe_pmc_PMC12818217,3,eastern europe,Eastern Europe,1.5,uppercase,extracted
+europe_pmc_PMC12818217,4,sri lanka,Sri Lanka,1.5,uppercase,extracted
+europe_pmc_PMC12818217,5,south asia,South Asia,1.4,uppercase,extracted
+europe_pmc_PMC12818217,6,latin america,Latin America,1.3,uppercase,extracted
+europe_pmc_PMC12818217,7,north america,North America,1.3,uppercase,extracted
+europe_pmc_PMC12818217,8,ckd,CKD,2.48,uppercase,extracted
+europe_pmc_PMC12818217,9,kf,KF,1.24,uppercase,extracted
+europe_pmc_PMC12818217,10,pd,PD,1.2,uppercase,extracted
+europe_pmc_PMC12818217,11,dialysis,Dialysis,0.0395,tfidf,extracted
+europe_pmc_PMC12818217,12,health care,Health care,0.039,tfidf,extracted
+europe_pmc_PMC12818217,13,migrants,Migrants,0.0385,tfidf,extracted
+europe_pmc_PMC12818217,14,care,care,0.0383,tfidf,extracted
+europe_pmc_PMC12818217,15,kidney,Kidney,0.0381,tfidf,extracted
+europe_pmc_PMC12822919,1,foundation for statistical computing,Foundation for Statistical Computing,1.1,uppercase,extracted
+europe_pmc_PMC12822919,2,federal university,Federal University,1.1,uppercase,extracted
+europe_pmc_PMC12822919,3,sigma aldrich,Sigma Aldrich,1.1,uppercase,extracted
+europe_pmc_PMC12822919,4,st louis,St Louis,1.1,uppercase,extracted
+europe_pmc_PMC12822919,5,hppd,HPPD,1.08,uppercase,extracted
+europe_pmc_PMC12822919,6,anopheles,Anopheles,1.04,uppercase,extracted
+europe_pmc_PMC12822919,7,ddt,DDT,1.02,uppercase,extracted
+europe_pmc_PMC12822919,8,nitisinone,Nitisinone,0.0749,tfidf,extracted
+europe_pmc_PMC12822919,9,longipalpis,longipalpis,0.0664,tfidf,extracted
+europe_pmc_PMC12822919,10,lu longipalpis,lu longipalpis,0.0664,tfidf,extracted
+europe_pmc_PMC12822919,11,sand,Sand,0.0649,tfidf,extracted
+europe_pmc_PMC12822919,12,flies,flies,0.0625,tfidf,extracted
+europe_pmc_PMC12822919,13,sand flies,sand flies,0.0625,tfidf,extracted
+europe_pmc_PMC12822919,14,lu,Lu,0.0625,tfidf,extracted
+europe_pmc_PMC12822919,15,vector,Vector,0.0577,tfidf,extracted
+europe_pmc_PMC12940714,1,latin america,Latin America,1.4,uppercase,extracted
+europe_pmc_PMC12940714,2,national institute of statistics and census,National Institute of Statistics and Census,1.2,uppercase,extracted
+europe_pmc_PMC12940714,3,latin american,Latin American,1.2,uppercase,extracted
+europe_pmc_PMC12940714,4,international standard industrial classification,International Standard Industrial Classification,1.1,uppercase,extracted
+europe_pmc_PMC12940714,5,foundation for statistical computing,Foundation for Statistical Computing,1.1,uppercase,extracted
+europe_pmc_PMC12940714,6,wellbeing and aging survey,Wellbeing and Aging Survey,1.1,uppercase,extracted
+europe_pmc_PMC12940714,7,latin america and ecuador,Latin America and Ecuador,1.1,uppercase,extracted
+europe_pmc_PMC12940714,8,sabe,SABE,1.26,uppercase,extracted
+europe_pmc_PMC12940714,9,ecuador,Ecuador,1.12,uppercase,extracted
+europe_pmc_PMC12940714,10,inec,INEC,1.1,uppercase,extracted
+europe_pmc_PMC12940714,11,self-rated,Self-rated,0.047,tfidf,extracted
+europe_pmc_PMC12940714,12,self-rated health,Self-rated health,0.047,tfidf,extracted
+europe_pmc_PMC12940714,13,older,Older,0.0459,tfidf,extracted
+europe_pmc_PMC12940714,14,occupational,Occupational,0.0421,tfidf,extracted
+europe_pmc_PMC12940714,15,older adults,Older adults,0.0418,tfidf,extracted
+europe_pmc_PMC13008687,1,women in plant abiotic stress,Women in Plant Abiotic Stress,1.3,uppercase,extracted
+europe_pmc_PMC13008687,2,frontiers in plant science,Frontiers in Plant Science,1.3,uppercase,extracted
+europe_pmc_PMC13008687,3,women in plant science,Women in Plant Science,1.3,uppercase,extracted
+europe_pmc_PMC13008687,4,latin america,Latin America,1.3,uppercase,extracted
+europe_pmc_PMC13008687,5,redox biology of plant abiotic stress,Redox Biology of Plant Abiotic Stress,1.2,uppercase,extracted
+europe_pmc_PMC13008687,6,american society of plant biologists,American Society of Plant Biologists,1.2,uppercase,extracted
+europe_pmc_PMC13008687,7,women in plant biology committee,Women in Plant Biology Committee,1.2,uppercase,extracted
+europe_pmc_PMC13008687,8,plant,Plant,1.21,uppercase,extracted
+europe_pmc_PMC13008687,9,ros,ROS,1.18,uppercase,extracted
+europe_pmc_PMC13008687,10,aspb,ASPB,1.14,uppercase,extracted
+europe_pmc_PMC13008687,11,abiotic,Abiotic,0.0384,tfidf,extracted
+europe_pmc_PMC13008687,12,abiotic stress,Abiotic Stress,0.0382,tfidf,extracted
+europe_pmc_PMC13008687,13,women scientists,Women Scientists,0.0378,tfidf,extracted
+europe_pmc_PMC13008687,14,authorship,authorship,0.0378,tfidf,extracted
+europe_pmc_PMC13008687,15,stress,Stress,0.0374,tfidf,extracted
+europe_pmc_PMC13054996,1,latin american,Latin American,1.6,uppercase,extracted
+europe_pmc_PMC13054996,2,european and asian,European and Asian,1.3,uppercase,extracted
+europe_pmc_PMC13054996,3,puerto rican,Puerto Rican,1.3,uppercase,extracted
+europe_pmc_PMC13054996,4,after bonferroni,After Bonferroni,1.2,uppercase,extracted
+europe_pmc_PMC13054996,5,latin america,Latin America,1.2,uppercase,extracted
+europe_pmc_PMC13054996,6,south america,South America,1.2,uppercase,extracted
+europe_pmc_PMC13054996,7,maule cohort,Maule Cohort,1.2,uppercase,extracted
+europe_pmc_PMC13054996,8,bcaa,BCAA,1.78,uppercase,extracted
+europe_pmc_PMC13054996,9,ci,CI,1.34,uppercase,extracted
+europe_pmc_PMC13054996,10,mauco,MAUCO,1.28,uppercase,extracted
+europe_pmc_PMC13054996,11,amino,Amino,0.0506,tfidf,extracted
+europe_pmc_PMC13054996,12,amino acids,amino acids,0.0499,tfidf,extracted
+europe_pmc_PMC13054996,13,plasma,Plasma,0.0488,tfidf,extracted
+europe_pmc_PMC13054996,14,acids,acids,0.0481,tfidf,extracted
+europe_pmc_PMC13054996,15,isoleucine,Isoleucine,0.0434,tfidf,extracted
+europe_pmc_PMC13106253,1,meio ambiente,Meio Ambiente,1.5,uppercase,extracted
+europe_pmc_PMC13106253,2,brazilian institute of environment and renewable natural resources,Brazilian Institute of Environment and Renewable Natural Resources,1.3,uppercase,extracted
+europe_pmc_PMC13106253,3,ministry of agriculture and livestock,Ministry of Agriculture and Livestock,1.3,uppercase,extracted
+europe_pmc_PMC13106253,4,food and agriculture organization,Food and Agriculture Organization,1.3,uppercase,extracted
+europe_pmc_PMC13106253,5,international initiative,International Initiative,1.3,uppercase,extracted
+europe_pmc_PMC13106253,6,instituto brasileiro,Instituto Brasileiro,1.3,uppercase,extracted
+europe_pmc_PMC13106253,7,ecosystem approach,Ecosystem Approach,1.3,uppercase,extracted
+europe_pmc_PMC13106253,8,brazil,Brazil,1.35,uppercase,extracted
+europe_pmc_PMC13106253,9,fao,FAO,1.26,uppercase,extracted
+europe_pmc_PMC13106253,10,brazilian,Brazilian,1.18,uppercase,extracted
+europe_pmc_PMC13106253,11,pollinators,Pollinators,0.0425,tfidf,extracted
+europe_pmc_PMC13106253,12,bees,Bees,0.0414,tfidf,extracted
+europe_pmc_PMC13106253,13,pollinator,Pollinator,0.0406,tfidf,extracted
+europe_pmc_PMC13106253,14,al,al,0.0392,tfidf,extracted
+europe_pmc_PMC13106253,15,et,et,0.0392,tfidf,extracted
+europe_pmc_PMC13206163,1,march and december,March and December,1.6,uppercase,extracted
+europe_pmc_PMC13206163,2,el mentidero,El Mentidero,1.6,uppercase,extracted
+europe_pmc_PMC13206163,3,university of guadalajara,University of Guadalajara,1.3,uppercase,extracted
+europe_pmc_PMC13206163,4,statistical supplementary materials,Statistical Supplementary Materials,1.2,uppercase,extracted
+europe_pmc_PMC13206163,5,department of public health,Department of Public Health,1.2,uppercase,extracted
+europe_pmc_PMC13206163,6,agilent technologies,Agilent Technologies,1.2,uppercase,extracted
+europe_pmc_PMC13206163,7,ethics committee,Ethics Committee,1.2,uppercase,extracted
+europe_pmc_PMC13206163,8,ms,MS,1.18,uppercase,extracted
+europe_pmc_PMC13206163,9,december,December,1.15,uppercase,extracted
+europe_pmc_PMC13206163,10,iqr,IQR,1.12,uppercase,extracted
+europe_pmc_PMC13206163,11,exposure,Exposure,0.0382,tfidf,extracted
+europe_pmc_PMC13206163,12,children,Children,0.0379,tfidf,extracted
+europe_pmc_PMC13206163,13,biomonitoring,Biomonitoring,0.0371,tfidf,extracted
+europe_pmc_PMC13206163,14,pesticide,pesticide,0.0361,tfidf,extracted
+europe_pmc_PMC13206163,15,paired,Paired,0.0335,tfidf,extracted
+europe_pmc_PMC13351106,1,national university,National University,1.2,uppercase,extracted
+europe_pmc_PMC13351106,2,buenos aires,Buenos Aires,1.2,uppercase,extracted
+europe_pmc_PMC13351106,3,law on decentralization and citizen participation,Law on Decentralization and Citizen Participation,1.1,uppercase,extracted
+europe_pmc_PMC13351106,4,perceived health risks and main characteristics,Perceived Health Risks and Main Characteristics,1.1,uppercase,extracted
+europe_pmc_PMC13351106,5,sergio arouca national school of public health,Sergio Arouca National School of Public Health,1.1,uppercase,extracted
+europe_pmc_PMC13351106,6,national institute of agricultural research,National Institute of Agricultural Research,1.1,uppercase,extracted
+europe_pmc_PMC13351106,7,department of community health,Department of Community Health,1.1,uppercase,extracted
+europe_pmc_PMC13351106,8,uruguay,Uruguay,1.07,uppercase,extracted
+europe_pmc_PMC13351106,9,the,The,1.06,uppercase,extracted
+europe_pmc_PMC13351106,10,uruguayan,Uruguayan,1.06,uppercase,extracted
+europe_pmc_PMC13351106,11,discourses,discourses,0.0519,tfidf,extracted
+europe_pmc_PMC13351106,12,interview,Interview,0.048,tfidf,extracted
+europe_pmc_PMC13351106,13,perceptions,Perceptions,0.0416,tfidf,extracted
+europe_pmc_PMC13351106,14,pesticides,pesticides,0.0388,tfidf,extracted
+europe_pmc_PMC13351106,15,risks,Risks,0.0386,tfidf,extracted
+europe_pmc_PMC13415142,1,logit and probit,Logit and Probit,1.6,uppercase,extracted
+europe_pmc_PMC13415142,2,latin america,Latin America,1.5,uppercase,extracted
+europe_pmc_PMC13415142,3,food and agriculture organization,Food and Agriculture Organization,1.3,uppercase,extracted
+europe_pmc_PMC13415142,4,united nations,United Nations,1.3,uppercase,extracted
+europe_pmc_PMC13415142,5,latin american,Latin American,1.2,uppercase,extracted
+europe_pmc_PMC13415142,6,latin american and caribbean food security scale,Latin American and Caribbean Food Security Scale,1.1,uppercase,extracted
+europe_pmc_PMC13415142,7,territorial development and land use plan,Territorial Development and Land Use Plan,1.1,uppercase,extracted
+europe_pmc_PMC13415142,8,elcsa,ELCSA,1.26,uppercase,extracted
+europe_pmc_PMC13415142,9,probit,Probit,1.15,uppercase,extracted
+europe_pmc_PMC13415142,10,riobamba,Riobamba,1.15,uppercase,extracted
+europe_pmc_PMC13415142,11,food access,Food Access,0.0483,tfidf,extracted
+europe_pmc_PMC13415142,12,access consumption,access consumption,0.0463,tfidf,extracted
+europe_pmc_PMC13415142,13,food access consumption,food access consumption,0.0459,tfidf,extracted
+europe_pmc_PMC13415142,14,household food,Household food,0.0458,tfidf,extracted
+europe_pmc_PMC13415142,15,household,Household,0.0435,tfidf,extracted
+europe_pmc_PMC13447651,1,one health,One Health,1.9,uppercase,extracted
+europe_pmc_PMC13447651,2,human health nexus,Human Health Nexus,1.2,uppercase,extracted
+europe_pmc_PMC13447651,3,united nations,United Nations,1.2,uppercase,extracted
+europe_pmc_PMC13447651,4,law of return,Law of Return,1.2,uppercase,extracted
+europe_pmc_PMC13447651,5,international year of millets,International Year of Millets,1.1,uppercase,extracted
+europe_pmc_PMC13447651,6,world health organization,World Health Organization,1.1,uppercase,extracted
+europe_pmc_PMC13447651,7,global plant clinic,Global Plant Clinic,1.1,uppercase,extracted
+europe_pmc_PMC13447651,8,ch,CH,2.28,uppercase,extracted
+europe_pmc_PMC13447651,9,soc,SOC,1.26,uppercase,extracted
+europe_pmc_PMC13447651,10,ca,CA,1.24,uppercase,extracted
+europe_pmc_PMC13447651,11,soil health,Soil health,0.0448,tfidf,extracted
+europe_pmc_PMC13447651,12,soil,Soil,0.0433,tfidf,extracted
+europe_pmc_PMC13447651,13,crop,Crop,0.0397,tfidf,extracted
+europe_pmc_PMC13447651,14,health,Health,0.0394,tfidf,extracted
+europe_pmc_PMC13447651,15,grown,grown,0.0386,tfidf,extracted
+europe_pmc_PMC13465641,1,one health,One Health,3.2,uppercase,extracted
+europe_pmc_PMC13465641,2,el salvador,El Salvador,1.8,uppercase,extracted
+europe_pmc_PMC13465641,3,costa rica,Costa Rica,1.8,uppercase,extracted
+europe_pmc_PMC13465641,4,latin america,Latin America,1.7,uppercase,extracted
+europe_pmc_PMC13465641,5,central america,Central America,1.6,uppercase,extracted
+europe_pmc_PMC13465641,6,south america,South America,1.4,uppercase,extracted
+europe_pmc_PMC13465641,7,united states,United States,1.3,uppercase,extracted
+europe_pmc_PMC13465641,8,mesoamerica,Mesoamerica,1.41,uppercase,extracted
+europe_pmc_PMC13465641,9,health,Health,1.25,uppercase,extracted
+europe_pmc_PMC13465641,10,one,One,1.25,uppercase,extracted
+europe_pmc_PMC13465641,11,transmission,Transmission,0.0383,tfidf,extracted
+europe_pmc_PMC13465641,12,zoonotic,Zoonotic,0.0378,tfidf,extracted
+europe_pmc_PMC13465641,13,disease,Disease,0.0339,tfidf,extracted
+europe_pmc_PMC13465641,14,mesoamerican,Mesoamerican,0.0324,tfidf,extracted
+europe_pmc_PMC13465641,15,animal,animal,0.0309,tfidf,extracted
+europe_pmc_PMC13606739,1,interpenetrating polymer networks,Interpenetrating Polymer Networks,1.2,uppercase,extracted
+europe_pmc_PMC13606739,2,preferred reporting items for systematic reviews and meta,Preferred Reporting Items for Systematic Reviews and Meta,1.1,uppercase,extracted
+europe_pmc_PMC13606739,3,intergovernmental panel on climate change,Intergovernmental Panel on Climate Change,1.1,uppercase,extracted
+europe_pmc_PMC13606739,4,indian agricultural research institute,Indian Agricultural Research Institute,1.1,uppercase,extracted
+europe_pmc_PMC13606739,5,food and agriculture organization,Food and Agriculture Organization,1.1,uppercase,extracted
+europe_pmc_PMC13606739,6,haripriya and vijayakrishna,Haripriya and Vijayakrishna,1.1,uppercase,extracted
+europe_pmc_PMC13606739,7,green revolution in asia,Green Revolution in Asia,1.1,uppercase,extracted
+europe_pmc_PMC13606739,8,hg,HG,2.0,uppercase,extracted
+europe_pmc_PMC13606739,9,hgs,HGs,1.59,uppercase,extracted
+europe_pmc_PMC13606739,10,trl,TRL,1.1,uppercase,extracted
+europe_pmc_PMC13606739,11,bioactive,bioactive,0.0373,tfidf,extracted
+europe_pmc_PMC13606739,12,hydrogels,Hydrogels,0.0373,tfidf,extracted
+europe_pmc_PMC13606739,13,encapsulation,encapsulation,0.0368,tfidf,extracted
+europe_pmc_PMC13606739,14,polymeric,polymeric,0.0348,tfidf,extracted
+europe_pmc_PMC13606739,15,release,release,0.0336,tfidf,extracted
+europe_pmc_PMC13653337,1,pin viso,Pin Viso,1.4,uppercase,extracted
+europe_pmc_PMC13653337,2,candidatus solibacter,Candidatus Solibacter,1.2,uppercase,extracted
+europe_pmc_PMC13653337,3,argentinean pampas,Argentinean Pampas,1.2,uppercase,extracted
+europe_pmc_PMC13653337,4,canqui and lal,Canqui and Lal,1.2,uppercase,extracted
+europe_pmc_PMC13653337,5,core team,Core Team,1.2,uppercase,extracted
+europe_pmc_PMC13653337,6,analysis of compositions of microbiomes,Analysis of Compositions of Microbiomes,1.1,uppercase,extracted
+europe_pmc_PMC13653337,7,planctomycetota and solibacteraceae,Planctomycetota and Solibacteraceae,1.1,uppercase,extracted
+europe_pmc_PMC13653337,8,soc,SOC,1.44,uppercase,extracted
+europe_pmc_PMC13653337,9,cc,CC,1.32,uppercase,extracted
+europe_pmc_PMC13653337,10,nt,NT,1.26,uppercase,extracted
+europe_pmc_PMC13653337,11,cm,cm,0.047,tfidf,extracted
+europe_pmc_PMC13653337,12,fungal,Fungal,0.0456,tfidf,extracted
+europe_pmc_PMC13653337,13,layer,layer,0.0425,tfidf,extracted
+europe_pmc_PMC13653337,14,al,al,0.0416,tfidf,extracted
+europe_pmc_PMC13653337,15,et,et,0.0416,tfidf,extracted
+europe_pmc_PMC13722186,1,south america,South America,2.4,uppercase,extracted
+europe_pmc_PMC13722186,2,french guiana,French Guiana,1.3,uppercase,extracted
+europe_pmc_PMC13722186,3,latin america,Latin America,1.3,uppercase,extracted
+europe_pmc_PMC13722186,4,rapa nui,Rapa Nui,1.3,uppercase,extracted
+europe_pmc_PMC13722186,5,institut pasteur of french guiana,Institut Pasteur of French Guiana,1.2,uppercase,extracted
+europe_pmc_PMC13722186,6,universidad nacional,Universidad Nacional,1.2,uppercase,extracted
+europe_pmc_PMC13722186,7,instituto nacional,Instituto Nacional,1.2,uppercase,extracted
+europe_pmc_PMC13722186,8,winsa,WINSA,1.26,uppercase,extracted
+europe_pmc_PMC13722186,9,america,America,1.18,uppercase,extracted
+europe_pmc_PMC13722186,10,south,South,1.16,uppercase,extracted
+europe_pmc_PMC13722186,11,vector,Vector,0.0471,tfidf,extracted
+europe_pmc_PMC13722186,12,resistance,Resistance,0.0466,tfidf,extracted
+europe_pmc_PMC13722186,13,insecticide resistance,Insecticide Resistance,0.0456,tfidf,extracted
+europe_pmc_PMC13722186,14,insecticide,Insecticide,0.0445,tfidf,extracted
+europe_pmc_PMC13722186,15,ae,Ae,0.0433,tfidf,extracted

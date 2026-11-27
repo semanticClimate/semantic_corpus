@@ -1,0 +1,27 @@
+{
+  "written_at": "2026-11-11T04:25:30.850849+00:00",
+  "streams": {
+    "json": {
+      "active": true,
+      "reason": "",
+      "status_code": null
+    },
+    "xml": {
+      "active": true,
+      "reason": "",
+      "status_code": null
+    },
+    "pdf": {
+      "active": true,
+      "reason": "",
+      "status_code": null
+    }
+  },
+  "error_counts": {
+    "json": 0,
+    "xml": 0,
+    "pdf": 0
+  },
+  "error_counts_by_status": {},
+  "http_errors": []
+}

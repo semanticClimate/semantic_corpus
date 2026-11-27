@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13214931",
+  "phrases": [
+    {
+      "phrase": "vita science and production center",
+      "display": "Vita Science and Production Center",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "malvern panalytical ltd",
+      "display": "Malvern Panalytical Ltd",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "carl zeiss microscopy",
+      "display": "Carl Zeiss Microscopy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "carl zeiss primo star",
+      "display": "Carl Zeiss Primo Star",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agilent technologies",
+      "display": "Agilent Technologies",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "zetasizer nano",
+      "display": "Zetasizer Nano",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agnps",
+      "display": "AgNPs",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "allium",
+      "display": "Allium",
+      "score": 1.13,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "as",
+      "display": "AS",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nitrogen fertilizers",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "Nitrogen fertilizers"
+    },
+    {
+      "phrase": "mitotic",
+      "score": 0.0458,
+      "channel": "tfidf",
+      "display": "mitotic"
+    },
+    {
+      "phrase": "cytogenetic",
+      "score": 0.0428,
+      "channel": "tfidf",
+      "display": "cytogenetic"
+    },
+    {
+      "phrase": "silver nanoparticles",
+      "score": 0.0415,
+      "channel": "tfidf",
+      "display": "silver nanoparticles"
+    },
+    {
+      "phrase": "root",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "root"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

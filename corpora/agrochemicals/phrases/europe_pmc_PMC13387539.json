@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13387539",
+  "phrases": [
+    {
+      "phrase": "eastern ethiopia",
+      "display": "Eastern Ethiopia",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "theory of planned behavior",
+      "display": "Theory of Planned Behavior",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dire dawa",
+      "display": "Dire Dawa",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "one health",
+      "display": "One Health",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reported health ailments and perceived risks",
+      "display": "Reported Health Ailments and Perceived Risks",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "risk reduction and preventive measures",
+      "display": "Risk Reduction and Preventive Measures",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "perceived health risks and symptoms",
+      "display": "Perceived Health Risks and Symptoms",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aor",
+      "display": "AOR",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ci",
+      "display": "CI",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ddt",
+      "display": "DDT",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "khat",
+      "score": 0.0501,
+      "channel": "tfidf",
+      "display": "Khat"
+    },
+    {
+      "phrase": "awareness",
+      "score": 0.0394,
+      "channel": "tfidf",
+      "display": "Awareness"
+    },
+    {
+      "phrase": "consumers",
+      "score": 0.0381,
+      "channel": "tfidf",
+      "display": "Consumers"
+    },
+    {
+      "phrase": "khat consumption",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "khat consumption"
+    },
+    {
+      "phrase": "health",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Health"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

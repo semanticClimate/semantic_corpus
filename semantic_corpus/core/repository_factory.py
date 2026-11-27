@@ -11,6 +11,7 @@ from semantic_corpus.repositories.kerwa import KerwaRepository
 from semantic_corpus.repositories.openalex import OpenAlexRepository
 from semantic_corpus.repositories.redalyc import RedalycRepository
 from semantic_corpus.repositories.scielo import SciELORepository
+from semantic_corpus.repositories.shodhganga import ShodhgangaRepository
 from semantic_corpus.repositories.uba import UbaRepository
 from semantic_corpus.repositories.uchile import UchileRepository
 from semantic_corpus.repositories.unal_colombia import UnalRepository
@@ -38,6 +39,7 @@ class RepositoryFactory:
         "unam": UnamRepository,
         "unal_colombia": UnalRepository,
         "unal": UnalRepository,
+        "shodhganga": ShodhgangaRepository,
     }
 
     @classmethod

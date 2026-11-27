@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12822919",
+  "phrases": [
+    {
+      "phrase": "foundation for statistical computing",
+      "display": "Foundation for Statistical Computing",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "federal university",
+      "display": "Federal University",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sigma aldrich",
+      "display": "Sigma Aldrich",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "st louis",
+      "display": "St Louis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hppd",
+      "display": "HPPD",
+      "score": 1.08,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "anopheles",
+      "display": "Anopheles",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ddt",
+      "display": "DDT",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nitisinone",
+      "score": 0.0749,
+      "channel": "tfidf",
+      "display": "Nitisinone"
+    },
+    {
+      "phrase": "longipalpis",
+      "score": 0.0664,
+      "channel": "tfidf",
+      "display": "longipalpis"
+    },
+    {
+      "phrase": "lu longipalpis",
+      "score": 0.0664,
+      "channel": "tfidf",
+      "display": "lu longipalpis"
+    },
+    {
+      "phrase": "sand",
+      "score": 0.0649,
+      "channel": "tfidf",
+      "display": "Sand"
+    },
+    {
+      "phrase": "flies",
+      "score": 0.0625,
+      "channel": "tfidf",
+      "display": "flies"
+    },
+    {
+      "phrase": "sand flies",
+      "score": 0.0625,
+      "channel": "tfidf",
+      "display": "sand flies"
+    },
+    {
+      "phrase": "lu",
+      "score": 0.0625,
+      "channel": "tfidf",
+      "display": "Lu"
+    },
+    {
+      "phrase": "vector",
+      "score": 0.0577,
+      "channel": "tfidf",
+      "display": "Vector"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

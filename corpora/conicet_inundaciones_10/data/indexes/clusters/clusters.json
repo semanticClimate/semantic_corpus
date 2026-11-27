@@ -1,0 +1,307 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "LUJÁN; El Civismo; Buenos Aires; Subdirección de Emergencia y Defensa Civil; MDE",
+      "paper_count": 2,
+      "term_count": 28,
+      "paper_ids": [
+        "conicet_11336_231590",
+        "conicet_11336_295757"
+      ],
+      "terms": [
+        {
+          "phrase": "luján",
+          "display": "LUJÁN",
+          "weight": 2.68
+        },
+        {
+          "phrase": "el civismo",
+          "display": "El Civismo",
+          "weight": 1.8
+        },
+        {
+          "phrase": "buenos aires",
+          "display": "Buenos Aires",
+          "weight": 1.6
+        },
+        {
+          "phrase": "subdirección de emergencia y defensa civil",
+          "display": "Subdirección de Emergencia y Defensa Civil",
+          "weight": 1.5
+        },
+        {
+          "phrase": "mde",
+          "display": "MDE",
+          "weight": 1.26
+        },
+        {
+          "phrase": "ign",
+          "display": "IGN",
+          "weight": 1.22
+        },
+        {
+          "phrase": "bomberos voluntarios de luján",
+          "display": "Bomberos Voluntarios de Luján",
+          "weight": 1.2
+        },
+        {
+          "phrase": "modelo de elevación digital",
+          "display": "Modelo de Elevación Digital",
+          "weight": 1.2
+        },
+        {
+          "phrase": "modelo de elevación digital aerofotogramétrico",
+          "display": "Modelo de Elevación Digital Aerofotogramétrico",
+          "weight": 1.2
+        },
+        {
+          "phrase": "inundaciones",
+          "display": "inundaciones",
+          "weight": 0.1273
+        },
+        {
+          "phrase": "organizaciones",
+          "display": "organizaciones",
+          "weight": 0.1229
+        },
+        {
+          "phrase": "partido",
+          "display": "partido",
+          "weight": 0.0991
+        },
+        {
+          "phrase": "políticas",
+          "display": "políticas",
+          "weight": 0.0957
+        },
+        {
+          "phrase": "proceso",
+          "display": "proceso",
+          "weight": 0.088
+        },
+        {
+          "phrase": "colectiva partido",
+          "display": "colectiva partido",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "colectiva partido luján",
+          "display": "colectiva partido luján",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "colectivo cuestionaron",
+          "display": "colectivo cuestionaron",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "inundación significa",
+          "display": "inundación significa",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "inundación significa bisagra",
+          "display": "inundación significa bisagra",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "relacionadas decisiones",
+          "display": "relacionadas decisiones",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "relacionadas decisiones políticas",
+          "display": "relacionadas decisiones políticas",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "solo cuestiones",
+          "display": "solo cuestiones",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "solo cuestiones naturales",
+          "display": "solo cuestiones naturales",
+          "weight": 0.0726
+        },
+        {
+          "phrase": "simulación",
+          "display": "Simulación",
+          "weight": 0.0427
+        },
+        {
+          "phrase": "simulación agua",
+          "display": "simulación agua",
+          "weight": 0.0406
+        },
+        {
+          "phrase": "río",
+          "display": "Río",
+          "weight": 0.0399
+        },
+        {
+          "phrase": "agua",
+          "display": "AGUA",
+          "weight": 0.038
+        },
+        {
+          "phrase": "escenarios",
+          "display": "ESCENARIOS",
+          "weight": 0.0376
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Gran La Plata; Plata; La Plata; GLP; Río de La Plata",
+      "paper_count": 2,
+      "term_count": 26,
+      "paper_ids": [
+        "conicet_11336_191495",
+        "conicet_11336_84188"
+      ],
+      "terms": [
+        {
+          "phrase": "gran la plata",
+          "display": "Gran La Plata",
+          "weight": 2.6
+        },
+        {
+          "phrase": "plata",
+          "display": "Plata",
+          "weight": 2.31
+        },
+        {
+          "phrase": "la plata",
+          "display": "La Plata",
+          "weight": 2.2
+        },
+        {
+          "phrase": "glp",
+          "display": "GLP",
+          "weight": 2.16
+        },
+        {
+          "phrase": "río de la plata",
+          "display": "Río de La Plata",
+          "weight": 1.5
+        },
+        {
+          "phrase": "berisso y ensenada",
+          "display": "Berisso y Ensenada",
+          "weight": 1.4
+        },
+        {
+          "phrase": "el día",
+          "display": "El Día",
+          "weight": 1.4
+        },
+        {
+          "phrase": "ensenada y la plata fuente",
+          "display": "Ensenada y La Plata Fuente",
+          "weight": 1.2
+        },
+        {
+          "phrase": "paulo",
+          "display": "Paulo",
+          "weight": 1.13
+        },
+        {
+          "phrase": "universidad nacional de la plata",
+          "display": "Universidad Nacional de La Plata",
+          "weight": 1.1
+        },
+        {
+          "phrase": "investigación",
+          "display": "investigación",
+          "weight": 0.1622
+        },
+        {
+          "phrase": "acreditados",
+          "display": "acreditados",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "acreditados naturaleza",
+          "display": "acreditados naturaleza",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "acreditados naturaleza interdisciplinaria",
+          "display": "acreditados naturaleza interdisciplinaria",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "catástrofe inundaciones",
+          "display": "catástrofe inundaciones",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "catástrofe inundaciones urbanas",
+          "display": "catástrofe inundaciones urbanas",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "glp materializado",
+          "display": "glp materializado",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "glp materializado distintos",
+          "display": "glp materializado distintos",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "materializado",
+          "display": "materializado",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "materializado distintos",
+          "display": "materializado distintos",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "materializado distintos proyectos",
+          "display": "materializado distintos proyectos",
+          "weight": 0.1144
+        },
+        {
+          "phrase": "riesgo",
+          "display": "Riesgo",
+          "weight": 0.0465
+        },
+        {
+          "phrase": "cad",
+          "display": "Cad",
+          "weight": 0.045
+        },
+        {
+          "phrase": "cad metrop",
+          "display": "cad metrop",
+          "weight": 0.045
+        },
+        {
+          "phrase": "cad metrop paulo",
+          "display": "cad metrop paulo",
+          "weight": 0.045
+        },
+        {
+          "phrase": "metrop",
+          "display": "Metrop",
+          "weight": 0.045
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "pmcid": "PMC12971789",
+  "pmid": "41815533",
+  "title": "Multichemical Exposure Assessment Using Silicone Wristbands in Central American Adolescents.",
+  "abstract": "Chemical exposures are poorly characterized in Central America, where chronic kidney disease of uncertain etiology (CKDu) is a leading cause of death. Most research evaluates occupational exposures in adults, yet early-life exposures remain understudied. We used silicone wristband passive samplers to characterize exposure to over 1,500 chemicals among Nicaraguan adolescents (<i>n</i> = 80) residing in CKD high-risk communities but not engaged in agricultural work. We identified exposure profiles using k-means clustering and used LASSO logistic regression to identify predictors of low estimated glomerular filtration rate (eGFR). SHAP (SHapley Additive Explanations) values quantified individual chemical contributions to eGFR in a machine learning model. Of 130 detected chemicals, 21 (16.2%) were pesticides. Pyrethroids were detected on 93.8% of wristbands, most frequently cypermethrin-2 (88.8%) and ethofenprox (60.0%). Phthalates and musks, including bis(2-ethylhexyl) phthalate (DEHP, 98.8%), di-n-butyl phthalate (DnBP, 97.5%), and galaxolide (100%), were near ubiquitous. Esters included benzyl salicylate (97.5%) and ethylene brassylate (93.8%). Organophosphate triphenyl phosphate (TPP, 97.5%) and polyaromatic hydrocarbons (PAHs) pyrene (92.5%) and 2-methylphenanthrene (63.8%) reflected mixed consumer and environmental sources. K-means clustering identified four exposure profiles: two larger clusters reflecting background agrochemical exposures and a low-exposure group, and two smaller clusters dominated by household and personal care products. No individual chemicals were significantly associated with eGFR. SHAP analysis identified phthalates, esters, organophosphates, and phenols as the most influential predictors of kidney function. Adolescents in this CKDu-endemic region experience heterogeneous chemical exposures. Frequently detected compounds with nephrotoxic potential, including pyrethroids, PAHs, phenols, and phthalates, warrant targeted investigation.",
+  "authors": [
+    "Yuan Y",
+    "Hall SM",
+    "Amador Velázquez JJ",
+    "López Pilarte D",
+    "Vences Brown S",
+    "Amador Sánchez M",
+    "Amador Sánchez J",
+    "Claus Henn B",
+    "Scammell MK",
+    "Friedman DJ",
+    "Brooks DR",
+    "Leibler JH"
+  ],
+  "publication_date": "2026-03-09",
+  "journal": "",
+  "doi": "10.1007/s12403-026-00759-y",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1007/s12403-026-00759-y"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12971789"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12971789?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

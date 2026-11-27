@@ -1,0 +1,25 @@
+{
+  "paper_id": "conicet_11336_272192",
+  "url": "https://ri.conicet.gov.ar/handle/11336/272192",
+  "uuid": "faa4f923-4d0f-477f-ad41-38877bca03f5",
+  "title": "Cartografía comparada de inundaciones con imágenes SAR: Caso río Santa Lucía",
+  "abstract": "Las inundaciones se encuentran entre los peligros más frecuentes y extensos a nivel mundial y se espera un aumento de los eventos en todo el mundo debido al crecimiento de la población en las áreas expuestas, el crecimiento económico y el cambio climático (Rojas et al., 2022). El objetivo de este trabajo es comparar las capacidades de las bandas C y L de imágenes radar de apertura sintética (SAR, por su sigla en inglés) para cartografiar inundaciones, que permita, por una parte, el conocimiento y conservación de los humedales fluviales, y por otra, contribuir al ordenamiento territorial reduciendo la ocupación urbana en estas zonas expuestas a frecuentes inundaciones. Para ello, se generaron mapas de clases de cambio del coeficiente σ0 utilizando las imágenes SAR en dos frecuencias: Banda C y Banda L, en condiciones de no-inundación e inundación. Luego se analizaron los mecanismos de interacción dominante entre el coeficiente de retrodispersión σ0 y la vegetación presente que sumado a criterios estadísticos permitieron generar cartografías de inundaciones. Utilizando como verdad de campo puntos que reflejaron la extensión de la inundación en sitios indicados por los pobladores, así como cartografía de inundación realizada en la zona con anterioridad, se evidenció la superioridad de la Banda L para detectar la extensión de las inundaciones, sin embargo, ambos sistemas mostraron una importante sensibilidad a la condición de inundación.",
+  "authors": [
+    "Blanco, Alicia Roxana",
+    "Salvia, Maria Mercedes"
+  ],
+  "journal": "Boletín geográfico",
+  "doi": "",
+  "publication_date": "2024-11",
+  "language": "spa",
+  "keywords": [
+    "DELIMITACION DE INUNDACIONES",
+    "ARGENTINA",
+    "MECANISMOS DE INTERACCION",
+    "ORDENAMIENTO TERRITORIAL",
+    "TELEDETECCION"
+  ],
+  "pdf_url": "https://ri.conicet.gov.ar/server/api/core/bitstreams/4149c607-4e68-41fb-a83e-921d1f6645e8/content",
+  "source_repository": "conicet",
+  "_collect_xml": "ok"
+}

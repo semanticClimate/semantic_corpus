@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13372867",
+  "phrases": [
+    {
+      "phrase": "emscher river",
+      "display": "Emscher River",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "asymmetric recovery concept",
+      "display": "Asymmetric Recovery Concept",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "three gorges dam in china",
+      "display": "Three Gorges Dam in China",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pietrock and marcogliese",
+      "display": "Pietrock and Marcogliese",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "koprivnikar and redfern",
+      "display": "Koprivnikar and Redfern",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "koprivnikar and walker",
+      "display": "Koprivnikar and Walker",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "johnson and carpenter",
+      "display": "Johnson and Carpenter",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "marcogliese",
+      "display": "Marcogliese",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "river",
+      "display": "River",
+      "score": 1.06,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "arc",
+      "display": "ARC",
+      "score": 1.04,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "parasite",
+      "score": 0.0585,
+      "channel": "tfidf",
+      "display": "parasite"
+    },
+    {
+      "phrase": "transmission",
+      "score": 0.0534,
+      "channel": "tfidf",
+      "display": "transmission"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0532,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0532,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "parasites",
+      "score": 0.0495,
+      "channel": "tfidf",
+      "display": "Parasites"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

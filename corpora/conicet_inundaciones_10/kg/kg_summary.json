@@ -1,0 +1,36 @@
+{
+  "step": "kg",
+  "workdir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10",
+  "graph_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\kg\\graph.json",
+  "islands_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\kg\\islands.json",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "document_limit": null,
+    "term_filter_source": "clusters",
+    "terms_selected": 40,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "counts": {
+    "nodes": 44,
+    "edges": 80,
+    "papers": 4,
+    "terms": 40,
+    "encyclopedia": 0,
+    "islands": 0,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-11T04:25:37.838736+00:00",
+  "html_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10\\kg\\knowledge_graph.html"
+}

@@ -1,0 +1,35 @@
+{
+  "step": "kg",
+  "workdir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\amoc_30_prueba",
+  "graph_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\amoc_30_prueba\\kg\\graph.json",
+  "islands_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\amoc_30_prueba\\kg\\islands.json",
+  "params": {
+    "kg_links": [
+      "clusters"
+    ],
+    "kg_links_used": [
+      "clusters"
+    ],
+    "kg_links_skipped": [],
+    "max_island": 20,
+    "min_paper_count": 2,
+    "max_terms": 40,
+    "term_filter_source": "phrases_terms",
+    "terms_selected": 21,
+    "synonym_groups": 0,
+    "terms_merged": 0,
+    "encyclopedia_dropped": 0
+  },
+  "counts": {
+    "nodes": 25,
+    "edges": 31,
+    "papers": 12,
+    "terms": 13,
+    "encyclopedia": 0,
+    "islands": 5,
+    "synonym_groups": 0,
+    "terms_merged": 0
+  },
+  "written_at": "2026-11-07T03:42:41.174054+00:00",
+  "html_path": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\amoc_30_prueba\\kg\\knowledge_graph.html"
+}

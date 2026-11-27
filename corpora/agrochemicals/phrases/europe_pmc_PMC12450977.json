@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12450977",
+  "phrases": [
+    {
+      "phrase": "saharan africa",
+      "display": "Saharan Africa",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "thermo scientific varioskan flash",
+      "display": "Thermo Scientific Varioskan Flash",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "honestly significant difference",
+      "display": "Honestly Significant Difference",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "world health organization",
+      "display": "World Health Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "false discovery rate",
+      "display": "False Discovery Rate",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sorrell and ellis",
+      "display": "Sorrell and Ellis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "st louis",
+      "display": "St Louis",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ucz",
+      "display": "UCZ",
+      "score": 2.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ypd",
+      "display": "YPD",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "amb",
+      "display": "AMB",
+      "score": 1.28,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "adaptors",
+      "score": 0.0539,
+      "channel": "tfidf",
+      "display": "Adaptors"
+    },
+    {
+      "phrase": "azoles",
+      "score": 0.0499,
+      "channel": "tfidf",
+      "display": "Azoles"
+    },
+    {
+      "phrase": "chrs",
+      "score": 0.0465,
+      "channel": "tfidf",
+      "display": "Chrs"
+    },
+    {
+      "phrase": "chrs x2",
+      "score": 0.0465,
+      "channel": "tfidf",
+      "display": "chrs x2"
+    },
+    {
+      "phrase": "adaptor",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "adaptor"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

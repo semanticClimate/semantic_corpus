@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_231590",
+  "phrases": [
+    {
+      "phrase": "boletín geográfico",
+      "display": "Boletín Geográfico",
+      "score": 1.9,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "el civismo",
+      "display": "El Civismo",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "buenos aires",
+      "display": "Buenos Aires",
+      "score": 1.6,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "subdirección de emergencia y defensa civil",
+      "display": "Subdirección de Emergencia y Defensa Civil",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "modelo de elevación digital aerofotogramétrico",
+      "display": "Modelo de Elevación Digital Aerofotogramétrico",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bomberos voluntarios de luján",
+      "display": "Bomberos Voluntarios de Luján",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "modelo de elevación digital",
+      "display": "Modelo de Elevación Digital",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "luján",
+      "display": "LUJÁN",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mde",
+      "display": "MDE",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ign",
+      "display": "IGN",
+      "score": 1.22,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "simulación",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "Simulación"
+    },
+    {
+      "phrase": "simulación agua",
+      "score": 0.0406,
+      "channel": "tfidf",
+      "display": "simulación agua"
+    },
+    {
+      "phrase": "río",
+      "score": 0.0399,
+      "channel": "tfidf",
+      "display": "Río"
+    },
+    {
+      "phrase": "agua",
+      "score": 0.038,
+      "channel": "tfidf",
+      "display": "AGUA"
+    },
+    {
+      "phrase": "escenarios",
+      "score": 0.0376,
+      "channel": "tfidf",
+      "display": "ESCENARIOS"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

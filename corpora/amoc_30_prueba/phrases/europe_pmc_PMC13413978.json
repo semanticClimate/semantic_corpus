@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13413978",
+  "phrases": [
+    {
+      "phrase": "lake chivero",
+      "display": "Lake Chivero",
+      "score": 3.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "firle wastewater treatment plant",
+      "display": "Firle Wastewater Treatment Plant",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mukuvisi river",
+      "display": "Mukuvisi River",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "morton jaffray water treatment plant",
+      "display": "Morton Jaffray Water Treatment Plant",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "analytical chemistry laboratory",
+      "display": "Analytical Chemistry Laboratory",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "university of zimbabwe",
+      "display": "University of Zimbabwe",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "standard methods",
+      "display": "Standard Methods",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "smx",
+      "display": "SMX",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tmp",
+      "display": "TMP",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chivero",
+      "display": "Chivero",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "wastewater",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "Wastewater"
+    },
+    {
+      "phrase": "lake",
+      "score": 0.0392,
+      "channel": "tfidf",
+      "display": "Lake"
+    },
+    {
+      "phrase": "urban water",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "urban water"
+    },
+    {
+      "phrase": "harare",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Harare"
+    },
+    {
+      "phrase": "water",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "Water"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

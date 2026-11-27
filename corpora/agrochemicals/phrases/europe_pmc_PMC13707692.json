@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13707692",
+  "phrases": [
+    {
+      "phrase": "quantum dots",
+      "display": "Quantum Dots",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "environmental science",
+      "display": "Environmental Science",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european commission",
+      "display": "European Commission",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "preferred reporting items for systematic reviews and meta",
+      "display": "Preferred Reporting Items for Systematic Reviews and Meta",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dutch technical university in delft",
+      "display": "Dutch Technical University in Delft",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "web of science and google scholar",
+      "display": "Web of Science and Google Scholar",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "environmental science nano",
+      "display": "Environmental Science Nano",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nps",
+      "display": "NPs",
+      "score": 1.66,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "or",
+      "display": "OR",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cnts",
+      "display": "CNTs",
+      "score": 1.16,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nanomaterials",
+      "score": 0.0393,
+      "channel": "tfidf",
+      "display": "Nanomaterials"
+    },
+    {
+      "phrase": "nanotechnology",
+      "score": 0.0331,
+      "channel": "tfidf",
+      "display": "Nanotechnology"
+    },
+    {
+      "phrase": "nanomaterial",
+      "score": 0.0331,
+      "channel": "tfidf",
+      "display": "nanomaterial"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0313,
+      "channel": "tfidf",
+      "display": "soil"
+    },
+    {
+      "phrase": "qds",
+      "score": 0.0306,
+      "channel": "tfidf",
+      "display": "QDs"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

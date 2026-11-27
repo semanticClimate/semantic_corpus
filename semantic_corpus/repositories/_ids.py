@@ -271,3 +271,39 @@ def id_from_unal_url(url_or_id: str) -> str:
 def handle_from_unal_url(url_or_id: str) -> str:
     """Alias for id_from_unal_colombia_url."""
     return id_from_unal_colombia_url(url_or_id)
+
+
+def id_from_shodhganga_url(url_or_id: str) -> str:
+    """Extracts handle identifier from a document in Shodhganga repository (INFLIBNET).
+    E.g.:
+    - 'https://shodhganga.inflibnet.ac.in/handle/10603/454861' -> 'shodhganga_10603_454861'
+    - 'http://hdl.handle.net/10603/454861' -> 'shodhganga_10603_454861'
+    - '10603/454861' -> 'shodhganga_10603_454861'
+    - '454861' -> 'shodhganga_10603_454861'
+    - 'shodhganga_10603_454861' -> 'shodhganga_10603_454861'
+    """
+    if not url_or_id:
+        return ""
+    # Matches handle with 10603 prefix (or 10603_...)
+    match_10603 = re.search(r"10603[/_](\d+)", url_or_id)
+    if match_10603:
+        return sanitize_paper_id(f"shodhganga_10603_{match_10603.group(1)}")
+    # Matches generic handle /handle/<prefix>/<id> or handle.net/<prefix>/<id>
+    match_handle = re.search(
+        r"(?:/handle/|handle\.net/)(\d+(?:\.\d+)?)/(\d+)", url_or_id
+    )
+    if match_handle:
+        prefix = match_handle.group(1).replace(".", "_")
+        return sanitize_paper_id(f"shodhganga_{prefix}_{match_handle.group(2)}")
+    # If already starts with shodhganga_
+    if url_or_id.startswith("shodhganga_"):
+        return sanitize_paper_id(url_or_id)
+    # If numeric only, assume default 10603 prefix
+    if url_or_id.isdigit():
+        return sanitize_paper_id(f"shodhganga_10603_{url_or_id}")
+    return sanitize_paper_id(f"shodhganga_{url_or_id}")
+
+
+def handle_from_shodhganga_url(url_or_id: str) -> str:
+    """Alias for id_from_shodhganga_url."""
+    return id_from_shodhganga_url(url_or_id)

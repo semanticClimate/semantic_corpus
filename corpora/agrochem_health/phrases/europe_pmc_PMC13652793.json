@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13652793",
+  "phrases": [
+    {
+      "phrase": "sathiyabama and manikandan",
+      "display": "Sathiyabama and Manikandan",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "dos santos silva",
+      "display": "Dos Santos Silva",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "google scholar",
+      "display": "Google Scholar",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "web of science",
+      "display": "Web of Science",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "santos silva",
+      "display": "Santos Silva",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "unlike sect",
+      "display": "Unlike Sect",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "csnps",
+      "display": "CSNPs",
+      "score": 1.51,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "npk",
+      "display": "NPK",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "npss",
+      "display": "NPSs",
+      "score": 1.48,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "et",
+      "score": 0.0359,
+      "channel": "tfidf",
+      "display": "et"
+    },
+    {
+      "phrase": "al",
+      "score": 0.0359,
+      "channel": "tfidf",
+      "display": "al"
+    },
+    {
+      "phrase": "nc",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "NC"
+    },
+    {
+      "phrase": "delivery",
+      "score": 0.0326,
+      "channel": "tfidf",
+      "display": "Delivery"
+    },
+    {
+      "phrase": "antifungalcsnps",
+      "score": 0.0319,
+      "channel": "tfidf",
+      "display": "AntifungalCSNPs"
+    },
+    {
+      "phrase": "chitosan",
+      "score": 0.0319,
+      "channel": "tfidf",
+      "display": "Chitosan"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

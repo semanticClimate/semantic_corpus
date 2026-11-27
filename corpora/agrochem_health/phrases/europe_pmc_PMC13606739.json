@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13606739",
+  "phrases": [
+    {
+      "phrase": "interpenetrating polymer networks",
+      "display": "Interpenetrating Polymer Networks",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "preferred reporting items for systematic reviews and meta",
+      "display": "Preferred Reporting Items for Systematic Reviews and Meta",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "intergovernmental panel on climate change",
+      "display": "Intergovernmental Panel on Climate Change",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "indian agricultural research institute",
+      "display": "Indian Agricultural Research Institute",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "food and agriculture organization",
+      "display": "Food and Agriculture Organization",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "haripriya and vijayakrishna",
+      "display": "Haripriya and Vijayakrishna",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "green revolution in asia",
+      "display": "Green Revolution in Asia",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hg",
+      "display": "HG",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hgs",
+      "display": "HGs",
+      "score": 1.59,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "trl",
+      "display": "TRL",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hydrogels",
+      "score": 0.0354,
+      "channel": "tfidf",
+      "display": "Hydrogels"
+    },
+    {
+      "phrase": "soil",
+      "score": 0.0335,
+      "channel": "tfidf",
+      "display": "Soil"
+    },
+    {
+      "phrase": "encapsulation",
+      "score": 0.0322,
+      "channel": "tfidf",
+      "display": "encapsulation"
+    },
+    {
+      "phrase": "water",
+      "score": 0.032,
+      "channel": "tfidf",
+      "display": "water"
+    },
+    {
+      "phrase": "release",
+      "score": 0.0306,
+      "channel": "tfidf",
+      "display": "release"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

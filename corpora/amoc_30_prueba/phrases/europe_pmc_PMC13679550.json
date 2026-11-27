@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13679550",
+  "phrases": [
+    {
+      "phrase": "controlled release systems",
+      "display": "Controlled Release Systems",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "delivery systems and agricultural functions nano",
+      "display": "Delivery Systems and Agricultural Functions Nano",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "framework used for literature selection table",
+      "display": "Framework Used for Literature Selection Table",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "applications of green nanoparticles in crop",
+      "display": "Applications of Green Nanoparticles in Crop",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "green synthesis routes and sustainability",
+      "display": "Green Synthesis Routes and Sustainability",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "satellites and unmanned aerial vehicles",
+      "display": "Satellites and Unmanned Aerial Vehicles",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "keyword development strategy based",
+      "display": "Keyword Development Strategy Based",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nps",
+      "display": "NPs",
+      "score": 1.79,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "or",
+      "display": "OR",
+      "score": 1.46,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pa",
+      "display": "PA",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "delivery",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "Delivery"
+    },
+    {
+      "phrase": "green nps",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "Green NPs"
+    },
+    {
+      "phrase": "nutrient",
+      "score": 0.0355,
+      "channel": "tfidf",
+      "display": "nutrient"
+    },
+    {
+      "phrase": "nanoparticle",
+      "score": 0.035,
+      "channel": "tfidf",
+      "display": "Nanoparticle"
+    },
+    {
+      "phrase": "nano-enabled",
+      "score": 0.0347,
+      "channel": "tfidf",
+      "display": "Nano-enabled"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.1626
+}

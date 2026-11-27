@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13008687",
+  "phrases": [
+    {
+      "phrase": "women in plant abiotic stress",
+      "display": "Women in Plant Abiotic Stress",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "frontiers in plant science",
+      "display": "Frontiers in Plant Science",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "women in plant science",
+      "display": "Women in Plant Science",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "latin america",
+      "display": "Latin America",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "redox biology of plant abiotic stress",
+      "display": "Redox Biology of Plant Abiotic Stress",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "american society of plant biologists",
+      "display": "American Society of Plant Biologists",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "women in plant biology committee",
+      "display": "Women in Plant Biology Committee",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "plant",
+      "display": "Plant",
+      "score": 1.21,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ros",
+      "display": "ROS",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "aspb",
+      "display": "ASPB",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "abiotic",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "Abiotic"
+    },
+    {
+      "phrase": "abiotic stress",
+      "score": 0.0382,
+      "channel": "tfidf",
+      "display": "Abiotic Stress"
+    },
+    {
+      "phrase": "women scientists",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "Women Scientists"
+    },
+    {
+      "phrase": "authorship",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "authorship"
+    },
+    {
+      "phrase": "stress",
+      "score": 0.0374,
+      "channel": "tfidf",
+      "display": "Stress"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.7843
+}

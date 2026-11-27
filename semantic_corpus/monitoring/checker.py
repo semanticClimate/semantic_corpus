@@ -33,6 +33,7 @@ HISTORY_PER_TARGET = 60
 PING_URL_OVERRIDES = {
     "europe_pmc": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=test&format=json&pageSize=1",
     "arxiv": "http://export.arxiv.org/api/query?search_query=all:test&max_results=1",
+    "shodhganga": "https://shodhganga.inflibnet.ac.in/browse?type=title",
 }
 
 

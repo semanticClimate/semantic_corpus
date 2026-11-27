@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13676021",
+  "phrases": [
+    {
+      "phrase": "united states",
+      "display": "United States",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agricultural health study",
+      "display": "Agricultural Health Study",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "excerpta medica",
+      "display": "Excerpta Medica",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eligibility criteria and search strategies this",
+      "display": "Eligibility Criteria and Search Strategies This",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "quality assessment methodological",
+      "display": "Quality Assessment Methodological",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "medical expenditure panel survey",
+      "display": "Medical Expenditure Panel Survey",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "study selection process all",
+      "display": "Study Selection Process All",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nmsc",
+      "display": "NMSC",
+      "score": 1.52,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "uv",
+      "display": "UV",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bcc",
+      "display": "BCC",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "skin cancer",
+      "score": 0.0579,
+      "channel": "tfidf",
+      "display": "skin cancer"
+    },
+    {
+      "phrase": "occupational",
+      "score": 0.0542,
+      "channel": "tfidf",
+      "display": "occupational"
+    },
+    {
+      "phrase": "occupational pesticide",
+      "score": 0.052,
+      "channel": "tfidf",
+      "display": "occupational pesticide"
+    },
+    {
+      "phrase": "cancer",
+      "score": 0.052,
+      "channel": "tfidf",
+      "display": "cancer"
+    },
+    {
+      "phrase": "exposure",
+      "score": 0.0498,
+      "channel": "tfidf",
+      "display": "Exposure"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

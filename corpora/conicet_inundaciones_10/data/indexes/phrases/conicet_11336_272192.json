@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_272192",
+  "phrases": [
+    {
+      "phrase": "santa lucía",
+      "display": "Santa Lucía",
+      "score": 2.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "boletín geográfico",
+      "display": "Boletín Geográfico",
+      "score": 2.0,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "odriozola y contreras",
+      "display": "Odriozola y Contreras",
+      "score": 1.5,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "índice kappa",
+      "display": "Índice Kappa",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "referencia exactitud",
+      "display": "Referencia Exactitud",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exactitud general",
+      "display": "Exactitud General",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "san martín",
+      "display": "San Martín",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sar",
+      "display": "SAR",
+      "score": 1.7,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "banda",
+      "display": "Banda",
+      "score": 1.57,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "alos",
+      "display": "ALOS",
+      "score": 1.34,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "exactitud",
+      "score": 0.0427,
+      "channel": "tfidf",
+      "display": "Exactitud"
+    },
+    {
+      "phrase": "imágenes",
+      "score": 0.0415,
+      "channel": "tfidf",
+      "display": "Imágenes"
+    },
+    {
+      "phrase": "sentinel",
+      "score": 0.0383,
+      "channel": "tfidf",
+      "display": "SENTINEL"
+    },
+    {
+      "phrase": "señal",
+      "score": 0.0379,
+      "channel": "tfidf",
+      "display": "señal"
+    },
+    {
+      "phrase": "vegetación",
+      "score": 0.0377,
+      "channel": "tfidf",
+      "display": "vegetación"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

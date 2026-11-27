@@ -1,0 +1,39 @@
+{
+  "pmcid": "PMC13149677",
+  "pmid": "41851115",
+  "title": "Tracing the origins of molecular signals in food through integrative metabolomics and chemical databases.",
+  "abstract": "Foods contain thousands of chemical constituents beyond macronutrients, including bioactive metabolites, processing by-products, and contaminants that remain poorly characterized. The Periodic Table of Food Initiative (PTFI) is establishing a standardized global reference for food composition using untargeted mass spectrometry. We analyzed the first PTFI release ( ~ 24,000 molecular features across 500 foods) by linking annotated and unannotated signals to curated databases of pharmaceuticals, agrochemicals, food contact chemicals, and natural products. Annotated compounds revealed characteristic chemical patterns across food groups, while unannotated features exposed xenobiotic signatures and potential contamination pathways. A taxonomy-aware search identified unexpected natural products, such as biochanin A and tiliroside produced by Canada thistle. Together, these analyses show how agricultural practices, environmental exposures, and processing shape food chemistry and highlight the value of food metabolomics for advancing a One Health understanding of the molecular connections between the environment, food systems, and human health.",
+  "authors": [
+    "Mendoza Cantu A",
+    "Gauglitz JM",
+    "Bittremieux W"
+  ],
+  "publication_date": "2026-03-18",
+  "journal": "",
+  "doi": "10.1038/s41538-026-00802-x",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1038/s41538-026-00802-x"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13149677"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC13149677?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

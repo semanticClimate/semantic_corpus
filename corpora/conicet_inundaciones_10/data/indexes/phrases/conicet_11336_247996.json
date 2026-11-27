@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_247996",
+  "phrases": [
+    {
+      "phrase": "la plata",
+      "display": "La Plata",
+      "score": 1.8,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "federación universitaria de la plata",
+      "display": "Federación Universitaria de La Plata",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "velén aimé y introducción",
+      "display": "Velén Aimé y Introducción",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "brubaker y cooper",
+      "display": "Brubaker y Cooper",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "unlp",
+      "display": "UNLP",
+      "score": 1.26,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "chaves",
+      "display": "CHAVES",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "de",
+      "display": "DE",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "estudiantes",
+      "score": 0.0597,
+      "channel": "tfidf",
+      "display": "estudiantes"
+    },
+    {
+      "phrase": "asamblea",
+      "score": 0.0548,
+      "channel": "tfidf",
+      "display": "asamblea"
+    },
+    {
+      "phrase": "estudiantil",
+      "score": 0.0536,
+      "channel": "tfidf",
+      "display": "estudiantil"
+    },
+    {
+      "phrase": "acontecimiento",
+      "score": 0.0522,
+      "channel": "tfidf",
+      "display": "acontecimiento"
+    },
+    {
+      "phrase": "acontecimientos",
+      "score": 0.0473,
+      "channel": "tfidf",
+      "display": "ACONTECIMIENTOS"
+    },
+    {
+      "phrase": "inundación",
+      "score": 0.0461,
+      "channel": "tfidf",
+      "display": "Inundación"
+    },
+    {
+      "phrase": "coordinadoras",
+      "score": 0.0453,
+      "channel": "tfidf",
+      "display": "COORDINADORAS"
+    },
+    {
+      "phrase": "coordinadoras ciencias",
+      "score": 0.0453,
+      "channel": "tfidf",
+      "display": "coordinadoras ciencias"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

@@ -1,0 +1,45 @@
+{
+  "max_island": 20,
+  "island_count": 3,
+  "islands": [
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC13510588",
+        "paper:europe_pmc_PMC13679550",
+        "term:delivery",
+        "term:nps",
+        "term:or"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 4,
+      "node_ids": [
+        "paper:europe_pmc_PMC13226431",
+        "paper:europe_pmc_PMC13455386",
+        "term:drinking water",
+        "term:pfas"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC13652793",
+        "paper:europe_pmc_PMC13707259",
+        "term:web of science"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

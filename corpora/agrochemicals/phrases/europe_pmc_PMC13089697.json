@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13089697",
+  "phrases": [
+    {
+      "phrase": "lake tana",
+      "display": "Lake Tana",
+      "score": 2.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gilgel abay",
+      "display": "Gilgel Abay",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fogera and bahirdar zuria",
+      "display": "Fogera and Bahirdar Zuria",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bahirdar zuria",
+      "display": "Bahirdar Zuria",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "rift valley",
+      "display": "Rift Valley",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bahir dar",
+      "display": "Bahir Dar",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "bahridar zuria and gilegel abay",
+      "display": "Bahridar Zuria and Gilegel Abay",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "ddt",
+      "display": "DDT",
+      "score": 1.18,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "lake",
+      "display": "Lake",
+      "score": 1.17,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tana",
+      "display": "Tana",
+      "score": 1.15,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "farmers",
+      "score": 0.0431,
+      "channel": "tfidf",
+      "display": "Farmers"
+    },
+    {
+      "phrase": "attitudes",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "Attitudes"
+    },
+    {
+      "phrase": "respondents",
+      "score": 0.041,
+      "channel": "tfidf",
+      "display": "respondents"
+    },
+    {
+      "phrase": "pesticide",
+      "score": 0.0387,
+      "channel": "tfidf",
+      "display": "Pesticide"
+    },
+    {
+      "phrase": "pesticide application",
+      "score": 0.0378,
+      "channel": "tfidf",
+      "display": "pesticide application"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

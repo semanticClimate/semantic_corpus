@@ -1,0 +1,967 @@
+{
+  "step": 3,
+  "params": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "min_cluster_papers": 2,
+    "seed": 42,
+    "phrase_method": "tfidf",
+    "score_higher_is_better": true
+  },
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "theme": "Saharan Africa; CKD; CO; SDI; Eastern Europe",
+      "paper_count": 2,
+      "term_count": 27,
+      "paper_ids": [
+        "europe_pmc_PMC12331598",
+        "europe_pmc_PMC12818217"
+      ],
+      "terms": [
+        {
+          "phrase": "saharan africa",
+          "display": "Saharan Africa",
+          "weight": 4.1
+        },
+        {
+          "phrase": "ckd",
+          "display": "CKD",
+          "weight": 2.48
+        },
+        {
+          "phrase": "co",
+          "display": "CO",
+          "weight": 1.92
+        },
+        {
+          "phrase": "sdi",
+          "display": "SDI",
+          "weight": 1.56
+        },
+        {
+          "phrase": "eastern europe",
+          "display": "Eastern Europe",
+          "weight": 1.5
+        },
+        {
+          "phrase": "southern sub",
+          "display": "Southern Sub",
+          "weight": 1.5
+        },
+        {
+          "phrase": "sri lanka",
+          "display": "Sri Lanka",
+          "weight": 1.5
+        },
+        {
+          "phrase": "daly",
+          "display": "DALY",
+          "weight": 1.48
+        },
+        {
+          "phrase": "central europe",
+          "display": "Central Europe",
+          "weight": 1.4
+        },
+        {
+          "phrase": "central sub",
+          "display": "Central Sub",
+          "weight": 1.4
+        },
+        {
+          "phrase": "demographic index",
+          "display": "Demographic Index",
+          "weight": 1.4
+        },
+        {
+          "phrase": "south asia",
+          "display": "South Asia",
+          "weight": 1.4
+        },
+        {
+          "phrase": "global burden of disease",
+          "display": "Global Burden of Disease",
+          "weight": 1.3
+        },
+        {
+          "phrase": "north africa",
+          "display": "North Africa",
+          "weight": 1.3
+        },
+        {
+          "phrase": "north america",
+          "display": "North America",
+          "weight": 1.3
+        },
+        {
+          "phrase": "kf",
+          "display": "KF",
+          "weight": 1.24
+        },
+        {
+          "phrase": "pd",
+          "display": "PD",
+          "weight": 1.2
+        },
+        {
+          "phrase": "poisoning",
+          "display": "Poisoning",
+          "weight": 0.0541
+        },
+        {
+          "phrase": "non-co",
+          "display": "non-CO",
+          "weight": 0.0532
+        },
+        {
+          "phrase": "non-co poisoning",
+          "display": "non-CO poisoning",
+          "weight": 0.0532
+        },
+        {
+          "phrase": "dalys",
+          "display": "DALYs",
+          "weight": 0.0451
+        },
+        {
+          "phrase": "asr",
+          "display": "ASR",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "dialysis",
+          "display": "Dialysis",
+          "weight": 0.0395
+        },
+        {
+          "phrase": "health care",
+          "display": "Health care",
+          "weight": 0.039
+        },
+        {
+          "phrase": "migrants",
+          "display": "Migrants",
+          "weight": 0.0385
+        },
+        {
+          "phrase": "care",
+          "display": "care",
+          "weight": 0.0383
+        },
+        {
+          "phrase": "kidney",
+          "display": "Kidney",
+          "weight": 0.0381
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "theme": "Latin America; Latin American; BCAA; CI; European and Asian",
+      "paper_count": 2,
+      "term_count": 26,
+      "paper_ids": [
+        "europe_pmc_PMC11090615",
+        "europe_pmc_PMC13054996"
+      ],
+      "terms": [
+        {
+          "phrase": "latin america",
+          "display": "Latin America",
+          "weight": 3.0
+        },
+        {
+          "phrase": "latin american",
+          "display": "Latin American",
+          "weight": 3.0
+        },
+        {
+          "phrase": "bcaa",
+          "display": "BCAA",
+          "weight": 1.78
+        },
+        {
+          "phrase": "ci",
+          "display": "CI",
+          "weight": 1.34
+        },
+        {
+          "phrase": "european and asian",
+          "display": "European and Asian",
+          "weight": 1.3
+        },
+        {
+          "phrase": "puerto rican",
+          "display": "Puerto Rican",
+          "weight": 1.3
+        },
+        {
+          "phrase": "mauco",
+          "display": "MAUCO",
+          "weight": 1.28
+        },
+        {
+          "phrase": "after bonferroni",
+          "display": "After Bonferroni",
+          "weight": 1.2
+        },
+        {
+          "phrase": "maule cohort",
+          "display": "Maule Cohort",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ddt",
+          "display": "DDT",
+          "weight": 1.14
+        },
+        {
+          "phrase": "latin",
+          "display": "Latin",
+          "weight": 1.12
+        },
+        {
+          "phrase": "brazilian consumer defense institute",
+          "display": "Brazilian Consumer Defense Institute",
+          "weight": 1.1
+        },
+        {
+          "phrase": "checklist for prevalence studies",
+          "display": "Checklist for Prevalence Studies",
+          "weight": 1.1
+        },
+        {
+          "phrase": "dde",
+          "display": "DDE",
+          "weight": 1.1
+        },
+        {
+          "phrase": "federal commission for protection",
+          "display": "Federal Commission for Protection",
+          "weight": 1.1
+        },
+        {
+          "phrase": "program for analyzing pesticide residues in foods",
+          "display": "Program for Analyzing Pesticide Residues in Foods",
+          "weight": 1.1
+        },
+        {
+          "phrase": "prospective register of systematic reviews",
+          "display": "Prospective Register of Systematic Reviews",
+          "weight": 1.1
+        },
+        {
+          "phrase": "breast milk",
+          "display": "Breast milk",
+          "weight": 0.0603
+        },
+        {
+          "phrase": "breast",
+          "display": "Breast",
+          "weight": 0.0596
+        },
+        {
+          "phrase": "milk",
+          "display": "milk",
+          "weight": 0.0596
+        },
+        {
+          "phrase": "amino",
+          "display": "Amino",
+          "weight": 0.0506
+        },
+        {
+          "phrase": "amino acids",
+          "display": "amino acids",
+          "weight": 0.0499
+        },
+        {
+          "phrase": "plasma",
+          "display": "Plasma",
+          "weight": 0.0488
+        },
+        {
+          "phrase": "acids",
+          "display": "acids",
+          "weight": 0.0481
+        },
+        {
+          "phrase": "risk bias",
+          "display": "risk bias",
+          "weight": 0.0462
+        },
+        {
+          "phrase": "isoleucine",
+          "display": "Isoleucine",
+          "weight": 0.0434
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "theme": "Foundation for Statistical Computing; SABE; National Institute of Statistics and Census; Ecuador; Federal University",
+      "paper_count": 2,
+      "term_count": 26,
+      "paper_ids": [
+        "europe_pmc_PMC12822919",
+        "europe_pmc_PMC12940714"
+      ],
+      "terms": [
+        {
+          "phrase": "foundation for statistical computing",
+          "display": "Foundation for Statistical Computing",
+          "weight": 2.2
+        },
+        {
+          "phrase": "sabe",
+          "display": "SABE",
+          "weight": 1.26
+        },
+        {
+          "phrase": "national institute of statistics and census",
+          "display": "National Institute of Statistics and Census",
+          "weight": 1.2
+        },
+        {
+          "phrase": "ecuador",
+          "display": "Ecuador",
+          "weight": 1.12
+        },
+        {
+          "phrase": "federal university",
+          "display": "Federal University",
+          "weight": 1.1
+        },
+        {
+          "phrase": "inec",
+          "display": "INEC",
+          "weight": 1.1
+        },
+        {
+          "phrase": "international standard industrial classification",
+          "display": "International Standard Industrial Classification",
+          "weight": 1.1
+        },
+        {
+          "phrase": "latin america and ecuador",
+          "display": "Latin America and Ecuador",
+          "weight": 1.1
+        },
+        {
+          "phrase": "sigma aldrich",
+          "display": "Sigma Aldrich",
+          "weight": 1.1
+        },
+        {
+          "phrase": "st louis",
+          "display": "St Louis",
+          "weight": 1.1
+        },
+        {
+          "phrase": "wellbeing and aging survey",
+          "display": "Wellbeing and Aging Survey",
+          "weight": 1.1
+        },
+        {
+          "phrase": "hppd",
+          "display": "HPPD",
+          "weight": 1.08
+        },
+        {
+          "phrase": "anopheles",
+          "display": "Anopheles",
+          "weight": 1.04
+        },
+        {
+          "phrase": "nitisinone",
+          "display": "Nitisinone",
+          "weight": 0.0749
+        },
+        {
+          "phrase": "longipalpis",
+          "display": "longipalpis",
+          "weight": 0.0664
+        },
+        {
+          "phrase": "lu longipalpis",
+          "display": "lu longipalpis",
+          "weight": 0.0664
+        },
+        {
+          "phrase": "sand",
+          "display": "Sand",
+          "weight": 0.0649
+        },
+        {
+          "phrase": "flies",
+          "display": "flies",
+          "weight": 0.0625
+        },
+        {
+          "phrase": "lu",
+          "display": "Lu",
+          "weight": 0.0625
+        },
+        {
+          "phrase": "sand flies",
+          "display": "sand flies",
+          "weight": 0.0625
+        },
+        {
+          "phrase": "vector",
+          "display": "Vector",
+          "weight": 0.0577
+        },
+        {
+          "phrase": "self-rated",
+          "display": "Self-rated",
+          "weight": 0.047
+        },
+        {
+          "phrase": "self-rated health",
+          "display": "Self-rated health",
+          "weight": 0.047
+        },
+        {
+          "phrase": "older",
+          "display": "Older",
+          "weight": 0.0459
+        },
+        {
+          "phrase": "occupational",
+          "display": "Occupational",
+          "weight": 0.0421
+        },
+        {
+          "phrase": "older adults",
+          "display": "Older adults",
+          "weight": 0.0418
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "theme": "South America; America; Central America; LAC; French Guiana",
+      "paper_count": 2,
+      "term_count": 25,
+      "paper_ids": [
+        "europe_pmc_PMC12591810",
+        "europe_pmc_PMC13722186"
+      ],
+      "terms": [
+        {
+          "phrase": "south america",
+          "display": "South America",
+          "weight": 3.5
+        },
+        {
+          "phrase": "america",
+          "display": "America",
+          "weight": 2.28
+        },
+        {
+          "phrase": "central america",
+          "display": "Central America",
+          "weight": 1.7
+        },
+        {
+          "phrase": "lac",
+          "display": "LAC",
+          "weight": 1.42
+        },
+        {
+          "phrase": "french guiana",
+          "display": "French Guiana",
+          "weight": 1.3
+        },
+        {
+          "phrase": "rapa nui",
+          "display": "Rapa Nui",
+          "weight": 1.3
+        },
+        {
+          "phrase": "winsa",
+          "display": "WINSA",
+          "weight": 1.26
+        },
+        {
+          "phrase": "institut pasteur of french guiana",
+          "display": "Institut Pasteur of French Guiana",
+          "weight": 1.2
+        },
+        {
+          "phrase": "instituto nacional",
+          "display": "Instituto Nacional",
+          "weight": 1.2
+        },
+        {
+          "phrase": "universidad nacional",
+          "display": "Universidad Nacional",
+          "weight": 1.2
+        },
+        {
+          "phrase": "or",
+          "display": "OR",
+          "weight": 1.18
+        },
+        {
+          "phrase": "south",
+          "display": "South",
+          "weight": 1.16
+        },
+        {
+          "phrase": "central american",
+          "display": "Central American",
+          "weight": 1.1
+        },
+        {
+          "phrase": "colombia and uruguay",
+          "display": "Colombia and Uruguay",
+          "weight": 1.1
+        },
+        {
+          "phrase": "formoso river",
+          "display": "Formoso River",
+          "weight": 1.1
+        },
+        {
+          "phrase": "medical subject headings",
+          "display": "Medical Subject Headings",
+          "weight": 1.1
+        },
+        {
+          "phrase": "resistance",
+          "display": "Resistance",
+          "weight": 0.0466
+        },
+        {
+          "phrase": "insecticide resistance",
+          "display": "Insecticide Resistance",
+          "weight": 0.0456
+        },
+        {
+          "phrase": "insecticide",
+          "display": "Insecticide",
+          "weight": 0.0445
+        },
+        {
+          "phrase": "ae",
+          "display": "Ae",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "pollution",
+          "display": "pollution",
+          "weight": 0.0424
+        },
+        {
+          "phrase": "subclinical",
+          "display": "subclinical",
+          "weight": 0.0389
+        },
+        {
+          "phrase": "water pollution",
+          "display": "water pollution",
+          "weight": 0.0389
+        },
+        {
+          "phrase": "studies",
+          "display": "Studies",
+          "weight": 0.0382
+        },
+        {
+          "phrase": "aquatic",
+          "display": "aquatic",
+          "weight": 0.0378
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "theme": "United Nations; Food and Agriculture Organization; Logit and Probit; Mapuche; ELCSA",
+      "paper_count": 2,
+      "term_count": 24,
+      "paper_ids": [
+        "europe_pmc_PMC11643924",
+        "europe_pmc_PMC13415142"
+      ],
+      "terms": [
+        {
+          "phrase": "united nations",
+          "display": "United Nations",
+          "weight": 2.6
+        },
+        {
+          "phrase": "food and agriculture organization",
+          "display": "Food and Agriculture Organization",
+          "weight": 2.4
+        },
+        {
+          "phrase": "logit and probit",
+          "display": "Logit and Probit",
+          "weight": 1.6
+        },
+        {
+          "phrase": "mapuche",
+          "display": "Mapuche",
+          "weight": 1.29
+        },
+        {
+          "phrase": "elcsa",
+          "display": "ELCSA",
+          "weight": 1.26
+        },
+        {
+          "phrase": "scientific ethics committee",
+          "display": "Scientific Ethics Committee",
+          "weight": 1.2
+        },
+        {
+          "phrase": "probit",
+          "display": "Probit",
+          "weight": 1.15
+        },
+        {
+          "phrase": "riobamba",
+          "display": "Riobamba",
+          "weight": 1.15
+        },
+        {
+          "phrase": "indigenous",
+          "display": "Indigenous",
+          "weight": 1.13
+        },
+        {
+          "phrase": "boyeco territorial roundtable",
+          "display": "Boyeco Territorial Roundtable",
+          "weight": 1.1
+        },
+        {
+          "phrase": "human rights of older persons",
+          "display": "Human Rights of Older Persons",
+          "weight": 1.1
+        },
+        {
+          "phrase": "latin american and caribbean food security scale",
+          "display": "Latin American and Caribbean Food Security Scale",
+          "weight": 1.1
+        },
+        {
+          "phrase": "panorama of food and nutritional security",
+          "display": "Panorama of Food and Nutritional Security",
+          "weight": 1.1
+        },
+        {
+          "phrase": "territorial development and land use plan",
+          "display": "Territorial Development and Land Use Plan",
+          "weight": 1.1
+        },
+        {
+          "phrase": "food access",
+          "display": "Food Access",
+          "weight": 0.0483
+        },
+        {
+          "phrase": "access consumption",
+          "display": "access consumption",
+          "weight": 0.0463
+        },
+        {
+          "phrase": "food access consumption",
+          "display": "food access consumption",
+          "weight": 0.0459
+        },
+        {
+          "phrase": "household food",
+          "display": "Household food",
+          "weight": 0.0458
+        },
+        {
+          "phrase": "elderly",
+          "display": "elderly",
+          "weight": 0.0456
+        },
+        {
+          "phrase": "household",
+          "display": "Household",
+          "weight": 0.0435
+        },
+        {
+          "phrase": "food security",
+          "display": "Food security",
+          "weight": 0.0426
+        },
+        {
+          "phrase": "security",
+          "display": "Security",
+          "weight": 0.042
+        },
+        {
+          "phrase": "food",
+          "display": "Food",
+          "weight": 0.0418
+        },
+        {
+          "phrase": "quote",
+          "display": "quote",
+          "weight": 0.0388
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "theme": "Brazil; Brazilian; Meio Ambiente; Brazilian Institute of Environment and Renewable Natural Resources; Ecosystem Approach",
+      "paper_count": 2,
+      "term_count": 24,
+      "paper_ids": [
+        "europe_pmc_PMC11947944",
+        "europe_pmc_PMC13106253"
+      ],
+      "terms": [
+        {
+          "phrase": "brazil",
+          "display": "Brazil",
+          "weight": 2.51
+        },
+        {
+          "phrase": "brazilian",
+          "display": "Brazilian",
+          "weight": 2.3
+        },
+        {
+          "phrase": "meio ambiente",
+          "display": "Meio Ambiente",
+          "weight": 1.5
+        },
+        {
+          "phrase": "brazilian institute of environment and renewable natural resources",
+          "display": "Brazilian Institute of Environment and Renewable Natural Resources",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ecosystem approach",
+          "display": "Ecosystem Approach",
+          "weight": 1.3
+        },
+        {
+          "phrase": "instituto brasileiro",
+          "display": "Instituto Brasileiro",
+          "weight": 1.3
+        },
+        {
+          "phrase": "international initiative",
+          "display": "International Initiative",
+          "weight": 1.3
+        },
+        {
+          "phrase": "ministry of agriculture and livestock",
+          "display": "Ministry of Agriculture and Livestock",
+          "weight": 1.3
+        },
+        {
+          "phrase": "united states",
+          "display": "United States",
+          "weight": 1.3
+        },
+        {
+          "phrase": "fao",
+          "display": "FAO",
+          "weight": 1.26
+        },
+        {
+          "phrase": "global north and south",
+          "display": "Global North and South",
+          "weight": 1.2
+        },
+        {
+          "phrase": "anvisa",
+          "display": "ANVISA",
+          "weight": 1.12
+        },
+        {
+          "phrase": "brazilian health regulatory agency",
+          "display": "Brazilian Health Regulatory Agency",
+          "weight": 1.1
+        },
+        {
+          "phrase": "china national chemical corporation",
+          "display": "China National Chemical Corporation",
+          "weight": 1.1
+        },
+        {
+          "phrase": "principal component analysis",
+          "display": "Principal Component Analysis",
+          "weight": 1.1
+        },
+        {
+          "phrase": "reports on pesticide residue analysis in food",
+          "display": "Reports on Pesticide Residue Analysis in Food",
+          "weight": 1.1
+        },
+        {
+          "phrase": "al",
+          "display": "al",
+          "weight": 0.0827
+        },
+        {
+          "phrase": "et",
+          "display": "et",
+          "weight": 0.0827
+        },
+        {
+          "phrase": "pesticide",
+          "display": "Pesticide",
+          "weight": 0.0474
+        },
+        {
+          "phrase": "pesticides",
+          "display": "Pesticides",
+          "weight": 0.0469
+        },
+        {
+          "phrase": "ternary",
+          "display": "ternary",
+          "weight": 0.0458
+        },
+        {
+          "phrase": "pollinators",
+          "display": "Pollinators",
+          "weight": 0.0425
+        },
+        {
+          "phrase": "bees",
+          "display": "Bees",
+          "weight": 0.0414
+        },
+        {
+          "phrase": "pollinator",
+          "display": "Pollinator",
+          "weight": 0.0406
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "theme": "One Health; CH; Costa Rica; El Salvador; Mesoamerica",
+      "paper_count": 2,
+      "term_count": 22,
+      "paper_ids": [
+        "europe_pmc_PMC13447651",
+        "europe_pmc_PMC13465641"
+      ],
+      "terms": [
+        {
+          "phrase": "one health",
+          "display": "One Health",
+          "weight": 5.1
+        },
+        {
+          "phrase": "ch",
+          "display": "CH",
+          "weight": 2.28
+        },
+        {
+          "phrase": "costa rica",
+          "display": "Costa Rica",
+          "weight": 1.8
+        },
+        {
+          "phrase": "el salvador",
+          "display": "El Salvador",
+          "weight": 1.8
+        },
+        {
+          "phrase": "mesoamerica",
+          "display": "Mesoamerica",
+          "weight": 1.41
+        },
+        {
+          "phrase": "health",
+          "display": "Health",
+          "weight": 1.2894
+        },
+        {
+          "phrase": "one",
+          "display": "One",
+          "weight": 1.25
+        },
+        {
+          "phrase": "ca",
+          "display": "CA",
+          "weight": 1.24
+        },
+        {
+          "phrase": "human health nexus",
+          "display": "Human Health Nexus",
+          "weight": 1.2
+        },
+        {
+          "phrase": "law of return",
+          "display": "Law of Return",
+          "weight": 1.2
+        },
+        {
+          "phrase": "global plant clinic",
+          "display": "Global Plant Clinic",
+          "weight": 1.1
+        },
+        {
+          "phrase": "international year of millets",
+          "display": "International Year of Millets",
+          "weight": 1.1
+        },
+        {
+          "phrase": "world health organization",
+          "display": "World Health Organization",
+          "weight": 1.1
+        },
+        {
+          "phrase": "soil health",
+          "display": "Soil health",
+          "weight": 0.0448
+        },
+        {
+          "phrase": "soil",
+          "display": "Soil",
+          "weight": 0.0433
+        },
+        {
+          "phrase": "crop",
+          "display": "Crop",
+          "weight": 0.0397
+        },
+        {
+          "phrase": "grown",
+          "display": "grown",
+          "weight": 0.0386
+        },
+        {
+          "phrase": "transmission",
+          "display": "Transmission",
+          "weight": 0.0383
+        },
+        {
+          "phrase": "zoonotic",
+          "display": "Zoonotic",
+          "weight": 0.0378
+        },
+        {
+          "phrase": "disease",
+          "display": "Disease",
+          "weight": 0.0339
+        },
+        {
+          "phrase": "mesoamerican",
+          "display": "Mesoamerican",
+          "weight": 0.0324
+        },
+        {
+          "phrase": "animal",
+          "display": "animal",
+          "weight": 0.0309
+        }
+      ]
+    }
+  ]
+}

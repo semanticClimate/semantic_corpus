@@ -1,0 +1,41 @@
+{
+  "pmcid": "PMC12629121",
+  "pmid": "41237350",
+  "title": "Harvesting Risk: An Ecologic Study of Agricultural Practices and Patterns and Melanoma Incidence in Pennsylvania.",
+  "abstract": "<h4>Purpose</h4>To examine the geospatial distribution of melanoma incidence in Pennsylvania (PA), quantify its association with agriculture practices and patterns, and consider its relevance for cancer control.<h4>Methods</h4>The study used an ecologic design with county-level PA data on the 2017-2021 incidence of invasive melanoma among adults 50 years and older, as well as agricultural patterns and practices, ultraviolet radiation (UVR), and demographics/socioeconomics. Spatial clustering was examined using local indicators of spatial association and Getis-Ord Gi*. Separate adjacency-weighted Conway-Maxwell-Poisson models, adjusted for UVR and social vulnerability, quantified the association between melanoma and (1) cultivated and pasture/hay acreage and (2) herbicide-, insecticide-, fungicide-, and manure-treated acreage.<h4>Results</h4>Melanoma incidence was 57.1% greater in a 15-county cluster (<i>P</i> < .05) in South Central PA; eight counties were designated as metropolitan. Compared with noncluster counties, cluster counties had significantly more cultivated land (mean 19.8% <i>v</i> 6.9%, <i>P</i> < .001) and herbicide-treated land (16.8% <i>v</i> 6.5%, <i>P</i> < .001). In adjusted models, a 10% increase in cultivated land and a 9% increase in herbicide-treated acreage each independently corresponded to a 14% increase in incidence.<h4>Conclusion</h4>Melanoma incidence clustered in South Central PA, an area with substantial agricultural industry. However, a majority of counties in the cluster were designated as metropolitan, challenging the concept that agriculture is primarily an industry of counties designated as nonmetropolitan (rural). Agricultural practices and patterns were associated with incidence, suggesting that cancer control adopt an integrated One Health approach to concurrently address occupational, environmental, and behavioral risks. The cluster was entirely within the 28-county catchment area of the Penn State Cancer Institute, demonstrating the utility of geospatial data and analysis for cancer control by a cancer center.",
+  "authors": [
+    "Marks BJ",
+    "Liao J",
+    "Lam C",
+    "Moeckel C",
+    "Lengerich EJ"
+  ],
+  "publication_date": "2025-11-14",
+  "journal": "",
+  "doi": "10.1200/cci-25-00160",
+  "full_text_urls": [
+    {
+      "availability": "Subscription required",
+      "availabilityCode": "S",
+      "documentStyle": "doi",
+      "site": "DOI",
+      "url": "https://doi.org/10.1200/CCI-25-00160"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "html",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12629121"
+    },
+    {
+      "availability": "Open access",
+      "availabilityCode": "OA",
+      "documentStyle": "pdf",
+      "site": "Europe_PMC",
+      "url": "https://europepmc.org/articles/PMC12629121?pdf=render"
+    }
+  ],
+  "has_pdf": "Y",
+  "is_open_access": "Y"
+}

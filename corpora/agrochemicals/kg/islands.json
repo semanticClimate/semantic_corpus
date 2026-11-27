@@ -1,0 +1,76 @@
+{
+  "max_island": 20,
+  "island_count": 5,
+  "islands": [
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC12922021",
+        "paper:europe_pmc_PMC13208927",
+        "paper:europe_pmc_PMC13520464",
+        "term:declaration of helsinki",
+        "term:ppe",
+        "term:world health organization"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 6,
+      "node_ids": [
+        "paper:europe_pmc_PMC13427916",
+        "paper:europe_pmc_PMC13676021",
+        "term:cancer",
+        "term:exposure",
+        "term:united states",
+        "term:uv"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC13428007",
+        "paper:europe_pmc_PMC13600945",
+        "term:reaction",
+        "term:supplementary information",
+        "term:ts"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 5,
+      "node_ids": [
+        "paper:europe_pmc_PMC13510588",
+        "paper:europe_pmc_PMC13679550",
+        "paper:europe_pmc_PMC13707692",
+        "term:nps",
+        "term:or"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    },
+    {
+      "size": 3,
+      "node_ids": [
+        "paper:europe_pmc_PMC12596878",
+        "paper:europe_pmc_PMC13387539",
+        "term:ci"
+      ],
+      "kinds": [
+        "paper",
+        "term"
+      ]
+    }
+  ]
+}

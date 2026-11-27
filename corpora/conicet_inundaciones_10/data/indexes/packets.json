@@ -1,0 +1,271 @@
+{
+  "step": "index",
+  "workdir": "C:\\Users\\laris\\Downloads\\semanticClimate\\semantic_corpus\\corpora\\conicet_inundaciones_10",
+  "params": {
+    "mode": "degenerate_body_per_paper",
+    "priority": [
+      "source_numbers",
+      "containment",
+      "sequence"
+    ]
+  },
+  "counts": {
+    "containers": 10,
+    "packets": 10
+  },
+  "containers": [
+    {
+      "id": "paper:conicet_11336_117125",
+      "kind": "paper",
+      "paper_id": "conicet_11336_117125",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_117125:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_138814",
+      "kind": "paper",
+      "paper_id": "conicet_11336_138814",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_138814:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_191495",
+      "kind": "paper",
+      "paper_id": "conicet_11336_191495",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_191495:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_203647",
+      "kind": "paper",
+      "paper_id": "conicet_11336_203647",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_203647:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_231590",
+      "kind": "paper",
+      "paper_id": "conicet_11336_231590",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_231590:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_247996",
+      "kind": "paper",
+      "paper_id": "conicet_11336_247996",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_247996:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_272192",
+      "kind": "paper",
+      "paper_id": "conicet_11336_272192",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_272192:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_295757",
+      "kind": "paper",
+      "paper_id": "conicet_11336_295757",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_295757:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_77492",
+      "kind": "paper",
+      "paper_id": "conicet_11336_77492",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_77492:body"
+        ],
+        "backmatter": []
+      }
+    },
+    {
+      "id": "paper:conicet_11336_84188",
+      "kind": "paper",
+      "paper_id": "conicet_11336_84188",
+      "regions": {
+        "frontmatter": [],
+        "body": [
+          "packet:conicet_11336_84188:body"
+        ],
+        "backmatter": []
+      }
+    }
+  ],
+  "packets": [
+    {
+      "id": "packet:conicet_11336_117125:body",
+      "packet_type": "body",
+      "label": "conicet_11336_117125",
+      "parent_id": "paper:conicet_11336_117125",
+      "paper_id": "conicet_11336_117125",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_117125",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_138814:body",
+      "packet_type": "body",
+      "label": "conicet_11336_138814",
+      "parent_id": "paper:conicet_11336_138814",
+      "paper_id": "conicet_11336_138814",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_138814",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_191495:body",
+      "packet_type": "body",
+      "label": "conicet_11336_191495",
+      "parent_id": "paper:conicet_11336_191495",
+      "paper_id": "conicet_11336_191495",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_191495",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_203647:body",
+      "packet_type": "body",
+      "label": "conicet_11336_203647",
+      "parent_id": "paper:conicet_11336_203647",
+      "paper_id": "conicet_11336_203647",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_203647",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_231590:body",
+      "packet_type": "body",
+      "label": "conicet_11336_231590",
+      "parent_id": "paper:conicet_11336_231590",
+      "paper_id": "conicet_11336_231590",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_231590",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_247996:body",
+      "packet_type": "body",
+      "label": "conicet_11336_247996",
+      "parent_id": "paper:conicet_11336_247996",
+      "paper_id": "conicet_11336_247996",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_247996",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_272192:body",
+      "packet_type": "body",
+      "label": "conicet_11336_272192",
+      "parent_id": "paper:conicet_11336_272192",
+      "paper_id": "conicet_11336_272192",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_272192",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_295757:body",
+      "packet_type": "body",
+      "label": "conicet_11336_295757",
+      "parent_id": "paper:conicet_11336_295757",
+      "paper_id": "conicet_11336_295757",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_295757",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_77492:body",
+      "packet_type": "body",
+      "label": "conicet_11336_77492",
+      "parent_id": "paper:conicet_11336_77492",
+      "paper_id": "conicet_11336_77492",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_77492",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    },
+    {
+      "id": "packet:conicet_11336_84188:body",
+      "packet_type": "body",
+      "label": "conicet_11336_84188",
+      "parent_id": "paper:conicet_11336_84188",
+      "paper_id": "conicet_11336_84188",
+      "storage": "in_container",
+      "address": {
+        "scheme": "bagit_paper",
+        "paper_id": "conicet_11336_84188",
+        "note": "degenerate whole-paper body packet (v1)"
+      }
+    }
+  ],
+  "written_at": "2026-11-11T04:25:31.338223+00:00"
+}

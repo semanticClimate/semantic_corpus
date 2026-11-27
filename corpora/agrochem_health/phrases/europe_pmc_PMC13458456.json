@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13458456",
+  "phrases": [
+    {
+      "phrase": "bristol myers squibb",
+      "display": "Bristol Myers Squibb",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "daiichi sankyo",
+      "display": "Daiichi Sankyo",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "stockholm convention on persistent organic pollutants",
+      "display": "Stockholm Convention on Persistent Organic Pollutants",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european chemicals agency",
+      "display": "European Chemicals Agency",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eli lilly and centessa",
+      "display": "Eli Lilly and Centessa",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pierre fabre institute",
+      "display": "Pierre Fabre Institute",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "reata pharmaceuticals",
+      "display": "Reata Pharmaceuticals",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "the",
+      "display": "The",
+      "score": 1.3,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "hiv",
+      "display": "HIV",
+      "score": 1.14,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "cns",
+      "display": "CNS",
+      "score": 1.12,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "moiety",
+      "score": 0.0425,
+      "channel": "tfidf",
+      "display": "moiety"
+    },
+    {
+      "phrase": "inhibitor",
+      "score": 0.0384,
+      "channel": "tfidf",
+      "display": "inhibitor"
+    },
+    {
+      "phrase": "substance",
+      "score": 0.0373,
+      "channel": "tfidf",
+      "display": "substance"
+    },
+    {
+      "phrase": "clinical trials",
+      "score": 0.0363,
+      "channel": "tfidf",
+      "display": "clinical trials"
+    },
+    {
+      "phrase": "fragment",
+      "score": 0.0357,
+      "channel": "tfidf",
+      "display": "fragment"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

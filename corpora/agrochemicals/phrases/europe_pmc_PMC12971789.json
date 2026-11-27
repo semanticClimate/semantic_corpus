@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC12971789",
+  "phrases": [
+    {
+      "phrase": "boston university medical campus",
+      "display": "Boston University Medical Campus",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "nicaraguan ministry of health",
+      "display": "Nicaraguan Ministry of Health",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central american",
+      "display": "Central American",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "central america",
+      "display": "Central America",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "automated mass spectral deconvolution and identification system",
+      "display": "Automated Mass Spectral Deconvolution and Identification System",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "european kidney function consortium",
+      "display": "European Kidney Function Consortium",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "mesoamerican nephropathy",
+      "display": "Mesoamerican Nephropathy",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "shap",
+      "display": "SHAP",
+      "score": 1.32,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pahs",
+      "display": "PAHs",
+      "score": 1.15,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fdr",
+      "display": "FDR",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "egfr",
+      "score": 0.0463,
+      "channel": "tfidf",
+      "display": "eGFR"
+    },
+    {
+      "phrase": "wristbands",
+      "score": 0.0436,
+      "channel": "tfidf",
+      "display": "Wristbands"
+    },
+    {
+      "phrase": "phthalates",
+      "score": 0.0429,
+      "channel": "tfidf",
+      "display": "Phthalates"
+    },
+    {
+      "phrase": "esters",
+      "score": 0.0414,
+      "channel": "tfidf",
+      "display": "Esters"
+    },
+    {
+      "phrase": "kidney",
+      "score": 0.041,
+      "channel": "tfidf",
+      "display": "Kidney"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.4351
+}

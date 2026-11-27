@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13010156",
+  "phrases": [
+    {
+      "phrase": "environmental and nutritional sciences",
+      "display": "Environmental and Nutritional Sciences",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "simona pizzi",
+      "display": "Simona Pizzi",
+      "score": 1.4,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "african grape and wine research institute",
+      "display": "African Grape and Wine Research Institute",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "institute of biosciences and bioresources",
+      "display": "Institute of Biosciences and Bioresources",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "agricultural and environmental sciences",
+      "display": "Agricultural and Environmental Sciences",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "biotechnology and public health",
+      "display": "Biotechnology and Public Health",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "carmen cris de oliveira nobre",
+      "display": "Carmen Cris De Oliveira Nobre",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "sciences",
+      "display": "Sciences",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "italy",
+      "display": "Italy",
+      "score": 1.09,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "milan",
+      "display": "Milan",
+      "score": 1.07,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "di",
+      "score": 0.1047,
+      "channel": "tfidf",
+      "display": "Di"
+    },
+    {
+      "phrase": "di milano",
+      "score": 0.0965,
+      "channel": "tfidf",
+      "display": "di Milano"
+    },
+    {
+      "phrase": "di milano milan",
+      "score": 0.0965,
+      "channel": "tfidf",
+      "display": "di milano milan"
+    },
+    {
+      "phrase": "milan italy",
+      "score": 0.0965,
+      "channel": "tfidf",
+      "display": "milan italy"
+    },
+    {
+      "phrase": "milano",
+      "score": 0.0965,
+      "channel": "tfidf",
+      "display": "Milano"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}

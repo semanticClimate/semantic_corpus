@@ -1,0 +1,3790 @@
+[
+  {
+    "pmcid": "PMC13398485",
+    "pmid": "42497264",
+    "title": "Holocene ocean-atmosphere coupling and Mediterranean sensitivity to Atlantic circulation: Lessons from the Late Bronze Age collapse.",
+    "abstract": "Climate variability has profoundly influenced societies in the semiarid Eastern Mediterranean. Proxy records indicate progressive mid-Holocene drying culminating in severe droughts ∼1250 BCE, coincident with the Late Bronze Age collapse (1300 to 900 BCE). Using the EC-Earth3-Tr8K transient Holocene simulation, we reconstruct regional hydroclimate evolution and its underlying mechanisms. The model reproduces a gradual orbitally driven aridification, spatially heterogeneous across the region, with persistent drying in the Levant but enhanced effective moisture in parts of the Balkans and Anatolia due to cooling-induced evapotranspiration decline. Superimposed on this long-term trend are extreme drought events, which arise from the alignment of Atlantic internal variability across centennial to millennial timescales, amplifying drying on an already arid background state. These results provide model-based evidence of how evolving amplitude and phase structure of Atlantic internal variability reshaped Eastern Mediterranean hydroclimate through the mid-to-late Holocene. We demonstrate that oceanic variability can manifest as abrupt regional crises when ecological and societal thresholds are crossed.",
+    "authors": [
+      {
+        "fullName": "Power K",
+        "lastName": "Power",
+        "firstName": "Katherine",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-0681-0330"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Physical Geography, Stockholm University, Stockholm 10691, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang Q",
+        "lastName": "Zhang",
+        "firstName": "Qiong",
+        "initials": "Q",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-9137-2883"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Physical Geography, Stockholm University, Stockholm 10691, Sweden."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-07-24",
+    "journal": "",
+    "doi": "10.1126/sciadv.aed5439",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1126/sciadv.aed5439"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13398485"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13398485?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13319204",
+    "pmid": "42303605",
+    "title": "Protracted ocean circulation slowdown drove exceptional ice-sheet melting during ice age termination IV.",
+    "abstract": "Glacial terminations stand out for their high rates of sea-level rise, particularly during meltwater pulses. Termination IV (T-IV; ~340,000 years before present) is a prominent example, with sea level rising at up to ~5 m per century. Due to sparse absolute age constraints on marine records, the causes for the high rates of sea-level rise at T-IV remain elusive. In this work, we provide a speleothem chronology from northern Italy, which we transpose to North Atlantic marine records. We infer that the high T-IV sea-level rise rate likely relates to a feedback whereby protracted meltwater release caused enhanced ocean heat storage, followed by heat release upon circulation recovery, driving additional ice-sheet collapse. This analysis highlights the critical role of oceanic feedbacks in driving exceptional rates of sea-level rise during terminations.",
+    "authors": [
+      {
+        "fullName": "Hu HM",
+        "lastName": "Hu",
+        "firstName": "Hsun-Ming",
+        "initials": "HM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-9204-8874"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, . hsunming.hu@gmail.com."
+            },
+            {
+              "affiliation": "High-Precision Mass Spectrometry and Environment Change Laboratory (HISPEC), Department of Geosciences, National Taiwan University, . hsunming.hu@gmail.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Marino G",
+        "lastName": "Marino",
+        "firstName": "Gianluca",
+        "initials": "G",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9795-5337"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centro de Investigación Mariña, GEOMA, Palaeoclimatology Lab, Universidade de Vigo, Vigo, Spain. gianluca.marino@uvigo.es."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sánchez Goñi MF",
+        "lastName": "Sánchez Goñi",
+        "firstName": "María Fernanda",
+        "initials": "MF",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8238-7488"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Rohling E",
+        "lastName": "Rohling",
+        "firstName": "Eelco",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth Sciences, Utrecht University, Utrecht, The Netherlands."
+            },
+            {
+              "affiliation": "Ocean and Earth Science, University of Southampton, National Oceanography Centre, Southampton, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Rodrigues T",
+        "lastName": "Rodrigues",
+        "firstName": "Teresa",
+        "initials": "T",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-7811-7506"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Portuguese Institute for Sea and Atmosphere (IPMA), Lisboa, Portugal."
+            },
+            {
+              "affiliation": "Centro de Ciências do Mar do Algarve (CCMAR/CIMAR LA), Campus de Gambelas, Universidade do Algarve, Faro, Portugal."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pérez-Mejías C",
+        "lastName": "Pérez-Mejías",
+        "firstName": "Carlos",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-8370-9271"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ren Q",
+        "lastName": "Ren",
+        "firstName": "Qiuping",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "CAS Key Laboratory of Ocean Circulation and Waves, Institute of Oceanology, Chinese Academy of Sciences."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jiang X",
+        "lastName": "Jiang",
+        "firstName": "Xiuyang",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory for Humid Subtropical Eco-Geographical Processes of the Ministry of Education, School of Geographical Sciences, Fujian Normal University."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Michel V",
+        "lastName": "Michel",
+        "firstName": "Véronique",
+        "initials": "V",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "CNRS, CEPAM, Université Côte d'Azur, Nice, France."
+            },
+            {
+              "affiliation": "Observatoire de la Côte d'Azur, CNRS, IRD, Géoazur, Université Côte d'Azur, Valbonne, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Valensi P",
+        "lastName": "Valensi",
+        "firstName": "Patricia",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Laboratoire de Préhistoire Nice Côte d'Azur, Fondation IPH, UMR 7194 HNHP, Nice, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Starnini E",
+        "lastName": "Starnini",
+        "firstName": "Elisabetta",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3933-0854"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Civilisation and Forms of Knowledge, University of Pisa, Pisa, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zunino M",
+        "lastName": "Zunino",
+        "firstName": "Marta",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Toirano Cave, Toirano, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Salonen JS",
+        "lastName": "Salonen",
+        "firstName": "J Sakari",
+        "initials": "JS",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-8847-9081"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France."
+            },
+            {
+              "affiliation": "Department of Geosciences and Geography, University of Helsinki, Helsinki, Finland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hsieh CJ",
+        "lastName": "Hsieh",
+        "firstName": "Chieh-Ju",
+        "initials": "CJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1797-048X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "High-Precision Mass Spectrometry and Environment Change Laboratory (HISPEC), Department of Geosciences, National Taiwan University."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Tan L",
+        "lastName": "Tan",
+        "firstName": "Liangcheng",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1932-7102"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences."
+            },
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chaigneau B",
+        "lastName": "Chaigneau",
+        "firstName": "Baptiste",
+        "initials": "B",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chevalier M",
+        "lastName": "Chevalier",
+        "firstName": "Maud",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0009-0817-0358"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Shen CC",
+        "lastName": "Shen",
+        "firstName": "Chuan-Chou",
+        "initials": "CC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2833-2771"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "High-Precision Mass Spectrometry and Environment Change Laboratory (HISPEC), Department of Geosciences, National Taiwan University, . river@ntu.edu.tw."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-16",
+    "journal": "",
+    "doi": "10.1038/s41467-026-73733-6",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-73733-6"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13319204"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13319204?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13458837",
+    "pmid": "42380158",
+    "title": "Insolation-driven northern Atlantic westerly wind patterns shaped the mid-Pleistocene transition in three phases.",
+    "abstract": "The Mid-Pleistocene Transition ( ~ 1200-650 ka) marked a shift to 100-kyr glacial cycles, despite no significant change in insolation cyclicity. In this study, a high-resolution pollen record from the southwestern Iberian margin, combined with climate modeling, reveals a three-phase climate evolution linked to boreal summer insolation amplitude. In the early phase ( ~ 1200-930 ka), strong insolation minima shifted westerlies north, boosting ice accumulation, while maxima promoted melting, limiting ice growth. The middle phase ( ~ 930-790 ka) followed regoliths loss and featured weaker insolation extremes, leading to the southward migration of the westerlies, mega-droughts and greater ice buildup. In the late phase ( ~ 790-680 ka), stronger minima pushed westerlies north, aligning with longer, colder glacials. These findings suggest that changes in insolation amplitude drove shifts in westerly wind patterns, influencing hydroclimate and ice sheet development, and may have contributed to the transition to 100-kyr glacial cycles.",
+    "authors": [
+      {
+        "fullName": "Quan X",
+        "lastName": "Quan",
+        "firstName": "Xiaowen",
+        "initials": "X",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0005-7760-8502"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France. quanxw195@163.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sánchez Goñi MF",
+        "lastName": "Sánchez Goñi",
+        "firstName": "María F",
+        "initials": "MF",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8238-7488"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France. maria.sanchez-goni@u-bordeaux.fr."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yin Q",
+        "lastName": "Yin",
+        "firstName": "Qiuzhen",
+        "initials": "Q",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7189-8335"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Earth and Life Institute, Earth and Climate Research Center, Université catholique de Louvain, Louvain-la-Neuve, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kaboth-Bahr S",
+        "lastName": "Kaboth-Bahr",
+        "firstName": "Stefanie",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geological Sciences, Freie Universität Berlin, Berlin, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Moal-Darrigade P",
+        "lastName": "Moal-Darrigade",
+        "firstName": "Paul",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Polanco-Martinez JM",
+        "lastName": "Polanco-Martinez",
+        "firstName": "Josue M",
+        "initials": "JM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-7164-0185"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Statistics & Institute on Fundamental Physics and Mathematics (IUFFyM), Faculty of Sciences, University of Salamanca (USAL), Salamanca, Spain."
+            },
+            {
+              "affiliation": "Department of Economics, Faculty of Economics and Business Studies, University of Cantabria, Santander, Spain."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wu Z",
+        "lastName": "Wu",
+        "firstName": "Zhipeng",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4542-9949"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Earth and Life Institute, Earth and Climate Research Center, Université catholique de Louvain, Louvain-la-Neuve, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bahr A",
+        "lastName": "Bahr",
+        "firstName": "André",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5890-8773"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Earth Sciences, Heidelberg University, Heidelberg, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ducassou E",
+        "lastName": "Ducassou",
+        "firstName": "Emmanuelle",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environnements et paléoenvironnements océaniques et continentaux (EPOC, UMR 5805), Univ. Bordeaux, CNRS, Bordeaux INP, EPHE, PSL University, Pessac, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lourens LJ",
+        "lastName": "Lourens",
+        "firstName": "Lucas J",
+        "initials": "LJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3815-7770"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth Sciences, Faculty of Geosciences, Utrecht University, Utrecht, The Netherlands."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-30",
+    "journal": "",
+    "doi": "10.1038/s41467-026-74759-6",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-74759-6"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13458837"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13458837?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13639189",
+    "pmid": "",
+    "title": "The Australian–Indonesian monsoon through time",
+    "abstract": "",
+    "authors": [],
+    "publication_date": "2026-08-05",
+    "journal": "",
+    "doi": "",
+    "full_text_urls": [
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "PubMedCentral",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13639189/?tool=EBI"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "PubMedCentral",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13639189/pdf/?tool=EBI"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13639189"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13639189?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13376600",
+    "pmid": "42135299",
+    "title": "Insolation-forced oceanic changes triggered the Eurasian Ice Sheet collapse and the Last Termination.",
+    "abstract": "The collapse of Northern Hemisphere ice sheets has been deemed as a trigger of positive climate feedback during Quaternary glacial terminations. Increasing boreal summer insolation is widely considered the primary driver; however, the precise initiating mechanisms remain elusive. Here we report an unambiguous warming trend in the southern Nordic Seas since the late Last Glacial Maximum, coinciding with the marked increase in 65°N summer insolation, and subsequently followed by a distinct surface cooling linked to intense freshwater discharge. Our reconstructions indicate that the initial collapse during the Last Termination began within the Eurasian Ice Sheet. Increasing boreal insolation weakened the latitudinal insolation gradient and displaced the westerlies northward, promoting poleward oceanic heat transport and ensuing warming in the Nordic Seas. This warming accelerated the disintegration of marine-terminating glaciers of the Eurasian Ice Sheet, leading to a catastrophic meltwater release. The resulting freshwater perturbation contributed to the early weakening of the Atlantic Meridional Overturning Circulation and ultimately triggered the destabilization of the Laurentide Ice Sheet, further accelerating the deglaciation process.",
+    "authors": [
+      {
+        "fullName": "Wu D",
+        "lastName": "Wu",
+        "firstName": "Dong",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Marine Geosciences, Ocean University of China, Qingdao, China."
+            },
+            {
+              "affiliation": "Key Laboratory of Marine Geology and Metallogeny, First Institute of Oceanography, Ministry of Natural Resources, Qingdao, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li S",
+        "lastName": "Li",
+        "firstName": "Siqi",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESRE), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Eiríksson J",
+        "lastName": "Eiríksson",
+        "firstName": "Jón",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Earth Science, University of Iceland, Reykjavik, Iceland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Guðmundsdóttir ER",
+        "lastName": "Guðmundsdóttir",
+        "firstName": "Esther Ruth",
+        "initials": "ER",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Earth Science, University of Iceland, Reykjavik, Iceland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Rosenthal Y",
+        "lastName": "Rosenthal",
+        "firstName": "Yair",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Marine and Coastal Science, Rutgers University, New Brunswick, NJ, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hu N",
+        "lastName": "Hu",
+        "firstName": "Ningjing",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Marine Geology and Metallogeny, First Institute of Oceanography, Ministry of Natural Resources, Qingdao, China."
+            },
+            {
+              "affiliation": "Laboratory for Marine Geology, National Laboratory for Marine Science and Technology, Qingdao, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Fan D",
+        "lastName": "Fan",
+        "firstName": "Dejiang",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Marine Geosciences, Ocean University of China, Qingdao, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu Y",
+        "lastName": "Liu",
+        "firstName": "Yanguang",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4524-2930"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Marine Geology and Metallogeny, First Institute of Oceanography, Ministry of Natural Resources, Qingdao, China. yanguangliu@fio.org.cn."
+            },
+            {
+              "affiliation": "Laboratory for Marine Geology, National Laboratory for Marine Science and Technology, Qingdao, China. yanguangliu@fio.org.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang X",
+        "lastName": "Zhang",
+        "firstName": "Xu",
+        "initials": "X",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1833-9689"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Tibetan Plateau Earth System, Resources and Environment (TPESRE), Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, China. xuang@bas.ac.uk."
+            },
+            {
+              "affiliation": "British Antarctic Survey, Cambridge, UK. xuang@bas.ac.uk."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-05-14",
+    "journal": "",
+    "doi": "10.1038/s41467-026-73152-7",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-73152-7"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13376600"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13376600?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13473526",
+    "pmid": "42401579",
+    "title": "North Pacific meltwater weakens the Atlantic Meridional Overturning Circulation and preconditions Heinrich Stadial 1.",
+    "abstract": "Heinrich Stadials provide insights into a potential future weakening of the Atlantic Meridional Overturning Circulation (AMOC), yet the mechanisms driving AMOC weakening during these intervals remain elusive. While Heinrich Stadials are associated with iceberg-discharge events over the North Atlantic (i.e., Heinrich events), AMOC weakening is known to precede Heinrich events. Here we run freshwater hosing experiments to show that contemporaneous Northeast Pacific iceberg-discharge events (i.e., Siku events), which consistently occur at the onsets of Heinrich Stadials, could trigger AMOC weakening by transporting freshwater to the North Atlantic deepwater formation regions. This initial weakening may subsequently be amplified by further meltwater release from the British and Laurentide Ice Sheets, induced by stepwise subsurface warming in the northeastern and northern North Atlantic. Our findings suggest that Siku events may have played a critical role in preconditioning the North Atlantic for Heinrich events, underscoring the interconnected nature of the global ocean-cryosphere system.",
+    "authors": [
+      {
+        "fullName": "Sun C",
+        "lastName": "Sun",
+        "firstName": "Chijun",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3668-346X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Planetary Sciences, University of California Davis, Davis, CA, USA. cjsun@ucdavis.edu."
+            },
+            {
+              "affiliation": "Climate & Global Dynamics, NSF National Center for Atmospheric Research, Boulder, CO, USA. cjsun@ucdavis.edu."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhu J",
+        "lastName": "Zhu",
+        "firstName": "Jiang",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0908-5130"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Climate & Global Dynamics, NSF National Center for Atmospheric Research, Boulder, CO, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Otto-Bliesner BL",
+        "lastName": "Otto-Bliesner",
+        "firstName": "Bette L",
+        "initials": "BL",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1911-1598"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Climate & Global Dynamics, NSF National Center for Atmospheric Research, Boulder, CO, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Brady EC",
+        "lastName": "Brady",
+        "firstName": "Esther C",
+        "initials": "EC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-7833-2249"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Climate & Global Dynamics, NSF National Center for Atmospheric Research, Boulder, CO, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Macarewich SI",
+        "lastName": "Macarewich",
+        "firstName": "Sophia I",
+        "initials": "SI",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6263-3044"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Climate & Global Dynamics, NSF National Center for Atmospheric Research, Boulder, CO, USA."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-07-04",
+    "journal": "",
+    "doi": "10.1038/s41467-026-75199-y",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-75199-y"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13473526"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13473526?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13578706",
+    "pmid": "42744808",
+    "title": "Pervasive tropical-forced millennial monsoon variability over the past 3.5 million years.",
+    "abstract": "Earth's climate has experienced abrupt millennial-scale climate variability (MCV) at least since the early Pleistocene, yet their evolution and drivers remain elusive. A 3.5-million-year decadal-to-centennial-resolved lake sediment sequence from the monsoonal Tibetan Plateau reveals a stepped evolution of MCV that differs in detail from that of North Atlantic records. Lithological and pollen changes show precursor millennial events during the interval ~ 3.5-2.7 million years ago (Ma), with the onset of multiple events at ~ 2.8 Ma. From ~ 2.7 Ma, MCV became a permanent feature of glacial periods, intensifying after ~ 1.5 Ma and extending over both glacial and interglacial periods. The embedded astronomical frequencies of MCV and their persistent linkage with precession indicate a tropical insolation origin, driven by changes in the latitudinal temperature gradient and propagated to the Tibetan Plateau via monsoonal circulation. These findings highlight that both tropical forcing and high-latitude ice-dynamic mechanisms should be considered as \"dual engines\" of MCV.",
+    "authors": [
+      {
+        "fullName": "Zhao Y",
+        "lastName": "Zhao",
+        "firstName": "Yan",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1693-9795"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China. zhaoyan@igsnrr.ac.cn."
+            },
+            {
+              "affiliation": "University of Chinese Academy of Sciences, Beijing, China. zhaoyan@igsnrr.ac.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Qin F",
+        "lastName": "Qin",
+        "firstName": "Feng",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li Q",
+        "lastName": "Li",
+        "firstName": "Quan",
+        "initials": "Q",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8621-6467"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cui Q",
+        "lastName": "Cui",
+        "firstName": "Qiaoyu",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Tzedakis PC",
+        "lastName": "Tzedakis",
+        "firstName": "Polychronis C",
+        "initials": "PC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6072-1166"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environmental Change Research Centre, Department of Geography, University College London, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liang C",
+        "lastName": "Liang",
+        "firstName": "Chen",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "School of Land Science and Space Planning, Hebei GEO University, Shijiazhuang, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Deng C",
+        "lastName": "Deng",
+        "firstName": "Chenglong",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1848-3170"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "Key Laboratory of Cenozoic Geology and Environment, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cui Y",
+        "lastName": "Cui",
+        "firstName": "Yifan",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhao W",
+        "lastName": "Zhao",
+        "firstName": "Wenwei",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Geographical Science, Nantong University, Nantong, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ren W",
+        "lastName": "Ren",
+        "firstName": "Weihe",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Geography and Tourism, Hengyang Normal University, Hengyang, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ge J",
+        "lastName": "Ge",
+        "firstName": "Junyi",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4569-2915"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Vertebrate Evolution and Human Origins, Institute of Vertebrate Paleontology and Paleoanthropology, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yin Q",
+        "lastName": "Yin",
+        "firstName": "Qiuzhen",
+        "initials": "Q",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7189-8335"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Earth and Climate Research Center, Earth and Life Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wu Z",
+        "lastName": "Wu",
+        "firstName": "Zhipeng",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4542-9949"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Earth and Climate Research Center, Earth and Life Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liang M",
+        "lastName": "Liang",
+        "firstName": "Mingqiang",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Earth and Climate Research Center, Earth and Life Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu Y",
+        "lastName": "Liu",
+        "firstName": "Yaoliang",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "Heibei Normal University of Science & Technology, Qinhuangdao, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang Z",
+        "lastName": "Zhang",
+        "firstName": "Zhiyong",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "Jiangxi Provincial Key Laboratory of Wetland Plant Resources Conservation and Utilization, Lushan Botanical Garden, Jiangxi Province and Chinese Academy of Sciences, Jiujiang, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cai M",
+        "lastName": "Cai",
+        "firstName": "Maotang",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "Institute of Geomechanics, Chinese Academy of Geological Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wei H",
+        "lastName": "Wei",
+        "firstName": "Haicheng",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Qinghai Institute of Salt Lakes, Chinese Academy of Sciences, Xining, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kong Y",
+        "lastName": "Kong",
+        "firstName": "Yanfen",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li H",
+        "lastName": "Li",
+        "firstName": "Huan",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Geographical Science, Nantong University, Nantong, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Qiu H",
+        "lastName": "Qiu",
+        "firstName": "Hongyi",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0004-7560-2548"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xu H",
+        "lastName": "Xu",
+        "firstName": "Haitao",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0007-6267-6654"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yang H",
+        "lastName": "Yang",
+        "firstName": "Hanfei",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "School of Geography and Remote Sensing, Guangzhou University, Guangzhou, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Han H",
+        "lastName": "Han",
+        "firstName": "Haoshuang",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Key Laboratory of Land Surface Pattern and Simulation, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hodell DA",
+        "lastName": "Hodell",
+        "firstName": "David A",
+        "initials": "DA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8537-1588"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Godwin Laboratory for Palaeoclimate Research, Department of Earth Sciences, University of Cambridge, Cambridge, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Birks HJB",
+        "lastName": "Birks",
+        "firstName": "H John B",
+        "initials": "HJB",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Environmental Change Research Centre, Department of Geography, University College London, London, UK."
+            },
+            {
+              "affiliation": "Department of Biological Sciences and Bjerknes Centre for Climate Research, University of Bergen, Bergen, Norway."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Guo Z",
+        "lastName": "Guo",
+        "firstName": "Zhengtang",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2259-9715"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+            },
+            {
+              "affiliation": "Key Laboratory of Cenozoic Geology and Environment, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-08-15",
+    "journal": "",
+    "doi": "10.1038/s41467-026-76706-x",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-76706-x"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13578706"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13578706?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "",
+    "pmid": "42840236",
+    "title": "The Australian-Indonesian monsoon through time.",
+    "abstract": "The Australian-Indonesian monsoon (AIM) is the manifestation of seasonal rainfall change and wind reversal over northern Australia and the Maritime Continent, within a region of extreme land-sea fragmentation. Past AIM variability and change have been related to large, covarying shifts in the boundary conditions such as the atmospheric CO<sub>2</sub>, Northern Hemisphere ice sheets, orbital insolation, and sea-level variations. This review synthesizes what is currently known about AIM evolution and mechanisms, emphasizing the Quaternary where proxy evidence, dating control, and modeling experiments are most abundant. We assess how model hierarchies have been used to separate rainfall and circulation responses, diagnose the role of SST pattern changes and inter-hemispheric energy balance, and show whether shelf exposure should be treated as a first-order monsoon control or a modest boundary condition adjustment. We argue that progress now hinges more on explicit quantification of data uncertainty and proxy-aware evaluation, as well as using isotope-enabled transient simulations and proxy system models that compare models to what proxies record rather than to precipitation alone.",
+    "authors": [
+      {
+        "fullName": "Mohtadi M",
+        "lastName": "Mohtadi",
+        "firstName": "Mahyar",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3306-0969"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "MARUM-Center for Marine Environmental Sciences, University of Bremen, Bremen 28359, Germany."
+            },
+            {
+              "affiliation": "Faculty of Geosciences, University of Bremen, Bremen 28359, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hollstein M",
+        "lastName": "Hollstein",
+        "firstName": "Martina",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-5899-9959"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "MARUM-Center for Marine Environmental Sciences, University of Bremen, Bremen 28359, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Karami MP",
+        "lastName": "Karami",
+        "firstName": "Mehdi Pasha",
+        "initials": "MP",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-0390-2889"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Rossby Centre, Swedish Meteorological and Hydrological Institute, Norrkoping SE-601 76, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dang H",
+        "lastName": "Dang",
+        "firstName": "Haowen",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1320-4761"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jian Z",
+        "lastName": "Jian",
+        "firstName": "Zhimin",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2037-3539"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lückge A",
+        "lastName": "Lückge",
+        "firstName": "Andreas",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3269-7063"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Federal Institute for Geosciences and Natural Resources, Hannover 30655, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Russell JM",
+        "lastName": "Russell",
+        "firstName": "James M",
+        "initials": "JM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1329-4613"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth, Environmental, & Planetary Sciences, Brown University, Providence, RI 02912, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Steinke S",
+        "lastName": "Steinke",
+        "firstName": "Stephan",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1416-4837"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geological Oceanography, College of Ocean and Earth Sciences, Xiamen University, Xiamen 361102, China."
+            },
+            {
+              "affiliation": "State Key Laboratory of Marine Environmental Science, College of Ocean and Earth Sciences, Xiamen University, Xiamen 361102, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-08-05",
+    "journal": "",
+    "doi": "10.1093/nsr/nwag473",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1093/nsr/nwag473"
+      }
+    ],
+    "has_pdf": "N",
+    "is_open_access": "N"
+  },
+  {
+    "pmcid": "PMC12753843",
+    "pmid": "41315662",
+    "title": "Monsoon differences in South Asia and East Asia during the penultimate deglaciation revealed by speleothem oxygen isotopes.",
+    "abstract": "Difference between the South Asian Summer Monsoon (SASM) and East Asian Summer Monsoon (EASM) is observed in modern climate variations, but remains unclear on the orbital timescales. In this study, we reconstruct the monsoon history using three high-resolution (~ 17 years) and precisely dated ( ~ ± 400 years) speleothem δ<sup>18</sup>O records from Zhangjia Cave in Sichuan Basin, spanning 126.2-138.8 ka BP. In comparison with most ASM speleothem δ<sup>18</sup>O records in penultimate deglaciation, we unravel three differences in structure, amplitude, and trends between the western and eastern ASM, applied to distinguish the SASM from the EASM. First, the SASM in last interglacial seems stronger than that in Holocene, in contrast to the relatively stable EASM. Second, the different amplitudes of δ<sup>18</sup>O variations across the Marine Isotope Stages 6-5 transition further distinguish the two monsoons system. Third, the SASM speleothems δ<sup>18</sup>O-gradually depleted trend is significantly different with the relatively stable speleothems δ<sup>18</sup>O in EASM during Heinrich Stadial 11, indicating the different responses to cross-equatorial insolation gradients between SASM and EASM. These findings suggest that the SASM is more sensitive to cross-equatorial insolation gradients and cross-equatorial flow dynamics, distinguishing it from the EASM.",
+    "authors": [
+      {
+        "fullName": "Zhao J",
+        "lastName": "Zhao",
+        "firstName": "Jingyao",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China. zjy1230@xjtu.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cui J",
+        "lastName": "Cui",
+        "firstName": "Jiahui",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China."
+            },
+            {
+              "affiliation": "School of Geography and Ocean Science, Nanjing University, Nanjing, 210023, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pan L",
+        "lastName": "Pan",
+        "firstName": "Liangkang",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Luo Q",
+        "lastName": "Luo",
+        "firstName": "Qiuqiu",
+        "initials": "Q",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dong X",
+        "lastName": "Dong",
+        "firstName": "Xiyu",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang J",
+        "lastName": "Wang",
+        "firstName": "Jian",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wang K",
+        "lastName": "Wang",
+        "firstName": "Kexin",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China. kxwang2023@xjtu.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cheng H",
+        "lastName": "Cheng",
+        "firstName": "Hai",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, 712000, China."
+            },
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, 710061, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-11-28",
+    "journal": "",
+    "doi": "10.1038/s41598-025-29249-y",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41598-025-29249-y"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12753843"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12753843?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC12835000",
+    "pmid": "41476178",
+    "title": "Quantitative paleoclimate reconstruction in the Yangtze River Delta since the Last Glacial Maximum based on pollen records.",
+    "abstract": "The climate dynamics and driving mechanisms of the East Asian Summer Monsoon (EASM) in the Yangtze River Delta (YRD) since the Last Glacial Maximum (LGM) remain uncertain. We reconstruct annual mean temperature (T<sub>ann</sub>), mean temperature of the warmest month (MT<sub>wa</sub>), and annual mean precipitation (P<sub>ann</sub>) since 19.4 ka BP in the Yangtze River Delta (YRD), using pollen records from three sediment cores (LZK1, CSJA6, ZKA4), constrained by AMS ¹⁴C and OSL dating. Reconstructions were performed with a pollen-climate model based on the Locally-Weighted Weighted-Averaging (LWWA) method. Additional sedimentary proxies (grain size and magnetic susceptibility) were integrated to evaluate climate dynamics and forcing factors. Five climatic stages were identified: the LGM (19.4-18.0 ka, cold-dry), deglaciation (18.0-11.7 ka, fluctuating warming), early Holocene (11.7-8.2 ka, warm-humid), mid-Holocene (8.2-4.2 ka, warm-humid), and late Holocene (after 4.2 ka, fluctuating cooling). These stages broadly align with EASM intensity variations. Abrupt events (Heinrich 1, Bølling-Allerød, Younger Dryas, 8.2 ka, and 4.2 ka) were synchronous with Greenland ice core and Yangtze River stalagmite records, reflecting global climate teleconnections. On the millennial scale, EASM variability was controlled by Northern Hemisphere summer insolation, Atlantic Meridional Overturning Circulation (AMOC), and ice-volume/sea-level feedbacks. On the centennial scale, it was influenced by solar activity, volcanic eruptions, and the El Niño-Southern Oscillation (ENSO). These findings provide high-resolution evidence of EASM dynamics and offer a valuable reference for understanding regional climate adaptation in the future.",
+    "authors": [
+      {
+        "fullName": "Chen F",
+        "lastName": "Chen",
+        "firstName": "Feng",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Natural Resources Survey, China University of Geosciences, Wuhan, 430074, China."
+            },
+            {
+              "affiliation": "State Key Laboratory of Biogeology and Environmental Geology, China University of Geosciences, Wuhan, 430074, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ke X",
+        "lastName": "Ke",
+        "firstName": "Xue",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Natural Resources Survey, China University of Geosciences, Wuhan, 430074, China. xue_ke@cug.edu.cn."
+            },
+            {
+              "affiliation": "State Key Laboratory of Biogeology and Environmental Geology, China University of Geosciences, Wuhan, 430074, China. xue_ke@cug.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yang T",
+        "lastName": "Yang",
+        "firstName": "Tinglu",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Earth and Planetary Sciences, East China University of Technology, Nanchang, 330013, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang Z",
+        "lastName": "Zhang",
+        "firstName": "Zongyan",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Wuhan Center, China Geological Survey (Geosciences Innovation Center of Central South China), Wuhan, 430205, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jiang R",
+        "lastName": "Jiang",
+        "firstName": "Ren",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nanjing Center, Geological Survey, Nanjing, 210016, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yu J",
+        "lastName": "Yu",
+        "firstName": "Junjie",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nanjing Center, Geological Survey, Nanjing, 210016, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xie J",
+        "lastName": "Xie",
+        "firstName": "Jianlei",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shanghai Institute of Geological Survey, Shanghai, 200072, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li J",
+        "lastName": "Li",
+        "firstName": "Jing",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Natural Resources Survey, China University of Geosciences, Wuhan, 430074, China."
+            },
+            {
+              "affiliation": "State Key Laboratory of Biogeology and Environmental Geology, China University of Geosciences, Wuhan, 430074, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-12-31",
+    "journal": "",
+    "doi": "10.1038/s41598-025-33476-8",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41598-025-33476-8"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12835000"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12835000?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC12662202",
+    "pmid": "41313776",
+    "title": "North Atlantic Subtropical High forcing of Atlantic Warm Pool hydroclimate variability on millennial to orbital timescales.",
+    "abstract": "Orbital-scale variations in insolation are widely considered to drive tropical and monsoonal rainfall, with higher summer insolation linked to stronger precipitation. Here, we present a precisely dated speleothem record from Cuba that reconstructs Atlantic Warm Pool (AWP) hydroclimate over the past 129,000 years and challenges this paradigm. Instead, we identify a previously unrecognized link between AWP hydroclimate and the North Atlantic Subtropical High (NASH) operating on millennial to orbital timescales. During intervals of high summer insolation coupled with cooler tropical North Atlantic sea surface temperatures (SSTs), NASH strengthens and expands westward, reducing rainfall across the AWP. This SST-NASH coupling amplified precessional-scale hydroclimate variability between 130 and 60 ka, when insolation amplitude was nearly twice that of the 60- to 12-ka interval. Our data further show that particularly strong insolation peaks at 105 and 126 ka caused pronounced westward NASH expansion, triggering two extreme dry events, similar to the process observed during modern midsummer dry spells.",
+    "authors": [
+      {
+        "fullName": "Li H",
+        "lastName": "Li",
+        "firstName": "Hanying",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7915-9828"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sinha A",
+        "lastName": "Sinha",
+        "firstName": "Ashish",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5700-2451"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            },
+            {
+              "affiliation": "Department of Earth Science, California State University Dominguez Hills, Carson, CA 90747, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Winter A",
+        "lastName": "Winter",
+        "firstName": "Amos",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4618-5402"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Environmental Systems, Indiana State University, Terre Haute, IN 47809, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Duan P",
+        "lastName": "Duan",
+        "firstName": "Pengzhen",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Institute of Petroleum Exploration and Development, PetroChina, Beijing 100083, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Warken S",
+        "lastName": "Warken",
+        "firstName": "Sophie",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3293-9074"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Environmental Physics & Institute of Earth Sciences, University of Heidelberg, Heidelberg 69120, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hu J",
+        "lastName": "Hu",
+        "firstName": "Jun",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0458-5996"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Ocean and Earth Sciences, Xiamen University, Xiamen, Fujian 361102, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lei S",
+        "lastName": "Lei",
+        "firstName": "Shihao",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dong X",
+        "lastName": "Dong",
+        "firstName": "Xiyu",
+        "initials": "X",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7611-0244"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sha L",
+        "lastName": "Sha",
+        "firstName": "Lijuan",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6003-2157"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang H",
+        "lastName": "Zhang",
+        "firstName": "Haiwei",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0855-1283"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kathayat G",
+        "lastName": "Kathayat",
+        "firstName": "Gayatri",
+        "initials": "G",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9333-9385"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess and Quaternary Geology, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an 710061, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yi L",
+        "lastName": "Yi",
+        "firstName": "Liang",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3377-8591"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ning Y",
+        "lastName": "Ning",
+        "firstName": "Youfeng",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cheng H",
+        "lastName": "Cheng",
+        "firstName": "Hai",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-5305-9458"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an 710049, China."
+            },
+            {
+              "affiliation": "State Key Laboratory of Loess and Quaternary Geology, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an 710061, China."
+            },
+            {
+              "affiliation": "Yunnan Key Laboratory of Plateau Geographical Processes & Environmental Changes, Faculty of Geography, Yunnan Normal University, Kunming, 650500, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-11-28",
+    "journal": "",
+    "doi": "10.1126/sciadv.aea5042",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1126/sciadv.aea5042"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12662202"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12662202?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13598196",
+    "pmid": "42735317",
+    "title": "Patagonian Ice Sheet discharge enhanced by AMOC slowdown through thermal bipolar seesaw.",
+    "abstract": "The Atlantic Meridional Overturning Circulation (AMOC) transports heat globally, and its potential weakening would be crucial for future climate projections. Valuable insights into climatic impacts of AMOC slowdowns can be gained from the last glacial period, when millennial-scale AMOC reductions recurrently triggered large-scale reorganizations of the atmosphere-ocean system. However, hydroclimatic responses within the Southern Hemisphere Westerly Wind (SWW) belt-a key region for the global carbon cycle-remain poorly constrained. Here we present a marine sediment record from ~150 km offshore Chile in the eastern South Pacific that documents millennial-scale increases in detrital discharge from the western Patagonian Ice Sheet, temporally associated with AMOC slowdowns. These discharge events likely resulted from ice-sheet expansion and the associated marginal melt linked to gradually enhanced orographic precipitation under SWW and temperature rise. Our simulations with a coupled atmosphere-ocean general circulation model support enhanced precipitation along the Chilean margin south of 45°S and warming-induced melting due to millennial-scale AMOC slowdowns. The precipitation increase reflects the progressive southward intensification of the SWW and the enhanced sea-surface evaporation resulting from Southern Ocean warming through the thermal bipolar seesaw. Together, proxy and modeling results demonstrate that abrupt AMOC slowdowns drove coupled atmospheric-oceanic responses in the South Pacific that promoted Patagonian hydroclimate and ice-sheet changes and may have amplified wind-driven ventilation of the Southern Ocean. These findings highlight the tight coupling between interhemispheric atmospheric and oceanic circulation, cryosphere dynamics, and the global carbon cycle, and raise the possibility of future abrupt shifts in far-field hydroclimate and atmospheric CO<sub>2</sub>.",
+    "authors": [
+      {
+        "fullName": "Kasuya T",
+        "lastName": "Kasuya",
+        "firstName": "Takuto",
+        "initials": "T",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8697-8832"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Planetary Sciences, Graduate School of Science, Kyushu University, Fukuoka 819-0395, Japan."
+            },
+            {
+              "affiliation": "Research Institute for Global Change, Earth Surface System Research Center, Japan Agency for Marine-Earth Science and Technology, Yokosuka 237-0061, Kanagawa, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kuniyoshi Y",
+        "lastName": "Kuniyoshi",
+        "firstName": "Yuta",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9845-9183"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa 277-8564, Chiba, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nagashima K",
+        "lastName": "Nagashima",
+        "firstName": "Kana",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1180-1121"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Institute for Global Change, Earth Surface System Research Center, Japan Agency for Marine-Earth Science and Technology, Yokosuka 237-0061, Kanagawa, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hasegawa H",
+        "lastName": "Hasegawa",
+        "firstName": "Hitoshi",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Global Environment and Disaster Prevention, Faculty of Science and Technology, Kochi University, Kochi 780-8520, Japan."
+            },
+            {
+              "affiliation": "Marine Core Research Institute, Kochi University, Nankoku 783-8502, Kochi, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Abe-Ouchi A",
+        "lastName": "Abe-Ouchi",
+        "firstName": "Ayako",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1745-5952"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa 277-8564, Chiba, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hagemann JR",
+        "lastName": "Hagemann",
+        "firstName": "Julia R",
+        "initials": "JR",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7746-3359"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Marine and Coastal Science, Rutgers University, New Brunswick, NJ 08901-8520."
+            },
+            {
+              "affiliation": "Division of Geoscience, Marine Geology Section, Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Arz HW",
+        "lastName": "Arz",
+        "firstName": "Helge W",
+        "initials": "HW",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1997-1718"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Marine Geosciences, Paleoceanography and Sedimentology Group, Leibniz Institute for Baltic Sea Research Warnemünde, Rostock 18119, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lange CB",
+        "lastName": "Lange",
+        "firstName": "Carina B",
+        "initials": "CB",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2916-4207"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Departamento de Oceanografía & Centro de Investigación Oceanográfica en el Pacífico Suroriental (COPAS-Coastal), Universidad de Concepción, Concepción 4030000, Chile."
+            },
+            {
+              "affiliation": "Centro de Investigación Dinámica de Ecosistemas Marinos de Altas Latitudes, Universidad Austral de Chile, Valdivia 5110566, Chile."
+            },
+            {
+              "affiliation": "Geosciences Research Division, Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA 92037."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lamy F",
+        "lastName": "Lamy",
+        "firstName": "Frank",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5952-1765"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Geoscience, Marine Geology Section, Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research, Bremerhaven 27570, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Iwasaki S",
+        "lastName": "Iwasaki",
+        "firstName": "Shinya",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Earth System Science, Faculty of Environmental Earth Science, Hokkaido University, Sapporo 060-0810, Hokkaido, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chan WL",
+        "lastName": "Chan",
+        "firstName": "Wing-Le",
+        "initials": "WL",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-5646-6104"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa 277-8564, Chiba, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Harada N",
+        "lastName": "Harada",
+        "firstName": "Naomi",
+        "initials": "N",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2725-7346"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Institute for Global Change, Earth Surface System Research Center, Japan Agency for Marine-Earth Science and Technology, Yokosuka 237-0061, Kanagawa, Japan."
+            },
+            {
+              "affiliation": "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa 277-8564, Chiba, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Murayama M",
+        "lastName": "Murayama",
+        "firstName": "Masafumi",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Marine Core Research Institute, Kochi University, Nankoku 783-8502, Kochi, Japan."
+            },
+            {
+              "affiliation": "Faculty of Agriculture and Marine Science, Kochi University, Nankoku 783-8502, Kochi, Japan."
+            },
+            {
+              "affiliation": "Department of Dinosaur Paleontology and Geology, Faculty of Dinosaur Paleontology, Fukui Prefectural University, Katsuyama 911-0025, Fukui, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Saito F",
+        "lastName": "Saito",
+        "firstName": "Fuyuki",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5935-9614"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Research Institute for Global Change, Research Center for Environmental Modeling and Application, Japan Agency for Marine-Earth Science and Technology, Yokohama 236-0001, Kanagawa, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Okazaki Y",
+        "lastName": "Okazaki",
+        "firstName": "Yusuke",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2406-3466"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Planetary Sciences, Graduate School of Science, Kyushu University, Fukuoka 819-0395, Japan."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-09-14",
+    "journal": "",
+    "doi": "10.1073/pnas.2532733123",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1073/pnas.2532733123"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13598196"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13598196?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13477475",
+    "pmid": "42603803",
+    "title": "Annual-resolution evidence for aridity spikes at the onset of the Last Glacial Inception in an Eifel maar lake sediment.",
+    "abstract": "This study presents an annually laminated sediment record from the infilled maar lake at Hoher List in the Eifel volcanic field (Germany), documenting the \"Last Glacial Inception\" (LGI) at the end of the Eemian interglacial. The landscape of the late Eemian was dominated by a mixed forest containing Abies alba (silver fir). The collapse of this forest occurred within only a few years and was accompanied by frequent wildfires, aeolian dust deposition, a decline of all thermophilous tree species, and the disappearance of Abies, all indicating increasing aridity. The transition unfolded in three distinct phases. LEAP-I (Late Eemian Aridity Pulse I) lasted approximately 250 years and was followed by a 750-year recovery phase during which the interglacial forest returned. LEAP-II was characterized by comparable arid conditions but persisted for at least 750 years, followed by a 350-year phase of boreal forest development. The final transition to stadial conditions occurred during LEAP-III, marked by a pronounced lake-level decline, expansion of grassland, scattered birch and pine, and reduced summer temperatures, likely corresponding to North Atlantic cold event C25. The LGI lasted at least 2700 years, whereas individual aridification pulses developed within decades, indicating rapid aridification events superimposed on a long-term cooling trend.",
+    "authors": [
+      {
+        "fullName": "Sirocko F",
+        "lastName": "Sirocko",
+        "firstName": "Frank",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, Johannes Gutenberg-University Mainz, Mainz, Germany. sirocko@uni-mainz.de."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Krebsbach F",
+        "lastName": "Krebsbach",
+        "firstName": "Frederik",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0002-7299-0448"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, Johannes Gutenberg-University Mainz, Mainz, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Forster C",
+        "lastName": "Forster",
+        "firstName": "Christian",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, Johannes Gutenberg-University Mainz, Mainz, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dreher F",
+        "lastName": "Dreher",
+        "firstName": "Frank",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, Johannes Gutenberg-University Mainz, Mainz, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Grosjean M",
+        "lastName": "Grosjean",
+        "firstName": "Martin",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "University of Bern, Oeschger Centre for Climate Change Research & Institute of Geography, Bern, Switzerland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Silva L",
+        "lastName": "Silva",
+        "firstName": "Lucas",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Climate and Environmental Physics, University of Bern, Bern, Switzerland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Riechelmann DFC",
+        "lastName": "Riechelmann",
+        "firstName": "Dana F C",
+        "initials": "DFC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3863-8216"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, Johannes Gutenberg-University Mainz, Mainz, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Seelos K",
+        "lastName": "Seelos",
+        "firstName": "Klemens",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, Johannes Gutenberg-University Mainz, Mainz, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Schiebel R",
+        "lastName": "Schiebel",
+        "firstName": "Ralf",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Max Planck Institute for Chemistry, Mainz, Germany."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-08-15",
+    "journal": "",
+    "doi": "10.1038/s41598-026-64586-6",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41598-026-64586-6"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13477475"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13477475?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13594180",
+    "pmid": "42768019",
+    "title": "Asian summer monsoon orbital variability directly paced by CO2 and precession, not eccentricity.",
+    "abstract": "The pacing and intensity of the Asian summer monsoon have long been debated. Geological records indicate either a dominant precession or eccentricity variability, while modelling studies have largely emphasised monsoon intensity rather than its temporal pacing. Here, we investigate both the temporal variability and changes in intensity of the Asian summer monsoon using a unique set of four series of full-complexity climate model equilibrium simulations spanning the last 800 kyr at 4-kyr resolution. The simulations have differing insolation, greenhouse gases, and ice sheet forcing. Here, we show that variations in greenhouse gases exert the dominant control on the 100-kyr variability via the thermal forcing of the Asian summer monsoon circulation, while precession directly impacts the 20-kyr variability. In contrast, the direct contributions of eccentricity forcing and ice sheet variability are smaller. Spatial heterogeneity in monsoon dynamics reveals different sensitivities to imposed forcings, which may help reconcile conflicting proxy records.",
+    "authors": [
+      {
+        "fullName": "Millot-Weil J",
+        "lastName": "Millot-Weil",
+        "firstName": "Jeanne",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0003-8534-2666"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Geographical Sciences, University of Bristol, Bristol, UK. xk22684@bristol.ac.uk."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Valdes PJ",
+        "lastName": "Valdes",
+        "firstName": "Paul J",
+        "initials": "PJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1902-3283"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Geographical Sciences, University of Bristol, Bristol, UK."
+            },
+            {
+              "affiliation": "State Key Laboratory of Tibetan Plateau Earth System, Environment and Resources, Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, 100101, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Farnsworth A",
+        "lastName": "Farnsworth",
+        "firstName": "Alexander",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5585-5338"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Geographical Sciences, University of Bristol, Bristol, UK."
+            },
+            {
+              "affiliation": "State Key Laboratory of Tibetan Plateau Earth System, Environment and Resources, Institute of Tibetan Plateau Research, Chinese Academy of Sciences, Beijing, 100101, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-08-22",
+    "journal": "",
+    "doi": "10.1038/s41467-026-76856-y",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-76856-y"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13594180"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13594180?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC12859089",
+    "pmid": "41453906",
+    "title": "Modulation of inter-hemispheric temperature gradients on the Holocene Asian-Australian summer monsoon.",
+    "abstract": "The Asian-Australian monsoon system (A-AuMS) is the most typical cross-equatorial monsoon system and thus inter-hemispheric comparison is essential to explore its dynamics. Although the evolution of Holocene Asian summer monsoon has been extensively studied, changes in Australian summer monsoon (AuSM) is less investigated due to the lack of identified high-resolution paleoclimate records. Here we obtain a 13.5 kyr AuSM record from lacustrine sediments in northeastern Australia. It suggests that the weakening of the AuSM during the early to middle Holocene was regulated by Northern Hemisphere high-latitude ice volume, while the strengthening of the AuSM during the middle to late Holocene was mainly controlled by increased Southern Hemisphere summer insolation. The combination of Asian and Australian monsoon records show that the coupling evolution of A-AuMS was dominated by the temperature gradient between two hemispheres, which involve the changes of the AMOC, Northern Hemisphere ice volumes and solar insolation in both hemispheres.",
+    "authors": [
+      {
+        "fullName": "Shi G",
+        "lastName": "Shi",
+        "firstName": "Ge",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, China."
+            },
+            {
+              "affiliation": "Xi'an Institute for Innovative Earth Environment Research, Xi'an, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yan H",
+        "lastName": "Yan",
+        "firstName": "Hong",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1230-096X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, China. yanhong@ieecas.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang W",
+        "lastName": "Zhang",
+        "firstName": "Wenchao",
+        "initials": "W",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Marine Resource Utilization in South China Sea, Hainan University, Haikou, Hainan, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu Z",
+        "lastName": "Liu",
+        "firstName": "Zhonghui",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2168-8305"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Planetary Sciences, The University of Hong Kong, Hong Kong, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhao N",
+        "lastName": "Zhao",
+        "firstName": "Nanyu",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dodson J",
+        "lastName": "Dodson",
+        "firstName": "John",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0124-5910"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess Science, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, China."
+            },
+            {
+              "affiliation": "School of Post-Graduate Studies, Earth and Environmental Sciences, University of New South Wales, Sydney, NSW, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Heijnis H",
+        "lastName": "Heijnis",
+        "firstName": "Hendrik",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Post-Graduate Studies, Diponegoro University, Semarang, Indonesia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Burrows M",
+        "lastName": "Burrows",
+        "firstName": "Mark",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Archaeology and Natural History, Australian National University, Canberra, ACT, Australia."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-12-26",
+    "journal": "",
+    "doi": "10.1038/s41467-025-67951-7",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-025-67951-7"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12859089"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12859089?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13488926",
+    "pmid": "42616900",
+    "title": "Reconstruction and attribution of Late-Pleistocene changes in the Earth's energy imbalance.",
+    "abstract": "The Earth's energy imbalance (EEI) that develops at the top of the atmosphere is accommodated by gains or losses of energy in Earth's heat reservoirs, leading to temperature and sea level change. The global ocean has stored about 90% of the EEI from anthropogenic forcing, but the attribution of past changes of EEI remains largely unknown, thus obscuring our understanding of past climate change. Here, we reconstruct changes in mean ocean temperature over the past 150,000 years that, with a reconstruction of ice sheet-volume changes, allow us to isolate the contributions of the dominant ocean and ice sheet heat reservoirs to the global energy inventory as well as to derive their associated contributions to EEI. We attribute orbital-scale EEI variability to joint precessional and CO<sub>2</sub> forcing that caused changes in rates of ice sheet energy storage. In contrast, millennial-scale EEI variability can be attributed to radiative responses to decreases in the Atlantic meridional overturning circulation and increasing CO<sub>2</sub> during Heinrich stadials that caused changes in rates of ocean energy storage.",
+    "authors": [
+      {
+        "fullName": "Sanchez S",
+        "lastName": "Sanchez",
+        "firstName": "Saray",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7954-6932"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth, Ocean, and Atmospheric Sciences, Oregon State University, Corvallis, OR, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Clark PU",
+        "lastName": "Clark",
+        "firstName": "Peter U",
+        "initials": "PU",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4752-6045"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "College of Earth, Ocean, and Atmospheric Sciences, Oregon State University, Corvallis, OR, USA."
+            },
+            {
+              "affiliation": "School of Geography and Environmental Sciences, University of Ulster, Coleraine, Northern Ireland, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhu C",
+        "lastName": "Zhu",
+        "firstName": "Chenyu",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-9330-4294"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gregory JM",
+        "lastName": "Gregory",
+        "firstName": "Jonathan M",
+        "initials": "JM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1296-8644"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Center for Atmospheric Science, University of Reading, Reading, UK."
+            },
+            {
+              "affiliation": "Met Office Hadley Centre, Exeter, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu Z",
+        "lastName": "Liu",
+        "firstName": "Zhengyu",
+        "initials": "Z",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4554-2666"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geography, Ohio State University, Columbus, OH, USA."
+            },
+            {
+              "affiliation": "School of Geography Science, Nanjing Normal University, Nanjing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "He F",
+        "lastName": "He",
+        "firstName": "Feng",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3355-6406"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center for Climatic Research, Nelson Institute for Environmental Studies, University of Wisconsin-Madison, Madison, WI, USA."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-08-19",
+    "journal": "",
+    "doi": "10.1126/sciadv.aec9034",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1126/sciadv.aec9034"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13488926"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13488926?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13434758",
+    "pmid": "42321196",
+    "title": "A continental-scale Eurasian ice sheet 2.4 million years ago.",
+    "abstract": "Understanding when ice sheets first developed over the continents is essential for attributing ice volume to marine records of global sea-level change. We resolve a long-standing terrestrial-marine mismatch in the timing of the first Eurasian Ice Sheet (EIS) expansion by dating the earliest glaciogenic unit in northwest Europe, the Hattem Bed Complex (HBC). Paired cosmogenic <sup>26</sup>Al-<sup>10</sup>Be burial dating and detrital zircon fingerprinting indicate that glacially-derived Fennoscandian gravels reached the Netherlands 2.41-0.29+0.51 Ma, while ages from the overlying Appelscha Formation record a second EIS advance and attendant shutdown of the Baltic River System 1.72-0.25+0.25 Ma. Cyclic stratification of the HBC could reflect freshwater discharge to the North Atlantic associated with episodic disruption of meridional overturning circulation. The timing of the first trans-Baltic EIS overlaps the Laurentide Ice Sheet maximum ( 2.42-0.14+0.14 Ma), underscoring substantial Northern Hemisphere ice growth more than a million years prior to the Mid-Pleistocene Transition.",
+    "authors": [
+      {
+        "fullName": "Wagner K",
+        "lastName": "Wagner",
+        "firstName": "Kaleb",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5099-7329"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "GFÚ Institute of Geophysics, Czech Academy of Sciences, Boční II 1401, Prague, Czechia. kaleb.wagner@ig.cas.cz."
+            },
+            {
+              "affiliation": "Department of Physical Geography and Geoecology, Faculty of Science, Charles University, Albertov 6, Prague, Czechia. kaleb.wagner@ig.cas.cz."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ylä-Mella L",
+        "lastName": "Ylä-Mella",
+        "firstName": "Lotta",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3940-8025"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "GFÚ Institute of Geophysics, Czech Academy of Sciences, Boční II 1401, Prague, Czechia."
+            },
+            {
+              "affiliation": "Department of Physical Geography and Geoecology, Faculty of Science, Charles University, Albertov 6, Prague, Czechia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Margold M",
+        "lastName": "Margold",
+        "firstName": "Martin",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5834-850X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Physical Geography and Geoecology, Faculty of Science, Charles University, Albertov 6, Prague, Czechia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Knudsen MF",
+        "lastName": "Knudsen",
+        "firstName": "Mads F",
+        "initials": "MF",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5039-1773"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geoscience, Aarhus University, Høegh-Guldbergs Gade 2, Aarhus, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sørensen AL",
+        "lastName": "Sørensen",
+        "firstName": "Aske L",
+        "initials": "AL",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2847-1923"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geoscience, Aarhus University, Høegh-Guldbergs Gade 2, Aarhus, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Larsen NK",
+        "lastName": "Larsen",
+        "firstName": "Nicolaj K",
+        "initials": "NK",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0117-1106"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Globe Institute, University of Copenhagen, Øster Voldgade 5-7, Copenhagen, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Anderson RS",
+        "lastName": "Anderson",
+        "firstName": "Robert S",
+        "initials": "RS",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2759-4833"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geological Sciences, University of Colorado, Boulder, 2200 Colorado Ave, Boulder, CO, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Eriksen BL",
+        "lastName": "Eriksen",
+        "firstName": "Birte L",
+        "initials": "BL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geoscience, Aarhus University, Høegh-Guldbergs Gade 2, Aarhus, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Olsen J",
+        "lastName": "Olsen",
+        "firstName": "Jesper",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4445-5520"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Physics and Astronomy, Aarhus University, Ny Munkegade 120, Aarhus, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Andersen JL",
+        "lastName": "Andersen",
+        "firstName": "Jane L",
+        "initials": "JL",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2829-6352"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geoscience, Aarhus University, Høegh-Guldbergs Gade 2, Aarhus, Denmark."
+            },
+            {
+              "affiliation": "Research Centre for Built Environment, Climate and Water Technology, VIA University College, Banegaardsgade 2, Horsens, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sláma J",
+        "lastName": "Sláma",
+        "firstName": "Jiří",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1386-4196"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geology, Czech Academy of Sciences, Rozvojová 269, Prague, Czechia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jansen JD",
+        "lastName": "Jansen",
+        "firstName": "John D",
+        "initials": "JD",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0669-5101"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "GFÚ Institute of Geophysics, Czech Academy of Sciences, Boční II 1401, Prague, Czechia. jdj@ig.cas.cz."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-19",
+    "journal": "",
+    "doi": "10.1038/s41467-026-74454-6",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-74454-6"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13434758"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13434758?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC12354891",
+    "pmid": "40813386",
+    "title": "Abrupt weakening of deep Atlantic circulation at the last glacial inception.",
+    "abstract": "Deglaciations and glacial inceptions are the two equally important transitional periods that bridge the glacial and interglacial climate states, yet our understanding of deglaciations far exceeds that of glacial inceptions. Substantial variations in deep ocean circulation accompanied the last deglaciation, and model simulations recently suggested that a weakening of the Atlantic Meridional Overturning Circulation (AMOC) also occurred at the last glacial inception (LGI; 113-119 thousand years ago), yet evidence of such a change remains inconclusive. Here, we report three Pa/Th records from the western and central North Atlantic that display an abrupt weakening of the AMOC at the LGI. The magnitude of the reconstructed AMOC weakening approaches but never reaches the level of disruptions associated with the Heinrich ice discharge events. Our results may highlight a unique period of orbitally forced abrupt circulation changes and the importance of ocean processes in setting atmospheric CO<sub>2</sub> changes in motion.",
+    "authors": [
+      {
+        "fullName": "Zhou Y",
+        "lastName": "Zhou",
+        "firstName": "Yuxin",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3523-8524"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA. xiaoxin.yo@gmail.com."
+            },
+            {
+              "affiliation": "Dept. of Earth and Environmental Sciences, Columbia University, New York, NY, USA. xiaoxin.yo@gmail.com."
+            },
+            {
+              "affiliation": "School of Earth and Atmospheric Sciences, Georgia Institute of Technology, Atlanta, GA, USA. xiaoxin.yo@gmail.com."
+            },
+            {
+              "affiliation": "Department of Physical Oceanography, Woods Hole Oceanographic Institution, Woods Hole, MA, USA. xiaoxin.yo@gmail.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "McManus JF",
+        "lastName": "McManus",
+        "firstName": "Jerry F",
+        "initials": "JF",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7365-1600"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+            },
+            {
+              "affiliation": "Dept. of Earth and Environmental Sciences, Columbia University, New York, NY, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pallone CT",
+        "lastName": "Pallone",
+        "firstName": "Celeste T",
+        "initials": "CT",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3149-4280"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+            },
+            {
+              "affiliation": "Dept. of Earth and Environmental Sciences, Columbia University, New York, NY, USA."
+            },
+            {
+              "affiliation": "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kenna TC",
+        "lastName": "Kenna",
+        "firstName": "Timothy C",
+        "initials": "TC",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Weinstein GA",
+        "lastName": "Weinstein",
+        "firstName": "Gabriel A",
+        "initials": "GA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+            },
+            {
+              "affiliation": "Dept. of Earth and Environmental Sciences, Columbia University, New York, NY, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Garcia H",
+        "lastName": "Garcia",
+        "firstName": "Herman",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+            },
+            {
+              "affiliation": "Dept. of Earth and Environmental Sciences, Columbia University, New York, NY, USA."
+            },
+            {
+              "affiliation": "Department of Geological Sciences, University of Colorado Boulder, Boulder, CO, USA."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-08-14",
+    "journal": "",
+    "doi": "10.1038/s41467-025-62960-y",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-025-62960-y"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12354891"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12354891?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC12680610",
+    "pmid": "41350588",
+    "title": "Indian summer monsoon variability from 184 to 25 ka inferred from sedimentary magnetic properties in Heqing Basin, Southwest China.",
+    "abstract": "The Indian summer monsoon (ISM) is a major component of the Asian monsoon system, and exerts a critical influence on regional climate variability. However, continuous, high-resolution paleoclimate records spanning a full glacial-interglacial cycle remain limited, constraining our understanding of the ISM dynamics across different timescales. In this study, we reconstruct ISM variability from 184 - 25 ka using geochemical and environmental magnetic proxies from a lacustrine sediment core in the Heqing Basin, Southwest China. Rock magnetic results indicate that higher concentration-dependent magnetic parameters (χ, ARM, SIRM) occur during weaker monsoon (drier) phases, whereas lower values reflect stronger monsoon (wetter) phases. The proxy records reveal a pronounced dry-wet cycle throughout 184 - 25 ka: Phase I (184 - 131 ka) featured relatively weak ISM intensity and drier conditions; Phase II (131 - 69 ka) saw an overall increase in ISM intensity accompanied by higher rainfall; Phase III (69 - 57 ka) reverted to arid conditions; Phase IV (57 - 25 ka) exhibited a generally wetter climate, though punctuated by frequent major drought events. On glacial-interglacial timescales, ISM variability was primarily paced by Northern Hemisphere summer insolation (NHSI). On millennial timescales, the ISM weakened during ~ 57 - 25 ka (Phase IV, MIS 3). Weak ISM, as indicated by proxies in the PT2 core, showed consistent variations with Atlantic meridional overturning circulation (AMOC) weakening, as indicated by ²³¹Pa/²³⁰Th, and with low-latitude monsoon circulation. This pattern suggests that the region was jointly controlled by high-latitude boundary conditions and tropical ocean-atmosphere coupling processes. Therefore, variations in the ISM across different timescales are driven by multiple factors rather than solely by solar radiation.",
+    "authors": [
+      {
+        "fullName": "Yang Z",
+        "lastName": "Yang",
+        "firstName": "Ziyi",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shaanxi Key Laboratory of Earth Surface System and Environmental Carrying Capacity, College of Urban and Environmental Science, Northwest University, Xi'an, 710127, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xu X",
+        "lastName": "Xu",
+        "firstName": "Xinwen",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shaanxi Key Laboratory of Earth Surface System and Environmental Carrying Capacity, College of Urban and Environmental Science, Northwest University, Xi'an, 710127, China. xuxinwen@nwu.edu.cn."
+            },
+            {
+              "affiliation": "State Key Laboratory of Loess and Quaternary Geology, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, 710061, China. xuxinwen@nwu.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Li S",
+        "lastName": "Li",
+        "firstName": "Shuheng",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Shaanxi Key Laboratory of Earth Surface System and Environmental Carrying Capacity, College of Urban and Environmental Science, Northwest University, Xi'an, 710127, China. lish@nwu.edu.cn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Qiang X",
+        "lastName": "Qiang",
+        "firstName": "Xiaoke",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "State Key Laboratory of Loess and Quaternary Geology, Institute of Earth Environment, Chinese Academy of Sciences, Xi'an, 710061, China."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2025-12-05",
+    "journal": "",
+    "doi": "10.1038/s41598-025-27265-6",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41598-025-27265-6"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12680610"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC12680610?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  },
+  {
+    "pmcid": "PMC13454564",
+    "pmid": "42321178",
+    "title": "Rapid warming in South America during the last deglaciation.",
+    "abstract": "Understanding tropical land temperature response to rising atmospheric CO<sub>2</sub> in the past is crucial for better constraining future climate projections. However, the evolution of regional land temperatures on paleoclimate timescales remains uncertain due to the paucity of precise records. Here we reconstructed temperatures across the last deglaciation using nucleation-assisted microthermometry in a stalagmite from central-eastern South America. We show that cave temperatures increased by 5.8 ± 0.3 °C (2 standard errors of the mean, SEM) from the Last Glacial Maximum to the early Holocene, broadly tracking global atmospheric CO<sub>2</sub> and Antarctic temperatures. Our results reveal an abrupt regional warming across the Antarctic Cold Reversal-Younger Dryas (ACR-YD) transition, linked to the weakening of the Atlantic Meridional overturning circulation (AMOC). Notably, the most rapid warming at our cave was still slower than projections of future long-term warming, highlighting the unprecedented nature of the current greenhouse gas forcing.",
+    "authors": [
+      {
+        "fullName": "Ampuero A",
+        "lastName": "Ampuero",
+        "firstName": "A",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1264-9152"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, University of São Paulo, São Paulo, Brazil. angela.ampuero@mpic.de."
+            },
+            {
+              "affiliation": "Department of Climate Geochemistry, Max-Planck Institute for Chemistry, Mainz, Germany. angela.ampuero@mpic.de."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Stríkis NM",
+        "lastName": "Stríkis",
+        "firstName": "N M",
+        "initials": "NM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, University of São Paulo, São Paulo, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Meckler AN",
+        "lastName": "Meckler",
+        "firstName": "A N",
+        "initials": "AN",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7225-8276"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth Science, University of Bergen, Bergen, Norway."
+            },
+            {
+              "affiliation": "Bjerknes Centre for Climate Research, Bergen, Norway."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Krüger Y",
+        "lastName": "Krüger",
+        "firstName": "Y",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth Science, University of Bergen, Bergen, Norway."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vuille M",
+        "lastName": "Vuille",
+        "firstName": "M",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-9736-4518"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Atmospheric and Environmental Sciences, University at Albany, State University of New York, Albany, NY, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vonhof H",
+        "lastName": "Vonhof",
+        "firstName": "H",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0897-8244"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Climate Geochemistry, Max-Planck Institute for Chemistry, Mainz, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pasqualetto L",
+        "lastName": "Pasqualetto",
+        "firstName": "L",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2046-5174"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth Science, University of Bergen, Bergen, Norway."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mayta VC",
+        "lastName": "Mayta",
+        "firstName": "V C",
+        "initials": "VC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4037-1722"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Atmospheric and Oceanic Sciences, University of Wisconsin, Madison, Wisconsin, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Medina NMM",
+        "lastName": "Medina",
+        "firstName": "N M M",
+        "initials": "NMM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2617-0492"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, University of São Paulo, São Paulo, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Utida G",
+        "lastName": "Utida",
+        "firstName": "G",
+        "initials": "G",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7134-5220"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Astronomy, Geophysics and Atmospheric Sciences, University of São Paulo, São Paulo, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang H",
+        "lastName": "Zhang",
+        "firstName": "H",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0855-1283"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cheng H",
+        "lastName": "Cheng",
+        "firstName": "H",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-5305-9458"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Global Environmental Change, Xi'an Jiaotong University, Xi'an, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Edwards RL",
+        "lastName": "Edwards",
+        "firstName": "R L",
+        "initials": "RL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Earth and Environmental Sciences, University of Minnesota, Minneapolis, MN, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Travassos LEP",
+        "lastName": "Travassos",
+        "firstName": "L E P",
+        "initials": "LEP",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Geography, Pontifical Catholic University of Minas Gerais, Minas Gerais, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Piacsek P",
+        "lastName": "Piacsek",
+        "firstName": "P",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, University of São Paulo, São Paulo, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Akabane TK",
+        "lastName": "Akabane",
+        "firstName": "T K",
+        "initials": "TK",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1103-695X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, University of São Paulo, São Paulo, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cruz FW",
+        "lastName": "Cruz",
+        "firstName": "F W",
+        "initials": "FW",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4030-4581"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Geosciences, University of São Paulo, São Paulo, Brazil. cbill@usp.br."
+            }
+          ]
+        }
+      }
+    ],
+    "publication_date": "2026-06-20",
+    "journal": "",
+    "doi": "10.1038/s41467-026-74093-x",
+    "full_text_urls": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1038/s41467-026-74093-x"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13454564"
+      },
+      {
+        "availability": "Open access",
+        "availabilityCode": "OA",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC13454564?pdf=render"
+      }
+    ],
+    "has_pdf": "Y",
+    "is_open_access": "Y"
+  }
+]

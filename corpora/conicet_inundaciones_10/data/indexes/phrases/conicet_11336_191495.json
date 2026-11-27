@@ -1,0 +1,108 @@
+{
+  "paper_id": "conicet_11336_191495",
+  "phrases": [
+    {
+      "phrase": "universidad nacional de la plata",
+      "display": "Universidad Nacional de La Plata",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "gran la plata",
+      "display": "Gran La Plata",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "glp",
+      "display": "GLP",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "plata",
+      "display": "Plata",
+      "score": 1.02,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "investigación",
+      "score": 0.1622,
+      "channel": "tfidf",
+      "display": "investigación"
+    },
+    {
+      "phrase": "materializado",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "materializado"
+    },
+    {
+      "phrase": "materializado distintos",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "materializado distintos"
+    },
+    {
+      "phrase": "acreditados naturaleza",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "acreditados naturaleza"
+    },
+    {
+      "phrase": "acreditados naturaleza interdisciplinaria",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "acreditados naturaleza interdisciplinaria"
+    },
+    {
+      "phrase": "glp materializado",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "glp materializado"
+    },
+    {
+      "phrase": "acreditados",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "acreditados"
+    },
+    {
+      "phrase": "materializado distintos proyectos",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "materializado distintos proyectos"
+    },
+    {
+      "phrase": "glp materializado distintos",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "glp materializado distintos"
+    },
+    {
+      "phrase": "catástrofe inundaciones",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "catástrofe inundaciones"
+    },
+    {
+      "phrase": "catástrofe inundaciones urbanas",
+      "score": 0.1144,
+      "channel": "tfidf",
+      "display": "catástrofe inundaciones urbanas"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "json-abstract",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 0.5206
+}

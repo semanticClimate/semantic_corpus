@@ -1,0 +1,108 @@
+{
+  "paper_id": "europe_pmc_PMC13455386",
+  "phrases": [
+    {
+      "phrase": "harvard university",
+      "display": "Harvard University",
+      "score": 1.2,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "george washington university milken institute school of public health",
+      "display": "George Washington University Milken Institute School of Public Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "organization for economic cooperation and development",
+      "display": "Organization for Economic Cooperation and Development",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "department of environmental and occupational health",
+      "display": "Department of Environmental and Occupational Health",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "fifth unregulated contaminant monitoring rule",
+      "display": "Fifth Unregulated Contaminant Monitoring Rule",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "environmental protection agency",
+      "display": "Environmental Protection Agency",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "between may and august",
+      "display": "Between May and August",
+      "score": 1.1,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "eof",
+      "display": "EOF",
+      "score": 1.96,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "pfas",
+      "display": "PFAS",
+      "score": 1.94,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "tfa",
+      "display": "TFA",
+      "score": 1.58,
+      "channel": "uppercase"
+    },
+    {
+      "phrase": "drinking water",
+      "score": 0.0567,
+      "channel": "tfidf",
+      "display": "drinking water"
+    },
+    {
+      "phrase": "drinking",
+      "score": 0.055,
+      "channel": "tfidf",
+      "display": "drinking"
+    },
+    {
+      "phrase": "targeted pfas",
+      "score": 0.055,
+      "channel": "tfidf",
+      "display": "Targeted PFAS"
+    },
+    {
+      "phrase": "drinking water samples",
+      "score": 0.055,
+      "channel": "tfidf",
+      "display": "drinking water samples"
+    },
+    {
+      "phrase": "gac",
+      "score": 0.0535,
+      "channel": "tfidf",
+      "display": "GAC"
+    }
+  ],
+  "phrase_count": 15,
+  "text_source": "xml-body",
+  "params": {
+    "method": "tfidf",
+    "lan": null,
+    "n": 3,
+    "top": 15,
+    "text_fields": "xml_body",
+    "include_front_matter": false,
+    "max_body_chars": 50000,
+    "phrase_schema": 4
+  },
+  "elapsed_s": 1.2404
+}
